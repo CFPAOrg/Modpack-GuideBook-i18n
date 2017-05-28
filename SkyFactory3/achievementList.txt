@@ -1,0 +1,203 @@
+欢迎来到天空工厂3！|一个由Bacon_Donut制作的整合包|=======================::1
+欢迎来到天空工厂3，这是一个空岛整合包！前方有无限的可能在等待着你。这个世界空无一物，除了长在一块泥土上的一棵橡树。不过不必紧张！这个整合包能够让你获取你想要改变世界，所必须的所有的资源！接下来阅读可以获得更多有关于这个整合包如何游玩，整合包制作以及需要达成的成就列表等信息！::1
+ |如何使用这本书|===================::1
+点击书底部的箭头就可以浏览这本书。你会看到分为不同阶段的挑战，当然，这也是一般的发展路线，你也不必完全按照这个说的来做。可以通过勾选复选框来标记完成的挑战。不过要注意，挑战会随着游戏的进行变得越来越难！最后，也别忘记做个成就之柱放置这本书！| | | |::1
+关于生物群系的说明|==============::1
+书上所写的挑战能够指导你在初期渡过难关，同时这里也有一些关于生物群系相关的问题需要阐明::1
+你可以通过木桶收集雨或者雪来获得水。尚若你恰巧出生在了诸如沙漠这样不下雨的生物群系。你可以通过做一个木制坩埚来收集水。通过JEI能够产看相关信息::1
+海洋或者蘑菇岛生物群系能够自然刷出被动型生物。尚若动物没有刷出，可以使用诱饵诱引到动物到你的基地里::1
+|除此之外，如果你是一个热衷于驯龙的玩家，在不同的生物群系孵化出的龙也会不同！::1
+致谢|=======| |Bacon_Donut. 我这里排满了Minecraft的行程，你可以在这里找到我：| |Twitch.tv/Bacon_Donut|::1
+特别致谢：|========================| |Feed the Beast 团队成员们在整个整合包创建和维护的过程辛苦的工作::1
+挑战|=============| |对于这个包或许你根本无从下手，不过我设计了一系列的挑战来帮助你。不要为不知道如何完成挑战而沮丧，探索答案的过程就是一种乐趣。我相信你能学到很多东西！| |依据游戏的进展，这些任务分成了不同的阶段，你也不必完全按照这个来做！| | |::1
+---=== 木制纪元 ===---| |你面前的是一个新的纪元！不过现在我们什么都没法做，不过依靠这棵树能够做些什么，让我们来完成这些任务吧！::1
+使用钩子打掉树叶获取树苗和蚕::0
+扭动臀部来促使树苗生长::0
+让树叶再橡木桶里面堆肥成泥土::0
+让蚕寄生在树叶上::0
+用钩子打掉蚕寄生过的树叶来得到线::0
+制作一个筛子和网::0
+用橡木桶来收集雨水，或者用木坩埚烘烤树苗::0
+将晒过泥土得到的小石子合成成圆石::0
+制作一个锤子，将圆石敲成砂砾，砂砾敲成傻子，沙子敲成尘土::0
+筛筛砂砾，沙子和尘土::0
+做一个匠魂的骨制或者燧石制工具::0
+M将尘土放入充满水的木桶中得到粘土::0
+制作一个坩埚，并烧制它::0
+用火把加热坩埚，将石头或者圆石烤成岩浆::0
+制作一个刷石机::0
+::1
+::1
+::1
+::1
+---=== 石制纪元 ===---| |想必现在你应该有了稳定的方块来源了，是时候拓展、升级、加宽你的基地了！::1
+距离你的基地25格远修建一个暗室，暗室能够生成怪物，你能够得到很多有用的怪物掉落物::0
+距离你的基地25格远修建一块全是草方块的空地，这样能够生成动物M::0
+为你的空岛修建个二层，比你目前所在的要低一层B::0
+通过石桶得到黑曜石::0
+做一个匠魂冶炼炉来熔化矿物::0
+将你的匠魂工具升级为金属的::0
+用原石生成机或者传输节点来自动化生产原石::0
+将你的刷怪塔升级为自动化杀怪系统::0
+附魔筛网::0
+::1
+::1
+::1
+::1
+::1
+---=== 农业纪元 ===---| |是时候和这个寒冷而又空虚的世界说再见了，让我们种一些东西！::1
+做一个洒水壶::0
+将一只牛封印在罐子中::0
+准备一片空地来播种作物::0
+Craft an Inferium Seed::0
+Make a Mattock from Tinkers' Construct::0
+Start a food farm and an Inferium Essence Farm::0
+Prove to the world that Sand grows Sugar Cane faster than dirt with a Block of Snad::0
+Use Nesting Pens to automate resource collection from Chickens::0
+::1
+--== Mystical Farming ==--| |Resources are finite, but crops will grow whatever you need ::1
+Craft an Iron Seed::0
+Craft a Diamond Seed::0
+Use a Soulium Dagger to obtain a Mob Chunk::0
+Use Growth Crystals or Growth Accelerators to speed up crop growth::0
+Craft a Master Infustion Crystal::0
+Craft a Supremium Apple::0
+Craft Supremium armor::0
+::1
+::1
+::1
+--= Age of Exploration =--| |With the right tools you no longer have to be confined to your small island. Time to get out and stretch our legs! Try not to die...::1
+Fly::0
+Use an Angel Block and your ability to fly to start a new island somewhere else::0
+Travel to the Nether::0
+Travel to the bottom of the Nether using a boat::0
+Use a Diamond Chest Transporter to bring home 5 Blaze Spawners::0
+Kill a Wither::0
+Travel to The Beneath Dimension::0
+Travel to the End::0
+Kill the Ender Dragon::0
+Collect Dragons Breath::0
+Travel to the End City and obtain Elytra::0
+Hatch a Dragon Egg and train it::0
+::1
+::1
+::1
+--== Age of Machines ==--| |Your skill with technology is growing. Automation is key.::1
+Craft and power a generator of some kind::0
+Automate turning Cobblestone into Gravel with a SAG Mill or Auto Hammer::0
+Use Energy Conduits to power several machines at once::0
+Automate Loot Bag Creation, Opening, and Compression::0
+Automate crop harvesting::0
+Link an Ender Pouch to an Ender Chest::0
+Create a Refined Storage system to store your things::0
+Automate storage of ore pieces/chunks from an Automatic Sieve::0
+Process sieve materials to ingots::0
+::1
+::1
+::1
+::1
+::1
+--== Age of Power ==--| |Once you start on this path, how much is enough?::1
+Create a Passively cooled reactor from the Extreme Reactors Mod::0
+Create an Actively cooled reactor from the Extreme Reactors Mod::0
+Create the maximum size reactor::0
+Create a turbine from the Extreme Reactors Mod::0
+Produce 1,000 RF/t::0
+Produce 10,000 RF/t::0
+Produce 100k RF/t::0
+Produce 1 million RF/t::0
+::1
+--== Green Energy ==--| |Free, renewable energy!::1
+Build a Solar Array Tier 1 Multiblock Structure::0
+Harness the power of Lightning with a Lightning Rod::0
+Build a Solar Array Tier 4 Multiblock Structure::0
+Collect Ore from the Void with a Void Ore Miner Structure::0
+--= Age of Enhancement =--| |Your tools are not powerful enough, time for an upgrade.::1
+Level up a Tinkers' Tool or Weapon::0
+Add a Diamond Hammer to a Tinkers' Pickaxe to obtain the Smashing Modifier::0
+Craft the highest tier Unbreakable Builder's Wand::0
+Create an unbreakable Tinkers' Tool::0
+Craft a melee Tinkers' Weapon that does 20 damage or more::0
+Build any melee weapon that does 90 or more damage::0
+::1
+::1
+::1
+::1
+--= Alchemic Wizardry =--|::1
+Craft and Place a Blood Altar::0
+Obtain a Master Blood Orb::0
+Automate LP Collection::0
+Use the Rudimentary Snare to obtain a Demonic Will::0
+Use the Sigil of the Phantom Bridge to walk over the void::0
+Craft the Bound Blade, Pickaxe, Axe, and Shovel::0
+Obtain the Living Armor::0
+Automate the creation of Demonic Slates::0
+Create a Tier 5 Blood Altar::0
+::1
+::1
+--= Age of the Botanist =--|::1
+Craft a Lexica Botania::0
+Craft a Petal Apothecary::0
+Create 64 Livingwood and 64 Livingrock with a Pure Daisy::0
+Craft a Mana Pool and a Mana Spreader::0
+Craft a Wand of the Forest::0
+Create a portal to Alfheim::0
+--== Mastery ==--|::1
+Complete the Ritual of Gaia::0
+Complete the Ritual of Gaia II::0
+::1
+::1
+--== Age of Dragons ==--| |You will be tested. It takes a legend to conquer legends.::1
+Craft the Draconic Armor Set::1
+Draconic Helm::0
+Draconic Chestplate::0
+Draconic Leggings::0
+Draconic Boots::0
+Craft the Draconic Tools::1
+Draconic Pickaxe::0
+Draconic Axe::0
+Draconic Shovel::0
+Draconic Hoe::0
+Draconic Staff of Power::0
+::1
+Automate Wither killing::0
+Kill a chaos dragon::0
+Kill 4 chaos dragons::0
+Build a tier 6 energy core::0
+Make a charm of dislocation::0
+Resurrect one of the dragons::0
+Fill a Draconic battery::0
+Create a Draconic Level Fusion Crafter::0
+Jump between 2 tamed dragons while in midair (while both are flying)::0
+::1
+::1
+::1
+::1
+--= Age of the Traveler =--| |You have outgrown your home. The next step is creating your own dimension.::1
+Obtain a Dimlet Parcel from an Endermen or Loot Bag::0
+Build a dimension, travel to it, and stay for at least 10 minutes::0
+Infuse your Machine Infuser to 100%::0
+Use the Absorber to create a custom liquid or block dimension::0
+Create a dimension of Rarity: 4 or higher consisting of Large Liquid Orbs::0
+Use a syringe to create a dimension with Ender Dragons::0
+::1
+::1
+::1
+--== Age of Insanity ==--| |At last you've got your production going and your machines are hard at work. It's time to REALLY have some fun!::1
+Create near infinite Grid Power with an Extra Utilities Dragon Egg Mill::0
+Create a 16x16x16 Colossal Chest::0
+Fill a Quantum Storage Unit with anything::0
+Craft the Rainbow Generator and use it to produce power::0
+Use the Terrain Scanner and regenerate 5 different biome chunks::0
+Produce 1 billion RF/t::0
+Get 20 different Chickens and automate resource collection::0
+Use Diamond blocks to cool a max size reactor::0
+Build Ender IO Farming Stations with Octadic Capacitors which automate 20 different crops::0
+Craft a single Octuple Compressed Cobblestone Block::0
+::1
+::1
+::1
+::1
+---===The End===---::1
+You have completed 100% of the achievements listed. What achievements can you come up with?::1
+100% complete::0
