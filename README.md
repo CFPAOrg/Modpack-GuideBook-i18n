@@ -4,3 +4,7 @@
 目前打算制作的本地化是`Sky Factory 3`整合包和`Invasion`整合包的手册。
 SF3整合包的手册用的是`Simple Achievements`这个模组制作的，我很想吐槽这个，居然不支持`UTF-8`编码，也算是一朵奇葩。
 其次是`Invasion`整合包，这个稍微好一些，用的是HQM做的手册，UTF-8编码没有问题，不过恶心的是HQM是本地化和任务代码写一块的，如果做本地化必须及时更新对应版本，亏我先前还在Reddit问HQM作者手册能不能支持本地化，他还信誓旦旦告诉我——“没问题”。
+
+---
+
+注: 如果进入游戏后SimpleAchievements的手册提示编码错误或无汉化，可以使用`/flushAchievements`指令。
