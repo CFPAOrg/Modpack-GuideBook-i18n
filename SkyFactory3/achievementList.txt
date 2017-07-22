@@ -49,155 +49,155 @@ M将尘土放入充满水的木桶中得到粘土::0
 做一个洒水壶::0
 将一只牛封印在罐子中::0
 准备一片空地来播种作物::0
-Craft an Inferium Seed::0
-Make a Mattock from Tinkers' Construct::0
-Start a food farm and an Inferium Essence Farm::0
-Prove to the world that Sand grows Sugar Cane faster than dirt with a Block of Snad::0
-Use Nesting Pens to automate resource collection from Chickens::0
+合成一个下级种子::0
+做一把匠魂的鹤嘴锄::0
+开始建造产粮食和下级精华的农场吧::0
+用子沙代替沙子和泥土来种植甘蔗，甘蔗会长得更快::0
+使用Nesting Pens来自动化收集来自于鸡的资源::0
 ::1
---== Mystical Farming ==--| |Resources are finite, but crops will grow whatever you need ::1
-Craft an Iron Seed::0
-Craft a Diamond Seed::0
-Use a Soulium Dagger to obtain a Mob Chunk::0
-Use Growth Crystals or Growth Accelerators to speed up crop growth::0
-Craft a Master Infustion Crystal::0
-Craft a Supremium Apple::0
-Craft Supremium armor::0
-::1
-::1
-::1
---= Age of Exploration =--| |With the right tools you no longer have to be confined to your small island. Time to get out and stretch our legs! Try not to die...::1
-Fly::0
-Use an Angel Block and your ability to fly to start a new island somewhere else::0
-Travel to the Nether::0
-Travel to the bottom of the Nether using a boat::0
-Use a Diamond Chest Transporter to bring home 5 Blaze Spawners::0
-Kill a Wither::0
-Travel to The Beneath Dimension::0
-Travel to the End::0
-Kill the Ender Dragon::0
-Collect Dragons Breath::0
-Travel to the End City and obtain Elytra::0
-Hatch a Dragon Egg and train it::0
+--== 神秘农业 ==--| |资源始终是有限的，作物才能满足你的需求::1
+合成一个铁种子::0
+合成一个钻石种子::0
+使用离魂块获得一个Mob Chunk::0
+使用生长水晶和生长加速器::0
+合成一个大师级的注魔水晶::0
+合成一个终极苹果::0
+合成一个终极防具::0
 ::1
 ::1
 ::1
---== Age of Machines ==--| |Your skill with technology is growing. Automation is key.::1
-Craft and power a generator of some kind::0
-Automate turning Cobblestone into Gravel with a SAG Mill or Auto Hammer::0
-Use Energy Conduits to power several machines at once::0
-Automate Loot Bag Creation, Opening, and Compression::0
-Automate crop harvesting::0
-Link an Ender Pouch to an Ender Chest::0
-Create a Refined Storage system to store your things::0
-Automate storage of ore pieces/chunks from an Automatic Sieve::0
-Process sieve materials to ingots::0
+--= 探索纪元 =--| |拥有了合适的工具后，你不能再忍受这个狭窄的小岛了。是时候出去逛逛了！小心点别死掉……::1
+飞行::0
+带上一个天使方块，飞行到别处去建立一个新的岛屿吧::0
+到下界探险::0
+使用船到下界底部逛一逛::0
+用钻石搬箱器带走5个烈焰人刷怪笼::0
+杀死一只凋零::0
+到Beneath Dimension探险::0
+到末地探险::0
+杀死末影龙::0
+收集龙息::0
+到末地城探险并获得鞘翅::0
+孵化一个末影龙单并训练它::0
 ::1
 ::1
 ::1
-::1
-::1
---== Age of Power ==--| |Once you start on this path, how much is enough?::1
-Create a Passively cooled reactor from the Extreme Reactors Mod::0
-Create an Actively cooled reactor from the Extreme Reactors Mod::0
-Create the maximum size reactor::0
-Create a turbine from the Extreme Reactors Mod::0
-Produce 1,000 RF/t::0
-Produce 10,000 RF/t::0
-Produce 100k RF/t::0
-Produce 1 million RF/t::0
-::1
---== Green Energy ==--| |Free, renewable energy!::1
-Build a Solar Array Tier 1 Multiblock Structure::0
-Harness the power of Lightning with a Lightning Rod::0
-Build a Solar Array Tier 4 Multiblock Structure::0
-Collect Ore from the Void with a Void Ore Miner Structure::0
---= Age of Enhancement =--| |Your tools are not powerful enough, time for an upgrade.::1
-Level up a Tinkers' Tool or Weapon::0
-Add a Diamond Hammer to a Tinkers' Pickaxe to obtain the Smashing Modifier::0
-Craft the highest tier Unbreakable Builder's Wand::0
-Create an unbreakable Tinkers' Tool::0
-Craft a melee Tinkers' Weapon that does 20 damage or more::0
-Build any melee weapon that does 90 or more damage::0
+--== 机器纪元 ==--| |你的技能随着技术在增长，自动化是一个关键点::1
+做一些发电机并进行产能::0
+利用SAG磨粉机或者自动锤子将圆石转化为沙砾::0
+使用能量导管给一些机器供能::0
+战利品袋的获取、打开、压缩自动化::0
+作物自动化收集::0
+连接末影背包和末影箱::0
+制作一个Refined Storage的存储系统存东西::0
+将自动筛子筛出的东西进行自动化存储::0
+将筛出的东西自动化处理为锭::0
 ::1
 ::1
 ::1
 ::1
---= Alchemic Wizardry =--|::1
-Craft and Place a Blood Altar::0
-Obtain a Master Blood Orb::0
-Automate LP Collection::0
-Use the Rudimentary Snare to obtain a Demonic Will::0
-Use the Sigil of the Phantom Bridge to walk over the void::0
-Craft the Bound Blade, Pickaxe, Axe, and Shovel::0
-Obtain the Living Armor::0
-Automate the creation of Demonic Slates::0
-Create a Tier 5 Blood Altar::0
 ::1
+--== 能量纪元 ==--| |一旦走上这条路，多少才是足够的？::1
+做一个被动冷却型的Extreme Reactors模组反应堆:0
+做一个主动冷却型的Extreme Reactors模组反应堆::0
+制作一个最大体积的反应堆::0
+制作一个Extreme Reactors模组的涡轮机::0
+产能达到1,000 RF/t::0
+产能达到10,000 RF/t::0
+产能达到十万RF/t::0
+产能达到一百万RF/t::0
 ::1
---= Age of the Botanist =--|::1
-Craft a Lexica Botania::0
-Craft a Petal Apothecary::0
-Create 64 Livingwood and 64 Livingrock with a Pure Daisy::0
-Craft a Mana Pool and a Mana Spreader::0
-Craft a Wand of the Forest::0
-Create a portal to Alfheim::0
---== Mastery ==--|::1
-Complete the Ritual of Gaia::0
-Complete the Ritual of Gaia II::0
-::1
-::1
---== Age of Dragons ==--| |You will be tested. It takes a legend to conquer legends.::1
-Craft the Draconic Armor Set::1
-Draconic Helm::0
-Draconic Chestplate::0
-Draconic Leggings::0
-Draconic Boots::0
-Craft the Draconic Tools::1
-Draconic Pickaxe::0
-Draconic Axe::0
-Draconic Shovel::0
-Draconic Hoe::0
-Draconic Staff of Power::0
-::1
-Automate Wither killing::0
-Kill a chaos dragon::0
-Kill 4 chaos dragons::0
-Build a tier 6 energy core::0
-Make a charm of dislocation::0
-Resurrect one of the dragons::0
-Fill a Draconic battery::0
-Create a Draconic Level Fusion Crafter::0
-Jump between 2 tamed dragons while in midair (while both are flying)::0
+--== 绿色能源 ==--| |免费、可再生能源！::1
+做一个一级太阳能阵列多方块结构::0
+利用避雷针将闪电转化为能量::0
+做一个四级太阳能阵列多方块结构::0
+利用虚空矿物采掘机从虚空中收集矿物::0
+--= 强化纪元 =--| |你的工具开始变得力不从心，是时候升级它们了。::1
+升级匠魂工具和武器::0
+将钻石锤强化到匠魂镐子上获得粉碎强化属性::0
+制作一个最高等级的建筑之杖::0
+制作一个拥有不毁属性的匠魂工具::0
+制作一个匠魂武器，拥有20点以上伤害::0
+制作一个匠魂武器，拥有90点以上伤害::0
 ::1
 ::1
 ::1
 ::1
---= Age of the Traveler =--| |You have outgrown your home. The next step is creating your own dimension.::1
-Obtain a Dimlet Parcel from an Endermen or Loot Bag::0
-Build a dimension, travel to it, and stay for at least 10 minutes::0
-Infuse your Machine Infuser to 100%::0
-Use the Absorber to create a custom liquid or block dimension::0
-Create a dimension of Rarity: 4 or higher consisting of Large Liquid Orbs::0
-Use a syringe to create a dimension with Ender Dragons::0
+--= 炼金术师 =--|::1
+制作并放置一个血之祭坛::0
+获得一个大师级的气血宝珠::0
+自动化获得LP装置::0
+使用原始投网获得恶魔意志::0
+使用影桥印记获得在虚空中行走的技能::0
+合成束缚之剑、稿、斧和锹::0
+获得束灵套::0
+自动化合成恶魔石板::0
+制作一个5级血之祭坛::0
+::1
+::1
+--= 植魔纪元 =--|::1
+合成一本植物魔法手册::0
+合成一个花药台::0
+使用白雏菊获得64个活木和64个活石::0
+制作一个魔力池和魔力分配器::0
+制作一个森林法杖::0
+制作一个精灵门::0
+--== 植魔大师 ==--|::1
+完成盖亚仪式::0
+完成盖亚仪式II::0
+::1
+::1
+--== 龙之纪元 ==--| |你将会被考验。只有传奇，才能征服传奇::1
+制作神龙套::1
+神龙头盔::0
+神龙胸甲::0
+神龙护腿::0
+神龙靴子::0
+制作神龙工具::1
+神龙镐::0
+神龙斧::0
+神龙铲::0
+神龙锄::0
+神龙之力权杖::0
+::1
+自动凋零击杀装置::0
+杀死一只混沌龙::0
+杀死四只混沌龙::0
+修建一个6级能量核心::0
+制作一个传送符咒::0
+复活一只龙::0
+填满龙电池::0
+制作一个神龙聚合注入装置::0
+当两只驯服的龙都在空中时，从一只跳到另一只上::0
 ::1
 ::1
 ::1
---== Age of Insanity ==--| |At last you've got your production going and your machines are hard at work. It's time to REALLY have some fun!::1
-Create near infinite Grid Power with an Extra Utilities Dragon Egg Mill::0
-Create a 16x16x16 Colossal Chest::0
-Fill a Quantum Storage Unit with anything::0
-Craft the Rainbow Generator and use it to produce power::0
-Use the Terrain Scanner and regenerate 5 different biome chunks::0
-Produce 1 billion RF/t::0
-Get 20 different Chickens and automate resource collection::0
-Use Diamond blocks to cool a max size reactor::0
-Build Ender IO Farming Stations with Octadic Capacitors which automate 20 different crops::0
-Craft a single Octuple Compressed Cobblestone Block::0
+::1
+--= 旅行纪元 =--| |你的家已经容不下你了。接下来就是创建你自己的维度了。::1
+从战利品袋或者末影人那里获得信息卡包裹::0
+创建一个维度，到达那里并且呆至少十分钟。::0
+注能你的机器注能机到100%::0
+使用吸收器来合成维度卡，创建自定义流体或者方块的维度世界::0
+创建一个罕见的维度：需要4级以上卡片组成，拥有巨大的流体球::0
+使用注射器合成维度卡，创建一个充斥着末影龙的世界::0
+::1
+::1
+::1
+--== 疯狂纪元 ==--| |最终你获得了你想要的所有东西和机器。是时候做一些有趣的东西了！::1
+使用Extra Utilities的龙蛋发电机创建几乎无限的GP能源::0
+制作一个16x16x16大小的巨型箱子::0
+随便用什么东西，填满一个量子存储单元::0
+做一个彩虹发电机，并用它发电:0
+使用大地扫描仪将5个区块变成不同的生物群系::0
+产能达到10亿RF/t::0
+得到20种不同的鸡，并能进行自动化资源收集::0
+使用钻石块冷却最大号的反应堆::0
+制作一个Ender IO的种植站，加上八位电容器，自动化种植20种不同的作物::0
+制作一个八重压缩原石::0
 ::1
 ::1
 ::1
 ::1
----===The End===---::1
-You have completed 100% of the achievements listed. What achievements can you come up with?::1
-100% complete::0
+---===结束===---::1
+你已经完成了100%的成就列表。还有什么成就能够完成呢？::1
+100%完成::0
