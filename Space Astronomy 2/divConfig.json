@@ -1,0 +1,16 @@
+{
+  "0": {
+    "isAchievement": true,
+    "color": 0,
+    "colorChecked": 36880,
+    "align": "LEFT",
+    "shadow": false
+  },
+  "1": {
+    "isAchievement": false,
+    "color": 36880,
+    "colorChecked": 0,
+    "align": "CENTER",
+    "shadow": false
+  }
+}
