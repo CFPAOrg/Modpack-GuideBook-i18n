@@ -1,0 +1,17 @@
+[
+  {"id": "age0", "icon": "item:minecraft:cobblestone", "lang": "00 - 石器时代"},
+  {"id": "age1", "icon": "item:ic2:forge_hammer", "lang": "01 - 工业时代"},
+  {"id": "age2", "icon": "item:calculator:Calculator", "lang": "02 - 计算时代"},
+  {"id": "age3", "icon": "item:actuallyadditions:blockEmpowerer", "lang": "03 - 充能时代"},
+  {"id": "age4", "icon": "item:forestry:sturdyMachine", "lang": "04 - 农耕时代"},
+  {"id": "age5", "icon": "item:enderio:itemMachinePart", "lang": "05 - 末影时代"},
+  {"id": "age6", "icon": "item:rftools:machine_frame", "lang": "06 - 自动化时代"},
+  {"id": "age7", "icon": "item:ic2:te 1 62", "lang": "07 - 核能时代"},
+  {"id": "age8", "icon": "item:calculator:AtomicCalculator", "lang": "08 - 原子时代"},
+  {"id": "age9", "icon": "item:neotech:electricCrucible", "lang": "09 - 新时代"},
+  {"id": "age10", "icon": "item:techreborn:techreborn.machineFrame", "lang": "10 - 科技时代"},
+  {"id": "age11", "icon": "item:libvulpes:structureMachine", "lang": "11 - 星际时代"},
+  {"id": "age12", "icon": "item:mekanism:BasicBlock 1 8", "lang": "12 - 机械时代"},
+  {"id": "age13", "icon": "item:draconicevolution:draconic_core", "lang": "13 - 龙研时代"},
+  {"id": "age14", "icon": "item:extrautils2:angelring", "lang": "14 - 创造时代"}
+]
