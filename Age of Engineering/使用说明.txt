@@ -1,0 +1,2 @@
+1.将AOE整合包主目录下resources\ageofengineering中guide文件夹替换成汉化后的guide文件夹
+2.主目录下config\customachievements中achievements.json替换成汉化后的achievements.json
