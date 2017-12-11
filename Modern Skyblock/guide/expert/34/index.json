@@ -1,0 +1,11 @@
+[
+  {"text": "3-4 Reactors", "color": "grey", "bold": true},
+  null,
+  "In order to make Blutonium, you are going to need to make 3 different reactors from 3 different mods and dive deep into nuclear physics.",
+  null,
+  "The first reactor is the Fission Reactor from NuclearCraft. The main things it requires are: Graphite, made in the Manufactory, Rhodocrosite, obtained from mining Redstone Ore, Beryllium, obtained from mining Coal Ore and Zirconium, obtained from mining Nether Quartz Ore. To make the reactor, you can follow JEI.",
+  null,
+  "The next reactor is an Extreme Reactor from Extreme Reactors, which requires you to first progress through NuclearCraft and make LECf-251 Oxide Fuel, needed for the Fuel Rods..",
+  null,
+  "And the final reactor is the Fusion Reactor from Tech Reborn. It needs 1MRF to get the fusion started, but it will generate a quarter of it back during the process."
+  ]

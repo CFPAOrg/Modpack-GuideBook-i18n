@@ -1,0 +1,254 @@
+{
+	"name": "Modern Skyblock",
+	"type": "modpack",
+	"authors": ["TheEmosewaPixel"],
+	"icon": "modpack:logo/guide_logo.png",
+	"pages": {
+		"normal":{
+			"icon": "item:minecraft:emerald",
+			"name": "普通模式",
+			"pages":{
+				"11":{
+					"icon": "item:minecraft:sapling",
+					"name": "1-1 如何开始"
+				},
+				"12":{
+					"icon": "item:skyresources:heat",
+					"name": "1-2 燃烧氧化"
+				},
+				"13":{
+					"icon": "item:skyresources:waterextractor",
+					"name": "1-3 水"
+				},
+				"14":{
+					"icon": "item:minecraft:cobblestone",
+					"name": "1-4 圆石"
+				},
+				"15":{
+					"icon": "item:skyresources:sandstoneinfusionstone",
+					"name": "1-5 生命灌注"
+				},
+				"16":{
+					"icon": "item:minecraft:iron_ingot",
+					"name": "1-6 金属炼制"
+				},
+				"17":{
+					"icon": "item:forestry:sturdy_machine",
+					"name": "1-7 青铜机器"
+				},
+				"18":{
+					"icon": "item:minecraft:gold_ingot",
+					"name": "1-8 金"
+				},
+				"19":{
+					"icon": "item:immersiveengineering:metal 1 8",
+					"name": "1-9 钢"
+				},
+				"21":{
+					"icon": "item:tconstruct:smeltery_controller",
+					"name": "2-1 匠魂冶炼"
+				},
+				"22":{
+					"icon": "item:botania:flower 1 2",
+					"name": "2-2 植物魔法"
+				},
+				"23":{
+					"icon": "item:actuallyadditions:block_empowerer",
+					"name": "2-3 实用拓展"
+				},
+				"24":{
+					"icon": "item:evilcraft:dark_power_gem",
+					"name": "2-4 邪恶工艺"
+				},
+				"25":{
+					"icon": "item:calculator:calculator",
+					"name": "2-5 计算工艺"
+				},
+				"26":{
+					"icon": "item:appliedenergistics2:controller",
+					"name": "2-6 数字存储"
+				},
+				"27":{
+					"icon": "item:astralsorcery:itemrockcrystalsimple",
+					"name": "2-7 星辉魔法"
+				},
+				"28":{
+					"icon": "item:forestry:bee_queen_ge",
+					"name": "2-8 蜜蜂"
+				},
+				"29":{
+					"icon": "item:embers:crystal_ember",
+					"name": "2-9 余烬"
+				},
+				"210":{
+					"icon": "item:industrialforegoing:plastic",
+					"name": "2-10 Industrial Foregoing"
+				},
+				"31":{
+					"icon": "item:mekanism:ingot",
+					"name": "3-1 通用机械"
+				},
+				"32":{
+					"icon": "item:techreborn:uumatter",
+					"name": "3-2 UU-物质"
+				},
+				"33":{
+					"icon": "item:environmentaltech:litherite_crystal",
+					"name": "3-3 环境科技"
+				},
+				"34":{
+					"icon": "item:nuclearcraft:fuel_rod_uranium",
+					"name": "3-4 反应堆"
+				},
+				"35":{
+					"icon": "item:skyresources:baseitemcomponent 1 3",
+					"name": "3-5 暗物质"
+				},
+				"36":{
+					"icon": "item:draconicevolution:draconium_ingot",
+					"name": "3-6 龙之进化"
+				},
+				"37":{
+					"icon": "item:mysticalagradditions:awakened_draconium_seeds",
+					"name": "3-7 神秘农业"
+				},
+				"38":{
+					"icon": "item:thermalexpansion:upgrade 1 256",
+					"name": "3-8 创造物品"
+				}
+			}
+		},
+		"expert":{
+			"icon": "item:evilcraft:dark_power_gem",
+			"name": "专家模式",
+			"pages":{
+				"11":{
+					"icon": "item:minecraft:sapling",
+					"name": "1-1 如何开始"
+				},
+				"12":{
+					"icon": "item:skyresources:heat",
+					"name": "1-2 燃烧氧化"
+				},
+				"13":{
+					"icon": "item:skyresources:waterextractor",
+					"name": "1-3 水"
+				},
+				"14":{
+					"icon": "item:minecraft:cobblestone",
+					"name": "1-4 圆石"
+				},
+				"15":{
+					"icon": "item:skyresources:sandstoneinfusionstone",
+					"name": "1-5 生命灌注"
+				},
+				"16":{
+					"icon": "item:minecraft:iron_ingot",
+					"name": "1-6 金属炼制"
+				},
+				"17":{
+					"icon": "item:forestry:sturdy_machine",
+					"name": "1-7 青铜机器"
+				},
+				"18":{
+					"icon": "item:minecraft:gold_ingot",
+					"name": "1-8 金"
+				},
+				"19":{
+					"icon": "item:immersiveengineering:metal 1 8",
+					"name": "1-9 钢"
+				},
+				"21":{
+					"icon": "item:botania:flower 1 2",
+					"name": "2-1 植物魔法"
+				},
+				"22":{
+					"icon": "item:actuallyadditions:block_empowerer",
+					"name": "2-2 实用拓展"
+				},
+				"23":{
+					"icon": "item:evilcraft:dark_power_gem",
+					"name": "2-3 邪恶工艺"
+				},
+				"24":{
+					"icon": "item:calculator:calculator",
+					"name": "2-4 计算工艺"
+				},
+				"25":{
+					"icon": "item:tconstruct:smeltery_controller",
+					"name": "2-5 匠魂冶炼"
+				},
+				"26":{
+					"icon": "item:appliedenergistics2:controller",
+					"name": "2-6 数字存储"
+				},
+				"27":{
+					"icon": "item:astralsorcery:itemrockcrystalsimple",
+					"name": "2-7 星辉魔法"
+				},
+				"28":{
+					"icon": "item:forestry:bee_queen_ge",
+					"name": "2-8 蜜蜂"
+				},
+				"29":{
+					"icon": "item:techreborn:rolling_machine",
+					"name": "2-9 锟压机"
+				},
+				"210":{
+					"icon": "item:embers:crystal_ember",
+					"name": "2-10 余烬"
+				},
+				"211":{
+					"icon": "item:industrialforegoing:plastic",
+					"name": "2-11 Industrial Foregoing"
+				},
+				"31":{
+					"icon": "item:mekanism:ingot",
+					"name": "3-1 通用机械"
+				},
+				"32":{
+					"icon": "item:techreborn:uumatter",
+					"name": "3-2 UU-物质"
+				},
+				"33":{
+					"icon": "item:environmentaltech:litherite_crystal",
+					"name": "3-3 环境科技"
+				},
+				"34":{
+					"icon": "item:nuclearcraft:fuel_rod_uranium",
+					"name": "3-4 反应堆"
+				},
+				"35":{
+					"icon": "item:skyresources:baseitemcomponent 1 3",
+					"name": "3-5 暗物质"
+				},
+				"36":{
+					"icon": "item:draconicevolution:draconium_ingot",
+					"name": "3-6 龙之进化"
+				},
+				"37":{
+					"icon": "item:mysticalagradditions:awakened_draconium_seeds",
+					"name": "3-7 神秘农业"
+				},
+				"38":{
+					"icon": "item:thermalexpansion:upgrade 1 256",
+					"name": "3-8 创造物品"
+				}
+			}
+		},
+		"speedrun":{
+			"icon": "item:teslacorelib:speed_tier2",
+			"name": "竞速模式",
+				"pages": {
+					"1":{
+					"icon": "item:minecraft:cobblestone",
+					"name": "开始"
+				},
+					"2":{
+					"icon": "item:extendedcrafting:material 1 32",
+					"name": "结束"
+				}
+			}
+		}
+	}
+}
