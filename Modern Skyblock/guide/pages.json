@@ -1,0 +1,5 @@
+[
+  {"id": "normal", "icon": "item:minecraft:emerald", "lang": "普通模式"},
+  {"id": "expert", "icon": "item:evilcraft:dark_power_gem", "lang": "专家模式"},
+  {"id": "speedrun", "icon": "item:teslacorelib:speed_tier2", "lang": "竞速模式"}
+]
