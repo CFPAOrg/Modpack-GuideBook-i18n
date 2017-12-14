@@ -1,9 +1,9 @@
 [
-  {"text": "2-10 Embers", "color": "grey", "bold": true},
+  {"text": "2-10 余烬", "color": "grey", "bold": true},
   null,
-  "In order to start off with Thermal Expansion and late-game, you need to progress through Embers. For more information about the mod, you should make an Ancient Codex. To start off, you need to make a couple of Ember Shards and an Ember Activator. By feeding the Shards into the Ember Activator you're turning them into raw Ember energy. That energy can be transferred by using Emitters, Relays and Receptors that you connect using the Hammer you made at the beginning",
+  "为了准备热力膨胀的相关材料和进阶后期，你需要发展余烬。关于此mod的详细信息参见古代宝典。首先，你需要准备一些灰烬晶体碎片和一台灰烬能量催化器。将灰烬能量碎片导入到灰烬能量催化器中即可将碎片转化为灰烬能量。灰烬能量通过灰烬能量发射器、中继器，接受器来传导，用铁匠锤来连接它们。",
   null,
-  "To make Dawnstone, you first need to melt down Copper and Gold, either in a Smeltery or a Melter. You then need to transfer the Molten Copper and Gold to a Mixer to make Molten Dawnstone. The last step is to transfer that to a Stamper Base and using a Stamper 2 blocks above it, turn it into Dawnstone Ingots. All the listed machines use Ember to work, besides the Smeltery if you decided to take that route.",
+  "关于黎明锭的制作，你需要在熔炼炉或者冶炼炉中熔化铜锭和金锭，然后将熔融的金与铜导入到混合离心机器中混合获得熔融的黎明石，将熔融的黎明石导入压印基座并配合压印锤和锭模具锤制黎明锭。压印锤需放置在基座上方2格方块处。除了压印基座外所有的机器都需要导入灰烬能量后才能运作。",
   null,
-  "Later on, you will need an Adhesive to make Empowered Enori Crystals. To make one you will need to get into the alchemical part of Embers. You will need an Exchanmge Tablet on which you place the items needed for the recipe on the corresponding sides, Alchemy Pedestals around it, on which you put the different Aspecti, a Beam Cannon filled with ember, facing the Exchange Tablet and a Cinder Plinth, which turns mundane materials into Ash Piles, when supplied with ember. How this recipe system works is, you fill up the pedestals that have the corresponding aspecti on them with a certain amount of Ash Piles, place the corresponding items on the Exchange Tablet and fire the Beam Cannon at it. If you fill the Pedestals with an incorrect amount of Ash Piles, you will get Alchemical Waste which tells you how close you were to the correct amount."
+  "接下来，您将需要胶粘剂来制作充能铁晶。想要制作胶粘剂，你需要先了解余烬mod的炼金术。你将需要一个炼金台，在炼金台上的4个边上放上合成配方中所需要的物品，并在它周围的炼金术基座上放置不同的元素，用光束炮轰击炼金台启动炼金仪式，平凡的材料将变成灰烬。这个炼金系统是如何工作的，你用一定数量的灰烬堆填满具有相应的具体数据的基座，将相应的物品放在炼金台上，并用光束炮轰击。如果你填充到基座里的灰烬数量不正确，你将得到炼金失败物，它能准确的告诉你在失败时与正确填充数值的偏差大小。"
 ]

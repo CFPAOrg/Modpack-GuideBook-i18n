@@ -1,11 +1,11 @@
 [
-  {"text": "3-4 Reactors", "color": "grey", "bold": true},
+  {"text": "3-4 反应堆", "color": "grey", "bold": true},
   null,
-  "In order to make Blutonium, you are going to need to make 3 different reactors from 3 different mods and dive deep into nuclear physics.",
+  "为了制造Blutonium，你将需要制作3个不同的mod中的3个反应堆，感受一下核物理学的力量吧！",
   null,
-  "The first reactor is the Fission Reactor from NuclearCraft. The main things it requires are: Graphite, made in the Manufactory, Rhodocrosite, obtained from mining Redstone Ore, Beryllium, obtained from mining Coal Ore and Zirconium, obtained from mining Nether Quartz Ore. To make the reactor, you can follow JEI.",
+  "第一个反应堆是NuclearCraft的裂变反应堆。 它需要的主要东西是：小制造机制造的石墨，采掘红石矿石获得的菱锰，采掘煤矿石获得的铍，以及从采矿下届石英矿石获得的锆。按照JEI制作反应堆。",
   null,
-  "The next reactor is an Extreme Reactor from Extreme Reactors.",
+  "第二个反应堆是Extreme Reactor的极限反应堆，你必须先发展NuclearCraft，获得制作反应堆燃料棒所需要的低密度氧化-251燃料。",
   null,
-  "And the final reactor is the Fusion Reactor from Tech Reborn. It needs 1MRF to get the fusion started, but it will generate a quarter of it back during the process."
+  "最后就是Tech Reborn中的聚变反应堆了。它需要1MRF能量来启动，过程中会产出四分之一并返还。"
   ]

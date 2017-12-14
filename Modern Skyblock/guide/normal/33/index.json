@@ -1,11 +1,11 @@
 [
-  {"text": "3-3 Environmental Tech", "color": "grey", "bold": true},
+  {"text": "3-3 环境科技", "color": "grey", "bold": true},
   null,
-  "To start off with ET, you are going to need to craft a few Litherite Crystals. With them you can make an Assembler and all of the ET Tier 1 multiblock Controllers. You can left-click on the Controllers with the Assembler to see what is needed in order to assemble the multiblock structures and once you have all the needed materials right-click on them with the Assembler to automatically assemble the multiblock.",
+  "开始ET,你将需要制作一些莱泽尔水晶。有了它们，您可以制作一个装配杆和ET中所有一级设备所需要的零件。 您可以左击控制器，查看组装多方块结构所需的信息，一旦您拥有所有需要的材料，用装配杆右键单击它们即可自动组装多方块。",
   null,
-  "The multiblock that you are going to need to progress to the next tier of machines is the Void Ore Miner. Just like all the other types of Miners, you can change its Lens to increase the chance of getting certain ores.",
+  "虚空矿物采掘机采掘的虚空矿物将会用于更高一级ET组成方块的制作。和其他mod中的挖矿机类似，通过改变透镜颜色，以增加采掘某些矿石的机率。",
   null,
-  "To obtain Mica needed for the different Modifiers that you can add to your multiblocks and for Lunar Panels, you are going to need at least a Tier 2 Void Resource Miner.",
+  "要获得制作月光阵列所需的云母，你至少需要2级的虚空资源采掘机。",
   null,
-  "The Solar Panels and Lunar Panels are some of, if not the best passive power generators you can make."
+  "虽然算不上是最好的被动型产能设备，但太阳能电池板和月光面板也可以说是一个非常不错的选择。"
 ]
