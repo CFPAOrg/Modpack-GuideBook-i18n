@@ -1,0 +1,86 @@
+{
+	"title": "FTB金字塔",
+	"authors": [
+		"FTB"
+	],
+	"icon": "item:minecraft:grass",
+	"pages": [
+		{
+			"id": "rules",
+			"title": "规则",
+			"icon": "item:minecraft:diamond"
+		},
+		{
+			"id": "getting_started",
+			"title": "如何开始",
+			"icon": "item:minecraft:wooden_pickaxe"
+		},
+		{
+			"id": "cobble",
+			"title": "圆石生产",
+			"icon": "item:minecraft:cobblestone"
+		},
+		{
+			"id": "resgen",
+			"title": "资源生产器",
+			"icon": "item:ftbachievements:resgen"
+		},
+		{
+			"id": "seebeck_generator",
+			"title": "温度调节器",
+			"icon": "item:ftbachievements:heater"
+		},
+		{
+			"id": "powered_crafting_table",
+			"title": "充能合成台",
+			"icon": "item:ftbachievements:poweredcraftingtable"
+		},
+		{
+			"id": "moving_forwards",
+			"title": "向前迈进",
+			"icon": "item:minecraft:fireworks"
+		},
+		{
+			"id": "emergency",
+			"title": "紧急情况",
+			"icon": "item:minecraft:barrier"
+		},
+		{
+			"id": "appendix",
+			"title": "附录",
+			"icon": "ftblib:icons/info"
+		},
+		{
+			"id": "hints",
+			"title": "提示与技巧",
+			"icon": "item:minecraft:book",
+			"pages": [
+				{
+					"id": "food",
+					"title": "扩展早期食物",
+					"icon": "item:minecraft:wheat"
+				},
+				{
+					"id": "gold",
+					"title": "如何获得金子",
+					"icon": "item:minecraft:gold_ingot"
+				},
+				{
+					"id": "water",
+					"title": "如何获取更多的水",
+					"icon": "item:minecraft:water_bucket"
+				},
+				{
+					"id": "angelring",
+					"title": "如何为团队成员获得额外的天使指环",
+					"icon": "item:extrautils2:angelring"
+				},
+				{
+					"id": "lava",
+					"title": "熔岩的秘密",
+					"icon": "item:minecraft:lava_bucket"
+				}
+			]
+		}
+	]
+}
