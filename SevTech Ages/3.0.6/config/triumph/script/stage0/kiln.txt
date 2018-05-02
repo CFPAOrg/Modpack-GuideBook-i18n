@@ -1,8 +1,8 @@
-setTitle("Cook It Up")
+setTitle("烤一烤")
 
 setIcon("primal_tech:clay_kiln")
 
-setDescription("Use Clay Balls and a Cobblestone Slab to craft a Kiln. Once placed, you'll need to fire the kiln using a heat source below. Once it's fired it can cook items")
+setDescription("用粘土球和圆石台阶来合成一个粘土窑（Clay Kiln）放下粘土窑后你需要在其下方提供热源来使其硬化，一旦其硬化后你就可以用它来烤制物品了")
 
 setParent("triumph:stage0/workstump")
 setRequiresParent(true)

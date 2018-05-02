@@ -1,8 +1,8 @@
-setTitle("Let's Get Down and Melty")
+setTitle("让我们开始熔点东西吧！")
 
 setIcon("tcomplement:porcelain_melter")
 
-setDescription("Craft a Melter to begin smelting down ores. It will need the matching heater below to work properly")
+setDescription("合成一个微缩熔炉来熔化矿物，微缩熔炉与其下方的加热器的材质必须对应-否则无法正常运作")
 
 setParent("triumph:stage0/melterbase")
 setRequiresParent(true)

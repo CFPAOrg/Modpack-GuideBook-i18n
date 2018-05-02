@@ -1,8 +1,8 @@
-setTitle("Flame Grilled Goodness")
+setTitle("炙烤的宝贝")
 
 setIcon("primal_tech:charcoal_hopper")
 
-setDescription("A hopper that moves items and keeps blocks above it hot")
+setDescription("一个可以为其上方方块提供热量的漏斗")
 
 setParent("triumph:stage0/woodhopper2")
 setRequiresParent(true)

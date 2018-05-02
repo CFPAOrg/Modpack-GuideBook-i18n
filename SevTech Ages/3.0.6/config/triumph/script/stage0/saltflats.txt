@@ -1,8 +1,8 @@
-setTitle("reSalt of Your Labors")
+setTitle("盐")
 
 setIcon("primal:salt_dust_netjry")
 
-setDescription("Find Salt in Dry Biomes or Riverbeds. You'll need it for food and curing hide")
+setDescription("在干燥的生态群系或河床里能找到盐-盐是处理皮革和合成食物的原料")
 
 setParent("triumph:stage0/grill")
 setRequiresParent(true)

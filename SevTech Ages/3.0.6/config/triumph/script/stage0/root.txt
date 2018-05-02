@@ -1,8 +1,8 @@
-setTitle("SevTech: Ages Tutorial")
+setTitle("SevTech: Ages 教程")
 
 setIcon("primal_tech:stone_club")
 
-setDescription("Welcome to SevTech: Ages! To complete the tutorial complete the advancement to craft a Work Stump to move into Age Zero")
+setDescription("欢迎来到SevTech: Ages！合成一个工作树桩（Work Stump）来完成教程阶段以进入到阶段0")
 
 setBackground("minecraft:textures/blocks/cobblestone.png")
 

@@ -1,8 +1,8 @@
-setTitle("It's Too Dangerous to Go Alone")
+setTitle("独自一人 太过危险")
 
 setIcon("primal:flint_hatchet")
 
-setDescription("Craft a Flint Hatchet so you can cut down trees")
+setDescription("合成一把燧石斧头（Flint Hatchet），这样你才能砍树")
 
 setParent("triumph:stage0/root")
 setRequiresParent(true)

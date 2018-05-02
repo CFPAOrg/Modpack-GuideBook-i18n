@@ -1,8 +1,8 @@
-setTitle("Spearmint")
+setTitle("长矛")
 
 setIcon("progressiontweaks:spear")
 
-setDescription("Craft a spear for fishing and ranged combat")
+setDescription("合成一根长矛（Spear）来叉鱼或当做远程武器")
 
 setParent("triumph:stage0/weaponize")
 setRequiresParent(true)

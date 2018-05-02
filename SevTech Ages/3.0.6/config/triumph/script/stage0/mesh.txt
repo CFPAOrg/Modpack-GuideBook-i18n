@@ -1,8 +1,8 @@
-setTitle("Mesh Your Flint")
+setTitle("筛点燧石")
 
 setIcon("pickletweaks:grass_mesh")
 
-setDescription("Flint won't drop from breaking gravel. Use the Grass Fiber Mesh in a crafting grid with Gravel to obtain flint consistently")
+setDescription("破坏沙砾不会掉落燧石，用植物纤维网（Grass Fiber Mesh）与沙砾合成以稳定获取燧石")
 
 setParent("triumph:stage0/fiber")
 setRequiresParent(true)

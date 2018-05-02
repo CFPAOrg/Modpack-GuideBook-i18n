@@ -1,8 +1,8 @@
-setTitle("It's Business Time")
+setTitle("是时候干正事了")
 
 setIcon("primal:sharp_bone")
 
-setDescription("Left-Click a Bone on a block like Cobblestone or Stone to turn it into a Sharp Bone")
+setDescription("手持骨头左键石头可获取锋利骨头（Sharp Bone）")
 
 setParent("triumph:stage0/firsttool")
 setRequiresParent(true)

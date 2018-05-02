@@ -1,8 +1,8 @@
-setTitle("Teach A Man To Farm")
+setTitle("授人以田")
 
 setIcon("minecraft:farmland")
 
-setDescription("Learn the basics of farming from a Farmer Villager trade by trading for Farmland. Farmland cannot be tilled by a hoe in age zero, you will need to craft and place it near water")
+setDescription("在一位农夫村民那里换取耕地以学习种地的知识。在阶段0，你无法使用锄头直接锄地，你只能合成耕地并将其放置在水边")
 
 setParent("triumph:stage0/workblade")
 setRequiresParent(true)

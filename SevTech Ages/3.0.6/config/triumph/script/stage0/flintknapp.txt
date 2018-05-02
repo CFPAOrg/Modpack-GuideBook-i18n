@@ -1,8 +1,8 @@
-setTitle("Flint Sharpening")
+setTitle("打磨燧石")
 
 setIcon("minecraft:flint")
 
-setDescription("Left-click Flint against a hard rock to create Flaked Flint. Doing the same to Flaked Flint will give you a Flaked Flint Point")
+setDescription("手持燧石左键石头以获取燧石碎片（Flaked Flint）手持燧石碎片左键石头则会给你一个小燧石碎片（Flaked Flint Point）")
 
 setParent("triumph:stage0/mesh")
 setRequiresParent(true)

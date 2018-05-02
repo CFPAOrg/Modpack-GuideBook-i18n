@@ -1,8 +1,8 @@
-setTitle("Working for the Weekend")
+setTitle("周末打工")
 
 setIcon("primal:flint_workblade")
 
-setDescription("If you want to work, you'll need a work blade. Among many other uses, you may use it to break leaves and rushes quickly")
+setDescription("如果你要工作的话 就需要一把工作刀（Flint Work Blade）-你甚至可以用它来除草/叶子")
 
 setParent("triumph:stage0/upgrade")
 setRequiresParent(true)

@@ -1,8 +1,8 @@
-setTitle("Storage Upgrade")
+setTitle("存储升级")
 
 setIcon("primalchests:primal_chest_advanced")
 
-setDescription("Ditch your old wooden box and upgrade to a nicer Primal Chest!")
+setDescription("把你那破旧的木盒子扔了吧，是时候换个更好的原始箱（Primal Chest）了")
 
 setParent("triumph:stage0/firstchest")
 setRequiresParent(true)

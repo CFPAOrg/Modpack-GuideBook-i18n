@@ -1,8 +1,8 @@
-setTitle("Chop! Chop! Chop!")
+setTitle("砍！砍！砍！")
 
 setIcon("horsepower:chopper")
 
-setDescription("No more chopping wood by hand! Place a Horse Power Chopper, attach a Horse using a lead, and insert items to automatically chop")
+setDescription("再也不用手动分解木板了！放下一个马砧板，用栓绳将马牵上，再放入物品就能自动分解了")
 
 setParent("triumph:stage0/horsepower")
 setRequiresParent(true)

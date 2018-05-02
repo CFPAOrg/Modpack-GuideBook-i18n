@@ -1,8 +1,10 @@
-setTitle("§5§lDark Gems")
+setTitle("ºÚ°µ±¦Ê¯")
 
 setIcon("abyssalcraft:shadowgem")
 
-setDescription("Acquire a Shadow Gem from Shadow Creatures residing in the darklands. Smaller creatures have smaller gems while the larger, more dangerous Shadow Creatures drop full gems")
+setDescription("»÷É±Ò»Ö»Éú³ÉÔÚºÚ°µÖ®µØµÄÒõÓ°ÉúÎïÀ´»ñÈ¡Ò»¿ÅÒõÓ°±¦Ê¯¡£½ÏĞ¡µÄÒõÓ°ÉúÎïµôÂäµÄ±¦Ê¯½ÏĞ¡£¬¸üÎ£ÏÕµÄÒõÓ°ÉúÎïÔò»áµôÂäÍêÕûµÄÒõÓ°±¦Ê¯")
+
+Acquire a Shadow Gem from Shadow Creatures residing in the darklands. Smaller creatures have smaller gems while the larger, more dangerous Shadow Creatures drop full gems
 
 setParent("triumph:stage0/abyssalbiome")
 setRequiresParent(true)

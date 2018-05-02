@@ -1,8 +1,8 @@
-setTitle("Stone Age!")
+setTitle("石器时代！")
 
 setIcon("minecraft:stone_pickaxe")
 
-setDescription("Craft a Stone Pickaxe to upgrade your aresenal")
+setDescription("将你的镐子升级成石镐")
 
 setParent("triumph:stage0/upgrade")
 setRequiresParent(true)

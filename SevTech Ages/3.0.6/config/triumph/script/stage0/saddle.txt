@@ -1,8 +1,8 @@
-setTitle("Don't Saddle For Anything Less")
+setTitle("疾如风")
 
 setIcon("minecraft:saddle")
 
-setDescription("Gotta Go Fast! Use a Saddle to travel around much faster")
+setDescription("再跑快点！马鞍是远程旅行的最好选择")
 
 setParent("triumph:stage0/lead")
 setRequiresParent(true)

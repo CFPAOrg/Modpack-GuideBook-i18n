@@ -1,8 +1,8 @@
-setTitle("Have It Your Way")
+setTitle("随你去吧")
 
 setIcon("wopper:wopper")
 
-setDescription("Craft a Wooden Hopper to route your items automatically")
+setDescription("合成一个木漏斗（Wooden Hopper）来自动运输物品")
 
 setParent("triumph:stage0/firstchest")
 setRequiresParent(true)

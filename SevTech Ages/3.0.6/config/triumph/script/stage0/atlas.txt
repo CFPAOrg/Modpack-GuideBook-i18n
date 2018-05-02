@@ -1,8 +1,8 @@
-setTitle("§1§lLost but Now Found")
+setTitle("Ê§¶ø¸´µÃ")
 
 setIcon("antiqueatlas:empty_antique_atlas")
 
-setDescription("Trade for an Antique Atlas map from a Cartographer or Librarian Villager")
+setDescription("´ÓÒ»Î»Í¼Êé¹ÜÀíÔ±/ÖÆÍ¼Ê¦´åÃñÄÇÀï»»È¡Ò»·İ¹Å´úµØÍ¼")
 
 setParent("triumph:stage0/workblade")
 setRequiresParent(true)

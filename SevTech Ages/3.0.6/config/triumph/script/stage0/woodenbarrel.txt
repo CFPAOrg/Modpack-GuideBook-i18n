@@ -1,8 +1,8 @@
-setTitle("Barrel of Vadis")
+setTitle("桶")
 
 setIcon("primal:barrel")
 
-setDescription("Craft a Primal Core Wooden Barrel to hold liquids")
+setDescription("合成一个来自Primal Core这个Mod的木桶（Barrel）来存储流体")
 
 setParent("triumph:stage0/fluidbladder")
 setRequiresParent(true)

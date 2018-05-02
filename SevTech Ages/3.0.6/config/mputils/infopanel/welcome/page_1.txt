@@ -1,15 +1,15 @@
-														Welcome to SevTech!
+							欢迎来到 SevTech！
 
-Open the Advancements Window to find out how to progress (Default key "L")
-
-
-WAILA and a Map are not available from the beginning of the modpack, they need to be unlocked. There are many blocks that are hidden until unlocked through progression!
+打开进度界面即可查看游戏流程（默认按钮为“L”）
 
 
-**Be aware, if you change a resource pack while the pack is running you will need to fully restart the game due to an issue with items not hiding correctly and recipes not showing. Sorry for the inconvenience!**
+WAILA 和小地图在这个整合的一开始阶段都是不可用的，需要玩家游戏中解锁。还有很多方块在玩家通过进度解锁之前都是隐藏的！
 
 
-For Multiplayer Team information use the mod "Together Forever" and check the commands beginning with "/tf" using in-game chat.
+**请注意，在游戏中途修改了材质包，需要重启游戏。否则物品隐藏和合成显示会出一点问题，对此造成的不便我们感到十分抱歉！**
 
 
-This information and changelogs can be accessed again by pausing the game and opening the "What's New" icon on the right side of the screen.
+对于多人游戏组队，请使用“Together Forever”模组，在游戏聊天框中输入“/tf”指令来进行检查核实。
+
+
+这段说明以及更新日志，能够在游戏设置界面右侧的“What's New”按钮处找到。

@@ -1,8 +1,8 @@
-setTitle("§5§lThe Wheels on the Bus")
+setTitle("»©»©°ÍÊ¿")
 
 setIcon("astikoor:wheel")
 
-setDescription("Craft the wheel from Astikoor to use on Horse Carts. Use the Astikoor action key to attach horses to carts")
+setDescription("ºÏ³ÉÀ´×ÔAstikoorÕâ¸öModµÄÂÖ×Ó²¢ºÏ³ÉÒ»¸öÂí³µ£¨Cart£©ÄãĞèÒªÊ¹ÓÃ¸ÃModµÄÒ»¸öÌØÊâ¼üÎ»£¨Astikoor action key£©À´Á¬½ÓÂíÓëÂí³µ")
 
 setParent("triumph:stage0/saddle")
 setRequiresParent(true)

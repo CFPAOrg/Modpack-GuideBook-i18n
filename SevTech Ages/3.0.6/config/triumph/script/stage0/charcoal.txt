@@ -1,8 +1,8 @@
-setTitle("Pressing Your Luck")
+setTitle("压压更健康")
 
 setIcon("horsepower:press")
 
-setDescription("Press charcoal into a larger block using the Horse Power Press")
+setDescription("用马力压榨机（Horse Press）来将木炭压成一个更大的方块")
 
 setParent("triumph:stage0/horsechopper")
 setRequiresParent(true)

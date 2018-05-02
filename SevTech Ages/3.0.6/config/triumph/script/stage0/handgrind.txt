@@ -1,8 +1,8 @@
-setTitle("Grind It")
+setTitle("磨了它")
 
 setIcon("horsepower:hand_grindstone")
 
-setDescription("The Hand Grindstone isn't quick by any means, but it will let you grind stuff up easily")
+setDescription("手动磨石虽然算不上快，但这是目前你唯一能用的磨石了")
 
 setParent("triumph:stage0/workstump")
 setRequiresParent(true)

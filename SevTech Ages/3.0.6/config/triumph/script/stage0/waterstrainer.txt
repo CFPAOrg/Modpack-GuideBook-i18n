@@ -1,8 +1,8 @@
-setTitle("This is Getting Strainuous")
+setTitle("滤网")
 
 setIcon("waterstrainer:strainer_survivalist_dense", 0)
 
-setDescription("If you cannot locate certain resources from under water, use a Water Strainer Base and insert a Strainer. Each Strainer type has a different loot table. Make sure to check them out! You'll need to craft the Strainer Base and a Dense Survivalist's Strainer to complete the advancement")
+setDescription("如果你找不到某些水下资源，合成一个滤网基座（Strainer Base）并放入一个滤网即可 不同种类的滤网有不同的产物 合成一个滤网基座和一个生存者滤网（密）（Survivalist's Strainer Dense）来完成此进度")
 
 setParent("triumph:stage0/workstump")
 setRequiresParent(true)

@@ -1,8 +1,8 @@
-setTitle("Bed Boys, Bed Boys")
+setTitle("坏男孩，坏男孩（Bed与Bad双关）")
 
 setIcon("cyclicmagic:sleeping_mat")
 
-setDescription("The Sleeping Mat will allow you to sleep on the go! Make sure to set the correct mode for whether or not you'd like to set your spawn while sleeping")
+setDescription("简易睡垫能让你随时睡觉！别忘了在睡前设置好你是否想要在睡觉时重设你的出生点")
 
 setParent("triumph:stage0/leather")
 setRequiresParent(true)

@@ -1,8 +1,8 @@
-setTitle("I HAVE CREATED FIRE")
+setTitle("我终于生起火了！")
 
 setIcon("primal_tech:fire_sticks")
 
-setDescription("Hold a Fire Stick in Each hand and click on a block to create fire")
+setDescription("双手各拿一根打火棍（Fire Stick），并右键一个方块以生火")
 
 setParent("triumph:stage0/firsttool")
 setRequiresParent(true)

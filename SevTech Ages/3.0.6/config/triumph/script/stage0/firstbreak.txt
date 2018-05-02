@@ -1,8 +1,8 @@
-setTitle("Caveman Hate Tree!")
+setTitle("穴居人讨厌木头！")
 
 setIcon("minecraft:log")
 
-setDescription("Punching trees hurts and you won't get wood from using your hands! Use the appropriate tool")
+setDescription("空手撸树不仅不会掉落还会受伤！你得使用合适的工具")
 
 setParent("triumph:stage0/firsttool")
 setRequiresParent(true)
