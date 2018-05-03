@@ -9,181 +9,181 @@ import mods.jei.JEI;
 
 var descriptionPairs as string[][IItemStack] = {
 	<environmentaltech:solar_cont_1>: [
-		"Materials Needed:",
-		"4 x Null Modifier",
-		"16 x Structure Frame tier 1 or above",
-		"9 x Solar Cell of any type"
+		"所需材料：",
+		"4 x 无效果强化部件",
+		"16 x 结构方块（1 级及以上）",
+		"9 x 任意类型太阳能板"
 	],
 	<environmentaltech:solar_cont_2>: [
-		"Materials Needed:",
-		"4 x Null Modifier",
-		"24 x Structure Frame tier 2 or above",
-		"25 x Solar Cell of any type"
+		"所需材料：",
+		"4 x 无效果强化部件",
+		"24 x 结构方块（2 级及以上）",
+		"25 x 任意类型太阳能板"
 	],
 	<environmentaltech:solar_cont_3>: [
-		"Materials Needed:",
-		"8 x Null Modifier",
-		"32 x Structure Frame tier 3 or above",
-		"49 x Solar Cell of any type"
+		"所需材料：",
+		"8 x 无效果强化部件",
+		"32 x 结构方块（3 级及以上）",
+		"49 x 任意类型太阳能板"
 	],
 	<environmentaltech:solar_cont_4>: [
-		"Materials Needed:",
-		"8 x Null Modifier",
-		"40 x Structure Frame tier 4 or above",
-		"81 x Solar Cell of any type"
+		"所需材料：",
+		"8 x 无效果强化部件",
+		"40 x 结构方块（4 级及以上）",
+		"81 x 任意类型太阳能板"
 	],
 	<environmentaltech:solar_cont_5>: [
-		"Materials Needed:",
-		"12 x Null Modifier",
-		"48 x Structure Frame tier 5 or above",
-		"121 x Solar Cell of any type"
+		"所需材料：",
+		"12 x 无效果强化部件",
+		"48 x 结构方块（5 级及以上）",
+		"121 x 任意类型太阳能板"
 	],
 	<environmentaltech:solar_cont_6>: [
-		"Materials Needed:",
-		"12 x Null Modifier",
-		"56 x Structure Frame tier 6 or above",
-		"169 x Solar Cell of any type"
+		"所需材料：",
+		"12 x 无效果强化部件",
+		"56 x 结构方块（6 级及以上）",
+		"169 x 任意类型太阳能板"
 	],
 	<environmentaltech:void_botanic_miner_cont_1>: [
-		"Materials Needed:",
-		"24 x Structure Frame tier 1 or above",
-		"20 x Structure Panel",
-		"2 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"24 x 结构方块（1 级及以上）",
+		"20 x 结构镶板",
+		"2 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_botanic_miner_cont_2>: [
-		"Materials Needed:",
-		"4 x Null Modifier",
-		"32 x Structure Frame tier 2 or above",
-		"16 x Structure Panel",
-		"3 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"4 x 无效果强化部件",
+		"32 x 结构方块（2 级及以上）",
+		"16 x 结构镶板",
+		"3 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_botanic_miner_cont_3>: [
-		"Materials Needed:",
-		"8 x Null Modifier",
-		"56 x Structure Frame tier 3 or above",
-		"52 x Structure Panel",
-		"4 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"8 x 无效果强化部件",
+		"56 x 结构方块（3 级及以上）",
+		"52 x 结构镶板",
+		"4 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_botanic_miner_cont_4>: [
-		"Materials Needed:",
-		"12 x Null Modifier",
-		"56 x Structure Frame tier 4 or above",
-		"56 x Structure Panel",
-		"5 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"12 x 无效果强化部件",
+		"56 x 结构方块（4 级及以上）",
+		"56 x 结构镶板",
+		"5 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_botanic_miner_cont_5>: [
-		"Materials Needed:",
-		"16 x Null Modifier",
-		"72 x Structure Frame tier 5 or above",
-		"36 x Structure Panel",
-		"6 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"16 x 无效果强化部件",
+		"72 x 结构方块（5 级及以上）",
+		"36 x 结构镶板",
+		"6 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_botanic_miner_cont_6>: [
-		"Materials Needed:",
-		"20 x Null Modifier",
-		"92 x Structure Frame tier 6 or above",
-		"56 x Structure Panel",
-		"6 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"20 x 无效果强化部件",
+		"92 x 结构方块（6 级及以上）",
+		"56 x 结构镶板",
+		"6 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_ore_miner_cont_1>: [
-		"Materials Needed:",
-		"24 x Structure Frame tier 1 or above",
-		"20 x Structure Panel",
-		"2 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"24 x 结构方块（1 级及以上）",
+		"20 x 结构镶板",
+		"2 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_ore_miner_cont_2>: [
-		"Materials Needed:",
-		"4 x Null Modifier",
-		"32 x Structure Frame tier 2 or above",
-		"16 x Structure Panel",
-		"3 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"4 x 无效果强化部件",
+		"32 x 结构方块（2 级及以上）",
+		"16 x 结构镶板",
+		"3 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_ore_miner_cont_3>: [
-		"Materials Needed:",
-		"8 x Null Modifier",
-		"56 x Structure Frame tier 3 or above",
-		"52 x Structure Panel",
-		"4 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"8 x 无效果强化部件",
+		"56 x 结构方块（3 级及以上）",
+		"52 x 结构镶板",
+		"4 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_ore_miner_cont_4>: [
-		"Materials Needed:",
-		"12 x Null Modifier",
-		"56 x Structure Frame tier 4 or above",
-		"56 x Structure Panel",
-		"5 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"12 x 无效果强化部件",
+		"56 x 结构方块（4 级及以上）",
+		"56 x 结构镶板",
+		"5 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_ore_miner_cont_5>: [
-		"Materials Needed:",
-		"16 x Null Modifier",
-		"72 x Structure Frame tier 5 or above",
-		"36 x Structure Panel",
-		"6 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"16 x 无效果强化部件",
+		"72 x 结构方块（5 级及以上）",
+		"36 x 结构镶板",
+		"6 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_ore_miner_cont_6>: [
-		"Materials Needed:",
-		"20 x Null Modifier",
-		"92 x Structure Frame tier 6 or above",
-		"56 x Structure Panel",
-		"6 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"20 x 无效果强化部件",
+		"92 x 结构方块（6 级及以上）",
+		"56 x 结构镶板",
+		"6 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_res_miner_cont_1>: [
-		"Materials Needed:",
-		"24 x Structure Frame tier 1 or above",
-		"20 x Structure Panel",
-		"2 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"24 x 结构方块（1 级及以上）",
+		"20 x 结构镶板",
+		"2 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_res_miner_cont_2>: [
-		"Materials Needed:",
-		"4 x Null Modifier",
-		"32 x Structure Frame tier 2 or above",
-		"16 x Structure Panel",
-		"3 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"4 x 无效果强化部件",
+		"32 x 结构方块（2 级及以上）",
+		"16 x 结构镶板",
+		"3 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_res_miner_cont_3>: [
-		"Materials Needed:",
-		"8 x Null Modifier",
-		"56 x Structure Frame tier 3 or above",
-		"52 x Structure Panel",
-		"4 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"8 x 无效果强化部件",
+		"56 x 结构方块（3 级及以上）",
+		"52 x 结构镶板",
+		"4 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_res_miner_cont_4>: [
-		"Materials Needed:",
-		"12 x Null Modifier",
-		"56 x Structure Frame tier 4 or above",
-		"56 x Structure Panel",
-		"5 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"12 x 无效果强化部件",
+		"56 x 结构方块（4 级及以上）",
+		"56 x 结构镶板",
+		"5 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_res_miner_cont_5>: [
-		"Materials Needed:",
-		"16 x Null Modifier",
-		"72 x Structure Frame tier 5 or above",
-		"36 x Structure Panel",
-		"6 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"16 x 无效果强化部件",
+		"72 x 结构方块（5 级及以上）",
+		"36 x 结构镶板",
+		"6 x 激光核心",
+		"1 x 任意类型激光透镜"
 	],
 	<environmentaltech:void_res_miner_cont_6>: [
-		"Materials Needed:",
-		"20 x Null Modifier",
-		"92 x Structure Frame tier 6 or above",
-		"56 x Structure Panel",
-		"6 x Laser Core",
-		"1 x Laser Lens of any type"
+		"所需材料：",
+		"20 x 无效果强化部件",
+		"92 x 结构方块（6 级及以上）",
+		"56 x 结构镶板",
+		"6 x 激光核心",
+		"1 x 任意类型激光透镜"
 	]
 };
 

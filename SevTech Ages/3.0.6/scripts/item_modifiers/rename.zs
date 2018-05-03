@@ -9,7 +9,7 @@ var renameArray as string[IItemStack] = {
 
 	<primal_tech:flint_edged_disc> : "燧石锯条",
 
-	<totemic:sub_items:1> : "歌谣",
+	<totemic:sub_items:1> : "叮当",
 
 	<primal:plant_fiber_pulp> : "纸浆",
 

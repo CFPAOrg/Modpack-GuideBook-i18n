@@ -21,7 +21,7 @@ Make sure to let Glen out of your park so he can eat and sleep.
 需要找到区块中矿脉的位置？使用 Prospectors 模组中的物品吧。
 你无法使用 F3 查看坐标。解锁并使用  Info Accessories 可查看坐标，使用标记可以找到方向。
 重生后死亡指南针会出现在你的物品栏中。它会指引你找到你的墓碑。
-在墓碑上按 Shift /潜行就可以获得你的物品了。
+在墓碑上按 Shift 就可以获得你的物品了。
 木筏是早期的水上交通工具。它们更易坏且行驶更缓慢。
 Morney cheese sauce (makes 1 gal); 2qt whole milk; 2 qts heavy cream; roux (250g butter/250g flour); sachet (bay, peppercorns, thyme); dijon (to taste); shredded comte cheese (lots/to taste); bring milk/cream/sachet to a boil then reduce heat to simmer add roux (should be blonde) and wisk untill absorbed add dijon and shredded cheese to taste (remove sachet)
 将钥匙放在副手会自动将新放置的储物抽屉上锁。
