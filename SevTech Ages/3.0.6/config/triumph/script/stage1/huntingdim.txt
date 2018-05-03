@@ -1,8 +1,8 @@
-setTitle("Hunt or be Hunted")
+setTitle("猎杀，抑或被猎杀")
 
 setIcon("huntingdim:frame", 0)
 
-setDescription("If you need to find hostile mobs, use the Hunting Dimension. Craft the portal frame just like you would the Nether Portal, light it using a Vanilla Sword and sneak in the portal to enter")
+setDescription("如果你想要寻找敌对性生物，试试狩猎维度吧。 像地狱门那样修建狩猎维度传送门框架，使用原版的剑来启动它，站在上面shift即可进行传送")
 
 setParent("triumph:stage1/root")
 setRequiresParent(true)

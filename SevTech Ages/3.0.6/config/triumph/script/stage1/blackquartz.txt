@@ -1,8 +1,8 @@
-setTitle("Par for the Quartz")
+setTitle("石英的压力")
 
 setIcon("actuallyadditions:item_misc", 5)
 
-setDescription("Travel to the bottom of the Beneath dimension to find Black Quartz")
+setDescription("探索深渊世界的底部，寻找焦黑石英")
 
 setParent("triumph:stage1/beneath")
 setRequiresParent(true)

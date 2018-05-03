@@ -1,8 +1,8 @@
-setTitle("Pedestalling for Time")
+setTitle("基座时间到")
 
 setIcon("abyssalcraft:energypedestal")
 
-setDescription("To charge your Necronomicon you can either stand in range of Statues holding the book, or craft a Pedestal to place the book on. Make sure the statues are 3 blocks from the Pedestal and at the same height")
+setDescription("你需要站在雕像附近，手持死灵之书来充能，或者合成基座来代替手持。 但要确保基座和雕像在三格内，并且在同一高度")
 
 setParent("triumph:stage1/statue")
 setRequiresParent(true)

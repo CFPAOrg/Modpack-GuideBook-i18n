@@ -1,8 +1,8 @@
 setIcon("immersiveengineering:metal")
 
-setTitle("Get To The Copper")
+setTitle("我们得到了铜")
 
-setDescription("Find a surface sample and dig for copper! Located Y12 to 45 and named Malachite or Azurite. Note, surface samples will unhide in already explored areas")
+setDescription("找寻地表的铜样本，并获取铜矿！ 通常在Y值12~45的地方，名字也可能是孔雀石或者蓝铜矿 谨记，地表样本在已经探索过的区域也能找到")
 
 setParent("triumph:stage1/prospector")
 setRequiresParent(true)

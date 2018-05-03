@@ -2,7 +2,7 @@ setTitle("Anvil Lavigne")
 
 setIcon("primal_tech:stone_anvil")
 
-setDescription("Need plates? Smash some ingots with a mallet on the Stone Anvil")
+setDescription("需要板么？在石砧上放置一些锭，然后用石槌击打即可")
 
 setParent("triumph:stage1/root")
 setRequiresParent(true)

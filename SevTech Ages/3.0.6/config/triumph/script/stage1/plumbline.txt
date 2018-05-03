@@ -1,8 +1,8 @@
-setTitle("Plumbing the Depths")
+setTitle("丈量大地")
 
 setIcon("bibliocraft:plumbline")
 
-setDescription("Use the Plumb Line to discover your Y level")
+setDescription("使用铅垂线来确定Y值")
 
 setParent("triumph:stage1/crafting")
 setRequiresParent(true)

@@ -1,8 +1,8 @@
-setTitle("It's Getting Hot in Here")
+setTitle("这里越来越热了")
 
 setIcon("minecraft:furnace")
 
-setDescription("Light up your life with a new furnace")
+setDescription("新的熔炉，点亮你的生活")
 
 setParent("triumph:stage1/crafting")
 setRequiresParent(true)

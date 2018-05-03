@@ -1,8 +1,8 @@
-setTitle("Crunchy Pillows")
+setTitle("松软的枕头")
 
 setIcon("primal_tech:leaf_bed")
 
-setDescription("Is your current sleeping situation not good enough? Throw some leaves on top of hay to make a Leaf Bed!")
+setDescription("你是否感觉你当前的睡眠质量不佳？做一个干草床吧！")
 
 setParent("triumph:stage1/crafting")
 setRequiresParent(true)

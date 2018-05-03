@@ -1,8 +1,8 @@
-setTitle("The Beneath")
+setTitle("深渊世界")
 
 setIcon("beneath:teleporterbeneath")
 
-setDescription("Use an Abyssalcraft Ritual to create the Beneath teleporter. Remember to have P.E. in your Necronomicon before starting a ritual. Place the Beneath Teleporter and enter the dimension")
+setDescription("使用深渊国度的仪式制作一个深渊世界传送门 谨记你的死灵之书必须要有足够的P.E.才能够开启仪，传送门放置在地上就可以进入深渊世界")
 
 setParent("triumph:stage1/statue")
 setRequiresParent(true)

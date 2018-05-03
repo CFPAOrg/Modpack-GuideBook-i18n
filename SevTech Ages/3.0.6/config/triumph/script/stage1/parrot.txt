@@ -1,8 +1,8 @@
-setTitle("I Can't Find a Jungle?!")
+setTitle("我找不到丛林？！")
 
 setIcon("minecraft:feather")
 
-setDescription("Consult the Necromicon Normal Rituals section to discover how to summon a Parrot and tame it using seeds to complete the Advancement. Or just go find a Jungle")
+setDescription("查询普通的死灵之书仪式来了解如何生成一只鹦鹉，并用种子驯服它。 当然，你也可以去找丛林")
 
 setParent("triumph:stage1/statue")
 setRequiresParent(true)

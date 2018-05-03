@@ -1,8 +1,8 @@
-setTitle("Extensions")
+setTitle("延展")
 
 setIcon("ceramics:clay_barrel", 1)
 
-setDescription("Craft a Barrel Extension and place it on top of a Barrel to increase the amount of liquid it can hold")
+setDescription("制作一个延展陶桶，放置在陶桶顶部来提升容量")
 
 setParent("triumph:stage1/claybarrel")
 setRequiresParent(true)

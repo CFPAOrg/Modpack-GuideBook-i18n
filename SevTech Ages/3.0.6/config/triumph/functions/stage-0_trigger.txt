@@ -1,3 +1,0 @@
-gamestage add @p zero_mob
-gamestage add @p zero
-summon minecraft:fireworks_rocket ~ ~ ~

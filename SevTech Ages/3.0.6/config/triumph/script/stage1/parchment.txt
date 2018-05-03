@@ -1,8 +1,8 @@
-setTitle("Something to Write On")
+setTitle("想要写点什么")
 
 setIcon("astralsorcery:itemcraftingcomponent", 5)
 
-setDescription("Begin keeping records of your knowledge on Parchment. It requires the bark from Mulberry trees which spawn out in the world")
+setDescription("开始在羊皮纸上记录点什么吧，也许你需要主世界生成罕见的桑树的树皮")
 
 setParent("triumph:stage1/aquamarine")
 setRequiresParent(true)

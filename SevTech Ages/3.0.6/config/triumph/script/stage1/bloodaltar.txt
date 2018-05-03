@@ -1,8 +1,8 @@
-setTitle("Altered State")
+setTitle("迷幻异域")
 
 setIcon("bloodmagic:altar")
 
-setDescription("Capture Demonic Will to build a Blood Altar")
+setDescription("获取恶魔意志，修建血之祭坛")
 
 setParent("triumph:stage1/alloykiln")
 setRequiresParent(true)

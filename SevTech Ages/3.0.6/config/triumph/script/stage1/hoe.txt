@@ -1,8 +1,8 @@
-setTitle("Can We Hoe It?!")
+setTitle("我能够锄地么？！")
 
 setIcon("minecraft:stone_hoe")
 
-setDescription("Craft a Hoe to begin farming more efficiently")
+setDescription("合成锄头，开始高效的农业生活吧")
 
 setParent("triumph:stage1/root")
 setRequiresParent(true)

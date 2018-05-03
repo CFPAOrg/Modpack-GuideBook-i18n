@@ -1,8 +1,8 @@
-setTitle("Love and Carriage")
+setTitle("运输之爱")
 
 setIcon("astikoor:cargocart")
 
-setDescription("Tired of carrying your stuff around in your pockets? Craft a Cart and attach it to a horse to help carry your things. Shift-click the cart to open its inventory!")
+setDescription("想要携带家产走游四方？合成一个马车并将其拴上马即可 Shift点击能够打开马车GUI！")
 
 setParent("triumph:stage0/wheel")
 setRequiresParent(true)

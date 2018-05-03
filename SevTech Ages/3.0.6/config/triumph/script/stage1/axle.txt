@@ -1,8 +1,8 @@
-setTitle("Axle F")
+setTitle("F 轴")
 
 setIcon("betterwithmods:wooden_axle")
 
-setDescription("Mechanical Power needs to be routed using an Axle. You can connect them directly to Waterwheels and Wind Mills or Gearboxes. You can have no more than 3 Axles between each Gearbox or Source")
+setDescription("机械传动需要传动轴。你可以通过传动轴直接连接水车，风车或者变速箱。 传动轴最多只能连续摆放三个")
 
 setParent("triumph:stage1/blackquartz")
 setRequiresParent(true)

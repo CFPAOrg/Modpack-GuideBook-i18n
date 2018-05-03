@@ -1,8 +1,8 @@
-setTitle("Bucket List")
+setTitle("Bucket List ~ 遗愿清单")
 
 setIcon("ceramics:clay_bucket")
 
-setDescription("Use the Turntable to shape a clay bucket and cook it in the Kiln")
+setDescription("使用螺杆旋转台制作一个粘土桶 并在粘土窑里面烧制成可用的粘土桶")
 
 setParent("triumph:stage1/turntable")
 setRequiresParent(true)

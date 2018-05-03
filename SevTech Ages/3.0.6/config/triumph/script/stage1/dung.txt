@@ -1,8 +1,8 @@
-setTitle("Pipe Me Up Inside")
+setTitle("快把我排出来")
 
 setIcon("dungpipe:dung_pipe")
 
-setDescription("Use a Dung Pipe to pull items out of a block or use a Sewer Pipe to pull through solid block")
+setDescription("使用粪管从方块中抽取物品，或者用下水道管通过固体方块来抽取物品")
 
 setParent("triumph:stage1/claybarrel")
 setRequiresParent(true)

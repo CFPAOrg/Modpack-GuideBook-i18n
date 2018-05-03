@@ -1,8 +1,8 @@
-setTitle("Brains Over Bronze")
+setTitle("满脑子青铜！")
 
 setIcon("mekanism:ingot", 2)
 
-setDescription("Use the Alloy Kiln to produce Bronze Ingots")
+setDescription("使用合金窑制作出青铜锭")
 
 setParent("triumph:stage1/alloykiln")
 setRequiresParent(true)

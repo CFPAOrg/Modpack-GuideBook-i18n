@@ -1,2 +1,2 @@
 gamestage add @p mapping
-say You have learned Advanced Mapping
+say 你学习了高级地图知识

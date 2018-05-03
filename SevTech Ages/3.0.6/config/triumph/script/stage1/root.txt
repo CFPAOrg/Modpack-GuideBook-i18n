@@ -1,8 +1,8 @@
-setTitle("Welcome to Age 1")
+setTitle("欢迎来到第一纪元")
 
 setIcon("progressiontweaks:stone_hammer")
 
-setDescription("Welcome to the next age! Blocks previously hidden will now become visible, such as ore samples and others")
+setDescription("欢迎来到下一个阶段！先前隐藏的部分方块现在已经可见了，你现在能够发现矿物样本以及其他很多东西。")
 
 setBackground("mekanism:textures/blocks/tinore.png")
 

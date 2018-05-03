@@ -1,8 +1,8 @@
-setTitle("Stirring the Pot")
+setTitle("搅拌盆")
 
 setIcon("primal_tech:wooden_basin")
 
-setDescription("Looking for a more efficient way to make leather or dough? Craft the Wooden Basin, fill it with the correct liquid and items, then stir!")
+setDescription("四处寻找高效的皮革或者面团制作方法？ 合成木制搅拌盆吧，丢入正确的流体和物品，然后右击搅拌吧！")
 
 setParent("triumph:stage1/root")
 setRequiresParent(true)

@@ -1,8 +1,8 @@
-setTitle("Aqueducts")
+setTitle("水道")
 
 setIcon("betterwithaddons:aqueduct", 6)
 
-setDescription("Move water using Aqueducts by creating a channel with the aqueduct on the bottom and any block on the sides creating a V shape. Note, This advancement requires that you place the block to complete")
+setDescription("用水道来传输水 只需要修建一个U形水渠，底部要用水道方块，侧边可以选用任意方块 谨记，这个进度只有你在完全放置了方块后才会完成")
 
 setParent("triumph:stage1/root")
 setRequiresParent(true)

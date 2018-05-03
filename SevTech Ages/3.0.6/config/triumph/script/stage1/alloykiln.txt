@@ -1,8 +1,8 @@
-setTitle("All Mixed Up")
+setTitle("全部混合！")
 
 setIcon("immersiveengineering:stone_device", 7)
 
-setDescription("Build the Alloy Kiln from Immersive Engineering to create bronze. You'll need 8 Kiln bricks in a 2x2x2 and Right-Click with the Engineer's Hammer to create the structure")
+setDescription("修建一个沉浸工程模组的合金窑来制作青铜，你需要合成8个窑砖 修建成 2x2x2 大小，用工程师锤右击即可构建")
 
 setParent("triumph:stage1/copper")
 setRequiresParent(true)

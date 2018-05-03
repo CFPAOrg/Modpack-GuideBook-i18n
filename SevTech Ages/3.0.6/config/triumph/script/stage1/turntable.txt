@@ -1,8 +1,8 @@
-setTitle("Turning the Tables")
+setTitle("旋转吧！旋转台")
 
 setIcon("betterwithmods:single_machine", 3)
 
-setDescription("Craft a Turntable, connect the bottom with Mechanical Power, and place a block on top to begin shaping")
+setDescription("合成一个螺杆旋转台，底部接上机械扭力，而后在顶部放置方块开始做东西")
 
 setParent("triumph:stage1/gearbox")
 setRequiresParent(true)

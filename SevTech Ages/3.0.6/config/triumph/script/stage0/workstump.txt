@@ -1,4 +1,4 @@
-setTitle("工作树桩")
+setTitle("工作桩")
 
 setIcon("primal_tech:work_stump")
 

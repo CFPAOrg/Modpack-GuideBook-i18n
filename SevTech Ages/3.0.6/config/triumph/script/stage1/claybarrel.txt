@@ -1,8 +1,8 @@
-setTitle("Bottom of the Barrel")
+setTitle("桶底")
 
 setIcon("ceramics:clay_barrel")
 
-setDescription("Clay barrels can hold fluids, such as water or liquid metals")
+setDescription("粘土桶能够存储流体，比如水和液态金属")
 
 setParent("triumph:stage1/root")
 setRequiresParent(true)

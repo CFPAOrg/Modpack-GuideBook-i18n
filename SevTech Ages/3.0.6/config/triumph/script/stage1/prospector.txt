@@ -1,8 +1,8 @@
-setTitle("Prospecting")
+setTitle("勘探！")
 
 setIcon("prospectors:prospector_lowest")
 
-setDescription("Craft a Weak Dowsing Rod to help you locate ore")
+setDescription("合成一个弱化矿石勘探器，帮助你寻找矿物位置")
 
 setParent("triumph:stage1/crafting")
 setRequiresParent(true)

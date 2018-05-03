@@ -1,5 +1,0 @@
-gamestage remove @p two_mob
-gamestage add @p three_mob
-gamestage add @p three
-summon minecraft:fireworks_rocket ~ ~ ~
-mpa notify @p stage_three

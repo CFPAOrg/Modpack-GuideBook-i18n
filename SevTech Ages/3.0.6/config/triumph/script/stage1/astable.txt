@@ -1,8 +1,8 @@
-setTitle("Link to the Stars")
+setTitle("连接星辉")
 
 setIcon("astralsorcery:blockaltar")
 
-setDescription("Complete the ritual to transform a crafting table into the Luminous Crafting Table")
+setDescription("完成工作台转换成星辉工作台的合成")
 
 setParent("triumph:stage1/journal")
 setRequiresParent(true)

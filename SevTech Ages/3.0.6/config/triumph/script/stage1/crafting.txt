@@ -1,8 +1,8 @@
-setTitle("Upgrade your crafting")
+setTitle("合成升级")
 
 setIcon("minecraft:crafting_table")
 
-setDescription("Craft a regular table")
+setDescription("合成一个原版工作台")
 
 setParent("triumph:stage1/root")
 setRequiresParent(true)
