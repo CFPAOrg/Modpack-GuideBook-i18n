@@ -2,7 +2,7 @@ setTitle("压压更健康")
 
 setIcon("horsepower:press")
 
-setDescription("用马力压榨机（Horse Press）来将木炭压成一个更大的方块")
+setDescription("用马力压榨机来将木炭压成一个更大的方块")
 
 setParent("triumph:stage0/horsechopper")
 setRequiresParent(true)

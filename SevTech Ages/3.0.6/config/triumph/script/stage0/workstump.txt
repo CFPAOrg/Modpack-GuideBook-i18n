@@ -2,7 +2,7 @@ setTitle("工作树桩")
 
 setIcon("primal_tech:work_stump")
 
-setDescription("合成台？想都别想！现在只有工作树桩（Work Stump）右键将物品放入 再用合成石（Crafting Rock）右键就可完成合成 合成完后可将合成石存储在工作树桩的下方")
+setDescription("合成台？想都别想！现在只有工作桩 右键将物品放入，再用石板多次右键就可完成合成 合成完后可将石板存储在工作树桩的下方")
 
 setParent("triumph:stage0/collectplank")
 setRequiresParent(true)

@@ -2,7 +2,7 @@ setTitle("别瞎磨迹了")
 
 setIcon("betterwithmods:single_machine")
 
-setDescription("别磨迹了，合成一个Better With Mods模组的磨石吧")
+setDescription("别磨迹了，合成一个 Better With Mods 模组的磨石吧")
 
 setParent("triumph:stage0/gear")
 setRequiresParent(true)

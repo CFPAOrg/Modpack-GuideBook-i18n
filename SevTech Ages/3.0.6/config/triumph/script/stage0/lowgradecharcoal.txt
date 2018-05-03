@@ -2,7 +2,7 @@ setTitle("永恒之火")
 
 setIcon("primal_tech:charcoal_block")
 
-setDescription("低级木炭方块（Low Grade Charcoal）是一个很好的木炭来源 而且其上方的火焰永远不会熄灭")
+setDescription("低级木炭块是一个很好的木炭来源 而且其上方的火焰永远不会熄灭")
 
 setParent("triumph:stage0/kiln")
 setRequiresParent(true)

@@ -2,7 +2,7 @@ setTitle("长矛捕鱼法")
 
 setIcon("minecraft:fish")
 
-setDescription("使用你的矛（Spear）或其他工具来捕鱼-好好饱餐一顿吧！")
+setDescription("使用你的矛或其他工具来捕鱼 好好饱餐一顿吧！")
 
 setParent("triumph:stage0/spear")
 setRequiresParent(true)

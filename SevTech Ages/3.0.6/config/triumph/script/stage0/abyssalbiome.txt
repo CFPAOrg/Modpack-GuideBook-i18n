@@ -2,7 +2,7 @@ setTitle("踏入黑暗之地")
 
 setIcon("abyssalcraft:necronomicon")
 
-setDescription("找到并进入一个深渊国度黑暗生物群系。这些生物群系会在较冷的区域生成。以世界出生点为赤道的话，向南北探索，温度会逐渐降低，利用这个特性来更快找到你想要的生态群系")
+setDescription("找到并进入一个深渊国度黑暗生物群系。 这些生物群系会在较冷的区域生成。 以世界出生点为赤道的话，向南北探索， 温度会逐渐降低，利用这个特性来更快找到你想要的生态群系")
 
 setParent("triumph:stage0/workstump")
 setRequiresParent(true)

@@ -2,7 +2,7 @@ setTitle("印第安战斧")
 
 setIcon("progressiontweaks:tomahawk")
 
-setDescription("合成一把印第安战斧（Tomahawk）它是一把远程武器-其配方需要一个小燧石碎片")
+setDescription("合成一把印第安战斧， 它是一把远程武器。 其配方需要一个小燧石碎片")
 
 setParent("triumph:stage0/weaponize")
 setRequiresParent(true)

@@ -2,7 +2,7 @@ setTitle("可怖的BOSS战")
 
 setIcon("totemic:baykok_bow")
 
-setDescription("通过一场图腾仪式召唤并击败贝柯克以获取他手中强大的弓，同时你会更早解锁远程武器")
+setDescription("通过一场图腾仪式召唤并击败贝柯克以获取他手中强大的弓， 同时你会更早解锁远程武器")
 
 setParent("triumph:stage0/buffalo")
 setRequiresParent(true)

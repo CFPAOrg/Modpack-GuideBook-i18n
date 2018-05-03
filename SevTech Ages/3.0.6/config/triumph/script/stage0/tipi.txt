@@ -2,7 +2,7 @@ setTitle("安枕无忧")
 
 setIcon("totemic:tipi")
 
-setDescription("没地方睡觉？合成一个印第安帐篷吧！")
+setDescription("没地方睡觉？ 合成一个印第安帐篷吧！")
 
 setParent("triumph:stage0/leather")
 setRequiresParent(true)

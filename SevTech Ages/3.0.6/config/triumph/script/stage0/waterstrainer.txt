@@ -2,7 +2,7 @@ setTitle("滤网")
 
 setIcon("waterstrainer:strainer_survivalist_dense", 0)
 
-setDescription("如果你找不到某些水下资源，合成一个滤网基座（Strainer Base）并放入一个滤网即可 不同种类的滤网有不同的产物 合成一个滤网基座和一个生存者滤网（密）（Survivalist's Strainer Dense）来完成此进度")
+setDescription("如果你找不到某些水下资源 合成一个滤网基座并放入一个滤网即可 不同种类的滤网有不同的产物 合成一个滤网基座和一个生存者滤网（致密）来完成此进度")
 
 setParent("triumph:stage0/workstump")
 setRequiresParent(true)

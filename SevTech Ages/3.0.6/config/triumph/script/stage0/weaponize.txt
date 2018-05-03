@@ -2,7 +2,7 @@ setTitle("是时候干正事了")
 
 setIcon("primal:sharp_bone")
 
-setDescription("手持骨头左键石头可获取锋利骨头（Sharp Bone）")
+setDescription("手持骨头左键石头可获取剥片骨头")
 
 setParent("triumph:stage0/firsttool")
 setRequiresParent(true)

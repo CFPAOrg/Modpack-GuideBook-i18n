@@ -2,7 +2,7 @@ setTitle("长矛")
 
 setIcon("progressiontweaks:spear")
 
-setDescription("合成一根长矛（Spear）来叉鱼或当做远程武器")
+setDescription("合成一根矛， 能够来叉鱼或当做远程武器")
 
 setParent("triumph:stage0/weaponize")
 setRequiresParent(true)

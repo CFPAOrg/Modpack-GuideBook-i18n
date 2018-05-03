@@ -2,7 +2,7 @@ setTitle("磨了它")
 
 setIcon("horsepower:hand_grindstone")
 
-setDescription("手动磨石虽然算不上快，但这是目前你唯一能用的磨石了")
+setDescription("手动磨石虽然算不上快， 但这是目前你唯一能用的磨石了")
 
 setParent("triumph:stage0/workstump")
 setRequiresParent(true)

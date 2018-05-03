@@ -2,7 +2,7 @@ setTitle("皮革，漂洗，重复")
 
 setIcon("minecraft:leather")
 
-setDescription("合成皮革！")
+setDescription("制作皮革！")
 
 setParent("triumph:stage0/fluidbladder")
 setRequiresParent(true)

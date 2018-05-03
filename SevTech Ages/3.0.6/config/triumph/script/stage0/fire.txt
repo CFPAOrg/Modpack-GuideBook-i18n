@@ -2,7 +2,7 @@ setTitle("我终于生起火了！")
 
 setIcon("primal_tech:fire_sticks")
 
-setDescription("双手各拿一根打火棍（Fire Stick），并右键一个方块以生火")
+setDescription("双手各持一根削过的木棍， 右键一个方块即可生火")
 
 setParent("triumph:stage0/firsttool")
 setRequiresParent(true)

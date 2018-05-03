@@ -2,7 +2,7 @@ setTitle("升级！")
 
 setIcon("primal:flint_pickaxe")
 
-setDescription("合成一把燧石镐（Flint Pickaxe）")
+setDescription("合成一把燧石镐")
 
 setParent("triumph:stage0/firsttool")
 setRequiresParent(true)

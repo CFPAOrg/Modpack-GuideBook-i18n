@@ -2,7 +2,7 @@ setTitle("桶")
 
 setIcon("primal:barrel")
 
-setDescription("合成一个来自Primal Core这个Mod的木桶（Barrel）来存储流体")
+setDescription("合成一个来自 Primal Core 这个模组的桶来存储流体")
 
 setParent("triumph:stage0/fluidbladder")
 setRequiresParent(true)

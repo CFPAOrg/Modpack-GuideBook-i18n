@@ -2,7 +2,7 @@ setTitle("砍！砍！砍！")
 
 setIcon("horsepower:chopper")
 
-setDescription("再也不用手动分解木板了！放下一个马砧板，用栓绳将马牵上，再放入物品就能自动分解了")
+setDescription("再也不用手动分解木板了！ 放下一个马砧板，用栓绳将马牵上， 再放入物品就能自动分解了")
 
 setParent("triumph:stage0/horsepower")
 setRequiresParent(true)

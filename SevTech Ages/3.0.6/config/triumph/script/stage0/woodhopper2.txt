@@ -2,7 +2,7 @@ setTitle("巨大化！")
 
 setIcon("primal_tech:wooden_hopper")
 
-setDescription("你现在的木漏斗不好用？把它升级到木漏斗Mk2（Wopper Mk2）来增加它的功能吧！")
+setDescription("你现在的木漏斗不好用？ 把它升级到 ”料斗 Mk2”来增加它的功能吧！")
 
 setParent("triumph:stage0/woodhopper1")
 setRequiresParent(true)

@@ -2,7 +2,7 @@ setTitle("哗哗巴士")
 
 setIcon("astikoor:wheel")
 
-setDescription("合成来自Astikoor这个Mod的轮子并合成一个马车（Cart）你需要使用该Mod的一个特殊键位（Astikoor action key）来连接马与马车")
+setDescription("合成来自“马拉车具（Astikoor）”这个模组的轮子 并合成一个马车 你需要使用该模组的一个特殊键位来连接马与马车")
 
 setParent("triumph:stage0/saddle")
 setRequiresParent(true)

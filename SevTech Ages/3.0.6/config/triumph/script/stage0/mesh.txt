@@ -2,7 +2,7 @@ setTitle("筛点燧石")
 
 setIcon("pickletweaks:grass_mesh")
 
-setDescription("破坏沙砾不会掉落燧石，用植物纤维网（Grass Fiber Mesh）与沙砾合成以稳定获取燧石")
+setDescription("破坏沙砾不会掉落燧石， 需要用草纤维网与沙砾合成来获取燧石")
 
 setParent("triumph:stage0/fiber")
 setRequiresParent(true)

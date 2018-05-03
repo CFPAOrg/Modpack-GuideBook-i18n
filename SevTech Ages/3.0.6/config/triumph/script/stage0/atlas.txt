@@ -2,7 +2,7 @@ setTitle("失而复得")
 
 setIcon("antiqueatlas:empty_antique_atlas")
 
-setDescription("从一位图书管理员/制图师村民那里换取一份古代地图")
+setDescription("从一位图书管理员/制图师村民 那里换取一份古代地图")
 
 setParent("triumph:stage0/workblade")
 setRequiresParent(true)
