@@ -2,7 +2,7 @@ setTitle("Defeat the Endermenace!")
 
 setIcon("appliedenergistics2:material", 46)
 
-setDescription("Endermen have begun spawning in the world, slay them to obtain their Ender Dust")
+setDescription("末影人已经开始在世界上生成了，杀死他们来获取末影粉。")
 
 setParent("triumph:stage2/conpaper")
 setRequiresParent(true)

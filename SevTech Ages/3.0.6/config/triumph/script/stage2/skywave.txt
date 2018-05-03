@@ -2,7 +2,7 @@ setTitle("Starlight Geolocation")
 
 setIcon("astralsorcery:itemskyresonator")
 
-setDescription("The Luminous Crafting Table requires the Starlight meter to be filled before a crafting operation can be completed. Craft and use the Fosic Resonator to locate an area in the world that is rich in starlight to craft with. You'll have a difficult time finding it during the daytime. It's best to wait until night")
+setDescription("星辉祭坛需要在完成操作之前充能星能。制作并使用法斯刻共振器来定位世界上富含星能的区域。白天你会很难找到它，最好等到晚上。")
 
 setParent("triumph:stage2/conpaper")
 setRequiresParent(true)

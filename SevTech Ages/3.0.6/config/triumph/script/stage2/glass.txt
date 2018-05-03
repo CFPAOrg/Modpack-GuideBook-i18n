@@ -2,7 +2,7 @@ setTitle("Glass Blowing")
 
 setIcon("minecraft:glass")
 
-setDescription("Create glass by first melting Sand in the Melter or Smeltery and pouring it into a basin")
+setDescription("通过将沙子放进微缩陶瓷熔炉或者冶炼炉来融合成熔融玻璃，然后将其导入到浇筑盆中来制作玻璃。")
 
 setParent("triumph:stage2/root")
 setRequiresParent(true)

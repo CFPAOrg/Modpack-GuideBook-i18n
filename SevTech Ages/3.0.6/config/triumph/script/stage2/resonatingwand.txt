@@ -2,7 +2,7 @@ setTitle("Resonation")
 
 setIcon("astralsorcery:itemwand")
 
-setDescription("You'll need a Resonating Wand from Astral Sorcery to continue your journey")
+setDescription("你需要制作星辉魔法的共鸣之杖来继续你的旅程。")
 
 setParent("triumph:stage2/enderman")
 setRequiresParent(true)

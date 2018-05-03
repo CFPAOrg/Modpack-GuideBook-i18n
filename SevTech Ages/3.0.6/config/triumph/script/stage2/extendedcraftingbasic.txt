@@ -2,7 +2,7 @@ setTitle("Extended Crafting: Iron")
 
 setIcon("extendedcrafting:table_basic")
 
-setDescription("Craft the Basic Crafting Table from Extended Crafting for more complex recipes")
+setDescription("制作一个基础合成台来制作更多的合成配方")
 
 setParent("triumph:stage2/starpowder")
 setRequiresParent(true)

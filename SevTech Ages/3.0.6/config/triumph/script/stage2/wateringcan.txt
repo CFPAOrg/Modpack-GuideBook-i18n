@@ -2,7 +2,7 @@ setTitle("Fast Farm")
 
 setIcon("pickletweaks:watering_can")
 
-setDescription("If you're tired of waiting for crops to grow craft a Watering Can")
+setDescription("如果你厌倦了等待庄稼的生长，那就制作一个洒水壶")
 
 setParent("triumph:stage2/smeltertank")
 setRequiresParent(true)

@@ -2,7 +2,7 @@ setTitle("Liquify")
 
 setIcon("astralsorcery:blockwell")
 
-setDescription("The Lightwell from Astral Sorcery will allow certain items to be liquefied into Liquid Starlight")
+setDescription("星辉魔法的聚星缸允许某些物品液化成星能液。")
 
 setParent("triumph:stage2/conpaper")
 setRequiresParent(true)

@@ -2,7 +2,7 @@ setTitle("The Betweenlands")
 
 setIcon("thebetweenlands:weedwood_sword")
 
-setDescription("Tools brought into the Betweenlands from other dimensions will not be effective. You'll need to craft new tools and weapons to progress. Note, This advancement specifically requires you to craft a Weedwood Sword to complete")
+setDescription("从其他世界进入交错次元的工具将不起作用。你需要制作新的工具和武器来用。注意，此成就特别要求你制作一把杂草木剑来完成。")
 
 setParent("triumph:stage2/betweenlands")
 

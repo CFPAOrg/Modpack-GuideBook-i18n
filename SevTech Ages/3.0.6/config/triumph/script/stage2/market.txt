@@ -2,7 +2,7 @@ setTitle("The Market")
 
 setIcon("farmingforblockheads:market")
 
-setDescription("Use the Farming for Blockheads Market to order Seeds and Saplings")
+setDescription("利用市场来购买种子和树苗。")
 
 setParent("triumph:stage2/gold")
 setRequiresParent(true)

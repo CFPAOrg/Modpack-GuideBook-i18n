@@ -2,7 +2,7 @@ setTitle("Wooly Blankets")
 
 setIcon("minecraft:wool")
 
-setDescription("Craft some wool from Fleece and Wicker")
+setDescription("用绒毛和筚板块制作一些羊毛")
 
 setParent("triumph:stage2/root")
 setRequiresParent(true)

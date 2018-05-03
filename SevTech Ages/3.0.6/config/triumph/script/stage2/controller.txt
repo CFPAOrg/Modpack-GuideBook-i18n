@@ -2,7 +2,7 @@ setTitle("Controlling")
 
 setIcon("tconstruct:smeltery_controller")
 
-setDescription("If flint or bone tools aren't cutting it any longer, you'll need a Smeltery. After you place all your smeltery blocks place a Smeltery Controller to complete the structure")
+setDescription("如果燧石或骨工具不再有用，你需要一个冶炼厂。 当你把所以冶炼厂方块放置好后放置一个冶炼炉控制器来完成结构。")
 
 setParent("triumph:stage2/betweenlands")
 setRequiresParent(true)

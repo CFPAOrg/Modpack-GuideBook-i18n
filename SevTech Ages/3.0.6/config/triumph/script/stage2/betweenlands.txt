@@ -2,7 +2,7 @@ setTitle("The Betweenlands")
 
 setIcon("thebetweenlands:swamp_talisman")
 
-setDescription("Locate a Druid Circle in Swamp Biome, kill the druids, and use their talisman pieces to create the Swamp Talisman. Click the Talisman on a placed Sapling to create the large portal to the Betweenlands")
+setDescription("在沼泽生物群系中找到一个黑暗德鲁伊祭坛，杀死黑暗德鲁伊，并用他们的护身符制作一个沼泽护身符。用沼泽护身符点击树苗来创建一个通往交错次元的入口。")
 
 setParent("triumph:stage2/root")
 

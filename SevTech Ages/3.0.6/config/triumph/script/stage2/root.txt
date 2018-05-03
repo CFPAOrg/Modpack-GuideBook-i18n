@@ -1,8 +1,8 @@
-setTitle("Age 2")
+setTitle("第二纪元")
 
 setIcon("astralsorcery:itemcraftingcomponent", 4)
 
-setDescription("Welcome to the next age!")
+setDescription("欢迎来到第二纪元！")
 
 setBackground("minecraft:textures/blocks/stonebrick_mossy.png")
 

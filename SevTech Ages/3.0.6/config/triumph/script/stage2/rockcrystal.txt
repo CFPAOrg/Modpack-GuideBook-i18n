@@ -2,7 +2,7 @@ setTitle("Rock, Paper, Crystals")
 
 setIcon("astralsorcery:itemrockcrystalsimple", 0)
 
-setDescription("Rock Crystals are important for Astral Sorcery progression, locate a Rock Crystal Sample on the surface and dig down to find the vein below Y10")
+setDescription("水晶石对于星辉魔法的发展很重要，在地表上找到和挖掘一个水晶样本，它位于Y10以下。")
 
 setParent("triumph:stage2/starpowder")
 setRequiresParent(true)

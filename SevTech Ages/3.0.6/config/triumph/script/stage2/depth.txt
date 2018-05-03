@@ -2,7 +2,7 @@ setTitle("Into The Depths")
 
 setIcon("infoaccessories:info_accessory", 2)
 
-setDescription("Craft a Depth Meter to better monitor your Y level")
+setDescription("制作一个深度测量仪以更好的查看你的Y轴。")
 
 setParent("triumph:stage2/compass")
 setRequiresParent(true)

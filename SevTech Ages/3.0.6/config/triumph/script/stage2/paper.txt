@@ -2,7 +2,7 @@ setTitle("Papers Please")
 
 setIcon("minecraft:paper")
 
-setDescription("Evolve your paper production technique by making Minecraft Paper")
+setDescription("通过合成纸来发展你的造纸技术。")
 
 setParent("triumph:stage2/root")
 setRequiresParent(true)

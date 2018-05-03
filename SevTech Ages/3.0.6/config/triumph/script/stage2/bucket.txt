@@ -2,7 +2,7 @@ setTitle("They Be Stealin' My Bucket")
 
 setIcon("minecraft:bucket")
 
-setDescription("Now that you have acquired Iron, use your smeltery to cast an Iron Bucket")
+setDescription("现在你已经获得铁，用你的冶炼厂铸造一个铁桶。")
 
 setParent("triumph:stage2/controller")
 setRequiresParent(true)

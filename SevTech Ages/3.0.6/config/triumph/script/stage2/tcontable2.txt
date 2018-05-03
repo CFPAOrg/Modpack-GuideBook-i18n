@@ -2,7 +2,7 @@ setTitle("Part Maker")
 
 setIcon("tconstruct:tooltables", 1)
 
-setDescription("You can start working on replacing your tools by crafting a Stencil Table and Part Builder")
+setDescription("你可以通过模具加工台制作模板来替换你的工具。")
 
 setParent("triumph:stage2/tcontable1")
 setRequiresParent(true)

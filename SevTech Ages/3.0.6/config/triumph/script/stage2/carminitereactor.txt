@@ -2,7 +2,7 @@ setTitle("Reactor Idle")
 
 setIcon("twilightforest:tower_device", 12)
 
-setDescription("You are going to need a Carminite Reactor to create your first engine. Locate the Reactor either by searching the Ur-Ghast Tower in the Twilight Forest or by crafting using resource found in the Twilight")
+setDescription("你将需要一个砷铅铁反应堆来创建你的第一个引擎。通过搜寻暮色森林中的黑暗高塔（暮色恶魂BOSS）或者利用塔里的资源制作反应堆。")
 
 setParent("triumph:stage2/twilight")
 setRequiresParent(true)

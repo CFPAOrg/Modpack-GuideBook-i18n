@@ -2,7 +2,7 @@ setTitle("Enter the Twilight")
 
 setIcon("astralsorcery:itemcraftingcomponent", 1)
 
-setDescription("Enter the Twilight Forest dimension to continue your journey. Fill a 2x2 hole with water, surround it with plants, saplings, or flowers and throw an Astral Sorcery Starmetal Ingot into the water to create the portal")
+setDescription("进入暮色森林继续你的旅程。用水填满一个2x2的地方，用植物、树苗或花来包围它，把星辉魔法的星辉锭扔进水中来创造入口。")
 
 setParent("triumph:stage2/astable2")
 setRequiresParent(true)

@@ -2,7 +2,7 @@ setTitle("What's My Biome?")
 
 setIcon("infoaccessories:info_accessory", 6)
 
-setDescription("Use a Biomealyzer to learn the name of the biome you're currently in")
+setDescription("使用生物群系探测仪来了解你当前生物群系的名称")
 
 setParent("triumph:stage2/compass")
 setRequiresParent(true)

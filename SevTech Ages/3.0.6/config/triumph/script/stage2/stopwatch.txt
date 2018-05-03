@@ -2,7 +2,7 @@ setTitle("Speedrunner")
 
 setIcon("infoaccessories:info_accessory")
 
-setDescription("The Stopwatch will display information on the player's motion")
+setDescription("秒表将显示玩家的移动时信息。")
 
 setParent("triumph:stage2/compass")
 setRequiresParent(true)
