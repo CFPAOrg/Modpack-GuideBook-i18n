@@ -1,8 +1,8 @@
-setTitle("Don't Underestimate My Power")
+setTitle("不要低估我的力量")
 
 setIcon("poweradapters:mj")
 
-setDescription("When you're unable to transfer energy between different mods, the Power Adapter block can help convert")
+setDescription("当你无法在不同的MOD之间传输能量时，能量适配器可以帮助你转换。")
 
 setParent("triumph:stage4/root")
 setRequiresParent(true)

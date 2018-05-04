@@ -1,8 +1,8 @@
-setTitle("Ore Prospector Tier 4")
+setTitle("4级探矿者")
 
 setIcon("prospectors:prospector_high")
 
-setDescription("Craft the Advanced Prospector to locate Age 4 ores")
+setDescription("制作一个高级矿石勘探器来帮你定位阶段4中的矿石")
 
 setParent("triumph:stage4/root")
 setRequiresParent(true)

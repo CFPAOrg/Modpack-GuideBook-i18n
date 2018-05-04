@@ -1,8 +1,8 @@
-setTitle("Enter the End")
+setTitle("前往末地")
 
 setIcon("minecraft:end_portal_frame")
 
-setDescription("Locate a Stronghold and enter the End Dimension")
+setDescription("找到并进入末地。")
 
 setParent("triumph:stage4/root")
 

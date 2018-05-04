@@ -1,8 +1,8 @@
-setTitle("Pressure Chamber")
+setTitle("压力室")
 
 setIcon("pneumaticcraft:pressure_chamber_wall")
 
-setDescription("Craft Pressue Chamber Walls and build a Pneumaticraft Pressure Chamber")
+setDescription("制作压力室墙壁并建筑一个气动工艺的压力室")
 
 setParent("triumph:stage4/compressediron")
 setRequiresParent(true)

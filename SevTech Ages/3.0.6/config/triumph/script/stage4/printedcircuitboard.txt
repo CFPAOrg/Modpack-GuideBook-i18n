@@ -1,8 +1,8 @@
-setTitle("Printed Circuit Board")
+setTitle("印刷电路板")
 
 setIcon("pneumaticcraft:printed_circuit_board")
 
-setDescription("Using your Pneumaticraft setup, create a Printed Circuit Board")
+setDescription("使用你的气动装置，创建一个印刷电路板")
 
 setParent("triumph:stage4/compressediron")
 setRequiresParent(true)

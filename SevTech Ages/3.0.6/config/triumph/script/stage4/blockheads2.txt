@@ -1,8 +1,8 @@
-setTitle("Moving on Up!")
+setTitle("继续前进！")
 
 setIcon("cookingforblockheads:recipe_book", 2)
 
-setDescription("Use the Cooking for Blockheads Book II to craft available recipes from your inventory or as a crafting material for appliances")
+setDescription("使用《傻瓜烹饪手册II》能够使用背包中的食材烹饪食物，或者作为烹饪的工具。")
 
 setParent("triumph:stage4/blockheads1")
 setRequiresParent(true)

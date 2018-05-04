@@ -1,8 +1,8 @@
-setTitle("Plastic Mixer")
+setTitle("塑料塑形机")
 
 setIcon("pneumaticcraft:plastic_mixer")
 
-setDescription("Craft a Plastic Mixer to create colored Plastic Sheets")
+setDescription("制作模块化机械（Modular Machinery）的塑料塑形机，使熔融塑料（Plastic）塑形成塑料片")
 
 setParent("triumph:stage4/compressediron")
 setRequiresParent(true)

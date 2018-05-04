@@ -1,8 +1,8 @@
-setTitle("Space Program Foundation")
+setTitle("基础太空计划")
 
 setIcon("galacticraftcore:rocket_workbench")
 
-setDescription("Craft a NASA Workbench to begin your journey to the Moon")
+setDescription("制作一个NASA工程台开始你的月球之旅")
 
 setParent("triumph:stage4/endercrafter")
 setRequiresParent(true)

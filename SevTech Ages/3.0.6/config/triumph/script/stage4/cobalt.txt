@@ -1,8 +1,8 @@
-setTitle("Cobalt")
+setTitle("钴矿石")
 
 setIcon("tconstruct:ore", 0)
 
-setDescription("Locate and mine Cobalt, found throughout the Nether")
+setDescription("在下届找到和挖掘钴矿石！")
 
 setParent("triumph:stage4/ardite")
 setRequiresParent(true)

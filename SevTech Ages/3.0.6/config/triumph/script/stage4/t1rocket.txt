@@ -1,8 +1,8 @@
-setTitle("Rocket Ship")
+setTitle("»ð¼ý·É´¬")
 
 setIcon("galacticraftcore:rocket_t1")
 
-setDescription("Build a Tier 1 Galacticraft Rocket")
+setDescription("ÖÆ×÷Ò»ËÒÒ»½×»ð¼ý")
 
 setParent("triumph:stage4/nasaworkbench")
 setRequiresParent(true)

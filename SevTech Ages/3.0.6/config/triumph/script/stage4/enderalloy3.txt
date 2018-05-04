@@ -1,8 +1,8 @@
-setTitle("Advanced Ender Alloy")
+setTitle("末影合金（高级）")
 
 setIcon("enderutilities:enderpart", 2)
 
-setDescription("Locate Purpur, End Rods, and a Shulker Shell to create Advanced Ender Alloy")
+setDescription("在末地中找到潜影壳，末地烛和紫珀块，可用来制作末影合金（高级）")
 
 setParent("triumph:stage4/theend")
 setRequiresParent(true)

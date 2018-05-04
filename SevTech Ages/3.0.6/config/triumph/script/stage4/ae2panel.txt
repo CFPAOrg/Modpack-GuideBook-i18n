@@ -1,8 +1,8 @@
-setTitle("Applied Energistics")
+setTitle("应用能源")
 
 setIcon("appliedenergistics2:part", 380)
 
-setDescription("Craft an ME Terminal and choose your path to Applied Energistics, Refined Storage, or both!")
+setDescription("制作一个ME终端，并在应用能源和精致储存之间选择，也可以两者兼有！")
 
 setParent("triumph:stage4/inscriber")
 setRequiresParent(true)

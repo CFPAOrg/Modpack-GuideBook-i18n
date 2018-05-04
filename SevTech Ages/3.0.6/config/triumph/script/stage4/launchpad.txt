@@ -1,8 +1,8 @@
-setTitle("Thrusters Are Go")
+setTitle("推进器启动！")
 
 setIcon("galacticraftcore:landing_pad", 0)
 
-setDescription("To take off, you'll need to place 9 Landing Pads in a 3x3 and then place your rocket on the center pad")
+setDescription("在火箭起飞时，你需要在3x3的地方放置9个火箭发射平台，然后将火箭放在平台中心。")
 
 setParent("triumph:stage4/nasaworkbench")
 setRequiresParent(true)

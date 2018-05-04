@@ -1,8 +1,8 @@
-setTitle("Enhanced Ender Alloy")
+setTitle("末影合金（增强）")
 
 setIcon("enderutilities:enderpart", 1)
 
-setDescription("Locate Chorus in the End and use the Fruit to create Enhanced Ender Alloy")
+setDescription("在末地中找到紫颂果，可用来制作末影合金（增强）")
 
 setParent("triumph:stage4/theend")
 setRequiresParent(true)

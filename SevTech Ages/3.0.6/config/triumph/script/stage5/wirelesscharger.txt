@@ -1,4 +1,4 @@
-setTitle("无限充电器")
+setTitle("无线充电器")
 
 setIcon("chargers:wireless_charger", 0)
 

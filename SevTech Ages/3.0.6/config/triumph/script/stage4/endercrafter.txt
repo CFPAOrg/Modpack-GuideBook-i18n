@@ -2,7 +2,7 @@ setIcon("extendedcrafting:ender_crafter")
 
 setTitle("Ender Crafter")
 
-setDescription("Craft the Ender Crafter and Ender Alternator for advanced crafting")
+setDescription("制作Ender Crafter和Ender Alternator来进行进阶的合成")
 
 setParent("triumph:stage4/enderalloy2")
 setRequiresParent(true)

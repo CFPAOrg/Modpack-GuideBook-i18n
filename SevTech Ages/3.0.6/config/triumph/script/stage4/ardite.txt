@@ -1,8 +1,8 @@
-setTitle("Ardite Ore")
+setTitle("阿迪特矿石")
 
 setIcon("tconstruct:ore", 1)
 
-setDescription("Locate and mine Ardite Ore in the Nether using a Cobalt Level pickaxe")
+setDescription("在下届寻找阿迪特矿石并用挖掘等级为钴（Cobalt）的镐挖掘。")
 
 setParent("triumph:stage4/prospector4")
 setRequiresParent(true)

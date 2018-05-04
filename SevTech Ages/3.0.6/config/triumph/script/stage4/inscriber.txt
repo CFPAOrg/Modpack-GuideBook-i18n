@@ -1,8 +1,8 @@
-setTitle("Inscribing")
+setTitle("压印中...")
 
 setIcon("appliedenergistics2:inscriber")
 
-setDescription("Craft and connect the Inscriber to begin creating processors and other machines")
+setDescription("制作一个压印机，它可以压制模板和处理器以及其他机器")
 
 setParent("triumph:stage4/certusquartz")
 setRequiresParent(true)

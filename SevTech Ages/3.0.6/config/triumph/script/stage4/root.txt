@@ -1,8 +1,8 @@
-setTitle("Age 4")
+setTitle("第四纪元")
 
 setIcon("industrialforegoing:plastic")
 
-setDescription("Welcome to the next age!")
+setDescription("欢迎来到第四纪元！")
 
 setBackground("immersiveengineering:textures/blocks/sheetmetal_steel.png")
 

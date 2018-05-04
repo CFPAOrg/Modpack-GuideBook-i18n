@@ -1,8 +1,8 @@
-setTitle("Certus Quartz")
+setTitle("石英矿")
 
 setIcon("appliedenergistics2:material")
 
-setDescription("Find a surface sample and dig for Assorted Quartz! Located Y6 to 29")
+setDescription("找到一个在地表的石英样本，并挖掘各种石英！通常在Y值6~29的地方")
 
 setParent("triumph:stage4/prospector4")
 setRequiresParent(true)

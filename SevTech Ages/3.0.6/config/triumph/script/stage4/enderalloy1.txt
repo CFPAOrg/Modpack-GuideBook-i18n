@@ -1,8 +1,8 @@
-setTitle("Ender Alloy")
+setTitle("末影合金")
 
 setIcon("enderutilities:enderpart")
 
-setDescription("Defeat the Dragon and mine the Biotite in the End to use in Ender Alloy creation")
+setDescription("在末地中打败末影龙和挖掘些末影云母，可用来制作末影合金（基础）")
 
 setParent("triumph:stage4/theend")
 setRequiresParent(true)

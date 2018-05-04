@@ -1,8 +1,8 @@
-setTitle("Elite Crafting Table")
+setTitle("精英工作台")
 
 setIcon("extendedcrafting:table_elite")
 
-setDescription("Some recipes need more space. Craft an Elite Crafting Table to begin")
+setDescription("有些合成需要更多的空间。制作一个精英工作台吧！")
 
 setParent("triumph:stage4/manyullyn")
 setRequiresParent(true)

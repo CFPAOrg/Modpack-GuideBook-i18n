@@ -1,8 +1,8 @@
-setTitle("Reusable Eye")
+setTitle("可重复使用的眼睛")
 
 setIcon("cyclicmagic:ender_eye_orb")
 
-setDescription("Craft and  use the Solid Ender Eye to locate the End easily")
+setDescription("制作一个固态末影之眼，能更容易的找到末地门")
 
 setParent("triumph:stage4/root")
 setRequiresParent(true)

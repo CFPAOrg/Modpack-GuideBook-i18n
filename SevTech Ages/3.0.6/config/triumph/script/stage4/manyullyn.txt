@@ -1,8 +1,8 @@
-setTitle("Manyullyn")
+setTitle("玛玉灵")
 
 setIcon("tconstruct:metal", 2)
 
-setDescription("Combine Ardite and Cobalt in a Smeltery to create Manyullyn")
+setDescription("在冶炼炉中融合阿迪特与钴来创造出玛玉灵。")
 
 setParent("triumph:stage4/cobalt")
 setRequiresParent(true)

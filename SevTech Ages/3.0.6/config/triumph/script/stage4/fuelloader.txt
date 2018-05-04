@@ -1,8 +1,8 @@
-setTitle("Fill Her Up")
+setTitle("填满她")
 
 setIcon("galacticraftcore:fuel_loader", 0)
 
-setDescription("The Fuel Loader will be needed to fuel a Rocket before Take off")
+setDescription("在火箭起飞前需要用燃料装载机为它加油")
 
 setParent("triumph:stage4/compressor")
 setRequiresParent(true)

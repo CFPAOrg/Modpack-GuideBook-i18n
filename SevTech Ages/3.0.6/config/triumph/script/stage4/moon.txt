@@ -1,8 +1,8 @@
-setTitle("To the Moon!")
+setTitle("抵达月球！")
 
 setIcon("chisel:iron", 12)
 
-setDescription("Launch a Rocket and land on the Moon")
+setDescription("发射火箭并降落在月球上")
 
 setParent("triumph:stage4/t1rocket")
 setRequiresParent(true)

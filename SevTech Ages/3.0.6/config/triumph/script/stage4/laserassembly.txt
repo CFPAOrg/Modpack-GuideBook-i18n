@@ -1,8 +1,8 @@
-setTitle("Programming the Assembly")
+setTitle("组装程序设计")
 
 setIcon("pneumaticcraft:assembly_program", 1)
 
-setDescription("Order an Assembly Program: Laser from your Amadron Tablet")
+setDescription("订购组装程序：从Amadron平板电脑中订取")
 
 setParent("triumph:stage4/amadrontablet")
 setRequiresParent(true)

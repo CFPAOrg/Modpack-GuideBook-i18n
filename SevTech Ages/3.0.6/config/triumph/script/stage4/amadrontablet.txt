@@ -1,8 +1,8 @@
 setIcon("pneumaticcraft:amadron_tablet")
 
-setTitle("Amadron Delivery")
+setTitle("Amadron平板电脑")
 
-setDescription("Fill the Amadron Tablet with air pressure and use it to order items. Make sure to set the pickup and dropoff locations by using Shift Right-Click")
+setDescription("用充能站对Amadron平板电脑进行充气，然后用它来订购物品。确保通过使用Shift右键单击箱子或储存流体来设置上门收件与收获位置。")
 
 setParent("triumph:stage4/plasticmixer")
 setRequiresParent(true)
