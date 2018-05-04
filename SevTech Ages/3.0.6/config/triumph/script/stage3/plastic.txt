@@ -2,7 +2,7 @@ setTitle("可塑性")
 
 setIcon("industrialforegoing:plastic")
 
-setDescription("从模块化机械（Modular Machinery）的Plastic Moder将熔融Plastic转化为可用于许多新配方的塑料片")
+setDescription("从模块化机械（Modular Machinery）的塑料塑型机将熔融塑料转化为可用于许多新配方的塑料片")
 
 setParent("triumph:stage3/liquidplastic")
 setRequiresParent(true)

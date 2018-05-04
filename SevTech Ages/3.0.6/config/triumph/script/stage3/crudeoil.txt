@@ -2,7 +2,7 @@ setTitle("开采石油")
 
 setIcon("forge:bucketfilled", 0, {FluidName:"oil",Amount:1000})
 
-setDescription("使用岩心钻井来定位区块中的石油。 修建一个沉浸原油的采油机来提取它，并用桶来装取一桶油来完成此进度。")
+setDescription("使用岩心钻井来探测区块中的原油。 修建一个沉浸原油的采油机来提取它，并用桶来装取一桶油来完成此进度。")
 
 setParent("triumph:stage3/sampledrill")
 setRequiresParent(true)

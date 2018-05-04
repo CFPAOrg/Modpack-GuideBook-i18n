@@ -2,7 +2,7 @@ setTitle("丙烯和丙烯配件")
 
 setIcon("forge:bucketfilled", 0, {FluidName: "propene", Amount: 1000})
 
-setDescription("使用模块化机械（Modular Machinery）的Chemical Mixer将允许你混合熔融Naphtha和蒸汽来制作熔融Propene。抓住一个桶向塑料的方向前进。")
+setDescription("使用模块化机械（Modular Machinery）的化学混合器将允许你混合熔融石脑油和蒸汽来制作熔融丙烯。拿起你的桶向塑料的方向前进吧。")
 
 setParent("triumph:stage3/steam")
 setRequiresParent(true)

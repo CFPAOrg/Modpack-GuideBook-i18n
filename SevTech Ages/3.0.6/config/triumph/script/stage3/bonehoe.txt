@@ -2,7 +2,7 @@ setTitle("地狱工具")
 
 setIcon("nex:tool_hoe_bone")
 
-setDescription("使用骨锄（Golden Bone Hoe）可以耕耘泥土，也可以耕耘灵魂沙。")
+setDescription("使用金骨锄可以耕耘泥土，也可以耕耘灵魂沙。")
 
 setParent("triumph:stage3/netherwart")
 setRequiresParent(true)
