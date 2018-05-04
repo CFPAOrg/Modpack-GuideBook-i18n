@@ -2,7 +2,7 @@ setTitle("打磨燧石")
 
 setIcon("minecraft:flint")
 
-setDescription("手持燧石左键石头以获取燧石片 手持燧石碎片左键石头则会给你一个尖锐燧石片")
+setDescription("手持燧石左键石头以获取剥片燧石 手持燧石碎片左键石头则会给你一个尖锐剥片燧石")
 
 setParent("triumph:stage0/mesh")
 setRequiresParent(true)
