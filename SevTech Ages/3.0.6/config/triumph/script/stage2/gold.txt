@@ -1,4 +1,4 @@
-setTitle("Gold Standard")
+setTitle("»Æ½ð±ê×¼")
 
 setIcon("minecraft:gold_ingot")
 

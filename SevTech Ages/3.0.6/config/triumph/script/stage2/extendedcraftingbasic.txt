@@ -1,4 +1,4 @@
-setTitle("Extended Crafting: Iron")
+setTitle("ÍØÕ¹ºÏ³É£ºÌú")
 
 setIcon("extendedcrafting:table_basic")
 

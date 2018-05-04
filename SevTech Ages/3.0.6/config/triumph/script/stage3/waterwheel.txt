@@ -1,8 +1,8 @@
-setTitle("Water Wheel")
+setTitle("水车")
 
 setIcon("immersiveengineering:wooden_device1")
 
-setDescription("A Waterwheel connected to a Kinetic Dynamo will provide power when spun by flowing water")
+setDescription("将水车连接到动能发电机来产生能量")
 
 setParent("triumph:stage3/creosote")
 setRequiresParent(true)

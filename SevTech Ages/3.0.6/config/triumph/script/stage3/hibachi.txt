@@ -1,8 +1,8 @@
-setTitle("Hibachi")
+setTitle("火盆")
 
 setIcon("betterwithmods:hibachi")
 
-setDescription("The Better With Mods Hibachi will allow you to have a Stoked Fire below your Cauldron and Crucible")
+setDescription("Better With Mods 中的火盆会为你的釜锅和坩埚提供无限燃烧的火。")
 
 setParent("triumph:stage3/filteredhopper")
 setRequiresParent(true)

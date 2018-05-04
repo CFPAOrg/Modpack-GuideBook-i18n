@@ -1,8 +1,8 @@
-setTitle("The Invention of Plastic")
+setTitle("塑料的发明")
 
 setIcon("forge:bucketfilled", 0, {FluidName: "plastic", Amount: 1000})
 
-setDescription("Using the Modular Machinery liquid Processor, convert Propene into Liquid Plastic")
+setDescription("使用模块化机械（Modular Machinery）的liquid Processor，将熔融Propene转换为熔融Plastic")
 
 setParent("triumph:stage3/propene")
 setRequiresParent(true)

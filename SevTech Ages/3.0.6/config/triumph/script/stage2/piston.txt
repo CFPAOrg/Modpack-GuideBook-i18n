@@ -1,4 +1,4 @@
-setTitle("Push It Real Good")
+setTitle("刚好能够推动它")
 
 setIcon("minecraft:piston")
 

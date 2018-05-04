@@ -1,4 +1,4 @@
-setTitle("Get Lost, Oh Wait...")
+setTitle("好像迷路了……等等……")
 
 setIcon("minecraft:compass")
 

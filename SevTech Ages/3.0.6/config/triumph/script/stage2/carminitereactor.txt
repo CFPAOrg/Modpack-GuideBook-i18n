@@ -1,4 +1,4 @@
-setTitle("Reactor Idle")
+setTitle("œ–÷√∑¥”¶∂—")
 
 setIcon("twilightforest:tower_device", 12)
 

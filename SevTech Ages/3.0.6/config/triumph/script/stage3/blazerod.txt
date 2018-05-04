@@ -1,8 +1,8 @@
-setTitle("Blaze Rod")
+setTitle("烈焰棒")
 
 setIcon("minecraft:blaze_rod", 0)
 
-setDescription("Travel to the Nether, collect Blaze Powder, and use the Metal Press to convert them into Blaze Rods")
+setDescription("前往地狱，收集烈焰粉，并使用金属冲压机将他们冲压成烈焰棒。")
 
 setParent("triumph:stage3/nether")
 setRequiresParent(true)

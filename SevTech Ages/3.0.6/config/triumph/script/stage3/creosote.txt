@@ -1,8 +1,8 @@
-setTitle("Creosote")
+setTitle("杂酚油")
 
 setIcon("immersiveengineering:stone_device")
 
-setDescription("Use the Coke Oven to produce both Creosote liquid and Coal Coke")
+setDescription("使用焦炉生产杂酚油和焦煤")
 
 setParent("triumph:stage3/iehammer")
 setRequiresParent(true)

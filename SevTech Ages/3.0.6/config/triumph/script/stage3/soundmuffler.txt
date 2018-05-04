@@ -1,8 +1,8 @@
-setTitle("Sound Muffler")
+setTitle("超级消音器")
 
 setIcon("supersoundmuffler:sound_muffler")
 
-setDescription("Loud noises driving you crazy? Place down a Super Sound Muffler and configure it to mute the sounds you don't want to hear any more")
+setDescription("噪音让你疯狂？放置一个超级消音器，并配置它使你不想听到的声音")
 
 setParent("triumph:stage3/redstone")
 setRequiresParent(true)

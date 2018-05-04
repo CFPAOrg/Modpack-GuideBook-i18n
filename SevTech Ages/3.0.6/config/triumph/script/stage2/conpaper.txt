@@ -1,8 +1,8 @@
-setTitle("Filling in the Gaps")
+setTitle("填补缺口")
 
 setIcon("astralsorcery:itemconstellationpaper")
 
-setDescription("获取星图来填充星芒宝典中的信息。你可以按住Shift打开星芒宝典的夹层，将星图放进去以储存。")
+setDescription("获取星图来填充星芒宝典中的信息。你可以按住Shift右击打开星芒宝典的夹层，将星图放进去以储存。")
 
 setParent("triumph:stage2/root")
 setRequiresParent(true)

@@ -1,8 +1,8 @@
-setTitle("Galgadorian Metal")
+setTitle("混合晶化金属")
 
 setIcon("stevescarts:modulecomponents", 49)
 
-setDescription("Collect an Enhanced Galgadorian Ingot to further upgrade your infrastructure")
+setDescription("收集强化混合晶化金属锭以进一步升级你的基础设施")
 
 setParent("triumph:stage3/standardhull")
 setRequiresParent(true)

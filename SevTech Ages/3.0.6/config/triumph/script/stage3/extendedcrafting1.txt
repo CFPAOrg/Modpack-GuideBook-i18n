@@ -1,8 +1,8 @@
-setTitle("Extended Crafting: Gold")
+setTitle("扩展工作台：金")
 
 setIcon("extendedcrafting:table_advanced")
 
-setDescription("Craft the Advanced Crafting Table from Extended Crafting for more complex recipes")
+setDescription("从 Extended Crafting 这模组中制作一个高级工作台 来进行更多合成")
 
 setParent("triumph:stage3/nether")
 setRequiresParent(true)

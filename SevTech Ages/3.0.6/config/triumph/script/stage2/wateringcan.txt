@@ -1,4 +1,4 @@
-setTitle("Fast Farm")
+setTitle("快速农业")
 
 setIcon("pickletweaks:watering_can")
 

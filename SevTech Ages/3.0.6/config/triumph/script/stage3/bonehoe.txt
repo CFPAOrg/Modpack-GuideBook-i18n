@@ -1,8 +1,8 @@
-setTitle("Nether Tools")
+setTitle("地狱工具")
 
 setIcon("nex:tool_hoe_bone")
 
-setDescription("Use the Bone Hoe to till dirt and also for Tilled Soul Sand")
+setDescription("使用骨锄（Golden Bone Hoe）可以耕耘泥土，也可以耕耘灵魂沙。")
 
 setParent("triumph:stage3/netherwart")
 setRequiresParent(true)

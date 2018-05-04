@@ -1,8 +1,8 @@
-setTitle("I'm Board")
+setTitle("我是电路板")
 
 setIcon("immersiveengineering:material", 27)
 
-setDescription("Use the Engineer's Workbench to craft a Circuit Board")
+setDescription("使用工程师装配台制作一个电路板")
 
 setParent("triumph:stage3/vacuumtube")
 setRequiresParent(true)

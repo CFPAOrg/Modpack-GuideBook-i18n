@@ -1,8 +1,8 @@
-setTitle("Steve's Carts Standard Hull")
+setTitle("史蒂夫的标准外壳")
 
 setIcon("stevescarts:cartmodule", 38)
 
-setDescription("The Standard Hull from Steve's Carts will allow you to craft better carts")
+setDescription("史蒂夫矿车的标准外壳可以让你制作更好的推车")
 
 setParent("triumph:stage3/woodhull")
 setRequiresParent(true)

@@ -1,8 +1,8 @@
-setTitle("A Small Sample")
+setTitle("岩芯样本")
 
 setIcon("immersiveengineering:metal_device1", 7)
 
-setDescription("Use the Core Sample Drill to locate both Ore Veins and Liquid under the surface per chunk. Don't forget it requires power and you can place the Samples on the ground by Shift-Clicking")
+setDescription("在每个区块表面用岩心钻井来进行矿脉和原油定位。不要忘记它需要提供能量，你可以按住Shift右键把岩芯样本放在地上。")
 
 setParent("triumph:stage3/circuitboard")
 setRequiresParent(true)

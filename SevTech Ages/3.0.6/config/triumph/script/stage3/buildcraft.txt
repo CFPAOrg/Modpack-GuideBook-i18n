@@ -1,8 +1,8 @@
-setTitle("Upgrade Your Line")
+setTitle("升级线路")
 
 setIcon("buildcrafttransport:pipe_cobble_item")
 
-setDescription("Craft a Redstone Engine to begin powering your Buildcraft Pipes")
+setDescription("制作一个红石引擎，开始为你的BC管道提供动力")
 
 setParent("triumph:stage3/circuitboard")
 setRequiresParent(true)

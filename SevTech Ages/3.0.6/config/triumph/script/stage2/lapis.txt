@@ -1,4 +1,4 @@
-setTitle("Roses are Red, Lapis is Blue")
+setTitle("玫瑰是红色的，青金石是蓝色的")
 
 setIcon("minecraft:dye", 4)
 

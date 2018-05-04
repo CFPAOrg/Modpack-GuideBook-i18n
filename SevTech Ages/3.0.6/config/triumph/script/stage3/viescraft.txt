@@ -1,8 +1,8 @@
 setIcon("vc:airship_ignition")
 
-setTitle("Flight!")
+setTitle("飞行！")
 
-setDescription("Using all the Engine items, craft a V1 Viescraft Airship. Open the GUI to see what you can upgrade and to customize the look of your ship")
+setDescription("使用所有发动机的物品制作一艘V1飞船。打开GUI，看看你能升级什么，并定制你飞船的外观")
 
 setParent("triumph:stage3/extendedcrafting1")
 setRequiresParent(true)

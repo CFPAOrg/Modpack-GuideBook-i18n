@@ -1,4 +1,4 @@
-setTitle("Liquify")
+setTitle("าบปฏ")
 
 setIcon("astralsorcery:blockwell")
 

@@ -1,8 +1,8 @@
-setTitle("Ore Prospector")
+setTitle("矿石勘探器")
 
 setIcon("prospectors:prospector_med")
 
-setDescription("Craft an Ore Prospector to locate ore in Age 3")
+setDescription("制作一个矿石勘探器来帮你定位阶段3中的矿石")
 
 setParent("triumph:stage3/root")
 setRequiresParent(true)

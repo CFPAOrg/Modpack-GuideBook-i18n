@@ -1,4 +1,4 @@
-setTitle("Defeat the Endermenace!")
+setTitle("µÖÓùÄ©Ó°£¡")
 
 setIcon("appliedenergistics2:material", 46)
 

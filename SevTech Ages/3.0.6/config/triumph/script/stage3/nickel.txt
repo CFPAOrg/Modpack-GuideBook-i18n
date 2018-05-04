@@ -1,8 +1,8 @@
-setTitle("Limonite Ore")
+setTitle("褐铁矿")
 
 setIcon("immersiveengineering:metal", 4)
 
-setDescription("Find a surface sample and dig for Limonite! The ore is located from Y6 to 32")
+setDescription("找寻地表的褐铁矿样本，并获取镍矿簇！ 通常在Y值6~32的地方。")
 
 setParent("triumph:stage3/oreprospector")
 setRequiresParent(true)

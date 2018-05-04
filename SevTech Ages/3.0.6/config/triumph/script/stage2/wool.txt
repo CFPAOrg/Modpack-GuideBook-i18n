@@ -1,4 +1,4 @@
-setTitle("Wooly Blankets")
+setTitle("ÑòÃ«Ìº×Ó")
 
 setIcon("minecraft:wool")
 

@@ -1,8 +1,8 @@
-setTitle("Upgrade Your Prospects")
+setTitle("前瞻升级")
 
 setIcon("prospectors:prospector_low")
 
-setDescription("制作一个Tough Dowsing Rod可以帮助定位更多的矿石。你可以使用它在你点击的方块48格内找到矿石。")
+setDescription("制作一个坚韧探测杆可以帮助你定位更多的矿石。 你可以使用它在你点击的方块48格内找到矿石。")
 
 setParent("triumph:stage2/glass")
 setRequiresParent(true)

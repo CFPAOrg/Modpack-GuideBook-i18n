@@ -1,8 +1,8 @@
-setTitle("Weedwood")
+setTitle("杂草木")
 
 setIcon("thebetweenlands:weedwood_bush")
 
-setDescription("杂草木棍是通过破坏杂草灌木丛发现的。通常在交错次元周围能找到。注意，它们不能通过砍木头。")
+setDescription("杂草木棍是通过破坏杂草灌木丛发现的。通常在交错次元周围能找到。 注意，它们不能通过砍木头来获取。")
 
 setParent("triumph:stage2/betweenlands")
 

@@ -1,4 +1,4 @@
-setTitle("A Place for My Things")
+setTitle("放置我物品的地方")
 
 setIcon("storagedrawers:framingtable")
 

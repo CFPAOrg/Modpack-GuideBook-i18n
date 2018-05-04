@@ -1,4 +1,4 @@
-setTitle("Train-ing with Coal")
+setTitle("ÉÕÃº»ğ³µ")
 
 setIcon("stevescarts:cartmodule", 0)
 

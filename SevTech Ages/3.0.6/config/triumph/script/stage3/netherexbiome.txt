@@ -1,8 +1,8 @@
-setTitle("The Nether Has Frozen Over")
+setTitle("下界已经结冰了")
 
 setIcon("nex:block_ice_frostburn")
 
-setDescription("Locate and enter the Arctic Abyss Biome")
+setDescription("寻找并进入北极的深渊生物群系。")
 
 setParent("triumph:stage3/nether")
 setRequiresParent(true)

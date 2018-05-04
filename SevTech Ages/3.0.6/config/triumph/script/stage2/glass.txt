@@ -1,4 +1,4 @@
-setTitle("Glass Blowing")
+setTitle("´µÖÆ²£Á§")
 
 setIcon("minecraft:glass")
 

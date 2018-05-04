@@ -1,8 +1,8 @@
-setTitle("Plasticity")
+setTitle("可塑性")
 
 setIcon("industrialforegoing:plastic")
 
-setDescription("The Plastic Molder from Modular Machinery will convert Liquid Plastic into Plastic Sheets useable for a number of new recipes")
+setDescription("从模块化机械（Modular Machinery）的Plastic Moder将熔融Plastic转化为可用于许多新配方的塑料片")
 
 setParent("triumph:stage3/liquidplastic")
 setRequiresParent(true)

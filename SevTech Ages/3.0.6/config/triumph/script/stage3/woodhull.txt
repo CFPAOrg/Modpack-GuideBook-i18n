@@ -1,8 +1,8 @@
-setTitle("Steve's Carts Wooden Hull")
+setTitle("史蒂夫矿车的木制外壳")
 
 setIcon("stevescarts:cartmodule", 37)
 
-setDescription("Craft a Wood Hull to make a very basic Steve's Cart")
+setDescription("制作木制外壳，来做一个最基础的史蒂夫矿车")
 
 setParent("triumph:stage3/stevescartsassembler")
 setRequiresParent(true)

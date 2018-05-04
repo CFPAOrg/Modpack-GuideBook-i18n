@@ -1,8 +1,8 @@
-setTitle("Nether Wart")
+setTitle("地狱疣")
 
 setIcon("minecraft:nether_wart", 0)
 
-setDescription("Find and collect Nether Wart. It's most commonly found in Nether Fortresses")
+setDescription("找到并收集地狱疣。最常见的是在下界要塞中。")
 
 setParent("triumph:stage3/netherexbiome")
 setRequiresParent(true)

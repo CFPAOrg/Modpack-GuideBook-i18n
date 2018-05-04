@@ -1,8 +1,8 @@
-setTitle("Storage Drawer Controller")
+setTitle("抽屉管理器")
 
 setIcon("storagedrawers:controller")
 
-setDescription("The Storage Drawer Controller allows you to turn your drawers into a network")
+setDescription("抽屉管理器可以让你的抽屉变成一个网络")
 
 setParent("triumph:stage3/workbench")
 setRequiresParent(true)

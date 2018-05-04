@@ -1,4 +1,4 @@
-setTitle("Starlight Geolocation")
+setTitle("�ǹⶨλ")
 
 setIcon("astralsorcery:itemskyresonator")
 

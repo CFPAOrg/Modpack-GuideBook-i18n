@@ -1,8 +1,8 @@
-setTitle("Age 3")
+setTitle("第三纪元！")
 
 setIcon("rustic:iron_lantern")
 
-setDescription("Welcome to the next age!")
+setDescription("欢迎来到第三纪元！")
 
 setBackground("minecraft:textures/blocks/soul_sand.png")
 

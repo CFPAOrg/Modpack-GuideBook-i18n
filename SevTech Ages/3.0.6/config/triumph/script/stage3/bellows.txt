@@ -1,8 +1,8 @@
-setTitle("Bellows")
+setTitle("风箱")
 
 setIcon("betterwithmods:bellows")
 
-setDescription("Craft and mechanically power the Bellows to Stoke your Better With Mods Hibachi Fire")
+setDescription("制作一个风箱并和机械扭力连接，它能使火盆达到猛火。")
 
 setParent("triumph:stage3/hibachi")
 setRequiresParent(true)

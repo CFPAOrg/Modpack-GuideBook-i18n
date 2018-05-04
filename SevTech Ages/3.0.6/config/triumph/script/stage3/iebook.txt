@@ -1,8 +1,8 @@
-setTitle("Engineer Manual")
+setTitle("工程师手册")
 
 setIcon("immersiveengineering:tool", 3)
 
-setDescription("The Immersive Engineering Manual is good. use it")
+setDescription("沉浸工程的工程师手册很棒，请做一本")
 
 setParent("triumph:stage3/root")
 setRequiresParent(true)

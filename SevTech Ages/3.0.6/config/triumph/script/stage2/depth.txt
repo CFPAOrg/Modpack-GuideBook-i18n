@@ -1,8 +1,8 @@
-setTitle("Into The Depths")
+setTitle("迈向深渊")
 
 setIcon("infoaccessories:info_accessory", 2)
 
-setDescription("制作一个深度测量仪以更好的查看你的Y轴。")
+setDescription("制作一个深度计以更好的查看你的Y轴。")
 
 setParent("triumph:stage2/compass")
 setRequiresParent(true)

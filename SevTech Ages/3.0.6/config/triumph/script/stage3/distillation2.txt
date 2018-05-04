@@ -1,8 +1,8 @@
-setTitle("Give it Some Gas")
+setTitle("给它一些气体")
 
 setIcon("forge:bucketfilled", 0, {FluidName: "gasoline", Amount: 1000})
 
-setDescription("Further processing Diesel in a Distillation Tower will create Kerosene, Gasoline, and Lubricant. You'll need 1 bucket of each to complete the advancement. These liquids will provide sources of fuel, speed up certain machines, or allow further processing")
+setDescription("在精馏塔内进一步的加工原油将产生柴油、汽油和润滑油，你需要将每一种用桶装取来完成此进度。 这些液体能作为燃料，加速某些机器，或允许进一步的处理。")
 
 setParent("triumph:stage3/naphtha")
 setRequiresParent(true)

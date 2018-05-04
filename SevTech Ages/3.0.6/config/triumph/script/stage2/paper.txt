@@ -1,4 +1,4 @@
-setTitle("Papers Please")
+setTitle("Papers Please ~ 请出示你的证件")
 
 setIcon("minecraft:paper")
 

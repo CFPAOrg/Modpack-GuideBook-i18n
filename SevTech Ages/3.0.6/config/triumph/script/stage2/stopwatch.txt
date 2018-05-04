@@ -1,4 +1,4 @@
-setTitle("Speedrunner")
+setTitle("¼«ËÙ±¼ÅÜ")
 
 setIcon("infoaccessories:info_accessory")
 

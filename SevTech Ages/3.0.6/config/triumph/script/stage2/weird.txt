@@ -1,8 +1,8 @@
-setTitle("Top 10 Weirdest Gadgets")
+setTitle("十大古怪工具")
 
 setIcon("weirdinggadget:weirding_gadget")
 
-setDescription("如果你想要一个区块加载器，制作一个Weirding Gadget并放置它以加载一个3x3区域")
+setDescription("如果你想要一个区块加载器，制作一个古怪工具并放置下来，以加载一个3x3区域")
 
 setParent("triumph:stage2/enderman")
 setRequiresParent(true)

@@ -1,8 +1,8 @@
-setTitle("Engineer's Workbench")
+setTitle("工程师装配台")
 
 setIcon("immersiveengineering:wooden_device0", 2)
 
-setDescription("Craft an Engineer's Workbench to craft items from Blueprints")
+setDescription("制作一个工程师装配台，并从蓝图上制作其他物品。")
 
 setParent("triumph:stage3/iebook")
 setRequiresParent(true)

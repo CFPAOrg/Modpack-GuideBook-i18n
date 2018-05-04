@@ -1,4 +1,4 @@
-setTitle("Resonation")
+setTitle("¹²Ãù")
 
 setIcon("astralsorcery:itemwand")
 

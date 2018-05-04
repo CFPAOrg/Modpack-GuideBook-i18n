@@ -1,4 +1,4 @@
-setTitle("Part Maker")
+setTitle("部件制作者")
 
 setIcon("tconstruct:tooltables", 1)
 

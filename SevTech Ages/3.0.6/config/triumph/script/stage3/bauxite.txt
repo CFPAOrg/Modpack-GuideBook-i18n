@@ -1,8 +1,8 @@
-setTitle("Bauxite Ore")
+setTitle("铝土矿")
 
 setIcon("immersiveengineering:metal", 1)
 
-setDescription("Find a surface sample and dig for Bauxite! The ore is Located from Y45 to 70")
+setDescription("地表寻找铝土矿样本并进行采掘！ 通常在Y值45~70的地方")
 
 setParent("triumph:stage3/oreprospector")
 setRequiresParent(true)

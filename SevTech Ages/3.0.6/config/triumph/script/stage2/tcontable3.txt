@@ -1,4 +1,4 @@
-setTitle("Tool Station")
+setTitle("工具装配台")
 
 setIcon("tconstruct:tooltables", 3)
 

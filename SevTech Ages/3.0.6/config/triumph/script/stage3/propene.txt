@@ -1,8 +1,8 @@
-setTitle("Propene and Propene Accessories")
+setTitle("丙烯和丙烯配件")
 
 setIcon("forge:bucketfilled", 0, {FluidName: "propene", Amount: 1000})
 
-setDescription("Using a Modular Machinery Chemical Mixer will allow you to mix Naphtha and Steam to create Propene. Grab a bucket to progress towards plastic")
+setDescription("使用模块化机械（Modular Machinery）的Chemical Mixer将允许你混合熔融Naphtha和蒸汽来制作熔融Propene。抓住一个桶向塑料的方向前进。")
 
 setParent("triumph:stage3/steam")
 setRequiresParent(true)

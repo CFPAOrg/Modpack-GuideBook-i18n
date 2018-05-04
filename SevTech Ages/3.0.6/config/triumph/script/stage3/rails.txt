@@ -1,8 +1,8 @@
-setTitle("Railways")
+setTitle("铁路")
 
 setIcon("minecraft:rail")
 
-setDescription("Craft and use Rails to travel long distances quickly")
+setDescription("制作和使用铁轨，可以快速远距离进行运输活动")
 
 setParent("triumph:stage3/root")
 setRequiresParent(true)

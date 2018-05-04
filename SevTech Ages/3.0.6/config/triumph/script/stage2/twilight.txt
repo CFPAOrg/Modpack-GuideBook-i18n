@@ -1,4 +1,4 @@
-setTitle("Enter the Twilight")
+setTitle("ÄºÉ«Ì½ÏÕ")
 
 setIcon("astralsorcery:itemcraftingcomponent", 1)
 

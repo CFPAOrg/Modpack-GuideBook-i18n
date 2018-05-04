@@ -1,8 +1,8 @@
-setTitle("Nether Brick")
+setTitle("地狱砖块")
 
 setIcon("minecraft:netherbrick")
 
-setDescription("Place Nether Sludge in a Better With Mods Kiln to cook it into Nether Bricks. Consult the Book of Single on how to assemble the Kiln")
+setDescription("将下届淤泥放到Better With Mods的窑中，将其烧制成地狱砖块。 请参照Better With Mods来了解如何组装窑。")
 
 setParent("triumph:stage3/potash")
 setRequiresParent(true)

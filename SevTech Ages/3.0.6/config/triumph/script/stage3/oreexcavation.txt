@@ -1,8 +1,8 @@
-setTitle("Ore Excavation")
+setTitle("连锁矿工")
 
 setIcon("oeintegration:excavatemodifier")
 
-setDescription("Use the Ore Excavation Modifier item to add an Excavation ability to a Tinkers' Tool. You can also add an Excavation Enchantment to non-Tinkers' tools using the Enchantment Table")
+setDescription("使用挖掘强化可将连锁矿物功能添加到匠魂工具中。 你还可以在附魔台使用带有挖掘效果的附魔书来附魔非匠魂的工具。")
 
 setParent("triumph:stage3/oreprospector")
 setRequiresParent(true)

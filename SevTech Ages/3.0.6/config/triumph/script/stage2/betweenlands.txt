@@ -1,4 +1,4 @@
-setTitle("The Betweenlands")
+setTitle("½»´í´ÎÔª")
 
 setIcon("thebetweenlands:swamp_talisman")
 

@@ -1,4 +1,4 @@
-setTitle("Rock, Paper, Crystals")
+setTitle("ÑÒÊ¯¡¢ÑòÆ¤Ö½¡¢Ë®¾§")
 
 setIcon("astralsorcery:itemrockcrystalsimple", 0)
 

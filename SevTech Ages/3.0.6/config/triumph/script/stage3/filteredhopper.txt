@@ -1,8 +1,8 @@
-setTitle("Filtered Hopper")
+setTitle("ÂËÉ¸Â©¶·")
 
 setIcon("betterwithmods:single_machine", 2)
 
-setDescription("Use the Filtered Hopper to collect Hellfire Dust and fill Soul Urns")
+setDescription("Ê¹ÓÃÂËÉ¸Â©¶·´ÓÁé»êÉ³ÀïÉ¸³öÁ¶Óü»ğÖ®½ı")
 
 setParent("triumph:stage3/nether")
 setRequiresParent(true)

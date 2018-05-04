@@ -1,8 +1,8 @@
-setTitle("Windmill!")
+setTitle("风车！")
 
 setIcon("immersiveengineering:wooden_device1", 1)
 
-setDescription("Craft and connect a Windmill to a Kinetic Dynamo to provide from wind")
+setDescription("将风车和动能发电机连接起来产生能量")
 
 setParent("triumph:stage3/creosote")
 setRequiresParent(true)

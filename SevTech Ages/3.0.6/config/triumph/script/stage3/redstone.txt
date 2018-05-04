@@ -1,8 +1,8 @@
-setTitle("Cinnabar Ore")
+setTitle("朱砂矿")
 
 setIcon("minecraft:redstone")
 
-setDescription("Find a surface sample and dig for Redstone or Cinnabar! The ore is located from Y4 to 24")
+setDescription("找寻地表的朱砂样本，并获取红石！ 通常在Y值4~24的地方，名字也可能是红石或者朱砂")
 
 setParent("triumph:stage3/oreprospector")
 setRequiresParent(true)
