@@ -1,8 +1,8 @@
-setTitle("Sky Stone")
+setTitle("陨石")
 
 setIcon("appliedenergistics2:smooth_sky_stone_block", 0)
 
-setDescription("Moon Cheese can be further refined into Sky Stone using the Metallurgic Infuser from Mekanism")
+setDescription("月球发现的奶酪能够在通用机械的冶金灌注机中强化，变成应用能源的陨石")
 
 setParent("triumph:stage5/cheese")
 setRequiresParent(true)

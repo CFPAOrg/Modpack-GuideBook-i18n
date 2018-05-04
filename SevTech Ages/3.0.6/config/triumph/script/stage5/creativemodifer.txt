@@ -1,8 +1,8 @@
-setTitle("Creative Modifier")
+setTitle("创造强化")
 
 setIcon("tconstruct:materials", 50)
 
-setDescription("Craft the Creative Modifier from Tinker's Construct")
+setDescription("合成一个匠魂模组的创造强化")
 
 setParent("triumph:stage5/ultimateingot")
 setRequiresParent(true)

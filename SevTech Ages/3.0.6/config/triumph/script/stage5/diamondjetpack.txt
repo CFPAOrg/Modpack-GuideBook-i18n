@@ -1,8 +1,8 @@
-setTitle("Diamond Jetpack")
+setTitle("钻石喷射背包")
 
 setIcon("ironjetpacks:diamond_jetpack")
 
-setDescription("Upgrade to the Diamond Jetpack")
+setDescription("升级到钻石喷射背包")
 
 setParent("triumph:stage5/electrumjetpack")
 setRequiresParent(true)

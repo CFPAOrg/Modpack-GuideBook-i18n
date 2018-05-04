@@ -1,8 +1,8 @@
-setTitle("Sharpest Dressed Man")
+setTitle("最男人的穿着")
 
 setIcon("extraplanets:tier4_space_suit_helmet")
 
-setDescription("Craft the full Tier 4 Space Suit to protect you from higher levels of pressure and radiation when going to farther planets")
+setDescription("合成全套的4阶太空服，从而让你在遥远星球极高等级压力和强辐射环境中，穿梭自由")
 
 setParent("triumph:stage5/saturn")
 setRequiresParent(true)

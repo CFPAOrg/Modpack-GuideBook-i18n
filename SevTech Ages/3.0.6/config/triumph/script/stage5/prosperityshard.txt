@@ -1,8 +1,8 @@
-setTitle("Prosperity Shard")
+setTitle("活化水晶碎片")
 
 setIcon("mysticalagriculture:crafting", 5)
 
-setDescription("Prosperity Shards are needed to progress further into Mystical Agriculture. Use the Empowerer to create it")
+setDescription("活化水晶碎片是神秘农业进阶所必须的东西。使用充能台合成它")
 
 setParent("triumph:stage5/inferiumessence")
 setRequiresParent(true)

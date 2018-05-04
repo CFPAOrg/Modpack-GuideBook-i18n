@@ -1,8 +1,8 @@
-setTitle("Age 5")
+setTitle("第五纪元")
 
 setIcon("chisel:futura", 2)
 
-setDescription("Welcome to the next age!")
+setDescription("欢迎来到下一个纪元！")
 
 setBackground("chisel:textures/blocks/tyrian/diagonal.png")
 

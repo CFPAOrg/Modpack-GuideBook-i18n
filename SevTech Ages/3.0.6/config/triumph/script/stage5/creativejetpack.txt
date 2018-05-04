@@ -1,8 +1,8 @@
-setTitle("Creative Jetpack")
+setTitle("创造模式喷射背包")
 
 setIcon("ironjetpacks:creative_jetpack")
 
-setDescription("Craft the Creative Jetpack")
+setDescription("合成一个创造模式喷射背包")
 
 setParent("triumph:stage5/ultimateingot")
 setRequiresParent(true)

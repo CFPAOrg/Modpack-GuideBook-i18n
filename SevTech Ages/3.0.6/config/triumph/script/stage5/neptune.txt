@@ -1,8 +1,8 @@
-setTitle("The Neptunians")
+setTitle("海王星！")
 
 setIcon("tconstruct:edible", 1)
 
-setDescription("Launch a Rocket and land on Neptune")
+setDescription("发射火箭，登陆到海王星")
 
 setParent("triumph:stage5/saturn")
 setRequiresParent(true)

@@ -1,8 +1,8 @@
-setTitle("Wireless Chargin")
+setTitle("无限充电器")
 
 setIcon("chargers:wireless_charger", 0)
 
-setDescription("The Wireless Charger is a convenient machine to have in your base for anything you want charged easily")
+setDescription("无线充电器可以摆放在基地里面，非常方便的为你想要充能的所有物品充能")
 
 setParent("triumph:stage5/charger3")
 setRequiresParent(true)

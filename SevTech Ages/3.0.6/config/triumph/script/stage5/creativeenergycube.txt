@@ -1,8 +1,8 @@
-setTitle("Creative Energy Cube")
+setTitle("创造能量立方")
 
 setIcon("mekanism:energycube", 0, {tier: 4, mekData: {energyStored: 1.7976931348623157E308}})
 
-setDescription("Craft the Creative Energy Cube from Mekanism")
+setDescription("合成一个通用机械（Mekanism）的创造能量立方")
 
 setParent("triumph:stage5/ultimateingot")
 setRequiresParent(true)

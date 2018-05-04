@@ -1,8 +1,8 @@
-setTitle("The Rings of Saturn")
+setTitle("土星光环")
 
 setIcon("actuallyadditions:item_misc", 6)
 
-setDescription("Launch a Rocket to Saturn... and land on it... yes")
+setDescription("发射去往土星的火箭……然后……登陆……是的")
 
 setParent("triumph:stage5/mars")
 setRequiresParent(true)

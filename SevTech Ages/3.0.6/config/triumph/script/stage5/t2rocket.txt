@@ -1,8 +1,8 @@
-setTitle("Bigger, Better, Faster")
+setTitle("更大！更好！更快！")
 
 setIcon("galacticraftplanets:rocket_t2")
 
-setDescription("Build a Tier 2 Rocket to further your exploration range")
+setDescription("修建一个二阶火箭，探索更为遥远的星空")
 
 setParent("triumph:stage5/root")
 setRequiresParent(true)

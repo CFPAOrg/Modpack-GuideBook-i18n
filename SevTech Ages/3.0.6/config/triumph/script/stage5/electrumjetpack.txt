@@ -1,8 +1,8 @@
-setTitle("Electrum Jetpack")
+setTitle("琥珀金喷射背包")
 
 setIcon("ironjetpacks:electrum_jetpack")
 
-setDescription("Craft the Electrum Jetpack")
+setDescription("合成琥珀金喷射背包")
 
 setParent("triumph:stage5/root")
 setRequiresParent(true)

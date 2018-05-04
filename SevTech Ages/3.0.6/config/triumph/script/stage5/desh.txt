@@ -1,8 +1,8 @@
-setTitle("Locating Desh Ore")
+setTitle("Ì½Ë÷´÷Ë¹¿ó")
 
 setIcon("galacticraftplanets:mars", 2)
 
-setDescription("Locate and mine Desh ore on the planet Mars")
+setDescription("ÔÚ»ğĞÇÉÏÍÚ¾ò´÷Ë¹¿ó")
 
 setParent("triumph:stage5/mars")
 setRequiresParent(true)

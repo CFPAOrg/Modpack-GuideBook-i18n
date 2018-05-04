@@ -1,8 +1,8 @@
-setTitle("Ultimate Crafting Table")
+setTitle("终极工作台")
 
 setIcon("extendedcrafting:table_ultimate", 0)
 
-setDescription("Craft and use the Ultimate Crafting Table for powerful creative style items")
+setDescription("制作出终极工作台，从而合成强大的创造模式物品")
 
 setParent("triumph:stage5/root")
 setRequiresParent(true)

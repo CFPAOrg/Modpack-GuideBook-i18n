@@ -1,8 +1,8 @@
-setTitle("Creative Fluid Tank")
+setTitle("创造液体储罐")
 
 setIcon("mekanism:machineblock2", 11)
 
-setDescription("Craft the Creative Fluid Tank from Mekanism")
+setDescription("合成一个通用机械（Mekanism）的创造液体储罐")
 
 setParent("triumph:stage5/ultimateingot")
 setRequiresParent(true)

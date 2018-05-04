@@ -1,8 +1,8 @@
-setTitle("Roving Around")
+setTitle("四处游荡")
 
 setIcon("extraplanets:mars_rover")
 
-setDescription("Traveling around Mars can be a bit slow, craft and use the Mars Rover! Find the NASA Workbench Schemetic as possible loot in dungeons")
+setDescription("在火星上行走可能会很慢，合成并使用火星漫游车！快去地牢中找寻NASA工程图吧！")
 
 setParent("triumph:stage5/t2rocket")
 setRequiresParent(true)
@@ -24,5 +24,3 @@ criteria4.setItem("extraplanets:mars_rover", 3)
 
 //Rewards
 setRewardExperience(15)
-
-

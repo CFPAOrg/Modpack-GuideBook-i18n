@@ -1,8 +1,8 @@
-setTitle("The Red Planet")
+setTitle("ºìÉ«ĞÇÇò")
 
 setIcon("tconstruct:edible", 3)
 
-setDescription("Launch a Rocket and land on the Mars")
+setDescription("·¢Éä»ğ¼ı£¬µÇÂ½µ½»ğĞÇ")
 
 setParent("triumph:stage5/t2rocket")
 setRequiresParent(true)

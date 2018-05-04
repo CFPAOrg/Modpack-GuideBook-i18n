@@ -1,8 +1,8 @@
-setTitle("Charge it Up")
+setTitle("充满电")
 
 setIcon("chargers:charger", 2)
 
-setDescription("The Charger Tier III allows you to charge up items much quicker than previous tiers")
+setDescription("三级充电器能够让你比先前等级的充电器更为快速的充能物品")
 
 setParent("triumph:stage5/root")
 setRequiresParent(true)

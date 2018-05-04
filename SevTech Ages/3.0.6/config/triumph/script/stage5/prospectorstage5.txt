@@ -1,8 +1,8 @@
-setTitle("Ultimate Prospector")
+setTitle("终极矿石勘探器")
 
 setIcon("prospectors:prospector_best", 0)
 
-setDescription("Craft the Ultimate Prospector to search for all ore in the ground")
+setDescription("合成一个终极矿石勘探器，找寻地下的所有矿物")
 
 setParent("triumph:stage5/root")
 setRequiresParent(true)
