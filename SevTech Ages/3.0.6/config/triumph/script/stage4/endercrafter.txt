@@ -1,8 +1,8 @@
 setIcon("extendedcrafting:ender_crafter")
 
-setTitle("Ender Crafter")
+setTitle("末影合成台")
 
-setDescription("制作Ender Crafter和Ender Alternator来进行进阶的合成")
+setDescription("制作末影合成台和末影发电机来进行进阶的合成")
 
 setParent("triumph:stage4/enderalloy2")
 setRequiresParent(true)

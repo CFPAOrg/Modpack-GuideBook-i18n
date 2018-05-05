@@ -153,14 +153,14 @@ var prospectingRodRange as int = 48;
 
 <betterwithmods:wooden_broken_gearbox>.addTooltip(format.red("手持两个木齿轮"));
 <betterwithmods:wooden_broken_gearbox>.addTooltip(format.red("右击来修复"));
-<betterwithmods:wooden_broken_gearbox>.addTooltip(format.red("Or craft back into a repaired block"));
+<betterwithmods:wooden_broken_gearbox>.addTooltip(format.red("或者直接合成来修复"));
 
 <extraplanets:apple_iron>.addTooltip(format.red("合成这个物品能够"));
 <extraplanets:apple_iron>.addTooltip(format.red("解锁高级地图"));
 
-<thebetweenlands:ring_of_flight>.addTooltip(format.red("Can be found as Loot from chests in "));
-<thebetweenlands:ring_of_flight>.addTooltip(format.red("Shrines, Cragrock Towers"));
-<thebetweenlands:ring_of_flight>.addTooltip(format.red("and the Wight Fortress"));
+<thebetweenlands:ring_of_flight>.addTooltip(format.red("可以作为战利品在"));
+<thebetweenlands:ring_of_flight>.addTooltip(format.red("神庙，碎岩塔，"));
+<thebetweenlands:ring_of_flight>.addTooltip(format.red("鬼魂城堡发现"));
 
 <indlog:auto_craft>.addTooltip(format.red("能够合成第三纪元及其以下阶段物品"));
 <indlog:portable_craft>.addTooltip(format.red("能够合成第三纪元及其以下阶段物品"));

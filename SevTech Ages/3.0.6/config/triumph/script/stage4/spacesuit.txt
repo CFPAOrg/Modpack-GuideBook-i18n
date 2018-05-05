@@ -2,7 +2,7 @@ setTitle("穿着犀利的男人")
 
 setIcon("extraplanets:tier1_space_suit_helmet")
 
-setDescription("制作一整套1阶太空服，以防你子啊登月时受到压力和辐射")
+setDescription("制作一整套1阶太空服，以防你登月时受到压力和辐射")
 
 setParent("triumph:stage4/nasaworkbench")
 setRequiresParent(true)
