@@ -132,10 +132,10 @@ var prospectingRodRange as int = 48;
 
 <primal:flint_hatchet:*>.addTooltip(format.yellow("无法被修复"));
 
-<teslacorelib:energy_tier1>.addTooltip(format.yellow("升级为 Industrial Foregoing 的机器"));
-<teslacorelib:energy_tier2>.addTooltip(format.yellow("升级为 Industrial Foregoing 的机器"));
-<teslacorelib:speed_tier1>.addTooltip(format.yellow("升级为 Industrial Foregoing 的机器"));
-<teslacorelib:speed_tier2>.addTooltip(format.yellow("升级为 Industrial Foregoing 的机器"));
+<teslacorelib:energy_tier1>.addTooltip(format.yellow("为 Industrial Foregoing 的机器升级"));
+<teslacorelib:energy_tier2>.addTooltip(format.yellow("为 Industrial Foregoing 的机器升级"));
+<teslacorelib:speed_tier1>.addTooltip(format.yellow("为 Industrial Foregoing 的机器升级"));
+<teslacorelib:speed_tier2>.addTooltip(format.yellow("为 Industrial Foregoing 的机器升级"));
 
 <astikoor:plowcart>.addTooltip(format.yellow("使用“马拉车具”模"));
 <astikoor:plowcart>.addTooltip(format.yellow("组的按键来拴上马"));
