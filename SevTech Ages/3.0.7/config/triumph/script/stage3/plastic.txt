@@ -1,0 +1,24 @@
+setTitle("可塑性")
+
+setIcon("industrialforegoing:plastic")
+
+setDescription("从模块化机械（Modular Machinery）的塑料塑型机将熔融塑料（Plastic）转化为可用于许多新配方的塑料片")
+
+setParent("triumph:stage3/liquidplastic")
+setRequiresParent(true)
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("industrialforegoing:plastic")
+
+//Rewards
+setRewardExperience(16)
+setRewardFunction("triumph:stage-4_trigger")
+setRewardFunction("triumph:advanced_mapping")

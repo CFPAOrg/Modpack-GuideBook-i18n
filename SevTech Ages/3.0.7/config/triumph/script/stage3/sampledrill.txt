@@ -1,0 +1,22 @@
+setTitle("岩芯样本")
+
+setIcon("immersiveengineering:metal_device1", 7)
+
+setDescription("在每个区块表面用岩心钻井来进行矿脉和原油定位。不要忘记它需要提供能量，你可以按住Shift右键把岩芯样本放在地上。")
+
+setParent("triumph:stage3/circuitboard")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal_device1", 7)
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,14 @@
+setTitle("欢迎来到第一纪元")
+
+setIcon("progressiontweaks:stone_hammer")
+
+setDescription("欢迎来到下一个阶段！先前隐藏的部分方块现在已经可见了，你现在能够发现矿物样本以及其他很多东西。")
+
+setBackground("mekanism:textures/blocks/tinore.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("completedStage0", "triumph:completed_advancement")
+criteria.setString("triumph:stage0/melter")

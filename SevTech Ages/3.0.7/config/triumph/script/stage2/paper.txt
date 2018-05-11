@@ -1,0 +1,15 @@
+setTitle("Papers Please ~ 请出示你的证件")
+
+setIcon("minecraft:paper")
+
+setDescription("通过合成纸来发展你的造纸技术。")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:paper")
+
+//Rewards
+setRewardExperience(8)

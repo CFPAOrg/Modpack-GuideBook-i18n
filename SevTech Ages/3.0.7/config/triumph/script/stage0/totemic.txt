@@ -1,0 +1,22 @@
+setTitle("摇一摇，拨浪鼓，晃一晃")
+
+setIcon("totemic:drum")
+
+setDescription("合成图腾仪式需要的摇响器、长笛和图腾族鼓 完成这个进度后你会获得一本图腾百科 查阅图腾百科以获取图腾 MOD 的更多信息")
+
+setParent("triumph:stage0/leather")
+setRequiresParent(true)
+
+//Criteria
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("totemic:rattle")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("totemic:flute")
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("totemic:drum")
+
+//Rewards
+setRewardItem("totemic:totempedia", 0, 1)
+setRewardExperience(4)

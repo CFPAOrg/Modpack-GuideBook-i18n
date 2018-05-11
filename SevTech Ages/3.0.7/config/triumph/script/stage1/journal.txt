@@ -1,0 +1,22 @@
+setTitle("这是我的日记")
+
+setIcon("astralsorcery:itemjournal")
+
+setDescription("通过合成星辉魔法的星芒宝典来获取有关星辉的知识。 谨记，星辉魔法的神殿并不会自然生成，所以我们修改了很多相关的合成。")
+
+setParent("triumph:stage1/parchment")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemjournal")
+
+//Rewards
+setRewardExperience(4)

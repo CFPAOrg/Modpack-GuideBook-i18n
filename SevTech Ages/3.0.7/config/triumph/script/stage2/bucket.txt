@@ -1,0 +1,15 @@
+setTitle("They Be Stealin' My Bucket")
+
+setIcon("minecraft:bucket")
+
+setDescription("现在你已经获得铁，用你的冶炼炉浇铸一个铁桶。")
+
+setParent("triumph:stage2/controller")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:bucket")
+
+//Rewards
+setRewardExperience(8)

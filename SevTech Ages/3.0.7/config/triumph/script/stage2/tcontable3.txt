@@ -1,0 +1,15 @@
+setTitle("工具装配台")
+
+setIcon("tconstruct:tooltables", 3)
+
+setDescription("要制作新工具，你需要一个工具装配台。")
+
+setParent("triumph:stage2/tcontable2")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:tooltables", 3)
+
+//Rewards
+setRewardExperience(8)

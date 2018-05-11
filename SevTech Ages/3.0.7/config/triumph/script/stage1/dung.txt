@@ -1,0 +1,20 @@
+setTitle("快把我排出来")
+
+setIcon("dungpipe:dung_pipe")
+
+setDescription("使用粪管从方块中抽取物品，或者用下水道管通过固体方块来抽取物品")
+
+setParent("triumph:stage1/claybarrel")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("placedDirt1", "minecraft:placed_block")
+criteria1.setBlock("dungpipe:dung_pipe")
+
+criteria2 = addCriteria("placedDirt2", "minecraft:placed_block")
+criteria2.setBlock("dungpipe:sewer_pipe")
+
+//Rewards
+setRewardExperience(4)

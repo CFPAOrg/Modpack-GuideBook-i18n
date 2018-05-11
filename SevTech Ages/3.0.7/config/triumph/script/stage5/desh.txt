@@ -1,0 +1,15 @@
+setTitle("Ì½Ë÷´÷Ë¹¿ó")
+
+setIcon("galacticraftplanets:mars", 2)
+
+setDescription("ÔÚ»ğĞÇÉÏÍÚ¾ò´÷Ë¹¿ó")
+
+setParent("triumph:stage5/mars")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftplanets:mars", 2)
+
+//Rewards
+setRewardExperience(15)

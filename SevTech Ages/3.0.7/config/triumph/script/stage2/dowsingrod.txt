@@ -1,0 +1,15 @@
+setTitle("前瞻升级")
+
+setIcon("prospectors:prospector_low")
+
+setDescription("制作一个坚韧探测杆可以帮助你定位更多的矿石。 你可以使用它在你点击的方块48格内找到矿石。")
+
+setParent("triumph:stage2/glass")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("prospectors:prospector_low")
+
+//Rewards
+setRewardExperience(8)

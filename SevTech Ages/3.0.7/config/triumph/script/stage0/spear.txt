@@ -1,0 +1,15 @@
+setTitle("长矛")
+
+setIcon("progressiontweaks:spear")
+
+setDescription("合成一根矛， 能够来叉鱼或当做远程武器")
+
+setParent("triumph:stage0/weaponize")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("progressiontweaks:spear")
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,15 @@
+setTitle("控制")
+
+setIcon("tconstruct:smeltery_controller")
+
+setDescription("如果燧石或骨工具不再有用，你需要一个冶炼炉。 当你把所以冶炼炉方块放置好后放置一个冶炼炉控制器来完成结构和此进度。")
+
+setParent("triumph:stage2/betweenlands")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("placedDirt", "minecraft:placed_block")
+criteria.setBlock("tconstruct:smeltery_controller")
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,15 @@
+setTitle("末影合金（高级）")
+
+setIcon("galacticraftcore:machine", 12)
+
+setDescription("制作一个星系Mod的压缩机，用它来制作压缩金属板")
+
+setParent("triumph:stage4/enderalloy3")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftcore:machine", 12)
+
+//Rewards
+setRewardExperience(12)

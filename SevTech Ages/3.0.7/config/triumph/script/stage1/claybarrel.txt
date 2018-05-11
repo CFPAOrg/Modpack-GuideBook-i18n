@@ -1,0 +1,15 @@
+setTitle("桶底")
+
+setIcon("ceramics:clay_barrel")
+
+setDescription("粘土桶能够存储流体，比如水和液态金属")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("ceramics:clay_barrel", 0)
+
+//Rewards
+setRewardExperience(4)

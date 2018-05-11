@@ -1,0 +1,15 @@
+setTitle("笨拙的工匠")
+
+setIcon("tconstruct:tooltables", 0)
+
+setDescription("是时候抛弃你的合成台，升级到合成站，它可以让你将物品放到网格中并附着在附近的箱子上。")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:tooltables", 0)
+
+//Rewards
+setRewardExperience(8)

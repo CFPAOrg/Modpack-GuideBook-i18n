@@ -1,0 +1,42 @@
+setTitle("深渊国度的战利品")
+
+setIcon("abyssalcraft:statue", 4)
+
+setDescription("为了执行黑暗仪式，你需要搜集一些雕塑来充能死灵之书。 在河流生物群系找到修格斯巢穴，在生成6只以上的修格斯以后，就会在周围随机修建高大的柱子，顶部会生成一个雕像。 把修格斯腐肉与雕像合成能够获取更多信息")
+
+setParent("triumph:stage1/necro")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setRequirements("any")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("abyssalcraft:statue", 0)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("abyssalcraft:statue", 1)
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("abyssalcraft:statue", 2)
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("abyssalcraft:statue", 3)
+
+criteria5 = addCriteria("hasRock5", "minecraft:inventory_changed")
+criteria5.setItem("abyssalcraft:statue", 4)
+
+criteria6 = addCriteria("hasRock6", "minecraft:inventory_changed")
+criteria6.setItem("abyssalcraft:statue", 5)
+
+criteria7 = addCriteria("hasRock7", "minecraft:inventory_changed")
+criteria7.setItem("abyssalcraft:statue", 6)
+
+//Rewards
+setRewardExperience(4)

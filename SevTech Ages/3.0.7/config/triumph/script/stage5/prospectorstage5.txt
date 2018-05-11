@@ -1,0 +1,15 @@
+setTitle("终极矿石勘探器")
+
+setIcon("prospectors:prospector_best", 0)
+
+setDescription("合成一个终极矿石勘探器，找寻地下的所有矿物")
+
+setParent("triumph:stage5/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("prospectors:prospector_best", 0)
+
+//Rewards
+setRewardExperience(15)

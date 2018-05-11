@@ -1,0 +1,22 @@
+setTitle("合成升级")
+
+setIcon("minecraft:crafting_table")
+
+setDescription("合成一个原版工作台")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("minecraft:crafting_table", 0)
+
+//Rewards
+setRewardExperience(4)

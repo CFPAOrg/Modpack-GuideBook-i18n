@@ -1,0 +1,20 @@
+setTitle("冶炼炉储罐")
+
+setIcon("tcomplement:porcelain_tank")
+
+setDescription("固体燃料温度比较低，制作一个陶瓷储罐或者焦黑储罐放置在冶炼炉或者微缩陶瓷熔炉下来帮助你融化铁和其他需要高温度的材料。 注意，你需要让当前燃料用完或者打掉/替换掉加热器来查看新的温度。")
+
+setParent("triumph:stage2/iron")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("tcomplement:porcelain_tank")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("tconstruct:seared_tank")
+
+//Rewards
+setRewardExperience(8)

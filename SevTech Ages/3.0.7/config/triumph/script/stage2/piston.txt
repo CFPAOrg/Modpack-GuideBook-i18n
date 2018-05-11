@@ -1,0 +1,22 @@
+setTitle("刚好能够推动它")
+
+setIcon("minecraft:piston")
+
+setDescription("需要推动物品？可以在暮色森林的黑暗高塔（暮色恶魂BOSS）中找到一个活塞或找到制作它的材料。")
+
+setParent("triumph:stage2/twilight")
+setRequiresParent(true)
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:piston")
+
+//Rewards
+setRewardExperience(8)

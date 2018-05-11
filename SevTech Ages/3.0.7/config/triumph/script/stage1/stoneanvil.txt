@@ -1,0 +1,16 @@
+setTitle("Anvil Lavigne")
+
+setIcon("primal_tech:stone_anvil")
+
+setDescription("需要板么？在石砧上放置一些锭，然后用石槌击打即可")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:stone_anvil")
+
+//Rewards
+setRewardItem("primal_tech:stone_mallet", 0, 1)
+setRewardExperience(4)

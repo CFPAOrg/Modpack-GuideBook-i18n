@@ -1,0 +1,15 @@
+setTitle("失而复得")
+
+setIcon("antiqueatlas:empty_antique_atlas")
+
+setDescription("从一位图书管理员/制图师村民 那里换取一份古代地图")
+
+setParent("triumph:stage0/workblade")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("book1", "minecraft:inventory_changed")
+criteria.setItem("antiqueatlas:empty_antique_atlas")
+
+//Rewards
+setRewardExperience(4)

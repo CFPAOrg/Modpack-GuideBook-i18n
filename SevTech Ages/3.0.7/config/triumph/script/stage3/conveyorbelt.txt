@@ -1,0 +1,15 @@
+setTitle("传送带")
+
+setIcon("immersiveengineering:conveyor", 0, {conveyorType: "immersiveengineering:uncontrolled"})
+
+setDescription("沉浸工程的传送带非常适合物品运输！")
+
+setParent("triumph:stage3/workbench")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("immersiveengineering:conveyor", 0, {conveyorType: "immersiveengineering:conveyor"})
+
+//Rewards
+setRewardExperience(8)

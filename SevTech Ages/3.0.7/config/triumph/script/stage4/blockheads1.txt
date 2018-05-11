@@ -1,0 +1,15 @@
+setTitle("现代化厨房")
+
+setIcon("cookingforblockheads:recipe_book", 1)
+
+setDescription("在熔炉里烹饪食物是有点麻烦，在你家里安装新厨房。从《傻瓜烹饪手册I》中开始你的烹饪吧！")
+
+setParent("triumph:stage4/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("cookingforblockheads:recipe_book", 1)
+
+//Rewards
+setRewardExperience(12)

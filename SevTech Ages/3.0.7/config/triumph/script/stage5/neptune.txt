@@ -1,0 +1,15 @@
+setTitle("海王星！")
+
+setIcon("tconstruct:edible", 1)
+
+setDescription("发射火箭，登陆到海王星。收集海王星地表方块来完成此进度。")
+
+setParent("triumph:stage5/saturn")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:inventory_changed")
+criteria.setItem("extraplanets:neptune", 0)
+
+//Rewards
+setRewardExperience(15)

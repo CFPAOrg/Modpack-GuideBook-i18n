@@ -1,0 +1,15 @@
+setTitle("Ѱ�Ҳ��ھ�ú��")
+
+setIcon("minecraft:coal")
+
+setDescription("��Ѱú������������ȡú���� ú��ͨ����Yֵ28��70�ĵط�")
+
+setParent("triumph:stage1/prospector")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:coal", 0)
+
+//Rewards
+setRewardExperience(4)

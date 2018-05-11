@@ -1,0 +1,15 @@
+setTitle("无线充电器")
+
+setIcon("chargers:wireless_charger", 0)
+
+setDescription("无线充电器可以摆放在基地里面，非常方便的为你想要充能的所有物品充能")
+
+setParent("triumph:stage5/charger3")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("chargers:wireless_charger", 0)
+
+//Rewards
+setRewardExperience(15)

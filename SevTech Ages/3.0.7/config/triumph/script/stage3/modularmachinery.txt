@@ -1,0 +1,15 @@
+setTitle("模块化")
+
+setIcon("modularmachinery:blockcontroller")
+
+setDescription("超导体控制器是每个模块化机械机器所需的主要模块。检查机械蓝图来了解如何构建每个结构。")
+
+setParent("triumph:stage3/circuitboard")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("modularmachinery:blockcontroller")
+
+//Rewards
+setRewardExperience(8)

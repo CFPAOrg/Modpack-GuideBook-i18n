@@ -1,0 +1,16 @@
+setTitle("终极工作台")
+
+setIcon("extendedcrafting:table_ultimate", 0)
+
+setDescription("制作出终极工作台，从而合成强大的创造模式物品")
+
+setParent("triumph:stage5/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("extendedcrafting:table_ultimate", 0)
+
+//Rewards
+setRewardExperience(15)
+setRewardFunction("triumph:stage-creative_trigger")

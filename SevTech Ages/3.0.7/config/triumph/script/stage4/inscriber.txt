@@ -1,0 +1,15 @@
+setTitle("压印中...")
+
+setIcon("appliedenergistics2:inscriber")
+
+setDescription("制作一个压印机，它可以压制模板和处理器以及其他机器")
+
+setParent("triumph:stage4/certusquartz")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("appliedenergistics2:inscriber")
+
+//Rewards
+setRewardExperience(12)

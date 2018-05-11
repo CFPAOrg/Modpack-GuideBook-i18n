@@ -1,0 +1,15 @@
+setTitle("交错次元")
+
+setIcon("thebetweenlands:weedwood_sword")
+
+setDescription("从其他世界进入交错次元的工具将不起作用。你需要制作新的工具和武器来用。 注意，此成就特别要求你制作一把杂草木剑来完成。")
+
+setParent("triumph:stage2/betweenlands")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("thebetweenlands:weedwood_sword")
+
+//Rewards
+setRewardExperience(8)
+setRewardItem("thebetweenlands:rotten_food", 0, 16)

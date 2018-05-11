@@ -1,0 +1,15 @@
+setTitle("第二纪元")
+
+setIcon("astralsorcery:itemcraftingcomponent", 4)
+
+setDescription("欢迎来到第二纪元！")
+
+setBackground("minecraft:textures/blocks/stonebrick_mossy.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+//Criteria
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stage1/astable")

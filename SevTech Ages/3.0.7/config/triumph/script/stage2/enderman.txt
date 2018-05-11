@@ -1,0 +1,29 @@
+setTitle("抵御末影！")
+
+setIcon("appliedenergistics2:material", 46)
+
+setDescription("末影人已经开始在世界上生成了，杀死他们来获取末影粉。")
+
+setParent("triumph:stage2/conpaper")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("killed_spider1", "minecraft:player_killed_entity")
+criteria1.setEntityType("minecraft:enderman")
+
+criteria2 = addCriteria("killed_spider2", "minecraft:player_killed_entity")
+criteria2.setEntityType("minecraft:endermite")
+
+criteria3 = addCriteria("killed_spider3", "minecraft:player_killed_entity")
+criteria3.setEntityType("emberroot:enderminy")
+
+criteria4 = addCriteria("killed_spider4", "minecraft:player_killed_entity")
+criteria4.setEntityType("enderutilities:endermanfighter")
+
+criteria5 = addCriteria("killed_spider5", "minecraft:player_killed_entity")
+criteria5.setEntityType("galacticraftcore:evolved_enderman")
+
+//Rewards
+setRewardExperience(8)

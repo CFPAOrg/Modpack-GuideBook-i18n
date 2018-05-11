@@ -1,0 +1,15 @@
+setTitle("存储升级")
+
+setIcon("primalchests:primal_chest_advanced")
+
+setDescription("把你那破旧的箱子扔了吧， 是时候换个更好的太初箱子了")
+
+setParent("triumph:stage0/firstchest")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primalchests:primal_chest")
+
+//Rewards
+setRewardExperience(4)

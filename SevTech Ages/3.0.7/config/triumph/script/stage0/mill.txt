@@ -1,0 +1,16 @@
+setTitle("别瞎磨迹了")
+
+setIcon("betterwithmods:single_machine")
+
+setDescription("别磨迹了，合成一个 Better With Mods 模组的磨石吧")
+
+setParent("triumph:stage0/gear")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:single_machine")
+
+//Rewards
+setRewardExperience(4)
+setRewardItem("betterwithmods:manual", 0, 1)

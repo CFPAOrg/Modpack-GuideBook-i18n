@@ -1,0 +1,21 @@
+setTitle("保持压印")
+
+setIcon("appliedenergistics2:material", 14)
+
+setDescription("找到压印机所需工程压印模板、逻辑压印模板和硅压印模板，是应用能源（AE2）和精致储存（RS）所需要的材料。")
+
+setParent("triumph:stage4/theend")
+setRequiresParent(true)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("appliedenergistics2:material", 14)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("appliedenergistics2:material", 15)
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("appliedenergistics2:material", 19)
+
+//Rewards
+setRewardExperience(12)

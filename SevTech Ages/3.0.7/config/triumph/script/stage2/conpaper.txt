@@ -1,0 +1,22 @@
+setTitle("填补缺口")
+
+setIcon("astralsorcery:itemconstellationpaper")
+
+setDescription("获取星图来填充星芒宝典中的信息。你可以按住Shift右击打开星芒宝典的夹层，将星图放进去以储存。")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemconstellationpaper")
+
+//Rewards
+setRewardExperience(8)

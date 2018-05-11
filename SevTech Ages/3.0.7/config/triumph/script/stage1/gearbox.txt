@@ -1,0 +1,15 @@
+setTitle("研磨变速箱")
+
+setIcon("betterwithmods:wooden_gearbox")
+
+setDescription("变速箱能够中继机械扭力，Shift右击变速箱的面能够改变输入输出。 能量输入的传动轴必须从十字面输入")
+
+setParent("triumph:stage1/waterwheel")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:wooden_gearbox")
+
+//Rewards
+setRewardExperience(4)

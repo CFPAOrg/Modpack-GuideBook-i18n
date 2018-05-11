@@ -1,0 +1,26 @@
+setIcon("vc:airship_ignition")
+
+setTitle("飞行！")
+
+setDescription("使用所有发动机的物品制作一艘V1飞船。打开GUI，看看你能升级什么，并定制你飞船的外观")
+
+setParent("triumph:stage3/extendedcrafting1")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("vc:airships/item_airship_v1")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("vc:airships/item_airship_v2")
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("vc:airships/item_airship_v3")
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("vc:airships/item_airship_v4")
+
+//Rewards
+setRewardExperience(8)

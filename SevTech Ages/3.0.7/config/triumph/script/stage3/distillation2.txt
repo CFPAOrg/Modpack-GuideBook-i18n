@@ -1,0 +1,21 @@
+setTitle("给它一些气体")
+
+setIcon("forge:bucketfilled", 0, {FluidName: "gasoline", Amount: 1000})
+
+setDescription("在精馏塔内进一步的加工原油将产生柴油、汽油和润滑油，你需要将每一种用桶装取来完成此进度。 这些液体能作为燃料，加速某些机器，或允许进一步的处理。")
+
+setParent("triumph:stage3/naphtha")
+setRequiresParent(true)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.addItem("forge:bucketfilled", 0, {FluidName:"gasoline",Amount:1000})
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.addItem("forge:bucketfilled", 0, {FluidName:"kerosene",Amount:1000})
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.addItem("forge:bucketfilled", 0, {FluidName:"lubricant",Amount:1000})
+
+//Rewards
+setRewardExperience(8)

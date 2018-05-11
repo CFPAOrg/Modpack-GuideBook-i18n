@@ -1,0 +1,15 @@
+setTitle("吹制玻璃")
+
+setIcon("minecraft:glass")
+
+setDescription("通过将沙子放进微缩陶瓷熔炉或者冶炼炉来融合成熔融玻璃，然后将其导入到浇筑盆中来制作玻璃。")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:glass")
+
+//Rewards
+setRewardExperience(8)

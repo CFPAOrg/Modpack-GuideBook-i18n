@@ -1,0 +1,22 @@
+setTitle("全部混合！")
+
+setIcon("immersiveengineering:stone_device", 7)
+
+setDescription("修建一个沉浸工程模组的合金窑来制作青铜，你需要合成8个窑砖 修建成 2x2x2 大小，用工程师锤右击即可构建")
+
+setParent("triumph:stage1/copper")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:stone_decoration", 10)
+
+//Rewards
+setRewardExperience(4)

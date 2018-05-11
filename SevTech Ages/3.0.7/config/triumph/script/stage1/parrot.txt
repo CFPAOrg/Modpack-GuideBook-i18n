@@ -1,0 +1,15 @@
+setTitle("我找不到丛林？！")
+
+setIcon("minecraft:feather")
+
+setDescription("查询普通的死灵之书仪式来了解如何生成一只鹦鹉，并用种子驯服它。 当然，你也可以去找丛林")
+
+setParent("triumph:stage1/statue")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("tamed_horse", "minecraft:tame_animal")
+criteria.setEntityType("minecraft:parrot")
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,15 @@
+setTitle("石器时代！")
+
+setIcon("minecraft:stone_pickaxe")
+
+setDescription("将你的镐子升级成石镐")
+
+setParent("triumph:stage0/upgrade")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:stone_pickaxe")
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,15 @@
+setTitle("运输之爱")
+
+setIcon("astikoor:cargocart")
+
+setDescription("想要携带家产走游四方？合成一个马车并将其拴上马即可 Shift点击能够打开马车GUI！")
+
+setParent("triumph:stage0/wheel")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astikoor:cargocart")
+
+//Rewards
+setRewardExperience(4)

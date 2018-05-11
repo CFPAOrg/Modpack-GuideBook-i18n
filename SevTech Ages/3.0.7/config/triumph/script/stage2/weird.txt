@@ -1,0 +1,15 @@
+setTitle("十大古怪工具")
+
+setIcon("weirdinggadget:weirding_gadget")
+
+setDescription("如果你想要一个区块加载器，制作一个古怪工具并放置下来，以加载一个3x3区域")
+
+setParent("triumph:stage2/enderman")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("weirdinggadget:weirding_gadget", 0)
+
+//Rewards
+setRewardExperience(8)

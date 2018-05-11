@@ -1,0 +1,15 @@
+setTitle("总比什么都没有强")
+
+setIcon("primal_tech:fluid_bladder")
+
+setDescription("既然你现在没有水桶 那就先做一个水袋来合成东西吧")
+
+setParent("triumph:stage0/workstump")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:fluid_bladder")
+
+//Rewards
+setRewardExperience(4)

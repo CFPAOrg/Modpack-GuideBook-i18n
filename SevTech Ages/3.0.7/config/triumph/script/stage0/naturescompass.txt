@@ -1,0 +1,15 @@
+setTitle("���ƣ��ҵ�����Ⱥϵ�����")
+
+setIcon("naturescompass:naturescompass")
+
+setDescription("����ҪѰ�Һڰ�����Ⱥϵ�����������ó̡� ʹ������Ⱥϵָ���ҵ�����������Ⱥϵ")
+
+setParent("triumph:stage0/workstump")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("naturescompass:naturescompass")
+
+//Rewards
+setRewardExperience(4)

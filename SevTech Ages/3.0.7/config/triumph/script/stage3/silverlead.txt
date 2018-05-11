@@ -1,0 +1,19 @@
+setTitle("方铅矿")
+
+setIcon("immersiveengineering:metal", 2)
+
+setDescription("找寻地表的方铅样本，并获取银矿簇和铅矿簇！ 通常在Y值16~50的地方。")
+
+setParent("triumph:stage3/oreprospector")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("geolosys:cluster", 4)
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("geolosys:cluster", 5)
+
+//Rewards
+setRewardExperience(8)

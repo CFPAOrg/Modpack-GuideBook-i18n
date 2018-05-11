@@ -1,0 +1,15 @@
+setTitle("完整的厨房")
+
+setIcon("cookingforblockheads:cooking_table")
+
+setDescription("傻瓜烹饪Mod是一个多方块的模组，在彼此相邻放置时都才能有更多的功能。制作和放置一个烹饪桌后开始你的烹饪。然后你可以放置烤箱、冰箱、水槽和其他物品以获得更多的功能。")
+
+setParent("triumph:stage4/blockheads2")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("cookingforblockheads:cooking_table")
+
+//Rewards
+setRewardExperience(12)

@@ -1,0 +1,22 @@
+setTitle("精馏")
+
+setIcon("forge:bucketfilled", 0, {FluidName:"naphtha",Amount:1000})
+
+setDescription("现在你已经提取原油，搭建一个沉浸原油的精馏塔，将石油加工成熔融石脑油（Naphtha）和柴油，并用桶来装取一桶来完成此进度。")
+
+setParent("triumph:stage3/crudeoil")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("forge:bucketfilled", 0, {FluidName:"naphtha",Amount:1000})
+
+//Rewards
+setRewardExperience(8)

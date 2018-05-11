@@ -1,0 +1,15 @@
+setTitle("猎杀，抑或被猎杀")
+
+setIcon("huntingdim:frame", 0)
+
+setDescription("如果你想要寻找敌对性生物，试试狩猎维度吧。 像地狱门那样修建狩猎维度传送门框架，使用原版的剑来启动它，站在上面shift即可进行传送")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("huntingdim:frame", 0)
+
+//Rewards
+setRewardExperience(4)

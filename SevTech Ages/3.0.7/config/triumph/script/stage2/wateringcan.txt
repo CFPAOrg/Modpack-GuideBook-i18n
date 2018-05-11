@@ -1,0 +1,15 @@
+setTitle("快速农业")
+
+setIcon("pickletweaks:watering_can")
+
+setDescription("如果你厌倦了等待庄稼的生长，那就制作一个洒水壶")
+
+setParent("triumph:stage2/smeltertank")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pickletweaks:watering_can")
+
+//Rewards
+setRewardExperience(8)

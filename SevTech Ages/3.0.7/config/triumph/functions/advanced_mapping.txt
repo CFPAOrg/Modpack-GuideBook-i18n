@@ -1,0 +1,2 @@
+gamestage add @p mapping
+say 你学习了高级地图知识

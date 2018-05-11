@@ -1,0 +1,15 @@
+setTitle("是时候干正事了")
+
+setIcon("primal:sharp_bone")
+
+setDescription("手持骨头左键石头可获取剥片骨头")
+
+setParent("triumph:stage0/firsttool")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:sharp_bone")
+
+//Rewards
+setRewardExperience(4)

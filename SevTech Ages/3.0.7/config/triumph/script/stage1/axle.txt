@@ -1,0 +1,15 @@
+setTitle("F 轴")
+
+setIcon("betterwithmods:wooden_axle")
+
+setDescription("机械传动需要传动轴。你可以通过传动轴直接连接水车，风车或者变速箱。 传动轴最多只能连续摆放三个")
+
+setParent("triumph:stage1/blackquartz")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:wooden_axle")
+
+//Rewards
+setRewardExperience(4)

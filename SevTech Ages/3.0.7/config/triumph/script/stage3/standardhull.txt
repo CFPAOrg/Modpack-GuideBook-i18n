@@ -1,0 +1,15 @@
+setTitle("史蒂夫的标准外壳")
+
+setIcon("stevescarts:cartmodule", 38)
+
+setDescription("史蒂夫矿车的标准外壳可以让你制作更好的推车")
+
+setParent("triumph:stage3/woodhull")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("stevescarts:cartmodule", 38)
+
+//Rewards
+setRewardExperience(8)

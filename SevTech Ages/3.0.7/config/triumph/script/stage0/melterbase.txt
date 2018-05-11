@@ -1,0 +1,26 @@
+setTitle("熔炉加热器")
+
+setIcon("tcomplement:porcelain_melter", 8)
+
+setDescription("你现在没办法获取液体燃料， 那就先用固体的吧！合成一个熔炉加热器 （熔炉加热器和微缩熔炉的材质必须对应才能正常运作 即陶瓷与焦黑砖版本不能相互兼容）")
+
+setParent("triumph:stage0/flamehopper")
+setRequiresParent(true)
+
+setFrameType("Goal")
+setRequirements("any")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("tcomplement:porcelain_melter", 8)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("tcomplement:melter", 8)
+
+//Rewards
+setRewardExperience(4)

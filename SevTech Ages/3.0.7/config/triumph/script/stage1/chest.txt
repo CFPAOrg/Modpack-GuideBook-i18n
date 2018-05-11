@@ -1,0 +1,15 @@
+setTitle("我需要这个箱子")
+
+setIcon("minecraft:chest")
+
+setDescription("升级你的箱子")
+
+setParent("triumph:stage1/crafting")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("brokeLog", "minecraft:inventory_changed")
+criteria.setItem("minecraft:chest", 0)
+
+//Rewards
+setRewardExperience(4)

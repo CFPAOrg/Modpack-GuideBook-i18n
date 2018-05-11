@@ -1,0 +1,15 @@
+setTitle("黑暗宝石")
+
+setIcon("abyssalcraft:shadowgem")
+
+setDescription("击杀一只生成在黑暗之地的阴影生物来获取一颗阴影宝石。 较小的阴影生物掉落的宝石较小， 更危险的阴影生物则会掉落完整的阴影宝石")
+
+setParent("triumph:stage0/abyssalbiome")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("abyssalcraft:shadowgem", 0)
+
+//Rewards
+setRewardExperience(4)

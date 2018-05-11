@@ -1,0 +1,15 @@
+setTitle("闲置反应堆")
+
+setIcon("twilightforest:tower_device", 12)
+
+setDescription("你将需要一个砷铅铁反应堆来创建你的第一个引擎。通过搜寻暮色森林中的黑暗高塔（暮色恶魂BOSS）或者利用塔里的资源制作反应堆。")
+
+setParent("triumph:stage2/twilight")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("twilightforest:tower_device", 12)
+
+//Rewards
+setRewardExperience(8)

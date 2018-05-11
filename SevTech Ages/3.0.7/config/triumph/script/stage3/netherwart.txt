@@ -1,0 +1,15 @@
+setTitle("地狱疣")
+
+setIcon("minecraft:nether_wart", 0)
+
+setDescription("找到并收集地狱疣。最常见的是在下界要塞中。")
+
+setParent("triumph:stage3/netherexbiome")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:nether_wart", 0)
+
+//Rewards
+setRewardExperience(8)

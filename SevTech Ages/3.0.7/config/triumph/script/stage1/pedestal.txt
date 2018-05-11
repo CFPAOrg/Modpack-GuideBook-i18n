@@ -1,0 +1,15 @@
+setTitle("基座时间到")
+
+setIcon("abyssalcraft:energypedestal")
+
+setDescription("你需要站在雕像附近，手持死灵之书来充能，或者合成基座来代替手持。 但要确保基座和雕像在三格内，并且在同一高度")
+
+setParent("triumph:stage1/statue")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("abyssalcraft:energypedestal")
+
+//Rewards
+setRewardExperience(4)

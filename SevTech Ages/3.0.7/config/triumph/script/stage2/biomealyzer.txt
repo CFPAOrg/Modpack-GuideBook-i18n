@@ -1,0 +1,15 @@
+setTitle("我所处的生物群系是什么？")
+
+setIcon("infoaccessories:info_accessory", 6)
+
+setDescription("使用生物群系分析仪来了解你当前生物群系的名称")
+
+setParent("triumph:stage2/compass")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("infoaccessories:info_accessory", 6)
+
+//Rewards
+setRewardExperience(8)

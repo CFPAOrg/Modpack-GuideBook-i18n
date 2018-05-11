@@ -1,0 +1,17 @@
+setTitle("高级地图")
+
+setIcon("minecraft:filled_map")
+
+setDescription("通过吃一个旅行地图令牌来升级你当前的地图到更高级的地图。 注意，这是一个提前解锁项目，当前不必完成。可在稍后阶段完成。")
+
+setParent("triumph:stage2/extendedcraftingbasic")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("consumed", "minecraft:consume_item")
+criteria.setItem("extraplanets:apple_iron", 0)
+
+//Rewards
+setRewardFunction("triumph:advanced_mapping")
+setRewardFunction("triumph:prestige_add_100")
+setRewardExperience(8)

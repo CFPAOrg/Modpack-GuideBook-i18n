@@ -1,0 +1,15 @@
+setTitle("烤一烤")
+
+setIcon("primal_tech:clay_kiln")
+
+setDescription("用粘土和圆石台阶来合成一个粘土窑， 放下粘土窑后你需要在其下方提供热源来使其硬化， 一旦其硬化后你就可以用它来烤制物品了")
+
+setParent("triumph:stage0/workstump")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:clay_kiln")
+
+//Rewards
+setRewardExperience(4)

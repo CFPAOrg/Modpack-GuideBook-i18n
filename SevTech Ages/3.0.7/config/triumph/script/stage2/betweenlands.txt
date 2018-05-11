@@ -1,0 +1,14 @@
+setTitle("交错次元")
+
+setIcon("thebetweenlands:swamp_talisman")
+
+setDescription("在沼泽生物群系中找到一个黑暗德鲁伊祭坛，杀死黑暗德鲁伊，并用他们的护身符制作一个沼泽护身符。用沼泽护身符点击树苗来创建一个通往交错次元的入口。")
+
+setParent("triumph:stage2/root")
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("betweenlands")
+
+//Rewards
+setRewardExperience(8)

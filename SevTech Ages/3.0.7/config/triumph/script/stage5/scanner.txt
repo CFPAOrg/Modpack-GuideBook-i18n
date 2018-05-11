@@ -1,0 +1,15 @@
+setTitle("扫描器")
+
+setIcon("scannable:scanner", 0)
+
+setDescription("充能之后，扫描器能够扫描你周围的东西。shift点击打开GUI可以塞入扫描模块。然后左击来开始扫描吧")
+
+setParent("triumph:stage5/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("scannable:scanner", 0)
+
+//Rewards
+setRewardExperience(15)

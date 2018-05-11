@@ -1,0 +1,15 @@
+setTitle("继续前进！")
+
+setIcon("cookingforblockheads:recipe_book", 2)
+
+setDescription("使用《傻瓜烹饪手册II》能够使用背包中的食材烹饪食物，或者作为烹饪的工具。")
+
+setParent("triumph:stage4/blockheads1")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("cookingforblockheads:recipe_book", 2)
+
+//Rewards
+setRewardExperience(12)

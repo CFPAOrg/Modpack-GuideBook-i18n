@@ -1,0 +1,15 @@
+setTitle("放置我物品的地方")
+
+setIcon("storagedrawers:framingtable")
+
+setDescription("使用成型台来制作自定义储存抽屉，使用镶框抽屉和你想要的方块类型来作为装饰。")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("storagedrawers:framingtable")
+
+//Rewards
+setRewardExperience(8)

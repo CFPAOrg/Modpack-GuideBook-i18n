@@ -1,0 +1,14 @@
+setTitle("前往下界")
+
+setIcon("minecraft:netherrack")
+
+setDescription("前往下界。 预建的传送门需存在于热带生物群落中，如沙漠和大草原。 请记住，世界生成按照逻辑上的热量图来进行的，如果你需要找到一个热带生物群落，你可以向北或向南走，直到你到达那个气候带。")
+
+setParent("triumph:stage3/root")
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_nether")
+
+//Rewards
+setRewardExperience(8)

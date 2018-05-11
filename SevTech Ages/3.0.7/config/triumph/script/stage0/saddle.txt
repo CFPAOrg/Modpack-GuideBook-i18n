@@ -1,0 +1,15 @@
+setTitle("疾如风")
+
+setIcon("minecraft:saddle")
+
+setDescription("再跑快点！ 马鞍是远程旅行的最好选择")
+
+setParent("triumph:stage0/lead")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:saddle")
+
+//Rewards
+setRewardExperience(4)

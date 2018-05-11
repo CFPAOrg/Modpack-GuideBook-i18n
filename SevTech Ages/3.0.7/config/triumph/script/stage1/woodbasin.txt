@@ -1,0 +1,15 @@
+setTitle("搅拌盆")
+
+setIcon("primal_tech:wooden_basin")
+
+setDescription("四处寻找高效的皮革或者面团制作方法？ 合成木制搅拌盆吧，丢入正确的流体和物品，然后右击搅拌吧！")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:wooden_basin")
+
+//Rewards
+setRewardExperience(4)

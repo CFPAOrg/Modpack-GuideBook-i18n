@@ -1,0 +1,17 @@
+setTitle("铂矿")
+
+setIcon("contenttweaker:material_part", 37)
+
+setDescription("找寻地表的铂矿样本，并获取铂矿簇！ 通常在Y值3~25的地方。")
+
+setParent("triumph:stage3/oreprospector")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("geolosys:cluster", 8)
+
+//Rewards
+setRewardExperience(8)

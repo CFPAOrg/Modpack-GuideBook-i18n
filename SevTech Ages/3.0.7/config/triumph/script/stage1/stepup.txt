@@ -1,0 +1,15 @@
+setTitle("我不想要它了！")
+
+setIcon("cyclicmagic:food_step")
+
+setDescription("现在你可能很少旅行了，通过血之祭坛合成一个健体苹果，取消掉能够直接走上一格方块的能力。")
+
+setParent("triumph:stage1/bloodaltar")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("cyclicmagic:food_step")
+
+//Rewards
+setRewardExperience(1)

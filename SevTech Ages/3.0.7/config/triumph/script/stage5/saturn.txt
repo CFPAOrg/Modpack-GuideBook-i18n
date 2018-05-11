@@ -1,0 +1,15 @@
+setTitle("土星光环")
+
+setIcon("actuallyadditions:item_misc", 6)
+
+setDescription("发射去往土星的火箭……然后……登陆……是的。收集土星地表方块来完成此进度。")
+
+setParent("triumph:stage5/mars")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:inventory_changed")
+criteria.setItem("extraplanets:saturn", 0)
+
+//Rewards
+setRewardExperience(15)
