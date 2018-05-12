@@ -2,11 +2,7 @@ setTitle("黄金标准")
 
 setIcon("minecraft:gold_ingot")
 
-<<<<<<< HEAD
-setDescription("Find a Gold surface sample and dig for Gold! The ore is located between Y8 - Y40")
-=======
 setDescription("找到和挖掘一个金矿样本！它位于Y值8~40之间。")
->>>>>>> zh_cn
 
 setParent("triumph:stage2/dowsingrod")
 setRequiresParent(true)

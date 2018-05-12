@@ -1,8 +1,8 @@
-setTitle("锟斤拷锟狡ｏ拷锟揭碉拷锟斤拷锟斤拷群系锟斤拷锟斤拷锟斤？")
+setTitle("伙计，我的生物群系在哪里？")
 
 setIcon("naturescompass:naturescompass")
 
-setDescription("锟斤拷锟斤拷要寻锟揭黑帮拷锟斤拷锟斤拷群系锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟矫程★拷 使锟斤拷锟斤拷锟斤拷群系指锟斤拷锟揭碉拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷群系")
+setDescription("你需要寻找黑暗生物群系来继续你的旅程。 使用生物群系指南找到最近的生物群系")
 
 setParent("triumph:stage0/workstump")
 setRequiresParent(true)

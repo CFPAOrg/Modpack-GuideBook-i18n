@@ -1,8 +1,8 @@
 setIcon("immersiveengineering:metal")
 
-setTitle("锟斤拷锟角得碉拷锟斤拷铜")
+setTitle("我们得到了铜")
 
-setDescription("锟斤拷寻锟截憋拷锟斤拷铜锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷取铜锟斤拷锟斤拷 通锟斤拷锟斤拷Y值12~52锟侥地凤拷锟斤拷锟斤拷锟斤拷也锟斤拷锟斤拷锟角匡拷雀石锟斤拷锟斤拷锟斤拷铜锟斤拷 锟斤拷锟角ｏ拷锟截憋拷锟斤拷锟斤拷锟斤拷锟窖撅拷探锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷也锟斤拷锟揭碉拷")
+setDescription("找寻地表的铜样本，并获取铜矿！ 通常在Y值12~52的地方，名字也可能是孔雀石或者蓝铜矿 谨记，地表样本在已经探索过的区域也能找到")
 
 setParent("triumph:stage1/prospector")
 setRequiresParent(true)

@@ -1,8 +1,8 @@
-setTitle("Ñ°ï¿½Ò²ï¿½ï¿½Ú¾ï¿½Ãºï¿½ï¿½")
+setTitle("Ñ°ÕÒ²¢ÍÚ¾òÃº¿ó")
 
 setIcon("minecraft:coal")
 
-setDescription("ï¿½ï¿½Ñ°Ãºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¡Ãºï¿½ï¿½ï¿½ï¿½ Ãºï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½YÖµ28ï¿½ï¿½70ï¿½ÄµØ·ï¿½")
+setDescription("ÕÒÑ°Ãº¿óÑù±¾£¬²¢»ñÈ¡Ãº¿ó£¡ Ãº¿óÍ¨³£ÔÚYÖµ28µ½70µÄµØ·½")
 
 setParent("triumph:stage1/prospector")
 setRequiresParent(true)
