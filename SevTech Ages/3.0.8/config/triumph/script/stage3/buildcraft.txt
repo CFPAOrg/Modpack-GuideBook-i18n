@@ -1,0 +1,15 @@
+setTitle("升级线路")
+
+setIcon("buildcrafttransport:pipe_cobble_item")
+
+setDescription("制作一个红石引擎，开始为你的BC管道提供动力")
+
+setParent("triumph:stage3/circuitboard")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("buildcraftcore:engine")
+
+//Rewards
+setRewardExperience(8)

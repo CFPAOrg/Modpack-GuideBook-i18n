@@ -1,0 +1,15 @@
+setTitle("史蒂夫矿车的木制外壳")
+
+setIcon("stevescarts:cartmodule", 37)
+
+setDescription("制作木制外壳，来做一个最基础的史蒂夫矿车")
+
+setParent("triumph:stage3/stevescartsassembler")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("stevescarts:cartmodule", 37)
+
+//Rewards
+setRewardExperience(8)

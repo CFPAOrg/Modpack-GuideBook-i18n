@@ -1,0 +1,15 @@
+setTitle("木灰")
+
+setIcon("betterwithmods:material", 21)
+
+setDescription("在釜锅中使用原木、木板和木屑来制作木灰")
+
+setParent("triumph:stage3/bellows")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:material", 21)
+
+//Rewards
+setRewardExperience(8)

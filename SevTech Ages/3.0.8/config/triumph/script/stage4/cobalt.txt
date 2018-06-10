@@ -1,0 +1,15 @@
+setTitle("钴矿石")
+
+setIcon("tconstruct:ore", 0)
+
+setDescription("在下界找到和挖掘钴矿石！")
+
+setParent("triumph:stage4/ardite")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:ore", 0)
+
+//Rewards
+setRewardExperience(12)

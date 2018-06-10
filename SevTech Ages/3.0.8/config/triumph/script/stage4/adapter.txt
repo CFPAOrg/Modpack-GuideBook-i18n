@@ -1,0 +1,15 @@
+setTitle("不要低估我的力量")
+
+setIcon("poweradapters:mj")
+
+setDescription("当你无法在不同的MOD之间传输能量时，能量适配器可以帮助你转换。")
+
+setParent("triumph:stage4/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("poweradapters:mj")
+
+//Rewards
+setRewardExperience(8)

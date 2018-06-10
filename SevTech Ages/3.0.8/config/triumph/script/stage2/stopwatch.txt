@@ -1,0 +1,15 @@
+setTitle("极速奔跑")
+
+setIcon("infoaccessories:info_accessory")
+
+setDescription("秒表将显示玩家的移动时信息。")
+
+setParent("triumph:stage2/compass")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("infoaccessories:info_accessory", 0)
+
+//Rewards
+setRewardExperience(8)

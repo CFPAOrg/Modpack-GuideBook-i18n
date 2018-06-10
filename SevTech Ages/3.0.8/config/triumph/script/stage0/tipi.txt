@@ -1,0 +1,15 @@
+setTitle("安枕无忧")
+
+setIcon("totemic:tipi")
+
+setDescription("没地方睡觉？ 合成一个印第安帐篷吧！")
+
+setParent("triumph:stage0/leather")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("totemic:tipi", 0)
+
+//Rewards
+setRewardExperience(4)

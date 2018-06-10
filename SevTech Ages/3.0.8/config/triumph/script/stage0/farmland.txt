@@ -1,0 +1,16 @@
+setTitle("授人以田")
+
+setIcon("minecraft:farmland")
+
+setDescription("在一位农夫村民那里换取耕地以学习种地的知识。 在阶段0，你无法使用锄头直接锄地， 你只能合成耕地并将其放置在水边")
+
+setParent("triumph:stage0/workblade")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("traded", "minecraft:villager_trade")
+criteria.setEntityType("minecraft:villager")
+criteria.setItem("minecraft:farmland")
+
+//Rewards
+setRewardExperience(4)

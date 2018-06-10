@@ -1,0 +1,17 @@
+setTitle("下级精华")
+
+setIcon("mysticalagriculture:crafting")
+
+setDescription("下级精华是魔法农业最为重要的起始物品。可以从很多地方搜集来的物品合成它")
+
+setParent("triumph:stage5/saturn")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("mysticalagriculture:crafting")
+
+//Rewards
+setRewardExperience(15)

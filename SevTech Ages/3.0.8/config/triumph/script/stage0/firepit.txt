@@ -1,0 +1,15 @@
+setTitle("火！")
+
+setIcon("progressiontweaks:fire_pit_unlit")
+
+setDescription("用石子、绳子和木棍合成一个火堆， 用一般燃料右键就可以点着火堆， 将要烤的物品右键放入就可烤制")
+
+setParent("triumph:stage0/fire")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("progressiontweaks:fire_pit_unlit")
+
+//Rewards
+setRewardExperience(4)

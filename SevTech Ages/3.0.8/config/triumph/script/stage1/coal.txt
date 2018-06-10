@@ -1,0 +1,15 @@
+setTitle("寻找并挖掘煤矿")
+
+setIcon("minecraft:coal")
+
+setDescription("找寻煤矿样本，并获取煤矿！ 煤矿通常在Y值28到70的地方")
+
+setParent("triumph:stage1/prospector")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:coal", 0)
+
+//Rewards
+setRewardExperience(4)

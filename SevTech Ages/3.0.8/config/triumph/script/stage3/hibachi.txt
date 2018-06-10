@@ -1,0 +1,15 @@
+setTitle("火盆")
+
+setIcon("betterwithmods:hibachi")
+
+setDescription("Better With Mods 中的火盆会为你的釜锅和坩埚提供无限燃烧的火。")
+
+setParent("triumph:stage3/filteredhopper")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:hibachi")
+
+//Rewards
+setRewardExperience(8)

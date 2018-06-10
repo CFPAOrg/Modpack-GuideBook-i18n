@@ -1,0 +1,15 @@
+setTitle("筛点燧石")
+
+setIcon("pickletweaks:grass_mesh")
+
+setDescription("破坏沙砾不会掉落燧石， 需要用草纤维网与沙砾合成来获取燧石")
+
+setParent("triumph:stage0/fiber")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pickletweaks:grass_mesh")
+
+//Rewards
+setRewardExperience(4)

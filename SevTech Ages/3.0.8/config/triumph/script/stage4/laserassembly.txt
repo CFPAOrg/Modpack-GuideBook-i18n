@@ -1,0 +1,15 @@
+setTitle("组装程序设计")
+
+setIcon("pneumaticcraft:assembly_program", 1)
+
+setDescription("订购组装程序：从Amadron平板电脑中订取")
+
+setParent("triumph:stage4/amadrontablet")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:assembly_program", 1)
+
+//Rewards
+setRewardExperience(12)

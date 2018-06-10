@@ -1,0 +1,15 @@
+setTitle("第四纪元")
+
+setIcon("industrialforegoing:plastic")
+
+setDescription("欢迎来到第四纪元！")
+
+setBackground("immersiveengineering:textures/blocks/sheetmetal_steel.png")
+
+setShowToast(false)
+
+setAnnounceToChat(true)
+
+//Criteria
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stage3/plastic")

@@ -1,0 +1,24 @@
+setTitle("穿着犀利的男人")
+
+setIcon("extraplanets:tier1_space_suit_helmet")
+
+setDescription("制作一整套1阶太空服，以防你登月时受到压力和辐射")
+
+setParent("triumph:stage4/nasaworkbench")
+setRequiresParent(true)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("extraplanets:tier1_space_suit_helmet")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("extraplanets:tier1_space_suit_chest")
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("extraplanets:tier1_space_suit_legings")
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("extraplanets:tier1_space_suit_boots")
+
+//Rewards
+setRewardExperience(12)

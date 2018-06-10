@@ -1,0 +1,15 @@
+setTitle("烈焰棒")
+
+setIcon("minecraft:blaze_rod", 0)
+
+setDescription("前往地狱，收集烈焰粉，并使用金属冲压机将他们冲压成烈焰棒。")
+
+setParent("triumph:stage3/nether")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:blaze_rod", 0)
+
+//Rewards
+setRewardExperience(8)

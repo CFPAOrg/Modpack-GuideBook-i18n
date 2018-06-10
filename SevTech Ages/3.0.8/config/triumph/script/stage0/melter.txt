@@ -1,0 +1,28 @@
+setTitle("让我们开始熔点东西吧！")
+
+setIcon("tcomplement:porcelain_melter")
+
+setDescription("合成一个微缩熔炉来熔化矿物， 微缩熔炉与其下方的加热器的材质必须对应， 否则无法正常运作")
+
+setParent("triumph:stage0/melterbase")
+setRequiresParent(true)
+
+setRequirements("any")
+setFrameType("Challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("tcomplement:porcelain_melter", 0)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("tcomplement:melter", 0)
+
+//Rewards
+setRewardExperience(4)
+setRewardFunction("triumph:stage-1_trigger")
+setRewardItem("tconstruct:book", 0, 1)

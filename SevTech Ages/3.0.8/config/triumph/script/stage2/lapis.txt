@@ -1,0 +1,17 @@
+setTitle("玫瑰是红色的，青金石是蓝色的")
+
+setIcon("minecraft:dye", 4)
+
+setDescription("找到和挖掘一个青金石样本！它位于Y10~38之间。")
+
+setParent("triumph:stage2/dowsingrod")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria.setBlock("geolosys:ore_vanilla", 3)
+
+//Rewards
+setRewardExperience(8)

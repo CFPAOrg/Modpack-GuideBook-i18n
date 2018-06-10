@@ -1,0 +1,15 @@
+setTitle("4级探矿者")
+
+setIcon("prospectors:prospector_high")
+
+setDescription("制作一个高级矿石勘探器来帮你定位阶段4中的矿石")
+
+setParent("triumph:stage4/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("prospectors:prospector_high")
+
+//Rewards
+setRewardExperience(12)

@@ -1,0 +1,15 @@
+setTitle("印刷电路板")
+
+setIcon("pneumaticcraft:printed_circuit_board")
+
+setDescription("使用你的气动装置，创建一个印刷电路板")
+
+setParent("triumph:stage4/compressediron")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:printed_circuit_board")
+
+//Rewards
+setRewardExperience(12)

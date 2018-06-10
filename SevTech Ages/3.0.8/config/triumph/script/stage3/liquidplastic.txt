@@ -1,0 +1,22 @@
+setTitle("塑料的发明")
+
+setIcon("forge:bucketfilled", 0, {FluidName: "plastic", Amount: 1000})
+
+setDescription("使用模块化机械（Modular Machinery）的流体处理器，将熔融丙烯（Propene）转换为熔融塑料（Plastic）")
+
+setParent("triumph:stage3/propene")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("forge:bucketfilled", 0, {FluidName: "plastic", Amount: 1000})
+
+//Rewards
+setRewardExperience(8)

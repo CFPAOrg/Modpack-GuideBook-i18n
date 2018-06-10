@@ -1,0 +1,21 @@
+setTitle("前往末地")
+
+setIcon("minecraft:end_portal_frame")
+
+setDescription("找到并进入末地。")
+
+setParent("triumph:stage4/root")
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_end")
+
+//Rewards
+setRewardExperience(12)

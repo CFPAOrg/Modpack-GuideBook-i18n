@@ -1,0 +1,15 @@
+setTitle("玛玉灵")
+
+setIcon("tconstruct:metal", 2)
+
+setDescription("在冶炼炉中融合阿迪特与钴来创造出玛玉灵。")
+
+setParent("triumph:stage4/cobalt")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:metal", 2)
+
+//Rewards
+setRewardExperience(12)

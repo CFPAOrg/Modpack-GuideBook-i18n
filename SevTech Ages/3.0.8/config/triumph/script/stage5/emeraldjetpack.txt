@@ -1,0 +1,15 @@
+setTitle("绿宝石喷射背包")
+
+setIcon("ironjetpacks:emerald_jetpack")
+
+setDescription("合成一个绿宝石喷射背包")
+
+setParent("triumph:stage5/diamondjetpack")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("ironjetpacks:emerald_jetpack")
+
+//Rewards
+setRewardExperience(15)

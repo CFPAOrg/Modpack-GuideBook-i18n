@@ -1,0 +1,20 @@
+setTitle("订阅我的频道吧 ~ 求你了")
+
+setIcon("ceramics:channel")
+
+setDescription("输液道是一种非常棒的传输液体的装置，放置好输液道，遵循顶部箭头右击来改变方向/断开连接/其他。 可以使用普通输液道或者陶瓷输液道")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("crafted1", "minecraft:inventory_changed")
+criteria1.setItem("ceramics:channel")
+
+criteria2 = addCriteria("crafted2", "minecraft:inventory_changed")
+criteria2.setItem("tconstruct:channel")
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,15 @@
+setTitle("岩石、羊皮纸、水晶")
+
+setIcon("astralsorcery:itemrockcrystalsimple", 0)
+
+setDescription("水晶石对于星辉魔法的发展很重要，在地表上找到和挖掘一个水晶样本，它位于Y10以下。")
+
+setParent("triumph:stage2/starpowder")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemrockcrystalsimple", 0)
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,15 @@
+setTitle("推进器启动！")
+
+setIcon("galacticraftcore:landing_pad", 0)
+
+setDescription("在火箭起飞时，你需要在3x3的地方放置9个火箭发射平台，然后将火箭放在平台中心。")
+
+setParent("triumph:stage4/nasaworkbench")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftcore:landing_pad", 0)
+
+//Rewards
+setRewardExperience(12)

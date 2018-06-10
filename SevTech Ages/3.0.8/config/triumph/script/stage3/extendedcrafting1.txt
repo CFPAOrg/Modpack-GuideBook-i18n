@@ -1,0 +1,15 @@
+setTitle("扩展工作台：金")
+
+setIcon("extendedcrafting:table_advanced")
+
+setDescription("从 Extended Crafting 这模组中制作一个高级工作台 来进行更多合成")
+
+setParent("triumph:stage3/nether")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("extendedcrafting:table_advanced")
+
+//Rewards
+setRewardExperience(8)

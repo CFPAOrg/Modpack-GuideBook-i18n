@@ -1,0 +1,29 @@
+setTitle("盐")
+
+setIcon("primal:salt_dust_netjry")
+
+setDescription("在干燥的生物群系或河床里能找到盐， 盐是处理皮革和合成食物的原料")
+
+setParent("triumph:stage0/grill")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("primal:salt_dust_void")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("primal:salt_dust_fire")
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("primal:salt_dust_netjry")
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("primal:salt_dust_rock")
+
+criteria5 = addCriteria("hasRock5", "minecraft:inventory_changed")
+criteria5.setItem("mekanism:salt")
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,15 @@
+setTitle("压力室")
+
+setIcon("pneumaticcraft:pressure_chamber_wall")
+
+setDescription("制作压力室墙壁并建筑一个气动工艺的压力室")
+
+setParent("triumph:stage4/compressediron")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:pressure_chamber_wall")
+
+//Rewards
+setRewardExperience(12)

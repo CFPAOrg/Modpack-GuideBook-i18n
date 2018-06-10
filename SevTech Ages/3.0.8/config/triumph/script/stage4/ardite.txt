@@ -1,0 +1,15 @@
+setTitle("阿迪特矿石")
+
+setIcon("tconstruct:ore", 1)
+
+setDescription("在下届寻找阿迪特矿石并用挖掘等级为钴（Cobalt）的镐挖掘。")
+
+setParent("triumph:stage4/prospector4")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:ore", 1)
+
+//Rewards
+setRewardExperience(12)

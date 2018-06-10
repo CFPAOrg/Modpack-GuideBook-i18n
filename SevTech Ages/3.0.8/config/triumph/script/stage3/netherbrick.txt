@@ -1,0 +1,15 @@
+setTitle("地狱砖块")
+
+setIcon("minecraft:netherbrick")
+
+setDescription("将下届淤泥放到Better With Mods的窑中，将其烧制成地狱砖块。 请参照Better With Mods来了解如何组装窑。")
+
+setParent("triumph:stage3/potash")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:netherbrick")
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,15 @@
+setTitle("充满电")
+
+setIcon("chargers:charger", 2)
+
+setDescription("三级充电器能够让你比先前等级的充电器更为快速的充能物品")
+
+setParent("triumph:stage5/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("chargers:charger", 2)
+
+//Rewards
+setRewardExperience(15)

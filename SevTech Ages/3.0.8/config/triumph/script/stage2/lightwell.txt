@@ -1,0 +1,22 @@
+setTitle("液化")
+
+setIcon("astralsorcery:blockwell")
+
+setDescription("星辉魔法的聚星缸允许某些物品液化成星能液。")
+
+setParent("triumph:stage2/conpaper")
+setRequiresParent(true)
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:blockwell")
+
+//Rewards
+setRewardExperience(8)

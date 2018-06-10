@@ -1,0 +1,15 @@
+setTitle("延展")
+
+setIcon("ceramics:clay_barrel", 1)
+
+setDescription("制作一个延展陶桶，放置在陶桶顶部来提升容量")
+
+setParent("triumph:stage1/claybarrel")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("placedDirt", "minecraft:placed_block")
+criteria.setBlock("ceramics:clay_barrel", 1)
+
+//Rewards
+setRewardExperience(4)

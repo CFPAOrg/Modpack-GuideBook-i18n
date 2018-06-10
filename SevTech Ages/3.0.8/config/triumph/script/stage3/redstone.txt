@@ -1,0 +1,17 @@
+setTitle("朱砂矿")
+
+setIcon("minecraft:redstone")
+
+setDescription("找寻地表的朱砂样本，并获取红石！ 通常在Y值4~24的地方，名字也可能是红石或者朱砂")
+
+setParent("triumph:stage3/oreprospector")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:redstone")
+
+//Rewards
+setRewardExperience(8)

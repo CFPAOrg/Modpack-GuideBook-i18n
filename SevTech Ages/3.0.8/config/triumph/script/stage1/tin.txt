@@ -1,0 +1,20 @@
+setTitle("Error 404: Heart Not Found")
+
+setIcon("mekanism:ingot", 6)
+
+setDescription("地表寻找锡样本并进行采掘！通常在Y值8~68的地方，名称可能是锡石或者笼铅矿 谨记，地表样本在已经探索过的区域也能找到")
+
+setParent("triumph:stage1/prospector")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("brokeLog1", "triumph:player_break_block")
+criteria1.setBlock("geolosys:ore", 4)
+
+criteria2 = addCriteria("brokeLog2", "triumph:player_break_block")
+criteria2.setBlock("geolosys:ore", 5)
+
+//Rewards
+setRewardExperience(4)

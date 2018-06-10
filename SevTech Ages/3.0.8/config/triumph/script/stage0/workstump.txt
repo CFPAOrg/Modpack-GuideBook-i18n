@@ -1,0 +1,24 @@
+setTitle("工作桩")
+
+setIcon("primal_tech:work_stump")
+
+setDescription("合成台？想都别想！现在只有工作桩 右键将物品放入，再用石板多次右键就可完成合成 合成完后可将石板存储在工作树桩的下方")
+
+setParent("triumph:stage0/collectplank")
+setRequiresParent(true)
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:work_stump")
+
+//Rewards
+setRewardFunction("triumph:stage-0_trigger")
+setRewardItem("primal_tech:rock", 0, 1)
+setRewardExperience(4)

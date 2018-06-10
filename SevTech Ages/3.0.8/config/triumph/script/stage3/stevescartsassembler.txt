@@ -1,0 +1,15 @@
+setTitle("史蒂夫矿车")
+
+setIcon("stevescarts:blockcartassembler")
+
+setDescription("矿车装配机将允许你组装一个模块化矿车。谨记，你可以制作升级配件并通过Shift右键将它们附加到装配机的外部，以加快生产时间或使用其他功能。")
+
+setParent("triumph:stage3/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("stevescarts:blockcartassembler")
+
+//Rewards
+setRewardExperience(8)

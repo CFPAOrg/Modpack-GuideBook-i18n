@@ -1,0 +1,15 @@
+setTitle("星能")
+
+setIcon("astralsorcery:itemcraftingcomponent", 2)
+
+setDescription("挖掘水晶石样本时可以发现星尘，不要忘记标记地图，因为样本还会显示下面的水晶石矿脉！ 一旦你的星辉魔法基础设施完成，你就可以使用制作它们了。")
+
+setParent("triumph:stage2/dowsingrod")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemcraftingcomponent", 2)
+
+//Rewards
+setRewardExperience(8)

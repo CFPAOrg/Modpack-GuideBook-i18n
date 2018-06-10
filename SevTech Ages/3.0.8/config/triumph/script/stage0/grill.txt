@@ -1,0 +1,15 @@
+setTitle("烫死我了！")
+
+setIcon("primal_tech:stone_grill")
+
+setDescription("丢掉你的火堆， 来做一个一个石制烧烤架吧， 烧烤架下方必须有热源（比如火）才能烤制物品")
+
+setParent("triumph:stage0/firepit")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:stone_grill")
+
+//Rewards
+setRewardExperience(4)

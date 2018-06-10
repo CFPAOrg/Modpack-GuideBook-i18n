@@ -1,0 +1,15 @@
+setTitle("机械外壳")
+
+setIcon("teslacorelib:machine_case")
+
+setDescription("高级的机器需要更复杂的机械外壳")
+
+setParent("triumph:stage4/printedcircuitboard")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("teslacorelib:machine_case")
+
+//Rewards
+setRewardExperience(12)

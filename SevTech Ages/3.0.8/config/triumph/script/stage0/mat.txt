@@ -1,0 +1,15 @@
+setTitle("坏男孩，坏男孩（Bed与Bad双关）")
+
+setIcon("cyclicmagic:sleeping_mat")
+
+setDescription("简易睡垫能让你随时睡觉！ 别忘了在睡前设置好你是否想要在睡觉时重设你的出生点")
+
+setParent("triumph:stage0/leather")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("cyclicmagic:sleeping_mat")
+
+//Rewards
+setRewardExperience(4)

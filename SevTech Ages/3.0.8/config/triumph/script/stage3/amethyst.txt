@@ -1,0 +1,15 @@
+setTitle("下界紫水晶矿")
+
+setIcon("nex:item_crystal_amethyst")
+
+setDescription("在地狱发现了一种罕见的宝石。可以使用第三纪元及以上的勘探器进行定位")
+
+setParent("triumph:stage3/nether")
+setRequiresParent(true)
+
+//Criteria
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("nex:item_crystal_amethyst", 0)
+
+//Rewards
+setRewardExperience(8)

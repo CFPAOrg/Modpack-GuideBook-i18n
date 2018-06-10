@@ -1,0 +1,15 @@
+setTitle("水车")
+
+setIcon("immersiveengineering:wooden_device1")
+
+setDescription("将水车连接到动能发电机来产生能量")
+
+setParent("triumph:stage3/creosote")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:wooden_device1", 0)
+
+//Rewards
+setRewardExperience(8)

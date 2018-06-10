@@ -1,0 +1,15 @@
+setTitle("塑料塑形机")
+
+setIcon("pneumaticcraft:plastic_mixer")
+
+setDescription("制作模块化机械（Modular Machinery）的塑料塑形机，使熔融塑料（Plastic）塑形成塑料片")
+
+setParent("triumph:stage4/compressediron")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:plastic_mixer")
+
+//Rewards
+setRewardExperience(12)

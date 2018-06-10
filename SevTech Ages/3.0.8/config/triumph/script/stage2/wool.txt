@@ -1,0 +1,15 @@
+setTitle("羊毛毯子")
+
+setIcon("minecraft:wool")
+
+setDescription("用绒毛和筚板块制作一些羊毛")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:wool")
+
+//Rewards
+setRewardExperience(8)

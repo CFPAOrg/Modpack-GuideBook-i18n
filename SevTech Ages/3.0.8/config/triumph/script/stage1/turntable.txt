@@ -1,0 +1,15 @@
+setTitle("旋转吧！旋转台")
+
+setIcon("betterwithmods:single_machine", 3)
+
+setDescription("合成一个螺杆旋转台，底部接上机械扭力，而后在顶部放置方块开始做东西")
+
+setParent("triumph:stage1/gearbox")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:single_machine", 3)
+
+//Rewards
+setRewardExperience(4)

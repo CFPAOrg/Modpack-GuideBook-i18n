@@ -1,0 +1,15 @@
+setTitle("皮革，漂洗，重复")
+
+setIcon("minecraft:leather")
+
+setDescription("制作皮革！")
+
+setParent("triumph:stage0/fluidbladder")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:leather")
+
+//Rewards
+setRewardExperience(4)

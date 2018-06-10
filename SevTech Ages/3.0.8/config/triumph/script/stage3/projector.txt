@@ -1,0 +1,15 @@
+setTitle("多方块结构投影仪")
+
+setIcon("immersivepetroleum:schematic", 0)
+
+setDescription("利用多方块结构投影仪来投射你想要的沉浸工程结构，然后按照投影来搭建。 投影仪能够很方便的帮助你搭建结构（前提是你有足够多的材料）。")
+
+setParent("triumph:stage3/iebook")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersivepetroleum:schematic", 0)
+
+//Rewards
+setRewardExperience(8)

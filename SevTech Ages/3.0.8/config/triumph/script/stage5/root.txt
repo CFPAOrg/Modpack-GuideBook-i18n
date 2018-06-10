@@ -1,0 +1,15 @@
+setTitle("第五纪元")
+
+setIcon("chisel:futura", 2)
+
+setDescription("欢迎来到下一个纪元！")
+
+setBackground("chisel:textures/blocks/tyrian/diagonal.png")
+
+setShowToast(false)
+
+setAnnounceToChat(true)
+
+//Criteria
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stage4/moon")

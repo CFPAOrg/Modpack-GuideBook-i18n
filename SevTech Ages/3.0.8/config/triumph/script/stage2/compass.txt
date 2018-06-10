@@ -1,0 +1,15 @@
+setTitle("好像迷路了……等等……")
+
+setIcon("minecraft:compass")
+
+setDescription("指南针将帮助你确定X和Z坐标。")
+
+setParent("triumph:stage2/controller")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:compass")
+
+//Rewards
+setRewardExperience(8)

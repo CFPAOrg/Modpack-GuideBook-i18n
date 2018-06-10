@@ -1,0 +1,22 @@
+setTitle("想要写点什么")
+
+setIcon("astralsorcery:itemcraftingcomponent", 5)
+
+setDescription("开始在羊皮纸上记录点什么吧，也许你需要主世界生成罕见的桑树的树皮")
+
+setParent("triumph:stage1/aquamarine")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemcraftingcomponent", 5)
+
+//Rewards
+setRewardExperience(4)

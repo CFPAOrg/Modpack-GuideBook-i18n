@@ -1,0 +1,15 @@
+setTitle("月亮是奶酪做的")
+
+setIcon("galacticraftcore:cheese_curd", 0)
+
+setDescription("奶酪能够非常罕见的在月球上发现，就像其他月球上的矿石，采石场能够直接挖掘它。")
+
+setParent("triumph:stage5/prospectorstage5")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftcore:cheese_curd", 0)
+
+//Rewards
+setRewardExperience(15)

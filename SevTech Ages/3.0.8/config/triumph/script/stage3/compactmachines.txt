@@ -1,0 +1,15 @@
+setTitle("项目：小型化")
+
+setIcon("compactmachines3:fieldprojector", 0)
+
+setDescription("想要创建自己的口袋尺寸的世界和另一个机器盒配方吗？制作小型的空间压缩机械领域投影器并将它们放在世界上来开始制作。")
+
+setParent("triumph:stage5/diamond")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("compactmachines3:fieldprojector", 0)
+
+//Rewards
+setRewardExperience(15)

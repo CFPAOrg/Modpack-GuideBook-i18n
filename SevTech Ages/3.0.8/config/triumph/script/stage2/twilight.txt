@@ -1,0 +1,22 @@
+setTitle("暮色探险")
+
+setIcon("astralsorcery:itemcraftingcomponent", 1)
+
+setDescription("进入暮色森林继续你的旅程。用水填满一个2x2的地方，用植物、树苗或花来包围它，把星辉魔法的星辉锭扔进水中来创造入口。")
+
+setParent("triumph:stage2/astable2")
+setRequiresParent(true)
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemcraftingcomponent", 1)
+
+//Rewards
+setRewardExperience(8)

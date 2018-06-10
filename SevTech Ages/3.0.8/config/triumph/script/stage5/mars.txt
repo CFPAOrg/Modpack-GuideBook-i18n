@@ -1,0 +1,15 @@
+setTitle("ºìÉ«ĞÇÇò")
+
+setIcon("tconstruct:edible", 3)
+
+setDescription("·¢Éä»ğ¼ı£¬µÇÂ½µ½»ğĞÇ")
+
+setParent("triumph:stage5/t2rocket")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("Mars")
+
+//Rewards
+setRewardExperience(15)

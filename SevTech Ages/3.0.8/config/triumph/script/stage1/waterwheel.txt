@@ -1,0 +1,15 @@
+setTitle("水？可以的！")
+
+setIcon("betterwithmods:axle_generator", 1)
+
+setDescription("通过 Better With Mods 模组的水车来获取机械扭力")
+
+setParent("triumph:stage1/axle")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:axle_generator", 1)
+
+//Rewards
+setRewardExperience(4)

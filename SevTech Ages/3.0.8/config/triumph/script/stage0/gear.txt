@@ -1,0 +1,15 @@
+setTitle("木齿轮")
+
+setIcon("betterwithmods:material")
+
+setDescription("动用你的聪明才智来合成一个木齿轮")
+
+setParent("triumph:stage0/wheel")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:material", 0)
+
+//Rewards
+setRewardExperience(4)
