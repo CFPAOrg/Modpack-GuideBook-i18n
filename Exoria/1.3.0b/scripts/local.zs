@@ -1,0 +1,16 @@
+<minecraft:bed:*>.addTooltip(format.red("不能露天放置"));
+<primal:brickform:*>.addTooltip(format.red("不能露天放置"));
+<immcraft:furnace:*>.addTooltip(format.red("必须放在容积大于50个方块的封闭室内，且室内有40个暴露在表面的墙泥方块(Cob)"));
+<minecraft:furnace:*>.addTooltip(format.red("必须放在容积大于50个方块的封闭室内，且室内有40个暴露在表面的树篱方块(Wattle and Daub)"));
+<terraqueous:crafting:6>.addTooltip(format.red("必须放在容积大于50个方块的封闭室内，且室内有40个暴露在表面的树篱方块(Wattle and Daub)"));
+<survivalist:rack:*>.addTooltip(format.red("必须放在容积大于50个方块的封闭室内"));
+<exnihilocreatio:block_sieve:*>.addTooltip(format.red("必须放在容积大于100个方块的封闭室内，且室内有64个暴露在表面的粗制木板方块(Wood Shakes)"));
+<skyresources:casing:*>.addTooltip(format.red("必须放在容积大于20个方块的封闭室内，且室内有32个暴露在表面的混凝土方块"));
+<embers:ember_bore:*>.addTooltip(format.red("必须放置在艾柯索瑞亚洞穴中"));
+<minecraft:enchanting_table:0>.addTooltip(format.red("附近3格内必须要放置4个青金石块"));
+<foundry:machine:*>.addTooltip(format.red("必须放在容积大于50个方块的封闭室内，且室内有64个暴露在表面的混凝土方块"));
+<buildcraftsilicon:laser:*>.addTooltip(format.red("必须放在容积大于50个方块的封闭室内，且室内有64个暴露在表面的实验室方块"));
+<extendedcrafting:table_basic:*>.addTooltip(format.red("必须放置在艾柯索瑞亚上"));
+<extendedcrafting:table_advanced:*>.addTooltip(format.red("必须放置在朦胧世界上"));
+<extendedcrafting:table_elite:*>.addTooltip(format.red("必须放置在朦胧世界卫星上"));
+<thermalexpansion:machine>.addTooltip(format.red("必须放在容积大于100个方块的封闭室内"));

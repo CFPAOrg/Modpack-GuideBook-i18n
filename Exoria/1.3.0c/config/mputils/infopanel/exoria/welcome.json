@@ -1,0 +1,10 @@
+{
+  "loadOnLogin": true,
+  "mustRead": false,
+  "pages": [
+    {
+      "title": "\u91cd\u8981\u63d0\u793a",
+      "file": "notes"
+    }
+  ]
+}

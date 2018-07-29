@@ -1236,7 +1236,7 @@
 					"autoclaim": false,
 					"ismain": false,
 					"name": "星星之火",
-					"desc": "我的下一个目标应该是生起火来。\n\n让我想想：如果我手握燧石，右键石子的话...\n\n有了打火石，我现在终于能把这些熄灭的火把点着了（用打火石/点燃火把右键熄灭的火把）。\n\n（如果要将点燃火把拿在手中的话，我需要手握熄灭的火把并右键已经放置的点燃火把。）"
+					"desc": "我的下一个目标应该是生起火来。\n\n让我想想：如果我手握燧石，右键石子的话...\n\n有了打火石，我现在终于能把这些熄灭的火把点着了（用打火石/点燃火把右键熄灭的火把）；我也可以手持熄灭的火把并右键点燃的火把来点燃它。）"
 				}
 			},
 			"tasks": [{
@@ -1261,7 +1261,7 @@
 					"groupDetect": false,
 					"autoConsume": false,
 					"requiredItems": [{
-						"id": "primal:torch_wood_lit",
+						"id": "minecraft:torch",
 						"Count": 1,
 						"OreDict": "",
 						"Damage": 0
@@ -12098,7 +12098,7 @@
 					"autoclaim": false,
 					"ismain": false,
 					"name": "像卫星一样",
-					"desc": "要想飞往其他行星，我就得收集数据。我应该往太空里发射几颗卫星。\n\n卫星建造机需要被放在能量输入口的上方，而能量则应直接被输入能量输入口。\n\n我想制作三颗卫星，每一颗收集不同的数据。卫星上同时也应搭载一些数据存储设备和一些用于供能的基础太阳能板。"
+					"desc": "要想飞往其他行星，我就得收集数据。我应该往太空里发射几颗卫星。\n\n卫星建造机需要被放在能量输入口的上方，而能量则应直接被输入能量输入口。\n\n我想制作三颗卫星，每一颗收集不同的数据。卫星上同时也应搭载一些数据存储设备和一些用于供能的基础太阳能板。\n\n之后我便能在卫星终端里追踪并收集到数据。"
 				}
 			},
 			"tasks": [{
@@ -12174,6 +12174,23 @@
 					],
 					"taskID": "bq_standard:retrieval",
 					"index": 1
+					 },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "advancedrocketry:satellitecontrolcenter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
 				}
 			],
 			"rewards": [],

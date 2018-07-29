@@ -1,0 +1,161 @@
+{
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 30,
+            "posY" : -60,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "left_center",
+			"texture" : "exoria:buttons/bigbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 30,
+            "posY" : -35,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "exoria:buttons/bigbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 30,
+            "posY" : -10,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "exoria:buttons/bigbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "bugs":
+        {
+            "text" : "Bugs",
+            "posX" : 30,
+            "posY" : 15,
+            "width" : 97,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "exoria:buttons/smallbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/davqvist/Exoria/issues"
+            }
+        },
+            
+        "discord":
+        {
+            "text" : "Discord",
+            "posX" : 133,
+            "posY" : 15,
+            "width" : 97,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "exoria:buttons/smallbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/2PdCCVN"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "\u9009\u9879",
+            "posX" : 30,
+            "posY" : 40,
+            "width" : 97,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "exoria:buttons/smallbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "\u8bed\u8a00",
+            "posX" : 133,
+            "posY" : 40,
+            "width" : 97,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "exoria:buttons/smallbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 30,
+            "posY" : 65,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "exoria:buttons/bigbutton.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Exoria 1.2.1",
+            "posX" : -80,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },  
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "exoria:background/cmm.png",
+			"mode" : "fill"
+		}
+    }
+}
