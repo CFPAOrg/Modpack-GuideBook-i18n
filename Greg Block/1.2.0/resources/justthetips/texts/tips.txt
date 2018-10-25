@@ -1,0 +1,23 @@
+You can crush down Granite twice to obtain Red Sand, siftable as regular Sand
+With about 30 Waterwheels, you will have instant sifting
+Creepers are disabled in this pack
+In GregTech, it's all about quantity
+As long as you have full health, it's safe to fall into the void
+Press Backspace to see the previous recipe in JEI
+Press F7 to see where mobs can spawn
+You can put fluids in/take fluids out of machines by clicking the fluid slot with a Bucket or Cell
+Sometimes you need to go backwards to continue forwards
+Crafting Tables keep the items put in them
+You can break only one half of a double Slab by holding shift while breaking it
+Keep your multiblocks in one chunk
+You don't need Servos for using ItemDucts. You can simply use Hoppers
+Don't overclock recipes if you don't have to.
+Boom = Bad
+Make sure your multiblocks are in only one chunk.
+The true goal of GregTech is automation, not getting to the end. So don't just rush it
+Make sure to look through all the recipes for an item
+Craft things in batches
+Don't look at recipes for things that you can't make yet, it just leads to confusion
+Hardened Glass in the only wither-proof block in the pack
+Press Y (by default) while hovering over an item in JEI to see where you have it stored
+Hold ~ (by default) to mine one type of block in an area

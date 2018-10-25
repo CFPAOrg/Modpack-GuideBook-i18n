@@ -1,0 +1,108 @@
+gregtech.machine.compressor.ev.name=Advanced Compressor III
+gregtech.machine.electrolyzer.ev.name=Advanced Electrolyzer III
+gregtech.machine.extractor.ev.name=Advanced Extractor III
+gregtech.machine.air_collector.ev.name=Advanced Air Collector III
+recipemap.plasma_generator.name=Plasma Turbine Fuels
+material.epoxid=Epoxy Resin
+material.nitro_fuel=Cetane-Boosted Diesel
+material.cracked_light_fuel=Steam-Cracked Light Fuel
+material.cracked_heavy_fuel=Steam-Cracked Heavy Fuel
+item.epoxid.ingot=Epoxy Resin Bar
+item.epoxid.dustTiny=Tiny Pile of Epoxy Resin Pulp
+item.epoxid.dustSmall=Small Pile of Epoxy Resin Pulp
+item.epoxid.dust=Epoxy Resin Pulp
+item.epoxid.nugget=Epoxy Resin Chip
+item.epoxid.plateDense=Dense Epoxy Resin Sheet
+item.epoxid.plate=Epoxy Resin Sheet
+item.epoxid.foil=Thin Epoxy Resin Sheet
+item.material.oreprefix.plateCurved=Curved %s Plate
+item.material.oreprefix.pipeGaLarge=Large %s Pipe
+metaitem.circuit.parts.advanced.name=Microprocessor
+metaitem.circuit.parts.advanced.tooltip=A Basic Circuit
+metaitem.circuit.integrated.name=Programmed Circuit
+metaitem.circuit.basic.name=Integrated Logic Circuit
+metaitem.circuit.basic.tooltip=A Basic Circuit
+metaitem.circuit.advanced.name=Integrated Processor
+metaitem.circuit.advanced.tooltip=A Good Circuit
+metaitem.circuit.master.name=Crystalprocessor Assembly
+metaitem.circuit.master.tooltip=A Master Circuit
+metaitem.circuit.elite.name=Quantumprocessor Assembly
+metaitem.circuit.elite.tooltip=An Elite Circuit
+metaitem.circuit.data.name=Workstation
+metaitem.circuit.data.tooltip=An Extreme Circuit
+metaitem.circuit.board.elite.name=Neuro Processing Unit
+metaitem.circuit.board.elite.tooltip=Neuto CPU
+metaitem.credit.darmstadtium.name=Neutronium Credit
+metaitem.rubber_drop.name=Sticky Resin
+tile.metal_casing.primitive_bricks.name=Firebricks
+gregtech.machine.primitive_blast_furnace.bronze.tooltip=Structure: 3x3x4 (WxLxH) The entire structure is made out of Firebricks (32 in total)./nFirst Layer is a 3x3 square./nSecond, third, and fourth layers are hollow, without the middle block./nThis block goes on the middle of any side in the second layer./nThe sides of Blast Furnaces can be shared, if the side does not have a controller./n
+metaitem.tool.test.name=%s Test Tool
+item.item_mesh.1.name=String Mesh
+item.item_mesh.2.name=Tin Alloy Mesh
+item.item_mesh.3.name=Steel Mesh
+item.item_mesh.4.name=Aluminium Mesh
+item.itemquestbook.name=Guide Book
+
+item.nuclearcraft.fuel_thorium.tbu.name=Thorium Fuel
+item.nuclearcraft.fuel_uranium.leu_235.name=Naquadah Fuel
+item.nuclearcraft.fuel_uranium.heu_233.name=Uranium Fuel
+item.nuclearcraft.fuel_mixed_oxide.mox_239.name=MOX Fuel
+item.nuclearcraft.depleted_fuel_thorium.tbu.name=Depleted Thorium Fuel
+item.nuclearcraft.depleted_fuel_uranium.heu_233.name=Depleted Uranium Fuel
+item.nuclearcraft.depleted_fuel_uranium.leu_235.name=Depleted Naquadah Fuel
+item.nuclearcraft.depleted_fuel_mixed_oxide.mox_239.name=Depleted MOX Fuel
+
+gui.container.fission_controller.tbu=Thorium
+gui.container.fission_controller.heu=Uranium
+gui.container.fission_controller.leu=Naquadah
+gui.container.fission_controller.mox_239=MOX
+
+item.nuclearcraft.plutonium._238.name=Plutonium-244
+item.nuclearcraft.plutonium._238_tiny.name=Tiny Clump of Plutonium-244
+
+
+tile.questutils.pedestal.name=Trophy
+
+
+item.teslacorelib.machine_case.name=Polyethylene Hull
+
+material.iron_compressed=Compressed Iron
+material.tough=Tough Alloy
+
+metaitem.electric.pump.lv.tooltip=640 L/sec (NYI)
+metaitem.electric.pump.mv.tooltip=2560 L/sec (NYI)
+metaitem.electric.pump.hv.tooltip=10240 L/sec (NYI)
+metaitem.electric.pump.ev.tooltip=40.960 L/sec (NYI)
+metaitem.electric.pump.iv.tooltip=163.840 L/sec (NYI)
+metaitem.electric.pump.luv.tooltip=655.360 L/sec (NYI)
+metaitem.electric.pump.zpm.tooltip=2.621.440 L/sec (NYI)
+metaitem.electric.pump.uv.tooltip=10.485.760 L/sec (NYI)
+metaitem.fluidregulator.lv.tooltip=Configuable up to 640 L/sec (NYI)
+metaitem.fluidregulator.mv.tooltip=Configuable up to 2560 L/sec (NYI)
+metaitem.fluidregulator.hv.tooltip=Configuable up to 10240 L/sec (NYI)
+metaitem.fluidregulator.ev.tooltip=Configuable up to 40960 L/sec (NYI)
+metaitem.fluidregulator.iv.tooltip=Configuable up to 163840 L/sec (NYI)
+metaitem.conveyor.module.lv.tooltip=1 Stack every 20 secs (NYI)
+metaitem.conveyor.module.mv.tooltip=1 Stack every 5 secs (NYI)
+metaitem.conveyor.module.hv.tooltip=1 Stack every 1 sec (NYI)
+metaitem.conveyor.module.ev.tooltip=1 Stack every 1/5 sec (NYI)
+metaitem.conveyor.module.iv.tooltip=1 Stack every 1/20 sec (NYI)
+metaitem.conveyor.module.luv.tooltip=1 Stack every 1/20 sec (NYI)
+metaitem.conveyor.module.zpm.tooltip=1 Stack every 1/20 sec (NYI)
+metaitem.conveyor.module.uv.tooltip=1 Stack every 1/20 sec (NYI)
+metaitem.robot.arm.lv.tooltip=Inserts into specific Slots (NYI)
+metaitem.robot.arm.mv.tooltip=Inserts into specific Slots (NYI)
+metaitem.robot.arm.hv.tooltip=Inserts into specific Slots (NYI)
+metaitem.robot.arm.ev.tooltip=Inserts into specific Slots (NYI)
+metaitem.robot.arm.iv.tooltip=Inserts into specific Slots (NYI)
+metaitem.robot.arm.luv.tooltip=Inserts into specific Slots (NYI)
+metaitem.robot.arm.zpm.tooltip=Inserts into specific Slots (NYI)
+metaitem.robot.arm.uv.tooltip=Inserts into specific Slots (NYI)
+metaitem.plank.oak.tooltip=Half a half Slab
+metaitem.plank.spruce.tooltip=Half a half Slab
+metaitem.plank.birch.tooltip=Half a half Slab
+metaitem.plank.jungle.tooltip=Half a half Slab
+metaitem.plank.acacia.tooltip=Half a half Slab
+metaitem.plank.darkoak.tooltip=Half a half Slab
+
+extracells.item.storage.casing.fluid.name=Advanced Fluid Storage Housing
