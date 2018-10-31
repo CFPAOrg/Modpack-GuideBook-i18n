@@ -9940,7 +9940,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "更替空岛",
-          "desc:8": " With a Microprocessor you\u0027re able to upgrade your Building Gadget into an Exchange one, allowing you to exchange blocks on your island for other ones.使用微型处理器，你可以将建筑小助手升级为更替小助手，从而可以把空岛用的方块更替成其它的。"
+          "desc:8": "使用微型处理器，你可以将建筑小助手升级为更替小助手，从而可以把空岛用的方块更替成其它的。"
         }
       },
       "tasks:9": {
@@ -21656,7 +21656,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "你需要知道的一切：电机",
-          "desc:8": " Machines can auto-output items or fluids on the side represented with a hatch. You can choose whether to auto-output items or fluids by pressing the box-shaped buttons, with the grey one being items and the orange one being fluids.\n\n If a recipe that requires a lower voltage tier is done in a machine that\u0027s a higher tier, it will be overclocked, meaning 4 times more (scaling with the tier diffrence) EU/t is used, 2 times less time is needed for the recipe to be done and if there are byproducts, the chance of obtaining them doubles.\n\n Cables transfer power in the form of voltage and amps. An amp is a packet and the voltage is the size of the packet.\n\n If a machine has insufficient power, it will slowly lose progress. Once the bar is fully empty, you pretty much wasted the inputs. \n发电机仅在一侧输出电源，用闪亮的白点表示。 \n机器可以在用舱口表示的一侧自动输出物品或流体。你可以通过按下按钮来选择是否自动输出物品或流体，灰色的是物品，橙色是流体。 \n如果需要较低电压级的配方在较高级的机器中完成，则它将被超频，意味着使用4倍（使用层差异缩放）的EU/t，配方需要的时间减少一半，如果有副产品，获得副产品的概率翻倍。 \n电缆以电压和电流的形式传输电力。电流相当于一个包，电压是包的大小。 \n如果机器功率不足，它将慢慢失去进度。一旦栏完全空了，你就相当于浪费了输入的材料。"
+          "desc:8": "机器可以在用舱口表示的一侧自动输出物品或流体。你可以通过按下按钮来选择是否自动输出物品或流体，灰色的是物品，橙色是流体。 \n如果需要较低电压级的配方在较高级的机器中完成，则它将被超频，意味着使用4倍（使用层差异缩放）的EU/t，配方需要的时间减少一半，如果有副产品，获得副产品的概率翻倍。 \n电缆以电压和电流的形式传输电力。电流相当于一个包，电压是包的大小。 \n如果机器功率不足，它将慢慢失去进度。一旦栏完全空了，你就相当于浪费了输入的材料。"
         }
       },
       "tasks:9": {
@@ -28760,7 +28760,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "镅",
-          "desc:8": " For upgrading your Fusion Reactor to the next tier, you are going to need Amercium.要将核聚变反应堆控制电脑升级到下一级，你将需要镅。"
+          "desc:8": "要将核聚变反应堆控制电脑升级到下一级，你将需要镅。"
         }
       },
       "tasks:9": {
@@ -38426,7 +38426,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "你需要知道的一切：任务系统",
-          "desc:8": " In this pack you don\u0027t get quest rewards, but you do get Trophies for major milestones.\n\n Items in your inventory are checked every 3 seconds, so wait at least 3s to make sure something is detected before using it up.\n\n If you complete a quest before it\u0027s unlocked, you\u0027ll need to press the detect button.\n\n Fluids tasks require you to have all fluids in your inventory at the same time. \n许多任务都有多个分支任务，你可以使用检测按钮旁边的箭头切换。 \n在这个包中你不会获得任务奖励，但你可以获得代表重要里程碑的奖杯。 \n库存中的物品每3秒检查一次，因此在使用之前请至少等待3秒以确保检测到某些物品。 \n如果你在解锁之前完成任务，则需要按下检测按钮。 \n流体任务要求你同时拥有任务需求中的所有流体。"
+          "desc:8": "许多任务都有多个分支任务，你可以使用检测按钮旁边的箭头切换。 \n在这个包中你不会获得任务奖励，但你可以获得代表重要里程碑的奖杯。 \n库存中的物品每3秒检查一次，因此在使用之前请至少等待3秒以确保检测到某些物品。 \n如果你在解锁之前完成任务，则需要按下检测按钮。 \n流体任务要求你同时拥有任务需求中的所有流体。"
         }
       },
       "tasks:9": {
@@ -38503,7 +38503,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "你需要知道的一切：压力",
-          "desc:8": " Pressure can leak through an unconnected Tube.\n\n Most machines have a pressure limit above which they\u0027ll have a chance to explode.\n\n You can use certain items to save your pressure system from explosions. \n压力通过系统保持平衡。 \n压力会通过未连接的管泄漏。 \n大多数机器都有一个压力限制，高于该压力限制它们将有可能爆炸。 \n你可以使用某些物品来保护你的压力系统免受爆炸。"
+          "desc:8": "压力通过系统保持平衡。 \n压力会通过未连接的管泄漏。 \n大多数机器都有一个压力限制，高于该压力限制它们将有可能爆炸。 \n你可以使用某些物品来保护你的压力系统免受爆炸。"
         }
       },
       "tasks:9": {
@@ -40403,7 +40403,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "你需要知道的一切：蜜蜂",
-          "desc:8": " There are 2 types of resource Bees:\n\n Binnie\u0027s Mods Bees that make Combs which can be directly centrifuged into resources.\n\n GTCE Bees Bees that make Combs which can be used to quadruple Ores and get some extra fluids outputs. \n这包中的蜜蜂是完全可选的。 \n有两种类型的资源蜜蜂： \nBinnie's Mods蜜蜂 制造的蜂巢可以直接离心出资源。 \nGTCE Bees蜜蜂 制造的蜂巢可用于使矿石翻两番并获得额外的液体产出。"
+          "desc:8": "这包中的蜜蜂是完全可选的。 \n有两种类型的资源蜜蜂： \nBinnie's Mods蜜蜂 制造的蜂巢可以直接离心出资源。 \nGTCE Bees蜜蜂 制造的蜂巢可用于使矿石翻两番并获得额外的液体产出。"
         }
       },
       "tasks:9": {
@@ -40442,7 +40442,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "你需要知道的一切：电路板",
-          "desc:8": " Circuits come in sets containing a Proceesor, Processor Assembly, Computer and Mainframe, with every one being of a higher power tier and requiring 3 of the previous one. \n大多数电路板有多种级别。 \n电路板中包含处理器、芯片、计算机和主机，每级电路板都具有更高的功率等级，并且需要3个前一级电路板。"
+          "desc:8": "大多数电路板有多种级别。 \n电路板中包含处理器、芯片、计算机和主机，每级电路板都具有更高的功率等级，并且需要3个前一级电路板。"
         }
       },
       "tasks:9": {
@@ -40772,8 +40772,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Advanced Air Collector III",
-          "desc:8": " The Advanced Air Collector III uses EV power to collect 8 buckets of Air every tick."
+          "name:8": "进阶空气收集器 III",
+          "desc:8": "进阶空气收集器使用EV能量，每tick收集8桶空气。"
         }
       },
       "tasks:9": {
@@ -40822,8 +40822,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Atmosphere Collector",
-          "desc:8": " The Atmosphere Collector, also known as the Advanced Air Collector IV, uses IV power to collect 16 buckets of Air every second."
+          "name:8": "大气收集器",
+          "desc:8": "大气收集器，不妨说是进阶空气收集器IV，使用IV级能量，每秒收集16桶空气。"
         }
       },
       "tasks:9": {
@@ -40872,8 +40872,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "This should kill everything",
-          "desc:8": " The LuV Atmosphere Collector uses LuV power to collect 32 buckets of Air every second. It\u0027s the best Air Collector as its entire buffer fills up with every operation."
+          "name:8": "杀死一切",
+          "desc:8": "LuV大气收集器使用LuV能量，每秒收集32桶空气。它是顶级的收集器，每次操作都能填满它的整个缓冲区。"
         }
       },
       "tasks:9": {
@@ -40927,8 +40927,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 1,
           "ismain:1": 0,
-          "name:8": "Any Air Collector",
-          "desc:8": "No Description"
+          "name:8": "任意空气收集器",
+          "desc:8": "暂无描述"
         }
       },
       "tasks:9": {},
@@ -40959,7 +40959,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Better Bronze Storage",
+          "name:8": "更好的青铜存储",
           "desc:8": " While Chests and Tanks are nice, they don\u0027t really cut it when you have a lot of different items and large amounts of fluids to store. To combat this we have:\n\nDrums\n-Store 4 times the amount of fluid the corresponding Tanks do\n-You can\u0027t see the fluid in them\n-They take 2-4 more Ingots than Tanks, but no Glass\n\nCrates\n-Store 1.5-2 times the amount of different items the corresponding Chests do\n-They take up a whole block space\n-They limit JEI usage in Automatic\n-They take about the same amount of materials as Chests"
         }
       },
@@ -41015,7 +41015,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Automating The Oven",
+          "name:8": "自动化焦炉",
           "desc:8": " You can keep your Coke Oven manual, but if you want to, you can automate it quite simply. You can replace any Coke Oven Bricks block with a Coke Oven Faucet that wll automatically output Creosote or with a Coke Oven Chute that will automatically output the item output. For them to function, you\u0027re going to need to place them before placing the Controller."
         }
       },
@@ -41071,8 +41071,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "The Colors of Piping",
-          "desc:8": " One way of separating Pipes is by coloring them with Spray Cans."
+          "name:8": "管道的颜色",
+          "desc:8": "分离管道的方法就是喷漆罐着色。"
         }
       },
       "tasks:9": {
@@ -41121,8 +41121,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Flint, but no Steel",
-          "desc:8": " Flint is an early-game tool material. It can be ontained from Gravel, either the manual vanilla way or with a Mortar."
+          "name:8": "燧石无钢",
+          "desc:8": "燧石是早期的工具材料，从砂砾中获取，可以通过原版方式或者研钵获取。"
         }
       },
       "tasks:9": {
@@ -41171,8 +41171,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Cover me in Covers",
-          "desc:8": " The Flint Saw will allow you to cut block into smaller and smaller pieces. You can use those peices for separating GregTech Pipes and Cables."
+          "name:8": "用覆盖板覆盖我吧",
+          "desc:8": "燧石锯呢能够将方块切割成更小的方块。你可以用这些小方块分割格雷科技的管道或者线缆。"
         }
       },
       "tasks:9": {
@@ -41327,7 +41327,7 @@
           "name:8": "发展线路",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page depicts the progression line and gives you Trophies for unlocking new ages."
+          "desc:8": "这个页面描述了发展线，在你解锁新纪元时会给予奖杯。"
         }
       },
       "order:3": 0
@@ -41611,7 +41611,7 @@
           "name:8": "Age 0 - 手工时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around Ex Nihilo, the basics of GregTech and basic automation."
+          "desc:8": "这个页面主要有无中生有模组，格雷科技的早期，以及一些自动化内容。"
         }
       },
       "order:3": 6
@@ -41757,7 +41757,7 @@
           "name:8": "Age 1 - 蒸汽时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around Steam and High Pressure Steam machines."
+          "desc:8": "有关于蒸汽和高压蒸汽的内容。 "
         }
       },
       "order:3": 7
@@ -42149,7 +42149,7 @@
           "name:8": "Age 2 - LV时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around Low Voltage machines."
+          "desc:8": "有关于低压机器的内容。"
         }
       },
       "order:3": 8
@@ -42277,7 +42277,7 @@
           "name:8": "Age -2 - 塑料时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " The Plastic Age is based around Industrial Foregoing."
+          "desc:8": "塑料时代是与工业先锋有关的内容。"
         }
       },
       "order:3": 4
@@ -42771,7 +42771,7 @@
           "name:8": "Age 3 - MV时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around Medium Voltage machines."
+          "desc:8": "有关于中压机器的内容。"
         }
       },
       "order:3": 9
@@ -42881,7 +42881,7 @@
           "name:8": "Age -3 - 数字时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around Applied Energistics 2."
+          "desc:8": "有关于应用能源2的内容。"
         }
       },
       "order:3": 3
@@ -43339,7 +43339,7 @@
           "name:8": "Age 4 - HV时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around High Voltage machines."
+          "desc:8": "有关于高压机器的内容。"
         }
       },
       "order:3": 10
@@ -43785,7 +43785,7 @@
           "name:8": "Age 5 - EV时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around Extreme Voltage machines."
+          "desc:8": "有关于超高压机器的内容。"
         }
       },
       "order:3": 11
@@ -44255,7 +44255,7 @@
           "name:8": "Age 6 - IV时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around Insane Voltage machines."
+          "desc:8": "有关于IV机器的内容。"
         }
       },
       "order:3": 12
@@ -44647,7 +44647,7 @@
           "name:8": "Age 7 - LuV时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around Ludicrous Volatge machines."
+          "desc:8": "有关于LuV机器的内容。"
         }
       },
       "order:3": 13
@@ -44667,7 +44667,7 @@
           "name:8": "Age 10 - MAX时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around MAX machines."
+          "desc:8": "有关于MAX机器的内容。"
         }
       },
       "order:3": 16
@@ -45053,7 +45053,7 @@
           "name:8": "Age 8 - 零点模块(ZPM)时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around Zero Point Module machines."
+          "desc:8": "有关于零点模块机器的内容。"
         }
       },
       "order:3": 14
@@ -45391,7 +45391,7 @@
           "name:8": "Age 9 - UV时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around Ultimate Voltage machines."
+          "desc:8": "有关于UV机器的内容。"
         }
       },
       "order:3": 15
@@ -45609,7 +45609,7 @@
           "name:8": "Age -1 - 自然时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around Forestry, Binnie\u0027s Mods and GTCE Bees."
+          "desc:8": "有关于林业，Binnie和GTCE蜜蜂相关的内容。"
         }
       },
       "order:3": 5
@@ -45707,7 +45707,7 @@
           "name:8": "Age -4 - 气动时代",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around PneumaticCraft."
+          "desc:8": "有关于气动工艺的内容。"
         }
       },
       "order:3": 2
@@ -45769,7 +45769,7 @@
           "name:8": "你需要知道的一切",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page has quests that give you information about things in the pack."
+          "desc:8": "这个页面提供了一些任务，能够给予你相关整合信息。"
         }
       },
       "order:3": 1
