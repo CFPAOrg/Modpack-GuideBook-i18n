@@ -106,8 +106,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "A Mob Farm",
-          "desc:8": " One of the main things that you are going to need in this pack and especially early on are mob drops. To obtain them you are going to need to make an enclosed room where mobs can spawn or a mob dropper."
+          "name:8": "一个刷怪区域",
+          "desc:8": " 怪物掉落物是你在这个整合包中需要的主要资源之一，尤其是在早期。为了获得它们，你需要建造一个封闭的房间，在那里可以生成或掉下怪物。"
         }
       },
       "tasks:9": {
@@ -401,8 +401,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Dirt Furnace",
-          "desc:8": " You can\u0027t craft a regular Furnace yet, so for cooking and smelting you are going to need the next best thing: a Dirt Furnace. It works just like a regular Furnace, but it uses 3 times more fuel."
+          "name:8": "泥炉",
+          "desc:8": " 你还无法制作一个熔炉，所以为了烹饪和烧制，你将需要另一个稍次一点的东西：泥炉。它的工作方式与熔炉相似，但需要3倍的燃料。"
         }
       },
       "tasks:9": {
@@ -477,8 +477,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Combustion",
-          "desc:8": " In order to make many basic items from Sky Resources and a few other mods, you are going to need to construct a multiblock Combustion Chamber.\n\n You can see how to do that and how to use it in the Sky Resources 2 guide."
+          "name:8": "氧化",
+          "desc:8": " 为了制作Sky Resources和其他mod中的一些物品，你将需要构建一个多方块氧化室。\n\n 你可以在Sky Resources 2指南中了解如何构建以及使用它。"
         }
       },
       "tasks:9": {
@@ -570,8 +570,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Water Extractor",
-          "desc:8": " You can hold right-click and let go with a Water Extractor to collect Water from Leaves, Snow or Cacti.\n\n You can place Water by shift+right-clicking and with it make an infinite Water source."
+          "name:8": "抽水器",
+          "desc:8": " 你可以按住右键然后放开抽水器从叶子、雪或仙人掌中收集水分。\n\n 你可以通过shift+右键单击放置水来制作无限水。"
         }
       },
       "tasks:9": {
@@ -656,8 +656,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Cobblestone",
-          "desc:8": " Now that you have Water and Lava, you can make a traditional Cobblestone Generator."
+          "name:8": "圆石",
+          "desc:8": " 既然你有水和熔岩，你就可以制作传统的造石机了。"
         }
       },
       "tasks:9": {
@@ -752,8 +752,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Grinding",
-          "desc:8": " With a Rock Grinder, you can grind certain materials down into other materials."
+          "name:8": "打碎",
+          "desc:8": " 使用碎石杵，你可以将某些材料打碎成其他材料。"
         }
       },
       "tasks:9": {
@@ -834,8 +834,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Alchemy",
-          "desc:8": " To start off with the alchemical part of Sky Resources, you are going to need to make an Alchemical Fusion Table. With it, you are going to be able to make many different Alchemical items.\n\n For it to work however, you are going to need a Catalyst such as Primus Alchemical Dust. Every recipe uses up a certain amount of the Catalyst, represented by the green bar. Every Catalyst has a yield, which determines how much the purple bar gets filled during every recipe, which when full gives you an output."
+          "name:8": "初级炼金",
+          "desc:8": " 从SkyResources的炼金部分开始，你将需要制作一个炼金灌注台。有了它，你将能够制作许多不同的炼金物品。\n\n 为了使它开始工作，你需要一种催化剂，如低级炼金粉尘。每次合成都会消耗一定量的催化剂，用绿色条表示。每个催化剂都有一个产量，它决定了每次合成中紫色条的填充量，当紫色条满的时候会给你一个产物。"
         }
       },
       "tasks:9": {
@@ -927,8 +927,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Stone Combustion",
-          "desc:8": " The Stone Casing gives your Combustion Chamber a higher maximum amount of Heat Units and the Stone Combustion Heater lowers the amount of fuel used per Heat Unit, as well as the Heat Units used per recipe, but prevents you from using the Trapdoor."
+          "name:8": "石制氧化",
+          "desc:8": " 石制框架为你的氧化室提供更高的最大HU，石制氧化加热器可降低每点HU使用的燃料量，以及每次合成使用的HU，但会阻止你使用活板门。"
         }
       },
       "tasks:9": {
@@ -1009,8 +1009,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Generating Cobblestone",
-          "desc:8": " Magmafied Stone, when touching Crystal Fluid, drops Cobblestone."
+          "name:8": "生成圆石",
+          "desc:8": " 岩浆石接触液态水晶会掉落圆石。"
         }
       },
       "tasks:9": {
@@ -1085,8 +1085,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Clay",
-          "desc:8": " By inserting Water into Dirt, you are able to make Clay or Compressed Clay (by inserting it into Compressed Dirt)."
+          "name:8": "粘土",
+          "desc:8": " 通过将水注入泥土，你可以制作粘土块或压缩粘土块（通过将水注入压缩泥土）。"
         }
       },
       "tasks:9": {
@@ -1161,8 +1161,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Iron",
-          "desc:8": " Now that you have a Condenser setup, with Crystal Fluid and Iron Alchemical Dust, you can make an Iron Ingot."
+          "name:8": "铁",
+          "desc:8": " 现在你有了一个冷凝装置，使用液态水晶和铁炼金矿尘，你可以开始制作铁锭了。"
         }
       },
       "tasks:9": {
@@ -1346,8 +1346,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Plant Matter",
-          "desc:8": " While you can twerk or sprint around your Saplings to grow the faster, you can use Plant Matter on them to grow them instantly."
+          "name:8": "自然物质",
+          "desc:8": " 虽然你可以在你的树苗周围跳舞或疾跑以加速其生长，但你可以对其使用自然物质来使其瞬间长成。"
         }
       },
       "tasks:9": {
@@ -1515,8 +1515,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Redstone",
-          "desc:8": " To make Redstone needed for machines and Redstone mechanisms, you are going to need 880 HU, which the Iron Casing allows you to reach."
+          "name:8": "红石",
+          "desc:8": " 为了制作红石用于机器和红石装置，你需要达到880HU，铁制框架就可以。"
         }
       },
       "tasks:9": {
@@ -1686,8 +1686,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Grass",
-          "desc:8": " To get passive mobs to spawn and to obtain different seeds, you are going to need to make a Grass block."
+          "name:8": "草",
+          "desc:8": " 为了生成动物并获得不同的种子，你需要制作一个草方块。"
         }
       },
       "tasks:9": {
@@ -1769,8 +1769,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Lava",
-          "desc:8": " Now that you can make Blaze Powder, you can craft it into a block and put it above a Torch to obtain Lava. Melting it could take a few minutes, but if you\u0027re lucky, it could even take only a few seconds."
+          "name:8": "熔岩",
+          "desc:8": " 现在你可以制作烈焰粉，你可以将它制作成块并将其放在火把上方以获得熔岩。熔化它可能需要几分钟，但如果你足够幸运，也可能只需要几秒钟。"
         }
       },
       "tasks:9": {
@@ -1959,8 +1959,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Sand",
-          "desc:8": "You can grind Gravel to turn it into Sand."
+          "name:8": "沙子",
+          "desc:8": "你可以打碎沙砾把它变成沙子。"
         }
       },
       "tasks:9": {
@@ -2035,8 +2035,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Gravel",
-          "desc:8": "You can grind Cobblestone to turn it into Gravel."
+          "name:8": "沙砾",
+          "desc:8": "你可以打碎圆石把它变成沙砾。"
         }
       },
       "tasks:9": {
@@ -2112,8 +2112,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Condensation",
-          "desc:8": " In order to make Ingots, you are going to need a setup for Condensation. You can see how to make the most basic of setups in the Sky Resources guide on the Metal Creation page. Keep in mind that the bottom block can be any inventory, such as a Chest."
+          "name:8": "冷凝",
+          "desc:8": " 为了制作金属锭，你需要使用冷凝。你可以在SkyResources指南中的金属制造页面查看如何进行最基本的操作。请记住，底部可以是任意物品，例如箱子。"
         }
       },
       "tasks:9": {
@@ -2200,8 +2200,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Seeds",
-          "desc:8": " By breaking Grass, you can obtain Seeds for many different useful crops."
+          "name:8": "种子",
+          "desc:8": " 通过打草，你可以获得许多有用的作物种子。"
         }
       },
       "tasks:9": {
@@ -2307,8 +2307,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Life Infusion",
-          "desc:8": " Through Life Infusion you can make plants needed for progression, by using health and 2 certain items.\n\n If you started on the Desert Island, you already have a Sandstone Infusion Stone, but if you didn\u0027t, you are going to need to make a Dehydrated Cactus through Combustion and hydrate it with a Water Extractor.\n\n You can learn more about how it works in the Sky Resources guide."
+          "name:8": "生命灌注",
+          "desc:8": " 通过生命灌注，你可以通过使用生命值和2个特定物品来制作发展所需的植物。\n\n 如果你出生在沙地岛上，你已经有了砂岩灌注石，但如果你不是出生在沙地岛上，那么你需要通过氧化制作脱水仙人掌并用抽水器进行注水。\n\n 你可以在SkyResources指南中了解更多有关生命灌注的信息。"
         }
       },
       "tasks:9": {
@@ -2486,8 +2486,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Netherrack",
-          "desc:8": " Another thing that you can make with a combustion chamber with an Iron Casing is Netherrack."
+          "name:8": "地狱岩",
+          "desc:8": " 使用带铁制框架的氧化室可以制造的另一个东西是地狱岩。"
         }
       },
       "tasks:9": {
@@ -2641,8 +2641,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Worms",
-          "desc:8": " Worms can be obtained by tilling Grass. They keep create Farmland in a 3x3 area."
+          "name:8": "蚯蚓",
+          "desc:8": " 蚯蚓可以通过锄头耕草方块获得。它们能在3x3的区域内将泥土变成耕地。"
         }
       },
       "tasks:9": {
@@ -2717,8 +2717,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Glowstone",
-          "desc:8": " Now that you have a Netherbrick Casing, you can make Glowstone with Gunpowder and Blaze Powder."
+          "name:8": "荧石",
+          "desc:8": " 现在你有了一个地狱砖框架，你就可以使用火药和烈焰粉制作荧石粉了。"
         }
       },
       "tasks:9": {
@@ -2947,8 +2947,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Freezer",
-          "desc:8": " Using a Freezer, you can, well, freeze different materials to turn them into other materials. It\u0027s also one of the easiest ways of making Dirt.\n\n If you started on the Snow Island, you already have this, but if you didn\u0027t, you can make Snow through Combustion, shift+right-click on blocks of Snow to duplicate them and craft a Mini Freezer."
+          "name:8": "冰箱",
+          "desc:8": " 使用冰箱，你可以将一些材料冰冻成其他材料。这也是制作泥土的最简单的方法之一。\n\n 如果你出生在雪地岛上，你已经有了这个，但是如果你不是出生在雪地岛，你可以通过氧化制作雪球，shift+右键单击雪来得到雪球并制作迷你冰箱。"
         }
       },
       "tasks:9": {
@@ -3024,8 +3024,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Let It Go!",
-          "desc:8": " While the Mini Freezer works, it\u0027s not really that fast. It\u0027s best to make a multiblock Iron Freezer to freezer more things faster."
+          "name:8": "冰雪奇缘",
+          "desc:8": " 虽然迷你冰箱也能用，但它太慢了。最好制作一个多方块结构的铁制冰箱，以便更快地冷冻更多东西。"
         }
       },
       "tasks:9": {
@@ -3347,8 +3347,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Farming Island",
-          "desc:8": " To start off, you are going to need to collect the 2 Spruce Wood Bark blocks and use them to make a Crafting Table and a Wooden Hoe, with which you can till the Coarse Dirt into Dirt and the Dirt into Farmland. You then need to harvest the Wheat via right-click and twerk near it to regrow it. Once you have a few stacks of Wheat, you can make Thatch (preferably Slabs) and with it you are going to want to make a mob spawner. Then, all you need is Bonemeal with which you can crafting a Spruce Sapling. If you ever get hungry, while you can\u0027t make Bread, you can simply eat the Wheat."
+          "name:8": "农业岛（Farming Island）",
+          "desc:8": " 首先，你需要收集2个云杉树皮并用它们制作一个合成台和一个木制锄头，用锄头可以将砂土变成泥土、将泥土变成耕地。然后，您需要通过右键单击收获小麦并在其附近跳舞使其重新生长。一旦你有了一些小麦，就可以制作茅草（最好是台阶），并用它做一个刷怪区域。然后，你需要骨粉，用它来制作云杉树苗。如果你饿了，虽然你还不能做面包，但你可以直接吃小麦。"
         }
       },
       "tasks:9": {
@@ -3619,8 +3619,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Improved Melting",
-          "desc:8": " The Crucible is used for melting Blaze Powder Blocks into Lava and Crystal Shards into Crystal Fluid."
+          "name:8": "改进熔化方式",
+          "desc:8": " 坩埚用于将烈焰粉块熔化成熔岩，将水晶碎片熔化成液态水晶。"
         }
       },
       "tasks:9": {
@@ -3695,8 +3695,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Growing Slime",
-          "desc:8": " With Life Infusion, you can make Saplings that grow Slime."
+          "name:8": "生长中的史莱姆",
+          "desc:8": " 通过生命灌注，你可以制作成长史莱姆的树苗。"
         }
       },
       "tasks:9": {
@@ -3771,8 +3771,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Royal Slime Trees",
-          "desc:8": " Purple Slime is more useful than Blue Slime, so you should also make a Sapling for it."
+          "name:8": "高贵的史莱姆树",
+          "desc:8": " 紫色史莱姆比蓝色史莱姆更有用，所以你也应该为它做一个树苗。"
         }
       },
       "tasks:9": {
@@ -3847,8 +3847,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Growing Hot Slime",
-          "desc:8": " For making Tinker\u0027s tools with Fire Aspect, you are going to need Magma Slime. Luckly you can also make a Sapling for it."
+          "name:8": "越来越热的史莱姆",
+          "desc:8": " 要制作拥有火焰附加的Tinker工具，你需要熔岩史莱姆。幸运的是，你也可以为它做一个树苗。"
         }
       },
       "tasks:9": {
@@ -3923,8 +3923,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Super Hot Combustion",
-          "desc:8": " To reach a high amount of Heat Units, you are going to need a Netherbrick Casing. Keep in mind that it has really low efficiency."
+          "name:8": "高温氧化",
+          "desc:8": " 要达到更高的HU，你将需要一个地狱砖框架。请注意，它的效率非常低。"
         }
       },
       "tasks:9": {
@@ -4390,8 +4390,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Fluid Storage",
-          "desc:8": " The easiest way of storing fluids is in Barrels."
+          "name:8": "基础流体存储",
+          "desc:8": " 最简单的储存液体的方法就是放在桶里。"
         }
       },
       "tasks:9": {
@@ -5662,8 +5662,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Main Gems",
-          "desc:8": "  A Cauldron can be used for cleaning Dirty Gems and possibly getting metals from Crushed Stone and Netherrack."
+          "name:8": "主要的宝石",
+          "desc:8": "  炼药锅可用于清洗污浊的宝石，并可能从粉碎的石头和粉碎的地狱岩获得金属。"
         }
       },
       "tasks:9": {
@@ -5837,8 +5837,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Secundus",
-          "desc:8": " Secundus Alchemical Dust is the second Catalyst and allows you to get twice the output from your Alchemical Fusion Table, most of the time."
+          "name:8": "中级炼金",
+          "desc:8": " 中级炼金粉尘是第二种催化剂，可以让你在炼金灌注台的大多数合成中获得两倍的产出。"
         }
       },
       "tasks:9": {
@@ -8052,8 +8052,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Spores",
-          "desc:8": " You can cross-breed Carrots and Potatoes on Mycelium to create Spores."
+          "name:8": "孢子",
+          "desc:8": " 你可以用胡萝卜和马铃薯在菌丝上杂交出孢子。"
         }
       },
       "tasks:9": {
@@ -8925,8 +8925,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Tertius",
-          "desc:8": " Tertius Alchemical Dust is the 3rd Alchemical Dust and the last early-game one. It multiplies the output by 4 and 5, switching between them after every recipe."
+          "name:8": "高级炼金",
+          "desc:8": " 高级炼金粉尘是第三种炼金粉尘，也是前期最后一个能做的炼金粉尘。它将产出4倍或5倍的产物（每次合成之后在4和5之间切换）。"
         }
       },
       "tasks:9": {
@@ -9003,8 +9003,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tinker\u0027s Tables",
-          "desc:8": " To be able to make basic Tinker\u0027s Construct Tools, you are going to need a few \"Tables\"."
+          "name:8": "Tinker的台子",
+          "desc:8": " 为了能够制作基础的Tinker\u0027sConstruct的工具，你将需要一些\"台子\"。"
         }
       },
       "tasks:9": {
@@ -9111,8 +9111,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Storage",
-          "desc:8": " With Wood, you can make some simple Chests."
+          "name:8": "基础存储",
+          "desc:8": " 你可以使用木头制作一些简单的箱子。"
         }
       },
       "tasks:9": {
@@ -9199,8 +9199,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Basic Item Transfer",
-          "desc:8": " The easiest way of transferring items is with Wooden Hoppers. However, just like regular Hoppers, they cannot transfer upwards."
+          "name:8": "基础物品传输",
+          "desc:8": " 传输物品的最简单方法是使用木漏斗。然而，就像普通的漏斗一样，木漏斗无法向上传输。"
         }
       },
       "tasks:9": {
@@ -14829,8 +14829,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Fluid Transfer",
-          "desc:8": " The easiest way of transferring fluids is with Faucets and Channels. They cannot however transfer upwards."
+          "name:8": "基础流体传输",
+          "desc:8": " 最简单的传输液体的方法是使用排液口和输液道。然而，它们不能向上传输。"
         }
       },
       "tasks:9": {
@@ -14917,8 +14917,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Melting",
-          "desc:8": " To be able to melt different materials, you are going to need a Porcelain Melter and Porcelain Tank filled with Lava or a Porcelain Heater filled with fuel below it."
+          "name:8": "基础熔化",
+          "desc:8": " 为了能够熔化各种材料，你需要一个微缩陶瓷熔炉，并在其下放置一个装了熔岩的陶瓷储罐或者装了燃料的陶瓷熔炉加热器。"
         }
       },
       "tasks:9": {
@@ -14999,8 +14999,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Casting",
-          "desc:8": " To be able to cast different items, you are going to need a Porcelain Casting Table and a Porcelain Casting Basin."
+          "name:8": "基础浇铸",
+          "desc:8": " 为了能够浇铸不同的物品，你将需要瓷器铸造台和陶瓷铸造盆。"
         }
       },
       "tasks:9": {
@@ -25730,8 +25730,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Silky Smooth",
-          "desc:8": " Silky Jewels can be added to your tools to give them Silk Touch."
+          "name:8": "精准采集",
+          "desc:8": " 精致珠宝可以添加到你的工具上，为它们提供精准采集功能。"
         }
       },
       "tasks:9": {
@@ -27224,8 +27224,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Resources Complete!",
-          "desc:8": " You\u0027ve completed every quest on Basic Resources."
+          "name:8": "基础资源完成！",
+          "desc:8": " 你已经完成了基础资源的所有任务。"
         }
       },
       "tasks:9": {},
@@ -28858,8 +28858,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Watering Can",
-          "desc:8": " When cross-breeing crops, the Watering Can is your best friend."
+          "name:8": "洒水壶",
+          "desc:8": " 在你杂交种子时，洒水壶是你最好的朋友。"
         }
       },
       "tasks:9": {
@@ -30649,8 +30649,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Tool AoE",
-          "desc:8": " You can add Expanders to your tools to make them mine in a larger area."
+          "name:8": "工具的工作范围",
+          "desc:8": " 你可以将范围升级器添加到工具上，以便使其拥有更大的工作范围。"
         }
       },
       "tasks:9": {
@@ -30733,8 +30733,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Mending Moss",
-          "desc:8": " By using Moss on a Bookshelf, you can turn it into Mending Moss, which when added to your tools will slowly repair them."
+          "name:8": "修复苔藓",
+          "desc:8": " 通过对书架使用苔藓球，你可以将其变成修复苔藓，将修复苔藓添加到你的工具上会慢慢修复它们。"
         }
       },
       "tasks:9": {
@@ -30827,8 +30827,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Reinforcement",
-          "desc:8": " To reinforce your tools or even make them unbreakable, you are going to need Reinforcements."
+          "name:8": "耐久强化大板",
+          "desc:8": " 为了强化你的工具甚至使它们不毁，你需要耐久强化大板。"
         }
       },
       "tasks:9": {
@@ -30912,8 +30912,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Drying Racks",
-          "desc:8": " Drying Racks allow you to dry certain items into Jerkies, Leather and some other things."
+          "name:8": "晾干架",
+          "desc:8": " 你可以使用晾干架将某些物品晾干成干、皮革和一些其他东西。"
         }
       },
       "tasks:9": {
@@ -31012,8 +31012,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Hot Wood",
-          "desc:8": " With Firewood you can make tools that smelt smeltable blocks that you break with them."
+          "name:8": "高温木头",
+          "desc:8": " 使用烈焰木，你可以制作拥有自动冶炼功能的工具，当它们破坏可熔炼方块的时候将其熔炼成产物。"
         }
       },
       "tasks:9": {
@@ -31105,8 +31105,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Smite",
-          "desc:8": " You can add Consecrated Soil to your tools to add Smite to them."
+          "name:8": "亡灵杀手",
+          "desc:8": " 你可以将神圣土添加到工具上以向其添加亡灵杀手功能。"
         }
       },
       "tasks:9": {
@@ -35723,8 +35723,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Bonsai Island",
-          "desc:8": " Similarly to the Magma island, the Bonsai island is not recommended for people that are new to Sky Resources. To start off, you need to harvest the Bonsai Pots, by breaking them to start off with and with an Axe later on. The first thing you are going to want to do is building a mob farm with Wood (preferably Slabs). To not waste time, it\u0027s best to go back and forth between building and havesting Bonsai Pots. Once you have some Gunpowder, you are able to set up a Combustion Chamber (which if you don\u0027t already know how to set up, you can read about it in the Sky Resources guide). Bones and Rotten Flesh are also quite useful as you can use Bone Meal on Bonsai Pots to help them grow faster and Enriched Bonemeal to grow them instantly. Now all you have to do is craft 4 Plant Matter and make Dirt. As you probably have a lot of Sticks by now, you should probably use them for generating Heat Units in the Combustion Chamber."
+          "name:8": "盆栽岛（Bonsai Island）",
+          "desc:8": " 与岩浆岛（Magma island）类似，盆栽岛不建议新的Sky Resources玩家选择。首先，你需要收获盆栽盆，破坏盆栽盆来获取资源，稍后可以使用斧头右键获取。你接下来要做的第一件事是建立一个用木头（最好是台阶）的刷怪区域。为了不浪费时间，最好来回走动，并收获盆栽盆。一旦你有一些火药，你就可以建立一个氧化室（如果你还不知道如何设置，你可以在Sky Resources指南中阅读它，默认按键G有冲突，修改后使用）。骨头和腐肉也非常有用，因为你可以在盆栽盆上使用骨粉来使其加速生长，强化骨粉可以使其立即成熟。现在你所要做的就是制作4个自然物质并制作泥土。由于你现在可能有很多木棍，你应该用它们在氧化室中产生HU。"
         }
       },
       "tasks:9": {
@@ -41729,8 +41729,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Farming",
-          "desc:8": " This unlocks AgriCraft and JustAnotherSnad."
+          "name:8": "基础农业",
+          "desc:8": " 这个任务将解锁AgriCraft和JustAnotherSnad."
         }
       },
       "tasks:9": {},
@@ -45986,8 +45986,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Farming",
-          "desc:8": " This unlocks AgriCraft and JustAnotherSnad."
+          "name:8": "基础农业",
+          "desc:8": " 这个任务将解锁AgriCraft和JustAnotherSnad."
         }
       },
       "tasks:9": {
@@ -52225,8 +52225,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Here It All Starts",
-          "desc:8": " Welcome to Modern Skyblock 3!\n\n To start off, you are going to need to create an island and complete stage 1 of it (obtain Dirt and a Sapling). You can press \"G\" to find out how to do that. Besides for the 6 starting islands listed there, there are 2 more custom islands for which there are pages in the questbook.\n\n If you\u0027re for some reason playing in a default world, just collect Dirt and a Sapling."
+          "name:8": "世界起源",
+          "desc:8": " 欢迎来到现代空岛3！\n\n 首先，你需要创建一个岛屿并完成它的第一阶段（获得泥土和一棵树苗）。你可以按“G”查看如何完成这个任务。除了指南里列出的6种起始岛屿之外，还有2个自定义岛屿，在这个任务书中有一些相关说明。\n\n 如果您出于某种原因在默认世界中玩这个整合包，只需获取泥土和树苗。"
         }
       },
       "tasks:9": {
@@ -52444,8 +52444,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Tinkering",
-          "desc:8": " This unlocks Tinker\u0027s Complement, Ceramics, Tinker\u0027s Skyblock and a bit of Tinker\u0027s Construct."
+          "name:8": "基础工具",
+          "desc:8": " 这个任务将解锁Tinker\u0027s Complement 、 Ceramics 、 Tinker\u0027s Skyblock和一部分Tinker\u0027s Construct。"
         }
       },
       "tasks:9": {},
@@ -60722,8 +60722,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Tinkering Complete!",
-          "desc:8": " You\u0027ve completed every quest on Basic Tinkering!"
+          "name:8": "基础工具完成！",
+          "desc:8": " 你已经完成了基础工具的所有任务！"
         }
       },
       "tasks:9": {},
@@ -62230,8 +62230,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Crop Sticks",
-          "desc:8": " You can put crops on Crop Sticks and then put 2 Crop Sticks on top of each other between them in order to breed them. Plants on Crop Sticks can\u0027t be grown with Plant Matter or Enriched Bonemeal, but twerking still works."
+          "name:8": "作物架",
+          "desc:8": " 你可以将作物放在作物架上，然后将2个作物架放在它们之间，以便繁殖它们。作物架上的植物不能使用自然物质或强化骨粉，但是跳舞仍然可以催生。"
         }
       },
       "tasks:9": {
@@ -62500,8 +62500,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Analysing Seeds",
-          "desc:8": " After breeding crops, you are probably going to want to know how the Seeds have improved. For that you can use a Seed Analyzer. A Journal would allow you to document all mutations."
+          "name:8": "分析种子",
+          "desc:8": " 在种植作物后，你可能想知道种子是如何改良的。为此，你可以使用种子分析仪。农学研究随笔会记录所有突变。"
         }
       },
       "tasks:9": {
@@ -72050,8 +72050,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Duplicating Seeds",
-          "desc:8": " You can use Clippers on plants in Crop Sticks to obtain Clippings of them, which you can plant on other Crop Sticks. That essentially allows you to duplicate crops."
+          "name:8": "复制种子",
+          "desc:8": " 你可以对作物架上的植物使用剪枝器来获取它们的接穗，你可以在其他作物架上种植它们。这相当于你可以复制作物。"
         }
       },
       "tasks:9": {
@@ -72235,8 +72235,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 1 Seeds",
-          "desc:8": " You are able to cross-breed the most basic of Seeds to make Carrots and Sugar Canes."
+          "name:8": "第1阶段的种子",
+          "desc:8": " 你可以使用最基础的种子来杂交出胡萝卜和甘蔗。"
         }
       },
       "tasks:9": {
@@ -75448,8 +75448,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "The Nether",
-          "desc:8": " While it may be a void, you can use the Nether for making Gold farms, but most importantly, for obtaining Blaze Rods from Blazes. You can build a large Netherrack platform for Blazes to spawn or you can locate a nether fortress and build to it."
+          "name:8": "下界",
+          "desc:8": " 虽然它可能只是一个虚空，但你可以利用下界建造一个刷金场，最重要的是，从烈焰人那里获得烈焰棒。你可以构建一个大型的地狱岩平台来生成烈焰人，或者你可以找到一个下界要塞并改造它。"
         }
       },
       "tasks:9": {
@@ -75539,8 +75539,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Fishing For Saplings",
-          "desc:8": " The Survivalist\u0027s Fishing Rod is a fast unbreakable Fishing Rod that can fish out junk, Wood, Dirt and Saplings."
+          "name:8": "钓树苗",
+          "desc:8": " 生存者钓竿是一种快速且不毁的钓鱼竿，可以捞出杂物、木头、泥土和树苗。"
         }
       },
       "tasks:9": {
@@ -75772,8 +75772,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Compressed Cactus",
-          "desc:8": " The Compressed Cactus gives you more Cactus Needles for less hearts, does a large amount of damage to mobs, can have Water extracted from it, can be cut (you can use a Compressed Knife on it) for getting 18 Cactus Fruit and can be grown on Compressed Sand."
+          "name:8": "压缩仙人掌",
+          "desc:8": " 压缩仙人掌可以让你用更少生命值获取更多的仙人掌刺、对怪物造成大量伤害、可以从中提取水、可以切割（使用压缩切割刀）来获得18个仙人掌果实并且可以种植在压缩沙子上。"
         }
       },
       "tasks:9": {
@@ -75852,8 +75852,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Knives",
-          "desc:8": " Knives can be used for cutting Cacti into Cactus Fruit, Melons (the blocks) into 9 Melons (the items), Logs into 6 Planks and Planks into 6 Sticks."
+          "name:8": "切割刀",
+          "desc:8": " 切割刀可用于将仙人掌切成仙人掌果，西瓜切成9个西瓜片，原木切成6个木板和木板切成6支木棍。"
         }
       },
       "tasks:9": {
@@ -76462,8 +76462,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Resources",
-          "desc:8": " This unlocks early-game Sky Resources and Sky Compression."
+          "name:8": "基础资源",
+          "desc:8": " 这个任务将解锁初期的Sky Resources和Sky Compression。"
         }
       },
       "tasks:9": {},
@@ -76682,8 +76682,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Reload Questbook",
-          "desc:8": " Complete this quest after updating the pack. It\u0027s advised that you back up before doing so."
+          "name:8": "重新加载任务手册",
+          "desc:8": " 更新整合包后完成此任务并领取奖励。建议在此之前备份存档。"
         }
       },
       "tasks:9": {},
@@ -80450,8 +80450,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Soul Sand",
-          "desc:8": " You can make Soul Sand by freezing Sandy Netherrack."
+          "name:8": "灵魂沙",
+          "desc:8": " 你可以通过冷冻沙化地狱岩制造灵魂沙。"
         }
       },
       "tasks:9": {
@@ -81210,8 +81210,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Kitchensink Mode",
-          "desc:8": " In Kitchensink Mode you may play through any mod you want at any time. There will still be many quests to complete that will keep you playing for a while."
+          "name:8": "无限制模式",
+          "desc:8": " 在无限制模式中，你可以随时使用你想要的任何模组。这个模式仍然会有很多任务要完成，这可以让你玩一段时间。"
         }
       },
       "tasks:9": {
@@ -81531,8 +81531,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Staged Mode",
-          "desc:8": " In Staged Mode to progress through one mod you need to progress through another. Even though there are no recipe changes, not being able to use certain items adds a layer of difficulty. However, if you dislike a certain mod, you can simply rush through its quests."
+          "name:8": "分阶段模式",
+          "desc:8": " In Staged Mode to progress through one mod you need to progress through another. Even though there are no recipe changes, not being able to use certain items adds a layer of difficulty. However, if you dislike a certain mod, you can simply rush through its quests.在分阶段模式中，你需要发展一个mod来解锁其它mod。即使没有更改配方，无法使用某些物品也会增加了一些难度。但是，如果你不喜欢某个mod，你可以只是简单粗暴地完成它的任务。"
         }
       },
       "tasks:9": {
@@ -82467,8 +82467,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Snad",
-          "desc:8": " Snad and Red Snad allow Cacti and Sugar Canes on top of them to grow 2 times faster, while Soul Snad allows Nether Warts on top of it to grow 4 times faster."
+          "name:8": "子沙",
+          "desc:8": " 子沙和红子沙可以让仙人掌和甘蔗在其上以2倍速生长，而灵魂子沙会让地狱疣在其上以4倍速生长。"
         }
       },
       "tasks:9": {
@@ -85444,8 +85444,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 2 Seeds",
-          "desc:8": " Sugarcane and Pumpkin Seeds open up a huge range of new Seeds that you can make with cross-breeding. This includes: Scallion, Pumpkin, Cactus, Sweet Potato and Barley Seeds."
+          "name:8": "第2阶段的种子",
+          "desc:8": " 甘蔗和甘蔗种子能杂交出大量的新种子。这包括：青葱、南瓜、仙人掌、番薯和大麦种子。"
         }
       },
       "tasks:9": {
@@ -85788,8 +85788,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Gated Mode",
-          "desc:8": " Gated Mode is just like Staged Mode, but to unlock the next stage you need to hand in certain items from the required stages. That means that you need to progress through every mod and you can\u0027t simply rush through them."
+          "name:8": "门控模式",
+          "desc:8": " 门控模式类似于分阶段模式，但要解锁下一阶段，你需要交出当前阶段的某些物品。这意味着你需要逐步发展完每一个mod，而不是简单地通过它们。"
         }
       },
       "tasks:9": {
@@ -85940,8 +85940,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Resources",
-          "desc:8": " This unlocks early-game Sky Resources and Sky Compression."
+          "name:8": "基础资源",
+          "desc:8": " 这个任务将解锁初期的Sky Resources和Sky Compression。"
         }
       },
       "tasks:9": {
@@ -86031,8 +86031,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Tinkering",
-          "desc:8": " This unlocks Tinker\u0027s Complement, Ceramics, Tinker\u0027s Skyblock and a bit of Tinker\u0027s Construct."
+          "name:8": "基础工具",
+          "desc:8": " 这个任务将解锁Tinker\u0027s Complement 、 Ceramics 、 Tinker\u0027s Skyblock和一部分Tinker\u0027s Construct。"
         }
       },
       "tasks:9": {
@@ -90794,8 +90794,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Mystical Flowers",
-          "desc:8": " With Melon Seeds, you now have everything needed to start cross-breeding Mystical Flowers."
+          "name:8": "神秘花",
+          "desc:8": " 有了西瓜种子，你现在已经拥有开始交叉出神秘花所需的一切。"
         }
       },
       "tasks:9": {
@@ -90960,8 +90960,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Alchemical Glass",
-          "desc:8": " Alchemical Glass gives more Crystal Shards than regular Glass."
+          "name:8": "炼金玻璃",
+          "desc:8": " 炼金玻璃相比普通玻璃可以制作更多的水晶碎片。"
         }
       },
       "tasks:9": {
@@ -91036,8 +91036,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 3 Seeds",
-          "desc:8": " Tier 3 has 3 Seeds from Pam\u0027s HarvestCraft."
+          "name:8": "第3阶段的种子",
+          "desc:8": " 第3阶段有3种Pam\u0027s HarvestCraft的种子。"
         }
       },
       "tasks:9": {
@@ -91130,8 +91130,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 4 Seeds",
-          "desc:8": " It\u0027s midly interesting that there are 4 tier 3 Seeds and 3 tier 4 Seeds, isn\u0027t it?"
+          "name:8": "第4阶段的种子",
+          "desc:8": " 有4种第3阶段的种子和3种第4阶段的种子，有没有感觉很好玩？"
         }
       },
       "tasks:9": {
@@ -91218,8 +91218,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 5 Seeds",
-          "desc:8": " Yet again, 5 tier 5 Seeds. Sadly, this will be last time something like that happens."
+          "name:8": "第5阶段的种子",
+          "desc:8": " 这一次有5种第5阶段的种子，可惜这个梗已经玩过一次了。"
         }
       },
       "tasks:9": {
@@ -91318,8 +91318,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Celery",
-          "desc:8": " Celery is the only Tier 6 Seed. #4everAlone"
+          "name:8": "芹菜",
+          "desc:8": " 芹菜是唯一的第6阶段的种子。 #注孤生"
         }
       },
       "tasks:9": {
@@ -91394,8 +91394,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 7 Seeds",
-          "desc:8": " There are also 2 tier 7 Seeds, but this will the last tier of Seeds that come in a pair."
+          "name:8": "第7阶段的种子",
+          "desc:8": " 这里有2种第7阶段的种子，但这将会是最后一次成双成对出现的种子。"
         }
       },
       "tasks:9": {
@@ -91476,8 +91476,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 8 Seeds",
-          "desc:8": " Tier 8, half way there."
+          "name:8": "第8阶段的种子",
+          "desc:8": " 第8阶段，有一半在那里。"
         }
       },
       "tasks:9": {
@@ -91582,8 +91582,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 9 Seeds",
-          "desc:8": " There are only 3 tier 9 Seeds. 3 squared gives 9, so this is still mildly, midly interesting, ain\u0027t it?"
+          "name:8": "第9阶段的种子",
+          "desc:8": " 这里只有3种第9阶段的种子。3的平方等于9，这还是比较有趣的，是吧？"
         }
       },
       "tasks:9": {
@@ -91670,8 +91670,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 10 Seeds",
-          "desc:8": " Now, 10/2 is 5. There are 5 tier 10 Seeds. I hope you\u0027re keeping up."
+          "name:8": "第10阶段的种子",
+          "desc:8": " 10的一半是5。所以这里有5种第10阶段的种子。我希望你能坚持住。"
         }
       },
       "tasks:9": {
@@ -91770,8 +91770,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 11 Seeds",
-          "desc:8": " There are only 3 tier 11 Seeds. Without sounding crazy, I can\u0027t really make this sound interesting. Oh well."
+          "name:8": "第11阶段的种子",
+          "desc:8": " 只有3种第11阶段的种子。好吧，我已经没办法让任务听起来有趣了。"
         }
       },
       "tasks:9": {
@@ -91858,8 +91858,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 12 Seeds",
-          "desc:8": " And once again, 5 tier 2 Seeds. I guess I should remind you that you\u0027re 3/4 of the way there."
+          "name:8": "第12阶段的种子",
+          "desc:8": " 又来了，5种第12阶段的种子。我想我应该提醒你，你已经快完成3/4了。"
         }
       },
       "tasks:9": {
@@ -91958,8 +91958,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 13 Seeds",
-          "desc:8": " Maybe I should have told you the bad news first; there are 7 tier 13 Seeds. That\u0027s the most Seeds of a single tier there have been."
+          "name:8": "第13阶段的种子",
+          "desc:8": " 也许我应该先告诉你一个坏消息：有7种第13阶段的种子。这是种子数最多的奇数阶段。"
         }
       },
       "tasks:9": {
@@ -92070,8 +92070,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 14 Seeds",
-          "desc:8": " It\u0027s the same for tier 14, sadly. At least it\u0027s mildly interesting here as 14/2 is 7."
+          "name:8": "第14阶段的种子",
+          "desc:8": " 很抱歉，第14阶段也是7种。但是至少14的一半是7，所以稍微有点意思。"
         }
       },
       "tasks:9": {
@@ -92182,8 +92182,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Tier 15 Seeds",
-          "desc:8": " Tier 15, the second-to-last tier."
+          "name:8": "第15阶段的种子",
+          "desc:8": " 第15阶段，倒数第二个阶段。"
         }
       },
       "tasks:9": {
@@ -92276,8 +92276,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Candleberry Seeds: The Last Seeds",
-          "desc:8": " Who would have guessed that Candleberry Seeds are the end of your journey of cross-breeding Seeds. I hope you had fun."
+          "name:8": "蜡杨梅种子：最后的种子",
+          "desc:8": " 谁能想到蜡杨梅种子是你的种子杂交之旅的收尾呢。我希望你玩得开心。"
         }
       },
       "tasks:9": {
@@ -94649,8 +94649,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Farming Complete!",
-          "desc:8": " You\u0027ve completed every quest on Basic Farming!"
+          "name:8": "基础农业完成！",
+          "desc:8": " 你已经完成了基础农业的所有任务！"
         }
       },
       "tasks:9": {},
@@ -98620,8 +98620,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Irrigation System",
-          "desc:8": " With a Wooden Tank, Channel and Sprinkler, you can make a simple Irrigation System to automatically Water your crops. The Tank can fill up with rain Water or have Water piped into it."
+          "name:8": "灌溉系统",
+          "desc:8": " 使用木质水箱，浇灌水道和洒水器，你可以制作一个简单的灌溉系统来自动给你的作物浇水。水箱可以收集雨水或用水道输入水。"
         }
       },
       "tasks:9": {
@@ -103307,10 +103307,10 @@
       "lineID:3": 1,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Basic Resources",
+          "name:8": "基础资源",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "This page is based around early-game Sky Resources and Sky Compression."
+          "desc:8": "此页面基于前期的Sky Resources和Sky Compression。"
         }
       },
       "order:3": 2
@@ -105563,10 +105563,10 @@
       "lineID:3": 13,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Basic Tinkering",
+          "name:8": "基础工具",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "This page is based around Tinker\u0027s Contruct, Ceramics Tinker\u0027s Complement and Tinker\u0027s Skyblock."
+          "desc:8": "这个页面是基于Tinker\u0027s Contruct、Ceramics Tinker\u0027s Complement和Tinker\u0027s Skyblock."
         }
       },
       "order:3": 3
@@ -110089,10 +110089,10 @@
       "lineID:3": 39,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Basic Farming",
+          "name:8": "基础农业",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is mainly based around AgriCraft."
+          "desc:8": " 本页面主要基于AgriCraft."
         }
       },
       "order:3": 4
