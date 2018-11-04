@@ -2961,7 +2961,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "哞~",
-          "desc:8": " 最好使用你从泥土中筛出来的草种子，在岛屿中间建一块草地，在那里是一个平原生物群系。然后你可以设置诱饵来生成特定的动物。牛是一种你发展所需要的生物。You can also quite simply automate collecting Milk from it by placing it on top of a Barrel.（此处测试中无法实现，故保留原文。）"
+          "desc:8": " 最好使用你从泥土中筛出来的草种子，在岛屿中间建一块草地，在那里是一个平原生物群系。然后你可以设置诱饵来生成特定的动物。牛是一种你发展所需要的生物。你还可以将牛放在桶上面实现牛奶的自动收集。You can also quite simply automate collecting Milk from it by placing it on top of a Barrel.（此处测试中无法实现，故保留原文。）"
         }
       },
       "tasks:9": {
