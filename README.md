@@ -18,6 +18,6 @@
 和汉化资源包一样，汉化部分采用 CC-BY-NC-SA 协议。
 
 ## 5. 鸣谢
-感谢 `Suripe`，`普拉斯` 提供的部分 SevTech 整合汉化。	
-感谢 `SihenZhang` 的 FTB Continuum 整合汉化。		
-其他参与人员可在本页面的 Contribution 区域查看。	
+感谢 `Suripe`，`普拉斯` 提供的部分 SevTech 整合汉化。            
+感谢 `SihenZhang` 的 FTB Continuum 整合汉化。             
+其他参与人员可在本页面的 Contribution 区域查看。           
