@@ -183,7 +183,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Age 0 - 手工时代",
-          "desc:8": " Welcome to GregBlock! To begin with the Manual Age you are going to need to get 2 Logs from the tree on your island and make a Crafting Table. Yup, 2. This, my friend, is GregTech.\n\n If you're playing on multiplayer and want to join someone else, do /island for information on how to do that.[待翻译]"
+          "desc:8": " 欢迎来到GregBlock！在手工时代的开始阶段，你需要从岛上的树上获取2个原木并制作工作台。再提醒你一下，我的朋友，这是GregTech。\n\n 如果你正在玩多人游戏并希望加入其他人，用指令/island以获取有关如何执行此操作的信息。"
         }
       },
       "tasks:9": {
@@ -389,7 +389,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "水",
-          "desc:8": " You're able to obtain Water by melting Leaves, Saplings or Cacti in a Wooden Crucible, or by collecting Water with a Barrel.[待翻译]"
+          "desc:8": " 你可以通过在木制坩埚中处理树叶、树苗或仙人掌来获得水，或者通过用桶收集雨水来获得水。"
         }
       },
       "tasks:9": {
@@ -1482,7 +1482,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "锻铁",
-          "desc:8": " You are able to smelt an Iron Nugget into a Wrough Iron one and then craft 9 of those into a Wrough Iron Ingot. Wrough Iron can be used for most things that regular Iron can be used for, but the tools made from it have 1.5 times the durability.[待翻译]"
+          "desc:8": " 你可以将一个铁粒熔炼成一个锻铁粒，然后将9个锻铁粒合成得到锻铁。锻铁可以制作普通铁能够制作的大多数物品，并且由它制成的工具的耐久度是铁的1.5倍。"
         }
       },
       "tasks:9": {
@@ -2082,7 +2082,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "第一阶段筛矿",
-          "desc:8": " By Siftng Gravel and Sand, you are able to obtain Ore Chunks of which some can be smelted into Ingots. With the String Mesh, the main materials you are going to get are Iron, Tin, Copper, Coal and Lignite. There's also Gold, but that's a bit rare.\n\nNote: Copper is most common from Sand.[待翻译]"
+          "desc:8": " 通过筛沙砾和沙子，你可以获得矿物碎块，其中一些可以熔炼成锭。使用筛网，你将获得的主要材料是铁、锡、铜、煤和褐煤。还有黄金，但这有点罕见。\n\n提示：铜在沙子里比较多一点。"
         }
       },
       "tasks:9": {
@@ -2247,7 +2247,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "自动生产圆石",
-          "desc:8": " With a bit of Iron, you are able to make a simple machine that produce Cobblestone in a single block space. It does not however auto-output, so you'll need to use Hoppers or other forms of piping. The speed at which you get it pretty much depends on how fast you can pipe it out.\n\nNote: As all other machines that consume tools in their recipes, you specifically need Iron tools.[待翻译]"
+          "desc:8": " 有了一点铁，你就可以制作一个简单的机器，在一个方块空间内生产圆石。该方块无法自动输出，所以你需要使用漏斗或者其他的管道抽出。生产圆石的最大速度取决于你抽取的速度。\n\n提示：与其它所有在配方中使用工具的机器一样，你只能使用铁工具来合成。"
         }
       },
       "tasks:9": {
@@ -2479,7 +2479,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "转移物品",
-          "desc:8": " You can't make Ducts yet, so it's time for the next best thing: Hoppers! I'm not talking about your laggy, one-input-sided, non-filtered vanilla Hopper, I'm talking about the next level Hopper![待翻译]"
+          "desc:8": " 你还不能制作管道，所以只能使用差一点的东西了：漏斗。我不是在说那个单向输入、没有过滤的落后的原版漏斗，我说的是更高级的漏斗。"
         }
       },
       "tasks:9": {
@@ -2961,7 +2961,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "哞~",
-          "desc:8": " It would be a good idea to use the Grass Seeds you got from sifting Dirt to make a small Grass area in middle of your island, where you have a Plains biome. You can then set Baits to spawn specific animals. A Cow is one mob that you will need to progress. You can also quite simply automate collecting Milk from it by placing it on top of a Barrel.[待翻译]"
+          "desc:8": " 最好使用你从泥土中筛出来的草种子，在岛屿中间建一块草地。那里是平原生物群系，然后你就可以设置诱饵来生成特定的动物了。牛是一种你发展所需要的生物。你还可以将牛放在Ex Nihilo的桶上，实现牛奶的自动收集。"
         }
       },
       "tasks:9": {
@@ -15767,8 +15767,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "科学的做砖",
-          "desc:8": " Before you are able to make any type of Bricks, you are going to need Forms to form the corresponding types of Clay into the corresponding types of Unfired Bricks.[待翻译]"
+          "name:8": "科学地做砖",
+          "desc:8": " 在你制作任何砖之前，你需要使用砖型模板将相应类型的粘土制作成相应类型的未烧制的砖。"
         }
       },
       "tasks:9": {
@@ -16522,7 +16522,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "伺服器",
-          "desc:8": " For more compact forced outputting, you can use Servos.[待翻译]"
+          "desc:8": " 如果你想要更快地输出，你可以使用伺服器。"
         }
       },
       "tasks:9": {
@@ -22634,7 +22634,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "柴油引擎",
-          "desc:8": " The Diesel Engine is a multiblock version of the Diesel Generator. You can give it Oxygen and Lubricant to increase its fuel efficiency.[待翻译]"
+          "desc:8": " 柴油引擎是柴油机的多方块版本。你可以为其提供氧气和润滑油提升燃料效率。"
         }
       },
       "tasks:9": {
@@ -27356,7 +27356,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Ludicrous Batteries[待翻译]",
+          "name:8": "剧差压电池",
           "desc:8": "剧差压电池箱能够在兰波顿能量球簇中存储LuV电力。"
         }
       },
@@ -30007,7 +30007,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "基础柴油机",
-          "desc:8": " The Basic Diesel Generator uses liquid fuels, mainly Oil and its products, to generate LV power.[待翻译]"
+          "desc:8": " 基础柴油机使用液体燃料（主要是原油及其产物）来产生LV电力。"
         }
       },
       "tasks:9": {
@@ -38430,7 +38430,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "你需要知道的一切：任务系统",
-          "desc:8": " Many quests have multiple tasks that you switch between using the arrows next to the detect button.\n\n Quests that have rounded square icons are needed for progressing to higher tiers, while the ones with circular icons are mainly quality of life quests.\n\n In this pack you don't get quest rewards, but you do get Trophies for major milestones.\n\n Items in your inventory are checked every 3 seconds, so wait at least 3s to make sure something is detected before using it up.\n\n If you complete a quest before it's unlocked, you'll need to press the detect button.\n\n Fluids tasks require you to have all fluids in your inventory at the same time.\n\n Ages related to GregTech have positive numbers and ages related to other mods have negative nubers.[待翻译]"
+          "desc:8": " 许多任务都有多个分支任务，你可以使用检测按钮旁边的箭头切换。\n\n 方形图标的任务是用于发展到下一时代的任务，而具有圆形图标的任务主要是用于提高生活质量。\n\n 在这个包中你不会获得任务奖励，但你可以获得代表重要里程碑的奖杯。\n\n 库存中的物品每3秒检查一次，因此在使用之前请至少等待3秒以确保检测到某些物品。\n\n 如果你在解锁之前完成任务，则需要按下检测按钮。\n\n 流体任务要求你同时拥有任务需求中的所有流体。与GregTech相关的时代序号是正数，与其它模组相关的时代序号是负数。"
         }
       },
       "tasks:9": {
@@ -38882,7 +38882,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "简单的篝火",
-          "desc:8": " If you want a lot of Charcoal at once, you can place Wood Piles in any rectangular/square shape, cover it in certain blocks and light it on fire.[待翻译]"
+          "desc:8": " 如果你想要一次性获得大量的木炭，你可以把原木堆摆成任意的立方体形状，然后点燃它，并用某些特定的方块盖住它。"
         }
       },
       "tasks:9": {
@@ -40570,8 +40570,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Ultimate Battery[待翻译]",
-          "desc:8": " The Ultimate Battery has the largest EU buffer out of everything in the pack. We advize that you don't attempt to fill it up.[待翻译]"
+          "name:8": "终极电池",
+          "desc:8": " 终极电池是EU能量体系中最大的缓存器。我们建议你不要试图填满它。"
         }
       },
       "tasks:9": {
@@ -41134,8 +41134,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "管道的颜色",
-          "desc:8": " You can use Spray Cans to color Cables in order to separate them or to decoratively color machines.[待翻译]"
+          "name:8": "线缆的颜色",
+          "desc:8": " 你可以使用喷漆罐对线缆进行着色，以便将它们分开，也可以把机器装饰成彩色的机器。（翻译提示：1.3.1整合包对管道着色会导致游戏崩溃。）"
         }
       },
       "tasks:9": {
@@ -41236,7 +41236,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "用覆盖板覆盖我吧",
-          "desc:8": " The Flint Saw will allow you to cut a block into smaller and smaller pieces. You can use those peices for separating GregTech Pipes and Cables.\n\n Note: In the current version there's a bug where machines don't output to covered Pipes and one where Cables separated with Covers still share amperage.[待翻译]"
+          "desc:8": " 燧石锯呢能够将方块切割成更小的方块。你可以用这些小方块分割格雷科技的管道或者线缆。注意：在当前版本中，存在一个错误，即机器无法输出到被覆盖的管道，而且其中使用覆盖版分隔的线缆仍然可以共享安培数。"
         }
       },
       "tasks:9": {
@@ -41285,8 +41285,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Workbench[待翻译]",
-          "desc:8": " The Workbench works like a Crafting Table, but instead of putting things in the crafting grid and using them up when crafting, you use the crafting grid to set a recipe pattern and use up the items in its inventory. It can remember up to 9 recipes at a time, making it quite practical for making items that need a lot of microcrafting.[待翻译]"
+          "name:8": "林业工作台",
+          "desc:8": " 林业工作台的工作方式类似于原版工作台，但不是将材料放入制作网格中并在制作时使用它们，而是使用制作网格来标记配方并用其库存中的物品。它一次最多可记住9个配方，因此非常适合需要大量制作的物品。"
         }
       },
       "tasks:9": {
@@ -41342,8 +41342,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 1,
           "ismain:1": 0,
-          "name:8": "Any Fluid Extractor[待翻译]",
-          "desc:8": "No Description[待翻译]"
+          "name:8": "任意流体提取机",
+          "desc:8": "没有说明"
         }
       },
       "tasks:9": {},
@@ -41381,8 +41381,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 1,
           "ismain:1": 0,
-          "name:8": "Any Forming Press[待翻译]",
-          "desc:8": "No Description[待翻译]"
+          "name:8": "任意冲压机床",
+          "desc:8": "没有说明"
         }
       },
       "tasks:9": {},
@@ -41419,8 +41419,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 1,
           "ismain:1": 0,
-          "name:8": "Any Brewery[待翻译]",
-          "desc:8": "No Description[待翻译]"
+          "name:8": "任意酿造室",
+          "desc:8": "没有说明"
         }
       },
       "tasks:9": {},
@@ -41454,8 +41454,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Supreme Circuitry[待翻译]",
-          "desc:8": " The Advanced Circuit Assembling Machine VII is the best one in the game.[待翻译]"
+          "name:8": "至尊电路板",
+          "desc:8": " 进阶电路组装机VII是游戏中最好的电路组装机。"
         }
       },
       "tasks:9": {
@@ -41504,8 +41504,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Hoppering Liquids[待翻译]",
-          "desc:8": " With a Steel Tank, you'll be able to make a Liquid Hopper. It works the same as the regular one, but it's for fluids.[待翻译]"
+          "name:8": "漏下液体",
+          "desc:8": " 使用1个钢储罐，你可以制作出液体漏斗。它的工作方式类似于正常漏斗，但是它漏的是流体。"
         }
       },
       "tasks:9": {
@@ -41572,8 +41572,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Everything You Need To Know About: GT Pipes[待翻译]",
-          "desc:8": " Pipes of different materials have different max temperatures and throughputs.\n\n Pipes of different sizes have different throughputs.\n\n Pipes don't force-extract out of machines.\n\n Pipes of different sizes and materials don't connect.[待翻译]"
+          "name:8": "你需要知道的一切：GT管道",
+          "desc:8": " 不同材料的管道有不同的最大承受温度和传输速率。\n\n 管道的尺寸影响它的传输速率。\n\n 管道本身没有能力从机器内提取流体。\n\n 不同尺寸和不同材料的管道不会相互连接。"
         }
       },
       "tasks:9": {
@@ -41610,8 +41610,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Everything You Need To Know About: GT Tools[待翻译]",
-          "desc:8": " GT tools are the only tools you can make in this pack.\n\n The material the head is made of determines a tools' stats.\n\n Though you might expect otherwise, you can only use wooden Sticks to make them.\n\n Tools use the pre-1.9 combat system, so you don't have to wait before attacking.\n\n Many tools have electric versions that get repaired in Battery Chargers. However, they can still break, unpon which you'll get a Tool Box containing some of the items used to craft them.[待翻译]"
+          "name:8": "你需要知道的一切：GT工具",
+          "desc:8": " GT工具是你在这个整合包里唯一能制作的工具。\n\n 工具的属性取决于制作材料。\n\n 虽然你可能想要改变一下，但你只能使用木棍来制作它们。\n\n 工具使用的是1.9的战斗系统，所以不不必在攻击之前停顿一下。\n\n 很多工具有电动版本，可以在电池充电器里进行修复。然而，他们仍然可以用坏，坏掉之后你会得到一个包含一些用来制作它们的物品的工具箱。"
         }
       },
       "tasks:9": {
@@ -41648,8 +41648,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Speed Is Key![待翻译]",
-          "desc:8": " With the Lubricant you are able to make Speed Upgrades used to speed up your Hoppers and other PneumaticCraft machines.[待翻译]"
+          "name:8": "速度是关键！",
+          "desc:8": " 使用润滑油，你可以制作出速度升级来加速你的液体漏斗和其他PneumaticCraft的机器。"
         }
       },
       "tasks:9": {
