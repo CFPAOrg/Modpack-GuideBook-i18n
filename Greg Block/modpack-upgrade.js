@@ -1,14 +1,14 @@
 /**
  * 提供了对整合任务书的升级比对与自动化 json 生成
- * 
+ *
  * 运行环境：浏览器开发者工具 Console
- * 
+ *
  * 简单使用方法：
  * 1. 输出比对报告（Markdown）
- *   (await diff('1.2.0', '1.3.1')).print()
+ *   (await diff('1.3.1', '1.3.2')).print()
  * 2. 进行汉化保留式升级
- *   console.log(await migrate('1.2.0', '1.3.1'), null, 2)
- * 
+ *   console.log(JSON.stringify(await migrate('1.3.1', '1.3.2'), null, 2))
+ *
  * 注意事项：
  * 1. 在升级之前需要修改增加 quests
  * 2. 本工具仅针对任务本身进行汉化升级，并没有处理 questLine，这部分需要手动处理
@@ -17,13 +17,17 @@
 const quests = {
   "en-us": {
     "1.2.0":
-      "https://gist.githubusercontent.com/Yesterday17/ad7e6f7e47782189697a582f33e8f0f6/raw/5bb41a5533a7a8a0c32b67dd8d367351d157a097/DefaultQuests_1_2_0.json",
+      "https://raw.githubusercontent.com/Yesterday17/Modpack-GuideBook-i18n/master/Greg%20Block/en-us/1.2.0/DefaultQuests.json",
     "1.3.1":
-      "https://gist.githubusercontent.com/Yesterday17/ad7e6f7e47782189697a582f33e8f0f6/raw/5bb41a5533a7a8a0c32b67dd8d367351d157a097/DefaultQuests_1_3_1.json"
+      "https://raw.githubusercontent.com/Yesterday17/Modpack-GuideBook-i18n/master/Greg%20Block/en-us/1.3.1/DefaultQuests.json",
+    "1.3.2":
+      "https://raw.githubusercontent.com/Yesterday17/Modpack-GuideBook-i18n/master/Greg%20Block/en-us/1.3.2/DefaultQuests.json"
   },
   "zh-cn": {
     "1.2.0":
-      "https://gist.githubusercontent.com/Yesterday17/ad7e6f7e47782189697a582f33e8f0f6/raw/68beacbbb05027e3c34f72242099192a4c05756d/DefaultQuests_1_2_0_zh_cn.json"
+      "https://raw.githubusercontent.com/Yesterday17/Modpack-GuideBook-i18n/master/Greg%20Block/1.2.0/config/betterquesting/DefaultQuests.json",
+    "1.3.1":
+      "https://raw.githubusercontent.com/Yesterday17/Modpack-GuideBook-i18n/master/Greg%20Block/1.3.1/config/betterquesting/DefaultQuests.json"
   }
 };
 
@@ -145,7 +149,6 @@ class PackUpdateReport {
     return report;
   }
 }
-
 
 /**
  * 对整合的升级进行比对
