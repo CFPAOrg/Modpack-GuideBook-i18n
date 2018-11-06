@@ -17,7 +17,7 @@
     {
         "singleplayer":
         {
-            "text": "Singleplayer",
+            "text": "\u5355\u4eba\u6e38\u620f",
             "normalTextColor": 16044800,
             "hoverTextColor": 11540224,
             "texture": "modpack:buttons/long_button.png",
@@ -33,10 +33,10 @@
                 "gui":"singleplayer"
             }
         },
-        
+
         "multiplayer":
         {
-            "text": "Multiplayer",
+            "text": "\u591a\u4eba\u6e38\u620f",
             "normalTextColor": 16044800,
             "hoverTextColor": 11540224,
             "texture": "modpack:buttons/long_button.png",
@@ -55,7 +55,7 @@
 
         "mods":
         {
-            "text": "Mods",
+            "text": "\u6a21\u7ec4",
             "normalTextColor": 16044800,
             "hoverTextColor": 11540224,
             "texture": "modpack:buttons/long_button.png",
@@ -74,7 +74,7 @@
 
         "quit":
         {
-            "text": "Quit",
+            "text": "\u9000\u51fa",
             "normalTextColor": 16044800,
             "hoverTextColor": 11540224,
             "texture": "modpack:buttons/long_button.png",
@@ -95,7 +95,7 @@
             "text": "",
             "normalTextColor": 16044800,
             "hoverTextColor": 11540224,
-            "tooltip": "Settings",
+            "tooltip": "\u8bbe\u7f6e",
             "texture": "modpack:buttons/settings.png",
             "posX": 58,
             "posY": -32,
@@ -109,12 +109,12 @@
                 "gui" : "options"
             }
         },
-        
+
         "language": {
             "text": "",
             "normalTextColor": 16044800,
             "hoverTextColor": 11540224,
-            "tooltip": "Language",
+            "tooltip": "\u8bed\u8a00",
             "texture": "modpack:buttons/lang.png",
             "posX": 62,
             "posY": 4,
@@ -133,7 +133,7 @@
             "text": "",
             "normalTextColor": 16044800,
             "hoverTextColor": 11540224,
-            "tooltip": "Click to join our Discord",
+            "tooltip": "\u70b9\u51fb\u52a0\u5165\u6211\u4eec\u7684\u0020\u0044\u0069\u0073\u0063\u006f\u0072\u0064\u0020\u670d\u52a1\u5668",
             "texture": "modpack:buttons/discord.png",
             "posX": 62,
             "posY": 36,
@@ -152,7 +152,7 @@
             "text": "",
             "normalTextColor": 16044800,
             "hoverTextColor": 11540224,
-            "tooltip": "Report a bug",
+            "tooltip": "\u53cd\u9988\u0020\u0062\u0075\u0067",
             "texture": "modpack:buttons/bug.png",
             "posX": 62,
             "posY": 68,
@@ -166,7 +166,7 @@
                 "link" : "https://github.com/EmosewaPixel/GregBlock/issues"
             }
         },
-        
+
 
         "refresh": {
             "text": "",
@@ -180,7 +180,7 @@
             }
         }
     },
-    
+
 
     "labels":
     {
@@ -234,7 +234,7 @@
             "alignment": "bottom_left"
         },
         "Welcome": {
-            "text": "Welcome #username#",
+            "text": "\u6b22\u8fce\u4f60 #username#",
             "posX": 3,
             "posY": -28,
             "fontSize": 0.6,
@@ -243,7 +243,7 @@
             "alignment": "bottom_left"
         }
     },
-    
+
     "other":
     {
         "splash-text": {
@@ -261,4 +261,3 @@
         }
     }
 }
-
