@@ -21,7 +21,7 @@
     },
     "buttons":{
         "singleplayer":{
-            "text":"menu.\u5355\u4eba\u6e38\u620f",
+            "text":"\u5355\u4eba\u6e38\u620f",
             "texture":"mainmenu:longbutton.png",
             "posX":-80,
             "posY":-8,
@@ -36,7 +36,7 @@
             }
         },
         "multiplayer":{
-            "text":"menu.\u591a\u4eba\u6e38\u620f",
+            "text":"\u591a\u4eba\u6e38\u620f",
             "texture":"mainmenu:longbutton.png",
             "posX":-80,
             "posY":14,
@@ -51,7 +51,7 @@
             }
         },
         "mods":{
-            "text":"fml.menu.\u6a21\u7ec4",
+            "text":"\u6a21\u7ec4",
             "texture":"mainmenu:longbutton.png",
             "posX":-80,
             "posY":36,
@@ -66,7 +66,7 @@
             }
         },
         "options":{
-            "text":"menu.\u8bbe\u7f6e",
+            "text":"\u8bbe\u7f6e",
             "texture":"mainmenu:longbutton.png",
             "posX":-80,
             "posY":58,
@@ -81,7 +81,7 @@
             }
         },
         "quit":{
-            "text":"menu.\u9000\u51fa",
+            "text":"\u9000\u51fa",
             "texture":"mainmenu:longbutton.png",
             "posX":-80,
             "posY":102,
