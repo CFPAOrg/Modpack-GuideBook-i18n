@@ -4014,7 +4014,7 @@
     "48:10": {
       "questID:3": 48,
       "preRequisites:11": [
-        68
+        68,
         49
       ],
       "properties:10": {
