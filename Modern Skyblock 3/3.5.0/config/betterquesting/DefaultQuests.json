@@ -1613,8 +1613,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Automation",
-          "desc:8": " This unlocks small bits from a few mods that will help you with early-game automation."
+          "name:8": "基础自动化",
+          "desc:8": " 这个任务可以从一些mod中解锁一小部分，这将有助于你进行早期游戏的自动化。"
         }
       },
       "tasks:9": {},
@@ -2795,8 +2795,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Wooden Spikes",
-          "desc:8": " Wooden Spikes damage mobs until they get to half a heart."
+          "name:8": "木锥刺方块",
+          "desc:8": " 木锥刺方块会伤害怪物直到它们的生命值剩下半颗心。"
         }
       },
       "tasks:9": {
@@ -2871,8 +2871,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Stone Spikes",
-          "desc:8": " Stone Spikes damage mobs and kill them."
+          "name:8": "石锥刺方块",
+          "desc:8": " 石锥刺方块会伤害怪物并杀死它们。"
         }
       },
       "tasks:9": {
@@ -3117,8 +3117,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Golden Spikes",
-          "desc:8": " Golden Spikes damage mobs and make them drop experience."
+          "name:8": "金锥刺方块",
+          "desc:8": " 金锥刺方块会伤害怪物并掉落经验。"
         }
       },
       "tasks:9": {
@@ -3193,8 +3193,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Diamond Spikes",
-          "desc:8": " Diamond Spikes damage mobs and make them drop player-only drops, such as Lootbags."
+          "name:8": "钻石锥刺方块",
+          "desc:8": " 钻石锥刺方块会伤害怪物并让它们掉落玩家杀怪的掉落物，例如战利品袋。"
         }
       },
       "tasks:9": {
@@ -3271,8 +3271,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Crucible Inserter",
-          "desc:8": " The Crucible Inserter holds up to a stack of Crystal Shards and automatically throws them in the Crucible when it has room for them, making it so that you don\u0027t have to go to it and throw 3 shards in it every few minutes anymore."
+          "name:8": "坩埚投料器",
+          "desc:8": " 坩埚投料器可以容纳一组水晶碎片，当坩埚有足够的空间时会自动将它们扔进坩埚中，这使得你不必每隔几分钟就可以走近坩埚并往里面扔进3个碎片。"
         }
       },
       "tasks:9": {
@@ -3771,7 +3771,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "高贵的史莱姆树",
+          "name:8": "稀有的史莱姆树",
           "desc:8": " 紫色史莱姆比蓝色史莱姆更有用，所以你也应该为它做一个树苗。"
         }
       },
@@ -4001,8 +4001,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Quick Dropper",
-          "desc:8": " Droppers are fine and all, but continuously pressing a Button for getting it to drops items isn\u0027t fun. Don\u0027t worry though. You can now make a Quick Dropper which doesn\u0027t require a Redstone singal (unless you want to turn it off). Keep in mind that it cannot be used with a Wooden or Stone Combustion Heater."
+          "name:8": "快速漏斗",
+          "desc:8": " 投掷器很好，但持续按下一个按钮让它落下物品是不好玩的。不过不用担心。你现在可以制作一个不需要红石信号的快速漏斗（除非你想把它关掉）。请记住，它不能与木制或石制氧化加热器一起使用。"
         }
       },
       "tasks:9": {
@@ -4497,8 +4497,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Combustion Collector",
-          "desc:8": " The Combustion Collector automatically collects the Combustion recipe outputs, making it so that you don\u0027t have to empty it out after every recipe. Keep in mind that it cannot be used with a Wooden or Stone Combustion Heater."
+          "name:8": "氧化产物收集器",
+          "desc:8": " 氧化产物收集器自动收集氧化产物，使其不必在每次合成后清空它。请记住，它不能与木制或石制氧化加热器一起使用。"
         }
       },
       "tasks:9": {
@@ -7625,8 +7625,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "AntiBarrel",
-          "desc:8": " The AntiBarrel can store a large amount of non-stackable items."
+          "name:8": "奇异桶",
+          "desc:8": " 奇异桶可以存储大量不可堆叠的物品。"
         }
       },
       "tasks:9": {
@@ -8238,8 +8238,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Apothecary",
-          "desc:8": " The Petal Apothecary is used for creating Generating and Functional Mana Flowers."
+          "name:8": "药师",
+          "desc:8": " 花药台用来合成产能类和功能类魔力花。"
         }
       },
       "tasks:9": {
@@ -8317,8 +8317,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "The Purest of Daisies",
-          "desc:8": " The Pure Daisy is used mainly for transmuting Wood into Livingwood and Stone into Livingrock."
+          "name:8": "最纯洁的雏菊",
+          "desc:8": " 白雏菊主要用于将木头转化成活木、将石头转化成活石。"
         }
       },
       "tasks:9": {
@@ -33309,8 +33309,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Bonsai Pots",
-          "desc:8": " Hopping Bonsai Pots are one-block automatic tree farms that always keep a Sapling. Simply put the corresponding Soil and Sapling in it and have it generate that tree\u0027s products."
+          "name:8": "盆栽盆",
+          "desc:8": " 漏式盆栽盆是单方块自动化树场，它总是保留一棵树苗。简单地将相应的土壤和树苗放入其中，使其产生该树的产物。"
         }
       },
       "tasks:9": {
@@ -33393,8 +33393,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Automating Breaking",
-          "desc:8": " The Block Breaker automatically breaks blocks in front of it and outputs them to an inventory behind it."
+          "name:8": "自动破坏",
+          "desc:8": " 方块破坏器会自动打破前面的方块并将它们输出到它后面方块的物品栏中。"
         }
       },
       "tasks:9": {
@@ -33471,8 +33471,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Playing With Vectors I",
-          "desc:8": " Vector Plates move mobs and allow them to spawn on them."
+          "name:8": "玩向量I",
+          "desc:8": " 向量板可以移动怪物，并允许怪物在上面生成。"
         }
       },
       "tasks:9": {
@@ -33548,8 +33548,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Playing With Vectors II",
-          "desc:8": " With Wither Dust, you can make your Vector Plates faster."
+          "name:8": "玩向量II",
+          "desc:8": " 使用凋零之粉，你可以制作更快的向量板。"
         }
       },
       "tasks:9": {
@@ -33624,8 +33624,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Playing With Vectors III",
-          "desc:8": " With 8 Fast Vector Plates, you can make the fastest Vector Plates, Extreme Vector plates."
+          "name:8": "玩向量III",
+          "desc:8": " 使用8个快速向量板，你可以制作最快的向量板，极速向量板。"
         }
       },
       "tasks:9": {
@@ -34037,8 +34037,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Wooden Colossal Chest",
-          "desc:8": " Colossal Chests are hollow 3x3x3 to 10x10x10 Chests. For them to work, the multiblock needs to have a Colossal Chest Core and for inserting in/out of them, the multiblock needs Colossal Chest Interfaces. It has a chest worth of slots per block, including the empty space in it."
+          "name:8": "木质巨型箱子",
+          "desc:8": " 巨型箱子是中空的3x3x3到10x10x10大小的箱子。为了让它正常工作，这个多方块结构需要巨型箱子核心，为了进行输入输出交互，这个多方块结构需要巨型箱子交界面。它每个方块具有一个箱子的容量，包括空心部分。"
         }
       },
       "tasks:9": {
@@ -34125,8 +34125,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Copper Colossal Chest",
-          "desc:8": " The Copper Colossal Chest has a Copper Chest worth of slots per block."
+          "name:8": "铜巨型箱子",
+          "desc:8": " 铜巨型箱子的每个方块具有一个铜箱子的容量。"
         }
       },
       "tasks:9": {
@@ -34213,8 +34213,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Iron Colossal Chest",
-          "desc:8": " The Iron Colossal Chest has an Iron Chest worth of slots per block."
+          "name:8": "铁巨型箱子",
+          "desc:8": " 铁巨型箱子的每个方块具有一个铁箱子的容量。"
         }
       },
       "tasks:9": {
@@ -34301,8 +34301,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Silver Colossal Chest",
-          "desc:8": " The Silver Colossal Chest has a Silver Chest worth of slots per block."
+          "name:8": "银巨型箱子",
+          "desc:8": " 银巨型箱子的每个方块具有一个银箱子的容量。"
         }
       },
       "tasks:9": {
@@ -34377,8 +34377,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Gold Colossal Chest",
-          "desc:8": " The Gold Colossal Chest has a Gold Chest worth of slots per block."
+          "name:8": "金巨型箱子",
+          "desc:8": " 金巨型箱子的每个方块具有一个金箱子的容量。"
         }
       },
       "tasks:9": {
@@ -34465,8 +34465,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Diamond Colossal Chest",
-          "desc:8": " The Diamond Colossal Chest has a Diamond Chest worth of slots per block."
+          "name:8": "钻石巨型箱子",
+          "desc:8": " 钻石巨型箱子的每个方块具有一个钻石箱子的容量。"
         }
       },
       "tasks:9": {
@@ -34553,8 +34553,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Obsidian Colossal Chest",
-          "desc:8": " The Obsidian Colossal Chest is an explosion-resistant Diamond Colossal Chest."
+          "name:8": "黑曜石巨型箱子",
+          "desc:8": " 黑曜石巨型箱子是一个防爆的钻石巨型箱子。"
         }
       },
       "tasks:9": {
@@ -35490,8 +35490,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Uncolossal Chest",
-          "desc:8": " The Uncolossal Chest has only 5 slots, making it useful as a buffer."
+          "name:8": "微缩箱子",
+          "desc:8": " 微缩箱子只有5个格子，用它来作为缓存区吧。"
         }
       },
       "tasks:9": {
@@ -36221,8 +36221,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Drawer Controller",
-          "desc:8": " The Drawer Controller allows you to interact with multiple Drawers that are next to one another."
+          "name:8": "抽屉管理器",
+          "desc:8": " 通过抽屉管理器，你可以跟与它相连的多个抽屉交互。"
         }
       },
       "tasks:9": {
@@ -44340,8 +44340,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Timer",
-          "desc:8": " The Timer gives off a Redstone pulse every set amount of ticks."
+          "name:8": "计时器",
+          "desc:8": " 计时器每隔一定量ticks发出红石脉冲。"
         }
       },
       "tasks:9": {
@@ -59835,8 +59835,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Dirt Chest",
-          "desc:8": " You can make a Dirt Chest to store your stack of Dirt."
+          "name:8": "泥箱",
+          "desc:8": " 你可以制作一个泥箱来存放你的泥土。"
         }
       },
       "tasks:9": {
@@ -59913,8 +59913,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Copper Chest",
-          "desc:8": " The Copper Chest have 2 more rows than a regular Chest."
+          "name:8": "铜箱子",
+          "desc:8": " 铜箱子比普通箱子多2行。"
         }
       },
       "tasks:9": {
@@ -59989,8 +59989,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Iron Chest",
-          "desc:8": " The Iron Chest has 1 more row than the Copper Chest."
+          "name:8": "铁箱子",
+          "desc:8": " 铁箱子比铜箱子多1行。"
         }
       },
       "tasks:9": {
@@ -60065,8 +60065,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Silver Chest",
-          "desc:8": " The Silver Chest has 2 more rows than the Iron Chest."
+          "name:8": "银箱子",
+          "desc:8": " 银箱子比铁箱子多2行。"
         }
       },
       "tasks:9": {
@@ -60141,8 +60141,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Gold Chest",
-          "desc:8": " The Gold Chest has 1 more row than a Silver Chest."
+          "name:8": "金箱子",
+          "desc:8": " 金箱子比银箱子多1行。"
         }
       },
       "tasks:9": {
@@ -60217,8 +60217,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Diamond Chest",
-          "desc:8": " The Diamond Chest has 3 more columns than the Gold Chest."
+          "name:8": "钻石箱子",
+          "desc:8": " 钻石箱子比金箱子多3列。"
         }
       },
       "tasks:9": {
@@ -60293,8 +60293,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Crystal Chest",
-          "desc:8": " The Crystal Chest has the space of a Diamond Chest, but you can see what\u0027s in it."
+          "name:8": "水晶箱子",
+          "desc:8": " 水晶箱子跟钻石箱子的空间大小一样，但是你能看到里面的物品。"
         }
       },
       "tasks:9": {
@@ -60369,8 +60369,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Obsidian Chest",
-          "desc:8": " The Obsidian Chest is a Diamond Chest, but it\u0027s resistant to explosions."
+          "name:8": "黑曜石箱子",
+          "desc:8": " 黑曜石箱子的存储空间跟钻石箱子一样，但是它能防爆。"
         }
       },
       "tasks:9": {
@@ -60454,8 +60454,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "EnderLink Bag",
-          "desc:8": " The EnderLink Bag is a portable EnderLink Chest."
+          "name:8": "末影链接袋",
+          "desc:8": " 末影链接袋是一个便携式的末影链接箱。"
         }
       },
       "tasks:9": {
@@ -60540,8 +60540,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "EnderLink Chest",
-          "desc:8": " EnderLink Chests share an inventory with other EnderLink Chests that have the same color code. You can increase their capacity by 3 slots using Ender Pearls and you can make them private with Diamonds."
+          "name:8": "末影链接箱",
+          "desc:8": " 末影链接箱与其它相同颜色编码的末影链接箱共享物品栏。你可以使用末影珍珠增加3格容量，并且你可以使用钻石把它们变成私人空间。"
         }
       },
       "tasks:9": {
@@ -60626,8 +60626,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Ender Tank",
-          "desc:8": " Ender Tanks share fluids with other Ende Tanks that have the same color code. You can increase their capacity by 80 buckets using Ender Pearls and you can make them private with Diamonds."
+          "name:8": "末影储罐",
+          "desc:8": " 末影储罐与其它相同颜色编码的末影储罐共享流体。你可以使用末影珍珠增加8桶容量，并且你可以使用钻石把它们变成私人空间。"
         }
       },
       "tasks:9": {
@@ -60798,8 +60798,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Stone Junkbox",
-          "desc:8": " The Junkbox is a Slab in which you can store items."
+          "name:8": "石质废料箱",
+          "desc:8": " 石质废料箱是一块可以存储物品的台阶。"
         }
       },
       "tasks:9": {
@@ -60882,8 +60882,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Stone Queue",
-          "desc:8": " The Stone Queue outputs items in the order they\u0027ve been inputted."
+          "name:8": "石质排序箱",
+          "desc:8": " 石质排序箱会按照输入物品的顺序输出物品。"
         }
       },
       "tasks:9": {
@@ -60966,8 +60966,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Stone Storage",
-          "desc:8": " Stone Storages are basically Stone Chests that can be stacked on top of each other to increase inventory space. They can only be opened from the front."
+          "name:8": "石质叠柜",
+          "desc:8": " 石质叠柜基本上就是一个石头箱子，它可以放在另一个石质叠柜上面增加存储空间。它们只能从正面打开。"
         }
       },
       "tasks:9": {
@@ -76612,8 +76612,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Mystical Flora",
-          "desc:8": " This unlocks Botania and Boutanomy.."
+          "name:8": "神秘植物",
+          "desc:8": " 这个任务将解锁Botania和botaunomy."
         }
       },
       "tasks:9": {},
@@ -77072,8 +77072,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Better Storage",
-          "desc:8": " This unlocks Iron Chests, Colossal Chests, MultiStorage and EnderTanks."
+          "name:8": "更好的存储",
+          "desc:8": " 这个任务将解锁IronChests、ColossalChests、MultiStorage和EnderTanks。"
         }
       },
       "tasks:9": {},
@@ -82637,8 +82637,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Bag Opener",
-          "desc:8": " If you have an automatic mob farm, you probably have a huge influx of Loot Bags. You can make a Bag Opener to automatically open them."
+          "name:8": "开袋器",
+          "desc:8": " 如果你有一个自动化刷怪塔，你可能会有大量的战利品袋。你可以让开袋器自动打开它们。"
         }
       },
       "tasks:9": {
@@ -86122,8 +86122,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Mystical Flora",
-          "desc:8": " This unlocks Botania and Boutanomy."
+          "name:8": "神秘植物",
+          "desc:8": " 这个任务将解锁Botania和botaunomy."
         }
       },
       "tasks:9": {
@@ -86214,8 +86214,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Automation",
-          "desc:8": " This unlocks small bits from a few mods that will help you with early-game automation."
+          "name:8": "基础自动化",
+          "desc:8": " 这个任务可以从一些mod中解锁一小部分，这将有助于你进行早期游戏的自动化。"
         }
       },
       "tasks:9": {
@@ -86317,8 +86317,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Better Storage",
-          "desc:8": " This unlocks Iron Chests, Colossal Chests, MultiStorage and EnderTanks."
+          "name:8": "更好的存储",
+          "desc:8": " 这个任务将解锁IronChests、ColossalChests、MultiStorage和EnderTanks。"
         }
       },
       "tasks:9": {
@@ -89745,8 +89745,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Compacting Drawer",
-          "desc:8": " The Compacting Drawer allows you to switch between up to 3 compressed variants of a material."
+          "name:8": "压缩抽屉",
+          "desc:8": " 压缩抽屉可以转换物品的3种压缩级别。"
         }
       },
       "tasks:9": {
@@ -90795,7 +90795,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "神秘花",
-          "desc:8": " 有了西瓜种子，你现在已经拥有开始交叉出神秘花所需的一切。"
+          "desc:8": " 有了西瓜种子，你现在已经拥有杂交出神秘花所需的一切。"
         }
       },
       "tasks:9": {
@@ -94739,8 +94739,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Basic Automation Complete!",
-          "desc:8": " You\u0027ve completed every quest on Basic Automation!"
+          "name:8": "基础自动化完成！",
+          "desc:8": " 你已经完成了基础自动化的所有任务！"
         }
       },
       "tasks:9": {},
@@ -95478,8 +95478,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Ender Bucket",
-          "desc:8": " The Ender Bucket is a portable Ender Tank."
+          "name:8": "末影之桶",
+          "desc:8": " 末影之桶是一个便携式的末影储罐。"
         }
       },
       "tasks:9": {
@@ -103907,10 +103907,10 @@
       "lineID:3": 4,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Mystical Flora",
+          "name:8": "神秘植物",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "This page is based around Botania."
+          "desc:8": "此页面基于Botania。"
         }
       },
       "order:3": 7
@@ -105566,7 +105566,7 @@
           "name:8": "基础工具",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "这个页面是基于Tinker\u0027s Contruct、Ceramics Tinker\u0027s Complement和Tinker\u0027s Skyblock."
+          "desc:8": "此页面基于Tinker\u0027s Contruct、Ceramics Tinker\u0027s Complement和Tinker\u0027s Skyblock."
         }
       },
       "order:3": 3
@@ -106223,10 +106223,10 @@
       "lineID:3": 16,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Basic Automation",
+          "name:8": "基础自动化",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "This page is based around small bits of a few mods."
+          "desc:8": "此页面基于一些mods的小部分内容。"
         }
       },
       "order:3": 5
@@ -109641,10 +109641,10 @@
       "lineID:3": 37,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Better Storage",
+          "name:8": "更好的存储",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": " This page is based around Iron Chests, Colossal Chests, MultiStorage and EnderTanks."
+          "desc:8": " 此页面基于Iron Chests、Colossal Chests、MultiStorage和EnderTanks。"
         }
       },
       "order:3": 6
