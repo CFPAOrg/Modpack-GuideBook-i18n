@@ -20,4 +20,5 @@
 ## 5. 鸣谢
 感谢 `Suripe`，`普拉斯` 提供的部分 SevTech 整合汉化。            
 感谢 `SihenZhang` 的 FTB Continuum 整合汉化。             
+感谢 `Kiwi`，`huajijam`，`yesterday`，`Sky_Cat` 提供的 GTNH 整合翻译。
 其他参与人员可在本页面的 Contribution 区域查看。           
