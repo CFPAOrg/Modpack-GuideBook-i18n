@@ -40674,7 +40674,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 1,
+          "ismain:1": 0,
           "name:8": "大气收藏家",
           "desc:8": "大气收藏家，不妨说是进阶空气收集器IV，使用IV级能量，每秒收集16桶空气。"
         }
