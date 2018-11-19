@@ -1,0 +1,4892 @@
+#################################Quests#################################
+
+#Quest_0.Your first night
+gtnh.quest0.name=
+gtnh.quest0.desc=
+
+#Quest_1.Where is the flint?
+gtnh.quest1.name=
+gtnh.quest1.desc=
+
+#Quest_2.Sticks 'n Stones
+gtnh.quest2.name=
+gtnh.quest2.desc=
+
+#Quest_3.Storage for days
+gtnh.quest3.name=
+gtnh.quest3.desc=
+
+#Quest_4.Crafting time
+gtnh.quest4.name=
+gtnh.quest4.desc=
+
+#Quest_5.Tools
+gtnh.quest5.name=
+gtnh.quest5.desc=
+
+#Quest_6.You reap...
+gtnh.quest6.name=
+gtnh.quest6.desc=
+
+#Quest_7....what you sow
+gtnh.quest7.name=
+gtnh.quest7.desc=
+
+#Quest_8.Get that stone
+gtnh.quest8.name=
+gtnh.quest8.desc=
+
+#Quest_9.Fire, fire, Grandpa!
+gtnh.quest9.name=
+gtnh.quest9.desc=
+
+#Quest_10.Rest in pieces
+gtnh.quest10.name=
+gtnh.quest10.desc=
+
+#Quest_11.Sharpness: Over... 5...
+gtnh.quest11.name=
+gtnh.quest11.desc=
+
+#Quest_12.Fluffy and red
+gtnh.quest12.name=
+gtnh.quest12.desc=
+
+#Quest_13.SO...TIRED...MUST...SLEEP...
+gtnh.quest13.name=
+gtnh.quest13.desc=
+
+#Quest_14.What is that...?
+gtnh.quest14.name=
+gtnh.quest14.desc=
+
+#Quest_15.Ready, set, go!
+gtnh.quest15.name=
+gtnh.quest15.desc=
+
+#Quest_16.Better Tank... Iron Tank
+gtnh.quest16.name=
+gtnh.quest16.desc=
+
+#Quest_17.Sand: The Gathering
+gtnh.quest17.name=
+gtnh.quest17.desc=
+
+#Quest_18.Basic processing
+gtnh.quest18.name=
+gtnh.quest18.desc=
+
+#Quest_19.Maceration v0.1 Alpha
+gtnh.quest19.name=
+gtnh.quest19.desc=
+
+#Quest_20.Gravel: The Gathering
+gtnh.quest20.name=
+gtnh.quest20.desc=
+
+#Quest_21.Clay: The Gathering
+gtnh.quest21.name=
+gtnh.quest21.desc=
+
+#Quest_22.Finite water!?
+gtnh.quest22.name=
+gtnh.quest22.desc=
+
+#Quest_23.Something to carry liquids
+gtnh.quest23.name=
+gtnh.quest23.desc=
+
+#Quest_24.Getting (char)coal
+gtnh.quest24.name=
+gtnh.quest24.desc=
+
+#Quest_25.Another brick in the wall
+gtnh.quest25.name=
+gtnh.quest25.desc=
+
+#Quest_26.Forming press v0.1
+gtnh.quest26.name=
+gtnh.quest26.desc=
+
+#Quest_27.Finally, some power
+gtnh.quest27.name=
+gtnh.quest27.desc=
+
+#Quest_28.Copper sky, Iron curtain
+gtnh.quest28.name=
+gtnh.quest28.desc=
+
+#Quest_29.Another fuel source
+gtnh.quest29.name=
+gtnh.quest29.desc=
+
+#Quest_30.Copper
+gtnh.quest30.name=
+gtnh.quest30.desc=
+
+#Quest_31.Tin
+gtnh.quest31.name=
+gtnh.quest31.desc=
+
+#Quest_32.Book parts
+gtnh.quest32.name=
+gtnh.quest32.desc=
+
+#Quest_33.Tinker-time
+gtnh.quest33.name=
+gtnh.quest33.desc=
+
+#Quest_34.Aluminini...um...?
+gtnh.quest34.name=
+gtnh.quest34.desc=
+
+#Quest_35.Making bronze
+gtnh.quest35.name=
+gtnh.quest35.desc=
+
+#Quest_36.Important tools
+gtnh.quest36.name=
+gtnh.quest36.desc=
+
+#Quest_37.Getting iron
+gtnh.quest37.name=
+gtnh.quest37.desc=
+
+#Quest_38.Making better tools
+gtnh.quest38.name=
+gtnh.quest38.desc=
+
+#Quest_39.Better storage
+gtnh.quest39.name=
+gtnh.quest39.desc=
+
+#Quest_40.You shall proceed
+gtnh.quest40.name=
+gtnh.quest40.desc=
+
+#Quest_41.Don't burn your fingers!
+gtnh.quest41.name=
+gtnh.quest41.desc=
+
+#Quest_42.Cow Tipper
+gtnh.quest42.name=
+gtnh.quest42.desc=
+
+#Quest_43.Cotton, cotton and more cotton
+gtnh.quest43.name=
+gtnh.quest43.desc=
+
+#Quest_44.Welcome to Tier 1
+gtnh.quest44.name=
+gtnh.quest44.desc=
+
+#Quest_45.Multiblock tanks... Railcraft tanks
+gtnh.quest45.name=
+gtnh.quest45.desc=
+
+#Quest_46.More advanced alloys
+gtnh.quest46.name=
+gtnh.quest46.desc=
+
+#Quest_47.Upgrade: High speed alloys
+gtnh.quest47.name=
+gtnh.quest47.desc=
+
+#Quest_48.A very important alloy
+gtnh.quest48.name=
+gtnh.quest48.desc=
+
+#Quest_49.The hell is that?
+gtnh.quest49.name=
+gtnh.quest49.desc=
+
+#Quest_50.Macerator v1.0!
+gtnh.quest50.name=
+gtnh.quest50.desc=
+
+#Quest_51.Extracting stuff
+gtnh.quest51.name=
+gtnh.quest51.desc=
+
+#Quest_52.A clear view
+gtnh.quest52.name=
+gtnh.quest52.desc=
+
+#Quest_53.Hammer time v2
+gtnh.quest53.name=
+gtnh.quest53.desc=
+
+#Quest_54.Compressing stuff
+gtnh.quest54.name=
+gtnh.quest54.desc=
+
+#Quest_55.Upgrade: A better compressor
+gtnh.quest55.name=
+gtnh.quest55.desc=
+
+#Quest_56.Upgrade: Forge hammer
+gtnh.quest56.name=
+gtnh.quest56.desc=
+
+#Quest_57.Upgrade: Extractor
+gtnh.quest57.name=
+gtnh.quest57.desc=
+
+#Quest_58.Upgrade: Better macerator
+gtnh.quest58.name=
+gtnh.quest58.desc=
+
+#Quest_59.Steam alternatives
+gtnh.quest59.name=
+gtnh.quest59.desc=
+
+#Quest_60.Upgrade: Coal boiler
+gtnh.quest60.name=
+gtnh.quest60.desc=
+
+#Quest_61.Another use for Java, I mean Lava
+gtnh.quest61.name=
+gtnh.quest61.desc=
+
+#Quest_62.The power of the sun
+gtnh.quest62.name=
+gtnh.quest62.desc=
+
+#Quest_63.Using steam to cook things
+gtnh.quest63.name=
+gtnh.quest63.desc=
+
+#Quest_64.Upgrade: Better furnace
+gtnh.quest64.name=
+gtnh.quest64.desc=
+
+#Quest_65.Blastoff!
+gtnh.quest65.name=
+gtnh.quest65.desc=
+
+#Quest_66.Time for some logic
+gtnh.quest66.name=
+gtnh.quest66.desc=
+
+#Quest_67.Wired, weird?!
+gtnh.quest67.name=
+gtnh.quest67.desc=
+
+#Quest_68.Your first logic circuit
+gtnh.quest68.name=
+gtnh.quest68.desc=
+
+#Quest_69.Wire-Wrap
+gtnh.quest69.name=
+gtnh.quest69.desc=
+
+#Quest_70.Steam-a-licious!
+gtnh.quest70.name=
+gtnh.quest70.desc=
+
+#Quest_71.Basic crafting: Motors
+gtnh.quest71.name=
+gtnh.quest71.desc=
+
+#Quest_72.Basic crafting: Rotors
+gtnh.quest72.name=
+gtnh.quest72.desc=
+
+#Quest_73.Basic crafting: Casings
+gtnh.quest73.name=
+gtnh.quest73.desc=
+
+#Quest_74.You are not prepared!!!
+gtnh.quest74.name=
+gtnh.quest74.desc=
+
+#Quest_75.The water dilemma
+gtnh.quest75.name=
+gtnh.quest75.desc=
+
+#Quest_76.Time to get some steel
+gtnh.quest76.name=
+gtnh.quest76.desc=
+
+#Quest_77.EBF-Time
+gtnh.quest77.name=
+gtnh.quest77.desc=
+
+#Quest_78.Upgrade #1: More heat
+gtnh.quest78.name=
+gtnh.quest78.desc=
+
+#Quest_79.Upgrade #2: Higher tier
+gtnh.quest79.name=
+gtnh.quest79.desc=
+
+#Quest_80.Compress all the things
+gtnh.quest80.name=
+gtnh.quest80.desc=
+
+#Quest_81.At the end of...
+gtnh.quest81.name=
+gtnh.quest81.desc=
+
+#Quest_82.An unexpected Bonus
+gtnh.quest82.name=
+gtnh.quest82.desc=
+
+#Quest_83.High speed charcoal
+gtnh.quest83.name=
+gtnh.quest83.desc=
+
+#Quest_84.Where I can put all the liquids?
+gtnh.quest84.name=
+gtnh.quest84.desc=
+
+#Quest_85.Smelt all the things stack wise...
+gtnh.quest85.name=
+gtnh.quest85.desc=
+
+#Quest_86.Upgrade #3: Upgrade tier 4
+gtnh.quest86.name=
+gtnh.quest86.desc=
+
+#Quest_87.Steel multiblock tanks
+gtnh.quest87.name=
+gtnh.quest87.desc=
+
+#Quest_88.Welcome to Tier 2
+gtnh.quest88.name=
+gtnh.quest88.desc=
+
+#Quest_89.Tier 3
+gtnh.quest89.name=
+gtnh.quest89.desc=
+
+#Quest_90.Damn you, wire cutter!
+gtnh.quest90.name=
+gtnh.quest90.desc=
+
+#Quest_91.You're gonna hate this #1
+gtnh.quest91.name=
+gtnh.quest91.desc=
+
+#Quest_92.You're gonna hate this #4
+gtnh.quest92.name=
+gtnh.quest92.desc=
+
+#Quest_93.You're gonna hate this #2
+gtnh.quest93.name=
+gtnh.quest93.desc=
+
+#Quest_94.Electric macerator
+gtnh.quest94.name=
+gtnh.quest94.desc=
+
+#Quest_95.You're gonna hate this #3
+gtnh.quest95.name=
+gtnh.quest95.desc=
+
+#Quest_96.Saving redstone
+gtnh.quest96.name=
+gtnh.quest96.desc=
+
+#Quest_97.Avengers, assemble!
+gtnh.quest97.name=
+gtnh.quest97.desc=
+
+#Quest_98.No more filing
+gtnh.quest98.name=
+gtnh.quest98.desc=
+
+#Quest_99.Bzzz... Whoom...
+gtnh.quest99.name=
+gtnh.quest99.desc=
+
+#Quest_100.Press all the things
+gtnh.quest100.name=
+gtnh.quest100.desc=
+
+#Quest_101.Mjolnir!!! (electric forge hammer)
+gtnh.quest101.name=
+gtnh.quest101.desc=
+
+#Quest_102.Cutting things apart
+gtnh.quest102.name=
+gtnh.quest102.desc=
+
+#Quest_103.Get ready for Tier 3
+gtnh.quest103.name=
+gtnh.quest103.desc=
+
+#Quest_104.Your magic progression
+gtnh.quest104.name=
+gtnh.quest104.desc=
+
+#Quest_105.The missing one
+gtnh.quest105.name=
+gtnh.quest105.desc=
+
+#Quest_106.Your first automation
+gtnh.quest106.name=
+gtnh.quest106.desc=
+
+#Quest_107.Cart modules: Power
+gtnh.quest107.name=
+gtnh.quest107.desc=
+
+#Quest_108.Automated (un-)loading
+gtnh.quest108.name=
+gtnh.quest108.desc=
+
+#Quest_109.Cart modules: Farming
+gtnh.quest109.name=
+gtnh.quest109.desc=
+
+#Quest_110.Cart modules: Storage
+gtnh.quest110.name=
+gtnh.quest110.desc=
+
+#Quest_111.A simple cart
+gtnh.quest111.name=
+gtnh.quest111.desc=
+
+#Quest_112.Cart modules: Wood cutter
+gtnh.quest112.name=
+gtnh.quest112.desc=
+
+#Quest_113.Basic transport pipe
+gtnh.quest113.name=
+gtnh.quest113.desc=
+
+#Quest_114.Basic transport: Items
+gtnh.quest114.name=
+gtnh.quest114.desc=
+
+#Quest_115.Basic transport: Fluids
+gtnh.quest115.name=
+gtnh.quest115.desc=
+
+#Quest_116.Alloy smelter
+gtnh.quest116.name=
+gtnh.quest116.desc=
+
+#Quest_117.Gotta catch 'em all
+gtnh.quest117.name=
+gtnh.quest117.desc=
+
+#Quest_118.Basic monster protection
+gtnh.quest118.name=
+gtnh.quest118.desc=
+
+#Quest_119.A quite different storage
+gtnh.quest119.name=
+gtnh.quest119.desc=
+
+#Quest_120.Protect your base; Tier 1
+gtnh.quest120.name=
+gtnh.quest120.desc=
+
+#Quest_121.Passive defence
+gtnh.quest121.name=
+gtnh.quest121.desc=
+
+#Quest_122.Turret base
+gtnh.quest122.name=
+gtnh.quest122.desc=
+
+#Quest_123.Who needs that dirt anyway
+gtnh.quest123.name=
+gtnh.quest123.desc=
+
+#Quest_124.Don't play with your food!
+gtnh.quest124.name=
+gtnh.quest124.desc=
+
+#Quest_125.Upgrading intensifies
+gtnh.quest125.name=
+gtnh.quest125.desc=
+
+#Quest_126.Electrolysing all the things
+gtnh.quest126.name=
+gtnh.quest126.desc=
+
+#Quest_127.Project red begging
+gtnh.quest127.name=
+gtnh.quest127.desc=
+
+#Quest_128.Ender not-so-IO
+gtnh.quest128.name=
+gtnh.quest128.desc=
+
+#Quest_129.Machine chassis
+gtnh.quest129.name=
+gtnh.quest129.desc=
+
+#Quest_130.Portable tanks
+gtnh.quest130.name=
+gtnh.quest130.desc=
+
+#Quest_131.Simple RF power: Solid
+gtnh.quest131.name=
+gtnh.quest131.desc=
+
+#Quest_132.Simple RF power: Liquids
+gtnh.quest132.name=
+gtnh.quest132.desc=
+
+#Quest_133.The power of enderman
+gtnh.quest133.name=
+gtnh.quest133.desc=
+
+#Quest_134.Conduits
+gtnh.quest134.name=
+gtnh.quest134.desc=
+
+#Quest_135.Yet another wrench
+gtnh.quest135.name=
+gtnh.quest135.desc=
+
+#Quest_136.Improving conduits
+gtnh.quest136.name=
+gtnh.quest136.desc=
+
+#Quest_137.Making things pretty
+gtnh.quest137.name=
+gtnh.quest137.desc=
+
+#Quest_138.Come to the dark side...
+gtnh.quest138.name=
+gtnh.quest138.desc=
+
+#Quest_139.Luke, I'm your father
+gtnh.quest139.name=
+gtnh.quest139.desc=
+
+#Quest_140.Dark steel tools
+gtnh.quest140.name=
+gtnh.quest140.desc=
+
+#Quest_141.Vibrant Crystals
+gtnh.quest141.name=
+gtnh.quest141.desc=
+
+#Quest_142.Brewing liquids
+gtnh.quest142.name=
+gtnh.quest142.desc=
+
+#Quest_143.Smelting all-joy
+gtnh.quest143.name=
+gtnh.quest143.desc=
+
+#Quest_144.Automated crafting
+gtnh.quest144.name=
+gtnh.quest144.desc=
+
+#Quest_145.Ore processing kind of...
+gtnh.quest145.name=
+gtnh.quest145.desc=
+
+#Quest_146.Torture device
+gtnh.quest146.name=
+gtnh.quest146.desc=
+
+#Quest_147.Rocket fuel
+gtnh.quest147.name=
+gtnh.quest147.desc=
+
+#Quest_148.Tasty...
+gtnh.quest148.name=
+gtnh.quest148.desc=
+
+#Quest_149.Firewater
+gtnh.quest149.name=
+gtnh.quest149.desc=
+
+#Quest_150.Hootch
+gtnh.quest150.name=
+gtnh.quest150.desc=
+
+#Quest_151.Automated mob-farming
+gtnh.quest151.name=
+gtnh.quest151.desc=
+
+#Quest_152.And it will never break
+gtnh.quest152.name=
+gtnh.quest152.desc=
+
+#Quest_153.Simple item transfer
+gtnh.quest153.name=
+gtnh.quest153.desc=
+
+#Quest_154.Simple fluid transfer
+gtnh.quest154.name=
+gtnh.quest154.desc=
+
+#Quest_155.Harder, stronger, faster
+gtnh.quest155.name=
+gtnh.quest155.desc=
+
+#Quest_156.Protect your base: Tier 2
+gtnh.quest156.name=
+gtnh.quest156.desc=
+
+#Quest_157.Tier 2 turret base
+gtnh.quest157.name=
+gtnh.quest157.desc=
+
+#Quest_158.Sometimes, a bullet will do
+gtnh.quest158.name=
+gtnh.quest158.desc=
+
+#Quest_159.Burn them. Burn them all!
+gtnh.quest159.name=
+gtnh.quest159.desc=
+
+#Quest_160.Tier 4
+gtnh.quest160.name=
+gtnh.quest160.desc=
+
+#Quest_161.Paying the highest price
+gtnh.quest161.name=
+gtnh.quest161.desc=
+
+#Quest_162.Dimensional goal: Moon
+gtnh.quest162.name=
+gtnh.quest162.desc=
+
+#Quest_163.I see everything
+gtnh.quest163.name=
+gtnh.quest163.desc=
+
+#Quest_164.Portable battery...
+gtnh.quest164.name=
+gtnh.quest164.desc=
+
+#Quest_165.Soul eater
+gtnh.quest165.name=
+gtnh.quest165.desc=
+
+#Quest_166.A new alloy Soularium
+gtnh.quest166.name=
+gtnh.quest166.desc=
+
+#Quest_167.Experience storage
+gtnh.quest167.name=
+gtnh.quest167.desc=
+
+#Quest_168.A soul vessel
+gtnh.quest168.name=
+gtnh.quest168.desc=
+
+#Quest_169.The creation of life
+gtnh.quest169.name=
+gtnh.quest169.desc=
+
+#Quest_170.Specific enchantments
+gtnh.quest170.name=
+gtnh.quest170.desc=
+
+#Quest_171.Almost like steel
+gtnh.quest171.name=
+gtnh.quest171.desc=
+
+#Quest_172.Protect your base: Tier 3
+gtnh.quest172.name=
+gtnh.quest172.desc=
+
+#Quest_173.Tier 3 base
+gtnh.quest173.name=
+gtnh.quest173.desc=
+
+#Quest_174.This is relatively useful
+gtnh.quest174.name=
+gtnh.quest174.desc=
+
+#Quest_175.Fire in the hole
+gtnh.quest175.name=
+gtnh.quest175.desc=
+
+#Quest_176.Tier 5
+gtnh.quest176.name=
+gtnh.quest176.desc=
+
+#Quest_177.*Poke*
+gtnh.quest177.name=
+gtnh.quest177.desc=
+
+#Quest_178.It's storage time!
+gtnh.quest178.name=
+gtnh.quest178.desc=
+
+#Quest_179.Find them all
+gtnh.quest179.name=
+gtnh.quest179.desc=
+
+#Quest_180.Drives
+gtnh.quest180.name=
+gtnh.quest180.desc=
+
+#Quest_181.Fluix crystals
+gtnh.quest181.name=
+gtnh.quest181.desc=
+
+#Quest_182.Applied crafting
+gtnh.quest182.name=
+gtnh.quest182.desc=
+
+#Quest_183.Getting your first circuits
+gtnh.quest183.name=
+gtnh.quest183.desc=
+
+#Quest_184.Cables
+gtnh.quest184.name=
+gtnh.quest184.desc=
+
+#Quest_185.Terminals everywhere
+gtnh.quest185.name=
+gtnh.quest185.desc=
+
+#Quest_186.Dimensional goal: Mars
+gtnh.quest186.name=
+gtnh.quest186.desc=
+
+#Quest_187.Dimensional goal: Phobos
+gtnh.quest187.name=
+gtnh.quest187.desc=
+
+#Quest_188.Dimensional goal: Deimos
+gtnh.quest188.name=
+gtnh.quest188.desc=
+
+#Quest_189.HEV Mark III protective system
+gtnh.quest189.name=
+gtnh.quest189.desc=
+
+#Quest_190.Appropriate power
+gtnh.quest190.name=
+gtnh.quest190.desc=
+
+#Quest_191.Tier 2 fuel: Uranium
+gtnh.quest191.name=
+gtnh.quest191.desc=
+
+#Quest_192.Tier 3 fuel: MOX
+gtnh.quest192.name=
+gtnh.quest192.desc=
+
+#Quest_193.Tier 1 fuel: Thorium
+gtnh.quest193.name=
+gtnh.quest193.desc=
+
+#Quest_194.Monitoring your reactor
+gtnh.quest194.name=
+gtnh.quest194.desc=
+
+#Quest_195.Increasing the capacity
+gtnh.quest195.name=
+gtnh.quest195.desc=
+
+#Quest_196.Move the heat
+gtnh.quest196.name=
+gtnh.quest196.desc=
+
+#Quest_197.Venting heat
+gtnh.quest197.name=
+gtnh.quest197.desc=
+
+#Quest_198.Double the fun
+gtnh.quest198.name=
+gtnh.quest198.desc=
+
+#Quest_199.Quit exhaling dusts
+gtnh.quest199.name=
+gtnh.quest199.desc=
+
+#Quest_200.Advanced mob-protection
+gtnh.quest200.name=
+gtnh.quest200.desc=
+
+#Quest_201.Automated mining
+gtnh.quest201.name=
+gtnh.quest201.desc=
+
+#Quest_202.Accelerating things
+gtnh.quest202.name=
+gtnh.quest202.desc=
+
+#Quest_203.Bundled AE channels
+gtnh.quest203.name=
+gtnh.quest203.desc=
+
+#Quest_204.Load and unload the rocket
+gtnh.quest204.name=
+gtnh.quest204.desc=
+
+#Quest_205.Cargo rocket: For the fun
+gtnh.quest205.name=
+gtnh.quest205.desc=
+
+#Quest_206.Turning A into B with C
+gtnh.quest206.name=
+gtnh.quest206.desc=
+
+#Quest_207.Turret base tier 4
+gtnh.quest207.name=
+gtnh.quest207.desc=
+
+#Quest_208.Protect your base: Tier 4
+gtnh.quest208.name=
+gtnh.quest208.desc=
+
+#Quest_209.Make love, not war
+gtnh.quest209.name=
+gtnh.quest209.desc=
+
+#Quest_210.Why grenades...
+gtnh.quest210.name=
+gtnh.quest210.desc=
+
+#Quest_211.Tier 4 fence and walls
+gtnh.quest211.name=
+gtnh.quest211.desc=
+
+#Quest_212.Pulverize the Moon
+gtnh.quest212.name=
+gtnh.quest212.desc=
+
+#Quest_213.Tier 6
+gtnh.quest213.name=
+gtnh.quest213.desc=
+
+#Quest_214.This is the end.... ?
+gtnh.quest214.name=
+gtnh.quest214.desc=
+
+#Quest_215.On your way to tier 7
+gtnh.quest215.name=
+gtnh.quest215.desc=
+
+#Quest_216."Clean" energy..?
+gtnh.quest216.name=
+gtnh.quest216.desc=
+
+#Quest_217.Final choice: Void
+gtnh.quest217.name=
+gtnh.quest217.desc=
+
+#Quest_218.Final choice: Loot
+gtnh.quest218.name=
+gtnh.quest218.desc=
+
+#Quest_219.Almost unbreakable
+gtnh.quest219.name=
+gtnh.quest219.desc=
+
+#Quest_220.Protect your base: Tier 5
+gtnh.quest220.name=
+gtnh.quest220.desc=
+
+#Quest_221.Turret base Tier 5
+gtnh.quest221.name=
+gtnh.quest221.desc=
+
+#Quest_222.PewPew!
+gtnh.quest222.name=
+gtnh.quest222.desc=
+
+#Quest_223.Railguns, what else
+gtnh.quest223.name=
+gtnh.quest223.desc=
+
+#Quest_224.Strange things
+gtnh.quest224.name=
+gtnh.quest224.desc=
+
+#Quest_225.Searching for answers
+gtnh.quest225.name=
+gtnh.quest225.desc=
+
+#Quest_226.See the unseen
+gtnh.quest226.name=
+gtnh.quest226.desc=
+
+#Quest_227.Tables to work on
+gtnh.quest227.name=
+gtnh.quest227.desc=
+
+#Quest_228.Bloody water
+gtnh.quest228.name=
+gtnh.quest228.desc=
+
+#Quest_229.Infused stones
+gtnh.quest229.name=
+gtnh.quest229.desc=
+
+#Quest_230.Your first wand
+gtnh.quest230.name=
+gtnh.quest230.desc=
+
+#Quest_231.Tome of knowledge
+gtnh.quest231.name=
+gtnh.quest231.desc=
+
+#Quest_232.Improving your wand
+gtnh.quest232.name=
+gtnh.quest232.desc=
+
+#Quest_233.Getting shards
+gtnh.quest233.name=
+gtnh.quest233.desc=
+
+#Quest_234.A "greater" wand
+gtnh.quest234.name=
+gtnh.quest234.desc=
+
+#Quest_235.Better screws
+gtnh.quest235.name=
+gtnh.quest235.desc=
+
+#Quest_236.A more powerful "scale"
+gtnh.quest236.name=
+gtnh.quest236.desc=
+
+#Quest_237."Stores 50 vis" wand
+gtnh.quest237.name=
+gtnh.quest237.desc=
+
+#Quest_238.Fuuuuuu...(sion)!
+gtnh.quest238.name=
+gtnh.quest238.desc=
+
+#Quest_239.Yet another brick in the wall...
+gtnh.quest239.name=
+gtnh.quest239.desc=
+
+#Quest_240.Essentia cooking
+gtnh.quest240.name=
+gtnh.quest240.desc=
+
+#Quest_241.Not for soup
+gtnh.quest241.name=
+gtnh.quest241.desc=
+
+#Quest_242.Balanced shards sdrahs decnalaB
+gtnh.quest242.name=
+gtnh.quest242.desc=
+
+#Quest_243.Crystal clusters
+gtnh.quest243.name=
+gtnh.quest243.desc=
+
+#Quest_244.The choice: Ignis
+gtnh.quest244.name=
+gtnh.quest244.desc=
+
+#Quest_245.The choice...
+gtnh.quest245.name=
+gtnh.quest245.desc=
+
+#Quest_246.The choice: Terra
+gtnh.quest246.name=
+gtnh.quest246.desc=
+
+#Quest_247.The choice: Perditio
+gtnh.quest247.name=
+gtnh.quest247.desc=
+
+#Quest_248.The choice: Ordo
+gtnh.quest248.name=
+gtnh.quest248.desc=
+
+#Quest_249.The choice: Aqua
+gtnh.quest249.name=
+gtnh.quest249.desc=
+
+#Quest_250.The choice: Aer
+gtnh.quest250.name=
+gtnh.quest250.desc=
+
+#Quest_251.Not just for decoration
+gtnh.quest251.name=
+gtnh.quest251.desc=
+
+#Quest_252.This is the end...
+gtnh.quest252.name=
+gtnh.quest252.desc=
+
+#Quest_253.Turning liquids into essentia
+gtnh.quest253.name=
+gtnh.quest253.desc=
+
+#Quest_254.Essentia filtering
+gtnh.quest254.name=
+gtnh.quest254.desc=
+
+#Quest_255.An alternative to torches
+gtnh.quest255.name=
+gtnh.quest255.desc=
+
+#Quest_256.Not coal
+gtnh.quest256.name=
+gtnh.quest256.desc=
+
+#Quest_257.Save the squids, we must
+gtnh.quest257.name=
+gtnh.quest257.desc=
+
+#Quest_258.Infinite... lava?
+gtnh.quest258.name=
+gtnh.quest258.desc=
+
+#Quest_259.Infinite water!
+gtnh.quest259.name=
+gtnh.quest259.desc=
+
+#Quest_260.Adept thaumaturgy
+gtnh.quest260.name=
+gtnh.quest260.desc=
+
+#Quest_261.An awesome magic conductor
+gtnh.quest261.name=
+gtnh.quest261.desc=
+
+#Quest_262.An even better conductor?
+gtnh.quest262.name=
+gtnh.quest262.desc=
+
+#Quest_263.It doesn't work
+gtnh.quest263.name=
+gtnh.quest263.desc=
+
+#Quest_264.Obsidian rod
+gtnh.quest264.name=
+gtnh.quest264.desc=
+
+#Quest_265.Creating a better wand
+gtnh.quest265.name=
+gtnh.quest265.desc=
+
+#Quest_266.More durable screws
+gtnh.quest266.name=
+gtnh.quest266.desc=
+
+#Quest_267.Quartz rod
+gtnh.quest267.name=
+gtnh.quest267.desc=
+
+#Quest_268.Reed rod
+gtnh.quest268.name=
+gtnh.quest268.desc=
+
+#Quest_269.Blazing rod
+gtnh.quest269.name=
+gtnh.quest269.desc=
+
+#Quest_270.Icy rod
+gtnh.quest270.name=
+gtnh.quest270.desc=
+
+#Quest_271.Bone rod
+gtnh.quest271.name=
+gtnh.quest271.desc=
+
+#Quest_272.Best wand caps ever
+gtnh.quest272.name=
+gtnh.quest272.desc=
+
+#Quest_273.She let go
+gtnh.quest273.name=
+gtnh.quest273.desc=
+
+#Quest_274.Reactor material
+gtnh.quest274.name=
+gtnh.quest274.desc=
+
+#Quest_275.Centi-vis
+gtnh.quest275.name=
+gtnh.quest275.desc=
+
+#Quest_276.Bring it home
+gtnh.quest276.name=
+gtnh.quest276.desc=
+
+#Quest_277.Automated wand-recharge
+gtnh.quest277.name=
+gtnh.quest277.desc=
+
+#Quest_278.Centi-vis stuff
+gtnh.quest278.name=
+gtnh.quest278.desc=
+
+#Quest_279.The dark realm
+gtnh.quest279.name=
+gtnh.quest279.desc=
+
+#Quest_280.They see me, they watch me
+gtnh.quest280.name=
+gtnh.quest280.desc=
+
+#Quest_281.Really (Really!) dark magic
+gtnh.quest281.name=
+gtnh.quest281.desc=
+
+#Quest_282.Secrets
+gtnh.quest282.name=
+gtnh.quest282.desc=
+
+#Quest_283.Find the key
+gtnh.quest283.name=
+gtnh.quest283.desc=
+
+#Quest_284.The power of creation
+gtnh.quest284.name=
+gtnh.quest284.desc=
+
+#Quest_285.Concentrated darkness
+gtnh.quest285.name=
+gtnh.quest285.desc=
+
+#Quest_286."Armor"
+gtnh.quest286.name=
+gtnh.quest286.desc=
+
+#Quest_287.What could possibly go wrong?
+gtnh.quest287.name=
+gtnh.quest287.desc=
+
+#Quest_288.Let's try this
+gtnh.quest288.name=
+gtnh.quest288.desc=
+
+#Quest_289.An appropriate weapon
+gtnh.quest289.name=
+gtnh.quest289.desc=
+
+#Quest_290.Improved armor: Ninja style
+gtnh.quest290.name=
+gtnh.quest290.desc=
+
+#Quest_291.Little helpers
+gtnh.quest291.name=
+gtnh.quest291.desc=
+
+#Quest_292.Slightly better
+gtnh.quest292.name=
+gtnh.quest292.desc=
+
+#Quest_293.Sticks and stones...
+gtnh.quest293.name=
+gtnh.quest293.desc=
+
+#Quest_294.The best of all
+gtnh.quest294.name=
+gtnh.quest294.desc=
+
+#Quest_295.Essentia storage
+gtnh.quest295.name=
+gtnh.quest295.desc=
+
+#Quest_296.The basic elements
+gtnh.quest296.name=
+gtnh.quest296.desc=
+
+#Quest_297.Essentia transmission
+gtnh.quest297.name=
+gtnh.quest297.desc=
+
+#Quest_298.(Almost) automated essentia
+gtnh.quest298.name=
+gtnh.quest298.desc=
+
+#Quest_299.Essentia monitoring
+gtnh.quest299.name=
+gtnh.quest299.desc=
+
+#Quest_300.Cleaning the goo
+gtnh.quest300.name=
+gtnh.quest300.desc=
+
+#Quest_301.One does not simply...
+gtnh.quest301.name=
+gtnh.quest301.desc=
+
+#Quest_302.Useful plant life
+gtnh.quest302.name=
+gtnh.quest302.desc=
+
+#Quest_303.Pushing the limits
+gtnh.quest303.name=
+gtnh.quest303.desc=
+
+#Quest_304.Enchanting like a pro
+gtnh.quest304.name=
+gtnh.quest304.desc=
+
+#Quest_305.Crying obsidian...
+gtnh.quest305.name=
+gtnh.quest305.desc=
+
+#Quest_306.Useful trees
+gtnh.quest306.name=
+gtnh.quest306.desc=
+
+#Quest_307.The power of gods
+gtnh.quest307.name=
+gtnh.quest307.desc=
+
+#Quest_308.The final goal
+gtnh.quest308.name=
+gtnh.quest308.desc=
+
+#Quest_309.Shards of opposite worlds
+gtnh.quest309.name=
+gtnh.quest309.desc=
+
+#Quest_310.Unleashed the power
+gtnh.quest310.name=
+gtnh.quest310.desc=
+
+#Quest_311.Unbreakable cowl
+gtnh.quest311.name=
+gtnh.quest311.desc=
+
+#Quest_312.Unleashed the power
+gtnh.quest312.name=
+gtnh.quest312.desc=
+
+#Quest_313.Unbreakable leggings
+gtnh.quest313.name=
+gtnh.quest313.desc=
+
+#Quest_314.Unleashed the power
+gtnh.quest314.name=
+gtnh.quest314.desc=
+
+#Quest_315.Unbreakable robe
+gtnh.quest315.name=
+gtnh.quest315.desc=
+
+#Quest_316.Infused cloth
+gtnh.quest316.name=
+gtnh.quest316.desc=
+
+#Quest_317.Unleashed the power
+gtnh.quest317.name=
+gtnh.quest317.desc=
+
+#Quest_318.Unbreakable boots
+gtnh.quest318.name=
+gtnh.quest318.desc=
+
+#Quest_319.Unbreakable axe
+gtnh.quest319.name=
+gtnh.quest319.desc=
+
+#Quest_320.Infused Thaumium
+gtnh.quest320.name=
+gtnh.quest320.desc=
+
+#Quest_321.Unbreakable Sword
+gtnh.quest321.name=
+gtnh.quest321.desc=
+
+#Quest_322.Unbreakable
+gtnh.quest322.name=
+gtnh.quest322.desc=
+
+#Quest_323.Unbreakable shovel
+gtnh.quest323.name=
+gtnh.quest323.desc=
+
+#Quest_324.Unleashed the power
+gtnh.quest324.name=
+gtnh.quest324.desc=
+
+#Quest_325.Unleashed the power
+gtnh.quest325.name=
+gtnh.quest325.desc=
+
+#Quest_326.Unleashed the power
+gtnh.quest326.name=
+gtnh.quest326.desc=
+
+#Quest_327.Unleashed the power
+gtnh.quest327.name=
+gtnh.quest327.desc=
+
+#Quest_328.Hold all the foci
+gtnh.quest328.name=
+gtnh.quest328.desc=
+
+#Quest_329.Where do the items go?
+gtnh.quest329.name=
+gtnh.quest329.desc=
+
+#Quest_330.Magical waystones
+gtnh.quest330.name=
+gtnh.quest330.desc=
+
+#Quest_331.Why walk...
+gtnh.quest331.name=
+gtnh.quest331.desc=
+
+#Quest_332.Brewers start
+gtnh.quest332.name=
+gtnh.quest332.desc=
+
+#Quest_333.Offerings
+gtnh.quest333.name=
+gtnh.quest333.desc=
+
+#Quest_334.A cauldron?
+gtnh.quest334.name=
+gtnh.quest334.desc=
+
+#Quest_335.Don't touch the needle!
+gtnh.quest335.name=
+gtnh.quest335.desc=
+
+#Quest_336.Probably usable for soup
+gtnh.quest336.name=
+gtnh.quest336.desc=
+
+#Quest_337.Don't shake it too much
+gtnh.quest337.name=
+gtnh.quest337.desc=
+
+#Quest_338.Getting basic fumes
+gtnh.quest338.name=
+gtnh.quest338.desc=
+
+#Quest_339.Circle magic
+gtnh.quest339.name=
+gtnh.quest339.desc=
+
+#Quest_340.Portable power source
+gtnh.quest340.name=
+gtnh.quest340.desc=
+
+#Quest_341.Flying OINKment
+gtnh.quest341.name=
+gtnh.quest341.desc=
+
+#Quest_342.Nimbus 1999
+gtnh.quest342.name=
+gtnh.quest342.desc=
+
+#Quest_343.Bloodlust: Refined evil
+gtnh.quest343.name=
+gtnh.quest343.desc=
+
+#Quest_344.Bloodlust: Witches hand
+gtnh.quest344.name=
+gtnh.quest344.desc=
+
+#Quest_345.Bloodlust: Seeping shoes
+gtnh.quest345.name=
+gtnh.quest345.desc=
+
+#Quest_346.Bloodlust: Taglock kits
+gtnh.quest346.name=
+gtnh.quest346.desc=
+
+#Quest_347.Bloodlust: Drop of luck
+gtnh.quest347.name=
+gtnh.quest347.desc=
+
+#Quest_348.Bloodlust: "Cain" sword
+gtnh.quest348.name=
+gtnh.quest348.desc=
+
+#Quest_349.Be a vampire; Like a sir
+gtnh.quest349.name=
+gtnh.quest349.desc=
+
+#Quest_350.A few more things...
+gtnh.quest350.name=
+gtnh.quest350.desc=
+
+#Quest_351.Hello there
+gtnh.quest351.name=
+gtnh.quest351.desc=
+
+#Quest_352.Power. So much power!
+gtnh.quest352.name=
+gtnh.quest352.desc=
+
+#Quest_353.A problem that matters
+gtnh.quest353.name=
+gtnh.quest353.desc=
+
+#Quest_354.Now that matters!
+gtnh.quest354.name=
+gtnh.quest354.desc=
+
+#Quest_355.I need a stabilizer
+gtnh.quest355.name=
+gtnh.quest355.desc=
+
+#Quest_356.Shiny!
+gtnh.quest356.name=
+gtnh.quest356.desc=
+
+#Quest_357.I'm hungry
+gtnh.quest357.name=
+gtnh.quest357.desc=
+
+#Quest_358.It needs a power plug...
+gtnh.quest358.name=
+gtnh.quest358.desc=
+
+#Quest_359.Red and blue
+gtnh.quest359.name=
+gtnh.quest359.desc=
+
+#Quest_360.A casing
+gtnh.quest360.name=
+gtnh.quest360.desc=
+
+#Quest_361.Fancy!
+gtnh.quest361.name=
+gtnh.quest361.desc=
+
+#Quest_362.Beyond imagination
+gtnh.quest362.name=
+gtnh.quest362.desc=
+
+#Quest_363.The power of dragons
+gtnh.quest363.name=
+gtnh.quest363.desc=
+
+#Quest_364.A hull
+gtnh.quest364.name=
+gtnh.quest364.desc=
+
+#Quest_365.Dense, denser, Neutronium
+gtnh.quest365.name=
+gtnh.quest365.desc=
+
+#Quest_366.Not a planet
+gtnh.quest366.name=
+gtnh.quest366.desc=
+
+#Quest_367.Successful.. Or not?
+gtnh.quest367.name=
+gtnh.quest367.desc=
+
+#Quest_368.Black Plutonium
+gtnh.quest368.name=
+gtnh.quest368.desc=
+
+#Quest_369.We have a hull
+gtnh.quest369.name=
+gtnh.quest369.desc=
+
+#Quest_370.Draconium Dust core
+gtnh.quest370.name=
+gtnh.quest370.desc=
+
+#Quest_371.We need to control it
+gtnh.quest371.name=
+gtnh.quest371.desc=
+
+#Quest_372.The power of primals
+gtnh.quest372.name=
+gtnh.quest372.desc=
+
+#Quest_373.Unforeseen consequences
+gtnh.quest373.name=
+gtnh.quest373.desc=
+
+#Quest_374.I'm on my own now
+gtnh.quest374.name=
+gtnh.quest374.desc=
+
+#Quest_375.An interesting material
+gtnh.quest375.name=
+gtnh.quest375.desc=
+
+#Quest_376.Gross, what is that...
+gtnh.quest376.name=
+gtnh.quest376.desc=
+
+#Quest_377.An appropriate focus
+gtnh.quest377.name=
+gtnh.quest377.desc=
+
+#Quest_378.Activated draconium dust
+gtnh.quest378.name=
+gtnh.quest378.desc=
+
+#Quest_379.The strongest forcefield
+gtnh.quest379.name=
+gtnh.quest379.desc=
+
+#Quest_380.Not what I expected...
+gtnh.quest380.name=
+gtnh.quest380.desc=
+
+#Quest_381.Forcefield, second try
+gtnh.quest381.name=
+gtnh.quest381.desc=
+
+#Quest_382.A magic force field
+gtnh.quest382.name=
+gtnh.quest382.desc=
+
+#Quest_383.What the...?
+gtnh.quest383.name=
+gtnh.quest383.desc=
+
+#Quest_384.Looking for alternatives
+gtnh.quest384.name=
+gtnh.quest384.desc=
+
+#Quest_385.Draconic... Like... Dragon?
+gtnh.quest385.name=
+gtnh.quest385.desc=
+
+#Quest_386.Weird creatures
+gtnh.quest386.name=
+gtnh.quest386.desc=
+
+#Quest_387.Activated teleport power
+gtnh.quest387.name=
+gtnh.quest387.desc=
+
+#Quest_388.Arcane shards
+gtnh.quest388.name=
+gtnh.quest388.desc=
+
+#Quest_389.Draconic evolution
+gtnh.quest389.name=
+gtnh.quest389.desc=
+
+#Quest_390.Balanced thaumium
+gtnh.quest390.name=
+gtnh.quest390.desc=
+
+#Quest_391.Automated evolution
+gtnh.quest391.name=
+gtnh.quest391.desc=
+
+#Quest_392.Activated teleport gem
+gtnh.quest392.name=
+gtnh.quest392.desc=
+
+#Quest_393.You did it! But...
+gtnh.quest393.name=
+gtnh.quest393.desc=
+
+#Quest_394.A catalyst
+gtnh.quest394.name=
+gtnh.quest394.desc=
+
+#Quest_395.Bulma would be proud
+gtnh.quest395.name=
+gtnh.quest395.desc=
+
+#Quest_396.The final steps
+gtnh.quest396.name=
+gtnh.quest396.desc=
+
+#Quest_397.Endless evolution
+gtnh.quest397.name=
+gtnh.quest397.desc=
+
+#Quest_398.Kill Baba Yaga
+gtnh.quest398.name=
+gtnh.quest398.desc=
+
+#Quest_399.Kill Horned Huntsman
+gtnh.quest399.name=
+gtnh.quest399.desc=
+
+#Quest_400.Kill Ender Dragon
+gtnh.quest400.name=
+gtnh.quest400.desc=
+
+#Quest_401.Kill Shade of Leonard
+gtnh.quest401.name=
+gtnh.quest401.desc=
+
+#Quest_402.Kill Lord of Tormentum
+gtnh.quest402.name=
+gtnh.quest402.desc=
+
+#Quest_403.Kill Mog and Gulg
+gtnh.quest403.name=
+gtnh.quest403.desc=
+
+#Quest_404.Kill Demon
+gtnh.quest404.name=
+gtnh.quest404.desc=
+
+#Quest_405.The power of infinity
+gtnh.quest405.name=
+gtnh.quest405.desc=
+
+#Quest_406.Lava for blood
+gtnh.quest406.name=
+gtnh.quest406.desc=
+
+#Quest_407.Tier 1 slates
+gtnh.quest407.name=
+gtnh.quest407.desc=
+
+#Quest_408.See all the things
+gtnh.quest408.name=
+gtnh.quest408.desc=
+
+#Quest_409.Basic rune
+gtnh.quest409.name=
+gtnh.quest409.desc=
+
+#Quest_410.Alchemy with blood
+gtnh.quest410.name=
+gtnh.quest410.desc=
+
+#Quest_411.Potion catalysts
+gtnh.quest411.name=
+gtnh.quest411.desc=
+
+#Quest_412.Simple alchemical things
+gtnh.quest412.name=
+gtnh.quest412.desc=
+
+#Quest_413.Refilling your potions
+gtnh.quest413.name=
+gtnh.quest413.desc=
+
+#Quest_414.Special potion flasks
+gtnh.quest414.name=
+gtnh.quest414.desc=
+
+#Quest_415.Potion: Flight mode
+gtnh.quest415.name=
+gtnh.quest415.desc=
+
+#Quest_416.Simple, but powerful spells
+gtnh.quest416.name=
+gtnh.quest416.desc=
+
+#Quest_417.Paradigm
+gtnh.quest417.name=
+gtnh.quest417.desc=
+
+#Quest_418.Spell foci
+gtnh.quest418.name=
+gtnh.quest418.desc=
+
+#Quest_419.Some examples
+gtnh.quest419.name=
+gtnh.quest419.desc=
+
+#Quest_420.Convenient slate
+gtnh.quest420.name=
+gtnh.quest420.desc=
+
+#Quest_421.Tier 3 slates
+gtnh.quest421.name=
+gtnh.quest421.desc=
+
+#Quest_422.Tier 2 slates
+gtnh.quest422.name=
+gtnh.quest422.desc=
+
+#Quest_423.Apprentice orb
+gtnh.quest423.name=
+gtnh.quest423.desc=
+
+#Quest_424.Magican's orb
+gtnh.quest424.name=
+gtnh.quest424.desc=
+
+#Quest_425.Elemental chalk
+gtnh.quest425.name=
+gtnh.quest425.desc=
+
+#Quest_426.Sacrificial runes
+gtnh.quest426.name=
+gtnh.quest426.desc=
+
+#Quest_427.Tier 3 runes
+gtnh.quest427.name=
+gtnh.quest427.desc=
+
+#Quest_428.Basic rituals
+gtnh.quest428.name=
+gtnh.quest428.desc=
+
+#Quest_429.Powerful armor
+gtnh.quest429.name=
+gtnh.quest429.desc=
+
+#Quest_430.Getting soul shards
+gtnh.quest430.name=
+gtnh.quest430.desc=
+
+#Quest_431.Bound armor
+gtnh.quest431.name=
+gtnh.quest431.desc=
+
+#Quest_432.A bloodmage's sword
+gtnh.quest432.name=
+gtnh.quest432.desc=
+
+#Quest_433.Rituals
+gtnh.quest433.name=
+gtnh.quest433.desc=
+
+#Quest_434.Bound tools: Pickaxe
+gtnh.quest434.name=
+gtnh.quest434.desc=
+
+#Quest_435.Bound tools: Shovel
+gtnh.quest435.name=
+gtnh.quest435.desc=
+
+#Quest_436.Bound tools: Axe
+gtnh.quest436.name=
+gtnh.quest436.desc=
+
+#Quest_437.A true blood-mage
+gtnh.quest437.name=
+gtnh.quest437.desc=
+
+#Quest_438.Complex spell system
+gtnh.quest438.name=
+gtnh.quest438.desc=
+
+#Quest_439.Steam > Tier 2
+gtnh.quest439.name=
+gtnh.quest439.desc=
+
+#Quest_440.Oak trees are not apple trees
+gtnh.quest440.name=
+gtnh.quest440.desc=
+
+#Quest_441.Basic > Steam
+gtnh.quest441.name=
+gtnh.quest441.desc=
+
+#Quest_442."Backed" potatoes
+gtnh.quest442.name=
+gtnh.quest442.desc=
+
+#Quest_443.Tier 2 > Tier 3
+gtnh.quest443.name=
+gtnh.quest443.desc=
+
+#Quest_444.Soft mallet adventure
+gtnh.quest444.name=
+gtnh.quest444.desc=
+
+#Quest_445.Tier 3 > Tier 4
+gtnh.quest445.name=
+gtnh.quest445.desc=
+
+#Quest_446.Shields UP
+gtnh.quest446.name=
+gtnh.quest446.desc=
+
+#Quest_447.Tier 4 > Tier 5
+gtnh.quest447.name=
+gtnh.quest447.desc=
+
+#Quest_448.Shield ppdate
+gtnh.quest448.name=
+gtnh.quest448.desc=
+
+#Quest_449.Tier 5 > Tier 6
+gtnh.quest449.name=
+gtnh.quest449.desc=
+
+#Quest_450.Your first long range weapon
+gtnh.quest450.name=
+gtnh.quest450.desc=
+
+#Quest_451.Trigger LoC
+gtnh.quest451.name=
+gtnh.quest451.desc=
+
+#Quest_452.Trigger S
+gtnh.quest452.name=
+gtnh.quest452.desc=
+
+#Quest_453.Trigger Sh
+gtnh.quest453.name=
+gtnh.quest453.desc=
+
+#Quest_454.Trigger LSS
+gtnh.quest454.name=
+gtnh.quest454.desc=
+
+#Quest_455.Trigger MC
+gtnh.quest455.name=
+gtnh.quest455.desc=
+
+#Quest_456.Trigger Life
+gtnh.quest456.name=
+gtnh.quest456.desc=
+
+#Quest_457.Trigger P
+gtnh.quest457.name=
+gtnh.quest457.desc=
+
+#Quest_458.Trigger Pr
+gtnh.quest458.name=
+gtnh.quest458.desc=
+
+#Quest_459.Trigger Fo
+gtnh.quest459.name=
+gtnh.quest459.desc=
+
+#Quest_460.Trigger V
+gtnh.quest460.name=
+gtnh.quest460.desc=
+
+#Quest_461.Trigger TE
+gtnh.quest461.name=
+gtnh.quest461.desc=
+
+#Quest_462.Trigger Ca
+gtnh.quest462.name=
+gtnh.quest462.desc=
+
+#Quest_463.Runes tier 2
+gtnh.quest463.name=
+gtnh.quest463.desc=
+
+#Quest_464.The technician part 2
+gtnh.quest464.name=
+gtnh.quest464.desc=
+
+#Quest_465.Trigger Nt
+gtnh.quest465.name=
+gtnh.quest465.desc=
+
+#Quest_466.Trigger BP
+gtnh.quest466.name=
+gtnh.quest466.desc=
+
+#Quest_467.Trigger VC
+gtnh.quest467.name=
+gtnh.quest467.desc=
+
+#Quest_468.Trigger Tt
+gtnh.quest468.name=
+gtnh.quest468.desc=
+
+#Quest_469.Collecting some berries
+gtnh.quest469.name=
+gtnh.quest469.desc=
+
+#Quest_470.Berry medley
+gtnh.quest470.name=
+gtnh.quest470.desc=
+
+#Quest_471.Food variants
+gtnh.quest471.name=
+gtnh.quest471.desc=
+
+#Quest_472.Your first tool
+gtnh.quest472.name=
+gtnh.quest472.desc=
+
+#Quest_473.Making a better sword
+gtnh.quest473.name=
+gtnh.quest473.desc=
+
+#Quest_474.Upgrade 2.0
+gtnh.quest474.name=
+gtnh.quest474.desc=
+
+#Quest_475.Upgrade #4: Upgrade tier 5
+gtnh.quest475.name=
+gtnh.quest475.desc=
+
+#Quest_476.Upgrade #3: Upgrade tier 6
+gtnh.quest476.name=
+gtnh.quest476.desc=
+
+#Quest_477.Upgrade #6: Upgrade tier 7
+gtnh.quest477.name=
+gtnh.quest477.desc=
+
+#Quest_478.Flint and steel
+gtnh.quest478.name=
+gtnh.quest478.desc=
+
+#Quest_479.THE NETHER
+gtnh.quest479.name=
+gtnh.quest479.desc=
+
+#Quest_480.Malachite
+gtnh.quest480.name=
+gtnh.quest480.desc=
+
+#Quest_481.Creosote oil
+gtnh.quest481.name=
+gtnh.quest481.desc=
+
+#Quest_482.Animal farms
+gtnh.quest482.name=
+gtnh.quest482.desc=
+
+#Quest_483.Gardener
+gtnh.quest483.name=
+gtnh.quest483.desc=
+
+#Quest_484.Can you hear the carrots grow?
+gtnh.quest484.name=
+gtnh.quest484.desc=
+
+#Quest_485.You need MOOOOOOORE wood
+gtnh.quest485.name=
+gtnh.quest485.desc=
+
+#Quest_486.Tanned leather
+gtnh.quest486.name=
+gtnh.quest486.desc=
+
+#Quest_487.Need more space?
+gtnh.quest487.name=
+gtnh.quest487.desc=
+
+#Quest_488.You need them all!
+gtnh.quest488.name=
+gtnh.quest488.desc=
+
+#Quest_489.Better lunch bag
+gtnh.quest489.name=
+gtnh.quest489.desc=
+
+#Quest_490.Horseback riding
+gtnh.quest490.name=
+gtnh.quest490.desc=
+
+#Quest_491.Sleeping outside
+gtnh.quest491.name=
+gtnh.quest491.desc=
+
+#Quest_492.Sheep hairdresser
+gtnh.quest492.name=
+gtnh.quest492.desc=
+
+#Quest_493.Wire Cutter v.0.2alpha
+gtnh.quest493.name=
+gtnh.quest493.desc=
+
+#Quest_494.Redstone
+gtnh.quest494.name=
+gtnh.quest494.desc=
+
+#Quest_495.Oh, shiny! (Not platinum!)
+gtnh.quest495.name=
+gtnh.quest495.desc=
+
+#Quest_496.How to make rubber
+gtnh.quest496.name=
+gtnh.quest496.desc=
+
+#Quest_497.More charcoal
+gtnh.quest497.name=
+gtnh.quest497.desc=
+
+#Quest_498.XP usage?!
+gtnh.quest498.name=
+gtnh.quest498.desc=
+
+#Quest_499.Diesel, creosote: Watch them BURN!
+gtnh.quest499.name=
+gtnh.quest499.desc=
+
+#Quest_500.First things first
+gtnh.quest500.name=
+gtnh.quest500.desc=
+
+#Quest_501.Go find some bees
+gtnh.quest501.name=
+gtnh.quest501.desc=
+
+#Quest_502.A new home
+gtnh.quest502.name=
+gtnh.quest502.desc=
+
+#Quest_503.Analyze them all
+gtnh.quest503.name=
+gtnh.quest503.desc=
+
+#Quest_504.Scan or not to scan
+gtnh.quest504.name=
+gtnh.quest504.desc=
+
+#Quest_505.Top-Tier analyser
+gtnh.quest505.name=
+gtnh.quest505.desc=
+
+#Quest_506.To play god
+gtnh.quest506.name=
+gtnh.quest506.desc=
+
+#Quest_507.Upgraded home
+gtnh.quest507.name=
+gtnh.quest507.desc=
+
+#Quest_508.Mutatron
+gtnh.quest508.name=
+gtnh.quest508.desc=
+
+#Quest_509.Genetic sampler
+gtnh.quest509.name=
+gtnh.quest509.desc=
+
+#Quest_510.Diamondware
+gtnh.quest510.name=
+gtnh.quest510.desc=
+
+#Quest_511.Genetic imprinter
+gtnh.quest511.name=
+gtnh.quest511.desc=
+
+#Quest_512.Genetic transposer
+gtnh.quest512.name=
+gtnh.quest512.desc=
+
+#Quest_513.Advanced mutatron
+gtnh.quest513.name=
+gtnh.quest513.desc=
+
+#Quest_514.Blank gene sample
+gtnh.quest514.name=
+gtnh.quest514.desc=
+
+#Quest_515.Genetic template
+gtnh.quest515.name=
+gtnh.quest515.desc=
+
+#Quest_516.A rather cruel disposal
+gtnh.quest516.name=
+gtnh.quest516.desc=
+
+#Quest_517.Arnie's blender
+gtnh.quest517.name=
+gtnh.quest517.desc=
+
+#Quest_518.And there shall be light
+gtnh.quest518.name=
+gtnh.quest518.desc=
+
+#Quest_519.Only the Best: Temperature 3
+gtnh.quest519.name=
+gtnh.quest519.desc=
+
+#Quest_520.Only the Best: Humidity 3
+gtnh.quest520.name=
+gtnh.quest520.desc=
+
+#Quest_521.Only the Best: Fertility 4
+gtnh.quest521.name=
+gtnh.quest521.desc=
+
+#Quest_522.Highend species: Draconic
+gtnh.quest522.name=
+gtnh.quest522.desc=
+
+#Quest_523.Highend species: Doctoral
+gtnh.quest523.name=
+gtnh.quest523.desc=
+
+#Quest_524.Only the Best: Speed Fastest
+gtnh.quest524.name=
+gtnh.quest524.desc=
+
+#Quest_525.Highend species: Silicon
+gtnh.quest525.name=
+gtnh.quest525.desc=
+
+#Quest_526.Only the Best: Rain
+gtnh.quest526.name=
+gtnh.quest526.desc=
+
+#Quest_527.Only the Best: Day and Night
+gtnh.quest527.name=
+gtnh.quest527.desc=
+
+#Quest_528.Only the Best: Cave
+gtnh.quest528.name=
+gtnh.quest528.desc=
+
+#Quest_529.You're gonna hate this #5
+gtnh.quest529.name=
+gtnh.quest529.desc=
+
+#Quest_530.You're gonna hate this #6
+gtnh.quest530.name=
+gtnh.quest530.desc=
+
+#Quest_531.Scanning bees, crops and moooooore!
+gtnh.quest531.name=
+gtnh.quest531.desc=
+
+#Quest_532.Diesel, oil or maybe creosote?
+gtnh.quest532.name=
+gtnh.quest532.desc=
+
+#Quest_533.Hydrogen, methane or some farts... (Natural gas) 
+gtnh.quest533.name=
+gtnh.quest533.desc=
+
+#Quest_534.Pollution what....?
+gtnh.quest534.name=
+gtnh.quest534.desc=
+
+#Quest_535.Redstone, early game processing
+gtnh.quest535.name=
+gtnh.quest535.desc=
+
+#Quest_536.Low tier wires
+gtnh.quest536.name=
+gtnh.quest536.desc=
+
+#Quest_537.Time to kill (Witch)
+gtnh.quest537.name=
+gtnh.quest537.desc=
+
+#Quest_538.Basic ore washer
+gtnh.quest538.name=
+gtnh.quest538.desc=
+
+#Quest_539.Round and round and round...
+gtnh.quest539.name=
+gtnh.quest539.desc=
+
+#Quest_540.A truly sharp saw blade
+gtnh.quest540.name=
+gtnh.quest540.desc=
+
+#Quest_541.A new alloy Cobalt Brass
+gtnh.quest541.name=
+gtnh.quest541.desc=
+
+#Quest_542.Water and electricity, sounds fun and safe right?
+gtnh.quest542.name=
+gtnh.quest542.desc=
+
+#Quest_543.C9H8O4...NaCl...H2O...
+gtnh.quest543.name=
+gtnh.quest543.desc=
+
+#Quest_544.Compact? Or is it?
+gtnh.quest544.name=
+gtnh.quest544.desc=
+
+#Quest_545.Suction device... nice
+gtnh.quest545.name=
+gtnh.quest545.desc=
+
+#Quest_546.Hello Baron, how is your black gold today?
+gtnh.quest546.name=
+gtnh.quest546.desc=
+
+#Quest_547.Your oil is too Crude? Refine it!
+gtnh.quest547.name=
+gtnh.quest547.desc=
+
+#Quest_548.Light Sulfuric Fuel
+gtnh.quest548.name=
+gtnh.quest548.desc=
+
+#Quest_549.Light fuel
+gtnh.quest549.name=
+gtnh.quest549.desc=
+
+#Quest_550.H like Hydrogen... rest of the alphabet is too complicated...
+gtnh.quest550.name=
+gtnh.quest550.desc=
+
+#Quest_551.Heavy Sulfuric fuel
+gtnh.quest551.name=
+gtnh.quest551.desc=
+
+#Quest_552.Heavy fuel
+gtnh.quest552.name=
+gtnh.quest552.desc=
+
+#Quest_553.Diesel fuel
+gtnh.quest553.name=
+gtnh.quest553.desc=
+
+#Quest_554.Hey DJ, Mix it!
+gtnh.quest554.name=
+gtnh.quest554.desc=
+
+#Quest_555.N like nitrogen... Hide, alphabet strikes again!
+gtnh.quest555.name=
+gtnh.quest555.desc=
+
+#Quest_556.Glyceryl trini...... what?
+gtnh.quest556.name=
+gtnh.quest556.desc=
+
+#Quest_557.NITRO! (Cetane-boosted diesel)
+gtnh.quest557.name=
+gtnh.quest557.desc=
+
+#Quest_558.Where can I put all the items in?
+gtnh.quest558.name=
+gtnh.quest558.desc=
+
+#Quest_559.Low pressure boiler tank
+gtnh.quest559.name=
+gtnh.quest559.desc=
+
+#Quest_560.Railcraft steam power
+gtnh.quest560.name=
+gtnh.quest560.desc=
+
+#Quest_561.Liquid fuelled firebox
+gtnh.quest561.name=
+gtnh.quest561.desc=
+
+#Quest_562.High pressure boiler tank
+gtnh.quest562.name=
+gtnh.quest562.desc=
+
+#Quest_563.Bookshelves...? Ah forestry... Multiblock farms!
+gtnh.quest563.name=
+gtnh.quest563.desc=
+
+#Quest_564.Forestry Basic > Advanced
+gtnh.quest564.name=
+gtnh.quest564.desc=
+
+#Quest_565.Forestry Advanced > Expert
+gtnh.quest565.name=
+gtnh.quest565.desc=
+
+#Quest_566.Space Invaders Moon > Space Invaders Mars
+gtnh.quest566.name=
+gtnh.quest566.desc=
+
+#Quest_567.Space Invaders Mars > Space Invaders Asteroids
+gtnh.quest567.name=
+gtnh.quest567.desc=
+
+#Quest_568.Novice > Adept
+gtnh.quest568.name=
+gtnh.quest568.desc=
+
+#Quest_569.Adept > Master
+gtnh.quest569.name=
+gtnh.quest569.desc=
+
+#Quest_570.Master > Grandmaster
+gtnh.quest570.name=
+gtnh.quest570.desc=
+
+#Quest_571.Grandmaster > Grandmaster Unique
+gtnh.quest571.name=
+gtnh.quest571.desc=
+
+#Quest_572.BM Novice > BM Adept
+gtnh.quest572.name=
+gtnh.quest572.desc=
+
+#Quest_573.BM Adept > BM Master
+gtnh.quest573.name=
+gtnh.quest573.desc=
+
+#Quest_574.Bee Basic > Advanced
+gtnh.quest574.name=
+gtnh.quest574.desc=
+
+#Quest_575.Bee Advanced > Expert
+gtnh.quest575.name=
+gtnh.quest575.desc=
+
+#Quest_576.Working table 2.0
+gtnh.quest576.name=
+gtnh.quest576.desc=
+
+#Quest_577.Forestry core block
+gtnh.quest577.name=
+gtnh.quest577.desc=
+
+#Quest_578.The carpenter
+gtnh.quest578.name=
+gtnh.quest578.desc=
+
+#Quest_579.Molten redstone?
+gtnh.quest579.name=
+gtnh.quest579.desc=
+
+#Quest_580.Thermionic fabricator
+gtnh.quest580.name=
+gtnh.quest580.desc=
+
+#Quest_581.Tubes
+gtnh.quest581.name=
+gtnh.quest581.desc=
+
+#Quest_582.Your first multiblock farm
+gtnh.quest582.name=
+gtnh.quest582.desc=
+
+#Quest_583.Farm logic
+gtnh.quest583.name=
+gtnh.quest583.desc=
+
+#Quest_584.Change your farm circuit configuration
+gtnh.quest584.name=
+gtnh.quest584.desc=
+
+#Quest_585.Heating coils
+gtnh.quest585.name=
+gtnh.quest585.desc=
+
+#Quest_586.Welcome to forestry
+gtnh.quest586.name=
+gtnh.quest586.desc=
+
+#Quest_587.Magnetize your rods
+gtnh.quest587.name=
+gtnh.quest587.desc=
+
+#Quest_588.Finding Apatite
+gtnh.quest588.name=
+gtnh.quest588.desc=
+
+#Quest_589.Multiblock farm: Hatch
+gtnh.quest589.name=
+gtnh.quest589.desc=
+
+#Quest_590.Multiblock farm: Valve
+gtnh.quest590.name=
+gtnh.quest590.desc=
+
+#Quest_591.Multiblock farm: Control block
+gtnh.quest591.name=
+gtnh.quest591.desc=
+
+#Quest_592.Multiblock farm: Gearbox
+gtnh.quest592.name=
+gtnh.quest592.desc=
+
+#Quest_593.Farm logic enhanced
+gtnh.quest593.name=
+gtnh.quest593.desc=
+
+#Quest_594.Farm logic refined
+gtnh.quest594.name=
+gtnh.quest594.desc=
+
+#Quest_595.Farm logic intricate
+gtnh.quest595.name=
+gtnh.quest595.desc=
+
+#Quest_596.Upgrade of the upgrade of the...
+gtnh.quest596.name=
+gtnh.quest596.desc=
+
+#Quest_597.Tetrahedrite, stibnite and copper
+gtnh.quest597.name=
+gtnh.quest597.desc=
+
+#Quest_598.Antimony
+gtnh.quest598.name=
+gtnh.quest598.desc=
+
+#Quest_599.Thermal centrifuge
+gtnh.quest599.name=
+gtnh.quest599.desc=
+
+#Quest_600.Hunger, no more
+gtnh.quest600.name=
+gtnh.quest600.desc=
+
+#Quest_601.Building made easy
+gtnh.quest601.name=
+gtnh.quest601.desc=
+
+#Quest_602.Spatial distortions
+gtnh.quest602.name=
+gtnh.quest602.desc=
+
+#Quest_603.Dimensional chest
+gtnh.quest603.name=
+gtnh.quest603.desc=
+
+#Quest_604.RF Batteries
+gtnh.quest604.name=
+gtnh.quest604.desc=
+
+#Quest_605.Slay the Eyes!
+gtnh.quest605.name=
+gtnh.quest605.desc=
+
+#Quest_606.Ender Guardians
+gtnh.quest606.name=
+gtnh.quest606.desc=
+
+#Quest_607.Slay the Dragon. (Again)
+gtnh.quest607.name=
+gtnh.quest607.desc=
+
+#Quest_608.A lead about lead that leads to lead dust
+gtnh.quest608.name=
+gtnh.quest608.desc=
+
+#Quest_609.Battery alloy
+gtnh.quest609.name=
+gtnh.quest609.desc=
+
+#Quest_610.Lead, galena and silver
+gtnh.quest610.name=
+gtnh.quest610.desc=
+
+#Quest_611.Single use battery: Mercury
+gtnh.quest611.name=
+gtnh.quest611.desc=
+
+#Quest_612.Single use battery: Acid
+gtnh.quest612.name=
+gtnh.quest612.desc=
+
+#Quest_613.Reusable battery: Sodium
+gtnh.quest613.name=
+gtnh.quest613.desc=
+
+#Quest_614.Reusable battery: Cadmium
+gtnh.quest614.name=
+gtnh.quest614.desc=
+
+#Quest_615.Reusable battery: Lithium
+gtnh.quest615.name=
+gtnh.quest615.desc=
+
+#Quest_616.Mercury
+gtnh.quest616.name=
+gtnh.quest616.desc=
+
+#Quest_617.Fluid canner
+gtnh.quest617.name=
+gtnh.quest617.desc=
+
+#Quest_618.Sulfuric acid
+gtnh.quest618.name=
+gtnh.quest618.desc=
+
+#Quest_619.Battery buffer
+gtnh.quest619.name=
+gtnh.quest619.desc=
+
+#Quest_620.IC2 Battery
+gtnh.quest620.name=
+gtnh.quest620.desc=
+
+#Quest_621.How to get sodium
+gtnh.quest621.name=
+gtnh.quest621.desc=
+
+#Quest_622.How to get sodium/lithium
+gtnh.quest622.name=
+gtnh.quest622.desc=
+
+#Quest_623.A big meteorite
+gtnh.quest623.name=
+gtnh.quest623.desc=
+
+#Quest_624.Basic canner
+gtnh.quest624.name=
+gtnh.quest624.desc=
+
+#Quest_625.Packing your tanks chests and barrels
+gtnh.quest625.name=
+gtnh.quest625.desc=
+
+#Quest_626.Portable mob spawners..? Cool!
+gtnh.quest626.name=
+gtnh.quest626.desc=
+
+#Quest_627.Grain bait
+gtnh.quest627.name=
+gtnh.quest627.desc=
+
+#Quest_628.Fruit bait
+gtnh.quest628.name=
+gtnh.quest628.desc=
+
+#Quest_629.Veggie bait
+gtnh.quest629.name=
+gtnh.quest629.desc=
+
+#Quest_630.Fish bait
+gtnh.quest630.name=
+gtnh.quest630.desc=
+
+#Quest_631.Animal trapping
+gtnh.quest631.name=
+gtnh.quest631.desc=
+
+#Quest_632.A fisherman's friend
+gtnh.quest632.name=
+gtnh.quest632.desc=
+
+#Quest_633.Fish trapping
+gtnh.quest633.name=
+gtnh.quest633.desc=
+
+#Quest_634.Wheat time
+gtnh.quest634.name=
+gtnh.quest634.desc=
+
+#Quest_635.Floury flurry
+gtnh.quest635.name=
+gtnh.quest635.desc=
+
+#Quest_636.First handmade bread
+gtnh.quest636.name=
+gtnh.quest636.desc=
+
+#Quest_637.Do'h!
+gtnh.quest637.name=
+gtnh.quest637.desc=
+
+#Quest_638.Tasty toast
+gtnh.quest638.name=
+gtnh.quest638.desc=
+
+#Quest_639.Sulfuric naphtha
+gtnh.quest639.name=
+gtnh.quest639.desc=
+
+#Quest_640.LPG
+gtnh.quest640.name=
+gtnh.quest640.desc=
+
+#Quest_641.Naphtha
+gtnh.quest641.name=
+gtnh.quest641.desc=
+
+#Quest_642.Sulfuric gas
+gtnh.quest642.name=
+gtnh.quest642.desc=
+
+#Quest_643.Refinery gas
+gtnh.quest643.name=
+gtnh.quest643.desc=
+
+#Quest_644.Methane
+gtnh.quest644.name=
+gtnh.quest644.desc=
+
+#Quest_645.Glider wings
+gtnh.quest645.name=
+gtnh.quest645.desc=
+
+#Quest_646.Electrotine battery
+gtnh.quest646.name=
+gtnh.quest646.desc=
+
+#Quest_647.Electrotine jetpack
+gtnh.quest647.name=
+gtnh.quest647.desc=
+
+#Quest_648.Refill your jetpack
+gtnh.quest648.name=
+gtnh.quest648.desc=
+
+#Quest_649.Coal steam jetpack
+gtnh.quest649.name=
+gtnh.quest649.desc=
+
+#Quest_650.Copter jetpack
+gtnh.quest650.name=
+gtnh.quest650.desc=
+
+#Quest_651.Electric jetpack
+gtnh.quest651.name=
+gtnh.quest651.desc=
+
+#Quest_652.Fueled jetpack
+gtnh.quest652.name=
+gtnh.quest652.desc=
+
+#Quest_653.Advanced electric jetpack
+gtnh.quest653.name=
+gtnh.quest653.desc=
+
+#Quest_654.Advanced nano chestplate
+gtnh.quest654.name=
+gtnh.quest654.desc=
+
+#Quest_655.Gravi suit
+gtnh.quest655.name=
+gtnh.quest655.desc=
+
+#Quest_656.Iron shields
+gtnh.quest656.name=
+gtnh.quest656.desc=
+
+#Quest_657.Stone spear
+gtnh.quest657.name=
+gtnh.quest657.desc=
+
+#Quest_658.Iron spear
+gtnh.quest658.name=
+gtnh.quest658.desc=
+
+#Quest_659.Diamond spear
+gtnh.quest659.name=
+gtnh.quest659.desc=
+
+#Quest_660.Diamond shield
+gtnh.quest660.name=
+gtnh.quest660.desc=
+
+#Quest_661.Bow, arrows and quiver
+gtnh.quest661.name=
+gtnh.quest661.desc=
+
+#Quest_662.Basic arc furnace
+gtnh.quest662.name=
+gtnh.quest662.desc=
+
+#Quest_663.Faster steel production
+gtnh.quest663.name=
+gtnh.quest663.desc=
+
+#Quest_664.LV battery buffer 4 slots
+gtnh.quest664.name=
+gtnh.quest664.desc=
+
+#Quest_665.Kitchenware
+gtnh.quest665.name=
+gtnh.quest665.desc=
+
+#Quest_666.Row, row, row your boat
+gtnh.quest666.name=
+gtnh.quest666.desc=
+
+#Quest_667.Trainspotting
+gtnh.quest667.name=
+gtnh.quest667.desc=
+
+#Quest_668.Rubber boat
+gtnh.quest668.name=
+gtnh.quest668.desc=
+
+#Quest_669.Inflatable boot
+gtnh.quest669.name=
+gtnh.quest669.desc=
+
+#Quest_670.Carbon fiber boat
+gtnh.quest670.name=
+gtnh.quest670.desc=
+
+#Quest_671.Electric boat
+gtnh.quest671.name=
+gtnh.quest671.desc=
+
+#Quest_672.Boat shape?
+gtnh.quest672.name=
+gtnh.quest672.desc=
+
+#Quest_673.LV extruder
+gtnh.quest673.name=
+gtnh.quest673.desc=
+
+#Quest_674.Wooden rail variants
+gtnh.quest674.name=
+gtnh.quest674.desc=
+
+#Quest_675.Switch lever
+gtnh.quest675.name=
+gtnh.quest675.desc=
+
+#Quest_676.Crowbar
+gtnh.quest676.name=
+gtnh.quest676.desc=
+
+#Quest_677.Minecart
+gtnh.quest677.name=
+gtnh.quest677.desc=
+
+#Quest_678.Fast Food > Slow Food
+gtnh.quest678.name=
+gtnh.quest678.desc=
+
+#Quest_679.Slow Food > Haute Cuisine
+gtnh.quest679.name=
+gtnh.quest679.desc=
+
+#Quest_680.Haute Cuisine > Dessert
+gtnh.quest680.name=
+gtnh.quest680.desc=
+
+#Quest_681.Transportation Class 3 > Transportation Class 2
+gtnh.quest681.name=
+gtnh.quest681.desc=
+
+#Quest_682.Transportation Class 2 > Transportation Class 1
+gtnh.quest682.name=
+gtnh.quest682.desc=
+
+#Quest_683.Wet dirt armor?
+gtnh.quest683.name=
+gtnh.quest683.desc=
+
+#Quest_684.Wooden armor
+gtnh.quest684.name=
+gtnh.quest684.desc=
+
+#Quest_685.Armor 2.0
+gtnh.quest685.name=
+gtnh.quest685.desc=
+
+#Quest_686.Leather armor
+gtnh.quest686.name=
+gtnh.quest686.desc=
+
+#Quest_687.Bronze armor
+gtnh.quest687.name=
+gtnh.quest687.desc=
+
+#Quest_688."Nice to have" armor
+gtnh.quest688.name=
+gtnh.quest688.desc=
+
+#Quest_689."Oh shiny" armor
+gtnh.quest689.name=
+gtnh.quest689.desc=
+
+#Quest_690.Fancy armor
+gtnh.quest690.name=
+gtnh.quest690.desc=
+
+#Quest_691.Armor 2.5
+gtnh.quest691.name=
+gtnh.quest691.desc=
+
+#Quest_692.Composite vest
+gtnh.quest692.name=
+gtnh.quest692.desc=
+
+#Quest_693.Fallen from the sky
+gtnh.quest693.name=
+gtnh.quest693.desc=
+
+#Quest_694.One Anvil... Better make that two!
+gtnh.quest694.name=
+gtnh.quest694.desc=
+
+#Quest_695.Automation tier 1
+gtnh.quest695.name=
+gtnh.quest695.desc=
+
+#Quest_696.Automation tier 2
+gtnh.quest696.name=
+gtnh.quest696.desc=
+
+#Quest_697.2x steel
+gtnh.quest697.name=
+gtnh.quest697.desc=
+
+#Quest_698.4x steel
+gtnh.quest698.name=
+gtnh.quest698.desc=
+
+#Quest_699.Why one coke oven when you can have ten
+gtnh.quest699.name=
+gtnh.quest699.desc=
+
+#Quest_700.How dark can you go?
+gtnh.quest700.name=
+gtnh.quest700.desc=
+
+#Quest_701.Ascended
+gtnh.quest701.name=
+gtnh.quest701.desc=
+
+#Quest_702.Tier 5 slates
+gtnh.quest702.name=
+gtnh.quest702.desc=
+
+#Quest_703.Powerful shards
+gtnh.quest703.name=
+gtnh.quest703.desc=
+
+#Quest_704.Tier 4 slates
+gtnh.quest704.name=
+gtnh.quest704.desc=
+
+#Quest_705.Accelerated plant growth
+gtnh.quest705.name=
+gtnh.quest705.desc=
+
+#Quest_706.Ethereal chalk
+gtnh.quest706.name=
+gtnh.quest706.desc=
+
+#Quest_707.Archmage orb. Let them come!
+gtnh.quest707.name=
+gtnh.quest707.desc=
+
+#Quest_708.Master orb: Getting close
+gtnh.quest708.name=
+gtnh.quest708.desc=
+
+#Quest_709.Elemental chalk II
+gtnh.quest709.name=
+gtnh.quest709.desc=
+
+#Quest_710.Tier 4 runes
+gtnh.quest710.name=
+gtnh.quest710.desc=
+
+#Quest_711.Tier 5 runes
+gtnh.quest711.name=
+gtnh.quest711.desc=
+
+#Quest_712.Advanced rituals
+gtnh.quest712.name=
+gtnh.quest712.desc=
+
+#Quest_713.Highend rituals
+gtnh.quest713.name=
+gtnh.quest713.desc=
+
+#Quest_714.Convocation of the damned
+gtnh.quest714.name=
+gtnh.quest714.desc=
+
+#Quest_715.Imbued spell upgrades
+gtnh.quest715.name=
+gtnh.quest715.desc=
+
+#Quest_716.Find some Certus Quartz
+gtnh.quest716.name=
+gtnh.quest716.desc=
+
+#Quest_717.Good Circuits.
+gtnh.quest717.name=
+gtnh.quest717.desc=
+
+#Quest_718.Crop Breeding
+gtnh.quest718.name=
+gtnh.quest718.desc=
+
+#Quest_719.First Breeding
+gtnh.quest719.name=
+gtnh.quest719.desc=
+
+#Quest_720.Weed II
+gtnh.quest720.name=
+gtnh.quest720.desc=
+
+#Quest_721.Unknown seeds no more
+gtnh.quest721.name=
+gtnh.quest721.desc=
+
+#Quest_722.Speed up your plant growth
+gtnh.quest722.name=
+gtnh.quest722.desc=
+
+#Quest_723.Potatos, Carrots, Pumkins and Melons
+gtnh.quest723.name=
+gtnh.quest723.desc=
+
+#Quest_724.Weed
+gtnh.quest724.name=
+gtnh.quest724.desc=
+
+#Quest_725.Flower Power
+gtnh.quest725.name=
+gtnh.quest725.desc=
+
+#Quest_726.Chemical rubber production
+gtnh.quest726.name=
+gtnh.quest726.desc=
+
+#Quest_727.Better than barrels
+gtnh.quest727.name=
+gtnh.quest727.desc=
+
+#Quest_728.Compact Drawers
+gtnh.quest728.name=
+gtnh.quest728.desc=
+
+#Quest_729.Framing Drawers
+gtnh.quest729.name=
+gtnh.quest729.desc=
+
+#Quest_730.Bio Fuels
+gtnh.quest730.name=
+gtnh.quest730.desc=
+
+#Quest_731.Plant balls
+gtnh.quest731.name=
+gtnh.quest731.desc=
+
+#Quest_732.Plant Mass
+gtnh.quest732.name=
+gtnh.quest732.desc=
+
+#Quest_733.Bio Chaff
+gtnh.quest733.name=
+gtnh.quest733.desc=
+
+#Quest_734.Way One: IC 2 Fluid Canner
+gtnh.quest734.name=
+gtnh.quest734.desc=
+
+#Quest_735.Way Two: Brewery
+gtnh.quest735.name=
+gtnh.quest735.desc=
+
+#Quest_736.Fermented Biomass
+gtnh.quest736.name=
+gtnh.quest736.desc=
+
+#Quest_737.Can u eat those? 
+gtnh.quest737.name=
+gtnh.quest737.desc=
+
+#Quest_738.Routed Pipes
+gtnh.quest738.name=
+gtnh.quest738.desc=
+
+#Quest_739.Ghetto Me System
+gtnh.quest739.name=
+gtnh.quest739.desc=
+
+#Quest_740.Extrude all the things
+gtnh.quest740.name=
+gtnh.quest740.desc=
+
+#Quest_741.Tool Forge
+gtnh.quest741.name=
+gtnh.quest741.desc=
+
+#Quest_742.One Block mining is so Old School
+gtnh.quest742.name=
+gtnh.quest742.desc=
+
+#Quest_743.Cutting a Tree log by log is so Old School
+gtnh.quest743.name=
+gtnh.quest743.desc=
+
+#Quest_744.Mining Dirt Block by Block is so Old School
+gtnh.quest744.name=
+gtnh.quest744.desc=
+
+#Quest_745.Glue
+gtnh.quest745.name=
+gtnh.quest745.desc=
+
+#Quest_746.Silicon
+gtnh.quest746.name=
+gtnh.quest746.desc=
+
+#Quest_747.Diode
+gtnh.quest747.name=
+gtnh.quest747.desc=
+
+#Quest_748.Empty Circuit Board
+gtnh.quest748.name=
+gtnh.quest748.desc=
+
+#Quest_749.Are you Prepared for HV?
+gtnh.quest749.name=
+gtnh.quest749.desc=
+
+#Quest_750.Molten Plastic
+gtnh.quest750.name=
+gtnh.quest750.desc=
+
+#Quest_751.Mixing Stainless Steel
+gtnh.quest751.name=
+gtnh.quest751.desc=
+
+#Quest_752.Silicon Plate
+gtnh.quest752.name=
+gtnh.quest752.desc=
+
+#Quest_753.Stainless Steel EBF processing
+gtnh.quest753.name=
+gtnh.quest753.desc=
+
+#Quest_754.MV Energy Hatch
+gtnh.quest754.name=
+gtnh.quest754.desc=
+
+#Quest_755.Better than Duct Tape
+gtnh.quest755.name=
+gtnh.quest755.desc=
+
+#Quest_756.Less Power loss
+gtnh.quest756.name=
+gtnh.quest756.desc=
+
+#Quest_757.Ruby Electrolyzing
+gtnh.quest757.name=
+gtnh.quest757.desc=
+
+#Quest_758.MV Batteries
+gtnh.quest758.name=
+gtnh.quest758.desc=
+
+#Quest_759.Molten Polyethylene
+gtnh.quest759.name=
+gtnh.quest759.desc=
+
+#Quest_760.Clay Electrolyzing
+gtnh.quest760.name=
+gtnh.quest760.desc=
+
+#Quest_761.Powderbarrels
+gtnh.quest761.name=
+gtnh.quest761.desc=
+
+#Quest_762.TNT
+gtnh.quest762.name=
+gtnh.quest762.desc=
+
+#Quest_763.iTNT
+gtnh.quest763.name=
+gtnh.quest763.desc=
+
+#Quest_764.Dynamite
+gtnh.quest764.name=
+gtnh.quest764.desc=
+
+#Quest_765.Time to drill! 
+gtnh.quest765.name=
+gtnh.quest765.desc=
+
+#Quest_766.Let's get it crackin!
+gtnh.quest766.name=
+gtnh.quest766.desc=
+
+#Quest_767.Analyzing the soil
+gtnh.quest767.name=
+gtnh.quest767.desc=
+
+#Quest_768.You smell like a distillery!
+gtnh.quest768.name=
+gtnh.quest768.desc=
+
+#Quest_769.Playing with dust
+gtnh.quest769.name=
+gtnh.quest769.desc=
+
+#Quest_770.Avengers, Assemble! 2
+gtnh.quest770.name=
+gtnh.quest770.desc=
+
+#Quest_771.Dust to crystals
+gtnh.quest771.name=
+gtnh.quest771.desc=
+
+#Quest_772.Precision is required
+gtnh.quest772.name=
+gtnh.quest772.desc=
+
+#Quest_773.Way one: Raw carbon mesh
+gtnh.quest773.name=
+gtnh.quest773.desc=
+
+#Quest_774.Way two: Bio Organic Mesh
+gtnh.quest774.name=
+gtnh.quest774.desc=
+
+#Quest_775.Carbon parts
+gtnh.quest775.name=
+gtnh.quest775.desc=
+
+#Quest_776.Seeing things brighter
+gtnh.quest776.name=
+gtnh.quest776.desc=
+
+#Quest_777.Are those green diamonds? 
+gtnh.quest777.name=
+gtnh.quest777.desc=
+
+#Quest_778.Carbon Plates
+gtnh.quest778.name=
+gtnh.quest778.desc=
+
+#Quest_779.Carbon skin
+gtnh.quest779.name=
+gtnh.quest779.desc=
+
+#Quest_780.Organic Way
+gtnh.quest780.name=
+gtnh.quest780.desc=
+
+#Quest_781.Still not enough charcoal?
+gtnh.quest781.name=
+gtnh.quest781.desc=
+
+#Quest_782.Monocrystalline Silicon
+gtnh.quest782.name=
+gtnh.quest782.desc=
+
+#Quest_783.We need big toys
+gtnh.quest783.name=
+gtnh.quest783.desc=
+
+#Quest_784.It's time to get more steam
+gtnh.quest784.name=
+gtnh.quest784.desc=
+
+#Quest_785.Transistor
+gtnh.quest785.name=
+gtnh.quest785.desc=
+
+#Quest_786.Steam is never enough
+gtnh.quest786.name=
+gtnh.quest786.desc=
+
+#Quest_787.Moooooore steam
+gtnh.quest787.name=
+gtnh.quest787.desc=
+
+#Quest_788.Even more steam? Are you sure?
+gtnh.quest788.name=
+gtnh.quest788.desc=
+
+#Quest_789.Energy Crystals
+gtnh.quest789.name=
+gtnh.quest789.desc=
+
+#Quest_790.Nano Crystal
+gtnh.quest790.name=
+gtnh.quest790.desc=
+
+#Quest_791.MV Precision Laser
+gtnh.quest791.name=
+gtnh.quest791.desc=
+
+#Quest_792.Silicon Wafer
+gtnh.quest792.name=
+gtnh.quest792.desc=
+
+#Quest_793.Good Integrated Circuits
+gtnh.quest793.name=
+gtnh.quest793.desc=
+
+#Quest_794.Integrated Circuit
+gtnh.quest794.name=
+gtnh.quest794.desc=
+
+#Quest_795.Basic Circuit Assembler
+gtnh.quest795.name=
+gtnh.quest795.desc=
+
+#Quest_796.Sensor lens
+gtnh.quest796.name=
+gtnh.quest796.desc=
+
+#Quest_797.Advanced Heat Exchanger
+gtnh.quest797.name=
+gtnh.quest797.desc=
+
+#Quest_798.Iron capped Greatwood Wand
+gtnh.quest798.name=
+gtnh.quest798.desc=
+
+#Quest_799.Don't try to dive with it
+gtnh.quest799.name=
+gtnh.quest799.desc=
+
+#Quest_800.Plated Leggings better not try to wear it
+gtnh.quest800.name=
+gtnh.quest800.desc=
+
+#Quest_801.Don't try to walk with it
+gtnh.quest801.name=
+gtnh.quest801.desc=
+
+#Quest_802.Iridium Plated
+gtnh.quest802.name=
+gtnh.quest802.desc=
+
+#Quest_803.Quantum Armor
+gtnh.quest803.name=
+gtnh.quest803.desc=
+
+#Quest_804.Quantum crystal 
+gtnh.quest804.name=
+gtnh.quest804.desc=
+
+#Quest_805.Lapotron Dust
+gtnh.quest805.name=
+gtnh.quest805.desc=
+
+#Quest_806.Lapotron Crystal
+gtnh.quest806.name=
+gtnh.quest806.desc=
+
+#Quest_807.Quantum Crystal
+gtnh.quest807.name=
+gtnh.quest807.desc=
+
+#Quest_808.Mixing at HV Level
+gtnh.quest808.name=
+gtnh.quest808.desc=
+
+#Quest_809.NASA Workbench aka Dire Crafting Table
+gtnh.quest809.name=
+gtnh.quest809.desc=
+
+#Quest_810.Rocket Tier 1
+gtnh.quest810.name=
+gtnh.quest810.desc=
+
+#Quest_811.Tier 1 Schematic
+gtnh.quest811.name=
+gtnh.quest811.desc=
+
+#Quest_812.Tier 1 Heavy Duty Plates
+gtnh.quest812.name=
+gtnh.quest812.desc=
+
+#Quest_813.Rocket Nose Cone
+gtnh.quest813.name=
+gtnh.quest813.desc=
+
+#Quest_814.Rocket Fines
+gtnh.quest814.name=
+gtnh.quest814.desc=
+
+#Quest_815.Rocket Engine
+gtnh.quest815.name=
+gtnh.quest815.desc=
+
+#Quest_816.Moon Lander
+gtnh.quest816.name=
+gtnh.quest816.desc=
+
+#Quest_817.Buggy Seat
+gtnh.quest817.name=
+gtnh.quest817.desc=
+
+#Quest_818.Frequency Module
+gtnh.quest818.name=
+gtnh.quest818.desc=
+
+#Quest_819.Small Fuel Cannister
+gtnh.quest819.name=
+gtnh.quest819.desc=
+
+#Quest_820.Rocket Launch Pad
+gtnh.quest820.name=
+gtnh.quest820.desc=
+
+#Quest_821.Rocket Fuel
+gtnh.quest821.name=
+gtnh.quest821.desc=
+
+#Quest_822.Oxygen Gear
+gtnh.quest822.name=
+gtnh.quest822.desc=
+
+#Quest_823.Oxygen Mask
+gtnh.quest823.name=
+gtnh.quest823.desc=
+
+#Quest_824.Oxygen Tanks
+gtnh.quest824.name=
+gtnh.quest824.desc=
+
+#Quest_825.Copper Ore
+gtnh.quest825.name=
+gtnh.quest825.desc=
+
+#Quest_826.Iron Ore
+gtnh.quest826.name=
+gtnh.quest826.desc=
+
+#Quest_827.Rocket Fuel
+gtnh.quest827.name=
+gtnh.quest827.desc=
+
+#Quest_828.Oxygen Collector
+gtnh.quest828.name=
+gtnh.quest828.desc=
+
+#Quest_829.Oxygen Compressor
+gtnh.quest829.name=
+gtnh.quest829.desc=
+
+#Quest_830.Parachute
+gtnh.quest830.name=
+gtnh.quest830.desc=
+
+#Quest_831.Advanced Wafers
+gtnh.quest831.name=
+gtnh.quest831.desc=
+
+#Quest_832.Wafers
+gtnh.quest832.name=
+gtnh.quest832.desc=
+
+#Quest_833.Purge your warp
+gtnh.quest833.name=
+gtnh.quest833.desc=
+
+#Quest_834.Circuit Boards
+gtnh.quest834.name=
+gtnh.quest834.desc=
+
+#Quest_835.Resistor
+gtnh.quest835.name=
+gtnh.quest835.desc=
+
+#Quest_836.Gallium Arsenide
+gtnh.quest836.name=
+gtnh.quest836.desc=
+
+#Quest_837.ILC and RAM
+gtnh.quest837.name=
+gtnh.quest837.desc=
+
+#Quest_838.Advanced Circuits
+gtnh.quest838.name=
+gtnh.quest838.desc=
+
+#Quest_839.Handle tiny piles like a K1ng
+gtnh.quest839.name=
+gtnh.quest839.desc=
+
+#Quest_840.Butane and Propane
+gtnh.quest840.name=
+gtnh.quest840.desc=
+
+#Quest_841.Tetranitromethane
+gtnh.quest841.name=
+gtnh.quest841.desc=
+
+#Quest_842.Methane Gas
+gtnh.quest842.name=
+gtnh.quest842.desc=
+
+#Quest_843.Methanol
+gtnh.quest843.name=
+gtnh.quest843.desc=
+
+#Quest_844.Ethanol
+gtnh.quest844.name=
+gtnh.quest844.desc=
+
+#Quest_845.Bio Diesel Fuel
+gtnh.quest845.name=
+gtnh.quest845.desc=
+
+#Quest_846.O like Oxygen
+gtnh.quest846.name=
+gtnh.quest846.desc=
+
+#Quest_847.Ethylene
+gtnh.quest847.name=
+gtnh.quest847.desc=
+
+#Quest_848.Seed Oil
+gtnh.quest848.name=
+gtnh.quest848.desc=
+
+#Quest_849.Sodium Hydroxide
+gtnh.quest849.name=
+gtnh.quest849.desc=
+
+#Quest_850.Ethenone
+gtnh.quest850.name=
+gtnh.quest850.desc=
+
+#Quest_851.Nitric Acid
+gtnh.quest851.name=
+gtnh.quest851.desc=
+
+#Quest_852.Acetic Acid
+gtnh.quest852.name=
+gtnh.quest852.desc=
+
+#Quest_853.Nitrogen Dioxide
+gtnh.quest853.name=
+gtnh.quest853.desc=
+
+#Quest_854.Ammonia
+gtnh.quest854.name=
+gtnh.quest854.desc=
+
+#Quest_855.Nitric Oxide
+gtnh.quest855.name=
+gtnh.quest855.desc=
+
+#Quest_856.1,1-Dimetylhydrazine
+gtnh.quest856.name=
+gtnh.quest856.desc=
+
+#Quest_857.Dimethylamine
+gtnh.quest857.name=
+gtnh.quest857.desc=
+
+#Quest_858.Chloramine
+gtnh.quest858.name=
+gtnh.quest858.desc=
+
+#Quest_859.Hypochlorous Acid
+gtnh.quest859.name=
+gtnh.quest859.desc=
+
+#Quest_860.Titanium finaly
+gtnh.quest860.name=
+gtnh.quest860.desc=
+
+#Quest_861.Tungstensteel
+gtnh.quest861.name=
+gtnh.quest861.desc=
+
+#Quest_862.Your first bow
+gtnh.quest862.name=
+gtnh.quest862.desc=
+
+#Quest_863.Bronze javelin
+gtnh.quest863.name=
+gtnh.quest863.desc=
+
+#Quest_864.Your first flint throwing knife
+gtnh.quest864.name=
+gtnh.quest864.desc=
+
+#Quest_865.Monster trap
+gtnh.quest865.name=
+gtnh.quest865.desc=
+
+#Quest_866.The transcontinental railroad
+gtnh.quest866.name=
+gtnh.quest866.desc=
+
+#Quest_867.Lapis, Lazurite, Sodalite, Calcite
+gtnh.quest867.name=
+gtnh.quest867.desc=
+
+#Quest_868.Gypsum
+gtnh.quest868.name=
+gtnh.quest868.desc=
+
+#Quest_869.Sifting Machine
+gtnh.quest869.name=
+gtnh.quest869.desc=
+
+#Quest_870.Smelt all the things...
+gtnh.quest870.name=
+gtnh.quest870.desc=
+
+#Quest_871.Molds, molds, molds
+gtnh.quest871.name=
+gtnh.quest871.desc=
+
+#Quest_872.Maple Syrup
+gtnh.quest872.name=
+gtnh.quest872.desc=
+
+#Quest_873.Seed Bags
+gtnh.quest873.name=
+gtnh.quest873.desc=
+
+#Quest_874.Jetpack v.0.1 Alpha
+gtnh.quest874.name=
+gtnh.quest874.desc=
+
+#Quest_875.Slime Island Journey
+gtnh.quest875.name=
+gtnh.quest875.desc=
+
+#Quest_876.Iron berry bush
+gtnh.quest876.name=
+gtnh.quest876.desc=
+
+#Quest_877.Gold berry bush
+gtnh.quest877.name=
+gtnh.quest877.desc=
+
+#Quest_878.Copper berry bush
+gtnh.quest878.name=
+gtnh.quest878.desc=
+
+#Quest_879.Aluminum berry bush
+gtnh.quest879.name=
+gtnh.quest879.desc=
+
+#Quest_880.Witch
+gtnh.quest880.name=
+gtnh.quest880.desc=
+
+#Quest_881.Pigmen
+gtnh.quest881.name=
+gtnh.quest881.desc=
+
+#Quest_882.Blaze
+gtnh.quest882.name=
+gtnh.quest882.desc=
+
+#Quest_883.Magma Cube
+gtnh.quest883.name=
+gtnh.quest883.desc=
+
+#Quest_884.Enderman
+gtnh.quest884.name=
+gtnh.quest884.desc=
+
+#Quest_885.Cave Spider
+gtnh.quest885.name=
+gtnh.quest885.desc=
+
+#Quest_886.Ghast
+gtnh.quest886.name=
+gtnh.quest886.desc=
+
+#Quest_887.Tin berry bush
+gtnh.quest887.name=
+gtnh.quest887.desc=
+
+#Quest_888.Silverfish
+gtnh.quest888.name=
+gtnh.quest888.desc=
+
+#Quest_889.Magma Cube
+gtnh.quest889.name=
+gtnh.quest889.desc=
+
+#Quest_890.Better Tank... ULV Tank
+gtnh.quest890.name=
+gtnh.quest890.desc=
+
+#Quest_891.Better Tank... LV Tank
+gtnh.quest891.name=
+gtnh.quest891.desc=
+
+#Quest_892.Better Tank... MV Tank
+gtnh.quest892.name=
+gtnh.quest892.desc=
+
+#Quest_893.You're gonna hate this #2 in MV too
+gtnh.quest893.name=
+gtnh.quest893.desc=
+
+#Quest_894.Better Tank... HV Tank
+gtnh.quest894.name=
+gtnh.quest894.desc=
+
+#Quest_895.You're gonna hate this #1 in MV too
+gtnh.quest895.name=
+gtnh.quest895.desc=
+
+#Quest_896.You're gonna hate this #3 in MV too
+gtnh.quest896.name=
+gtnh.quest896.desc=
+
+#Quest_897.You're gonna hate this #4 in MV too
+gtnh.quest897.name=
+gtnh.quest897.desc=
+
+#Quest_898.Simple Ore Washer
+gtnh.quest898.name=
+gtnh.quest898.desc=
+
+#Quest_899.Paying the highest price
+gtnh.quest899.name=
+gtnh.quest899.desc=
+
+#Quest_900.Don't look it in the eyes!
+gtnh.quest900.name=
+gtnh.quest900.desc=
+
+#Quest_901.I don't even...
+gtnh.quest901.name=
+gtnh.quest901.desc=
+
+#Quest_902.A big ugly snake
+gtnh.quest902.name=
+gtnh.quest902.desc=
+
+#Quest_903.Adventure time!
+gtnh.quest903.name=
+gtnh.quest903.desc=
+
+#Quest_904.Who you're gonna call?
+gtnh.quest904.name=
+gtnh.quest904.desc=
+
+#Quest_905.The big fluffy crybaby
+gtnh.quest905.name=
+gtnh.quest905.desc=
+
+#Quest_906.Let her go
+gtnh.quest906.name=
+gtnh.quest906.desc=
+
+#Quest_907.Yeti. Alpha, Yeti.
+gtnh.quest907.name=
+gtnh.quest907.desc=
+
+#Quest_908.Secret: A nice....
+gtnh.quest908.name=
+gtnh.quest908.desc=
+
+#Quest_909.Time to kill (Creeper)
+gtnh.quest909.name=
+gtnh.quest909.desc=
+
+#Quest_910.Time to kill (Pigman)
+gtnh.quest910.name=
+gtnh.quest910.desc=
+
+#Quest_911.Time to kill (Spiders)
+gtnh.quest911.name=
+gtnh.quest911.desc=
+
+#Quest_912.Time to kill (Skeleton)
+gtnh.quest912.name=
+gtnh.quest912.desc=
+
+#Quest_913.Time to kill (Blaze)
+gtnh.quest913.name=
+gtnh.quest913.desc=
+
+#Quest_914.Time to kill (Zombie)
+gtnh.quest914.name=
+gtnh.quest914.desc=
+
+#Quest_915.Time to kill (Enderman)
+gtnh.quest915.name=
+gtnh.quest915.desc=
+
+#Quest_916.Time to kill (Wither)
+gtnh.quest916.name=
+gtnh.quest916.desc=
+
+#Quest_917.Secret: The trade for life
+gtnh.quest917.name=
+gtnh.quest917.desc=
+
+#Quest_918.Skeleton: Evolved
+gtnh.quest918.name=
+gtnh.quest918.desc=
+
+#Quest_919.Creeper: Evolved
+gtnh.quest919.name=
+gtnh.quest919.desc=
+
+#Quest_920.Blaze: Evolved
+gtnh.quest920.name=
+gtnh.quest920.desc=
+
+#Quest_921.Ghast: Evolved
+gtnh.quest921.name=
+gtnh.quest921.desc=
+
+#Quest_922.Crystal Boss: Ayyy.. Wait, what?
+gtnh.quest922.name=
+gtnh.quest922.desc=
+
+#Quest_923.Slime: Evolved
+gtnh.quest923.name=
+gtnh.quest923.desc=
+
+#Quest_924.Wolf:Evolved
+gtnh.quest924.name=
+gtnh.quest924.desc=
+
+#Quest_925.Technology: Evolved
+gtnh.quest925.name=
+gtnh.quest925.desc=
+
+#Quest_926.Blood Altar Tier 3
+gtnh.quest926.name=
+gtnh.quest926.desc=
+
+#Quest_927.Blood Altar Tier 4
+gtnh.quest927.name=
+gtnh.quest927.desc=
+
+#Quest_928.Blood Altar Tier 5
+gtnh.quest928.name=
+gtnh.quest928.desc=
+
+#Quest_929.Blood Altar Tier 6
+gtnh.quest929.name=
+gtnh.quest929.desc=
+
+#Quest_930.Auto Mining
+gtnh.quest930.name=
+gtnh.quest930.desc=
+
+#Quest_931.Auto Mining MV
+gtnh.quest931.name=
+gtnh.quest931.desc=
+
+#Quest_932.Auto Mining HV
+gtnh.quest932.name=
+gtnh.quest932.desc=
+
+#Quest_933.Power of the Sun
+gtnh.quest933.name=
+gtnh.quest933.desc=
+
+#Quest_934.Power of the Sun 8V
+gtnh.quest934.name=
+gtnh.quest934.desc=
+
+#Quest_935.Power of the Sun 1x1
+gtnh.quest935.name=
+gtnh.quest935.desc=
+
+#Quest_936.Power of the Sun at LV Level
+gtnh.quest936.name=
+gtnh.quest936.desc=
+
+#Quest_937.Power of the Sun 1x1 LV
+gtnh.quest937.name=
+gtnh.quest937.desc=
+
+#Quest_938.Automated Sticky Resin Farmer
+gtnh.quest938.name=
+gtnh.quest938.desc=
+
+#Quest_939.Automated Farmer
+gtnh.quest939.name=
+gtnh.quest939.desc=
+
+#Quest_940.Cleanroom
+gtnh.quest940.name=
+gtnh.quest940.desc=
+
+#Quest_941.A very useful Scanner
+gtnh.quest941.name=
+gtnh.quest941.desc=
+
+#Quest_942.The Plunger
+gtnh.quest942.name=
+gtnh.quest942.desc=
+
+#Quest_943.Performing chemical experiments at HV Level
+gtnh.quest943.name=
+gtnh.quest943.desc=
+
+#Quest_944.Super Tank I
+gtnh.quest944.name=
+gtnh.quest944.desc=
+
+#Quest_945.Chad a better way to make Paper
+gtnh.quest945.name=
+gtnh.quest945.desc=
+
+#Quest_946.Bamboo fence
+gtnh.quest946.name=
+gtnh.quest946.desc=
+
+#Quest_947.Punji Sticks
+gtnh.quest947.name=
+gtnh.quest947.desc=
+
+#Quest_948.Better than iron
+gtnh.quest948.name=
+gtnh.quest948.desc=
+
+#Quest_949.Garden Bags
+gtnh.quest949.name=
+gtnh.quest949.desc=
+
+#Quest_950.XP berry bush
+gtnh.quest950.name=
+gtnh.quest950.desc=
+
+#Quest_951.Fluid Solidifier
+gtnh.quest951.name=
+gtnh.quest951.desc=
+
+#Quest_952.Base too big? I've got a fix for you!
+gtnh.quest952.name=
+gtnh.quest952.desc=
+
+#Quest_953.Stainless Steel Pipes
+gtnh.quest953.name=
+gtnh.quest953.desc=
+
+#Quest_954.The "Waterproblems" are solved
+gtnh.quest954.name=
+gtnh.quest954.desc=
+
+#Quest_955.Piston
+gtnh.quest955.name=
+gtnh.quest955.desc=
+
+#Quest_956.Piston LV
+gtnh.quest956.name=
+gtnh.quest956.desc=
+
+#Quest_957.Motor LV
+gtnh.quest957.name=
+gtnh.quest957.desc=
+
+#Quest_958.Pump LV
+gtnh.quest958.name=
+gtnh.quest958.desc=
+
+#Quest_959.Conveyor LV
+gtnh.quest959.name=
+gtnh.quest959.desc=
+
+#Quest_960.Robot Arm LV
+gtnh.quest960.name=
+gtnh.quest960.desc=
+
+#Quest_961.Sensor LV
+gtnh.quest961.name=
+gtnh.quest961.desc=
+
+#Quest_962.Emitter LV
+gtnh.quest962.name=
+gtnh.quest962.desc=
+
+#Quest_963.Basic Circuit Board
+gtnh.quest963.name=
+gtnh.quest963.desc=
+
+#Quest_964.Good Circuit Board
+gtnh.quest964.name=
+gtnh.quest964.desc=
+
+#Quest_965.Vacuum Tubes
+gtnh.quest965.name=
+gtnh.quest965.desc=
+
+#Quest_966.Resistors
+gtnh.quest966.name=
+gtnh.quest966.desc=
+
+#Quest_967.Diodes
+gtnh.quest967.name=
+gtnh.quest967.desc=
+
+#Quest_968.Wafers
+gtnh.quest968.name=
+gtnh.quest968.desc=
+
+#Quest_969.Transistors
+gtnh.quest969.name=
+gtnh.quest969.desc=
+
+#Quest_970.Ram Wafer
+gtnh.quest970.name=
+gtnh.quest970.desc=
+
+#Quest_971.Integrated Logic Circuit Wafer
+gtnh.quest971.name=
+gtnh.quest971.desc=
+
+#Quest_972.Oil
+gtnh.quest972.name=
+gtnh.quest972.desc=
+
+#Quest_973.Creosote Oil
+gtnh.quest973.name=
+gtnh.quest973.desc=
+
+#Quest_974.Diesel
+gtnh.quest974.name=
+gtnh.quest974.desc=
+
+#Quest_975.Methane
+gtnh.quest975.name=
+gtnh.quest975.desc=
+
+#Quest_976.Bio Diesel
+gtnh.quest976.name=
+gtnh.quest976.desc=
+
+#Quest_977.Oxygen
+gtnh.quest977.name=
+gtnh.quest977.desc=
+
+#Quest_978.Nitrogen
+gtnh.quest978.name=
+gtnh.quest978.desc=
+
+#Quest_979.Hydrogen
+gtnh.quest979.name=
+gtnh.quest979.desc=
+
+#Quest_980.Glue
+gtnh.quest980.name=
+gtnh.quest980.desc=
+
+#Quest_981.Lubricant
+gtnh.quest981.name=
+gtnh.quest981.desc=
+
+#Quest_982.Glycerol
+gtnh.quest982.name=
+gtnh.quest982.desc=
+
+#Quest_983.Cetan-Boosted Fuel
+gtnh.quest983.name=
+gtnh.quest983.desc=
+
+#Quest_984.Silverwood Sapling
+gtnh.quest984.name=
+gtnh.quest984.desc=
+
+#Quest_985.Time to kill (Ghast)
+gtnh.quest985.name=
+gtnh.quest985.desc=
+
+#Quest_986.Is this the End? No the END Dimension
+gtnh.quest986.name=
+gtnh.quest986.desc=
+
+#Quest_987.Upgraded RF Batteries
+gtnh.quest987.name=
+gtnh.quest987.desc=
+
+#Quest_988.Vibrant Capacitor Banks
+gtnh.quest988.name=
+gtnh.quest988.desc=
+
+#Quest_989.Vibrant alloy
+gtnh.quest989.name=
+gtnh.quest989.desc=
+
+#Quest_990.Energetic Alloy
+gtnh.quest990.name=
+gtnh.quest990.desc=
+
+#Quest_991.Dark Steel Armor basic upgrades
+gtnh.quest991.name=
+gtnh.quest991.desc=
+
+#Quest_992.Go find some tropical bees
+gtnh.quest992.name=
+gtnh.quest992.desc=
+
+#Quest_993.Silky combs and Propolis
+gtnh.quest993.name=
+gtnh.quest993.desc=
+
+#Quest_994.The Centrifuge
+gtnh.quest994.name=
+gtnh.quest994.desc=
+
+#Quest_995.Woven silk
+gtnh.quest995.name=
+gtnh.quest995.desc=
+
+#Quest_996.Apiarist's Cloth
+gtnh.quest996.name=
+gtnh.quest996.desc=
+
+#Quest_997.Dark Steel Armor advanced upgrades
+gtnh.quest997.name=
+gtnh.quest997.desc=
+
+#Quest_998.Dark Steel Tool and Weapon basic upgrades
+gtnh.quest998.name=
+gtnh.quest998.desc=
+
+#Quest_999.Dark Steel Tool and Weapon advanced upgrades
+gtnh.quest999.name=
+gtnh.quest999.desc=
+
+#Quest_1000.RF Solar Panel
+gtnh.quest1000.name=
+gtnh.quest1000.desc=
+
+#Quest_1001.RF Solar Panel Tier 2
+gtnh.quest1001.name=
+gtnh.quest1001.desc=
+
+#Quest_1002.Enchanted Earth
+gtnh.quest1002.name=
+gtnh.quest1002.desc=
+
+#Quest_1003.Power of the Sun at MV Level
+gtnh.quest1003.name=
+gtnh.quest1003.desc=
+
+#Quest_1004.Power of the Sun 1x1 MV
+gtnh.quest1004.name=
+gtnh.quest1004.desc=
+
+#Quest_1005.Indium
+gtnh.quest1005.name=
+gtnh.quest1005.desc=
+
+#Quest_1006.Power of the Sun at HV Level
+gtnh.quest1006.name=
+gtnh.quest1006.desc=
+
+#Quest_1007.Power of the Sun 1x1 HV
+gtnh.quest1007.name=
+gtnh.quest1007.desc=
+
+#Quest_1008.Books
+gtnh.quest1008.name=
+gtnh.quest1008.desc=
+
+#Quest_1009.Fish trapping 2.0
+gtnh.quest1009.name=
+gtnh.quest1009.desc=
+
+#Quest_1010.Fresh Water and Milk
+gtnh.quest1010.name=
+gtnh.quest1010.desc=
+
+#Quest_1011.Find Bauxite
+gtnh.quest1011.name=
+gtnh.quest1011.desc=
+
+#Quest_1012.Rutile
+gtnh.quest1012.name=
+gtnh.quest1012.desc=
+
+#Quest_1013.SMD Circuit components
+gtnh.quest1013.name=
+gtnh.quest1013.desc=
+
+#Quest_1014.Workstation Extreme Curcuit
+gtnh.quest1014.name=
+gtnh.quest1014.desc=
+
+#Quest_1015.Empty Plastic Board
+gtnh.quest1015.name=
+gtnh.quest1015.desc=
+
+#Quest_1016.Integrated Processor
+gtnh.quest1016.name=
+gtnh.quest1016.desc=
+
+#Quest_1017.Processor Assembly
+gtnh.quest1017.name=
+gtnh.quest1017.desc=
+
+#Quest_1018.Central Processing Unit CPU
+gtnh.quest1018.name=
+gtnh.quest1018.desc=
+
+#Quest_1019.Small Coil
+gtnh.quest1019.name=
+gtnh.quest1019.desc=
+
+#Quest_1020.Iron (III) Chloride
+gtnh.quest1020.name=
+gtnh.quest1020.desc=
+
+#Quest_1021.Sodium Persulfate
+gtnh.quest1021.name=
+gtnh.quest1021.desc=
+
+#Quest_1022.Motor MV
+gtnh.quest1022.name=
+gtnh.quest1022.desc=
+
+#Quest_1023.Conveyor MV
+gtnh.quest1023.name=
+gtnh.quest1023.desc=
+
+#Quest_1024.Pump MV
+gtnh.quest1024.name=
+gtnh.quest1024.desc=
+
+#Quest_1025.Piston MV
+gtnh.quest1025.name=
+gtnh.quest1025.desc=
+
+#Quest_1026.Robot Arm MV
+gtnh.quest1026.name=
+gtnh.quest1026.desc=
+
+#Quest_1027.Sensor MV
+gtnh.quest1027.name=
+gtnh.quest1027.desc=
+
+#Quest_1028.Emitter MV
+gtnh.quest1028.name=
+gtnh.quest1028.desc=
+
+#Quest_1029.Motor HV
+gtnh.quest1029.name=
+gtnh.quest1029.desc=
+
+#Quest_1030.Conveyor HV
+gtnh.quest1030.name=
+gtnh.quest1030.desc=
+
+#Quest_1031.Pump HV
+gtnh.quest1031.name=
+gtnh.quest1031.desc=
+
+#Quest_1032.Piston HV
+gtnh.quest1032.name=
+gtnh.quest1032.desc=
+
+#Quest_1033.Robot Arm HV
+gtnh.quest1033.name=
+gtnh.quest1033.desc=
+
+#Quest_1034.Sensor HV
+gtnh.quest1034.name=
+gtnh.quest1034.desc=
+
+#Quest_1035.Emitter HV
+gtnh.quest1035.name=
+gtnh.quest1035.desc=
+
+#Quest_1036.Plastic Circuit Board
+gtnh.quest1036.name=
+gtnh.quest1036.desc=
+
+#Quest_1037.Central Procesing Unit Wafer
+gtnh.quest1037.name=
+gtnh.quest1037.desc=
+
+#Quest_1038.Resistors SMD
+gtnh.quest1038.name=
+gtnh.quest1038.desc=
+
+#Quest_1039.Diodes SMD
+gtnh.quest1039.name=
+gtnh.quest1039.desc=
+
+#Quest_1040.Transistors SMD
+gtnh.quest1040.name=
+gtnh.quest1040.desc=
+
+#Quest_1041.Capacitor SMD
+gtnh.quest1041.name=
+gtnh.quest1041.desc=
+
+#Quest_1042.Plastic Sheet
+gtnh.quest1042.name=
+gtnh.quest1042.desc=
+
+#Quest_1043.Chlorine
+gtnh.quest1043.name=
+gtnh.quest1043.desc=
+
+#Quest_1044.Iron (III) Chloride
+gtnh.quest1044.name=
+gtnh.quest1044.desc=
+
+#Quest_1045.Sodium Persulfate
+gtnh.quest1045.name=
+gtnh.quest1045.desc=
+
+#Quest_1046.Pyrochlore Ore
+gtnh.quest1046.name=
+gtnh.quest1046.desc=
+
+#Quest_1047.Forest Hive
+gtnh.quest1047.name=
+gtnh.quest1047.desc=
+
+#Quest_1048.Deep Hive
+gtnh.quest1048.name=
+gtnh.quest1048.desc=
+
+#Quest_1049.Ender Hive
+gtnh.quest1049.name=
+gtnh.quest1049.desc=
+
+#Quest_1050.Bees House
+gtnh.quest1050.name=
+gtnh.quest1050.desc=
+
+#Quest_1051.Apiary
+gtnh.quest1051.name=
+gtnh.quest1051.desc=
+
+#Quest_1052.Proven Frames
+gtnh.quest1052.name=
+gtnh.quest1052.desc=
+
+#Quest_1053.Infernal Hive
+gtnh.quest1053.name=
+gtnh.quest1053.desc=
+
+#Quest_1054.Oblivion Hive
+gtnh.quest1054.name=
+gtnh.quest1054.desc=
+
+#Quest_1055.Did you want to know your warp level?
+gtnh.quest1055.name=
+gtnh.quest1055.desc=
+
+#Quest_1056.Meadow Hive
+gtnh.quest1056.name=
+gtnh.quest1056.desc=
+
+#Quest_1057.Modest Hive
+gtnh.quest1057.name=
+gtnh.quest1057.desc=
+
+#Quest_1058.Tropical Hive
+gtnh.quest1058.name=
+gtnh.quest1058.desc=
+
+#Quest_1059.Wintry Hive
+gtnh.quest1059.name=
+gtnh.quest1059.desc=
+
+#Quest_1060.Marshy Hive
+gtnh.quest1060.name=
+gtnh.quest1060.desc=
+
+#Quest_1061.Water Hive
+gtnh.quest1061.name=
+gtnh.quest1061.desc=
+
+#Quest_1062.Rocky Hive
+gtnh.quest1062.name=
+gtnh.quest1062.desc=
+
+#Quest_1063.Nether Hive
+gtnh.quest1063.name=
+gtnh.quest1063.desc=
+
+#Quest_1064.Curious Hive
+gtnh.quest1064.name=
+gtnh.quest1064.desc=
+
+#Quest_1065.Unusual Hive
+gtnh.quest1065.name=
+gtnh.quest1065.desc=
+
+#Quest_1066.Resonating Hive
+gtnh.quest1066.name=
+gtnh.quest1066.desc=
+
+#Quest_1067.Space Station
+gtnh.quest1067.name=
+gtnh.quest1067.desc=
+
+#Quest_1068.Are you prepared?
+gtnh.quest1068.name=
+gtnh.quest1068.desc=
+
+#Quest_1069.Oak, Spruce, Brich, Jungle Sapling
+gtnh.quest1069.name=
+gtnh.quest1069.desc=
+
+#Quest_1070.Magic Feather
+gtnh.quest1070.name=
+gtnh.quest1070.desc=
+
+#Quest_1071.Magic Map
+gtnh.quest1071.name=
+gtnh.quest1071.desc=
+
+#Quest_1072.Moon arrival
+gtnh.quest1072.name=
+gtnh.quest1072.desc=
+
+#Quest_1073.Naga
+gtnh.quest1073.name=
+gtnh.quest1073.desc=
+
+#Quest_1074.Lich
+gtnh.quest1074.name=
+gtnh.quest1074.desc=
+
+#Quest_1075.Minoshroom
+gtnh.quest1075.name=
+gtnh.quest1075.desc=
+
+#Quest_1076.Hydra
+gtnh.quest1076.name=
+gtnh.quest1076.desc=
+
+#Quest_1077.Knight Phantom
+gtnh.quest1077.name=
+gtnh.quest1077.desc=
+
+#Quest_1078.Ur Ghast
+gtnh.quest1078.name=
+gtnh.quest1078.desc=
+
+#Quest_1079.Yeti
+gtnh.quest1079.name=
+gtnh.quest1079.desc=
+
+#Quest_1080.Snow Queen
+gtnh.quest1080.name=
+gtnh.quest1080.desc=
+
+#Quest_1081.MV Bending
+gtnh.quest1081.name=
+gtnh.quest1081.desc=
+
+#Quest_1082.MV Battery Buffers
+gtnh.quest1082.name=
+gtnh.quest1082.desc=
+
+#Quest_1083.MV Lithium Batterie
+gtnh.quest1083.name=
+gtnh.quest1083.desc=
+
+#Quest_1084.Lubricant
+gtnh.quest1084.name=
+gtnh.quest1084.desc=
+
+#Quest_1085.More Compact Storage
+gtnh.quest1085.name=
+gtnh.quest1085.desc=
+
+#Quest_1086.Juice
+gtnh.quest1086.name=
+gtnh.quest1086.desc=
+
+#Quest_1087.Potato Cakes
+gtnh.quest1087.name=
+gtnh.quest1087.desc=
+
+#Quest_1088.Fried Eggs
+gtnh.quest1088.name=
+gtnh.quest1088.desc=
+
+#Quest_1089.Hearty Breakfas
+gtnh.quest1089.name=
+gtnh.quest1089.desc=
+
+#Quest_1090.Try to dry out the Nether
+gtnh.quest1090.name=
+gtnh.quest1090.desc=
+
+#Quest_1091.Diamond Tanks... Oh shiny
+gtnh.quest1091.name=
+gtnh.quest1091.desc=
+
+#Quest_1092.New source of Glowstone
+gtnh.quest1092.name=
+gtnh.quest1092.desc=
+
+#Quest_1093.Did you run low on Gold or Redstone?
+gtnh.quest1093.name=
+gtnh.quest1093.desc=
+
+#Quest_1094.Diamond Chests... Oh shiny
+gtnh.quest1094.name=
+gtnh.quest1094.desc=
+
+#Quest_1095.Even More Compact Storage
+gtnh.quest1095.name=
+gtnh.quest1095.desc=
+
+#Quest_1096.Scribing Tool
+gtnh.quest1096.name=
+gtnh.quest1096.desc=
+
+#Quest_1097.Bathing the warp effects away.
+gtnh.quest1097.name=
+gtnh.quest1097.desc=
+
+#Quest_1098.Bathing in a Spa. Automated Warp removing
+gtnh.quest1098.name=
+gtnh.quest1098.desc=
+
+#Quest_1099.Temp warp remover Soap
+gtnh.quest1099.name=
+gtnh.quest1099.desc=
+
+#Quest_1100.Enchanting Table 1.0
+gtnh.quest1100.name=
+gtnh.quest1100.desc=
+
+#Quest_1101.Division Sigil
+gtnh.quest1101.name=
+gtnh.quest1101.desc=
+
+#Quest_1102.Beacon
+gtnh.quest1102.name=
+gtnh.quest1102.desc=
+
+#Quest_1103.Cursed Earth
+gtnh.quest1103.name=
+gtnh.quest1103.desc=
+
+#Quest_1104.Silky Jewel
+gtnh.quest1104.name=
+gtnh.quest1104.desc=
+
+#Quest_1105.Division Sigil Stable
+gtnh.quest1105.name=
+gtnh.quest1105.desc=
+
+#Quest_1106.Blub blub blub.....
+gtnh.quest1106.name=
+gtnh.quest1106.desc=
+
+#Quest_1107.The Iron Guy
+gtnh.quest1107.name=
+gtnh.quest1107.desc=
+
+#Quest_1108.The Cool Guy
+gtnh.quest1108.name=
+gtnh.quest1108.desc=
+
+#Quest_1109.Oh crunchy
+gtnh.quest1109.name=
+gtnh.quest1109.desc=
+
+#Quest_1110.Purge all your warp
+gtnh.quest1110.name=
+gtnh.quest1110.desc=
+
+#Quest_1111.A Chest for Bees
+gtnh.quest1111.name=
+gtnh.quest1111.desc=
+
+#Quest_1112.Frames
+gtnh.quest1112.name=
+gtnh.quest1112.desc=
+
+#Quest_1113.Impregnated Frames
+gtnh.quest1113.name=
+gtnh.quest1113.desc=
+
+#Quest_1114.Proven Frame
+gtnh.quest1114.name=
+gtnh.quest1114.desc=
+
+#Quest_1115.Go find some tropical bees
+gtnh.quest1115.name=
+gtnh.quest1115.desc=
+
+#Quest_1116.Breed some cultivated bees
+gtnh.quest1116.name=
+gtnh.quest1116.desc=
+
+#Quest_1117.Breed some common bees
+gtnh.quest1117.name=
+gtnh.quest1117.desc=
+
+#Quest_1118.Breed some noble bees
+gtnh.quest1118.name=
+gtnh.quest1118.desc=
+
+#Quest_1119.Dripping Combs
+gtnh.quest1119.name=
+gtnh.quest1119.desc=
+
+#Quest_1120.Breed some majestic bees
+gtnh.quest1120.name=
+gtnh.quest1120.desc=
+
+#Quest_1121.Breed some imperial bees
+gtnh.quest1121.name=
+gtnh.quest1121.desc=
+
+#Quest_1122.Royal Jelly
+gtnh.quest1122.name=
+gtnh.quest1122.desc=
+
+#Quest_1123.Alvearies
+gtnh.quest1123.name=
+gtnh.quest1123.desc=
+
+#Quest_1124.Barrel Upgrades
+gtnh.quest1124.name=
+gtnh.quest1124.desc=
+
+#Quest_1125.Barrel Upgrades Tier 2
+gtnh.quest1125.name=
+gtnh.quest1125.desc=
+
+#Quest_1126.Alumite
+gtnh.quest1126.name=
+gtnh.quest1126.desc=
+
+#Quest_1127.Reinforced X? Unbreakable
+gtnh.quest1127.name=
+gtnh.quest1127.desc=
+
+#Quest_1128.Lapis? Lucky!
+gtnh.quest1128.name=
+gtnh.quest1128.desc=
+
+#Quest_1129.Redstone?. Haste!
+gtnh.quest1129.name=
+gtnh.quest1129.desc=
+
+#Quest_1130.Extra Modifier
+gtnh.quest1130.name=
+gtnh.quest1130.desc=
+
+#Quest_1131.Ardite and Cobalt
+gtnh.quest1131.name=
+gtnh.quest1131.desc=
+
+#Quest_1132.Netherquartz? Sharpness
+gtnh.quest1132.name=
+gtnh.quest1132.desc=
+
+#Quest_1133.Submission Station
+gtnh.quest1133.name=
+gtnh.quest1133.desc=
+
+#Quest_1134.LV Advanced Steam Boiler
+gtnh.quest1134.name=
+gtnh.quest1134.desc=
+
+#Quest_1135.ULV Transformer
+gtnh.quest1135.name=
+gtnh.quest1135.desc=
+
+#Quest_1136.Lossless LV Cables
+gtnh.quest1136.name=
+gtnh.quest1136.desc=
+
+#Quest_1137.Kinetic Power
+gtnh.quest1137.name=
+gtnh.quest1137.desc=
+
+#Quest_1138.Kinetic Wind Power
+gtnh.quest1138.name=
+gtnh.quest1138.desc=
+
+#Quest_1139.Kinetic Water Power
+gtnh.quest1139.name=
+gtnh.quest1139.desc=
+
+#Quest_1140.Rotor
+gtnh.quest1140.name=
+gtnh.quest1140.desc=
+
+#Quest_1141.Wind Meter
+gtnh.quest1141.name=
+gtnh.quest1141.desc=
+
+#Quest_1142.HV Battery Buffers
+gtnh.quest1142.name=
+gtnh.quest1142.desc=
+
+#Quest_1143.HV Batteries
+gtnh.quest1143.name=
+gtnh.quest1143.desc=
+
+#Quest_1144.HV Lithium Batterie
+gtnh.quest1144.name=
+gtnh.quest1144.desc=
+
+#Quest_1145.HV EV Tranformator
+gtnh.quest1145.name=
+gtnh.quest1145.desc=
+
+#Quest_1146.GT 6 styled Pipes
+gtnh.quest1146.name=
+gtnh.quest1146.desc=
+
+#Quest_1147.GT 6 styled Wires and Cables
+gtnh.quest1147.name=
+gtnh.quest1147.desc=
+
+#Quest_1148.MV Machine hull
+gtnh.quest1148.name=
+gtnh.quest1148.desc=
+
+#Quest_1149.A new alloy Magnalium
+gtnh.quest1149.name=
+gtnh.quest1149.desc=
+
+#Quest_1150.Magnalium Crossbow
+gtnh.quest1150.name=
+gtnh.quest1150.desc=
+
+#Quest_1151.Wooden Crosbow
+gtnh.quest1151.name=
+gtnh.quest1151.desc=
+
+#Quest_1152.Fiery Bowstring
+gtnh.quest1152.name=
+gtnh.quest1152.desc=
+
+#Quest_1153.Ardite Crossbow Body
+gtnh.quest1153.name=
+gtnh.quest1153.desc=
+
+#Quest_1154.Magnalium Crossbow Bolts
+gtnh.quest1154.name=
+gtnh.quest1154.desc=
+
+#Quest_1155.Basic Fluid Solidifier
+gtnh.quest1155.name=
+gtnh.quest1155.desc=
+
+#Quest_1156.Iron Bolts
+gtnh.quest1156.name=
+gtnh.quest1156.desc=
+
+#Quest_1157.Rubber Soft Mallet
+gtnh.quest1157.name=
+gtnh.quest1157.desc=
+
+#Quest_1158.Iron Wood
+gtnh.quest1158.name=
+gtnh.quest1158.desc=
+
+#Quest_1159.Steeleaf
+gtnh.quest1159.name=
+gtnh.quest1159.desc=
+
+#Quest_1160.Empty Cells
+gtnh.quest1160.name=
+gtnh.quest1160.desc=
+
+#Quest_1161.Redalloy Cable
+gtnh.quest1161.name=
+gtnh.quest1161.desc=
+
+#Quest_1162.Tin Cable
+gtnh.quest1162.name=
+gtnh.quest1162.desc=
+
+#Quest_1163.Copper Wire
+gtnh.quest1163.name=
+gtnh.quest1163.desc=
+
+#Quest_1164.Universal Macerator
+gtnh.quest1164.name=
+gtnh.quest1164.desc=
+
+#Quest_1165.Rubber Ingots
+gtnh.quest1165.name=
+gtnh.quest1165.desc=
+
+#Quest_1166.Quartz and Quartzite Veins
+gtnh.quest1166.name=
+gtnh.quest1166.desc=
+
+#Quest_1167.Lithium
+gtnh.quest1167.name=
+gtnh.quest1167.desc=
+
+#Quest_1168.Sodium
+gtnh.quest1168.name=
+gtnh.quest1168.desc=
+
+#Quest_1169.Bath Salt
+gtnh.quest1169.name=
+gtnh.quest1169.desc=
+
+#Quest_1170.Bath Salt
+gtnh.quest1170.name=
+gtnh.quest1170.desc=
+
+#Quest_1171.Damascus Steel Ingots
+gtnh.quest1171.name=
+gtnh.quest1171.desc=
+
+#Quest_1172.Cheaper Annealed Production
+gtnh.quest1172.name=
+gtnh.quest1172.desc=
+
+#Quest_1173.Wrought Iron Ingots
+gtnh.quest1173.name=
+gtnh.quest1173.desc=
+
+#Quest_1174.Steel Ingots
+gtnh.quest1174.name=
+gtnh.quest1174.desc=
+
+#Quest_1175.Aluminium Ingots
+gtnh.quest1175.name=
+gtnh.quest1175.desc=
+
+#Quest_1176.Stainless Steel Ingots
+gtnh.quest1176.name=
+gtnh.quest1176.desc=
+
+#Quest_1177.Thaumium cooking
+gtnh.quest1177.name=
+gtnh.quest1177.desc=
+
+#Quest_1178.Food 2.0
+gtnh.quest1178.name=
+gtnh.quest1178.desc=
+
+#Quest_1179.EBF Infos
+gtnh.quest1179.name=
+gtnh.quest1179.desc=
+
+#Quest_1180.Chunckloading
+gtnh.quest1180.name=
+gtnh.quest1180.desc=
+
+#Quest_1181.Minecart with Tank, Workbench or Furnace
+gtnh.quest1181.name=
+gtnh.quest1181.desc=
+
+#Quest_1182.Fluid loader and unloder
+gtnh.quest1182.name=
+gtnh.quest1182.desc=
+
+#Quest_1183.Locomotive 0.1 Alpha
+gtnh.quest1183.name=
+gtnh.quest1183.desc=
+
+#Quest_1184.Steam Locomotive
+gtnh.quest1184.name=
+gtnh.quest1184.desc=
+
+#Quest_1185.Electric Locomotive
+gtnh.quest1185.name=
+gtnh.quest1185.desc=
+
+#Quest_1186.Boost your speed
+gtnh.quest1186.name=
+gtnh.quest1186.desc=
+
+#Quest_1187.The transcontinental railroad in high speed
+gtnh.quest1187.name=
+gtnh.quest1187.desc=
+
+#Quest_1188.The transcontinental railroad blast proof
+gtnh.quest1188.name=
+gtnh.quest1188.desc=
+
+#Quest_1189.The transcontinental railroad electrical
+gtnh.quest1189.name=
+gtnh.quest1189.desc=
+
+#Quest_1190.Electric feeder Unit
+gtnh.quest1190.name=
+gtnh.quest1190.desc=
+
+##################################Line##################################
+
+#Tier 0 - It begins
+gtnh.line0.name=
+gtnh.line0.desc=
+
+#Tier 0.5 - Stone Age
+gtnh.line1.name=
+gtnh.line1.desc=
+
+#Tier 1 - Steam
+gtnh.line2.name=
+gtnh.line2.desc=
+
+#Tier 2 - 32 EU (LV)
+gtnh.line3.name=
+gtnh.line3.desc=
+
+#Tier 3 - 128 EU (MV)
+gtnh.line4.name=
+gtnh.line4.desc=
+
+#Tier 4 - 512 EU (HV)
+gtnh.line5.name=
+gtnh.line5.desc=
+
+#Tier 5 - 2048 EU (EV)
+gtnh.line6.name=
+gtnh.line6.desc=
+
+#Tier 6 and beyond
+gtnh.line7.name=
+gtnh.line7.desc=
+
+#Coins, Coins, Coins
+gtnh.line8.name=
+gtnh.line8.desc=
+
+#Forestry and Farms
+gtnh.line9.name=
+gtnh.line9.desc=
+
+#Steve Carts
+gtnh.line10.name=
+gtnh.line10.desc=
+
+#Novice Thaumaturge
+gtnh.line11.name=
+gtnh.line11.desc=
+
+#Adept Thaumaturgy
+gtnh.line12.name=
+gtnh.line12.desc=
+
+#Kaaami, Haaaami, ... HA!
+gtnh.line13.name=
+gtnh.line13.desc=
+
+#Alternative Magic
+gtnh.line14.name=
+gtnh.line14.desc=
+
+#Multiblock Goals
+gtnh.line15.name=
+gtnh.line15.desc=
+
+#Armors and Jetpacks
+gtnh.line16.name=
+gtnh.line16.desc=
+
+#Cooking Farming Fishing
+gtnh.line17.name=
+gtnh.line17.desc=
+
+#Transportation
+gtnh.line18.name=
+gtnh.line18.desc=
+
+#Space Race
+gtnh.line19.name=
+gtnh.line19.desc=
+
+#Legendary Quests
+gtnh.line20.name=
+gtnh.line20.desc=
+
+#Legendary Tier X
+gtnh.line21.name=
+gtnh.line21.desc=
+
+#Legendary Infinity
+gtnh.line22.name=
+gtnh.line22.desc=
+
+#Paying the highest price
+gtnh.line23.name=
+gtnh.line23.desc=
+
+#More blood, more stuff
+gtnh.line24.name=
+gtnh.line24.desc=
+
+#They are coming...
+gtnh.line25.name=
+gtnh.line25.desc=
+
+#Kill all the things
+gtnh.line26.name=
+gtnh.line26.desc=
+
+#How to be(e)
+gtnh.line27.name=
+gtnh.line27.desc=
+
+#Be(e) Breeding
+gtnh.line28.name=
+gtnh.line28.desc=
+
+#To grind, or not to grind
+gtnh.line29.name=
+gtnh.line29.desc=
+
+#Reward Area
+gtnh.line30.name=
+gtnh.line30.desc=
+
