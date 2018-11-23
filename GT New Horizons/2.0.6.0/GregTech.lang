@@ -3431,7 +3431,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_15310_Index_1=用户控制的计算力路由
     S:TileEntity_DESCRIPTION_15310_Index_2=§b§l服务质量是必须的功能
     S:TileEntity_DESCRIPTION_15311_Index_0=§9Tec§1Tech§9：万物基石
-    S:TileEntity_DESCRIPTION_15311_Index_1=11100101 00100010 10101111 10111111
+    S:TileEntity_DESCRIPTION_15311_Index_1=11100111 00001010 01011101 00000101
     S:TileEntity_DESCRIPTION_15311_Index_2=§b§l你需要它来处理上面的这串数字
     S:TileEntity_DESCRIPTION_15312_Index_0=§9Bass§1Tech§9: Θ转移
     S:TileEntity_DESCRIPTION_15312_Index_1=高频烤炉
@@ -19144,6 +19144,7 @@ languagefile {
     S:gt.detrav.metatool.01.9.name=电子探矿仪(EV) (空)
     S:gt.detrav.metatool.01.9.tooltip=你需要为其充电
     S:gt.detrav.metatool.01.name=Generated Item
+    S:gt.integrated_circuit.configuration=配置: 
     S:gt.integrated_circuit.name=编程电路
     S:gt.metaitem.01.10.name=小撮碳粉
     S:gt.metaitem.01.10.tooltip=C
@@ -45832,7 +45833,7 @@ languagefile {
     S:gt.metatool.01.4.name=铲子
     S:gt.metatool.01.4.tooltip=
     S:gt.metatool.01.40.name=镰刀
-    S:gt.metatool.01.40.tooltip=因为镰刀没有意义
+    S:gt.metatool.01.40.tooltip=因为镰刀没有意义(因为此镰刀做不出彼镰刀)/n(Because a Scythe doesn't make Sense)Sence双关
     S:gt.metatool.01.41.name=镰刀(空)
     S:gt.metatool.01.41.tooltip=你需要为其充电
     S:gt.metatool.01.42.name=犁
