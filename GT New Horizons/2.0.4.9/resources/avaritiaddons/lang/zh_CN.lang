@@ -8,4 +8,4 @@ container.CompressedChest=压缩箱子
 container.InfinityChest=无限箱子
 container.ExtremeAutoCrafter=极限自动合成台
 
-tooltip.fillingRange=%1$s of %2$s
+tooltip.fillingRange=%1$s / %2$s
