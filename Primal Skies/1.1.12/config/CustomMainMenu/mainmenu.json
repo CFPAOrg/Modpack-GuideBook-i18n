@@ -1,0 +1,236 @@
+{
+    "images":
+    {
+        //"title":
+        //{
+            //"image" : "custommainmenu:textures/gui/minecraft.png",
+            //"posX" : -137,
+            //"posY" : 30,
+            //"width" : 512,
+            //"height" : 512,
+            //"alignment" : "top_center"
+        //},
+        
+        //"edition":
+        //{
+            //"image" : "custommainmenu:textures/gui/edition.png",
+            //"posX" : -49,
+            //"posY" : 67,
+            //"width" : 128,
+            //"height" : 16,
+            //"alignment" : "top_center"
+        //}
+    },
+    
+   "buttons":
+    {
+		"singleplayer":
+        {
+            "text" : "",
+            "tooltip" : "Singleplayer",
+			"posX" : -180,
+            "posY" : -105,
+            "width" : 25,
+            "height" : 25,
+			"alignment" : "center",
+			"texture" : "mainmenu:singleplayer.png",
+            "imageHeight": "80",
+			"imageWidth": "80",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+		"Multiplayer":
+        {
+            "text" : "",
+            "tooltip" : "Multiplayer",
+			"posX" : -180,
+            "posY" : -75,
+            "width" : 25,
+            "height" : 25,
+			"alignment" : "center",
+			"texture" : "mainmenu:multiplayer.png",
+            "imageHeight": "80",
+			"imageWidth": "80",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+			}
+        },
+		"options":
+        {
+            "text" : "",
+            "tooltip" : "Options Menu",
+			"posX" : -180,
+            "posY" : 15,
+            "width" : 25,
+            "height" : 25,
+			"alignment" : "center",
+			"texture" : "mainmenu:options.png",
+            "imageHeight": "80",
+			"imageWidth": "80",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+			}
+        },
+		"mods":
+        {
+            "text" : "",
+            "tooltip" : "Mods Menu",
+			"posX" : -180,
+            "posY" : -15,
+            "width" : 25,
+            "height" : 25,
+			"alignment" : "center",
+			"texture" : "mainmenu:mods.png",
+            "imageHeight": "80",
+			"imageWidth": "80",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+			}
+        },
+		"discord":
+        {
+            "text" : "",
+            "tooltip" : "PRIMAL Discord",
+			"posX" : -180,
+            "posY" : -45,
+            "width" : 25,
+            "height" : 25,
+			"alignment" : "center",
+			"texture" : "mainmenu:discord.png",
+            "imageHeight": "80",
+			"imageWidth": "80",
+			"action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/YGtcVhJ"
+			}
+        },
+        "quit":
+        {
+            "text" : "",
+            "tooltip" : "Quit Game",
+			"posX" : -180,
+            "posY" : 45,
+            "width" : 25,
+            "height" : 25,
+			"alignment" : "center",
+			"texture" : "mainmenu:quit.png",
+            "imageHeight": "80",
+			"imageWidth": "80",
+			"action" : 
+            {
+                "type" : "quit"
+			}
+        }
+        //"refresh":
+        //{
+            //"text" : "",
+            //"posX" : -154,
+            //"posY" : 132,
+            //"width" : 20,
+            //"height" : 20,
+            //"texture" : "custommainmenu:textures/gui/buttons.png",
+            //"action" : 
+            //{
+                //"type" : "refresh"
+            //}
+        //}
+    },
+    
+    "labels":
+    {
+         "modpack":
+        {
+            "text" : "PRIMAL SKIES",
+			"hoverText" : "§nPRIMAL SKIES",
+            "posX" : 3,
+            "posY" : -40,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : -1,
+			"alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://minecraft.curseforge.com/projects/primal-skies"
+            }
+		},	
+		"mojang":{
+            "text" : "Copyright Mojang AB",
+            "hoverText" : "§nCopyright Mojang AB",
+            "posX" : -88,
+            "posY" : -8,
+			"fontSize" : .8,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        "minecraft":{
+			"text" : "Minecraft #mcversion#",
+            "posX" : 3,
+            "posY" : -32,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"forge":{
+			"text" : "Forge #forgeversion#",
+            "posX" : 3,
+            "posY" : -24,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsloaded":{
+			"text" : "#modsloaded# Mods Loaded",
+            "posX" : 3,
+            "posY" : -16,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsactive":{
+			"text" : "#modsactive# Mods Active",
+            "posX" : 3,
+            "posY" : -8,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		}
+    },
+    
+    "other":
+    {
+        //"splash-text":
+        //{
+            //"posX" : 90,
+            //"posY" : 70,
+            //"color" : -256,
+            //"alignment" : "top_center",
+            //"texts" : "file:minecraft:texts/splashes.txt"
+        //},
+        
+        "background":
+        {
+            "image" : "mainmenu:background.png",
+			"mode" : "stretch"
+        }
+    }
+}
