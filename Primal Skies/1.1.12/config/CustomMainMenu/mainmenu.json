@@ -10,7 +10,7 @@
             //"height" : 512,
             //"alignment" : "top_center"
         //},
-        
+
         //"edition":
         //{
             //"image" : "custommainmenu:textures/gui/edition.png",
@@ -21,13 +21,13 @@
             //"alignment" : "top_center"
         //}
     },
-    
+
    "buttons":
     {
 		"singleplayer":
         {
             "text" : "",
-            "tooltip" : "Singleplayer",
+            "tooltip" : "\u5355\u4eba\u6e38\u620f",
 			"posX" : -180,
             "posY" : -105,
             "width" : 25,
@@ -36,7 +36,7 @@
 			"texture" : "mainmenu:singleplayer.png",
             "imageHeight": "80",
 			"imageWidth": "80",
-			"action" : 
+			"action" :
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
@@ -45,7 +45,7 @@
 		"Multiplayer":
         {
             "text" : "",
-            "tooltip" : "Multiplayer",
+            "tooltip" : "\u591a\u4eba\u6e38\u620f",
 			"posX" : -180,
             "posY" : -75,
             "width" : 25,
@@ -54,7 +54,7 @@
 			"texture" : "mainmenu:multiplayer.png",
             "imageHeight": "80",
 			"imageWidth": "80",
-			"action" : 
+			"action" :
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
@@ -63,7 +63,7 @@
 		"options":
         {
             "text" : "",
-            "tooltip" : "Options Menu",
+            "tooltip" : "\u8bbe\u7f6e",
 			"posX" : -180,
             "posY" : 15,
             "width" : 25,
@@ -72,7 +72,7 @@
 			"texture" : "mainmenu:options.png",
             "imageHeight": "80",
 			"imageWidth": "80",
-			"action" : 
+			"action" :
             {
                 "type" : "openGui",
                 "gui" : "options"
@@ -81,7 +81,7 @@
 		"mods":
         {
             "text" : "",
-            "tooltip" : "Mods Menu",
+            "tooltip" : "\u6a21\u7ec4",
 			"posX" : -180,
             "posY" : -15,
             "width" : 25,
@@ -90,7 +90,7 @@
 			"texture" : "mainmenu:mods.png",
             "imageHeight": "80",
 			"imageWidth": "80",
-			"action" : 
+			"action" :
             {
                 "type" : "openGui",
                 "gui" : "mods"
@@ -108,7 +108,7 @@
 			"texture" : "mainmenu:discord.png",
             "imageHeight": "80",
 			"imageWidth": "80",
-			"action" : 
+			"action" :
             {
                 "type" : "openLink",
                 "link" : "https://discord.gg/YGtcVhJ"
@@ -117,7 +117,7 @@
         "quit":
         {
             "text" : "",
-            "tooltip" : "Quit Game",
+            "tooltip" : "\u9000\u51fa",
 			"posX" : -180,
             "posY" : 45,
             "width" : 25,
@@ -126,7 +126,7 @@
 			"texture" : "mainmenu:quit.png",
             "imageHeight": "80",
 			"imageWidth": "80",
-			"action" : 
+			"action" :
             {
                 "type" : "quit"
 			}
@@ -139,40 +139,40 @@
             //"width" : 20,
             //"height" : 20,
             //"texture" : "custommainmenu:textures/gui/buttons.png",
-            //"action" : 
+            //"action" :
             //{
                 //"type" : "refresh"
             //}
         //}
     },
-    
+
     "labels":
     {
          "modpack":
         {
             "text" : "PRIMAL SKIES",
-			"hoverText" : "§nPRIMAL SKIES",
+			"hoverText" : "ï¿½nPRIMAL SKIES",
             "posX" : 3,
             "posY" : -40,
 			"fontSize" : .8,
             "color" : -1,
 			"hoverColor" : -1,
 			"alignment" : "bottom_left",
-            "action" : 
+            "action" :
             {
                 "type" : "openLink",
 				"link" : "https://minecraft.curseforge.com/projects/primal-skies"
             }
-		},	
+		},
 		"mojang":{
             "text" : "Copyright Mojang AB",
-            "hoverText" : "§nCopyright Mojang AB",
+            "hoverText" : "ï¿½nCopyright Mojang AB",
             "posX" : -88,
             "posY" : -8,
 			"fontSize" : .8,
             "color" : -1,
             "alignment" : "bottom_right",
-            "action" : 
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "credits"
@@ -215,7 +215,7 @@
             "alignment" : "bottom_left"
 		}
     },
-    
+
     "other":
     {
         //"splash-text":
@@ -226,7 +226,7 @@
             //"alignment" : "top_center",
             //"texts" : "file:minecraft:texts/splashes.txt"
         //},
-        
+
         "background":
         {
             "image" : "mainmenu:background.png",
