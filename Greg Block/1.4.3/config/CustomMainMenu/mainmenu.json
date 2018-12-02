@@ -1,0 +1,263 @@
+{
+    "images": {
+        "title": {
+            "image": "modpack:title/title.png",
+            "posX": -106,
+            "posY": -126,
+            "width": 212,
+            "height": 120,
+            "imageWidth": 1920,
+            "imageHeight": 1080,
+            "alignment": "center"
+        }
+    },
+
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text": "\u5355\u4eba\u6e38\u620f",
+            "normalTextColor": 16044800,
+            "hoverTextColor": 11540224,
+            "texture": "modpack:buttons/long_button.png",
+            "posX": -90,
+            "posY": -32,
+            "width":140,
+            "height":32,
+            "imageWidth": 700,
+            "imageHeight": 160,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"singleplayer"
+            }
+        },
+
+        "multiplayer":
+        {
+            "text": "\u591a\u4eba\u6e38\u620f",
+            "normalTextColor": 16044800,
+            "hoverTextColor": 11540224,
+            "texture": "modpack:buttons/long_button.png",
+            "posX": -90,
+            "posY": 0,
+            "width":140,
+            "height":32,
+            "imageWidth": 700,
+            "imageHeight": 160,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"multiplayer"
+            }
+        },
+
+        "mods":
+        {
+            "text": "\u6a21\u7ec4",
+            "normalTextColor": 16044800,
+            "hoverTextColor": 11540224,
+            "texture": "modpack:buttons/long_button.png",
+            "posX": -90,
+            "posY": 32,
+            "width":140,
+            "height":32,
+            "imageWidth": 700,
+            "imageHeight": 160,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"mods"
+            }
+        },
+
+        "quit":
+        {
+            "text": "\u9000\u51fa",
+            "normalTextColor": 16044800,
+            "hoverTextColor": 11540224,
+            "texture": "modpack:buttons/long_button.png",
+            "posX": -90,
+            "posY": 64,
+            "width":140,
+            "height":32,
+            "imageWidth": 700,
+            "imageHeight": 160,
+            "alignment":"center",
+            "action":{
+                "type":"quit"
+            }
+        },
+
+        "options":
+        {
+            "text": "",
+            "normalTextColor": 16044800,
+            "hoverTextColor": 11540224,
+            "tooltip": "\u8bbe\u7f6e",
+            "texture": "modpack:buttons/settings.png",
+            "posX": 58,
+            "posY": -32,
+            "width" : 32,
+            "height" : 32,
+            "alignment" : "center",
+            "imageWidth": "320",
+            "imageHeight": "320",
+            "action" :{
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "language": {
+            "text": "",
+            "normalTextColor": 16044800,
+            "hoverTextColor": 11540224,
+            "tooltip": "\u8bed\u8a00",
+            "texture": "modpack:buttons/lang.png",
+            "posX": 62,
+            "posY": 4,
+            "width" : 24,
+            "height" : 24,
+            "alignment" : "center",
+            "imageWidth": "320",
+            "imageHeight": "320",
+            "action" :{
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+        "discord": {
+            "text": "",
+            "normalTextColor": 16044800,
+            "hoverTextColor": 11540224,
+            "tooltip": "\u70b9\u51fb\u52a0\u5165\u6211\u4eec\u7684\u0020\u0044\u0069\u0073\u0063\u006f\u0072\u0064\u0020\u670d\u52a1\u5668",
+            "texture": "modpack:buttons/discord.png",
+            "posX": 62,
+            "posY": 36,
+            "width" : 24,
+            "height" : 24,
+            "alignment" : "center",
+            "imageWidth": "320",
+            "imageHeight": "320",
+            "action" : {
+                "type" : "openLink",
+                "link" : "https://discord.gg/3yHZvHk"
+            }
+        },
+
+        "Bug Report": {
+            "text": "",
+            "normalTextColor": 16044800,
+            "hoverTextColor": 11540224,
+            "tooltip": "\u53cd\u9988\u0020\u0062\u0075\u0067",
+            "texture": "modpack:buttons/bug.png",
+            "posX": 62,
+            "posY": 68,
+            "width" : 24,
+            "height" : 24,
+            "alignment" : "center",
+            "imageWidth": "320",
+            "imageHeight": "320",
+            "action" : {
+                "type" : "openLink",
+                "link" : "https://github.com/EmosewaPixel/GregBlock/issues"
+            }
+        },
+
+
+        "refresh": {
+            "text": "",
+            "posX": -154,
+            "posY": 132,
+            "width": 0,
+            "height": 0,
+            "texture": "modpack:buttons/refresh.png",
+            "action": {
+                "type": "refresh"
+            }
+        }
+    },
+
+
+    "labels":
+    {
+        "mojang":{
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -125,
+            "posY" : -10,
+            "fontSize": 0.6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment" : "bottom_right"
+        },
+        "song":{
+            "text" : "Menu Song: Gaslamp Funworks by Kevin MacLeod",
+            "posX" : -150,
+            "posY" : -20,
+            "fontSize": 0.6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment" : "bottom_right",
+            "action" : {
+                "type" : "openLink",
+                "link" : "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100826"
+            }
+        },
+        "forge": {
+            "text": "Minecraft #forgeversion#-#mcversion#",
+            "posX": 3,
+            "posY": -16,
+            "fontSize": 0.6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment": "bottom_left"
+        },
+        "modsloaded": {
+            "text": "#modsactive#/#modsloaded# Mods Loaded",
+            "posX": 3,
+            "posY": -10,
+            "fontSize": 0.6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment": "bottom_left"
+        },
+        "modpack": {
+            "text": "GregBlock 1.4.3",
+            "posX": 3,
+            "posY": -22,
+            "fontSize": 0.6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment": "bottom_left"
+        },
+        "Welcome": {
+            "text": "\u6b22\u8fce\u4f60 #username#",
+            "posX": 3,
+            "posY": -28,
+            "fontSize": 0.6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment": "bottom_left"
+        }
+    },
+
+    "other":
+    {
+        "splash-text": {
+            "posX": 80,
+            "posY": -51,
+            "color": -256,
+            "alignment": "center",
+            "texts": "file:modpack:Logo/splash.txt"
+        },
+
+
+        "background":{
+            "image":"modpack:background/background.png",
+            "mode":"fill"
+        }
+    }
+}
