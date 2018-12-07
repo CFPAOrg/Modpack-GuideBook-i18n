@@ -1,4 +1,4 @@
-# Configuration file
+﻿# Configuration file
 
 enablelangfile {
     B:UseThisFileAsLanguageFile=true
@@ -6426,7 +6426,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_799_Index_3=[19] 辣鸡转化为废料
     S:TileEntity_DESCRIPTION_799_Index_4=[20] 辣鸡转化为UU-A
     S:TileEntity_DESCRIPTION_799_Index_5=[21] 废料转化为UU-A
-    S:TileEntity_DESCRIPTION_799_Index_6=[22] 生产UU-M(2.0.4.9版本实测貌似放啥电路板都是出UU-M)
+    S:TileEntity_DESCRIPTION_799_Index_6=[22] 生产UU-M
     S:TileEntity_DESCRIPTION_799_Index_7=大小(宽x高x长)：5x4x5，控制器方块(底层侧中)
     S:TileEntity_DESCRIPTION_799_Index_8=3x1x3的质量发生线圈(底层中央)
     S:TileEntity_DESCRIPTION_799_Index_9=9x质量发生线圈(底层中央的3x1x3区域)
@@ -6523,7 +6523,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_828_Index_7=回旋加速器线圈周围放置回旋加速器机械方块
     S:TileEntity_DESCRIPTION_828_Index_8=1-16x输入仓
     S:TileEntity_DESCRIPTION_828_Index_9=1-16x输入总线
-    S:TileEntity_DESCRIPTION_829_Index_0=珠海渔场的控制器方块(当前版本(2.0.5.1)这个多方块判定非常诡异，诸位搭建时请保持冷静)
+    S:TileEntity_DESCRIPTION_829_Index_0=珠海渔场的控制器方块(已被代码禁用)
     S:TileEntity_DESCRIPTION_829_Index_1=大小(宽x高x长): 9x3x9 (上侧开放)
     S:TileEntity_DESCRIPTION_829_Index_10=1x输出总线 (任意机械方块)
     S:TileEntity_DESCRIPTION_829_Index_11=1x输入总线 (任意机械方块)
