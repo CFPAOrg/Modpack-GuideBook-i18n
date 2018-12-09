@@ -6771,10 +6771,10 @@ languagefile {
     S:TileEntity_DESCRIPTION_876_Index_17=1x能源仓
     S:TileEntity_DESCRIPTION_876_Index_18=仓室和总线可以置于任意位置
     S:TileEntity_DESCRIPTION_876_Index_19=剩余方块为自动合成框架
-    S:TileEntity_DESCRIPTION_876_Index_2=这个机器可以用来合成、装配、拆解物品或组装电路
+    S:TileEntity_DESCRIPTION_876_Index_2=这个机器可以用来合成、装配、拆解物品
     S:TileEntity_DESCRIPTION_876_Index_20=--------------------------------------
     S:TileEntity_DESCRIPTION_876_Index_21=每秒造成500污染
-    S:TileEntity_DESCRIPTION_876_Index_22=机器类型: §e组装机, 拆解机, 电路组装机, 自动合成机§r
+    S:TileEntity_DESCRIPTION_876_Index_22=机器类型: §e组装机, 拆解机, 自动合成机§r
     S:TileEntity_DESCRIPTION_876_Index_23=添加者: §2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_876_Index_3=比同电压下的单方块机器快200%
     S:TileEntity_DESCRIPTION_876_Index_4=每提升一个电压等级，每次运行可以多处理2个物品
