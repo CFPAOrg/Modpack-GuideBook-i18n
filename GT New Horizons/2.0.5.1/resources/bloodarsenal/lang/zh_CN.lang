@@ -105,7 +105,7 @@ item.bound_diamond_shard_dusk.name=约束钻石黄昏碎片
 item.bound_diamond_shard_dawn.name=约束钻石黎明碎片
 item.wand_caps.blood_iron.name=注血铁杖端
 item.wand_cores.blood_wood.name=注血木杖柄
-item.wand_cores.blood_wood_staff.name=注血木厄运法杖
+item.wand_cores.blood_wood_staff.name=注血木杖芯
 item.Wand.blood_iron.cap=注血铁杖端
 item.Wand.blood_wood.rod=注血木杖柄
 
@@ -277,5 +277,5 @@ blood_arsenal.research_page.ROD_blood_wood.1=你在血腥杖柄上的研究让�
 blood_arsenal.research_page.ROD_blood_wood.2=与炼金杖端适用相同的法则...
 #
 blood_arsenal.research_name.ROD_blood_wood_staff=注血木杖芯
-blood_arsenal.research_text.ROD_blood_wood_staff=带来厄运的盛宴
+blood_arsenal.research_text.ROD_blood_wood_staff=带来地狱的盛宴
 blood_arsenal.research_page.ROD_blood_wood_staff.1=即使使用你的超级再生法杖和杖端,你仍然不满意.你知道当用血腥杖芯替换血腥杖柄后,法杖的恢复速度是原来的4倍但是储量只有原来的一半.使用一些黑暗魔法和血腥杖芯,你现在可以创造一个活生生的恐怖.此法杖的恢复速度是血腥法杖的2倍，但这也是注血木自身的再生能力达到极限的地方:注血木本身似乎试图以比实际更快的速度再生.为了弥补这一点，它必须在每次恢复vis时从玩家那里吸取生命.与别的血腥法杖不同,它才不关心你是死是活...
