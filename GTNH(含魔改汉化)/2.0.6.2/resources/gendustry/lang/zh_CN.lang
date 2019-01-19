@@ -1,3 +1,5 @@
+#zh_CN
+
 # ==== BLOCKS ====
 
 tile.gendustry.mutagen_producer.name=诱变剂制造机
@@ -29,9 +31,7 @@ item.gendustry.grafter.name=工业剪枝器
 item.gendustry.scoop.name=MX200涡轮捕蜂网
 item.gendustry.ImportCover.name=物品输入盖板
 item.gendustry.EjectCover.name=物品输出盖板
-item.gendustry.ErrorSensorCover.name=错误传感器盖板
 item.gendustry.PollenKit.name=花粉收集装备
-item.gendustry.HiveSpawnDebugger.name=蜂巢生成调整器(Debug)
 
 # ==== FLUIDS ====
 
@@ -75,7 +75,6 @@ gendustry.upgrades.plains.name=平原环境升级
 gendustry.upgrades.jungle.name=丛林环境升级
 gendustry.upgrades.ocean.name=海洋环境升级
 gendustry.upgrades.stabilizer.name=基因稳定升级
-gendustry.upgrades.scrubber.name=花粉洗涤塔升级
 
 # ==== GUI AND TOOLTIPS ====
 
@@ -141,13 +140,6 @@ gendustry.label.items=%s 物品
 
 gendustry.label.shift=<按下SHIFT获取更多信息>
 
-gendustry.cover.label=盖板: %s
-
-gendustry.cover.error.message=如果检测到%s, 将发射红石信号
-gendustry.cover.error.hint=(空手右键以改变)
-gendustry.cover.error.any=任何可能的错误
-gendustry.cover.error.none=没有错误
-
 # ==== CHROMOSOMES (should match forestry) ====
 
 gendustry.chromosome.FLOWER_PROVIDER=鲜花
@@ -199,7 +191,7 @@ gendustry.trigger.working=机器运作中
 gendustry.givetemplate.usage=/givetemplate <uid>
 gendustry.givetemplate.success=基因模板 %s 已给玩家 %s
 
-gendustry.givesample.usage=/givesample <品种> <染色体> <基因>
+gendustry.givesample.usage=/givesample <species> <chromosome> <allele>
 gendustry.givesample.error.root=未知的品种: %s
 gendustry.givesample.error.allele=未知的基因: %s
 gendustry.givesample.error.chromosome=未知的染色体: %s
@@ -234,6 +226,7 @@ gendustry.bees.species.white=白色
 
 gendustry.bees.species.derpious=逗逼
 gendustry.bees.species.derpious.description=一个有趣的种类,看起来喜欢传播鲜花和范二.
+
 
 # ==== COMBS ====
 
@@ -275,8 +268,6 @@ itemGroup.bdew.gendustry=基因工业
 itemGroup.bdew.templates=基因工业|模板
 itemGroup.bdew.samples=基因工业|样本
 itemGroup.bdew.hives=基因工业|自定义蜂房
-
-gendustry.errorstate.ok=没有错误
 
 for.gendustry.errorstate.disabled.description=能量不足
 for.gendustry.errorstate.disabled.help=被配置文件禁用

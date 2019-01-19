@@ -85,9 +85,9 @@ ghostNDoor.name=幽魂树木门
 bloodNDoor.name=血树木门
 redwoodBarkNDoor.name=红木树皮门
 
-block.bark.redwood.name=红木树皮
-block.heart.redwood.name=红木
-block.root.redwood.name=红木树根
+block.bark.Redwood.name=红木树皮
+block.heart.Redwood.name=红木
+block.root.Redwood.name=红木树根
 
 block.eucalyptus.NPlanks.name=桉树木板
 block.sakura.NPlanks.name=樱花树木板

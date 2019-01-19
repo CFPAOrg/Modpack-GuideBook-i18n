@@ -1,4 +1,4 @@
-#Simplified Chinese (CN) made by Jrant&Kiwi
+#Simplified Chinese (CN) made by Jrant
 # Dimensions
 achievement.miningcoppergc=这就是我们已经看到的...
 achievement.miningcoppergc.desc=开采铜矿石
@@ -44,8 +44,8 @@ achievement.oilgc=黑金
 achievement.oilgc.desc=收集一桶原油
 achievement.fuelgc=燃料！
 achievement.fuelgc.desc=把燃料倒进桶里
-achievement.rocketgc=进入太空!
-achievement.rocketgc.desc=制作一个1阶火箭.
+achievement.rocketgcgc=几乎全在星空！
+achievement.rocketgcgc.desc=制作1阶火箭
 achievement.moongc=人类的一小步！
 achievement.moongc.desc=登陆月球！
 achievement.bossmoongc=你就这点能耐？
@@ -58,8 +58,6 @@ achievement.rocket2gc=它更好！
 achievement.rocket2gc.desc=制作一个2阶火箭
 achievement.marsgc=大新闻：火星一号！
 achievement.marsgc.desc=登陆火星！
-
-menu.update=更新 [星空MOD]!
 
 tile.MercuryGrunt.name=水星地表岩石
 tile.MercurySubGrunt.name=水星地底岩石
@@ -75,33 +73,6 @@ tile.VenusDiamondOre.name=金星钻石矿石
 
 tile.LeadOre.name=铅矿石
 tile.DecoLead.name=装饰铅块
-tile.DecoAdamantite.name=装饰精金块
-tile.DecoCobaltum.name=装饰钴块
-tile.DecoMagnesium.name=装饰镁块
-tile.DecoMithril.name=装饰秘银块
-tile.DecoNickel.name=装饰镍块
-tile.DecoOriharukon.name=装饰山铜块
-tile.DecoPlatinum.name=装饰铂块
-tile.DecoWolframium.name=装饰钨块
-tile.DecoCopper.name=装饰铜块
-
-tile.FutureGlass_None.name=未来玻璃
-tile.FutureGlass_Black.name=黑色未来玻璃
-tile.FutureGlass_Red.name=红色未来玻璃
-tile.FutureGlass_Green.name=绿色未来玻璃
-tile.FutureGlass_Brown.name=棕色未来玻璃
-tile.FutureGlass_Blue.name=蓝色未来玻璃
-tile.FutureGlass_Purple.name=紫色未来玻璃
-tile.FutureGlass_Cyan.name=青色未来玻璃
-tile.FutureGlass_Lightgray.name=浅灰色未来玻璃
-tile.FutureGlass_Gray.name=灰色未来玻璃
-tile.FutureGlass_Pink.name=粉色未来玻璃
-tile.FutureGlass_Lime.name=亮绿色未来玻璃
-tile.FutureGlass_Yellow.name=黄色未来玻璃
-tile.FutureGlass_Lightblue.name=浅蓝色未来玻璃
-tile.FutureGlass_Magneta.name=品红色未来玻璃
-tile.FutureGlass_Orange.name=橙色未来玻璃
-tile.FutureGlass_White.name=白色未来玻璃
 
 tile.CeresGrunt.name=谷神星地表岩石
 tile.CeresSubGrunt.name=谷神星地底岩石
@@ -109,8 +80,6 @@ tile.CeresGlowStone.name=谷神星萤石
 tile.CeresBricks.name=谷神星地牢砖
 tile.CeresMeteoricIronOre.name=谷神星陨铁矿石
 tile.CeresWeb.name=谷神星网
-tile.CeresDungFloor.name=谷神星地牢地面
-tile.CeresDungTop.name=谷神星地牢天花板
 
 tile.PlutoGrunt.name=冥王星地表岩石
 tile.PlutoGrunt2.name=冥王星石头
@@ -126,8 +95,8 @@ tile.HaumeaGrunt.name=妊神星石头
 tile.MakemakeGrunt.name=鸟神星地表岩石
 tile.MakemakeSubGrunt.name=鸟神星地底岩石
 
-tile.PhobosGrunt.name=火卫一地表岩石
-tile.PhobosSubGrunt.name=火卫一地表岩石
+tile.PhobosRock.name=火卫一地表岩石
+tile.PhobosSecRock.name=火卫一地底岩石
 tile.PhobosStone.name=火卫一石头
 tile.PhobosDeshOre.name=火卫一戴斯矿石
 tile.PhobosCobaltumOre.name=火卫一钴矿石
@@ -146,9 +115,6 @@ tile.IOWolframiumOre.name=木卫一钨矿石
 tile.IOCopperOre.name=木卫一铜矿石
 tile.IOWeb.name=木卫一网
 tile.IODualStone.name=木卫一灰烬石
-tile.IOSulfurOre.name=木卫一硫矿石
-tile.IODungTop.name=木卫一地牢天花板
-tile.IODungFloor.name=木卫一地牢地板
 
 tile.EuropaGrunt.name=木卫二表面方块
 tile.EuropaIce.name=木卫二冰
@@ -180,11 +146,6 @@ tile.TitanSubGrunt.name=土卫六地底岩石
 tile.TitanStone.name=土卫六石头
 tile.Methane.name=土卫六液态甲烷
 
-tile.MirandaGrunt.name=天卫五地表岩石
-tile.MirandaSubGrunt.name=天卫五地底岩石
-tile.MirandaStone.name=天卫五石头
-tile.MirandaIronOre.name=天卫五铁矿石
-
 tile.OberonGrunt.name=天卫四地表岩石
 tile.OberonSubGrunt.name=天卫四地底岩石
 tile.OberonStone.name=天卫四石头
@@ -203,8 +164,8 @@ tile.TritonSubGrunt.name=海卫一地底岩石
 tile.TritonStone.name=海卫一石头
 tile.TritonMithrilOre.name=海卫一秘银矿石
 
-tile.ACentauriBbGrunt.name=半人马Bb地表岩石
-tile.ACentauriBbSubGrunt.name=半人马Bb地底岩石
+tile.ACentauriBbGrunt.name=南门二Bb地表岩石
+tile.ACentauriBbSubGrunt.name=南门二Bb地底岩石
 
 tile.Barnarda2Grass.name=巴纳德C草方块
 tile.Barnarda2Dirt.name=巴纳德C泥土
@@ -212,7 +173,7 @@ tile.Barnarda2Dandelions.Dandelion1.name=巴纳德C草
 tile.Barnarda2Dandelions.Dandelion2.name=巴纳德C蒲公英
 tile.Barnarda2Dandelion3.name=巴纳德C灯笼花
 tile.Barnarda2Log.name=巴纳德C树木
-tile.Barnarda2PlanksOak.name=巴纳德C树木木板
+tile.Barnarda2PlanksOak.name=Oak Planks from Barnarda C Log
 tile.Sapling_1.name=巴纳德C树苗
 tile.Leaves_1.name=巴纳德C树叶
 tile.BarnardaEGrunt.name=巴纳德E地表岩石
@@ -223,46 +184,16 @@ tile.BarnardaEOreGold.name=巴纳德E金矿石
 tile.BarnardaFGrunt.name=巴纳德F地表岩石
 tile.BarnardaFSubGrunt.name=巴纳德F地底岩石
 tile.UnknowWater.name=不明液体
-tile.Barnarda2Reed.Reed1.name=巴纳德C蒲公英
-tile.Barnarda2Reed.Reed2.name=巴纳德C饱满的蒲公英
 
-tile.VegaBGrunt.name=织女一B地表岩石
-tile.VegaBSubGrunt.name=织女一B地底岩石
+tile.VegaBGrunt.name=Vega B Surface Block
+tile.VegaBSubGrunt.name=Vega B Subsurface Block
 
-tile.TCetiEGrunt.name=鲸鱼座T星E地表岩石
-tile.TCetiESubGrunt.name=鲸鱼座T星E地底岩石
-tile.TCetiEStone.name=鲸鱼座T星E岩石
-tile.TCetiEBlockDandelions.TCetiEDandelion1.name=鲸鱼座T星E藻类
-tile.TCetiEBlockDandelions.TCetiEDandelion2.name=鲸鱼座T星E藻类
-tile.TCetiEBlockDandelions.TCetiEDandelion3.name=鲸鱼座T星E藻类
-tile.TCetiEBlockDandelions.TCetiEDandelion4.name=鲸鱼座T星E藻类
-tile.TCetiEBlockDandelions.TCetiEDandelion5.name=鲸鱼座T星E藻类
-tile.TCetiEBlockDandelions.TCetiEDandelion6.name=鲸鱼座T星E藻类
+tile.BlockDecorateCopper.name=装饰铜块
 
 tile.AssemblyMachine.name=熔合机
-tile.AssemblyMachine.desc=压缩机的高级版本。用激光熔合材料。
 tile.GeothermalGenerator.name=岩浆发电机
-tile.GeothermalGenerator.desc=把岩浆的能量转化为可用能量。
-tile.FuelGenerator.name=燃油发电机
-tile.FuelGenerator.desc=燃油发电机消耗燃油,产生大量的能量。
-tile.SolarWindPanel.name=太阳风发电机
-tile.SolarWindPanel.desc=它将太阳风转换成能量。它在行星的大气层里效率不好。
-tile.ConverterSurface.name=草方块制造机
-tile.ConverterSurface.desc=制造草方块。改造星球时一种实用的机器。
-tile.MachineFrame.name=改良的机械框架
-tile.StorageModuleT3_4.name=改良的储能簇
-tile.StorageModule.desc=能量簇的改良版本，能储存巨大的能量。
-tile.OxygenStorageModuleT2_4.name=改良的储氧模块
-tile.OxygenStorageModule.desc=改良版本的储氧模块，可以储存两倍的氧气。
-tile.SolarPanel.name=混合太阳风发电机
-tile.SolarHybrid.desc=镀金的混合面板，和之前的相比能产生出两倍的能量。
-tile.coefficient.desc=发电系数
-
-tile.tier4chest.description=4阶宝箱在谷神星生成。击杀BOSS后才能打开。
-tile.tier5chest.description=5阶宝箱在木卫一生成。击杀BOSS后才能打开。
-tile.tier6chest.description=6阶宝箱在土卫二生成。击杀BOSS后才能打开。
-tile.tier7chest.description=7阶宝箱在海卫八生成。击杀BOSS后才能打开。
-tile.tier8chest.description=8阶宝箱在冥王星生成。击杀BOSS后才能打开。
+tile.FuelGenerator.name=Fuel Generator
+tile.SolarWindPanel.name=Solar Wind Panel
 
 item.SchematicTier4.name=NASA工作台图纸
 item.SchematicTier5.name=NASA工作台图纸
@@ -289,28 +220,16 @@ item.HeavyDutyPlate7.name=重型板
 item.HeavyDutyPlate8.name=重型板
 
 item.JetPack.name=电动喷气背包
-item.lead_helmet.name=铅盔
-item.lead_plate.name=铅铠
+item.lead_helmet.name=铅头盔
+item.lead_plate.name=铅胸甲
 item.lead_leg.name=铅护腿
 item.lead_boots.name=铅靴
-item.cobaltum_helmet.name=钴盔
-item.cobaltum_plate.name=钴铠
-item.cobaltum_leg.name=钴护腿
-item.cobaltum_boots.name=钴靴
 item.plasmasword.name=等离子剑
 item.plasmaaxe.name=等离子斧
 item.plasmapickaxe.name=等离子镐
 item.plasmahoe.name=等离子锄
 item.plasmashovel.name=等离子铲
-item.QuantBow.name=量子弓
-item.spacesuit_helmet.name=宇航盔
-item.spacesuit_plate.name=宇航服
-item.spacesuit_leg.name=宇航裤
-item.spacesuit_boots.name=宇航鞋
-
-item.spacesuit_helmetglasses.name=宇航服传感器眼镜
-item.spacesuit_jetplate.name=宇航服喷气背包
-item.spacesuit_gravityboots.name=宇航服重力靴子
+item.QuantBow.name=Quant Bow
 
 item.LeadIngot.name=铅锭
 item.DuraluminIngot.name=杜拉铝锭
@@ -336,7 +255,7 @@ item.CompressedOriharukon.name=致密山铜板
 item.CompressedCoal.name=致密煤炭板
 item.CompressedDualBronze.name=致密双青铜板
 item.CompressedDualAluminium.name=致密双铝板
-item.CompressedSDHD120.name=致密SDHC-120合金
+item.CompressedSDHD120.name=致密"SDHC-120"合金
 item.UnknowCrystal.name=未知的水晶碎片
 item.Sulfur.name=硫粉
 item.MethaneBucket.name=液态甲烷桶
@@ -350,23 +269,15 @@ item.thermalHelmT2.name=热力充能头盔
 item.thermalChestplateT2.name=热力充能胸甲
 item.thermalLeggingsT2.name=热力充能护腿
 item.thermalBootsT2.name=热力充能靴
-item.RocketConeT2.name=2阶耐久鼻锥
-item.RocketEngineT2.name=2阶耐久火箭引擎
-item.RocketBoosterT2.name=2阶耐久助推器
-item.RocketStabilisatorT2.name=2阶耐久火箭尾鳍
-item.PartSolarFlares.name=太阳风扇部件
-item.SolarFlares.name=太阳风扇
+item.RocketConeT2.name=Durable Nose Cone Tier 2
+item.RocketEngineT2.name=Durable Rocket Engine Tier 2
+item.RocketBoosterT2.name=Booster Tier 2
+item.RocketStabilisatorT2.name=Durable Rocket Vane Tier 2
+item.PartSolarFlares.name=Part Solar Flares
+item.SolarFlares.name=Solar Flares
+
 item.LeadBattery.name=铅电池
 item.UnknowWaterBucket.name=不明液体桶
-item.BarnardaCStrawberry.name=未知的水果
-
-item.biofuelCanister.name=有机燃料罐
-
-item.CeresGlowstoneDust.name=谷神星萤石粉
-item.IoGlowstoneDust.name=木卫一萤石粉
-item.EnceladusGlowstoneDust.name=土卫二萤石粉
-item.ProteusGlowstoneDust.name=海卫八萤石粉
-item.PlutoGlowstoneDust.name=冥王星萤石粉
 
 potion.radiation=恒星辐射
 
@@ -384,23 +295,14 @@ gui.hdp8.desc=8阶
 
 gui.thermal2.desc1=2阶
 gui.thermal2.desc2=保护你远离恒星的辐射。
-gui.spacesuit.desc=适用于高压。它能稳定你的大气压力。此外,头盔允许更长时间在水里。
-gui.ssglasses.desc=宇航服传感器眼镜让你在山洞里能看到矿石。
-gui.ssjetplate.desc=集成的喷气背包让你在星球上快速移动。
-gui.ssboots.desc=附加的致密镁板能增加你的重量。
 
 gui.module.desc=火箭模块
 gui.status.nolava.name=没有岩浆
 gui.message.lava.name=岩浆
-gui.message.water.name=水
-gui.status.nofuelgenerator.name=没有燃料
-gui.warning.atmosphericPressure=高压！
-gui.message.biofuel.name=有机燃料
+gui.status.nofuelgenerator.name=No Fuel
 
-gui.quantbow.desc1=1.5倍耐久和2倍的伤害！
-gui.quantbow.desc2=火矢
-
-gs.success.name=最新版星空MOD:
+gui.quantbow.desc1=x1.5 Durability and x2 Damage!
+gui.quantbow.desc2=Fiery Arrows
 
 itemGroup.AddonsBlocks=星空|方块
 itemGroup.AddonsItems=星空|物品
@@ -441,13 +343,13 @@ moon.Dione=土卫四
 moon.Rheya=土卫五
 moon.Titan=土卫六
 moon.Iapetus=土卫八
-moon.Miranda=天卫五
 moon.Ariel=天卫一
 moon.Umbriel=天卫二
 moon.Titania=天卫三
 moon.Oberon=天卫四
-moon.Proteus=海卫八
+moon.Miranda=天卫五
 moon.Triton=海卫一
+moon.Proteus=海卫八
 planet.pluto=冥王星
 moon.Charon=冥卫一(卡戎)
 planet.kuiperbelt=柯伊伯带
@@ -455,13 +357,11 @@ planet.haumea=妊神星
 planet.makemake=鸟神星
 planet.eris=阋神星
 
-solarsystem.aCentauriSystem=半人马星系
-solarsystem.ProximaSystem=比邻星系
-star.CentauriA=半人马A
-planet.CentauriB=半人马B
-planet.CentauriBb=半人马Bb
-star.Proxima=比邻星
-planet.ProximaB=比邻星B
+solarsystem.aCentauriSystem=南门二星系
+star.CentauriA=南门二A
+planet.CentauriB=南门二B
+planet.CentauriBb=南门二Bb
+planet.Proxima=比邻星
 
 solarsystem.BarnardsSystem=巴纳德星系
 star.Barnarda=巴纳德星
@@ -478,14 +378,3 @@ star.Vega=织女一
 planet.Vega1=织女一B
 planet.Vega2=织女一C
 planet.VegaAsteroids=织女星系小行星带
-planet.VegaAsteroids2=织女星系小行星带
-
-solarsystem.TCetiSystem=鲸鱼座T星星系
-star.TCetiA=鲸鱼座T星
-planet.TCetiB=鲸鱼座T星B
-planet.TCetiC=鲸鱼座T星C
-planet.TCetiD=鲸鱼座T星D
-planet.TCetiE=鲸鱼座T星E
-planet.TCetiF=鲸鱼座T星F
-planet.TCetiG=鲸鱼座T星G
-planet.TCetiAsteroids=鲸鱼座T星星系小行星带

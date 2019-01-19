@@ -5,7 +5,6 @@ item.itemSpawnEggEnderZoo.name=生成
 item.witheringDust.name=凋零粉末
 item.confusingDust.name=混乱粉末
 item.enderFragment.name=末影碎片
-item.guardiansBow.name=守卫者之弓
 
 
 //Mobs
@@ -16,7 +15,6 @@ entity.enderzoo.FallenMount.name=堕落战马
 entity.enderzoo.WitherWitch.name=凋零女巫
 entity.enderzoo.WitherCat.name=凋零猫
 entity.enderzoo.DireWolf.name=冰原狼
-entity.enderzoo.DireSlime.name=史莱姆骑士
 
 //Waila
 entity.enderzoo.Enderminy.desc.1=中立生物,
@@ -37,4 +35,3 @@ enchantment.enderzoo.witherWeapon=腐朽
 tile.blockConfusingCharge.name=混乱炸药
 tile.blockEnderCharge.name=末影炸药
 tile.blockConcussionCharge.name=震荡炸药
-

@@ -1,4 +1,4 @@
-# Master language file
+# zh_CN
 
 buildcraft.boardRobotPicker=拾取机器人
 buildcraft.boardRobotLumberjack=伐木机器人
@@ -37,8 +37,8 @@ buildcraft.boardRobotBuilder.desc=修建房屋
 buildcraft.boardRobotCrafter.desc=合成物品
 buildcraft.boardRobotDelivery.desc=根据需求配送物品
 buildcraft.boardRobotPump.desc=泵出流体
-buildcraft.boardRobotStripes.desc=嗯...条纹! 
-buildcraft.boardRobotBreaker.desc=采掘石头
+buildcraft.boardRobotStripes.desc=采掘石头
+buildcraft.boardRobotStripes.desc=采掘石头
 
 chat.gateCopier.clear=门信息已清除.
 chat.gateCopier.gateCopied=复制门信息到拷贝器中.
@@ -59,8 +59,6 @@ chat.pipe.power.iron.level.160=适量
 chat.pipe.power.iron.level.320=高
 chat.pipe.power.iron.level.640=极高
 chat.pipe.power.iron.level.1280=满容量
-
-color.clear=清除
 
 color.black=黑色
 color.blue=蓝色
@@ -271,8 +269,6 @@ gate.trigger.time.0=夜晚
 gate.trigger.time.6=早晨
 gate.trigger.time.12=下午
 gate.trigger.time.18=傍晚
-gate.trigger.fuelLevelBelow=燃料储量 < %d%%
-gate.trigger.coolantLevelBelow=冷却剂储量 < %d%%
 
 gui.fluidtank.empty=空
 
@@ -317,7 +313,7 @@ item.redPipeWire.name=红色管线
 item.bluePipeWire.name=蓝色管线
 item.greenPipeWire.name=绿色管线
 item.yellowPipeWire.name=黄色管线
-item.redstoneCrystal.name=火石晶体
+item.redstoneCrystal.name=红石晶体
 item.redstone_red_chipset.name=红石芯片
 item.redstone_iron_chipset.name=铁质芯片
 item.redstone_gold_chipset.name=金质芯片
@@ -484,10 +480,6 @@ tip.PipePowerWood=能量输入管道
 tip.PipeStructureCobblestone=支撑类管道
 tip.deprecated=不可用
 
-tip.gate.charged=已充能
-tip.gate.fullcharge=满充能
-tip.gate.nocharge=无充能
-
 tip.filler.excavate.on=采掘
 tip.filler.excavate.off=不采掘
 
@@ -581,11 +573,9 @@ command.buildcraft.buildcraft.version.format=格式: /%s
 command.buildcraft.buildcraft.changelog.desc=- %s : Changelog
 command.buildcraft.buildcraft.changelog.help=显示最新BC日志.
 command.buildcraft.buildcraft.changelog.format=格式: /%s
-
 command.buildcraft.buildcraft.op.desc=- %s : Op FakePlayer
 command.buildcraft.buildcraft.op.help=给予BC模拟玩家(以采石场，机器人等名义执行动作)服务器op权限.
 command.buildcraft.buildcraft.op.format=格式: /%s
-
 command.buildcraft.buildcraft.deop.desc=- %s : Deop FakePlayer
 command.buildcraft.buildcraft.deop.help=撤销BC模拟玩家(以采石场，机器人等名义执行动作)服务器op权限.
 command.buildcraft.buildcraft.deop.format=格式: /%s

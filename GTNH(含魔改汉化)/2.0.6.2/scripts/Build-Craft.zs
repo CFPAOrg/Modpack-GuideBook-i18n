@@ -721,46 +721,46 @@ PrecisionLaser.addRecipe(<BuildCraft|Silicon:redstoneCrystal>, <gregtech:gt.meta
 
 
 // --- Wood-Covered Kinesis Pipe
-NEI.overrideName(PipeWoodKinesis, "\u6728\u8d28\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeWoodKinesis, "Wood-Covered Kinesis Pipe");
 
 // --- Cobblestone-Covered Pipe
-NEI.overrideName(PipeCobble, "\u5706\u77f3\u7ba1\u9053");
+NEI.overrideName(PipeCobble, "Cobblestone-Covered Pipe");
 
 // --- Cobblestone-Covered Kinesis Pipe
-NEI.overrideName(PipeCobbleKinesis, "\u5706\u77f3\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeCobbleKinesis, "Cobblestone-Covered Kinesis Pipe");
 
 // --- Stone-Covered Pipe
-NEI.overrideName(PipeStone, "\u77f3\u5934\u7ba1\u9053");
+NEI.overrideName(PipeStone, "Stone-Covered Pipe");
 
 // --- Stone-Covered Kinesis Pipe
-NEI.overrideName(PipeStoneKinesis, "\u77f3\u5934\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeStoneKinesis, "Stone-Covered Kinesis Pipe");
 
 // --- Sandstone-Covered Pipe
-NEI.overrideName(PipeSandstone, "\u6c99\u77f3\u7ba1\u9053");
+NEI.overrideName(PipeSandstone, "Sandstone-Covered Pipe");
 
 // --- Sandstone-Covered Kinesis Pipe
-NEI.overrideName(PipeSandstoneKinesis, "\u6c99\u77f3\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeSandstoneKinesis, "Sandstone-Covered Kinesis Pipe");
 
 // --- Iron-Covered Pipe
-NEI.overrideName(PipeIron, "\u94c1\u8d28\u7ba1\u9053");
+NEI.overrideName(PipeIron, "Iron-Covered Pipe");
 
 // --- Iron-Covered Kinesis Pipe
-NEI.overrideName(PipeIronKinesis, "\u94c1\u8d28\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeIronKinesis, "Iron-Covered Kinesis Pipe");
 
 // --- Quartz-Covered Pipe
-NEI.overrideName(PipeQuartz, "\u77f3\u82f1\u7ba1\u9053");
+NEI.overrideName(PipeQuartz, "Quartz-Covered Pipe");
 
 // --- Quartz-Covered Kinesis Pipe
-NEI.overrideName(PipeQuartzKinesis, "\u77f3\u82f1\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeQuartzKinesis, "Quartz-Covered Kinesis Pipe");
 
 // --- Gold-Covered Kinesis Pipe
-NEI.overrideName(PipeGoldKinesis, "\u91d1\u8d28\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeGoldKinesis, "Gold-Covered Kinesis Pipe");
 
 // --- Diamond-Covered Kinesis Pipe
-NEI.overrideName(PipeDiamondKinesis, "\u94bb\u77f3\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeDiamondKinesis, "Diamond-Covered Kinesis Pipe");
 
 // --- Emerald-Covered Kinesis Pipe
-NEI.overrideName(PipeEmeraldKinesis, "\u7eff\u5b9d\u77f3\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeEmeraldKinesis, "Emerald-Covered Kinesis Pipe");
 
 // --- Redstone Crystal
-NEI.overrideName(<BuildCraft|Silicon:redstoneCrystal>, "\u706b\u77f3\u6676\u4f53");
+NEI.overrideName(<BuildCraft|Silicon:redstoneCrystal>, "Firestone Crystal");

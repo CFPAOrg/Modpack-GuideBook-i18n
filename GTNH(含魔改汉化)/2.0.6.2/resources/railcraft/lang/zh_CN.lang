@@ -1,4 +1,4 @@
-﻿# zh_CN
+# zh_CN
 # Translated by crafteverywhere
 # Parent Language: zh_TW
 
@@ -12,22 +12,6 @@ command.railcraft.noperms=你没有使用该命令的权限.
 
 command.railcraft.railcraft.help=Railcraft的可用命令
 command.railcraft.railcraft.format=格式: /%s <sub-command>
-
-command.railcraft.railcraft.admin.desc=- %s : 管理员工具
-command.railcraft.railcraft.admin.help=用于管理的工具.
-command.railcraft.railcraft.admin.format=格式: /%s
-
-command.railcraft.railcraft.admin.kill.desc=- %s : 清除指令
-command.railcraft.railcraft.admin.kill.help=用于清除的工具.
-command.railcraft.railcraft.admin.kill.format=格式: /%s
-
-command.railcraft.railcraft.admin.kill.animals.desc=- %s : 清除动物
-command.railcraft.railcraft.admin.kill.animals.help=清除当前世界的所有动物.
-command.railcraft.railcraft.admin.kill.animals.format=格式: /%s
-
-command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : 清除矿车
-command.railcraft.railcraft.admin.kill.minecarts.help=清除当前世界的所有矿车.
-command.railcraft.railcraft.admin.kill.minecarts.format=格式: /%s
 
 command.railcraft.railcraft.debug.desc=-%s: 调试工具
 command.railcraft.railcraft.debug.help=用于调试困难问题的工具.
@@ -101,9 +85,7 @@ entity.Railcraft.cart.furnace.name=熔炉车
 entity.Railcraft.cart.gift.name=礼物车
 entity.Railcraft.cart.loco.electric.name=电力机车
 entity.Railcraft.cart.loco.steam.solid.name=蒸汽机车
-entity.Railcraft.cart.loco.creative.name=永动机车
 entity.Railcraft.cart.pumpkin.name=南瓜车
-entity.Railcraft.cart.redstone.flux.name=RF储能车
 entity.Railcraft.cart.tank.name=蓄水槽车
 entity.Railcraft.cart.tnt.name=TNT车
 entity.Railcraft.cart.tnt.wood.name=木质TNT矿车
@@ -157,11 +139,8 @@ item.railcraft.cart.gift.name=礼物车
 item.railcraft.cart.gift.tip=圣诞快乐
 item.railcraft.cart.loco.electric.name=电力机车
 item.railcraft.cart.loco.steam.solid.name=蒸汽机车
-item.railcraft.cart.loco.creative.name=永动机车
-item.railcraft.cart.loco.creative.tip=§o§9仅限创造模式
 item.railcraft.cart.pumpkin.name=南瓜车
 item.railcraft.cart.pumpkin.tip=没礼物就捣蛋
-item.railcraft.cart.redstone.flux.name=RF储能车
 item.railcraft.cart.tank.name=蓄水槽车
 item.railcraft.cart.tnt.name=TNT车
 item.railcraft.cart.tnt.wood.name=木质TNT矿车
@@ -224,7 +203,6 @@ item.railcraft.part.gear.iron.name=铁齿轮
 item.railcraft.part.gear.steel.name=钢齿轮
 item.railcraft.part.plate.copper.name=铜板
 item.railcraft.part.plate.iron.name=铁板
-item.railcraft.part.plate.lead.name=铅板
 item.railcraft.part.plate.steel.name=钢板
 item.railcraft.part.plate.tin.name=锡板
 item.railcraft.part.rail.advanced.name=高级导轨
@@ -254,24 +232,6 @@ item.railcraft.tool.crowbar.tip=§o潜行时右键可链接车厢
 item.railcraft.tool.crowbar.void.name=虚空金属撬棍
 item.railcraft.tool.electric.meter.name=电表
 item.railcraft.tool.magnifying.glass.name=放大镜
-item.railcraft.tool.notepad.action.copy=已从 %s 复制设置
-item.railcraft.tool.notepad.action.copy.fail=不可复制. 不是有效目标.
-item.railcraft.tool.notepad.action.empty=不可粘贴. Shift+单击目标以复制.
-item.railcraft.tool.notepad.action.paste=向 %s 粘贴设置
-item.railcraft.tool.notepad.action.paste.fail=不可粘贴. 不是有效目标.
-item.railcraft.tool.notepad.name=铁路工笔记本
-item.railcraft.tool.notepad.tip.contents=内容: @s
-item.railcraft.tool.notepad.tip.contents.filter.items=§2物品过滤器
-item.railcraft.tool.notepad.tip.contents.filter.fluid=§b流体过滤器
-item.railcraft.tool.notepad.tip.contents.filter.cart=§e机车过滤器
-item.railcraft.tool.notepad.tip.contents.empty=§4空
-item.railcraft.tool.notepad.tip.mode.all=所有
-item.railcraft.tool.notepad.tip.mode.cart.filter=机车过滤器
-item.railcraft.tool.notepad.tip.mode.loader.filters=物品/流体过滤器
-item.railcraft.tool.notepad.tip.mode=粘贴模式: @s
-item.railcraft.tool.notepad.tip=§o右击以粘贴, Shift+右击以复制 \n§oShift+右击空气以清除
-item.railcraft.tool.signal.label.name=信号标签
-item.railcraft.tool.signal.label.tip=§9- 在铁砧中重命名 -\n§oShift+右击\n§o以命名信号或信号盒
 item.railcraft.tool.signal.tuner.name=信号调谐器
 item.railcraft.tool.signal.tuner.tip=用于连接控制器与接收器
 item.railcraft.tool.steel.axe.name=钢斧
@@ -283,7 +243,6 @@ item.railcraft.tool.steel.sword.name=钢剑
 item.railcraft.tool.surveyor.name=信号域监测仪
 item.railcraft.tool.surveyor.tip=用于连接信号方块
 item.railcraft.tool.whistle.tuner.name=鸣笛调谐器
-
 
 item.railcraft.upgrade.lapotron=兰波顿装载升级插件
 
@@ -525,7 +484,6 @@ railcraft.gui.routing.table.manual.page7=条件关键字:\n   Redstone=<true/fal
 railcraft.gui.routing.table.manual.page8=脚本范例:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 railcraft.gui.routing.table.manual.page9=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头.
 railcraft.gui.routing.table.manual.page10=正则表达式:\n   某些条件关键字支持\n   使用正则表达式.\n   要使用正则表达,需要在'='前添加一个'?'.\n   语法参同标准的java正则表达式语法.\n支持的条件关键字:\n   Dest, Name\n范例:\n   Dest?=.*Hill
-railcraft.gui.routing.table.manual.page11=常用表达:\n   一些条件支持\n   常用表达.\n   要使用正则表达式, 添加一个 '?' 在 '='之前.\n   规则是标准Java模式.\n支持的条件关键字:\n   Dest, Name\n范例:\n   Dest?=.*Hill
 railcraft.gui.routing.table.manual.title=路由手册
 railcraft.gui.routing.table.name=名称
 railcraft.gui.routing.ticket.line1=车票有效
@@ -571,9 +529,6 @@ railcraft.gui.tip.button.lock.unlocked=点击来绑定设备.\n绑定后,它只�
 
 railcraft.gui.track.embarking.radius=半径
 railcraft.gui.track.mode.change=切换为@s模式
-railcraft.gui.track.coupler.mode.auto.coupler=自动耦合器
-railcraft.gui.track.coupler.mode.coupler=耦合器
-railcraft.gui.track.coupler.mode.decoupler=分离器
 railcraft.gui.track.locking.mode.boarding.train=登入列车
 railcraft.gui.track.locking.mode.boarding=登入
 railcraft.gui.track.locking.mode.holding.train=列车扣留
@@ -808,8 +763,6 @@ tile.railcraft.machine.gamma.dispenser.train.name=列车分车站
 tile.railcraft.machine.gamma.dispenser.train.tip=向轨道分配列车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出列车 -
 tile.railcraft.machine.gamma.loader.energy.name=能量装载机
 tile.railcraft.machine.gamma.loader.energy.tip=为IC2能量运输矿车装载电力\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限Ic2电力
-tile.railcraft.machine.gamma.loader.rf.name=RF能量装载机
-tile.railcraft.machine.gamma.loader.rf.tip=向RF储能车充能\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限RF能量
 tile.railcraft.machine.gamma.loader.item.advanced.name=高级物品装载机
 tile.railcraft.machine.gamma.loader.item.advanced.tip=为矿车装载物品\n§o§9- 用撬棍敲击以切换方向 -
 tile.railcraft.machine.gamma.loader.item.name=物品装载机
@@ -818,8 +771,6 @@ tile.railcraft.machine.gamma.loader.liquid.name=流体装载机
 tile.railcraft.machine.gamma.loader.liquid.tip=为矿车装载流体\n§o§c- 需要放置在轨道上方 -
 tile.railcraft.machine.gamma.unloader.energy.name=能量卸载机
 tile.railcraft.machine.gamma.unloader.energy.tip=为IC2能量运输矿车卸载电力\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限Ic2电力
-tile.railcraft.machine.gamma.unloader.rf.name=RF能量卸载机
-tile.railcraft.machine.gamma.unloader.rf.tip=从RF储能车卸载能量\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 只输出RF能量
 tile.railcraft.machine.gamma.unloader.item.advanced.name=高级物品卸载机
 tile.railcraft.machine.gamma.unloader.item.advanced.tip=为矿车卸载物品\n§o§9- 用撬棍敲击以切换方向 -
 tile.railcraft.machine.gamma.unloader.item.name=物品卸载机
@@ -883,33 +834,19 @@ tile.railcraft.post.wood.platform.name=木头平台
 tile.railcraft.residual.heat.name=残余热量
 
 tile.railcraft.signal.block.signal.dual.name=双头信号盒
-tile.railcraft.signal.block.signal.dual.tip=检测信号盒中的机车\n显示连接的控制盒的信号域\n§o§9无线联动:\n§o§9- 1x信号盒\n§o§9- 1x控制盒\n§o§9- 1x接收盒\n§o§c相关工具:\n§o§c- 信号调谐器\n§o§c- 信号域监测仪
 tile.railcraft.signal.block.signal.name=信号盒
-tile.railcraft.signal.block.signal.tip=检测信号盒中的机车\n§o§9无线联动:\n§o§9- 1x信号盒\n§o§9- 1x控制盒\n§o§c相关工具:\n§o§c- 信号域监测仪
 tile.railcraft.signal.box.analog.name=模拟信号控制盒
-tile.railcraft.signal.box.analog.tip=发送信号至接收盒\n§o§9无线联动: 1x控制盒\n§o§9相邻联动: 无\n§o§9红石联动: 接收\n§o§c相关工具:\n§o§c- 信号调谐器
 tile.railcraft.signal.box.block.relay.name=信号中继盒
-tile.railcraft.signal.box.block.relay.tip=创建信号盒链\n§o§9无线联动: 2x信号盒\n§o§9相邻联动: 发射\n§o§9红石联动: 发射\n§o§c相关工具:\n§o§c- 信号域监测仪
 tile.railcraft.signal.box.capacitor.name=信号计数盒
-tile.railcraft.signal.box.capacitor.tip=发送信号至接收盒\n§o§9无线联动: 无\n§o§9相邻联动: 接收, 发射\n§o§9红石联动: 接收中继盒, 发射
 tile.railcraft.signal.box.controller.name=信号控制盒
-tile.railcraft.signal.box.controller.tip=发送信号至接收盒\n§o§9无线联动: 1x控制盒\n§o§9相邻联动: 接收\n§o§9红石联动: 接收\n§o§c相关工具:\n§o§c- 信号调谐器
 tile.railcraft.signal.box.interlock.name=信号互锁盒
-tile.railcraft.signal.box.interlock.tip=只允许单个信号通过\n§o§9无线联动:\n§o§9- 1x控制盒\n§o§9- 1x接收盒\n§o§9相邻联动:\n§o§9- 互锁盒\n§o§9- 接收 (限制输出)\n§o§c相关工具:\n§o§c- 信号调谐器
 tile.railcraft.signal.box.receiver.name=信号接收盒
-tile.railcraft.signal.box.receiver.tip=监听控制盒信号\n§o§9无线联动: 1x接收盒\n§o§9相邻联动: 发射\n§o§9红石联动: 发射\n§o§c相关工具:\n§o§c- 信号调谐器
 tile.railcraft.signal.box.sequencer.name=信号同步盒
-tile.railcraft.signal.box.sequencer.tip=循环通过相邻方块\n§o§9相邻联动:\n§o§9- 同步盒\n§o§9- 接收 (时钟)\n§o§9- 发射\n§o§9红石联动:\n§o§9- 接收中继盒 (时钟)\n§o§9- 发射
 tile.railcraft.signal.distant.dual.name=双头远程信号
-tile.railcraft.signal.distant.dual.tip=显示连接的控制盒的信号域\n§o§9无线联动: 2x接收盒\n§o§c相关工具:\n§o§c- 信号调谐器
 tile.railcraft.signal.distant.name=远程信号
-tile.railcraft.signal.distant.tip=显示连接的控制盒的信号域\n§o§9无线联动: 1x接收盒\n§o§c相关工具:\n§o§c- 信号调谐器
 tile.railcraft.signal.switch.lever.name=转辙拉杆
-tile.railcraft.signal.switch.lever.tip=控制相邻的转换轨道\n§o§9人工操作
 tile.railcraft.signal.switch.motor.name=转辙马达
-tile.railcraft.signal.switch.motor.tip=控制相邻的转换轨道\n§o§9无线联动: 1x接收盒\n§o§9红石联动: 接收\n§o§c相关工具:\n§o§c- 信号调谐器
 tile.railcraft.signal.switch.routing.name=路由转辙马达
-tile.railcraft.signal.switch.routing.tip=控制相邻的转换轨道\n§o§9脚本逻辑操作\n§o§c相关工具:\n§o§c- 路由表
 
 tile.railcraft.slab.abyssal.block.name=深渊台阶
 tile.railcraft.slab.abyssal.brick.name=深渊砖台阶
@@ -1113,8 +1050,6 @@ tile.railcraft.track.whistle.name=机车鸣笛轨道
 tile.railcraft.track.whistle.tip=经过的机车会鸣笛\n§o§c- 使用红石信号激活 -
 tile.railcraft.track.wye.name=Y型轨道
 tile.railcraft.track.wye.tip=§o§c- 需要转辙马达/开关来进行转辙 -
-tile.railcraft.track.autolococoupler.name=自动火车头耦合器
-tile.railcraft.track.autolococoupler.tip=设置经过的火车头\n链接到碰撞的\n第一辆机车然后自动\n切换至调度速度.\n§o§c- 使用红石信号激活 -
 
 tile.railcraft.wall.abyssal.brick.name=深渊砖墙
 tile.railcraft.wall.bleachedbone.brick.name=白骨砖墙

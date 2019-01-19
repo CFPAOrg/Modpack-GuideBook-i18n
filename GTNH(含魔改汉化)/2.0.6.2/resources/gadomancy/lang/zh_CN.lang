@@ -1,34 +1,26 @@
 item.ItemGolemPlacer.silverwood.name=银木傀儡
-item.ItemGolemPlacer.obsidian.name=黑曜石傀儡
 item.ItemTransformationFocus.name=[WIP]法杖核心：变形
 item.ItemFamiliar.name=天域使魔
-item.ItemEtherealFamiliar.name=天域使魔
-item.ItemAuraCore.name=魔灵核心
 item.ItemArcanePackage.name=奥法包裹
-item.ItemElement.0.name=黑暗元素
-item.ItemElement.1.name=[WIP]光明元素
-item.ItemElement.2.name=[WIP]烈火元素
 
-gadomancy.lore.deprecation.back=放进合成栏, 你就能拿回你的东西!
-
-itemGroup.gadomancy=魔像密经
+itemGroup.gadomancy=Gadomancy
 tc.research_category.gadomancy=魔像密经
 
 tc.research_name.GADOMANCY.GOLEMSILVERWOOD=银木傀儡
-tc.research_text.GADOMANCY.GOLEMSILVERWOOD=只是一点点化学物质X
+tc.research_text.GADOMANCY.GOLEMSILVERWOOD=Just a dash of Chemical X
 gadomancy.research_page.GOLEMSILVERWOOD.1=这种傀儡由银木雕刻而就，继承了银木对魔法亲和的本性，由此可携带更多升级。<BR>§l§n银木傀儡属性：§r<BR>§l耐久：§r一般<BR>§l力量：§r低<BR>§l回复：§r一般<BR>§l运载量：§r8<BR>§l速度：§r快捷<BR>§l升级：§r3
 
 tc.research_name.GADOMANCY.GOLEMRUNICSHIELD=傀儡守护符文
 tc.research_text.GADOMANCY.GOLEMRUNICSHIELD=现已支持你的小朋友！
-gadomancy.research_page.GOLEMRUNICSHIELD.1=经过进一步对守护魔法的测验，你已发现了为傀儡附加符文护盾的方法。<BR>如同力量在你身上凝聚成防卫盾一般，符文护盾会在傀儡身上形成一道魔法壁垒，可以免疫绝大多数类型的伤害。<BR>然而它并不能免疫溺水以及一些自然伤害。
+gadomancy.research_page.GOLEMRUNICSHIELD.1=经过进一步对守护魔法的测验，你已发现了为傀儡附加符文护盾的方法。<BR>和在你身上一样，符文护盾会在傀儡身上形成一道魔法壁垒，可以免疫绝大多数类型的伤害。<BR>然而它并不能免疫溺水以及一些自然伤害。
 
 tc.research_name.GADOMANCY.STICKYJAR=粘性罐子
 tc.research_text.GADOMANCY.STICKYJAR=把它们粘起来！
 gadomancy.research_page.STICKYJAR.1=要素罐子之于神秘使，有如黄油之于面包一样重要，但如果还要考虑大量潜在的源质管道，情况就又不一样了。你决定给罐子底部加一些黏合剂来缓解管道布线压力。底部涂过黏合剂的罐子被放下时会粘在表面上，即使是方块的侧面，甚至是底面。破坏罐子并不会影响这种粘性，这样粘性罐子就可以回收使用了。另外，很多其它类型的源质罐子也可以加这种黏合剂。
 
 tc.research_name.GADOMANCY.ARCANEDROPPER=奥术投掷器
-tc.research_text.GADOMANCY.ARCANEDROPPER=淫秽之物终被捕获
-gadomancy.research_page.ARCANEDROPPER.1=考量过投掷器的性质以及可能的拓展方式后，你对你的投掷器做出了一些修改。<LINE>利用奥术投掷器，你可以在3x3x3的范围内吸收、置入并监视物品，就像它们在内置物品栏里一样。<BR>手持那些没有被你加之以秘术核心的法杖能够看到投掷器的影响范围。<BR>奥术投掷器只有平整的那一面可以进行交互。
+tc.research_text.GADOMANCY.ARCANEDROPPER=When the pimps in the crib, ma
+gadomancy.research_page.ARCANEDROPPER.1=考量过投掷器的性质以及可能的拓展方式后，你对你的投掷器做出了一些修改。<LINE>利用奥术投掷器，你可以在3x3x3的范围内吸收、置入并监视物品，就像它们在内置物品栏里一样。<BR>手持不带核心的法杖可以看到其影响的范围。<BR>奥术投掷器只有平整的那一面可以进行交互。
 
 tc.research_name.GADOMANCY.GOLEMCOREBREAK=傀儡核心：破坏
 tc.research_text.GADOMANCY.GOLEMCOREBREAK=大新闻！
@@ -36,70 +28,42 @@ gadomancy.research_page.GOLEMCOREBREAK.1=挂载了这个核心的傀儡会监视
 
 tc.research_name.GADOMANCY.GOLEMCOREBODYGUARD=傀儡核心：护法
 tc.research_text.GADOMANCY.GOLEMCOREBODYGUARD=绝不攻击主人
-gadomancy.research_page.GOLEMCOREBODYGUARD.1=守护傀儡本身兢兢业业，但即便是有升级，他们也不能完全懂得如何集中保护主人。给傀儡运转核心：护卫做出一些修改后，这个问题得到了改善。挂载有傀儡运转核心：护法的傀儡会时刻追随其主人，犹如被驯化的野狼一般保护秘术使。
+gadomancy.research_page.GOLEMCOREBODYGUARD.1=守护傀儡本身是极好的，但即便是有升级，他们也不能完全懂得如何集中保护主人。给傀儡运转核心：护卫做出一些修改后，这个问题得到了改善。挂载有傀儡运转核心：护法的傀儡会时刻追随其主人，就像被驯化的狼一样忠诚。
 
 tc.research_name.GADOMANCY.INFUSIONCLAW=自动注魔
 tc.research_text.GADOMANCY.INFUSIONCLAW=悬浮的玩意！
-gadomancy.research_page.INFUSIONCLAW.1=很多时候你都在想，如何让注魔的过程自动化，这样就可以不用总是守在符文矩阵旁边了，然后你发现你被法杖充能基座给涮了。你已经证明令基座移动法杖是相当困难的，但并非完全不可能。最终搞出来的设备有极微弱的感知能力，而且和你的灵魂绑定在一起，真是令人感到恶心的灵魂连接，但是它看起来工作正常就够了！你的眼皮已经颤抖很久了...你确定它工作正常...也许吧...
-gadomancy.research_page.INFUSIONCLAW.2=将此设备置于符文矩阵正上方，并在其上方放置一柄法杖或手杖。若在其GUI内的选项中打勾，那么只有空法杖才会被抽出。这个过程还会向任何由其启动的注魔增加不稳定性，其具体程度将会由法杖或手杖的等级来决定。通常手杖会更稳定，但不稳定性很大程度上还是取决于杖的容量。<BR>你现在可以通过给予四个侧面的任意一个以红石信号来触发注魔过程。<BR>这个设备还可以用于自动化生产魔导手册和魔法坩锅，使得你魔导手册和坩锅工厂的梦想终于成为可能！
+gadomancy.research_page.INFUSIONCLAW.1=很多时候你都在想，如何让注魔的过程自动化，这样就可以不用总是守在符文矩阵旁边了，然后你发现你被法杖充能基座给涮了。你已经证明令基座移动法杖是相当困难的，但并非完全不可能。最终搞出来的设备有极微弱的感知能力，而且似乎和你的灵魂绑定在一起，但是它看起来工作正常就够了！你的眼皮已经颤抖很久了...你确定这是好的...也许吧...
+gadomancy.research_page.INFUSIONCLAW.2=将此设备置于符文矩阵正上方，并通过正上面放置一柄法杖或手杖。若在其GUI内的选项中打勾，那么只有空法杖才会被抽出。这个过程还会向任何由其启动的注魔增加不稳定性，其具体程度将会由法杖或手杖的等级来决定。通常手杖会更稳定，但不稳定性很大程度上还是取决于杖的容量。<BR>你现在便可以通过给予四个侧面的任意一个以红石信号来触发注魔过程。<BR>这个设备还可以用于自动化生产魔导手册和魔法坩锅，使得你魔导手册和坩锅工厂的梦想终于成为可能！
 
 tc.research_name.GADOMANCY.REMOTEJAR=镜像罐子
 tc.research_text.GADOMANCY.REMOTEJAR=镜像运输
-gadomancy.research_page.REMOTEJAR.1=源质镜子可谓是注魔时极好的源质移动方式，但你，却不可思议地认为，它还有未发掘的潜力。两面源质镜子连接在一起时，源质会高效地在两点之间流动。若是将源质镜子置于特殊改装过的源质罐子中，那么罐子中的空间就可以与镜中虚空相连接。要连接两个罐子，只需将一个镜像罐子放下来，并手持源质魔镜右击即可。
+gadomancy.research_page.REMOTEJAR.1=源质镜子可谓是注魔时极好的源质移动方式，但你，却不可思议地认为，它还有未发掘的潜力。两面源质镜子连接在一起时，源质会高效地在两点之间流动。若是将源质镜子置于特殊改装过的源质罐子中，那么罐子中的空间就可以与镜子相连接。要连接两个罐子，只需将一个镜像罐子放下来，并手持魔镜右击即可。
 gadomancy.research_page.REMOTEJAR.2=若已有既存网络，罐子将会加入这个网络中。和源质魔镜不同，镜像罐子网络可以容纳多个罐子。各个罐子彼此共享并平摊其空间，简单来说就是一个有两个罐子的网络会有两个罐子共同持有源质，若有三个罐子那就是三个，以此类推。另外，若镜像罐子满了，它就会试图将源质分摊到同网络中的别的罐子中去。
 
-tc.research_name.GADOMANCY.ETHEREAL_FAMILIAR=天域使魔
-tc.research_text.GADOMANCY.ETHEREAL_FAMILIAR=奥法追随者
-gadomancy.research_page.ETHEREAL_FAMILIAR.1=那些飞舞的鬼火已经吸引你好久了。一般来说这样的永恒魔力都应该是被动存在的，但这些小精灵受到攻击时却会以惊人的速度和效率发起反击。不仅如此，甚至仅仅是快速接近小精灵都会惹怒她们。<LINE>这种行为却给了你不一样的启发。通过开发小精灵的这种天性，你也许可以将其奴役为一个随身的护卫。不幸的是，野生的小精灵行踪诡异，极难捕捉。
-gadomancy.research_page.ETHEREAL_FAMILIAR.3=向天域之华注以大量魔力以及少量魔力物质，你成功得到了人造天域精灵。天域“使魔”将会自动跟随主人的气场，并以类似浮游炮台的方式向靠近其主人的敌对生物发起攻击。很明显，人造的小精灵相比于天然的小精灵来说还是很虚弱，并且移动速度也不快，但你确信有办法可以增强她。
-gadomancy.research_page.ETHEREAL_FAMILIAR.4=使魔的攻击不会消耗任何的魔力，除非你对其进行升级。同时你应该注意使魔并不是足够强大到能够超越任何力量或是速度的界限，除非你为了这种垃圾而将魔力雕刻在她们身上。
+tc.research_name.GADOMANCY.FAMILIAR=天域使魔
+tc.research_text.GADOMANCY.FAMILIAR=奥法追随者
+gadomancy.research_page.FAMILIAR.1=那些飞舞的鬼火已经吸引你好久了。一般来说这样的永恒魔力都应该是被动的，但这些小精灵受到攻击时却会以惊人的速度和效率发起反击。不仅如此，甚至仅仅是快速接近小精灵都会惹怒她们。<LINE>然而这种行为却给了你不一样的启发。通过开发小精灵的这种天性，你也许可以将其改造为一个随身的护卫。不幸的是，野生的小精灵行踪诡异，极难捕捉。
+gadomancy.research_page.FAMILIAR.3=向天域之华注以大量魔力以及少量绑定试剂，你成功造出了人造精灵。天域“使魔”将会自动跟随佩带者(主人)的气场，并以类似浮游炮台的方式向靠近佩带者的敌对生物发起攻击。很明显，人造的小精灵相比于天然的小精灵来说还是很虚弱，并且移动速度也不快，但你确信有办法可以增强她。
 
-tc.research_name.GADOMANCY.AI_SHUTDOWN=无
-tc.research_text.GADOMANCY.AI_SHUTDOWN=无
-gadomancy.research_page.AI_SHUTDOWN.1=无
+tc.research_name.GADOMANCY.FAM_ATTACK_1=使魔升级：攻击增强
+tc.research_text.GADOMANCY.FAM_ATTACK_1=只是伤害提升
+gadomancy.research_page.FAM_ATTACK_1.1=继续浓缩精灵的魔力，她的攻击力得以翻倍。
 
-tc.research_name.GADOMANCY.FAMILIAR_SHOCK=使魔升级：天雷冲击
-tc.research_text.GADOMANCY.FAMILIAR_SHOCK=这真是个可怕的经历
-gadomancy.research_page.FAMILIAR_SHOCK.1=对于该项的注魔将会在攻击时产生一个强大的电弧, 从而造成更多伤害以及产生击退效果。<LINE>每次的攻击平均消耗0.03的风魔力及0.02的混沌魔力。
+tc.research_name.GADOMANCY.FAM_ATTACK_2=使魔升级：深度攻击强化
+tc.research_text.GADOMANCY.FAM_ATTACK_2=What does the scouter say about its power level?
+gadomancy.research_page.FAM_ATTACK_2.1=再次深度浓缩精灵的魔力，并辅以邪术能量，精灵的攻击力再次成功翻番。你偶尔可以听到你精灵奇怪的低声细语，但是这声音确实很低，低到你认为并不是大问题。
 
-tc.research_name.GADOMANCY.FAMILIAR_FIRE=使魔升级：闪耀灼烧
-tc.research_text.GADOMANCY.FAMILIAR_FIRE=令光芒释放
-gadomancy.research_page.FAMILIAR_FIRE.1=当你对其进行闪耀灼烧注魔之后 使魔的力量将被用来提高自身的热量而不是造成伤害, 点燃它们的敌人并且将他们置入火焰地狱，这一力量还能让被攻击者在阳光下陷入虚弱状态。<LINE>平均每次会消耗0.04vis的火焰魔力与0.02vis的秩序魔力
+tc.research_name.GADOMANCY.FAM_ATTACK_3=使魔升级：最大化伤害
+tc.research_text.GADOMANCY.FAM_ATTACK_3=超9000！！！
+gadomancy.research_page.FAM_ATTACK_3.1=在观察一段时间的元始珍珠后，你发现了进一步提升使魔攻击力的方法。将元始珍珠的共振能量赋予给使魔，你再次将她的攻击提升为原来的两倍。但，之前那几乎听不到的细语，现在却变得响亮了。你开始不安起来，怀疑是否被什么人监视...
 
-tc.research_name.GADOMANCY.FAMILIAR_POISON=使魔升级：蚀骨剧毒
-tc.research_text.GADOMANCY.FAMILIAR_POISON=白骨化灰——死灵术士卢德维
-gadomancy.research_page.FAMILIAR_POISON.1=一个经受此项升级的使魔会将大量的毒液注入被攻击者体内而不是直接伤害他，这将造成严重的中毒。经历此升级的使魔似乎能够发现对方是否可以中毒，结果就是它们只会去攻击那些未中毒的目标。<LINE>这个特性在每次攻击时将消耗0.03vis的水之魔力与0.04的混沌魔力。
+tc.research_name.GADOMANCY.FAM_RANGE_1=使魔升级：范围提升
+tc.research_text.GADOMANCY.FAM_RANGE_1=更深的进攻
+gadomancy.research_page.FAM_RANGE_1.1=辅以外部的改造，精灵的敏感度得到了提升，她的攻击范围也随之有少许提升。
 
-tc.research_name.GADOMANCY.FAMILIAR_WEAKNESS=使魔升级：衰微
-tc.research_text.GADOMANCY.FAMILIAR_WEAKNESS=如今你的力量在何方？
-gadomancy.research_page.FAMILIAR_WEAKNESS.1=该项升级移除了使魔的伤害性，从而使他们获得令敌人疲于奔命的力量。敌人将会变得脆弱，昏昏欲睡，并且难以控制手中的武器。<LINE>此项特性每次使用会消耗0.03vis的地之魔力与0.03vis的混沌魔力。
-
-tc.research_name.GADOMANCY.FAMILIAR_DAMAGE=使魔升级：弧光强化
-tc.research_text.GADOMANCY.FAMILIAR_DAMAGE=那些童子军在说什么？
-gadomancy.research_page.FAMILIAR_DAMAGE.1=通过浓缩这些使魔的魔力，使魔的攻击得以翻倍<LINE>每次攻击将会消耗0.03vis的火之魔力。
-
-tc.research_name.GADOMANCY.FAMILIAR_RANGE=使魔升级：范围提升
-tc.research_text.GADOMANCY.FAMILIAR_RANGE=下一步进攻
-gadomancy.research_page.FAMILIAR_RANGE.1=辅以外部的改造，精灵的敏感度得到了提升，她的攻击范围也随之有少许提升。<LINE>每次攻击将消耗0.02vis的风之魔力与0.01vis的秩序魔力。
-
-tc.research_name.GADOMANCY.FAMILIAR_SPEED=使魔升级：超速攻击
-tc.research_text.GADOMANCY.FAMILIAR_SPEED=某科学的超电磁炮
-gadomancy.research_page.FAMILIAR_SPEED.1=想要一次性处理掉大量的敌人是十分困难的。通过这个注魔增强的使魔将会提高攻击速度与攻击伤害来撕碎多个敌人。<LINE>每次攻击将会消耗0.02vis的秩序魔力与0.01vis的火焰魔力。
-
-tc.research_name.GADOMANCY.KNOWLEDGE_BOOK=知识之书
-tc.research_text.GADOMANCY.KNOWLEDGE_BOOK=知识又是力量
-gadomancy.research_page.KNOWLEDGE_BOOK.1=研究并发现秘术的本质，这种枯燥无味的对于知识的探求足够让那些新人秘术使结束他们渺小的一生。这个问题解决起来应该是相对简单的。 如果有一本书帮助你自动写东西应该会有所帮助吧？…………好吧，并没有。<BR>想要制作一本能够自动研究知识的书是相对简单的，在那种情况下它就是一本书（显然）。 而使这些知识成为有用的与可被理解的研究就完全是另一回事了。
-gadomancy.research_page.KNOWLEDGE_BOOK.3=为了能让这本书做任何事情，他必须能够自动打开、关闭，并且翻到自己所在的页面。 在制作好知识之书后, 它应当被放置在一个奥术基座之上，荣耀它的名，研究开始之时它便沦为知识的奴隶。<BR>一旦它被放置在基座之上, 这本书将会获得魔导手册般的能力。将一页研究笔记投向书本上方，那妖异的光芒一边吸收周围的思维要素一边进行研究 。无聊的等待游戏就此开始，或许你该去看看中子素收集器？
-gadomancy.research_page.KNOWLEDGE_BOOK.4=你发现任何一种记录在案的要素帮助都会加快法术台的研究进程,尽管这种方式并没有什么意义。<BR> 知识之书比起其他书还有一个特点，它能够像魔导手册一样使用，从此你的背包里少了一本厚重的典籍。
-
-tc.research_name.GADOMANCY.ESSENTIA_COMPRESSOR=源质冷凝器
-tc.research_text.GADOMANCY.ESSENTIA_COMPRESSOR=不再烦躁的源质贮存
-gadomancy.research_page.ESSENTIA_COMPRESSOR.1= 当你在实验虚空类材料时，虚空种子与液体源质间发生了一个奇怪的反应。当一粒虚空种子与附近的源质罐子太近地相处一段时间后，它奇异的能量驱使罐子中的要素变得更加致密——简单来说，罐子内的空间在不损耗源质的前提下莫名地变大了。进行了进一步的测试之后，你发现虚空种子自身并没有足够的力量去造就这种奇异的现象，但是随着提高这枚异界虚空之物的能量，或许源质能被压缩至一个极度致密的状态。
-gadomancy.research_page.ESSENTIA_COMPRESSOR.2=经由大量的虚空材料，继而大规模地把力量注入到虚空种子中以创造无数细小的空间折越，并且冻结其内部的异常运作，就可以将虚空种子的力量释放几千倍。尽管这个崭新的“暗影元素”看上去十分稳定，但是它所造成的影响绝不是一个普通的罐子所能完成的。自然，它也有不幸的副作用，空间中所有的光线都将被它吞噬，只要从包裹中掏出它亦或是它不小心掉在了地上……
-gadomancy.research_page.ESSENTIA_COMPRESSOR.4=通过把暗影元素装配在稳定的魔灵法柱之上，该设备便能贮存大量的源质。为了完成这一多方块结构，需要将三块共同放在它们彼此之上，并且摇动你的魔杖。源质冷凝器可以在其内部存储任何类型的源质，但是就像只能储存200多点源质的源质库一样，这台设备确实也受到一些限制。
-gadomancy.research_page.ESSENTIA_COMPRESSOR.6=难以置信的能量盘旋在该储存器的核心，所以管道无法与其安全相连，其中储存的源质也并不会直接被供应至设备之中。傀儡必须与第一个源质冷凝器绑定才能开始转移。然而，源质冷凝器将会平均地将内中源质分摊给每个罐子，源质库或是源质之镜，它们在该网络中最多存在五个，但是它们所能接受到的源质总是会比冷凝器中现存源质少。虽然物理层面上只能借助傀儡来对其中的源质进行操作，但是在用于注魔时，它们也能通过源质之镜传输。
-gadomancy.research_page.ESSENTIA_COMPRESSOR.8=源质冷凝器，就像是你先前接触过的诸多源质设备一样，一旦大量的液体源质出现问题，对于你的身体……任何对于该结构的更改（如果该结构中仍含有源质的话）将会导致一次魔力喷涌，咒波将会留下它来过的痕迹。与那些更加温和的情况不同，在它冷凝源质之时，它将会立即释放足以毁灭土地的污染。
-gadomancy.research_page.ESSENTIA_COMPRESSOR.9=如果暗影元素被放置在荒古基座附近的冷凝器中，冷凝器器内部的核心将会被消耗并让其内部 的容量升至一个合适的位置，通过此方法最高可以让其容纳每种要素3000点。<LINE>你注意到身处设备附近时，暗影元素中的虚空之力能将你缓慢拉向它，它可以变得更加巨大吗？你不这么认为……希望如此……
+tc.research_name.GADOMANCY.FAM_COOLDOWN_1=使魔升级：攻速提升
+tc.research_text.GADOMANCY.FAM_COOLDOWN_1=某科学的超电磁炮
+gadomancy.research_page.FAM_COOLDOWN_1.1=元始珍珠的共振，在各种领域都被证明是相当有用的特性。若将珍珠与元始核心一并与精灵绑定，她的进攻频率似乎会有很大提升。具体来说，这将会让她的攻击速度提升到原来的两倍。
 
 tc.research_name.GADOMANCY.NODE_MANIPULATOR=节点操纵
 tc.research_text.GADOMANCY.NODE_MANIPULATOR=和轮盘赌差不多
@@ -126,7 +90,7 @@ tc.research_text.GADOMANCY.ANCIENT_STONES=邪术装饰
 gadomancy.research_page.ANCIENT_STONES.1=进入邪术迷宫，对于和你一样阅历丰厚的神秘使来说，并非是唯一的目标；那些恶魔可能不是优秀的室内设计师，但他们用的石材却已被证明有极强的魔法潜力。<BR>将你每天使用的奥术石材暴露于邪术能量之下，也许就会使其的魔法属性发生改变，更趋近于邪术世界的那种石头。
 
 tc.research_name.GADOMANCY.GROWING=生长中的节点
-tc.research_text.GADOMANCY.GROWING=喂饱我西摩
+tc.research_text.GADOMANCY.GROWING=Feed me Semour
 gadomancy.research_page.GROWING.1=这节点...与众不同。<BR>你只是希望充能节点是我们唯一可靠的vis来源，但这灵气节点看上去也十分稳定。对一个灵气节点充能会直接从其源头抽取Vis到这个世界中，然后破坏它的要素直至元始要素。<BR>但是...这节点的行为确实和别的不一样。它看上去似乎在找什么...它看上去...在躁动。这种奇怪行为使得你开始担忧起来。
 gadomancy.research_page.GROWING.2=它究竟在找什么？就我有限的学识来说，这很像是饕餮节点，但是就是有什么事情令节点十分不安。
 
@@ -148,43 +112,10 @@ tc.research_text.GADOMANCY.GROWING_GROWTHCLUE=解释清楚的生长
 gadomancy.research_page.GROWING_GROWTHCLUE.1=最终你终于弄清楚了节点生长背后掩藏的秘密和它潜在的危险！<LINE>以多种要素喂养的节点会变得稳定。若是只以一种要素喂养节点，节点最终会停止生长，变得不稳定，因为它已经过于饱和。<BR>它确实只能吸收纯净的要素。天域之华、晶化源质和魔豆只是弱物质化的vis而已，节点和它们的反应并不明显...
 gadomancy.research_page.GROWING_GROWTHCLUE.2=除了节点会吞噬天域之华外，它似乎还很喜欢小精灵和要素球。似乎最好的选择是拿节点来喂节点...然而这开销也太高了。<LINE>同时也伴随着巨大风险。节点越是饱和，其攻击也越频繁，伤害也越大。你现在开始思考，当节点完全饱和的时候会发生什么...
 
-tc.research_name.GADOMANCY.AURA_CORE=魔灵核心
-tc.research_text.GADOMANCY.AURA_CORE=你周围的物质！
-gadomancy.research_page.AURA_CORE.1=那元始魔力所拥有的奇怪性质已困扰你多时了。它奇异的性质在你的脑海中时刻挥之不去。那魔力的性质与众不同：它不停地迸出元始能量的火花，不停地改变着颜色，这一切都使得其难以利用。在将它封印在晶化的神秘金属中后，它那近乎暴怒的脾气被遏制了，同时也变成了相当有用的东西：魔灵核心。
-gadomancy.research_page.AURA_CORE.3=和一开始的元始魔力不同，合成魔灵核心时，大部分元始能量都被去掉了。这使得魔灵核心对于周围环境的灵气异常敏感。将一个魔灵核心丢在不同的魔晶附近并以法杖激活魔晶，即可将核心封装在一层水晶之中，使得核心只亲和于一种元始要素。一共有六种互不相同的核心可以制作。<BR> 想要知道各种魔灵核心的作用，你需要制造魔灵核心并扫描它.
-
-tc.research_name.GADOMANCY.CLEAN_AURA_CORE=核心清理
-tc.research_text.GADOMANCY.CLEAN_AURA_CORE=犯错
-gadomancy.research_page.CLEAN_AURA_CORE.1=将魔灵核心变回原来的样子已经证明是极为简单的过程。将要素核心丢入特制的源质浴池中即可让过多的元始能量结晶自动脱落，全程不会损伤魔灵核心。
-
-tc.research_name.GADOMANCY.AURA_PYLON=魔灵法柱
-tc.research_text.GADOMANCY.AURA_PYLON=扩散源质
-gadomancy.research_page.AURA_PYLON.1=魔灵法柱是个可以发挥火系魔灵核心特性的设备。这个设备可以让源质变得不稳定并蒸发到周围的灵气中。这个过程有点缓慢，而且源质也需要时间来达到最大浓度。当浓度足够时，这灵气就能影响周围的环境了。
-gadomancy.research_page.AURA_PYLON.4=在你完成了魔灵尖柱的组合之后，在其之下供奉（即丢弃）一块晶化源质。魔灵法柱将会吸收该晶化源质并调节出相应的灵气光团。一旦法柱顶部的光团颜色改变，那么就能将相应颜色的要素输入到法柱的底部。若要移除晶化源质，只需要接近魔灵尖柱，那块碎片会自动流进你的手中。<BR>至于从何得知不同源质的不同效果，你觉得你只能靠自己亲自动手实验了。
-
-tc.research_name.GADOMANCY.AURA_EFFECTS=魔灵之影响
-tc.research_text.GADOMANCY.AURA_EFFECTS=那些扩散的源质究竟有何效果
-gadomancy.research_page.AURA_EFFECTS.1=大多数源质都有其独特的效果，但有些没有。不论如何，时刻保持一份源质各种效果的记录是个不错的主意。
-
-tc.research_name.GADOMANCY.ARCANE_PACKAGER=奥法封包器
-tc.research_text.GADOMANCY.ARCANE_PACKAGER=把它们包起来!
-gadomancy.research_page.ARCANE_PACKAGER.1=在各种地牢、神庙和废墟中散布着大量被人称作战利品袋子的奇异物品。它们看上去坚实而轻盈，但打开后它的布衣会即刻消散，并留下大量珍贵的物品。甚至，有些从中掉落的物品看上去根本不可能装进去。<BR>进一步的研究揭开了这个谜团：这些袋子根本就不是布匹或者纤维材料制成的，而是用更稳定的Pannus源质编织而成的。
-gadomancy.research_page.ARCANE_PACKAGER.3=不仅如此，这些源质组成的纤维在有风之魔灵核心的压力影响下，会自发地与其它纤维织在一起，从而更好地贴合在一起，变得更加紧密。<BR>奥法封包器便是一台模仿Pannus源质自发织成布料的过程而设计出的机械。它可以织出一种小包裹，其外观与普通战利品袋子近乎一致。它们甚至可以伪装为普通的战利品袋。当然这个过程也可以用皮革和线还原，但这样还原出的产物看起来并不是很精美。
-gadomancy.research_page.ARCANE_PACKAGER.4=一个包裹最多能装九组物品，打开时包裹会自动解体，其中物品也会自动进入打开它的人的物品栏中。袋子甚至还可以装进别的袋子中。然而，风之魔灵核心对袋子的支撑有一定极限。袋子若做得太大，也许会压坏里面的袋子。为了避免这种情况，你需要调整封包器，让里面的物品掉出来，以释放压力。奥法封包器可接受红石信号控制。
-
-tc.research_name.GADOMANCY.REVEALER=神秘视觉
-tc.research_text.GADOMANCY.REVEALER=看着那已经看到的东西
-gadomancy.research_page.REVEALER.1=在进一步研究揭示护目镜后，你最终创造出了一种新附魔，可以为任何头盔赋予与揭示护目镜相同的效果。<BR>佩戴有此附魔的头盔的玩家可直接看到灵气节点以及要素罐子中的源质数量。但这个附魔并不能带来vis减免。
-
-tc.research_name.GADOMANCY.ARMORDISGUISE=护甲伪装术
-tc.research_text.GADOMANCY.ARMORDISGUISE=让我们来玩玩吧!
-gadomancy.research_page.ARMORDISGUISE.1=你发现了一种可以改变你的护甲外观的方法。经过此法处理后的，原有护甲效果不变，但它的外观会变成伪装用的护甲。<BR>注魔时，将最初的护甲置于中央的基座上，而伪装用的护甲则置于外侧的基座环上。<BR>然而，用于伪装的护甲将会被融合，其存在会被留下，但它的实体却会消失。
-gadomancy.research_page.ARMORDISGUISE.4=在思考了数秒后，你觉得如果把护甲换成隐身药水的话，药水会合并入护甲中，从而打造出穿着时完全透明的护甲。<LINE>将伪装过的护甲丢入净化之水中可移除伪装效果。伪装用的护甲将会被剥离并奇迹般地在被伪装护甲附近重现。
-
 gadomancy.golemblurb.default=??
 gadomancy.golemblurb.breakcore=吾主，吾应粉碎万物，又或仅何种方块？
-gadomancy.golem.breakcore=傀儡核心：破坏
-gadomancy.golem.bodyguardcore=傀儡核心：护法
+gadomancy.golem.breakcore=破坏
+gadomancy.golem.bodyguardcore护法
 
 gadomancy.upgrades.runicshield=符文护盾
 
@@ -192,9 +123,6 @@ gadomancy.lore.hasAdditionalLore=<按下SHIFT以显示更多信息>
 
 gadomancy.lore.stickyjar=粘性
 gadomancy.lore.remotejar=§7网络：%s
-
-gadomancy.lore.disguise.item=伪装为：%s
-gadomancy.lore.disguise.none=透明
 
 gadomancy.eldritch.portalPlacerCreative=创造传送门放置器
 gadomancy.eldritch.noflyCreative=(甚至是在创造模式)
@@ -212,117 +140,17 @@ tile.BlockStoneMachine.0.name=随机化核心
 tile.BlockStoneMachine.1.name=荒古基座
 tile.BlockStoneMachine.2.name=奥法弱化力场发射器
 tile.BlockStoneMachine.3.name=重定向核心
-tile.BlockStoneMachine.4.name=奥法封包器
-tile.BlockStoneMachine.5.name=关闭AI(WIP)
 tile.BlockStoneMachine.11.name=魔法柱
 tile.BlockStoneMachine.15.name=魔法柱
-tile.BlockAuraPylon.0.name=魔灵法柱
-tile.BlockAuraPylon.1.name=魔灵法柱拱顶石
-tile.BlockKnowledgeBook.name=知识之书
-tile.BlockEssentiaCompressor.name=源质冷凝器
 
 gadomancy.nodes.GROWING=微光
 gadomancy.nodes.STARVING=饥饿
 
-gadomancy.auracore.unused=(暂无用途)
-gadomancy.auracore.blank=空
-
-gadomancy.aura.research.unlock=今，汝始知%s源质之功效。
-
-gadomancy.aura.effect.aer=制造加速气场
-gadomancy.aura.effect.alienis_0=附近的怪物
-gadomancy.aura.effect.alienis_1=将变得更加危险
-gadomancy.aura.effect.arbor_0=提升周围植物
-gadomancy.aura.effect.arbor_1=的生长速度
-gadomancy.aura.effect.auram_0=释放vis
-gadomancy.aura.effect.auram_1=到大气中
-gadomancy.aura.effect.bestia=召唤野兽
-gadomancy.aura.effect.cognitio_0=授予更多有关
-gadomancy.aura.effect.cognitio_1=元始要素之知识
-gadomancy.aura.effect.exanimis=支援不死族
-gadomancy.aura.effect.fabrico=增强傀儡
-gadomancy.aura.effect.gelum_0=冷却周围
-gadomancy.aura.effect.gelum_1=灵气
-gadomancy.aura.effect.herba_0=大幅提升
-gadomancy.aura.effect.herba_1=周围植物
-gadomancy.aura.effect.herba_2=生长速度
-gadomancy.aura.effect.humanus_0=临时提升
-gadomancy.aura.effect.humanus_1=你的生命上限
-gadomancy.aura.effect.ignis=让大火蔓延
-gadomancy.aura.effect.instrumentum_0=提升你的
-gadomancy.aura.effect.instrumentum_1=挖掘速度
-gadomancy.aura.effect.limus_0=使附近灵气
-gadomancy.aura.effect.limus_1=变得黏滑
-gadomancy.aura.effect.lucrum=让你运气更好
-gadomancy.aura.effect.lux_0=阻止周围
-gadomancy.aura.effect.lux_1=刷新怪物
-gadomancy.aura.effect.mortuus=灵气更加死气沉沉
-gadomancy.aura.effect.pannus=让羊身上长毛
-gadomancy.aura.effect.perfodio_0=大幅增加
-gadomancy.aura.effect.perfodio_1=你的挖掘速度
-gadomancy.aura.effect.praecantatio_0=增强你的
-gadomancy.aura.effect.praecantatio_1=魔法技能
-gadomancy.aura.effect.spiritus_0=周围灵气似
-gadomancy.aura.effect.spiritus_1=是更加灵异
-gadomancy.aura.effect.tempestas=召唤闪电
-gadomancy.aura.effect.tenebrae_0=黑暗开始在
-gadomancy.aura.effect.tenebrae_1=灵气中蔓延
-gadomancy.aura.effect.venenum=令周围生物剧毒缠身
-gadomancy.aura.effect.victus_0=帮助小动物
-gadomancy.aura.effect.victus_1=更快成年
-gadomancy.aura.effect.vinculum_0=减慢来自生物的
-gadomancy.aura.effect.vinculum_1=行动
-gadomancy.aura.effect.vitium=散播腐败污染
-gadomancy.aura.effect.aqua_0=帮助你
-gadomancy.aura.effect.aqua_1=水下呼吸
-gadomancy.aura.effect.terra_0=提升你的
-gadomancy.aura.effect.terra_1=抗性
-gadomancy.aura.effect.ordo_0=提供一个较弱的
-gadomancy.aura.effect.ordo_1=治疗效果
-gadomancy.aura.effect.motus=提高你的速度
-gadomancy.aura.effect.iter_0=让你进行
-gadomancy.aura.effect.iter_1=长途旅行
-gadomancy.aura.effect.sano_0=提供一个强力的
-gadomancy.aura.effect.sano_1=治疗效果
-gadomancy.aura.effect.volatus=让我们跳得更高
-gadomancy.aura.effect.tutamen_0=显著提升
-gadomancy.aura.effect.tutamen_1=你的抗性
-gadomancy.aura.effect.fames=使你饥饿
-gadomancy.aura.effect.sensus=照亮黑夜
-gadomancy.aura.effect.perditio_0=制造一个
-gadomancy.aura.effect.perditio_1=虚弱气场
-gadomancy.aura.effect.potentia=提升你的力量
-gadomancy.aura.effect.telum_0=大幅提升
-gadomancy.aura.effect.telum_1=你的力量
-gadomancy.aura.effect.vitreus_0=你可以感受到
-gadomancy.aura.effect.vitreus_1=空气就在你的
-gadomancy.aura.effect.vitreus_2=胃中流动
-
+gadomancy.info.ArcanePackage=点击以打开，或放置于拆包器中
 gadomancy.info.InfusionClaw.owner=你现在是所有者。
 gadomancy.info.InfusionClaw.waila=§7所有者：
 gadomancy.info.InfusionClaw.lock=锁定可用法杖
 
-gadomancy.info.ArcanePackage=点击以打开，或放置于拆包器中
-gadomancy.info.ArcanePackager.useEssentia=使用源质
-gadomancy.info.ArcanePackager.autoStart=自动开始
-gadomancy.info.ArcanePackager.disguisePackage=伪装为战利品袋
-
 gadomancy.info.RemoteJar.new=创建新源质网络
 gadomancy.info.RemoteJar.clear=从当前网络中断开
 gadomancy.info.RemoteJar.connected=接入既有网络
-
-familiar.augment.shock.name=使魔升级：天雷冲击
-familiar.augment.poison.name=使魔升级：蚀骨剧毒
-familiar.augment.fire.name=使魔升级：闪耀灼烧
-familiar.augment.weakness.name=使魔升级：衰微
-familiar.augment.damage.name=使魔升级：弧光强化
-familiar.augment.speed.name=使魔升级：超速攻击
-familiar.augment.range.name=使魔升级：范围提升
-
-potion.luck=幸运提升
-potion.buffGolem=傀儡增益
-potion.achromatic=大惊失色
-potion.eldritch=邪术
-potion.visdiscount=魔力亲和
-
-gadomancy.enchantment.revealer=神秘视觉

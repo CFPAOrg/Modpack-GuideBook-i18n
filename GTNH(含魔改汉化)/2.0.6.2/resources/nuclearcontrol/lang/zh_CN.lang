@@ -30,10 +30,6 @@ item.RFreactorCard.name=RF反应堆传感定位卡片
 item.AppengCard.name=应用能源卡片
 item.AppengKit.name=应用能源显示器工具
 item.RFenergyCard.name=RF能源传感定位卡片
-item.ItemVanillaMachineCard.name=IC原版机器卡片
-item.ItemInventoryScannerCard.name=库存跟踪卡片
-item.ItemVanilliaKit.name=IC原版工具
-item.MekRFenergyCard.name=通用机械能源卡片
 
 #Internal Blocks
 tile.blockThermalMonitor.name=温度监控器
@@ -143,34 +139,13 @@ nc.msg.notValid=该卡片不兼容
 nc.msg.notValid2=远程显示器
 nc.msg.notValid3=请重新打开显示器再试
 
-#Vanilla Intergration Messages
-msg.nc.Vanilla.Display=%s / %s 格已用
-msg.nc.Vanilla.Name=方块名称
-msg.nc.Vanilla.StorageLVL=存储等级
-msg.nc.Vanilla.brewstand=当前酿造时间: %s
-msg.nc.Vanilla.potionType1=第1药水类型: %s
-msg.nc.Vanilla.potionType2=第2药水类型: %s
-msg.nc.Vanilla.potionType3=第3药水类型: %s
-msg.nc.Vanilla.brewing=酿造中
-msg.nc.Vanilla.notBrewing=未酿造
-msg.nc.Vanilla.dispBrewUse=显示输出类型#%s
-msg.nc.Vanilla.dispBrew=显示酿造
-msg.nc.Vanilla.dispBrewTime=显示酿造时间
-msg.nc.Vanilla.cooking=烹饪中: %sx - %s
-msg.nc.Vanilla.fuel=燃料: %sx - %s
-msg.nc.Vanilla.output=输出: %sx - %s
-msg.nc.Vanilla.burnTime=燃烧时间: %s
-
 #Big Reactor Messages
 msg.nc.InfoPanelRF.Temp=核心温度：%s°C
 msg.nc.InfoPanelRF.EnergyStored=能量：%s RF
 msg.nc.InfoPanelRF.CreatedEnergy=能量输出：%s RF/t
-msg.nc.InfoPanelRF.SteamOutput=输出蒸汽: %s mB/t
 msg.nc.InfoPanelRF.Percentage=缓存区已充满%s%%
 msg.nc.InfoPanelRF.Output=输出(RF/t)
 msg.nc.InfoPanelRF.TempPROPER=当前核心温度
-msg.nc.InfoPanelRF.CoolantTank=冷却槽: %s x%smB
-msg.nc.InfoPanelRF.OutputTank=输出槽: %s x%smB
 
 #5x5 Reactor Messages
 msg.nc.InfoPanel55.Output=输出：%s Hu/s

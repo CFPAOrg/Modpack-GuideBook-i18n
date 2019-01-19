@@ -10,7 +10,7 @@ storageDrawers.container.framingTable=成型台
 
 storagedrawers.msg.maxUpgrades=这个抽屉已无法容纳更多的升级组件.
 
-# Items
+# Item/物件
 item.storagedrawers.upgradeTemplate.name=升级模板
 item.storagedrawers.upgrade.iron.name=抽屉容量升级(II)
 item.storagedrawers.upgrade.gold.name=抽屉容量升级(III)
@@ -27,14 +27,14 @@ item.storagedrawers.upgradeVoid.name=虚空升级
 item.storagedrawers.upgradeVoid.description=销毁存储超过上限的物品。
 item.storagedrawers.upgradeCreative.store.name=创造模式容量升级
 item.storagedrawers.upgradeCreative.store.description=接近无限的存储容量。
-item.storagedrawers.upgradeCreative.vend.name=创造模式取出升级
+item.storagedrawers.upgradeCreative.vend.name=Creative Vending Upgrade
 item.storagedrawers.upgradeCreative.vend.description=能无限的取出被存入的物品。
-item.storagedrawers.upgradeRedstone.combined.name=红石升级
-item.storagedrawers.upgradeRedstone.combined.description=根据总储量发出红石信号.
-item.storagedrawers.upgradeRedstone.max.name=红石升级(最大)
-item.storagedrawers.upgradeRedstone.max.description=根据储物抽屉物品数量最多的一格传输红石信号.
-item.storagedrawers.upgradeRedstone.min.name=红石升级(最小)
-item.storagedrawers.upgradeRedstone.min.description=根据储物抽屉物品数量最少的一格传输红石信号.
+item.storagedrawers.upgradeRedstone.combined.name=Redstone Upgrade
+item.storagedrawers.upgradeRedstone.combined.description=Emits signal for total storage.
+item.storagedrawers.upgradeRedstone.max.name=Redstone Max Upgrade
+item.storagedrawers.upgradeRedstone.max.description=Emits signal for most full slot.
+item.storagedrawers.upgradeRedstone.min.name=Redstone Min Upgrade
+item.storagedrawers.upgradeRedstone.min.description=Emits signal for least full slot.
 item.storagedrawers.upgradeSorting.name=分拣升级
 item.storagedrawers.upgradeSorting.description=将抽屉升级为分拣抽屉。
 item.storagedrawers.shroudKey.name=屏蔽钥匙
@@ -46,7 +46,7 @@ item.storagedrawers.personalKey.cofh.description=禁止其他玩家访问抽屉
 item.storagedrawers.tape.name=打包带
 item.storagedrawers.tape.description=捆扎封装抽屉以便带走。
 
-# Blocks
+# Block/方块
 tile.fullDrawers1.oak.name=橡木抽屉
 tile.fullDrawers1.spruce.name=云杉木抽屉
 tile.fullDrawers1.birch.name=白桦木抽屉
@@ -87,7 +87,6 @@ tile.fullCustom2.name=自定义抽屉(1x2)
 tile.fullCustom4.name=自定义抽屉(2x2)
 tile.halfCustom2.name=小型自定义抽屉(1x2)
 tile.halfCustom4.name=小型自定义抽屉(2x2)
-tile.trimCustom.name=自定义桥接方块
 
 tile.compDrawers.name=压缩抽屉
 tile.drawerController.name=抽屉管理器
@@ -107,7 +106,7 @@ storageDrawers.upgrade.description=将抽屉容量升级为其基础容量的%d�
 storageDrawers.controller.description=将放入的物品分配存入邻接的抽屉中。
 storageDrawers.controllerSlave.description=为抽屉管理器扩展存储连接面。
 
-# Integration
+# Integration/WAILA高亮显示兼容
 storageDrawers.waila.empty=<空>
 storageDrawers.waila.level=级别：%s
 storageDrawers.waila.drawer=#%s：%s
@@ -118,7 +117,7 @@ storageDrawers.waila.void=清空
 storageDrawers.waila.sorting=分拣
 storageDrawers.waila.protected=受保护
 
-# Configuration
+# Configruation/配置
 storageDrawers.config.title=储物抽屉-模组配置
 
 storageDrawers.config.general=一般设定
@@ -155,7 +154,7 @@ storageDrawers.config.prop.enableShroudUpgrades=允许屏蔽钥匙
 storageDrawers.config.prop.enablePersonalUpgrades=允许访问保护
 storageDrawers.config.prop.enableVoidUpgrades=允许清空升级
 storageDrawers.config.prop.enableCreativeUpgrades=允许创造模式专用升级
-storageDrawers.config.prop.enableRedstoneUpgrades=允许红石升级
+storageDrawers.config.prop.enableRedstoneUpgrades=Enable Redstone Upgrade
 storageDrawers.config.prop.enableSortingUpgrades=允许分拣升级
 storageDrawers.config.prop.enableSortingUpgrades.tooltip=需安装精准重定位。
 storageDrawers.config.prop.renderStorageUpgrades=渲染容量升级显示
@@ -191,7 +190,7 @@ storageDrawers.config.prop.enableFramedDrawers=允许自定义抽屉
 storageDrawers.config.prop.enableFramedDrawers.tooltip=自定义抽屉的材质。
 
 storageDrawers.config.addons=扩展包
-storageDrawers.config.addons.tooltip=设定显示独立的扩充包标签。
+storageDrawers.config.addons.tooltip=储物抽屉扩展包的全局设定。
 
 storageDrawers.config.addons.showNEI=在NEI中显示扩充包方块。
 storageDrawers.config.addons.showCreative=在创造模式窗口中显示扩充包方块。

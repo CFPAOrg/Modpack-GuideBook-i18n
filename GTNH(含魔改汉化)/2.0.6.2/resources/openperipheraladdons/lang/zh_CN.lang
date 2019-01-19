@@ -3,12 +3,12 @@ tile.openperipheral.peripheralproxy.name=电脑线缆接口
 tile.openperipheral.playerinventory.name=携带物同步压力板
 tile.openperipheral.ticketmachine.name=票务机
 tile.openperipheral.sensor.name=传感器
-tile.openperipheral.selector.name=物品选择器
+#tile.openperipheral.selector.name=Item Selector ## NEEDS TRANSLATION ##
 tile.openperipheral.robot.name=机器人控制器
 
 item.openperipheraladdons.duckantenna.name=天线
 
-item.openperipheral.keyboard.name=无线键盘
+#item.openperipheral.keyboard.name=Wireless Keyboard ## NEEDS TRANSLATION ##
 item.openperipheral.glasses.name=头戴显示器
 item.openperipheral.remote.name=遥控器
 item.openperipheral.capacitor.name=电容
@@ -65,11 +65,11 @@ item.openperipheral.robot.name=机械战士
 itemGroup.tabOpenPeripheralAddons=开放式外设
 
 openperipheral.gui.ticketmachine=票务机
-openperipheral.gui.selector=Item Selector
+#openperipheral.gui.selector=Item Selector ## NEEDS TRANSLATION ##
 openperipheral.turtle.sensor.adjective=传感器
 openperipheral.turtle.narcissistic.adjective=自恋的
 
 openperipheral.misc.key=钥匙: %s
-openperipheral.misc.no_glasses=此物品只可用于绑定头戴显示器!
-openperipheral.terminal.unbound=§a没有终端钥匙!§r
-openperipheral.terminal.key=§a终端钥匙: %s§r
+#openperipheral.misc.no_glasses=This item can be only used with bound terminal glasses! ## NEEDS TRANSLATION ##
+#openperipheral.terminal.unbound=§aNo terminal key!§r ## NEEDS TRANSLATION ##
+#openperipheral.terminal.key=§aTerminal key: %s§r ## NEEDS TRANSLATION ##

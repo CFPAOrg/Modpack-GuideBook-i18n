@@ -15,10 +15,9 @@ tile.computronics.detector.name=检测器 - 数字
 tile.computronics.ticketMachine.name=售票机
 tile.computronics.audiocable.name=音频线
 tile.computronics.speaker.name=扩音器
-tile.computronics.speechBox.name=语音盒
 
 tooltip.computronics.chatBox.creative=盒中NSA!
-tooltip.computronics.cipher.advanced=为了逐星者!
+tooltip.computronics.cipher.advanced=For the Starchasers!
 tooltip.computronics.sensor.bound=绑定到[%1$s,%2$s,%3$s]
 tooltip.computronics.sensor.desc1=潜行时右击机车中继器\n以绑定它
 tooltip.computronics.sensor.desc2=潜行时左击电力机车\n以安装它
@@ -63,17 +62,16 @@ tooltip.computronics.waila.lamp.blue=蓝: %s
 tooltip.computronics.tape.tapeinserted=已插入录音带
 tooltip.computronics.tape.labeltapeinserted=已插入录音带"%s"
 tooltip.computronics.tape.notapeinserted=录音带插入
-
 tooltip.computronics.tape.state=状态: %s
 tooltip.computronics.tape.state.stopped=已停止
 tooltip.computronics.tape.state.playing=播放中
 tooltip.computronics.tape.state.rewinding=倒带中
 tooltip.computronics.tape.state.forwarding=快进中
 
-tooltip.computronics.manual.oc.tab.blocks=计算电子学: 方块
-tooltip.computronics.manual.oc.tab.items=计算电子学: 物品
+tooltip.computronics.manual.oc.tab.blocks=Computronics: 方块
+tooltip.computronics.manual.oc.tab.items=Computronics: 物品
 
-tooltip.computronics.manual.tis3d.tab.items=计算电子学: 物品
+tooltip.computronics.manual.tis3d.tab.items=Computronics: 物品
 tooltip.computronics.manual.tis3d.port.flamingo=粉红色火烈鸟
 
 option.computronics.enableOCAddress=显示组件地址
@@ -86,32 +84,18 @@ option.computronics.enableLampColor=显示彩灯颜色
 item.computronics.reelChromoxide.name=二氧化铬录音带卷轮
 item.computronics.drone_upgrade_docking.name=无人机转接升级
 item.computronics.dockingStation.name=无人机转接坞
-item.computronics.portableTapeDrive.name=便携式磁带驱动器
 item.computronics.robot_upgrade_camera.name=摄像升级
 item.computronics.robot_upgrade_chatbox.name=聊天升级
 item.computronics.robot_upgrade_radar.name=雷达升级
 item.computronics.card_beep.name=鸣笛升级
 item.computronics.card_noise.name=噪音升级
-item.computronics.card_sound.name=声卡
 item.computronics.card_fx.name=粒子特效升级
-item.computronics.card_spoof.name=欺骗卡
-item.computronics.card_spoof.tip=像网卡一样工作，但允许指定发送地址。
+item.computronics.card_spoof.name=Spoofing Card
+item.computronics.card_spoof.tip=Works just like a Network Card, but allows specifying the sending address
 item.computronics.card_boom.name=自毁卡片
 item.computronics.card_boom.tip=所有坏人都需要一个这个.
 item.computronics.robot_upgrade_colorful.name=炫彩升级
 item.computronics.robot_upgrade_colorful.tip=让你的机器人丰富多彩!
-item.computronics.rack_board_light.name=灯光卡
-item.computronics.rack_board_light.tip=相当大的东西，只能控制四盏灯…
-item.computronics.rack_board_boom.name=服务器自毁器
-item.computronics.rack_board_boom.tip=俗称固态硬盘(SSD).
-item.computronics.rack_board_capacitor.name=架上的电容器
-item.computronics.rack_board_capacitor.tip=令架…或者类似的东西。
-item.computronics.rack_board_switch.name=转换器
-item.computronics.rack_board_switch.tip=这是一块转换器。你期待什么？
-item.computronics.robot_upgrade_speech.name=语音升级
-item.computronics.robot_upgrade_Speech.tip=让你的机器人更…健谈!
-item.computronics.magical_memory.name=神奇的记忆(创造)
-item.computronics.magical_memory.tip=基本上是记忆，只是更多。
 item.computronics.for.combAcid.name=腐蚀性酸液
 item.computronics.for.dropAcid.name=腐蚀性蜜汁
 item.computronics.relaySensor.name=数字中继传感器
@@ -122,26 +106,26 @@ item.computronics.module_colorful.name=炫彩模块
 item.computronics.module_tape_reader.name=磁带机模块
 item.computronics.module_boom.name=自毁模块
 
-itemGroup.tabComputronics=计算机学
+itemGroup.tabComputronics=Computronics
 
 entity.computronics.itemTape.name=泛银河标卡数电录音带
-entity.computronics.swarm.name=蜂群
+entity.computronics.swarm.name=Swarm
 
 death.attack.computronics.sting.1=%1$s 终于明白了为什么有人有恐蜂症
 death.attack.computronics.sting.2=<%1$s> §o哦不！不是蜜蜂啊！啊蜜蜂不要过来啊——啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！
-death.attack.computronics.sting.3=%1$s 无法处理蜂群的蜇痛(恼怒)(stinging双关)
-death.attack.computronics.sting.4=%1$s 忘带了EpiPen(预装肾上腺素的自动注射器)
-death.attack.computronics.sting.5=%1$s 成为了蜜蜂暗杀计划的受害者
+death.attack.computronics.sting.3=%1$s couldn't handle the swarm's stinging puns
+death.attack.computronics.sting.4=%1$s forgot their epipen
+death.attack.computronics.sting.5=%1$s 变成了蜜蜂暗杀计划的受害者
 death.attack.computronics.sting.self=蜜蜂们背叛了 %1$s
 
-computronics.flowers.sea=海
-computronics.bees.species.scummy=渣渣
+computronics.flowers.sea=Sea
+computronics.bees.species.scummy=Scummy
 computronics.bees.species.scummy.description=煤油、1,2-丙二醇、人工甜味剂、硫酸、朗姆酒、丙酮、红色素2号、浮渣、车轴润滑脂、铅酸蓄电池的酸液和/或意大利辣肉肠|酒吧里的异乡人，自称来自混乱岛
 
 chat.computronics.cipher.locked=加密机已锁,无法访问.
 chat.computronics.colorful_upgrade.color=§6颜色§f: %s
-chat.computronics.lamp.binary.on=RedNet模式设定为: 二进制
-chat.computronics.lamp.binary.off=RedNet模式设定为: 正常
+chat.computronics.lamp.binary.on=RedNet模式设定为: Binary
+chat.computronics.lamp.binary.off=RedNet模式设定为: Normal
 chat.computronics.relay.notBound=中继器目前未与任何机车绑定!
 chat.computronics.relay.unbound=中继器成功与机车解绑!
 chat.computronics.sensor.bound=中继器成功与机车绑定!

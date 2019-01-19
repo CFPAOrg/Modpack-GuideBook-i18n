@@ -1,66 +1,77 @@
-﻿//**************************//
+//**************************//
 //WIRELESS CRAFTING TEMRINAL//
 //**************************//
 
 //Items
 item.wirelessCraftingTerminal.name=无线合成终端
-item.infinityBoosterCard.name=量子无限增幅器
+item.infinityBoosterCard.name=量子增幅器
 item.magnetCard.name=磁场增幅卡
 itemGroup.ae2wct=AE2无线合成终端
 
 //Tooltips
-gui.tooltips.ae2wct.PressShift=按住Shift查看详情
-gui.tooltips.ae2wct.OnlyWorks=只有在无线合成终端中才能使用
-gui.tooltips.ae2wct.TitleDesc=描述
-gui.tooltips.ae2wct.InfinityBoosterDesc=允许连接到网络的AE无线合成终端
-gui.tooltips.ae2wct.MagnetDesc=一个自动将物品吸入AE网络的磁卡
-gui.tooltips.ae2wct.MagnetDesc2=右键设置过滤名单
-gui.tooltips.ae2wct.LinkStatus=连接状态
+gui.tooltips.ae2wct.PressShift=按住Shift查看详细信息
+gui.tooltips.ae2wct.OnlyWorks=只能安装在无线合成终端中使用！
+gui.tooltips.ae2wct.TitleDesc=介绍
+gui.tooltips.ae2wct.InfinityBoosterDesc=允许已连接的AE2无线合成终端在任何距离甚至跨维度使用
+gui.tooltips.ae2wct.MagnetDesc=一个可以将掉落物自动输入进AE存储网络的磁力元件.
+gui.tooltips.ae2wct.MagnetDesc2=右键设置过滤物品
+gui.tooltips.ae2wct.LinkStatus=链接状况
 gui.tooltips.ae2wct.Installed=已安装
 gui.tooltips.ae2wct.NotInstalled=未安装
 gui.tooltips.ae2wct.Active=激活
-gui.tooltips.ae2wct.Inactive=停用
-gui.tooltips.ae2wct.Status=状态
-gui.tooltips.ae2wct.EmptyTrash=Delete
-gui.tooltips.ae2wct.EmptyTrashDesc=清空回收站
-gui.tooltips.ae2wct.MagnetFilterTitle=磁卡过滤名单
-gui.tooltips.ae2wct.FilterMode=过滤模式
+gui.tooltips.ae2wct.Inactive=未激活
+gui.tooltips.ae2wct.Status=状况
+gui.tooltips.ae2wct.EmptyTrash=清空垃圾栏
+gui.tooltips.ae2wct.EmptyTrashDesc=删除垃圾栏内物品
+gui.tooltips.ae2wct.MagnetFilterTitle=磁力过滤器
+gui.tooltips.ae2wct.FilterMode=过滤器模式
 gui.tooltips.ae2wct.Whitelisting=白名单
 gui.tooltips.ae2wct.Blacklisting=黑名单
-gui.tooltips.ae2wct.MagnetActiveDesc1=多余的物品将被收到身上
-gui.tooltips.ae2wct.MagnetActiveDesc2=多余的物品将被留在地上
-gui.tooltips.ae2wct.Not=Not
+gui.tooltips.ae2wct.MagnetActiveDesc1=多余物品放入物品栏
+gui.tooltips.ae2wct.MagnetActiveDesc2=多余物品不拾取
+gui.tooltips.ae2wct.Not=不
 gui.tooltips.ae2wct.Using=使用
-gui.tooltips.ae2wct.Ignore=Ignore
-gui.tooltips.ae2wct.Ignoring=Ignoring
+gui.tooltips.ae2wct.Ignore=忽略
+gui.tooltips.ae2wct.Ignoring=忽略
 gui.tooltips.ae2wct.NBTData=NBT数据
 gui.tooltips.ae2wct.MetaData=Meta数据
-gui.tooltips.ae2wct.OreDict=矿物词典
+gui.tooltips.ae2wct.OreDict=矿物辞典
 gui.tooltips.ae2wct.FilteredItems=过滤物品
-gui.tooltips.ae2wct.OrPress=or press
-gui.tooltips.ae2wct.Press=Press
-gui.tooltips.ae2wct.ToSwitchMode=切换磁卡模式
+gui.tooltips.ae2wct.OrPress=或按
+gui.tooltips.ae2wct.Press=按
+gui.tooltips.ae2wct.ToSwitchMode=切换磁场模式
 
 //Labels
-gui.labels.ae2wct.WirelessTermLabel=无线终端
+gui.labels.ae2wct.WirelessTermLabel=无线合成终端
+
+//Config Descriptions
+config.ae2wct.MaxPowerDesc=Maximum Power in AE units the wireless terminal can hold
+config.ae2wct.InfinityBoosterCfgDesc=Enable Infinite Range Booster Upgrade
+config.ae2wct.EasyModeDesc=Enable Easy Mode (Easier Recipes+Infinity Booster Recipe)
+config.ae2wct.BoosterDropChance=Chance that Wither will drop Infinity Booster Card (in %-100=always drop)
+config.ae2wct.DisableBoosterDrop=Enabled Booster Card drops in hard mode (true=enabled)
+config.ae2wct.MineTweakerOverride=Enable MineTweaker Override (true=disables all recipes)
+config.ae2wct.DoVersionCheck=Check for updates
+config.ae2wct.NewVersionAvailable=New version of Wireless Crafting Terminal is available!
+config.ae2wct.ClickString=["Click here to go to download page [",{"text":"Download","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click this to download the latest version","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
 
 //Achievements
-achievement.wctAchievement=有木有WiFi五毛且耐用嘞
-achievement.wctAchievement.desc=合成无线合成终端
-achievement.boosterAchievement=超维度网络
-achievement.boosterAchievement.desc=获得量子无限增幅器
-achievement.magnetAchievement=万象天引
-achievement.magnetAchievement.desc=合成磁场增幅卡
+achievement.wctAchievement=Digital Crafting Over WiFi
+achievement.wctAchievement.desc=Craft a Wireless Crafting Terminal
+achievement.boosterAchievement=Interdimensional Crafting Sack
+achievement.boosterAchievement.desc=Aquire an Infinity Booster Card
+achievement.magnetAchievement=Digital Hoover
+achievement.magnetAchievement.desc=Craft a Magnet Card
 
 //Chat Messages
-chatmessages.ae2wct.NoNetworkPower=网络中没有能量!
-chatmessages.ae2wct.MagnetMode1=磁卡停用
-chatmessages.ae2wct.MagnetMode2=磁卡激活-不进入AE网络的物品将被收到身上
-chatmessages.ae2wct.MagnetMode3=磁卡激活-不进入AE网络的物品将被留在地上
-chatmessages.ae2wct.InitializeMagnet=在绑定之前你必须先右键点击手中的磁卡!
+chatmessages.ae2wct.NoNetworkPower=网络供能中断!
+chatmessages.ae2wct.MagnetMode1=磁场增幅卡关闭
+chatmessages.ae2wct.MagnetMode2=磁场增幅卡激活 - 未存储于AE网络中的物品将被放置在背包中
+chatmessages.ae2wct.MagnetMode3=磁场增幅卡激活 - 未存储于AE网络中的物品将不会被拾取
+chatmessages.ae2wct.InitializeMagnet=在使用绑定按键前,你必须手持磁场增幅卡先右键!
 
 //Keybindings
 key.OpenTerminal=打开无线合成终端
-key.OpenMagnetFilter=打开磁卡过滤名单GUI
-key.SwitchMagnetMode=激活/禁用磁卡
+key.OpenMagnetFilter=打开磁场增幅卡过滤GUI
+key.SwitchMagnetMode=激活/关闭磁场增幅卡
 key.categories.ae2wct=无线合成终端

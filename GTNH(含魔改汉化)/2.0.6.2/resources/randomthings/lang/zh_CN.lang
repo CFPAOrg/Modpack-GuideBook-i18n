@@ -15,7 +15,6 @@ tile.imbuingStation.name=激素药水酿造台
 tile.spectreGlass.name=灵魂玻璃
 tile.energyDistributor.name=能量分配器
 tile.enderEnergyDistributor.name=末影能量分配器
-tile.bloodMoonSensor.name=血月传感器
 
 tile.spectreBlock.name=幽灵方块
 tile.spectreBlock.black.name=黑色幽灵方块
@@ -90,7 +89,6 @@ imbue.weakness=虚弱感染
 imbue.spectre=灵魂感染
 
 entity.spirit.name=灵魂
-entity.bloodmoonCircle.name=血月之轮
 
 text.miscellaneous.press=按住%s来查看详细信息
 text.miscellaneous.shift=Shift

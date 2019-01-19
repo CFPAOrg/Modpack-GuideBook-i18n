@@ -273,10 +273,10 @@ oreDict.chestSteel.add(SteelChest);
 
 
 // --- Steel Chest
-NEI.overrideName(SteelChest, "\u94a2\u7bb1\u5b50");
+NEI.overrideName(SteelChest, "Steel Chest");
 
 // --- Copper-Silver Upgrade to Copper-Steel Upgrade
-NEI.overrideName(Copper2SteelUp, "\u5347\u7ea7\uff1a\u94dc>\u94a2");
+NEI.overrideName(Copper2SteelUp, "Copper To Steel Chest Upgrade");
 
 // --- Silver-Gold Upgrade to Steel-Gold Upgrade
-NEI.overrideName(Steel2GoldUp, "\u5347\u7ea7\uff1a\u94a2>\u91d1");
+NEI.overrideName(Steel2GoldUp, "Steel To Gold Chest Upgrade");

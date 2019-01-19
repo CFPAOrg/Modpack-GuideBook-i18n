@@ -1,3 +1,5 @@
+#zh_CN
+
 tab.battle.title=挖矿与砍杀|战备双持2
 config.battlegear.title=挖矿与砍杀2 配置文件
 config.battlegear.category=禁用自定义物品渲染
@@ -6,8 +8,8 @@ use.gui.buttons=开启物品栏按钮
 use.gui.keys=开启物品栏快捷键
 render.quiver.skeleton=渲染骷髅箭袋
 render.arrow.bow=渲染拉弓动画
-render.sheathed=强制渲染玩家覆盖贴图 : %s
 render.hud.forced=强制渲染抬头显示HUD
+render.sheathed=强制渲染玩家覆盖贴图 : %s
 gui.open.fake=开启界面定制功能
 gui.fake.help1=点击拖拽来移动屏幕部件
 gui.fake.help2=箭袋格子
@@ -83,6 +85,8 @@ tile.battlegear2:flagpole.iron.name=铁旗杆
 tile.battlegear2:flagpole.acacia.name=刺槐旗杆
 tile.battlegear2:flagpole.big_oak.name=黑橡木旗杆
 
+tile.battlegear2:banner.name=旗帜
+
 sigil.pattern.title=图案
 sigil.icon.title=印章
 sigil.icon_pos.title=印章位置
@@ -98,7 +102,6 @@ gui.sigil.add=添加
 gui.sigil.remove=移除
 gui.sigil.crest=饰章
 gui.sigil.pattern=背景
-
 
 attribute.name.weapon.penetrateArmor=破甲
 attribute.name.weapon.daze=击晕
@@ -128,11 +131,8 @@ lore.advanced.arrow.leech=拥有吸血鬼之触.
 
 tooltip.armour.points=护甲
 
-commands.weaponwield.usage=/weaponwield current <hand> [玩家名] [用途] 或 /weaponwield name <hand> <物品名称> [用途] 或 /weaponwield sensitivity <add|remove|get> <ore|type|id|damage|nbt>
+commands.weaponwield.usage=/weaponwield current <hand> [player] [usage] OR /weaponwield name <hand> <item name> [usage] OR /weaponwield sensitivity <add|remove|get> <ore|type|id|damage|nbt>
 commands.weaponwield.set=已成功设置该物品可装备至护盾格
-commands.weaponwield.sensitivity=武器比较器有以下灵敏度: %1$s
-commands.weaponwield.sensitivity.added=武器比较器灵敏度已增加: %1$s
-commands.weaponwield.sensitivity.removed=武器比较器灵敏度已减少: %1$s
 
 death.attack.battlegearExtra.backstab=%1$s死于%2$s的背刺.
 death.attack.battlegearExtra.backstab.item=%1$死于%2$s使用%3$s发起的背刺.

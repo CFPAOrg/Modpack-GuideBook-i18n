@@ -1,7 +1,7 @@
 ##################################################
 ## Machines
 
-extratrees.machine.kitchen.bar=酒吧
+extratrees.machine.kitchen.bar=Bar
 extratrees.machine.kitchen.bottleRack=瓶架
 
 extratrees.machine.machine.brewery=发酵器
@@ -284,28 +284,28 @@ extratrees.species.starfruit.name=杨桃
 extratrees.species.candlenut.name=石栗
 extratrees.species.dwarfhazel.name=矮榛
 
-extratrees.butterflies.species.whiteAdmiral=白蛺蝶
-extratrees.butterflies.species.purpleEmperor=紫色帝王蝶
-extratrees.butterflies.species.redAdmiral=红蛺蝶
-extratrees.butterflies.species.paintedLady=姬红蛱蝶
-extratrees.butterflies.species.smallTortoiseshell=小麻蛱蝶
-extratrees.butterflies.species.camberwellBeauty=坎伯韦尔美人蝶
-extratrees.butterflies.species.peacock=孔雀蝶
-extratrees.butterflies.species.wall=棕蛱蝶
-extratrees.butterflies.species.crimsonRose=绯红玫瑰蝶
-extratrees.butterflies.species.kaiserIHind=喙凤蝶
-extratrees.butterflies.species.goldenBirdwing=金裳凤蝶
-extratrees.butterflies.species.marshFritillary=沼泽豹纹蝶
-extratrees.butterflies.species.pearlBorderedFritillary=珍珠豹纹蝶
-extratrees.butterflies.species.queenOfSpainFritillary=西班牙豹纹女王蝶
-extratrees.butterflies.species.speckledWood=帕眼蝶
-extratrees.butterflies.species.scotchAngus=苏格兰百眼蝶
-extratrees.butterflies.species.gatekeeper=链眼蝶
-extratrees.butterflies.species.meadowBrown=草地棕眼蝶
-extratrees.butterflies.species.smallHeath=潘非珍眼蝶
-extratrees.butterflies.species.ringlet=阿芬眼蝶
-extratrees.butterflies.species.monarch=黑脉金斑蝶
-extratrees.butterflies.species.marbledWhite=加勒白眼蝶
+extratrees.butterflies.species.whiteAdmiral=White Admiral
+extratrees.butterflies.species.purpleEmperor=Purple Emperor
+extratrees.butterflies.species.redAdmiral=Red Admiral
+extratrees.butterflies.species.paintedLady=Painted Lady
+extratrees.butterflies.species.smallTortoiseshell=Small Tortoiseshell
+extratrees.butterflies.species.camberwellBeauty=Camberwell Beauty
+extratrees.butterflies.species.peacock=Peacock
+extratrees.butterflies.species.wall=Wall
+extratrees.butterflies.species.crimsonRose=Crimson Rose
+extratrees.butterflies.species.kaiserIHind=Kaiser-i-Hind
+extratrees.butterflies.species.goldenBirdwing=Golden Birdwing
+extratrees.butterflies.species.marshFritillary=Marsh Fritillary
+extratrees.butterflies.species.pearlBorderedFritillary=Pearl-bordered Fritillary
+extratrees.butterflies.species.queenOfSpainFritillary=Queen of Spain Fritillary
+extratrees.butterflies.species.speckledWood=Speckled Wood
+extratrees.butterflies.species.scotchAngus=Scotch Angus
+extratrees.butterflies.species.gatekeeper=Gatekeeper
+extratrees.butterflies.species.meadowBrown=Meadow Brown
+extratrees.butterflies.species.smallHeath=Small Heath
+extratrees.butterflies.species.ringlet=Ringlet
+extratrees.butterflies.species.monarch=Monarch
+extratrees.butterflies.species.marbledWhite=Marbled White
 
 extratrees.genetics.requirements.height=最低海拔要求：%d
 extratrees.genetics.unknown=<未知>
@@ -317,7 +317,7 @@ extratrees.item.masterCarpentryHammer=木工锤
 extratrees.item.sawdust=锯末
 extratrees.item.bark=树皮
 extratrees.item.provenGear=标定齿轮
-extratrees.item.woodWax=光泽剂
+extratrees.item.woodWax=Wood Polish
 extratrees.item.glassFitting=玻璃配件
 
 for.extratrees.item.food.apple=苹果

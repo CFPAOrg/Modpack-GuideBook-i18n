@@ -84,7 +84,7 @@ for.flowers.mushrooms=蘑菇
 for.flowers.nether=下界
 for.flowers.vanilla=鲜花
 for.flowers.wheat=小麦
-for.flowers.snow=落雪
+for.flowers.snow=雪地
 
 fluid.bioethanol=乙醇
 fluid.biomass=生物质
@@ -157,6 +157,7 @@ for.gui.flowers=采蜜对象
 for.gui.flyer=耐雨飞行性
 for.gui.flyer.tooltip=耐雨飞行性
 for.gui.general=普通
+forestry.allele.gigantic=巨大
 for.gui.heat=热量
 for.gui.hellish=地狱
 for.gui.hot=炙热
@@ -169,7 +170,7 @@ for.gui.imprinter.name=染色体变换仪
 for.gui.inactive=隐性
 for.gui.life=生命
 for.gui.lifespan=寿命
-for.gui.normal=一般
+for.gui.normal=普通
 
 for.gui.escritoire.probe=检测样本
 for.gui.escritoire.instructions=将基因样本放在中央以开始。在左侧格子中放入更多样本，检测它们以寻求帮助。 
@@ -223,9 +224,9 @@ for.gui.mail.nametrader=为你的贸易站命名
 for.gui.mail.nothingtotrade=贸易站没有可以用来参与贸易的物品
 for.gui.mail.notrader=无重名贸易站
 for.gui.mail.pleasesend=请邮寄
-for.gui.mail.order.attached=请找到你的订单.
-for.gui.mail.order.filled.one=从 %SENDER 来的1个订单失败.
-for.gui.mail.order.filled.multiple=从 %SENDER 来的 %COUNT 个订单失败.
+for.gui.mail.order.attached=Please find your order attached.
+for.gui.mail.order.filled.one=1 order from %SENDER was filled.
+for.gui.mail.order.filled.multiple=%COUNT orders from %SENDER were filled.
 for.gui.mail.to=寄往
 for.gui.mail.receive=接收
 for.gui.mail.send=发送
@@ -269,9 +270,8 @@ for.gui.solder.south=南
 for.gui.solder.east=东
 for.gui.solder.west=西
 
+forestry.allele.normal=普通
 forestry.allele.average=平均
-forestry.allele.gigantic=巨大
-forestry.allele.normal=一般
 
 forestry.allele.slowest=最慢速
 forestry.allele.slower=较慢速
@@ -279,7 +279,7 @@ forestry.allele.slow=慢速
 forestry.allele.fast=快速
 forestry.allele.faster=较快
 forestry.allele.fastest=最快
-forestry.allele.maximum=最大速度
+forestry.allele.maximum=Maximum
 
 forestry.allele.smallest=最小
 forestry.allele.smaller=较小
@@ -292,7 +292,7 @@ forestry.allele.lowest=最低
 forestry.allele.lower=较低
 forestry.allele.low=低
 forestry.allele.high=高
-forestry.allele.higher=甚高
+forestry.allele.higher=更高
 forestry.allele.highest=最高
 
 forestry.allele.tolerance.both1=全1
@@ -316,7 +316,7 @@ forestry.allele.lifespan.shortest=早夭
 forestry.allele.lifespan.shorter=较短寿
 forestry.allele.lifespan.short=短寿
 forestry.allele.lifespan.shortened=不足寿
-forestry.allele.lifespan.normal=一般
+forestry.allele.lifespan.normal=普寿
 forestry.allele.lifespan.elongated=足寿
 forestry.allele.lifespan.long=长寿
 forestry.allele.lifespan.longer=较长寿
@@ -324,7 +324,7 @@ forestry.allele.lifespan.longest=最长寿
 
 for.gui.size=大小
 for.gui.slots=%USED/%SIZE格子
-for.gui.species=种族
+for.gui.species=品种
 for.gui.speciescount=种族
 for.gui.speed=工作速度
 for.gui.pollination=授粉速度
@@ -502,7 +502,7 @@ item.for.beeCombs.wheaten.name=麦香蜂窝
 item.for.beeswax.name=蜂蜡
 
 item.for.beverage.meadCurative.name=蜂蜜药酒
-item.for.beverage.meadShort.name=蜂蜜酒
+item.for.beverage.meadShort.name=小瓶蜂蜜酒
 
 item.for.biomeFinder.name=栖息地定位仪
 item.for.bituminousPeat.name=沥青质泥炭
@@ -562,12 +562,12 @@ item.for.frameProven.name=标定框架
 item.for.frameUntreated.name=未处理框架
 
 item.for.fruits.cherry.name=樱桃
-item.for.fruits.chestnut.name=栗树
+item.for.fruits.chestnut.name=栗子
 item.for.fruits.dates.name=枣椰
 item.for.fruits.lemon.name=柠檬
 item.for.fruits.papaya.name=木瓜
 item.for.fruits.plum.name=李子
-item.for.fruits.walnut.name=胡桃
+item.for.fruits.walnut.name=核桃
 
 item.for.gearBronze.name=青铜齿轮
 item.for.gearCopper.name=铜齿轮
@@ -622,12 +622,12 @@ item.for.refractoryEthanol.name=耐火乙醇胶囊
 item.for.refractoryBiomass.name=耐火生物质胶囊
 item.for.refractoryEmpty.name=耐火胶囊
 item.for.refractoryFuel.name=耐火燃料胶囊
-item.for.refractoryHoney.name=蜂蜜胶囊
+item.for.refractoryHoney.name=耐火蜂蜜胶囊
 item.for.refractoryIce.name=耐火冰胶囊
 item.for.refractoryJuice.name=耐火果汁胶囊
 item.for.refractoryLava.name=耐火岩浆胶囊
-item.for.refractoryOil.name=石油胶囊
-item.for.refractorySeedOil.name=种子油胶囊
+item.for.refractoryOil.name=耐火石油胶囊
+item.for.refractorySeedOil.name=耐火种子油胶囊
 item.for.refractoryWater.name=耐火水胶囊
 item.for.refractoryWax.name=耐火蜂蜡
 
@@ -667,15 +667,15 @@ item.for.treealyzer.name=林木分析仪
 item.for.canWater.name=水罐
 
 item.for.waxCapsule.name=蜂蜡胶囊
-item.for.waxCapsuleEthanol.name=耐火乙醇胶囊
-item.for.waxCapsuleBiomass.name=耐火生物质胶囊
-item.for.waxCapsuleFuel.name=耐火燃料胶囊
+item.for.waxCapsuleEthanol.name=乙醇胶囊
+item.for.waxCapsuleBiomass.name=生物质胶囊
+item.for.waxCapsuleFuel.name=燃料胶囊
 item.for.waxCapsuleHoney.name=蜂蜜胶囊
-item.for.waxCapsuleIce.name=耐火冰胶囊
-item.for.waxCapsuleJuice.name=耐火果汁胶囊
+item.for.waxCapsuleIce.name=冰胶囊
+item.for.waxCapsuleJuice.name=果汁胶囊
 item.for.waxCapsuleOil.name=石油胶囊
 item.for.waxCapsuleSeedOil.name=种子油胶囊
-item.for.waxCapsuleWater.name=耐火水胶囊
+item.for.waxCapsuleWater.name=水胶囊
 item.for.waxCast.name=打蜡工具
 
 item.for.woodPulp.name=木浆
@@ -761,11 +761,11 @@ for.errors.noFlower.desc=没有花
 for.errors.noFlower.help=蜂群找不到合适的花。
 for.errors.noQueen.desc=无蜂后
 for.errors.noQueen.help=请提供一只蜂后或者一对公主蜂与雄蜂。
-for.errors.noSky.desc=天空被遮蔽
+for.errors.noSky.desc=被遮蔽
 for.errors.noSky.help=清除机器上方的物体。
 for.errors.notDay.desc=不是白天
 for.errors.notDay.help=操作需要在白天进行。
-for.errors.notGloomy.desc=不够黑暗
+for.errors.notGloomy.desc=不够暗
 for.errors.notGloomy.help=需要更暗的环境来进行操作。
 for.errors.notLucid.desc=不够亮
 for.errors.notLucid.help=需要更亮的环境来进行操作。
@@ -894,12 +894,12 @@ forestry.allele.effect.drunkard=沉醉
 forestry.allele.effect.exploration=探索
 forestry.allele.effect.glacial=冻结
 forestry.allele.effect.fertile=丰饶
-forestry.allele.effect.heroic=英雄
+forestry.allele.effect.heroic=勇士
 forestry.allele.effect.ignition=燃烧
 forestry.allele.effect.misanthrope=末影
 forestry.allele.effect.miasmic=剧毒
 forestry.allele.effect.mycophilic=嗜菇
-forestry.allele.effect.none=无
+forestry.allele.effect.none=无效果
 forestry.allele.effect.radioactive=辐射
 forestry.allele.effect.reanimation=重生
 forestry.allele.effect.repulsion=抗拒
@@ -916,16 +916,16 @@ for.bees.grammar.drone.type=雄蜂
 for.bees.grammar.drone=%SPECIES%TYPE
 for.bees.grammar.larvae.type=幼体
 for.bees.grammar.larvae=%SPECIES%TYPE
-for.bees.grammar.princess.type=未知公主蜂
+for.bees.grammar.princess.type=公主蜂
 for.bees.grammar.princess=%SPECIES%TYPE
 for.bees.grammar.queen.type=蜂后
 for.bees.grammar.queen=%SPECIES%TYPE
 
-for.bees.hybrid=%PRIMARY-%SECONDARY杂交种
+for.bees.hybrid=%PRIMARY-%SECONDARY混血蜂
 
 for.bees.species.austere=苦行
 for.bees.species.avenging=复仇
-for.bees.species.boggy=沼泽
+for.bees.species.boggy=泥沼
 for.bees.species.common=寻常
 for.bees.species.cultivated=田野
 for.bees.species.darkened=暗黑
@@ -967,7 +967,7 @@ for.bees.species.tricky=捣蛋
 for.bees.species.tropical=热带
 for.bees.species.unweary=不倦
 for.bees.species.valiant=勇者
-for.bees.species.vengeful=复仇
+for.bees.species.vengeful=报仇
 for.bees.species.vindictive=记恨
 for.bees.species.wintry=凛冬
 
@@ -1086,7 +1086,7 @@ for.genus.bees.tropical=热带
 for.genus.bees.vengeful=复仇
 
 item.for.beePrincessGE.name=未知公主蜂
-item.for.beeQueenGE.name=蜂后
+item.for.beeQueenGE.name=未知蜂后
 
 tile.for.alveary.0.name=蜂箱组
 tile.for.alveary.1.name=蜂箱组接口
@@ -1145,7 +1145,7 @@ for.multiblock.farm.error.needGearbox=这个农场还需要一个齿轮箱才能
 # ARBORICULTURE
 ####################
 
-for.arboriculture.effect.none=无
+for.arboriculture.effect.none=无效果
 
 for.chat.command.forestry.tree.desc=- %s ：林木命令。
 for.chat.command.forestry.tree.help=树木相关的命令。
@@ -1186,14 +1186,14 @@ for.description.treeSipiri=高大的长青树，木材很规则，树干与树�
 for.description.treeWalnut=高大的落叶树，树干粗大，野生的核桃树结果实，果实需要一段时间来成熟。|林木圣书
 for.description.treeWillow=高大的落叶树。白色的柳树生长很快速。只分布于潮湿的环境。|林木圣书
 
-for.family.jungle=丛林
+for.family.jungle=丛林族
 for.family.nuts=坚果族
 for.family.pomes=梨果族
 for.family.prunes=梅果族
 
 for.fruits.apple=苹果
 for.fruits.cherry=樱桃
-for.fruits.chestnut=栗树
+for.fruits.chestnut=栗子
 for.fruits.cocoa=可可
 for.fruits.dates=枣椰
 for.fruits.lemon=柠檬
@@ -1203,7 +1203,7 @@ for.fruits.plum=李子
 for.fruits.walnut=胡桃
 
 for.gui.family=族群
-for.gui.fireproof=耐火
+for.gui.fireproof=抗燃
 for.gui.fruits=果实
 for.gui.girth=干围
 for.gui.growth=生长
@@ -1236,7 +1236,7 @@ for.trees.hybrid=%PRIMARY-%SECONDARY杂交种
 
 for.trees.species.acacia=金合欢
 for.trees.species.appleOak=苹果橡
-for.trees.species.balsa=巴尔杉树
+for.trees.species.balsa=巴尔杉
 for.trees.species.blueMahoe=高槿
 for.trees.species.bullPine=西黄松
 for.trees.species.coastSequoia=海岸红杉
@@ -1260,7 +1260,7 @@ for.trees.species.silverLime=银橙
 for.trees.species.sipiri=绿心樟
 for.trees.species.sugarMaple=糖枫
 for.trees.species.sweetChestnut=甜栗
-for.trees.species.teak=柚树
+for.trees.species.teak=柚
 for.trees.species.wenge=崖豆
 for.trees.species.whitePoplar=白杨
 for.trees.species.whiteWillow=银柳
@@ -1278,29 +1278,29 @@ for.stairs.grammar=%TYPE楼梯
 
 for.trees.woodType.larch=落叶树
 for.trees.woodType.teak=柚树
-for.trees.woodType.acacia=沙漠刺槐
+for.trees.woodType.acacia=金合欢树
 for.trees.woodType.lime=酸橙树
 for.trees.woodType.chestnut=栗树
-for.trees.woodType.wenge=崖豆
+for.trees.woodType.wenge=崖豆树
 for.trees.woodType.baobab=猴面包树
 for.trees.woodType.sequoia=红杉树
-for.trees.woodType.kapok=木棉
+for.trees.woodType.kapok=木棉树
 for.trees.woodType.ebony=乌檀树
 for.trees.woodType.mahogany=桃心树
 for.trees.woodType.balsa=巴尔杉树
 for.trees.woodType.willow=柳树
-for.trees.woodType.walnut=胡桃
+for.trees.woodType.walnut=胡桃树
 for.trees.woodType.greenheart=绿樟树
-for.trees.woodType.cherry=樱桃
+for.trees.woodType.cherry=樱树
 for.trees.woodType.mahoe=高槿树
 for.trees.woodType.poplar=白杨树
 for.trees.woodType.palm=棕榈树
-for.trees.woodType.papaya=木瓜
+for.trees.woodType.papaya=木瓜树
 for.trees.woodType.pine=松树
-for.trees.woodType.plum=李子
+for.trees.woodType.plum=李子树
 for.trees.woodType.maple=枫树
 for.trees.woodType.citrus=柑橘树
-for.trees.woodType.giganteum=巨杉
+for.trees.woodType.giganteum=巨杉树
 for.trees.woodType.ipe=重蚁树
 for.trees.woodType.padauk=紫檀树
 for.trees.woodType.cocobolo=黄檀树
@@ -1363,6 +1363,7 @@ for.hints.manualfarms.tag=DIY自己的农场！
 for.hints.valve.desc=各种农场都需要浇灌，使用水阀方块来实现自动化浇灌吧。
 for.hints.valve.tag=需要水！
 
+
 for.trigger.lowFertilizer=肥料
 for.trigger.lowLiquid=蓄水槽
 for.trigger.lowSoil=土壤
@@ -1391,7 +1392,7 @@ for.chat.command.forestry.butterfly.kill.format=格式： /%s [<dimension#>]
 for.butterflies.hybrid=混血蝶：%PRIMARY-%SECONDARY
 
 for.butterflies.species.geometridae.brimstone=黄蛾
-for.butterflies.species.geometridae.latticedHeath=格纹蛾
+for.butterflies.species.geometridae.latticedHeath=斑格蛾
 for.butterflies.species.nymphalidae.blueDuke=蓝爵蝶
 for.butterflies.species.nymphalidae.blueMorphoM=大蓝闪蝶·梅内莱厄斯
 for.butterflies.species.nymphalidae.blueMorphoP=黑框蓝闪蝶·百利芷
@@ -1430,7 +1431,7 @@ for.gui.flutterlyzer.help=提供蜂蜜滴或蜂蜜汁来安抚这些躁动的蝴
 for.gui.loot.butterfly=蝴蝶可能的产物
 for.gui.loot.caterpillar=毛毛虫可能的产物
 
-for.lepidopterology.effect.none=无
+for.lepidopterology.effect.none=无效果
 
 item.for.butterfly.name=蝴蝶
 item.for.flutterlyzer.name=蝴蝶分析仪
@@ -1523,7 +1524,6 @@ for.plugin.enderIO.description=末影接口(EnderIO)兼容组件。
 for.plugin.immersiveengineering.description=Immersive Engineering兼容组件。
 for.plugin.growthcraft.description=生长工艺(GrowthCraft)兼容组件。
 for.plugin.erebus.description=Erebus兼容组件。
-for.plugin.rotarycraft.description=旋转工艺(RotaryCraft)兼容组件
 
 ####################
 # CONFIG FILES
@@ -1567,8 +1567,8 @@ for.config.crafting.stamps.disabled.comment=禁止某种邮票的合成表。
 
 for.config.tweaks=调整
 
-for.config.tweaks.gui.mail.alert.enabled=邮箱提醒
-for.config.tweaks.gui.mail.alert.enabled.comment=启用新邮件提醒盒子
+for.config.tweaks.gui.mail.alert=邮箱提醒
+for.config.tweaks.gui.mail.alert.comment=开启新邮件提醒。
 for.config.tweaks.gui.mail.alert.xPosition=水平位置
 for.config.tweaks.gui.mail.alert.xPosition.comment=邮箱提醒盒子在屏幕中的水平位置。
 for.config.tweaks.gui.mail.alert.yPosition=垂直位置
