@@ -1,3 +1,3 @@
 gamestage add @p baykok
 summon minecraft:fireworks_rocket ~ ~ ~
-say 你已经学会了如何制作箭头！
+say ���Ѿ�ѧϰ����κϳɼ�

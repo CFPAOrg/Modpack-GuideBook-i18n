@@ -1,2 +1,2 @@
 gamestage add @p mapping
-say 浣犲涔犱簡楂樼骇鍦板浘鐭ヨ瘑
+say 你学习了高级地图知识
