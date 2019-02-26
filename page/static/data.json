@@ -1,0 +1,634 @@
+[
+	{
+		"name": "Age of Engineering",
+		"contents": [
+			{
+				"version": "1.1.2",
+				"releaseAt": 1,
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Age%20of%20Engineering-1.1.2-windows.zip",
+					"md5": "756d4e3247ed4d19b93d73aa2ec6f4fa",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Age%20of%20Engineering-1.1.2-linux.zip",
+					"md5": "71f561106c3601eafcd2d8c49e2eaf5c",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "Exoria",
+		"contents": [
+			{
+				"version": "1.2.1",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Exoria-1.2.1-windows.zip",
+					"md5": "c10646f2a839f9dee81c94c67f0d8bc8",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Exoria-1.2.1-linux.zip",
+					"md5": "571dfbf37a997ede170b1ec86f045feb",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.3.0b",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Exoria-1.3.0b-windows.zip",
+					"md5": "e7bf99e3d9b919f2eb4c747536442232",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Exoria-1.3.0b-linux.zip",
+					"md5": "6412ae7d633a6fb5b65bf96d6c8b5b32",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.3.0c",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Exoria-1.3.0c-windows.zip",
+					"md5": "58e31a8fa871a2de1e3e988d81c73246",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Exoria-1.3.0c-linux.zip",
+					"md5": "ff96044dd113b8fe35534ba08f37a415",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "Farming Valley",
+		"contents": [
+			{
+				"version": "0.9.1",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Farming%20Valley-0.9.1-windows.zip",
+					"md5": "23831cda172d324c52eaac91f2d297a3",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Farming%20Valley-0.9.1-linux.zip",
+					"md5": "dc3235aa8d2194a6f6b9f71903aab321",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "FTB Continuum",
+		"contents": [
+			{
+				"version": "1.3.1",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/FTB%20Continuum-1.3.1-windows.zip",
+					"md5": "6a89710753987483d022f6d4a086cebe",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/FTB%20Continuum-1.3.1-linux.zip",
+					"md5": "91a6cc288564eb06f98c951ec563e3dd",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "FTB Presents SkyFactory 3",
+		"contents": [
+			{
+				"version": "3.0.15",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/FTB%20Presents%20SkyFactory%203-3.0.15-windows.zip",
+					"md5": "efba09d42e7cbe9df5edd365b6939385",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/FTB%20Presents%20SkyFactory%203-3.0.15-linux.zip",
+					"md5": "fac50362e3948306d96906442c5a2f4b",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "FTB Pyramid Reborn",
+		"contents": [
+			{
+				"version": "2.1.1",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/FTB%20Pyramid%20Reborn-2.1.1-windows.zip",
+					"md5": "6aa243a89b807bce8ae0d582cded5240",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/FTB%20Pyramid%20Reborn-2.1.1-linux.zip",
+					"md5": "7b82be1ec35b9e47473d7a8fd0d9b2de",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "FTB Sky Factory Challenges",
+		"contents": [
+			{
+				"version": "1.1.0",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/FTB%20Sky%20Factory%20Challenges-1.1.0-windows.zip",
+					"md5": "66c8090cb8aae7c05afbb8c64b13ca7b",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/FTB%20Sky%20Factory%20Challenges-1.1.0-linux.zip",
+					"md5": "786593171899c8eafd616c99ab183a8f",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "Greg Block",
+		"contents": [
+			{
+				"version": "1.2.0",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.2.0-windows.zip",
+					"md5": "79c24e511084bdd925879cd9a33c86f2",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.2.0-linux.zip",
+					"md5": "efe9d978913b32a851412a57ee50f68d",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.3.1",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.3.1-windows.zip",
+					"md5": "5d873f89de0b8a0006b061bed0c159c8",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.3.1-linux.zip",
+					"md5": "f2a4666d4d58d0d9fad3e32d5bd21d83",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.3.2",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.3.2-windows.zip",
+					"md5": "3bb546b7e7d8454f6724e277cb534cbb",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.3.2-linux.zip",
+					"md5": "8d347256114a53ab26c4417fe19649d8",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.4.0",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.0-windows.zip",
+					"md5": "93ada603ff97867a9deda6e749473645",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.0-linux.zip",
+					"md5": "330751da510377abfa72eb39d42a808f",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.4.1",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.1-windows.zip",
+					"md5": "25437cb0a17c4606fae8f68c68df702f",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.1-linux.zip",
+					"md5": "6f8b88a156137fdbb89c1807b50192f1",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.4.2",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.2-windows.zip",
+					"md5": "2ee6d7de28dedb71c2c2c8dcc880072d",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.2-linux.zip",
+					"md5": "632cbe6e24a0e1ed85f7b7cd3f317961",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.4.3",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.3-windows.zip",
+					"md5": "743202cde50907731793496df1e74de6",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.3-linux.zip",
+					"md5": "9ace4beb74fb05248e7a76e41dede30f",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.4.4",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.4-windows.zip",
+					"md5": "a60e323c66ff97ad60e9019b221208c5",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.4-linux.zip",
+					"md5": "26f67b2e910bf166ecb1338c3e1414ee",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.4.5",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.5-windows.zip",
+					"md5": "852db18dc41b36aac266002a125c8adb",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.5-linux.zip",
+					"md5": "3b0bb2975d974abaabb64defaf6faded",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.4.6",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.6-windows.zip",
+					"md5": "de124de0e7f0b531731e579191a33afb",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Greg%20Block-1.4.6-linux.zip",
+					"md5": "4d3e0bbd24e3ae93949b3f2e37285c2a",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "GT New Horizons",
+		"contents": [
+			{
+				"version": "2.0.4.9",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GT%20New%20Horizons-2.0.4.9-windows.zip",
+					"md5": "1521958acafd326bab51dc7693674eff",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GT%20New%20Horizons-2.0.4.9-linux.zip",
+					"md5": "534d6b8bdd981e25c7b763d1f85884de",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "2.0.5.1",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GT%20New%20Horizons-2.0.5.1-windows.zip",
+					"md5": "debcfc6f9cd13b3083c445e060d42d44",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GT%20New%20Horizons-2.0.5.1-linux.zip",
+					"md5": "d84025231740d9e7e15bffdee4923b34",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "2.0.6.0",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GT%20New%20Horizons-2.0.6.0-windows.zip",
+					"md5": "704cf460863d186c701c40fafcf1120d",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GT%20New%20Horizons-2.0.6.0-linux.zip",
+					"md5": "e3d7c9b65f9a6d468fa50528ac96db83",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "2.0.6.2",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GT%20New%20Horizons-2.0.6.2-windows.zip",
+					"md5": "2309357bc2cc551c4f39588b964b71ee",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GT%20New%20Horizons-2.0.6.2-linux.zip",
+					"md5": "afe39e89d0ed69ff6a77825701cb7da9",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "GTNH(含魔改汉化)",
+		"contents": [
+			{
+				"version": "2.0.4.9",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GTNH%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.4.9-windows.zip",
+					"md5": "2db970f4f2627e67c46dcf618d70d682",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GTNH%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.4.9-linux.zip",
+					"md5": "965d8cfe1460fda6e5b170eb26b57bbb",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "2.0.5.1",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GTNH%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.5.1-windows.zip",
+					"md5": "edbf600341f741a1e1f8bf37588f35ce",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GTNH%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.5.1-linux.zip",
+					"md5": "23550e4b319f64625c58f6132f2d1591",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "2.0.6.0",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GTNH%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.0-windows.zip",
+					"md5": "42a36604c36225c34c49bc6865bf582f",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GTNH%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.0-linux.zip",
+					"md5": "f99d5b8e140d6d01003502979bedd458",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "2.0.6.2",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GTNH%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.2-windows.zip",
+					"md5": "7584b566c512a98f98dea29466f28b9e",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/GTNH%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.2-linux.zip",
+					"md5": "e423f0cce18c5aac9a89d5f8b228990e",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "Invasion",
+		"contents": [
+			{
+				"version": "1.0.9",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Invasion-1.0.9-windows.zip",
+					"md5": "48a845d3df173dcea29292672d60dd2c",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Invasion-1.0.9-linux.zip",
+					"md5": "a83d78818cac2d680ad0eff1f0ff615a",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "Modern Skyblock 3",
+		"contents": [
+			{
+				"version": "3.5.0",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Modern%20Skyblock%203-3.5.0-windows.zip",
+					"md5": "303328bc89fb2c5b2f4b6e2238f818c2",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Modern%20Skyblock%203-3.5.0-linux.zip",
+					"md5": "50495e75eb43a768ef8849b57fd43e99",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "Primal Skies",
+		"contents": [
+			{
+				"version": "1.1.12",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Primal%20Skies-1.1.12-windows.zip",
+					"md5": "9510df6e33f3f8562f464cd55ee5ab4f",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Primal%20Skies-1.1.12-linux.zip",
+					"md5": "67fc70e381a7aa30cb593c49902d9d5b",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "SevTech Ages",
+		"contents": [
+			{
+				"version": "3.0.6",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/SevTech%20Ages-3.0.6-windows.zip",
+					"md5": "54fd8f9b2be944596094e673c44b0129",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/SevTech%20Ages-3.0.6-linux.zip",
+					"md5": "7221e0953ba89db58cfa31ff746b983c",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "3.0.7",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/SevTech%20Ages-3.0.7-windows.zip",
+					"md5": "18d562f896b17ed207530297efeac79f",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/SevTech%20Ages-3.0.7-linux.zip",
+					"md5": "c4c318522bbcd5e0bda8b0b08951249a",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "3.0.8",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/SevTech%20Ages-3.0.8-windows.zip",
+					"md5": "94dc147b97af955e99cee57919445ac6",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/SevTech%20Ages-3.0.8-linux.zip",
+					"md5": "8269c4002af2aa730b6f3474f1d0ece7",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "Space Astronomy 2",
+		"contents": [
+			{
+				"version": "1.4.9",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Space%20Astronomy%202-1.4.9-windows.zip",
+					"md5": "e6e8f00430049ecae8ffc1d82366ff10",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Space%20Astronomy%202-1.4.9-linux.zip",
+					"md5": "1fd4fc08f41315f3f88f7374c1902145",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "Stone Block",
+		"contents": [
+			{
+				"version": "1.0.26",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block-1.0.26-windows.zip",
+					"md5": "c37db688e958b23e58a0ee8489290cbb",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block-1.0.26-linux.zip",
+					"md5": "45e34e6556fd7a3f150f3d97c2964cdb",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.0.27",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block-1.0.27-windows.zip",
+					"md5": "f57c012e6d536505ddf7132104150404",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block-1.0.27-linux.zip",
+					"md5": "45e34e6556fd7a3f150f3d97c2964cdb",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.0.28",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block-1.0.28-windows.zip",
+					"md5": "e125e3c0bd4b24e9622727ff0fbb8c6d",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block-1.0.28-linux.zip",
+					"md5": "45e34e6556fd7a3f150f3d97c2964cdb",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.0.29",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block-1.0.29-windows.zip",
+					"md5": "d96ec416f3c39ba68e41617d80dde0ea",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block-1.0.29-linux.zip",
+					"md5": "45e34e6556fd7a3f150f3d97c2964cdb",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.0.30",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block-1.0.30-windows.zip",
+					"md5": "d9941a064bf5269673cd97e72a00953f",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block-1.0.30-linux.zip",
+					"md5": "45e34e6556fd7a3f150f3d97c2964cdb",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.0.31",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block-1.0.31-windows.zip",
+					"md5": "686b37b66de97718423126c0c5244160",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block-1.0.31-linux.zip",
+					"md5": "45e34e6556fd7a3f150f3d97c2964cdb",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	},
+	{
+		"name": "Stone Block 2",
+		"contents": [
+			{
+				"version": "1.3.0",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block%202-1.3.0-windows.zip",
+					"md5": "1360dd2075730b453fc3f5f9cc1e090a",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block%202-1.3.0-linux.zip",
+					"md5": "0929b79fbc95b7036681e878c7f89045",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			},
+			{
+				"version": "1.4.0",
+				"windows": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block%202-1.4.0-windows.zip",
+					"md5": "754bee918f89bc914fa3fb8e9931fc4b",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				},
+				"linux": {
+					"url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/file/Stone%20Block%202-1.4.0-linux.zip",
+					"md5": "d9aac49b2576ad7853e3ebfdad98bc0c",
+					"sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+				}
+			}
+		]
+	}
+]
