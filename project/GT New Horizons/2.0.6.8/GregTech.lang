@@ -3088,7 +3088,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12697_Index_6=1层动力线圈,每个等级的变压器
     S:TileEntity_DESCRIPTION_12697_Index_7=中间层必须为镍铁氧体核心
     S:TileEntity_DESCRIPTION_12697_Index_8=顶层至少包含一个动力仓
-    S:TileEntity_DESCRIPTION_12697_Index_9=维护仓可置于
+    S:TileEntity_DESCRIPTION_12697_Index_9=维护仓可置于任意位置
     S:TileEntity_DESCRIPTION_12698_Index_0=由动能驱动的原始研磨机
     S:TileEntity_DESCRIPTION_12698_Index_1=大小(宽x高x长): 7x12x7
     S:TileEntity_DESCRIPTION_12698_Index_10=第10层: 5x5木板.角落填充,中空.
@@ -3220,7 +3220,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12730_Index_16=自配方的最小炉温起，每高出1800K将允许一次无损超频
     S:TileEntity_DESCRIPTION_12730_Index_17=无损超频将减少加工时间至25%并提升功率至400%
     S:TileEntity_DESCRIPTION_12730_Index_18=每秒造成最大102400污染
-    S:TileEntity_DESCRIPTION_12730_Index_2=控制器方块在第二层正面中央
+    S:TileEntity_DESCRIPTION_12730_Index_2=控制器方块在第三层正面中央
     S:TileEntity_DESCRIPTION_12730_Index_3=内层13x18x13加热线圈(中空)
     S:TileEntity_DESCRIPTION_12730_Index_4=外层15x18x15硼玻璃方块
     S:TileEntity_DESCRIPTION_12730_Index_5=玻璃等级限制里能量输入等级
