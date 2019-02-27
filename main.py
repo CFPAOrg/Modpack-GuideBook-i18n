@@ -5,6 +5,7 @@ import os
 import re
 import sys
 import tempfile
+import time
 import urllib.parse
 from distutils import dir_util
 
@@ -210,6 +211,21 @@ if __name__ == '__main__':
                                    PartSize=10,
                                    MAXThread=10,
                                    CacheControl='no-cache')
+
+                # 通过 git 来获取作者和最后 commit 时间
+                folder_path = str.format(".project/{}/{}", modpack, version)
+                cmd_author = os.popen('git log --pretty=format:"%an" "{}" | sort | uniq'.format(folder_path))
+                cmd_time = os.popen('git log --pretty=format:"%ad" "{}" | sort | uniq'.format(folder_path))
+
+                # 作者列表的读取
+                author_list = []
+                for author in cmd_author.readlines():
+                    author_list.append(author[:-1])
+
+                # 将格式化的时间变回时间戳
+                # Fri May 11 21:51:00 2018 +0800
+                time_stamp = int(time.mktime(time.strptime(cmd_time.readline()[0:-7], "%a %b %d %H:%M:%S %Y")))
+
                 # 存入信息
                 contents.append({
                     "version": version,
@@ -217,13 +233,17 @@ if __name__ == '__main__':
                         'url': 'https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/' +
                                urllib.parse.quote(win_file, safe='/'),
                         "md5": win_md5,
-                        "sha1": win_sha1
+                        "sha1": win_sha1,
+                        "author": author_list,
+                        "time": time_stamp
                     },
                     "linux": {
                         "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/" +
                                urllib.parse.quote(linux_file, safe='/'),
                         "md5": linux_md5,
-                        "sha1": linux_sha1
+                        "sha1": linux_sha1,
+                        "author": author_list,
+                        "time": time_stamp
                     }
                 })
 
