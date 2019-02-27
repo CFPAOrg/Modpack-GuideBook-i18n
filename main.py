@@ -218,14 +218,21 @@ if __name__ == '__main__':
                 cmd_time = os.popen('git log --pretty=format:"%ad" "{}" | sort | uniq'.format(folder_path))
 
                 # 作者列表的更新
-                author_list = get_in(get_in(MODPACK_DATA_OLD, "name", modpack)['contents'],
-                                     "version", version)["author"]
+                # 先判定 contents，version 是否存在
+                if is_in(MODPACK_DATA_OLD, "name", modpack) \
+                        and is_in(get_in(MODPACK_DATA_OLD, "name", modpack)['contents'], "version", version):
+                    author_list = get_in(get_in(MODPACK_DATA_OLD, "name", modpack)['contents'],
+                            "version", version)["author"]
+                else:
+                    author_list = []
                 for author in cmd_author.readlines():
+                    # 剔除最后的换行符
                     author_list.append(author[:-1])
                 # 去除重复数据
                 author_list = list(set(author_list))
 
                 # 将格式化的时间变回时间戳
+                # 剔除最后的时区
                 # Fri May 11 21:51:00 2018 +0800
                 time_stamp = int(time.mktime(time.strptime(cmd_time.readline()[0:-7], "%a %b %d %H:%M:%S %Y")))
 
