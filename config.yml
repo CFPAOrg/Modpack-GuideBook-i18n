@@ -1,3 +1,11 @@
+# 整合汉化补丁页面脚本配置文件
+# 2019-02-27
+
+# 需要处理编码的文件
+# 书写均为带反斜杠转义的正则表达式
+# 正则匹配的文件，均应当为 GBK 编码
 file_rgx:
  - "config/SimpleAchievements/achievementList\\.txt"
- - "config/triumph/.*?\\.txt"
+
+# data.json 文件的路径
+data_json_path: "./data.json"

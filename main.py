@@ -89,22 +89,21 @@ def clear_timestamp(ct_dir):
 
 
 if __name__ == '__main__':
+    #################
+    # 相关数据的获取 #
+    #################
     # 日志开始记录
     logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
-
-    # 读取上次的 Json 文件
-    with open("./page/static/data.json", "r", encoding="utf-8") as c:
-        MODPACK_DATA_OLD = json.load(c)
-        logging.debug(MODPACK_DATA_OLD)
 
     # 读取配置文件
     with open("./config.yml", "r", encoding="utf-8") as c:
         config_y = yaml.load(c)
         FILE_RGX = config_y['file_rgx']
+        DATA_JSON_PATH = config_y['data_json_path']
         logging.debug(FILE_RGX)
 
     # 读取上次的 Json 文件
-    with open("./page/static/data.json", "r", encoding="utf-8") as c:
+    with open(DATA_JSON_PATH, "r", encoding="utf-8") as c:
         MODPACK_DATA_OLD = json.load(c)
         logging.debug(MODPACK_DATA_OLD)
 
@@ -117,6 +116,9 @@ if __name__ == '__main__':
     # 获取客户端对象
     client = CosS3Client(config)
 
+    #################
+    # 相关数据的创建 #
+    #################
     # 存储整合数据
     MODPACK_DATA_TOTAL = []
 
@@ -229,8 +231,8 @@ if __name__ == '__main__':
         MODPACK_DATA_TOTAL.append({"name": modpack, "contents": contents})
 
     # 存入这次的 Json 文件
-    with open("./page/static/data.json", "w", encoding="utf-8") as c:
+    with open(DATA_JSON_PATH, "w", encoding="utf-8") as c:
         # 依次是，允许非 ASCII 字符，缩进为 4 空格，分隔符带空格
-        js = json.dumps(MODPACK_DATA_TOTAL, ensure_ascii=False, indent=4, separators=(', ', ': '))
+        js = json.dumps(MODPACK_DATA_TOTAL, ensure_ascii=False, indent=2, separators=(',', ': '))
         c.write(js)
         logging.debug(MODPACK_DATA_OLD)
