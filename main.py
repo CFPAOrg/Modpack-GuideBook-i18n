@@ -213,14 +213,17 @@ if __name__ == '__main__':
                                    CacheControl='no-cache')
 
                 # 通过 git 来获取作者和最后 commit 时间
-                folder_path = str.format(".project/{}/{}", modpack, version)
+                folder_path = str.format("./project/{}/{}", modpack, version)
                 cmd_author = os.popen('git log --pretty=format:"%an" "{}" | sort | uniq'.format(folder_path))
                 cmd_time = os.popen('git log --pretty=format:"%ad" "{}" | sort | uniq'.format(folder_path))
 
-                # 作者列表的读取
-                author_list = []
+                # 作者列表的更新
+                author_list = get_in(get_in(MODPACK_DATA_OLD, "name", modpack)['contents'],
+                                     "version", version)["author"]
                 for author in cmd_author.readlines():
                     author_list.append(author[:-1])
+                # 去除重复数据
+                author_list = list(set(author_list))
 
                 # 将格式化的时间变回时间戳
                 # Fri May 11 21:51:00 2018 +0800
