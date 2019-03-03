@@ -222,7 +222,7 @@ if __name__ == '__main__':
                 if is_in(MODPACK_DATA_OLD, "name", modpack) \
                         and is_in(get_in(MODPACK_DATA_OLD, "name", modpack)['contents'], "version", version):
                     author_list = get_in(get_in(MODPACK_DATA_OLD, "name", modpack)['contents'],
-                            "version", version)["author"]
+                                         "version", version)['author']
                 else:
                     author_list = []
                 for author in cmd_author.readlines():
@@ -244,17 +244,15 @@ if __name__ == '__main__':
                                urllib.parse.quote(win_file, safe='/'),
                         "md5": win_md5,
                         "sha1": win_sha1,
-                        "author": author_list,
-                        "time": time_stamp
                     },
                     "linux": {
                         "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/" +
                                urllib.parse.quote(linux_file, safe='/'),
                         "md5": linux_md5,
                         "sha1": linux_sha1,
-                        "author": author_list,
-                        "time": time_stamp
-                    }
+                    },
+                    "author": author_list,
+                    "time": time_stamp
                 })
 
         # 存入总信息
@@ -262,7 +260,7 @@ if __name__ == '__main__':
 
     # 存入这次的 Json 文件
     with open(DATA_JSON_PATH, "w", encoding="utf-8") as c:
-        # 依次是，允许非 ASCII 字符，缩进为 4 空格，分隔符带空格
+        # 依次是，允许非 ASCII 字符，缩进为 2 空格，分隔符带空格
         js = json.dumps(MODPACK_DATA_TOTAL, ensure_ascii=False, indent=2, separators=(',', ': '))
         c.write(js)
         logging.debug(MODPACK_DATA_OLD)

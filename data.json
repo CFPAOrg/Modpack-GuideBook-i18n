@@ -373,113 +373,90 @@
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.4.9-windows.zip",
           "md5": "1e5ea2ea061a58e8b239b260740adef1",
-          "sha1": "fc21fdc59d86874a5996eef913fbf8660a99070e",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
+          "sha1": "fc21fdc59d86874a5996eef913fbf8660a99070e"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.4.9-linux.zip",
           "md5": "1e5ea2ea061a58e8b239b260740adef1",
-          "sha1": "fc21fdc59d86874a5996eef913fbf8660a99070e",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
-        }
+          "sha1": "fc21fdc59d86874a5996eef913fbf8660a99070e"
+        },
+        "author": [
+          "Kiwi233",
+          "TartaricAcid"
+        ],
+        "time": 1551163248
       },
       {
         "version": "2.0.5.1",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.5.1-windows.zip",
           "md5": "bb4060e6fc9c24572e6ec672bd6f5707",
-          "sha1": "8b1156b5e805d2c7561b0eb5e97d98f9a70d87a0",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
+          "sha1": "8b1156b5e805d2c7561b0eb5e97d98f9a70d87a0"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.5.1-linux.zip",
           "md5": "bb4060e6fc9c24572e6ec672bd6f5707",
-          "sha1": "8b1156b5e805d2c7561b0eb5e97d98f9a70d87a0",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
-        }
+          "sha1": "8b1156b5e805d2c7561b0eb5e97d98f9a70d87a0"
+        },
+        "author": [
+          "Kiwi233",
+          "TartaricAcid"
+        ],
+        "time": 1551163248
       },
       {
         "version": "2.0.6.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.0-windows.zip",
           "md5": "fc53dc69862234caaa617198b2a84637",
-          "sha1": "fe6532b457b6010c17d31b4a93f5b83c6e616c46",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
+          "sha1": "fe6532b457b6010c17d31b4a93f5b83c6e616c46"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.0-linux.zip",
           "md5": "fc53dc69862234caaa617198b2a84637",
-          "sha1": "fe6532b457b6010c17d31b4a93f5b83c6e616c46",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
-        }
+          "sha1": "fe6532b457b6010c17d31b4a93f5b83c6e616c46"
+        },
+        "author": [
+          "Kiwi233",
+          "TartaricAcid"
+        ],
+        "time": 1551163248
       },
       {
         "version": "2.0.6.2",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.2-windows.zip",
           "md5": "e1f60562dcc953603ce70eefa38015b6",
-          "sha1": "9b2966c9fc1a10dc3ea09bb1d98a00e8b5808cde",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
+          "sha1": "9b2966c9fc1a10dc3ea09bb1d98a00e8b5808cde"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.2-linux.zip",
           "md5": "e1f60562dcc953603ce70eefa38015b6",
-          "sha1": "9b2966c9fc1a10dc3ea09bb1d98a00e8b5808cde",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
-        }
+          "sha1": "9b2966c9fc1a10dc3ea09bb1d98a00e8b5808cde"
+        },
+        "author": [
+          "Kiwi233",
+          "TartaricAcid"
+        ],
+        "time": 1551163248
       },
       {
         "version": "2.0.6.8",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.8-windows.zip",
-          "md5": "1c7e038e4fc473ea58bd1828c654bb06",
-          "sha1": "d9a12dd5c969993e352ae7fdfd76f4e76bcfa129",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551241203
+          "md5": "39d2cdd2eccf6282769ff7f895373f15",
+          "sha1": "40352a4f53fe1ca816b4990f4cad513ec1ba5cb9"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.8-linux.zip",
-          "md5": "1c7e038e4fc473ea58bd1828c654bb06",
-          "sha1": "d9a12dd5c969993e352ae7fdfd76f4e76bcfa129",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551241203
-        }
+          "md5": "39d2cdd2eccf6282769ff7f895373f15",
+          "sha1": "40352a4f53fe1ca816b4990f4cad513ec1ba5cb9"
+        },
+        "author": [
+          "TartaricAcid",
+          "Kiwi233"
+        ],
+        "time": 1551241203
       }
     ]
   },
@@ -491,113 +468,90 @@
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.4.9-windows.zip",
           "md5": "1b624da9a84808091905b35455ac8f05",
-          "sha1": "5cc7263a36ab18d6dccb4a1c201dbf3c55914eae",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
+          "sha1": "5cc7263a36ab18d6dccb4a1c201dbf3c55914eae"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.4.9-linux.zip",
           "md5": "1b624da9a84808091905b35455ac8f05",
-          "sha1": "5cc7263a36ab18d6dccb4a1c201dbf3c55914eae",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
-        }
+          "sha1": "5cc7263a36ab18d6dccb4a1c201dbf3c55914eae"
+        },
+        "author": [
+          "Kiwi233",
+          "TartaricAcid"
+        ],
+        "time": 1551163248
       },
       {
         "version": "2.0.5.1",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.5.1-windows.zip",
           "md5": "35890ba256e26c2ed3e06677e46b6c94",
-          "sha1": "b1acae1882b1d394b4b8c03936f821250fe36e20",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
+          "sha1": "b1acae1882b1d394b4b8c03936f821250fe36e20"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.5.1-linux.zip",
           "md5": "35890ba256e26c2ed3e06677e46b6c94",
-          "sha1": "b1acae1882b1d394b4b8c03936f821250fe36e20",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
-        }
+          "sha1": "b1acae1882b1d394b4b8c03936f821250fe36e20"
+        },
+        "author": [
+          "Kiwi233",
+          "TartaricAcid"
+        ],
+        "time": 1551163248
       },
       {
         "version": "2.0.6.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.0-windows.zip",
           "md5": "0b425c960e6ab62d3c0904ebdd25a170",
-          "sha1": "ce85ac70971349b3602138c07128d4b1391797b0",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
+          "sha1": "ce85ac70971349b3602138c07128d4b1391797b0"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.0-linux.zip",
           "md5": "0b425c960e6ab62d3c0904ebdd25a170",
-          "sha1": "ce85ac70971349b3602138c07128d4b1391797b0",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
-        }
+          "sha1": "ce85ac70971349b3602138c07128d4b1391797b0"
+        },
+        "author": [
+          "Kiwi233",
+          "TartaricAcid"
+        ],
+        "time": 1551163248
       },
       {
         "version": "2.0.6.2",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.2-windows.zip",
           "md5": "eaba25b55a15de53c51e4e9ea9ad6b86",
-          "sha1": "afeccaa06994695e65afb1c7b2c644c2d8f86d06",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
+          "sha1": "afeccaa06994695e65afb1c7b2c644c2d8f86d06"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.2-linux.zip",
           "md5": "eaba25b55a15de53c51e4e9ea9ad6b86",
-          "sha1": "afeccaa06994695e65afb1c7b2c644c2d8f86d06",
-          "author": [
-            "Kiwi233",
-            "TartaricAcid"
-          ],
-          "time": 1551163248
-        }
+          "sha1": "afeccaa06994695e65afb1c7b2c644c2d8f86d06"
+        },
+        "author": [
+          "Kiwi233",
+          "TartaricAcid"
+        ],
+        "time": 1551163248
       },
       {
         "version": "2.0.6.8",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.8-windows.zip",
-          "md5": "03b79463a97985703aa521b34d309d6f",
-          "sha1": "2d14ba1c23105533b838efb162f41ae55f002630",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551241203
+          "md5": "c1d0e795cc58b9ea11a1dcfec12905d9",
+          "sha1": "9a56bb31ba63007b18b03f81cb7729944c0f2b9b"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.8-linux.zip",
-          "md5": "03b79463a97985703aa521b34d309d6f",
-          "sha1": "2d14ba1c23105533b838efb162f41ae55f002630",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551241203
-        }
+          "md5": "c1d0e795cc58b9ea11a1dcfec12905d9",
+          "sha1": "9a56bb31ba63007b18b03f81cb7729944c0f2b9b"
+        },
+        "author": [
+          "TartaricAcid",
+          "Kiwi233"
+        ],
+        "time": 1551241203
       }
     ]
   },
@@ -861,106 +815,108 @@
         "version": "1.3.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.3.0-windows.zip",
-          "md5": "5b043c1bb1fa674c7b1fc23579b6ebad",
-          "sha1": "92e7d97eb7cc8d8fdb118efb17341cfbc2d3d3a6",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551241203
+          "md5": "bff0eaed383a5e66b2612b1ef6a07aaa",
+          "sha1": "23a30c9d70e90f4d8bc240d7553146f839bd0214"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.3.0-linux.zip",
-          "md5": "5b043c1bb1fa674c7b1fc23579b6ebad",
-          "sha1": "92e7d97eb7cc8d8fdb118efb17341cfbc2d3d3a6",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551241203
-        }
+          "md5": "bff0eaed383a5e66b2612b1ef6a07aaa",
+          "sha1": "23a30c9d70e90f4d8bc240d7553146f839bd0214"
+        },
+        "author": [
+          "10935336",
+          "TartaricAcid"
+        ],
+        "time": 1551420614
       },
       {
         "version": "1.4.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.4.0-windows.zip",
-          "md5": "5b043c1bb1fa674c7b1fc23579b6ebad",
-          "sha1": "92e7d97eb7cc8d8fdb118efb17341cfbc2d3d3a6",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551241203
+          "md5": "bff0eaed383a5e66b2612b1ef6a07aaa",
+          "sha1": "23a30c9d70e90f4d8bc240d7553146f839bd0214"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.4.0-linux.zip",
-          "md5": "5b043c1bb1fa674c7b1fc23579b6ebad",
-          "sha1": "92e7d97eb7cc8d8fdb118efb17341cfbc2d3d3a6",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551241203
-        }
+          "md5": "bff0eaed383a5e66b2612b1ef6a07aaa",
+          "sha1": "23a30c9d70e90f4d8bc240d7553146f839bd0214"
+        },
+        "author": [
+          "10935336",
+          "TartaricAcid"
+        ],
+        "time": 1551420624
       },
       {
         "version": "1.5.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.5.0-windows.zip",
-          "md5": "5b043c1bb1fa674c7b1fc23579b6ebad",
-          "sha1": "92e7d97eb7cc8d8fdb118efb17341cfbc2d3d3a6",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551241203
+          "md5": "bff0eaed383a5e66b2612b1ef6a07aaa",
+          "sha1": "23a30c9d70e90f4d8bc240d7553146f839bd0214"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.5.0-linux.zip",
-          "md5": "5b043c1bb1fa674c7b1fc23579b6ebad",
-          "sha1": "92e7d97eb7cc8d8fdb118efb17341cfbc2d3d3a6",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551241203
-        }
+          "md5": "bff0eaed383a5e66b2612b1ef6a07aaa",
+          "sha1": "23a30c9d70e90f4d8bc240d7553146f839bd0214"
+        },
+        "author": [
+          "10935336",
+          "TartaricAcid"
+        ],
+        "time": 1551420633
       },
       {
         "version": "1.6.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.6.0-windows.zip",
-          "md5": "5b043c1bb1fa674c7b1fc23579b6ebad",
-          "sha1": "92e7d97eb7cc8d8fdb118efb17341cfbc2d3d3a6",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551241203
+          "md5": "7c284b28bd7e3f7574cffbd9bb9c447c",
+          "sha1": "4b0d7d13ed9ea44a7d641f3880d9e1dd482c72b5"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.6.0-linux.zip",
-          "md5": "5b043c1bb1fa674c7b1fc23579b6ebad",
-          "sha1": "92e7d97eb7cc8d8fdb118efb17341cfbc2d3d3a6",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551241203
-        }
+          "md5": "7c284b28bd7e3f7574cffbd9bb9c447c",
+          "sha1": "4b0d7d13ed9ea44a7d641f3880d9e1dd482c72b5"
+        },
+        "author": [
+          "10935336",
+          "TartaricAcid"
+        ],
+        "time": 1551421133
       },
       {
         "version": "1.7.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.7.0-windows.zip",
-          "md5": "5b043c1bb1fa674c7b1fc23579b6ebad",
-          "sha1": "92e7d97eb7cc8d8fdb118efb17341cfbc2d3d3a6",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551248939
+          "md5": "7c284b28bd7e3f7574cffbd9bb9c447c",
+          "sha1": "4b0d7d13ed9ea44a7d641f3880d9e1dd482c72b5"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.7.0-linux.zip",
-          "md5": "5b043c1bb1fa674c7b1fc23579b6ebad",
-          "sha1": "92e7d97eb7cc8d8fdb118efb17341cfbc2d3d3a6",
-          "author": [
-            "TartaricAcid"
-          ],
-          "time": 1551248939
-        }
+          "md5": "7c284b28bd7e3f7574cffbd9bb9c447c",
+          "sha1": "4b0d7d13ed9ea44a7d641f3880d9e1dd482c72b5"
+        },
+        "author": [
+          "10935336",
+          "TartaricAcid"
+        ],
+        "time": 1551421233
+      },
+      {
+        "version": "1.8.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.8.0-windows.zip",
+          "md5": "7c284b28bd7e3f7574cffbd9bb9c447c",
+          "sha1": "4b0d7d13ed9ea44a7d641f3880d9e1dd482c72b5"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.8.0-linux.zip",
+          "md5": "7c284b28bd7e3f7574cffbd9bb9c447c",
+          "sha1": "4b0d7d13ed9ea44a7d641f3880d9e1dd482c72b5"
+        },
+        "author": [
+          "10935336"
+        ],
+        "time": 1551421382
       }
     ]
   }
