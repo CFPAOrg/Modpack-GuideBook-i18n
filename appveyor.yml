@@ -9,6 +9,8 @@ clone_script:
 - sh: git clone --recursive https://github.com/CFPAOrg/Modpack-Download-Page.git
 install:
 - sh: >-
+    cd Modpack-Download-Page
+
     pip install -r requirements.txt
 
     cd page
@@ -16,6 +18,8 @@ install:
     yarn
 build_script:
 - sh: >-
+    cd Modpack-Download-Page
+
     python3 main.py
 
     cd page
@@ -24,9 +28,9 @@ build_script:
 test: off
 deploy_script:
 - sh: >-
-    cd dist
+    cd Modpack-Download-Page/page/dist
 
-    git page/init
+    git init
 
     git add .
 
