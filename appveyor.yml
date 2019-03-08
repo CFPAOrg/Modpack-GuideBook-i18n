@@ -6,14 +6,14 @@ init:
 
     npm install -g yarn
 
-    sudo pip install --upgrade pip
+    sudo apt-get -y install python3-pip
 clone_script:
 - sh: git clone --recursive https://github.com/CFPAOrg/Modpack-GuideBook-i18n
 install:
 - sh: >-
     cd Modpack-GuideBook-i18n
 
-    sudo pip install -r requirements.txt
+    sudo pip3 install -r requirements.txt
 
     cd page
 
@@ -44,4 +44,4 @@ deploy_script:
 
     git commit -m 'AppVeyor自动部署 '
 
-    git push --force --quiet "https://baka943:${CO_TOKEN}@${CO_REF}" master:master
+    git push --force --quiet "https://dt_41azGL:${CO_TOKEN}@${CO_REF}" master:master
