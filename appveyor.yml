@@ -6,7 +6,7 @@ init:
 
     npm install -g yarn
 
-    pip install --upgrade pip
+    pip install --user --upgrade pip
 clone_script:
 - sh: git clone --recursive https://github.com/CFPAOrg/Modpack-Download-Page.git
 install:
@@ -17,7 +17,7 @@ install:
 
     ls
 
-    pip install -r requirements.txt
+    pip install --user -r requirements.txt
 
     cd page
 
