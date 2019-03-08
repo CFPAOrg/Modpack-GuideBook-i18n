@@ -6,14 +6,14 @@ init:
 
     npm install -g yarn
 
-    pip install --user --upgrade pip
+    sudo pip install --upgrade pip
 clone_script:
 - sh: git clone --recursive https://github.com/CFPAOrg/Modpack-GuideBook-i18n
 install:
 - sh: >-
     cd Modpack-GuideBook-i18n
 
-    pip install --user -r requirements.txt
+    sudo pip install -r requirements.txt
 
     cd page
 
