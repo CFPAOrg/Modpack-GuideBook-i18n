@@ -8,43 +8,29 @@ init:
 
     pip install --user --upgrade pip
 clone_script:
-- sh: git clone --recursive https://github.com/CFPAOrg/Modpack-Download-Page.git
+- sh: git clone --recursive https://github.com/CFPAOrg/Modpack-GuideBook-i18n
 install:
 - sh: >-
-    ls
-
     cd Modpack-Download-Page
-
-    ls
 
     pip install --user -r requirements.txt
 
     cd page
 
-    ls
-
     yarn
 build_script:
 - sh: >-
-    ls
-
-    cd Modpack-Download-Page
-
-    ls
+    cd ..
 
     python3 main.py
 
     cd page
 
-    ls
-
     yarn build
 test: off
 deploy_script:
 - sh: >-
-    ls
-
-    cd Modpack-Download-Page/page/dist
+    cd dist
 
     ls
 
