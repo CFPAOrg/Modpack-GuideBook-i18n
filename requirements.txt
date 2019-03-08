@@ -1,0 +1,3 @@
+cos_python_sdk_v5==1.5.3
+qcloud_cos==3.3.6
+PyYAML==3.13

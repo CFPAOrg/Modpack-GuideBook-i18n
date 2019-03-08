@@ -1,0 +1,35 @@
+version: 1.0.{build}
+image: Ubuntu1804
+init:
+- sh: >-
+    nvm install 10.15.2
+
+    npm install -g yarn
+clone_script:
+- sh: git clone --recursive https://github.com/CFPAOrg/Modpack-Download-Page.git
+install:
+- sh: >-
+    pip install -r requirements.txt
+
+    cd page
+
+    yarn
+build_script:
+- sh: >-
+    python3 main.py
+
+    cd page
+
+    yarn build
+test: off
+deploy_script:
+- sh: >-
+    cd dist
+
+    git page/init
+
+    git add .
+
+    git commit -m 'AppVeyor自动部署 '
+
+    git push --force --quiet "https://dt_IsWp1K:${CO_TOKEN}@${CO_REF}" master:master
