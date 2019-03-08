@@ -1,0 +1,3 @@
+[submodule "page"]
+	path = page
+	url = https://github.com/CFPAOrg/Modpack-Download-Page.git
