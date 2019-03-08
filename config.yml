@@ -9,4 +9,4 @@ file_rgx:
  - "config/triumph/.*?\\.txt"
 
 # data.json 文件的路径
-data_json_path: "./data.json"
+data_json_path: "./page/static/data.json"
