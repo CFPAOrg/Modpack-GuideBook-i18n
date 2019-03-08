@@ -5,30 +5,52 @@ init:
     nvm install 10.15.2
 
     npm install -g yarn
+
+    pip install --upgrade pip
 clone_script:
 - sh: git clone --recursive https://github.com/CFPAOrg/Modpack-Download-Page.git
 install:
 - sh: >-
+    ls
+
     cd Modpack-Download-Page
+
+    ls
 
     pip install -r requirements.txt
 
     cd page
 
+    ls
+
     yarn
 build_script:
 - sh: >-
+    ls
+
     cd Modpack-Download-Page
+
+    ls
 
     python3 main.py
 
     cd page
 
+    ls
+
     yarn build
 test: off
 deploy_script:
 - sh: >-
+    ls
+
     cd Modpack-Download-Page/page/dist
+
+    ls
+
+    git config --global user.email "baka943@baka943.com"
+
+    git config --global user.name "baka943"
 
     git init
 
@@ -36,4 +58,4 @@ deploy_script:
 
     git commit -m 'AppVeyor自动部署 '
 
-    git push --force --quiet "https://dt_IsWp1K:${CO_TOKEN}@${CO_REF}" master:master
+    git push --force --quiet "https://baka943:${CO_TOKEN}@${CO_REF}" master:master
