@@ -11,7 +11,7 @@ clone_script:
 - sh: git clone --recursive https://github.com/CFPAOrg/Modpack-GuideBook-i18n
 install:
 - sh: >-
-    cd Modpack-Download-Page
+    cd Modpack-GuideBook-i18n
 
     pip install --user -r requirements.txt
 
