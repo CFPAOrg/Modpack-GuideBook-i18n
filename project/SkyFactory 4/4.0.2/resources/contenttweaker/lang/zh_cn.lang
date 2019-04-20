@@ -1,0 +1,12 @@
+fluid.mud=污泥
+fluid.cookie_dough=液态曲奇面团
+fluid.bacon=液态培根
+fluid.donut=液态甜甜圈
+
+item.contenttweaker.cobblestone_circuit_mold.name=圆石电路板
+
+tile.contenttweaker.compact_machine_nether_wall.name=地狱压缩空间壁
+tile.contenttweaker.compact_machine_end_wall.name=末地压缩空间壁
+tile.contenttweaker.compact_machine_twilight_forest_wall.name=暮色压缩空间壁
+tile.contenttweaker.compact_machine_lost_cities_wall.name=失落的城市压缩空间壁
+tile.contenttweaker.compact_machine_hunting_dimension_wall.name=狩猎维度压缩空间壁

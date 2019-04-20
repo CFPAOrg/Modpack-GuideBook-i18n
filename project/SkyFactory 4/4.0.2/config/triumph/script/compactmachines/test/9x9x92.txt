@@ -1,0 +1,23 @@
+setTitle("9x9x9")
+
+setIcon(<compactmachines3:machine:3>)
+
+setDescription("Obtain Chorus Fruit to gain a larger Compact Machine")
+
+addParent("compactmachines:test/7x7x7")
+addParent("compactmachines:test/7x7x72")
+
+visibleIf("compact_machines")
+alwaysHidden()
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Chorus Fruit", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:chorus_fruit>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem(<compactmachines3:machine:3>)
+setPos(182,82)
