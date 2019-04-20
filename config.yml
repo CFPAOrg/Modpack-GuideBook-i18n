@@ -6,7 +6,7 @@
 # 正则匹配的文件，均应当为 GBK 编码
 file_rgx:
  - "config/SimpleAchievements/achievementList\\.txt"
- - "config/triumph/.*?\\.txt"
+ - "SevTech Ages/.*?config/triumph/.*?\\.txt"
 
 # data.json 文件的路径
 data_json_path: "./page/static/data.json"

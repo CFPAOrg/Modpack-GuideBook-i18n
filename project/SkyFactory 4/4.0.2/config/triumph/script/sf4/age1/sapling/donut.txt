@@ -1,0 +1,17 @@
+setTitle("D'OH!")
+
+setIcon(<sky_orchards:sapling_donut>)
+
+setDescription("Craft a Donut Sapling")
+
+addParent("sf4:age1/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Donut Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_donut>)
+
+//Rewards
+setRewardExperience(4)
+setPos(-209,181)
