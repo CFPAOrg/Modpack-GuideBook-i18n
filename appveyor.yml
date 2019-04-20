@@ -6,14 +6,14 @@ init:
 
     npm install -g yarn
 
-    sudo apt-get -y install python3-pip
+    # sudo apt-get -y install python3-pip
 clone_script:
 - sh: git clone --recursive https://github.com/CFPAOrg/Modpack-GuideBook-i18n
 install:
 - sh: >-
     cd Modpack-GuideBook-i18n
 
-    sudo pip3 install -r requirements.txt
+    # sudo pip3 install -r requirements.txt
 
     cd page
 
@@ -22,9 +22,11 @@ build_script:
 - sh: >-
     cd ..
 
-    python3 main.py
+    # python3 main.py
 
     cd page
+
+    cp ../data.json ./static/data.json 
 
     yarn build
 test: off
