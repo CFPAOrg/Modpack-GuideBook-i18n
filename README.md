@@ -20,6 +20,7 @@
 ## 5. 鸣谢
 感谢 `Suripe`，`普拉斯` 提供的部分 SevTech 整合汉化。            
 感谢 `SihenZhang` 的 FTB Continuum 整合汉化。             
-感谢 `Kiwi`，`huajijam`，`yesterday`，`Sky_Cat` 提供的 GTNH 整合翻译。
+感谢 `Kiwi`，`huajijam`，`yesterday`，`Sky_Cat` 提供的 GTNH 整合翻译。           
+感谢 `咕咕咕` 提供的 Sky Factory 4 整合 tips 部分汉化。              
 另外，由于 GTNH 许多汉化都是在模组自带汉化基础上完善的，所以无法得知作者，只能在此一并感谢所有为汉化工作作出过贡献的人们！
 其他参与人员可在本页面的 Contribution 区域查看。           
