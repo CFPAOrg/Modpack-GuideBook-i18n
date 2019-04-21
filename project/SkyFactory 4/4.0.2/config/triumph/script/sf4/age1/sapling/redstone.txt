@@ -1,8 +1,8 @@
-setTitle("It's Electric")
+setTitle("电力十足")
 
 setIcon(<sky_orchards:sapling_redstone>)
 
-setDescription("Craft a Redstone Sapling")
+setDescription("制作红石树树苗")
 
 addParent("sf4:age1/sapling/iron")
 

@@ -1,8 +1,8 @@
-setTitle("Water You Waiting For?")
+setTitle("你在等什么？")
 
 setIcon(<nuclearcraft:fluid_preheated_water>)
 
-setDescription("Collect Rain Water in a Cauldron or by jumping on a Sapling in a Crushing Tub. Collect it using a Clay Bucket or Iron Bucket")
+setDescription("用炼药锅收集雨水或者将树苗放在压榨木盆中然后在其上方跳动来榨水。用粘土桶或普通的桶来收集它")
 
 addParent("sf4:age1/root")
 

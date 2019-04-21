@@ -1,8 +1,8 @@
-setTitle("Peaceful Mode On")
+setTitle("和平模式，启动")
 
 setIcon(<statues:blockspiderstatuet4>)
 
-setDescription("Hidden advancement to set player world to peaceful")
+setDescription("将玩家所处世界设置为和平模式的隐藏进度")
 
 addParent("pacifist:pacifist_run/root")
 setRequiresParents()

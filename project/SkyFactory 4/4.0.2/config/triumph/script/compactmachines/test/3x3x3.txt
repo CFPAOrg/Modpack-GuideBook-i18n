@@ -2,7 +2,7 @@ setTitle("3x3x3")
 
 setIcon(<compactmachines3:machine>)
 
-setDescription("Obtain Grass Block to gain a larger Compact Machine")
+setDescription("获取草方块，进而来获得一个新的空间压缩机械")
 
 addParent("compactmachines:test/root")
 

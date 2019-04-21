@@ -1,8 +1,8 @@
-setTitle("Enter the Twilight")
+setTitle("抵达暮色森林")
 
 setIcon(<twilightforest:miniature_structure>)
 
-setDescription("Go to the Twilight Forest Dimension using a Twilight Forest Cake or building a Twilight Portal")
+setDescription("制作一个暮色传送门或者吃下暮色蛋糕来抵达暮色森林")
 
 addParent("sf4:age_exploration/root")
 

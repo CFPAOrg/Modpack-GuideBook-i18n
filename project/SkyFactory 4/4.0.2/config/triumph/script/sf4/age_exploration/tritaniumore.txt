@@ -1,8 +1,8 @@
-setTitle("You're Tritanium to Bring Me Down")
+setTitle("这是你打败我的姿钛")
 
 setIcon(<matteroverdrive:tritanium_ore>)
 
-setDescription("Travel to the Lost Cities or Twilight Forest to locate Tritanium Ore")
+setDescription("抵达失落的城市或暮色森林寻找三钛合金矿")
 
 addParent("sf4:age_exploration/root")
 

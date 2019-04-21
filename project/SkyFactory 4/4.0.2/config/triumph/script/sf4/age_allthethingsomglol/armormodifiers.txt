@@ -1,8 +1,8 @@
-setTitle("Gotta Mod Them All!")
+setTitle("请将装备全部强化一下！")
 
 setIcon(<conarm:chestplate>)
 
-setDescription("Use every Construct's Armory modifier at least once")
+setDescription("请将你的匠魂装甲全部强化一下！")
 
 addParent("sf4:age_allthethingsomglol/root")
 hideLines()

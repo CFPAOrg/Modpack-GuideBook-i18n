@@ -1,8 +1,8 @@
-setTitle("You Win!")
+setTitle("你是个合格的农夫！")
 
 setIcon(<minecraft:cooked_chicken>)
 
-setDescription("Complete all the advancements on the page. This will award you with 1 prestige point")
+setDescription("完成这一页所有的进度，你将获得1点声望作为奖励")
 
 addParent("sf4:age_farming/root")
 addParent("sf4:age_farming/animalseeds")

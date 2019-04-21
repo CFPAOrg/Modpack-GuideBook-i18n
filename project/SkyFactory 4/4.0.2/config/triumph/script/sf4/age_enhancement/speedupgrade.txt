@@ -1,8 +1,8 @@
-setTitle("Gotta Go Fast")
+setTitle("我还能更快！")
 
 setIcon(<mekanism:speedupgrade>)
 
-setDescription("Craft a Mekanism Speed upgrade to speed up your machines. Careful, the faster the machine the higher the power usage")
+setDescription("制作一个通用机械的速度升级来加速你的机器，当然，这会带来更高的电量消耗")
 
 addParent("sf4:age_enhancement/root")
 

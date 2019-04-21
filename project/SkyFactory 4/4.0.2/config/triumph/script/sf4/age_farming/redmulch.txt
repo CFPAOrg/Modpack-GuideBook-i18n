@@ -1,8 +1,8 @@
-setTitle("The Hot Stuff")
+setTitle("火热物质")
 
 setIcon(<inspirations:mulch:5>)
 
-setDescription("Red Mulch in a Bonsai Pot will decrease growth time and increase drop chances")
+setDescription("红色有机覆盖物会加速盆栽生长速度和增加掉落几率")
 
 addParent("sf4:age_farming/rubyMulch")
 

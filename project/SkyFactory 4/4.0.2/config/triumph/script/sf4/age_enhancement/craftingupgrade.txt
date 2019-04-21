@@ -1,8 +1,8 @@
-setTitle("Edible Arrangements")
+setTitle("安排上了")
 
 setIcon(<cyclicmagic:crafting_food>)
 
-setDescription("Craft and eat a Crafting Upgrade from Cyclic")
+setDescription("制作并吃下一个循环模组的工作台升级蛋糕")
 
 addParent("sf4:age_enhancement/root")
 

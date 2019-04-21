@@ -1,8 +1,8 @@
-setTitle("Blue Man Group")
+setTitle("蓝人乐团")
 
 setIcon(<sky_orchards:sapling_lapis>)
 
-setDescription("Craft a Lapis Sapling")
+setDescription("制作一个青金石树树苗")
 
 addParent("sf4:age1/sapling/coal")
 

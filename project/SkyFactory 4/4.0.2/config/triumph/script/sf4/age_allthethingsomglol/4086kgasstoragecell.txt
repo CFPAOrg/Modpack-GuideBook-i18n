@@ -1,8 +1,8 @@
-setTitle("Hit the Gas")
+setTitle("充满气体")
 
 setIcon(<extracells:storage.gas:6>)
 
-setDescription("Obtain 4096k Gas Storage Cell")
+setDescription("获得4096K-ME气体存储单元")
 
 addParent("sf4:age_allthethingsomglol/root")
 

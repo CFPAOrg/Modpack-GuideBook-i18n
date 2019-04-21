@@ -2,7 +2,7 @@ setTitle("7x7x7")
 
 setIcon(<compactmachines3:machine:2>)
 
-setDescription("Obtain Netherrack to gain a larger Compact Machine")
+setDescription("获得地狱岩，进而来获得更大的空间压缩机械")
 
 addParent("compactmachines:test/5x5x5")
 addParent("compactmachines:test/5x5x52")

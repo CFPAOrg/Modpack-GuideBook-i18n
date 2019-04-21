@@ -1,8 +1,8 @@
-setTitle("Tin Man")
+setTitle("铁（锡）皮人")
 
 setIcon(<sky_orchards:amber_tin>)
 
-setDescription("Obtain tin by crafting Tin Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Tin and pour it into a Casting Basin or Cast")
+setDescription("通过制作锡珀块来获取锡锭：使用微缩匠魂冶炼炉来熔化锡珀块可以得到熔融锡，然后通过浇筑盆或浇筑台将其放出来")
 
 addParent("sf4:age1/sapling/sand")
 

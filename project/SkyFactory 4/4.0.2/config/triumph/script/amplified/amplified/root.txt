@@ -1,8 +1,8 @@
-setTitle("Amplified")
+setTitle("放大化")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Hidden Root Advancement for Amplified World Type")
+setDescription("放大化世界隐藏的起始进度")
 
 setBackground("projecte:textures/blocks/dm.png")
 

@@ -1,8 +1,8 @@
-setTitle("NonPacifist")
+setTitle("非和平主义者")
 
 setIcon(<minecraft:cooked_porkchop>)
 
-setDescription("Hidden advancement to grant non-pacifist stage to player on every other world type.")
+setDescription("这个隐藏进度是对任何其他世界类型里，开非和平模式的玩家的奖励")
 
 addParent("sf4:age1/root")
 

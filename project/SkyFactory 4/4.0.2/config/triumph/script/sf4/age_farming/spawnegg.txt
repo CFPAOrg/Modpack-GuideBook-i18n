@@ -1,8 +1,8 @@
-setTitle("Egg Hunt")
+setTitle("猎蛋者")
 
 setIcon(<minecraft:spawn_egg>)
 
-setDescription("Feed an Adult Chicken a bag of Chicken Feed and collect its Spawn Egg")
+setDescription("给成年鸡喂一包鸡饲料并收集它下的蛋（或许是只公鸡？）")
 
 addParent("sf4:age_farming/chickenFeed")
 

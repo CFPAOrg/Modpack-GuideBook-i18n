@@ -1,8 +1,8 @@
-setTitle("Tutorial")
+setTitle("教程")
 
 setIcon(<minecraft:knowledge_book>)
 
-setDescription("Welcome to the SkyFactory 4 Tutorial")
+setDescription("欢迎来到天空工厂4的教程")
 
 setBackground("test:textures/colors/sky_blue.png")
 

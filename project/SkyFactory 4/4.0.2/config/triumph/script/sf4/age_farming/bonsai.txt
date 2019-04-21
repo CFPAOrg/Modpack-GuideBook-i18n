@@ -1,8 +1,8 @@
-setTitle("Bonsai!!!")
+setTitle("盆栽！！！")
 
 setIcon(<bonsaitrees:bonsaipot>)
 
-//setDescription("Use a Bonsai Pot to grow Saplings. Make sure to add Dirt, Fertile Soil, or Colored Mulch first, then add a sapling. Right-click fully grown trees with an Axe to harvest them")
+//setDescription("用盆栽盆来种树吧，确保你已经放入了泥土、沃土、有机覆盖物或土珀块,用斧头右键长好的树就可以收获了")
 
 setDescription({"translate":"Use a Bonsai Pot to grow Saplings. Make sure to add Dirt, Fertile Soil, or Colored Mulch first, then add a sapling. '%1$s' fully grown trees with an Axe to harvest them  ","with":[{"keybind":"key.use"}]})
 

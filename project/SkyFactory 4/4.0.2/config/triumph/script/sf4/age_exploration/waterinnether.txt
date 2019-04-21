@@ -1,8 +1,8 @@
-setTitle("Hell of a Boat Ride")
+setTitle("地狱方舟")
 
 setIcon(<minecraft:water_bucket>)
 
-setDescription("Place Water in the Nether using a Bucket. Then place a Boat on the Water. Profit!")
+setDescription("用桶在下界放水，然后在水上放一只船，完美！")
 
 addParent("sf4:age_exploration/nether")
 

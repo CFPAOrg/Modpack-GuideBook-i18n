@@ -1,8 +1,8 @@
-setTitle("Cobble Cobble")
+setTitle("满溢吧，原石")
 
 setIcon(<minecraft:cobblestone>)
 
-setDescription("Craft or create a Cobblestone Generator and fill all the slots of a Vanilla Chest. Open the Chest to complete the Advancement")
+setDescription("做一个造石机，它会向六个面相邻的容器输入原石，打开一个被原石装满的箱子来完成进度")
 
 addParent("sf4:age1/cobblestone")
 

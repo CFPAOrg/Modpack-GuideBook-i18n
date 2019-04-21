@@ -1,8 +1,8 @@
-setTitle("Sign My Cast")
+setTitle("签下我吧")
 
 setIcon(<tconstruct:cast,ore:cast,meta:0,count:1,nbt:{PartType:"tconstruct:pick_head"}>)
 
-setDescription("Create a non-clay Pickaxe Head Cast to start upgrading your tools")
+setDescription("制作一个非粘土镐头铸模以开始升级你的工具")
 
 addParent("sf4:age_enhancement/root")
 

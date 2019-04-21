@@ -2,7 +2,7 @@ setTitle("7x7x7")
 
 setIcon(<compactmachines3:machine:2>)
 
-setDescription("Obtain an Eye of Ender to gain a larger Compact Machine")
+setDescription("获取末影之眼，进而来获得更大的空间压缩机械")
 
 addParent("compactmachines:test/5x5x5")
 addParent("compactmachines:test/5x5x52")

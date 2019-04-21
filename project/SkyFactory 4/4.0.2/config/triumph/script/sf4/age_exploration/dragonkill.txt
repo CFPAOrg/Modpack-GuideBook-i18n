@@ -1,8 +1,8 @@
-setTitle("Where's the Boss?")
+setTitle("Boss 在哪？")
 
 setIcon(<minecraft:skull:5>)
 
-setDescription("Travel to the End Dimension. Unfortunately, due to budget constraints we could not afford a dragon this time around. Sorry")
+setDescription("现在你抵达了末地，不幸的是，因为预算紧张，这次我们无法提供一只末影龙给你，抱歉")
 
 addParent("sf4:age_exploration/endcake")
 drawDirectLines(true)

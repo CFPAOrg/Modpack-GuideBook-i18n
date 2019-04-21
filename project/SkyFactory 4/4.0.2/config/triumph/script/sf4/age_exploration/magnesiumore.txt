@@ -1,8 +1,8 @@
-setTitle("Light up Your Night")
+setTitle("照亮你的镁")
 
 setIcon(<nuclearcraft:ore:7>)
 
-setDescription("Travel to the Lost Cities or Twilight Forest to locate Magnesium Ore")
+setDescription("抵达失落的城市或暮色森林寻找镁矿")
 
 addParent("sf4:age_exploration/root")
 

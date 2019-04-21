@@ -1,8 +1,8 @@
-setTitle("Compact Machines World")
+setTitle("空间压缩机械内的世界")
 
 setIcon(<compactmachines3:psd>)
 
-setDescription("Advancements for the Compact Machines World Type")
+setDescription("为空间压缩机械内世界准备的进度")
 
 setBackground("compactmachines3:textures/blocks/wall.png")
 

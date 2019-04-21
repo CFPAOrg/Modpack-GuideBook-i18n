@@ -1,8 +1,8 @@
-setTitle("Back to the Future")
+setTitle("回到未来")
 
 setIcon(<bibliocraft:clock>)
 
-setDescription("Craft a Parabox to begin collecting prestige points. When activated the timer will begin counting down from 10 minutes")
+setDescription("制作一个Parabox来开始收集声望点数，当你激活计时器之后它会开始从20min倒数计时")
 
 addParent("prestige:prestige/root")
 addParent("prestige:prestige/test")

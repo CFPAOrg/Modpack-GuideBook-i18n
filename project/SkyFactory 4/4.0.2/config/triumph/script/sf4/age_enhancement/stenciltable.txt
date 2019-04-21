@@ -1,8 +1,8 @@
-setTitle("Keep It Between the Lines")
+setTitle("方寸之间")
 
 setIcon(<tconstruct:tooltables:1>)
 
-setDescription("Craft a Tinkers' Construct Stencil Table")
+setDescription("制作一个匠魂的模具加工台")
 
 addParent("sf4:age_enhancement/root")
 

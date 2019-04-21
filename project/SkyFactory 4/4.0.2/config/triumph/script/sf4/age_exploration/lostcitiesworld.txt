@@ -1,8 +1,8 @@
-setTitle("Lost and Found")
+setTitle("失而复得")
 
 setIcon(<telepastries:lost_city_cake>)
 
-setDescription("You'll still need to head to the Lost Cities Dimension using a TelePastries Cake to mine ore. Craft and place a Lost Cities Cake on the ground and click on it to head to the Lost Cities")
+setDescription("你将仍然需要使用蛋糕来传送至失落的城市挖矿，制作一个失落的城市蛋糕并把它放在地上，真香！")
 
 addParent("sf4:age_exploration/root")
 

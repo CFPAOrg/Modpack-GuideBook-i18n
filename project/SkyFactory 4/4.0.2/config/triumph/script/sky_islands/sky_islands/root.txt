@@ -2,7 +2,7 @@ setTitle("Sky Islands")
 
 setIcon(<rustic:cloudsbluff>)
 
-setDescription("Hidden Root Advancement for Sky Islands World Type")
+setDescription("为Sky Islands世界隐藏的起始进度")
 
 setBackground("test:textures/colors/clear_sky.png")
 

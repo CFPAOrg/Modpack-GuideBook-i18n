@@ -1,8 +1,8 @@
-setTitle("Axe Me Anything")
+setTitle("是兄弟就来砍我")
 
 setIcon(<tconstruct:lumberaxe>)
 
-setDescription("Craft a Lumber Axe in the Tool Forge to cut down entire trees")
+setDescription("制作一个匠魂的伐木斧来一次性砍倒一整棵树")
 
 addParent("sf4:age_enhancement/toolForge")
 

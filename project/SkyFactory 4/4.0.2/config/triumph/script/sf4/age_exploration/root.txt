@@ -1,8 +1,8 @@
-setTitle("Age of Exploration")
+setTitle("探索纪元")
 
 setIcon(<telepastries:overworld_cake>)
 
-setDescription("Explore the world and dimensions around you")
+setDescription("探索这大千世界吧")
 
 setBackground("test:textures/colors/black.png")
 

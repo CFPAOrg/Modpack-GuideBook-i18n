@@ -1,8 +1,8 @@
-setTitle("Ironwood")
+setTitle("铁树开花")
 
 setIcon(<sky_orchards:sapling_iron>)
 
-setDescription("Pour Molten Iron over a Acacia Sapling to make a Iron Sapling")
+setDescription("将熔融铁浇筑在金合欢树苗上来制作铁树树苗")
 
 addParent("sf4:age1/amber/iron")
 

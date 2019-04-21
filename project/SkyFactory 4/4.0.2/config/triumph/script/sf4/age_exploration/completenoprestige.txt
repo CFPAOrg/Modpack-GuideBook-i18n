@@ -1,8 +1,8 @@
-setTitle("Completionist")
+setTitle("重度强迫症")
 
 setIcon(<minecraft:cooked_chicken>)
 
-setDescription("Complete all the advancements on the page. This will award you with 1 prestige point")
+setDescription("恭喜完成了本页的全部进度，你将获得1声望点数作为奖励")
 
 addParent("sf4:age_exploration/root")
 addParent("sf4:age_exploration/boronore")

@@ -2,7 +2,7 @@ setTitle("13x13x13")
 
 setIcon(<compactmachines3:machine:5>)
 
-setDescription("Obtain a bottle of Dragon's Breath to gain a larger Compact Machine")
+setDescription("获取一瓶龙息，进而来获得更大的空间压缩机械")
 
 addParent("compactmachines:test/11x11x11")
 addParent("compactmachines:test/11x11x112")

@@ -1,8 +1,8 @@
-setTitle("Superflat")
+setTitle("超平坦")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Hidden Root Advancement for Superflat World Type")
+setDescription("为超平坦世界隐藏的起始进度")
 
 setBackground("projecte:textures/blocks/dm.png")
 

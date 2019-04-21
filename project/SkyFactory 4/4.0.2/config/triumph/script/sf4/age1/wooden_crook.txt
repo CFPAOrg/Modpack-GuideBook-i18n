@@ -1,8 +1,8 @@
-setTitle("Captain Hook")
+setTitle("船长的钩子")
 
 setIcon(<inspirations:wooden_crook>)
 
-setDescription("Craft and use a Wooden Crook on Leaves to increase sapling drops")
+setDescription("制作一个木钩并用它来增加树苗的掉落几率")
 
 addParent("sf4:age1/root")
 

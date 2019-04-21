@@ -1,8 +1,8 @@
-setTitle("Air Fryer")
+setTitle("烘干")
 
 setIcon(<tconstruct:rack:1>)
 
-setDescription("Obtain a Tinkers' Construct Drying Rack")
+setDescription("获取一个匠魂的晾干架")
 
 addParent("sf4:age1/root")
 

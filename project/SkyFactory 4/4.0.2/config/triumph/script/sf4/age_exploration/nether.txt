@@ -1,8 +1,8 @@
-setTitle("Nether Here Nor There")
+setTitle("人间地狱")
 
 setIcon(<minecraft:netherrack>)
 
-setDescription("Craft, place, and eat a Nether Cake to go to the Nether")
+setDescription("制作、放下并食用下界传送蛋糕以抵达下界")
 
 addParent("sf4:age_exploration/root")
 

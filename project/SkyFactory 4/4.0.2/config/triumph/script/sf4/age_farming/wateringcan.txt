@@ -2,7 +2,7 @@ setTitle("Yes We Can!")
 
 setIcon(<tp:watering_can>)
 
-setDescription("Craft a Tiny Progressions watering can to increase crop growth speed")
+setDescription("制作一个Tiny Progressions的喷壶来加快作物生长速率")
 
 addParent("sf4:age_farming/root")
 

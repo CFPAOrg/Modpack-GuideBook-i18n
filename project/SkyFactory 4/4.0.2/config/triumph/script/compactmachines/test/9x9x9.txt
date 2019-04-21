@@ -2,7 +2,7 @@ setTitle("9x9x9")
 
 setIcon(<compactmachines3:machine:3>)
 
-setDescription("Obtain a block of End Stone to gain a larger Compact Machine")
+setDescription("获取末地石，进而来获得更大的空间压缩机械")
 
 addParent("compactmachines:test/7x7x7")
 addParent("compactmachines:test/7x7x72")

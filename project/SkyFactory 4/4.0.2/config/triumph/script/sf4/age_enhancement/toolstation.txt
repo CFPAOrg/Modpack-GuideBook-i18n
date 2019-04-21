@@ -1,8 +1,8 @@
-setTitle("Rolling into the Station")
+setTitle("工匠之始")
 
 setIcon(<tconstruct:tooltables:3>)
 
-setDescription("Craft a Tinkers' Construct Tool Station")
+setDescription("制作一个匠魂的工具装配台")
 
 addParent("sf4:age_enhancement/partBuilder")
 

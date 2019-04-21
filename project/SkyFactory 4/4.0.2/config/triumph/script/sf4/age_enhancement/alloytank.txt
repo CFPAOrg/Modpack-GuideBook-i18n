@@ -1,8 +1,8 @@
-setTitle("I'll Be Your Alloy")
+setTitle("我将会是你的合金（炉）")
 
 setIcon(<tcomplement:porcelain_alloy_tank>)
 
-setDescription("Place the Alloy Tank between two or more Tinkers' Complement Melters and on top of a Heater. It will combine valid liquids to create a liquid alloy")
+setDescription("将合金储罐放置在两个以上的微缩冶炼炉中间并在其下放置一个加热器，它会将可以融合的液体混合为合金")
 
 addParent("sf4:age_enhancement/root")
 setRequirements("any")

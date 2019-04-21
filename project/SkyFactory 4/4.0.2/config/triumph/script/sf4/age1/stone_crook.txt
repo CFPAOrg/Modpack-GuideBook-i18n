@@ -1,8 +1,8 @@
-setTitle("Stone Crook")
+setTitle("石钩")
 
 setIcon(<inspirations:stone_crook>)
 
-setDescription("Craft a Stone Crook. There is more than just the normal Wooden Crook available. There are other options with higher speed, durability, and special effects")
+setDescription("制作一个石钩。你可以用许多不同的材料来制作钩子，它们分别有不同的速度、耐久和特殊效果")
 
 addParent("sf4:age1/wooden_crook")
 addParent("sf4:age1/cobblestone")

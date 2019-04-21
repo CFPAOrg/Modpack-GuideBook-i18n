@@ -2,7 +2,7 @@ setTitle("It's Tin This Pack")
 
 setIcon(<sky_orchards:sapling_tin>)
 
-setDescription("Pour Molten Tin over a Birch Sapling to make a Tin Sapling")
+setDescription("将熔融锡浇筑在白桦树苗上来制作锡树树苗")
 
 addParent("sf4:age1/amber/tin")
 

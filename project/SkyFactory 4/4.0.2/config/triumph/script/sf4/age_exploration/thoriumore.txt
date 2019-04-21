@@ -1,8 +1,8 @@
-setTitle("Thorium's Hammer")
+setTitle("钍之锤")
 
 setIcon(<nuclearcraft:ore:3>)
 
-setDescription("Travel to the Lost Cities or Twilight Forest to locate Thorium Ore")
+setDescription("抵达失落的城市或暮色森立寻找钍矿")
 
 addParent("sf4:age_exploration/root")
 

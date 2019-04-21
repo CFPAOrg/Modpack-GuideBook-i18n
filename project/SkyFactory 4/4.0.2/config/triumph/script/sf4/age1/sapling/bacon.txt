@@ -1,8 +1,8 @@
-setTitle("OinkTree")
+setTitle("哼哼")
 
 setIcon(<sky_orchards:sapling_bacon>)
 
-setDescription("Craft a Bacon Sapling")
+setDescription("制作一个培根树树苗")
 
 addParent("sf4:age1/root")
 

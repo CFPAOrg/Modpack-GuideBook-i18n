@@ -1,8 +1,8 @@
-setTitle("I Love Lucy")
+setTitle("我爱露西")
 
 setIcon(<rustic:crushing_tub>)
 
-setDescription("Craft a Rustic Crushing Tub")
+setDescription("制作一个乡村模组的压榨木盆")
 
 addParent("sf4:age1/root")
 

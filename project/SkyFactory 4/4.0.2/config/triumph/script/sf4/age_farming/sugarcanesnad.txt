@@ -1,8 +1,8 @@
-setTitle("Sugar Daddy")
+setTitle("甜到掉牙了")
 
 setIcon(<minecraft:reeds>)
 
-setDescription("Place Snad to grow Sugarcane Seeds atop it at an accelerated rate")
+setDescription("在子沙上面种甘蔗以增加甘蔗的生长速率")
 
 addParent("sf4:age_farming/sugarcaneSeed")
 

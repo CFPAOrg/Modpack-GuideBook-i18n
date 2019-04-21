@@ -1,8 +1,8 @@
-setTitle("Oak Wood")
+setTitle("橡木原木")
 
 setIcon(<minecraft:log>)
 
-setDescription("You're standing on a tree in the void! Break the leaves below and collect 2 Oak Wood blocks")
+setDescription("你正站在一棵树的树顶，而这棵树以外的地方，都是虚空，从正中间破坏树叶和原木吧，小心别把泥土给撸掉了")
 
 addParent("tutorial:tutorial/root")
 

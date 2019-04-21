@@ -1,8 +1,8 @@
-setTitle("Lost Cities")
+setTitle("失落的城市")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Hidden Root Advancement for Lost Cities World Type")
+setDescription("为失落的城市世界隐藏的起始进度")
 
 setBackground("projecte:textures/blocks/dm.png")
 

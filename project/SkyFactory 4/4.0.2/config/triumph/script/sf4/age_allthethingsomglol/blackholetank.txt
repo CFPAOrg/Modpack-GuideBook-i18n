@@ -1,8 +1,8 @@
-setTitle("Bottoms Up")
+setTitle("干杯")
 
 setIcon(<industrialforegoing:black_hole_tank>)
 
-//setDescription("Fill a Black Hole Tank with any Liquid and Right-Click it")
+//setDescription("请将任意一种液体装进黑洞储液罐，然后右击打开它的GUI")
 
 setDescription({"translate":"Fill a Black Hole Tank with any Liquid and '%1$s' it","with":[{"keybind":"key.use"}]})
 

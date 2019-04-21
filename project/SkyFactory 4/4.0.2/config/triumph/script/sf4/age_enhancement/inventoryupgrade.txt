@@ -1,8 +1,8 @@
-setTitle("Storage Wars")
+setTitle("存储战争")
 
 setIcon(<cyclicmagic:inventory_food>)
 
-setDescription("Craft and eat an Inventory Upgrade from Cyclic")
+setDescription("制作并吃下一个循环模组的物品栏扩展升级蛋糕")
 
 addParent("sf4:age_enhancement/root")
 

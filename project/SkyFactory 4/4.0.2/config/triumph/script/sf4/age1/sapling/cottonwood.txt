@@ -1,8 +1,8 @@
-setTitle("You Cotton Be Kidding Me")
+setTitle("你在逗我么")
 
 setIcon(<sky_orchards:sapling_cottonwood>)
 
-setDescription("Craft a Cottonwood Sapling")
+setDescription("制作一个棉白杨树苗")
 
 addParent("sf4:age1/sapling/bone")
 addParent("sf4:age1/sapling/clay")

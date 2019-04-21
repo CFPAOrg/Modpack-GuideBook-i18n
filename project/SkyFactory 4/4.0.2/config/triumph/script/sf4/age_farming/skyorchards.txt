@@ -1,8 +1,8 @@
-setTitle("All the Trees")
+setTitle("所有的树")
 
 setIcon(<sky_orchards:sapling_cottonwood>)
 
-setDescription("Obtain all of the Sky Orchard Saplings")
+setDescription("获得Sky Orchard模组添加的所有树苗")
 
 addParent("sf4:age_farming/root")
 

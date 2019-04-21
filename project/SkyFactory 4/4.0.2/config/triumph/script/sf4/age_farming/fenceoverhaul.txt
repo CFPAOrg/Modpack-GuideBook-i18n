@@ -1,8 +1,8 @@
-setTitle("Diagon Alley")
+setTitle("对角巷")
 
 setIcon(<fenceoverhaul:oak_overhauledfence>)
 
-setDescription("Craft any of the diagonal fences from Fence Overhaul")
+setDescription("用原版栅栏制作斜的栅栏（对，它可以斜着连）")
 
 addParent("sf4:age_farming/root")
 

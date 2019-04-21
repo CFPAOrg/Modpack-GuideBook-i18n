@@ -1,8 +1,8 @@
-setTitle("Even Scotty Doesn't Know")
+setTitle("即使苏格兰人也不知道")
 
 setIcon(<matteroverdrive:dilithium_ore>)
 
-setDescription("Travel to the Lost Cities or Twilight Forest to locate Dilithium Ore and mine it to acquire Dilithium Crystals")
+setDescription("抵达失落的城市或暮色森立寻找双锂矿以获得双锂晶体")
 
 addParent("sf4:age_exploration/root")
 

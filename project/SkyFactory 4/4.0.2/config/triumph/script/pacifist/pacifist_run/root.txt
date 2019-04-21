@@ -1,4 +1,4 @@
-setTitle("Pacifist World")
+setTitle("和平的世界")
 
 setIcon(<minecraft:red_flower:8>)
 

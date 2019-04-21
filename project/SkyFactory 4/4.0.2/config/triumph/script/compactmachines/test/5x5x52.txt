@@ -2,7 +2,7 @@ setTitle("5x5x5")
 
 setIcon(<compactmachines3:machine:1>)
 
-setDescription("Craft any Simple Generator to gain a larger Compact Machine")
+setDescription("制作任何一个简易发电机，进而来获得更大的空间压缩机械")
 
 addParent("compactmachines:test/3x3x3")
 

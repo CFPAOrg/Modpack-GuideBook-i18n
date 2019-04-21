@@ -1,8 +1,8 @@
-setTitle("Feed the Chickens!")
+setTitle("喜欢养鸡吗")
 
 setIcon(<mob_grinding_utils:gm_chicken_feed>)
 
-setDescription("Craft the Chicken Feed from Seeds, a Swab with DNA, and a bucket of Experience")
+setDescription("用种子，DNA和一桶经验来制作鸡饲料")
 
 addParent("sf4:age_farming/mobSwab")
 

@@ -1,8 +1,8 @@
-setTitle("Unbroken")
+setTitle("不毁")
 
 setIcon(<tconstruct:materials:14>)
 
-setDescription("Craft an Unbreakable Tinkers' Construct Tool or Weapon")
+setDescription("制作一个不毁的匠魂工具或武器")
 
 addParent("sf4:age_enhancement/root")
 

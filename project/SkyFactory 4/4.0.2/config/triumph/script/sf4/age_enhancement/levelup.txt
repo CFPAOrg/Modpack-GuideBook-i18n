@@ -1,8 +1,8 @@
-setTitle("Ding!")
+setTitle("叮！")
 
 setIcon(<rustic:deathstalk_mushroom>)
 
-setDescription("Level up a Tinkers' Construct Tool or Weapon")
+setDescription("升级一个匠魂工具或武器")
 
 addParent("sf4:age_enhancement/root")
 

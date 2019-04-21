@@ -1,8 +1,8 @@
-setTitle("Age of Power")
+setTitle("电力纪元")
 
 setIcon(<chisel:technicalnew:3>)
 
-setDescription("All things related to power!")
+setDescription("跟能量有关的所有进度！")
 
 setBackground("test:textures/colors/red.png")
 

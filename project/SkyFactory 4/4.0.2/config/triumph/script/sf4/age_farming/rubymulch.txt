@@ -1,8 +1,8 @@
-setTitle("Goodbye Ruby Mulch")
+setTitle("再见，有机物")
 
 setIcon(<inspirations:mulch:4>)
 
-setDescription("Ruby Mulch in a Bonsai Pot will decrease growth time and increase drop chances")
+setDescription("红色有机覆盖物可以加速盆栽的生长速率并增加掉落几率")
 
 addParent("sf4:age_farming/amberMulch")
 

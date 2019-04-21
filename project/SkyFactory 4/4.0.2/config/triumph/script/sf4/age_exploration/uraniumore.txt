@@ -1,8 +1,8 @@
-setTitle("Uranium Fever")
+setTitle("铀热")
 
 setIcon(<nuclearcraft:ore:4>)
 
-setDescription("Travel to the Lost Cities or Twilight Forest to locate Uranium Ore")
+setDescription("抵达失落的城市或者暮色森林来寻找铀矿")
 
 addParent("sf4:age_exploration/root")
 

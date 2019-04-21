@@ -1,8 +1,8 @@
-setTitle("An Enchanting Evening")
+setTitle("天际回响")
 
 setIcon(<minecraft:enchanting_table>)
 
-setDescription("Craft an Enchantment Table")
+setDescription("制作一个附魔台")
 
 addParent("sf4:age_enhancement/root")
 

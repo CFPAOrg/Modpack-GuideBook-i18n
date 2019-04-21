@@ -1,8 +1,8 @@
-setTitle("Sweet Amber")
+setTitle("琥珀的芬芳")
 
 setIcon(<inspirations:mulch:3>)
 
-setDescription("Amber Mulch in a Bonsai Pot will decrease growth time and increase drop chances")
+setDescription("琥珀色有机覆盖物可以加快盆栽生长速度并增加掉落几率")
 
 addParent("sf4:age_farming/yellowMulch")
 

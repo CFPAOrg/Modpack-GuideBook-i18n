@@ -1,8 +1,8 @@
-setTitle("Starting from the Bottom")
+setTitle("从头开始")
 
 setIcon(<sky_orchards:acorn_dirt>)
 
-setDescription("Obtain a Dirt Acorn from Dirt Tree Leaves. They can also be used as a food source raw or cooked in a furnace")
+setDescription("通过泥土树的树叶来获取一个泥土橡子，当然，这东西也可以生吃或者用熔炉烤熟")
 
 addParent("sf4:age1/root")
 

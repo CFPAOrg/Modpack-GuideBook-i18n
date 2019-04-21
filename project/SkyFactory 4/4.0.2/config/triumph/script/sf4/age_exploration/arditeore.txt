@@ -1,8 +1,8 @@
-setTitle("Ardite Amirite")
+setTitle("阿迪特")
 
 setIcon(<tconstruct:ore:1>)
 
-setDescription("Travel to the Nether and mine Ardite Ore. Or, use the Industrial Foregoing Laser Drill to acquire it")
+setDescription("抵达地狱并挖掘阿迪特矿")
 
 addParent("sf4:age_exploration/root")
 

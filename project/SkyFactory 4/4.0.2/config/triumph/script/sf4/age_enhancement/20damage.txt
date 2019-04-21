@@ -1,8 +1,8 @@
-setTitle("It's Over 20!")
+setTitle("超过20了！")
 
 setIcon(<cyclicmagic:sword_ender>)
 
-setDescription("Inflict 20 or more damage to a creature")
+setDescription("对一个生物单次造成超过20点的伤害")
 
 addParent("sf4:age_enhancement/root")
 hideLines()

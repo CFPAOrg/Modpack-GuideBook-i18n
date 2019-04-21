@@ -1,8 +1,8 @@
-setTitle("Dirt Sapling")
+setTitle("泥土树")
 
 setIcon(<sky_orchards:sapling_dirt>)
 
-setDescription("Using your Wooden Crook to break leaves. Obtain a Dirt Sapling")
+setDescription("用你的木钩来破坏树叶从而获得泥土树树苗")
 
 addParent("tutorial:tutorial/woodenCrook")
 

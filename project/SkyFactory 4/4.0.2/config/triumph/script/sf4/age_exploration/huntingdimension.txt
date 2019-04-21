@@ -1,8 +1,8 @@
-setTitle("Let the Hunt Begin")
+setTitle("狩猎，开始了")
 
 setIcon(<telepastries:hunting_dimension_cake>)
 
-setDescription("Travel to the Hunting Dimension using a Hunting Dimension Cake")
+setDescription("食用狩猎维度蛋糕以抵达狩猎维度")
 
 addParent("sf4:age_exploration/root")
 

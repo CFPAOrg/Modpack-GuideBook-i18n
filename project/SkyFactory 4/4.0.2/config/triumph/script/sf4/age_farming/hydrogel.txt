@@ -1,8 +1,8 @@
-setTitle("Stay Hydrated")
+setTitle("大氵B")
 
 setIcon(<hydrogel:hydrogel>)
 
-setDescription("Use Hydrogel to take the place of water in the middle of your farm")
+setDescription("用含水方块（Hydrogel Block）来代替你农场里的水源")
 
 addParent("sf4:age_farming/root")
 

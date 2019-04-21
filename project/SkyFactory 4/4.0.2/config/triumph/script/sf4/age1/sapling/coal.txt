@@ -1,8 +1,8 @@
-setTitle("Sixteen Tons")
+setTitle("十六吨")
 
 setIcon(<sky_orchards:sapling_coal>)
 
-setDescription("Craft a Coal Sapling")
+setDescription("制作一个煤树树苗")
 
 addParent("sf4:age1/sapling/sand")
 

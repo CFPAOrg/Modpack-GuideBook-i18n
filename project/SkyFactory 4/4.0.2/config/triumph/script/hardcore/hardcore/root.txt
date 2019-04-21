@@ -1,8 +1,8 @@
-setTitle("SkyFactory 4 Hardcore Mode")
+setTitle("天空工厂 4 硬核模式")
 
 setIcon(<minecraft:skull>)
 
-setDescription("So you think you're Hardcore? Here's a few tips to help you survive")
+setDescription("你认为你足够硬核么？这里有几条提示对你的生存有所帮助")
 
 setBackground("minecraft:textures/blocks/soul_sand.png")
 

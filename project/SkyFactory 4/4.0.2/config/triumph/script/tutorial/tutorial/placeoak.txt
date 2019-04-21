@@ -1,8 +1,8 @@
-setTitle("Expand Your Base")
+setTitle("安身之所")
 
 setIcon(<minecraft:wooden_slab>)
 
-setDescription("Now that you're standing on a Dirt Block, you will need to place Oak Planks or Oak Slabs to expand your island")
+setDescription("看着只有一格的立足之地，你决定用橡木木板和橡木半砖来扩展你的空岛")
 
 addParent("tutorial:tutorial/dirtSapling")
 

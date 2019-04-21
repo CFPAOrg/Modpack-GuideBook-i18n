@@ -1,8 +1,8 @@
-setTitle("Lead it Go")
+setTitle("向铅走")
 
 setIcon(<sky_orchards:amber_lead>)
 
-setDescription("Obtain lead by crafting Lead Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Lead and pour it into a Casting Basin or Cast")
+setDescription("通过制作铅珀块来获取铅锭：使用微缩匠魂冶炼炉来熔化铅珀块可以得到熔融铅，然后通过浇筑盆或浇筑台将其放出来")
 
 addParent("sf4:age1/sapling/iron")
 addParent("sf4:age1/sapling/lapis")

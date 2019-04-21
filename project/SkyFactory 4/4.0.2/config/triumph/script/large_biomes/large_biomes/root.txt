@@ -1,8 +1,8 @@
-setTitle("Large Biomes")
+setTitle("巨型生物群系")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Hidden Root Advancement for Large Biomes World Type")
+setDescription("为巨型生物群系世界隐藏的起始进度")
 
 setBackground("projecte:textures/blocks/dm.png")
 

@@ -1,8 +1,8 @@
-setTitle("Age of Farming")
+setTitle("农业纪元")
 
 setIcon(<minecraft:iron_hoe>)
 
-setDescription("All things related to farming!")
+setDescription("所有和农业相关的进度！")
 
 setBackground("test:textures/colors/green.png")
 

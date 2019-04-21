@@ -1,8 +1,8 @@
-setTitle("Amber is the Color of my Dinosaur")
+setTitle("琥珀是过去的颜色")
 
 setIcon(<sky_orchards:amber_iron>)
 
-setDescription("Obtain iron by crafting Iron Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Iron and pour it into a Casting Basin or Cast")
+setDescription("通过制作铁珀块来获取铁锭：使用微缩匠魂冶炼炉来熔化铁珀块可以得到熔融铁，然后通过浇筑盆或浇筑台将其放出来")
 
 addParent("sf4:age1/sapling/coal")
 

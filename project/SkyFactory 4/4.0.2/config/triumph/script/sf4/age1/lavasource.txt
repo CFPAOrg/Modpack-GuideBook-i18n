@@ -1,8 +1,8 @@
-setTitle("Get It While It's Hot")
+setTitle("趁热打铁")
 
 setIcon(<tp:lava_block>)
 
-setDescription("Break a Lava Source Stone in the grid to create a Lava Source")
+setDescription("破坏熔岩源石头来得到熔岩")
 
 addParent("sf4:age1/root")
 addParent("skygrid:skygrid/root")

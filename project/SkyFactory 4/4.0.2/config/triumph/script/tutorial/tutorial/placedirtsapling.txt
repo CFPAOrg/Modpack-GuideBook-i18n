@@ -1,8 +1,8 @@
-setTitle("Place Dirt Sapling")
+setTitle("种下泥土树")
 
 setIcon(<minecraft:dirt>)
 
-setDescription("Place your Dirt Sapling on the Dirt Block to grow a new tree. Once planted, you can use your Shift key or run around the sapling to increase its growth speed. You will know it's working when you see green particles moving towards the sapling")
+setDescription("将你的泥土树树苗种在泥土上，你可以不断按shift来加速它的生长，当加速成功的时候你可以看到绿色的粒子效果（当然，你最好别站在树苗上这么做）")
 
 addParent("tutorial:tutorial/dirtSapling")
 

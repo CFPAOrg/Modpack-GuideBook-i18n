@@ -1,8 +1,8 @@
-setTitle("Planks")
+setTitle("木板")
 
 setIcon(<minecraft:planks>)
 
-setDescription("You've collected 2 Oak Wood. Using your inventory crafting grid, make 8 Oak Planks")
+setDescription("你已经获得两个橡木原木了，用你物品栏中的2*2合成来制作8个橡木木板吧")
 
 addParent("tutorial:tutorial/oakWood")
 

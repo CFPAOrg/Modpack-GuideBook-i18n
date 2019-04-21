@@ -1,8 +1,8 @@
-setTitle("Beanboozled")
+setTitle("魔豆")
 
 setIcon(<cyclicmagic:sprout_seed>)
 
-setDescription("Grow Cyclic Magic Beans to obtain other seeds or flowers")
+setDescription("种循环模组的魔豆来获得其他的种子和花")
 
 addParent("sf4:age_farming/root")
 

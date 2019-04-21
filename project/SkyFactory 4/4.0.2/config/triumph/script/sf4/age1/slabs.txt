@@ -1,8 +1,8 @@
-setTitle("Stop Slabbing Yourself")
+setTitle("别把你自己压扁了")
 
 setIcon(<slabmachines:crafting_station_slab>)
 
-setDescription("Save space and craft a Crafting Slab, Furnace Slab, or Chest Slab")
+setDescription("制作工作台半板，熔炉半板或箱子半板")
 
 addParent("sf4:age1/root")
 

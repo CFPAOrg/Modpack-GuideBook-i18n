@@ -1,8 +1,8 @@
-setTitle("Silver Surfer")
+setTitle("银影侠")
 
 setIcon(<sky_orchards:amber_silver>)
 
-setDescription("Obtain silver by crafting Silver Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Silver and pour it into a Casting Basin or Cast")
+setDescription("通过制作银珀块来获取银锭：使用微缩匠魂冶炼炉来熔化银珀块可以得到熔融银，然后通过浇筑盆或浇筑台将其放出来")
 
 addParent("sf4:age1/sapling/lead")
 

@@ -1,8 +1,8 @@
-setTitle("Smells Like Nirvana")
+setTitle("宛若天堂")
 
 setIcon(<nuclearcraft:ore:6>)
 
-setDescription("Travel to the Lost Cities or Twilight Forest to locate Lithium Ore")
+setDescription("抵达失落的城市或者暮色森林以寻找锂矿")
 
 addParent("sf4:age_exploration/root")
 

@@ -1,8 +1,8 @@
-setTitle("Palm Trees")
+setTitle("棕榈树")
 
 setIcon(<sky_orchards:sapling_sand>)
 
-setDescription("Craft a Sand Sapling")
+setDescription("制作一个沙树树苗")
 
 addParent("sf4:age1/sapling/gravel")
 

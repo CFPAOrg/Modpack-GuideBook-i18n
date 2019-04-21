@@ -1,8 +1,8 @@
-setTitle("Prestige")
+setTitle("声望")
 
 setIcon(<parabox:parabox>)
 
-setDescription("Advancements for the Prestige system")
+setDescription("声望系统的相关进度")
 
 setBackground("test:textures/colors/black.png")
 

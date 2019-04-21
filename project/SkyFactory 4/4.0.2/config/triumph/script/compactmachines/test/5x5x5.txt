@@ -2,7 +2,7 @@ setTitle("5x5x5")
 
 setIcon(<compactmachines3:machine:1>)
 
-setDescription("Obtain a Melter or a Porcelain Melter to gain a larger Compact Machine")
+setDescription("获取一个冶炼炉或一个陶瓷冶炼炉，进而来获得更大的空间压缩机械")
 
 addParent("compactmachines:test/3x3x3")
 

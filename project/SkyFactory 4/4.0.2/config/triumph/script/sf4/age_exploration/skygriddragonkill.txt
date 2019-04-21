@@ -1,8 +1,8 @@
-setTitle("Quit Dragon My Heart Around")
+setTitle("末影龙你好，末影龙再见")
 
 setIcon(<minecraft:end_stone>)
 
-setDescription("Summon the Dragon by poking a Dragon Egg with a stick. Then eliminate it!")
+setDescription("用木棍戳一下龙蛋来召唤末影龙，然后做掉它")
 
 addParent("sf4:age_exploration/root")
 addParent("skygrid:skygrid/root")

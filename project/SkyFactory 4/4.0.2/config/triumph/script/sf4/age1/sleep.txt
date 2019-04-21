@@ -1,8 +1,8 @@
-setTitle("Nap Time")
+setTitle("晚安")
 
 setIcon(<minecraft:bed>)
 
-setDescription("Sleep in a bed")
+setDescription("睡个好觉")
 
 addParent("sf4:age1/string")
 

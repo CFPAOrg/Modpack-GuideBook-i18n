@@ -1,8 +1,8 @@
-setTitle("You're Boron Me")
+setTitle("交个硼友吧")
 
 setIcon(<nuclearcraft:ore:5>)
 
-setDescription("Travel to the Lost Cities or Twilight Forest to locate Boron Ore")
+setDescription("抵达失落的城市或暮色森林寻找硼矿")
 
 addParent("sf4:age_exploration/root")
 

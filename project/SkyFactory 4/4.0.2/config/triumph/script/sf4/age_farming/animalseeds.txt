@@ -1,8 +1,8 @@
-setTitle("Animals Croppings")
+setTitle("动物庄稼")
 
 setIcon(<animalcrops:seeds, meta:0, count:1, nbt:{entity: "minecraft:villager"}>)
 
-setDescription("Can't find an animal? Craft an animal Seed or Lily to grow them! Make sure to plant the seeds on Grass blocks or lilies on water")
+setDescription("找不到动物？那就做一个动物种子来种吧！一定要种在草方块上哦")
 
 addParent("sf4:age_farming/wheatSeeds")
 

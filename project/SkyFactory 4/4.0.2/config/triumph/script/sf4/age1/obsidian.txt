@@ -1,8 +1,8 @@
-setTitle("Study in the Dark Arts")
+setTitle("学习黑暗艺术")
 
 setIcon(<minecraft:obsidian>)
 
-//setDescription("Right-Click a Lava filled Cauldron with a Water Bucket to make Obsidian")
+//setDescription("拿着水桶右键一个装有熔岩的炼药锅来获取黑曜石")
 
 setDescription({"translate":"'%1$s' a Lava filled Cauldron with a Water Bucket to make Obsidian  ","with":[{"keybind":"key.use"}]})
 

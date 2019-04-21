@@ -1,8 +1,8 @@
-setTitle("TuMULCHuous")
+setTitle("大地的颜色")
 
 setIcon(<inspirations:mulch:1>)
 
-setDescription("Brown Mulch in a Bonsai Pot will decrease growth time and increase drop chances")
+setDescription("棕色有机覆盖物能提高盆栽的生长速率和产率")
 
 addParent("sf4:age_farming/fertileSoil")
 

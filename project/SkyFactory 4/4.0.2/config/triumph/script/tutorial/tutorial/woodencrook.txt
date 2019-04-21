@@ -1,8 +1,8 @@
-setTitle("Wooden Crook")
+setTitle("木钩")
 
 setIcon(<inspirations:wooden_crook>)
 
-setDescription("To build your base you will need to grow more Dirt Trees. Craft a Wooden Crook in your Crafting Station and use it to break leaves. It increases your Sapling drop chance")
+setDescription("为了搭建你理想中的空岛，你需要（至少现在需要）种更多的泥土树，在合成站中制作一个木钩，用它破坏树叶可以增加树苗的掉落几率")
 
 addParent("tutorial:tutorial/craftingStation")
 

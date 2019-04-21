@@ -1,8 +1,8 @@
-setTitle("Citizen Cane")
+setTitle("兄弟借个种")
 
 setIcon(<inspirations:sugar_cane_seeds>)
 
-setDescription("Crush Leaves in the Rustic Crushing Tub to acquire Sugar Cane Seeds")
+setDescription("用乡村模组的压榨木盆来榨树叶获得甘蔗种子")
 
 addParent("sf4:age_farming/root")
 

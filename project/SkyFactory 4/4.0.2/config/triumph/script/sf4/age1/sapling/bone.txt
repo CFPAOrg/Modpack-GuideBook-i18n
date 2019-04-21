@@ -1,8 +1,8 @@
-setTitle("Break a Leg")
+setTitle("打折了腿")
 
 setIcon(<sky_orchards:sapling_bone>)
 
-setDescription("Craft a Bone Sapling")
+setDescription("制作一个骨树树苗")
 
 addParent("sf4:age1/sapling/petrified")
 addParent("sf4:age1/dirt")

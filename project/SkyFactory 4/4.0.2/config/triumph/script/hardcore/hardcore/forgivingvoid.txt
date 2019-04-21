@@ -2,7 +2,7 @@ setTitle("Forgiving Void")
 
 setIcon(<minecraft:elytra>)
 
-setDescription("Obtain Elytra to enable Forgiving Void in the Overworld")
+setDescription("在主世界获得鞘翅，进而启用 Forgiving Void 模组")
 
 addParent("sf4:age_exploration/root")
 addParent("hardcore:hardcore/root")

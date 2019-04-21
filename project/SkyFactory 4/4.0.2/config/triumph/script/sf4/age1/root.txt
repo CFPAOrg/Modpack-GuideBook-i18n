@@ -1,8 +1,8 @@
-setTitle("SkyFactory 4")
+setTitle("天空工厂4")
 
 setIcon(<minecraft:sapling>)
 
-setDescription("Getting started!")
+setDescription("开始吧！")
 
 setBackground("test:textures/colors/purple.png")
 

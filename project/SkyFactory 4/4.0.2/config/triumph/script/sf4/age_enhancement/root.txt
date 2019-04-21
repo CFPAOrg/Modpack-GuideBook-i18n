@@ -1,8 +1,8 @@
-setTitle("Age of Enhancement")
+setTitle("强化纪元")
 
 setIcon(<minecraft:anvil>)
 
-setDescription("Advancements for the overall enhancement of items, tools, etc")
+setDescription("关于物品、工具、机器等全面强化的相关进度")
 
 setBackground("test:textures/colors/dark_gray.png")
 

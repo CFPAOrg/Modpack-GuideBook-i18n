@@ -1,8 +1,8 @@
-setTitle("Overworked and Underpaid")
+setTitle("最好是无薪加班")
 
 setIcon(<nuclearcraft:upgrade>)
 
-setDescription("Craft a Nuclearcraft Speed Upgrade to increase the pace of machines while increasing energy usage")
+setDescription("制作一个核电工艺的速度升级来提升机器的工作速度，同时这也会提升机器的耗电量")
 
 addParent("sf4:age_enhancement/root")
 

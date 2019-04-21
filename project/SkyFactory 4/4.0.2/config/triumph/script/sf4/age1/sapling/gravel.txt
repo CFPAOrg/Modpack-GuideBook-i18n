@@ -1,8 +1,8 @@
-setTitle("Don't Sieve on Me")
+setTitle("别筛掉我")
 
 setIcon(<sky_orchards:sapling_gravel>)
 
-setDescription("Craft a Gravel Sapling")
+setDescription("制作一个燧石树树苗")
 
 addParent("sf4:age1/sapling/petrified")
 addParent("sf4:age1/crushing_tub")

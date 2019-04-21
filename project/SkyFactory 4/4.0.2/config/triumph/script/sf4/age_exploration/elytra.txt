@@ -1,8 +1,8 @@
-setTitle("It Gives You Wings")
+setTitle("你们都是我的翅膀啊")
 
 setIcon(<minecraft:elytra>)
 
-setDescription("Travel deep into the End Void to find an End City Floating Ship to obtain Elytra")
+setDescription("穿梭至无垠的末地虚空中寻找一艘浮空末地船，那里有你想要的东西")
 
 addParent("sf4:age_exploration/dragonKill")
 

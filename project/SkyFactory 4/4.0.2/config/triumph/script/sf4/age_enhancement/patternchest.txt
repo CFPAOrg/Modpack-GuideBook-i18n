@@ -1,8 +1,8 @@
-setTitle("Pattern Me, Sir")
+setTitle("学学我，先生")
 
 setIcon(<tconstruct:tooltables:4>)
 
-setDescription("Craft a Tinkers' Construct Pattern Chest")
+setDescription("制作一个匠魂的模具箱")
 
 addParent("sf4:age_enhancement/partBuilder")
 

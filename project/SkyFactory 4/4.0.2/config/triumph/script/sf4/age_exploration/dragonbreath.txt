@@ -1,8 +1,8 @@
-setTitle("Need a Mint?")
+setTitle("是你的益达？")
 
 setIcon(<minecraft:dragon_breath>)
 
-setDescription("Craft Dragon's Breath")
+setDescription("收集龙息")
 
 addParent("sf4:age_exploration/dragonKill")
 

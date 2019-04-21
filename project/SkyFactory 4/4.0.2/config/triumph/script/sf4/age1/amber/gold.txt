@@ -1,8 +1,8 @@
-setTitle("One Shiny Boi")
+setTitle("闪闪发光")
 
 setIcon(<sky_orchards:amber_gold>)
 
-setDescription("Obtain gold by crafting Gold Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Gold and pour it into a Casting Basin or Cast")
+setDescription("通过制作金珀块来获取金锭：使用微缩匠魂冶炼炉来熔化金珀块可以得到熔融金，然后通过浇筑盆或浇筑台将其放出来")
 
 addParent("sf4:age1/sapling/lead")
 

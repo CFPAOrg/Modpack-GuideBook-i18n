@@ -1,8 +1,8 @@
-setTitle("Customized")
+setTitle("自定义")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Hidden Root Advancement for Customized World Type")
+setDescription("为自定义世界隐藏的起始进度")
 
 setBackground("projecte:textures/blocks/dm.png")
 

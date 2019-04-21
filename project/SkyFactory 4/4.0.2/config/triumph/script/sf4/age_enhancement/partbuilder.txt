@@ -1,8 +1,8 @@
-setTitle("Tim the Tool Man Taylor")
+setTitle("工具人")
 
 setIcon(<tconstruct:tooltables:2>)
 
-setDescription("Craft a Tinkers' Construct Part Builder")
+setDescription("制作一个匠魂的部件加工台")
 
 addParent("sf4:age_enhancement/stencilTable")
 

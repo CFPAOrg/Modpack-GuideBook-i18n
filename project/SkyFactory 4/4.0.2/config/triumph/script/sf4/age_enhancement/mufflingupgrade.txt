@@ -1,8 +1,8 @@
-setTitle("Shhhhhhh!")
+setTitle("嘶嘶嘶嘶嘶嘶！")
 
 setIcon(<mekanism:mufflingupgrade>)
 
-setDescription("Craft a Mekanism Muffling upgrade to decrease the machine volume")
+setDescription("制作一个通用机械的降噪升级来减少机器的噪音")
 
 addParent("sf4:age_enhancement/root")
 

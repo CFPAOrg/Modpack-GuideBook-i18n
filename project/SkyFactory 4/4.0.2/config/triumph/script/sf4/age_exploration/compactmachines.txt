@@ -1,8 +1,8 @@
-setTitle("Compact Your World")
+setTitle("压缩世界")
 
 setIcon(<compactmachines3:psd>)
 
-setDescription("Travel to any sized Compact Machines Dimension. Create the dimension using the Miniturization Field Projector. Use the Personal Shrinking Device to enter the dimension")
+setDescription("抵达任何大小的压缩空间内部，你可以利用压缩空间机械投影仪制作它，然后使用传送器就能进入其内部的维度了")
 
 addParent("sf4:age_exploration/root")
 

@@ -1,4 +1,4 @@
-setTitle("Bubble, Bubble")
+setTitle("咕嘟，咕嘟")
 
 setIcon(<morecauldrons:oak_cauldron>)
 

@@ -1,8 +1,8 @@
-setTitle("Age of Storage")
+setTitle("存储纪元")
 
 setIcon(<minecraft:chest>)
 
-setDescription("All things related to storage!")
+setDescription("与存储有关的所有进度！")
 
 setBackground("test:textures/colors/grey.png")
 

@@ -1,8 +1,8 @@
-setTitle("Hot Pockets")
+setTitle("发热的口袋")
 
 setIcon(<enderstorage:ender_pouch>)
 
-//setDescription("Craft an Ender Pouch and Shift Right-Click on an Ender Chest to connect them")
+//setDescription("制作一个末影袋子并按住shift右键一个末影箱子来绑定它们（注意，是末影存储的末影箱子而不是原版末影箱）")
 
 setDescription({"translate":"Craft an Ender Pouch and '%2$s' '%1$s' on an Ender Chest to connect them","with":[{"keybind":"key.use"}, {"keybind":"key.sneak"}]})
 

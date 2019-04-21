@@ -1,8 +1,8 @@
-setTitle("Power Save Mode")
+setTitle("节能模式")
 
 setIcon(<mekanism:energyupgrade>)
 
-setDescription("Craft a Mekanism Energy upgrade to use less power in your machines")
+setDescription("制作一个通用机械能量升级来减少机器能耗")
 
 addParent("sf4:age_enhancement/root")
 

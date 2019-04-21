@@ -1,8 +1,8 @@
-setTitle("I Don't Know")
+setTitle("不知道，不清楚，别问我")
 
 setIcon(<tconstruct:slime_sapling>)
 
-//setDescription("Acquire a Blue Slime Sapling by Right-Clicking a Lapis Sapling in a Cauldron filled with Milk")
+//setDescription("拿着青金石树树苗对着装满牛奶的炼药锅右键即可获得一个蓝色史莱姆树苗")
 
 setDescription({"translate":"Acquire a Blue Slime Sapling by using '%1$s' on a Cauldron filled with Milk while holding a Lapis Sapling","with":[{"keybind":"key.use"}]})
 

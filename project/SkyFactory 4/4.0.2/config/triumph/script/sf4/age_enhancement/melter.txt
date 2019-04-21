@@ -1,8 +1,8 @@
-setTitle("To Be ORe Not to Be")
+setTitle("在？出来挖矿")
 
 setIcon(<tcomplement:porcelain_melter>)
 
-setDescription("Craft a Melter to process your metals")
+setDescription("制作一个冶炼炉来熔炼金属")
 
 addParent("sf4:age_enhancement/root")
 setRequirements("any")

@@ -1,8 +1,8 @@
-setTitle("Condensed Milk")
+setTitle("不是所有牛奶都叫特仑苏")
 
 setIcon(<cookingforblockheads:cow_jar>)
 
-setDescription("Using an Anvil and a Cow, create a Cow in a Jar to get infinite milk!")
+setDescription("用牛奶罐、牛和铁砧来做一个罐中奶牛！")
 
 addParent("sf4:age_farming/root")
 

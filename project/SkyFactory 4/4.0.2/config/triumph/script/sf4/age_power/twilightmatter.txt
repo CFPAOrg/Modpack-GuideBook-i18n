@@ -1,8 +1,8 @@
-setTitle("Dusk Till Dawn")
+setTitle("直到黎明")
 
 setIcon(<deepmoblearning:living_matter_twilight>)
 
-setDescription("Acquire a Twilight Matter from Deep Mob Learning")
+setDescription("从 Deep Mob Learning 中获得一个暮色物质")
 
 addParent("sf4:age_power/root")
 

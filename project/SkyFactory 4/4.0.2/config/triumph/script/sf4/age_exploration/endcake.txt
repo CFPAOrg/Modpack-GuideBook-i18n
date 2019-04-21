@@ -1,8 +1,8 @@
-setTitle("B'Aiken a C'Aiken")
+setTitle("终末之地")
 
 setIcon(<telepastries:end_cake>)
 
-setDescription("Craft, place, and eat an End Cake to go to the End")
+setDescription("制作，放置并吃下末影蛋糕以抵达末地")
 
 addParent("sf4:age_exploration/root")
 

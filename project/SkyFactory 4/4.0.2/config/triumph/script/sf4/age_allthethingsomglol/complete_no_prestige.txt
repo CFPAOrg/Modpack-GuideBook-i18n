@@ -1,4 +1,4 @@
-setTitle("You Win!")
+setTitle("你赢了！")
 
 setIcon(<minecraft:cooked_chicken>)
 

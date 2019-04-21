@@ -1,8 +1,8 @@
-setTitle("Slop in the Bucket")
+setTitle("桶满则溢")
 
 setIcon(<ceramics:unfired_clay>)
 
-setDescription("Using your new Clay Tree, craft and fire a Clay Bucket")
+setDescription("用你新做的粘土树，制作并烧制一个粘土桶")
 
 addParent("sf4:age1/sapling/clay")
 

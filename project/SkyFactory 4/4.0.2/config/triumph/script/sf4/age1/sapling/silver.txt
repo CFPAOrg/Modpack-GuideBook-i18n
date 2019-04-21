@@ -1,8 +1,8 @@
-setTitle("Silver Spoon")
+setTitle("银汤匙")
 
 setIcon(<sky_orchards:sapling_silver>)
 
-setDescription("Pour Molten Silver over a Menril Sapling to make a Silver Sapling")
+setDescription("将熔融银浇筑在门瑞欧树苗上来制作银树树苗")
 
 addParent("sf4:age1/amber/silver")
 

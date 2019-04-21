@@ -1,8 +1,8 @@
-setTitle("You Cotton Something?")
+setTitle("你要线吗？")
 
 setIcon(<minecraft:string>)
 
-setDescription("String has a chance to drop from Cottonwood Leaves. Or, use the Drying Rack to dry out Cottonwood Leaves to make String. Obtain a Cottonwood Sapling and piece of String")
+setDescription("棉白杨树叶有几率掉落线，或者用晾干架晾干它，想办法获取棉白杨树苗和线")
 
 addParent("sf4:age1/sapling/cottonwood")
 

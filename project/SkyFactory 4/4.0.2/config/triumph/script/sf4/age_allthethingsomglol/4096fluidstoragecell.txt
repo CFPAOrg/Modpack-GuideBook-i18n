@@ -1,8 +1,8 @@
-setTitle("Ocean Man")
+setTitle("海王")
 
 setIcon(<extracells:storage.component:10>)
 
-setDescription("Obtain 4096k Fluid Storage Cell")
+setDescription("获得4096K-ME流体储存组件")
 
 addParent("sf4:age_allthethingsomglol/root")
 

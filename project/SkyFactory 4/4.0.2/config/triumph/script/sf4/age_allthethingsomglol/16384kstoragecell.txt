@@ -1,8 +1,8 @@
-setTitle("Zip Disk")
+setTitle("压缩容器")
 
 setIcon(<extracells:storage.physical:3>)
 
-setDescription("Obtain 16384k Storage Cell")
+setDescription("获得16384K-ME存储元件")
 
 addParent("sf4:age_allthethingsomglol/root")
 

@@ -1,8 +1,8 @@
-setTitle("Drying Rack")
+setTitle("晾干架")
 
 setIcon(<tconstruct:rack:1>)
 
-setDescription("Craft the Drying Rack and place it on a wall. You can hang an assortment of items on it like raw food")
+setDescription("制作一个晾干架并把它放置在墙上，你可以右键它来挂上特定的物品，比如说生肉")
 
 addParent("tutorial:tutorial/placeDirtSapling")
 

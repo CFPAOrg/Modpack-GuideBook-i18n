@@ -1,8 +1,8 @@
-setTitle("Clay Aiken")
+setTitle("克莱·艾肯")
 
 setIcon(<sky_orchards:sapling_clay>)
 
-setDescription("Craft a Clay Sapling")
+setDescription("制作一个粘土树树苗")
 
 addParent("sf4:age1/sapling/petrified")
 addParent("sf4:age1/dirt")

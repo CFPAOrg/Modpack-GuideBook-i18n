@@ -1,8 +1,8 @@
-setTitle("Crafting Station")
+setTitle("合成站")
 
 setIcon(<tconstruct:tooltables>)
 
-setDescription("Take your planks and make a Crafting Station to start craft 3x3 recipes. The Crafting Station is an upgrade from the Crafting Table. It allows items to stay in the table when you leave the window")
+setDescription("用你的木板制作一个合成站来制作3*3配方的物品，合成站是合成台的升级板，即使你关闭了合成站的gui，它也可以保存3*3合成表内的物品")
 
 addParent("tutorial:tutorial/oakPlanks")
 

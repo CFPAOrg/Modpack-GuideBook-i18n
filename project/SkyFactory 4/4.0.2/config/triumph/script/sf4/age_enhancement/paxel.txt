@@ -1,8 +1,8 @@
-setTitle("Paxel Rose")
+setTitle("镐尖斧")
 
 setIcon(<pickletweaks:stone_paxel>)
 
-setDescription("Combine a Shovel, Pickaxe, and Axe to make a Paxel")
+setDescription("将铲子、镐子、斧子结合起来制作一把镐尖斧")
 
 addParent("sf4:age_enhancement/root")
 

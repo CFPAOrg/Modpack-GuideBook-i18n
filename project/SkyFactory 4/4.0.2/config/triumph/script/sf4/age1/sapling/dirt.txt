@@ -1,8 +1,8 @@
-setTitle("That's Dir-tree")
+setTitle("那是，泥土树")
 
 setIcon(<sky_orchards:sapling_dirt>)
 
-setDescription("Acquire a dirt sapling to grow more dirt trees")
+setDescription("获取一个泥土树树苗来种更多的泥土树")
 
 addParent("sf4:age1/root")
 

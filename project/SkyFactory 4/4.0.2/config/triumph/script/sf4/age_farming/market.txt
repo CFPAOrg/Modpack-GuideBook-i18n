@@ -1,8 +1,8 @@
-setTitle("This Little Piggy")
+setTitle("小猪佩奇")
 
 setIcon(<farmingforblockheads:market>)
 
-setDescription("Craft and place the Market to buy Seeds, Saplings, Flowers, and Food")
+setDescription("制作并放置一个小市场来购买种子、树苗、花和食物（动物种子也可以买到）")
 
 addParent("sf4:age_farming/root")
 

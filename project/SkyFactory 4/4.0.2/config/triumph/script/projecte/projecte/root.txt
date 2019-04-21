@@ -2,7 +2,7 @@ setTitle("ProjectE")
 
 setIcon(<projecte:transmutation_table>)
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("我能吞下玻璃而不伤身体")
 
 setBackground("projecte:textures/blocks/dm.png")
 

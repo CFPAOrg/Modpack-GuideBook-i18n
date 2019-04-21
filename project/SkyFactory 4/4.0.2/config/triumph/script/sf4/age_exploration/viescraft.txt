@@ -1,8 +1,8 @@
-setTitle("Come Fly With Me")
+setTitle("我心飞翔")
 
 setIcon(<vc:airships/item_airship>)
 
-setDescription("Craft a Viescraft Airship to fly around!")
+setDescription("制作一个Viescraft模组的飞艇来飞上云霄！")
 
 addParent("sf4:age_exploration/root")
 

@@ -1,8 +1,8 @@
-setTitle("Floaty McFloaty")
+setTitle("这不科学！")
 
 setIcon(<tp:fmf_block>)
 
-setDescription("Start a new island in the void by placing a Floaty McFloaty Block in the air")
+setDescription("利用漂浮方块在虚空中构建一个全新的岛屿")
 
 addParent("sf4:age_exploration/root")
 

@@ -1,8 +1,8 @@
-setTitle("Cowabonsai!")
+setTitle("是树场哒")
 
 setIcon(<bonsaitrees:bonsaipot:1>)
 
-setDescription("Upgrade to the Hopping Bonsai Pot to automatically insert into chests and other inventory blocks")
+setDescription("升级到漏式盆栽盆来获得自动化树场（它能自动化向其下方的容器内输入产物）")
 
 addParent("sf4:age_farming/bonsai")
 

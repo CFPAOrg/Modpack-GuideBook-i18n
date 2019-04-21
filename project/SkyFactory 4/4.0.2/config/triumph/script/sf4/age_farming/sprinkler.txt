@@ -1,8 +1,8 @@
-setTitle("Sick Sprinkler")
+setTitle("射爆！")
 
 setIcon(<cyclicmagic:sprinkler>)
 
-setDescription("Craft and place a Cyclic Sprinkler on top of a water source block for faster crop growth")
+setDescription("制作并放下一个循环模组的洒水器在水源正上方一格，它能加速周围作物的生长")
 
 addParent("sf4:age_farming/root")
 

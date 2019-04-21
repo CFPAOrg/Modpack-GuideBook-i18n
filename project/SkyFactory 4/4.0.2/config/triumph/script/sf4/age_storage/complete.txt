@@ -1,8 +1,8 @@
-setTitle("You Win!")
+setTitle("中度强迫症")
 
 setIcon(<minecraft:cooked_chicken>)
 
-setDescription("Complete all the advancements on the page. This will award you with 1 prestige point")
+setDescription("完成本页的所有进度，你将获得1点声望作为奖励")
 
 addParent("sf4:age_storage/root")
 addParent("sf4:age_storage/1kstoragecell")

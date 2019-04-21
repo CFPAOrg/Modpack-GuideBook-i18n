@@ -2,7 +2,7 @@ setTitle("D'OH!")
 
 setIcon(<sky_orchards:sapling_donut>)
 
-setDescription("Craft a Donut Sapling")
+setDescription("制作一个甜甜圈树苗")
 
 addParent("sf4:age1/root")
 

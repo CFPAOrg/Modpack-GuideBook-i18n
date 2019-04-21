@@ -1,8 +1,8 @@
-setTitle("Dirty Dancing")
+setTitle("辣身舞")
 
 setIcon(<minecraft:dirt>)
 
-setDescription("Craft a Dirt Block using Dirt Acorns and Dirt Resin")
+setDescription("用泥土树橡子和泥土树树脂来制作泥土")
 
 addParent("sf4:age1/acorn/dirt")
 

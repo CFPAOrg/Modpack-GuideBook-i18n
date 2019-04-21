@@ -1,8 +1,8 @@
-setTitle("This Tree is Forever")
+setTitle("钻石恒久远")
 
 setIcon(<sky_orchards:sapling_diamond>)
 
-setDescription("Craft a Diamond Sapling")
+setDescription("制作一个钻石树树苗")
 
 addParent("sf4:age1/sapling/silver")
 addParent("sf4:age1/sapling/gold")

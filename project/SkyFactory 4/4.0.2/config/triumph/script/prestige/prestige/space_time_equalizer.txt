@@ -1,8 +1,8 @@
-setTitle("The Flux Capacitor")
+setTitle("通量电容")
 
 setIcon(<matteroverdrive:spacetime_equalizer>)
 
-setDescription("To end the loop, press the Loop:Off button and the game will close. Restart your world to collect your prestige and go backwards in time")
+setDescription("要结束循环，你需要按下Loop:Off按钮，同时游戏会关闭，重启你的存档收集声望点数并及时倒退回之前的时间点")
 
 addParent("prestige:prestige/energy_cube")
 

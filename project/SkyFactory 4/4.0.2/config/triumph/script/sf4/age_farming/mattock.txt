@@ -1,8 +1,8 @@
-setTitle("Nothing Really Mattocks")
+setTitle("锄禾日当午")
 
 setIcon(<tconstruct:mattock>)
 
-setDescription("Craft any Tinkers' Construct Mattock to help with farming")
+setDescription("制作一个匠魂的鹤嘴锄来帮助你干农活")
 
 addParent("sf4:age_farming/root")
 
