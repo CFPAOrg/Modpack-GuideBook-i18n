@@ -2,12 +2,12 @@ setTitle("Drumtendo 64")
 
 setIcon(<bdsandm:upgrade>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' x64 Upgrade")
+setDescription("制作一个 Barrels, Drums, Storage, and More 的64倍容量升级插件")
 
 addParent("sf4:age_storage/root")
 
 //Criteria
-criteria = addCriteria("Obtain x64 Storage Upgrade", "minecraft:inventory_changed")
+criteria = addCriteria("获得64倍容量升级插件", "minecraft:inventory_changed")
 criteria.addItem(<bdsandm:upgrade:0>)
 
 setRewardExperience(10)

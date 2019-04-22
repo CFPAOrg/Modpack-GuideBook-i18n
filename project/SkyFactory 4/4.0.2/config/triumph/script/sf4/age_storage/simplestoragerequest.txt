@@ -1,15 +1,15 @@
-setTitle("I WANT IT NOW!")
+setTitle("我全都要")
 
 setIcon(<storagenetwork:request>)
 
-setDescription("Craft a Simple Storage Network Request Block to facilitate your processing tasks")
+setDescription("制作一个存储合成台（Simple Storage Network）来帮助你进行合成")
 
 addParent("sf4:age_storage/simpleStorageMaster")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Request Block", "minecraft:inventory_changed")
+criteria = addCriteria("获得存储合成台", "minecraft:inventory_changed")
 criteria.addItem(<storagenetwork:request>)
 
 setRewardExperience(10)

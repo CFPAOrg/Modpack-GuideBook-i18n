@@ -2,14 +2,14 @@ setTitle("Java Overflow")
 
 setIcon(<bdsandm:upgrade:2>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' x1k Storage Upgrade")
+setDescription("制作一个 Barrels, Drums, Storage, and More的1k倍容量升级插件")
 
 addParent("sf4:age_storage/bdsandmUpgrade2")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain x1k Storage Upgrade", "minecraft:inventory_changed")
+criteria = addCriteria("获得1k倍容量升级插件", "minecraft:inventory_changed")
 criteria.addItem(<bdsandm:upgrade:2>)
 
 //Rewards

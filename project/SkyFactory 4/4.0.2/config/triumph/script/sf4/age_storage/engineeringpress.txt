@@ -1,13 +1,13 @@
-setTitle("Under Pressure")
+setTitle("重压之下")
 
 setIcon(<appliedenergistics2:material:14>)
 
-setDescription("Obtain Engineering Press")
+setDescription("获得工程压印模板")
 
 addParent("sf4:age_storage/logicProcessor")
 
 //Criteria
-criteria = addCriteria("Obtain Engineering Press", "minecraft:inventory_changed")
+criteria = addCriteria("获得工程压印模板", "minecraft:inventory_changed")
 criteria.addItem(<appliedenergistics2:material:14>)
 
 setRewardExperience(12)

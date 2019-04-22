@@ -2,12 +2,12 @@ setTitle("Breaking Bad")
 
 setIcon(<appliedenergistics2:material:7>)
 
-setDescription("Obtain Fluix Crystal")
+setDescription("获得福鲁伊克斯水晶")
 
 addParent("sf4:age_storage/logicProcessor")
 
 //Criteria
-criteria = addCriteria("Obtain Fluix Crystal", "minecraft:inventory_changed")
+criteria = addCriteria("获得福鲁伊克斯水晶", "minecraft:inventory_changed")
 criteria.addItem(<appliedenergistics2:material:7>)
 
 setRewardExperience(12)

@@ -1,14 +1,14 @@
-setTitle("Live Long and Processor")
+setTitle("外星科技")
 
 setIcon(<appliedenergistics2:material:22>)
 
-setDescription("Obtain Logic Processor")
+setDescription("获得逻辑处理器")
 
 addParent("sf4:age_storage/siliconPress")
 addParent("sf4:age_storage/logicPress")
 
 //Criteria
-criteria = addCriteria("Obtain Logic Processor", "minecraft:inventory_changed")
+criteria = addCriteria("获得逻辑处理器", "minecraft:inventory_changed")
 criteria.addItem(<appliedenergistics2:material:22>)
 
 setRewardExperience(12)

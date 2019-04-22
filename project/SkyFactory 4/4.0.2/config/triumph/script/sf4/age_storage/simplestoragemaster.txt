@@ -1,13 +1,13 @@
-setTitle("Master Blaster")
+setTitle("顺丰")
 
 setIcon(<storagenetwork:master>)
 
-setDescription("Craft a Simple Storage Network Master Block. This block acts as the brain of the storage system and needs to be placed to work correctly")
+setDescription("制作一个存储网络主机（Simple Storage Network），它是你整个存储系统的核心，没有它整个系统无法正常运转")
 
 addParent("sf4:age_storage/root")
 
 //Criteria
-criteria = addCriteria("Obtain Network Master Block", "minecraft:inventory_changed")
+criteria = addCriteria("获得存储网络主机", "minecraft:inventory_changed")
 criteria.addItem(<storagenetwork:master>)
 
 setRewardExperience(10)

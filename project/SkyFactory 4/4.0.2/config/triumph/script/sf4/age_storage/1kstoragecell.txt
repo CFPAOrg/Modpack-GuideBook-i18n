@@ -1,13 +1,13 @@
-setTitle("Pocket Book")
+setTitle("我的小电影呢？")
 
 setIcon(<appliedenergistics2:storage_cell_1k>)
 
-setDescription("Obtain 1K Storage Cell")
+setDescription("获得1k存储单元")
 
 addParent("sf4:age_storage/driveBay")
 
 //Criteria
-criteria = addCriteria("获得1K存储元件", "minecraft:inventory_changed")
+criteria = addCriteria("获得1k存储单元", "minecraft:inventory_changed")
 criteria.addItem(<appliedenergistics2:storage_cell_1k>)
 
 setRewardExperience(12)

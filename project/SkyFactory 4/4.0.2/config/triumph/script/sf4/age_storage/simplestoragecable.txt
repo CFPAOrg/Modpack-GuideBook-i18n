@@ -1,15 +1,15 @@
-setTitle("CAT 5")
+setTitle("五类线")
 
 setIcon(<storagenetwork:kabel>)
 
-setDescription("Craft a Simple Storage Network Cable to connect your network")
+setDescription("制作 Simple Storage Network 的线缆来连接你的网络")
 
 addParent("sf4:age_storage/simpleStorageMaster")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Network Cable", "minecraft:inventory_changed")
+criteria = addCriteria("获得存储线缆", "minecraft:inventory_changed")
 criteria.addItem(<storagenetwork:kabel>)
 
 setRewardExperience(10)

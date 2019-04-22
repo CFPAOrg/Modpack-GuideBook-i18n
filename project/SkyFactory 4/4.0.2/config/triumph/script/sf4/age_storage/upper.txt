@@ -1,13 +1,13 @@
-setTitle("ɹǝddoH")
+setTitle("¿")
 
 setIcon(<uppers:upper>)
 
-setDescription("Craft an Upper. It's an upside down Hopper!")
+setDescription("制作一个上吸漏斗，是的，只要把漏斗倒过来就行了")
 
 addParent("sf4:age_storage/hopper")
 
 //Criteria
-criteria = addCriteria("Obtain Upper", "minecraft:inventory_changed")
+criteria = addCriteria("获得上吸漏斗", "minecraft:inventory_changed")
 criteria.addItem(<uppers:upper>)
 
 setRewardExperience(10)

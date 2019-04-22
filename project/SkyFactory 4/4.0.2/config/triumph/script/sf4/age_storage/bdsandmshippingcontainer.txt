@@ -1,8 +1,8 @@
-setTitle("It Fits, We Ship")
+setTitle("货装完了，启航吧")
 
 setIcon(<bdsandm:shipping_container>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' Shipping Container. This container allows inserting most blocks that can hold items, liquids, or power")
+setDescription("制作一个 Barrels, Drums, Storage, and More 的运输容器（Shipping Container）,它可以存放本模组装有物品、流体、能量的容器，并统一管理它们的输入输出（没错，只能管理27个抽屉的抽屉管理器）")
 
 addParent("sf4:age_storage/bdsandmMetalCrate")
 addParent("sf4:age_storage/bdsandmMetalBarrel")
@@ -10,7 +10,7 @@ addParent("sf4:age_storage/bdsandmMetalBarrel")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Shipping Container", "minecraft:inventory_changed")
+criteria = addCriteria("获得运输容器", "minecraft:inventory_changed")
 criteria.addItem(<bdsandm:shipping_container>)
 
 //Rewards

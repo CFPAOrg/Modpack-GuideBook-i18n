@@ -1,15 +1,15 @@
-setTitle("256 Liters of Cola")
+setTitle("能装256升的肥宅快乐水")
 
 setIcon(<bdsandm:upgrade:1>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' x256 Storage Upgrade")
+setDescription("制作一个 Barrels, Drums, Storage, and More的256倍容量升级插件")
 
 addParent("sf4:age_storage/bdsandmUpgrade1")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain x256 Storage Upgrade", "minecraft:inventory_changed")
+criteria = addCriteria("获得256倍容量升级插件", "minecraft:inventory_changed")
 criteria.addItem(<bdsandm:upgrade:1>)
 
 setRewardExperience(10)

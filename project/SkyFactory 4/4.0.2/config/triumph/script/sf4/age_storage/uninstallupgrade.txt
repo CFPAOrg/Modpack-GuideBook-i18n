@@ -1,13 +1,13 @@
-setTitle("Be Kind. Rewind.")
+setTitle("卸载")
 
 setIcon(<bdsandm:upgrade:7>)
 
-setDescription("Craft and use the Uninstall Upgrade to remove Barrels, Drums, Storage, and More Crate and Barrel upgrades")
+setDescription("制作并使用卸载升级来卸载本模组容器内已经加装的升级")
 
 addParent("sf4:age_storage/root")
 
 //Criteria
-criteria = addCriteria("Obtain x64 Storage Upgrade", "minecraft:inventory_changed")
+criteria = addCriteria("获得卸载升级", "minecraft:inventory_changed")
 criteria.addItem(<bdsandm:upgrade:7>)
 
 setRewardExperience(10)

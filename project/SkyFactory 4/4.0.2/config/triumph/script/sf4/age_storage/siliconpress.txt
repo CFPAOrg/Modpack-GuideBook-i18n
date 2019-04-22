@@ -1,13 +1,13 @@
-setTitle("Silicon Valley")
+setTitle("硅谷")
 
 setIcon(<appliedenergistics2:material:19>)
 
-setDescription("Obtain Silicon Press")
+setDescription("获得硅压印模板")
 
 addParent("sf4:age_storage/root")
 
 //Criteria
-criteria = addCriteria("Obtain Silicon Press", "minecraft:inventory_changed")
+criteria = addCriteria("获得硅压印模板", "minecraft:inventory_changed")
 criteria.addItem(<appliedenergistics2:material:19>)
 
 setRewardExperience(12)

@@ -1,13 +1,13 @@
-setTitle("Neeeeeeeeerrrrrrrd!")
+setTitle("书呆子")
 
 setIcon(<appliedenergistics2:material:13>)
 
-setDescription("Obtain Calculation Press")
+setDescription("获得运算压印模板")
 
 addParent("sf4:age_storage/logicProcessor")
 
 //Criteria
-criteria = addCriteria("Obtain Calculation Press", "minecraft:inventory_changed")
+criteria = addCriteria("获得运算压印模板", "minecraft:inventory_changed")
 criteria.addItem(<appliedenergistics2:material:13>)
 
 setRewardExperience(12)

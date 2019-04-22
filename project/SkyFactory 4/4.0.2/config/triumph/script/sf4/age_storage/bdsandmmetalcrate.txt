@@ -1,15 +1,15 @@
-setTitle("Metallicrate")
+setTitle("金属板条箱")
 
 setIcon(<bdsandm:metal_crate>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' Metal Crate. This block increases your capacity over Wooden Crate")
+setDescription("制作一个 Barrels, Drums, Storage, and More 的金属板条箱，它的容量升级上限比木制板条箱大")
 
 addParent("sf4:age_storage/bdsandmWoodenCrate")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Metal Crate", "minecraft:inventory_changed")
+criteria = addCriteria("获得金属板条箱", "minecraft:inventory_changed")
 criteria.addItem(<bdsandm:metal_crate>)
 
 setRewardExperience(10)

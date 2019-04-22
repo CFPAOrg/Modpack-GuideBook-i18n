@@ -1,13 +1,13 @@
-setTitle("Accepting Your True Power")
+setTitle("接受你真正的力量吧")
 
 setIcon(<appliedenergistics2:energy_acceptor>)
 
-setDescription("Obtain Energy Acceptor")
+setDescription("获得能源接收器")
 
 addParent("sf4:age_storage/logicProcessor")
 
 //Criteria
-criteria = addCriteria("Obtain Energy Acceptor", "minecraft:inventory_changed")
+criteria = addCriteria("能源接收器", "minecraft:inventory_changed")
 criteria.addItem(<appliedenergistics2:energy_acceptor>)
 
 setRewardExperience(12)

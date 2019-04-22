@@ -1,13 +1,13 @@
-setTitle("Whopper!")
+setTitle("绝对不侧漏！")
 
 setIcon(<tconstruct:wooden_hopper>)
 
-setDescription("Craft a Wooden Hopper")
+setDescription("制作一个木漏斗")
 
 addParent("sf4:age_storage/root")
 
 //Criteria
-criteria = addCriteria("Obtain Wooden Hopper", "minecraft:inventory_changed")
+criteria = addCriteria("获得木漏斗", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:wooden_hopper>)
 
 setRewardExperience(10)

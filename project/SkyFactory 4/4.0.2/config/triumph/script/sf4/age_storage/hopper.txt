@@ -1,13 +1,13 @@
-setTitle("Hop to It")
+setTitle("开始吧")
 
 setIcon(<minecraft:hopper>)
 
-setDescription("Craft a Vanilla Hopper")
+setDescription("制作一个原版漏斗")
 
 addParent("sf4:age_storage/woodenHopper")
 
 //Criteria
-criteria = addCriteria("Obtain Hopper", "minecraft:inventory_changed")
+criteria = addCriteria("获得漏斗", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:hopper>)
 
 setRewardExperience(10)

@@ -1,13 +1,13 @@
-setTitle("I Like Big Box and I Cannot Lie")
+setTitle("I Like Big Chest and I Cannot Lie")
 
 setIcon(<compactstorage:compactchest, nbt:{size:[I;24,12]}>)
 
-setDescription("Craft a maximum size Compact Storage Chest")
+setDescription("制作一个最大容量的箱子（Compact Storage Chest）：和背包一样，你的箱子生成器会告诉你需要多少材料")
 
 addParent("sf4:age_storage/root")
 
 //Criteria
-criteria = addCriteria("Obtain Compact Storage Chest", "minecraft:inventory_changed")
+criteria = addCriteria("获得压缩存储箱子", "minecraft:inventory_changed")
 criteria.addItem(<compactstorage:compactchest, nbt:{size:[I;24,12]}>)
 
 setRewardExperience(10)

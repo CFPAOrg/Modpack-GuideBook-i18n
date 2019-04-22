@@ -1,15 +1,15 @@
-setTitle("Wares the Remote?")
+setTitle("遥控器在哪？")
 
 setIcon(<storagenetwork:remote>)
 
-setDescription("Craft a Simple Storage Network Remote to access your storage network from up to 64 blocks away")
+setDescription("制作一个远程存储（Simple Storage Network）来从64格范围以内访问你的存储网络")
 
 addParent("sf4:age_storage/simpleStorageMaster")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Storage Network Remote", "minecraft:inventory_changed")
+criteria = addCriteria("获得远程存储", "minecraft:inventory_changed")
 criteria.addItem(<storagenetwork:remote>)
 
 setRewardExperience(10)

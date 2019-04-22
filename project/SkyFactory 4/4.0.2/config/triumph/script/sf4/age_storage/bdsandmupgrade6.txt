@@ -1,15 +1,15 @@
-setTitle("Void Ze Stuff")
+setTitle("清空它")
 
 setIcon(<bdsandm:upgrade:6>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' Void Overflow Storage Upgrade")
+setDescription("制作一个 Barrels, Drums, Storage, and More 的溢出虚空升级")
 
 addParent("sf4:age_storage/bdsandmUpgrade5")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Void Overflow Storage Upgrade", "minecraft:inventory_changed")
+criteria = addCriteria("获得溢出虚空升级", "minecraft:inventory_changed")
 criteria.addItem(<bdsandm:upgrade:6>)
 
 //Rewards

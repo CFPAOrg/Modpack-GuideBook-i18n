@@ -1,14 +1,14 @@
-setTitle("Bay Bay You Can Drive My Car")
+setTitle("宝贝，你可以开我的车")
 
 setIcon(<appliedenergistics2:drive>)
 
-setDescription("Obtain Drive Bay")
+setDescription("获得ME驱动器")
 
 addParent("sf4:age_storage/EngineeringPress")
 addParent("sf4:age_storage/CalculationPress")
 
 //Criteria
-criteria = addCriteria("Obtain Drive Bay", "minecraft:inventory_changed")
+criteria = addCriteria("获得ME驱动器", "minecraft:inventory_changed")
 criteria.addItem(<appliedenergistics2:drive>)
 
 setRewardExperience(12)

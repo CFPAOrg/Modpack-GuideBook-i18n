@@ -1,15 +1,15 @@
-setTitle("Better Than 1080p")
+setTitle("比1080p还好")
 
 setIcon(<bdsandm:upgrade:3>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' x4k Storage Upgrade")
+setDescription("制作一个 Barrels, Drums, Storage, and More 的4k倍容量升级插件")
 
 addParent("sf4:age_storage/bdsandmUpgrade3")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain x4k Storage Upgrade", "minecraft:inventory_changed")
+criteria = addCriteria("获得4k倍容量升级插件", "minecraft:inventory_changed")
 criteria.addItem(<bdsandm:upgrade:3>)
 
 //Rewards

@@ -1,15 +1,15 @@
-setTitle("Control Yourself")
+setTitle("克己")
 
 setIcon(<storagenetwork:controller>)
 
-setDescription("Craft a Simple Storage Network Processing Controller Block")
+setDescription("制作一个控制器（Simple Storage Network）")
 
 addParent("sf4:age_storage/simpleStorageRequest")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Processing Controller", "minecraft:inventory_changed")
+criteria = addCriteria("获得控制器", "minecraft:inventory_changed")
 criteria.addItem(<storagenetwork:controller>)
 
 setRewardExperience(10)
