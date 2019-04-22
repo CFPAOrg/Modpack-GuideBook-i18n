@@ -1,13 +1,13 @@
-setTitle("Slush Puppy")
+setTitle("要来份冰激凌吗")
 
 setIcon(<industrialforegoing:froster>)
 
-setDescription("Craft the Industrial Foregoing Froster to make Ice, Packed Ice, and Snow")
+setDescription("制作一个工业先锋的速冻机来获得雪、冰和浮冰")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Froster", "minecraft:inventory_changed")
+criteria = addCriteria("获得速冻机", "minecraft:inventory_changed")
 criteria.addItem(<industrialforegoing:froster>)
 
 setRewardExperience(10)

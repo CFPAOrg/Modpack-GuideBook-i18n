@@ -1,13 +1,13 @@
-setTitle("Down the Rabbit Hole")
+setTitle("梦游仙境")
 
 setIcon(<deepmoblearning:simulation_chamber>)
 
-setDescription("Acquire a Simulation Chamber from Deep Mob Learning. Insert Basic tier or higher Data Models to simulate and acquire Matter")
+setDescription("获得一个模拟室（Deep Mob Learning），插入基础数据模块或高级数据模块来模拟并获取怪物物质")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Simulation Chamber", "minecraft:inventory_changed")
+criteria = addCriteria("获得模拟室", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:simulation_chamber>)
 
 setRewardExperience(10)

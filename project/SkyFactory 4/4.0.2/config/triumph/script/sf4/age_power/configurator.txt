@@ -2,12 +2,12 @@ setTitle("Config-a-ma-whatzit")
 
 setIcon(<mekanism:configurator>)
 
-setDescription("The Mekanism Configurator allows you to configure pipes and machines with ease")
+setDescription("通用机械的调整器可以让你轻松配置它的机器和管道")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Configurator", "minecraft:inventory_changed")
+criteria = addCriteria("获得调整器", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:configurator>)
 
 setRewardExperience(10)

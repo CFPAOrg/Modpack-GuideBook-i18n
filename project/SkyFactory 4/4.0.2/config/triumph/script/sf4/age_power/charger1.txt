@@ -1,13 +1,13 @@
-setTitle("Chargin' Mah Lazer!")
+setTitle("意大利炮充能中")
 
 setIcon(<chargers:charger>)
 
-setDescription("Craft a Tier 1 Charger. When given power, you can charge items and other blocks inside of it")
+setDescription("制作一个一级充电器，当供应能量时，它将给其内部的物品和方块充能")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Tier 1 Charger", "minecraft:inventory_changed")
+criteria = addCriteria("获得一级充电器", "minecraft:inventory_changed")
 criteria.addItem(<chargers:charger:0>)
 
 //Rewards

@@ -1,13 +1,13 @@
-setTitle("Max Power")
+setTitle("电量阈值")
 
 setIcon(<rftoolspower:cell1>)
 
-setDescription("Craft an RF Tools Low Powercell. Powercell blocks can be placed next to each other to create a larger cell")
+setDescription("制作RFtools的低级能量单元，能量单元可以彼此相邻摆放来组合成一个大能量单元")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Low Powercell", "minecraft:inventory_changed")
+criteria = addCriteria("获得能量单元（低）", "minecraft:inventory_changed")
 criteria.addItem(<rftoolspower:cell1>)
 
 setRewardExperience(10)

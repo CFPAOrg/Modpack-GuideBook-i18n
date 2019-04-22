@@ -1,13 +1,13 @@
-setTitle("Dead Cells")
+setTitle("死亡细胞")
 
 setIcon(<deepmoblearning:pristine_matter_zombie>)
 
-setDescription("Acquire a Pristine Zombie Matter from Deep Mob Learning. You will first need to increase your Data Model to Basic and use the Simulation Chamber to produce Pristine Matter. The higher Models will produce Pristine Matter more often")
+setDescription("获得一个原始僵尸物质：你需要先将你的数据模块提高到基础等级，然后用模拟室来生产它，更高级的数据模块会增加产出速率")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Pristine Zombie Matter", "minecraft:inventory_changed")
+criteria = addCriteria("获得原始僵尸物质", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:pristine_matter_zombie>)
 
 setRewardExperience(10)

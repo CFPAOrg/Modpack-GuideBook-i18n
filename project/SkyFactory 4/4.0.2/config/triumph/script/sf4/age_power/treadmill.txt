@@ -2,12 +2,12 @@ setTitle("B-Aiken be Aiken")
 
 setIcon(<sync:item_treadmill>)
 
-setDescription("Use a treadmill to make Pig Power! Use a Lead to attach the Pig to the Treadmill")
+setDescription("用跑步机来生产PW，用拴绳来把猪猪困到跑步机上")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Pig Treadmill", "minecraft:inventory_changed")
+criteria = addCriteria("获得跑步机", "minecraft:inventory_changed")
 criteria.addItem(<sync:item_treadmill>)
 
 setRewardExperience(10)

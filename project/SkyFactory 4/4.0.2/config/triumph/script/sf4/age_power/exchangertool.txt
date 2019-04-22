@@ -1,17 +1,17 @@
-setTitle("Oops I Did It Again")
+setTitle("天哪，我又做了一次")
 
 setIcon(<buildinggadgets:exchangertool>)
 
 //setDescription("The Exchanger Tool will allow you to easily swap out blocks")
 
-setDescription({"translate":"The Exchanger Tool will allow you to easily swap out blocks. Switch building gadget mode using the '%1$s' key","with":[{"keybind":"key.modeSwitch"}]})
+setDescription({"translate":"更替小帮手可以帮你轻松替换已经放置的方块，你可以用'%1$s'键来更改模式","with":[{"keybind":"key.modeSwitch"}]})
 
 addParent("sf4:age_power/root")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Exchanger Tool", "minecraft:inventory_changed")
+criteria = addCriteria("获得更替小帮手", "minecraft:inventory_changed")
 criteria.addItem(<buildinggadgets:exchangertool>)
 
 setRewardExperience(10)

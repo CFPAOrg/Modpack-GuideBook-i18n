@@ -1,13 +1,13 @@
-setTitle("I'll Dehydrate You")
+setTitle("我会榨干你")
 
 setIcon(<cyclicmagic:dehydrator>)
 
-setDescription("Craft a Cyclic Dehydrator Machine to automate recipes from the Drying Rack")
+setDescription("制作一个脱水器（Cyclic）来自动化晾干架能完成的合成")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Dehydrator", "minecraft:inventory_changed")
+criteria = addCriteria("获得脱水器", "minecraft:inventory_changed")
 criteria.addItem(<cyclicmagic:dehydrator>)
 
 setRewardExperience(10)

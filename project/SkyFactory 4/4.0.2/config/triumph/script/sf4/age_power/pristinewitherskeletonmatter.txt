@@ -1,13 +1,13 @@
-setTitle("Withered Away")
+setTitle("凋零")
 
 setIcon(<deepmoblearning:pristine_matter_wither_skeleton>)
 
-setDescription("Acquire a Pristine Wither Skeleton Matter from Deep Mob Learning. You will first need to increase your Data Model to Basic and use the Simulation Chamber to produce Pristine Matter. The higher Models will produce Pristine Matter more often")
+setDescription("获得一个原始凋零骷髅物质:你需要先将你的数据模块升级到基础并用你的模拟室来生产它，更高级的数据模块能提供更高的生产速率")
 
 addParent("sf4:age_power/pristineZombieMatter")
 
 //Criteria
-criteria = addCriteria("Obtain Pristine Wither Skeleton Matter", "minecraft:inventory_changed")
+criteria = addCriteria("获得凋零骷髅物质", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:pristine_matter_wither_skeleton>)
 
 setRewardExperience(10)

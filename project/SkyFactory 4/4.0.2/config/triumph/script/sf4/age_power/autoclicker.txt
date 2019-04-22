@@ -1,13 +1,13 @@
-setTitle("Clicker Hero")
+setTitle("鼠标拯救者")
 
 setIcon(<clickmachine:auto_clicker>)
 
-setDescription("Craft an Auto Clicker machine to click stuff for you! Batteries not included")
+setDescription("制作一个自动点击器来帮你点击方块，不包括电池")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Auto Clicker", "minecraft:inventory_changed")
+criteria = addCriteria("获得自动点击器", "minecraft:inventory_changed")
 criteria.addItem(<clickmachine:auto_clicker>)
 
 setRewardExperience(10)

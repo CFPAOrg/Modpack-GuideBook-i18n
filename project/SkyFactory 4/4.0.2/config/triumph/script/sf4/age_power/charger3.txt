@@ -1,15 +1,15 @@
-setTitle("No Chargebacks")
+setTitle("一去不返")
 
 setIcon(<chargers:charger:2>)
 
-setDescription("Craft a Tier 3 Charger for even faster charging and higher capacity")
+setDescription("制作一个三级充电器来进一步提高充电速度和触电量")
 
 addParent("sf4:age_power/charger2")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Tier 3 Charger", "minecraft:inventory_changed")
+criteria = addCriteria("获得三级充电器", "minecraft:inventory_changed")
 criteria.addItem(<chargers:charger:2>)
 
 setRewardExperience(10)

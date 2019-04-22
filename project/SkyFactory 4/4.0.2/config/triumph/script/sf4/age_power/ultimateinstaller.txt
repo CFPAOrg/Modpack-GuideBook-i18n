@@ -2,12 +2,12 @@ setTitle("I'm A Computah!")
 
 setIcon(<mekanism:tierinstaller:3>)
 
-setDescription("Craft an Ultimate Installer from Mekanism. This can be used to upgrade Energy Cubes and a few other machines")
+setDescription("制作一个通用机械的终极工厂安装器，它可以被用来升级能量立方和其他一些机器")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Ultimate Installer", "minecraft:inventory_changed")
+criteria = addCriteria("获得终极工厂安装器", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:tierinstaller:3>)
 
 setRewardExperience(10)

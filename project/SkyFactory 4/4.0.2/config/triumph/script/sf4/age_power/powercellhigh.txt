@@ -1,13 +1,13 @@
-setTitle("Jacob's Ladder")
+setTitle("雅各布之梯")
 
 setIcon(<rftoolspower:cell3>)
 
-setDescription("Craft an RF Tools High Powercell")
+setDescription("制作RFtools的高级能量单元")
 
 addParent("sf4:age_power/powerCellMedium")
 
 //Criteria
-criteria = addCriteria("Obtain High Powercell", "minecraft:inventory_changed")
+criteria = addCriteria("获得能量单元（高）", "minecraft:inventory_changed")
 criteria.addItem(<rftoolspower:cell3>)
 
 setRewardExperience(10)

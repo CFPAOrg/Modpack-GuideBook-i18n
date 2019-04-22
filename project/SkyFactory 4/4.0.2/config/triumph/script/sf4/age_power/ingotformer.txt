@@ -1,13 +1,13 @@
-setTitle("Getting into Shape")
+setTitle("塑形")
 
 setIcon(<nuclearcraft:ingot_former_idle>)
 
-setDescription("Craft a Nuclearcraft Ingot Former which will cast ingots and other resources from molten liquids")
+setDescription("制作一个核电工艺的金属成型机来将熔融液体转化为矿锭和其他物质")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Ingot Former", "minecraft:inventory_changed")
+criteria = addCriteria("获得金属成型机", "minecraft:inventory_changed")
 criteria.addItem(<nuclearcraft:ingot_former_idle>)
 
 setRewardExperience(10)

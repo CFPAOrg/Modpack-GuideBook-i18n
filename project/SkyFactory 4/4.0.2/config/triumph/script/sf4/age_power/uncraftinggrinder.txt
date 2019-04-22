@@ -2,12 +2,12 @@ setTitle("Ctrl-Z")
 
 setIcon(<cyclicmagic:uncrafting_block>)
 
-setDescription("Craft a Cyclic Uncrafting Grinder to break down items and blocks")
+setDescription("制作一个分解磨床（Cyclic）来分解物品和方块")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Uncrafting Grinder", "minecraft:inventory_changed")
+criteria = addCriteria("获得分解磨床", "minecraft:inventory_changed")
 criteria.addItem(<cyclicmagic:uncrafting_block>)
 
 //Rewards

@@ -1,13 +1,13 @@
-setTitle("Tesla was Right!")
+setTitle("特斯拉是对的！")
 
 setIcon(<chargers:wireless_charger>)
 
-setDescription("Craft a Wireless Charger")
+setDescription("制作一个无线充电器")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Wireless Charger", "minecraft:inventory_changed")
+criteria = addCriteria("获得无线充电器", "minecraft:inventory_changed")
 criteria.addItem(<chargers:wireless_charger>)
 
 setRewardExperience(10)

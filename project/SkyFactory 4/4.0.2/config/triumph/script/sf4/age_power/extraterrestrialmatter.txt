@@ -1,13 +1,13 @@
-setTitle("The Truth is Out There")
+setTitle("真相就在那里")
 
 setIcon(<deepmoblearning:living_matter_extraterrestrial>)
 
-setDescription("Acquire an Extraterrestrial Matter from Deep Mob Learning")
+setDescription("获得一个末地物质（Deep Mob Learning）")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Extraterrestrial Matter", "minecraft:inventory_changed")
+criteria = addCriteria("获得末地物质", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:living_matter_extraterrestrial>)
 
 setRewardExperience(10)

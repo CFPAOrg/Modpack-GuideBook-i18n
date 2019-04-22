@@ -1,15 +1,15 @@
-setTitle("Charger 2: Electric Boogaloo")
+setTitle("要来段机械舞吗")
 
 setIcon(<chargers:charger:1>)
 
-setDescription("Craft a Tier 2 Charger for quicker charging and increased capacity")
+setDescription("制作二级充电器来提高充电速度和储电量")
 
 addParent("sf4:age_power/charger1")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Tier 2 Charger", "minecraft:inventory_changed")
+criteria = addCriteria("获得二级充电器", "minecraft:inventory_changed")
 criteria.addItem(<chargers:charger:1>)
 
 setRewardExperience(10)

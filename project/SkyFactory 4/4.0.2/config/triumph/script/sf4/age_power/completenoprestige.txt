@@ -2,7 +2,7 @@ setTitle("轻度强迫症")
 
 setIcon(<minecraft:cooked_chicken>)
 
-setDescription("完成本页的全部进度，你将获得1点声望作为奖励")
+setDescription("完成本页的所有进度，你将获得1点声望作为奖励")
 
 addParent("sf4:age_power/root")
 addParent("sf4:age_power/alloyfurnace")
@@ -47,7 +47,7 @@ setRequiresParents()
 setFrameType("challenge")
 
 //Criteria
-criteria = addCriteria("Prestige Mode Disabled", "triumph:gamestage")
+criteria = addCriteria("Prestige模式未启用", "triumph:gamestage")
 criteria.setStage("no_parabox")
 
 hiddenUnless("no_parabox")

@@ -2,7 +2,7 @@ setTitle("电力纪元")
 
 setIcon(<chisel:technicalnew:3>)
 
-setDescription("跟能量有关的所有进度！")
+setDescription("和能量有关的所有进度！")
 
 setBackground("test:textures/colors/red.png")
 

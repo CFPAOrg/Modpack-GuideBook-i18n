@@ -1,13 +1,13 @@
-setTitle("Get Informed!")
+setTitle("信息化！")
 
 setIcon(<rftoolspower:information_screen>)
 
-setDescription("Craft a RF Tools Power Information Screen. You may place this screen on most any block that interacts with power")
+setDescription("制作一个RFtools的信息屏，你可以把它放在大部分耗能、储能设备上")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Information Screen", "minecraft:inventory_changed")
+criteria = addCriteria("获得信息屏", "minecraft:inventory_changed")
 criteria.addItem(<rftoolspower:information_screen>)
 
 setRewardExperience(10)

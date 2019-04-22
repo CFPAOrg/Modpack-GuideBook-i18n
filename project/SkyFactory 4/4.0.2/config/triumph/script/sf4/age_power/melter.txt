@@ -1,13 +1,13 @@
-setTitle("Warm and Gooey")
+setTitle("暖暖的，软软的")
 
 setIcon(<nuclearcraft:melter_idle>)
 
-setDescription("Craft a Nuclearcraft Melter to melt down items and blocks into molten liquid")
+setDescription("制作一个核电工艺的金属熔化机来将物品和方块熔化成液体")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Melter", "minecraft:inventory_changed")
+criteria = addCriteria("获得金属熔化机", "minecraft:inventory_changed")
 criteria.addItem(<nuclearcraft:melter_idle>)
 
 setRewardExperience(10)

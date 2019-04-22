@@ -1,17 +1,17 @@
-setTitle("Go, Go, Building Gadget")
+setTitle("建筑小帮手冲鸭")
 
 setIcon(<buildinggadgets:buildingtool>)
 
 //setDescription("The Building Gadget helps you build!")
 
-setDescription({"translate":"The Building Gadget helps you build! Switch building gadget mode using the '%1$s' key","with":[{"keybind":"key.modeSwitch"}]})
+setDescription({"translate":"建筑小帮手能帮你更便捷地搭建方块，你可以用'%1$s'键来更改模式","with":[{"keybind":"key.settings_menu"}]})
 
 addParent("sf4:age_power/root")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Building Gadget", "minecraft:inventory_changed")
+criteria = addCriteria("获得建筑小帮手", "minecraft:inventory_changed")
 criteria.addItem(<buildinggadgets:buildingtool>)
 
 //Rewards

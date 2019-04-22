@@ -1,13 +1,13 @@
-setTitle("Made for Each Other")
+setTitle("天生一对")
 
 setIcon(<nuclearcraft:alloy_furnace_idle>)
 
-setDescription("Craft a Nuclearcraft Alloy Furnace to combine items into alloys or other combinations")
+setDescription("制作一个核电工艺的合金炉来制作合金或其他混合物")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Alloy Furnace", "minecraft:inventory_changed")
+criteria = addCriteria("获得合金炉", "minecraft:inventory_changed")
 criteria.addItem(<nuclearcraft:alloy_furnace_idle>)
 
 setRewardExperience(10)

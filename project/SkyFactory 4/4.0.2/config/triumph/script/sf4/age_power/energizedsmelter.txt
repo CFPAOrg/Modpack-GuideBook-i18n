@@ -1,13 +1,13 @@
-setTitle("Gotta Smelt Fast")
+setTitle("熔解加速")
 
 setIcon(<mekanism:machineblock:10>)
 
-setDescription("You can use the Mekanism Energized Smelter in place of a vanilla furnace")
+setDescription("你可以用通用机械的充能冶炼炉来替代原版熔炉了")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Energized Smelter", "minecraft:inventory_changed")
+criteria = addCriteria("获得充能冶炼炉", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:machineblock:10>)
 
 setRewardExperience(10)

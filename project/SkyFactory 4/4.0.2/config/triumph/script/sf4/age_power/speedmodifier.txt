@@ -1,15 +1,15 @@
-setTitle("Need iiii Speed")
+setTitle("逮虾户！")
 
 setIcon(<valkyrielib:modifier_speed>)
 
-setDescription("Craft the ValkyrieLib Speed Modifier to speed up the Upgradeable Generators")
+setDescription("制作速度强化部件（ValkyrieLib）来加速高级简易发电机")
 
 addParent("sf4:age_power/simpleGenerator")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Speed Modifier", "minecraft:inventory_changed")
+criteria = addCriteria("获得速度强化部件", "minecraft:inventory_changed")
 criteria.addItem(<valkyrielib:modifier_speed>)
 
 setRewardExperience(10)

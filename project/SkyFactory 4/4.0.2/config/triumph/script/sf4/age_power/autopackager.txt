@@ -1,13 +1,13 @@
-setTitle("Package Control")
+setTitle("合成控制")
 
 setIcon(<cyclicmagic:auto_packager>)
 
-setDescription("Craft and use an Auto Packager to autocraft Amber and other select blocks")
+setDescription("制作打包机来自动化合成珀块和其他方块")
 
 addParent("sf4:age_power/root")
 
 //Criteria
-criteria = addCriteria("Obtain Auto Packager", "minecraft:inventory_changed")
+criteria = addCriteria("获得打包机", "minecraft:inventory_changed")
 criteria.addItem(<cyclicmagic:auto_packager>)
 
 setRewardExperience(10)
