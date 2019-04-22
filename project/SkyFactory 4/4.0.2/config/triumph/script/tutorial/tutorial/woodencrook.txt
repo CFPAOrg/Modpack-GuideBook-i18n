@@ -9,7 +9,7 @@ addParent("tutorial:tutorial/craftingStation")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain a Wooden Crook", "minecraft:inventory_changed")
+criteria = addCriteria("获得木钩", "minecraft:inventory_changed")
 criteria.addItem(<inspirations:wooden_crook>)
 
 //Rewards

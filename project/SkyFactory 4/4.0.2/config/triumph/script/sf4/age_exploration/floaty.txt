@@ -9,7 +9,7 @@ addParent("sf4:age_exploration/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Floaty McFloaty Block", "minecraft:inventory_changed")
+criteria = addCriteria("获得漂浮方块", "minecraft:inventory_changed")
 criteria.addItem(<tp:fmf_block>)
 
 setRewardExperience(16)

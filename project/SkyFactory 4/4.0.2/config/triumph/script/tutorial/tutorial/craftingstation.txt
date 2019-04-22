@@ -9,7 +9,7 @@ addParent("tutorial:tutorial/oakPlanks")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain a Crafting Station", "minecraft:inventory_changed")
+criteria = addCriteria("获得合成站", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables>)
 
 //Rewards

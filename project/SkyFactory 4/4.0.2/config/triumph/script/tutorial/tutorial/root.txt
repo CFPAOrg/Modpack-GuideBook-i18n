@@ -13,7 +13,7 @@ setAnnounceToChat(false)
 setRequirements("any")
 
 //Criteria
-criteria = addCriteria("tutorial", "minecraft:location")
+criteria = addCriteria("教程", "minecraft:location")
 criteria.setGeneratorOptions({"Topography-Preset":"SkyFactory Tutorial"})
 
 setPos(32,-79)

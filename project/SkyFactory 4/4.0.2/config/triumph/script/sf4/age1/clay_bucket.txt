@@ -9,9 +9,9 @@ addParent("sf4:age1/sapling/clay")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Clay Bucket", "minecraft:inventory_changed")
+criteria = addCriteria("获得粘土桶", "minecraft:inventory_changed")
 criteria.addItem(<ceramics:clay_bucket>)
-criteria1 = addCriteria("Obtain Unfired Clay Bucket", "minecraft:inventory_changed")
+criteria1 = addCriteria("获得未烧制的粘土桶", "minecraft:inventory_changed")
 criteria1.addItem(<ceramics:unfired_clay>)
 
 setRequirements("any")

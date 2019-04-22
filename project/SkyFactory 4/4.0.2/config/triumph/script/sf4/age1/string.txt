@@ -9,9 +9,9 @@ addParent("sf4:age1/sapling/cottonwood")
 drawDirectLines()
 
 //Criteria
-criteria1 = addCriteria("Obtain String", "minecraft:inventory_changed")
+criteria1 = addCriteria("获得线", "minecraft:inventory_changed")
 criteria1.addItem(<minecraft:string>)
-criteria2 = addCriteria("Obtain Cottonwood Sapling", "minecraft:inventory_changed")
+criteria2 = addCriteria("获得棉白杨树苗", "minecraft:inventory_changed")
 criteria2.addItem(<sky_orchards:sapling_cottonwood>)
 
 //Rewards

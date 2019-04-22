@@ -8,10 +8,10 @@ addParent("sf4:age_exploration/nether")
 
 drawDirectLines(true)
 
-criteria = addCriteria("Place Da Wata", "triumph:right_click_block")
+criteria = addCriteria("放置水", "triumph:right_click_block")
 criteria.setItem(<minecraft:water_bucket>)
 criteria.setDimID(-1)
-criteria2 = addCriteria("Place Da Boat", "triumph:right_click_block")
+criteria2 = addCriteria("放置木船", "triumph:right_click_block")
 criteria2.setItem(<minecraft:boat>)
 criteria2.setDimID(-1)
 

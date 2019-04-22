@@ -9,13 +9,13 @@ addParent("sf4:age1/root")
 drawDirectLines(true)
 
 //Criteria
-criteria1 = addCriteria("Obtain Crafting Station Slab", "minecraft:inventory_changed")
+criteria1 = addCriteria("获得合成站半板", "minecraft:inventory_changed")
 criteria1.addItem(<slabmachines:crafting_station_slab>)
-criteria2 = addCriteria("Obtain Chest Slab", "minecraft:inventory_changed")
+criteria2 = addCriteria("获得箱子半板", "minecraft:inventory_changed")
 criteria2.addItem(<slabmachines:chest_slab>)
-criteria3 = addCriteria("Obtain Furnace Slab", "minecraft:inventory_changed")
+criteria3 = addCriteria("获得熔炉半板", "minecraft:inventory_changed")
 criteria3.addItem(<slabmachines:furnace_slab>)
-criteria4 = addCriteria("Obtain Workbench Slab", "minecraft:inventory_changed")
+criteria4 = addCriteria("获得工作台半板", "minecraft:inventory_changed")
 criteria4.addItem(<slabmachines:workbench_slab>)
 
 setRequirements("any")

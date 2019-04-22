@@ -8,9 +8,9 @@ addParent("sf4:age_exploration/endcake")
 drawDirectLines(true)
 
 //Criteria
-criteria1 = addCriteria("Enter End Dimension", "minecraft:changed_dimension")
+criteria1 = addCriteria("抵达末地维度", "minecraft:changed_dimension")
 criteria1.setDimensionDestination("the_end")
-criteria2 = addCriteria("Enter End Biome", "minecraft:location")
+criteria2 = addCriteria("抵达末地生态群系", "minecraft:location")
 criteria2.setBiome("minecraft:sky")
 
 alwaysVisible()

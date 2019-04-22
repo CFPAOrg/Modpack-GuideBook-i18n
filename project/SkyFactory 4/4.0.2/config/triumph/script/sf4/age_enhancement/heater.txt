@@ -8,9 +8,9 @@ addParent("sf4:age_enhancement/root")
 setRequirements("any")
 
 //Criteria
-criteria = addCriteria("Obtain Porcelain Melter", "minecraft:inventory_changed")
+criteria = addCriteria("获得陶瓷加热器", "minecraft:inventory_changed")
 criteria.addItem(<tcomplement:porcelain_melter:8>)
-criteria1 = addCriteria("Obtain Seared Melter", "minecraft:inventory_changed")
+criteria1 = addCriteria("获得焦黑加热器", "minecraft:inventory_changed")
 criteria1.addItem(<tcomplement:melter:8>)
 
 setRewardExperience(12)

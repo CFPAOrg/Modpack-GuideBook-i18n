@@ -9,7 +9,7 @@ addParent("tutorial:tutorial/woodenCrook")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain a Dirt Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得泥土树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_dirt>)
 
 //Rewards

@@ -12,10 +12,10 @@ drawDirectLines()
 setRequirements("any")
 
 //Criteria
-criteria1 = addCriteria("Obtain Lava Clay Bucket", "minecraft:inventory_changed")
+criteria1 = addCriteria("获得熔岩粘土桶", "minecraft:inventory_changed")
 criteria1.addItem(<ceramics:clay_bucket, meta:0, count:1, nbt:{fluids:{FluidName:"lava",Amount:1000}}>)
 
-criteria2 = addCriteria("Obtain Lava Iron Bucket", "minecraft:inventory_changed")
+criteria2 = addCriteria("获得熔岩桶", "minecraft:inventory_changed")
 criteria2.addItem(<minecraft:lava_bucket>)
 
 //Rewards

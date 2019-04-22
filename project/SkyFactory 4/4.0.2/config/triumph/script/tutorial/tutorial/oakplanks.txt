@@ -9,7 +9,7 @@ addParent("tutorial:tutorial/oakWood")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Oak Wood Planks", "minecraft:inventory_changed")
+criteria = addCriteria("获得橡木木板", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:planks, count:8~>)
 
 //Rewards

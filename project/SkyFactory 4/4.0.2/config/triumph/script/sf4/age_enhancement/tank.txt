@@ -9,9 +9,9 @@ setRequirements("any")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Tank", "minecraft:inventory_changed")
+criteria = addCriteria("获得焦黑储罐", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:seared_tank>)
-criteria1 = addCriteria("Obtain Porcelain Tank", "minecraft:inventory_changed")
+criteria1 = addCriteria("获得陶瓷储罐", "minecraft:inventory_changed")
 criteria1.addItem(<tcomplement:porcelain_tank>)
 
 setRewardExperience(8)

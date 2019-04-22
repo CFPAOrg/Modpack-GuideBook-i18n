@@ -11,10 +11,10 @@ drawDirectLines(true)
 setRequirements("any")
 
 //Criteria
-criteria1 = addCriteria("Placed Oak Planks", "minecraft:placed_block")
+criteria1 = addCriteria("放置橡木木板", "minecraft:placed_block")
 criteria1.setBlock(<minecraft:planks>)
 
-criteria2 = addCriteria("Placed Oak Wood Slab", "minecraft:placed_block")
+criteria2 = addCriteria(放置橡木半砖", "minecraft:placed_block")
 criteria2.setBlock(<minecraft:wooden_slab>)
 
 //Rewards

@@ -10,9 +10,9 @@ setRequirements("any")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Porcelain Melter", "minecraft:inventory_changed")
+criteria = addCriteria("获得微缩陶瓷冶炼炉", "minecraft:inventory_changed")
 criteria.addItem(<tcomplement:porcelain_melter>)
-criteria1 = addCriteria("Obtain Melter", "minecraft:inventory_changed")
+criteria1 = addCriteria("获得微缩冶炼炉", "minecraft:inventory_changed")
 criteria1.addItem(<tcomplement:melter>)
 
 setRewardExperience(8)

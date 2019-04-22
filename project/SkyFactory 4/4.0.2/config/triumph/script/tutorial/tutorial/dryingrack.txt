@@ -7,7 +7,7 @@ setDescription("制作一个晾干架并把它放置在墙上，你可以右键�
 addParent("tutorial:tutorial/placeDirtSapling")
 
 //Criteria
-criteria = addCriteria("Obtain Oak Wood Planks", "minecraft:inventory_changed")
+criteria = addCriteria("获得晾干架", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:rack:1>)
 
 //Rewards

@@ -9,9 +9,9 @@ addParent("sf4:age_exploration/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Ice Ardite Ore", "minecraft:inventory_changed")
+criteria = addCriteria("获得冰阿迪特矿", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:sub_block_holder_0>)
-criteria1 = addCriteria("Obtain Ardite Ore", "minecraft:inventory_changed")
+criteria1 = addCriteria("获得阿迪特矿", "minecraft:inventory_changed")
 criteria1.addItem(<tconstruct:ore:1>)
 
 setRequirements("any")
