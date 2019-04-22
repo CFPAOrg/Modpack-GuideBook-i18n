@@ -9,7 +9,7 @@ addParent("sf4:age_farming/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Wheat Seeds", "minecraft:inventory_changed")
+criteria = addCriteria("获得小麦种子", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:wheat_seeds>)
 
 setRewardExperience(6)

@@ -7,7 +7,7 @@ setDescription("如果能量需求被满足并且计时结束的话，你就会�
 addParent("prestige:prestige/clock")
 
 //Criteria
-criteria = addCriteria("Acquire Advanced Energy Cube", "minecraft:inventory_changed")
+criteria = addCriteria("获取高级能量立方", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:energycube, nbt:{tier:1}>)
 
 //Rewards

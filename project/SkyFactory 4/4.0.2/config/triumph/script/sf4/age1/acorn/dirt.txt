@@ -9,7 +9,7 @@ addParent("sf4:age1/root")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Dirt Acorn", "minecraft:inventory_changed")
+criteria = addCriteria("获得泥土橡子", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:acorn_dirt>)
 
 //Rewards

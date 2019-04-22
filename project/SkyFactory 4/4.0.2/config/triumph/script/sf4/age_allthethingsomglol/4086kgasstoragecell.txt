@@ -7,7 +7,7 @@ setDescription("获得4096K-ME气体存储单元")
 addParent("sf4:age_allthethingsomglol/root")
 
 //Criteria
-criteria = addCriteria("Obtain 4096k Gas Storage Cell", "minecraft:inventory_changed")
+criteria = addCriteria("获得4096k气体存储元件", "minecraft:inventory_changed")
 criteria.addItem(<extracells:storage.gas:6>)
 
 setRewardExperience(12)

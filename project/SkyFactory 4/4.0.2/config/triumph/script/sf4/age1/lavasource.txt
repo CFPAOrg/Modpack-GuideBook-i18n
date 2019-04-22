@@ -12,7 +12,7 @@ drawDirectLines(true)
 
 hiddenUnless("skygrid")
 
-criteria = addCriteria("Break Lava Source Block", "triumph:player_break_block")
+criteria = addCriteria("破坏熔岩源石头", "triumph:player_break_block")
 criteria.setBlock(<tp:lava_block>)
 
 //Rewards

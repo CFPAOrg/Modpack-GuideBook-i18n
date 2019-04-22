@@ -13,7 +13,7 @@ alwaysHidden()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain a Dragon's Head", "minecraft:inventory_changed")
+criteria = addCriteria("获得一个龙首", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:skull:5>)
 
 //Rewards

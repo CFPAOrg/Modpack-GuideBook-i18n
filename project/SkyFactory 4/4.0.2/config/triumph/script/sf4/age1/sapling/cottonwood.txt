@@ -11,7 +11,7 @@ addParent("sf4:age1/cauldron")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Cottonwood Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得棉白杨树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_cottonwood>)
 
 //Rewards

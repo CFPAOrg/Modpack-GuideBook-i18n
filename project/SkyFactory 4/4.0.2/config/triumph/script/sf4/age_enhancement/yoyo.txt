@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/toolForge")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Yoyo", "minecraft:inventory_changed")
+criteria = addCriteria("获得悠悠球", "minecraft:inventory_changed")
 criteria.addItem(<yoyos:yoyo>)
 
 setRewardExperience(8)

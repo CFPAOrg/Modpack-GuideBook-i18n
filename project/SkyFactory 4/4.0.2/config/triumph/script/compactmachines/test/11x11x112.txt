@@ -13,7 +13,7 @@ alwaysHidden()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Pristine Wither Matter", "minecraft:inventory_changed")
+criteria = addCriteria("获得原始凋零物质", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:pristine_matter_wither>)
 
 //Rewards

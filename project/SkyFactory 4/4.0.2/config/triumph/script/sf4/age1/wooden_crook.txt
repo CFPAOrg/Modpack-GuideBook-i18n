@@ -9,7 +9,7 @@ addParent("sf4:age1/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Wooden Crook", "minecraft:inventory_changed")
+criteria = addCriteria("获得木钩子", "minecraft:inventory_changed")
 criteria.addItem(<inspirations:wooden_crook>)
 
 //Rewards

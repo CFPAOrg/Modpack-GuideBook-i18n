@@ -13,7 +13,7 @@ alwaysHidden()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Eye of Ender", "minecraft:inventory_changed")
+criteria = addCriteria("获得末影之眼", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:ender_eye>)
 
 //Rewards

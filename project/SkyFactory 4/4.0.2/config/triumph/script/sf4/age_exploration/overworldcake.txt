@@ -9,7 +9,7 @@ addParent("sf4:age_exploration/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Overworld Cake", "minecraft:inventory_changed")
+criteria = addCriteria("获得主世界蛋糕", "minecraft:inventory_changed")
 criteria.addItem(<telepastries:overworld_cake>)
 
 setRewardExperience(16)

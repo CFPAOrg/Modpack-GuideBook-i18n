@@ -13,7 +13,7 @@ alwaysHidden()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Nether Star", "minecraft:inventory_changed")
+criteria = addCriteria("获得下界之星", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:nether_star>)
 
 //Rewards

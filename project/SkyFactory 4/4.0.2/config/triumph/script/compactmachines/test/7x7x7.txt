@@ -13,7 +13,7 @@ alwaysHidden()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Netherrack", "minecraft:inventory_changed")
+criteria = addCriteria("获得地狱岩", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:netherrack>)
 
 //Rewards

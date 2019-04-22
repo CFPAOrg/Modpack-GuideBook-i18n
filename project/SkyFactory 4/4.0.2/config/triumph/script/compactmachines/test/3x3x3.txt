@@ -10,7 +10,7 @@ visibleIf("compact_machines")
 alwaysHidden()
 
 //Criteria
-criteria = addCriteria("Obtain Grass Block", "minecraft:inventory_changed")
+criteria = addCriteria("获得草方块", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:grass>)
 
 //Rewards

@@ -8,7 +8,7 @@ addParent("sf4:age_exploration/root")
 
 drawDirectLines(true)
 
-criteria = addCriteria("Entered Lost Cities Dimension", "minecraft:location")
+criteria = addCriteria("进入失落的城市维度", "minecraft:location")
 criteria.setDimID(111)
 
 setRewardExperience(16)

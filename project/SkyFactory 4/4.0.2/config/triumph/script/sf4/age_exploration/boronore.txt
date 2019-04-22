@@ -9,7 +9,7 @@ addParent("sf4:age_exploration/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Boron Ore", "minecraft:inventory_changed")
+criteria = addCriteria("获得硼矿", "minecraft:inventory_changed")
 criteria.addItem(<nuclearcraft:ore:5>)
 
 setRewardExperience(20)

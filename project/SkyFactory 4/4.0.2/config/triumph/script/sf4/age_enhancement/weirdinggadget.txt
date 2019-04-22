@@ -7,7 +7,7 @@ setDescription("制作一个古怪工具来加载5*5的区块")
 addParent("sf4:age_enhancement/root")
 
 //Criteria
-criteria = addCriteria("Obtain Weirding Gadget", "minecraft:inventory_changed")
+criteria = addCriteria("获得古怪工具", "minecraft:inventory_changed")
 criteria.addItem(<weirdinggadget:weirding_gadget>)
 
 setRewardExperience(8)

@@ -12,7 +12,7 @@ drawDirectLines(true)
 
 hiddenUnless("skygrid")
 
-criteria = addCriteria("Break Water Source Block", "triumph:player_break_block")
+criteria = addCriteria("破坏水源方块", "triumph:player_break_block")
 criteria.setBlock(<tp:water_block>)
 
 //Rewards

@@ -9,7 +9,7 @@ addParent("sf4:age_farming/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Sugar Cane Seeds", "minecraft:inventory_changed")
+criteria = addCriteria("获得甘蔗种子", "minecraft:inventory_changed")
 criteria.addItem(<inspirations:sugar_cane_seeds>)
 
 setRewardExperience(6)

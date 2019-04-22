@@ -7,7 +7,7 @@ setDescription("制作并吃下一个循环模组的工作台升级蛋糕")
 addParent("sf4:age_enhancement/root")
 
 //Criteria
-criteria = addCriteria("Eat Cyclic Crafting Upgrade", "minecraft:consume_item")
+criteria = addCriteria("吃下工作台升级蛋糕", "minecraft:consume_item")
 criteria.setItem(<cyclicmagic:crafting_food>)
 
 setRewardExperience(8)

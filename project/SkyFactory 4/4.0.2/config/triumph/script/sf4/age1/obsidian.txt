@@ -11,7 +11,7 @@ addParent("sf4:age1/lava")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Obsidian", "minecraft:inventory_changed")
+criteria = addCriteria("获得黑曜石", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:obsidian>)
 
 //Rewards

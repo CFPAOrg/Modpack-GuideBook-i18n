@@ -8,7 +8,7 @@ addParent("prestige:prestige/root")
 addParent("prestige:prestige/test")
 
 //Criteria
-criteria = addCriteria("Acquire Clock", "minecraft:inventory_changed")
+criteria = addCriteria("获取时钟", "minecraft:inventory_changed")
 criteria.addItem(<bibliocraft:clock>)
 
 //Rewards

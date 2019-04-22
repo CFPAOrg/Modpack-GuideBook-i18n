@@ -14,7 +14,7 @@ setShowToast(false)
 setAnnounceToChat(false)
 
 //Criteria
-criteria = addCriteria("impossible", "minecraft:impossible")
+criteria = addCriteria("不可能", "minecraft:impossible")
 
 //Rewards
 setRewardItem(<compactmachines3:psd, enchant:cofhcore:soulbound:127>)

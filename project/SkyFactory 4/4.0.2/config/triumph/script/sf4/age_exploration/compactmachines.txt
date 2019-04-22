@@ -9,7 +9,7 @@ addParent("sf4:age_exploration/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Enter Compact Machines Dimension", "minecraft:changed_dimension")
+criteria = addCriteria("进入压缩机器的维度", "minecraft:changed_dimension")
 criteria.setDimensionDestination("CompactMachines")
 
 setRewardExperience(16)

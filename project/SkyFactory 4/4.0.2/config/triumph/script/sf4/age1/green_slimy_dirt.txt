@@ -9,7 +9,7 @@ addParent("sf4:age1/sapling/slime")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Green Slime Dirt", "minecraft:inventory_changed")
+criteria = addCriteria("获得绿色史莱姆泥土", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:slime_dirt:0>)
 
 //Rewards

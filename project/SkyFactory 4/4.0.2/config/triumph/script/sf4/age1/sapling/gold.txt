@@ -8,7 +8,7 @@ addParent("sf4:age1/amber/gold")
 
 drawDirectLines()
 
-criteria = addCriteria("Obtain Gold Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得金树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_gold>)
 
 setRewardExperience(4)

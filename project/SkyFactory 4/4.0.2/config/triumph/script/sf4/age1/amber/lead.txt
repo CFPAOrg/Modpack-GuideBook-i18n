@@ -10,7 +10,7 @@ addParent("sf4:age1/sapling/lapis")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Lead Amber", "minecraft:inventory_changed")
+criteria = addCriteria("获得铅珀块", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:amber_lead>)
 
 //Rewards

@@ -7,7 +7,7 @@ setDescription("一旦猪提供了足够多的能量，构建好的躯壳就能�
 addParent("hardcore:hardcore/shell_constructor")
 setRequiresParents()
 
-criteria = addCriteria("Take Control of your Shell", "minecraft:enter_block")
+criteria = addCriteria("控制你的躯壳", "minecraft:enter_block")
 criteria.setBlock(<sync:block_multi, meta:0, state:{"type":"constructor"}>)
 
 setRewardExperience(4)

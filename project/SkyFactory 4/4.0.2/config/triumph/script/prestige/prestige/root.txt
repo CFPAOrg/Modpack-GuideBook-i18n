@@ -13,7 +13,7 @@ setAnnounceToChat(false)
 setRequirements("any")
 
 //Criteria
-criteria = addCriteria("stage", "triumph:gamestage")
+criteria = addCriteria("阶段", "triumph:gamestage")
 criteria.setStage("parabox")
 
 pageHiddenUnless("parabox")

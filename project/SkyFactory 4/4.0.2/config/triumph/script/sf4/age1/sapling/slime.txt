@@ -11,7 +11,7 @@ addParent("sf4:age1/sapling/lapis")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Blue Slime Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得蓝色史莱姆树树苗", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:slime_sapling>)
 
 //Rewards

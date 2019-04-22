@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Enchantment Table", "minecraft:inventory_changed")
+criteria = addCriteria("获得附魔台", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:enchanting_table>)
 
 setRewardExperience(8)

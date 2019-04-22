@@ -13,7 +13,7 @@ setAnnounceToChat(false)
 setRequirements("any")
 
 //Criteria
-criteria = addCriteria("superflat", "minecraft:location")
+criteria = addCriteria("超平坦", "minecraft:location")
 criteria.setWorldType("amplified")
 
 //Rewards

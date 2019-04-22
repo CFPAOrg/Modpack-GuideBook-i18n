@@ -9,7 +9,7 @@ addParent("sf4:age1/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Cobblestone Block", "minecraft:inventory_changed")
+criteria = addCriteria("获得圆石", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:cobblestone>)
 
 //Rewards

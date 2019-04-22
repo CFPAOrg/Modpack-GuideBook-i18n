@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Level Up Tinkers' Pickaxe", "minecraft:inventory_changed")
+criteria = addCriteria("升级匠魂镐子", "minecraft:inventory_changed")
 criteria.addItem(<nbt:{Modifiers: [{identifier: "toolleveling", level: 2}]}>)
 
 setRewardExperience(8)

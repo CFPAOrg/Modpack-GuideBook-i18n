@@ -8,7 +8,7 @@ addParent("hardcore:hardcore/root")
 setRequiresParents()
 hideLines()
 
-criteria = addCriteria("Use Constructor", "triumph:right_click_block")
+criteria = addCriteria("使用培育仓", "triumph:right_click_block")
 criteria.setBlock(<sync:block_multi, meta:0, state:{"type":"constructor"}>)
 
 setRewardExperience(4)

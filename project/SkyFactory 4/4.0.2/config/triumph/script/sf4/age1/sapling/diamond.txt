@@ -10,7 +10,7 @@ addParent("sf4:age1/sapling/gold")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Diamond Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得钻石树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_diamond>)
 
 //Rewards

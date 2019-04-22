@@ -7,7 +7,7 @@ setDescription("制作并放下一个循环模组的洒水器在水源正上方�
 addParent("sf4:age_farming/root")
 
 //Criteria
-criteria = addCriteria("Obtain Sprinkler", "minecraft:inventory_changed")
+criteria = addCriteria("获得洒水器", "minecraft:inventory_changed")
 criteria.addItem(<cyclicmagic:sprinkler>)
 
 setRewardExperience(8)

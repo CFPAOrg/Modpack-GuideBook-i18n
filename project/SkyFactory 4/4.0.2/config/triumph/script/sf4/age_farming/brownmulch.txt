@@ -7,7 +7,7 @@ setDescription("棕色有机覆盖物能提高盆栽的生长速率和产率")
 addParent("sf4:age_farming/fertileSoil")
 
 //Criteria
-criteria = addCriteria("Obtain Brown Mulch", "minecraft:inventory_changed")
+criteria = addCriteria("获得棕色有机覆盖物", "minecraft:inventory_changed")
 criteria.addItem(<inspirations:mulch:1>)
 
 

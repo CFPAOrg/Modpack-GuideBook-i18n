@@ -7,7 +7,7 @@ setDescription("要结束循环，你需要按下Loop:Off按钮，同时游戏�
 addParent("prestige:prestige/energy_cube")
 
 //Criteria
-criteria = addCriteria("Acquire Space Time Equalizer", "minecraft:inventory_changed")
+criteria = addCriteria("获得时空均衡仪", "minecraft:inventory_changed")
 criteria.addItem(<matteroverdrive:spacetime_equalizer>)
 
 //Rewards

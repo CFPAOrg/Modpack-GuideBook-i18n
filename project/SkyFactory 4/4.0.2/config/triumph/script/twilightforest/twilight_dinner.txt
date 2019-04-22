@@ -3,7 +3,7 @@ setTitle({"translate": "advancement.twilightforest.twilight_dining"})
 
 setIcon(<minecraft:bowl>)
 
-setDescription({"text": "Collect ALL of the Food exclusive to the Twilight Forest."})
+setDescription({"text": "收集所有暮色森林独有的食物"})
 
 setFrameType("challenge")
 

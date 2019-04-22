@@ -9,7 +9,7 @@ addParent("sf4:age_exploration/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Dilithium Crystals", "minecraft:inventory_changed")
+criteria = addCriteria("获得双锂晶体", "minecraft:inventory_changed")
 criteria.addItem(<matteroverdrive:dilithium_crystal>)
 
 setRequirements("any")

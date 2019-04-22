@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/armorStation")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Armor Forge", "minecraft:inventory_changed")
+criteria = addCriteria("获得盔甲组装台", "minecraft:inventory_changed")
 criteria.addItem(<conarm:armorforge>)
 
 setRewardExperience(8)

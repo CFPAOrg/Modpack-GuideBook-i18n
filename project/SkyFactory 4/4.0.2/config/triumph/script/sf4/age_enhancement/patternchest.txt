@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/partBuilder")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Pattern Chest", "minecraft:inventory_changed")
+criteria = addCriteria("获得模具箱", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables:4>)
 
 setRewardExperience(8)

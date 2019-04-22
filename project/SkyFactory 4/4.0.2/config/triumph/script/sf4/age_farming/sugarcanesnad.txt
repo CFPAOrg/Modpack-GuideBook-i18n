@@ -7,7 +7,7 @@ setDescription("在子沙上面种甘蔗以增加甘蔗的生长速率")
 addParent("sf4:age_farming/sugarcaneSeed")
 
 drawDirectLines(true)
-criteria = addCriteria("Placed Snad", "minecraft:placed_block")
+criteria = addCriteria("放置子沙", "minecraft:placed_block")
 criteria.setBlock(<snad:snad>)
 
 setRewardExperience(6)

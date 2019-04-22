@@ -8,7 +8,7 @@ addParent("sf4:age_enhancement/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Deal 20 or More Damage", "minecraft:player_hurt_entity")
+criteria = addCriteria("受到20点以上伤害", "minecraft:player_hurt_entity")
 damage = criteria.getDamageData()
 damage.setDealtMin(20)
 

@@ -7,7 +7,7 @@ setDescription("琥珀色有机覆盖物可以加快盆栽生长速度并增加�
 addParent("sf4:age_farming/yellowMulch")
 
 //Criteria
-criteria = addCriteria("Obtain Amber Mulch", "minecraft:inventory_changed")
+criteria = addCriteria("获得琥珀色有机覆盖物", "minecraft:inventory_changed")
 criteria.addItem(<inspirations:mulch:3>)
 
 hiddenUnless("amber_mulch")

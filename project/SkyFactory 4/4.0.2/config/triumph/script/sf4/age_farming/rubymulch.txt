@@ -7,7 +7,7 @@ setDescription("红色有机覆盖物可以加速盆栽的生长速率并增加�
 addParent("sf4:age_farming/amberMulch")
 
 //Criteria
-criteria = addCriteria("Obtain Ruby Mulch", "minecraft:inventory_changed")
+criteria = addCriteria("获得红宝石色有机覆盖物", "minecraft:inventory_changed")
 criteria.addItem(<inspirations:mulch:4>)
 
 hiddenUnless("amber_mulch")

@@ -7,7 +7,7 @@ setDescription("用含水方块（Hydrogel Block）来代替你农场里的水�
 addParent("sf4:age_farming/root")
 
 //Criteria
-criteria = addCriteria("Obtain Hydrogel", "minecraft:inventory_changed")
+criteria = addCriteria("获得含水方块", "minecraft:inventory_changed")
 criteria.addItem(<hydrogel:hydrogel>)
 
 setRewardExperience(6)

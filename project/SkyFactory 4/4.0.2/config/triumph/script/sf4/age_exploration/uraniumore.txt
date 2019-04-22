@@ -9,7 +9,7 @@ addParent("sf4:age_exploration/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Uranium Ore", "minecraft:inventory_changed")
+criteria = addCriteria("获得铀矿", "minecraft:inventory_changed")
 criteria.addItem(<nuclearcraft:ore:4>)
 
 setRewardExperience(20)

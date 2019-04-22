@@ -9,7 +9,7 @@ addParent("sf4:age_farming/bonsai")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Bonsai Pot", "minecraft:inventory_changed")
+criteria = addCriteria("获得盆栽", "minecraft:inventory_changed")
 criteria.addItem(<bonsaitrees:bonsaipot:1>)
 
 hiddenUnless("bonsai_trees")

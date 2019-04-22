@@ -10,5 +10,5 @@ setFrameType("goal")
 addParent("twilightforest:progress_hydra")
 
 //Criteria
-criteria = addCriteria("hydra_chop", "minecraft:inventory_changed")
+criteria = addCriteria("九头蛇肉排", "minecraft:inventory_changed")
 criteria.addItem(<twilightforest:hydra_chop>)

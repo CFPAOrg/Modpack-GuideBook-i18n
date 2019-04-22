@@ -7,7 +7,7 @@ setDescription("获得4096K-ME流体储存组件")
 addParent("sf4:age_allthethingsomglol/root")
 
 //Criteria
-criteria = addCriteria("Obtain 4096k Fluid Storage Cell", "minecraft:inventory_changed")
+criteria = addCriteria("获得4096k流体存储元件", "minecraft:inventory_changed")
 criteria.addItem(<extracells:storage.component:10>)
 
 setRewardExperience(12)

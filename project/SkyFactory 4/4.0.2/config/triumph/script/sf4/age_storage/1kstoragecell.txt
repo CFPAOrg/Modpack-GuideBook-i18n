@@ -7,7 +7,7 @@ setDescription("Obtain 1K Storage Cell")
 addParent("sf4:age_storage/driveBay")
 
 //Criteria
-criteria = addCriteria("Obtain 1K Storage Cell", "minecraft:inventory_changed")
+criteria = addCriteria("获得1K存储元件", "minecraft:inventory_changed")
 criteria.addItem(<appliedenergistics2:storage_cell_1k>)
 
 setRewardExperience(12)

@@ -9,7 +9,7 @@ addParent("sf4:age1/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Crushing Tub", "minecraft:inventory_changed")
+criteria = addCriteria("获得压榨木盆", "minecraft:inventory_changed")
 criteria.addItem(<rustic:crushing_tub>)
 
 //Rewards

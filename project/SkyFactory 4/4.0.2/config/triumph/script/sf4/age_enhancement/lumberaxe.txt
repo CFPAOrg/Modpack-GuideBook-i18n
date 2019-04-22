@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/toolForge")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Tinkers' Lumber Axe", "minecraft:inventory_changed")
+criteria = addCriteria("获得匠魂的伐木斧", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:lumberaxe>)
 
 setRewardExperience(8)

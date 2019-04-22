@@ -8,7 +8,7 @@ addParent("sf4:age1/sapling/diamond")
 
 drawDirectLines()
 
-criteria = addCriteria("Obtain Diamond", "minecraft:inventory_changed")
+criteria = addCriteria("获得钻石", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:diamond>)
 
 setRewardExperience(6)

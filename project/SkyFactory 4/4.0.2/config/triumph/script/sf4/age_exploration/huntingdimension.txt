@@ -8,7 +8,7 @@ addParent("sf4:age_exploration/root")
 
 drawDirectLines(true)
 
-criteria = addCriteria("Entered Hunting Dimension", "minecraft:location")
+criteria = addCriteria("进入狩猎维度", "minecraft:location")
 criteria.setDimID(28885)
 
 setRewardExperience(16)

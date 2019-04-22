@@ -7,7 +7,7 @@ setDescription("消灭凋零")
 addParent("sf4:age_exploration/nether")
 drawDirectLines(true)
 
-criteria = addCriteria("Killed Wither", "minecraft:player_killed_entity")
+criteria = addCriteria("杀死凋零", "minecraft:player_killed_entity")
 criteria.setEntityType("withercrumbs:wither crumb")
 
 setRewardExperience(16)

@@ -9,7 +9,7 @@ addParent("sf4:age_exploration/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Ice Tritanium Ore", "minecraft:inventory_changed")
+criteria = addCriteria("获得三钛矿石", "minecraft:inventory_changed")
 criteria.addItem(<matteroverdrive:tritanium_ore>)
 
 setRequirements("any")

@@ -7,7 +7,7 @@ setDescription("制作并吃下一个循环模组的心之容器")
 addParent("sf4:age_enhancement/root")
 
 //Criteria
-criteria = addCriteria("Eat Cyclic Heart Container", "minecraft:consume_item")
+criteria = addCriteria("吃下Cyclic模组的心之容器", "minecraft:consume_item")
 criteria.setItem(<cyclicmagic:heart_food>)
 
 setRewardExperience(8)

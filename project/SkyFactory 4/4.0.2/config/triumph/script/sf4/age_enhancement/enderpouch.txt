@@ -11,7 +11,7 @@ addParent("sf4:age_enhancement/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Ender Pouch", "minecraft:inventory_changed")
+criteria = addCriteria("获得末影袋子", "minecraft:inventory_changed")
 criteria.addItem(<enderstorage:ender_pouch, nbt:{}>)
 
 setRewardExperience(8)

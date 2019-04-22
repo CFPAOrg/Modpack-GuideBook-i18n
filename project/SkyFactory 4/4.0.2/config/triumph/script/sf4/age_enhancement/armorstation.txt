@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/partBuilder")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Armor Station", "minecraft:inventory_changed")
+criteria = addCriteria("获得盔甲装配台", "minecraft:inventory_changed")
 criteria.addItem(<conarm:armorstation>)
 
 setRewardExperience(8)

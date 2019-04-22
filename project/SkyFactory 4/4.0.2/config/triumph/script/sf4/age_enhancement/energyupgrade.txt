@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Mekanism Energy Upgrade", "minecraft:inventory_changed")
+criteria = addCriteria("获得Mekanism能量升级", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:energyupgrade>)
 
 setRewardExperience(8)

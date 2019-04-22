@@ -9,7 +9,7 @@ addParent("sf4:age_farming/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Watering Can", "minecraft:inventory_changed")
+criteria = addCriteria("获得洒水壶", "minecraft:inventory_changed")
 criteria.addItem(<tp:watering_can>)
 
 setRewardExperience(6)

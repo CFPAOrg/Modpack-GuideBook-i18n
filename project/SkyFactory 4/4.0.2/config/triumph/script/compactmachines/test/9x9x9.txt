@@ -13,7 +13,7 @@ alwaysHidden()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain End Stone", "minecraft:inventory_changed")
+criteria = addCriteria("获得末地石", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:end_stone>)
 
 //Rewards

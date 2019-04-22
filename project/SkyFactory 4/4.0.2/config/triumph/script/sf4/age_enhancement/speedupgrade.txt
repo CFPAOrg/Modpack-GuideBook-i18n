@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Mekanism Speed Upgrade", "minecraft:inventory_changed")
+criteria = addCriteria("获得Mekanism速度升级", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:speedupgrade>)
 
 setRewardExperience(8)

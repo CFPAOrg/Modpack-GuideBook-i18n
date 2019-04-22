@@ -10,7 +10,7 @@ addParent("sf4:age1/dirt")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain a Clay Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得粘土树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_clay>)
 
 //Rewards

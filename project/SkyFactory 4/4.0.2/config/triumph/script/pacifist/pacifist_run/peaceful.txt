@@ -12,9 +12,9 @@ alwaysHidden()
 setAnnounceToChat(false)
 
 //Criteria
-criteria1 = addCriteria("brokeLog", "triumph:player_break_block")
+criteria1 = addCriteria("破坏原木", "triumph:player_break_block")
 criteria1.setBlock(<ore:logWood>)
-criteria2 = addCriteria("brokeLeaves", "triumph:player_break_block")
+criteria2 = addCriteria("破坏树叶", "triumph:player_break_block")
 criteria2.setBlock(<ore:treeLeaves>)
 
 setRequirements("any")

@@ -8,7 +8,7 @@ addParent("sf4:age_exploration/root")
 
 drawDirectLines(true)
 
-criteria = addCriteria("Entered Twilight Forest Dimension", "minecraft:location")
+criteria = addCriteria("进入暮色森林维度", "minecraft:location")
 criteria.setDimID(7)
 
 setRewardExperience(16)

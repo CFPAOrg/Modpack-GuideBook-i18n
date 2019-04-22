@@ -9,7 +9,7 @@ addParent("sf4:age_farming/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Mob DNA", "minecraft:inventory_changed")
+criteria = addCriteria("获得怪物DNA", "minecraft:inventory_changed")
 criteria.addItem(<mob_grinding_utils:mob_swab:1>)
 
 hiddenUnless("mob_grinding_utils")

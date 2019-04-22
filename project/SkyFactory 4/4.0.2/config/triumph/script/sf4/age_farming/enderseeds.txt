@@ -9,7 +9,7 @@ addParent("sf4:age_farming/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Ender Seeds", "minecraft:inventory_changed")
+criteria = addCriteria("获得末影种子", "minecraft:inventory_changed")
 criteria.addItem(<endercrop:ender_seeds>)
 
 setRewardExperience(16)

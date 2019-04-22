@@ -9,7 +9,7 @@ addParent("sf4:age1/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain a Cauldron", "minecraft:inventory_changed")
+criteria = addCriteria("获得一个坩埚", "minecraft:inventory_changed")
 criteria.addItem(<ore:cauldron>)
 
 //Rewards

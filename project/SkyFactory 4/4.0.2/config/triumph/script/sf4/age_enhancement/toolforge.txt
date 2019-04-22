@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/toolStation")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Tool Forge", "minecraft:inventory_changed")
+criteria = addCriteria("获得工具组装台", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:toolforge>)
 
 setRewardExperience(8)

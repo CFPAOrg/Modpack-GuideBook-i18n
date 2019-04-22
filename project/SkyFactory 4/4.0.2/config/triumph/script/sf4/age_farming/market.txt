@@ -9,7 +9,7 @@ addParent("sf4:age_farming/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Market", "minecraft:inventory_changed")
+criteria = addCriteria("获得市场方块", "minecraft:inventory_changed")
 criteria.addItem(<farmingforblockheads:market>)
 
 setRewardExperience(6)

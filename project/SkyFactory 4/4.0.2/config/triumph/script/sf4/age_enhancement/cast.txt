@@ -7,7 +7,7 @@ setDescription("制作一个非粘土镐头铸模以开始升级你的工具")
 addParent("sf4:age_enhancement/root")
 
 //Criteria
-criteria = addCriteria("Obtain Metal Pickaxe Head Cast", "minecraft:inventory_changed")
+criteria = addCriteria("获得镐头铸模", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:cast,ore:cast,meta:0,count:1,nbt:{PartType:"tconstruct:pick_head"}>)
 
 setRewardExperience(8)

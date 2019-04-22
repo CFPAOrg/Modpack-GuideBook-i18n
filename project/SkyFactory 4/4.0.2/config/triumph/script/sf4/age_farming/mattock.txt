@@ -7,7 +7,7 @@ setDescription("制作一个匠魂的鹤嘴锄来帮助你干农活")
 addParent("sf4:age_farming/root")
 
 //Criteria
-criteria = addCriteria("Obtain Mattock", "minecraft:inventory_changed")
+criteria = addCriteria("获得鹤嘴锄", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:mattock>)
 
 setRewardExperience(6)

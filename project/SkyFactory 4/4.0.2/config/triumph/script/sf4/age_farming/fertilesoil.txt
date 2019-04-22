@@ -9,7 +9,7 @@ addParent("sf4:age_farming/bonsai")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Fertile Soil", "minecraft:inventory_changed")
+criteria = addCriteria("获得沃土", "minecraft:inventory_changed")
 criteria.addItem(<rustic:fertile_soil>)
 
 hiddenUnless("fertile_soil")

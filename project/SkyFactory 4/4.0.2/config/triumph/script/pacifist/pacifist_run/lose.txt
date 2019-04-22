@@ -12,7 +12,7 @@ alwaysHidden()
 setHidden(true)
 
 //Criteria
-criteria = addCriteria("killed poor innocent creature", "minecraft:player_killed_entity")
+criteria = addCriteria("杀了可怜的无辜动物", "minecraft:player_killed_entity")
 
 //Rewards
 setRewardExperience(4)

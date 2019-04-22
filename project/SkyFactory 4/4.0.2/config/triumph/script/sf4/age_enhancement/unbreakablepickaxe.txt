@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Unbreakable Tinkers' Tool or Weapon", "minecraft:inventory_changed")
+criteria = addCriteria("获得不毁属性的匠魂工具或者武器", "minecraft:inventory_changed")
 criteria.addItem(<nbt:{Unbreakable:1b}>)
 
 setRewardExperience(8)

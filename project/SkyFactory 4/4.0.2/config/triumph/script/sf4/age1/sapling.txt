@@ -13,7 +13,7 @@ drawDirectLines(true)
 hiddenUnless("skygrid")
 
 //Criteria
-criteria = addCriteria("Has Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("拥有树苗", "minecraft:inventory_changed")
 criteria.addItem(<ore:treeSapling>)
 
 //Rewards

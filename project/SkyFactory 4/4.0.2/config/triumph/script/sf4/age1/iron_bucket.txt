@@ -9,7 +9,7 @@ addParent("sf4:age1/iron_ingot")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Iron Bucket", "minecraft:inventory_changed")
+criteria = addCriteria("获得铁桶", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:bucket>)
 
 //Rewards

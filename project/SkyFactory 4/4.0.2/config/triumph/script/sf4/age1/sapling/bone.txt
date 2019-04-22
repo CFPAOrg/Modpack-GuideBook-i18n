@@ -11,7 +11,7 @@ addParent("sf4:age1/crushing_tub")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Bone Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得骨树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_bone>)
 
 //Rewards

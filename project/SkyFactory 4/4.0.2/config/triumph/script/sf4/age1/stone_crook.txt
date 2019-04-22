@@ -10,7 +10,7 @@ addParent("sf4:age1/cobblestone")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Stone Crook", "minecraft:inventory_changed")
+criteria = addCriteria("获得石头钩子", "minecraft:inventory_changed")
 criteria.addItem(<inspirations:stone_crook>)
 
 //Rewards

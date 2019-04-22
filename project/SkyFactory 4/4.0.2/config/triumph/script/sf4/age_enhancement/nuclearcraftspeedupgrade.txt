@@ -7,7 +7,7 @@ setDescription("制作一个核电工艺的速度升级来提升机器的工作�
 addParent("sf4:age_enhancement/root")
 
 //Criteria
-criteria = addCriteria("Obtain Nuclearcraft Speed Upgrade", "minecraft:inventory_changed")
+criteria = addCriteria("获得Nuclearcraft的速度升级", "minecraft:inventory_changed")
 criteria.addItem(<nuclearcraft:upgrade>)
 
 setRewardExperience(8)

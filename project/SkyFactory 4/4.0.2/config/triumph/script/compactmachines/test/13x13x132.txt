@@ -13,7 +13,7 @@ alwaysHidden()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain some Dragon's Breath", "minecraft:inventory_changed")
+criteria = addCriteria("获得一些龙息", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:dragon_breath>)
 
 //Rewards

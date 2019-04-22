@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Tinkers' Stencil Table", "minecraft:inventory_changed")
+criteria = addCriteria("获得匠魂的模具加工台", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables:1>)
 
 setRewardExperience(8)

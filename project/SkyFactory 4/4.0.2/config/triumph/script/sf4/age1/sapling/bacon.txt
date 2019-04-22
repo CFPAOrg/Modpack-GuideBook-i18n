@@ -9,7 +9,7 @@ addParent("sf4:age1/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Bacon Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得培根树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_bacon>)
 
 //Rewards

@@ -13,10 +13,10 @@ setAnnounceToChat(false)
 setRequirements("any")
 
 //Criteria
-criteria1 = addCriteria("superflat1", "minecraft:location")
+criteria1 = addCriteria("超平坦1", "minecraft:location")
 criteria1.setGeneratorOptions({"Topography-Preset":"Hardcore"})
 
-criteria2 = addCriteria("superflat2", "minecraft:location")
+criteria2 = addCriteria("超平坦2", "minecraft:location")
 criteria2.setGeneratorOptions({"Topography-Preset":"Are You Afraid of the Dark"})
 
 //Rewards

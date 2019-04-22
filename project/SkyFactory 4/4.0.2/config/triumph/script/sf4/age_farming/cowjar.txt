@@ -9,7 +9,7 @@ addParent("sf4:age_farming/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Cow in a Jar", "minecraft:inventory_changed")
+criteria = addCriteria("获得罐中奶牛", "minecraft:inventory_changed")
 criteria.addItem(<cookingforblockheads:cow_jar>)
 
 setRewardExperience(8)

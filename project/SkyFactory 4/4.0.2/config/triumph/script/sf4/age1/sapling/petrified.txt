@@ -10,7 +10,7 @@ addParent("sf4:age1/drying_rack")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Petrified Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得石化树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_petrified>)
 
 //Rewards

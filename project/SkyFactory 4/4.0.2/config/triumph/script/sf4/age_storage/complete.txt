@@ -45,7 +45,7 @@ setRequiresParents()
 setFrameType("challenge")
 
 //Criteria
-criteria = addCriteria("Prestige Mode", "triumph:gamestage")
+criteria = addCriteria("声望模式", "triumph:gamestage")
 criteria.setStage("parabox")
 
 hiddenUnless("parabox")

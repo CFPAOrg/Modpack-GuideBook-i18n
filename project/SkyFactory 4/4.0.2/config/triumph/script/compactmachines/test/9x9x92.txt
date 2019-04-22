@@ -13,7 +13,7 @@ alwaysHidden()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Chorus Fruit", "minecraft:inventory_changed")
+criteria = addCriteria("获得紫颂果", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:chorus_fruit>)
 
 //Rewards

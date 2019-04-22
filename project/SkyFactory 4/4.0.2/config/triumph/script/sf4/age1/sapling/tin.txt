@@ -9,7 +9,7 @@ addParent("sf4:age1/amber/tin")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Tin Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得锡树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_tin>)
 
 //Rewards

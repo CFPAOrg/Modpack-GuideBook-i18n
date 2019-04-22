@@ -9,7 +9,7 @@ addParent("sf4:age1/sapling/coal")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Iron Amber", "minecraft:inventory_changed")
+criteria = addCriteria("获得铁珀块", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:amber_iron>)
 
 //Rewards

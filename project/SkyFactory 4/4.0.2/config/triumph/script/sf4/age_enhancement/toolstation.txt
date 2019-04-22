@@ -9,7 +9,7 @@ addParent("sf4:age_enhancement/partBuilder")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Tool Station", "minecraft:inventory_changed")
+criteria = addCriteria("获得工具装配台", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables:3>)
 
 setRewardExperience(8)

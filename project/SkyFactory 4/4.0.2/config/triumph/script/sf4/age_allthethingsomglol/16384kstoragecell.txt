@@ -7,7 +7,7 @@ setDescription("获得16384K-ME存储元件")
 addParent("sf4:age_allthethingsomglol/root")
 
 //Criteria
-criteria = addCriteria("Obtain 16384k Storage Cell", "minecraft:inventory_changed")
+criteria = addCriteria("获得16384k存储元件", "minecraft:inventory_changed")
 criteria.addItem(<extracells:storage.physical:3>)
 
 setRewardExperience(12)

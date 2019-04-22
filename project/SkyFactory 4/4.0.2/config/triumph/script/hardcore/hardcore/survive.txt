@@ -7,7 +7,7 @@ setDescription("为了能够瞬间回到你的躯壳，壳体存放仓必须接�
 addParent("hardcore:hardcore/shell_storage")
 setRequiresParents()
 
-criteria = addCriteria("Get killed", "minecraft:entity_killed_player")
+criteria = addCriteria("被杀死", "minecraft:entity_killed_player")
 
 setRewardExperience(4)
 
