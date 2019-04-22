@@ -1,8 +1,8 @@
-setTitle("A Syncing Feeling")
+setTitle("一种 Syncing 的感觉")
 
 setIcon(<sync:item_shell_constructor>)
 
-setDescription("You're playing hardcore, and so dead means dead. But you can still have an extra shot at life. Create your first shell by right clicking your Shell Constructor, it'll only hurt a little!")
+setDescription("你在玩硬核模式诶，死了就真的玩完了。但是也许你还能再来一次。通过右击壳体培育仓创建出一个你的躯壳吧，这只会受到一点点伤害！")
 
 addParent("hardcore:hardcore/root")
 setRequiresParents()

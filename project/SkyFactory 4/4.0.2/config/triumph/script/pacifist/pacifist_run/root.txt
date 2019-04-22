@@ -2,7 +2,7 @@ setTitle("和平的世界")
 
 setIcon(<minecraft:red_flower:8>)
 
-setDescription("This is a world type designed to allow you to play without killing anything. If you kill any mob the advancement page will be removed and you will lose access to all Pacifist Mode recipes")
+setDescription("这是一个设计为不需要杀死任何生物的世界类型。如果你杀死了任何生物，进度页面就会被移除，并且丢失掉所有的和平模式合成表")
 
 setBackground("chisel:textures/blocks/valentines/2.png")
 

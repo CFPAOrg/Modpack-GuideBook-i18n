@@ -2,7 +2,7 @@ setTitle("Shell Script")
 
 setIcon(<statues:blockpigstatue>)
 
-setDescription("Once enough PigWatts have been consumed, your shell will be ready for use. Time to put your body in storage! Walk into the Shell Storage and select your only Shell from the radial menu.")
+setDescription("一旦猪提供了足够多的能量，构建好的躯壳就能用了。接下来就是把你自己暂存到存放仓中！走进壳体存放仓中，然后从环形菜单中选择你的躯壳即可。")
 
 addParent("hardcore:hardcore/shell_constructor")
 setRequiresParents()

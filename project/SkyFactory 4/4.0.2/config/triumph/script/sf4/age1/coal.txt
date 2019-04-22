@@ -1,4 +1,4 @@
-setTitle("COALateral Damage")
+setTitle("煤啥伤害")
 
 setIcon(<minecraft:coal>)
 
