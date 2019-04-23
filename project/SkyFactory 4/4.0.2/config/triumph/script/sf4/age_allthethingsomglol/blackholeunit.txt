@@ -4,7 +4,7 @@ setIcon(<industrialforegoing:black_hole_unit>)
 
 //setDescription("右键打开黑洞存储器将任意物品存进去")
 
-setDescription({"translate":"Fill a Black Hole Unit with any item and '%1$s' it","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"“%1$s”打开黑洞存储器将任意物品存进去","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age_allthethingsomglol/root")
 
@@ -12,7 +12,7 @@ hideLines()
 alwaysVisible()
 
 //Criteria
-criteria = addCriteria("Right Click Filled Black Hole Unit", "triumph:right_click_block")
+criteria = addCriteria("右击黑洞存储器进行装填", "triumph:right_click_block")
 criteria.setBlock(<industrialforegoing:black_hole_unit,tile:{amount:2147483583}>)
 
 //Rewards

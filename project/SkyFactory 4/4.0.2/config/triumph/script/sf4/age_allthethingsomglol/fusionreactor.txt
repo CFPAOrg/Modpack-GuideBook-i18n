@@ -1,8 +1,8 @@
-setTitle("Don't Overreact")
+setTitle("可别反应过度")
 
 setIcon(<matteroverdrive:gravitational_anomaly>)
 
-setDescription("Create a Matter Overdrive Fusion Reactor that produces at least 15,000FE per tick. Open the center block on the bottom of the controller to complete the advancement")
+setDescription("制作一个超能物质的聚变反应堆，达到15,000FE/tick产能。打开底部正中的控制器完成此进度")
 
 addParent("sf4:age_allthethingsomglol/root")
 
@@ -11,7 +11,7 @@ hiddenIf("compactmachines:test/root")
 alwaysVisible()
 
 //Criteria
-criteria = addCriteria("Right Click Fusion Reactor Generating 15k FE/t", "triumph:right_click_block")
+criteria = addCriteria("右击一个产能达15kFE/t聚变反应堆", "triumph:right_click_block")
 criteria.setBlock(<matteroverdrive:fusion_reactor_controller,tile:{EnergyPerTick:15000~}>)
 
 //Rewards

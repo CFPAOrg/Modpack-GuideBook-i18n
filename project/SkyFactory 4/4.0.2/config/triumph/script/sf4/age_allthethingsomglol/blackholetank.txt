@@ -4,7 +4,7 @@ setIcon(<industrialforegoing:black_hole_tank>)
 
 //setDescription("请将任意一种液体装进黑洞储液罐，然后右击打开它的GUI")
 
-setDescription({"translate":"Fill a Black Hole Tank with any Liquid and '%1$s' it","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"请将任意一种液体装进黑洞储液罐，然后“%1$s”打开它的GUI","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age_allthethingsomglol/root")
 
@@ -12,7 +12,7 @@ hideLines()
 alwaysVisible()
 
 //Criteria
-criteria = addCriteria("Right Click Filled Black Hole Tank", "triumph:right_click_block")
+criteria = addCriteria("右击黑洞储液罐进行装填", "triumph:right_click_block")
 criteria.setBlock(<industrialforegoing:black_hole_tank,tile:{fluids:{tanks:[{Amount:2147483000~}]}}>)
 
 //Rewards

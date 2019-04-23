@@ -1,13 +1,13 @@
-setTitle("'Hey Smalls, You want S'more?'")
+setTitle("“嘿，你的饼干夹烤棉花糖”")
 
 setIcon(<nuclearcraft:moresmore>)
 
-setDescription("Craft a MoreS'more DoubleS'mingot")
+setDescription("合成一个四重饼干夹烤棉花糖")
 
 addParent("sf4:age_allthethingsomglol/root")
 
 //Criteria
-criteria = addCriteria("Obtain MoreS'more DoubleS'mingot", "minecraft:inventory_changed")
+criteria = addCriteria("获得四重饼干夹烤棉花糖", "minecraft:inventory_changed")
 criteria.addItem(<nuclearcraft:moresmore>)
 
 //Rewards

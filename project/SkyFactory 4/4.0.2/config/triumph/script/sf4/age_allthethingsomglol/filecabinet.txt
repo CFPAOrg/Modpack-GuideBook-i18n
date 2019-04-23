@@ -2,9 +2,9 @@ setTitle("Going On Your Permanent Record")
 
 setIcon(<realfilingcabinet:emptyfolder>)
 
-//setDescription("Fill any Real File Cabinet with a folder that contains at least 1 million items of any type then Right-Click it")
+//setDescription("往任意真实档案柜中塞入一个填充了至少一百万物品的文件夹，而后右击它")
 
-setDescription({"translate":"Fill any Real File Cabinet with a folder that contains at least 1 million items of any type then '%1$s' it","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"往任意真实档案柜中塞入一个填充了至少一百万物品的文件夹，而后“%1$s”它","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age_allthethingsomglol/root")
 
@@ -12,7 +12,7 @@ hideLines()
 alwaysVisible()
 
 //Criteria
-criteria = addCriteria("Right Click Filing Cabinet with 1 Million Items", "triumph:right_click_block")
+criteria = addCriteria("往任意真实档案柜中塞入一个填充了至少一百万物品的文件夹", "triumph:right_click_block")
 criteria.setBlock(<realfilingcabinet:modelcabinet,tile:{inventory:{Items:[{ForgeCaps:{"realfilingcabinet:folder":{folderSize:1000000L~}}}]}}>)
 
 setRewardExperience(60)

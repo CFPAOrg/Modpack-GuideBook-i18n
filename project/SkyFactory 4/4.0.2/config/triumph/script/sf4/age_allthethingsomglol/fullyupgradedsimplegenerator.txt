@@ -1,10 +1,10 @@
-setTitle("MAXIMUM OVERDRIVE")
+setTitle("究！极！超！频！")
 
 setIcon(<simplegenerators:culinary_upgradable>)
 
 //setDescription("Fill any Upgradeable Simple Generators with 4 stacks of Speed Modifiers")
 
-setDescription({"translate":"Fill any Upgradeable Simple Generator with 4 stacks of Speed Modifiers then '%1$s' it","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"往任意可升级的简易发电机中塞入4组速度升级，然后“%1$s”它","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age_allthethingsomglol/root")
 
@@ -12,7 +12,7 @@ hideLines()
 alwaysVisible()
 
 //Criteria
-criteria = addCriteria("Right Click Simple Gen", "triumph:right_click_block")
+criteria = addCriteria("右击简易发电机", "triumph:right_click_block")
 criteria.setBlock(<tile:{modifiers:{Size:4,Items:[{Slot:0,id:"valkyrielib:modifier_speed",Count:64b,Damage:0s},{Slot:1,id:"valkyrielib:modifier_speed",Count:64b,Damage:0s},{Slot:2,id:"valkyrielib:modifier_speed",Count:64b,Damage:0s},{Slot:3,id:"valkyrielib:modifier_speed",Count:64b,Damage:0s}]}}>)
 
 //Rewards

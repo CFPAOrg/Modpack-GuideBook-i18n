@@ -2,14 +2,14 @@ setTitle("我的甜甜圈！")
 
 setIcon(<extendedcrafting:singularity_custom:3>)
 
-setDescription("获得一个Donut奇点")
+setDescription("获得一个甜甜圈奇点")
 
 addParent("sf4:age_allthethingsomglol/root")
 
 hideLines()
 
 //Criteria
-criteria = addCriteria("获得Donut奇点", "minecraft:inventory_changed")
+criteria = addCriteria("获得甜甜圈奇点", "minecraft:inventory_changed")
 criteria.addItem(<extendedcrafting:singularity_custom:3>)
 
 //Rewards

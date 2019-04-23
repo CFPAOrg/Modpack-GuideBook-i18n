@@ -2,14 +2,14 @@ setTitle("B-Aiken")
 
 setIcon(<extendedcrafting:singularity_custom:2>)
 
-setDescription("获得一个Bacon奇点")
+setDescription("获得一个培根奇点")
 
 addParent("sf4:age_allthethingsomglol/root")
 
 hideLines()
 
 //Criteria
-criteria = addCriteria("获得Bacon奇点", "minecraft:inventory_changed")
+criteria = addCriteria("获得培根奇点", "minecraft:inventory_changed")
 criteria.addItem(<extendedcrafting:singularity_custom:2>)
 
 //Rewards

@@ -1,15 +1,15 @@
-setTitle("Who Stole the Cookies from the Cookie Jar?")
+setTitle("是谁偷了曲奇罐子里面的曲奇？")
 
 setIcon(<bibliocraft:cookiejar>)
 
 //setDescription("Fill a Cookie Jar with Cookies and Right-Click it!")
 
-setDescription({"translate":"Fill a Cookie Jar with Cookies and '%1$s' it!","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"往曲奇罐子里面塞入曲奇，然后“%1$s”它！","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age_allthethingsomglol/root")
 
 //Criteria
-criteria = addCriteria("Right Click Filled Cookie Jar", "triumph:right_click_block")
+criteria = addCriteria("右击填充曲奇罐子", "triumph:right_click_block")
 criteria.setBlock(<bibliocraft:cookiejar, tile:{cookiecount:8,names:["item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie"],Inventory:[{Slot:0b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:1b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:2b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:3b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:4b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:5b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:6b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:7b,id:"minecraft:cookie",Count:64b,Damage:0s}]}>)
 
 //Rewards

@@ -2,7 +2,7 @@ setTitle("Spawntacular")
 
 setIcon(<minecraft:mob_spawner>)
 
-setDescription("Using Sugar and Clocks, upgrade a Spawner to have 0 delay")
+setDescription("使用糖和钟，将刷怪笼升级成0延迟的")
 
 addParent("sf4:age_allthethingsomglol/root")
 

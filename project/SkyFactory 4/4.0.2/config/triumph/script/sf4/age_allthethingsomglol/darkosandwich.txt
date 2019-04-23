@@ -2,12 +2,12 @@ setTitle("DarkToasto")
 
 setIcon(<culinaryconstruct:sandwich, meta:0, count:1, nbt:{Size:5,Saturation:0.8702703f,Ingredients:{Items:[{Slot:0b,id:"xlfoodmod:blt_sandwich",Count:1b,Damage:0s},{Slot:1b,id:"xlfoodmod:cheeseburger",Count:1b,Damage:0s},{Slot:2b,id:"minecraft:golden_apple",Count:1b,Damage:1s},{Slot:3b,id:"xlfoodmod:onion_rings",Count:1b,Damage:0s},{Slot:4b,ForgeCaps:{"astralsorcery:cap_item_amulet_holder":{}},id:"xlfoodmod:coffee",Count:1b,Damage:0s},{Slot:5b,id:"xlfoodmod:corn_bread",Count:1b,Damage:0s}]},Bonus:2,Food:37}>)
 
-setDescription("Create the ultimate sandwich using the Culinary Construct Sandwich Station! Add the ingredients in the exact order as follows! Corn Bread, BLT Sandwich, Cheeseburger, Enchanted Golden Apple, Onion Rings, and Coffee. Enjoy!")
+setDescription("通过 Culinary Construct 模组的食品加工台创造出极致的三明治吧！按照如下顺序添加原料！玉米面包，火腿生菜番茄三明治，芝士汉堡，附魔金苹果，洋葱圈，还有咖啡。多棒啊！")
 
 addParent("sf4:age_allthethingsomglol/root")
 
 //Criteria
-criteria = addCriteria("Obtain Metal Pickaxe Head Cast", "minecraft:inventory_changed")
+criteria = addCriteria("获得镐头铸模", "minecraft:inventory_changed")
 criteria.addItem(<culinaryconstruct:sandwich, meta:0, count:1, nbt:{Size:5,Saturation:0.8702703f,Ingredients:{Items:[{Slot:0b,id:"xlfoodmod:blt_sandwich",Count:1b,Damage:0s},{Slot:1b,id:"xlfoodmod:cheeseburger",Count:1b,Damage:0s},{Slot:2b,id:"minecraft:golden_apple",Count:1b,Damage:1s},{Slot:3b,id:"xlfoodmod:onion_rings",Count:1b,Damage:0s},{Slot:4b,ForgeCaps:{"astralsorcery:cap_item_amulet_holder":{}},id:"xlfoodmod:coffee",Count:1b,Damage:0s},{Slot:5b,id:"xlfoodmod:corn_bread",Count:1b,Damage:0s}]},Bonus:2,Food:37}>)
 
 //Rewards

@@ -1,15 +1,15 @@
-setTitle("Gone Fission")
+setTitle("出来吧！裂变！")
 
 setIcon(<nuclearcraft:depleted_fuel_californium:7>)
 
-setDescription("Build a Nuclearcraft Fission Reactor that produces at least 25,000RF per tick. Open the controller block to finish the advancement")
+setDescription("修建一个核电工艺的裂变反应堆，并至少做到25,000RF/tick产能。打开控制器方块完成此进度")
 
 addParent("sf4:age_allthethingsomglol/root")
 
 hideLines()
 alwaysVisible()
 
-criteria = addCriteria("Right Click Fission Reactor Generating 25k RF/t", "triumph:right_click_block")
+criteria = addCriteria("右击一个达到25kRF/t产能的裂变反应堆控制器", "triumph:right_click_block")
 criteria.setBlock(<nuclearcraft:fission_controller_new_fixed, tile:{processPower:25000~}>)
 
 //Rewards
