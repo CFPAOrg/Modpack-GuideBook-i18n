@@ -1,8 +1,8 @@
-setTitle("你赢了！")
+setTitle("你一定是个究极强迫症")
 
 setIcon(<minecraft:cooked_chicken>)
 
-setDescription("Complete all the advancements on the page. This will award you with 1 prestige point")
+setDescription("完成本页的所有进度，你将获得1点声望作为奖励")
 
 addParent("sf4:age_allthethingsomglol/root")
 addParent("sf4:age_allthethingsomglol/4086kgasstoragecell")
@@ -37,7 +37,7 @@ setRequiresParents()
 setFrameType("challenge")
 
 //Criteria
-criteria = addCriteria("声望模式", "triumph:gamestage")
+criteria = addCriteria("Prestige模式启用", "triumph:gamestage")
 criteria.setStage("parabox")
 
 hiddenUnless("parabox")

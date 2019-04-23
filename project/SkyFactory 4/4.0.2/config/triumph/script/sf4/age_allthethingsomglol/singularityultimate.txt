@@ -1,8 +1,8 @@
-setTitle("Ender Game")
+setTitle("万物归一")
 
 setIcon(<extendedcrafting:singularity_ultimate>)
 
-setDescription("Obtain an Ultimate Singularity")
+setDescription("获得一个终极奇点")
 
 addParent("sf4:age_allthethingsomglol/singularityBacon")
 addParent("sf4:age_allthethingsomglol/singularityDonut")
@@ -10,7 +10,7 @@ addParent("sf4:age_allthethingsomglol/singularityDonut")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Ultimate Singularity", "minecraft:inventory_changed")
+criteria = addCriteria("获得终极奇点", "minecraft:inventory_changed")
 criteria.addItem(<extendedcrafting:singularity_ultimate>)
 
 //Rewards

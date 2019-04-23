@@ -1,15 +1,15 @@
-setTitle("'This Baby Can Fit so Much Matter'")
+setTitle("“这孩子……或许能拿来生产奇点”")
 
 setIcon(<extendedcrafting:compressor>)
 
-setDescription("Craft a Quantum Compressor to create Singularities. Be sure to power it and provide the correct Catalyst")
+setDescription("制作一个量子压缩机来生产奇点，记得给它通上电并放入正确的催化剂")
 
 addParent("sf4:age_allthethingsomglol/root")
 
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Quantum Compressor", "minecraft:inventory_changed")
+criteria = addCriteria("获得量子压缩机, "minecraft:inventory_changed")
 criteria.addItem(<extendedcrafting:compressor>)
 
 setRewardExperience(60)

@@ -1,8 +1,8 @@
-setTitle("SUGAR HIGH")
+setTitle("高血糖")
 
 setIcon(<tp:octuple_compressed_sugar_cane>)
 
-setDescription("Craft an Octuple Compressed Sugar Cane Block. Because it's really important")
+setDescription("制作一个八重压缩甘蔗块，因为它真的很重要")
 
 addParent("sf4:age_allthethingsomglol/root")
 
@@ -10,7 +10,7 @@ hideLines()
 alwaysVisible()
 
 //Criteria
-criteria = addCriteria("Obtain Octuple Compressed Sugar Cane", "minecraft:inventory_changed")
+criteria = addCriteria("获得八重压缩甘蔗块", "minecraft:inventory_changed")
 criteria.addItem(<tp:octuple_compressed_sugar_cane>)
 
 //Rewards

@@ -1,8 +1,8 @@
-setTitle("Go Big or Go Home")
+setTitle("行而上学，不行退学")
 
 setIcon(<nuclearcraft:fusion_electromagnet_idle>)
 
-setDescription("Build a Max Size 24x24x24 Nuclearcraft Fusion Reactor")
+setDescription("建造一个最大的24*24*24的核电工艺聚变反应堆")
 
 addParent("sf4:age_allthethingsomglol/root")
 
@@ -11,7 +11,7 @@ hiddenIf("compactmachines:test/root")
 alwaysVisible()
 
 //Criteria
-criteria = addCriteria("Right Click Max Size Fusion Reactor", "triumph:right_click_block")
+criteria = addCriteria("右键最大的聚变反应堆", "triumph:right_click_block")
 criteria.setBlock(<nuclearcraft:fusion_core, tile:{size:24}>)
 
 //Rewards

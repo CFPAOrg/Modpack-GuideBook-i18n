@@ -1,13 +1,13 @@
-setTitle("I'm Not Lazy, I'm Energy Efficient")
+setTitle("我不是懒，我只是节能")
 
 setIcon(<nuclearcraft:upgrade:1>)
 
-setDescription("Craft a Nuclearcraft Energy Upgrade to decrease energy usage of machines")
+setDescription("制作一个核电工艺的能量升级来减少机器的能耗")
 
 addParent("sf4:age_enhancement/root")
 
 //Criteria
-criteria = addCriteria("Obtain Nuclearcraft Energy Upgrade", "minecraft:inventory_changed")
+criteria = addCriteria("获得能量升级", "minecraft:inventory_changed")
 criteria.addItem(<nuclearcraft:upgrade:1>)
 
 setRewardExperience(60)

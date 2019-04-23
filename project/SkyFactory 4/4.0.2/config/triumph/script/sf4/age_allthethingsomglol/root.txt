@@ -1,8 +1,8 @@
-setTitle("Age of ALLTHETHINGSOMGLOL")
+setTitle("万物纪元")
 
 setIcon(<chisel:futura:3>)
 
-setDescription("Difficult, tedious, and collection advancements for late game")
+setDescription("游戏后期才能做的冗杂而又困难的收集性成就")
 
 setBackground("test:textures/colors/dark_purple.png")
 

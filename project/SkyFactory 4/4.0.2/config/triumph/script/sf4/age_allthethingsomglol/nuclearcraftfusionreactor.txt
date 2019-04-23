@@ -1,15 +1,15 @@
-setTitle("Third Time's the Charm")
+setTitle("事不过三")
 
 setIcon(<nuclearcraft:fusion_core>)
 
-setDescription("Build a Nuclearcraft Fusion Reactor that produces at least 3,333,333RF per tick")
+setDescription("制作一个核电工艺的聚变反应堆，它的产能至少要达到3,333,333RF/t")
 
 addParent("sf4:age_allthethingsomglol/root")
 
 hideLines()
 alwaysVisible()
 
-criteria = addCriteria("Right Click Fusion Reactor Generating 3,333,333 RF/t", "triumph:right_click_block")
+criteria = addCriteria("右键产能高于3,333,333 RF/t的裂变反应堆", "triumph:right_click_block")
 criteria.setBlock(<nuclearcraft:fusion_core, tile:{processPower:3333333.0~}>)
 
 //Rewards

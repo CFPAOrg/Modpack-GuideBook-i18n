@@ -1,8 +1,8 @@
-setTitle("Size Does Matter")
+setTitle("大小不重要")
 
 setIcon(<nuclearcraft:fission_controller_new_fixed>)
 
-setDescription("Build a Max Size 24x24x24 Nuclearcraft Fission Reactor")
+setDescription("制作一个24*24*24的最大的核电工艺裂变反应堆")
 
 addParent("sf4:age_allthethingsomglol/root")
 
@@ -11,7 +11,7 @@ hiddenIf("compactmachines:test/root")
 alwaysVisible()
 
 //Criteria
-criteria = addCriteria("Right Click Max Size Fission Reactor", "triumph:right_click_block")
+criteria = addCriteria("右键最大的裂变反应堆", "triumph:right_click_block")
 criteria.setBlock(<nuclearcraft:fission_controller_new_fixed, tile:{lengthY:26,lengthX:26,lengthZ:26}>)
 
 //Rewards

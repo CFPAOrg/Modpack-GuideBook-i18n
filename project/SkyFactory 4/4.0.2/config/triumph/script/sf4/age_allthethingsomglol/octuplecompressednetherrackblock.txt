@@ -1,8 +1,8 @@
-setTitle("Nether Regions")
+setTitle("那可真是地狱")
 
 setIcon(<tp:octuple_compressed_nether_block>)
 
-setDescription("Craft an Octuple Compressed Netherrack Block because why not?")
+setDescription("制作一个八重压缩地狱岩，因为……为什么不呢？")
 
 addParent("sf4:age_allthethingsomglol/root")
 
@@ -10,7 +10,7 @@ hideLines()
 alwaysVisible()
 
 //Criteria
-criteria = addCriteria("Obtain Octuple Compressed Sugar Cane", "minecraft:inventory_changed")
+criteria = addCriteria("获得八重压缩地狱岩", "minecraft:inventory_changed")
 criteria.addItem(<tp:octuple_compressed_nether_block>)
 
 //Rewards
