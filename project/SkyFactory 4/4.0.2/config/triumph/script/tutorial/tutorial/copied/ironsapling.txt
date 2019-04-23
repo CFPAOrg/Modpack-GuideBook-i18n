@@ -1,8 +1,8 @@
-setTitle("Ironwood")
+setTitle("铁树开花")
 
 setIcon(<sky_orchards:sapling_iron>)
 
-setDescription("Create an Iron Sapling by pouring Molten Iron onto an Acacia Sapling")
+setDescription("将熔融铁浇筑在金合欢树苗上来制作铁树树苗")
 
 addParent("tutorial:tutorial/copied/sandSapling")
 addParent("tutorial:tutorial/copied/gravelSapling")
@@ -12,7 +12,7 @@ addParent("tutorial:tutorial/copied/claySapling")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Iron Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得铁树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_iron>)
 
 //Rewards

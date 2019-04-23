@@ -1,17 +1,17 @@
-setTitle("I Don't Know")
+setTitle("不知道，不清楚，别问我")
 
 setIcon(<tconstruct:slime_sapling>)
 
 //setDescription("Acquire a Blue Slime Sapling by Right-Clicking a Lapis Sapling in a Cauldron filled with Milk")
 
-setDescription({"translate":"Acquire a Blue Slime Sapling by using '%1$s' on a Cauldron filled with Milk while holding a Lapis Sapling","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"拿着青金石树树苗对着装满牛奶的炼药锅“%1$s”即可获得一个蓝色史莱姆树苗","with":[{"keybind":"key.use"}]})
 
 addParent("tutorial:tutorial/copied/claySapling")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Blue Slime Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得蓝色史莱姆树树苗", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:slime_sapling>)
 
 //Rewards

@@ -2,14 +2,14 @@ setTitle("咕嘟，咕嘟")
 
 setIcon(<morecauldrons:oak_cauldron>)
 
-setDescription("Craft any Cauldron to catch rain water, create lava, dye items, and a bunch of other uses!")
+setDescription("制作任何一种炼药锅来收集雨水、制作熔岩、干燥物品和完成许多其他的工作！")
 
 addParent("tutorial:tutorial/copied/cobblestone")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain a Cauldron", "minecraft:inventory_changed")
+criteria = addCriteria("获得一个坩埚", "minecraft:inventory_changed")
 criteria.addItem(<ore:cauldron>)
 
 //Rewards

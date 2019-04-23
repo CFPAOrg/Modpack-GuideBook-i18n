@@ -1,15 +1,15 @@
-setTitle("Don't Sieve on Me")
+setTitle("别筛掉我")
 
 setIcon(<sky_orchards:sapling_gravel>)
 
-setDescription("Craft a Gravel Sapling")
+setDescription("制作一个燧石树树苗")
 
 addParent("tutorial:tutorial/copied/petrifiedSapling")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Gravel Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得沙砾树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_gravel>)
 
 //Rewards

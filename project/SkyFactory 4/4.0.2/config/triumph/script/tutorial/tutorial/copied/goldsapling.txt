@@ -1,15 +1,15 @@
-setTitle("Money Grows on Trees")
+setTitle("摇钱树")
 
 setIcon(<sky_orchards:sapling_gold>)
 
-setDescription("Craft a Gold Sapling")
+setDescription("将熔融金浇筑在橡树树苗上来制作金树树苗（浇筑台上）")
 
 addParent("tutorial:tutorial/copied/ironSapling")
 addParent("tutorial:tutorial/copied/sandSapling")
 
 drawDirectLines(true)
 
-criteria = addCriteria("Obtain Gold Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得金树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_gold>)
 
 setRewardExperience(4)

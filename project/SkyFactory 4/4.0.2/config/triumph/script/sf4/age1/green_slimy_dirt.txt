@@ -2,7 +2,7 @@ setTitle("关于我转生成史莱姆的那些事")
 
 setIcon(<tconstruct:slime_dirt:0>)
 
-setDescription("将史莱姆树苗种在世界上或者盆栽盆里需要史莱姆泥土，所以你需要先制作一个史莱姆泥土")
+setDescription("将史莱姆树苗种在世界上或盆栽盆里（需要史莱姆泥土），所以你需要先制作一个史莱姆泥土")
 
 addParent("sf4:age1/sapling/slime")
 

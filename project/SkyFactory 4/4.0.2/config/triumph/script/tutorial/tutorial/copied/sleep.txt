@@ -1,15 +1,15 @@
-setTitle("Nap Time")
+setTitle("晚安")
 
 setIcon(<minecraft:bed>)
 
-setDescription("Sleep in a bed")
+setDescription("睡个好觉")
 
 addParent("tutorial:tutorial/copied/string")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Slept in a bed", "minecraft:slept_in_bed")
+criteria = addCriteria("右击床", "triumph:right_click_block")
 
 setPos(49,147)
 hideLines()

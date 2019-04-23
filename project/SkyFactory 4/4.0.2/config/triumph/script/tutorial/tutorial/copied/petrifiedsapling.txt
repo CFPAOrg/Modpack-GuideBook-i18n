@@ -1,15 +1,15 @@
-setTitle("Hardwood")
+setTitle("硬木")
 
 setIcon(<sky_orchards:sapling_petrified>)
 
-setDescription("Craft a Petrified Sapling")
+setDescription("制作石化树树苗")
 
 addParent("tutorial:tutorial/petrifiedAcorn")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Petrified Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得石化树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_petrified>)
 
 //Rewards

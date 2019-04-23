@@ -1,26 +1,26 @@
-setTitle("Wishing Well")
+setTitle("许愿池")
 
 setIcon(<minecraft:cauldron>)
 
 //setDescription("Collect Rain Water in a Cauldron and Right-Click on the block when water is visible")
 
-setDescription({"translate":"Collect Rain Water in a Cauldron and '%1$s' on the block when water is visible","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"通过坩埚收集雨水，在水已经清晰可见时用方块“%1$s”它","with":[{"keybind":"key.use"}]})
 
 addParent("tutorial:tutorial/copied/crushingTub")
 addParent("tutorial:tutorial/copied/cauldron")
 setRequirements("any")
 
 //Criteria
-criteria1 = addCriteria("Right Click Cauldron with Water Inside", "triumph:right_click_block")
+criteria1 = addCriteria("右击有水的坩埚", "triumph:right_click_block")
 criteria1.setBlock(<ore:cauldron, meta:1~4, tile:{state:{water:1b}}>)
 
-criteria2 = addCriteria("Right Click Vanilla Cauldron with Water Inside", "triumph:right_click_block")
+criteria2 = addCriteria("右击有水的原版炼药锅", "triumph:right_click_block")
 criteria2.setBlock(<minecraft:cauldron, meta:1~4, tile:{state:{water:1b}}>)
 
-criteria3 = addCriteria("Right Click Boiling Cauldron with Water Inside", "triumph:right_click_block")
+criteria3 = addCriteria("右击沸腾的有水坩埚", "triumph:right_click_block")
 criteria3.setBlock(<ore:cauldron, meta:9~12, tile:{state:{water:1b}}>)
 
-criteria4 = addCriteria("Right Click Boiling Vanilla Cauldron with Water Inside", "triumph:right_click_block")
+criteria4 = addCriteria("右击沸腾的有水原版坩埚", "triumph:right_click_block")
 criteria4.setBlock(<minecraft:cauldron, meta:9~12, tile:{state:{water:1b}}>)
 
 //Rewards

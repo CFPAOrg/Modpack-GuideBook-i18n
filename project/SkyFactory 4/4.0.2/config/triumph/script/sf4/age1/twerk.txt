@@ -4,7 +4,7 @@ setIcon(<pickletweaks:ppm4:1>)
 
 //setDescription("收集8个泥土树树苗和8个橡木，通过在树苗附近快速按下shift或跑动来增快树苗生长速度，成功时你会看见绿色的粒子效果")
 
-setDescription({"translate":"Collect 8 Dirt Saplings and 8 Oak Logs. Increase the speed of tree growth by rapidly pushing '%2$s' near a sapling or by running. You'll notice green particles when activated","with":[{"keybind":"key.use"}, {"keybind":"key.sneak"}]})
+setDescription({"translate":"收集8个泥土树树苗和8个橡木，通过在树苗附近快速按下“%2$s”或跑动来增快树苗生长速度，成功时你会看见绿色的粒子效果","with":[{"keybind":"key.use"}, {"keybind":"key.sneak"}]})
 
 addParent("sf4:age1/root")
 

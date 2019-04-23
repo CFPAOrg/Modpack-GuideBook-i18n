@@ -1,8 +1,8 @@
-setTitle("Water You Waiting For?")
+setTitle("你在等什么？")
 
-setIcon(<ceramics:clay_bucket,meta:0,count:1,nbt:{fluids:{FluidName:"water",Amount:1000}}>)
+setIcon(<nuclearcraft:fluid_preheated_water>)
 
-setDescription("Collect Rain Water in a Cauldron or by jumping on a Sapling in a Crushing Tub. Collect it using a Clay Bucket or Iron Bucket")
+setDescription("用炼药锅收集雨水或者将树苗放在压榨木盆中然后在其上方跳动来榨水。用粘土桶或普通的桶来收集它")
 
 addParent("tutorial:tutorial/copied/crushingTub")
 addParent("tutorial:tutorial/copied/cauldron")
@@ -10,10 +10,10 @@ addParent("tutorial:tutorial/copied/cauldron")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Water in a Clay Bucket", "minecraft:inventory_changed")
+criteria = addCriteria("获得粘土水桶", "minecraft:inventory_changed")
 criteria.addItem(<ceramics:clay_bucket,meta:0,count:1,nbt:{fluids:{FluidName:"water",Amount:1000}}>)
 
-criteria1 = addCriteria("Obtain Water in an Iron Bucket", "minecraft:inventory_changed")
+criteria1 = addCriteria("获得水桶", "minecraft:inventory_changed")
 criteria1.addItem(<minecraft:water_bucket>)
 
 setRequirements("any")

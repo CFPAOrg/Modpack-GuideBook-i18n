@@ -1,15 +1,15 @@
-setTitle("I've Been Slimed")
+setTitle("关于我转生成史莱姆的那些事")
 
 setIcon(<tconstruct:slime_dirt:0>)
 
-setDescription("Planting Slime Saplings in the world or in a Bonsai Pot requires Slimy Dirt. Craft Green Slimy Dirt to get started!")
+setDescription("将史莱姆树苗种在世界上或盆栽盆里（需要史莱姆泥土），所以你需要先制作一个史莱姆泥土")
 
 addParent("tutorial:tutorial/copied/claySapling")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Green Slime Dirt", "minecraft:inventory_changed")
+criteria = addCriteria("获得绿色史莱姆泥土", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:slime_dirt:0>)
 
 //Rewards

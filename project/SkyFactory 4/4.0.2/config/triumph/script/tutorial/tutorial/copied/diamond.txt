@@ -1,14 +1,14 @@
-setTitle("Trees to Diamonds")
+setTitle("钻石之树")
 
 setIcon(<minecraft:diamond>)
 
-setDescription("Obtain a Diamond!")
+setDescription("获取一颗钻石！")
 
 addParent("tutorial:tutorial/copied/diamondSapling")
 
 drawDirectLines(true)
 
-criteria = addCriteria("Obtain Diamond", "minecraft:inventory_changed")
+criteria = addCriteria("获得钻石", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:diamond>)
 
 setRewardExperience(6)

@@ -1,15 +1,15 @@
-setTitle("I Love Lucy")
+setTitle("我爱露西")
 
 setIcon(<rustic:crushing_tub>)
 
-setDescription("Craft a Rustic Crushing Tub")
+setDescription("制作一个乡村模组的压榨木盆")
 
 addParent("tutorial:tutorial/root")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Crushing Tub", "minecraft:inventory_changed")
+criteria = addCriteria("获得压榨木盆", "minecraft:inventory_changed")
 criteria.addItem(<rustic:crushing_tub>)
 
 //Rewards

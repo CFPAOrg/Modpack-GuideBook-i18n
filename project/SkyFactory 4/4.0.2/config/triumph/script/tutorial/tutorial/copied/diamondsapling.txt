@@ -1,15 +1,15 @@
-setTitle("This Tree is Forever")
+setTitle("钻石恒久远")
 
 setIcon(<sky_orchards:sapling_diamond>)
 
-setDescription("Craft a Diamond Sapling")
+setDescription("制作一个钻石树树苗")
 
 addParent("tutorial:tutorial/copied/goldSapling")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Diamond Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得钻石树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_diamond>)
 
 //Rewards

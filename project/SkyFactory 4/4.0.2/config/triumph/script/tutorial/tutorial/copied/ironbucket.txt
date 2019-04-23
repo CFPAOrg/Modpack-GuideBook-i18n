@@ -1,15 +1,15 @@
-setTitle("Not a Helmet")
+setTitle("它不是头盔！")
 
 setIcon(<minecraft:bucket>)
 
-setDescription("Craft an Iron Bucket")
+setDescription("制作一个铁桶")
 
 addParent("tutorial:tutorial/copied/ironIngot")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Iron Bucket", "minecraft:inventory_changed")
+criteria = addCriteria("获得铁桶", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:bucket>)
 
 //Rewards

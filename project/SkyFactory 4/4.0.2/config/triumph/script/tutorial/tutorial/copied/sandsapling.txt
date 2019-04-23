@@ -1,15 +1,15 @@
-setTitle("Palm Trees")
+setTitle("棕榈树")
 
 setIcon(<sky_orchards:sapling_sand>)
 
-setDescription("Craft a Sand Sapling")
+setDescription("制作一个沙树树苗")
 
 addParent("tutorial:tutorial/copied/petrifiedSapling")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Sand Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("获得沙树树苗", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_sand>)
 
 //Rewards

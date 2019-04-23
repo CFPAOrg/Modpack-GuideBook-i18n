@@ -1,15 +1,15 @@
-setTitle("Oh, the Irony")
+setTitle("哦，那可真讽刺")
 
 setIcon(<minecraft:iron_ingot>)
 
-setDescription("Obtain an Iron Ingot")
+setDescription("获取一个铁锭")
 
 addParent("tutorial:tutorial/copied/ironSapling")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Iron Ingot", "minecraft:inventory_changed")
+criteria = addCriteria("获得铁锭", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:iron_ingot>)
 
 //Rewards

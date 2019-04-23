@@ -1,15 +1,15 @@
-setTitle("On the Rocks")
+setTitle("岩石之上")
 
 setIcon(<minecraft:cobblestone>)
 
-setDescription("Craft a Cobblestone block using petrified Acorns and Resin or using any other method")
+setDescription("用石化树橡子和树脂制作一个原石，或用其他方式制作它")
 
 addParent("tutorial:tutorial/copied/petrifiedSapling")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Cobblestone Block", "minecraft:inventory_changed")
+criteria = addCriteria("获得圆石", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:cobblestone>)
 
 //Rewards

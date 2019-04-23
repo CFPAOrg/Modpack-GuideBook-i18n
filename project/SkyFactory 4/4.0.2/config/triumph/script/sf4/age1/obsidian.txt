@@ -4,7 +4,7 @@ setIcon(<minecraft:obsidian>)
 
 //setDescription("拿着水桶右键一个装有熔岩的炼药锅来获取黑曜石")
 
-setDescription({"translate":"'%1$s' a Lava filled Cauldron with a Water Bucket to make Obsidian  ","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"拿着水桶“%1$s”一个装有熔岩的炼药锅来获取黑曜石","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age1/lava")
 

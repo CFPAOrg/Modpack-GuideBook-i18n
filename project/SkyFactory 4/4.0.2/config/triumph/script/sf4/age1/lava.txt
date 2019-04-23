@@ -4,7 +4,7 @@ setIcon(<minecraft:lava_bucket>)
 
 //setDescription("用原石对着炼药锅右键来产熔岩，然后用粘土桶或者正常的桶来收集它。为了熔化原石，炼药锅下方需要有热源，它可以是火把、火焰、岩浆块或者直接放熔岩也可以")
 
-setDescription({"translate":"Create Lava by using '%1$s' on a Cauldron while holding Cobble. Collect it in a Clay or Regular bucket. To melt Cobblestone, you need to have a torch, fire, magma block, or lava directly under the Cauldron","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"用原石对着炼药锅“%1$s”来产熔岩，然后用粘土桶或者正常的桶来收集它。为了熔化原石，炼药锅下方需要有热源，它可以是火把、火焰、岩浆块或者直接放熔岩也可以","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age1/cobblestone")
 
