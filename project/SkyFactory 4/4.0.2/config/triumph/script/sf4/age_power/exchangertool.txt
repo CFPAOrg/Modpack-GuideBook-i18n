@@ -4,7 +4,7 @@ setIcon(<buildinggadgets:exchangertool>)
 
 //setDescription("The Exchanger Tool will allow you to easily swap out blocks")
 
-setDescription({"translate":"更替小帮手可以帮你轻松替换已经放置的方块，你可以用'%1$s'键来更改模式","with":[{"keybind":"key.modeSwitch"}]})
+setDescription({"translate":"更替小帮手可以帮你轻松替换已经放置的方块，你可以用'%1$s'键来更改模式","with":[{"keybind":"key.settings_menu"}]})
 
 addParent("sf4:age_power/root")
 
