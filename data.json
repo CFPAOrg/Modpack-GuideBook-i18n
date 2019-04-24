@@ -741,18 +741,18 @@
         "version": "4.0.2",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.2-windows.zip",
-          "md5": "ca9fc58719e1c2041c91bec8e2cc69a7",
-          "sha1": "1faac7070079b569b9dfcbaa2f19fca77217a64c"
+          "md5": "282a7637ad44c0af7b804804dd1ce193",
+          "sha1": "79c9919a84852a41e1dd258061cd095fad4c116a"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.2-linux.zip",
-          "md5": "ca9fc58719e1c2041c91bec8e2cc69a7",
-          "sha1": "1faac7070079b569b9dfcbaa2f19fca77217a64c"
+          "md5": "282a7637ad44c0af7b804804dd1ce193",
+          "sha1": "79c9919a84852a41e1dd258061cd095fad4c116a"
         },
         "author": [
           "TartaricAcid"
         ],
-        "time": 1555762014
+        "time": 1555934153
       }
     ]
   },
