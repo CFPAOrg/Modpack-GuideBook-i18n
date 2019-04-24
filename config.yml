@@ -7,6 +7,7 @@
 file_rgx:
  - "config/SimpleAchievements/achievementList\\.txt"
  - "SevTech Ages/.*?config/triumph/.*?\\.txt"
+ - "config/prestige/rewards\\.json"
 
 # data.json 文件的路径
 data_json_path: "./data.json"

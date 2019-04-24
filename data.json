@@ -741,8 +741,8 @@
         "version": "4.0.2",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.2-windows.zip",
-          "md5": "dae2c4f192808a7f4bcd17b9e7304035",
-          "sha1": "d5001d1788435794dc95c33eecbbbdc221045180"
+          "md5": "9b9b71fd78e862c874e5f25747ef13ad",
+          "sha1": "57f5de277c7f7c10506015ac71f6ea6161849455"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.2-linux.zip",
