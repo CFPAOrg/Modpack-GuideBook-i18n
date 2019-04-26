@@ -1,0 +1,9 @@
+mpa notify @p open_prestige
+
+tellraw @p {"text":"FirstNecron is smelly. 我需要更多的文字来填充空间。","obfuscated":true}
+
+tellraw @p {"text":"声望模式已经启用！按下 'P' 键来查看当前可用的奖励。","color":"yellow"}
+tellraw @p {"text":"单人模式下，声望系统和解锁系统是全局性的。","color":"aqua"}
+tellraw @p {"text":"多人模式下声望系统和解锁系统仅局限于服务端。","color":"gold"}
+
+tellraw @p {"text":"嘿，小伙子，如果你正在阅读这个…… GET OUTTA MAH CONFIGS...","obfuscated":true}
