@@ -168,9 +168,9 @@ if __name__ == '__main__':
             # 调用 shell 指令打包
             # https://stackoverflow.com/questions/19523063/zip-utility-giving-me-different-md5sum-every-time-in-linux
             # 记得使用 -X 指令
-            cmd_win = str.format('cd "{}/{}/{}" && zip -X -t 1970-01-01 -r -9 "{}/{}" ./*',
+            cmd_win = str.format('cd "{}/{}/{}" && zip -X -t 1970-01-01 -r -9 -q "{}/{}" ./*',
                                  TMP_WIN_PATH, modpack, version, TMP_ZIP_PATH, win_file)
-            cmd_linux = str.format('cd "{}/{}/{}" && zip -X -t 1970-01-01 -r -9 "{}/{}" ./*',
+            cmd_linux = str.format('cd "{}/{}/{}" && zip -X -t 1970-01-01 -r -9 -q "{}/{}" ./*',
                                    TMP_LINUX_PATH, modpack, version, TMP_ZIP_PATH, linux_file)
             os.system(cmd_win)
             os.system(cmd_linux)
