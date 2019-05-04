@@ -1,0 +1,44 @@
+contenttweaker.part.enriched_egg=%s富集蛋
+
+tile.contenttweaker.portalBlockt.name=主世界传送门方块
+tile.contenttweaker.portalBlockUnt.name=下界传送门方块
+
+#tile.contenttweaker.destabilized_well.name=Destabilized Well
+#tile.contenttweaker.energized_well.name=Energized Well
+
+#item.contenttweaker.overworldessencel.name=Overworld Essence (Day)
+#item.contenttweaker.overworldessencer.name=Overworld Essence (Night)
+item.contenttweaker.skystoneLense.name=陨石透镜
+item.contenttweaker.infinityegg.name=无尽鸡蛋
+#item.contenttweaker.tekmenu.name=Tek's Abomination by TeknoAXE
+item.contenttweaker.smallgearextrudershape.name=模头（小型齿轮）
+
+fluid.molten_sand=熔融沙子
+fluid.diluted_sulfuric_acid=稀硫酸
+fluid.hydrogen_sulfide=硫化氢
+fluid.polyethylene=聚乙烯
+fluid.polytetrafluoroethylene=聚四氟乙烯（特氟龙）
+fluid.sulfuric_diesel=含硫柴油
+fluid.sulfuric_gasoline=含硫汽油
+fluid.sulfuric_kerosene=含硫煤油
+fluid.sulfuric_lpg=含硫液化石油气
+fluid.sulfuric_naphtha=含硫石脑油
+fluid.tolulene=甲苯
+
+entity.apatitechicken.name=磷灰石鸡
+entity.bentonitechicken.name=膨润土鸡
+entity.glauconitechicken.name=海绿石鸡
+entity.graphitechicken.name=石墨鸡
+entity.grossularchicken.name=钙铝榴石鸡
+entity.magnesiumchicken.name=镁鸡
+entity.manganesechicken.name=锰鸡
+entity.monazitechicken.name=独居石鸡
+entity.phosphorchicken.name=磷酸钙鸡
+entity.soapstonechicken.name=皂石鸡
+entity.spessartinechicken.name=锰铝榴石
+entity.stibnitechicken.name=辉锑矿鸡
+entity.tantalumchicken.name=钽鸡
+entity.vanadiumchicken.name=钒鸡
+entity.niobiumchicken.name=铌鸡
+entity.infinitychicken.name=无尽鸡
+entity.ftbchicken.name=FTB鸡
