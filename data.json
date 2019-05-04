@@ -140,6 +140,40 @@
           "xinyuan-liu"
         ],
         "time": 1556862221
+      },
+      {
+        "version": "1.4.2",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.4.2-windows.zip",
+          "md5": "39fd33e4a5f36c47f437e7f3fe335090",
+          "sha1": "7b34b37c7d7fd54c9c323ee4b088a58f457fe03d"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.4.2-linux.zip",
+          "md5": "39fd33e4a5f36c47f437e7f3fe335090",
+          "sha1": "7b34b37c7d7fd54c9c323ee4b088a58f457fe03d"
+        },
+        "author": [
+          "TartaricAcid"
+        ],
+        "time": 1556944753
+      },
+      {
+        "version": "1.5.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.5.0-windows.zip",
+          "md5": "5a41379ab79836d43955ffeeb844b7ba",
+          "sha1": "0e363de07be6c20443e1de1e7f14e6f5efbf4296"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.5.0-linux.zip",
+          "md5": "5a41379ab79836d43955ffeeb844b7ba",
+          "sha1": "0e363de07be6c20443e1de1e7f14e6f5efbf4296"
+        },
+        "author": [
+          "TartaricAcid"
+        ],
+        "time": 1556944753
       }
     ]
   },
