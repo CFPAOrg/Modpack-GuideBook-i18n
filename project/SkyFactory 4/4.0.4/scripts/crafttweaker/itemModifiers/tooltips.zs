@@ -651,14 +651,15 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<resourcehogs:bacon>.withTag({ResourceType: "missing"}): [
 		format.yellow("嘿，别作弊哦！ >.<")
+    ],
 	<cyclicmagic:glowing_chorus>: [
-		format.yellow("Drink Milk to remove flight")
+		format.yellow("喝下牛奶移除飞行效果")
 	],
 	<xlfoodmod:nether_cake>: [
-		format.yellow("This is NOT a portal to another dimension"),
-		format.yellow("Your cake is in another castle"),
-		format.red("This. Is. Food."),
-		format.yellow("This is not a lie.")				
+		format.yellow("这并非是通往另一个维度的传送门"),
+		format.yellow("你的蛋糕在另一个城堡中"),
+		format.red("这东西就是食物！"),
+		format.yellow("它不是谎言！")
 	],
 };
 
