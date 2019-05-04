@@ -1,6 +1,6 @@
 {
     "registryname": "photonuclear_fission_chamber",
-    "localizedname": "\u5149\u6838\u88c2\u53d8\u53cd\u5e94\u5806",
+    "localizedname": "Photonuclear Fission Chamber",
 	"requires-blueprint": true,
     "color": "915E87",
     "parts": [

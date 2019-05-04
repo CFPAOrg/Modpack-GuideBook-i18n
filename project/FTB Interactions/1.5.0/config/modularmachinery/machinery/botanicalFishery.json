@@ -1,6 +1,6 @@
 {
     "registryname": "botanical_fishery",
-    "localizedname": "\u690d\u7269\u5b66\u6e14\u573a",
+    "localizedname": "Botanical Fishery",
 	"requires-blueprint": true,
     "color": "cccccc",
     "parts": [

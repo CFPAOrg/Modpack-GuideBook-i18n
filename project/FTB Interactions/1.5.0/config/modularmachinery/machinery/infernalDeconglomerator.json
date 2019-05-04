@@ -1,6 +1,6 @@
 {
     "registryname": "infernal_deconglomerator",
-    "localizedname": "\u70bc\u72f1\u79bb\u5fc3\u673a",
+    "localizedname": "Infernal Deconglomerator",
 	"requires-blueprint": true,
     "color": "333333",
     "parts": [

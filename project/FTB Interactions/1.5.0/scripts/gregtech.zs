@@ -52,6 +52,20 @@ recipes.addShaped(<gregtech:meta_tool:7>.withTag({"GT.ToolStats": {PrimaryMateri
 mods.jei.JEI.addItem(<gregtech:meta_tool:7>.withTag({"GT.ToolStats": {PrimaryMaterial: "rubber", MaxDurability: 256, DigSpeed: 4.0 as float, AttackDamage: 1.0 as float, HarvestLevel: 1}}));
 	
 
+	#Beacon Pulverization Nerf
+macerator.findRecipe(8, 
+	[<minecraft:beacon>],
+	[null])
+	.remove();
+
+macerator.recipeBuilder()
+	.inputs(<minecraft:beacon>)
+	.outputs(<ore:dustGlass>.firstItem * 5)
+	.chancedOutput(<ore:powderMana>.firstItem * 4, 10000)
+	.chancedOutput(<ore:dustDiamond>.firstItem * 4, 10000)
+	.duration(30)
+	.EUt(7)
+	.buildAndRegister();
 
 	#Lutetium in Thermal Centrifurge
 thermalCent.findRecipe(60, 
@@ -103,7 +117,6 @@ recipes.addShaped(<ore:craftingDiamondBlade>.firstItem, [
 
 	#salt water
 mixer.findRecipe(8, [<ore:itemSalt>.firstItem], [<liquid:water> * 1000]).remove();	
-
 chemReactor.findRecipe(30, [<ore:dustNetherQuartz>.firstItem*3, <ore:dustSodium>.firstItem], [<liquid:water> * 1000]).remove();	
 
 	#Salt water
@@ -340,14 +353,14 @@ assembler.recipeBuilder()
 		.EUt(8)
 		.buildAndRegister();
 
-	assembler.recipeBuilder()
+assembler.recipeBuilder()
 		.inputs(<gregtech:boiler_firebox_casing:1>, <ore:plateTitanium> *2)
 		.outputs(<gregtech:boiler_firebox_casing:2>)
 		.duration(50)
 		.EUt(8)
 		.buildAndRegister();
 
-	assembler.recipeBuilder()
+assembler.recipeBuilder()
 		.inputs(<gregtech:boiler_casing:1>, <ore:plateTitanium> *5)
 		.outputs(<gregtech:boiler_casing:2>)
 		.duration(50)
@@ -535,7 +548,7 @@ furnace.addRecipe(<gregtech:mineral>, <gregtech:mineral:4>);
 	#Pump - LV
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleTin>, <ore:ringPaper> * 2, <ore:pipeMediumBronze>, <metaitem:electric.motor.lv>])
-	.fluidInputs([<liquid:tin> * 628])
+	.fluidInputs([<liquid:tin> * 648])
 	.outputs(<metaitem:electric.pump.lv>)
 	.EUt(15)
 	.duration(1200)
@@ -543,7 +556,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleTin>, <ore:ringRubber> * 2, <ore:pipeMediumBronze>, motorLV])
-	.fluidInputs([<liquid:tin> * 628])
+	.fluidInputs([<liquid:tin> * 648])
 	.outputs(pumpLV)
 	.EUt(15)
 	.duration(600)
@@ -551,7 +564,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleTin>, <ore:ringStyreneButadieneRubber> * 2, <ore:pipeMediumBronze>, motorLV])
-	.fluidInputs([<liquid:tin> * 628])
+	.fluidInputs([<liquid:tin> * 648])
 	.outputs(pumpLV)
 	.EUt(15)
 	.duration(300)
@@ -560,7 +573,7 @@ assembler.recipeBuilder()
 	#Pump - MV
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleCopper>, <ore:ringRubber> * 2, <ore:pipeMediumSteel>, <metaitem:electric.motor.mv>])
-	.fluidInputs([<liquid:bronze> * 628])
+	.fluidInputs([<liquid:bronze> * 648])
 	.outputs(pumpMV)
 	.EUt(60)
 	.duration(1200)
@@ -568,7 +581,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleCopper>, <ore:ringStyreneButadieneRubber> * 2, <ore:pipeMediumSteel>, motorMV])
-	.fluidInputs([<liquid:bronze> * 628])
+	.fluidInputs([<liquid:bronze> * 648])
 	.outputs(pumpMV)
 	.EUt(60)
 	.duration(600)
@@ -576,7 +589,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleCopper>, <ore:ringSiliconRubber> * 2, <ore:pipeMediumSteel>, motorMV])
-	.fluidInputs([<liquid:bronze> * 628])
+	.fluidInputs([<liquid:bronze> * 648])
 	.outputs(pumpMV)
 	.EUt(60)
 	.duration(300)
@@ -585,7 +598,7 @@ assembler.recipeBuilder()
 	#Pump - HV
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleGold>, <ore:ringRubber> * 2, <ore:pipeMediumStainlessSteel>, motorHV])
-	.fluidInputs([<liquid:bronze> * 628])
+	.fluidInputs([<liquid:bronze> * 648])
 	.outputs(pumpHV)
 	.EUt(240)
 	.duration(1200)
@@ -593,7 +606,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleGold>, <ore:ringStyreneButadieneRubber> * 2, <ore:pipeMediumStainlessSteel>, motorHV])
-	.fluidInputs([<liquid:bronze> * 628])
+	.fluidInputs([<liquid:bronze> * 648])
 	.outputs(pumpHV)
 	.EUt(240)
 	.duration(600)
@@ -601,7 +614,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleGold>, <ore:ringSiliconRubber> * 2, <ore:pipeMediumStainlessSteel>, motorHV])
-	.fluidInputs([<liquid:bronze> * 628])
+	.fluidInputs([<liquid:bronze> * 648])
 	.outputs(pumpHV)
 	.EUt(240)
 	.duration(300)
@@ -610,7 +623,7 @@ assembler.recipeBuilder()
 	#Pump - EV
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleAluminium>, <ore:ringRubber> * 2, <ore:pipeMediumTitanium>, motorEV])
-	.fluidInputs([<liquid:stainless_steel> * 628])
+	.fluidInputs([<liquid:stainless_steel> * 648])
 	.outputs(pumpEV)
 	.EUt(960)
 	.duration(1200)
@@ -618,7 +631,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleAluminium>, <ore:ringStyreneButadieneRubber> * 2, <ore:pipeMediumTitanium>, motorEV])
-	.fluidInputs([<liquid:stainless_steel> * 628])
+	.fluidInputs([<liquid:stainless_steel> * 648])
 	.outputs(pumpEV)
 	.EUt(960)
 	.duration(600)
@@ -626,7 +639,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleAluminium>, <ore:ringSiliconRubber> * 2, <ore:pipeMediumTitanium>, motorEV])
-	.fluidInputs([<liquid:stainless_steel> * 628])
+	.fluidInputs([<liquid:stainless_steel> * 648])
 	.outputs(pumpEV)
 	.EUt(960)
 	.duration(300)
@@ -635,7 +648,7 @@ assembler.recipeBuilder()
 	#Pump - IV
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleTungsten>, <ore:ringRubber> * 2, <ore:pipeMediumTungstenSteel>, motorIV])
-	.fluidInputs([<liquid:tungsten_steel> * 628])
+	.fluidInputs([<liquid:tungsten_steel> * 648])
 	.outputs(pumpIV)
 	.EUt(3840)
 	.duration(1200)
@@ -643,7 +656,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleTungsten>, <ore:ringStyreneButadieneRubber> * 2, <ore:pipeMediumTungstenSteel>, motorIV])
-	.fluidInputs([<liquid:tungsten_steel> * 628])
+	.fluidInputs([<liquid:tungsten_steel> * 648])
 	.outputs(pumpIV)
 	.EUt(3840)
 	.duration(600)
@@ -651,7 +664,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleTungsten>, <ore:ringSiliconRubber> * 2, <ore:pipeMediumTungstenSteel>, motorIV])
-	.fluidInputs([<liquid:tungsten_steel> * 628])
+	.fluidInputs([<liquid:tungsten_steel> * 648])
 	.outputs(pumpIV)
 	.EUt(3840)
 	.duration(300)
@@ -1005,7 +1018,7 @@ mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier").recipeBuilder()
 	.fluidInputs([<liquid:brine> * 144])
 	.notConsumable(<metaitem:shape.mold.ball>)
 	.outputs(<ore:dustSalt>.firstItem)
-    .duration(600)
+    .duration(60)
     .EUt(16)
     .buildAndRegister();
 	
@@ -1257,6 +1270,9 @@ var gtFurnaceRemovals as string[][IIngredient] = {
 	<ore:gemSodalite> : ["Sodalite"],
 	<ore:gemTerraInfused> : ["TerraInfused"],
 	<ore:gemGreenSapphire> : ["GreenSapphire"],
+	<ore:gemGarnetRed> : ["GarnetRed"],
+	<ore:gemTopaz> : ["Topaz"],
+	<ore:gemJasper> : ["Jasper"]
 };
 
 for furnaceOutput, furnaceInputs in gtFurnaceRemovals {
@@ -1320,7 +1336,7 @@ var carpetCableFixSingle as IOreDictEntry[IOreDictEntry] = {
 		<ore:wireGtSingleCobalt> : <ore:cableGtSingleCobalt>,
 		<ore:wireGtSingleSolderingAlloy> : <ore:cableGtSingleSolderingAlloy>,
 		<ore:wireGtSingleZinc> : <ore:cableGtSingleZinc>,
-		<ore:cableGtSingleLead> : <ore:wireGtSingleLead>
+		<ore:wireGtSingleLead> : <ore:cableGtSingleLead>
 		};
 for input, output in carpetCableFixSingle {
 	assembler.recipeBuilder()
@@ -1339,7 +1355,7 @@ var carpetCableFixDouble as IOreDictEntry[IOreDictEntry] = {
 		<ore:wireGtDoubleCobalt> : <ore:cableGtDoubleCobalt>,
 		<ore:wireGtDoubleSolderingAlloy> : <ore:cableGtDoubleSolderingAlloy>,
 		<ore:wireGtDoubleZinc> : <ore:cableGtDoubleZinc>,
-		 <ore:wireGtDoubleLead> : <ore:cableGtDoubleLead>
+		<ore:wireGtDoubleLead> : <ore:cableGtDoubleLead>
 	};
 for input, output in carpetCableFixDouble {
 	assembler.recipeBuilder()
@@ -1358,7 +1374,7 @@ var carpetCableFixQuadruple as IOreDictEntry[IOreDictEntry] = {
 		<ore:wireGtQuadrupleCobalt> : <ore:cableGtQuadrupleCobalt>,
 		<ore:wireGtQuadrupleSolderingAlloy> : <ore:cableGtQuadrupleSolderingAlloy>,
 		<ore:wireGtQuadrupleZinc> : <ore:cableGtQuadrupleZinc>,
-		<ore:cableGtQuadrupleLead> : <ore:wireGtQuadrupleLead>
+		<ore:wireGtQuadrupleLead> : <ore:cableGtQuadrupleLead>
 };
 for input, output in carpetCableFixQuadruple {
 	assembler.recipeBuilder()
@@ -1377,7 +1393,7 @@ var carpetCableFixOctal as IOreDictEntry[IOreDictEntry] = {
 		<ore:wireGtOctalCobalt> : <ore:cableGtOctalCobalt>,
 		<ore:wireGtOctalSolderingAlloy> : <ore:cableGtOctalSolderingAlloy>,
 		<ore:wireGtOctalZinc> : <ore:cableGtOctalZinc>,
-		<ore:cableGtOctalLead> : <ore:wireGtOctalLead>
+		<ore:wireGtOctalLead> : <ore:cableGtOctalLead>
 };
 for input, output in carpetCableFixOctal {
 	assembler.recipeBuilder()
@@ -1396,7 +1412,7 @@ var carpetCableFixHex as IOreDictEntry[IOreDictEntry] = {
 		<ore:wireGtHexCobalt> : <ore:cableGtHexCobalt>,
 		<ore:wireGtHexSolderingAlloy> : <ore:cableGtHexSolderingAlloy>,
 		<ore:wireGtHexZinc> : <ore:cableGtHexZinc>,
-		<ore:cableGtHexLead> : <ore:wireGtHexLead>
+		<ore:wireGtHexLead> : <ore:cableGtHexLead>
 };
 for input, output in carpetCableFixHex {
 	assembler.recipeBuilder()
@@ -1435,24 +1451,6 @@ assembler.recipeBuilder()
     .duration(120)
     .EUt(480)
     .buildAndRegister();
-
-#mekanism hydrogen and oxygen
-chemReactor.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
-	.fluidInputs([<liquid:oxygen> * 1000])
-	.fluidOutputs([<liquid:liquidoxygen> * 1000])
-    .duration(20)
-    .EUt(28)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
-	.fluidInputs([<liquid:hydrogen> * 1000])
-	.fluidOutputs([<liquid:liquidhydrogen> * 1000])
-    .duration(20)
-    .EUt(28)
-    .buildAndRegister();
-
 
 #Iron rod crafted
 recipes.remove(<ore:stickIron>.firstItem);

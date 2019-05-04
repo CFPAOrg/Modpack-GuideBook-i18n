@@ -23,7 +23,7 @@ val blast_furnace = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
 val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
 val solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
 
-<tconstruct:ingots:1>.addTooltip(format.darkRed("Can be made in the Primitive Blast Furnace"));
+<tconstruct:ingots:1>.addTooltip(format.darkRed("Can be made in a primitive blast furnace"));
 
 	#creative modifier
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tinkers:creative", "", 100, [<aspect:aer> * 25, <aspect:terra> *25, <aspect:ignis> *25, <aspect:aqua> *25, <aspect:ordo> *25, <aspect:perditio> *25], <tconstruct:materials:50>,
@@ -36,7 +36,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tinkers:creative", "", 100
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:glass_pane>);
 mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_pane>, null, <liquid:glass>, 54);
 mods.tconstruct.Casting.removeBasinRecipe(<tconstruct:clear_glass>);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:clear_glass>, null, <liquid:glass>, 144);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:clear_glass>, null, <liquid:glass>, 144);
 mods.tconstruct.Melting.removeRecipe(<liquid:glass>);
 mods.tconstruct.Melting.addRecipe(<liquid:glass> * 144, <ore:blockGlass>);
 mods.tconstruct.Melting.addRecipe(<liquid:glass> * 144, <ore:sand>);

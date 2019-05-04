@@ -69,8 +69,12 @@ recipes.remove(<harvestcraft:doughitem>);
 mods.primaltech.WoodenBasin.addRecipe(<harvestcraft:doughitem> * 4, 
 	<liquid:water>, [<ore:dustWheat>.firstItem, <ore:dustSalt>.firstItem]);
 mods.primaltech.WoodenBasin.addRecipe(<harvestcraft:doughitem> * 4, 
+	<liquid:water>, [<ore:dustSalt>.firstItem, <ore:dustWheat>.firstItem]);
+	
+mods.primaltech.WoodenBasin.addRecipe(<harvestcraft:doughitem> * 4, 
 	<liquid:water>, [<ore:dustWheat>.firstItem, dustGTSalt]);
-
+mods.primaltech.WoodenBasin.addRecipe(<harvestcraft:doughitem> * 4, 
+	<liquid:water>, [dustGTSalt, <ore:dustWheat>.firstItem]);
 
 mods.gregtech.recipe.RecipeMap.getByName("mixer").recipeBuilder()
     .inputs([<ore:foodFlour>, <ore:dustSalt>])

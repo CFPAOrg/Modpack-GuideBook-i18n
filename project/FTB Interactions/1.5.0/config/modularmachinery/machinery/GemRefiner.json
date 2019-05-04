@@ -1,6 +1,6 @@
 {
     "registryname": "gem_refiner",
-    "localizedname": "\u5b9d\u77f3\u7cbe\u70bc\u5668",
+    "localizedname": "Gem Refiner",
 	"requires-blueprint": true,
     "color": "cccccc",
     "parts": [

@@ -2,6 +2,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 print("---------------Cyclic Start------------------");
+	#Disabling Melter
+mods.jei.JEI.removeAndHide(<cyclicmagic:melter>);
 
 	#remove tank
 mods.jei.JEI.removeAndHide(<cyclicmagic:block_storeempty>);
