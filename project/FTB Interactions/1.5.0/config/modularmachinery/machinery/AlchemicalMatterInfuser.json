@@ -1,7 +1,7 @@
 {
     "registryname": "alchemical_matter_infuser",
     "localizedname": "\u70bc\u91d1\u6ce8\u9b54\u5668",
-	"requires-blueprint": false,
+	"requires-blueprint": true,
     "color": "252525",
     "parts": [
         {
@@ -17,8 +17,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockoutputbus"
+                "modularmachinery:blockinputbus"
             ]
         },
         {
@@ -66,7 +65,6 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus",
                 "modularmachinery:blockoutputbus"
             ]
         },

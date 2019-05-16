@@ -1,7 +1,7 @@
 {
   "registryname": "mana_extrapolator",
   "localizedname": "\u9b54\u529b\u6cdb\u5316\u5668",
-  "requires-blueprint": false,
+  "requires-blueprint": true,
   "color": "cccccc",
     "parts": [
         {
@@ -9,8 +9,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modulardiversity:blockmanaoutputhatch@0",
-                "botania:livingrock@1"
+                "modulardiversity:blockmanaoutputhatch@0"
             ]
         },
         {
@@ -18,8 +17,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch",
-                "botania:livingrock@1"
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
@@ -75,8 +73,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modulardiversity:blockmanainputhatch@0",
-                "botania:livingrock@1"
+                "modulardiversity:blockmanainputhatch@0"
             ]
         },
         {
@@ -124,8 +121,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch",
-                "botania:livingrock@1"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
