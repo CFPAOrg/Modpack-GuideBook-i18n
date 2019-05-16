@@ -1,7 +1,7 @@
 {
     "registryname": "improved_coke_oven",
     "localizedname": "\u6539\u826f\u7126\u7089",
-	"requires-blueprint": true,
+	"requires-blueprint": false,
     "color": "83350F",
     "parts": [
         {
@@ -17,7 +17,9 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch"
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockoutputbus"
             ]
         },
         {
@@ -41,7 +43,9 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus"
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockoutputbus"
             ]
         },
         {
@@ -49,6 +53,8 @@
             "y": 0,
             "z": 2,
             "elements": [
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockinputbus",
                 "modularmachinery:blockoutputbus"
             ]
         },
