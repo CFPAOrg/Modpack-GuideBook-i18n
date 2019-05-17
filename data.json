@@ -128,16 +128,17 @@
         "version": "1.4.1",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.4.1-windows.zip",
-          "md5": "5614f683987863428ade3e61efe7ff11",
-          "sha1": "96dd598a35da833fd53d3a9110da0e651d9a8556"
+          "md5": "9eec7b4bc68584895a438d6314ef46d7",
+          "sha1": "9ab7659093df799ebb48e17c1d87f00cc4eccfb6"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.4.1-linux.zip",
-          "md5": "5614f683987863428ade3e61efe7ff11",
-          "sha1": "96dd598a35da833fd53d3a9110da0e651d9a8556"
+          "md5": "9eec7b4bc68584895a438d6314ef46d7",
+          "sha1": "9ab7659093df799ebb48e17c1d87f00cc4eccfb6"
         },
         "author": [
-          "xinyuan-liu"
+          "xinyuan-liu",
+          "TartaricAcid"
         ],
         "time": 1556862221
       },
@@ -145,13 +146,13 @@
         "version": "1.4.2",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.4.2-windows.zip",
-          "md5": "39fd33e4a5f36c47f437e7f3fe335090",
-          "sha1": "7b34b37c7d7fd54c9c323ee4b088a58f457fe03d"
+          "md5": "1debf101dea7501ca7920f2e9f19c889",
+          "sha1": "b4055bdf372cb1b99674965588e2f91fe3a98bb5"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.4.2-linux.zip",
-          "md5": "39fd33e4a5f36c47f437e7f3fe335090",
-          "sha1": "7b34b37c7d7fd54c9c323ee4b088a58f457fe03d"
+          "md5": "1debf101dea7501ca7920f2e9f19c889",
+          "sha1": "b4055bdf372cb1b99674965588e2f91fe3a98bb5"
         },
         "author": [
           "TartaricAcid"
@@ -162,18 +163,53 @@
         "version": "1.5.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.5.0-windows.zip",
-          "md5": "5a41379ab79836d43955ffeeb844b7ba",
-          "sha1": "0e363de07be6c20443e1de1e7f14e6f5efbf4296"
+          "md5": "df2cff5e2c068c22d064c0dbbec933c3",
+          "sha1": "02fb4e70508693b38bb063e26131374228e6400c"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.5.0-linux.zip",
-          "md5": "5a41379ab79836d43955ffeeb844b7ba",
-          "sha1": "0e363de07be6c20443e1de1e7f14e6f5efbf4296"
+          "md5": "df2cff5e2c068c22d064c0dbbec933c3",
+          "sha1": "02fb4e70508693b38bb063e26131374228e6400c"
         },
         "author": [
-          "TartaricAcid"
+          "TartaricAcid",
+          "xinyuan-liu"
         ],
-        "time": 1556944754
+        "time": 1556944753
+      },
+      {
+        "version": "1.6.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.6.0-windows.zip",
+          "md5": "4c25d57e1cb064789f5579bafa999b4a",
+          "sha1": "ef500096e3bc39ee90e64d9909b4057e01ebfd96"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.6.0-linux.zip",
+          "md5": "4c25d57e1cb064789f5579bafa999b4a",
+          "sha1": "ef500096e3bc39ee90e64d9909b4057e01ebfd96"
+        },
+        "author": [
+          "xinyuan-liu"
+        ],
+        "time": 1558095636
+      },
+      {
+        "version": "1.6.1",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.6.1-windows.zip",
+          "md5": "716083ae9b574092dc5e2a830b0d551a",
+          "sha1": "85ee797d681d1adcd57784b70dafad3375551e89"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.6.1-linux.zip",
+          "md5": "716083ae9b574092dc5e2a830b0d551a",
+          "sha1": "85ee797d681d1adcd57784b70dafad3375551e89"
+        },
+        "author": [
+          "xinyuan-liu"
+        ],
+        "time": 1558095264
       }
     ]
   },
