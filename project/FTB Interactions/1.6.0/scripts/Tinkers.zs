@@ -32,17 +32,6 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tinkers:creative", "", 100
 	[<ore:ingotCosmicNeutronium>, <appliedenergistics2:material:1>, <ore:ingotCosmicNeutronium>]
 	]);	
 
-	#Glass / GTCE Compat
-mods.tconstruct.Casting.removeTableRecipe(<minecraft:glass_pane>);
-//mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_pane>, null, <liquid:glass>, 54);
-mods.tconstruct.Casting.removeBasinRecipe(<tconstruct:clear_glass>);
-mods.tconstruct.Casting.addBasinRecipe(<tconstruct:clear_glass>, null, <liquid:glass>, 144);
-//mods.tconstruct.Melting.addRecipe(<liquid:glass> * 144, <ore:blockGlass>);
-//mods.tconstruct.Melting.addRecipe(<liquid:glass> * 144, <ore:sand>);
-//mods.tconstruct.Melting.addRecipe(<liquid:glass> * 54, <ore:paneGlass>);
-
-mods.tconstruct.Melting.removeRecipe(<liquid:glass>);
-
 
 	#Osgloglas
 blast_furnace.recipeBuilder()
