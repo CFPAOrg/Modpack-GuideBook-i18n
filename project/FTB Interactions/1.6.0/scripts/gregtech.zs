@@ -688,65 +688,12 @@ vacfreezer.recipeBuilder()
 	.EUt(120)
 	.buildAndRegister();
 
-	#Glass fixes (to match TiCon Standards)
-solidifier.findRecipe(4, [<metaitem:shape.mold.block>], [<liquid:glass> * 144]).remove();
-solidifier.recipeBuilder()
-    .fluidInputs([<liquid:glass> * 1000])
-	.notConsumable(<metaitem:shape.mold.block>)
-	.outputs(<minecraft:glass>)
-	.duration(12)
-	.EUt(4)
-	.buildAndRegister();
-solidifier.findRecipe(4, [<metaitem:shape.mold.plate>], [<liquid:glass> * 144]).remove();
-//solidifier.findRecipe(8, [<metaitem:shape.mold.plate>], [<liquid:glass> * 144]).remove();
-solidifier.recipeBuilder()
-    .fluidInputs([<liquid:glass> * 1000])
-	.notConsumable(<metaitem:shape.mold.plate>)
-	.outputs(<ore:plateGlass>.firstItem)
-	.duration(12)
-	.EUt(4)
-	.buildAndRegister();
-solidifier.findRecipe(16, [<metaitem:shape.mold.ball>], [<liquid:glass> * 144]).remove();
-solidifier.recipeBuilder()
-    .fluidInputs([<liquid:glass> * 1000])
-	.notConsumable(<metaitem:shape.mold.ball>)
-	.outputs(<metaitem:component.glass.tube>)
-	.duration(12)
-	.EUt(4)
-	.buildAndRegister();
-
-
-	#Glass Fluid Extractor Fixes
-fluidExtractor.findRecipe(32, [<ore:blockGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<minecraft:glass_pane>], []).remove();
-fluidExtractor.findRecipe(32, [<minecraft:glass_bottle>], []).remove();
-print("test1");
-//fluidExtractor.findRecipe(32, [<ore:paneGlass>.firstItem], []).remove();
-print("test2");
-fluidExtractor.findRecipe(28, [<ore:dustQuartzite>.firstItem], []).remove();
-print("test3");
-fluidExtractor.findRecipe(32, [<ore:gemGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<ore:gemChippedGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<ore:gemFlawedGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<ore:gemFlawlessGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<ore:gemExquisiteGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<ore:plateGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<ore:lensGlass>.firstItem], []).remove();
 
 
 
-/*
-var fluidExtractorFixes as long[IItemStack] = {
-	.firstItem : 32,
-	<ore:sand>.firstItem : 28
-};
-for input, voltage in fluidExtractorFixes {
-	fluidExtractor.findRecipe(voltage, [input], []).remove();
-}
-*/
 	#concrete dust fix
 	//compressor.findRecipe(800, [<ore:dustConcrete>.firstItem * 9], null).remove(); Goddamnit Ga.
-recipes.remove(<gregtech:concrete>);
+	recipes.remove(<gregtech:concrete>);
 
 	#Concrete_powder
 solidifier.findRecipe(8, [<metaitem:shape.mold.block>], [<liquid:concrete> * 1296]).remove();
