@@ -34,6 +34,10 @@ val chemReactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
 	mods.jei.JEI.removeAndHide(<thermalexpansion:device:4>);
 	mods.jei.JEI.removeAndHide(<thermalfoundation:material:657>);
 
+	#Flux Crystal
+mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:diamond>, <liquid:redstone>);
+mods.thermalexpansion.Transposer.addFillRecipe(<ore:gemCrystalFlux>.firstItem, <ore:manaDiamond>.firstItem, <liquid:redstone> * 1000, 42240);
+
 	#drill tip
 	mods.jei.JEI.removeAndHide(<thermalfoundation:material:656>);
 

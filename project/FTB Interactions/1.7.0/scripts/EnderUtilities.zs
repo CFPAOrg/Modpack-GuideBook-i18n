@@ -163,7 +163,7 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("interactions:shaped/intern
     null, null,]);
 
 recipes.remove(<enderutilities:handybag:1>);
-mods.astralsorcery.Altar.addTraitAltarRecipe("interactions:shaped/internal/altar/handybaglarge", <enderutilities:handybag:1>, 8000, 200, [
+mods.astralsorcery.Altar.addTraitAltarRecipe("interactions:shaped/internal/altar/handybaglarge", <enderutilities:handybag:1>, 7500, 200, [
     <ore:plateTitanium>, null, <ore:plateTitanium>, 
     null, <enderutilities:handybag>, null,
     <ore:plateTitanium>, null, <ore:plateTitanium>,

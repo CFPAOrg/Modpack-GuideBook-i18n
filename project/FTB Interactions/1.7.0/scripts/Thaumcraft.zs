@@ -40,6 +40,26 @@ val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
 		.EUt(480)
 		.buildAndRegister();	
 
+	#Celestial Notes
+var celestialNotesTip as IItemStack[] = [
+	<thaumcraft:celestial_notes>,
+	<thaumcraft:celestial_notes:1>,
+	<thaumcraft:celestial_notes:2>,
+	<thaumcraft:celestial_notes:3>,
+	<thaumcraft:celestial_notes:4>,
+	<thaumcraft:celestial_notes:5>,
+	<thaumcraft:celestial_notes:6>,
+	<thaumcraft:celestial_notes:7>,
+	<thaumcraft:celestial_notes:8>,
+	<thaumcraft:celestial_notes:9>,
+	<thaumcraft:celestial_notes:10>,
+	<thaumcraft:celestial_notes:11>,
+	<thaumcraft:celestial_notes:12>
+	];
+for i in celestialNotesTip {
+	i.addTooltip("在星辉祭坛中合成它。扫描天空没有用！");
+}
+
 	#Thaumium Plate Conversion
 recipes.addShapeless(plateGTThaumium,[<thaumcraft:plate:2>]);
 recipes.addShapeless(<thaumcraft:plate:2>, [plateGTThaumium]);

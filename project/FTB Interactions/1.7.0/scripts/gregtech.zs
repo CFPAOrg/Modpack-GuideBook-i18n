@@ -88,13 +88,22 @@ thermalCent.recipeBuilder()
 	.buildAndRegister();
 
 	#awakened draconium
-	forgeHammer.recipeBuilder()
+forgeHammer.recipeBuilder()
 	.inputs([<ore:blockDraconiumAwakened>])
 	.outputs([<draconicevolution:draconic_ingot>*9])
 	.EUt(24)
 	.duration(20)
 	.buildAndRegister();
 	
+	#Sphalerite Electrolysis
+electrolyzer.recipeBuilder()
+	.inputs([<ore:dustSphalerite> * 2])
+	.outputs([<ore:dustZinc>.firstItem, <ore:dustSulfur>.firstItem])
+	.EUt(60)
+	.duration(600)
+	.buildAndRegister();
+
+
 	#remove duplicate wheat recipe
 macerator.findRecipe(8, 
 	[<minecraft:wheat>],
@@ -876,7 +885,7 @@ val ironFile = <gregtech:meta_tool:9>.withTag({
 	mods.jei.JEI.addItem(ironFile);
 	ironFile.addTooltip(format.darkRed("最初的铁锉，可以在基础工作台中合成。"));
 
-	#iron hammer in artisan
+	#iron file in artisan
 RecipeBuilder.get("basic")
 	.setShaped([
 		[null, <ore:ingotIron>, null],
@@ -2045,4 +2054,30 @@ cutting_saw.recipeBuilder()
 	//titanium small gear
 	extruder.recipeBuilder().inputs([<ore:ingotTungstenSteel>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<ore:gearSmallTungstenSteel>.firstItem]).duration(130).EUt(64).buildAndRegister();    //tungstensteel small gear
 	
+	#ZPM Field Generator
+	
+assembly_line.recipeBuilder()
+	.inputs([
+		<ore:wireFineOsmium> * 64,
+		<ore:wireFineOsmium> * 64,
+		<ore:wireFineOsmium> * 64,
+		<ore:wireFineOsmium> * 64,
+		<ore:wireFineOsmium> * 64,
+		<ore:wireFineOsmium> * 64,
+		<ore:wireFineOsmium> * 64,
+		<ore:wireFineOsmium> * 64,
+		<metaitem:processor.neuro> * 16,
+		<ore:plateHsse> * 6,
+		<ore:frameGtHsse>,
+		<metaitem:emitter.zpm> * 4,
+		<metaitem:quantumstar> * 4,
+		<ore:circuitInsane> * 16,
+		<ore:cableGtOctalVanadiumGallium> * 8])
+	.fluidInputs([<liquid:soldering_alloy> * 1152])
+	.outputs([<metaitem:field.generator.zpm>])
+	.duration(600)
+	.EUt(122880)
+	.buildAndRegister();
+
+
 print("----------------Gregtech End-------------------");
