@@ -215,18 +215,18 @@
         "version": "1.7.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.7.0-windows.zip",
-          "md5": "aa16eacc54815e2399343ac693c2cff2",
-          "sha1": "e800722e52b7d225e6805920d3b55d51b9d6abbd"
+          "md5": "b7115917ae01ed00d5da8aee56931e0b",
+          "sha1": "e11befde5e583cd3040694196073c919530c5184"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.7.0-linux.zip",
-          "md5": "aa16eacc54815e2399343ac693c2cff2",
-          "sha1": "e800722e52b7d225e6805920d3b55d51b9d6abbd"
+          "md5": "b7115917ae01ed00d5da8aee56931e0b",
+          "sha1": "e11befde5e583cd3040694196073c919530c5184"
         },
         "author": [
           "xinyuan-liu"
         ],
-        "time": 1558611808
+        "time": 1558690633
       }
     ]
   },
