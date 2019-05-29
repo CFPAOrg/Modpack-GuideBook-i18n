@@ -850,13 +850,13 @@
         "version": "4.0.2",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.2-windows.zip",
-          "md5": "9b9b71fd78e862c874e5f25747ef13ad",
-          "sha1": "57f5de277c7f7c10506015ac71f6ea6161849455"
+          "md5": "f20bc262f6943c9f500e23564084bfa8",
+          "sha1": "8b21f25aba0b372fc6f77f00fc41a9e4fefbe2ad"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.2-linux.zip",
-          "md5": "dae2c4f192808a7f4bcd17b9e7304035",
-          "sha1": "d5001d1788435794dc95c33eecbbbdc221045180"
+          "md5": "3f08619abedfd075d49084e6444f5e03",
+          "sha1": "6292ba54dbcad4bce7d74db389b0e8a982400616"
         },
         "author": [
           "TartaricAcid"
@@ -867,13 +867,13 @@
         "version": "4.0.3",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.3-windows.zip",
-          "md5": "eba34a98a827806d2ba20cb32dcb581b",
-          "sha1": "c4b35f2b8406e907eb671b1291a70c1a3c5d4d5d"
+          "md5": "667a0e26cea9dd741e1e19fd13833655",
+          "sha1": "a8201b2361761fc2c17f5ba3e8d64287ed322573"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.3-linux.zip",
-          "md5": "1550ade8ba1a795a3d26c3b7f7a57495",
-          "sha1": "8767e6fc73e26fe09151f5ad920c7601f6787ea1"
+          "md5": "9fa2b4bff6978071959f734fbe196955",
+          "sha1": "b666e895b3f138bcba0b89be4403858da6ec83cb"
         },
         "author": [
           "TartaricAcid"
@@ -884,13 +884,13 @@
         "version": "4.0.4",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.4-windows.zip",
-          "md5": "df374b7b42244bc51a341caec82c753b",
-          "sha1": "d4cd9dc6ad1b3eddae038d1e8ef2d4fefb5407a7"
+          "md5": "ed5178930f02f9250bfbd3e574c5bcbc",
+          "sha1": "1286a78ecb367ef90ddca6195f436e96703125d5"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.4-linux.zip",
-          "md5": "f03d69505411970b359fb719ed4475a8",
-          "sha1": "d0e41bc747ae60fbe5ad0eb66f48631a822b8f8a"
+          "md5": "f1c7a3fabb06b6365eb4f306d4214f28",
+          "sha1": "08e2db5a59d8d8125e36b58045eba609aa4434be"
         },
         "author": [
           "TartaricAcid"
@@ -901,13 +901,13 @@
         "version": "4.0.5",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.5-windows.zip",
-          "md5": "df374b7b42244bc51a341caec82c753b",
-          "sha1": "d4cd9dc6ad1b3eddae038d1e8ef2d4fefb5407a7"
+          "md5": "ed5178930f02f9250bfbd3e574c5bcbc",
+          "sha1": "1286a78ecb367ef90ddca6195f436e96703125d5"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.5-linux.zip",
-          "md5": "f03d69505411970b359fb719ed4475a8",
-          "sha1": "d0e41bc747ae60fbe5ad0eb66f48631a822b8f8a"
+          "md5": "f1c7a3fabb06b6365eb4f306d4214f28",
+          "sha1": "08e2db5a59d8d8125e36b58045eba609aa4434be"
         },
         "author": [
           "TartaricAcid"
