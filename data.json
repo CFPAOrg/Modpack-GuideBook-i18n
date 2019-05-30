@@ -22,6 +22,28 @@
     ]
   },
   {
+    "name": "AstroBlock",
+    "contents": [
+      {
+        "version": "1.1.31",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/AstroBlock-1.1.31-windows.zip",
+          "md5": "21d64a691a86c6592131577db98921d7",
+          "sha1": "41b47ca0a4c6dd39b65295f07649cc80467d6b22"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/AstroBlock-1.1.31-linux.zip",
+          "md5": "21d64a691a86c6592131577db98921d7",
+          "sha1": "41b47ca0a4c6dd39b65295f07649cc80467d6b22"
+        },
+        "author": [
+          "misterplus"
+        ],
+        "time": 1559220395
+      }
+    ]
+  },
+  {
     "name": "Exoria",
     "contents": [
       {
@@ -37,7 +59,7 @@
           "sha1": "63d2da1698a9db8e1417cf5e532bdabf40a89928"
         },
         "author": [
-          "TartaricAcid"
+          "misterplus"
         ],
         "time": 1551163248
       },
@@ -54,7 +76,7 @@
           "sha1": "b22c0b4a32f9d6657a7a5a39a114ee0a2efaed44"
         },
         "author": [
-          "TartaricAcid"
+          "misterplus"
         ],
         "time": 1551163248
       },
@@ -71,7 +93,7 @@
           "sha1": "a65ba0f6c0457d246010f0f1df18f23f4b0d56ea"
         },
         "author": [
-          "TartaricAcid"
+          "misterplus"
         ],
         "time": 1551163248
       }
