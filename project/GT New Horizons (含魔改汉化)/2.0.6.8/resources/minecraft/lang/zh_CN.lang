@@ -257,8 +257,8 @@ gtnh.quest63.name=用蒸汽烹饪
 gtnh.quest63.desc=相较来说,它的制程相当慢,但它比普通熔炉更加有效.
 
 #Quest_64.Upgrade: Better furnace
-gtnh.quest64.name=升级:锅炉
-gtnh.quest64.desc=一台新版的蒸汽锅炉！它消耗更多的蒸汽,但几乎是旧有的两倍速！(此为支线任务) 你需要向其注水以产出蒸汽.不要让它干烧,不然BOOM! 可使用GT管道从底部通入水.
+gtnh.quest64.name=升级:熔炉
+gtnh.quest64.desc=一台新版的蒸汽熔炉！它消耗更多的蒸汽,但几乎是旧有的两倍速！(此为支线任务)
 
 #Quest_65.Blastoff!
 gtnh.quest65.name=发射！
@@ -306,7 +306,7 @@ gtnh.quest75.desc=有限的水源是一个问题,但不要害怕.我会引导你
 
 #Quest_76.Time to get some steel
 gtnh.quest76.name=是时候获得一些钢了！
-gtnh.quest76.desc=你需要钢？呃......好的.我们有得忙的...... 提示:砖砌高炉和大多数GT多方块机器一样,它们之间可以共享墙壁.尽管这样做会影响到空气质量......
+gtnh.quest76.desc=你需要钢？呃......好的.我们有得忙的...... 提示:砖高炉和大多数GT多方块机器一样,它们之间可以共享墙壁.尽管这样做会影响到空气质量......
 
 #Quest_77.EBF-Time
 gtnh.quest77.name=电力高炉时代
@@ -1514,7 +1514,7 @@ gtnh.quest377.desc=你已经尝试过很多的方法了,但是这些方法全部
 
 #Quest_378.Activated draconium dust
 gtnh.quest378.name=激活的龙尘
-gtnh.quest378.desc=活化核心可以在短时间内引导足够大的力量来活化龙尘. 但是只要我停止提供"VIS",活化龙尘就会变回普通的龙尘. 如果我能用一种力场来控制这个过程……
+gtnh.quest378.desc=活化核心可以在短时间内引导足够大的力量来活化龙尘. 但是只要我停止提供"VIS",活化龙尘就会变回普通的龙尘. 如果我能用一种力场来控制这个过程……  译者注：这个任务奖励是之后的任务物品，没有其他获取方式，千万别丢了。
 
 #Quest_379.The strongest forcefield
 gtnh.quest379.name=最强的力场
@@ -2129,7 +2129,7 @@ gtnh.quest531.name=扫描蜜蜂、种子以及更多
 gtnh.quest531.desc=自动化扫描你的蜜蜂和种子.在后面,这台机器可以用于扫描高级机器零件的装配线资料或者将UU物质生产资料写入数据球.带有勘探数据的闪存也需要用到扫描仪.
 
 #Quest_532.Diesel, oil or maybe creosote?
-gtnh.quest532.name=柴油,原油或者木榴油.
+gtnh.quest532.name=柴油,石油或者木榴油.
 gtnh.quest532.desc=你可能已经收集了大量的木榴油,甚至已经建好了第一台电力高炉. 木榴油在一段时间里是一种非常不错的燃料.造一些柴油发电机用它们充当除了蒸汽以外的第二能源.小型发电机只会在有EU需求时使用燃料.
 
 #Quest_533.Hydrogen, methane or some farts... (Natural gas) 
@@ -2189,12 +2189,12 @@ gtnh.quest546.name=嗨男爵,你的石油黑金现况如何？
 gtnh.quest546.desc=在你的旅程中看过些庞大的石油井.现在做台泵将这些黑金装进容器吧！石油可以用于柴油发电机、或者提炼其他原料. 别忘了抽取液体需要使用采矿管道. 带一台柴油发电机为泵供电.(感谢科技进步,现在泵可以自动由上方输出.) 
 
 #Quest_547.Your oil is too Crude? Refine it!
-gtnh.quest547.name=原油提纯.
-gtnh.quest547.desc=用原油做柴油发电机的燃料是一种非常低效率且浪费的事情(1桶原油燃烧后仅提供20,000EU的电量,).是时候提纯原油了！
+gtnh.quest547.name=石油提纯.
+gtnh.quest547.desc=用石油做柴油发电机的燃料是一种非常低效率且浪费的事情(1桶石油燃烧后仅提供20,000EU的电量,).是时候提纯石油了！
 
 #Quest_548.Light Sulfuric Fuel
 gtnh.quest548.name=含硫轻燃油
-gtnh.quest548.desc=第一步是将你的原油提炼成含硫轻燃油,这种燃料燃烧值比较低,1单位(1000mb)理论燃烧值仅有40KEU.
+gtnh.quest548.desc=第一步是将你的石油提炼成含硫轻燃油,这种燃料燃烧值比较低,1单位(1000mb)理论燃烧值仅有40KEU.
 
 #Quest_549.Light fuel
 gtnh.quest549.name=轻燃油
@@ -2206,7 +2206,7 @@ gtnh.quest550.desc=用离心机离心黄褐铁矿石或者棕褐铁矿石来获�
 
 #Quest_551.Heavy Sulfuric fuel
 gtnh.quest551.name=含硫重燃油
-gtnh.quest551.desc=第二步是将你的原油提炼成含硫重燃油,这种燃料燃烧值比较低,1单位(1000mb)理论燃烧值也仅有40KEU.
+gtnh.quest551.desc=第二步是将你的石油提炼成含硫重燃油,这种燃料燃烧值比较低,1单位(1000mb)理论燃烧值也仅有40KEU.
 
 #Quest_552.Heavy fuel
 gtnh.quest552.name=重燃油
@@ -2310,7 +2310,7 @@ gtnh.quest576.desc=一个强化的手动工作台,但是这个工作台可以记
 
 #Quest_577.Forestry core block
 gtnh.quest577.name=林业mod核心方块
-gtnh.quest577.desc=坚固部件几乎是所有农业方块的基础,你可以理解为他是农业MOD里面的机械外壳！
+gtnh.quest577.desc=坚固部件几乎是所有农业方块的基础,你可以理解为他是林业MOD里面的机械外壳！
 
 #Quest_578.The carpenter
 gtnh.quest578.name=木工机
@@ -2345,7 +2345,7 @@ gtnh.quest585.name=加热线圈
 gtnh.quest585.desc=你的热电子加工台需要一些零件一遍在工作时提高温度.所以用磁化钢杆和铜线来制作一些加热线圈.
 
 #Quest_586.Welcome to forestry
-gtnh.quest586.name=欢迎来玩农业MOD
+gtnh.quest586.name=欢迎来玩林业MOD
 gtnh.quest586.desc=你想要做一个自动化的农场、树场或者养殖蜜蜂？那么到这一章就对了！
 
 #Quest_587.Magnetize your rods
@@ -2790,11 +2790,11 @@ gtnh.quest696.desc=你想要比管道更好的自动化吗？肯定是,制作一
 
 #Quest_697.2x steel
 gtnh.quest697.name=双倍钢铁
-gtnh.quest697.desc=钢铁的制作过程实在太慢了.如果你有足够的红砖和粘土,建造第二个砖砌高炉(BBF).将它盖在第一个炉的旁边,所以他们可以共享一道墙体,就可以省下一些红砖、粘土,以及混凝土.
+gtnh.quest697.desc=钢铁的制作过程实在太慢了.如果你有足够的红砖和粘土,建造第二个砖高炉(BBF).将它盖在第一个炉的旁边,所以他们可以共享一道墙体,就可以省下一些红砖、粘土,以及混凝土.
 
 #Quest_698.4x steel
 gtnh.quest698.name=四倍钢铁
-gtnh.quest698.desc=两个砖砌高炉(BBF)还是不够快...
+gtnh.quest698.desc=两个砖高炉(BBF)还是不够快...
 
 #Quest_699.Why one coke oven when you can have ten?
 gtnh.quest699.name=为何只造一个焦炉当你能拥有十个
@@ -3062,7 +3062,7 @@ gtnh.quest764.desc=炸药是聚爆压缩机所使用的最基础的爆炸物.在
 
 #Quest_765.Time to oil drill!
 gtnh.quest765.name=钻油时刻！
-gtnh.quest765.desc=泵是很好,但你现在到了一个需要更多更多更多石油的时刻.这个多方块构造能帮助你,但你需要使用地震探矿去搜寻石油.你可以找到原油、轻油,或重油.也有机会找到天然气.使用越高阶段的电力钻得越快.使用相对应的能源仓来提供电力.
+gtnh.quest765.desc=泵是很好,但你现在到了一个需要更多更多更多石油的时刻.这个多方块构造能帮助你,但你需要使用地震探矿去搜寻石油.你可以找到石油、轻油,或重油.也有机会找到天然气.使用越高阶段的电力钻得越快.使用相对应的能源仓来提供电力.
 
 #Quest_766.Let's get crackin!
 gtnh.quest766.name=裂化石油
@@ -3889,8 +3889,8 @@ gtnh.quest971.name=集成逻辑电路
 gtnh.quest971.desc=你可以用硬币购买一些集成逻辑电路.
 
 #Quest_972.Oil
-gtnh.quest972.name=原油
-gtnh.quest972.desc=你可以用硬币购买一些原油.
+gtnh.quest972.name=石油
+gtnh.quest972.desc=你可以用硬币购买一些石油.
 
 #Quest_973.Creosote Oil
 gtnh.quest973.name=杂酚油
@@ -4109,8 +4109,8 @@ gtnh.quest1026.name=琥珀金杆
 gtnh.quest1026.desc=你可以用硬币购买一些琥珀金杆.
 
 #Quest_1027.Flawless Emerald
-gtnh.quest1027.name=无暇的绿宝石
-gtnh.quest1027.desc=你可以用硬币购买一些无暇的绿宝石.
+gtnh.quest1027.name=无瑕的绿宝石
+gtnh.quest1027.desc=你可以用硬币购买一些无瑕的绿宝石.
 
 #Quest_1028.Ender Pearl
 gtnh.quest1028.name=末影珍珠
@@ -4726,11 +4726,11 @@ gtnh.quest1180.desc=让我们制造一些世界锚来保持区块加载.制作�
 
 #Quest_1181.Minecart with Tank, Workbench or Furnace
 gtnh.quest1181.name=让矿车可以蓄水、储物和制造物品
-gtnh.quest1181.desc=你想运输原油或者其他的液体？你想在矿车上安装工作台或者储物箱？ 那么我们来制造这些各种功能的矿车吧！
+gtnh.quest1181.desc=你想运输石油或者其他的液体？你想在矿车上安装工作台或者储物箱？ 那么我们来制造这些各种功能的矿车吧！
 
 #Quest_1182.Fluid loader and unloder
 gtnh.quest1182.name=流体装载机和卸载机
-gtnh.quest1182.desc=如果你想把原油从很远的油田运输回来,并且实现自动化.那么你需要一套流体装载/卸载机.在原油装载或卸载过程中,封锁轨道会让列车长时间停留.
+gtnh.quest1182.desc=如果你想把石油从很远的油田运输回来,并且实现自动化.那么你需要一套流体装载/卸载机.在石油装载或卸载过程中,封锁轨道会让列车长时间停留.
 
 #Quest_1183.Locomotive 0.1 Alpha
 gtnh.quest1183.name=火车头0.1测试版
@@ -5066,11 +5066,11 @@ gtnh.quest1265.desc=一个更便宜的GT++EV电池.
 
 #Quest_1266.Low Voltage Transformer
 gtnh.quest1266.name=LV-MV变压器
-gtnh.quest1266.desc=使用LV电压驱动MV机器是可以实现的.建立一个变压器,并使用4个32EU/T的电源来给一个128EU/T的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么前往不要改变模式,否则你将会看到机器组成的烟花.
+gtnh.quest1266.desc=使用LV电压驱动MV机器是可以实现的.建立一个变压器,并使用4个32EU/T的电源来给一个128EU/T的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么千万不要改变模式,否则你将会看到机器组成的烟花.
 
 #Quest_1267.Medium Voltage Transformer
 gtnh.quest1267.name=MV-HV变压器
-gtnh.quest1267.desc=使用MV电压驱动HV机器是可以实现的.建立一个变压器,并使用4个128EU/T的电源来给一个512EU/T的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么前往不要改变模式,否则你将会看到机器组成的烟花.
+gtnh.quest1267.desc=使用MV电压驱动HV机器是可以实现的.建立一个变压器,并使用4个128EU/T的电源来给一个512EU/T的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么千万不要改变模式,否则你将会看到机器组成的烟花.
 
 #Quest_1268.LV High-Amp Transformer
 gtnh.quest1268.name=高电流LV-MV变压器
@@ -6974,7 +6974,7 @@ gtnh.quest1742.desc=月球在氦3上很丰富,它已被数十亿年的太阳风�
 
 #Quest_1743.Saltwater and Chlorobenzene on Mars
 gtnh.quest1743.name=火星上的盐水和氯苯
-gtnh.quest1743.desc=火星富含盐水和氯苯.如果你缺乏氯,你可以离心液体.  更多液体和气体可以在以下位置找到: 盐水: 月球-非常低、火星-低、木卫二-高  氦3: 月球-非常低、水星-低/高  氯苯: 火星-非常低  氮: 海卫一-高、冥王星-高  甲烷: 土卫六-高  乙烷: 土卫六-低  乙烯:海卫一-低  氧气: 土卫四-低  超重油: 土卫二-低、巴纳德C-高、鲸鱼座T星E-低  熔融超能硅岩: 巴纳德C-低、织女一B-高  熔融硅岩: 金星-非常低、土卫六-低、妊神星-高  液态空气: 土卫四-低、冥卫一-中、巴纳德E-高
+gtnh.quest1743.desc=火星富含盐水和氯苯.如果你缺乏氯,你可以离心液体.  更多液体和气体可以在以下位置找到: 盐水: 月球-非常低、火星-低、木卫二-高  氦3: 月球-非常低、水星-低/高  氯苯: 火星-非常低  氮: 海卫一-高、冥王星-高  甲烷: 土卫六-高  乙烷: 土卫六-低  乙烯:海卫一-低  氧气: 土卫四-低  超重油: 土卫二-低、巴纳德C-高、鲸鱼座T星E-低  熔融富集硅岩: 巴纳德C-低、织女一B-高  熔融硅岩: 金星-非常低、土卫六-低、妊神星-高  液态空气: 土卫四-低、冥卫一-中、巴纳德E-高
 
 #Quest_1744.Chemical lesson part two
 gtnh.quest1744.name=化学课第二部分
@@ -7166,7 +7166,7 @@ gtnh.quest1790.desc=你的新家需要木门.当然合成表真的很难,而且�
 
 #Quest_1791.Oilsand or how you get heavy Oil
 gtnh.quest1791.name=油砂或是别的什么获得重油的方式
-gtnh.quest1791.desc=油砂是获得原油、重油的另一种方式.可能你很幸运,在沙漠里找到了油砂矿脉.使用你的离心机,你可以从油砂中获得重油和沙子. 油砂矿脉可以在Y=50-80找到.
+gtnh.quest1791.desc=油砂是获得石油、重油的另一种方式.可能你很幸运,在沙漠里找到了油砂矿脉.使用你的离心机,你可以从油砂中获得重油和沙子. 油砂矿脉可以在Y=50-80找到.
 
 #Quest_1792.I guess it is an inkjet?
 gtnh.quest1792.name=我猜它是喷墨机?
@@ -7603,8 +7603,8 @@ gtnh.line10.name=捕鱼,农业,烹饪
 gtnh.line10.desc=抓住它,养护它,吃它！
 
 #Armors and Jetpacks
-gtnh.line11.name=装甲和喷射背包
-gtnh.line11.desc=指导你穿上装甲和喷射背包.
+gtnh.line11.name=装甲和喷气背包
+gtnh.line11.desc=指导你穿上装甲和喷气背包.
 
 #Multiblock Goals
 gtnh.line12.name=多方块结构
