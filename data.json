@@ -534,104 +534,125 @@
         "version": "2.0.4.9",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.4.9-windows.zip",
-          "md5": "1e5ea2ea061a58e8b239b260740adef1",
-          "sha1": "fc21fdc59d86874a5996eef913fbf8660a99070e"
+          "md5": "17af770f835ee508ba971ce4ef79b34d",
+          "sha1": "f27088ff4d29907e5a73ec648b71806f2156884c"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.4.9-linux.zip",
-          "md5": "1e5ea2ea061a58e8b239b260740adef1",
-          "sha1": "fc21fdc59d86874a5996eef913fbf8660a99070e"
-        },
-        "author": [
-          "TartaricAcid"
-        ],
-        "time": 1551163248
-      },
-      {
-        "version": "2.0.5.1",
-        "windows": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.5.1-windows.zip",
-          "md5": "bb4060e6fc9c24572e6ec672bd6f5707",
-          "sha1": "8b1156b5e805d2c7561b0eb5e97d98f9a70d87a0"
-        },
-        "linux": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.5.1-linux.zip",
-          "md5": "bb4060e6fc9c24572e6ec672bd6f5707",
-          "sha1": "8b1156b5e805d2c7561b0eb5e97d98f9a70d87a0"
-        },
-        "author": [
-          "TartaricAcid"
-        ],
-        "time": 1551163248
-      },
-      {
-        "version": "2.0.6.0",
-        "windows": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.0-windows.zip",
-          "md5": "fc53dc69862234caaa617198b2a84637",
-          "sha1": "fe6532b457b6010c17d31b4a93f5b83c6e616c46"
-        },
-        "linux": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.0-linux.zip",
-          "md5": "fc53dc69862234caaa617198b2a84637",
-          "sha1": "fe6532b457b6010c17d31b4a93f5b83c6e616c46"
-        },
-        "author": [
-          "TartaricAcid"
-        ],
-        "time": 1551163248
-      },
-      {
-        "version": "2.0.6.2",
-        "windows": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.2-windows.zip",
-          "md5": "e1f60562dcc953603ce70eefa38015b6",
-          "sha1": "9b2966c9fc1a10dc3ea09bb1d98a00e8b5808cde"
-        },
-        "linux": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.2-linux.zip",
-          "md5": "e1f60562dcc953603ce70eefa38015b6",
-          "sha1": "9b2966c9fc1a10dc3ea09bb1d98a00e8b5808cde"
-        },
-        "author": [
-          "TartaricAcid"
-        ],
-        "time": 1551163248
-      },
-      {
-        "version": "2.0.6.8",
-        "windows": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.8-windows.zip",
-          "md5": "540ccf2bee12fecc243c4c4168ec4369",
-          "sha1": "c6c9376bf5dda3c478d346e754c864c6ffff1651"
-        },
-        "linux": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.8-linux.zip",
-          "md5": "540ccf2bee12fecc243c4c4168ec4369",
-          "sha1": "c6c9376bf5dda3c478d346e754c864c6ffff1651"
+          "md5": "17af770f835ee508ba971ce4ef79b34d",
+          "sha1": "f27088ff4d29907e5a73ec648b71806f2156884c"
         },
         "author": [
           "TartaricAcid",
           "Kiwi233"
         ],
-        "time": 1552275779
+        "time": 1560776939
+      },
+      {
+        "version": "2.0.5.1",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.5.1-windows.zip",
+          "md5": "c7e35f841de7fda34eb1e373e423aa6e",
+          "sha1": "34b7c5f9bc2142c6fd0bfe6e2454e47bfb703889"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.5.1-linux.zip",
+          "md5": "c7e35f841de7fda34eb1e373e423aa6e",
+          "sha1": "34b7c5f9bc2142c6fd0bfe6e2454e47bfb703889"
+        },
+        "author": [
+          "TartaricAcid",
+          "Kiwi233"
+        ],
+        "time": 1560776939
+      },
+      {
+        "version": "2.0.6.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.0-windows.zip",
+          "md5": "0d33891ac16db600f9a7553a5dcfd2d7",
+          "sha1": "3bbdec388d150ee8f2cdce99532df11cea9b4ef9"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.0-linux.zip",
+          "md5": "0d33891ac16db600f9a7553a5dcfd2d7",
+          "sha1": "3bbdec388d150ee8f2cdce99532df11cea9b4ef9"
+        },
+        "author": [
+          "TartaricAcid",
+          "Kiwi233"
+        ],
+        "time": 1560776939
+      },
+      {
+        "version": "2.0.6.2",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.2-windows.zip",
+          "md5": "fc223d136cc27c1e21258fc5a9c263f4",
+          "sha1": "7bb17a54606747b3e3e0a1b929108d23d938d988"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.2-linux.zip",
+          "md5": "fc223d136cc27c1e21258fc5a9c263f4",
+          "sha1": "7bb17a54606747b3e3e0a1b929108d23d938d988"
+        },
+        "author": [
+          "TartaricAcid",
+          "Kiwi233"
+        ],
+        "time": 1560776939
+      },
+      {
+        "version": "2.0.6.8",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.8-windows.zip",
+          "md5": "43c7579b9bf848dfa5b42f21217b13ca",
+          "sha1": "3acef549fe8c2b939d0179e6895f047f2013a651"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.8-linux.zip",
+          "md5": "43c7579b9bf848dfa5b42f21217b13ca",
+          "sha1": "3acef549fe8c2b939d0179e6895f047f2013a651"
+        },
+        "author": [
+          "TartaricAcid",
+          "Kiwi233"
+        ],
+        "time": 1560776939
       },
       {
         "version": "2.0.7.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.7.0-windows.zip",
-          "md5": "da38c5136a55f35ff56a3a41d61036b1",
-          "sha1": "7f6638e4c8cacfcbbd4b9d3123c5632b8a49fa6d"
+          "md5": "275c0e67cdd16667ab4256dabd7266f4",
+          "sha1": "640944e551985c0cc7e4877892ee1df3ab5348d3"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.7.0-linux.zip",
-          "md5": "da38c5136a55f35ff56a3a41d61036b1",
-          "sha1": "7f6638e4c8cacfcbbd4b9d3123c5632b8a49fa6d"
+          "md5": "275c0e67cdd16667ab4256dabd7266f4",
+          "sha1": "640944e551985c0cc7e4877892ee1df3ab5348d3"
         },
         "author": [
           "Kiwi233"
         ],
-        "time": 1552275779
+        "time": 1560776939
+      },
+      {
+        "version": "2.0.7.5",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.7.5-windows.zip",
+          "md5": "9d51cb9498d8be38e81398f8e899f86e",
+          "sha1": "257312e89e0f441163cd4774414ce4745846dffb"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.7.5-linux.zip",
+          "md5": "9d51cb9498d8be38e81398f8e899f86e",
+          "sha1": "257312e89e0f441163cd4774414ce4745846dffb"
+        },
+        "author": [
+          "Kiwi233"
+        ],
+        "time": 1560776939
       }
     ]
   },
@@ -642,104 +663,142 @@
         "version": "2.0.4.9",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.4.9-windows.zip",
-          "md5": "1b624da9a84808091905b35455ac8f05",
-          "sha1": "5cc7263a36ab18d6dccb4a1c201dbf3c55914eae"
+          "md5": "050e46cc7ef2344b465939f144c73ed2",
+          "sha1": "95da996c38acbcf70170c2b2447524c84cdc2c60"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.4.9-linux.zip",
-          "md5": "1b624da9a84808091905b35455ac8f05",
-          "sha1": "5cc7263a36ab18d6dccb4a1c201dbf3c55914eae"
-        },
-        "author": [
-          "TartaricAcid"
-        ],
-        "time": 1551163248
-      },
-      {
-        "version": "2.0.5.1",
-        "windows": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.5.1-windows.zip",
-          "md5": "35890ba256e26c2ed3e06677e46b6c94",
-          "sha1": "b1acae1882b1d394b4b8c03936f821250fe36e20"
-        },
-        "linux": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.5.1-linux.zip",
-          "md5": "35890ba256e26c2ed3e06677e46b6c94",
-          "sha1": "b1acae1882b1d394b4b8c03936f821250fe36e20"
-        },
-        "author": [
-          "TartaricAcid"
-        ],
-        "time": 1551163248
-      },
-      {
-        "version": "2.0.6.0",
-        "windows": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.0-windows.zip",
-          "md5": "0b425c960e6ab62d3c0904ebdd25a170",
-          "sha1": "ce85ac70971349b3602138c07128d4b1391797b0"
-        },
-        "linux": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.0-linux.zip",
-          "md5": "0b425c960e6ab62d3c0904ebdd25a170",
-          "sha1": "ce85ac70971349b3602138c07128d4b1391797b0"
-        },
-        "author": [
-          "TartaricAcid"
-        ],
-        "time": 1551163248
-      },
-      {
-        "version": "2.0.6.2",
-        "windows": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.2-windows.zip",
-          "md5": "eaba25b55a15de53c51e4e9ea9ad6b86",
-          "sha1": "afeccaa06994695e65afb1c7b2c644c2d8f86d06"
-        },
-        "linux": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.2-linux.zip",
-          "md5": "eaba25b55a15de53c51e4e9ea9ad6b86",
-          "sha1": "afeccaa06994695e65afb1c7b2c644c2d8f86d06"
-        },
-        "author": [
-          "TartaricAcid"
-        ],
-        "time": 1551163248
-      },
-      {
-        "version": "2.0.6.8",
-        "windows": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.8-windows.zip",
-          "md5": "dff40cab73ae52d205daf56dea8f3b34",
-          "sha1": "c981a932384fc8472af06cb961a8e64d5d0c1f6e"
-        },
-        "linux": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.8-linux.zip",
-          "md5": "dff40cab73ae52d205daf56dea8f3b34",
-          "sha1": "c981a932384fc8472af06cb961a8e64d5d0c1f6e"
+          "md5": "050e46cc7ef2344b465939f144c73ed2",
+          "sha1": "95da996c38acbcf70170c2b2447524c84cdc2c60"
         },
         "author": [
           "TartaricAcid",
           "Kiwi233"
         ],
-        "time": 1552275779
+        "time": 1560776939
+      },
+      {
+        "version": "2.0.5.1",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.5.1-windows.zip",
+          "md5": "2031da697cd0d6872491857f5de1c434",
+          "sha1": "c64db43ac78812874b107fac541e65e36bfc9e11"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.5.1-linux.zip",
+          "md5": "2031da697cd0d6872491857f5de1c434",
+          "sha1": "c64db43ac78812874b107fac541e65e36bfc9e11"
+        },
+        "author": [
+          "TartaricAcid",
+          "Kiwi233"
+        ],
+        "time": 1560776939
+      },
+      {
+        "version": "2.0.6.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.0-windows.zip",
+          "md5": "92afd0004736d6d568e5fbced7a2867c",
+          "sha1": "197e7d4d2362003849d4e445d31f7aa4f12cea52"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.0-linux.zip",
+          "md5": "92afd0004736d6d568e5fbced7a2867c",
+          "sha1": "197e7d4d2362003849d4e445d31f7aa4f12cea52"
+        },
+        "author": [
+          "TartaricAcid",
+          "Kiwi233"
+        ],
+        "time": 1560776939
+      },
+      {
+        "version": "2.0.6.2",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.2-windows.zip",
+          "md5": "447a7c7fb267e1418c1d13e40132f202",
+          "sha1": "5e1e043eac9256a8b1da6a8b37b3cf920d9810ee"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.2-linux.zip",
+          "md5": "447a7c7fb267e1418c1d13e40132f202",
+          "sha1": "5e1e043eac9256a8b1da6a8b37b3cf920d9810ee"
+        },
+        "author": [
+          "TartaricAcid",
+          "Kiwi233"
+        ],
+        "time": 1560776939
+      },
+      {
+        "version": "2.0.6.8",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.8-windows.zip",
+          "md5": "77a63b9a697c6ac601cbaf4b36e55bce",
+          "sha1": "e539cdd9857a4e6dafc73cd0f8256b28ce6f1ae5"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.8-linux.zip",
+          "md5": "77a63b9a697c6ac601cbaf4b36e55bce",
+          "sha1": "e539cdd9857a4e6dafc73cd0f8256b28ce6f1ae5"
+        },
+        "author": [
+          "TartaricAcid",
+          "Kiwi233"
+        ],
+        "time": 1560776939
       },
       {
         "version": "2.0.7.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.7.0-windows.zip",
-          "md5": "35c43e24f113a8eaffc808068b7ef577",
-          "sha1": "de62866a85971784c3df78b4a78536d8354a57f8"
+          "md5": "f4814889f068e69e29abddf4e607af2a",
+          "sha1": "796efff55f710b875885036fbae742784fb5ead5"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.7.0-linux.zip",
-          "md5": "35c43e24f113a8eaffc808068b7ef577",
-          "sha1": "de62866a85971784c3df78b4a78536d8354a57f8"
+          "md5": "f4814889f068e69e29abddf4e607af2a",
+          "sha1": "796efff55f710b875885036fbae742784fb5ead5"
         },
         "author": [
           "Kiwi233"
         ],
-        "time": 1552275779
+        "time": 1560776939
+      },
+      {
+        "version": "2.0.7.4",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.7.4-windows.zip",
+          "md5": "db057a1409c34a0ab5f79fbde957064c",
+          "sha1": "247f95503c0b7d9edd5647f8258ca3ed2af45bca"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.7.4-linux.zip",
+          "md5": "db057a1409c34a0ab5f79fbde957064c",
+          "sha1": "247f95503c0b7d9edd5647f8258ca3ed2af45bca"
+        },
+        "author": [
+          "Kiwi233"
+        ],
+        "time": 1560776939
+      },
+      {
+        "version": "2.0.7.5",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.7.5-windows.zip",
+          "md5": "4717104417343eef549571ee60b70924",
+          "sha1": "f1be75a77d0169968ee22b0806582f7c4dfa6992"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.7.5-linux.zip",
+          "md5": "4717104417343eef549571ee60b70924",
+          "sha1": "f1be75a77d0169968ee22b0806582f7c4dfa6992"
+        },
+        "author": [
+          "Kiwi233"
+        ],
+        "time": 1560776939
       }
     ]
   },
