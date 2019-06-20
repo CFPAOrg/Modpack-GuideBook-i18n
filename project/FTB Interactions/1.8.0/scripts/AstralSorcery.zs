@@ -122,7 +122,7 @@ val sootyMarble = <astralsorcery:blockblackmarble>;
 autoclave.recipeBuilder()
     .inputs(<ore:gemSapphire> * 1)
     .fluidInputs([<liquid:water> * 1000])
-    .chancedOutput(aquamarineGem, 5000)
+    .chancedOutput(aquamarineGem, 5000, 500)
     .duration(2000)
     .EUt(24)
     .buildAndRegister();
@@ -139,7 +139,7 @@ autoclave.recipeBuilder()
 macerator.recipeBuilder()
     .inputs(starmetalOre)
 	.outputs(<astralsorcery:itemcraftingcomponent:2> *2)
-	.chancedOutput(<astralsorcery:itemcraftingcomponent:2>, 500)
+	.chancedOutput(<astralsorcery:itemcraftingcomponent:2>, 500, 100)
     .duration(40)
     .EUt(48)
     .buildAndRegister();

@@ -23,7 +23,7 @@ val blast_furnace = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
 val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
 val solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
 
-<tconstruct:ingots:1>.addTooltip(format.darkRed("Can be made in the Primitive Blast Furnace"));
+<tconstruct:ingots:1>.addTooltip(format.darkRed("可在土高炉中制造"));
 
 	#creative modifier
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tinkers:creative", "", 100, [<aspect:aer> * 25, <aspect:terra> *25, <aspect:ignis> *25, <aspect:aqua> *25, <aspect:ordo> *25, <aspect:perditio> *25], <tconstruct:materials:50>,
@@ -353,7 +353,7 @@ for i in disabledTcon {
 macerator.recipeBuilder()
     .inputs(<ore:oreArdite>)
 	.outputs(<enderio:item_material:30> *2)
-	.chancedOutput(<enderio:item_material:30>, 500)
+	.chancedOutput(<enderio:item_material:30>, 500, 200)
     .duration(80)
     .EUt(24)
     .buildAndRegister();

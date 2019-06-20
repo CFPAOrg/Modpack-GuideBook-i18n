@@ -343,6 +343,15 @@ recipes.addShaped(<soulus:unloader>, [
 	[<ore:cobblestone>, null, <ore:cobblestone>],
 	[null, null, null]]);
 
+	#Stardust
+recipes.remove(<soulus:dust_midnight>);
+mods.gregtech.recipe.RecipeMap.getByName("macerator").recipeBuilder()
+	.inputs(<soulus:crystal_dark>)
+	.outputs(<soulus:dust_midnight>)
+	.duration(80)
+	.EUt(120)
+	.buildAndRegister();
+
 
 	#Soul Catalyst
 Composer.remove("composer/soul_catalyst)");

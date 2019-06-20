@@ -299,7 +299,7 @@ furnace.remove(<libvulpes:productdust>);
 macerator.recipeBuilder()
     .inputs(<ore:oreDilithium>)
 	.outputs(<libvulpes:productdust>)
-	.chancedOutput(<ore:dustLithium>.firstItem, 1000)
+	.chancedOutput(<ore:dustLithium>.firstItem, 1000, 150)
     .duration(40)
     .EUt(148)
     .buildAndRegister();

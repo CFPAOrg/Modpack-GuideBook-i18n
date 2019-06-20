@@ -84,7 +84,7 @@ for i in enderUtilDisabled {
 	#Drawbridge / Advanced
 recipes.remove(<enderutilities:draw_bridge>);
 mods.botania.ManaInfusion.addInfusion(<enderutilities:draw_bridge>, 
-	<minecraft:piston>, 100000);
+	<minecraft:sticky_piston>, 50000);
 
 recipes.remove(<enderutilities:draw_bridge:1>);
 recipes.addShapeless(<enderutilities:draw_bridge:1> , [<enderutilities:draw_bridge>]);

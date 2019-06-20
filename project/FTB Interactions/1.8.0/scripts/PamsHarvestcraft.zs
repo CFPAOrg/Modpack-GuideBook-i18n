@@ -192,7 +192,7 @@ for raw, ground in groundMeatMap {
 	mods.gregtech.recipe.RecipeMap.getByName("macerator").recipeBuilder()
 		.inputs([raw])
 		.outputs([ground])
-		.chancedOutput(ground, 7500)
+		.chancedOutput(ground, 7500, 1000)
 		.duration(40)
 		.EUt(16)
 		.buildAndRegister();

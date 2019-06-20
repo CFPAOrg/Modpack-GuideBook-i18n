@@ -61,8 +61,8 @@ macerator.findRecipe(8,
 macerator.recipeBuilder()
 	.inputs(<minecraft:beacon>)
 	.outputs(<ore:dustGlass>.firstItem * 5)
-	.chancedOutput(<ore:powderMana>.firstItem * 4, 10000)
-	.chancedOutput(<ore:dustDiamond>.firstItem * 4, 10000)
+	.chancedOutput(<ore:powderMana>.firstItem * 4, 10000, 2000)
+	.chancedOutput(<ore:dustDiamond>.firstItem * 4, 10000, 2000)
 	.duration(30)
 	.EUt(7)
 	.buildAndRegister();
@@ -120,7 +120,7 @@ macerator.findRecipe(12,
 macerator.recipeBuilder()
 	.inputs([<ore:crushedPurifiedThorium>])
 	.outputs([<ore:dustThorium>.firstItem])
-	.chancedOutput(<ore:dustLutetium>.firstItem, 1400)
+	.chancedOutput(<ore:dustLutetium>.firstItem, 1400, 300)
 	.EUt(12)
 	.duration(40)
 	.buildAndRegister();
@@ -178,7 +178,7 @@ for input in autoclaveGems {
 autoclave.recipeBuilder()
     .inputs(dust * 1)
     .fluidInputs([<liquid:water> * 1000])
-    .chancedOutput(gem, 5000)
+    .chancedOutput(gem, 5000, 750)
     .duration(2000)
     .EUt(24)
     .buildAndRegister();
@@ -216,7 +216,7 @@ recipes.removeByRecipeName("gregtech:ingot_mixed_metal");
 autoclave.recipeBuilder()
 	.inputs(<ore:dustCoal>)
 	.fluidInputs([<liquid:water> * 1000])
-	.chancedOutput(<minecraft:coal>, 5000)
+	.chancedOutput(<minecraft:coal>, 5000, 750)
 	.duration(2000)
 	.EUt(24)
 	.buildAndRegister();
@@ -281,12 +281,12 @@ spinnyGoFast.recipeBuilder()
 	#ferric turf
 spinnyGoFast.recipeBuilder()
     .inputs(<advancedrocketry:hotturf>)
-	.chancedOutput(<ore:dustSilicon>.firstItem, 8500)
-	.chancedOutput(<ore:dustSmallIron>.firstItem, 5500)
-	.chancedOutput(<ore:dustSmallUranium>.firstItem, 3500)
-	.chancedOutput(<ore:dustSmallPlutonium>.firstItem, 3000)
-	.chancedOutput(<ore:dustSmallNaquadah>.firstItem, 1500)
-	.chancedOutput(<ore:dustTinyPlutonium241>.firstItem, 500)
+	.chancedOutput(<ore:dustSilicon>.firstItem, 8500, 1000)
+	.chancedOutput(<ore:dustSmallIron>.firstItem, 5500, 850)
+	.chancedOutput(<ore:dustSmallUranium>.firstItem, 3500, 500)
+	.chancedOutput(<ore:dustSmallPlutonium>.firstItem, 3000, 450)
+	.chancedOutput(<ore:dustSmallNaquadah>.firstItem, 1500, 200)
+	.chancedOutput(<ore:dustTinyPlutonium241>.firstItem, 500, 100)
 	.fluidOutputs([<liquid:sludge> * 100])
 	.duration(480)
 	.EUt(30)
@@ -615,7 +615,7 @@ assembler.recipeBuilder()
 	#Pump - HV
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleGold>, <ore:ringRubber> * 2, <ore:pipeMediumStainlessSteel>, motorHV])
-	.fluidInputs([<liquid:bronze> * 648])
+	.fluidInputs([<liquid:steel> * 648])
 	.outputs(pumpHV)
 	.EUt(240)
 	.duration(1200)
@@ -623,7 +623,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleGold>, <ore:ringStyreneButadieneRubber> * 2, <ore:pipeMediumStainlessSteel>, motorHV])
-	.fluidInputs([<liquid:bronze> * 648])
+	.fluidInputs([<liquid:steel> * 648])
 	.outputs(pumpHV)
 	.EUt(240)
 	.duration(600)
@@ -631,7 +631,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleGold>, <ore:ringSiliconRubber> * 2, <ore:pipeMediumStainlessSteel>, motorHV])
-	.fluidInputs([<liquid:bronze> * 648])
+	.fluidInputs([<liquid:steel> * 648])
 	.outputs(pumpHV)
 	.EUt(240)
 	.duration(300)
@@ -725,34 +725,70 @@ solidifier.recipeBuilder()
 	.buildAndRegister();
 
 
-	#Glass Fluid Extractor Fixes
-fluidExtractor.findRecipe(32, [<ore:blockGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<minecraft:glass_pane>], []).remove();
-fluidExtractor.findRecipe(32, [<minecraft:glass_bottle>], []).remove();
-print("test1");
-//fluidExtractor.findRecipe(32, [<ore:paneGlass>.firstItem], []).remove();
-print("test2");
-fluidExtractor.findRecipe(28, [<ore:dustQuartzite>.firstItem], []).remove();
-print("test3");
-fluidExtractor.findRecipe(32, [<ore:gemGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<ore:gemChippedGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<ore:gemFlawedGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<ore:gemFlawlessGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<ore:gemExquisiteGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<ore:plateGlass>.firstItem], []).remove();
-fluidExtractor.findRecipe(32, [<ore:lensGlass>.firstItem], []).remove();
+	#Glass Fluid Extractor Fixes (Thanks Taheeb)
+{// Remove all liquid:glass outputs from fluid extractor
+	var glassTest = (<liquid:glass> * 0) as ILiquidStack;
+	for recipe in fluidExtractor.recipes {
+		if ((recipe.fluidOutputs[0] * 0).matches(glassTest)){ // hardcoded: fluid extractor recipes currently only have one output
+			print("Removing extractor recipe: " + recipe.inputs[0].matchingItems[0].displayName + " to " + recipe.fluidOutputs[0].displayName + ":" + recipe.fluidOutputs[0].amount);
+			recipe.remove();
+		} // end if
+	} // end for
+}// End remove all liquid:glass outputs from fluid extractor
+
+{ // Add liquid:glass producing recipes to fluid extractor
+	var fluidGlass = <liquid:glass>;
+	var baseTime as int = 20 * 4;
+	var voltage as int = 28;
+	var inputs as IIngredient[] = [<ore:sand>, <ore:blockGlass>, <ore:paneGlass>, <ore:dustQuartzite>, <ore:dustGlass>];
+	var outputs as ILiquidStack[] = [fluidGlass*1000, fluidGlass*1000, fluidGlass*((1000*6/16) as int), fluidGlass*1000, fluidGlass*1000];
+	var durations as int[] = [baseTime, baseTime, ((baseTime as float) * (6.0/16.0)) as int, baseTime, baseTime];
+
+	for x in 0 .. inputs.length {
+		fluidExtractor.recipeBuilder()
+			.inputs(inputs[x])
+			.fluidOutputs(outputs[x])
+			.duration(durations[x])
+			.EUt(voltage)
+			.buildAndRegister();
+	} // end for
+} // End add liquid:glass producing recipes to fluid extractor 
 
 
+{ // Remove all liquid:glass input recipes from solidifier
+	var glassTest = (<liquid:glass> * 0);
+	for recipe in solidifier.recipes {
+		for input in recipe.fluidInputs {
+			if ((input * 0).matches(glassTest)) {
+				if (!isNull(recipe)) {
+				recipe.remove();
+				} // end recipe null check
+			} // end if glass match
+		} // end for input
+	} // end for recipe
+} // End remove all liquid:glass input recipes from solidifier
 
-/*
-var fluidExtractorFixes as long[IItemStack] = {
-	.firstItem : 32,
-	<ore:sand>.firstItem : 28
-};
-for input, voltage in fluidExtractorFixes {
-	fluidExtractor.findRecipe(voltage, [input], []).remove();
-}
-*/
+
+var glass1k as ILiquidStack = <liquid:glass> * 1000;
+
+// this would preferably be a nested array of [ILiquidStack, IItemStack, IItemStack], but 
+// I couldn't find support for non-homogenous arrays or tuples
+// this arrangement can suffer from mismatched array lengths due to bad data entry
+var fluidInputs as ILiquidStack[] = [glass1k, glass1k, glass1k];
+var moldInputs as IIngredient[] = [<metaitem:shape.mold.block>, <metaitem:shape.mold.plate>, <metaitem:shape.mold.ball>];
+var itemOutputs as IItemStack[] = [<minecraft:glass>, <ore:plateGlass>.firstItem, <metaitem:component.glass.tube>];
+
+for x in 0 .. fluidInputs.length {
+	solidifier.recipeBuilder()
+		.fluidInputs(fluidInputs[x])
+		.notConsumable(moldInputs[x])
+		.outputs([itemOutputs[x]])
+		.duration(20)
+		.EUt(7)
+		.buildAndRegister();
+	}
+
+
 	#concrete dust fix
 	//compressor.findRecipe(800, [<ore:dustConcrete>.firstItem * 9], null).remove(); Goddamnit Ga.
 recipes.remove(<gregtech:concrete>);
@@ -766,6 +802,15 @@ solidifier.recipeBuilder()
 	.duration(300)
 	.EUt(14)
 	.buildAndRegister();
+
+fluidExtractor.findRecipe(32, [<ore:blockConcrete>.firstItem], []).remove();
+fluidExtractor.recipeBuilder()
+    .inputs(<ore:blockConcrete>.firstItem)
+	.fluidOutputs(<liquid:concrete> * 144)
+	.duration(80)
+	.EUt(20)
+	.buildAndRegister();
+
 
     #Distllation Tower
 recipes.remove(<meta_tile_entity:gregtech:distillation_tower>);
@@ -895,9 +940,6 @@ RecipeBuilder.get("basic")
 	.addOutput(ironFile)
 	.create();
 
-	#Remove Steam Electrolysis
-electrolyzer.findRecipe(30, [], [<liquid:steam> * 3000]).remove();
-
 	#Remove rubber smelting recipe
 furnace.remove(<metaitem:rubber_drop>);
 
@@ -906,11 +948,32 @@ mods.botania.ManaInfusion.addAlchemy(<ore:dustTinyGallium>.firstItem, <ore:dustB
 
 	#Mozanite with Lutetium
 
+	#revert quantum and improved stars/eyes to randon
+chemical_bath.findRecipe(384, [<minecraft:nether_star>], [<liquid:plutonium> * 1152]).remove();
+chemical_bath.findRecipe(384, [<minecraft:ender_eye>], [<liquid:plutonium> * 288]).remove();	
+	
+chemical_bath.recipeBuilder()
+	.inputs(<minecraft:nether_star>)
+	.fluidInputs([<liquid:radon> * 1152])
+	.outputs(<metaitem:quantumstar>)
+    .duration(1920)
+    .EUt(384)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+	.inputs(<minecraft:ender_eye>)
+	.fluidInputs([<liquid:radon> * 288])
+	.outputs(<metaitem:quantumeye>)
+    .duration(480)
+    .EUt(384)
+    .buildAndRegister();
+	
+
 spinnyGoFast.recipeBuilder()
 	.inputs(<ore:crushedPurifiedMonazite>)
 	.outputs(<ore:crushedCentrifugedMonazite>.firstItem)
-	.chancedOutput(<ore:dustSmallLutetium>.firstItem, 2500)
-	.chancedOutput(<ore:dustTinyNeodymium>.firstItem*3, 10000)
+	.chancedOutput(<ore:dustSmallLutetium>.firstItem, 2500, 500)
+	.chancedOutput(<ore:dustTinyNeodymium>.firstItem*3, 10000, 1500)
     .duration(1160)
     .EUt(60)
     .buildAndRegister();
@@ -919,7 +982,7 @@ spinnyGoFast.recipeBuilder()
 spinnyGoFast.recipeBuilder()
 	.fluidInputs([<liquid:sap> * 100])
 	.fluidOutputs([<liquid:glue> * 100])
-	.chancedOutput(<thermalfoundation:material:832>, 500)
+	.chancedOutput(<thermalfoundation:material:832>, 500, 150)
     .duration(300)
     .EUt(8)
     .buildAndRegister();
@@ -1076,7 +1139,7 @@ chemReactor.recipeBuilder()
     .buildAndRegister();
 	
 	#Removing Methane from Apples
-spinnyGoFast.findRecipe(5, [<minecraft:apple>], []).remove();
+//spinnyGoFast.findRecipe(5, [<minecraft:apple>], []).remove();
 	
 	#remove redundant GT coke brick
 recipes.removeByRecipeName("gtadditions:coke_brick");
