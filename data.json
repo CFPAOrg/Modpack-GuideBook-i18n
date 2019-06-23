@@ -249,6 +249,57 @@
           "xinyuan-liu"
         ],
         "time": 1558690633
+      },
+      {
+        "version": "1.8.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.8.0-windows.zip",
+          "md5": "1bb4a4248fcc34a38dab9d34291cb386",
+          "sha1": "cae1f4b2c914c628f01c8c871639427a3912fb1f"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.8.0-linux.zip",
+          "md5": "1bb4a4248fcc34a38dab9d34291cb386",
+          "sha1": "cae1f4b2c914c628f01c8c871639427a3912fb1f"
+        },
+        "author": [
+          "xinyuan-liu"
+        ],
+        "time": 1561052159
+      },
+      {
+        "version": "1.8.1",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.8.1-windows.zip",
+          "md5": "1bb4a4248fcc34a38dab9d34291cb386",
+          "sha1": "cae1f4b2c914c628f01c8c871639427a3912fb1f"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.8.1-linux.zip",
+          "md5": "1bb4a4248fcc34a38dab9d34291cb386",
+          "sha1": "cae1f4b2c914c628f01c8c871639427a3912fb1f"
+        },
+        "author": [
+          "xinyuan-liu"
+        ],
+        "time": 1561053319
+      },
+      {
+        "version": "1.8.2",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.8.2-windows.zip",
+          "md5": "1bb4a4248fcc34a38dab9d34291cb386",
+          "sha1": "cae1f4b2c914c628f01c8c871639427a3912fb1f"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.8.2-linux.zip",
+          "md5": "1bb4a4248fcc34a38dab9d34291cb386",
+          "sha1": "cae1f4b2c914c628f01c8c871639427a3912fb1f"
+        },
+        "author": [
+          "xinyuan-liu"
+        ],
+        "time": 1561053319
       }
     ]
   },
