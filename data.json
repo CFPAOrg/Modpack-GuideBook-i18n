@@ -300,6 +300,23 @@
           "xinyuan-liu"
         ],
         "time": 1561053319
+      },
+      {
+        "version": "1.9.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.9.0-windows.zip",
+          "md5": "a1fd2e2bb2df1156969451ea82b12d62",
+          "sha1": "84be88b4ef08a3851c70ff60d141363a04ea46ad"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-1.9.0-linux.zip",
+          "md5": "a1fd2e2bb2df1156969451ea82b12d62",
+          "sha1": "84be88b4ef08a3851c70ff60d141363a04ea46ad"
+        },
+        "author": [
+          "xinyuan-liu"
+        ],
+        "time": 1561454213
       }
     ]
   },
