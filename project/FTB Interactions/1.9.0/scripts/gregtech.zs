@@ -1578,7 +1578,7 @@ mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetOsmium>.firstItem);
 	#super conductor cable covered
 assembler.recipeBuilder()
 	.inputs(<ore:wireGtSingleSuperconductor>, <ore:wireFineOsmium>)
-	.fluidInputs([<liquid:polytetrafluoroethylene> * 100])
+	.fluidInputs([<liquid:polytetrafluoroethylene> * 144])
 	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 24}))
 	.outputs(<ore:cableGtSingleSuperconductor>.firstItem)
     .duration(120)
