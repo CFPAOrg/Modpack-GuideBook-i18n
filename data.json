@@ -1045,6 +1045,23 @@
           "TartaricAcid"
         ],
         "time": 1556949377
+      },
+      {
+        "version": "4.0.8",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.8-windows.zip",
+          "md5": "4ada42d4dd8d0eaebcbaa5b8c94a69ed",
+          "sha1": "5a7b51c34135d1bb29374e00f042c2171ddf0171"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.0.8-linux.zip",
+          "md5": "b0884f5e8936c67d7465a48850097af4",
+          "sha1": "e275a620bc7112d283da05f883e16c4784003950"
+        },
+        "author": [
+          "mudapi"
+        ],
+        "time": 1561273311
       }
     ]
   },
