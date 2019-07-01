@@ -1,0 +1,17 @@
+setTranslatedTitle("远古动物")
+
+setIcon("totemic:buffalo_items")
+
+setTranslatedDescription("野牛能给猎人提供许多珍贵资源。 通过一场图腾仪式就可以召唤它们。 收集它们的皮和牙齿，查找图腾百科全书以获取更多信息")
+
+addParent("triumph:stage0/totemic")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("totemic:buffalo_items")
+
+//Rewards
+setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

@@ -1,0 +1,17 @@
+setTranslatedTitle("活化水晶碎片")
+
+setIcon("mysticalagriculture:crafting", 5)
+
+setTranslatedDescription("活化水晶碎片是神秘农业进阶所必须的东西。使用充能台合成它")
+
+addParent("triumph:stage5/inferiumessence")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("mysticalagriculture:crafting", 5)
+
+//Rewards
+setRewardExperience(15)
+
+visibleIf("triumph:stage5/root")

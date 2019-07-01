@@ -1,0 +1,31 @@
+﻿setTranslatedTitle("踏入黑暗之地")
+
+setIcon("abyssalcraft:necronomicon")
+
+setTranslatedDescription("找到并进入一个深渊国度黑暗生物群系。 这些生物群系会在较冷的区域生成。 以世界出生点为赤道的话，向南北探索， 温度会逐渐降低，利用这个特性来更快找到你想要的生态群系")
+
+addParent("triumph:stage0/naturescompass")
+setRequiresParents()
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("entered_forest", "minecraft:location")
+criteria1.setBiome("abyssalcraft:darklands")
+
+criteria2 = addCriteria("entered_forest2", "minecraft:location")
+criteria2.setBiome("abyssalcraft:darklands_forest")
+
+criteria3 = addCriteria("entered_forest3", "minecraft:location")
+criteria3.setBiome("abyssalcraft:darklands_plains")
+
+criteria4 = addCriteria("entered_forest4", "minecraft:location")
+criteria4.setBiome("abyssalcraft:darklands_hills")
+
+criteria5 = addCriteria("entered_forest5", "minecraft:location")
+criteria5.setBiome("abyssalcraft:darklands_mountains")
+
+//Rewards
+setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

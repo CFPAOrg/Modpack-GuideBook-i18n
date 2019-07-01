@@ -1,0 +1,17 @@
+setTranslatedTitle("粒铸模")
+
+setIcon("tconstruct:cast_custom", 1)
+
+setTranslatedDescription("为了获得一个粒铸模，你将需要在石砧上制作一个Stone粒")
+
+addParent("triumph:stage2/gold")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:cast_custom", 1)
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

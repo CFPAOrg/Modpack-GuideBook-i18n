@@ -1,0 +1,17 @@
+setTranslatedTitle("钢锭")
+
+setIcon("immersiveengineering:stone_device", 1)
+
+setTranslatedDescription("高炉将允许你用焦煤和铁锭来制作钢。")
+
+addParent("triumph:stage3/creosote")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal", 8)
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

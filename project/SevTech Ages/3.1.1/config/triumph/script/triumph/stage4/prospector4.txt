@@ -1,0 +1,17 @@
+setTranslatedTitle("4级探矿者")
+
+setIcon("prospectors:prospector_high")
+
+setTranslatedDescription("制作一个高级矿石勘探器来帮你定位阶段4中的矿石")
+
+addParent("triumph:stage4/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("prospectors:prospector_high")
+
+//Rewards
+setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

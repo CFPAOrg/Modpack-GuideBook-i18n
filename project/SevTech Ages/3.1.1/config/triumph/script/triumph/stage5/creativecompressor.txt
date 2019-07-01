@@ -1,0 +1,18 @@
+setTranslatedTitle("创造模式压缩机")
+
+setIcon("pneumaticcraft:creative_compressor")
+
+setTranslatedDescription("合成一个气动工艺（Pneumaticraft）的创造模式压缩机")
+
+addParent("triumph:stage5/ultimateingot")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:creative_compressor")
+
+//Rewards
+setRewardExperience(30)
+setRewardFunction("triumph:prestige_add_200")
+
+visibleIf("triumph:stage5/root")

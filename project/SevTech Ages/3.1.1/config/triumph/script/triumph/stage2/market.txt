@@ -1,0 +1,17 @@
+setTranslatedTitle("市场")
+
+setIcon("farmingforblockheads:market")
+
+setTranslatedDescription("利用小市场来购买种子和树苗。")
+
+addParent("triumph:stage2/gold")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("farmingforblockheads:market")
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

@@ -1,0 +1,17 @@
+setTranslatedTitle("混合晶化金属")
+
+setIcon("stevescarts:modulecomponents", 49)
+
+setTranslatedDescription("收集强化混合晶化金属锭以进一步升级你的基础设施")
+
+addParent("triumph:stage3/standardhull")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("stevescarts:modulecomponents", 49)
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

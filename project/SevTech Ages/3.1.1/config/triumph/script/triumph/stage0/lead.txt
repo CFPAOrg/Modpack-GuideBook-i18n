@@ -1,0 +1,17 @@
+setTranslatedTitle("你一定是个好领袖")
+
+setIcon("minecraft:lead")
+
+setTranslatedDescription("合成一个栓绳来牵动物")
+
+addParent("triumph:stage0/leather")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:lead")
+
+//Rewards
+setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

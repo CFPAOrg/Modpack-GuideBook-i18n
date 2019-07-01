@@ -1,0 +1,17 @@
+setTranslatedTitle("红色星球")
+
+setIcon("tconstruct:edible", 3)
+
+setTranslatedDescription("发射火箭，登陆到火星")
+
+addParent("triumph:stage5/t2rocket")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("Mars")
+
+//Rewards
+setRewardExperience(15)
+
+visibleIf("triumph:stage5/root")

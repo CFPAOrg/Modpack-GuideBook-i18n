@@ -1,0 +1,17 @@
+setTranslatedTitle("矿石勘探器")
+
+setIcon("prospectors:prospector_med")
+
+setTranslatedDescription("制作一个矿石勘探器来帮你定位阶段3中的矿石")
+
+addParent("triumph:stage3/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("prospectors:prospector_med")
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

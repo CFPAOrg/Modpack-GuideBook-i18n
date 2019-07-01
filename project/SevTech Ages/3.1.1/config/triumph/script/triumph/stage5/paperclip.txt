@@ -1,0 +1,17 @@
+setTranslatedTitle("通用回形针")
+
+setIcon("pickletweaks:ppm4", 2)
+
+setTranslatedDescription("制作世界上第一个回形针")
+
+addParent("triumph:stage5/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pickletweaks:ppm4", 2)
+
+//Rewards
+setRewardExperience(15)
+
+visibleIf("triumph:stage5/root")

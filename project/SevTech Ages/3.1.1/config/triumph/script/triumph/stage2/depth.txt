@@ -1,0 +1,17 @@
+setTranslatedTitle("迈向深渊")
+
+setIcon("infoaccessories:info_accessory", 2)
+
+setTranslatedDescription("制作一个深度计以更好的查看你的Y轴。")
+
+addParent("triumph:stage2/compass")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("infoaccessories:info_accessory", 2)
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

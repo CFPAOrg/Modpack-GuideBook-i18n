@@ -1,0 +1,17 @@
+setTranslatedTitle("超级消音器")
+
+setIcon("supersoundmuffler:sound_muffler")
+
+setTranslatedDescription("噪音让你疯狂？放置一个超级消音器，并配置它使你不想听到的声音")
+
+addParent("triumph:stage3/redstone")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("supersoundmuffler:sound_muffler")
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

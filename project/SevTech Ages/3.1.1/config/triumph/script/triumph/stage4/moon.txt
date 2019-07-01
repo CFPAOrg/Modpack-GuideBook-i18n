@@ -1,0 +1,25 @@
+setTranslatedTitle("抵达月球！")
+
+setIcon("chisel:iron", 12)
+
+setTranslatedDescription("发射火箭并降落在月球上")
+
+addParent("triumph:stage4/t1rocket")
+setRequiresParents()
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("Moon")
+
+//Rewards
+setRewardExperience(25)
+setRewardFunction("triumph:stage-5_trigger")
+
+visibleIf("triumph:stage4/root")

@@ -1,0 +1,17 @@
+setTranslatedTitle("石英的压力")
+
+setIcon("actuallyadditions:item_misc", 5)
+
+setTranslatedDescription("探索深渊世界的底部，寻找焦黑石英")
+
+addParent("triumph:stage1/beneath")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("actuallyadditions:item_misc", 5)
+
+//Rewards
+setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

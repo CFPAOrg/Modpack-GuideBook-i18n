@@ -1,0 +1,17 @@
+setTranslatedTitle("星光定位")
+
+setIcon("astralsorcery:itemskyresonator")
+
+setTranslatedDescription("星辉祭坛需要在完成操作之前充能星能。制作并使用法斯刻共振器来定位世界上富含星能的区域。白天你会很难找到它，最好等到晚上。")
+
+addParent("triumph:stage2/conpaper")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemskyresonator")
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

@@ -1,0 +1,25 @@
+setTranslatedTitle("连接星辉")
+
+setIcon("astralsorcery:blockaltar")
+
+setTranslatedDescription("完成工作台转换成星辉工作台的合成")
+
+addParent("triumph:stage1/journal")
+setRequiresParents()
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:blockaltar")
+
+//Rewards
+setRewardExperience(8)
+setRewardFunction("triumph:stage-2_trigger")
+
+visibleIf("triumph:stage1/root")

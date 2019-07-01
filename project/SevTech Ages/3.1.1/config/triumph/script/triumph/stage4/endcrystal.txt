@@ -1,0 +1,17 @@
+setTranslatedTitle("转世")
+
+setIcon("minecraft:end_crystal", 0)
+
+setTranslatedDescription("如果你想复活末影龙，制作4个末影水晶，并把它们放在末地的出口。每个水晶需要放置在3个基岩的中间。")
+
+addParent("triumph:stage4/solidendereye")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:summoned_entity")
+criteria.setEntityType("minecraft:ender_dragon")
+
+//Rewards
+setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

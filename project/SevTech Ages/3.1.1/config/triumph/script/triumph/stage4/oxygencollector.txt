@@ -1,0 +1,17 @@
+setTranslatedTitle("包括氧气")
+
+setIcon("galacticraftcore:collector")
+
+setTranslatedDescription("为了制作星系Mod的燃油，你需要在沉浸工艺的炼油厂中将煤油和氧气结合。氧气最初可以被氧气收集器收集。")
+
+addParent("triumph:stage4/compressor")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftcore:collector")
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage4/root")

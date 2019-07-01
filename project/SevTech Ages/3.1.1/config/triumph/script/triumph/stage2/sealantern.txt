@@ -1,0 +1,17 @@
+setTranslatedTitle("在海晶灯下")
+
+setIcon("minecraft:sea_lantern", 0)
+
+setTranslatedDescription("第三层血魔法祭坛是由海晶灯和萤石制成的。在海洋中找到海底遗迹或者从暮色森林中的黑暗森林迷宫中掉落。")
+
+addParent("triumph:stage2/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("minecraft:sea_lantern", 0)
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

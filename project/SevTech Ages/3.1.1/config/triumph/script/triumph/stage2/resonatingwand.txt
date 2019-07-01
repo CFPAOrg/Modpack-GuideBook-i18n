@@ -1,0 +1,17 @@
+setTranslatedTitle("共鸣")
+
+setIcon("astralsorcery:itemwand")
+
+setTranslatedDescription("你需要制作星辉魔法的共鸣之杖来继续你的旅程。")
+
+addParent("triumph:stage2/enderman")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemwand")
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

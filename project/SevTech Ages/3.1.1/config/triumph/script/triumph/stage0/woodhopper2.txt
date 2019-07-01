@@ -1,0 +1,24 @@
+setTranslatedTitle("巨大化！")
+
+setIcon("primal_tech:wooden_hopper")
+
+setTranslatedDescription("你现在的木漏斗不好用？ 把它升级到 ”料斗 Mk2”来增加它的功能吧！")
+
+addParent("triumph:stage0/woodhopper1")
+setRequiresParents()
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:wooden_hopper")
+
+//Rewards
+setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

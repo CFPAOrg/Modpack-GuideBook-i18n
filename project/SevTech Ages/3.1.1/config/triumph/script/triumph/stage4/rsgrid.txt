@@ -1,0 +1,17 @@
+setTranslatedTitle("精致储存")
+
+setIcon("refinedstorage:grid")
+
+setTranslatedDescription("制作一个精致储存（RS）的终端，并在应用能源和精致储存之间选择，也可以两者兼有！")
+
+addParent("triumph:stage4/inscriber")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("refinedstorage:grid")
+
+//Rewards
+setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

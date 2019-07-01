@@ -1,0 +1,17 @@
+setTranslatedTitle("工程师锤")
+
+setIcon("immersiveengineering:tool")
+
+setTranslatedDescription("制作一个工程师锤来构建多方块机器，旋转方块")
+
+addParent("triumph:stage3/iebook")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:tool", 0)
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

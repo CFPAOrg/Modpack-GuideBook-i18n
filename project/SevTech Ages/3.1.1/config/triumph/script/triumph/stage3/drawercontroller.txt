@@ -1,0 +1,17 @@
+setTranslatedTitle("抽屉管理器")
+
+setIcon("storagedrawers:controller")
+
+setTranslatedDescription("抽屉管理器可以让你的抽屉变成一个网络")
+
+addParent("triumph:stage3/workbench")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("storagedrawers:controller")
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

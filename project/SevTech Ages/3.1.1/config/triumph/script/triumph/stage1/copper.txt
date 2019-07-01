@@ -1,0 +1,29 @@
+setTranslatedTitle("我们得到了铜")
+
+setIcon("immersiveengineering:metal")
+
+setTranslatedDescription("找寻地表的铜样本，并获取铜矿！ 通常在Y值12~52的地方，名字也可能是孔雀石或者蓝铜矿 谨记，地表样本在已经探索过的区域也能找到")
+
+addParent("triumph:stage1/prospector")
+setRequiresParents()
+
+setFrameType("Goal")
+
+setRequirements("any")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("brokeLog1", "triumph:player_break_block")
+criteria1.setBlock("geolosys:ore", 2)
+
+criteria2 = addCriteria("brokeLog2", "triumph:player_break_block")
+criteria2.setBlock("geolosys:ore", 3)
+
+//Rewards
+setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

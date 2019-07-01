@@ -1,0 +1,17 @@
+setTranslatedTitle("路遥知马力")
+
+setIcon("horsepower:grindstone")
+
+setTranslatedDescription("合成一个马磨石，再用栓绳牵上马， 就可以将磨石自动化了。 如果没有马，你还可以使用鹦鹉、野牛、猪、牛、羊驼、狼")
+
+addParent("triumph:stage0/lead")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("horsepower:grindstone")
+
+//Rewards
+setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

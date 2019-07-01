@@ -1,0 +1,24 @@
+setTranslatedTitle("满脑子青铜！")
+
+setIcon("mekanism:ingot", 2)
+
+setTranslatedDescription("使用合金窑制作出青铜锭")
+
+addParent("triumph:stage1/alloykiln")
+setRequiresParents()
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("mekanism:ingot", 2)
+
+//Rewards
+setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

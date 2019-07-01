@@ -1,0 +1,17 @@
+setTranslatedTitle("水车")
+
+setIcon("immersiveengineering:wooden_device1")
+
+setTranslatedDescription("将水车连接到动能发电机来产生能量")
+
+addParent("triumph:stage3/creosote")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:wooden_device1", 0)
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

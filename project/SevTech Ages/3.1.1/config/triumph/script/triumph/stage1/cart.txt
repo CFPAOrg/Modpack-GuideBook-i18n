@@ -1,0 +1,17 @@
+setTranslatedTitle("运输之爱")
+
+setIcon("astikorcarts:cargocart")
+
+setTranslatedDescription("想要携带家产走游四方？合成一个马车并将其拴上马即可 Shift点击能够打开马车GUI！")
+
+addParent("triumph:stage0/wheel")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astikorcarts:cargocart")
+
+//Rewards
+setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

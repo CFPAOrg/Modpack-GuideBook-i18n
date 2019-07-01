@@ -1,0 +1,15 @@
+setTranslatedTitle("第三纪元！")
+
+setIcon("rustic:iron_lantern")
+
+setTranslatedDescription("欢迎来到第三纪元！")
+
+setBackground("minecraft:textures/blocks/soul_sand.png")
+
+setShowToast(false)
+
+setAnnounceToChat(true)
+
+//Criteria
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stage2/stevescarts")

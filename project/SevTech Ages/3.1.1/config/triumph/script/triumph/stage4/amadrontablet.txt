@@ -1,0 +1,17 @@
+setTranslatedTitle("Amadron平板电脑")
+
+setIcon("pneumaticcraft:amadron_tablet")
+
+setTranslatedDescription("用充能站对Amadron平板电脑进行充气，然后用它来订购物品。确保通过使用Shift右键单击箱子或储存流体来设置上门收件与收获位置。")
+
+addParent("triumph:stage4/plasticmixer")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:amadron_tablet")
+
+//Rewards
+setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

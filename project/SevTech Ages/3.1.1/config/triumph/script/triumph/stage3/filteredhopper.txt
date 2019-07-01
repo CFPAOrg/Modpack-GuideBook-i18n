@@ -1,0 +1,17 @@
+setTranslatedTitle("滤筛漏斗")
+
+setIcon("betterwithmods:single_machine", 2)
+
+setTranslatedDescription("使用滤筛漏斗从灵魂沙里筛出炼狱火之烬")
+
+addParent("triumph:stage3/nether")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:single_machine", 2)
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

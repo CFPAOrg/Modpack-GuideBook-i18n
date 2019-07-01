@@ -1,0 +1,17 @@
+setTranslatedTitle("哗哗巴士")
+
+setIcon("astikorcarts:wheel")
+
+setTranslatedDescription("合成来自“马拉车具（Astikoor）”这个模组的轮子 并合成一个马车 你需要使用该模组的一个特殊键位来连接马与马车")
+
+addParent("triumph:stage0/saddle")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astikorcarts:wheel", 0)
+
+//Rewards
+setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

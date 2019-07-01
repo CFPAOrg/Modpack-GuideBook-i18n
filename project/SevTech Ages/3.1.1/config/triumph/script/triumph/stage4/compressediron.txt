@@ -1,0 +1,17 @@
+setTranslatedTitle("压力之下")
+
+setIcon("pneumaticcraft:ingot_iron_compressed")
+
+setTranslatedDescription("制作一个星系Mod的压缩机，用它来制作压缩金属板")
+
+addParent("triumph:stage4/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:ingot_iron_compressed")
+
+//Rewards
+setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

@@ -1,0 +1,24 @@
+setTranslatedTitle("星辉升级")
+
+setIcon("astralsorcery:blockaltar", 1)
+
+setTranslatedDescription("将星辉合成台升级到下一阶段（星辉祭坛）。 除了祭坛之外，你还需要构建一个结构来开始制作过程。 请参阅星芒宝典的探索部分。")
+
+addParent("triumph:stage2/lightwell")
+setRequiresParents()
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "triumph:right_click_block")
+criteria.setBlock("astralsorcery:blockaltar", 1)
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

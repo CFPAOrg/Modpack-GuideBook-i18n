@@ -1,0 +1,17 @@
+﻿setTranslatedTitle("伙计，我的生物群系在哪里？")
+
+setIcon("naturescompass:naturescompass")
+
+setTranslatedDescription("你需要寻找黑暗生物群系来继续你的旅程。 使用生物群系指南找到最近的生物群系")
+
+addParent("triumph:stage0/workstump")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("naturescompass:naturescompass")
+
+//Rewards
+setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")
