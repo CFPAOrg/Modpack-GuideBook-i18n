@@ -1,0 +1,10 @@
+﻿汉化内容更新
+1."项目：小型化"进度成就  从stage3（3.0.8）变更为stage5（3.1.1）
+2.stage3增加两个新进度 DireWires和 A Dire Situation 暂时保留原句。
+3.增加一个tips，暂时保留原句。
+4.triumph中weaponize.txt未使用翻译key，已改正。
+
+汉化使用
+替换所有文件后
+如版本等于或低于3.1.1，则需要安装最新的B.A.S.E mod 替换mod文件夹中的base-1.12.2-3.12.0.jar即可
+链接：https://www.curseforge.com/minecraft/mc-mods/base/files/2722575
