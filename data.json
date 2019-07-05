@@ -989,6 +989,24 @@
           "TartaricAcid"
         ],
         "time": 1551163248
+      },
+      {
+        "version": "3.1.1",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SevTech%20Ages-3.1.1-windows.zip",
+          "md5": "fc72e33dda3a091e8466af77f099ae05",
+          "sha1": "b19577116baabad2571057bc8b5a806da9a484d3"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SevTech%20Ages-3.1.1-linux.zip",
+          "md5": "fc72e33dda3a091e8466af77f099ae05",
+          "sha1": "b19577116baabad2571057bc8b5a806da9a484d3"
+        },
+        "author": [
+          "yaohuomhuom",
+          "yaohuom"
+        ],
+        "time": 1562298378
       }
     ]
   },
