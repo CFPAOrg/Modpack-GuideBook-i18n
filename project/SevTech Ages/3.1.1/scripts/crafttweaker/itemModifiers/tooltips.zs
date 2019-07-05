@@ -369,15 +369,15 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<teslacorelib:speed_tier2:0>:[
 	format.yellow("为 Industrial Foregoing 的机器升级")
 	],
-	<astikoor:plowcart:0>:[
+	<astikorcarts:plowcart:0>:[
 	format.yellow("使用“马拉车具”模"),
 	 format.yellow("组的按键来拴上马")
 	],
-	<astikoor:cargocart:0>:[
-	format.yellow("使用“马拉车具”模"),
+	<astikorcarts:cargocart:0>:[
+	 format.yellow("使用“马拉车具”模"),
 	 format.yellow("组的按键来拴上马")
 	],
-	<astikorcarts:mobcart:0>: [
+	<astikorcarts:mobcart:0>:[
 	format.yellow("使用“马拉车具”模"),
 	 format.yellow("组的按键来拴上马")
 	],
