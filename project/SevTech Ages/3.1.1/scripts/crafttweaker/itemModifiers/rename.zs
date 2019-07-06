@@ -1,3 +1,12 @@
+/*
+	SevTech: Ages Item Renaming Script
+
+	This script allows for the renaming of an item.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
+*/
 import crafttweaker.item.IItemStack;
 
 static renameMap as string[IItemStack] = {
@@ -22,7 +31,7 @@ static renameMap as string[IItemStack] = {
 
 	//Chisel & Bits
 	<chiselsandbits:chisel_iron:0>: "微型凿子",
-
+	
 	<extraplanets:apple_iron:0>: "旅行地图令牌"
 };
 

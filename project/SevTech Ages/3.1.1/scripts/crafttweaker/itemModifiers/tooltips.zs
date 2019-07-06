@@ -396,7 +396,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<primal:diamond_workblade:*>:[
 	format.red("无法被修复")
 	],
-	<primal:flint_axe:*>:[
+	<primal:flint_pickaxe:*>:[
 	format.red("无法被修复")
 	],
 	<waterstrainer:garden_trowel:0>:[
