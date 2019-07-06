@@ -994,17 +994,17 @@
         "version": "3.1.1",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SevTech%20Ages-3.1.1-windows.zip",
-          "md5": "fc72e33dda3a091e8466af77f099ae05",
-          "sha1": "b19577116baabad2571057bc8b5a806da9a484d3"
+          "md5": "b63d2d24bdb7ec8eb5d1aebe7c983124",
+          "sha1": "cb5329ff8ed83bb54da122768e842627e69ec2a3"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SevTech%20Ages-3.1.1-linux.zip",
-          "md5": "fc72e33dda3a091e8466af77f099ae05",
-          "sha1": "b19577116baabad2571057bc8b5a806da9a484d3"
+          "md5": "b63d2d24bdb7ec8eb5d1aebe7c983124",
+          "sha1": "cb5329ff8ed83bb54da122768e842627e69ec2a3"
         },
         "author": [
-          "yaohuomhuom",
-          "yaohuom"
+          "yaohuom",
+          "yaohuomhuom"
         ],
         "time": 1562298378
       }
