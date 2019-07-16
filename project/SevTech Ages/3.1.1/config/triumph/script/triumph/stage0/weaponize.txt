@@ -1,0 +1,17 @@
+setTranslatedTitle("advancements.stage0.weaponize.title")
+
+setIcon("primal:sharp_bone")
+
+setTranslatedDescription("advancements.stage0.weaponize.description")
+
+addParent("triumph:stage0/firsttool")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:sharp_bone")
+
+//Rewards
+setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")
