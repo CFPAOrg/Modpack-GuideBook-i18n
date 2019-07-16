@@ -1,0 +1,323 @@
+{
+  "images": {},
+  "buttons": {
+    "singleplayer": {
+      "text": "menu.singleplayer",
+      "hoverText": "interactions.menu.singleplayer.hovertext",
+      "posX": 20,
+      "posY": -140,
+      "width": 250,
+      "height": 40,
+      "imageWidth": 652,
+      "imageHeight": 170,
+      "alignment": "left_center",
+      "texture": "mainmenu:button.png",
+      "action": {
+        "type": "openGui",
+        "gui": "singleplayer"
+      }
+    },
+    "multiplayer": {
+      "text": "menu.multiplayer",
+      "hoverText": "interactions.menu.multiplayer.hovertext",
+      "posX": 20,
+      "posY": -100,
+      "width": 250,
+      "height": 40,
+      "imageWidth": 652,
+      "imageHeight": 170,
+      "alignment": "left_center",
+      "texture": "mainmenu:button.png",
+      "action": {
+        "type": "openGui",
+        "gui": "multiplayer"
+      }
+    },
+    "mods": {
+      "text": "fml.menu.mods",
+      "hoverText": "interactions.menu.mods.hovertext",
+      "posX": 20,
+      "posY": -60,
+      "width": 250,
+      "height": 40,
+      "alignment": "left_center",
+      "imageWidth": 652,
+      "imageHeight": 170,
+      "texture": "mainmenu:button.png",
+      "action": {
+        "type": "openGui",
+        "gui": "mods"
+      }
+    },
+    "options": {
+      "text": "menu.options",
+      "hoverText": "interactions.menu.options.hovertext",
+      "posX": 20,
+      "posY": -20,
+      "width": 250,
+      "height": 40,
+      "alignment": "left_center",
+      "imageWidth": 652,
+      "imageHeight": 170,
+      "texture": "mainmenu:button.png",
+      "action": {
+        "type": "openGui",
+        "gui": "options"
+      }
+    },
+    "tracker": {
+      "text": "interactions.menu.tracker.text",
+      "hoverText": "interactions.menu.tracker.hovertext",
+      "posX": 20,
+      "posY": 20,
+      "width": 250,
+      "height": 40,
+      "imageWidth": 652,
+      "imageHeight": 170,
+      "alignment": "left_center",
+      "texture": "mainmenu:button.png",
+      "action": {
+        "type": "openLink",
+        "link": "https://github.com/FTBTeam/FTB-Interactions/issues"
+      }
+    },
+    "discord": {
+      "text": "interactions.menu.discord.text",
+      "hoverText": "interactions.menu.discord.hovertext",
+      "posX": 20,
+      "posY": 60,
+      "width": 250,
+      "height": 40,
+      "alignment": "left_center",
+      "imageWidth": 652,
+      "imageHeight": 170,
+      "texture": "mainmenu:button.png",
+      "action": {
+        "type": "openLink",
+        "link": "https://discord.gg/QAuHczY"
+      }
+    },
+    "quit": {
+      "text": "menu.quit",
+      "hoverText": "interactions.menu.quit.hovertext",
+      "posX": 20,
+      "posY": 100,
+      "width": 250,
+      "height": 40,
+      "alignment": "left_center",
+      "imageWidth": 652,
+      "imageHeight": 170,
+      "texture": "mainmenu:button.png",
+      "action": {
+        "type": "quit"
+      }
+    },
+    "language": {
+      "text": "",
+      "posX": -22,
+      "posY": 1,
+      "width": 20,
+      "height": 20,
+      "tooltip": "interactions.menu.language.tooltip",
+      "alignment": "top_right",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "texture": "mainmenu:lang.png",
+      "action": {
+        "type": "openGui",
+        "gui": "languages"
+      }
+    },    
+    "website": {
+      "text": "",
+      "posX": -22,
+      "posY": 20,
+      "width": 20,
+      "height": 20,
+      "alignment": "top_right",
+      "tooltip": "interactions.menu.website.tooltip",
+      "texture": "mainmenu:web.png",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "action": {
+        "type": "openLink",
+        "link": "http://www.feed-the-beast.com/"
+      }
+    },
+    "creeperhost": {
+      "text": "",
+      "posX": -22,
+      "posY": 39,
+      "width": 20,
+      "height": 20,
+      "alignment": "top_right",
+      "tooltip": "interactions.menu.creeperhost.tooltip",
+      "texture": "mainmenu:creeperhost.png",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "wrappedButton": 30051988
+    },    
+    "refresh": {
+      "text": "",
+      "posX": 0,
+      "posY": 0,
+      "width": 20,
+      "height": 20,
+      "alignment": "top_left",
+      "texture": "mainmenu:refresh.png",
+      "action": {
+        "type": "refresh"
+      }
+    }
+  },
+  "labels": {
+    "mojang": {
+      "text": "Copyright Mojang AB.",
+      "hoverText": "§îCopyright Mojang AB.",
+      "posX": -110,
+      "posY": -10,
+      "color": -1,
+      "alignment": "bottom_right",
+      "action": {
+        "type": "openGui",
+        "gui": "credits"
+      }
+    },
+    "forge": {
+      "text": "Forge #forgeversion#",
+      "posX": 2,
+      "posY": -16,
+      "fontSize": 0.9,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "modsloaded": {
+      "text": "#modsloaded# Mods Loaded",
+      "posX": 2,
+      "posY": -8,
+      "fontSize": 0.9,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    }
+  },
+  "other": {
+    "splash-text": {
+      "posX": 90,
+      "posY": 70,
+      "color": -256,
+      "alignment": "top_center",
+      "texts": "file:modpack:texts/splashes.txt"
+    },
+    "background": {
+      "image": "",
+      "slideshow": {
+        "images": [
+          "mainmenu:images/000.jpg",
+          "mainmenu:images/001.jpg",
+          "mainmenu:images/002.jpg",
+          "mainmenu:images/003.jpg",
+          "mainmenu:images/004.jpg",
+          "mainmenu:images/005.jpg",
+          "mainmenu:images/006.jpg",
+          "mainmenu:images/007.jpg",
+          "mainmenu:images/008.jpg",
+          "mainmenu:images/009.jpg",
+          "mainmenu:images/010.jpg",
+          "mainmenu:images/011.jpg",
+          "mainmenu:images/012.jpg",
+          "mainmenu:images/013.jpg",
+          "mainmenu:images/014.jpg",
+          "mainmenu:images/015.jpg",
+          "mainmenu:images/016.jpg",
+          "mainmenu:images/017.jpg",
+          "mainmenu:images/018.jpg",
+          "mainmenu:images/019.jpg",
+          "mainmenu:images/020.jpg",
+          "mainmenu:images/021.jpg",
+          "mainmenu:images/022.jpg",
+          "mainmenu:images/023.jpg",
+          "mainmenu:images/024.jpg",
+          "mainmenu:images/025.jpg",
+          "mainmenu:images/026.jpg",
+          "mainmenu:images/027.jpg",
+          "mainmenu:images/028.jpg",
+          "mainmenu:images/029.jpg",
+          "mainmenu:images/030.jpg",
+          "mainmenu:images/031.jpg",
+          "mainmenu:images/032.jpg",
+          "mainmenu:images/033.jpg",
+          "mainmenu:images/034.jpg",
+          "mainmenu:images/035.jpg",
+          "mainmenu:images/036.jpg",
+          "mainmenu:images/037.jpg",
+          "mainmenu:images/038.jpg",
+          "mainmenu:images/039.jpg",
+          "mainmenu:images/040.jpg",
+          "mainmenu:images/041.jpg",
+          "mainmenu:images/042.jpg",
+          "mainmenu:images/043.jpg",
+          "mainmenu:images/044.jpg",
+          "mainmenu:images/045.jpg",
+          "mainmenu:images/046.jpg",
+          "mainmenu:images/047.jpg",
+          "mainmenu:images/048.jpg",
+          "mainmenu:images/049.jpg",
+          "mainmenu:images/050.jpg",
+          "mainmenu:images/051.jpg",
+          "mainmenu:images/052.jpg",
+          "mainmenu:images/053.jpg",
+          "mainmenu:images/054.jpg",
+          "mainmenu:images/055.jpg",
+          "mainmenu:images/056.jpg",
+          "mainmenu:images/057.jpg",
+          "mainmenu:images/058.jpg",
+          "mainmenu:images/059.jpg",
+          "mainmenu:images/060.jpg",
+          "mainmenu:images/061.jpg",
+          "mainmenu:images/062.jpg",
+          "mainmenu:images/063.jpg",
+          "mainmenu:images/064.jpg",
+          "mainmenu:images/065.jpg",
+          "mainmenu:images/066.jpg",
+          "mainmenu:images/067.jpg",
+          "mainmenu:images/068.jpg",
+          "mainmenu:images/069.jpg",
+          "mainmenu:images/070.jpg",
+          "mainmenu:images/071.jpg",
+          "mainmenu:images/072.jpg",
+          "mainmenu:images/073.jpg",
+          "mainmenu:images/074.jpg",
+          "mainmenu:images/075.jpg",
+          "mainmenu:images/076.jpg",
+          "mainmenu:images/077.jpg",
+          "mainmenu:images/078.jpg",
+          "mainmenu:images/079.jpg",
+          "mainmenu:images/080.jpg",
+          "mainmenu:images/081.jpg",
+          "mainmenu:images/082.jpg",
+          "mainmenu:images/083.jpg",
+          "mainmenu:images/084.jpg",
+          "mainmenu:images/085.jpg",
+          "mainmenu:images/086.jpg",
+          "mainmenu:images/087.jpg",
+          "mainmenu:images/088.jpg",
+          "mainmenu:images/089.jpg",
+          "mainmenu:images/090.jpg",
+          "mainmenu:images/091.jpg",
+          "mainmenu:images/092.jpg",
+          "mainmenu:images/093.jpg",
+          "mainmenu:images/094.jpg",
+          "mainmenu:images/095.jpg",
+          "mainmenu:images/096.jpg",
+          "mainmenu:images/097.jpg",
+          "mainmenu:images/098.jpg",
+          "mainmenu:images/099.jpg"
+        ],
+        "displayDuration": 1,
+        "fadeDuration": 0
+      }
+    }
+  }
+}
