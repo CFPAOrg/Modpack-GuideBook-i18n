@@ -1,0 +1,213 @@
+{
+    "images":
+    {
+		"logo":
+        {
+            "image" : "mainmenu:textures/logo.png",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 475,
+            "height" : 240,
+            "alignment" : "top_left"
+        }
+
+	},
+
+    "buttons":
+    {
+		"singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 105,
+            "posY" : 70,
+            "width" : 186,
+            "height" : 30,
+			imageWidth : 186,
+			imageHeight : 40,
+			"alignment" : "left_center",
+			"hoverText" : "\u8ba9\u6211\u4eec\u5f00\u59cb\u5192\u9669\u5427\uff01",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+		"multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 105,
+            "posY" : 105,
+            "width" : 90,
+            "height" : 30,
+			imageWidth : 186,
+			imageHeight : 40,
+			"alignment" : "left_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+		"hosting":
+        {
+            "text" : "\u79df\u4e00\u53f0\u670d\u52a1\u5668\uff01",
+			"normalTextColor" : 3125670,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 202,
+            "posY" : 105,
+            "width" : 90,
+            "height" : 30,
+			imageWidth : 186,
+			imageHeight : 40,
+			"alignment" : "left_center",
+			"hoverText" : "\u901a\u8fc7 Bisecthosting",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://bisecthosting.com/xdreamz"
+            }
+        },
+
+		"options":
+        {
+            "text" : "",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btno.png",
+            "posX" : 185,
+            "posY" : 140,
+            "width" : 30,
+            "height" : 30,
+			imageWidth : 30,
+			imageHeight : 30,
+			"alignment" : "left_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+		"language":
+        {
+            "text" : "",
+			"texture" : "mainmenu:textures/btnl.png",
+            "posX" : 105,
+            "posY" : 140,
+            "width" : 30,
+            "height" : 30,
+			imageWidth : 30,
+			imageHeight : 30,
+			"alignment" : "left_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "menu.quit",
+			"normalTextColor" : 16729156,
+			"hoverTextColor" : 14483456,
+			"texture" : "mainmenu:textures/btnq.png",
+            "posX" : 225,
+            "posY" : 140,
+            "width" : 66,
+            "height" : 30,
+			imageWidth : 66,
+			imageHeight : 30,
+			"alignment" : "left_center",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        },
+
+        "mods":
+        {
+            "text" :"",
+			"normalTextColor" : 6710886,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btnm.png",
+            "posX" : 145,
+            "posY" : 140,
+            "width" : 30,
+            "height" : 30,
+			imageWidth : 30,
+			imageHeight : 30,
+			"alignment" : "left_center",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/wMpsj8y"
+            }
+        }
+		},
+
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Forge #forgeversion# for Minecraft #mcversion# - Copyright Mojang AB. Do not distribute!",
+            "posX" : 20,
+            "posY" : -10,
+            "color" : 1,
+            "alignment" : "bottom_left"
+        }
+    },
+
+		"alignments":
+    {
+        "c1":
+        {
+            "factorWidth" : 0.5,
+            "factorHeight" : 0.7
+        },
+
+        "c2":
+        {
+            "factorWidth" : 0.2,
+            "factorHeight" : 0.2
+        }
+    },
+
+
+    "other":
+    {
+		"background": {
+            "image": "",
+            "slideshow": {
+                "images":
+				[
+                    "mainmenu:screenshot1.png",
+                    "mainmenu:screenshot2.png",
+                    "mainmenu:screenshot3.png",
+                    "mainmenu:screenshot4.png",
+                    "mainmenu:screenshot5.png",
+                    "mainmenu:screenshot6.png",
+                    "mainmenu:screenshot7.png",
+                    "mainmenu:screenshot8.png",
+                    "mainmenu:screenshot9.png",
+					"mainmenu:screenshot10.png",
+					"mainmenu:screenshot11.png",
+					"mainmenu:screenshot12.png",
+					"mainmenu:screenshot12.png"
+                ],
+                "displayDuration": 50,
+                "fadeDuration": 50,
+                "shuffle": "true"
+            }
+        }
+    }
+}
