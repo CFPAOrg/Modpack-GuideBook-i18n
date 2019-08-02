@@ -954,6 +954,28 @@
     ]
   },
   {
+    "name": "Roguelike Adventures and Dungeons",
+    "contents": [
+      {
+        "version": "1.28",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Roguelike%20Adventures%20and%20Dungeons-1.28-windows.zip",
+          "md5": "ad7003fad67d17f0cf4319f18f349950",
+          "sha1": "70041839cf170074b2569d740159627526c0369a"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Roguelike%20Adventures%20and%20Dungeons-1.28-linux.zip",
+          "md5": "ad7003fad67d17f0cf4319f18f349950",
+          "sha1": "70041839cf170074b2569d740159627526c0369a"
+        },
+        "author": [
+          "mudapi"
+        ],
+        "time": 1564540433
+      }
+    ]
+  },
+  {
     "name": "SevTech Ages",
     "contents": [
       {
