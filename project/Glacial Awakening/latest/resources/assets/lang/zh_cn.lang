@@ -4,7 +4,7 @@ glacial.chapter_2.chapter=第二章节
 glacial.chapter_3.chapter=第三章节
 glacial.chapter_4.chapter=第四章节
 glacial.chapter_5.chapter=第五章节
-glacial.chemisty_chapter.chapter=挑战任务]
+glacial.chemisty_chapter.chapter=挑战任务
 
 #
 #Chapter 1
@@ -32,7 +32,7 @@ glacial.crude_shovel.title=简陋的铲
 glacial.crude_shovel.text=使用一些植物纤维，花岗岩块和木棍来制作简陋的铲。
 
 glacial.crafting_table.title=工作台
-glacial.crafting_table.text=单击JEI上的物品可以查看该物品的配方。你可以在整个整合包中使用此功能。附加功能：将鼠标悬停在一个物品上，然后点击"A"将其增加到JEI书签。
+glacial.crafting_table.text=单击JEI上的物品可以查看该物品的配方。你可以在整个整合包中使用此功能。附加功能：将鼠标悬停在一个物品上，然后敲击键盘上的"A"键将其增加到JEI书签。
 
 glacial.compacting_bin.title=挤压桶
 glacial.compacting_bin.text=将物品放入桶内并用铲子反复敲击，将它们挤压成块。通过将鼠标悬停在挤压桶上并点击“U”可以来查看该物品的配方。
@@ -70,7 +70,7 @@ glacial.obsidian.title=自由了！
 glacial.obsidian.text=使用灌输台为你的法杖灌输“破碎”法术。使用法杖破坏上方的黑曜石层，以便离开洞穴。
 
 glacial.early_storage.title=前期的存储设备
-glacial.early_storage.text=没有木头？没有问题！制作两个石箱子来解决你的存储问题。
+glacial.early_storage.text=没有木头？没关系！制作两个石箱子来解决你的存储问题。
 
 glacial.stone_rock_grinder.title=石制碎石杵
 glacial.stone_rock_grinder.text=圆石制成沙砾，砂砾制成沙子，用碎石杵挖掘沙砾有机会掉落蓝色燧石。
@@ -91,11 +91,11 @@ glacial.clay.title=粘土这样或者那样
 glacial.clay.text=粘土可以通过在地下挖掘或在水中混合骨粉和粉碎的石灰岩获得
 
 glacial.water_strainer.title=你的第一个过滤器
-glacial.water_strainer.text=没有线？尝试制作皮捆绳子！企鹅，熊和鹿都会掉落皮革，将皮革与蓝色燧石合成即可得到皮捆绳。
+glacial.water_strainer.text=没有线？可以尝试制作皮捆绳！企鹅，熊和鹿都会掉落皮革，将皮革与蓝色燧石合成即可得到皮捆绳。
 
 glacial.fertile_soil.title=肥沃的土壤
 glacial.fertile_soil.text=不需要跳舞。
- 
+
 glacial.growing_trees.title=生长的树苗
 glacial.growing_trees.text=给这个冰冻的荒地带来一些生机。
 
@@ -119,11 +119,11 @@ glacial.stone_combustion.text_2=  1. 放下石制框架
 glacial.stone_combustion.text_3=  2. 将石制氧化加热器右键单击石制框架，将其放入
 glacial.stone_combustion.text_4=  3. 用石头或圆石围绕氧化加热器上方的4个面。
 glacial.stone_combustion.text_5=  4. 在顶部放置一个方块，作为氧化加热器的盖子。在氧化加热器上放置一个按钮或者拉杆，以便在氧化室中存在物品时将其激活。
-glacial.stone_combustion.text_6=没有石头来制作这些物品？看看你的过滤器，或许会找到一些石头。
+glacial.stone_combustion.text_6=没有石头来制作这些物品？检查一下你的过滤器，或许会找到一些石头。
 
 glacial.blaze_powder.title=制作烈焰粉
-glacial.blaze_powder.text=要使用氧化加热器，需要将顶部的方块移除，扔入一些火药并在顶部重新放置方块。在加热器中放入一些燃料将其加热到至少75 HU，然后启动加热器。你应该会听到一个爆炸声，就说明物品已经制作好了。
- 
+glacial.blaze_powder.text=要使用氧化加热器，需要先将顶部的方块移除，扔入一些火药并再重新放置。在加热器中放入一些燃料将其加热到至少75 HU，然后启动加热器。你应该会听到一个爆炸声，就说明物品已经制作好了。
+
 glacial.stone_kiln.title=石窑
 glacial.stone_kiln.text=将来，你会需要大量的砌砖和大量的混合锭。
 
@@ -193,15 +193,15 @@ glacial.bloomery.text_4=3. 你可以使用机械风箱来加速该过程。完�
 glacial.bloomery.text_5=4. 用钳子拾起铁坯并将其转移到砧上。
 
 glacial.lapis.title=制作青金石
-glacial.lapis.text=使用圆石转换核心和合适的碎片还有一些催化方块来制造青金石矿石。
+glacial.lapis.text=使用圆石转换核心和合适的水晶碎片还有一些催化方块来制造青金石矿石。
 
 glacial.furnace.title=制作熔炉
-glacial.furnace.desc=燃烧！
+glacial.furnace.desc=燃烧吧！
 
 glacial.melon.title=制作西瓜
 glacial.melon.text_1=使用根源魔法的“Transmutation”仪式来将南瓜转换成西瓜。南瓜需要放置在水的上方，放置一块泥土，在泥土上放置南瓜，破坏泥土后将其替换成水。
 glacial.melon.text_2=要开始这个仪式，你需要放置一个符文柱在附近，它与柴堆需要隔开两个方块。你需要放置两个符文石（来自根源魔法），并且在顶部上放置雕刻的符文石。注意的是柴堆应该靠近你的南瓜。
-glacial.melon.text_3=云梅不够？尝试在Y坐标等于100的方块上扔一些元素土。元素土可以在“Druidic Arts book”中查看。
+glacial.melon.text_3=云梅不足？尝试在Y坐标等于100的位置上扔一些元素土。有关元素土的说明可以在“Druidic Arts book”一书中查看。
 
 glacial.iron_ingots.title=铁锭
 glacial.iron_ingots.text_1=用锤子敲打砧上的铁坯。你越接近，敲打的力量越大，产量也会随之变高。使用较重的锤子也会增加你的产量。
@@ -209,12 +209,12 @@ glacial.iron_ingots.text_2=为了充分利用你的锻造炉，使用铁矿渣�
 
 glacial.pereskia.title=精灵花瓣
 glacial.pereskia.text=精灵花瓣用于许多不同的仪式和法术。将它们放在合成台上合成以来获得种子，然后你就可以在耕地上种植了。
- 
+
 glacial.tavern.title=制作Shabby Tavern
 glacial.tavern.text=Shabby Tavern可以使用hearthing planks来标记一个路径点。Shift右键单击Shabby Tavern来为其指定一个名称，然后单击房子图标将其设置为你的家。
 
 glacial.gold_ore.title=制作金矿石
-glacial.gold_ore.text=使用圆石转换核心和合适的碎片还有一些催化方块来制造金矿石。
+glacial.gold_ore.text=使用圆石转换核心和合适的水晶碎片还有一些催化方块来制造金矿石。
 
 glacial.redstone.title=红石
 glacial.redstone.text=在氧化加热器中将火药和烈焰粉丢在一起并开启加热器，你就会得到红石。火药可以通过氧化燧石来获得。
@@ -225,16 +225,16 @@ glacial.iron_casing.text=将你的石制框架更换成铁制框架，这将使�
 glacial.runic_shears.title=符文剪刀
 glacial.runic_shears.desc=剪掉剪掉
 glacial.runic_shears.text=在甜菜根上使用符文剪毛来获得灵魂草。将灵魂草在工作台合成后可以获得灵魂草种子。灵魂草种子可以种植在耕地上。
- 
+
 glacial.wildwood.title=劈砍野木
 glacial.wildwood.text=通过在成熟的野生根茎附近使用“Wildroot Growth”仪式来使野生根茎变成野木树。
 
 glacial.natural_aura.title=自然灵气入门
 glacial.natural_aura.text=获得金叶子：在树叶上使用闪耀纤维，它会慢慢地将树叶变成金叶。破坏金叶时，它们就会掉落金叶子。
 
-glacial.joy_tokens.title=欢欣人偶
+glacial.joy_tokens.title=快乐徽章
 glacial.joy_tokens.desc=耶！
-glacial.joy_tokens.text=情绪是非常强大的。情绪的力量可以被灵气所利用并包含在一个人偶中。这些人偶可用于创建功能强大的设备。
+glacial.joy_tokens.text=情绪是非常强大的。情绪的力量可以被灵气所利用并包含在一个徽章中。这些徽章可用于制作功能强大的设备。
 
 glacial.natural_altar.title=自然祭坛
 glacial.natural_altar.text=查看自然灵气之书来搭建自然祭坛。你可以点击书中的眼睛来投影多方块结构以帮助你建造。你可以在结构中使用任何木板。
@@ -258,11 +258,11 @@ glacial.burst_seed.title=试一下爆裂的地狱岩种子
 glacial.burst_seed.text_1=爆裂的种子可以用来繁殖几种基本材料，包括：石头，地狱岩，沙子，下界石英等。
 glacial.burst_seed.text_2=将爆破的种子放下后，它会在几分钟内爆炸，同时还会将种子里面的物品炸出（爆裂地狱岩种子会炸出地狱岩）。你可能要考虑使用封闭空间，来防止物品因为喷的太远而找不到。
 
-glacial.sorrow_tokens.title=悲伤人偶
+glacial.sorrow_tokens.title=遗憾徽章
 glacial.sorrow_tokens.text=这片土地上最悲伤的生物，恶魂。收集恶魂之泪是一个漫长而艰辛的过程，但痛苦往往是漫长而艰辛的。
 
-glacial.fear_token.title=恐惧人偶
-glacial.fear_token.text=使用这片土地上最可怕的怪物的一部分，瓶装鬼魂和一些灵魂沙，恐惧可以在一个人偶中表现出来。
+glacial.fear_token.title=恐惧徽章
+glacial.fear_token.text=使用这片土地上最可怕的怪物的一部分，瓶装鬼魂和一些灵魂沙，恐惧可以在一个徽章中表现出来。
 
 glacial.offering_table.title=供桌
 glacial.offering_table.text_1=为了使用供桌，你需要搭建多方块结构，详情请见"自然灵气之书"。
@@ -296,7 +296,7 @@ glacial.glacidius.text=The merialces can be found in the middle layer of glacidi
 
 glacial.glacidius_diagram.title=搭建Glacidius传送门
 glacial.glacidius_diagram.text=这张图片是教你如何搭建传送门的。你需要36个浮冰才能开启传送门。
- 
+
 glacial.magnet_manual.title=制作磁场工艺指导手册
 glacial.magnet_manual.desc=磁场工艺入门！电力在行动！
 
@@ -315,7 +315,7 @@ glacial.rocky_iron.text_2=如果你制作了燃烧室，请制作一个蒸汽锅
 
 glacial.magnet_washer.title=制作一个洗矿槽
 glacial.magnet_washer.text=使用从磨粉机里产出的矿物岩。你可以通过洗矿槽将它们清洗成细块，每个细块可以烧炼成两个锭。
- 
+
 glacial.luminous_table.title=星辉合成台
 glacial.luminous_table.text_1=要制作星辉合成台，你需要找到一个古代神殿。神殿的正下方有一个水晶 在它旁边放置一个工作台，水晶会将星芒照射到它上面。
 glacial.luminous_table.text_2=考虑制作一个共鸣星杖，它会使你更容易地找到水晶石矿石。有关更多信息，请阅读星芒宝典。
@@ -330,7 +330,7 @@ glacial.starlight_altar.text_2=这是一个多方块结构。有关如何搭建�
 
 glacial.astral_lens.title=透镜
 glacial.astral_lens.text_1=由于你对星座的了解还不足以让你制作一个聚能水晶，你必须搭建一个网络，将星能从祭坛传送到你想要的地方。
-glacial.astral_lens.text_2=使用链接器右键聚能水晶，然后再次右键透镜以创建连接。直到光束连接到你想要的位置。
+glacial.astral_lens.text_2=使用连接器右键聚能水晶，然后再次右键透镜以创建连接。直到光束连接到你想要的位置。
 
 
 glacial.starmetal.title=制作星辉锭
@@ -374,7 +374,7 @@ glacial.fluid_conduits.text=这些高压导管可以比基础导管更快地传�
 glacial.ore_puller.title=神秘矿石抽取机
 glacial.ore_puller.text_1=神秘矿石抽取机是一个多方块结构，可以从Hearth能源和阳光中生产矿石。它就像一座塔，你将它建造的越高它抽取矿石的速度就越快。阅读“Book of the Well”，看看是怎么搭建的。
 glacial.ore_puller.text_2=矿石会在液态灵魂中的矿石抽取器上方生成。你不得不设计一种奇特的方式来抽取这些矿石。
-glacial.ore_puller.text_3=要生产Hearth能源，你需要制作能源水晶。这些水晶采用不同的水晶碎片制成，每个水晶碎片都可调节水晶的整体特性。查看“Book of the Well”中的“Powering”部分了解更多信息。
+glacial.ore_puller.text_3=要生产Hearth能源，你需要制作能源水晶。这些水晶可以采用不同的水晶制成，每种水晶都可以调节能源水晶的整体属性。查看“Book of the Well”中的“Powering”部分了解更多信息。
 
 
 
@@ -386,16 +386,16 @@ glacial.energy_conduits.text=这些特殊的管道可以用来传输能量。升
 
 glacial.ae2_charger.title=充能器
 glacial.ae2_charger.text=充能器可可以用于充能赛特斯石英水晶，它还可以为各种ME物品充电。没有能量？在顶部放置一个木制曲柄进行手动供能。
- 
+
 glacial.growth_chamber.title=晶体催生仓
 glacial.growth_chamber.text=该机器专门用于制作高纯水晶。只需放入赛特斯石英种子或其他种子，然后慢慢地等待它变成高纯的水晶。
 
 glacial.manufactory.title=小制造机
 glacial.manufactory.text=小制造机主要用于将一些物品打磨成粉，也可以将一些方块分解，还可以将矿物的产量提高到3倍。
- 
+
 glacial.inscriber_presses.title=收集压印模板
 glacial.inscriber_presses.text=希望你在早些时候收集陨石的过程中已经找到一些压印模板。还在苦苦的寻找陨石？制作陨石罗盘，它能帮你更快的找到陨石的所在地。
- 
+
 glacial.energy_acceptor.title=能源接收器
 glacial.energy_acceptor.text=
 
@@ -408,7 +408,7 @@ glacial.crafting_terminal.text=
 glacial.electric_connector.title=电线接线器
 glacial.electric_connector.text=将一个电线接线器连接到每个机器，然后使用铜线圈将它们连接到一起，将J转换为RF。
 
-glacial.advanced_inscriber.title=高级印压机
+glacial.advanced_inscriber.title=高级压印机
 glacial.advanced_inscriber.text=
 
 glacial.tree_extractor.title=树液提取机
@@ -494,7 +494,7 @@ glacial.enrichment_chamber.text=
 glacial.metallurgic_infuser.title=冶金灌注机
 glacial.metallurgic_infuser.text=
 
-glacial.osmium_compressor.title=饿压缩机
+glacial.osmium_compressor.title=锇压缩机
 glacial.osmium_compressor.text=
 
 glacial.alchem_fission.title=裂变仓
@@ -511,6 +511,3 @@ glacial.mek_crusher.text=
 
 glacial.chem_dissolution.title=化学溶解室
 glacial.chem_dissolution.text=
-
-
-
