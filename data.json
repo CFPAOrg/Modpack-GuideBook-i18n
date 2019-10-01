@@ -22,6 +22,28 @@
     ]
   },
   {
+    "name": "Amnesia",
+    "contents": [
+      {
+        "version": "1.0.4",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Amnesia-1.0.4-windows.zip",
+          "md5": "a14aa5ab09cd9408377c9848bd5a70b0",
+          "sha1": "f37904f598f4880b1680a3e4c485b06ac3c11285"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Amnesia-1.0.4-linux.zip",
+          "md5": "a14aa5ab09cd9408377c9848bd5a70b0",
+          "sha1": "f37904f598f4880b1680a3e4c485b06ac3c11285"
+        },
+        "author": [
+          "TartaricAcid"
+        ],
+        "time": 1569933598
+      }
+    ]
+  },
+  {
     "name": "AstroBlock",
     "contents": [
       {
@@ -410,16 +432,17 @@
         "version": "latest",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Glacial%20Awakening-latest-windows.zip",
-          "md5": "c85e189511a11ff7853a75cac6912350",
-          "sha1": "4da376a601e770007b3a2b1ebd02398ff2098354"
+          "md5": "24d53b515b83c44bffe5e44740b576f2",
+          "sha1": "6b5853549ec1540d55849560e8df5ca885de1458"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Glacial%20Awakening-latest-linux.zip",
-          "md5": "c85e189511a11ff7853a75cac6912350",
-          "sha1": "4da376a601e770007b3a2b1ebd02398ff2098354"
+          "md5": "24d53b515b83c44bffe5e44740b576f2",
+          "sha1": "6b5853549ec1540d55849560e8df5ca885de1458"
         },
         "author": [
-          "Chenwe-i-lin"
+          "Chenwe-i-lin",
+          "TartaricAcid"
         ],
         "time": 1569068482
       }
