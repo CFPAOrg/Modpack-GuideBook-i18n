@@ -1,0 +1,26 @@
+
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+//Set icon item
+setIcon(<aether_legacy:golden_gloves>)
+
+//Set title String
+setTitle("进度")
+
+//Set description String
+setDescription("进度，完成后会奖励你一些物品的记忆")
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("intendedtobebroken.png")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+//Set the position
+setPos(-1146,-378)
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+addCriteria("location", "minecraft:location")

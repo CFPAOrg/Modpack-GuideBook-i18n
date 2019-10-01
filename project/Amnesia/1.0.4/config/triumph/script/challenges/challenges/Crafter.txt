@@ -1,0 +1,32 @@
+//Set icon item
+setIcon(<jwcrafter:crafter>)
+
+//Set title String
+setTitle("使用失忆症制作")
+
+//Set description String
+setDescription("获得一个合成器，即使当失忆症发生时，它也可以自动为你合成物品。这可以用来使一些有用的物品产出。你能制作出什么样的自动合成产出呢？")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("challenges:challenges/root")
+
+//Set the position
+setPos(-1114,-317)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "hasFlint" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasCrafter", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<jwcrafter:crafter>)
+
+//Adds a function to fire upon completion. Any number of these can be added.
+addRewardFunction("triumph:happy_birthday")
+
+//Sets the experience to reward upon completion. This can only be set once.
+setRewardExperience(42)
+
+//Adds an item to be rewarded upon completion. Only one of these can be set currently.
+setRewardItem(<amnesia:memories>)

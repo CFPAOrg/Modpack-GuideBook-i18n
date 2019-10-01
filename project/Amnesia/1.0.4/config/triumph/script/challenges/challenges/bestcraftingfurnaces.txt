@@ -1,0 +1,42 @@
+//Set icon item
+setIcon(<craftingislife:soul_sand_furnace>)
+
+//Set title String
+setTitle("最好的最好的")
+
+//Set description String
+setDescription("获得一个泥土，灵魂沙，圆石熔炉和工作台")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("challenges:challenges/root")
+
+//Set the position
+setPos(-1029,-301)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "hasFlint" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria1 = addCriteria("hasSoulSandCrafting", "minecraft:inventory_changed")
+criteria2 = addCriteria("hasSoulSandFurnace", "minecraft:inventory_changed")
+criteria3 = addCriteria("hasDirtFurnace", "minecraft:inventory_changed")
+criteria4 = addCriteria("hasDirtCrafting", "minecraft:inventory_changed")
+criteria5 = addCriteria("hasCobblestoneFurnace", "minecraft:inventory_changed")
+criteria6 = addCriteria("hasCobblestoneCrafting", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria1.addItem(<craftingislife:soul_sand_furnace>)
+criteria2.addItem(<craftingislife:cobblestone_crafting_table>)
+criteria3.addItem(<craftingislife:dirt_crafting_table>)
+criteria4.addItem(<craftingislife:cobblestone_furnace>)
+criteria5.addItem(<craftingislife:dirt_furnace>)
+criteria6.addItem(<craftingislife:soul_sand_furnace>)
+
+//Adds a function to fire upon completion. Any number of these can be added.
+addRewardFunction("triumph:happy_birthday")
+
+//Sets the experience to reward upon completion. This can only be set once.
+setRewardExperience(42)
+
+//Adds an item to be rewarded upon completion. Only one of these can be set currently.
+setRewardItem(<amnesia:memories>)
