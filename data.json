@@ -432,19 +432,19 @@
         "version": "latest",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Glacial%20Awakening-latest-windows.zip",
-          "md5": "24d53b515b83c44bffe5e44740b576f2",
-          "sha1": "6b5853549ec1540d55849560e8df5ca885de1458"
+          "md5": "5fa6e110779402b92c7b6ec561c77923",
+          "sha1": "968d994f0d2aed72750053b06a53c2bca99a894d"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Glacial%20Awakening-latest-linux.zip",
-          "md5": "24d53b515b83c44bffe5e44740b576f2",
-          "sha1": "6b5853549ec1540d55849560e8df5ca885de1458"
+          "md5": "5fa6e110779402b92c7b6ec561c77923",
+          "sha1": "968d994f0d2aed72750053b06a53c2bca99a894d"
         },
         "author": [
-          "Chenwe-i-lin",
-          "TartaricAcid"
+          "TartaricAcid",
+          "Chenwe-i-lin"
         ],
-        "time": 1569068482
+        "time": 1572685705
       }
     ]
   },
