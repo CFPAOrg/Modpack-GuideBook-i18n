@@ -22,6 +22,28 @@
     ]
   },
   {
+    "name": "All the Mods 3 Expert",
+    "contents": [
+      {
+        "version": "1.1.1",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/All%20the%20Mods%203%20Expert-1.1.1-windows.zip",
+          "md5": "47ab2c44096610b9cee15763d164d41d",
+          "sha1": "1af9300386c5064606883c4c2b5628fb765c0e2d"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/All%20the%20Mods%203%20Expert-1.1.1-linux.zip",
+          "md5": "47ab2c44096610b9cee15763d164d41d",
+          "sha1": "1af9300386c5064606883c4c2b5628fb765c0e2d"
+        },
+        "author": [
+          "TartaricAcid"
+        ],
+        "time": 1575949079
+      }
+    ]
+  },
+  {
     "name": "Amnesia",
     "contents": [
       {
@@ -40,6 +62,45 @@
           "TartaricAcid"
         ],
         "time": 1569933598
+      }
+    ]
+  },
+  {
+    "name": "Antimatter Chemistry",
+    "contents": [
+      {
+        "version": "config",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Antimatter%20Chemistry-config-windows.zip",
+          "md5": "eb418fc4218f10494a46b15eff6bf7ac",
+          "sha1": "8796f060c21bc61ff96a99eb10b15cea94d4fddc"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Antimatter%20Chemistry-config-linux.zip",
+          "md5": "eb418fc4218f10494a46b15eff6bf7ac",
+          "sha1": "8796f060c21bc61ff96a99eb10b15cea94d4fddc"
+        },
+        "author": [
+          "Chenwe-i-lin"
+        ],
+        "time": 1575779425
+      },
+      {
+        "version": "scripts",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Antimatter%20Chemistry-scripts-windows.zip",
+          "md5": "c8ede74042f1103b4050ed8d0070cb03",
+          "sha1": "ae2b82a7374b14304b7cf6a3c3b8e6eec97ff6ce"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Antimatter%20Chemistry-scripts-linux.zip",
+          "md5": "c8ede74042f1103b4050ed8d0070cb03",
+          "sha1": "ae2b82a7374b14304b7cf6a3c3b8e6eec97ff6ce"
+        },
+        "author": [
+          "Chenwe-i-lin"
+        ],
+        "time": 1575779425
       }
     ]
   },
