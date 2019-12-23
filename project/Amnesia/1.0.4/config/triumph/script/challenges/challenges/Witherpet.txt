@@ -1,0 +1,32 @@
+//Set icon item
+setIcon(<inventorypets:wither_pet>)
+
+//Set title String
+setTitle("Kehaan喜欢这只宠物")
+
+//Set description String
+setDescription("获得凋灵宠物")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("challenges:challenges/root")
+
+//Set the position
+setPos(-911,-278)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "hasFlint" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasBed", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<inventorypets:wither_pet>)
+
+//Adds a function to fire upon completion. Any number of these can be added.
+addRewardFunction("triumph:happy_birthday")
+
+//Sets the experience to reward upon completion. This can only be set once.
+setRewardExperience(42)
+
+//Adds an item to be rewarded upon completion. Only one of these can be set currently.
+setRewardItem(<amnesia:memories>)

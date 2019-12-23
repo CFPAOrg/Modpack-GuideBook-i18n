@@ -1,0 +1,511 @@
+# Chapters
+glacial.chapter_1.chapter=第一章节
+glacial.chapter_2.chapter=第二章节
+glacial.chapter_3.chapter=第三章节
+glacial.chapter_4.chapter=第四章节
+glacial.chapter_5.chapter=第五章节
+glacial.chemisty_chapter.chapter=挑战任务
+
+#
+#Chapter 1
+#
+glacial.first_quest.title=醒来
+glacial.first_quest.text=我醒来后发现自己身处在一个又小又黑暗的洞穴里......墙壁是用冰制成的。这里有一些资源，或许我能用得上。
+
+glacial.cave_roots.title=收集洞穴块根
+glacial.cave_roots.text=首先，收集一些生长在墙壁上的洞穴根茎。它们会掉落“洞穴块根”。用"洞穴块根"合成“洞穴根茎”, 把“洞穴根茎”种在墙上可以获取更多的“洞穴块根”。
+
+glacial.plant_fibers.title=制作植物纤维
+glacial.plant_fibers.text=将生长出的“洞穴块根”扔入水中以获得植物纤维。水可以在世界的底下找到。
+
+glacial.torches.title=制作火把
+glacial.torches.text=使用木棍与干燥的植物纤维来合成一些火把，通过在水中熄灭火把来获取木棍。不要把木棍用完，这样你可能就需要重新开档了。
+
+glacial.granite_rocks.title=收集花岗岩块
+glacial.granite_rocks.text=要收集花岗岩块，需要按住Shift键并反复敲击永冻石。
+
+glacial.crude_pickaxe.title=简陋的镐
+glacial.crude_pickaxe.text=使用一些植物纤维，花岗岩块和木棍来合成"简陋的镐"。
+
+glacial.crude_shovel.title=简陋的铲
+glacial.crude_shovel.text=使用一些植物纤维，花岗岩块和木棍来合成"简陋的铲"。
+
+glacial.crafting_table.title=这是...工作台!
+glacial.crafting_table.text=左键单击JEI面板(一般位于屏幕右侧)上的物品可以查看该物品的合成。你可以在本整合包中任意使用此功能。附加功能：可将鼠标悬停在一个物品上，然后按下键盘上的"A"键, 就可以将该物品添加到JEI书签(位于物品面板下方)。
+
+glacial.compacting_bin.title=挤压桶
+glacial.compacting_bin.text=将物品放入桶内并用铲子反复敲击，将它们挤压成块。打开物品栏, 通过将鼠标悬停在JEI面板中的物品上并按“U”可以来查看该物品可参与的配方。
+
+glacial.flint.title=燧石
+glacial.flint.text=将至少8块花岗岩块放入挤压桶中挤压以获得砂砾，然后使用砂砾制作一些燧石。
+
+glacial.granite_anvil.title=花岗岩砧
+glacial.granite_anvil.text=将燧石放在花岗岩砧上，然后使用镐子右击以获取一些燧石碎片。生成的碎片可用于制作燧石工具。
+
+glacial.mini_freezer.title=迷你冰箱
+glacial.mini_freezer.text=如果你真的真的无论怎么找都找不到雪，那么你就需要向你的正上方进发了。
+
+glacial.terra_moss.title=收集大地菌丝
+glacial.terra_moss.text_1=使用匕首右击苔石来收集大地菌丝。
+glacial.terra_moss.text_2=石匕首可以通过用圆石或花岗岩来制作（将9个花岗岩块在工作台里进行无序合成即可获得花岗岩）。
+
+glacial.blue_sprout.title=蓝色洞穴根茎
+glacial.blue_sprout.text=你可能已经有了一个蓝色洞穴根茎，但如果你没有，可以墙上种植一些洞穴根茎。它们会向下生长，并且有一定几率会长出一些蓝色洞穴根茎。
+
+glacial.ice_crystal.title=寒冰水晶
+glacial.ice_crystal.text=雪可如羽毛般轻灵, 自可如坚石般沉重. 当你"降低"雪的"温度"时，雪会变成水晶。
+
+glacial.create_stalicripe.title=制作石笋
+glacial.create_stalicripe.text=将对应的物品放入柴堆中，然后用点火器右击柴堆来开始石笋的仪式。 当仪式结束时，你就可以获得石笋。
+
+glacial.shatter_dust.title=打破困境
+glacial.shatter_dust.text=在臼里制造“粉碎”的法术粉尘。
+
+glacial.roots_staff.title=含苞欲放
+glacial.roots_staff.text=使用你制作出来的名为“粉碎”的法术为你的法杖进行灌输。使用这个法术来打破这个地下洞穴。
+
+glacial.obsidian.title=YOU ARE FREE
+glacial.obsidian.text=使用"灌输台"为你的法杖灌输“破碎”法术。使用法杖破坏上方的黑曜石层，以便离开洞穴。
+
+glacial.early_storage.title=前期的存储方式
+glacial.early_storage.text=没有木头？没关系！制作两个石箱子即可解决你的存储需求。
+
+glacial.stone_rock_grinder.title=石制碎石杵
+glacial.stone_rock_grinder.text=圆石制成沙砾，砂砾制成沙子，用碎石杵挖掘沙砾就有可能获得蓝色燧石。
+
+glacial.wooden_bucket.title=木桶
+glacial.wooden_bucket.text=使用木桶收集水或者其他液体。每次使用都会降低木桶的耐久，直至耗尽。
+
+glacial.gather_cobblestone.title=收集原石
+glacial.gather_cobblestone.text=挖, 都可以挖.
+
+glacial.flesh_nuggets.title=冷藏
+glacial.flesh_nuggets.text=只需要一点点的雪, 就可以使腐肉不会那么腐烂。
+
+glacial.hammer.title=拿出你的锤子来!
+glacial.hammer.text=有些物品需要较重的工具才能在石砧上粉碎它们。
+
+glacial.clay.title=只要这样或是那样...
+glacial.clay.text=粘土可以通过在地下挖掘或在水中混合骨粉和粉碎的石灰岩获得
+
+glacial.water_strainer.title=你的首个过滤器
+glacial.water_strainer.text=没有线吗？那么你可以试试皮捆绳！企鹅，熊和鹿都会掉落皮革，将皮革与蓝色燧石合成即可得到皮捆绳。
+
+glacial.fertile_soil.title=肥沃的土壤
+glacial.fertile_soil.text=并不需要扭腰动腿。
+
+glacial.growing_trees.title=生长的树苗
+glacial.growing_trees.text=给这个冰冻苔原带来一丝生机。
+
+glacial.log_mallet.title=原木锤
+glacial.log_mallet.text=要制作Tetra工作台，需要用圆木锤右键原版工作台。这个新工作台可用于升级和修复你的工具。
+
+glacial.bed.title=制作一张床
+glacial.bed.text=没有羊？用线来制作羊毛。没有线？那可真是太糟了.
+
+glacial.storage_crate.title=小型存储箱
+glacial.storage_crate.text=买一送一，真的太棒啦！
+
+glacial.well_book.title=祈助之书
+glacial.well_book.text_1=要获得这本可救你于水火之中的手册，你需要两个木制压力板, 两只手上各拿一个(主手和副手)，然后按住Shift潜行，把你的眼睛举到头顶，以向神灵祈祷。在聊天栏内发送“poor”，“please”，“send”，“book”，“god”等词语。此后拿着压力板右键空气，即可获得该模组的手册。
+glacial.well_book.text_2=要右键空气！
+glacial.well_book.text_3=(众神希望你为他们而工作，所以你需要至少需要发30个字, 水经验凑字会吧?)
+
+glacial.stone_combustion.title=石制氧化加热器
+glacial.stone_combustion.text_1=为了使用氧化加热器:
+glacial.stone_combustion.text_2=  1. 放下石制框架
+glacial.stone_combustion.text_3=  2. 手握石制氧化加热器右键单击石制框架，将其放入
+glacial.stone_combustion.text_4=  3. 用石头或圆石盖住氧化加热器的前后左右, 总共4个面。
+glacial.stone_combustion.text_5=  4. 在顶部放置一个方块，作为氧化加热器的盖子。在氧化加热器上放置一个按钮或者拉杆，就可以在氧化室中有放物品时启动加热。
+glacial.stone_combustion.text_6=没有石头了？检查一下你的过滤器，就可能会获得一些石头。
+
+glacial.blaze_powder.title=制作烈焰粉
+glacial.blaze_powder.text=使用氧化加热器，需要先将移除作为盖子的顶部方块，扔入一些火药并重新盖上盖子。在加热器中放入一些燃料, 攒到至少75 HU，然后启动加热器。你应该会听到一个爆炸声，就说明物品已经制作好了。
+
+glacial.stone_kiln.title=石窑
+glacial.stone_kiln.text=将来，你会需要大量的砌砖和大量的耐火砖。
+
+glacial.empty_rod.title=空棒
+glacial.empty_rod.text=右键手中的空棒可以填充灵魂，变成神秘棒。
+
+glacial.life_seed.title=生命之种
+glacial.life_seed.text=在泥土上使用生命之种可使泥土变成草方块。
+
+glacial.rock_core.title=矿石核心
+glacial.rock_core.text=掌握水晶的制作技术，合成圆石转化核心，这将用于生产矿石。
+
+glacial.mysterious_grass.title=神秘草方块
+glacial.mysterious_grass.text_1=你可以通过用神秘粉右键来使草方块变为神秘草方块。这种神秘草方块上会慢慢的生长出神秘灌木，至此你就可以获得近乎无限的神秘粉。
+glacial.mysterious_grass.text_2=神秘草方块会蔓延到与其相邻的任何草方块。
+
+#
+#Chapter 2
+#
+glacial.gravity_block.title=重力方块
+glacial.gravity_block.text=如果你使用你的黑玛瑙树盆种植树木，可能会(或者已经)把一堆树苗和橡子弄得到处都是。使用重力方块将这些掉落物拉进漏斗里。
+
+glacial.grit_vase.title=黑玛瑙树盆
+glacial.grit_vase.text_1=黑玛瑙树盆可以自动收获块状物，例如原木。放置黑玛瑙树盆，然后用神秘肥料右键几次后树盆中就会生长出一棵树。
+glacial.grit_vase.text_2=这棵树将破坏半径（自身上方）内的任何方块，如果你想将可能会被破坏的方块列入黑名单或者白名单，这时你可以使用托盘。
+glacial.grit_vase.text_3=阅读祈助之书可以获得更多信息
+
+glacial.chapter_2.title=第二章节
+glacial.chapter_2.text=欢迎来到第二章节！HIIIGGHHHH起来！魔法和混乱等待着你！
+
+glacial.iron_ore.title=制作铁矿石
+glacial.iron_ore.text_1=如何使用矿石核心：
+glacial.iron_ore.text_2=1. 放置矿石核心
+glacial.iron_ore.text_3=2. 根据JEI的配方，用碎片右键矿石核心来合成你需要的物品（这个任务你需要灰色碎片）
+glacial.iron_ore.text_4=3. 将催化方块（详情见JEI配方）放置在圆石转换核心旁边。
+glacial.iron_ore.text_5=4. 催化方块将不会消耗，它会以掉落物的形式弹出。继续将催化方块放在圆石转换核心旁边，直到最终转化为止。
+glacial.iron_ore.text_6=稳定器可用于防止催化方块弹出，其中一个催化器你会在以后的任务中通过奖励获得。
+
+glacial.druidic_supplies.title=收集德鲁伊的用品
+glacial.druidic_supplies.text_1=和之前一样，通过在苔石上使用匕首可以获得大地菌丝。苔石上偶尔会在产生小团簇。
+glacial.druidic_supplies.text_2=通过打破高草，来获得野生根茎。如果一旦找到它们，你便可以在耕地上种植野生根茎。
+
+glacial.fey_crafter.title=精灵工匠台
+glacial.fey_crafter.desc=艺即吾物(Fey is bae)
+glacial.fey_crafter.text=要使用精灵工匠台，请阅读"Druidic Arts Book"中的"Crafting in Groves"。并且你的法杖最多只能拥有5个法术。
+
+glacial.stone_sawmill.title=石切割机
+glacial.stone_sawmill.text=石切割机可以将原木切割成木板，同时它的会产量更高。没有燃料？把原木扔在切割机的下方，你可以一次放入多个物品。
+
+glacial.stone_crucible.title=石坩埚
+glacial.stone_crucible.text=将粘土熔化成液态粘土，液化粘土可用于制作粘土燧石。
+
+glacial.soaking_pot.title=浸泡壶
+glacial.soaking_pot.text=放入浸泡壶中的各种液体和物品经过一定时间会转变成一些新的材料。
+
+glacial.ashes.title=灰烬！灰烬！
+glacial.ashes.text=把木板丢在火焰上，过一会它就会变成灰烬。灰烬可作为肥料覆盖在作物上，覆盖期间会表现出类似骨粉的效果。
+
+glacial.bonsai.title=漏斗盆栽盆
+glacial.bonsai.text=漏斗盆栽盆会在砍伐树木后将掉落物存放在盆栽盆里。将箱子或 2x2 储物抽屉放在下面来收集掉落物。
+
+glacial.bloomery.title=锻造炉
+glacial.bloomery.text_1=如何使用锻造炉：
+glacial.bloomery.text_2=1. 从锻造炉的上方，用矿石右键锻造炉以将物品放入, 一次只能放一个。
+glacial.bloomery.text_3=2. 把一些燃料右键放入锻造炉。不同的燃料会影响其效率。要获得最大效率，请清理溢出的炉渣。
+glacial.bloomery.text_4=3. 你可以使用风箱或是机械风箱来加速冶炼。完成后，用铲子右键单击以挖出灰烬。
+glacial.bloomery.text_5=4. 用钳子拾起铁坯并将其放置于砧上。
+
+glacial.lapis.title=制作青金石
+glacial.lapis.text=使用矿石核心和合适的水晶碎片还有一些催化方块来制造青金石矿石。
+
+glacial.furnace.title=制作熔炉
+glacial.furnace.desc=燃烧吧！
+
+glacial.melon.title=制作西瓜
+glacial.melon.text_1=使用根源魔法的“Transmutation(转化)”仪式来将南瓜转换成西瓜。南瓜需要放置在水的上方，放置一块泥土，在泥土上放置南瓜，破坏泥土后将其替换成水。
+glacial.melon.text_2=要开始这个仪式，你需要放置一个符文柱在附近，它与柴堆需要隔开两个方块。你需要放置两个符文石（来自根源魔法），并且在顶部上放置雕刻的符文石。注意的是柴堆应该靠近你的南瓜。
+glacial.melon.text_3=云梅不足？试着在Y坐标等于100的地方扔一些元素土。有关元素土的说明可以在“Druidic Arts book”一书中查看。
+
+glacial.iron_ingots.title=铁锭
+glacial.iron_ingots.text_1=用锤子敲打砧上的铁坯。你越接近，敲打的力量越大，产量也会随之变高。使用等级较高的锤子也会增加你的产量。
+glacial.iron_ingots.text_2=为了充分利用你的冶炼产物，可以用铁矿渣来提取更多的铁质，这还会生产出更多的炉渣。
+
+glacial.pereskia.title=精灵花瓣
+glacial.pereskia.text=精灵花瓣用于许多不同的仪式和法术。将它们放在合成台上合成以来获得种子，然后你就可以在耕地上种植了。
+
+glacial.tavern.title=制作Shabby Tavern
+glacial.tavern.text=Shabby Tavern可以使用铁树木板(翻译可能有误, 原文:hearthing planks)来标记一个路径点。Shift右键单击Shabby Tavern来为其指定一个名称，然后单击房子图标将其设置为你的家。
+
+glacial.gold_ore.title=制作金矿石
+glacial.gold_ore.text=使用矿石核心和合适的水晶碎片还有一些催化方块来制造金矿石。
+
+glacial.redstone.title=红石
+glacial.redstone.text=在氧化加热器中将火药和烈焰粉丢在一起并开启加热器，你就会得到红石。火药可以通过氧化加热燧石来获得。
+
+glacial.iron_casing.title=铁制框架
+glacial.iron_casing.text=将你的石制框架更换成铁制框架，这将使你的氧化加热器可以达到更高的热量，足够的热量可以产生红石。使用JEI来查看各种氧化配方需要的HU量。
+
+glacial.runic_shears.title=符文剪刀
+glacial.runic_shears.desc=剪, 全给我剪了
+glacial.runic_shears.text=在甜菜根上使用符文剪毛来获得灵魂草。将灵魂草在工作台合成后可以获得灵魂草种子。灵魂草种子可以种植在耕地上。
+
+glacial.wildwood.title=劈砍野木
+glacial.wildwood.text=通过在成熟的野生根茎附近使用“Wildroot Growth”仪式来使野生根茎变成野木树。
+
+glacial.natural_aura.title=自然灵气入门
+glacial.natural_aura.text=获得金叶子：在树叶上使用闪耀纤维，它会慢慢地将树叶变成金叶。破坏金叶时，它们就会掉落金叶子。
+
+glacial.joy_tokens.title=快乐徽章
+glacial.joy_tokens.desc=耶！
+glacial.joy_tokens.text=情绪的力量非常强大。情绪的力量可以用灵气注入一个徽章中。这些徽章可用于制作功能强大的设备。
+
+glacial.natural_altar.title=自然祭坛
+glacial.natural_altar.text=查看自然灵气之书来搭建自然祭坛。你可以点击书中的"眼睛"来投影多方块结构以帮助你建造。你可以在建造过程中使用任意类型的木板。
+
+glacial.natural_altar_ores.title=自然祭坛矿物加工
+glacial.natural_altar_ores.text_1=使用自然祭坛，与锻造炉相比，你可以更快速，更轻松地处理矿石。虽然每个矿石的产量会略低一些。
+glacial.natural_altar_ores.text_2=你还可以通过在自然祭坛的两侧放置一个漏斗来实现简单自动化。合成后的物品可以用漏斗或者其他管道在自然祭坛的底部抽出。
+
+
+glacial.ancient_sapling.title=荒古树苗
+glacial.ancient_sapling.text=荒古之树会从它的叶子吸收灵气，来恢复这片区域的灵气。这个过程只会将其恢复至中间状态，即半灵气状态，而不会生成过量的灵气。尽管如此，它的叶子仍然会消失。
+
+glacial.jungle_sapling.title=丛林树苗
+glacial.jungle_sapling.text_1=使用根源魔法的“Transmutation”仪式来制作一个丛林树苗（详情见“The Druidic Arts”一书或JEI）。
+glacial.jungle_sapling.text_2=你首先需要将白桦树叶转化为丛林树叶，然后破坏它们来获得树苗。钩子可以使树苗掉落的几率变高。
+
+glacial.bottled_ghosts.title=瓶装鬼魂
+glacial.bottled_ghosts.text=在这个整合包里，你不能进入地狱。因此，我们可以利用灵气从粉碎的人工制作的地狱岩中提取瓶装鬼魂。
+
+glacial.burst_seed.title=试一下爆裂的地狱岩种子
+glacial.burst_seed.text_1=爆裂的种子可以用来繁殖几种基本材料，包括：石头，地狱岩，沙子，下界石英等。
+glacial.burst_seed.text_2=将爆破的种子放下后，它会在几分钟内爆炸，同时还会将种子里面的物品炸出（爆裂地狱岩种子会炸出地狱岩）。你可能要考虑使用封闭空间，来防止物品因为喷的太远而找不到。
+
+glacial.sorrow_tokens.title=遗憾徽章
+glacial.sorrow_tokens.text=这片土地上最悲伤的生物，恶魂。收集恶魂之泪是一个漫长而艰辛的过程，但痛苦往往是漫长而艰辛的。
+
+glacial.fear_token.title=恐惧徽章
+glacial.fear_token.text=使用这片土地上最可怕的怪物的一部分，瓶装鬼魂和一些灵魂沙，恐惧可以在一个徽章中表现出来。
+
+glacial.offering_table.title=供桌
+glacial.offering_table.text_1=为了使用供桌，你需要搭建多方块结构，详情请见"自然灵气之书"。
+glacial.offering_table.text_2=虽然手册中的全息图介绍说你需要36个罂粟花作为多方块结构，但实际上任何一种原版花都可以用来搭建。
+
+glacial.sky_ingot.title=天空锭
+glacial.sky_ingot.text_1=把祭品放在碗里，然后在附近的地上扔一个呼唤之魂。
+glacial.sky_ingot.text_2=天空锭可能需要一分钟才会从天而降。它会在掉落在供桌的多方块结构中的任何地方。
+
+glacial.cow_ritual.title=天之公牛
+glacial.cow_ritual.text_1=用根源魔法的“Animal Summoning”仪式来召唤一头牛。你需要将生牛肉放在贡献盘来开始这个仪式。生牛肉可以用突变物质制作。
+
+glacial.cowhide.title=牛皮
+glacial.cowhide.text_1=现在你有了一头牛，你可以通过“Animal Harvest”仪式来从牛的身上获取它们的掉落物，不用杀生。
+glacial.cowhide.text_2=虽然这不是必需的，但我推荐这种方式，否则你需要召唤很多次。你可能需要3个石柱来开始这个仪式。
+
+#
+#Chapter 3
+#
+
+glacial.chapter_3.text=欢迎来到第3章节！  :D  Diddily-dee.
+
+glacial.radiant_resonators.title=制作Radiant Resonators
+glacial.radiant_resonators.text=将Radiant Resonators置于天空下来产出Radiant Crystals。箱子和Brazier可以作为物品的转移系统。扔在Brazier里的物品最终会落在箱子里。
+
+glacial.astral_tome.title=星芒宝典
+glacial.astral_tome.desc=这是你的星辉指南。完成指定物品时，手册中会显示对应的信息。如果你一个人不差分毫的完成手册中的内容，你将近乎无敌。
+
+glacial.glacidius.title=探索Glacidius
+glacial.glacidius.text=The merialces can be found in the middle layer of glacidius, underneath the surface where the plants and trees are
+
+glacial.glacidius_diagram.title=搭建Glacidius传送门
+glacial.glacidius_diagram.text=这张图片是教你如何搭建传送门的。你需要36个浮冰才能开启传送门。
+
+glacial.magnet_manual.title=制作磁场工艺指导手册
+glacial.magnet_manual.desc=磁场工艺入门！电力在行动！
+
+glacial.cookiequest.title=饼干任务 2001 [可选]
+glacial.cookiequest.text=制作饼干的秘密技术已经失传了很长时间。但是，有传言说在Glacidius这个世界的深处几乎可以得到无限的饼干。
+
+
+glacial.magnet_grinder.title=粉碎机
+glacial.magnet_grinder.text_1=磁场工艺的粉碎机可以让你在更短的时间内处理矿石，并且产量还会更高。查看磁场工艺指导手册，手册中会列出搭建粉碎机所需要的材料。
+glacial.magnet_grinder.text_2=放下蓝图时，地面上出现一个木箱方块，它会显示机器的多方块结构。如果你对机器的位置不满意，你可以把木箱方块破坏，破坏后蓝图将会返还。搭建完成后，右击木箱方块即可完成多方块结构。
+
+
+glacial.rocky_iron.title=粉碎铁矿石
+glacial.rocky_iron.text_1=粉碎机需要能量才能进行工作。制作温差电堆，并将其放下。在温差电堆的一侧放置岩浆或者一些高热量的方块，在另一侧放置水或者一些可以降温的方块。通过能量线缆把电量传输到磨粉机上。
+glacial.rocky_iron.text_2=如果你制作了燃烧室，请制作一个蒸汽锅炉并放在燃烧室上以产生蒸汽。 蒸汽锅炉需要不断的水来使它保持工作。搭建蒸汽发电机，并把你的蒸汽锅炉用管道连接到发电机，然后再将发电机用线缆连接到磨粉机。
+
+glacial.magnet_washer.title=制作一个洗矿槽
+glacial.magnet_washer.text=使用从磨粉机里产出的矿物岩。你可以通过洗矿槽将它们清洗成细块，每个细块可以烧炼成两个锭。
+
+glacial.luminous_table.title=星辉合成台
+glacial.luminous_table.text_1=要制作星辉合成台，你需要找到一个古代神殿。神殿的正下方有一个水晶 在它旁边放置一个工作台，水晶会将星芒照射到它上面。
+glacial.luminous_table.text_2=考虑制作一个共鸣星杖，它会使你更容易地找到水晶石矿石。有关更多信息，请阅读星芒宝典。
+
+glacial.lightwell.title=聚星缸
+glacial.lightwell.text_1=星能液！将一颗水晶石放入聚星缸内，根据水晶石的数据，水晶石会在聚星缸里慢慢地产生星能液。你需要将聚星缸放在天空下方，星辉魔法中的大多数的物品也是这样。
+glacial.lightwell.text_2=你可能需要把聚星缸内的星能液给抽取出来。即使聚星缸内的星能液已满，也仍然会消耗水晶石。
+
+glacial.starlight_altar.title=星辉祭坛
+glacial.starlight_altar.text_1=为了充分利用星辉的力量，你需要更高的星能。为此，制作一个更好的星辉合成台。
+glacial.starlight_altar.text_2=这是一个多方块结构。有关如何搭建它，请阅读"星芒宝典"一书。
+
+glacial.astral_lens.title=透镜
+glacial.astral_lens.text_1=由于你对星座的了解还不足以让你制作一个聚能水晶，你必须搭建一个网络，将星能从祭坛传送到你想要的地方。
+glacial.astral_lens.text_2=使用连接器右键聚能水晶，然后再次右键透镜以创建连接。直到光束连接到你想要的位置。
+
+
+glacial.starmetal.title=制作星辉锭
+glacial.starmetal.text=将铁矿石放在一个有星能光束的透镜附近，然后将透镜连接到矿石上。过一会，铁矿石就会转换成星辉矿石。
+
+glacial.hydraulic_press.title=制作一个液压机
+glacial.hydraulic_press.text=液压机用于制作金属板材。
+
+glacial.coke_oven.title=制作一个焦炉
+glacial.coke_oven.text=制作钢锭的第一步！焦炉是一个多方块结构，它用来生产焦煤与杂酚油。更多信息，请阅读工程师手册。
+
+glacial.blast_furnace.title=制作一个高炉
+glacial.blast_furnace.text_1=制作钢锭的第二步！这种多方块结构不能进行自动化，必须手动处理。
+glacial.blast_furnace.text_2=第三步，强烈推荐！将高炉升级到精致高炉，以使用自动化和高炉鼓风机（当你能够为它们供电时），来大大加快钢锭生产速度。
+
+
+glacial.alloy_kiln.title=制作合金窑
+glacial.alloy_kiln.text=谁需要冶炼厂？制作合金窑将需要很多陨石，水晶镐肯定会有所帮助。请查看星芒宝典中的水晶工具，特别是如何修复它们。
+
+glacial.electrum.title=获得琥珀金锭
+glacial.electrum.text=有趣的事实：诺贝尔奖获得者的奖章是镀金的。
+
+glacial.steel.title=获得钢锭
+glacial.steel.text=钢锭。可用于合成建筑材料和合金，但是在工具和盔甲方面则用处不大。钢锭最好的合金是灵魂钢。灵魂钢盔甲与钻石盔甲具有相同的盔甲值，是一件非常不错的装备。
+
+glacial.simple_chassis.title=机器框架模具
+glacial.simple_chassis.text=一些机器的机器框架。要获得基岩粉，在基岩上使用打火石，火焰熄灭后将有一定几率会产出基岩粉，更多信息请查看JEI配方。
+
+#
+#Chapter 4
+#
+
+glacial.chapter_4.text=欢迎来到第四章节
+
+glacial.item_conduits.title=制作物品导管
+glacial.item_conduits.text=使用合金炉制作用于合成导管所需要的合金。使用以太扳手可以来更改导管的配置。导管中可以放入过滤器和其他升级。
+
+glacial.fluid_conduits.title=制作高压流体导管
+glacial.fluid_conduits.text=这些高压导管可以比基础导管更快地传输流体。需要下届石英？在自然祭坛上试试Certuz Quartz。
+
+glacial.ore_puller.title=神秘矿石抽取机
+glacial.ore_puller.text_1=神秘矿石抽取机是一个多方块结构，可以从Hearth能源和阳光中生产矿石。它就像一座塔，你将它建造的越高它抽取矿石的速度就越快。阅读“Book of the Well”，看看是怎么搭建的。
+glacial.ore_puller.text_2=矿石会在液态灵魂中的矿石抽取器上方生成。你不得不设计一种奇特的方式来抽取这些矿石。
+glacial.ore_puller.text_3=要生产Hearth能源，你需要制作能源水晶。这些水晶可以采用不同的水晶制成，每种水晶都可以调节能源水晶的整体属性。查看“Book of the Well”中的“Powering”部分了解更多信息。
+
+
+
+glacial.alloy_furnace.title=合金炉
+glacial.alloy_furnace.text=满足你所有的合金需求！好吧，也许不是全部！
+
+glacial.energy_conduits.title=制作能量导管
+glacial.energy_conduits.text=这些特殊的管道可以用来传输能量。升级它们以来传输更大的能量。
+
+glacial.ae2_charger.title=充能器
+glacial.ae2_charger.text=充能器可可以用于充能赛特斯石英水晶，它还可以为各种ME物品充电。没有能量？在顶部放置一个木制曲柄进行手动供能。
+
+glacial.growth_chamber.title=晶体催生仓
+glacial.growth_chamber.text=该机器专门用于制作高纯水晶。只需放入赛特斯石英种子或其他种子，然后慢慢地等待它变成高纯的水晶。
+
+glacial.manufactory.title=小制造机
+glacial.manufactory.text=小制造机主要用于将一些物品打磨成粉，也可以将一些方块分解，还可以将矿物的产量提高到3倍。
+
+glacial.inscriber_presses.title=收集压印模板
+glacial.inscriber_presses.text=希望你在早些时候收集陨石的过程中已经找到一些压印模板。还在苦苦的寻找陨石？制作陨石罗盘，它能帮你更快的找到陨石的所在地。
+
+glacial.energy_acceptor.title=能源接收器
+glacial.energy_acceptor.text=
+
+glacial.me_terminal.title=ME终端
+glacial.me_terminal.text=
+
+glacial.crafting_terminal.title=ME合成终端
+glacial.crafting_terminal.text=
+
+glacial.electric_connector.title=电线接线器
+glacial.electric_connector.text=将一个电线接线器连接到每个机器，然后使用铜线圈将它们连接到一起，将J转换为RF。
+
+glacial.advanced_inscriber.title=高级压印机
+glacial.advanced_inscriber.text=
+
+glacial.tree_extractor.title=树液提取机
+glacial.tree_extractor.text=
+
+glacial.fermenter_multiblock.title=制作一台发酵机
+glacial.fermenter_multiblock.text=
+
+glacial.squeezer_multiblock.title=制作一台工业挤压机
+glacial.squeezer_multiblock.text=
+
+glacial.create_powergen.title=制作一台发电机
+glacial.create_powergen.text=
+
+glacial.me_drive.title=ME驱动器
+glacial.me_drive.text=
+
+glacial.heavy_engineering.title=制作重型工程块
+glacial.heavy_engineering.text=
+
+glacial.refinery.title=制作一台炼油厂
+glacial.refinery.text=
+
+glacial.reinforced_blast.title=制作强化高炉砖
+glacial.reinforced_blast.text=
+
+glacial.latex.title=乳胶加工机
+glacial.latex.text=
+
+glacial.arc_furnace.title=制作一台电弧炉
+glacial.arc_furnace.text=
+
+glacial.industrial_chassis.title=机器框架
+glacial.industrial_chassis.text=
+
+#
+#Chapter 5
+#
+glacial.chapter_5.text=
+
+glacial.starlight_infuser.title=星能聚合器
+glacial.starlight_infuser.text=
+
+glacial.rock_crusher.title=碎石机
+glacial.rock_crusher.text=
+
+glacial.atomic_reconstructor.title=原子再构机
+glacial.atomic_reconstructor.text=
+
+glacial.end_chassis.title=末影钢机器底盘
+glacial.end_chassis.text=
+
+glacial.fission_controller.title=裂变控制器
+glacial.fission_controller.text=
+
+glacial.du_plating.title=枯竭铀板
+glacial.du_plating.text=
+
+glacial.manganese.title=制作锰锭
+glacial.manganese.text=
+
+glacial.resonating_gem.title=共振宝石
+glacial.resonating_gem.text=
+
+glacial.enhanced_chassis.title=强化机器框架
+glacial.enhanced_chassis.text=
+
+glacial.decay_hastener.title=衰变加速器
+glacial.decay_hastener.text=
+
+glacial.empowerer.title=充能台
+glacial.empowerer.text=
+
+glacial.chem_dissolver.title=化学溶解机
+glacial.chem_dissolver.text=
+
+glacial.chem_combiner.title=化学化合机
+glacial.chem_combiner.text=
+
+glacial.enrichment_chamber.title=富集仓
+glacial.enrichment_chamber.text=
+
+glacial.metallurgic_infuser.title=冶金灌注机
+glacial.metallurgic_infuser.text=
+
+glacial.osmium_compressor.title=锇压缩机
+glacial.osmium_compressor.text=
+
+glacial.alchem_fission.title=裂变仓
+glacial.alchem_fission.text=
+
+glacial.purification_chamber.title=净化仓
+glacial.purification_chamber.text=
+
+glacial.electrolytic_separator.title=电解分离机
+glacial.electrolytic_separator.text=
+
+glacial.mek_crusher.title=粉碎机
+glacial.mek_crusher.text=
+
+glacial.chem_dissolution.title=化学溶解室
+glacial.chem_dissolution.text=

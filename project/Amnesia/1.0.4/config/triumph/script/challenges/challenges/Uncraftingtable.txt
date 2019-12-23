@@ -1,0 +1,32 @@
+//Set icon item
+setIcon(<twilightforest:uncrafting_table>)
+
+//Set title String
+setTitle("拆除所有东西！")
+
+//Set description String
+setDescription("获得拆解台，该方块可以让你拆除所有物品/方块")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("challenges:challenges/root")
+
+//Set the position
+setPos(-958,-277)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "hasFlint" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasUncraftingtable", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<twilightforest:uncrafting_table>)
+
+//Adds a function to fire upon completion. Any number of these can be added.
+addRewardFunction("triumph:happy_birthday")
+
+//Sets the experience to reward upon completion. This can only be set once.
+setRewardExperience(42)
+
+//Adds an item to be rewarded upon completion. Only one of these can be set currently.
+setRewardItem(<amnesia:memories>)

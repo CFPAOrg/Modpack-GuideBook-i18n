@@ -22,6 +22,89 @@
     ]
   },
   {
+    "name": "All the Mods 3 Expert",
+    "contents": [
+      {
+        "version": "1.1.1",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/All%20the%20Mods%203%20Expert-1.1.1-windows.zip",
+          "md5": "47ab2c44096610b9cee15763d164d41d",
+          "sha1": "1af9300386c5064606883c4c2b5628fb765c0e2d"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/All%20the%20Mods%203%20Expert-1.1.1-linux.zip",
+          "md5": "47ab2c44096610b9cee15763d164d41d",
+          "sha1": "1af9300386c5064606883c4c2b5628fb765c0e2d"
+        },
+        "author": [
+          "TartaricAcid"
+        ],
+        "time": 1575949079
+      }
+    ]
+  },
+  {
+    "name": "Amnesia",
+    "contents": [
+      {
+        "version": "1.0.4",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Amnesia-1.0.4-windows.zip",
+          "md5": "a14aa5ab09cd9408377c9848bd5a70b0",
+          "sha1": "f37904f598f4880b1680a3e4c485b06ac3c11285"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Amnesia-1.0.4-linux.zip",
+          "md5": "a14aa5ab09cd9408377c9848bd5a70b0",
+          "sha1": "f37904f598f4880b1680a3e4c485b06ac3c11285"
+        },
+        "author": [
+          "TartaricAcid"
+        ],
+        "time": 1569933598
+      }
+    ]
+  },
+  {
+    "name": "Antimatter Chemistry",
+    "contents": [
+      {
+        "version": "config",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Antimatter%20Chemistry-config-windows.zip",
+          "md5": "eb418fc4218f10494a46b15eff6bf7ac",
+          "sha1": "8796f060c21bc61ff96a99eb10b15cea94d4fddc"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Antimatter%20Chemistry-config-linux.zip",
+          "md5": "eb418fc4218f10494a46b15eff6bf7ac",
+          "sha1": "8796f060c21bc61ff96a99eb10b15cea94d4fddc"
+        },
+        "author": [
+          "Chenwe-i-lin"
+        ],
+        "time": 1575779425
+      },
+      {
+        "version": "scripts",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Antimatter%20Chemistry-scripts-windows.zip",
+          "md5": "c8ede74042f1103b4050ed8d0070cb03",
+          "sha1": "ae2b82a7374b14304b7cf6a3c3b8e6eec97ff6ce"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Antimatter%20Chemistry-scripts-linux.zip",
+          "md5": "c8ede74042f1103b4050ed8d0070cb03",
+          "sha1": "ae2b82a7374b14304b7cf6a3c3b8e6eec97ff6ce"
+        },
+        "author": [
+          "Chenwe-i-lin"
+        ],
+        "time": 1575779425
+      }
+    ]
+  },
+  {
     "name": "AstroBlock",
     "contents": [
       {
@@ -400,6 +483,29 @@
           "TartaricAcid"
         ],
         "time": 1551163248
+      }
+    ]
+  },
+  {
+    "name": "Glacial Awakening",
+    "contents": [
+      {
+        "version": "latest",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Glacial%20Awakening-latest-windows.zip",
+          "md5": "5fa6e110779402b92c7b6ec561c77923",
+          "sha1": "968d994f0d2aed72750053b06a53c2bca99a894d"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Glacial%20Awakening-latest-linux.zip",
+          "md5": "5fa6e110779402b92c7b6ec561c77923",
+          "sha1": "968d994f0d2aed72750053b06a53c2bca99a894d"
+        },
+        "author": [
+          "TartaricAcid",
+          "Chenwe-i-lin"
+        ],
+        "time": 1572685705
       }
     ]
   },
@@ -910,6 +1016,28 @@
     ]
   },
   {
+    "name": "Mass Production",
+    "contents": [
+      {
+        "version": "1.2.1",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Mass%20Production-1.2.1-windows.zip",
+          "md5": "91843f4f64945b18fdd927aed493c287",
+          "sha1": "252af882e967232173c4cbbfb64d75716df84bea"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Mass%20Production-1.2.1-linux.zip",
+          "md5": "91843f4f64945b18fdd927aed493c287",
+          "sha1": "252af882e967232173c4cbbfb64d75716df84bea"
+        },
+        "author": [
+          "TartaricAcid"
+        ],
+        "time": 1576645307
+      }
+    ]
+  },
+  {
     "name": "Modern Skyblock 3",
     "contents": [
       {
@@ -950,6 +1078,28 @@
           "TartaricAcid"
         ],
         "time": 1551163248
+      }
+    ]
+  },
+  {
+    "name": "Project Equivalence",
+    "contents": [
+      {
+        "version": "1.4.1",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Project%20Equivalence-1.4.1-windows.zip",
+          "md5": "1497481f58f251cb3ebf62fdff5119e4",
+          "sha1": "f63fc94405146b218375741321a2be840333d741"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Project%20Equivalence-1.4.1-linux.zip",
+          "md5": "1497481f58f251cb3ebf62fdff5119e4",
+          "sha1": "f63fc94405146b218375741321a2be840333d741"
+        },
+        "author": [
+          "TartaricAcid"
+        ],
+        "time": 1576645307
       }
     ]
   },
@@ -1372,6 +1522,23 @@
           "10935336"
         ],
         "time": 1562075591
+      },
+      {
+        "version": "1.16.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.16.0-windows.zip",
+          "md5": "208facc041d5733e6618c55c10fb5a28",
+          "sha1": "b3feb89d48e4eb55e04ce06563cc017684e37ea2"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Stone%20Block%202-1.16.0-linux.zip",
+          "md5": "208facc041d5733e6618c55c10fb5a28",
+          "sha1": "b3feb89d48e4eb55e04ce06563cc017684e37ea2"
+        },
+        "author": [
+          "10935336"
+        ],
+        "time": 1570355803
       },
       {
         "version": "1.3.0",
