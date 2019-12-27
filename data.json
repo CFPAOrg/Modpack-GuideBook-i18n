@@ -40,6 +40,23 @@
           "TartaricAcid"
         ],
         "time": 1575949079
+      },
+      {
+        "version": "1.3.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/All%20the%20Mods%203%20Expert-1.3.0-windows.zip",
+          "md5": "37b397735db17f91247800cd88303a0d",
+          "sha1": "71471e0ed3608e6074c5844db298c1c821528ffa"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/All%20the%20Mods%203%20Expert-1.3.0-linux.zip",
+          "md5": "37b397735db17f91247800cd88303a0d",
+          "sha1": "71471e0ed3608e6074c5844db298c1c821528ffa"
+        },
+        "author": [
+          "HinsonDongGua"
+        ],
+        "time": 1577090090
       }
     ]
   },
@@ -123,6 +140,119 @@
           "misterplus"
         ],
         "time": 1559220395
+      }
+    ]
+  },
+  {
+    "name": "Enigmatica 2 Expert",
+    "contents": [
+      {
+        "version": "1.64d",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.64d-windows.zip",
+          "md5": "ff42f40dd19a8189d6f44b29656224e1",
+          "sha1": "b4ddc8b85404cd77433e37cb04254140c8873594"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.64d-linux.zip",
+          "md5": "ff42f40dd19a8189d6f44b29656224e1",
+          "sha1": "b4ddc8b85404cd77433e37cb04254140c8873594"
+        },
+        "author": [
+          "TartaricAcid",
+          "wumingzhiren"
+        ],
+        "time": 1577422968
+      },
+      {
+        "version": "1.65d",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.65d-windows.zip",
+          "md5": "5a99c6fcaa6e33a34b7833c6f2d4f80f",
+          "sha1": "9cc23232c1959b3ca335ad4b15da3d823eaef690"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.65d-linux.zip",
+          "md5": "5a99c6fcaa6e33a34b7833c6f2d4f80f",
+          "sha1": "9cc23232c1959b3ca335ad4b15da3d823eaef690"
+        },
+        "author": [
+          "TartaricAcid",
+          "wumingzhiren"
+        ],
+        "time": 1577422968
+      },
+      {
+        "version": "1.66c-1.67",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.66c-1.67-windows.zip",
+          "md5": "4830c960cb738fc01d4da03853577bb5",
+          "sha1": "99dee28a315fe0bedee99bc36cd193d8c2d37ebd"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.66c-1.67-linux.zip",
+          "md5": "4830c960cb738fc01d4da03853577bb5",
+          "sha1": "99dee28a315fe0bedee99bc36cd193d8c2d37ebd"
+        },
+        "author": [
+          "TartaricAcid",
+          "wumingzhiren"
+        ],
+        "time": 1577422968
+      },
+      {
+        "version": "1.68",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.68-windows.zip",
+          "md5": "981aa46fab79425e1b9ca773ab5afb34",
+          "sha1": "88e0b7232bb3e98d6e14b03fbbde5c6f9f698534"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.68-linux.zip",
+          "md5": "981aa46fab79425e1b9ca773ab5afb34",
+          "sha1": "88e0b7232bb3e98d6e14b03fbbde5c6f9f698534"
+        },
+        "author": [
+          "TartaricAcid",
+          "wumingzhiren"
+        ],
+        "time": 1577422968
+      },
+      {
+        "version": "1.69-1.71",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.69-1.71-windows.zip",
+          "md5": "a6ca051a52a58cc815aafa4a044e4ddc",
+          "sha1": "b0a544e9b3fd3c235f2110ed958a187e47ba19bd"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.69-1.71-linux.zip",
+          "md5": "a6ca051a52a58cc815aafa4a044e4ddc",
+          "sha1": "b0a544e9b3fd3c235f2110ed958a187e47ba19bd"
+        },
+        "author": [
+          "TartaricAcid",
+          "wumingzhiren"
+        ],
+        "time": 1577422968
+      },
+      {
+        "version": "1.72-1.72b",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.72-1.72b-windows.zip",
+          "md5": "fab5fa19694a1ac965fa455d6f5cbe5d",
+          "sha1": "f516aa13dee52c815a0534cf0f6fcd0db1f43674"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.72-1.72b-linux.zip",
+          "md5": "fab5fa19694a1ac965fa455d6f5cbe5d",
+          "sha1": "f516aa13dee52c815a0534cf0f6fcd0db1f43674"
+        },
+        "author": [
+          "TartaricAcid",
+          "wumingzhiren"
+        ],
+        "time": 1577422968
       }
     ]
   },
