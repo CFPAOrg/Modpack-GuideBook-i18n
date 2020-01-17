@@ -1,0 +1,23 @@
+//Set icon item
+setIcon(<enderio:item_material:56>)
+
+//Set title String
+setTitle("远古守卫者！")
+
+//Set description String
+setDescription("击杀海底遗迹中的远古守护者。")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("challenges:challenges/root")
+
+//Set the position
+setPos(-1029,-332)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "killed_spider" with the trigger type "minecraft:player_killed_entity". This function returns the criteria as an object
+criteria = addCriteria("killed_wither", "minecraft:player_killed_entity")
+
+//Sets the required entity type for the criteria. This is the entity that the player must kill.
+criteria.setEntityType("minecraft:elder_guardian")

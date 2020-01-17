@@ -1,0 +1,27 @@
+
+//Set icon item
+setIcon(<minecraft:netherrack>)
+
+//Set title String
+setTitle("最佳尺寸")
+
+//Set description String
+setDescription("进入下届维度")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("challenges:challenges/root")
+
+//Set the position
+setPos(-1114,-254)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "entered_nether" with the trigger type "minecraft:changed_dimension". This function returns the criteria as an object
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+
+//Sets the required destination dimension type for the criteria. Overworld is "overworld", Nether is "the_nether", End is "the_end".
+criteria.setDimensionDestination("the_nether")
+
+//By not setting anything about requirements here, all criteria are automatically required
+criteria.setDimID(-1)

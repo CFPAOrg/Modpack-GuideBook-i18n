@@ -1,0 +1,21 @@
+
+//Set icon item
+setIcon(<aether_legacy:aether_grass>)
+
+//Set title String
+setTitle("在天空之上")
+
+//Set description String
+setDescription("进入天堂世界。你可以通过搭建地狱传送门的方式来搭建天堂传送门。但是，要使用萤石作为传送门的方块，然后用水来激活传送门")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("challenges:challenges/root")
+
+//Set the position
+setPos(-1006,-355)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+criteria = addCriteria("Entered Aether Dimension", "minecraft:location")
+criteria.setDimID(4)

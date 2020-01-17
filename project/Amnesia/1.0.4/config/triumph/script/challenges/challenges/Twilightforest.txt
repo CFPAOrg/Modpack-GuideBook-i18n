@@ -1,0 +1,21 @@
+
+//Set icon item
+setIcon(<twilightforest:miniature_structure>)
+
+//Set title String
+setTitle("Run, Forrest, Run!")
+
+//Set description String
+setDescription("使用1个记忆进入“暮色森林”维度")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("challenges:challenges/root")
+
+//Set the position
+setPos(-935,-378)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+criteria = addCriteria("Entered Twilight Forest Dimension", "minecraft:location")
+criteria.setDimID(7)

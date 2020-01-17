@@ -1,0 +1,23 @@
+//Set icon item
+setIcon(<minecraft:skull:5>)
+
+//Set title String
+setTitle("龙族！")
+
+//Set description String
+setDescription("击败末影龙")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("challenges:challenges/root")
+
+//Set the position
+setPos(-1029,-355)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "killed_spider" with the trigger type "minecraft:player_killed_entity". This function returns the criteria as an object
+criteria = addCriteria("killed_enderdragon", "minecraft:player_killed_entity")
+
+//Sets the required entity type for the criteria. This is the entity that the player must kill.
+criteria.setEntityType("minecraft:ender_dragon")
