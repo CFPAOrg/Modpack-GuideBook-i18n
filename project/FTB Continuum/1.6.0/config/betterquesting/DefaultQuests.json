@@ -112,14 +112,36 @@
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
-            },
-            "1:10": {
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
               "id:8": "efab:upgrade_armory",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
-            },
-            "2:10": {
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
               "id:8": "efab:gearbox",
               "Count:3": 1,
               "OreDict:8": "",
@@ -138,7 +160,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -395,7 +417,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 60
+              "Damage:3": 101
             }
           }
         }
@@ -530,7 +552,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -576,6 +598,12 @@
             "0:10": {
               "id:8": "immersiveengineering:stone_decoration",
               "Count:3": 27,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "immersiveengineering:tool",
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -703,7 +731,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -735,8 +763,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Technological Transmutation",
-          "desc:8": "The Atomic Reconstructor §1§0§f§§§ruses CF (which is the same as RF and FE, just another name) to change certain things into certain other things.\n\nPlace the machine down facing the direction you want the laser to go to. The laser itself does not change items, it changes items in a small area around the block the laser hits. By default, it is set so that a Redstone signal will turn the Atomic Reconstructor off; it will fire the laser as often as it can so long as there is nothing turning it off and it has power. It is recommended to right-click the machine with a Redstone Torch, which turns it into Pulse Mode, and it will not fire unless given a Redstone signal.\n\nHit U while hovering over the Atomic Reconstructor to see its uses."
+          "name:8": "continuum.atomic_reconstructor.name",
+          "desc:8": "continuum.atomic_reconstructor.desc"
         }
       },
       "tasks:9": {
@@ -767,7 +795,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -1085,7 +1113,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -1155,7 +1183,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -1225,7 +1253,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -1317,7 +1345,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -1396,8 +1424,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "continuum.engineers_workbench.name",
-          "desc:8": "continuum.engineers_workbench.desc"
+          "name:8": "continuum.workshop_table.name",
+          "desc:8": "continuum.workshop_table.desc"
         }
       },
       "tasks:9": {
@@ -1512,7 +1540,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -1576,7 +1604,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -1789,7 +1817,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -1929,7 +1957,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -1995,7 +2023,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -2086,7 +2114,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -2315,7 +2343,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -2386,7 +2414,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -2727,7 +2755,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -2993,7 +3021,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -3064,7 +3092,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -3229,7 +3257,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -3339,7 +3367,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -3550,7 +3578,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -3633,7 +3661,7 @@
             },
             "3:10": {
               "id:8": "environmentaltech:laser_core",
-              "Count:3": 1,
+              "Count:3": 3,
               "OreDict:8": "",
               "Damage:3": 0
             },
@@ -3656,7 +3684,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -3949,7 +3977,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -4013,7 +4041,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -4257,18 +4285,12 @@
               "Damage:3": 0
             },
             "2:10": {
-              "id:8": "environmentaltech:modifier_null",
-              "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "3:10": {
               "id:8": "environmentaltech:laser_core",
               "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
             },
-            "4:10": {
+            "3:10": {
               "id:8": "environmentaltech:laser_lens",
               "Count:3": 1,
               "OreDict:8": "etLaserLens",
@@ -4287,7 +4309,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -4362,18 +4384,12 @@
               "Damage:3": 0
             },
             "2:10": {
-              "id:8": "environmentaltech:modifier_null",
-              "Count:3": 16,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "3:10": {
               "id:8": "environmentaltech:laser_core",
               "Count:3": 6,
               "OreDict:8": "",
               "Damage:3": 0
             },
-            "4:10": {
+            "3:10": {
               "id:8": "environmentaltech:laser_lens",
               "Count:3": 1,
               "OreDict:8": "etLaserLens",
@@ -4392,7 +4408,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -4456,7 +4472,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 60
+              "Damage:3": 101
             }
           }
         }
@@ -4518,7 +4534,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 60
+              "Damage:3": 101
             }
           }
         }
@@ -4582,7 +4598,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -4646,7 +4662,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -4710,7 +4726,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -4850,7 +4866,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -5038,7 +5054,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -5102,7 +5118,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -5325,7 +5341,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -5404,18 +5420,12 @@
               "Damage:3": 0
             },
             "2:10": {
-              "id:8": "environmentaltech:modifier_null",
-              "Count:3": 12,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "3:10": {
               "id:8": "environmentaltech:laser_core",
               "Count:3": 5,
               "OreDict:8": "",
               "Damage:3": 0
             },
-            "4:10": {
+            "3:10": {
               "id:8": "environmentaltech:laser_lens",
               "Count:3": 1,
               "OreDict:8": "etLaserLens",
@@ -5434,7 +5444,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -5515,7 +5525,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -5580,7 +5590,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -5644,7 +5654,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -5716,7 +5726,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -6204,7 +6214,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -6303,7 +6313,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -6370,7 +6380,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -6434,7 +6444,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -6498,7 +6508,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -6574,7 +6584,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -6638,7 +6648,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -6812,7 +6822,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 60
+              "Damage:3": 101
             }
           }
         }
@@ -6902,7 +6912,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 60
+              "Damage:3": 101
             }
           }
         }
@@ -7185,7 +7195,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -7616,7 +7626,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -7991,6 +8001,9 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
+            "ForgeCaps:10": {
+              "industrialforegoing:meat_feeder:10": {}
+            },
             "id:8": "industrialforegoing:meat_feeder",
             "Count:3": 1,
             "Damage:2": 0,
@@ -8111,7 +8124,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -8315,7 +8328,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -8443,7 +8456,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -8507,7 +8520,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -8859,7 +8872,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -8923,7 +8936,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -9220,7 +9233,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -9554,7 +9567,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -9649,7 +9662,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -9713,7 +9726,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -9777,7 +9790,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -9853,18 +9866,12 @@
               "Damage:3": 0
             },
             "2:10": {
-              "id:8": "environmentaltech:modifier_null",
-              "Count:3": 20,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "3:10": {
               "id:8": "environmentaltech:laser_core",
               "Count:3": 6,
               "OreDict:8": "",
               "Damage:3": 0
             },
-            "4:10": {
+            "3:10": {
               "id:8": "environmentaltech:laser_lens",
               "Count:3": 1,
               "OreDict:8": "etLaserLens",
@@ -9883,7 +9890,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -9988,7 +9995,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -10093,7 +10100,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -10168,18 +10175,12 @@
               "Damage:3": 0
             },
             "2:10": {
-              "id:8": "environmentaltech:modifier_null",
-              "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "3:10": {
               "id:8": "environmentaltech:laser_core",
               "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
             },
-            "4:10": {
+            "3:10": {
               "id:8": "environmentaltech:laser_lens",
               "Count:3": 1,
               "OreDict:8": "etLaserLens",
@@ -10198,7 +10199,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -10327,7 +10328,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -10391,7 +10392,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -10605,7 +10606,7 @@
     "133:10": {
       "questID:3": 133,
       "preRequisites:11": [
-        132
+        101
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10666,7 +10667,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -11828,7 +11829,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 30
+              "Damage:3": 101
             }
           }
         }
@@ -11934,7 +11935,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -12028,7 +12029,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -12125,7 +12126,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -12480,7 +12481,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -12915,7 +12916,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -12979,7 +12980,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -13043,7 +13044,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -13107,7 +13108,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 10
+              "Damage:3": 101
             }
           }
         }
@@ -13415,6 +13416,23 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "id:8": "advancedrocketry:monitoringstation",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "4:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 4,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
               "id:8": "advancedrocketry:satellitecontrolcenter",
               "Count:3": 1,
               "OreDict:8": "",
@@ -13614,7 +13632,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -14321,7 +14339,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -14911,7 +14929,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -15752,9 +15770,14 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "extrautils2:drum",
+            "id:8": "thermalexpansion:tank",
             "Count:3": 1,
-            "Damage:2": 4,
+            "tag:10": {
+              "RSControl:1": 0,
+              "Creative:1": 1,
+              "Level:1": 4
+            },
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -15777,10 +15800,15 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "extrautils2:drum",
+              "id:8": "thermalexpansion:tank",
               "Count:3": 1,
+              "tag:10": {
+                "RSControl:1": 0,
+                "Creative:1": 1,
+                "Level:1": 4
+              },
               "OreDict:8": "",
-              "Damage:3": 4
+              "Damage:3": 0
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -15853,7 +15881,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -15917,7 +15945,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 85
+              "Damage:3": 101
             }
           }
         }
@@ -16576,7 +16604,7 @@
               "id:8": "bq_standard:loot_chest",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 99
+              "Damage:3": 101
             }
           }
         }
@@ -19522,7 +19550,7 @@
               "id:8": "minecraft:coal",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 1
             },
             "1:10": {
               "id:8": "minecraft:fire_charge",
@@ -19540,7 +19568,7 @@
               "id:8": "tconstruct:firewood",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:3": 0
             },
             "4:10": {
               "id:8": "quark:charred_nether_bricks",
@@ -19622,7 +19650,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:part",
@@ -19707,6 +19735,12 @@
             },
             "1:10": {
               "id:8": "advancedrocketry:structuretower",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "advancedrocketry:monitoringstation",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -20501,18 +20535,6 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "posX:3": 0,
-          "posY:3": 0,
-          "posZ:3": 0,
-          "visible:1": 0,
-          "name:8": "Liquid DNA planet",
-          "range:3": -1,
-          "index:3": 1,
-          "dimension:3": 52,
-          "taskID:8": "bq_standard:location",
-          "hideInfo:1": 1
         }
       },
       "rewards:9": {}
@@ -20584,10 +20606,10 @@
               "Damage:3": 4
             },
             "4:10": {
-              "id:8": "thermalfoundation:ore_fluid",
+              "id:8": "minecraft:redstone_ore",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:3": 0
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -20871,7 +20893,26 @@
           "desc:8": "continuum.red_morningstar.desc"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_rm_morning_star",
+              "Count:3": 1,
+              "tag:10": {},
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "289:10": {
@@ -21433,6 +21474,110 @@
             },
             "3:10": {
               "id:8": "minecraft:water_bucket",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "298:10": {
+      "questID:3": 298,
+      "preRequisites:11": [
+        179
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "projecte:item.pe_archangel_smite",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "continuum.archangel.name",
+          "desc:8": "continuum.archangel.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_archangel_smite",
+              "Count:3": 1,
+              "tag:10": {},
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "299:10": {
+      "questID:3": 299,
+      "preRequisites:11": [
+        144
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:crafting_accelerator",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "continuum.crafting_CPU.name",
+          "desc:8": "continuum.crafting_CPU.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:crafting_accelerator",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -22271,6 +22416,12 @@
         },
         "35:10": {
           "size:3": 24,
+          "x:3": 60,
+          "y:3": 186,
+          "id:3": 133
+        },
+        "36:10": {
+          "size:3": 24,
           "x:3": -156,
           "y:3": 42,
           "id:3": 291
@@ -22504,6 +22655,12 @@
           "x:3": -120,
           "y:3": -6,
           "id:3": 295
+        },
+        "36:10": {
+          "size:3": 24,
+          "x:3": -120,
+          "y:3": 138,
+          "id:3": 299
         }
       },
       "lineID:3": 4,
@@ -23006,6 +23163,12 @@
           "x:3": 84,
           "y:3": 108,
           "id:3": 288
+        },
+        "30:10": {
+          "size:3": 24,
+          "x:3": 24,
+          "y:3": 0,
+          "id:3": 298
         }
       },
       "lineID:3": 6,
