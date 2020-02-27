@@ -40,6 +40,23 @@
           "TartaricAcid"
         ],
         "time": 1575949079
+      },
+      {
+        "version": "1.3.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/All%20the%20Mods%203%20Expert-1.3.0-windows.zip",
+          "md5": "37b397735db17f91247800cd88303a0d",
+          "sha1": "71471e0ed3608e6074c5844db298c1c821528ffa"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/All%20the%20Mods%203%20Expert-1.3.0-linux.zip",
+          "md5": "37b397735db17f91247800cd88303a0d",
+          "sha1": "71471e0ed3608e6074c5844db298c1c821528ffa"
+        },
+        "author": [
+          "HinsonDongGua"
+        ],
+        "time": 1577090090
       }
     ]
   },
@@ -123,6 +140,119 @@
           "misterplus"
         ],
         "time": 1559220395
+      }
+    ]
+  },
+  {
+    "name": "Enigmatica 2 Expert",
+    "contents": [
+      {
+        "version": "1.64d",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.64d-windows.zip",
+          "md5": "ff42f40dd19a8189d6f44b29656224e1",
+          "sha1": "b4ddc8b85404cd77433e37cb04254140c8873594"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.64d-linux.zip",
+          "md5": "ff42f40dd19a8189d6f44b29656224e1",
+          "sha1": "b4ddc8b85404cd77433e37cb04254140c8873594"
+        },
+        "author": [
+          "TartaricAcid",
+          "wumingzhiren"
+        ],
+        "time": 1577422968
+      },
+      {
+        "version": "1.65d",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.65d-windows.zip",
+          "md5": "5a99c6fcaa6e33a34b7833c6f2d4f80f",
+          "sha1": "9cc23232c1959b3ca335ad4b15da3d823eaef690"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.65d-linux.zip",
+          "md5": "5a99c6fcaa6e33a34b7833c6f2d4f80f",
+          "sha1": "9cc23232c1959b3ca335ad4b15da3d823eaef690"
+        },
+        "author": [
+          "TartaricAcid",
+          "wumingzhiren"
+        ],
+        "time": 1577422968
+      },
+      {
+        "version": "1.66c-1.67",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.66c-1.67-windows.zip",
+          "md5": "4830c960cb738fc01d4da03853577bb5",
+          "sha1": "99dee28a315fe0bedee99bc36cd193d8c2d37ebd"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.66c-1.67-linux.zip",
+          "md5": "4830c960cb738fc01d4da03853577bb5",
+          "sha1": "99dee28a315fe0bedee99bc36cd193d8c2d37ebd"
+        },
+        "author": [
+          "TartaricAcid",
+          "wumingzhiren"
+        ],
+        "time": 1577422968
+      },
+      {
+        "version": "1.68",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.68-windows.zip",
+          "md5": "981aa46fab79425e1b9ca773ab5afb34",
+          "sha1": "88e0b7232bb3e98d6e14b03fbbde5c6f9f698534"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.68-linux.zip",
+          "md5": "981aa46fab79425e1b9ca773ab5afb34",
+          "sha1": "88e0b7232bb3e98d6e14b03fbbde5c6f9f698534"
+        },
+        "author": [
+          "TartaricAcid",
+          "wumingzhiren"
+        ],
+        "time": 1577422968
+      },
+      {
+        "version": "1.69-1.71",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.69-1.71-windows.zip",
+          "md5": "a6ca051a52a58cc815aafa4a044e4ddc",
+          "sha1": "b0a544e9b3fd3c235f2110ed958a187e47ba19bd"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.69-1.71-linux.zip",
+          "md5": "a6ca051a52a58cc815aafa4a044e4ddc",
+          "sha1": "b0a544e9b3fd3c235f2110ed958a187e47ba19bd"
+        },
+        "author": [
+          "TartaricAcid",
+          "wumingzhiren"
+        ],
+        "time": 1577422968
+      },
+      {
+        "version": "1.72-1.72b",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.72-1.72b-windows.zip",
+          "md5": "fab5fa19694a1ac965fa455d6f5cbe5d",
+          "sha1": "f516aa13dee52c815a0534cf0f6fcd0db1f43674"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.72-1.72b-linux.zip",
+          "md5": "fab5fa19694a1ac965fa455d6f5cbe5d",
+          "sha1": "f516aa13dee52c815a0534cf0f6fcd0db1f43674"
+        },
+        "author": [
+          "TartaricAcid",
+          "wumingzhiren"
+        ],
+        "time": 1577422968
       }
     ]
   },
@@ -725,125 +855,149 @@
         "version": "2.0.4.9",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.4.9-windows.zip",
-          "md5": "17af770f835ee508ba971ce4ef79b34d",
-          "sha1": "f27088ff4d29907e5a73ec648b71806f2156884c"
+          "md5": "cd379e652ff9e5e686c5899077eae67e",
+          "sha1": "6fd6000cd4229eaf8d2888d9f79f03d5d9bfe6b7"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.4.9-linux.zip",
-          "md5": "17af770f835ee508ba971ce4ef79b34d",
-          "sha1": "f27088ff4d29907e5a73ec648b71806f2156884c"
+          "md5": "cd379e652ff9e5e686c5899077eae67e",
+          "sha1": "6fd6000cd4229eaf8d2888d9f79f03d5d9bfe6b7"
         },
         "author": [
           "TartaricAcid",
+          "[Kiwi233]",
           "Kiwi233"
         ],
-        "time": 1560776939
+        "time": 1579266171
       },
       {
         "version": "2.0.5.1",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.5.1-windows.zip",
-          "md5": "c7e35f841de7fda34eb1e373e423aa6e",
-          "sha1": "34b7c5f9bc2142c6fd0bfe6e2454e47bfb703889"
+          "md5": "57a034a7563c2fb74b48e5d83e20922a",
+          "sha1": "a45c5ed6a53ee3aa680644663675e4d44d0ebca6"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.5.1-linux.zip",
-          "md5": "c7e35f841de7fda34eb1e373e423aa6e",
-          "sha1": "34b7c5f9bc2142c6fd0bfe6e2454e47bfb703889"
+          "md5": "57a034a7563c2fb74b48e5d83e20922a",
+          "sha1": "a45c5ed6a53ee3aa680644663675e4d44d0ebca6"
         },
         "author": [
           "TartaricAcid",
+          "[Kiwi233]",
           "Kiwi233"
         ],
-        "time": 1560776939
+        "time": 1579266171
       },
       {
         "version": "2.0.6.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.0-windows.zip",
-          "md5": "0d33891ac16db600f9a7553a5dcfd2d7",
-          "sha1": "3bbdec388d150ee8f2cdce99532df11cea9b4ef9"
+          "md5": "9e811fc14b6bf7847c02515a19185fe0",
+          "sha1": "bd79317cf05b77768b047a947f001f1517b8ff40"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.0-linux.zip",
-          "md5": "0d33891ac16db600f9a7553a5dcfd2d7",
-          "sha1": "3bbdec388d150ee8f2cdce99532df11cea9b4ef9"
+          "md5": "9e811fc14b6bf7847c02515a19185fe0",
+          "sha1": "bd79317cf05b77768b047a947f001f1517b8ff40"
         },
         "author": [
           "TartaricAcid",
+          "[Kiwi233]",
           "Kiwi233"
         ],
-        "time": 1560776939
+        "time": 1579266171
       },
       {
         "version": "2.0.6.2",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.2-windows.zip",
-          "md5": "fc223d136cc27c1e21258fc5a9c263f4",
-          "sha1": "7bb17a54606747b3e3e0a1b929108d23d938d988"
+          "md5": "744e188e4d297d8deb71ec1eb02a5b3a",
+          "sha1": "b1c3d89cc5a856a4b05e44382a8b24862b6c710f"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.2-linux.zip",
-          "md5": "fc223d136cc27c1e21258fc5a9c263f4",
-          "sha1": "7bb17a54606747b3e3e0a1b929108d23d938d988"
+          "md5": "744e188e4d297d8deb71ec1eb02a5b3a",
+          "sha1": "b1c3d89cc5a856a4b05e44382a8b24862b6c710f"
         },
         "author": [
           "TartaricAcid",
+          "[Kiwi233]",
           "Kiwi233"
         ],
-        "time": 1560776939
+        "time": 1579266171
       },
       {
         "version": "2.0.6.8",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.8-windows.zip",
-          "md5": "43c7579b9bf848dfa5b42f21217b13ca",
-          "sha1": "3acef549fe8c2b939d0179e6895f047f2013a651"
+          "md5": "a771fbfc80db412dea5e09560942793c",
+          "sha1": "ba948774be91caf0391e8d982bdf49dd47bd4829"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.6.8-linux.zip",
-          "md5": "43c7579b9bf848dfa5b42f21217b13ca",
-          "sha1": "3acef549fe8c2b939d0179e6895f047f2013a651"
+          "md5": "a771fbfc80db412dea5e09560942793c",
+          "sha1": "ba948774be91caf0391e8d982bdf49dd47bd4829"
         },
         "author": [
           "TartaricAcid",
+          "[Kiwi233]",
           "Kiwi233"
         ],
-        "time": 1560776939
+        "time": 1579266171
       },
       {
         "version": "2.0.7.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.7.0-windows.zip",
-          "md5": "275c0e67cdd16667ab4256dabd7266f4",
-          "sha1": "640944e551985c0cc7e4877892ee1df3ab5348d3"
+          "md5": "322f227c84841ec5989f5c89a311b3d7",
+          "sha1": "fade133a31064a97b6ca4e85a82100d1a2e3a67c"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.7.0-linux.zip",
-          "md5": "275c0e67cdd16667ab4256dabd7266f4",
-          "sha1": "640944e551985c0cc7e4877892ee1df3ab5348d3"
+          "md5": "322f227c84841ec5989f5c89a311b3d7",
+          "sha1": "fade133a31064a97b6ca4e85a82100d1a2e3a67c"
         },
         "author": [
-          "Kiwi233"
+          "Kiwi233",
+          "[Kiwi233]"
         ],
-        "time": 1560776939
+        "time": 1579266171
       },
       {
         "version": "2.0.7.5",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.7.5-windows.zip",
-          "md5": "9d51cb9498d8be38e81398f8e899f86e",
-          "sha1": "257312e89e0f441163cd4774414ce4745846dffb"
+          "md5": "011147b48b4f94445745eb436f73265d",
+          "sha1": "5419b07cd7870fb03e7c1d1489bb5950324a216c"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.7.5-linux.zip",
-          "md5": "9d51cb9498d8be38e81398f8e899f86e",
-          "sha1": "257312e89e0f441163cd4774414ce4745846dffb"
+          "md5": "011147b48b4f94445745eb436f73265d",
+          "sha1": "5419b07cd7870fb03e7c1d1489bb5950324a216c"
         },
         "author": [
-          "Kiwi233"
+          "Kiwi233",
+          "[Kiwi233]"
         ],
-        "time": 1560776939
+        "time": 1579266171
+      },
+      {
+        "version": "2.0.8.1",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.8.1-windows.zip",
+          "md5": "0e616befe56305b4404ed48bffd32c33",
+          "sha1": "5e5ffefc26102a5fce7bd684fb78931c87774a51"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.8.1-linux.zip",
+          "md5": "0e616befe56305b4404ed48bffd32c33",
+          "sha1": "5e5ffefc26102a5fce7bd684fb78931c87774a51"
+        },
+        "author": [
+          "[Kiwi233]"
+        ],
+        "time": 1579266171
       }
     ]
   },
@@ -854,142 +1008,149 @@
         "version": "2.0.4.9",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.4.9-windows.zip",
-          "md5": "050e46cc7ef2344b465939f144c73ed2",
-          "sha1": "95da996c38acbcf70170c2b2447524c84cdc2c60"
+          "md5": "5ad79708fda25eb236218e583947be57",
+          "sha1": "4fb8e6d64610208936d5d1185d0d8d4e2a7ccc72"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.4.9-linux.zip",
-          "md5": "050e46cc7ef2344b465939f144c73ed2",
-          "sha1": "95da996c38acbcf70170c2b2447524c84cdc2c60"
+          "md5": "5ad79708fda25eb236218e583947be57",
+          "sha1": "4fb8e6d64610208936d5d1185d0d8d4e2a7ccc72"
         },
         "author": [
           "TartaricAcid",
+          "[Kiwi233]",
           "Kiwi233"
         ],
-        "time": 1560776939
+        "time": 1579266171
       },
       {
         "version": "2.0.5.1",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.5.1-windows.zip",
-          "md5": "2031da697cd0d6872491857f5de1c434",
-          "sha1": "c64db43ac78812874b107fac541e65e36bfc9e11"
+          "md5": "77be67f87d3e25b4b8b782a0db407952",
+          "sha1": "6cb4685998ae638f200fb9f377b1be9f36c84ce9"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.5.1-linux.zip",
-          "md5": "2031da697cd0d6872491857f5de1c434",
-          "sha1": "c64db43ac78812874b107fac541e65e36bfc9e11"
+          "md5": "77be67f87d3e25b4b8b782a0db407952",
+          "sha1": "6cb4685998ae638f200fb9f377b1be9f36c84ce9"
         },
         "author": [
           "TartaricAcid",
+          "[Kiwi233]",
           "Kiwi233"
         ],
-        "time": 1560776939
+        "time": 1579266171
       },
       {
         "version": "2.0.6.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.0-windows.zip",
-          "md5": "92afd0004736d6d568e5fbced7a2867c",
-          "sha1": "197e7d4d2362003849d4e445d31f7aa4f12cea52"
+          "md5": "8f6f02e62111d9923e2802a294eb3e88",
+          "sha1": "459b758f3ae5dbe5fb643ccd38a007c2e9e52c82"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.0-linux.zip",
-          "md5": "92afd0004736d6d568e5fbced7a2867c",
-          "sha1": "197e7d4d2362003849d4e445d31f7aa4f12cea52"
+          "md5": "8f6f02e62111d9923e2802a294eb3e88",
+          "sha1": "459b758f3ae5dbe5fb643ccd38a007c2e9e52c82"
         },
         "author": [
           "TartaricAcid",
+          "[Kiwi233]",
           "Kiwi233"
         ],
-        "time": 1560776939
+        "time": 1579266171
       },
       {
         "version": "2.0.6.2",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.2-windows.zip",
-          "md5": "447a7c7fb267e1418c1d13e40132f202",
-          "sha1": "5e1e043eac9256a8b1da6a8b37b3cf920d9810ee"
+          "md5": "3775534f6a23ecb5bfe0f65439c68a0b",
+          "sha1": "71f9bd4d61de945e11f517db79af3dca932607a8"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.2-linux.zip",
-          "md5": "447a7c7fb267e1418c1d13e40132f202",
-          "sha1": "5e1e043eac9256a8b1da6a8b37b3cf920d9810ee"
+          "md5": "3775534f6a23ecb5bfe0f65439c68a0b",
+          "sha1": "71f9bd4d61de945e11f517db79af3dca932607a8"
         },
         "author": [
           "TartaricAcid",
+          "[Kiwi233]",
           "Kiwi233"
         ],
-        "time": 1560776939
+        "time": 1579266171
       },
       {
         "version": "2.0.6.8",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.8-windows.zip",
-          "md5": "77a63b9a697c6ac601cbaf4b36e55bce",
-          "sha1": "e539cdd9857a4e6dafc73cd0f8256b28ce6f1ae5"
+          "md5": "95698bd28031360fa5726c1c408751fd",
+          "sha1": "70887c570b342d14932548464f3868897166d036"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.6.8-linux.zip",
-          "md5": "77a63b9a697c6ac601cbaf4b36e55bce",
-          "sha1": "e539cdd9857a4e6dafc73cd0f8256b28ce6f1ae5"
+          "md5": "95698bd28031360fa5726c1c408751fd",
+          "sha1": "70887c570b342d14932548464f3868897166d036"
         },
         "author": [
           "TartaricAcid",
+          "[Kiwi233]",
           "Kiwi233"
         ],
-        "time": 1560776939
+        "time": 1579266171
       },
       {
         "version": "2.0.7.0",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.7.0-windows.zip",
-          "md5": "f4814889f068e69e29abddf4e607af2a",
-          "sha1": "796efff55f710b875885036fbae742784fb5ead5"
+          "md5": "525de61f1d6d882dd7018b8521283973",
+          "sha1": "0363bdb264dde25a98544227d54b9f4d65473e59"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.7.0-linux.zip",
-          "md5": "f4814889f068e69e29abddf4e607af2a",
-          "sha1": "796efff55f710b875885036fbae742784fb5ead5"
+          "md5": "525de61f1d6d882dd7018b8521283973",
+          "sha1": "0363bdb264dde25a98544227d54b9f4d65473e59"
         },
         "author": [
-          "Kiwi233"
+          "Kiwi233",
+          "[Kiwi233]"
         ],
-        "time": 1560776939
-      },
-      {
-        "version": "2.0.7.4",
-        "windows": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.7.4-windows.zip",
-          "md5": "db057a1409c34a0ab5f79fbde957064c",
-          "sha1": "247f95503c0b7d9edd5647f8258ca3ed2af45bca"
-        },
-        "linux": {
-          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.7.4-linux.zip",
-          "md5": "db057a1409c34a0ab5f79fbde957064c",
-          "sha1": "247f95503c0b7d9edd5647f8258ca3ed2af45bca"
-        },
-        "author": [
-          "Kiwi233"
-        ],
-        "time": 1560776939
+        "time": 1579266171
       },
       {
         "version": "2.0.7.5",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.7.5-windows.zip",
-          "md5": "4717104417343eef549571ee60b70924",
-          "sha1": "f1be75a77d0169968ee22b0806582f7c4dfa6992"
+          "md5": "d3ba1ec01d4c26566f56d75a51769f80",
+          "sha1": "c51897a303814bfa51f75f514c1909586e344779"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.7.5-linux.zip",
-          "md5": "4717104417343eef549571ee60b70924",
-          "sha1": "f1be75a77d0169968ee22b0806582f7c4dfa6992"
+          "md5": "d3ba1ec01d4c26566f56d75a51769f80",
+          "sha1": "c51897a303814bfa51f75f514c1909586e344779"
         },
         "author": [
-          "Kiwi233"
+          "Kiwi233",
+          "[Kiwi233]"
         ],
-        "time": 1560776939
+        "time": 1579266171
+      },
+      {
+        "version": "2.0.8.1",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.8.1-windows.zip",
+          "md5": "44c003b5e1df7eb8f16dd05af60dff4a",
+          "sha1": "3ade54496b19f9b19f9d5cd3b62cf988d1f993ec"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.8.1-linux.zip",
+          "md5": "44c003b5e1df7eb8f16dd05af60dff4a",
+          "sha1": "3ade54496b19f9b19f9d5cd3b62cf988d1f993ec"
+        },
+        "author": [
+          "[Kiwi233]"
+        ],
+        "time": 1579266171
       }
     ]
   },
