@@ -5,7 +5,7 @@ setIcon(<aether_legacy:victory_medal>)
 setTitle("Wohoooo")
 
 //Set description String
-setDescription("从女武神处获得胜利勋章。")
+setDescription("从女武神处获得胜利勋章")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("challenges:challenges/root")
