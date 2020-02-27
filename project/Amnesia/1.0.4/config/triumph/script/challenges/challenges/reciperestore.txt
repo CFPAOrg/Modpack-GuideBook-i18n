@@ -6,7 +6,7 @@ setIcon(<amnesia:recipe_cure>)
 setTitle("恢复你的失忆症")
 
 //Set description String
-setDescription("制作一个Extend Amnesia，使用时会将失忆症延长5分钟。")
+setDescription("制作一个Extend Amnesia，使用时会将计时器延长5分钟")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("challenges:challenges/memory")

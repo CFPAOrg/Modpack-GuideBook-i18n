@@ -5,7 +5,7 @@ setIcon(<extrautils2:compresseddirt:3>)
 setTitle("泥土！")
 
 //Set description String
-setDescription("获取或者寻找四重压缩泥土")
+setDescription("获得或寻找四重压缩泥土")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("challenges:challenges/root")
