@@ -57,6 +57,23 @@
           "HinsonDongGua"
         ],
         "time": 1577090090
+      },
+      {
+        "version": "1.4.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/All%20the%20Mods%203%20Expert-1.4.0-windows.zip",
+          "md5": "f78f50ce7bd697bdd6b1ace1076f2318",
+          "sha1": "4797e67938c24a6230339eb13b08515e445a1510"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/All%20the%20Mods%203%20Expert-1.4.0-linux.zip",
+          "md5": "f78f50ce7bd697bdd6b1ace1076f2318",
+          "sha1": "4797e67938c24a6230339eb13b08515e445a1510"
+        },
+        "author": [
+          "HinsonDongGua"
+        ],
+        "time": 1582791293
       }
     ]
   },
@@ -67,18 +84,19 @@
         "version": "1.0.4",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Amnesia-1.0.4-windows.zip",
-          "md5": "a14aa5ab09cd9408377c9848bd5a70b0",
-          "sha1": "f37904f598f4880b1680a3e4c485b06ac3c11285"
+          "md5": "cd439b6c6f761c9c5db1357b904833b0",
+          "sha1": "9b5cd9dbf1a59cb121e32132f8cd6b70e98cc4a4"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Amnesia-1.0.4-linux.zip",
-          "md5": "a14aa5ab09cd9408377c9848bd5a70b0",
-          "sha1": "f37904f598f4880b1680a3e4c485b06ac3c11285"
+          "md5": "cd439b6c6f761c9c5db1357b904833b0",
+          "sha1": "9b5cd9dbf1a59cb121e32132f8cd6b70e98cc4a4"
         },
         "author": [
+          "HinsonDongGua",
           "TartaricAcid"
         ],
-        "time": 1569933598
+        "time": 1582792063
       }
     ]
   },
@@ -353,6 +371,23 @@
           "TartaricAcid"
         ],
         "time": 1551163248
+      },
+      {
+        "version": "1.6.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Continuum-1.6.0-windows.zip",
+          "md5": "5b7657d3529567668d65897a041d9967",
+          "sha1": "8bd071b9841317efa3d811b11c21148a3faacedb"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Continuum-1.6.0-linux.zip",
+          "md5": "5b7657d3529567668d65897a041d9967",
+          "sha1": "8bd071b9841317efa3d811b11c21148a3faacedb"
+        },
+        "author": [
+          "Balthild"
+        ],
+        "time": 1581343460
       }
     ]
   },
@@ -998,6 +1033,23 @@
           "[Kiwi233]"
         ],
         "time": 1579266171
+      },
+      {
+        "version": "2.0.8.3",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.8.3-windows.zip",
+          "md5": "dd616f7672f1713edf773ba7830230e7",
+          "sha1": "6e620ad0ba0db2e27abc6e16a5583da2c5107ebd"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons-2.0.8.3-linux.zip",
+          "md5": "dd616f7672f1713edf773ba7830230e7",
+          "sha1": "6e620ad0ba0db2e27abc6e16a5583da2c5107ebd"
+        },
+        "author": [
+          "[Kiwi233]"
+        ],
+        "time": 1579783736
       }
     ]
   },
@@ -1151,6 +1203,23 @@
           "[Kiwi233]"
         ],
         "time": 1579266171
+      },
+      {
+        "version": "2.0.8.3",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.8.3-windows.zip",
+          "md5": "fdd9d83a1cf4d9efe7f3d02eb7b69e71",
+          "sha1": "cc31f6940dca051f7a0337b15c1d070548ebd5cd"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/GT%20New%20Horizons%20%28%E5%90%AB%E9%AD%94%E6%94%B9%E6%B1%89%E5%8C%96%29-2.0.8.3-linux.zip",
+          "md5": "fdd9d83a1cf4d9efe7f3d02eb7b69e71",
+          "sha1": "cc31f6940dca051f7a0337b15c1d070548ebd5cd"
+        },
+        "author": [
+          "[Kiwi233]"
+        ],
+        "time": 1579783736
       }
     ]
   },
