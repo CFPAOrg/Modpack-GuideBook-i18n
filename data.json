@@ -162,6 +162,28 @@
     ]
   },
   {
+    "name": "Chemical Exchange",
+    "contents": [
+      {
+        "version": "1.10",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Chemical%20Exchange-1.10-windows.zip",
+          "md5": "cf93069957c1576823d54f8e06e3e415",
+          "sha1": "7b515d0aa20d91520057f6652d9f57993c949938"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Chemical%20Exchange-1.10-linux.zip",
+          "md5": "cf93069957c1576823d54f8e06e3e415",
+          "sha1": "7b515d0aa20d91520057f6652d9f57993c949938"
+        },
+        "author": [
+          "hujtt"
+        ],
+        "time": 1589379127
+      }
+    ]
+  },
+  {
     "name": "Enigmatica 2 Expert",
     "contents": [
       {
