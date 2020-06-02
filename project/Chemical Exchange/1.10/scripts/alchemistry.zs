@@ -30,25 +30,25 @@ recipes.remove(<alchemistry:chemical_dissolver>);
 
 recipes.replaceAllOccurences(<minecraft:stone>,<ore:ingotTungsten>,<alchemistry:evaporator>);
 
-Combiner.setAsStaged(<minecraft:cactus>,"cactus");// output, String stage);
+Combiner.setAsStaged(<minecraft:cactus>,"仙人掌");// output, String stage);
 
-Combiner.setAsStaged(<minecraft:stone:1>,"aluminum");
-Combiner.setAsStaged(<minecraft:stone:2>,"aluminum");
-Combiner.setAsStaged(<minecraft:stone:3>,"aluminum");
-Combiner.setAsStaged(<minecraft:stone:4>,"aluminum");
-Combiner.setAsStaged(<minecraft:stone:5>,"aluminum");
-Combiner.setAsStaged(<minecraft:stone:6>,"aluminum");
+Combiner.setAsStaged(<minecraft:stone:1>,"铝");
+Combiner.setAsStaged(<minecraft:stone:2>,"铝");
+Combiner.setAsStaged(<minecraft:stone:3>,"铝");
+Combiner.setAsStaged(<minecraft:stone:4>,"铝");
+Combiner.setAsStaged(<minecraft:stone:5>,"铝");
+Combiner.setAsStaged(<minecraft:stone:6>,"铝");
 
-Combiner.setAsStaged(<minecraft:grass>,"sapling");
-Combiner.setAsStaged(<minecraft:carrot>,"sapling");
-Combiner.setAsStaged(<minecraft:reeds>,"sapling");
-Combiner.setAsStaged(<minecraft:apple>,"sapling");
-Combiner.setAsStaged(<minecraft:log>,"sapling");
-Combiner.setAsStaged(<minecraft:log:1>,"sapling");
-Combiner.setAsStaged(<minecraft:log:2>,"sapling");
-Combiner.setAsStaged(<minecraft:log:3>,"sapling");
-Combiner.setAsStaged(<minecraft:log2>,"sapling");
-Combiner.setAsStaged(<minecraft:log2:1>,"sapling");
+Combiner.setAsStaged(<minecraft:grass>,"树苗");
+Combiner.setAsStaged(<minecraft:carrot>,"树苗");
+Combiner.setAsStaged(<minecraft:reeds>,"树苗");
+Combiner.setAsStaged(<minecraft:apple>,"树苗");
+Combiner.setAsStaged(<minecraft:log>,"树苗");
+Combiner.setAsStaged(<minecraft:log:1>,"树苗");
+Combiner.setAsStaged(<minecraft:log:2>,"树苗");
+Combiner.setAsStaged(<minecraft:log:3>,"树苗");
+Combiner.setAsStaged(<minecraft:log2>,"树苗");
+Combiner.setAsStaged(<minecraft:log2:1>,"树苗");
 
 
 Combiner.removeRecipe(<minecraft:gunpowder>);
