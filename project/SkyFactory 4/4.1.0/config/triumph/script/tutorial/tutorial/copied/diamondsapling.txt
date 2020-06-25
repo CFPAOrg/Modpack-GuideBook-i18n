@@ -1,0 +1,19 @@
+setTitle("钻石恒久远")
+
+setIcon(<sky_orchards:sapling_diamond>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.diamondsapling.description")
+
+addParent("tutorial:tutorial/copied/goldSapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Diamond Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_diamond>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(374,-53)
+hideLines()
