@@ -168,18 +168,18 @@
         "version": "1.10",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Chemical%20Exchange-1.10-windows.zip",
-          "md5": "cf93069957c1576823d54f8e06e3e415",
-          "sha1": "7b515d0aa20d91520057f6652d9f57993c949938"
+          "md5": "122309debc97e91e36cd9017369aa4df",
+          "sha1": "984823280e41b041746789fc16d6052378636fbf"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Chemical%20Exchange-1.10-linux.zip",
-          "md5": "cf93069957c1576823d54f8e06e3e415",
-          "sha1": "7b515d0aa20d91520057f6652d9f57993c949938"
+          "md5": "122309debc97e91e36cd9017369aa4df",
+          "sha1": "984823280e41b041746789fc16d6052378636fbf"
         },
         "author": [
           "hujtt"
         ],
-        "time": 1589379127
+        "time": 1591105338
       }
     ]
   },
@@ -293,6 +293,23 @@
           "wumingzhiren"
         ],
         "time": 1577422968
+      },
+      {
+        "version": "1.81a",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.81a-windows.zip",
+          "md5": "fcc791e96a8f5a88057525be9bb57367",
+          "sha1": "2c9268e84dd9c240d93a0dc8f8691ae10849b817"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Enigmatica%202%20Expert-1.81a-linux.zip",
+          "md5": "fcc791e96a8f5a88057525be9bb57367",
+          "sha1": "2c9268e84dd9c240d93a0dc8f8691ae10849b817"
+        },
+        "author": [
+          "hujtt"
+        ],
+        "time": 1592565751
       }
     ]
   },
@@ -1290,6 +1307,28 @@
     ]
   },
   {
+    "name": "Material Energy^5- Entity",
+    "contents": [
+      {
+        "version": "1.0.5",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Material%20Energy%5E5-%20Entity-1.0.5-windows.zip",
+          "md5": "1e94a05800d49878dc43c1e172939c5b",
+          "sha1": "9bd2a759a6fb73436b2b4f591fb7fc4c097558bc"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Material%20Energy%5E5-%20Entity-1.0.5-linux.zip",
+          "md5": "1e94a05800d49878dc43c1e172939c5b",
+          "sha1": "9bd2a759a6fb73436b2b4f591fb7fc4c097558bc"
+        },
+        "author": [
+          "鏈ㄥぇ鐨?"
+        ],
+        "time": 1593022883
+      }
+    ]
+  },
+  {
     "name": "Modern Skyblock 3",
     "contents": [
       {
@@ -1538,6 +1577,23 @@
           "mudapi"
         ],
         "time": 1561273311
+      },
+      {
+        "version": "4.1.0",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.1.0-windows.zip",
+          "md5": "e4abc283aa975ba82b43faf14b6b471f",
+          "sha1": "71653a6a8bd56844aca64ff51b7efd4c964fae35"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/SkyFactory%204-4.1.0-linux.zip",
+          "md5": "ce401672e47075d14d4e196812703abd",
+          "sha1": "6668a168f7c9cec90ce522b693b875d867b49e59"
+        },
+        "author": [
+          "hujtt"
+        ],
+        "time": 1592137842
       }
     ]
   },
@@ -1916,6 +1972,28 @@
           "FormatToday"
         ],
         "time": 1553819727
+      }
+    ]
+  },
+  {
+    "name": "TerraFirmaCraft Reloaded",
+    "contents": [
+      {
+        "version": "0.10.1-hotfix",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/TerraFirmaCraft%20Reloaded-0.10.1-hotfix-windows.zip",
+          "md5": "485d1f4f9976277c80721ad6359d1d59",
+          "sha1": "2a69a49fb28d1e819c3d337647adbcf9d2b02c7d"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/TerraFirmaCraft%20Reloaded-0.10.1-hotfix-linux.zip",
+          "md5": "485d1f4f9976277c80721ad6359d1d59",
+          "sha1": "2a69a49fb28d1e819c3d337647adbcf9d2b02c7d"
+        },
+        "author": [
+          "鏈ㄥぇ鐨?"
+        ],
+        "time": 1592038149
       }
     ]
   }
