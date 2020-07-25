@@ -46,4 +46,4 @@ deploy_script:
 
     git commit -m 'AppVeyor自动部署 '
 
-    git push --force --quiet "https://dt_41azGL:${CO_TOKEN}@${CO_REF}" master:master
+    git push --force --quiet "https://ptl5jl9m65l9:${CO_TOKEN}@${CO_REF}" master:master
