@@ -1,0 +1,8 @@
+itemGroup.cropdusting=Crop Dusting
+
+item.cropdusting:poop.name=便便
+item.cropdusting:poop.tooltip=右键泥土使其变成肥沃泥土
+
+tile.cropdusting:fertile_dirt.name=肥沃泥土
+tile.cropdusting:fertile_dirt.tooltip=放在耕地下面\n它将使农作物生长更快一点\n一块耕地下面最多放3块
+
