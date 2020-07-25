@@ -1,0 +1,15 @@
+{
+    "name": "液态灵魂",
+    "icon": "forge:bucketfilled{FluidName: \"liquid_souls\", Amount: 1000}",
+    "category": "other",
+    "sortnum": 10,
+    "pages": [
+    	{	
+        	"type": "spotlight",
+            "title": "液态灵魂",
+            "item": "forge:bucketfilled{FluidName: \"liquid_souls\", Amount: 1000}",
+            "link_recipe": true,
+            "text": "液态灵魂是通过在聚焦管下放置神秘粉块而产生的液体，液态灵魂将玩家往上推，但你可以按住shift键下沉。"
+        }
+    ]
+}

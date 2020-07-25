@@ -1,0 +1,53 @@
+{
+	"name": "The Summoner",
+	"icon": "soulus:summoner",
+	"advancement": "soulus:dust_ender",
+	"category": "summoning",
+	"sortnum": 10202,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(item)Summoner$() converts essence of creatures past into soulus in order to create random descendants. The alignment and fuel source (essence) of a summoner is provided by a $(l:summoning/soulbook)Soulbook$().$(p)In order to craft a summoner, you will need to collect a few other items."
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:dust/dust_iron",
+			"recipe2": "soulus:dust/dust_ender_iron"
+		},
+		{
+			"type": "smelting",
+			"recipe": "soulus:dust_ender_iron",
+			"text": "You have now created an ingot of what I've dubbed 'Endersteel'. This metal is similar to iron in density and hardness, but it's also a better conductor for soulus.$(p)$(o)Note: This is probably over your head; that's fine. You haven't researched soulus manipulation for as long as I have."
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:decoration/endersteel_bars",
+			"recipe2": "soulus:doodads/summoner"
+		},
+		{
+			"type": "spotlight",
+			"item": "soulus:summoner",
+			"text": "You now have your very first summoner. Place it down and insert a $(l:summoning/soulbook)Soulbook$() to begin to restore Animalia."
+		},
+		{
+			"type": "text",
+			"text": "As you may have expected, it takes a long time for your summoner to recreate life. It also takes another ingredient: your presence.$(p)The reasoning is simple, but unfortunate; it's impossible to create something living from only remains. To summon a creature, the summoner will leech away your soul. Don't worry, though, you won't feel a thing. Probably. And your soul will regenerate over time."
+		},
+		{
+			"type": "spotlight",
+			"item": "soulus:essence_perfect{essence_types:['minecraft:chicken','minecraft:creeper','minecraft:spider','minecraft:cow','minecraft:bat','minecraft:horse','minecraft:villager','minecraft:slime','minecraft:pig']}",
+			"text": "To speed up the summoning process, you can insert Existential Essence. It must contain some essence matching the creature being summoned."
+		},
+		{
+			"type": "relations",
+			"title": "Upgrading the Summoner",
+			"entries": [
+				"summoning/speed",
+				"summoning/quantity",
+				"summoning/range",
+				"summoning/efficiency"
+			],
+			"text": "There are multiple ways I've found in which you can improve your summoner. These chapters document each."
+		}
+	]
+}

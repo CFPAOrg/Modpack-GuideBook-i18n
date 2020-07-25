@@ -1,0 +1,24 @@
+{
+	"name": "The Soul Inquirer",
+	"icon": "soulus:soul_inquirer",
+	"advancement": "soulus:dust_ender",
+	"category": "processing",
+	"sortnum": 10304,
+	"pages": [
+		{
+			"type": "crafting",
+			"recipe": "soulus:doodads/soul_inquirer",
+			"title": "The Soul Inquirer",
+			"text": "The Soul Inquirer is a machine meant for detecting the presence of summoned creatures. How does it work, you ask? Simply give it a $(l:summoning/soulbook)Soulbook$(), and it will give a redstone output to comparators based on whether it detects a creature of that type."
+		},
+		{
+			"type": "relations",
+			"title": "Upgrades",
+			"entries": [
+				"summoning/range",
+				"summoning/quantity"
+			],
+			"text": "Each range upgrade will increase the detection range by around two blocks.$(p)Each quantity upgrade functions as a multiplier for the number of creatures that can be detected.$(p)$(l:exploiting/ash)The next section of this guide will be on putting summoned creatures to use.$()"
+		}
+	]
+}

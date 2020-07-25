@@ -1,0 +1,28 @@
+{
+    "name": "石头岛屿成型机",
+    "icon": "hwell:former",
+    "category": "other_machines",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "text",
+            "text": "石头岛屿生成器是一台机器，它将在其下方制造一个坚固的石头岛。需要一些能量才能运行，它会将下面的空气方块替换成石头。$(br2)下方的石头岛将会慢慢扩大到更大的比例，除非你打掉机器或者给予红石信号使其停止工作。"
+        },
+		{
+            "type": "crafting",
+            "title": "石头岛屿生成器",            
+			"text": "",
+            "recipe": "hwell:former"
+        },
+		{ 	"type": "image",
+	        "title": "Former",
+	        "border": true,
+            "images": [ "hwell:textures/gui/former.png" ],
+            "text": "石头岛屿生成器创造的岛屿。"
+        },
+		{
+            "type": "text",
+            "text": "你可以将石头岛屿生成器作为一种获取石头的机器，或者你可以使用它在虚空环境中生成坚实的地面。$(br2)它会一直运行，使岛屿变得越来越大。请记住，如果在不运行的情况下挖掘由其创造的岛，在重新打开时它将尝试再次填充被挖掘的位置。"
+        } 
+    ]
+}

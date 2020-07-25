@@ -1,0 +1,24 @@
+item.contenttweaker.pink_composite_dust.name=粉色混合物原料
+item.contenttweaker.raw_pink_composite.name=粉色混合物
+item.contenttweaker.pink_composite_brick.name=粉色复合砖
+item.contenttweaker.mysterious_charcoal.name=神秘木炭
+item.contenttweaker.golem_corpse.name=傀儡尸体
+item.contenttweaker.golem_meal.name=傀儡肉糜
+item.contenttweaker.fond_memories.name=爱的回忆
+item.contenttweaker.friend_memories.name=友情的回忆
+item.contenttweaker.friend_dust.name=朋友的肉糜
+item.contenttweaker.pharaoh_heart.name=法老之心
+item.contenttweaker.sprite_guardian_heart.name=精灵守护者之心
+item.contenttweaker.greater_sprite_heart.name=精灵之心
+item.contenttweaker.volcano.name=火山
+
+tile.contenttweaker.me_block.name=我
+tile.contenttweaker.cadmium_block.name=镉块
+
+fluid.archaeum=古菌
+
+item.contenttweaker.akliz.name=Akliz Server Hosting
+item.contenttweaker.discord.name=Discord
+item.contenttweaker.youtube.name=Youtube
+item.contenttweaker.twitter.name=Twitter
+item.contenttweaker.patreon.name=Patreon

@@ -1,0 +1,17 @@
+{
+	"name": "Skewer: Human",
+	"advancement": "soulus:soul_catalyst_fill",
+	"icon": "soulus:soul_catalyst{essence_quantity:256}",
+	"category": "processing",
+	"sortnum": 10303,
+	"pages": [
+		{
+			"type": "text",
+			"text": "As I'm sure you've noticed by now, some creatures will drop different items when they die based on whether they were killed by a human. When a human kills a creature, an ancient magic of our world causes the creature to drop what we've dubbed 'experience'. Other special items are usually caused by the presence of a powerful (human) soul."
+		},
+		{
+			"type": "text",
+			"text": "What if I told you that I found a way to replicate these conditions with but a humble skewer? Unfortunately, it takes... well, a lot. At this point, you're probably comfortable with throwing massive amounts of soulus around, correct? Well, if you insert a $(item)Soul Catalyst$() into the Skewer, the soul will be powerful enough for human drops."
+		}
+	]
+}

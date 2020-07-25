@@ -1,0 +1,16 @@
+{
+	"name": "Introduction",
+	"icon": "minecraft:writable_book",
+	"category": "fossils_and_essence",
+	"sortnum": 10101,
+	"pages": [
+		{
+			"type": "text",
+			"text": "If you're reading this, it means the world has become devoid of Animalia. This was intentional, so don't worry. We'll discuss why it happened later.$(p)For now, survival is the most important thing. You are the very last link; the very last chance for Animalia to return to the world."
+		},
+		{
+			"type": "text",
+			"text": "This guide is soulbound to you and was rigged to appear the moment you discovered your first fossil. These fossils will be the key to returning life to the world, and this guide will walk you through the process.$(p)This guide will update with new content as you progress in your restoration of Animalia.$(p)$(l:fossils_and_essence/extracting_essence)Learn how to put your fossils to use.$()"
+		}
+	]
+}

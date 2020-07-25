@@ -1,0 +1,27 @@
+{
+	"name": "Summoner: Efficiency",
+	"icon": "soulus:gear_niobium",
+	"advancement": "soulus:niobium",
+	"category": "summoning",
+	"sortnum": 10206,
+	"pages": [
+		{
+			"type": "text",
+			"text": "One thing that continually bothered me about my summoners was how frequently their Soulbooks would run dry. There had to be a way to make them last longer, right?$(p)Well, I found it. Turns out, that shiny blue metal, $(item)Niobium$(), seems to take away some of the essence draw from the Soulbook."
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:niobium/gear_niobium",
+			"text": "I've found the most efficient configuration is to create a niobium gear encasing bone. The gears position themselves within the summoner like oscillating gears. Each reduces the draw from the Soulbook slightly."
+		},
+		{
+			"type": "relations",
+			"title": "Other Upgrades",
+			"entries": [
+				"summoning/speed",
+				"summoning/quantity",
+				"summoning/range"
+			]
+		}
+	]
+}

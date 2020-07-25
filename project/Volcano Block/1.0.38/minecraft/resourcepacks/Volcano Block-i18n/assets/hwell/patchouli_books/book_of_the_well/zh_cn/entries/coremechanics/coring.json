@@ -1,0 +1,46 @@
+{
+    "name": "核心转化",
+    "icon": "hwell:core_stone",
+    "category": "core_mechanics",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "text",
+            "text": "核心可以转化为资源。用碎片激活它们，然后将催化剂块放在附近。粒子效果将告诉你它正在工作。有时，催化剂块会掉落，必须重新放置。"
+        },
+        { 
+	        "type": "core",
+	        "name": "核心转化101",
+	        "input1": "hwell:core_stone",
+	        "input2": "hwell:crystal",
+	        "input3": "minecraft:grass",
+	        "output": "minecraft:sand",
+	        "text": ""      
+        },
+		{
+            "type": "crafting",
+			"title": "基础核心",
+            "recipe": "hwell:core_stone",
+            "recipe2": "hwell:inert_seed"
+        },
+		{
+            "type": "crafting",
+			"title": "基础核心",
+            "recipe": "hwell:core_green",
+            "recipe2": "hwell:core_sentient"
+        },
+        {
+        	"type": "spotlight",
+            "title": "灵气核心",
+            "item": "hwell:core_anima",
+            "text": "灵气核心必须种植惰性种子收获获得。只需将种子放在地面上并保持靠近它们，它们就会生长。如果你离开它们，它们将慢慢退回到其惰性状态。惰性种子附近的玩家越多，其成长速度就会越快。"
+        },
+        {
+        	"type": "spotlight",
+            "title": "高温核心",
+            "item": "hwell:core_heat",
+            "text": "高温核心有点不同。制作一个发热方块，并用打火石将其点燃,将其转变成高温核心。"
+        }
+            
+    ]
+}

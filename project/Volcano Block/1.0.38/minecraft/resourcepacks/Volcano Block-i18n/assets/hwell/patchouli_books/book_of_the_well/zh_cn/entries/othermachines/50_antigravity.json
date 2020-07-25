@@ -1,0 +1,18 @@
+{
+    "name": "反重力方块",
+    "icon": "hwell:antigravity_block",
+    "category": "other_machines",
+    "sortnum": 50,
+    "pages": [
+        {
+            "type": "text",
+            "text": "反重力方块会在其周围产生反重力场，这会影响地面上的玩家、动物、怪物和掉落物。$(br2)玩家能够使用shift来移动。"
+        },
+		{
+            "type": "crafting",
+            "title": "反重力方块",            
+			"text": "",
+            "recipe": "hwell:antigravity_block"
+        }            
+    ]
+}

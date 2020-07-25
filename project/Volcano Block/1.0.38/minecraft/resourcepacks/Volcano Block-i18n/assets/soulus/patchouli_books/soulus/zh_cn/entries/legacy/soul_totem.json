@@ -1,0 +1,44 @@
+{
+	"name": "The Soul Totem",
+	"icon": "soulus:soul_totem",
+	"advancement": "soulus:soul_catalyst",
+	"category": "legacy",
+	"sortnum": 10503,
+	"pages": [
+		{
+			"type": "crafting",
+			"recipe": "soulus:doodads/soul_totem",
+			"title": "The Soul Totem",
+			"text": "The Soul Totem is made of a lattice of Niobium, to take advantage of the way it emanates small amounts of soulus. Alone it has difficulty holding the entire power of a $(item)Soul Catalyst$(), but I solved this issue with purpur."
+		},
+		{
+			"type": "multiblock",
+			"title": "Structure",
+			"multiblock": {
+				"mapping": {
+					"N": "soulus:block_niobium",
+					"0": "soulus:soul_totem"
+				},
+				"pattern": [
+					[ "___", "_0_", "___" ],
+					[ "N_N", "___", "N_N" ]
+				],
+				"offset": [0, 1, 0],
+				"symmetrical": true
+			},
+			"text": "The structure is footed with Niobium to increase its base range."
+		},
+		{
+			"type": "text",
+			"text": "Upon inserting a $(item)Soul Catalyst$(), the soul totem must first 'kickstart' itself. This will require quite a bit of soulus. However, it only has to be done once.$(p)After this point, it will emanate soulus for quite some time, with strong enough potency to allow summoners to function. It will even continue to work in your absence."
+		},
+		{
+			"type": "text",
+			"text": "As much as I hate to say it... that's it. That's the extent of what my research has been able to provide. I feel bad, almost, to leave you with just this. It feels like I'm putting too much on your shoulders. Someone I will never know; someone I have no chance of ever meeting.$(p)I can only hope that this guide is enough."
+		},
+		{
+			"type": "text",
+			"text": "Well, if you're reading this, I guess it $(o)was$() enough.$(p)I hope this guide has been helpful to you. Live well. May your soul stay strong, fellow soulcerer."
+		}
+	]
+}

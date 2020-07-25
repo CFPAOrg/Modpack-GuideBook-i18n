@@ -1,0 +1,18 @@
+{
+    "name": "重力方块",
+    "icon": "hwell:gravity_block",
+    "category": "other_machines",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "重力方块可以将掉落物拉向它们。$(br2)将托盘放在重力方块的任意一侧，在托盘中放置物品可以设置重力方块作用的白名单或黑名单（右键托盘切换）。"
+        },
+		{
+            "type": "crafting",
+            "title": "重力方块",            
+			"text": "",
+            "recipe": "hwell:gravity_block"
+        }            
+    ]
+}

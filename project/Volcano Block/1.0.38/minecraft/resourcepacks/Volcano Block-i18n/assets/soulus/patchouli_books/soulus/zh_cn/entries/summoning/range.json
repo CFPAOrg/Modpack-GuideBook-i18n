@@ -1,0 +1,41 @@
+{
+	"name": "Summoner: Range",
+	"icon": "soulus:orb_murky{essence_quantity:128}",
+	"advancement": "soulus:summoner",
+	"category": "summoning",
+	"sortnum": 10205,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The last upgrade I have for your Summoners is the least useful for me. However, for you, since you're in an unfriendly, uncivilised world, I expect it will be much more useful.$(p)Have you noticed how you have to stand very close to the Summoner in order for it to function? Well, I was able to improve this range with $(item)Murky Orbs$()."
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:murky_orb/orb_murky",
+			"text": "I discovered this one by accident. I spilled some glue over some $(item)Ender Dust$() and it happened to congeal into a $(item)strange sticky ball$()."
+		},
+		{
+			"type": "text",
+			"text": "The ball just sat on my desk for a while before I tried messing with it. (I had been busy with a more important project at the time.) Eventually I noticed that any essence I kept nearby was vanishing. It was slowly being consumed by the strange sticky ball.$(p)I have a lot of essence from my experiments, so I had plenty to dump into it. I decided to put as much essence into it as it could hold."
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:orb_murky2",
+			"recipe2": "soulus:orb_murky3"
+		},
+		{
+			"type": "text",
+			"text": "The amount of essence that orb held was massive. Far more than I ever would have expected. Afterwards, I noticed the pull from the orb had increased, but no more essence could be put into it.$(p)Finally, I tried putting it into a Summoner, and noticed that it increased the range at which I could stand in order for the Summoner to function."
+		},
+		{
+			"type": "relations",
+			"title": "Other Upgrades",
+			"entries": [
+				"summoning/quantity",
+				"summoning/speed",
+				"summoning/efficiency"
+			],
+			"text": "Note: I also noticed that you can fill $(item)Murky Orbs$() with $(item)Ash$(), but you may not have any of that yet.$(p)$(l:processing/skewer)The next chapter will detail a contraption you can use to kill creatures more easily$(), in order to collect their bones or blood in the continual pursuit of restoring Animalia."
+		}
+	]
+}

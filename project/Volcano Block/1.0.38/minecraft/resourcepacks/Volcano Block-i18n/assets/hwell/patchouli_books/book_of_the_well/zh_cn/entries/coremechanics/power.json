@@ -1,0 +1,57 @@
+{
+    "name": "供能",
+    "icon": "hwell:power_crystal",
+    "category": "core_mechanics",
+    "sortnum": 40,
+    "pages": [
+        {
+            "type": "text",
+            "text": "能源水晶的配方是不固定的。这意味着可以用不同的物品进行合成。这些部分是：$(li)核心，在中心位置$(li)接口，位于合成表的顶部和底部$(li)屏幕，位于两侧$(br2)测试不同的配方，并找出最适合的配方。"
+        },
+		{ 	"type": "image",
+	        "title": "能源水晶",
+	        "border": false,
+            "images": [ "hwell:textures/gui/power_recipe.png" ],
+            "text": "能源水晶的配方布局."
+        },
+		{
+            "type": "text",
+            "text": "能源水晶有三个指标：$(li)容量：该水晶可以容纳的总能量。$(li)范围: 该水晶最大可以向其它设备供能的范围（以方块为单位）。$(li)纯度：纯度将决定向其它设备供能机器供电时在空气的损耗。$(br)配方的三个部分中的每个使用的不同物品将导致指标的变动。"
+        },
+		{ 	"type": "image",
+	        "title": "能源核心",
+	        "border": false,
+            "images": [ "hwell:textures/gui/power_nuclei.png" ],
+            "text": "可以使用的能源核心"
+        },
+		{ 	"type": "image",
+	        "title": "能源接口",
+	        "border": false,
+            "images": [ "hwell:textures/gui/power_relays.png" ],
+            "text": "可以使用的能源接口"
+        },
+		{ 	"type": "image",
+	        "title": "能源屏幕",
+	        "border": false,
+            "images": [ "hwell:textures/gui/power_screens.png" ],
+            "text": "可以使用的能源屏幕"
+        },
+		{
+            "type": "text",
+            "text": "可选物品列表：$(li)核心：雪球、钻石、神秘棒、烈焰棒、被囚禁的光、水晶催化剂。$(li)接口：石头、石英块、红石块、末地石、月光石、青金石块、平滑的石青块、神秘铁块、灵魂钢块$(li)屏幕：玻璃、气态玻璃、神秘水晶块、地狱水晶块、浮冰。$()$(br2)要将能源水晶放置在世界上，只需拿着它右键单击即可。"
+        },
+		{ 	"type": "image",
+	        "title": "能源水晶",
+	        "border": true,
+            "images": [ "hwell:textures/gui/power_crystal.png" ],
+            "text": "一个放置在世界中的能源水晶",
+			"when_type_is_entity" : {
+				"type": "entity",
+				"entity": "hwell:entity_power",
+				"name": "能源水晶",
+				"text": "一个放置在世界中的能源水晶"
+			}
+        }
+		
+    ]
+}
