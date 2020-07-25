@@ -1,0 +1,20 @@
+{
+    "name": "修复膏",
+    "icon": "hwell:repairing_paste",
+    "category": "other_mechanics",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "crafting",
+            "title": "未烧制的修复膏",            
+            "recipe": "hwell:raw_repairing_paste",
+			"text": "为了在使用过程中轻松修复物品，请制作一些未烧制的修复膏并烧制成修复膏。$(br)放在副手时，如果可能的话，它将慢慢恢复主手物品的耐久。"
+        },
+        {
+            "type": "smelting",
+			"title": "烧制",
+			"recipe": "hwell:raw_repairing_paste",
+			"text": "修复膏会在修复时减少耐久。如果你得到不堆叠的具有不同耐久的修复膏，请每只手上各放一个。$(br2)当维修膏失去所有耐久时，它会被消耗掉并消失。"
+        }
+	]
+}

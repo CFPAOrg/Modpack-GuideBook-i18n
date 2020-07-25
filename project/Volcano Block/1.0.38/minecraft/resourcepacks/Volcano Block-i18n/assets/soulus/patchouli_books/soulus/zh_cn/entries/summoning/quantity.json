@@ -1,0 +1,41 @@
+{
+	"name": "Summoner: Quantity",
+	"icon": "soulus:crystal_blood{contained_blood:1000}",
+	"advancement": "soulus:summoner",
+	"category": "summoning",
+	"sortnum": 10204,
+	"pages": [
+		{
+			"type": "text",
+			"text": "On its own, a Summoner will only produce a single descendant creature of its Soulbook. I've noticed, however, that the Summoner leeches more of its user's soul and uses more of its Soulbook's essence than required for the creature to be summoned. It seems this is because in the process of creating the descendant creature, the flow of soulus within the Summoner itself is inefficient, and wasteful."
+		},
+		{
+			"type": "text",
+			"text": "Luckily for you, I found a solution to this problem as well. I noticed that the Summoner reacts when blood is around it. (Don't ask.)$(p)In the following pages I will document the creation of what I've dubbed the $(item)Blood Crystal$(). Each you add to a summoner will improve its internal flow and increase the number of descendant creatures which are created each summon."
+		},
+		{
+			"type": "smelting",
+			"recipe": "minecraft:emerald",
+			"recipe2": "minecraft:soul_sand"
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:crystal_blood/emerald_coated"
+		},
+		{
+			"type": "smelting",
+			"recipe": "soulus:emerald_coated",
+			"text": "Unfortunately, filling the blood crystal with blood is a little harder than crafting the blood crystal itself. You have two options; you can either attack a creature with the crystal, collecting a bit of their blood in the process, or you can prick yourself with the crystal. Warning: Though this will be faster, it might really hurt. "
+		},
+		{
+			"type": "relations",
+			"title": "Other Upgrades",
+			"entries": [
+				"summoning/speed",
+				"summoning/range",
+				"summoning/efficiency"
+			],
+			"text": "$(l:processing/skewer)The next chapter will detail a contraption you can use to kill creatures more easily$(), in order to collect their bones or blood in the continual pursuit of restoring Animalia."
+		}
+	]
+}

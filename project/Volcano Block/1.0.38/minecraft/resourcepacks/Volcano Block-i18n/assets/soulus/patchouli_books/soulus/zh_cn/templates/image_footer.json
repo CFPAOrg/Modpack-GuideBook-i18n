@@ -1,0 +1,17 @@
+{
+	"components": [
+		{
+			"type": "text",
+			"text": "#text",
+			"y": -4
+		},
+		{
+			"type": "image",
+			"image": "#image",
+			"width": 256,
+			"height": 256,
+			"scale": 0.5,
+			"y": 65
+		}
+	]
+}

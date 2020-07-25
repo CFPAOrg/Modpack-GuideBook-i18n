@@ -1,0 +1,69 @@
+{
+    "name": "矿物抽取器",
+    "icon": "hwell:puller",
+    "category": "multiblocks",
+    "sortnum": 50,
+    "pages": [
+		{
+            "type": "crafting",
+            "title": "方块抽取器",            
+			"text": "一种多方块结构，它可以从……好吧，从虚空中抽取矿石。建造的越高，它抽取得越快。每次工作需要一些能量。",
+            "recipe": "hwell:puller"
+        },
+		{
+            "type": "text",
+			"text": "通过将不同的碎片放入液体中，你可以尝试过滤抽取的矿石类型。不同的碎片会抽取不同的矿石，但请记住，没有过滤器是100％有效的！使用不同的碎片进行测试以了解过滤情况。$(br2)向8个发热方块的任何一个发出红石信号将关闭抽取器。"
+        },
+		{
+            "type": "multiblock",
+            "name": "抽取器",
+			"text": "如右图所示，增加与最低一层相同的方块可以提高抽取的速度.",
+            "multiblock": {
+                "pattern": [
+					[ "C C", "   ", "C C"],
+					[ "A A", "   ", "A A"],
+					[ "HHH", "HLH", "HHH"],
+					[ "PPP", "P0P", "PPP"],
+					[ " P ", "PAP", " P "]
+                ],
+                "mapping": {
+                    "H": "hwell:heat_block",
+					"0": "hwell:puller",
+					"A": "hwell:furnace_tube",
+					"C": "hwell:light_collector",
+                    "P": "hwell:heavy_protection_block",
+                    "L": "hwell:fluid_liquid_souls"
+                }
+            }
+		},
+		{
+            "type": "multiblock",
+            "name": "抽取器",
+            "multiblock": {
+                "pattern": [
+					[ "C C", "   ", "C C"],
+					[ "A A", "   ", "A A"],
+					[ "HHH", "HLH", "HHH"],
+					[ "PPP", "P0P", "PPP"],
+					[ " P ", "PAP", " P "],
+					[ " P ", "PAP", " P "],
+					[ " P ", "PAP", " P "],
+					[ " P ", "PAP", " P "]
+
+                ],
+                "mapping": {
+                    "H": "hwell:heat_block",
+					"0": "hwell:puller",
+					"A": "hwell:furnace_tube",
+					"C": "hwell:light_collector",
+                    "P": "hwell:heavy_protection_block",
+                    "L": "hwell:fluid_liquid_souls"
+                }
+            }
+		},
+		{
+			"type": "text",
+			"text": "所需材料：$(br)$(li)1桶液态灵魂$(li)1个神秘矿石抽取器$(li)4个光收集器$(li)5个聚焦管$(li)8个发热方块$(li)12个加强防爆石（或者更多）"
+		}
+    ]
+}

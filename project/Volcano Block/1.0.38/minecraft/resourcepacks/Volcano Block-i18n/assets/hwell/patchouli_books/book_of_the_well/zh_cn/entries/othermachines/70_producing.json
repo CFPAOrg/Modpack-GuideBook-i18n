@@ -1,0 +1,39 @@
+{
+    "name": "战利品球生成机",
+    "icon": "hwell:boxer",
+    "category": "other_machines",
+    "sortnum": 70,
+    "pages": [
+        { 	"type": "spotlight",
+            "item": "hwell:producer",
+            "text": "战利品球生成机会制造战利品球，当他被单独放在地上或者被右键单击时，将会产生随机生物的战利品球。$(br)战利品球生成器会随机在其上方直接生成战利品球，并且需要大量能量。可以通过提供红石信号将其关闭。"
+        },
+		{ 	"type": "crafting",
+            "recipe": "hwell:producer.producer",
+            "text": "但是，如果你需要一些特定的战利品，则可以随时制作特定生物的战利品球，战利品球会产出该特定生物的战利品。"
+        },
+		{ 	"type": "crafting",
+            "recipe": "hwell:loot_blaze",
+            "recipe2": "hwell:loot_creeper"
+        },
+		{ 	"type": "crafting",
+            "recipe": "hwell:loot_enderman",
+            "recipe2": "hwell:loot_ghast"
+        },
+		{ 	"type": "crafting",
+            "recipe": "hwell:loot_shulker",
+            "recipe2": "hwell:loot_skeleton"
+        },
+		{ 	"type": "crafting",
+            "recipe": "hwell:loot_blaze",
+            "recipe2": "hwell:loot_slime"
+        },
+		{ 	"type": "crafting",
+            "recipe": "hwell:loot_spider",
+            "recipe2": "hwell:loot_zombie"
+        },
+		{ 	"type": "crafting",
+            "recipe": "hwell:loot_wither"
+        }
+    ]
+}

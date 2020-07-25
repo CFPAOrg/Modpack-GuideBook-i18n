@@ -1,0 +1,17 @@
+{
+    "name": "冷冻",
+    "icon": "hwell:freezer",
+    "category": "core_mechanics",
+    "sortnum": 70,
+    "pages": [
+        {
+            "type": "text",
+            "text": "冰冻机。将其周围的液体冻结成固体。将水转化为雪或冰，将熔岩转化为黑曜石。每次工作消耗一些能量。"
+        },
+        { 	"type": "crafting",
+	        "name": "Freezer",
+            "recipe": "hwell:freezer",
+	        "text": ""
+        }   
+    ]
+}

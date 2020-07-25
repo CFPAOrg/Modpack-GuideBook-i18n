@@ -1,0 +1,344 @@
+{
+	"processor": "yuudaari.soulus.client.compat.patchouli.ComposerCraftingPage",
+	"components": [
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"x": 7,
+			"y": 2,
+			"width": 100,
+			"height": 62,
+			"texture_width": 128,
+			"texture_height": 128
+		},
+		{
+			"type": "header",
+			"text": "#name",
+			"x": -1,
+			"y": -6
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"x": 71,
+			"y": 6,
+			"u": 0,
+			"v": 64,
+			"width": 11,
+			"height": 11,
+			"texture_width": 128,
+			"texture_height": 128,
+			"tooltip": "无形的",
+			"group": "shapeless"
+		},
+		{
+			"type": "tooltip",
+			"x": 71,
+			"y": 6,
+			"width": 11,
+			"height": 11,
+			"tooltip": ["无形的"],
+			"group": "shapeless"
+		},
+		{
+			"type": "item",
+			"item": "#input1",
+			"x": 12,
+			"y": 7
+		},
+		{
+			"type": "item",
+			"item": "#input2",
+			"x": 31,
+			"y": 7
+		},
+		{
+			"type": "item",
+			"item": "#input3",
+			"x": 50,
+			"y": 7
+		},
+		{
+			"type": "item",
+			"item": "#input4",
+			"x": 12,
+			"y": 26
+		},
+		{
+			"type": "item",
+			"item": "#input5",
+			"x": 31,
+			"y": 26
+		},
+		{
+			"type": "item",
+			"item": "#input6",
+			"x": 50,
+			"y": 26
+		},
+		{
+			"type": "item",
+			"item": "#input7",
+			"x": 12,
+			"y": 45
+		},
+		{
+			"type": "item",
+			"item": "#input8",
+			"x": 31,
+			"y": 45
+		},
+		{
+			"type": "item",
+			"item": "#input9",
+			"x": 50,
+			"y": 45
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"x": 88,
+			"y": 26,
+			"link_recipe": "#link_recipe"
+		},
+		{
+			"type": "text",
+			"text": "#time",
+			"x": 74,
+			"y": 48
+		},
+		{
+			"type": "text",
+			"text": "#text",
+			"x": 0,
+			"y": 72,
+			"group": "single_recipe"
+		},
+		
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"x": 7,
+			"y": 80,
+			"width": 100,
+			"height": 62,
+			"texture_width": 128,
+			"texture_height": 128,
+			"group": "multi_recipe"
+		},
+		{
+			"type": "header",
+			"text": "#recipe2_name",
+			"x": -1,
+			"y": 72,
+			"group": "title2"
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"x": 71,
+			"y": 84,
+			"u": 0,
+			"v": 64,
+			"width": 11,
+			"height": 11,
+			"texture_width": 128,
+			"texture_height": 128,
+			"tooltip": "Shapeless",
+			"group": "recipe2_shapeless"
+		},
+		{
+			"type": "tooltip",
+			"x": 71,
+			"y": 84,
+			"width": 11,
+			"height": 11,
+			"tooltip": ["无形的"],
+			"group": "recipe2_shapeless"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input1",
+			"x": 12,
+			"y": 85,
+			"group": "multi_recipe"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input2",
+			"x": 31,
+			"y": 85,
+			"group": "multi_recipe"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input3",
+			"x": 50,
+			"y": 85,
+			"group": "multi_recipe"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input4",
+			"x": 12,
+			"y": 104,
+			"group": "multi_recipe"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input5",
+			"x": 31,
+			"y": 104,
+			"group": "multi_recipe"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input6",
+			"x": 50,
+			"y": 104,
+			"group": "multi_recipe"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input7",
+			"x": 12,
+			"y": 123,
+			"group": "multi_recipe"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input8",
+			"x": 31,
+			"y": 123,
+			"group": "multi_recipe"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input9",
+			"x": 50,
+			"y": 123,
+			"group": "multi_recipe"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_output",
+			"x": 88,
+			"y": 104,
+			"link_recipe": "#link_recipe2",
+			"group": "multi_recipe"
+		},
+		{
+			"type": "text",
+			"text": "#recipe2_time",
+			"x": 74,
+			"y": 126,
+			"group": "multi_recipe"
+		},
+		
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"x": 7,
+			"y": 70,
+			"width": 100,
+			"height": 62,
+			"texture_width": 128,
+			"texture_height": 128,
+			"group": "multi_recipe_no_title2"
+		},
+		{
+			"type": "tooltip",
+			"x": 71,
+			"y": 74,
+			"width": 11,
+			"height": 11,
+			"tooltip": ["无形的"],
+			"group": "recipe2_shapeless_no_title2"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input1",
+			"x": 12,
+			"y": 75,
+			"group": "multi_recipe_no_title2"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input2",
+			"x": 31,
+			"y": 75,
+			"group": "multi_recipe_no_title2"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input3",
+			"x": 50,
+			"y": 75,
+			"group": "multi_recipe_no_title2"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input4",
+			"x": 12,
+			"y": 94,
+			"group": "multi_recipe_no_title2"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input5",
+			"x": 31,
+			"y": 94,
+			"group": "multi_recipe_no_title2"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input6",
+			"x": 50,
+			"y": 94,
+			"group": "multi_recipe_no_title2"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input7",
+			"x": 12,
+			"y": 113,
+			"group": "multi_recipe_no_title2"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input8",
+			"x": 31,
+			"y": 113,
+			"group": "multi_recipe_no_title2"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_input9",
+			"x": 50,
+			"y": 113,
+			"group": "multi_recipe_no_title2"
+		},
+		{
+			"type": "item",
+			"item": "#recipe2_output",
+			"x": 88,
+			"y": 94,
+			"link_recipe": "#link_recipe2",
+			"group": "multi_recipe_no_title2"
+		},
+		{
+			"type": "text",
+			"text": "#recipe2_time",
+			"x": 74,
+			"y": 116,
+			"group": "multi_recipe_no_title2"
+		},
+		{
+			"type": "text",
+			"text": "#text",
+			"x": 0,
+			"y": 140,
+			"group": "multi_recipe_no_title2"
+		}
+	]
+}

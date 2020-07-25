@@ -1,0 +1,38 @@
+{
+    "name": "核心稳定",
+    "icon": "hwell:stabiliser",
+    "category": "core_mechanics",
+    "sortnum": 30,
+    "pages": [
+        {
+            "type": "spotlight",
+			"item": "hwell:stabiliser",
+			"text": "这些有用的方块可防止核心破坏其催化剂块。只需将其放置在靠近核心的方块下方（而不是核心本身下方），你会立即发现很大的不同。"
+		},
+		{
+            "type": "multiblock",
+            "name": "稳定器",
+            "multiblock": {
+                "pattern": [
+					[ "B0", " B"],
+					[ "S ", " S"]
+                ],
+                "mapping": {
+                    "0": "hwell:core_stone",
+                    "S": "hwell:stabiliser_heavy",
+					"B": "minecraft:cobblestone"
+                }
+            }
+		},
+		{
+			"type": "crafting",
+			"recipe": "hwell:stabiliser_light",
+			"text": "核心稳定器分为三个级别，最有用的是重型，因为它可以完全防止破坏。"
+		},
+	    {
+            "type": "crafting",
+			"recipe": "hwell:stabiliser",
+			"recipe2": "hwell:stabiliser_heavy"
+		}   
+    ]
+}

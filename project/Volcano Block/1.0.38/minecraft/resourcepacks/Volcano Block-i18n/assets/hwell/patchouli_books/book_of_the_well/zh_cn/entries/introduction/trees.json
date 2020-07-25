@@ -1,0 +1,33 @@
+{
+    "name": "神秘树",
+    "icon": "hwell:myst_fertilizer",
+    "category": "introduction",
+    "sortnum": 30,
+    "pages": [
+        	{	
+        	"type": "spotlight",
+            "title": "神秘树",
+            "item": "hwell:myst_fertilizer",
+            "link_recipe": true,
+            "text": "在常规的树苗上使用这种肥料有机会长成一棵神秘树。$(br2)神秘树可以收集许多有用资源"
+        },
+		{
+            "type": "crafting",
+			"title": "肥料和树木 ",
+			"text": "树木可以由放置的树苗生长而成。神秘树树叶用于合成。",
+			"recipe": "hwell:myst_fertilizer"		
+        },
+	    {
+            "type": "crafting",
+			"title": "木板和树叶",
+			"recipe": "hwell:myst_planks",
+			"recipe2": "hwell:leaf_mesh"
+		},
+		{
+            "type": "crafting",
+			"title": "木板和树叶",
+			"recipe": "hwell:myst_planks_slab",
+			"recipe2": "hwell:myst_planks_stairs"
+		}
+    ]
+}

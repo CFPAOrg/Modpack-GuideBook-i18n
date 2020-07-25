@@ -1,0 +1,15 @@
+{
+    "name": "方块复制机",
+    "icon": "hwell:boxer",
+    "category": "other_machines",
+    "sortnum": 30,
+    "pages": [
+        { 	"type": "text",
+            "text": "方块复制机可以将放在其顶部的方块制作出很多副本，这会消耗大量的能量。并非所有块都可以这种方式复制。"
+        },
+		{ 	"type": "crafting",
+	        "name": "方块复制",
+            "recipe": "hwell:boxer"
+        }
+    ]
+}

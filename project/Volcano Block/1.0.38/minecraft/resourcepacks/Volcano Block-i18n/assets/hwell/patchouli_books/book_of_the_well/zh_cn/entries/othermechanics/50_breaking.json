@@ -1,0 +1,32 @@
+{
+    "name": "破坏",
+    "icon": "hwell:grit_vase",
+    "category": "other_mechanics",
+    "sortnum": 50,
+    "pages": [
+        {
+            "type": "image",
+			"title": "破坏之树",
+			"image": "Breaking Tree",
+	        "border": true,
+            "images": [ "hwell:textures/gui/breaking_tree.png" ],
+			"text": "破坏之树是特殊的枯树，会破坏周围的树木。"
+        },
+		{
+            "type": "crafting",
+            "title": "黑玛瑙树盆",            
+            "recipe": "hwell:grit_vase",
+			"text": "黑玛瑙树盆是一种特殊的树盆，用于盛放和生长破坏之树。"
+        },
+		{
+            "type": "text",
+			"text": "要生长一棵破坏之树，对黑玛瑙树盆使用神秘肥料。你最多可以使用5个神秘肥料，使用的数量越多，树长得越大。破坏之树的最大距离为5个方块，并且在破坏方块时会有粒子效果。$(br2)破坏之树不消耗任何能量，但是它们无法停止工作。另外，托盘可以用作过滤器，以选择破坏之树将破坏的目标方块。"
+        },
+		{
+            "type": "spotlight",
+			"title": "破坏之树树枝",
+			"item": "hwell:branch",
+			"text": "装有破坏之树的黑玛瑙树盆在被破坏时掉落破坏之树树枝。这些树枝是破坏之树最具生命力的枝条，因此，它们是制作连锁核心的重要成分。但是，随着时间的流逝，它们将失去这种生命力。从树上砍下来后，阻止生命力流失是不可能的，甚至关掉游戏都不行。"
+        }
+	]
+}
