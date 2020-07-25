@@ -2055,5 +2055,27 @@
         "time": 1592038149
       }
     ]
+  },
+  {
+    "name": "Volcano Block",
+    "contents": [
+      {
+        "version": "1.0.38",
+        "windows": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Volcano%20Block-1.0.38-windows.zip",
+          "md5": "be09635bc5073d84b56bb038dd0f4189",
+          "sha1": "874ccedfa0b2c7a18caebe623ac2d4b08c3ca4b3"
+        },
+        "linux": {
+          "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/Volcano%20Block-1.0.38-linux.zip",
+          "md5": "be09635bc5073d84b56bb038dd0f4189",
+          "sha1": "874ccedfa0b2c7a18caebe623ac2d4b08c3ca4b3"
+        },
+        "author": [
+          "鏈ㄥぇ鐨?"
+        ],
+        "time": 1595681122
+      }
+    ]
   }
 ]
