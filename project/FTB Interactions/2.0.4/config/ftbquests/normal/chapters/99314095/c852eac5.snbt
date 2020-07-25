@@ -1,0 +1,1 @@
+{title: "Ohm my god。Becky。Look at her watt.", icon: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "botania:cosmetic", Damage: 31s}, x: -11.d, y: -1.d, shape: "gear", dependencies: ["de4bf80e"], tasks: [{uid: "6d5db751", type: "checkmark"}]}

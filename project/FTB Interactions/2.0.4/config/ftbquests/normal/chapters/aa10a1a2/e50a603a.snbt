@@ -1,0 +1,1 @@
+{x: -6.d, y: 7.d, shape: "diamond", dependencies: ["c35570d8", "c5c9f2f6"], "dependency_requirement": "one_completed", size: 2.d, tasks: [{uid: "c71b534a", type: "checkmark", title: "更高效率，搞定！"}]}

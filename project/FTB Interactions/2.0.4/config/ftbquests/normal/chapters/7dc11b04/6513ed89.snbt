@@ -1,0 +1,1 @@
+{x: 4.d, y: 5.d, shape: "diamond", dependencies: ["fcc607bd"], size: 2.d, tasks: [{uid: "51938941", type: "item", items: [{item: "bloodmagic:decorative_brick 1 2"}]}]}

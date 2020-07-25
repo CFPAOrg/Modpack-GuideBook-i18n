@@ -1,0 +1,1 @@
+{title: "聚氯乙烯的生产", icon: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "forge:bucketfilled", tag: {FluidName: "polyvinyl_chloride", Amount: 1000}}, x: 0.d, y: -22.d, tasks: [{uid: "c199e365", type: "checkmark"}]}

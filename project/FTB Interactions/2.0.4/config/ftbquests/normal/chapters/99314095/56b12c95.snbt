@@ -1,0 +1,1 @@
+{title: "LV时代", x: -13.d, y: 2.d, dependencies: ["7baaac5e"], tasks: [{uid: "1cd2aa6b", type: "item", items: [{item: "gregtech:machine 1 501"}]}]}
