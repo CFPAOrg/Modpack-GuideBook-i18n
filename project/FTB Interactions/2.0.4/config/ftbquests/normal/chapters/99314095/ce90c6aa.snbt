@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: 0.0d,
-	description: "This is the last compressor quest I'll make. If you're a streamer, for the sake of your viewers, please use a voice compressor.",
+	description: "这是我写的最后一个关于压缩机的任务了。如果你是一个主播，为了你观众的利益，请使用语音压缩器。",
 	dependencies: [
 		"fa1162c0"
 	],

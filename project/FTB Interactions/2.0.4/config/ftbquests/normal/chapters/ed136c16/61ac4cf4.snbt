@@ -1,8 +1,8 @@
 {
-	title: "No Slime Islands",
+	title: "没有史莱姆空岛",
 	x: -14.0d,
 	y: -5.0d,
-	description: "If you want some of the colored slimes for equipment or embossing, you'll have to farm them from the trees.",
+	description: "如果你想要某些彩色史莱姆球用于制作装备或刻印工具，你必须种植树木来收获它们。",
 	tasks: [{
 		uid: "40d93cf4",
 		type: "item",

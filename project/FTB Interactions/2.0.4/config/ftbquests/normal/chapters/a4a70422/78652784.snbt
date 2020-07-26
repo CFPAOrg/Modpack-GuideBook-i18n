@@ -1,8 +1,8 @@
 {
-	title: "Hop to It",
+	title: "快漏过来",
 	x: -19.5d,
 	y: -5.5d,
-	description: "Hopperhock is particularly good at handling output from your treefarm. It prioritizes inventories next to it with itemframes and the item you want it to sort. Any leftovers can go to a trashcan next to it with no itemframe.",
+	description: "漏斗花尤其适于收集树场产物。漏斗花会优先将物品存入用展示框标记好的容器里，可以挨着漏斗花再放一个垃圾桶，让漏斗花把剩下的物品直接送进去。",
 	dependencies: [
 		"a058147f"
 	],

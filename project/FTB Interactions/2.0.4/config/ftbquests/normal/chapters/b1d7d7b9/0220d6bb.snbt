@@ -1,10 +1,10 @@
 {
-	title: "Buckets? Those are Rookie Numbers",
+	title: "几桶油？那只是数字",
 	x: -6.5d,
 	y: -7.0d,
-	description: "You're going to need to pump those numbers UP! Find an oil geyser in an ocean or desert and pump it up. You will need a CEU to convert to FE Energy and some batteries to power it while you're gone.",
+	description: "你要把这些数字泵上去！在海洋或沙漠中找到石油并将其抽出。你需要一些电池供电，以及一个CEU将电能转换为FE。",
 	text: [
-		"To power the pump you can use either a battery buffe and CEU or a spectre wireless energy transmitter. To transport the fluid you can use the Cyclic wirelss fluid transfer node (Same dimension only)"
+		"要给流体泵供电，你可以使用电池箱、CEU或者通灵能量注入器。要传输流体，你可以使用Cyclic的流体传输节点（仅限相同维度）"
 	],
 	dependencies: [
 		"64abbac6"

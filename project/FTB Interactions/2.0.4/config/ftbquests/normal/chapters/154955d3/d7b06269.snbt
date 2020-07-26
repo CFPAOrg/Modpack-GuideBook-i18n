@@ -1,7 +1,7 @@
 {
 	x: -2.0d,
 	y: 7.0d,
-	description: "It restores zombie villagers. Villagers that have become zombies.",
+	description: "它能治愈僵尸村民。那些成为了僵尸的村民。",
 	dependencies: [
 		"a0918964"
 	],

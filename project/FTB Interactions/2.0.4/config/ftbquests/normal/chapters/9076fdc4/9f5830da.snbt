@@ -1,8 +1,8 @@
 {
-	title: "Infinity Armor",
+	title: "无尽盔甲",
 	x: -3.0d,
 	y: -11.0d,
-	description: "Gotta go fast",
+	description: "逮虾户",
 	tasks: [{
 		uid: "440a2e69",
 		type: "item",

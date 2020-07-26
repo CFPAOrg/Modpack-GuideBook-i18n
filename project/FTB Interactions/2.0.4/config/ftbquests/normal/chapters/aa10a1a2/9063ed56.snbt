@@ -1,11 +1,11 @@
 {
-	title: "Time to find some liquid freedom",
+	title: "是时候去寻找一些自由的液体",
 	x: -13.0d,
 	y: -0.5d,
 	shape: "square",
 	text: [
-		"Starting production of your personal breaking bad attemps does not mean you should break down your steam setup, every step in power is a supplement to your production, just like the real world does not depend on one energy source!",
-		"Your steam boilers can all run on liquid fuels as well, diesel and higher tiers fuels are particularly efficient. "
+		"开始你的失败尝试并不意味着你要拆除你旧的蒸汽设施。供电系统的每一步升级都是对原有系统的补充，就像现实世界并不是只依赖一种能源！",
+		"你的蒸汽锅炉同样可以使用液体燃料，柴油和更高级的燃料效率非常高。 "
 	],
 	dependencies: [
 		"a916453b"
@@ -13,6 +13,6 @@
 	tasks: [{
 		uid: "68813805",
 		type: "checkmark",
-		title: "Time to get into that black gold, reminder to build your base up a bit as global warming is also real in minecraft!"
+		title: "是时候开采这种黑色黄金了，我们提醒你把基地建的高一点，因为全球变暖在Minecraft中也真的存在！"
 	}]
 }

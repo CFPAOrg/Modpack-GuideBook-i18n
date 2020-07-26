@@ -1,15 +1,15 @@
 {
-	title: "Cyberlegs",
+	title: "机械腿",
 	x: -1.5d,
 	y: 4.0d,
 	shape: "circle",
 	text: [
-		"Cyberlegs allow the user a few niche upgrades, including:",
-		"- Step Assist*",
-		"- Jump Boost*",
-		"- Negating Fall Damage*",
-		"Along with a couple others.",
-		"* Only avaliable with specific upgrades"
+		"机械腿给用户提供一系列好用的升级，包括：",
+		"- 自动上坡*",
+		"- 跳跃提升*",
+		"免受坠落伤害",
+		"还有一些其他效果。",
+		"* 仅在安装特定升级后可用"
 	],
 	dependencies: [
 		"5633991b"

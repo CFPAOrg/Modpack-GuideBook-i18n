@@ -1,10 +1,10 @@
 {
 	x: -13.5d,
 	y: -2.5d,
-	description: "All roads lead back to these clusters, I guess magic really is everywhere.",
+	description: "任何路径最终都会形成这种矿物簇，我猜魔法真的到处都有。",
 	text: [
-		"Dont forget you can 64x+ your ores by macerating the clusters and utilizing standard GT processing as well.",
-		"Additionally these clusters can simply be smelted directly for their ore."
+		"别忘了你有64倍的矿物产出，通过粉碎矿物簇并使用标准的格雷矿物处理",
+		"另外，这些矿簇也能简单的烧成矿石"
 	],
 	min_required_dependencies: 1,
 	dependencies: [

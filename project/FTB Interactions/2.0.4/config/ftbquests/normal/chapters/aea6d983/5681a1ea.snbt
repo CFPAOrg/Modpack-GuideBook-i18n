@@ -2,8 +2,8 @@
 	x: 0.0d,
 	y: -13.5d,
 	text: [
-		"Place two chickens in the breeder and the result will be a new chicken with stronger stats. Repeat this process until you obtain your maxed out 10/10/10 chickens for fastest production.",
-		"If you made one 'special' chicken, you can get a second by breeding it with a smart chicken ( or get more smart chicken, love RNG )"
+		"养鸡！在繁殖箱里放两只鸡，他们会繁殖出来更强的鸡。重复如此，直到你获得了最高级的10/10/10的鸡，他们能更快地出货。",
+		"如果你做了一只“特别”的鸡，你可以用一只智慧鸡来繁殖它来获得第二只（或者得到更多智慧鸡，比心）"
 	],
 	dependencies: [
 		"0b123dfe"

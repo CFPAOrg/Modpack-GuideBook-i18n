@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: -6.0d,
 	text: [
-		"Fluix is simple enough to make but all that quartz, netherquarz and redstone gets expensive! This chicken can allow you to produce large amounts of fluix for all your automation needs for free."
+		"福鲁伊克斯水晶的制造过程非常简单，可那些赛特斯石英、下界石英、还有红石都好贵！这种鸡可以使你生产大量的福鲁伊克斯水晶来满足所有的自动化需求。"
 	],
 	dependencies: [
 		"bad8af80",

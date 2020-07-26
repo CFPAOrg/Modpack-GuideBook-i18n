@@ -1,8 +1,8 @@
 {
-	title: "God's Plan",
+	title: "神之基业",
 	icon: "thermalfoundation:upgrade 1 256",
 	description: [
-		"I'm sorry but I only love my creative battery."
+		"十分抱歉，我只喜欢我的创造电池"
 	],
 	always_invisible: false,
 	group: 0,

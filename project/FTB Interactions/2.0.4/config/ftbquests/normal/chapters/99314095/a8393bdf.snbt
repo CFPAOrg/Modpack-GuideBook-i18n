@@ -1,8 +1,8 @@
 {
-	title: "Bender! Bender! We want Bender!",
+	title: "卷板机！卷板机！我们要卷板机！",
 	x: -4.0d,
 	y: 0.0d,
-	description: "\"My story is a lot like yours, only more interesting 'cause it involves robots.\" This machine makes plates in a 1:1 ratio from ingots. It's kinda awesome. Higher tiered variants of this machine do the same thing but faster.",
+	description: "“我的故事和你的很像，只有更有趣，因为它涉及到机器人”。这台机器1:1地将锭制成板材。这很棒。更高级的机器做同样的事情，只不过速度更快。",
 	hide_dependency_lines: true,
 	dependencies: [
 		"c13fb853"

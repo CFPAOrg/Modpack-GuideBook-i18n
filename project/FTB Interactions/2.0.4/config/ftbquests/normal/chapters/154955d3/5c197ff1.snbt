@@ -1,8 +1,8 @@
 {
-	title: "This shouldn't even be neccessary...",
+	title: "这甚至不应当是必要的……",
 	x: 2.0d,
 	y: -3.0d,
-	description: "But if you somehow joined the exclusive club of losing your Tome without putting it into the table, here's a backup. Can't help you beyond that.",
+	description: "但如果你加入了弄丢炼金术秘卷的专属俱乐部，那么，这里是备用选项。简直不能再帮你更多了。",
 	dependencies: [
 		"e7d70489"
 	],

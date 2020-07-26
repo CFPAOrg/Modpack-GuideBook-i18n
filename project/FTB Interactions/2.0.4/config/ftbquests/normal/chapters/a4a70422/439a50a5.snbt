@@ -2,7 +2,7 @@
 	x: -9.0d,
 	y: 2.0d,
 	text: [
-		"Limitless Potential..."
+		"无限的潜能..."
 	],
 	dependencies: [
 		"39d33b3e"

@@ -3,7 +3,7 @@
 	y: 4.0d,
 	shape: "rsquare",
 	text: [
-		"This wand will form blocks starting at a point you're looking at, very nice for quickly building large platforms at a distance or in directions the standard building wand doesnt allow for. "
+		"这个魔杖会朝你看着的地方开始形成方块，非常适合在远处快速搭建大型平台，或者是在普通的建筑之杖不允许的方向上。"
 	],
 	dependencies: [
 		"dcc3168e"

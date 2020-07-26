@@ -3,9 +3,9 @@
 	y: 0.5d,
 	shape: "gear",
 	text: [
-		"The ritual diviner will let you select a ritual by shift+mouse scroll and then preview the shape of the ritual and shift right click on the master ritual stone with ritual stones in your inventory to automatically build rituals.",
+		"仪式推测杖可以让你通过按shift+鼠标滚轮选择一个仪式，然后预览仪式的形状，接着shift+右键主仪式石和你物品栏里的仪式石并自动创建仪式。",
 		"",
-		"Higher tier rituals that require dusk runes will require the dusk ritual diviner and awakened activation crystal."
+		"需求薄暮仪式石的高阶的仪式会需要仪式推测杖[薄暮]与[觉醒]激活水晶。"
 	],
 	dependencies: [
 		"a1389ac0",

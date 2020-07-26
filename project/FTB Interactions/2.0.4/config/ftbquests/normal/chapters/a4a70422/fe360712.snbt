@@ -2,7 +2,7 @@
 	x: -10.5d,
 	y: -4.0d,
 	text: [
-		"Used to take out items from inventories."
+		"用于从容器中取出物品"
 	],
 	dependencies: [
 		"ab0c7325"

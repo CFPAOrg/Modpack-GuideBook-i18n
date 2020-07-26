@@ -2,7 +2,7 @@
 	x: -5.0d,
 	y: 4.0d,
 	text: [
-		"On top of the abilities of the Wyvern Boots, the Draconic Boots protect the player from fall damage from any height, increases the maximum jumping height and allows players to walk up single blocks as if they were stairs. "
+		"比双足飞龙靴的能力更好，神龙靴可以免疫从高空摔落的伤害，增加跳跃高度和自动跨上一格高方块的能力。"
 	],
 	dependencies: [
 		"75c24ed9"

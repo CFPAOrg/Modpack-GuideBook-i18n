@@ -1,8 +1,8 @@
 {
-	title: "Ordo and Sapphire Veins",
+	title: "秩序蕴魔矿和蓝宝石矿脉",
 	x: -7.0d,
 	y: -5.0d,
-	description: "Spawn in cold biomes only.",
+	description: "仅生成在寒冷的生物群系。",
 	dependencies: [
 		"e3f5c7be"
 	],

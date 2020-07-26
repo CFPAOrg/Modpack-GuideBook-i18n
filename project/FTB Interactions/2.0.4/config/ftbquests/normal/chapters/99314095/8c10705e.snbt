@@ -1,7 +1,7 @@
 {
 	x: -3.0d,
 	y: 6.0d,
-	description: "At EV tier, Macerators have legally filed for new names and are now known as Pulverizers.",
+	description: "在EV等级，研磨机合法地申请了新的名字，现在它被称为粉碎机。",
 	dependencies: [
 		"75685738"
 	],

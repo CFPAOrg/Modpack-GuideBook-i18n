@@ -2,7 +2,7 @@
 	x: -15.0d,
 	y: 5.0d,
 	text: [
-		"There are several tiers of enderio fluid conduits but the top tier are the ender conduits. They instantly teleport liquid from source to destination making them ideal for more advanced GT processing."
+		"末影接口的流体管道有很多等级，最高级的是末影液体管道。它们能瞬间将液体从起点传到终点，用在格雷的生产线里非常合适。"
 	],
 	dependencies: [
 		"dcabc080"
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "eb59f10f",
 		type: "checkmark",
-		title: "Ender fluid conduits",
+		title: "末影液体导管",
 		icon: "enderio:item_liquid_conduit 1 2"
 	}],
 	rewards: [{

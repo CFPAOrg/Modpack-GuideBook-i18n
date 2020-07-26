@@ -1,5 +1,5 @@
 {
-	title: "Hydrogen",
+	title: "氢",
 	icon: {
 		id: "gregtech:meta_item_1",
 		tag: {
@@ -12,9 +12,9 @@
 	},
 	x: -8.5d,
 	y: 1.0d,
-	description: "Highly Flamable!",
+	description: "高可燃性！",
 	text: [
-		"Hydrogen is used in many organic chemistry recipes as well as an essential component to nearly all fuel production recipes. Some blast furnace recipes will also require it."
+		"氢被用于许多有机化学配方，也是几乎所有燃料生产配方的重要部分。某些高炉配方也需要它。"
 	],
 	dependencies: [
 		"eebe34c9"
@@ -22,7 +22,7 @@
 	tasks: [{
 		uid: "49dfeec2",
 		type: "checkmark",
-		title: "Nitrogen Cell",
+		title: "氮气单元",
 		icon: {
 			id: "gregtech:meta_item_1",
 			tag: {

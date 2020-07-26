@@ -2,13 +2,13 @@
 	x: -6.5d,
 	y: -2.0d,
 	text: [
-		"Hippogriphs make great companions for flying around! This optional quest will let you select a rare egg color of your choice and skip the process of trying to capture and tame one. ",
-		"How would you ever get this many eggs? Perhaps some very smart chickens can help you with that. To the Roosts!"
+		"骏鹰是你最好的飞行伙伴！这个可选的任务会让你选择一个罕见颜色的骏鹰蛋，跳过捕捉和驯服它的过程。 ",
+		"你要怎样才能获得这么多鸡蛋？也许一些非常聪明的鸡可以帮助你。搭建鸡舍吧！"
 	],
 	tasks: [{
 		uid: "d69bde15",
 		type: "item",
-		title: "An Eggscelent Endeavor",
+		title: "鸡动人心的努力",
 		items: [{
 			item: "minecraft:egg"
 		}],

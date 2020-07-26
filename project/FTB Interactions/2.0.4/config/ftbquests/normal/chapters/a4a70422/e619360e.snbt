@@ -1,5 +1,5 @@
 {
-	title: "Laying Pipe",
+	title: "铺设管道中",
 	icon: {
 		id: "mekanism:transmitter",
 		tag: {
@@ -9,9 +9,9 @@
 	},
 	x: -21.0d,
 	y: -3.0d,
-	description: "The basic Mekanism mechanical pipe will allow you to pump liquids in and out as well as enable or disable redstone activation. Good early game piping.",
+	description: "通用机械的基础机械管道除了输入输出液体还可以设置红石模式，对于前期来说是不错的管道。",
 	text: [
-		"Did you know? Mekanism pipes can be upgraded to the next tier inworld, simply right click on a line of cables up to 8 long with the next tier alloy and all of them will be ugpraded."
+		"你知道吗？Mekanism的管道可以在世界中升级。只需要用更高一级的合金右击管道，相连的管道就会转换成更高一级的管道，当然最多还是八根。"
 	],
 	tasks: [{
 		uid: "6b467c22",

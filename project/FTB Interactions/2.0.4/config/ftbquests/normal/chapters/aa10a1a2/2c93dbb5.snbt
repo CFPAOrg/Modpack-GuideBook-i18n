@@ -1,11 +1,11 @@
 {
-	title: "auto farming? Yes please!",
+	title: "自动农场? 请！",
 	x: -10.5d,
 	y: -1.0d,
 	shape: "circle",
 	text: [
-		"Plant interactor does a right click on crops. For this questline we want to have a canola farm.",
-		"Alternatively you can create a canola chicken to produce your seeds for you!"
+		"植物收获器右键植物来进行收获。对于这条任务线我们需要一个油菜农场。",
+		"或者，你可以创造一只油菜鸡来为你生产种子！"
 	],
 	dependencies: [
 		"9063ed56"

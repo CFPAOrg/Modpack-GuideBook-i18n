@@ -2,7 +2,7 @@
 	x: -23.0d,
 	y: -6.0d,
 	text: [
-		"Early form of automation, and used in some crafts later on!"
+		"早期的自动化方法，后面的合成也会用到！"
 	],
 	tasks: [{
 		uid: "57c218d7",

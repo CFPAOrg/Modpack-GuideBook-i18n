@@ -1,9 +1,9 @@
 {
-	title: "High Powered Hootch",
+	title: "高纯烈酒",
 	x: -8.0d,
 	y: -4.0d,
 	text: [
-		"Ethanol can be produced from biomass, which can be in turn produced by plant matter and honey for best results. Honey from rustic apiaries is plentiful and botania flowers can be automed via a jaded amaranthus or by duplicating white metals with mana"
+		"乙醇可通过生物质生产，而生物质可以通过植物与蜂蜜来生产，这样拥有最高的产率。Rustic的蜂巢可以产出大量蜂蜜，植物魔法的神秘花可以通过翡翠苋自动化，也可以使用魔力来复制白色神秘花瓣。"
 	],
 	dependencies: [
 		"f8f095e1"

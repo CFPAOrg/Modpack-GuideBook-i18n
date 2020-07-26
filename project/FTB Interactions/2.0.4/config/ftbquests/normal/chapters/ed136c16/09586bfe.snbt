@@ -1,9 +1,9 @@
 {
-	title: "Thermal Vuitton",
+	title: "热力威登",
 	x: -6.5d,
 	y: -6.0d,
 	shape: "square",
-	description: "Enchant these in an enchantment table to get higher tiers of storage.",
+	description: "将它们在附魔台中附魔来获得更高等级的存储。",
 	tasks: [{
 		uid: "b6ea0536",
 		type: "item",

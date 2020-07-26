@@ -1,11 +1,11 @@
 {
-	title: "Assembling Machine: End Game",
+	title: "装配线：终局之战",
 	x: 0.0d,
 	y: 6.0d,
 	text: [
-		"The assembly line is a large repeated multiblock consisting of ulv inputs for items in the bottom and a combination of casing and input hatches as well as power inputs (see jei preview). ",
+		"装配线是一个大的任意长度重复的多方块结构，包括底部的ULV物品输入总线，以及外壳、输入仓和能源仓（见JEI多方块结构预览）。 ",
 		"",
-		"The assembly machine can be greatly overclocked by simply adding more and higher tier energy hatches and embodies the apex of your automation lines towards endgame goals."
+		"装配机可以被极大幅度超频，只要你增加更多更高等级的能源仓，它代表了自动化的顶点，用来实现最终的游戏目标。"
 	],
 	dependencies: [
 		"627ad98a"

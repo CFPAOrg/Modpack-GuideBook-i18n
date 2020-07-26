@@ -2,7 +2,7 @@
 	x: 2.0d,
 	y: -4.5d,
 	text: [
-		"Graphite has several uses in a handful of recipes, you could mine it but this guy will ensure you always have an unlimited supply. Great for automating graphene production later."
+		"石墨用在少量几种配方中，你可以去挖石墨矿，但这只小家伙能保证你一直有无限的石墨供应。 非常适合以后的石墨烯生产自动化。"
 	],
 	dependencies: [
 		"bad8af80",

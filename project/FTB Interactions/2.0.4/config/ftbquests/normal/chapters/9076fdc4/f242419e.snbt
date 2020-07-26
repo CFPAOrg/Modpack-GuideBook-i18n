@@ -1,7 +1,7 @@
 {
 	x: -5.0d,
 	y: -8.0d,
-	description: "Just missing a power flower tin fountain.",
+	description: "少了个力量之花喷泉。",
 	tasks: [{
 		uid: "946f6aae",
 		type: "item",

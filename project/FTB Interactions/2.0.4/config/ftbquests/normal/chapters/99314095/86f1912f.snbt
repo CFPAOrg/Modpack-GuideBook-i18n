@@ -1,9 +1,9 @@
 {
-	title: "The cold never bothered me anyway",
+	title: "冰封千里我也从不动摇",
 	icon: "gregtech:machine 1 512",
 	x: -8.0d,
 	y: 5.0d,
-	description: "During the production of super hot metals sometimes they need to flash freeze to prevent internal misalignment. Addiitionally some fluids need to be supercooled to bring about chemically reactive states. For this a Vacuum freezer is ideal.",
+	description: "在高温处理金属时，有时需要急冻以防止内部结构失衡。另外，有些液体需要极度冷却才能用于化学反应。对于这些情况，真空冷冻机是理想选择。",
 	hide_dependency_lines: true,
 	dependencies: [
 		"d94602f8"
@@ -18,7 +18,7 @@
 	{
 		uid: "37e77a33",
 		type: "item",
-		title: "Any input hatch",
+		title: "任意输入仓",
 		items: [{
 			item: "gregtech:machine 1 712"
 		},
@@ -35,7 +35,7 @@
 	{
 		uid: "fd2922bd",
 		type: "item",
-		title: "Any input bus",
+		title: "任意输入总线",
 		items: [{
 			item: "gregtech:machine 1 710"
 		},
@@ -52,7 +52,7 @@
 	{
 		uid: "bfee98c4",
 		type: "item",
-		title: "Any output bus",
+		title: "任意输出总线",
 		items: [{
 			item: "gregtech:machine 1 711"
 		},
@@ -69,7 +69,7 @@
 	{
 		uid: "9ed39842",
 		type: "item",
-		title: "Any output hatch",
+		title: "任意输出仓",
 		items: [{
 			item: "gregtech:machine 1 713"
 		},

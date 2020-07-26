@@ -1,10 +1,10 @@
 {
-	title: "PolyTetraFl.... Teflon. It's Teflon.",
+	title: "聚四氟...好吧，它就是特氟龙",
 	x: -0.5d,
 	y: -3.0d,
 	shape: "diamond",
 	text: [
-		"Starting in MV you can produce a different variant of space age material that will be used in specialized circuits and machines. The PTFE chain can be daunting but we've taken some steps to simplify it and provided this nifty flow chart curteousy of ",
+		"从MV阶段开始，你可以生产出各种不同的太空时代的材料，这些材料将用于专门的电路和机器。聚四氟乙烯生产线可能会令人望而生畏，但我们已经采取了一些措施来简化它，并且提供了一个漂亮的流程图",
 		"user Turtle#1231."
 	],
 	dependencies: [

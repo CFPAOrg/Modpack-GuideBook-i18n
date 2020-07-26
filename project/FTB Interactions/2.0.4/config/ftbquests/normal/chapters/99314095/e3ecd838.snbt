@@ -1,10 +1,10 @@
 {
-	title: "They see me storin', they chargin'",
+	title: "我在存储，我在充电。",
 	x: -5.0d,
 	y: -1.0d,
 	text: [
-		"Store your energy for a rainy day! turbines will only consume steam if they have to run, however powering more then 1 machine per turbine is only possible if you store power in batteries. each battery outputs 1A.",
-		"So 8 batteries can power 8 machines, even if you do not have 8 turbines, however once batteries are drained, you will be waiting for them to fill back up."
+		"为雨天存点电！涡轮只在需要供电的时候才会消耗蒸汽，但是每台蒸汽机最多只能带动1台机器。如果你需要同时带动更多的机器，使用电池盒——每节电池将提供1A的电流。",
+		"即使你没有8台涡轮机，8个电池也可以给8台机器供电， 但电池的电量一旦耗尽，你要等待它们充满。"
 	],
 	dependencies: [
 		"a916453b"

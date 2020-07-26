@@ -8,7 +8,7 @@
 	x: -14.0d,
 	y: -12.0d,
 	text: [
-		"This quest unlocks advanced artifice research, up to and including the infernal furnace."
+		"此任务解锁炼化学到包括炼狱熔炉在内的研究。"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -17,7 +17,7 @@
 	tasks: [{
 		uid: "958d6e13",
 		type: "checkmark",
-		title: "Artificial Artifice"
+		title: "炼化学"
 	}],
 	rewards: [{
 		uid: "35cf8a76",

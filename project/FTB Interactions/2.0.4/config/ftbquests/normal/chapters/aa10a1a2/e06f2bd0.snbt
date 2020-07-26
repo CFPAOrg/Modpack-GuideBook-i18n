@@ -14,7 +14,7 @@
 	tasks: [{
 		uid: "d43d941b",
 		type: "checkmark",
-		title: "Congratz, you now know how to get a better bang for your Buck."
+		title: "恭喜，你现在知道了如何让火烧得更旺。"
 	}],
 	rewards: [{
 		uid: "d7094a4b",

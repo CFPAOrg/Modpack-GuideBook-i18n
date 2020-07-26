@@ -1,8 +1,8 @@
 {
-	title: "Not that kind of Coke",
+	title: "不可口的可乐",
 	x: 1.5d,
 	y: -1.0d,
-	description: "Your first multiblock that yeilds you 2 important resources early on, creosote and charcoal.",
+	description: "你的第一个多方块结构，给你提供两种重要的资源，杂酚油和木炭。",
 	dependencies: [
 		"893f1a30"
 	],

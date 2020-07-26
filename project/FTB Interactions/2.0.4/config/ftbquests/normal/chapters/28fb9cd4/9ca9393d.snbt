@@ -1,9 +1,9 @@
 {
-	title: "A Link to the Stars",
+	title: "与群星的链接",
 	x: -3.0d,
 	y: 4.0d,
 	text: [
-		"The Starlight linking tool allows you to link starlight sources such as a collector crystal to lenses, prisms, altars, rituals and blocks to direct starlight energy for crafting, powering rituals and transmuting. It is used extensively in this pack."
+		"星能链接器可以允许你将星能来源——例如聚能水晶链接到透镜、棱镜、祭坛、仪式和方块，利用星能合成物品、驱动仪式和转化方块。在这个包中它将被广泛使用。"
 	],
 	dependencies: [
 		"1d37b267"

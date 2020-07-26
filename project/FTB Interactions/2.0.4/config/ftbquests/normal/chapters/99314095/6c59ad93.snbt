@@ -1,8 +1,8 @@
 {
-	title: "Extruder Alert!",
+	title: "压模器警告！",
 	x: -7.0d,
 	y: 2.0d,
-	description: "In most GT packs, this lets you gets the best ingot to rod conversion ratio for your materials. In addition in this pack, you can also now start extruding Tinkers tool forge tier parts.",
+	description: "在大多数格雷整合包中，压模器让你方便地将一个锭到制成两根杆。在这个整合包中，压模器还让你能够制作工具锻造台等级的匠魂部件。",
 	hide_dependency_lines: true,
 	dependencies: [
 		"ace65682"

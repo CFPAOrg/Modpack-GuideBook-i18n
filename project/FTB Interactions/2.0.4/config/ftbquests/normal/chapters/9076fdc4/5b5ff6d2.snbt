@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: -9.0d,
-	description: "This item is so broken, it even looks like it has the broken texture.",
+	description: "这个物品坏了，甚至看起来材质也坏了。",
 	tasks: [{
 		uid: "ca510456",
 		type: "item",

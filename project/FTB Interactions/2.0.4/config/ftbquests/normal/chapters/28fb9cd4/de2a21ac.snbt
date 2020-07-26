@@ -1,9 +1,9 @@
 {
-	title: "Bippity Boppity Boo",
+	title: "巴啦啦能量！",
 	x: -1.5d,
 	y: 1.5d,
 	shape: "square",
-	description: "The resonating wand will allow you to discover hidden rock crystal ores as well as function as the primary tool for casting with the luminous crafting table.",
+	description: "共鸣星杖能让你发现隐藏的水晶石矿石，而且也是开始星辉合成的必要工具。",
 	dependencies: [
 		"e48023fb",
 		"5eaa3801",

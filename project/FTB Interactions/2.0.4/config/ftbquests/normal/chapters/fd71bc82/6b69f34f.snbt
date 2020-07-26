@@ -1,14 +1,14 @@
 {
-	title: "Alien Tungsten Ores",
+	title: "外星钨矿",
 	x: -2.0d,
 	y: 0.5d,
 	text: [
-		"Besides electrolyzing end stone, once you've actually made it to the end you can mine tungsten ore directly to more easily process large amounts for all your EV+ Tier Needs."
+		"在你成功到达末地之后，除了电解末地石之外，你可以直接挖掘钨矿石，使你能更容易地得处理得到大量钨，满足EV或EV以上等级的需求。"
 	],
 	tasks: [{
 		uid: "8aaa310c",
 		type: "item",
-		title: "Tungsten Ore",
+		title: "钨矿石",
 		items: [{
 			item: "gregtech:ore_tungstate_0 1 7"
 		},

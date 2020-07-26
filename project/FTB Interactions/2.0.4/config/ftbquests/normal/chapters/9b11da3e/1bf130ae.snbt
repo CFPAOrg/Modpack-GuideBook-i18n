@@ -1,8 +1,8 @@
 {
-	title: "Copper Veins",
+	title: "铜矿脉",
 	x: -7.0d,
 	y: -9.0d,
-	description: "Spawns in all biomes, but jungles have a high concentration of copper with malachite.",
+	description: "在所有生物群系生成，但是在丛林中的矿脉会聚集更多的孔雀石。",
 	dependencies: [
 		"0e4fbe4c"
 	],

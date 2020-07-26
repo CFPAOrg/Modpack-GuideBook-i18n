@@ -1,9 +1,9 @@
 {
-	title: "Does this pack use more RAM than Chrome?",
+	title: "这个包比Chrome用的内存更多吗？",
 	x: -9.0d,
 	y: 10.0d,
 	shape: "square",
-	description: "botnet not included.",
+	description: "僵尸网络病毒不算在内。",
 	dependencies: [
 		"69c3da6b"
 	],

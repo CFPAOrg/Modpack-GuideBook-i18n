@@ -1,8 +1,8 @@
 {
-	title: "Nether Manganese Veins",
+	title: "下界锰矿脉",
 	x: -1.0d,
 	y: 1.0d,
-	description: "Spawns between Y levels 5-40. Bauxite veins also have manganese byproducts if you need them.",
+	description: "在Y轴5~40之间生成，你如果需要锰的话，铝土也可以经过处理可以获得锰副产物",
 	dependencies: [
 		"f92a387e"
 	],

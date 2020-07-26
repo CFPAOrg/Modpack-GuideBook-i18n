@@ -1,9 +1,9 @@
 {
-	title: "INTO AWPSI",
+	title: "输入到本系统",
 	x: -11.5d,
 	y: 4.0d,
 	text: [
-		"Put this on your power production output buffer."
+		"把这个东西接在发电系统的的输出缓冲之后。"
 	],
 	dependencies: [
 		"be691558"

@@ -1,9 +1,9 @@
 {
-	title: "Hang Ten",
+	title: "汉登",
 	x: -11.0d,
 	y: -4.5d,
 	text: [
-		"Basic glider flight, works great with jetpacks or other items that give you a boost into the air."
+		"基础的滑翔飞行，配合飞行背包或其他能使你推你进空中的物品使用更佳。"
 	],
 	dependencies: [
 		"c193d3a6"

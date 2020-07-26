@@ -1,8 +1,8 @@
 {
-	title: "Macerator",
+	title: "研磨机",
 	x: -1.0d,
 	y: 1.0d,
-	description: "Macerator was a Decepticon garbage truck killed by Optimus Prime. Also this is your first ore doubling so it's worth to make.",
+	description: "研磨机是一辆被擎天柱杀死的霸天虎垃圾卡车。这也是你矿石双倍增产手段，所以它值得你制造。",
 	dependencies: [
 		"56f69a22",
 		"d728580e"

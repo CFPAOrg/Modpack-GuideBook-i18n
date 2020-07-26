@@ -9,10 +9,10 @@
 	x: -11.0d,
 	y: -5.0d,
 	shape: "gear",
-	description: "The second easiest parts of circuits to make, however in the late game, circuit boards crafting will start to nest on top of each other.",
+	description: "整个电路中制作起来第二容易的部分，然而在后期的游戏中，电路板的合成将开始嵌套。",
 	tasks: [{
 		uid: "0c7a2b6a",
 		type: "checkmark",
-		title: "Circuitboards"
+		title: "电路板"
 	}]
 }

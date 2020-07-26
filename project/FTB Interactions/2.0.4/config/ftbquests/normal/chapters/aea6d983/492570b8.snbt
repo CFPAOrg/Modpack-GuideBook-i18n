@@ -2,8 +2,8 @@
 	x: 3.5d,
 	y: -11.0d,
 	text: [
-		"Well I suppose it was inevitable. All this progress has polluted the lands to an extent, but nature adapts, and from this I give you the SMOG chicken. This chicken has made the waste its home and produce sludge from its eggs which can be directly",
-		"turned into charcoal byproducts, completely bypassing the need for a pyrolyse oven. For best results apply distillation tower to forehead."
+		"我想这是不可避免的。所有的这些过程都在一定程度上污染了土地，但大自然适应了，因此我给你一只污泥鸡。这种鸡把废料当成了家，用它的蛋能直接产生污泥。",
+		"污泥可以变成木炭副产，完全不需要热解炉。为了达到最佳效果，你需要使用蒸馏塔进行进一步处理。"
 	],
 	dependencies: [
 		"bad8af80",

@@ -1,9 +1,9 @@
 {
-	title: "I've lost my...",
+	title: "我失去了我的...",
 	x: 4.0d,
 	y: -10.0d,
 	text: [
-		"Apatite has several refinement uses, the most of important of which is phytogrow production. This chicken will directly produce tiny piles to aid in the automation of phytogentic automation. "
+		"磷灰石拥有几种用途，其中最重要的是植物生产。这种鸡将直接生产小撮磷灰石粉，可以用于于光合堆肥自动化。"
 	],
 	dependencies: [
 		"bad8af80",

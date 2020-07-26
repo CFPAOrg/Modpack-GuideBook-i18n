@@ -1,10 +1,10 @@
 {
-	title: "3x3 Crafting in Inventory?",
+	title: "物品栏里的 3x3 合成？",
 	x: -0.5d,
 	y: 4.0d,
 	shape: "circle",
 	text: [
-		"As the title suggests this upgrade allows you to craft anywhere. Although it seems pointless the benifits are notable."
+		"正如题，这个升级可以让你在任何地方进行合成。虽然它似乎毫无意义，但多少有点好处。"
 	],
 	dependencies: [
 		"5633991b"

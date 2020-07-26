@@ -1,9 +1,9 @@
 {
-	title: "MAX Age",
+	title: "MAX时代",
 	icon: "gregtech:machine 1 509",
 	x: -9.0d,
 	y: 4.0d,
-	description: "Items in this row are used in most MAX recipes.",
+	description: "此行的项目在大多数MAX配方中使用。",
 	dependencies: [
 		"d1a98f7f"
 	],

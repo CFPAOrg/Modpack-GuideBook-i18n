@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "92a2aaf3",
 		type: "checkmark",
-		title: "Acetone ",
+		title: "丙酮",
 		icon: {
 			id: "gregtech:meta_item_1",
 			tag: {

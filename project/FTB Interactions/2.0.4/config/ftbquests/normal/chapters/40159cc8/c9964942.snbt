@@ -1,8 +1,8 @@
 {
-	title: "Cobalt and Starmetal Vein",
+	title: "钴和星辉矿脉",
 	x: -4.0d,
 	y: -10.0d,
-	description: "I swear blue isn't my favorite color.",
+	description: "我发誓蓝色不是我最喜欢的颜色。",
 	hide_dependency_lines: true,
 	dependencies: [
 		"78546de8",

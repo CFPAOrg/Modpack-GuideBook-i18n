@@ -1,5 +1,5 @@
 {
-	title: "Other Power Options",
+	title: "其他的供电选项",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -10,10 +10,10 @@
 	x: -2.5d,
 	y: 2.0d,
 	text: [
-		"Other options for inter power include:",
-		"- Cardiovascular Coupler",
-		"- Solarskin",
-		"- Metabolic Generator"
+		"其他供电选项包括：",
+		"- 心血管耦合器",
+		"- 太阳能电路皮肤",
+		"- 新陈代谢发电器"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -22,6 +22,6 @@
 	tasks: [{
 		uid: "d7f2e087",
 		type: "checkmark",
-		title: "Other power options"
+		title: "其他的供电选项"
 	}]
 }

@@ -1,9 +1,9 @@
 {
-	title: "Battery Charger",
+	title: "充电箱",
 	x: -1.0d,
 	y: -1.0d,
 	text: [
-		"Did you know you can make electric tools for gregtech and charge them in a battery charger? Also useful for charging your on the go batteries for remote use."
+		"你知道吗？你可以制作格雷工具的电力版本，并在充电箱中充电。此外，它还可以给电池充电，将其作为移动电源使用。"
 	],
 	dependencies: [
 		"a916453b"

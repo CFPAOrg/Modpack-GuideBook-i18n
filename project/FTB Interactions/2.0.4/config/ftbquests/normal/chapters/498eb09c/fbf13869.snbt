@@ -1,9 +1,9 @@
 {
-	title: "Environmentally Friendly Beer. And Energy.",
+	title: "环保啤酒。还有能量。",
 	x: -4.0d,
 	y: -2.0d,
 	shape: "square",
-	description: "If you're going for a large ethanol setup, you might want to make a couple dozen of these.",
+	description: "如果你要做一个大型的乙醇生产线，你可能想一口气做几十个。",
 	tasks: [{
 		uid: "8ebb4861",
 		type: "item",

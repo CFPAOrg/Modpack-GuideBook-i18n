@@ -1,8 +1,8 @@
 {
-	title: "This collector kinda sucks",
+	title: "有丶能吸的收集器",
 	x: -20.5d,
 	y: -5.5d,
-	description: "One of your first item and XP collector, very useful but has a limited range, later options will provide more range.",
+	description: "前期可以制作的物品和经验收集器之一，非常有用，但范围有限，之后的收集设备范围会更大。",
 	dependencies: [
 		"a058147f"
 	],

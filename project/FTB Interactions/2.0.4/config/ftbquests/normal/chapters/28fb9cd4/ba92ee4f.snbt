@@ -1,8 +1,8 @@
 {
-	title: "Celestial Research Notes",
+	title: "天体研究笔记",
 	x: -5.0d,
 	y: 1.5d,
-	description: "Various celestial research notes on constellations are now craftable with access to the starlight altar, you could create a few of the basic variants that interest you for future research and attunement. Note that these no longer appear in temples.",
+	description: "有了星辉合成台，你可以制作星图了，不过你现在只能制作出几种简单的星图。请注意，这些星图不再出现在神殿中。",
 	dependencies: [
 		"b1dded11"
 	],

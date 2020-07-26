@@ -1,5 +1,5 @@
 {
-	title: "Forging Party Equipment",
+	title: "锻造部件化装备",
 	icon: {
 		id: "tconstruct:toolforge",
 		tag: {
@@ -12,7 +12,7 @@
 	},
 	x: -13.0d,
 	y: -4.0d,
-	description: "You can use any tinkers metal material to craft this (iron, copper, bronze, etc). However most tool forge level tool parts are available after MV.",
+	description: "你可以使用任意匠魂材料（铁，铜，青铜，等等）去制作它。然而大部分工具的工具部件需要在MV等级以后才能制作",
 	dependencies: [
 		"badc108d"
 	],

@@ -2,7 +2,7 @@
 	x: -5.0d,
 	y: -8.0d,
 	text: [
-		"The focal manipulator allows you to create and upgrade Foci for the casting gauntlet. This can grant a ton of different utility to you early game, we especially recommend a healing focus to heal yourself as needed."
+		"核心镶饰台允许你为法师护手创建和升级核心。它能为你在游戏前期获得大量不同的增益效果，我们特别推荐一个治疗核心以在需要时治疗自己。"
 	],
 	dependencies: [
 		"0d7b471a"

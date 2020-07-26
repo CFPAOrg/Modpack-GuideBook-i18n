@@ -1,10 +1,10 @@
 {
-	title: "Alchemical Annoyance.",
+	title: "烦人的炼金术",
 	x: -5.0d,
 	y: -3.0d,
 	text: [
-		"A central theme to this pack is side by side progression of both technology and magic. Some magical materials may be used reasonably in tech and vice versa. To get started in the bronze age you'll need brass which WOULD be plentiful in the nether.",
-		"Without nether access currently however you'll have to resort to magic to create your first pieces of brass. You'll need to invest a bit of time and resources into early Thaumcraft to make the brass, see the\"What is this Sorcery\" Questline for more assistance."
+		"这个包的一个中心主题是科技和魔法的并行发展。一些魔法材料可以合理地用于科技，反之亦然。 为了开始青铜时代，你需要黄铜。地狱***应该***有着丰富的黄铜。",
+		"但目前没有办法去到地狱，你将不得不求助魔法来制作你的第一批黄铜。 你需要投入一点时间和资源在神秘时代模组上，从而制作出黄铜，查看【这是什么巫术】任务线获得更多的帮助。"
 	],
 	dependencies: [
 		"d6801307"

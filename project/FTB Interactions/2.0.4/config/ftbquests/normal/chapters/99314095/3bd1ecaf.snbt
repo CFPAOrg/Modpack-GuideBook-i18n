@@ -1,9 +1,9 @@
 {
 	x: -3.0d,
 	y: -3.0d,
-	description: "If it's not obvious, it consumes steam to make energy. ",
+	description: "它消耗蒸汽发电，如果你之前不清楚的话。 ",
 	text: [
-		"1 of these bad boys will power 1 lv machine as it outputs 1A of 32V, you might want to make a couple."
+		"这个小老弟可以给一个LV机器提供能量，他的输出是32V 1A。你可能得多做几个。"
 	],
 	dependencies: [
 		"6672ed55"

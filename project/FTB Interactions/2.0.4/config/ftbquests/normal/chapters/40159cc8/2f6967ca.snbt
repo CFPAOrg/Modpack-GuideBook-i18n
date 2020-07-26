@@ -1,9 +1,9 @@
 {
-	title: "Vinteum Ore",
+	title: "温特姆矿石",
 	x: 5.0d,
 	y: -9.0d,
 	text: [
-		"This magically infused metal occurs naturally only on the world of Euclydes. It has otherworldly properties that will enable new magical processes and higher tier technological advancements that would be unachievable with terrestrial materials alone."
+		"这种神奇的注魔金属只会在Euclydes星自然地生成。它有着超凡脱俗的属性，使你能够开始新的魔法进程，取得更高级的科技进步，这些科技和魔法只用地面上的材料是无法达成的。"
 	],
 	dependencies: [
 		"da0cc52f"

@@ -1,11 +1,11 @@
 {
-	title: "Twerk to the left, sprint to the right, criss-cross!",
+	title: "向左扭动，向右冲刺，反复横跳！",
 	icon: "minecraft:sapling",
 	x: 0.0d,
 	y: -2.0d,
-	description: "Everybody clap your hands.",
+	description: "大家一起鼓掌。",
 	text: [
-		"Grow trees faster by twerking and sprinting around them. Roleplay as a druid and whisper sweet nothings into its ear."
+		"通过在树木周围扭动身体或冲刺，可以使树木成长的更快。你扮成一个德鲁伊，在它们的耳边甜言蜜语。"
 	],
 	dependencies: [
 		"e7d70489"

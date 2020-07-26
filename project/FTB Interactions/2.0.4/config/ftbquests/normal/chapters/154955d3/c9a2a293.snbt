@@ -2,7 +2,7 @@
 	x: 4.5d,
 	y: -4.0d,
 	text: [
-		"Exclamation marked circle quests contain important information about the pack that is relevant to each section. You should review all of these as soon as they are available to you."
+		"感叹号标记的圆圈形任务包含本包每个章节中的重要相关信息，你应该尽快查看所有可用的这样的内容。"
 	],
 	dependencies: [
 		"3b4bd52b"
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "9448a483",
 		type: "checkmark",
-		title: "Important Information",
+		title: "重要信息",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

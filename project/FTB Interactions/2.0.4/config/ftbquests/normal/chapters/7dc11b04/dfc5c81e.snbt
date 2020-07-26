@@ -1,10 +1,10 @@
 {
-	title: "Poisonous Will",
+	title: "有剧毒的意志",
 	x: -1.5d,
 	y: 3.0d,
 	shape: "gear",
 	text: [
-		"The Animus Ritual \"Eldritch Will\" can clean a 3x3 area of flux by converting it to demon will aura which you can then safely collect. Utilizing these two together can produce unlimited will and keep danger noodles from infringing on your multiblocks."
+		"Animus模组Eldrich Will仪式可以清除3x3区块范围内的咒波污染，并将其转化为恶魔意志，之后你就可以安全地收集恶魔意志。将这两者一起使用可以产生无限的意志，还能防止危险的藤蔓爬上你的多方块结构。"
 	],
 	dependencies: [
 		"832823a9"
@@ -12,7 +12,7 @@
 	tasks: [{
 		uid: "1e2b3b7f",
 		type: "checkmark",
-		title: "Poisonous Will",
+		title: "有剧毒的意志",
 		icon: "thaumcraft:crystal_vitium"
 	}],
 	rewards: [{

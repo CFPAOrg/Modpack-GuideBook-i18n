@@ -1,9 +1,9 @@
 {
-	title: "LV Age",
+	title: "LV时代",
 	icon: "gregtech:machine 1 501",
 	x: -9.0d,
 	y: -4.0d,
-	description: "Items in this row are used in most LV recipes.",
+	description: "此行的项目在大多数LV配方中使用。",
 	dependencies: [
 		"6672ed55"
 	],

@@ -1,9 +1,9 @@
 {
-	title: "A mind like a steel trap.",
+	title: "像钢制陷阱一样的大脑。",
 	x: -9.0d,
 	y: -1.0d,
 	shape: "square",
-	description: "Rusty and illegal in most places. On a more serious note, the ingots listed in this column will be the MAIN workhorses of each tier. You'll be making a lot of steel for LV.",
+	description: "锈迹斑斑，在大多数地方都是非法的。更重要的是，制造这一列中列出的金属锭将是每一个时代的主要工作。你要为LV时代制造大量钢材。",
 	dependencies: [
 		"2e003362"
 	],

@@ -2,9 +2,9 @@
 	x: 0.0d,
 	y: 6.0d,
 	shape: "square",
-	description: "This is basic tier magical crafting. Impossible/Annoying to automate, and poor rewards, but its your first step.",
+	description: "这是最基本的魔法合成。无法/很难自动化，产出也不怎么样，但这是你的第一步。",
 	text: [
-		"HINT: If you're still witing for beef, try transmuting some from chicken."
+		"提示：如果你还在等着牛肉，试试从鸡肉转化。"
 	],
 	dependencies: [
 		"ee31eaaf"

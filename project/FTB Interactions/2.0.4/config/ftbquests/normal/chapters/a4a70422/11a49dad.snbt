@@ -1,7 +1,7 @@
 {
 	x: -5.0d,
 	y: -3.0d,
-	description: "Finally, something that can store all your starlight.",
+	description: "终于有东西能存下你所有的星能液了。",
 	dependencies: [
 		"7dba0de1"
 	],

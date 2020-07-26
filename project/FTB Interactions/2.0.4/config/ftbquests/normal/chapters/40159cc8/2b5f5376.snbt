@@ -1,10 +1,10 @@
 {
-	title: "Sky Cauldron",
+	title: "天域坩埚",
 	x: -1.0d,
 	y: -11.0d,
 	shape: "rsquare",
 	text: [
-		"The sky cauldron is found in moon dungeons beneath the surface. It's capable of transforming liquid starlight and directed laser light into an a light cruicible of sorts. Inside it is able to perfect crystaline harmonics, thus purifying them."
+		"天域坩埚是在月球的地牢里发现的。它能够使用星能液和激光净化其中的晶体。"
 	],
 	dependencies: [
 		"fe50d67e"

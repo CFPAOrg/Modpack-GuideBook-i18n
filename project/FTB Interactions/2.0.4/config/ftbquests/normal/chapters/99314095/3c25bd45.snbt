@@ -10,7 +10,7 @@
 	y: 1.0d,
 	shape: "gear",
 	text: [
-		"Each tier of power has a unique magic metal that can be crafted into cables. These cables are strictly superior to all other cables of their tier by allowing a base transmission of 4 amps and Zero Eu loss over distance."
+		"每个阶段都有一种奇特的金属，用这种金属制作的线缆能承受4A的电流，零电阻，比同级别的其他所有线缆都要强。"
 	],
 	dependencies: [
 		"6672ed55"
@@ -18,7 +18,7 @@
 	tasks: [{
 		uid: "21a0c41f",
 		type: "checkmark",
-		title: "Getting Amped without the Loss"
+		title: "无损输电"
 	}],
 	rewards: [{
 		uid: "3cad185e",

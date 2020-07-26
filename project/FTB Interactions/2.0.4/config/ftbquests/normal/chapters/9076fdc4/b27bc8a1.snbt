@@ -1,7 +1,7 @@
 {
 	x: 0.0d,
 	y: -11.0d,
-	description: "Every snowflake is unique, well maybe not this one.",
+	description: "世界上没有两片雪花是完全相同的，好吧看来这几片彩色的是例外。",
 	tasks: [{
 		uid: "6c69adfc",
 		type: "item",

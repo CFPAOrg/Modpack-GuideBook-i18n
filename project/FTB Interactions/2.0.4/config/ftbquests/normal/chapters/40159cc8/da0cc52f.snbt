@@ -4,9 +4,9 @@
 	x: 5.0d,
 	y: -11.0d,
 	shape: "diamond",
-	description: "You will need to craft the Euclydes Prime Artifact and use it in the Warp controller to travel to this world.",
+	description: "你需要制作Euclydes Prime工件，把它用在跃迁控制器中来前往这个世界。",
 	text: [
-		"Shout out to DJJBanx for providing the animated textures for this.",
+		"强烈感谢DJJBanx为此提供动画材质。",
 		""
 	],
 	dependencies: [

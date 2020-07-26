@@ -3,8 +3,8 @@
 	y: -11.0d,
 	shape: "circle",
 	text: [
-		"A nice, cheap fuel source for early game, though not very worth your time right now.",
-		"Looks like it has some interesting properties when it comes to boosting fuel."
+		"一个便宜实惠的前期燃料来源，虽然现在不是很值得你花时间。",
+		"它似乎有一些有趣的特性可以用来提升燃料的潜能。"
 	],
 	dependencies: [
 		"8eac9d15"

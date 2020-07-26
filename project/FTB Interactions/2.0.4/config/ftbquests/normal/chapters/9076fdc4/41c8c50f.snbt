@@ -1,8 +1,8 @@
 {
-	title: "Infinity AE Energy",
+	title: "无限的 AE 能源",
 	x: -11.0d,
 	y: -11.0d,
-	description: "Limitless Power for your Digital Evolution.",
+	description: "为你的你数字化革命提供无限能源",
 	tasks: [{
 		uid: "2a87d041",
 		type: "item",

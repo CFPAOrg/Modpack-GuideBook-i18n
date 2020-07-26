@@ -1,10 +1,10 @@
 {
-	title: "Stibnite for Life",
+	title: "辉锑矿",
 	x: -7.0d,
 	y: -2.0d,
-	description: "Spawns in all biomes, including jungles but very rare. Most commonly found in the nether.",
+	description: "在所有的生物群系中生成，也包括丛林生物群系，但极罕见。在地狱中能非常轻松地找到。",
 	text: [
-		"This ore is fairly rare in overworld and tends to spawn at high elevations. It is suggested you look in the nether."
+		"这种矿物在主世界十分稀有，倾向于生成在高海拔的地区，也推荐你前去地狱寻找"
 	],
 	dependencies: [
 		"78d3f804"

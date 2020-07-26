@@ -1,7 +1,7 @@
 {
 	x: -9.0d,
 	y: -8.0d,
-	description: "rollin'",
+	description: "我真是嗨到不行了",
 	tasks: [{
 		uid: "0399be67",
 		type: "item",

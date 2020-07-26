@@ -2,7 +2,7 @@
 	x: -21.0d,
 	y: -1.0d,
 	text: [
-		"Makes for nice and clean setups, what you dont see is what you get."
+		"使装置变得漂亮又整洁，你看不到的就是你得到的。"
 	],
 	tasks: [{
 		uid: "6f07f5eb",

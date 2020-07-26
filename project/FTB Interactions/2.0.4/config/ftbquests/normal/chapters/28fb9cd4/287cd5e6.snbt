@@ -1,11 +1,11 @@
 {
-	title: "Starmetal Ore",
+	title: "星辉矿石",
 	x: -6.5d,
 	y: 5.0d,
 	shape: "gear",
-	description: "Starmetal Ore is mined on the Moon",
+	description: "星辉矿能在月球上采掘得到",
 	text: [
-		"You cannot create this by starlight transformation as the journal indicates, this is found only on Luna."
+		"你不能像星芒宝典上说的那样通过星辉转化来制造星辉矿石，这个东西只能在月球Luna上找到。"
 	],
 	size: 2.0d,
 	tasks: [{

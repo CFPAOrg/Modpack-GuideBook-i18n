@@ -1,9 +1,9 @@
 {
-	title: "HV Age",
+	title: "HV时代",
 	icon: "gregtech:machine 1 503",
 	x: -5.0d,
 	y: -5.0d,
-	description: "Items in this column can be CRAFTED in HV Age.",
+	description: "此列中的项目可以在HV时代制作。",
 	dependencies: [
 		"3ab2fbc0",
 		"3308d327"

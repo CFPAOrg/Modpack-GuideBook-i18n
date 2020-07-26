@@ -1,11 +1,11 @@
 {
-	title: "Omae wa mou shindeiru",
+	title: "お前はもう死んでいる！",
 	x: -9.0d,
 	y: 4.0d,
 	text: [
-		"A powerful multi purpose tool. The mining range of effect can be adjusted with Shift+Right-click, from  up to .",
-		" This staff can be incredibly Over Powered against mobs with a enormous amount of health.",
-		" The damage bonus deals 300 damage, plus 30% of the mob's current health."
+		"强大的多功能工具，作用的采掘范围可以通过Shift右击调整，从1×1到9×9。",
+		" 这个东西在打怪时非常强力，能提供超大量的伤害",
+		" 能造成300伤害并附加30%的怪物的当前血量"
 	],
 	dependencies: [
 		"f68ab509",

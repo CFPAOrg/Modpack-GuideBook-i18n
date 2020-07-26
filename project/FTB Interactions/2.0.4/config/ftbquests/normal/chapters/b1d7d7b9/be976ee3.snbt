@@ -3,7 +3,7 @@
 	y: -1.0d,
 	shape: "rsquare",
 	text: [
-		"Resin can be used an an alternate and efficient method of producing rubber."
+		"树脂可以作为一种备用的高效制备橡胶的方式。"
 	],
 	tasks: [{
 		uid: "1631c174",

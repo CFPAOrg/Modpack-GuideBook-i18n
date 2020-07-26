@@ -1,8 +1,8 @@
 {
-	title: "A Tank that Sucks",
+	title: "能吸的储罐",
 	x: -6.0d,
 	y: -6.0d,
-	description: "The enderio tank, while smaller than the upgraded Thermal tanks, have the added benefit of automatically drawing fluids in and pumping out, very useful for automation.",
+	description: "末影接口的储罐虽然比热力膨胀的要小很多，但是可以自动输入输出，这点在搭建自动化的时候非常方便。",
 	dependencies: [
 		"558bc2e1"
 	],

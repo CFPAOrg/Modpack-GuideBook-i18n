@@ -1,5 +1,5 @@
 {
-	title: "Having fun isn't hard when you got your library card.",
+	title: "当你有了图书馆借书卡，这一切并不难。",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -10,10 +10,10 @@
 	x: -4.0d,
 	y: -3.0d,
 	shape: "gear",
-	description: "In this case it's your library Chisel. You can chisel a normal book or your starting FTBQuestbook into other manuals.",
+	description: "这里，凿子就是你的借书卡。你可以把普通的书或者起始的FTB任务书雕凿成其他的手册。",
 	tasks: [{
 		uid: "f5db1b96",
 		type: "checkmark",
-		title: "Accept"
+		title: "确认"
 	}]
 }

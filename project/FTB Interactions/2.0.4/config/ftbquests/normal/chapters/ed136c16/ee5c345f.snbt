@@ -1,9 +1,9 @@
 {
-	title: "Anchored in Spirit",
+	title: "锚定于灵魂中",
 	x: -10.0d,
 	y: -1.0d,
 	text: [
-		"Spectre Anchors are a cheap way to bind equipment to you so that it stays with you beyond death. Craft a spectre anchor and attach it to any important items to safeguard them."
+		"通灵锚可以与工具或装备进行合成，赋予其“锚定”效果，拥有此效果的工具，在玩家死亡后不会掉落。制作通灵锚，将它附在重要的东西上来保护它们。"
 	],
 	dependencies: [
 		"caf422c5"

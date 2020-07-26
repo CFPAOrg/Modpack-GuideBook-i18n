@@ -1,9 +1,9 @@
 {
-	title: "Not for eating!",
+	title: "不是用来吃的！",
 	x: 2.5d,
 	y: -13.0d,
 	text: [
-		"This chicken may not produce plastic directly, but it does allow you to bypass several steps in the polyethylene production chain by combining the egg directly with ethanol to produce polyethylene. "
+		"这种鸡不能直接生产塑料，但它允许你绕过聚乙烯生产链中的几个步骤，将蛋和乙醇直接结合起来以生产聚乙烯。"
 	],
 	dependencies: [
 		"bad8af80"

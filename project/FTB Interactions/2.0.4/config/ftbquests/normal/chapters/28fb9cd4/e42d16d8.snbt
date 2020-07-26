@@ -2,8 +2,8 @@
 	x: 0.0d,
 	y: 1.5d,
 	text: [
-		"Deep beneath the surface you'll find long ago fossilized crystals of starlight. These raw rock crystals have a unique property to focus and control starlight. To find them you'll want to put the resonating wand in your hand or offhand and look across",
-		"the surface at night. You will see faint sparkles indicating where you should dig down to find the ores. While at near bedrock there is a similar effect you can see from very low. Using fortune tools to mine these is highly recommended."
+		"在地表下面很深的地方，埋藏着很久很久以前矿化的星能水晶。这些水晶石具有独特的性质，能够聚焦和控制星光。 要找到它们，就把共鸣之杖放在你的手上或副手上四处逛逛吧。",
+		"等到夜晚的时候看看周围的地面。你会看到微弱的闪光指示着你应该从哪里挖下去寻找矿石。在基岩附近，你也可以看到深处有着类似的闪光。强烈推荐使用时运工具来挖掘。"
 	],
 	dependencies: [
 		"de2a21ac"

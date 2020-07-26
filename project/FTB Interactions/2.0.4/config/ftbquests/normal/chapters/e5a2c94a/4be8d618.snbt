@@ -1,7 +1,7 @@
 {
 	x: -1.0d,
 	y: 0.0d,
-	description: "Spawns between Y levels 30-100.",
+	description: "在Y轴30-100之间生成。",
 	dependencies: [
 		"f92a387e"
 	],

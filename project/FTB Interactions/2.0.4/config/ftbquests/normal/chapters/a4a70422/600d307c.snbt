@@ -1,11 +1,11 @@
 {
-	title: "Start of lazyness",
+	title: "懒惰的开端",
 	x: -4.0d,
 	y: 0.0d,
 	text: [
-		"To start auto crafting, you will need a way to store recipes.",
+		"要开始自动合成，你需要一种东西来存储配方。",
 		"  ",
-		"The pattern terminal is used to save recipes to patterns."
+		"样板终端用于将配方保存到样板。"
 	],
 	dependencies: [
 		"39d33b3e"

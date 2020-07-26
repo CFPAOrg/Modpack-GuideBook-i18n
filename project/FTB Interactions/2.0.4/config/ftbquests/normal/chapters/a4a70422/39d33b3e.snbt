@@ -2,8 +2,8 @@
 	x: -9.0d,
 	y: 0.0d,
 	text: [
-		"A cable used to transmit data and energy between devices in an ME Network, it is capable of transmitting 8 channels simultaneously. There are also 16 coloured Glass Cables available to craft with the appropriate dye. ",
-		"There are also 16 coloured Glass Cables available to craft with the appropriate dye. The coloured Cables allows contact with other cables without sharing the signal or connecting, except with the same colour. "
+		"一个用于在ME网络中的设备之间传输数据和能量的线缆，它能够同时传输8个频道。用恰当的染料还可以制作16种彩色的玻璃线缆。",
+		"用恰当的染料还可以制作16种彩色的玻璃线缆。彩色线缆允许与其他彩色线缆接触但不分享信号或连接，除非有着相同颜色。"
 	],
 	tasks: [{
 		uid: "afb28886",

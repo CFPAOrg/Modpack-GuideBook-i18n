@@ -1,8 +1,8 @@
 {
-	title: "Null Square",
+	title: "/dev/null",
 	x: -3.5d,
 	y: -4.5d,
-	description: "Items stored in here are subject to deletion, stop storing important files in the trashcan.",
+	description: "存储在这里的物品会被删除，不要试图使用垃圾桶存储重要文件。",
 	dependencies: [
 		"95a0ca99"
 	],

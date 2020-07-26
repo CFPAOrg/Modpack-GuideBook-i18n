@@ -1,7 +1,7 @@
 {
 	x: 0.0d,
 	y: 2.0d,
-	description: "Still manual, but a quick way to make the most out of planks in wood.",
+	description: "虽然仍然是手动的，但这是一个快捷的制作木板的方法，可以充分的利用木材。",
 	dependencies: [
 		"1d6fe213"
 	],

@@ -1,5 +1,5 @@
 {
-	title: "Never Give You Up",
+	title: "永远不要放弃你自己",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -10,11 +10,11 @@
 	x: -4.0d,
 	y: -5.0d,
 	shape: "gear",
-	description: "If you're playing on a team, make sure to sync your gamestages togethger with Together Forever commands.",
+	description: "如果你在一个队伍中游戏，使用Together Forever的命令同步你们的gamestages。",
 	text: [
-		"/tofe invite <player_name>",
-		"/tofe accept <player_name>",
-		"/tofe kick <player_name>",
+		"/tofe invite <玩家名>",
+		"/tofe accept <玩家名>",
+		"/tofe kick <玩家名>",
 		"/tofe info"
 	],
 	tasks: [{

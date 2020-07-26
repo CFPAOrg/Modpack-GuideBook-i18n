@@ -1,10 +1,10 @@
 {
 	x: -22.0d,
 	y: 3.0d,
-	description: "For when pipes cannot move liquids fast enough.",
+	description: "适用于需要即时传输液体的情况。",
 	text: [
-		"And it's more then 1 block transfer.",
-		"Fluid lasers can move an ifinite amount of fluid per tick making them ideal for mid to end game steam turbines."
+		"而且传输距离不止一格。",
+		"流体激光每tick可以移动无限量的液体，使它们成为中后期蒸汽涡轮的理想选择。"
 	],
 	dependencies: [
 		"c193d3a6"

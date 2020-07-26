@@ -1,5 +1,5 @@
 {
-	title: "What's mine is mine",
+	title: "矿物我全都要",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -10,14 +10,14 @@
 	x: -11.0d,
 	y: -12.0d,
 	shape: "gear",
-	description: "In GTCE's generation, the world is dividied into 'sections' that are 3x3 chunks big. The oregen is set to generate one large vein every section as a rough approximation. These veins can easily be 2x2 chunks large and hold hundreds of ores.",
+	description: "在GTCE的世界生成中，世界被分为许多个3*3区块大的“区域”。矿物生成被设置为大致每个“区域”生成一个大型矿脉。这些矿脉很容易有2*2区块大并拥有数百个矿石。",
 	dependencies: [
 		"2e6c74d5"
 	],
 	tasks: [{
 		uid: "64e848b4",
 		type: "checkmark",
-		title: "Accept",
+		title: "确认",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

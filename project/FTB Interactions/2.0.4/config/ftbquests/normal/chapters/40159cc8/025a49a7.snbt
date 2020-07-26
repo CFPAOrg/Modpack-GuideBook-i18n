@@ -1,10 +1,10 @@
 {
-	title: "Fusing Worlds...",
+	title: "聚合世界...",
 	icon: "draconicevolution:fusion_crafting_core",
 	x: 4.0d,
 	y: -11.0d,
 	text: [
-		"To create the artifacts to guide your space station to the exoplanets you will need powerful fusion crafting. Dont worry about the lower tier inejectors your can directly craft chaotic tier in this pack."
+		"你需要强大的聚合工艺来制作一个工件来将空间站引导到系外行星，别担心，在这个整合包中可以直接合成混沌注入合成装置。"
 	],
 	dependencies: [
 		"d7ea4c5b"

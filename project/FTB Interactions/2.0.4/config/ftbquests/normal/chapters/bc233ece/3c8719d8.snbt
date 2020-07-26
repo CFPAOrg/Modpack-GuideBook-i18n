@@ -4,14 +4,14 @@
 	y: -1.0d,
 	shape: "gear",
 	text: [
-		"Automating grains of infinity can be done in a couple ways. The most straight forward is setting up to spawn mobs with infinity dust. When you (or a user.. hint hint) right click the ground with the dust it will create a fog that spawns mobs. ",
-		"The mobs that are spawned with this fog will drop grains of infinity which can then be processed into liquid nightmare in the lightwell and then back into more grains in a self perpetuating loop. Finding a way to automatically kill and spawn mobs",
-		"will complete the challenge. Do note there is a small chance for primed TNT to spawn during this fog. The culling ritual from animus will instantly destroy these tnts."
+		"基岩粉的自动化可以通过几种方式实现，最直接的是使用基岩尘来生成怪物。 当你（或使用者...嘘...）右击地面时，它会生成一团能够生成怪物的雾气。",
+		"这团雾生成的生物会掉落基岩粉，然后你可以在聚星缸中将它加工成液体梦魇，然后就能形成一个能生产更多基岩粉的自循环。 寻找能自动杀死生物的方法",
+		"以完成挑战。请注意，这团雾有小概率生成一个点燃的TNT，Animus的剔除仪式能立即摧毁这些TNT。"
 	],
 	tasks: [{
 		uid: "0f578b82",
 		type: "checkmark",
-		title: "Automating Infinity?"
+		title: "自动化基岩粉？"
 	}],
 	rewards: [{
 		uid: "08bfd844",

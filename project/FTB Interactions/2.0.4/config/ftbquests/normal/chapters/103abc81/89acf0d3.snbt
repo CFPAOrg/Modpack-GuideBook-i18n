@@ -1,7 +1,7 @@
 {
 	x: 4.0d,
 	y: 11.0d,
-	description: "A sun in a bottle is not good enough for you, you have to make your own materials too?",
+	description: "对你来说瓶中太阳还不够？还得自己提供材料？",
 	dependencies: [
 		"5b1c2607"
 	],

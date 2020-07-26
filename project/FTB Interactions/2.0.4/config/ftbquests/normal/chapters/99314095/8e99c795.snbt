@@ -1,7 +1,7 @@
 {
 	x: -5.0d,
 	y: 0.0d,
-	description: "Harder. Better. Faster. Stronger. Aside from being faster, the functionality of this block doesn't change at higher voltages.",
+	description: "更硬。更好。更快。更强。除了更快，这个方块的功能不会随着电压升高改变。",
 	dependencies: [
 		"e384c9a5"
 	],

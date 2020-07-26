@@ -2,7 +2,7 @@
 	x: -11.0d,
 	y: -9.0d,
 	text: [
-		"A careful concoction of vile vis. "
+		"一份精心调制邪恶魔力的混合物。 "
 	],
 	dependencies: [
 		"8eac9d15"

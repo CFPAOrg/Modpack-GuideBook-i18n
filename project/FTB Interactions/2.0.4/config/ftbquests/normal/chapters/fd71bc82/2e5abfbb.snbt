@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "523c0b56",
 		type: "item",
-		title: "Tungsten Dust",
+		title: "钨粉",
 		items: [{
 			item: "gregtech:meta_item_1 1 2191"
 		},

@@ -1,9 +1,9 @@
 {
-	title: "Sticky Business",
+	title: "粘糊糊",
 	x: -12.5d,
 	y: -3.0d,
 	shape: "rsquare",
-	description: "By using an Arboreal extractor near the base of a tree you can extract resin which can be further processed into rubber. This is one of the main 3 ways of making rubber.",
+	description: "通过在树根底部使用树汁提取器，你可以提取树脂，然后再加工成橡胶。 这是制作橡胶的三种主要方式之一。",
 	tasks: [{
 		uid: "e1e6035a",
 		type: "item",

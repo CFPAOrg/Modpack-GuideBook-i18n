@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: 3.0d,
-	description: "stores 63 types of fluids, just more",
+	description: "储存63种液体，再多来点。",
 	dependencies: [
 		"bca88813"
 	],

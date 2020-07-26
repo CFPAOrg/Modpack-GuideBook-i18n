@@ -2,9 +2,9 @@
 	x: -4.0d,
 	y: 2.0d,
 	text: [
-		"String can be obtained several ways. Many recipes can use twine which is a form of starter string made from plant fibers. For those requiring actual string you can make it from cotton seeds from your strainer. Remember to plantball them for more!",
+		"可以通过多种方式获得线。许多配方可以使用麻绳，由植物纤维制成的一种初级的线。如果你需要真正的线，你可以通过滤水器获得的棉花种子来制作。记得用植物球复制它们！",
 		"",
-		"If you're having no luck with the whole cotton string thing you could also craft a spider tree sapling which will grow string over time... not the fastest method but it works!"
+		"如果你倒霉到用不起纯棉线，那么你可以做一个蛛网树苗，它会慢慢长出丝线...这不是最快的方法, 但是很管用！"
 	],
 	dependencies: [
 		"1d6fe213"
@@ -12,7 +12,7 @@
 	tasks: [{
 		uid: "a89635c0",
 		type: "item",
-		title: "In Dire need of String",
+		title: "需要大量的线？",
 		items: [{
 			item: "harvestcraft:cottonseeditem"
 		},

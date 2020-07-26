@@ -1,11 +1,11 @@
 {
-	title: "Mark of the falling Tower",
+	title: "坠星标位",
 	x: -4.5d,
 	y: -2.0d,
-	description: "Space Rocks Ahoy!",
+	description: "陨石来啦！",
 	text: [
-		"The mark of the falling tower ritual from bloodmagic requires 500k LP to activate and accept 2 unique catalsyts which will each provide you with the resources shown.",
-		"To hold 500k LP in your network you need a master blood orb ( holds 1M LP )."
+		"血魔法坠星标位需要50万LP启用，它只接受两种独特的催化剂，所生成的矿物如任务所示。",
+		"想要在你的网络中拥有500k LP，你需要一个[导师]气血宝珠（最大容量1M LP）。"
 	],
 	dependencies: [
 		"631b3bd9"

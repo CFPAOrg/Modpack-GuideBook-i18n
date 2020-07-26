@@ -2,9 +2,9 @@
 	x: 1.0d,
 	y: -11.0d,
 	shape: "diamond",
-	description: "With new materials and high tier processing machines you should be able to create a new type of material capable of drastically advancing your technology.",
+	description: "有了新的材料和高级加工机器，你应该能够制作一种能够大大推进你的技术的新型材料。",
 	text: [
-		"This is an essential alloy for advanced energistics and automated crafting."
+		"这是高级的能源和自动化合成所必需的合金。"
 	],
 	dependencies: [
 		"fe50d67e"

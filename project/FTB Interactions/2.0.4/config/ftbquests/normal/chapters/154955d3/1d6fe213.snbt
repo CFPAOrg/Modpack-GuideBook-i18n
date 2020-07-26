@@ -1,9 +1,9 @@
 {
-	title: "Starving Artisan",
+	title: "饥饿的工匠",
 	icon: "artisanworktables:worktable 1 5",
 	x: -2.0d,
 	y: 2.0d,
-	description: "In this pack you graduate from in-world crafting to crafting stacks at a time in the worktable. However it still comes with a material cost and can't be automated. You'll need machines for that. Also it handles fluids.",
+	description: "你终于有了第一个工作台。它需要消耗额外的材料，而且不能自动化。之后，你会用机器来替代它。此外，使用它的配方还可能需要液体。",
 	dependencies: [
 		"9c5fed89"
 	],

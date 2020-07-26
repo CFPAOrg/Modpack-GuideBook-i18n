@@ -2,7 +2,7 @@
 	x: -3.5d,
 	y: -11.0d,
 	text: [
-		"This bloody abomination can produce the legendary blood apple which when eaten will add LP to your personal network. If eaten near an altar it will add LP to the altar. It can also be proccessed directly into life essence at higher tier voltages."
+		"这只来自血腥的可憎之物能生产传说中的血之苹果，当食用时会将LP添加到你的个人网络。 如果在血之祭坛附近吃掉，它将会将LP添加到祭坛上。它也可以在更高的电压下直接加工为生命源质。"
 	],
 	dependencies: [
 		"bad8af80",

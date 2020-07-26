@@ -2,11 +2,11 @@
 	x: -9.0d,
 	y: -11.0d,
 	text: [
-		"To get glowstone you'll need to centrifuge redstone, mine it from the nether, or use the alchemical array to create tiny piles of glowstone to combine into full dusts.",
+		"要获取荧石粉，你可以离心红石、在下界挖掘、以及使用炼金矩阵合成小撮荧石粉后再将其合成为荧石粉。",
 		"",
-		"Once you have some, you can duplicate it indefinitely with thaumcraft.",
+		"你有了一些之后就可以使用神秘时代无限复制它。",
 		"",
-		"Note: Nitor can be recolored with a single shape craft recipe..."
+		"注意: 闪耀之光可以用无序合成重新染色..."
 	],
 	dependencies: [
 		"8eac9d15"

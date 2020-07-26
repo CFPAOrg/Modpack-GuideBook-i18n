@@ -2,7 +2,7 @@
 	x: -2.0d,
 	y: -6.0d,
 	text: [
-		"Created with a series of magical infusions, this chicken can directly produce mana eggs, completely eliminating the need for mana production should you desire... at the cost of energy of course."
+		"通过一系列神奇的注魔，这只鸡可以直接产生魔力蛋，完全消除了你对魔力生产的欲望...当然，是以能量为代价的。"
 	],
 	dependencies: [
 		"bad8af80",

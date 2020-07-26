@@ -1,5 +1,5 @@
 {
-	title: "This was una Void able.",
+	title: "走出空岛的第一步",
 	icon: {
 		id: "simple_trophies:trophy",
 		tag: {
@@ -19,9 +19,9 @@
 	x: -1.0d,
 	y: 2.0d,
 	shape: "square",
-	description: "Is it day yet?",
+	description: "天亮了吗？",
 	text: [
-		"Creating a portal into the overworld will grant you access to an entire new world of progress, ores, rare materials, magic and of course... new threats."
+		"创建一个传送门以进入主世界，你将跨入一个全新的世界，这里有新的任务、新的矿石、新的稀有材料、新的魔法，当然......还有新的威胁。"
 	],
 	tasks: [{
 		uid: "049d4774",

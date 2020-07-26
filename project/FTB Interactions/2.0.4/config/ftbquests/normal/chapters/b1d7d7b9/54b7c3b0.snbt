@@ -1,5 +1,5 @@
 {
-	title: "Naphtha",
+	title: "石脑油",
 	icon: {
 		id: "gregtech:meta_item_1",
 		tag: {
@@ -13,7 +13,7 @@
 	x: -8.5d,
 	y: -5.0d,
 	text: [
-		"Hydrogen and sulfuric naptha will get you purified naptha, this stuff is a fuel on its own but has a much better use..."
+		"将氢气和石脑油混合可以获得纯净的石脑油，这东西本身也是燃料，不过有更好的用途……"
 	],
 	dependencies: [
 		"4be04c93"

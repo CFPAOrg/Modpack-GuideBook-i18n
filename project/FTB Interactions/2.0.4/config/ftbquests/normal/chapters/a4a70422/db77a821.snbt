@@ -1,8 +1,8 @@
 {
-	title: "The Wonky Wobblers",
+	title: "摇，摇，晃，摇",
 	x: -22.0d,
 	y: -3.0d,
-	description: "These pipes will do a good basic job of moving items from point a to b, they have some quirks though that may challenge your automation. Good starter pipes, not the best.",
+	description: "用这种管道进行简单的物品传输时还能凑合用用，然而一些奇怪的特性使得用它来做自动化时并不那么简单。对于前期来说不错，但并不是最好的。",
 	tasks: [{
 		uid: "67a6dc43",
 		type: "item",

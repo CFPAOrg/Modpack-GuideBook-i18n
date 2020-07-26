@@ -1,5 +1,5 @@
 {
-	title: "Methane",
+	title: "甲烷",
 	icon: {
 		id: "gregtech:meta_item_1",
 		tag: {
@@ -18,7 +18,7 @@
 	tasks: [{
 		uid: "fc1a1b47",
 		type: "item",
-		title: "Methane Cell",
+		title: "甲烷单元",
 		items: [{
 			id: "gregtech:meta_item_1",
 			tag: {

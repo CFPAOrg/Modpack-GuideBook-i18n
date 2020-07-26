@@ -3,12 +3,12 @@
 	y: -7.0d,
 	shape: "diamond",
 	text: [
-		"Stability is key, if your altar begins to become instable add some tallow candles and mob heads.",
-		"Remember symmetry is key, anything you place remember to place a symmetrical counterpart.",
-		"Instability can lead to:",
-		"- loss of item",
-		"- taint poison",
-		"- being struck by lightning"
+		"稳定是关键，如果你的祭坛开始变得不稳定，可以在周围放一些蜡烛和怪物头颅。",
+		"记住，对称是关键，任何东西都记得要对称摆放。",
+		"不稳定可能导致：",
+		"- 丢失物品",
+		"- 招致腐毒",
+		"- 遭雷劈"
 	],
 	dependencies: [
 		"86372210"

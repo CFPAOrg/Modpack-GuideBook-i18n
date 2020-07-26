@@ -1,10 +1,10 @@
 {
-	title: "*Slaps engine* This bad boy can fit so much pollution in it.",
+	title: "*活塞引擎* 这个坏男孩可能会造成非常多的污染。",
 	x: -10.0d,
 	y: 6.5d,
-	description: "Multiblock power generator using diesel recipes that defaults to 2k eu/t. By adding oxygen it can be boosted up to 6144 eu/t. If you aren't convinced yet, this also consumes diesel at a more efficient rate than single block generators.",
+	description: "消耗柴油发电机燃料，默认输出2000EU/t多方块发电机。通过添加氧气可以增加到6144EU/t。如果你还是不相信它，我们可以告诉你它也比单方块发电机的柴油利用效率更高。",
 	text: [
-		"You can also use a Gregtech Pump to set exact flowrate to match your production, as this multiblock also needs time to speed up it's rotor. Better to have it running all the time instead of turning on and off bc supply cant keep up!",
+		"你也可以使用格雷科技的泵来设置精确的流速，以匹配你的产量。因为这个多方块需要一段时间来冷启动加速转子，所以最好是让它一直运行，而不要因为燃料供给不足频繁开启或关闭！",
 		""
 	],
 	dependencies: [

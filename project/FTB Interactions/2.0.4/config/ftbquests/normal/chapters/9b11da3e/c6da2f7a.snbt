@@ -1,8 +1,8 @@
 {
-	title: "Entropy and Quartz Veins",
+	title: "混沌蕴魔矿和石英矿脉",
 	x: -7.0d,
 	y: -7.0d,
-	description: "Spawns in the same vein as Quartz and in magical forests.",
+	description: "在魔法森林里和石英生成在同样的矿脉中",
 	dependencies: [
 		"332f52b2"
 	],

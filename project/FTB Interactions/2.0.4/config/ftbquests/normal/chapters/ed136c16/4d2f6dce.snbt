@@ -1,11 +1,11 @@
 {
-	title: "Cheapskate tools",
+	title: "廉价的工具",
 	x: -13.0d,
 	y: -3.0d,
 	text: [
-		"Only low end and cheap materials can be used for tinkers tools until you get some more advanced machinery to properly mold better metals.",
+		"在你获得更先进的机器之前，你只能用一些低端和廉价的材料来制作匠魂工具，之后你才能将更好的材料塑形。",
 		"",
-		"That's not the end of the world though, with some creativity even stone tools can go far when you upgrade them with redstone, diamond and sharpening kits. Being able to cheaply repair with cobble never hurts either!"
+		"这不会是你旅途的终点。如果你具有足够的创造性，即使是石质工具也能陪你很久，你只需要用红石，钻石和磨制工具给它强化。而且，你还可以用便宜的石头来修复它，即使坏了也不心疼！"
 	],
 	dependencies: [
 		"495cac08"

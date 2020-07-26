@@ -1,9 +1,9 @@
 {
-	title: "I believe I can fly",
+	title: "我要飞得更高",
 	x: -7.0d,
 	y: 2.0d,
 	text: [
-		"The Mekanism jetpack is the earliest form of creative style fly. It will allow perfect levitation to aid in building, mining or fighting. It has slow thrust but combined with other mobility tools, can be quite versitile."
+		"Mekanism喷气背包是最早的飞行方式，它提供了几乎完美的漂浮功能，对建筑、采矿或战斗都很有帮助。它的推力较低，但是与其他移动工具组合使用可以拥有相当强大的功能。"
 	],
 	dependencies: [
 		"635d5fcc"

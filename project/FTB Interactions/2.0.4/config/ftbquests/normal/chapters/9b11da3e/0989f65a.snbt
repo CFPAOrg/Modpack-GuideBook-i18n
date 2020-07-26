@@ -1,7 +1,7 @@
 {
 	x: -8.0d,
 	y: -12.0d,
-	description: "Spawns in a underground commonly, sphere?",
+	description: "一般生成在地下……也是圆球？",
 	dependencies: [
 		"2e6c74d5"
 	],

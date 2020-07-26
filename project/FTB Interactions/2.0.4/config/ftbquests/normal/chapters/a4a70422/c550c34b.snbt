@@ -2,7 +2,7 @@
 	x: -10.5d,
 	y: -2.0d,
 	text: [
-		"This Seal will check an area (you can configure the size) and look for items that can be picked up by Golems."
+		"这个印记可以请求符合条件的傀儡捡起范围内的掉落物品，你可以自己设定范围。"
 	],
 	dependencies: [
 		"3770c1fb"

@@ -3,11 +3,11 @@
 	y: 0.0d,
 	shape: "gear",
 	text: [
-		"Gregtech relies heavily on the idea of subcomponents to introduce complexity and resource cost to the items it can create. If you attempt to craft these components as needed you will quickly find yourself in an endless cycle of microcrafting.",
+		"格雷在很大程度上依赖子组件来增加物品制造的复杂度和资源消耗。如果你只是在需要的时候再制作这些组件，你很快就会发现自己处于一个无休止的芯片合成的循环中。",
 		"",
-		"This can become extremely frustrating and detracts heavily from the enjoyment of the pack. The way to approach this concept in gregtech is to craft in bulk, rather than microcrafting. Always over produce, you will use them eventually.",
+		"这可能会变得非常令人沮丧，并严重影响你的游戏体验。在格雷中，你应该批量生产，而不是多次少量合成。记着永远准备上过量的材料，你总会用到它们的。",
 		"",
-		"This questline will help you determine which items you should bulk craft for each tier and additionally alleviate a small portion of the grind by returning some of the subcomponents used to craft them. "
+		"这条进度线将告诉你在每一个时代，哪些物品你应该大量合成。并奖励给你一些制作它们的子组件，减少你一小部分的合成工作量。 "
 	],
 	dependencies: [
 		"6672ed55"
@@ -15,7 +15,7 @@
 	tasks: [{
 		uid: "57f5ef9d",
 		type: "checkmark",
-		title: "Welcome to Microcrafting Hell.",
+		title: "合成这些琐碎的零件简直是地狱",
 		icon: "cyclicmagic:fire_dark"
 	}]
 }

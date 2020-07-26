@@ -1,13 +1,13 @@
 {
-	title: "Storing the recipes",
+	title: "储存配方",
 	x: -4.0d,
 	y: 1.5d,
 	text: [
-		"Now you need a place to store the recipes.",
+		"现在你需要一个地方来存储配方。",
 		"  ",
-		"The Mass Assembler is a multiblock where the edges are made from Mass Assembler Frame blocks, walls are made from Mass Assembler Vents and one Mass Assembler controller in a wall instead of a vent. You connect your ME system to the controller block.",
+		"大型分子装配室是一个多方块结构，其棱为大型分子装配室框架，外壁为大型分子装配室外壁，大型分子装配室控制器替换一个外壁。将ME系统连接到控制器方块。",
 		"  ",
-		"The assembler needs to be cuboid shape, up to 8x8x8 in size. On the inside you need at least one MA Pattern Provider and at least one MA Crafting Coprocessors. Rest of the blocks can be air or more pattern providers and crafting coprocessors."
+		"大型分子装配室必须是长方体形状，大小不超过8x8x8。在内部，你需要至少一个大型分子装配室样板核心和至少一个大型分子装配室处理核心。其余方块可以是空气或者更多的样板核心和处理核心。"
 	],
 	dependencies: [
 		"600d307c"

@@ -1,5 +1,5 @@
 {
-	title: "Crafting with Starlight",
+	title: "星辉合成",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -8,7 +8,7 @@
 	},
 	x: -4.0d,
 	y: 1.5d,
-	description: "To get started with astral sorcery crafting you'll need the luminous crafting table. Make sure you pick it up to complete the quest.",
+	description: "要开始玩星辉魔法(Astral Sorcery)，你需要有星辉合成台。请确保你有把它捡起来以完成任务。",
 	tasks: [{
 		uid: "c5e6d160",
 		type: "item",

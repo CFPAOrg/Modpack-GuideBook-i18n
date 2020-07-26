@@ -1,11 +1,11 @@
 {
-	title: "I Heart You",
+	title: "你永远活在我们心中",
 	icon: "cyberware:body_part 1 2",
 	x: -1.0d,
 	y: 7.0d,
-	description: "Since mobs do not naturally spawn in the Safe Space/Void World, to progress, you got to use Zen-Summoning to Summon a Zombie Villager and convert him into a Villager. However to make the Philo Stone, you're either going to need a heart or an emerald.",
+	description: "由于生物不会在安全区域/空岛世界中自然生成，为了继续发展，你必须使用Zen-Summoning来召唤一个村民僵尸，并将他转化为村民。然而要制造贤者之石，你需要一个心脏或者一个绿宝石。",
 	text: [
-		"Villager trading is disabled. Due to this, they generally have an excessive amount of emeralds which they may occasionally drop..."
+		"村民交易被禁用了。由于这个原因，他们的绿宝石发生了严重的通货膨胀，他们有时可能会丢掉一些..."
 	],
 	dependencies: [
 		"d7b06269"

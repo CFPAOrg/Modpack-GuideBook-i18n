@@ -1,10 +1,10 @@
 {
-	title: "Improved Coke... It's a helluva drug",
+	title: "改良焦炉……",
 	x: 3.0d,
 	y: 1.0d,
-	description: "Crafting the Improved coke oven blueprint and building the structure will allow you to process coal and charcoal far more efficiently. It is even capable of turning charcoal into coke coal. This process is about twice as fast as a normal coke oven.",
+	description: "制作改良焦炉蓝图并建造多方块结构，这将让你能够更高效地处理煤炭和木炭。它甚至能够把木炭变成焦煤。这个过程大约是普通焦炉的两倍速快。",
 	text: [
-		"As with most multiblocks, the improved coke oven can share its blocks above and below to other ovens. Running 5 of these should be able to fully power a large boiler."
+		"与大多数多方块机器一样，改良焦炉之间可以共享顶部和底部的方块。运行5个改良焦炉应该就能够完全驱动大型锅炉。"
 	],
 	dependencies: [
 		"669a0a29"

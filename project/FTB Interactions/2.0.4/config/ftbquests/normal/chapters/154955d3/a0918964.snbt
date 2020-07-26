@@ -1,7 +1,7 @@
 {
 	x: -2.0d,
 	y: 6.0d,
-	description: "Rustic Brewing provides one of the earliest forms of health regeneration. Good luck, you'll need it.",
+	description: "Rustic的酿造系统能在游戏早期提供生命恢复buff。祝你好运，你会需要它的。",
 	dependencies: [
 		"a84dcdad",
 		"ca362eca"

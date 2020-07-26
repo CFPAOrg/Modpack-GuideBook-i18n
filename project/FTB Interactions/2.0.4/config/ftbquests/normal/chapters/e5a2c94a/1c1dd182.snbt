@@ -1,8 +1,8 @@
 {
-	title: "Ardite and Gold Veins",
+	title: "阿迪特矿和金矿脉",
 	x: -1.0d,
 	y: 5.0d,
-	description: "Spawns between Y levels 30 - 150.",
+	description: "在Y轴30-150之间生成。",
 	dependencies: [
 		"f92a387e"
 	],

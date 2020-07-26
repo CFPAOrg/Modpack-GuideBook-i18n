@@ -1,8 +1,8 @@
 {
-	title: "Ba-Ba-Black Sheep",
+	title: "黑绵羊咩咩叫",
 	x: -2.0d,
 	y: -2.0d,
-	description: "Sketchy low tier cabling requires equally sketchy low tier covering. Also how hilarious is the idea of breaking into your neighbor's house and ripping up their carpet for your electrical insulation?",
+	description: "简陋的低级导线使用同样简陋的覆盖层。闯入你邻居的房子，撕开他们的地毯为你的线缆绝缘，这样的想法多么滑稽！",
 	tasks: [{
 		uid: "24c4baeb",
 		type: "item",

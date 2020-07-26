@@ -1,9 +1,9 @@
 {
-	title: "LV Age",
+	title: "LV时代",
 	icon: "gregtech:machine 1 501",
 	x: -7.0d,
 	y: -5.0d,
-	description: "Items in this column can be CRAFTED in LV Age.",
+	description: "此列中的项目可以在LV时代制作。",
 	dependencies: [
 		"6672ed55"
 	],

@@ -3,7 +3,7 @@
 	y: -14.5d,
 	shape: "circle",
 	text: [
-		"Can be found in the dungeons of Euclydes. Provides vitriolic solution which can be refined for an infinite supply of copper."
+		"可以在Euclydes行星的地牢中找到。提供蓝矾溶液，可以提炼出无限量的铜。"
 	],
 	dependencies: [
 		"bbfd7376"

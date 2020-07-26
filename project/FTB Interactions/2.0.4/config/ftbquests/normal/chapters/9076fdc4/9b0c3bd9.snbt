@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: -7.0d,
-	description: "More mass than the majority of asteriods.",
+	description: "质量比大多数小行星还大。",
 	tasks: [{
 		uid: "0efd7b90",
 		type: "item",

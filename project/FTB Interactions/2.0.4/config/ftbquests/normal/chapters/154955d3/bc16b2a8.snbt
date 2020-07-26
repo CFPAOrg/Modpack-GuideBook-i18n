@@ -1,8 +1,8 @@
 {
-	title: "Filo Stone",
+	title: "咸者之食",
 	x: 0.0d,
 	y: 8.0d,
-	description: "Warning, not edible, nor delicious.",
+	description: "警告：风味不佳，不宜食用",
 	dependencies: [
 		"095258c2",
 		"b030b92e"

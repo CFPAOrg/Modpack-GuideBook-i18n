@@ -1,14 +1,14 @@
 {
-	title: "In the End, it doesn't even matter",
+	title: "最终，这并不重要",
 	icon: "enderio:block_enderman_skull",
 	x: -4.0d,
 	y: -7.0d,
 	text: [
-		"Endermen are more annoying than ever:",
-		"- Can teleport AWAY players who attack them",
-		"- Have a small chance to apply blindness to targets",
+		"末影人变的更加麻烦了",
+		"-可以把攻击他们的玩家传送走",
+		"-有极小几率会给予目标失明效果",
 		"",
-		"To make up for these chances, enderman will always drop at least one enderpearl on death. Also you can prevent the teleportation ability of endermen by keeping an ender pearl in your inventory."
+		"为平衡加强后的末影人，末影人死亡后掉落至少一颗末影珍珠，你还可以在你的物品栏里留有末影珍珠来防止他们的随机传送"
 	],
 	dependencies: [
 		"2e6c74d5"

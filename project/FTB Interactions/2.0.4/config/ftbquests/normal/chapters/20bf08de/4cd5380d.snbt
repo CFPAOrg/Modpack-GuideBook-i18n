@@ -2,7 +2,7 @@
 	x: -6.0d,
 	y: -12.0d,
 	text: [
-		"Salis mundis can be created in the work table with a vis crystal of anytype, 250mb of liquid mana and 8 low covalence dust."
+		"世界盐可以在基础工作台上制作，需要使用任何类型的魔力水晶碎片，250mb的液态魔力和8个低等共价粉。"
 	],
 	dependencies: [
 		"2856b0e6",

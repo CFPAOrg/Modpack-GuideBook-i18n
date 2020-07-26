@@ -1,8 +1,8 @@
 {
-	title: "Through the Wire",
+	title: "穿过导线",
 	x: -2.0d,
 	y: 0.0d,
-	description: "Did you know Kanye West rapped his debut song with his jaw wired shut due to a car accident? Oh yeah, this makes wires more efficiently.",
+	description: "你知不知道Kanye Westraw初次登台时的歌曲，由于他出了车祸只能奇怪地闭着嘴说唱？哦好吧，这个东西更高效的制作导线。",
 	dependencies: [
 		"6672ed55"
 	],

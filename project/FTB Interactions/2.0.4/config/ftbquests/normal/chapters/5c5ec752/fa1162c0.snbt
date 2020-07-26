@@ -1,7 +1,7 @@
 {
 	x: -5.0d,
 	y: 1.0d,
-	description: "Nothing special to say so we'll just remind you again of exposing the exhaust vent of steam machines.",
+	description: "没有什么特殊的事情要说，我们只是再次提醒你需要暴露蒸汽机器的耗尽喷口。",
 	dependencies: [
 		"56f69a22",
 		"d728580e"

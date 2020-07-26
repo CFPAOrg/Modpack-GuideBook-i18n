@@ -1,7 +1,7 @@
 {
 	x: -9.0d,
 	y: -10.0d,
-	description: "The most advanced neural network actionable analytics software that big data institutions use for internet robotics of things. ",
+	description: "最先进的神经网络可操作分析软件，大数据机构将其应用于物联网机器人。 ",
 	tasks: [{
 		uid: "7ea85d67",
 		type: "item",

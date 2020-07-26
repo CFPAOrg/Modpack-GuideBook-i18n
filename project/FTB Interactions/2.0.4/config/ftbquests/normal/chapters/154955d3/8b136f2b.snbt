@@ -1,9 +1,9 @@
 {
-	title: "Automate All the Things!",
+	title: "把它们全部自动化！",
 	x: 4.0d,
 	y: 7.0d,
 	shape: "rsquare",
-	description: "One of the earliest automation methods is by using the conveyors",
+	description: "最早的自动化方法之一就是使用传送带",
 	dependencies: [
 		"9df1d5ee"
 	],

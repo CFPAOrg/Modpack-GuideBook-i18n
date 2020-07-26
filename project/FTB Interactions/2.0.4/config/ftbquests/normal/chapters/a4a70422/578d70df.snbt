@@ -1,9 +1,9 @@
 {
-	title: "Cache me outside, how about that?",
+	title: "我外缓存，咋样？",
 	x: -12.0d,
 	y: -7.0d,
 	text: [
-		"Early game Big storage, as basic tier holds 20.000 items! Can accept upgrade kits to increase storage even more, only 1 downside.. no void upgrade!"
+		"早期游戏的巨大存储，基础等级就能储存20000个物品，还能使用升级套件继续提升容量。只有一个缺点... 没有虚空升级！"
 	],
 	dependencies: [
 		"123eb389"

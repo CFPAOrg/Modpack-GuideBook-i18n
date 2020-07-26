@@ -1,10 +1,10 @@
 {
-	title: "Wither 'tis nobler in the mind to suffer",
+	title: "默然忍受玩家的暴虐的充能箭",
 	x: 1.0d,
 	y: 0.0d,
 	text: [
-		"- Wither Skeletons are easier to find than ever! They spawn everywhere in the Nether.",
-		"- They also get all the other buffs normal Skeletons get"
+		"-凋零骷髅能被更容易找到！它会生成在下界的每一个角落。",
+		"-它们也会获得普通骷髅所有的强化。"
 	],
 	dependencies: [
 		"f92a387e"

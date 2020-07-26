@@ -1,9 +1,9 @@
 {
-	title: "Cocktail Machine",
+	title: "鸡尾酒机",
 	x: -6.5d,
 	y: -3.0d,
 	text: [
-		"You'll need a basic mixer to get started enriching and refining your oil to make each bucket go farther."
+		"你需要一个基础搅拌机来浓缩和提炼你的油，让它们更上一层楼。"
 	],
 	tasks: [{
 		uid: "b837bdae",

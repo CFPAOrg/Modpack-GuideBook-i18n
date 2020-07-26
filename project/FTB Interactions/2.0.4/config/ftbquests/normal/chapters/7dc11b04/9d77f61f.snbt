@@ -2,7 +2,7 @@
 	x: 1.5d,
 	y: -2.0d,
 	text: [
-		"First tier of slates, used in many basic magic crafts. For instance you can now make 8 runes and upgrade your blood altar."
+		"第一级的石板，用于许多基础魔法工艺。例如你可以制作8个空白符文去升级你的血魔法祭坛。"
 	],
 	dependencies: [
 		"fcbe45ca",

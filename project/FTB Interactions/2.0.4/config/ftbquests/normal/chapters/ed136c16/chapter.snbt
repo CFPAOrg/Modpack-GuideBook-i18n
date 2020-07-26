@@ -1,5 +1,5 @@
 {
-	title: "Party Equipment",
+	title: "部件化装备",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -16,7 +16,7 @@
 		}
 	},
 	description: [
-		"If you can wear it, you can progress it!"
+		"穿上它，改进它！"
 	],
 	always_invisible: false,
 	group: 0,

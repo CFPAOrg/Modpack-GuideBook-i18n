@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: -10.0d,
-	description: "Your first glowstone can be made tediously, but can later be duped with alchemy or mined in the Nether.",
+	description: "第一个荧石粉获取起来可能会有点繁琐，但在之后你可以通过神秘炼金术复制，或在下界采掘得到。",
 	dependencies: [
 		"8eac9d15",
 		"de2a21ac"

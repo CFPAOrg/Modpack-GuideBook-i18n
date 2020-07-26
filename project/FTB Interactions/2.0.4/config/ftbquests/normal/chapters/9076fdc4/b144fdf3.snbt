@@ -1,7 +1,7 @@
 {
 	x: -8.0d,
 	y: -14.0d,
-	description: "It's like a creeper in a bottle, but you burn it.",
+	description: "看起来就像把一个爬行者塞在罐子里一样，然而你把它当作了燃料。",
 	tasks: [{
 		uid: "b8f2cb59",
 		type: "item",

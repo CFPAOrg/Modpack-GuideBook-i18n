@@ -1,9 +1,9 @@
 {
 	x: -1.0d,
 	y: 11.0d,
-	description: "Henry Ford would be proud of you.",
+	description: "亨利福特会为你感到骄傲的。",
 	text: [
-		"The most advanced technology in gregtech requires a large multiblock assembly to produce them."
+		"格雷科技中最先进的科技都需要建造一个大型多方块结构来进行相应的生产。"
 	],
 	dependencies: [
 		"5b1c2607"

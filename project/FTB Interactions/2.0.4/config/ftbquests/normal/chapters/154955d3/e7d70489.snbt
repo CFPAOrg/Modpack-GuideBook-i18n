@@ -1,5 +1,5 @@
 {
-	title: "ReadMe",
+	title: "说明",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -8,7 +8,7 @@
 	},
 	x: 0.0d,
 	y: -3.0d,
-	description: "Put the book in the transmutation table to beat the pack. Congrats!",
+	description: "把这本书放进转换桌来通关这个包。恭喜！",
 	dependencies: [
 		"54f0c63a"
 	],

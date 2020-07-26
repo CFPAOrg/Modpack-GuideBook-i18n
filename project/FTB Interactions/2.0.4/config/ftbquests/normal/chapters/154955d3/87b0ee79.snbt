@@ -1,14 +1,14 @@
 {
-	title: "Community is Crucial.",
+	title: "社区至关重要。",
 	x: -3.0d,
 	y: -5.0d,
 	shape: "diamond",
 	text: [
-		"We work to keep this pack maintained, fixed and improved upon but we can't do it without the support of our community, that means you and others like you!",
+		"我们努力持续对这个包进行维护、改进和修复bug，但没有社区的支持我们无法做到这一点。 这意味着你和像你这样的人都参与进来！",
 		"",
-		"Please make sure to submit any bug reports or ideas for improving the pack to our tracker. We also have a very active discord community in the official FTB discord #ftb-interactions channel.",
+		"请务必向我们的问题追踪系统提交任何的错误报告或改进想法。 我们还在 FTB 官方 discord 的 #ftb-interaction 频道中拥有一个非常活跃的社区。",
 		"",
-		"Above you'll find the link to our Tracker and to the right the Inivite link to our discord, stop by and say hello!"
+		"上面是我们的问题追踪系统，右边是我们的Discord的邀请链接，来逛逛灌个水！"
 	],
 	tasks: [{
 		uid: "309a9c50",

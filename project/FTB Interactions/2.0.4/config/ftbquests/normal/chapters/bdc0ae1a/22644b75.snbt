@@ -1,8 +1,8 @@
 {
-	title: "Creation of all flowers",
+	title: "所有花的制造方法",
 	x: 5.5d,
 	y: -0.5d,
-	description: "Normal Botania flowers dont spawn. Either make the petals, or craft up a Jaded Amaranthus to use mana for flower generation",
+	description: "植物魔法的花朵不会天然生成。你可以选择制造花瓣，或者是合成出翡翠苋并给予魔力来产生花朵",
 	dependencies: [
 		"1d2f9478"
 	],

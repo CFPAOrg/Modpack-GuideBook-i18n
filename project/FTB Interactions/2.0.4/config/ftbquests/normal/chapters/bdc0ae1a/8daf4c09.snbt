@@ -1,11 +1,11 @@
 {
-	title: "Beware of Watery Tarts lobbing scimitars.",
+	title: "小心水花",
 	x: -0.5d,
 	y: -2.0d,
 	shape: "square",
 	text: [
-		"Mana is a primal driving force behind all magic in this pack. It is a liquid that populates the world in small pools and can be turns into an energetic form of mana used by spreaders in the Mana Extrapolator. ",
-		"The extrapolator can also turn energetic mana back into a fluid, although at a slight loss of around 10% total capacity. "
+		"魔力在本包里是所有魔法的源动力。它是液体且能主世界上的生成的小池塘里找到。它也能在魔力泛化器中转换成能被魔力发射器发射的魔力脉冲。 ",
+		"此外，魔力泛化器能将魔力脉冲形态的魔力转换回液体形态，虽然每次转换大概会有10%的魔力流失。 "
 	],
 	tasks: [{
 		uid: "9823de90",

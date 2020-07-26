@@ -1,7 +1,7 @@
 {
 	x: -3.0d,
 	y: -2.0d,
-	description: "A steam boiler uses water slowly, but if you are planning on chunkloading, you will eventually want an infinite water source. Warning x 2: The only way a boiler explodes is if you add water to a dry, empty boiler. Never let the boilers run dry.",
+	description: "蒸汽锅炉消耗水的速度很慢，但如果你计划使用区块加载，你最终还是会想要无限的水源。警告 x 2：锅炉会在你添加水到干燥的空锅炉时爆炸，所以，永远不让锅炉烧干。",
 	dependencies: [
 		"56f69a22"
 	],

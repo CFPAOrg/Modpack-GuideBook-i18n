@@ -1,8 +1,8 @@
 {
-	title: "Foundations of Flight",
+	title: "基础飞行",
 	x: 0.0d,
 	y: -19.0d,
-	description: "In order to launch a rocket you'll need a suitable launch pad to both build and scan your space station as well as to scan and launch the rocket itself. The launchpad should be a square with the structure tower on one side rising from the side.",
+	description: "为了发射火箭，你需要一个合适的发射台来建造和扫描你的空间站与火箭，并发射。 发射台应该是一个正方形，结构塔应该建造在侧面。",
 	dependencies: [
 		"425146df"
 	],

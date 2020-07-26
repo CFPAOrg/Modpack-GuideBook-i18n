@@ -1,10 +1,10 @@
 {
-	title: "If 8x is octuple, 16x is...",
+	title: "八倍的英文是octuple，十六倍的是...",
 	x: -16.0d,
 	y: -1.5d,
-	description: "Blazing plasma arc furnaces are good for you, trust me",
+	description: "炽热的等离子电弧炉对你很有用，相信我",
 	text: [
-		"Blazing Pyrotheum in a Plasma arc furnace will further process your shards into purified crystals. "
+		"在等离子电弧炉中，烈焰之炽焱能进一步把血碎片处理成更纯净的晶体。"
 	],
 	dependencies: [
 		"2e40345e"

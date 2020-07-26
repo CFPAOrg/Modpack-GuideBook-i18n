@@ -1,9 +1,9 @@
 {
-	title: "pumping up the black gold.",
+	title: "泵入黑金",
 	x: -9.5d,
 	y: -1.5d,
 	text: [
-		"Yes gregtech also has pumps you can use. Anything goes, some better then others tho.."
+		"是的，格雷科技也有你可以使用的泵。许多东西都能用，但有些东西更好用..."
 	],
 	dependencies: [
 		"9063ed56"

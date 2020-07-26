@@ -2,7 +2,7 @@
 	x: -0.5d,
 	y: -9.0d,
 	text: [
-		"Electrolyzing water will create oxygen and hydrogen for your chemical needs. You can also directly produce hydrogen with the egg from the gassy chicken. "
+		"电解水可以产出氢气和氧气。你也可以直接通过充气鸡产的蛋获得氢气。 "
 	],
 	tasks: [{
 		uid: "5a5649fc",

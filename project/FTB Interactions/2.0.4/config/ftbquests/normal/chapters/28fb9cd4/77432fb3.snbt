@@ -1,8 +1,8 @@
 {
-	title: "Liquid Starlight",
+	title: "星能液",
 	x: -4.0d,
 	y: 3.0d,
-	description: "Use a lightwell to create a bucket of liquid starlight. Nitor makes a great starting catalyst. Note: Safe to Drink!",
+	description: "使用聚星缸获得一桶星能液吧。闪耀之光会是你前期获得星能液不错的来源。注意：可安全饮用。",
 	dependencies: [
 		"b1dded11"
 	],

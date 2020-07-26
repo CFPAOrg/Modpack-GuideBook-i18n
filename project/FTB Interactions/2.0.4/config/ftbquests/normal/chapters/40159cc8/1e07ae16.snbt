@@ -1,9 +1,9 @@
 {
-	title: "To boldly go where no Steve has gone before...",
+	title: "大胆地前往史蒂夫从未探索过的地方…",
 	icon: "advancedrocketry:warpcore",
 	x: 5.0d,
 	y: -13.0d,
-	description: "Create the Warp core on your Space-Station, feed it with Dilithium Crystals and use the Warp Controller to travel to far away galaxies!",
+	description: "在你的空间站创造一个跃迁核心，给它提供双锂晶体，并且使用跃迁控制器去银河系更远的地方探索吧！",
 	dependencies: [
 		"a73d5e3d",
 		"c3e76f1e"

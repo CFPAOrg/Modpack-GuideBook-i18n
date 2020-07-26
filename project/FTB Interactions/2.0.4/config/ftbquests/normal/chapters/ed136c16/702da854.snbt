@@ -1,7 +1,7 @@
 {
 	x: -4.0d,
 	y: 4.0d,
-	description: "These boots aren't even that good, why bother tiering them with rest of Infinity?",
+	description: "这靴子其实并没有那么好，所以不要介意我把它跟无尽套其他装备分开。",
 	dependencies: [
 		"9c15eaeb"
 	],

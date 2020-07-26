@@ -1,10 +1,10 @@
 {
-	title: "\"Anybody for a barf bag?\"",
+	title: "“有人需要呕吐袋嘛？”",
 	icon: "minecraft:fireworks",
 	x: 1.0d,
 	y: -17.0d,
 	shape: "diamond",
-	description: "Now that you're ready to launch your space station build your rocket and assemble it on the pad, once you assemble it you can insert your station ID chip in the guidance computer and your space station in the satellite bay.",
+	description: "现在你可以准备发射进入太空站来搭建你的火箭啦，并且可以通过你的pad来组装火箭，一旦组装好了，你就可以往导航电脑中插入你的空间站ID芯片，以及把你的空间站放进卫星仓。 ",
 	dependencies: [
 		"95179e4c",
 		"df12bbbe",

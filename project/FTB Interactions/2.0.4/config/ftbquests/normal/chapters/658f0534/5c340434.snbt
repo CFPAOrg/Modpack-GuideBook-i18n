@@ -1,9 +1,9 @@
 {
-	title: "Gnashing Rocks",
+	title: "磨石头",
 	x: -13.5d,
 	y: -4.5d,
 	text: [
-		"The basic GT ore processing works on its own or in conjunction with interaction's ore processing for even higher yield. The start of the chain is always macerating clusters or ores. "
+		"单独进行基本的格雷矿石处理工序，或与interactions的矿石处理结合进一步提高产量。这一生产线的起点是都粉碎矿石或矿簇。"
 	],
 	min_required_dependencies: 1,
 	dependencies: [

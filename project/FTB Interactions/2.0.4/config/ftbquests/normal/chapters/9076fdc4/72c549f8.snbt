@@ -1,7 +1,7 @@
 {
 	x: -8.0d,
 	y: -9.0d,
-	description: "Who needs to mine when you can just replicate it?",
+	description: "当你可以复制的时候，还挖什么矿呢？",
 	tasks: [{
 		uid: "673e9c73",
 		type: "item",

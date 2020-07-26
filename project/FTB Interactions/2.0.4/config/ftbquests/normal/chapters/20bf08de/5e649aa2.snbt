@@ -2,7 +2,7 @@
 	x: -14.0d,
 	y: -13.0d,
 	text: [
-		"This quest will unlock auromancy research, up to and including the healing focus."
+		"此任务解锁神秘学到包括治愈核心在内的研究。"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "315e1fa1",
 		type: "checkmark",
-		title: "You're an auror now harry.",
+		title: "你现在成为傲罗了，哈利",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

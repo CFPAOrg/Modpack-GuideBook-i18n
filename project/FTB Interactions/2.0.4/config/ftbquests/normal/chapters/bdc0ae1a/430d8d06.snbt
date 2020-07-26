@@ -1,10 +1,10 @@
 {
-	title: "I see you have a nacre for automating things",
+	title: "我听说你对自动化有很炫的想法",
 	x: -2.5d,
 	y: -1.0d,
 	text: [
-		"Automate this. You're going to need ALOT of it eventually.",
-		"Nacre is a magical fluid that is used in bult to create key components for several mods. You can create some manually but it's suggested you automate this as you'll need quite a bit."
+		"建议做好这个东西的自动化，之后会用到很多，很多。",
+		"炫珠母液是一种神奇的液体，它用于制造某几个模组的关键材料。你固然可以手搓但是建议你将其自动化，因为你需要的量可不只是一点。"
 	],
 	dependencies: [
 		"8daf4c09"

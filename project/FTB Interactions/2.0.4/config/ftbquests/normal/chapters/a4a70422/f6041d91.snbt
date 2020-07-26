@@ -1,9 +1,9 @@
 {
-	title: "A Logistics Nightmare",
+	title: "物流梦魇",
 	x: -13.26190476190476d,
 	y: -3.4761904761904816d,
 	text: [
-		"As you progress you may find sorting and storage of your inventory as well as crafting and fluid management to continue to get more and more complex. Logistics pipes can offer an elegant solution to managing your connected inventories."
+		"随着你的发展，你会发现库存整理、合成和流体管理会变得越来越复杂。物流管道（Logistics pipes）提供一种优雅的方式将你的库存连接到一起管理。"
 	],
 	tasks: [{
 		uid: "8fc129e5",

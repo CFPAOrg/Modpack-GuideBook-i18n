@@ -1,12 +1,12 @@
 {
-	title: "Splitting the Atom - LuV+ Power",
+	title: "裂解这些原子 - LuV+级能量",
 	x: -0.5d,
 	y: -5.0d,
 	shape: "square",
 	text: [
-		"The photofission reactor can use uranium hexafluoride to produce VAST amounts of steam. You'll need multiple Steam Turbines to handle the output and will be able to produce LuV tier power with it.",
+		"光核裂变反应堆可以使用六氟化铀产生大量的蒸汽。你将需要多个蒸汽涡轮来处理输出并生产LuV级的电力。",
 		"",
-		"You can find the blueprint for this machine in the dungeons of Euclydes, or craft it once you're able to."
+		"你可以在Euclydes的地牢中找到这台机器的蓝图，或者之后自己做一个。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

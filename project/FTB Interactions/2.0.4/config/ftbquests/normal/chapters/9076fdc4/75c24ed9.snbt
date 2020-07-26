@@ -1,7 +1,7 @@
 {
 	x: 0.0d,
 	y: -10.0d,
-	description: "WAKE ME UP, WAKE ME UP INSIDE.",
+	description: "一觉醒来就觉醒了。",
 	tasks: [{
 		uid: "59ecdc15",
 		type: "item",

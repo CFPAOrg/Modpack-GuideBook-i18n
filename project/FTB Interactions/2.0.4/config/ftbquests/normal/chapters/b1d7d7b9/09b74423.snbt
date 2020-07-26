@@ -2,7 +2,7 @@
 	x: -12.5d,
 	y: 1.0d,
 	text: [
-		"Oxygen is used primarily for certain blast furnace recipes, the arc furnace and many checmical reactions. "
+		"氧气主要用于特定的高炉配方、电弧炉配方和许多化学反应。"
 	],
 	dependencies: [
 		"eebe34c9"
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "4c5b2778",
 		type: "checkmark",
-		title: "Oxygen Cell",
+		title: "氧气单元",
 		icon: {
 			id: "gregtech:meta_item_1",
 			tag: {

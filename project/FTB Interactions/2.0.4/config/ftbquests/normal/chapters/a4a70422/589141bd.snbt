@@ -1,9 +1,9 @@
 {
 	x: -22.0d,
 	y: -7.0d,
-	description: "Your first basic hopper",
+	description: "你的第一个漏斗。",
 	text: [
-		"Everything has to start somewhere right?"
+		"一切都要从木头开始，对吧？"
 	],
 	tasks: [{
 		uid: "d53e6483",

@@ -1,5 +1,5 @@
 {
-	title: "Danger, Will Robinson! Danger!",
+	title: "鲁滨逊的危机！",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -9,7 +9,7 @@
 	},
 	x: 1.0d,
 	y: -15.0d,
-	description: "When you reach space, you will unlock a new mob staging that has certain mobs that ignore light level. It is highly recommended you have a Peace Candle (craft only) or a Lucerna Ritual to protec your base.",
+	description: "当你到达太空后，你将解锁一个新的mob staging，其中一些生物会无视亮度生成。非常建议你使用和平蜡烛或圣芒座效应来保护你的基地。",
 	dependencies: [
 		"323ae2d3"
 	],

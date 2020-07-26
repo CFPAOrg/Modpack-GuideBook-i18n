@@ -1,11 +1,11 @@
 {
-	title: "Quest Chain Completion",
+	title: "任务线最终的一环",
 	icon: "draconicevolution:fusion_crafting_core",
 	x: 6.0d,
 	y: -1.5d,
 	shape: "diamond",
 	text: [
-		"Large diamond shaped quest indicators represent the end of a quest chain. They will often have instructions on which quest chains to focus on next."
+		"大号菱形图标代表着一个任务线的末尾。它们往往会指示你接线来要聚焦到哪条任务线。"
 	],
 	dependencies: [
 		"3b4bd52b"

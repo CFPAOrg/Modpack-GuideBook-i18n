@@ -1,10 +1,10 @@
 {
-	title: "Cyan Death Water",
+	title: "青色的死亡之水",
 	x: 6.0d,
 	y: -9.0d,
 	text: [
-		"The oceans of Euclydes seem to be filled with a slightly acidic blue liquid. Analysis has shown it to be exceedingly high in copper content. This may provide a limitless source of copper if you were to pump and refine it.",
-		"There are even rumors of a genetically modified chicken that could produce this fluid...."
+		"Euclydes中的海洋似乎充满了一种略有酸性的蓝色液体。分析显示，它的铜含量极高。 如果你抽取并精炼它，这可能是一个获取无限的铜的来源。",
+		"甚至有传言说一种转基因鸡可以生产这种液体……"
 	],
 	dependencies: [
 		"da0cc52f"

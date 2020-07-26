@@ -1,8 +1,8 @@
 {
-	title: "Hammer, stoptime!",
+	title: "停下！现在是锤子时间！",
 	x: -13.0d,
 	y: -6.0d,
-	description: "Crushes in both your crafting grid AND in-world. Try it out on an ore. Depending on the veins you find first, Bronze Hammer could be appropriate for you.",
+	description: "它能在世界中或在你的合成栏中粉碎东西。在矿石上试一下。不知道你首先找到的矿脉是什么，青铜锤可能适合你。",
 	tasks: [{
 		uid: "da13661c",
 		type: "item",

@@ -2,9 +2,9 @@
 	x: -13.5d,
 	y: -6.0d,
 	text: [
-		"You can use gregtech hammers to smash ores into crushed ores in world instead of mining normally. Doing this has an innate chance to double ores like a macerator and can even triple or more with fortunate enchantment. ",
-		"Once you have crushed ores you can further process them to inpure ores in your inventory with the hammer and finally wash them in a cauldron a stack at a time.",
-		"You can also bypass the hammer and directly macerate your ores once you have machines to do it for you."
+		"你可以使用GT的锤子来破坏矿物使其变成粉碎的矿物来代替原来的矿物采集方法，这样的做法可以直接生产两倍的矿物，就相当于研磨机一样，甚至还可以给锤子附魔时运以此来获得三倍或者以上的矿物生产。 ",
+		"当你获得了粉碎的矿物之后，你就可以进行下一步的处理，那就是把含杂粉碎矿物放入你的物品自带的合成栏用锤子与其合成一下，最后丢入炼药锅清洗一下，你可以一次投入一组的含杂矿粉来清洗",
+		"你也可以绕过锤子并直接粉碎你的矿石，如果你有机器为你做这些。"
 	],
 	dependencies: [
 		"bed220ce"

@@ -1,9 +1,9 @@
 {
 	x: -1.0d,
 	y: -3.0d,
-	description: "To get started in the bronze age you're going to need quite a bit of bronze. ",
+	description: "要进入青铜时代，你需要相当大量的的青铜。",
 	text: [
-		"You can cook up some copper and tin ingots and mortar them, or if you made the squeezer already you can put ores straight into that and get the dusts. Shape craft the dusts into bronze dust and smelt that for your first bronze ingots."
+		"你可以烧一些铜锭和锡锭然后用研钵研磨它们。 或者如果你做了挤压机，你可以把矿石直接放进去处理成粉。 将它们混合成青铜粉并烧出你的第一块青铜锭。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

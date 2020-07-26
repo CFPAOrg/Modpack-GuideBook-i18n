@@ -2,7 +2,7 @@
 	x: -4.0d,
 	y: -10.0d,
 	text: [
-		"This versitile chicken produces an egg that can be proccessed in multiple ways (check JEI) to produce a myriad of essential gasses, bypassing the need for electrolyzing and air collecting."
+		"这里的各种鸡生出的蛋可以通过多种方式处理(查看JEI)来产生多种必需的气体，绕过电解和空气收集等等步骤。"
 	],
 	dependencies: [
 		"bad8af80",

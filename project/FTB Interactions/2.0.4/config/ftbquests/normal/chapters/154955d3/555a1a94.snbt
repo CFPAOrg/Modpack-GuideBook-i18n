@@ -1,9 +1,9 @@
 {
-	title: "Fomdog bone",
+	title: "狗爱吃骨头",
 	x: -4.0d,
 	y: 5.0d,
 	text: [
-		"To make porcelain for the melter you'll need some bone meal. You can get this from bones found in the strainer. "
+		"要为微缩冶炼炉制造瓷土，你需要一些骨粉。你可以从滤水器里获得骨头。 "
 	],
 	dependencies: [
 		"29f7cca1"

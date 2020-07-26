@@ -1,7 +1,7 @@
 {
 	x: -14.0d,
 	y: -8.0d,
-	description: "Not actually booze.",
+	description: "实际上不能推波。",
 	tasks: [{
 		uid: "0bd400e0",
 		type: "item",

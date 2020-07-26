@@ -1,9 +1,9 @@
 {
-	title: "When flowers are merely Satisfactory",
+	title: "可能是你第一次在科技整合包里遍地寻找植物",
 	x: -12.0d,
 	y: -10.0d,
 	shape: "circle",
-	description: "This enhanced scanner can be crafted or obtain via your Transmutation tablet. It has a default range of 32 blocks and with the precious ores upgrade can detect all GT ores. Its range can be upgraded twice more by 32 blocks each time. ",
+	description: "你可以合成或者是通过转换桌来获得这个改良过的扫描仪，默认扫描周围的32格方块。罕见矿石升级可以探测所有的GT矿物。范围升级会增加32格的探测范围 ，可以升级两次，最大范围96格。",
 	dependencies: [
 		"2e6c74d5"
 	],

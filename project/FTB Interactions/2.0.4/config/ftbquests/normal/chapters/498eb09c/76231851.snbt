@@ -1,8 +1,8 @@
 {
-	title: "Resistance is Rutile",
+	title: "困难的是金红石",
 	x: -6.0d,
 	y: 0.0d,
-	description: "Electrolyze 39 bauxite dust to get just 2 rutile dust or Centrifuge 3 purified bauxite to get 1 rutile. Luckily Bauxite Veins have been spotted in the Nether and richer Rutile veins have been detected on the distant world of Euclydes.",
+	description: "电解39个铝土矿粉，只能得到两个金红石粉；或者离心三个纯净的粉碎铝土矿也可以得到一个金红石粉。幸运的是，我们在地狱中发现了铝土矿脉，还在遥远的Euclydes星上发现了更为富集的金红石矿脉。",
 	dependencies: [
 		"f92a387e"
 	],

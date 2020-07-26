@@ -2,7 +2,7 @@
 	x: -4.0d,
 	y: -8.0d,
 	text: [
-		"This guy is avaialble at the start of LV and can completely replace an inworld canola farm. Very useful for compact setups."
+		"这个小家伙在LV阶段初期时就可用，它可以完全可以取代普通的油菜农场，在紧凑型的装置中非常有用。"
 	],
 	dependencies: [
 		"bad8af80",

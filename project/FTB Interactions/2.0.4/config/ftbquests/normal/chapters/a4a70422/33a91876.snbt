@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: 2.0d,
-	description: "stores 63 types of items",
+	description: "储存63种物品",
 	dependencies: [
 		"39d33b3e"
 	],

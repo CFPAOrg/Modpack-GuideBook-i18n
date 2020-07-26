@@ -2,7 +2,7 @@
 	x: -12.0d,
 	y: -8.0d,
 	text: [
-		"Holds 64 stacks and can accept upgrades, ideal for tree beacons and what not that keep giving. The void upgrade prevent disasters."
+		"可以存放64组物品，还可以加入升级，是配合烽火树的理想容器。加入虚空升级以防止一些灾难的发生。"
 	],
 	tasks: [{
 		uid: "aabd9471",

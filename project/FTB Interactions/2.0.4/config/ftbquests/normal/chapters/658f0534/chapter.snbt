@@ -1,8 +1,8 @@
 {
-	title: "Metallurgy",
+	title: "冶金",
 	icon: "avaritia:resource 1 6",
 	description: [
-		"This tab contains information on ore multiplication and how to navigate some of the metal processing in the pack."
+		"这一章包含关于矿物增产的信息，以及处理某些金属的方法。"
 	],
 	always_invisible: false,
 	group: 0,

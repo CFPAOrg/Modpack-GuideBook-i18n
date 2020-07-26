@@ -2,7 +2,7 @@
 	x: -2.5d,
 	y: -12.0d,
 	shape: "rsquare",
-	description: "The gem reinfer blueprint can be looted from overworld dungeons. It can be used to refine normal gems into flawless gems using heat and mana.",
+	description: "宝石精炼器蓝图可以在主世界的地牢里拿到。它能用魔力和热力将普通的宝石精炼成无暇宝石。",
 	tasks: [{
 		uid: "73ee7792",
 		type: "item",

@@ -1,5 +1,5 @@
 {
-	title: "Salty Water",
+	title: "盐水",
 	icon: {
 		id: "gregtech:meta_item_1",
 		tag: {
@@ -12,9 +12,9 @@
 	},
 	x: -10.5d,
 	y: -7.0d,
-	description: "By centrifuging the brine you get both salt water and liquid lithium. The salt water is good for making chlorine for many chemistry recipes. Lithium can be turned into lithium dust for batteries and other applications.",
+	description: "通过离心盐水(mek)，你可以获得盐水和液态锂。盐水可以用来制造许多化学合成都需要的氯，锂可以转化为锂粉制造电池或另作他用。",
 	text: [
-		"Alternatively, you can use a mold and directly turn brine to salt. This is a faster way to make salt, but you lose the biproducts. "
+		"或者，你可以使用模具来直接将盐水(mek)变为盐。这样做会更快，不过会损失副产物。 "
 	],
 	dependencies: [
 		"820b1cf6"

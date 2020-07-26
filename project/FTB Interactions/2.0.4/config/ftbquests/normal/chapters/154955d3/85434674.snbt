@@ -1,9 +1,9 @@
 {
-	title: "Yeet that Wheat",
+	title: "吃掉那些小麦",
 	x: -2.0d,
 	y: 8.0d,
 	shape: "rsquare",
-	description: "The reward is us telling you that you can copy these with Plantballs, you still have to craft them though.",
+	description: "这个奖励是我们想要告诉你，虽然你可以用植物球复制植物，但你仍然要制作这些。",
 	dependencies: [
 		"d7b06269"
 	],

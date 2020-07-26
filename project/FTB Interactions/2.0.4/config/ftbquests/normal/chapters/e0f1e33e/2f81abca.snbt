@@ -2,7 +2,7 @@
 	x: 0.0d,
 	y: 3.0d,
 	text: [
-		"Harness the power of flight, or be boring and make some runes."
+		"驾驭飞行的力量，或无聊地做一些符文。"
 	],
 	dependencies: [
 		"b32e5958"

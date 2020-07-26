@@ -1,5 +1,5 @@
 {
-	title: "This is how you remind me.",
+	title: "你提醒了我。",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -10,13 +10,13 @@
 	x: 0.0d,
 	y: -4.0d,
 	shape: "gear",
-	description: "We're going for full transparency. We start you off on a void world because testers kept dying in the Overworld. Take your time, get to the know JEI and the questbook, and rush the pack progression at your own risk.",
+	description: "我们想做到尽量简单易懂。我们让你从一个空岛开始，是因为测试玩家无法在主世界生存。慢慢来，熟悉JEI和任务书。如果你想跳过一些进度线，自行承担风险。",
 	dependencies: [
 		"5a0e0129"
 	],
 	tasks: [{
 		uid: "bb58c26a",
 		type: "checkmark",
-		title: "Accept"
+		title: "确认"
 	}]
 }

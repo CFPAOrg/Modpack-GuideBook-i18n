@@ -2,7 +2,7 @@
 	x: 1.0d,
 	y: 5.0d,
 	text: [
-		"The final tier of starlight crafting altars. This altar enables you to focus the light from the most distant stars into enhancing items and crystals in new ways. Also enables the creation of very powerful equipment such as the mantle of the stars."
+		"最后一个等级的星辉合成祭坛。这个祭坛使你能够用新的方式从最远的星星聚焦星光，以强化物品和水晶。还能够制造非常强大的装备，如星斗披风。"
 	],
 	dependencies: [
 		"b46714b7",

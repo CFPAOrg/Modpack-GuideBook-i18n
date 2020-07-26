@@ -1,5 +1,5 @@
 {
-	title: "It's Dark and Hell is Hot",
+	title: "天很黑，地狱很热",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -9,7 +9,7 @@
 	},
 	x: -3.0d,
 	y: -1.0d,
-	description: "You'd think that with all the fire and lava the Nether would have great lighting, and thematically it does! Functionally though, make sure to bring some Night Vision.",
+	description: "你会认为，下届到处都是火焰与岩浆，将会非常明亮，大体上确是如此！但还是请确保带上一些夜视",
 	dependencies: [
 		"f92a387e"
 	],

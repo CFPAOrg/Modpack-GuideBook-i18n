@@ -1,7 +1,7 @@
 {
 	x: 3.0d,
 	y: -4.0d,
-	description: "Silicon stocks are leading the boule market.",
+	description: "硅材料引领着晶圆市场。",
 	dependencies: [
 		"fdd9e9d0",
 		"a916453b",

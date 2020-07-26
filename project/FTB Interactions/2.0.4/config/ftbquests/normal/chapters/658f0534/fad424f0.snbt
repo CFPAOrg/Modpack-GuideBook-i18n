@@ -2,7 +2,7 @@
 	x: -11.0d,
 	y: -6.0d,
 	text: [
-		"Once you have crushed ores you'll need to either macerate, forge hammer, or shape craft them with a hammer to turn them into inpure dusts for further processing."
+		"你拥有了粉碎矿石之后，你需要研磨机、锻造锤或将它们与锤子一起合成，将它们变成含杂的矿粉以供进一步处理。"
 	],
 	dependencies: [
 		"5c340434",

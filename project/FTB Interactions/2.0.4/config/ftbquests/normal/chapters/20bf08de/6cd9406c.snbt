@@ -4,7 +4,7 @@
 	y: -10.0d,
 	shape: "rsquare",
 	text: [
-		"The sifter is a more refined method of processing most gems. it will yield higher quality gems and a greater yield overall than simple autoclaving."
+		"筛选器是一种更精细的处理大多数宝石矿的方法，它能产出更高质量的宝石，得到比简单使用高压釜更高的总产量。"
 	],
 	tasks: [{
 		uid: "c18e04dd",

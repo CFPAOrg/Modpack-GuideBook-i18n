@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: -1.0d,
-	description: "The spectre coil will extract energy from the person that places it's spectre storage. Good for wireless powering any device that uses RF.",
+	description: "通灵线圈会从通灵网络中抽取能量。适用于给任何使用RF的设备无线供能。",
 	dependencies: [
 		"becdc9a7"
 	],

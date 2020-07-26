@@ -1,8 +1,8 @@
 {
-	title: "Hot or Not?",
+	title: "Hot or Not？",
 	x: -3.0d,
 	y: 8.0d,
-	description: "If you hold a tank or container of lava in your inventory, it's going to burn you. Hold these mitts to negate the effects from hot fluids (and potentially unwanted side effects from holding other fluids).",
+	description: "如果你手持着一个装着岩浆的储罐或者容器，它会持续烫伤你，就算你放在物品栏中也一样。手持这些手套来抵消炙热液体的影响（以及手持其他液体所导致的副作用）。",
 	dependencies: [
 		"ca362eca"
 	],

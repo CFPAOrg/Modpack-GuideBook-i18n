@@ -3,8 +3,8 @@
 	y: -2.0d,
 	shape: "circle",
 	text: [
-		"We want to move it move ( item part ), but what actually? entry level filter.",
-		"Oh, and you actually need it to get stuff moving."
+		"我们想让它动起来（物品部分），但实际上这是个啥？入门级过滤器。",
+		"噢，实际上你需要它来移动物品。"
 	],
 	tasks: [{
 		uid: "c6868332",

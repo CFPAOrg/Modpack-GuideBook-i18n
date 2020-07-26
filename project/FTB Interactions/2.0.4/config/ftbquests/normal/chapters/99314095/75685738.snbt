@@ -1,7 +1,7 @@
 {
 	x: -3.0d,
 	y: 0.0d,
-	description: "Notice how there's no dependency from the crappy steam macerator? Also this one actually doubles! Worth.",
+	description: "注意到劣质的的蒸汽研磨机没有前置任务了吗？这个研磨机也能双倍！",
 	dependencies: [
 		"5470f8d6"
 	],

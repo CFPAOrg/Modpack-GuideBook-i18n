@@ -1,9 +1,9 @@
 {
-	title: "The star of chickens",
+	title: "星辰之鸡",
 	x: 4.0d,
 	y: -8.0d,
 	text: [
-		"This astral bird lays the celestial egg. Its enriched eggs can be placed in a lightwell as a catalyst for starlight production. They break very quickly but produce a respectable amount of starlight. "
+		"这只星辉鸟儿会产下来自天上的蛋。它的富集蛋可以放入聚星缸里，作为产生星能液的原料。它们碎裂得非常快，但能产生可观的星能液。"
 	],
 	dependencies: [
 		"bad8af80",

@@ -1,10 +1,10 @@
 {
-	title: "Quadruple your ores with starlight transmutation",
+	title: "星辉转化，四倍产矿",
 	x: -16.0d,
 	y: -3.5d,
-	description: "Mekanism can quintuple ores? Baby talk.",
+	description: "Mekanism能五倍产矿？Too young too simple！",
 	text: [
-		"With your little blue wand, tell a collector crystal to shoot its magic at an ore. You will find yourself swimming in resources as you start dwelving in the world of ore multiplication."
+		"用你的小蓝法杖来让水晶对着矿石射出特殊的魔法。 这是多倍产矿的新世界，这里的资源就像海水一样，你很快就会被它淹没，不知所措。"
 	],
 	dependencies: [
 		"bed220ce"

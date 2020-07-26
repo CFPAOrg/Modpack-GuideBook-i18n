@@ -1,5 +1,5 @@
 {
-	title: "Fluorine",
+	title: "氟",
 	icon: {
 		id: "gregtech:meta_item_1",
 		tag: {
@@ -12,9 +12,9 @@
 	},
 	x: -6.0d,
 	y: -4.0d,
-	description: "Can be obtained by electrolyzing many different salts, primarily lepidolite. Can be synthesized renewably from biotite dust. ",
+	description: "可以通过电解许多不同的盐，主要是锂云母来获得。也可以从可再生的黑云母粉中获得。 ",
 	text: [
-		"You can also create a fluorine chicken, chickens really do solve everything don't they. May not be suitable for brushing."
+		"你也可以创造一只氟鸡，鸡真的能解决一切问题，不是吗？"
 	],
 	tasks: [{
 		uid: "15662f0d",

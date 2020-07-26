@@ -17,10 +17,10 @@
 	},
 	x: 1.5d,
 	y: 9.0d,
-	description: "If you listen closely you can still hear the sound of bombs crashing against you.",
+	description: "仔细听就能听到炸弹在你脸上爆炸的声音。",
 	text: [
-		"The Strange realm of void and darkness rules by the ender dragon. You'll need to progress here for greater supplies of osmium, iridium, platinum and other materials. You can attempt to go directly for the chaos dragon or power yourself up first with ",
-		"a visit to the Dark Star Aurellia for the final tier of technology and magical unlocks."
+		"这是个末影龙统治的由虚空和黑暗组成的怪诞领域。你需要在这里取得进展才能获得更多的锇、铱、铂及其他材料。你可以尝试直接去找混沌龙或者先",
+		"前往暗星Aurellia，解锁最终阶段的科技和魔法。"
 	],
 	dependencies: [
 		"9be3aa5b"

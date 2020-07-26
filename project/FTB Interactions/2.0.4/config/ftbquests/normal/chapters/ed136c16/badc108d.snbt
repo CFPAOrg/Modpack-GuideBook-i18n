@@ -1,11 +1,11 @@
 {
-	title: "Crafting Party Equipment",
+	title: "制作部件化装备",
 	x: -14.0d,
 	y: -4.0d,
 	text: [
-		"You'll want to get a tool station and some basic tinkers blocks like the pattern chest, stencil maker and part builder. We wont make you craft all those for this quest but you will need the tool station. ",
+		"你想要一个工具装配台和一些基本的工匠用品，如模具箱、模具加工台和部件加工台。 我们不想让你为这个任务制作所有的这些东西，但你需要做出工具装配台。",
 		"",
-		"To get started you can cast iron parts as normal or make cobble parts in the part builder. More advanced materials will require machines to form the metal. Cobble can be a useful material for easy repair early on when speed up with redstone. "
+		"开始的时候，你可以像平常一样铸造铁部件或在部件加工台中制作圆石部件。更高级的材料将需要机器加工使金属成型。 圆石是一种早期很有用的材料，可以使用红石来加速，也很方便维修。"
 	],
 	tasks: [{
 		uid: "61bc8931",

@@ -1,9 +1,9 @@
 {
 	x: -14.0d,
 	y: -10.0d,
-	description: "No more research fam.",
+	description: "再也没有什么烦人的研究了。",
 	text: [
-		"Why is this not a normally craftable item in other packs? Seriously."
+		"说真的，为什么很多其他整合包里面都不能合成这个东西？"
 	],
 	tasks: [{
 		uid: "69960a0f",

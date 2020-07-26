@@ -1,10 +1,10 @@
 {
-	title: "Bloody Hell",
+	title: "血腥地狱",
 	x: 1.0d,
 	y: -13.0d,
-	description: "By performing the mark of the falling tower bloodmagic ritual with a block of black quartz as the catalyst item you can summon a meteor with highly radioactive materials.",
+	description: "通过血魔法的坠星标位仪式，使用焦黑石英块作为催化剂，你可以召唤一个富含高辐射材料的陨石。",
 	text: [
-		"Use this ritual to get thorium ore which you can transmute into uranium and further process into plutonium for radon."
+		"通过这种仪式来获得钍矿石，你可以将它转化为铀并进一步处理成钚，用来制作氡。"
 	],
 	dependencies: [
 		"fe50d67e"

@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: -13.0d,
-	description: "Pretty modular if we must say so.",
+	description: "我们有时候必须承认，这很模块化",
 	tasks: [{
 		uid: "d733f737",
 		type: "item",

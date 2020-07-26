@@ -1,5 +1,5 @@
 {
-	title: "Rocket Man",
+	title: "火箭人",
 	icon: {
 		id: "simple_trophies:trophy",
 		tag: {
@@ -18,9 +18,9 @@
 	},
 	x: 4.0d,
 	y: 7.5d,
-	description: "And I think it's gonna be a long long time 'till touch down brings me round again",
+	description: "我想我下次再在这里着陆将是很久很久以后了。",
 	text: [
-		"Visiting Luna will grant you access to pure aluminum, black quartz and star metal, as well as powerful loot from moon dungeons."
+		"前往月球Luna将使你能够获取纯铝、焦黑石英和恒星合金，以及来自月球地牢的强大战利品。"
 	],
 	dependencies: [
 		"78546de8"
@@ -28,7 +28,7 @@
 	tasks: [{
 		uid: "be241b80",
 		type: "dimension",
-		title: "Visit Dimension: Luna",
+		title: "前往维度：月球Luna",
 		dim: 145
 	}],
 	rewards: [{

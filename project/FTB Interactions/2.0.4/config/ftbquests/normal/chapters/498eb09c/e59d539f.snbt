@@ -1,5 +1,5 @@
 {
-	title: "Empowered Oil",
+	title: "充能油",
 	icon: {
 		id: "gregtech:meta_item_1",
 		tag: {
@@ -14,7 +14,7 @@
 	y: -2.0d,
 	shape: "rsquare",
 	text: [
-		"By enriching oil a second time to empowered oil your total yield per bucket of oil is now 300% higher than just using raw oil. Additionally, you will net better byproducts in the distillation process and save energy and time overall on the production"
+		"通过再一次浸出富集，你每桶石油的总产出效率提高了300%。 此外，它在蒸馏塔中蒸馏得到的产物也变得更加纯净，让你在整个生产过程中节省能量和时间。"
 	],
 	dependencies: [
 		"dcf76677",

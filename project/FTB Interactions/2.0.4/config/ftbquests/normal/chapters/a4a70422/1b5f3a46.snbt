@@ -2,7 +2,7 @@
 	x: -8.5d,
 	y: -4.0d,
 	text: [
-		"Used to put items into inventories."
+		"用于将物品放入容器。"
 	],
 	dependencies: [
 		"ab0c7325"

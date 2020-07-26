@@ -1,10 +1,10 @@
 {
-	title: "Finding your Way in the dark",
+	title: "在黑暗中寻找出路",
 	x: -3.0d,
 	y: 1.5d,
-	description: "Using a Sextant will get you easier to Temples and such!",
+	description: "六分仪能让你更容易的找到神殿。",
 	text: [
-		"The sextant will also show you an inworld preview of how to build AS structures by shift right clicking with it on the key structure block (ritual pedestal, infuser etc)"
+		"六分仪也可以给你展示星辉多方块结构的预览。你只需要右键关键方块就能显示（例如：效应放大器，星能聚合器，等等）"
 	],
 	dependencies: [
 		"b1dded11"

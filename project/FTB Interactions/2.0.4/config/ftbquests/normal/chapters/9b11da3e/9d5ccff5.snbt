@@ -1,8 +1,8 @@
 {
-	title: "Mana Leak",
+	title: "魔力泄漏",
 	x: -4.0d,
 	y: -12.0d,
-	description: "You can find pools of mana in naturally forming ponds in the overworld.",
+	description: "你可以在主世界中找到天然生成的魔力池。",
 	dependencies: [
 		"2e6c74d5"
 	],

@@ -1,10 +1,10 @@
 {
-	title: "ZPM Diesel Generator",
+	title: "ZPM柴油发电机",
 	x: 0.0d,
 	y: 2.5d,
 	shape: "rsquare",
 	text: [
-		"the ZPM Diesel generator is an upgrade (you can literally upgrade the LUV multiblock) capable of burning diesel to produce an amp of ZPM power. Requires oxygen and diesel input of either infused nitro diesel or naquadriatic fuel."
+		"ZPM Diesel generator是一个可行的的升级（你可以直接升级LUV级的多方块），它能燃烧柴油并输出1A的ZPM级能量。需要通入氧气和柴油，可以是蕴魔硝化柴油或硅岩燃料。"
 	],
 	dependencies: [
 		"50f6ce33",

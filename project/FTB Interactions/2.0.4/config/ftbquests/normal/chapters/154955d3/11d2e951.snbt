@@ -2,9 +2,9 @@
 	x: 4.0d,
 	y: 1.0d,
 	shape: "rsquare",
-	description: "Check the tooltip and JEI. You'll want these balls.",
+	description: "检查tooltip和JEI。你会想要这些球的。",
 	text: [
-		"Seriously. USE THESE. They will save you SO much time early game. Almost grow a plant to full like wheat, around 85% growth is good. Next, plantball it to duplicate it many times instantly. BetterThanBoneMeal(TM)!",
+		"认真的，请使用这些东西，他们会在早期游戏中节省你非常多的时间。种上一些小麦之类的植物，等到它们接近成熟的时候——85%成熟就非常好，可以用植物球瞬间将它们复制多次。比骨粉要好™！",
 		""
 	],
 	dependencies: [

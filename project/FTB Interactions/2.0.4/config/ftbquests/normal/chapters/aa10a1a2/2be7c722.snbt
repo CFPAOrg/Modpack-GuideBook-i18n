@@ -1,5 +1,5 @@
 {
-	title: "You've urned this",
+	title: "你已经有了无尽之瓮",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -9,7 +9,7 @@
 	},
 	x: -13.0d,
 	y: -3.5d,
-	description: "As you progress into the LV age you can create a better water source, aqueous accumulator creates water for free, while the Mekanism pump will produce it far faster but takes energy. The choice is yours.",
+	description: "当你进入LV时代，你可以制造一个更好的水源，蓄水器能免费产水，Mekanism 泵更快但需要能量。你可以自己选择。",
 	text: [
 		""
 	],

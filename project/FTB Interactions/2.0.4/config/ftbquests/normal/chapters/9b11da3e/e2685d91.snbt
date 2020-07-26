@@ -1,7 +1,7 @@
 {
 	x: -9.0d,
 	y: -12.0d,
-	description: "Spawns occasionally in a sphere underground.",
+	description: "偶尔在地下生成一个玄武岩圆球。",
 	dependencies: [
 		"2e6c74d5"
 	],

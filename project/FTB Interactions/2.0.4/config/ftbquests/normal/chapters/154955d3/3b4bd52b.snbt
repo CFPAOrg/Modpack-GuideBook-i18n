@@ -3,7 +3,7 @@
 	x: 6.0d,
 	y: -3.5d,
 	text: [
-		"Standard circle denotes quest is part of a chain. "
+		"圆形图标表示任务是任务线的一部分。"
 	],
 	dependencies: [
 		"07930191"
@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "75e794f7",
 		type: "checkmark",
-		title: "Standard interconnecting quest",
+		title: "任务线上普通的一环",
 		icon: "opencomputers:upgrade 1 11"
 	}]
 }

@@ -1,9 +1,9 @@
 {
 	x: -2.5d,
 	y: -10.0d,
-	description: "Using the Gem Refiner with mana and heat you can convert lesser gems into their more perfected form. ",
+	description: "使用宝石精炼器，通过消耗魔力和热能，你可以将宝石转化成无暇宝石。 ",
 	text: [
-		"You can optionally obtain these with a sifter, either way the choice is yours!"
+		"你可以选择使用筛选器来获取这些东西，无论怎样都只是你的个人选择！"
 	],
 	dependencies: [
 		"ed71db18",

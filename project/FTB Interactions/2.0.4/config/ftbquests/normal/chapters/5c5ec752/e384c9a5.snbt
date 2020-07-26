@@ -1,7 +1,7 @@
 {
 	x: -3.0d,
 	y: 1.0d,
-	description: "Better ingots to plates conversion, further pulverizes ores, triples as a cobbleworks, and is actually fast. It loses some of it's value in later voltage tiers since Macerators can double, but it makes for a good cobbleworks.",
+	description: "更好地将锭制成板，进一步粉碎矿物，拆分一些材料，处理速度很快。由于研磨机能够增产矿物，更高等级的锻造锤失去了一些价值，但你扔要用它来拆分材料。",
 	dependencies: [
 		"56f69a22",
 		"d728580e"

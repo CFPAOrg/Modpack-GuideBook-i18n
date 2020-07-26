@@ -1,9 +1,9 @@
 {
-	title: "The Alpha and the OmegLul Chicken",
+	title: "源初与终焉之鸡",
 	x: 4.0d,
 	y: -9.0d,
 	text: [
-		"Primal Mana is essential for high end materials like redmatter and can be quite time and energy consuming to produce. The Primal egg can be centrifuged for all of the dusts needed as well as producing deuterium, greatly simplifying the process."
+		"元始魔力对于红物质等高端材料来说是必不可少的，其生产过程中会耗费大量的时间和电力。元始蛋能离心出元始魔力所需的所有粉并产生一些氘，从而大大简化了这一过程。"
 	],
 	dependencies: [
 		"bad8af80",

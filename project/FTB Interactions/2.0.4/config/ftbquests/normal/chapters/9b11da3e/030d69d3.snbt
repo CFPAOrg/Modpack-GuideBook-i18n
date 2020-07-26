@@ -8,7 +8,7 @@
 	},
 	x: -3.0d,
 	y: -6.0d,
-	description: "Nothings changed about Evokers, but they're pretty common in some dungeons. You might even find a wand that lets you replicate Evoker's spike attacks as loot.",
+	description: "唤魔者没有作任何的改动，但它们在地牢中会变得比较常见，你或许会找到一个法杖使你能像唤魔者那样召唤尖刺进攻",
 	dependencies: [
 		"2e6c74d5"
 	],

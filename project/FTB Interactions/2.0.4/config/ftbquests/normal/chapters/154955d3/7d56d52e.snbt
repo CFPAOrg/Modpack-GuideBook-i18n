@@ -1,5 +1,5 @@
 {
-	title: "Crash Course",
+	title: "速成教学",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -14,7 +14,7 @@
 	},
 	x: -3.0d,
 	y: 10.0d,
-	description: "If only you had an item that transmuted obsidian into lava. IF ONLY... (hint, it rhymes with filosofer's ctone)",
+	description: "只要你拥有一个将黑曜石转化为岩浆的物品。",
 	dependencies: [
 		"2b15bcdb",
 		"bc16b2a8",

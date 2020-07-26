@@ -3,7 +3,7 @@
 	y: -13.0d,
 	text: [
 		"",
-		"This quest unlocks advanced golemancy research up to and including the biothaumic mind."
+		"此任务解锁傀儡学到包括神秘生物学之心在内的研究。"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -12,7 +12,7 @@
 	tasks: [{
 		uid: "99567e56",
 		type: "checkmark",
-		title: "They be rollin, they decantin...",
+		title: "我变成了傀儡",
 		icon: {
 			id: "thaumcraft:golem",
 			tag: {

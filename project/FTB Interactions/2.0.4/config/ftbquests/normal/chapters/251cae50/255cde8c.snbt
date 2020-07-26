@@ -1,10 +1,10 @@
 {
-	title: "SMD components",
+	title: "贴片元件",
 	x: -9.0d,
 	y: -5.0d,
 	shape: "square",
 	text: [
-		"Circuits can be made with a wide variety of components. One thing you wont regret is automating production of the SMD type of the components. They are used in recipes from LV to Wetware."
+		"电路以多种不同的部件制造而成。将贴片部件自动化生产，你绝不会后悔的。这些部件要从LV级一直用到湿件电路。"
 	],
 	dependencies: [
 		"d94602f8"

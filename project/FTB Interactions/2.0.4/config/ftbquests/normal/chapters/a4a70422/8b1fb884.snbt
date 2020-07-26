@@ -1,10 +1,10 @@
 {
-	title: "SFM Tutorial by Direwolf20",
+	title: "Direwolf20 的 SFM 教程",
 	icon: "superfactorymanager:cable_relay 1 8",
 	x: -17.0d,
 	y: -3.0d,
 	shape: "gear",
-	description: "(It's an older code, but it still checks out)",
+	description: "(它是一个旧的版本上，但它仍然使用)",
 	custom_click: "https://www.youtube.com/watch?v=tCUBfHz3UUA",
 	dependencies: [
 		"c193d3a6"

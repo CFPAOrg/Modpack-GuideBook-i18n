@@ -2,7 +2,7 @@
 	x: -12.0d,
 	y: -6.0d,
 	text: [
-		"Upgraded Caches not enough storage, well this bad boy will store you 4096000 items!"
+		"升级过的储物箱还是存不下？这个玩意可以存储4096000件物品！"
 	],
 	dependencies: [
 		"578d70df"

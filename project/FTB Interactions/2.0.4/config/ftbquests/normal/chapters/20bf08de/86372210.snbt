@@ -2,8 +2,8 @@
 	x: -6.0d,
 	y: -10.5d,
 	text: [
-		"Used to activate your Runic Altar/Infusion Altar by right clicking it.",
-		"Also can be used to cast spells."
+		"用这个右键激活你的符文祭坛/注魔祭坛。",
+		"也可以用来施法。"
 	],
 	dependencies: [
 		"43e61bff"

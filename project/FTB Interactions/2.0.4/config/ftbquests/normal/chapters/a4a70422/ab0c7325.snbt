@@ -2,7 +2,7 @@
 	x: -9.5d,
 	y: -5.0d,
 	text: [
-		"All other nodes are brainless, this one is their brains."
+		"其他的节点都没有大脑，这个节点就是它们的大脑。"
 	],
 	tasks: [{
 		uid: "4d3af241",

@@ -2,7 +2,7 @@
 	x: -8.0d,
 	y: -6.0d,
 	text: [
-		"Even more buckets in one slot. stacks to 16 and holds 256 buckets each, makes for a single slot storage of 4096 buckets!"
+		"一格里面还能存更多！一组16个，一个256桶，一格4096桶流体！"
 	],
 	dependencies: [
 		"ec626521"

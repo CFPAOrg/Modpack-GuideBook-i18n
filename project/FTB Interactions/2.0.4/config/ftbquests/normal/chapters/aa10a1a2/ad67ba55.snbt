@@ -1,14 +1,14 @@
 {
-	title: "More coke ovens!",
+	title: "更多的焦炉！",
 	x: -9.5d,
 	y: -4.5d,
-	description: "Sometimes they call it a powertower (HINT: sharing blocks)",
+	description: "有时候他们把它称为能源塔（提示：共用方块）",
 	text: [
-		"Stacking 3 industrial coke ovens should power a large bronze boiler at max capacity just fine and even build you a buffer of creosote and coal coke",
-		"Each additional improved coke oven connected to your original one will need 9 bronze bricked hulls, item in and out, fluid out and 4 coke oven bricks,",
+		"三个堆叠在一起的改良焦炉不仅能供给一台以最高效率运转的大型青铜锅炉，还能给你提供额外的杂酚油和焦煤。",
+		"每搭一台改良焦炉，在原有的基础上额外需要9个砖砌青铜外壳，物品输入输出，流体输出接口和4个焦炉砖。",
 		"",
-		"This is a perfect opportunity to repurpose your old coke ovens.",
-		"The optimal setup is 1 ICO producing charcoal and 2 producing coked coal, all of the coke coal and creosote are then piped into a large bronze boiler to fully power it."
+		"这是一个替换掉你原来的焦炉的好机会。",
+		"最佳设置是1个改良焦炉生产木炭而2个生产焦煤， 然后将所有焦煤和杂酚油都扔进一个大铜锅炉里来满速运行。"
 	],
 	dependencies: [
 		"51878972"

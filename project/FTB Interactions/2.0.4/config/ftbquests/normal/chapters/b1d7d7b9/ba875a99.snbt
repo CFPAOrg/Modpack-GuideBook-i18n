@@ -1,8 +1,8 @@
 {
-	title: "Sulfuric Acid",
+	title: "硫酸",
 	x: -0.5d,
 	y: -5.0d,
-	description: "Sulfuric acid is pretty simply Sulfur and Water. Sulfur can be obtained from blaze powder which you can get in a simulation chamber with a blaze data model or many other sources.",
+	description: "水和硫混合可以获得硫酸，硫可以从烈焰粉中获得。你可以使用烈焰人数据模型和模拟室获取烈焰粉，当然也有很多其他的途径。",
 	dependencies: [
 		"14eeece7"
 	],

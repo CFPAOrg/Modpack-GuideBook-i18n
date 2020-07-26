@@ -2,7 +2,7 @@
 	x: -21.0d,
 	y: -2.0d,
 	text: [
-		"We want to move it move ( liquid part ) but what actually? entry level filter."
+		"我们想让它动起来（流体部分），但实际上这是个啥？入门级过滤器。"
 	],
 	tasks: [{
 		uid: "c8e334f9",

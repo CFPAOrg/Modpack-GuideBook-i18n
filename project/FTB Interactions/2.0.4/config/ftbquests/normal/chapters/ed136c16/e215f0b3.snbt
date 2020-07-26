@@ -1,9 +1,9 @@
 {
-	title: "Arboreally Arcane",
+	title: "木之奥秘",
 	x: -0.5d,
 	y: -5.5d,
 	text: [
-		"Magic wood can prove to be a potent multiplier of enchantment power. Placing magical wood around an enchantment table similar to bookshelves can boost the enchanting power beyond 30 to a max to 60."
+		"魔法木头可以有力地增强附魔。像书架那样在附魔台周围放置魔法木头，可以将附魔等级提升至30到60。"
 	],
 	dependencies: [
 		"bcc51b66"

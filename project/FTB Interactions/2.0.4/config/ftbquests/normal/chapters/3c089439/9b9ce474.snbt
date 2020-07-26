@@ -1,5 +1,5 @@
 {
-	title: "Sink In the Pink",
+	title: "沉浸在一片粉红之中",
 	icon: {
 		id: "gregtech:meta_item_1",
 		tag: {
@@ -14,8 +14,8 @@
 	y: -1.5d,
 	shape: "diamond",
 	text: [
-		"Unlike previous higher tier metals, titanium requires a specialized process to create. You need to process rutile along with chlorine and carbon to produce a liquid titanium tetrachloride. You can then blast furnace this at HV power with magnesium.",
-		"This will provide your first titanium ingots and creates cycle of magnesium recovery. You will be able to recover 1.5 of the 2 dust used per ingot. As you may have imagined, you're gonna need a lot of these ingots."
+		"钛与之前的高级金属不同，制造它需要特别的生产工艺。你需要将金红石和氯与碳一起加工以产生液态四氯化钛，之后在高炉中用镁粉处理。",
+		"这将提供你的第一个钛锭和，并且形成回收镁的循环。每个锭消耗的2个镁粉你都能回收1.5个。就和你能想的一样，你将需要大量的这种锭。"
 	],
 	dependencies: [
 		"bdd30c0d"
@@ -23,7 +23,7 @@
 	tasks: [{
 		uid: "67ca6ef4",
 		type: "checkmark",
-		title: "Titanium Tetrachloride production"
+		title: "生产四氯化钛"
 	}],
 	rewards: [{
 		uid: "6f246527",

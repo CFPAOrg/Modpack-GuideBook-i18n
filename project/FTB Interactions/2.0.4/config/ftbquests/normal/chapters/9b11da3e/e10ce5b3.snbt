@@ -1,10 +1,10 @@
 {
-	title: "Manganese Vein",
+	title: "锰矿脉",
 	x: -9.0d,
 	y: -2.0d,
-	description: "Spawns in all biomes with some scarcity.",
+	description: "在所有的生物群系中生成，较为稀缺。",
 	text: [
-		"These are EXCEEDINGLY rare in overworld. Your best bet is searching for these in the nether."
+		"锰矿脉在主世界非！常！罕！见！你最好在下界碰碰运气。"
 	],
 	dependencies: [
 		"04f0531a"

@@ -1,11 +1,11 @@
 {
-	title: "Hedging our Bets",
+	title: "点石成金",
 	icon: "thaumcraft:crucible",
 	x: -13.0d,
 	y: -12.0d,
-	description: "This quest unlocks the Hedge Alchemy research.",
+	description: "此任务解锁炼金术研究。",
 	text: [
-		"This quest unlocks the Hedge Alchemy research."
+		"此任务解锁炼金术研究。"
 	],
 	can_repeat: true,
 	dependencies: [

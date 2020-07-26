@@ -1,9 +1,9 @@
 {
-	title: "The Star of Shiny",
+	title: "闪耀之星",
 	x: 3.0d,
 	y: -12.0d,
 	text: [
-		"This magical beast can help you automate creation of lattice.. yeah sounds better then your used to right? sidenote, it may be a source of nether stars as well."
+		"这种神秘的野兽可以帮助你自动生产晶胞液...是的，听起来比以前你见过的好用多了，对吧？备注：它也可能是下界之星的来源。"
 	],
 	dependencies: [
 		"bad8af80"

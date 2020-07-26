@@ -1,9 +1,9 @@
 {
-	title: "Integrated tunneling with fluids.",
+	title: "液体集成管道",
 	x: -21.0d,
 	y: 2.0d,
 	text: [
-		"Want something different with arguably more complex options available, Integrated tunnels is your LP+."
+		"想要些有着更复杂选项的不同东西的话，集成管道(Integrated Tunnels)将会是你的物流管道(Logistics Pipes)上位替代。"
 	],
 	tasks: [{
 		uid: "0828793f",

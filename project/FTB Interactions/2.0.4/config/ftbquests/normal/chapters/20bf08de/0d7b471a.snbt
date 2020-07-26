@@ -2,7 +2,7 @@
 	x: -5.0d,
 	y: -10.5d,
 	text: [
-		"Blank foci can be modified in the focal manipulator to create a myriad of effects from mining, to damage, to healing."
+		"空白次级核心可以在核心镶饰台中改造，为你提供挖掘，攻击和回复等各种效果。"
 	],
 	dependencies: [
 		"86372210"

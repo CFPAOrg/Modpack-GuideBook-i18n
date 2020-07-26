@@ -1,7 +1,7 @@
 {
 	x: -14.0d,
 	y: -7.0d,
-	description: "Blood for the blood gods.",
+	description: "以血还血魔法",
 	tasks: [{
 		uid: "1f3d0d93",
 		type: "item",

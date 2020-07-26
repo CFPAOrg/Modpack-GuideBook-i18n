@@ -1,7 +1,7 @@
 {
 	x: -6.0d,
 	y: 0.0d,
-	description: "Electric version of the alloy smelter,  nothing else left to say about this so this will be the last quest for alloy smelters. Higher tiered variants overclock recipes, thus processing them faster.",
+	description: "合金炉的电力版本。没有什么别的可说的了，所以这是合金炉的最后一个任务。更高级的合金炉会将配方超频，处理得更快。",
 	dependencies: [
 		"481095ef"
 	],

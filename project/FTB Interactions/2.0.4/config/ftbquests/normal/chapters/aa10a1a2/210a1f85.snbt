@@ -1,11 +1,11 @@
 {
-	title: "store those logs and charcoal",
+	title: "把原木和木炭存起来",
 	icon: "enderutilities:barrel",
 	x: -10.5d,
 	y: -5.0d,
 	text: [
-		"You will need to store those logs somewhere.",
-		"also make sure you have overflow protection ( remember those rewarded void upgrades? )"
+		"你总得把那些原木存个地方",
+		"记得做好掉落物溢出的处理(记得之前有奖励过储物桶虚空升级吗)"
 	],
 	dependencies: [
 		"187aa945"

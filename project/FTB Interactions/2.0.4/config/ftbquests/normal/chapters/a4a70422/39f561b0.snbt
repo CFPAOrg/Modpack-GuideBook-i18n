@@ -1,7 +1,7 @@
 {
 	x: -22.0d,
 	y: 1.0d,
-	description: "Fast single block transfer of items, with logistic regulation options. Speed up with glowstone, add redstone for redstone toggle, diamond nugget for regulating.",
+	description: "单方块高速物品传输设备，可配置正则过滤。萤石右键加速，红石右键启用红石控制，钻石粒右键启用正则过滤。",
 	tasks: [{
 		uid: "ee2938ad",
 		type: "item",

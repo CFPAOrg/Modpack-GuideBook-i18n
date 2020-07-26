@@ -1,8 +1,8 @@
 {
-	title: "Your first Treefarm",
+	title: "你的第一个树场",
 	x: -5.0d,
 	y: 3.0d,
-	description: "Using a Tree beacon to gather wood and saplings more easily",
+	description: "使用烽火树能更容易地收集木头和树苗。",
 	dependencies: [
 		"77432fb3",
 		"b1dded11"

@@ -1,10 +1,10 @@
 {
-	title: "Another one?",
+	title: "另一个？",
 	x: -10.5d,
 	y: -2.0d,
 	text: [
-		"yes another one, or not your choice. You can add a menril tree to your current tree beacon, it will reduce drop of your current tree of choice tho ( will it still keep up with your coke ovens with a menril tree added ?",
-		"besides that, have you considered or already setup a second one with other tree's providing usefull drops maybe."
+		"是的，另一个，也许不是你的选择。你可以在烽火树旁多种一颗门瑞欧树，它会减少你当前已有的树的掉落率（它还能跟上你的焦炭生产吗？",
+		"除此之外，你是否考虑过或者已经设置了第二个烽火树，用来获得一些其他树提供的有用产物？"
 	],
 	dependencies: [
 		"9063ed56"

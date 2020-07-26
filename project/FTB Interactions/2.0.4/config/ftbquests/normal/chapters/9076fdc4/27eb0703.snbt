@@ -17,7 +17,7 @@
 	},
 	x: -5.5d,
 	y: -3.0d,
-	description: "98% hydrogen, 1.9% helium, 0.1% other; trace metals included.",
+	description: "包含98%氢元素，1.9%氦元素，0.1%其他元素，以及一些微量金属元素。",
 	dependencies: [
 		"dd0f8ba4"
 	],

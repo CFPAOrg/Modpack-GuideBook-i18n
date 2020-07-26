@@ -1,12 +1,12 @@
 {
-	title: "Congratualtions!",
+	title: "恭喜！",
 	x: -7.0d,
 	y: -9.0d,
-	description: "You have completed the pack, mastered all the Interactions and persisted on a quest that few others will complete. Thank you on behalf of the FTB Team, and we sincerely hope you enjoyed your playthrough.",
+	description: "你已经通关了本整合包，精通了所有的“Interactions”且坚持完成了这个鲜有人会完成的任务。在这里代表FTB团队感谢你，真诚希望你能享受本包的游玩。",
 	text: [
-		"Can you find the hidden easter egg for the release date of Interactions 2?",
-		"Perfectly balanced...",
-		"As all things should be."
+		"你找到了Interactions 2的发布日期了吗？这是一个彩蛋哦。",
+		"完美的平衡.……",
+		"就像一切应有的那样。"
 	],
 	dependencies: [
 		"a7a83e28",

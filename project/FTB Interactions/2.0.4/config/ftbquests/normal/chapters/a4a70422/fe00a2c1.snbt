@@ -2,7 +2,7 @@
 	x: -9.5d,
 	y: -6.5d,
 	text: [
-		"Yes, another type of wrench!"
+		"是的，又一种扳手！"
 	],
 	dependencies: [
 		"ab0c7325"

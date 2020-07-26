@@ -2,7 +2,7 @@
 	x: -21.0d,
 	y: 0.0d,
 	text: [
-		"Pumps are more then crafting components! place on any GT machine and use a screwdriver to enter the GUI."
+		"泵不仅是合成材料！把它放到任何格雷机器上，用螺丝刀打开它的界面。"
 	],
 	dependencies: [
 		"a916453b"

@@ -1,9 +1,9 @@
 {
 	x: 0.0d,
 	y: -16.0d,
-	description: "The base of all and everything!",
+	description: "全部和一切的基础！",
 	text: [
-		"Need a smarter chicken? Smack it with a book!"
+		"需要更聪明的鸡？用一本书拍它一巴掌！"
 	],
 	tasks: [{
 		uid: "5e867e7e",

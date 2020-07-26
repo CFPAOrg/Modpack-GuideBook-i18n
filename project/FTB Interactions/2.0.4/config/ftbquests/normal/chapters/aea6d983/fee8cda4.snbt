@@ -1,9 +1,9 @@
 {
-	title: "Who needs a tree farm?",
+	title: "谁会需要树场？",
 	x: 2.0d,
 	y: -6.0d,
 	text: [
-		"Tree beacons got your fps down? Tired of piping around tons of logs? This menril chicken has the answer to your woes. Breeding this gal up to 10/10/10 can produce menril crystals quickly enough to supply your entire diesel production line."
+		"烽火树导致你的帧数骤降？厌倦了围着一堆原木转来转去？这只门瑞欧鸡解决了你的苦恼。 把它培养至10/10/10后可以很快地生产门瑞欧结晶，从而供给你的整个柴油生产线。"
 	],
 	dependencies: [
 		"bad8af80",

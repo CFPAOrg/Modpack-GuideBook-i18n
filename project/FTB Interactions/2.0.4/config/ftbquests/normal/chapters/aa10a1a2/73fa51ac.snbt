@@ -1,8 +1,8 @@
 {
-	title: "If only I could be so grossly incandescent",
+	title: "但愿我也能如此闪耀！",
 	x: -1.0d,
 	y: -2.5d,
-	description: "Built similar to the MKI reactor, but uses Fusion Coils and only functions if you use ZPM and UV Energy Hatches.",
+	description: "与MKI反应堆类似的方法搭建，但使用聚变线圈，只有使用ZPM和UV能源仓才能正常工作。",
 	dependencies: [
 		"0e127505"
 	],

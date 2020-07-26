@@ -1,10 +1,10 @@
 {
-	title: "Never the bride, always the boilermaid.",
+	title: "不要新娘，只要锅炉女工。",
 	x: 0.0d,
 	y: 0.0d,
-	description: "You can make upgraded versions of regular Steam Machines that use more steam and are faster, but we usually skip these. Also yes, the pun was bad.",
+	description: "你可以制作普通蒸汽机器的升级版本，它们使用更多的蒸汽，速度更快，但我们通常会跳过它们。",
 	text: [
-		"It takes 5 of these boilers to fully power an LV Steam turbine. "
+		"需要5个这样的锅炉来为LV蒸汽轮机提供充分的动力。"
 	],
 	dependencies: [
 		"56f69a22",

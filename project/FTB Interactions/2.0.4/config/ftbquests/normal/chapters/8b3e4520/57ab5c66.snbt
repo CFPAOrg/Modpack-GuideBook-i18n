@@ -1,9 +1,9 @@
 {
-	title: "Dragon's Heart",
+	title: "龙之心",
 	x: -4.0d,
 	y: -3.0d,
 	text: [
-		"Upon arrival you'll be confronted by the ender dragon. You'll need to kill it and obtain its heart. If it's already been killed you'll need to perform the ritual to resummon him first."
+		"当到达末地后，你将面对末影龙。你需要杀掉它并获得龙心。如果它已经被杀了，你就得复活龙再杀掉。"
 	],
 	dependencies: [
 		"ba6da38e"

@@ -2,7 +2,7 @@
 	x: -22.0d,
 	y: -1.0d,
 	text: [
-		"running out of space for your automation, maybe something like this can help."
+		"没空间做自动化了？这个也许可以帮你。"
 	],
 	tasks: [{
 		uid: "71e45cfd",

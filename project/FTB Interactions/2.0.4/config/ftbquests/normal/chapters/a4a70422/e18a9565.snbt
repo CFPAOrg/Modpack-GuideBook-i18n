@@ -1,9 +1,9 @@
 {
 	x: -6.0d,
 	y: -7.0d,
-	description: "A bigger bucket.",
+	description: "一个更大的桶。",
 	text: [
-		"Like the thermal tanks and cache they can be enchanted with holder. Very BIG Bucket!"
+		"像热力的储罐和储物箱一样都可以被附魔上扩容。非常大的桶！"
 	],
 	tasks: [{
 		uid: "10657249",

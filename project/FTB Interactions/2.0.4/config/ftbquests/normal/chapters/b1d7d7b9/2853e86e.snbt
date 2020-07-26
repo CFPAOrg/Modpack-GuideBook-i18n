@@ -1,8 +1,8 @@
 {
-	title: "Rubber Band Man",
+	title: "橡皮人",
 	x: -10.5d,
 	y: -3.0d,
-	description: "You can now process raw materials into useful rubber. You will need sulfur for either route, but whether you use raw rubber or resin is up to you. ",
+	description: "现在，你可以将原材料加工成有用的橡胶。无论哪种路线，你都需要硫磺，但你是使用生橡胶还是树脂都取决于你。 ",
 	tasks: [{
 		uid: "54a476eb",
 		type: "item",

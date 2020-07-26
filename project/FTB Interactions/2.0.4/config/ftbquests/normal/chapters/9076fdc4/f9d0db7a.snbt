@@ -1,7 +1,7 @@
 {
 	x: -10.0d,
 	y: -6.0d,
-	description: "We promise its not just a library this time.",
+	description: "我们保证这回一定不会只有一个前置mod了。",
 	tasks: [{
 		uid: "98b33eea",
 		type: "item",

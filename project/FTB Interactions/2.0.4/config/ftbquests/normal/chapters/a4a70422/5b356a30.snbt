@@ -2,7 +2,7 @@
 	x: -14.0d,
 	y: 5.0d,
 	text: [
-		"Redstone conduits allow you to pass multiple redstone signals through the same block on different channels as well as set the signal strength. Very useful for enhancing and compacting vanilla automations."
+		"红石导管允许你通过同一个方块上的不同频道传递多个红石信号，并设置信号强度。加强和精简了原版自动化，非常有用。"
 	],
 	dependencies: [
 		"dcabc080"
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "05adbe4a",
 		type: "checkmark",
-		title: "Redstone conduits",
+		title: "红石导管",
 		icon: "enderio:item_redstone_conduit"
 	}],
 	rewards: [{

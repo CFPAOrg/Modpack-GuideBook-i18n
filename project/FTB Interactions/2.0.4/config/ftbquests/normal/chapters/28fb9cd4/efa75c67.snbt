@@ -1,8 +1,8 @@
 {
-	title: "Skywalker",
+	title: "天行者",
 	x: -4.0d,
 	y: 7.0d,
-	description: "With the power of the attunement altar you will be able to infuse yourself with the very power of the stars. Create the altar and set out the pattern of a constellation of your choice to attune when the stars are in the sky.",
+	description: "掌握着共鸣祭坛力量的你可以将星体的力量转化成自身的能力。于星座可见之时，持星座之图，即可建星座共鸣之坛。",
 	dependencies: [
 		"1d37b267"
 	],

@@ -2,7 +2,7 @@
 	x: -2.0d,
 	y: -4.5d,
 	text: [
-		"As an alternative to a mob or lotus farm the learning chicken's eggs can be extracted for liquid experience."
+		"作为替代刷怪场或莲花农场的一种办法，知识鸡的蛋可用于提取液态经验。"
 	],
 	dependencies: [
 		"bad8af80",

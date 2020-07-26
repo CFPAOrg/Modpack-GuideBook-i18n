@@ -1,8 +1,8 @@
 {
-	title: "An axe to grind",
+	title: "临阵磨枪，不快也光",
 	x: -4.0d,
 	y: 0.5d,
-	description: "The grind stone is used to sharpen astral tools and crystals at the cost of size, which can be increased by soaking the item in liquid starlight. Additionally it can sharpen most weapons adding addition damage to them permanently. ",
+	description: "砂轮可以用来打磨抛光星辉的工具和水晶，这会让它们的尺寸变小，不过你可以通过将它们浸泡在星能液里来增大尺寸。另外，它还可以用于打磨大多数武器，永久增加它们的伤害。 ",
 	dependencies: [
 		"b1dded11"
 	],

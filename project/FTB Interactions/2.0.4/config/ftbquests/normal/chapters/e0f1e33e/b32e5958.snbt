@@ -2,7 +2,7 @@
 	x: 0.0d,
 	y: 1.5d,
 	text: [
-		"Add a little gold, lapis, and water and you might have something here."
+		"添加一些黄金、青金石和水，你可能就能得到这里的东西。"
 	],
 	dependencies: [
 		"9c1e319b"

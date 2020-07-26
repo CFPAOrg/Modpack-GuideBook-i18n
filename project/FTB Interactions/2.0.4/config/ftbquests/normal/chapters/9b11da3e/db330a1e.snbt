@@ -1,8 +1,8 @@
 {
-	title: "Tin Veins",
+	title: "锡矿脉",
 	x: -7.0d,
 	y: -3.0d,
-	description: "Spawns in all biomes. Cassiterite Ores also yield twice the amount of tin than normal tin ores.",
+	description: "在所有生物群系中生成，锡石矿产锡两倍于普通的锡矿石",
 	dependencies: [
 		"9235b3a2"
 	],

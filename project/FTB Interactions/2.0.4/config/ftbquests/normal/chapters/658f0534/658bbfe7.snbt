@@ -1,11 +1,11 @@
 {
-	title: "Glad you ironed that out",
+	title: "很高兴你解决了这个问题",
 	x: -11.0d,
 	y: -3.0d,
 	shape: "circle",
 	text: [
-		"You've completed the starter tutorial on processing ores! Hooray, now get mining, you're gonna need a lot!",
-		"Now that you've completed basic ore processing you should progress to the LV Metallurgy tab."
+		"你已经完成了处理矿物的初始教程！呐呐呐，快去挖矿吧，你需要很多哦",
+		"既然你已经完成了基础的矿物处理，你应该去看LV冶金任务页了。"
 	],
 	dependencies: [
 		"b3aee2cb"

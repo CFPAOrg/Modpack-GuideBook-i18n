@@ -1,9 +1,9 @@
 {
-	title: "IV Age",
+	title: "IV时代",
 	icon: "gregtech:machine 1 505",
 	x: -9.0d,
 	y: 0.0d,
-	description: "Items in this row are used in most IV recipes.",
+	description: "此行的项目在大多数IV配方中使用。",
 	dependencies: [
 		"b06b5e7b",
 		"94cc51d4"

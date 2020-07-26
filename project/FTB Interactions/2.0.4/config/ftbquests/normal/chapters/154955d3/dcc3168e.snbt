@@ -1,9 +1,9 @@
 {
-	title: "Cycling through Building Tools",
+	title: "循环建筑工具",
 	x: 3.0d,
 	y: 4.0d,
 	shape: "rsquare",
-	description: "Build your base without needing to walk.",
+	description: "在无需移动的情况下扩建基地。",
 	dependencies: [
 		"792f5e20"
 	],

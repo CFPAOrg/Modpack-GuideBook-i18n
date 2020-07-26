@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: -10.0d,
-	description: "Each upgrade of the scanner increases its range by 32 block radius.",
+	description: "每个范围升级可以增加32格的扫描范围。",
 	dependencies: [
 		"70a2cc40"
 	],

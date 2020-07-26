@@ -1,8 +1,8 @@
 {
-	title: "Elemental Dusts",
+	title: "元素粉",
 	x: -12.5d,
 	y: -7.0d,
-	description: "Infusing elemental properties into brine seems to result in elemental dusts which may have many varied uses.",
+	description: "将元素属性注入盐水似乎会产生元素粉，这些粉可能有许多不同的用途。",
 	dependencies: [
 		"29825601"
 	],

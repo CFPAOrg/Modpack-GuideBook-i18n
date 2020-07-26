@@ -2,7 +2,7 @@
 	x: -10.0d,
 	y: -6.0d,
 	text: [
-		"Doesnt magic always bring good fortune to it's bearer? make one and find out!"
+		"难道魔法不会一直给它的主人带来好运吗？做一个试试！"
 	],
 	dependencies: [
 		"c42f5354",

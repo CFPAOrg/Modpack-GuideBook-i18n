@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: 4.0d,
-	description: "stores 63 types of fluids, invest 3 get 4x the storage",
+	description: "存储63种液体，用3个可以换4倍的容量。",
 	dependencies: [
 		"44a10c88"
 	],

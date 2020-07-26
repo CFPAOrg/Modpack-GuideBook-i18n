@@ -1,11 +1,11 @@
 {
-	title: "What is Annealed anyway?",
+	title: "所以，什么是退火？",
 	x: -5.5d,
 	y: -1.5d,
 	shape: "circle",
 	text: [
-		"Annealing is a heat treatment process that alters the properties of a material. In this case annealing copper can increase its conductivity and enable more uses for it. ",
-		"Create some annealed copper using your new plasma arc furnace, much easier than the blast furnace."
+		"退火是一种改变材料特性的热处理过程。在这种情况下，对铜进行退火可以提高其电导率并使其拥有更多的用途。 ",
+		"试试用您新的等离子电弧炉做一些退火铜，这比用高炉做容易多了。"
 	],
 	dependencies: [
 		"72dc249f"

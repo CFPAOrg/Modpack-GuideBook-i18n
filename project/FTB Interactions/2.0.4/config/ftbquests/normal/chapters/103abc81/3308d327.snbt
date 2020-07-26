@@ -1,9 +1,9 @@
 {
 	x: 1.5d,
 	y: 5.5d,
-	description: "Finally, real ore processing.",
+	description: "终于迎来真正的矿物处理。",
 	text: [
-		"At HV you can now smelt 80% of all metals and have access to a wide variety of magic and tech materials. Your options for how you play really open up here. Focus on automation. Stainless steel, PTFE Production and getting to space as your next goal."
+		"在HV阶段中，你可以熔炼所有金属中的80%，并且可以获得许多种魔法和科技材料。 你的游玩方式选择将在这里真正开放。请注重自动化。不锈钢，聚四氟乙烯的生产与进入太空将成为你的下一个目标。"
 	],
 	dependencies: [
 		"dcd19e05"

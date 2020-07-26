@@ -1,5 +1,5 @@
 {
-	title: "Steam Cracked Naptha",
+	title: "蒸汽裂化的石脑油",
 	icon: {
 		id: "gregtech:meta_item_1",
 		tag: {
@@ -12,7 +12,7 @@
 	},
 	x: -8.5d,
 	y: -3.0d,
-	description: "The real question is why did it get darker if we added steam to it?",
+	description: "真正的问题是，我们给它加了蒸汽，它的颜色为什么会变暗？",
 	dependencies: [
 		"54b7c3b0"
 	],

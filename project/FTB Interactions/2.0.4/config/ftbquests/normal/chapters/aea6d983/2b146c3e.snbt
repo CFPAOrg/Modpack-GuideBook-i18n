@@ -2,7 +2,7 @@
 	x: -1.0d,
 	y: -15.5d,
 	text: [
-		"The basic chicken coop. Here you can place up to 16 of the same type and strength of chicken to constantly produce their byproducts. "
+		"基础的鸡舍。在这里你可以放置多达16只相同类型和强度的鸡，源源不断地生产它们的蛋。"
 	],
 	dependencies: [
 		"0b123dfe"

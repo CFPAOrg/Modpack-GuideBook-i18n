@@ -1,7 +1,7 @@
 {
 	x: 8.0d,
 	y: -15.0d,
-	description: "Obtain Skystone from the Orbital Miner",
+	description: "通过轨道激光钻来获得陨石",
 	dependencies: [
 		"8d952225"
 	],

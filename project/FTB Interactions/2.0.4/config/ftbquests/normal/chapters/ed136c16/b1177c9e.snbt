@@ -1,7 +1,7 @@
 {
 	x: -3.5d,
 	y: -3.0d,
-	description: "Gettin' medieval.",
+	description: "坏松鼠:中世纪",
 	dependencies: [
 		"f3bb5a4a"
 	],

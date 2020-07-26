@@ -2,9 +2,9 @@
 	icon: "primal_tech:clay_kiln",
 	x: 0.0d,
 	y: 3.0d,
-	description: "This is your first furnace. Smelting things in it also give you experience, which could be useful for the next step.",
+	description: "这是你的第一个炉子。用它熔炼物品也会给你经验，这在接下来的步骤中可能很有用。",
 	text: [
-		"Smelting takes time, we suggest you make several kilns at the start."
+		"熔炼需要时间，我们建议你制作多个窑。"
 	],
 	dependencies: [
 		"29f7cca1"

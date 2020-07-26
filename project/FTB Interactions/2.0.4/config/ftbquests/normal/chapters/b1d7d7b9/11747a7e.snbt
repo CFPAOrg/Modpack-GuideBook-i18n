@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "b7e8dfe5",
 		type: "checkmark",
-		title: "Heavy Fuel",
+		title: "重燃料",
 		icon: {
 			id: "gregtech:meta_item_1",
 			tag: {

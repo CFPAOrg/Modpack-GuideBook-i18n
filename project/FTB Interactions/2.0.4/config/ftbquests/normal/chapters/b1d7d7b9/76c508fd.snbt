@@ -1,11 +1,11 @@
 {
-	title: "Crystallized Oil",
+	title: "晶化油",
 	x: -4.5d,
 	y: -3.0d,
 	shape: "rsquare",
-	description: "By mixing crude oil with the crystallized canola seeds a byproduct of refined light and heavy fuels can be creating, ultimately leading to a cheaper production of diesel fuel.",
+	description: "通过将石油与晶化油菜种子混合获得晶化油，晶化油可以蒸馏出出轻燃料和重燃料，使柴油生产更便宜。",
 	text: [
-		"This step is optional to increase yield, you can still directly refine your oil for lower yield. "
+		"此步骤是可选的，以提高产量，你仍然可以直接蒸馏，只是产量较低。 "
 	],
 	dependencies: [
 		"f99434e4",

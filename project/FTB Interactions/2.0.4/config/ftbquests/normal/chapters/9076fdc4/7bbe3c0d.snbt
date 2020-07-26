@@ -1,9 +1,9 @@
 {
-	title: "Power of the Stars",
+	title: "恒星威能",
 	icon: "lcrdrfs:creeper_plasma",
 	x: -7.0d,
 	y: -12.0d,
-	description: "The farts of stars can power hundreds of civilizations.",
+	description: "恒星不经意间放了个屁，数百个文明便摆脱了能源危机。",
 	tasks: [{
 		uid: "2b18e8ff",
 		type: "item",
@@ -26,7 +26,7 @@
 					Damage: 0
 				},
 				TrophyColorBlue: 255,
-				TrophyName: "Power of the Stars",
+				TrophyName: "恒星威能",
 				TrophyColorRed: 255
 			}
 		}

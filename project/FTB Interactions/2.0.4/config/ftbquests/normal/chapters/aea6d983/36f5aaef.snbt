@@ -2,8 +2,8 @@
 	x: -3.0d,
 	y: -12.0d,
 	text: [
-		"One of the most useless chickens. It produces tons of a material that you can turn into string..",
-		"Can also be looted form overworld dungeons."
+		"最没用的鸡之一。它产生大量可以被你拿去做成线的原料...",
+		"也可以在主世界的地牢中找到。"
 	],
 	dependencies: [
 		"bad8af80",

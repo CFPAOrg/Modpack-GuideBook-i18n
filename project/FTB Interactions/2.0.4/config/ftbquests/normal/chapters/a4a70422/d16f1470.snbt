@@ -1,7 +1,7 @@
 {
 	x: -20.0d,
 	y: -4.5d,
-	description: "These powerful item collectors can be found in dungeons or crafted with an expensive recipe. ",
+	description: "这个强大的物品收集器可以在地牢箱子中找到或者用略微昂贵的配方合成。 ",
 	dependencies: [
 		"a058147f"
 	],

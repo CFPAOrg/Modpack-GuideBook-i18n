@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: 5.0d,
-	description: "stores 63 types of fluids, max size",
+	description: "存储63种液体，不能更大了。",
 	dependencies: [
 		"1e84b1e0"
 	],

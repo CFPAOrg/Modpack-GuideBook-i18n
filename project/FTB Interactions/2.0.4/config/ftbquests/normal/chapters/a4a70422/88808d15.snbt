@@ -2,8 +2,8 @@
 	x: -17.0d,
 	y: -2.0d,
 	text: [
-		"Perhaps one of the most useful blocks in the mod, the block gate is capable of both mining and placing blocks. It can do this very quickly as well. This is perfect for starlight transmutation setups as it will instantly mine the block when it changes",
-		"and replace it with a new block. It is important to use blacklisting of the original and transformed block because if the blockgate cannot place a block it will still attempt to do so if your rules allow it, resulting in it throwing items around."
+		"也许是这个模组里最有用的方块之一，方块交互器既可以采掘也可以放置方块，并且它能很快地完成。这是完美的用于星辉转化的设备，因为它在转化完成时将会立即采掘掉对应的方块，",
+		"并用一个新方块替换它。 必须在黑名单里列上原始和转化后的方块，因为如果方块交互器不能再放置一个方块，而你的规则仍然允许这样做，它就仍会试图放置方块。 这将导致它四处扔出物品。"
 	],
 	dependencies: [
 		"877f5f61"

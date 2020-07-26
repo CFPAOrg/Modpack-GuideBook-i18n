@@ -1,8 +1,8 @@
 {
-	title: "Keep your ion this.",
+	title: "离子与青鸟",
 	x: -6.0d,
 	y: 2.0d,
-	description: "Chemically decomposes substances using an electric current. Whatever that means. Stuff goes in, power goes in, stuff you want and don't want comes out. Once you hit MV, it makes getting certain dusts like aluminium much easier.",
+	description: "利用电流对物质进行化学分解。不用管这是什么意思。东西扔进去，电力输进去，你想要的和不想要的东西就都出来了。当你进入了了MV时代，它可以让你获得某些粉末变得容易的多，比如铝。",
 	hide_dependency_lines: true,
 	dependencies: [
 		"ace65682"

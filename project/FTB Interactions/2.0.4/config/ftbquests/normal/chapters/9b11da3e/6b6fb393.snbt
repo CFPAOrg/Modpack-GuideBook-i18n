@@ -1,8 +1,8 @@
 {
-	title: "Redstone and Ignis Vein",
+	title: "红石和火之蕴魔矿脉",
 	x: -7.0d,
 	y: -6.0d,
-	description: "Redstone Veins with Ignis Infused and higher ruby concentrations spawn in hot and dry biomes.",
+	description: "有火之蕴魔矿石和更多红宝石的红石矿脉生成在炎热和干燥的生物群系",
 	dependencies: [
 		"4d7d97ed"
 	],

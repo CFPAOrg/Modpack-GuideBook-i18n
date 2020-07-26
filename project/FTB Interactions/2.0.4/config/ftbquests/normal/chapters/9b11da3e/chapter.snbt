@@ -1,8 +1,8 @@
 {
-	title: "The Less Safe Space",
+	title: "不太安全的空间",
 	icon: "minecraft:grass",
 	description: [
-		"Overworld biome and ore guide"
+		"主世界生物群系和矿物生成"
 	],
 	always_invisible: false,
 	group: 1865916608,

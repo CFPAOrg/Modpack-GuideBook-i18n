@@ -3,9 +3,9 @@
 	y: -1.0d,
 	shape: "rsquare",
 	text: [
-		"The advanced crying obsidian can allow you to bind an entity to it with the crying obsidian item by attacking a creature with it & then linking it to the advanced crying obsidian block. Creatures bound in this way will be resurrected when they die. ",
+		"你可以使用便携式哭泣的黑曜石将实体绑定高级哭泣的黑曜石。首先用便携式哭泣的黑曜石攻击实体然后将其链结到高级哭泣的黑曜石。如此绑定的生物将会在死亡后复活。 ",
 		"",
-		"Useful for keeping your pets safe in this dangerous world. "
+		"在这个危险的世界里可以保障你宠物的安全。 "
 	],
 	tasks: [{
 		uid: "ba03871d",

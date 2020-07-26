@@ -1,10 +1,10 @@
 {
-	title: "Balanced Electrolysis",
+	title: "平衡的电解",
 	x: 0.0d,
 	y: 0.0d,
-	description: "Once you get into MV, you have a greater variety of dust materials you can electrolyze into aluminium. We prefer clay because its balanced.",
+	description: "一旦你进入了MV，你就可以电解许多粉末来获得铝粉，建议使用粘土，因为它被平衡过了。",
 	text: [
-		"Electrolyzing clay will also provide important byproducts such as silicon, and clay can be made renewable by several methods. Its worth setting this up early. "
+		"电解粘土可以提供相当重要的副产物，比如硅，而且粘土可以用很多方法制造。它值得你尽早的开始这道工序。"
 	],
 	dependencies: [
 		"aa9e39d7"

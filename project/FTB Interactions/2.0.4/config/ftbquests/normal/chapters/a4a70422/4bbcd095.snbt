@@ -1,11 +1,11 @@
 {
-	title: "Machine doing the work for you",
+	title: "机器正在为你工作",
 	x: -4.0d,
 	y: 3.5d,
 	text: [
-		"Finally, you need a crafting coprocessor to actually do the crafting.",
+		"最终，你需要一个合成存储器来真正地进行合成。",
 		"  ",
-		"The multiblock must be of cuboid shape and needs at least one crafting coprocessing unit and at least one crafting storage unit. It can be connected to your ME system from any block."
+		"多方块必须是长方体的形状，并且至少拥有一个并行处理单元和一个合成储存器。这个多方块可以从任意一个方块连接到ME网络。"
 	],
 	dependencies: [
 		"995e98b6"

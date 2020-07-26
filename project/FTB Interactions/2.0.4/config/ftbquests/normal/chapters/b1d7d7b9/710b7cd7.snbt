@@ -2,7 +2,7 @@
 	title: "Are you Gellin?",
 	x: 1.5d,
 	y: -3.0d,
-	description: "The fluid solidfier and mold will allow you solidify specific fluids into useful item byproducts.",
+	description: "流体固化器和模具可以让你把液体固化成一些有用的物品。",
 	dependencies: [
 		"4c03fcd9"
 	],

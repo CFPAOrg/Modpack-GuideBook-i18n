@@ -1,10 +1,10 @@
 {
-	title: "Digital Extraction",
+	title: "数字型采集",
 	x: -1.5d,
 	y: -1.0d,
 	shape: "diamond",
 	text: [
-		"The digital miner consumes a lot of power but can pin point extract specific ores for you. Its more environmentally friendly than a traditional quarry by not leaving gaping world holes. "
+		"数字采矿机消耗很多电，但可以为你采集特定矿石。 比传统的采石场更加地环境友好，不会留下光年大洞。"
 	],
 	dependencies: [
 		"d94602f8",

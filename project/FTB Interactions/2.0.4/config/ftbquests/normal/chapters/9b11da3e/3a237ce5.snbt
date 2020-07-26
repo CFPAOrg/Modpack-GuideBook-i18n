@@ -1,9 +1,9 @@
 {
-	title: "Olivine and Terra Veins",
+	title: "橄榄石与地之蕴魔矿脉",
 	icon: "gregtech:ore_terra_infused_0",
 	x: -7.0d,
 	y: -8.0d,
-	description: "Spawns in forested areas, jungles, and in magical forests.",
+	description: "在森林地区，丛林，魔法森林均会生成",
 	dependencies: [
 		"72df0f6c"
 	],

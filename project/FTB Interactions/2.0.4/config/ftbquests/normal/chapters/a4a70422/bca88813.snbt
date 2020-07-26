@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: 2.0d,
-	description: "stores 63 types of fluids",
+	description: "储存63种液体",
 	dependencies: [
 		"39d33b3e"
 	],

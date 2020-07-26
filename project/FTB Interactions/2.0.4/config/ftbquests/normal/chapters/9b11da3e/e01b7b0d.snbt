@@ -1,8 +1,8 @@
 {
-	title: "Magnetite Vein",
+	title: "磁铁矿脉",
 	x: -9.0d,
 	y: -3.0d,
-	description: "Spawns in all biomes, but jungle veins have higher concentrations of gold.",
+	description: "在所有生物群系生成，但是在丛林中的矿脉会聚集更多的金。",
 	dependencies: [
 		"8f691326"
 	],

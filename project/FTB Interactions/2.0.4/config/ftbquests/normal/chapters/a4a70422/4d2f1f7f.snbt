@@ -2,7 +2,7 @@
 	x: -18.5d,
 	y: 5.0d,
 	text: [
-		"items, fluids and power wireless and across dimensions.. what more would you want? A cookie!"
+		"物品、流体和电力，无线且跨维度。你还想要些什么？一个曲奇饼干！"
 	],
 	tasks: [{
 		uid: "c49ab3d4",

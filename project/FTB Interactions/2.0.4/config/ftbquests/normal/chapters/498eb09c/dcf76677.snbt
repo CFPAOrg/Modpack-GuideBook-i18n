@@ -3,7 +3,7 @@
 	x: -12.0d,
 	y: 0.0d,
 	text: [
-		"The MV+ tier mixers will enable several new chemical recipes inlcuding a new way to refine oil to more than double the yield of oil by enriching it with canola."
+		"MV+阶段的搅拌机将解锁几种新的化学配方，包括一种新的提炼石油的方法：通过浸出油菜籽中的成分使其产出效率提高两倍以上。"
 	],
 	tasks: [{
 		uid: "3b8f74fb",

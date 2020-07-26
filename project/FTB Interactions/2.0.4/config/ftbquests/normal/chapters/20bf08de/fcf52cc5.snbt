@@ -2,8 +2,8 @@
 	x: -11.0d,
 	y: -10.0d,
 	text: [
-		"Provides water slowly to any adjacent tank.",
-		"Can be and probably should be turned into a Aqueous Accumulator."
+		"向贴着的储罐缓慢输出水。",
+		"也是时候该换用蓄水器了。"
 	],
 	dependencies: [
 		"8eac9d15"

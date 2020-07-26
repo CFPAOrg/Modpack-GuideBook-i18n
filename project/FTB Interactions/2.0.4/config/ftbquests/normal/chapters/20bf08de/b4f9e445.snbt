@@ -1,11 +1,11 @@
 {
-	title: "Infuse This.",
+	title: "注魔",
 	icon: "thaumcraft:infusion_matrix",
 	x: -13.0d,
 	y: -11.0d,
 	shape: "circle",
 	text: [
-		"This quest unlocks the infusion research."
+		"此任务解锁注魔研究。"
 	],
 	can_repeat: true,
 	dependencies: [

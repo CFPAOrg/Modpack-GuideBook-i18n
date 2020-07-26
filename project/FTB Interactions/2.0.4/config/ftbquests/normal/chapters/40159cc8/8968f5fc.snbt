@@ -1,10 +1,10 @@
 {
-	title: "Starmetal Veins",
+	title: "星辉矿脉",
 	x: -3.0d,
 	y: -11.0d,
-	description: "The only way this vein get could more blue is if it had Gregtech sodium blocks.",
+	description: "只有拥有格雷钠块才能让它变得更蓝。",
 	text: [
-		"The aluminum in this vein is unique in that it can be directly processed in an infernal furnce, bypassing the need for a blast furnace."
+		"这个矿脉中的铝是很特殊的，它能直接在炼狱熔炉里被加工，而不需要高炉。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

@@ -1,11 +1,11 @@
 {
-	title: "logs not in short supply",
+	title: "原木不再短缺",
 	x: -9.5d,
 	y: -5.5d,
 	text: [
-		"The cornerstone of ANY starter power option, you want logs and lots of them. Make sure they are close",
+		"任何初始能源的基石，你需要原木和大量的原木。别把它放的太远",
 		"",
-		"IMPORTANT: Needs access to the sky. Make sure your trees do not grow over top of the beacon as they will obscure the starlight and cause it to run much slower."
+		"重要：上方不要有阻挡。 请确保你的树木不会在烽火树顶部生长，因为它们会令星能减弱并使其运行速度变慢。"
 	],
 	dependencies: [
 		"51878972"

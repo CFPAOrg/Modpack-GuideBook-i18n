@@ -1,9 +1,9 @@
 {
-	title: "To the beat of a different drum",
+	title: "不是鼓，是桶",
 	icon: "gregtech:machine 1 2196",
 	x: -4.0d,
 	y: -6.0d,
-	description: "Bronze drums are a nice early game storage options for spot storing fluids",
+	description: "青铜桶是游戏早期很好的存储液体的选择。",
 	dependencies: [
 		"558bc2e1"
 	],

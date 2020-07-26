@@ -1,8 +1,8 @@
 {
-	title: "\"Relax, give him some space.\" -3rd Dimension",
+	title: "“放松点，给他一点空间”-第3维度",
 	x: -1.0d,
 	y: 3.0d,
-	description: "This ore spawns in single block veins throughout the Nether.",
+	description: "这矿物在下界中以单个方块生成。",
 	dependencies: [
 		"f92a387e"
 	],

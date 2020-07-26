@@ -1,7 +1,7 @@
 {
 	x: -1.5d,
 	y: -3.0d,
-	description: "Each hell infused bookshelf has double the enchanting power of normal bookshelves and are needed to go beyond enchantment levels of 50 (up to 150).",
+	description: "每个地狱灌注书架都有普通书架两倍的附魔等级，用于超过50级（最高150）的附魔。",
 	dependencies: [
 		"bcc51b66"
 	],

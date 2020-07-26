@@ -1,10 +1,10 @@
 {
 	x: -19.0d,
 	y: 4.0d,
-	description: "Diamonds not included.",
+	description: "钻石不包括在内。",
 	text: [
-		"Like the vanilla enderchest only with channels, lock it with a diamond on the latch.",
-		"(You can also pipe in/out of this one)"
+		"和原版末影箱子一样，只是拥有频道而已。在插销上用钻石锁住它。",
+		"（你也可以使用管道对其进行输入输出）"
 	],
 	tasks: [{
 		uid: "a89f0396",

@@ -3,7 +3,7 @@
 	y: -0.5d,
 	shape: "diamond",
 	text: [
-		"This Diesel can be used directly in a diesel generator or power a boiler, the choice is all yours."
+		"这种柴油可以直接用在柴油发电机中，或者作为燃料驱动锅炉，怎么做随你。"
 	],
 	dependencies: [
 		"9387a9b3",
@@ -18,7 +18,7 @@
 	tasks: [{
 		uid: "bf92a8a6",
 		type: "checkmark",
-		title: "Congratz on automating Diesel fuel!"
+		title: "恭喜你成功实现了柴油的自动化生产！"
 	}],
 	rewards: [{
 		uid: "886e10a5",

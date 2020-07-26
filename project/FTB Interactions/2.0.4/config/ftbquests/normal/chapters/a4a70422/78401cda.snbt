@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: 5.0d,
-	description: "stores 63 types of items, max size.",
+	description: "存储63种物品，不能更大了。",
 	dependencies: [
 		"ac6cf1f2"
 	],

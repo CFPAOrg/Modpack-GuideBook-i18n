@@ -2,7 +2,7 @@
 	x: 8.0d,
 	y: -11.0d,
 	text: [
-		"A primary constituent of some higher end alloys, it is found in abundance on Aurellia."
+		"这是一些较高端合金的主要成分，可以在富含它的Aurellia行星中找到。"
 	],
 	dependencies: [
 		"97e0a29a"

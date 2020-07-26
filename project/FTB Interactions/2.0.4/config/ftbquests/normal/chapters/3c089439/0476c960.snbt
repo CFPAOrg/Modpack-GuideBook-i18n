@@ -1,9 +1,9 @@
 {
-	title: "Small indium game dev company",
+	title: "小型铟度游戏开发公司",
 	x: 1.0d,
 	y: 1.5d,
 	text: [
-		"Now that you've got indium you can make indium gallium phosphate for better circuits, you can also create the evil tier you'll need to activate the artificial end portal. "
+		"既然你已经得到了铟，你便能制造磷化铟镓用于更好的电路。你也可以制造恶魔之泪以激活人工末地传送门。 "
 	],
 	dependencies: [
 		"5c01e42a",

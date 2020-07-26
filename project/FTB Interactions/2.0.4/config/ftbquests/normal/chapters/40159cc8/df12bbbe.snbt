@@ -1,9 +1,9 @@
 {
-	title: "Dont get Lost in Space.",
+	title: "不要在太空中迷路。",
 	icon: "advancedrocketry:guidancecomputer",
 	x: -1.5d,
 	y: -17.0d,
-	description: "The guidance computer is essential for every rocket, it is where you will insert your destination ID telling the rocket where it should fly.",
+	description: "导航电脑对每个火箭都至关重要，向其中插入你的目的地ID芯片，告诉火箭它应该飞向哪里。",
 	dependencies: [
 		"05f17487"
 	],

@@ -2,7 +2,7 @@
 	x: -2.0d,
 	y: -14.0d,
 	text: [
-		"Want to spice things up, or some of those spices can be hard to find and farm.. here is your way to automate those."
+		"想给食物加点香料，或者有些香料很难寻找和种植...那么这就是你实现自动化的方法了。"
 	],
 	tasks: [{
 		uid: "9e66f6b9",

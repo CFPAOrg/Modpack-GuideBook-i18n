@@ -1,7 +1,7 @@
 {
 	x: -3.0d,
 	y: -9.0d,
-	description: "I mean you could just use this, instead of a visually interesting mana setup...",
+	description: "我是说你只要用这个池子就完事了，不需要那些……眼花缭乱的产魔装置。",
 	tasks: [{
 		uid: "e18abbe0",
 		type: "item",

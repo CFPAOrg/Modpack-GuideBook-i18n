@@ -1,9 +1,9 @@
 {
-	title: "Empowering, doesn't that sound promissing.",
+	title: "充能，这听起来不靠谱吗？",
 	x: -10.5d,
 	y: 3.5d,
 	text: [
-		"In a HV chemical reactor you can combine the best of both worlds from the stars to rock bottom into your canola."
+		"在进阶化学反应釜II中，你可以将来自星空和地底的精华混合进你的油菜种子。"
 	],
 	dependencies: [
 		"81146e1b"

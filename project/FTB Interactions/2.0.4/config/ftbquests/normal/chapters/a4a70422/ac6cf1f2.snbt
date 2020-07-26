@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: 4.0d,
-	description: "stores 63 types of items, invest 3 get 4x the storage.",
+	description: "存储63种物品，用3个可以换4倍的容量。",
 	dependencies: [
 		"1645b4b1"
 	],

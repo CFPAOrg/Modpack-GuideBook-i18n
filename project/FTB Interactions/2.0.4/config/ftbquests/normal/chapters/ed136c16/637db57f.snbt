@@ -1,10 +1,10 @@
 {
-	title: "This was a Triumph",
+	title: "这是一场胜利",
 	x: -5.0d,
 	y: 1.0d,
-	description: "The Device is now more valuable than the organs and combined incomes of everyone in {subject hometown here}.",
+	description: "在整合包的家乡，该设备现在比每个人的器官和综合收入更有价值。",
 	text: [
-		"These can be found in dungeons or crafted"
+		"可以在地牢中被找到，也可以制作出来"
 	],
 	tasks: [{
 		uid: "8a20ad0d",

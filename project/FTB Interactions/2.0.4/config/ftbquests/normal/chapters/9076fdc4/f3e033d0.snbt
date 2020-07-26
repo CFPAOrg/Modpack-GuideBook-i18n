@@ -1,7 +1,7 @@
 {
 	x: -6.0d,
 	y: -14.0d,
-	description: "Pour water on it, what could go wrong?",
+	description: "加点水上去，又不会出什么问题，对吧？",
 	tasks: [{
 		uid: "9693a131",
 		type: "item",

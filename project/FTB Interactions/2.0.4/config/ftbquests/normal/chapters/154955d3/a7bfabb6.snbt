@@ -1,5 +1,5 @@
 {
-	title: "FTB Interactions Issue Tracker",
+	title: "FTB Interactions问题反馈",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}

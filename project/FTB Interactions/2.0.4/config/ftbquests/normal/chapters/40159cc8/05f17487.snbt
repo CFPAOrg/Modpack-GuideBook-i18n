@@ -1,9 +1,9 @@
 {
-	title: "Precisely!",
+	title: "精确！",
 	icon: "advancedrocketry:precisionassemblingmachine",
 	x: -3.0d,
 	y: -20.0d,
-	description: "The precision assembler is used to create some specialized components that require a vacuum sealed compartement and robotic assembly. This will create key ingredients to many of the Advanced Rocketry machinery.",
+	description: "精确组装机用于制作一些需要真空密封和机器人装配的专门组件。它将为许多高级火箭机械制造关键组件。",
 	dependencies: [
 		"8fe82d61"
 	],
@@ -25,7 +25,7 @@
 	{
 		uid: "cf4f03d3",
 		type: "item",
-		title: "2x Coil",
+		title: "2x 线圈",
 		items: [{
 			item: "libvulpes:coil0 1 4"
 		},
@@ -54,7 +54,7 @@
 	{
 		uid: "2d66f69b",
 		type: "item",
-		title: "7x Hatches or Machine Frames",
+		title: "7x 输入输出口或机器结构方块",
 		items: [{
 			item: "libvulpes:hatch"
 		},
@@ -78,7 +78,7 @@
 	{
 		uid: "a52ff6c8",
 		type: "item",
-		title: "2x Motor",
+		title: "2x 马达",
 		items: [{
 			item: "libvulpes:motor"
 		},

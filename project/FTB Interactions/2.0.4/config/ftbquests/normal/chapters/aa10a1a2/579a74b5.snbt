@@ -1,9 +1,9 @@
 {
-	title: "Almost there!",
+	title: "快好了！",
 	x: -10.5d,
 	y: 0.0d,
 	text: [
-		"mixing oil with those crystallized seeds turns out to be something thats close to a liquid that can burn for power."
+		"将石油与这些晶化种子混合在一起，可以得到一种近似液体的东西，可以燃烧来发电。"
 	],
 	dependencies: [
 		"9063ed56"

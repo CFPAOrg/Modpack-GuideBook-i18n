@@ -1,10 +1,10 @@
 {
-	title: "Upgrade your tartaric powers",
+	title: "提升魂石的能量",
 	x: -1.0d,
 	y: 1.5d,
 	text: [
-		"WILL, The source with which you can forge from hell itself. You got a petty one from us, you might want to upgrade to something that holds a bit more.",
-		"This sword will let you collect will in your tartaric gems and gets stronger the more will you collect."
+		"意志，是允许你在狱火中进行熔炼的本源。 你从我们这得到了一块[微小]地狱魂石，估计你会想要把它升级成拥有更多的容量的某种东西。",
+		"感知の剑可以让你收集意志进入你的地狱魂石，你收集的越多，你就能变得越强。"
 	],
 	dependencies: [
 		"10103324"

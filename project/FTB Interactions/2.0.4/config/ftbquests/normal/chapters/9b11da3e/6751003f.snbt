@@ -1,8 +1,8 @@
 {
-	title: "Copper-Gem Vein",
+	title: "铜-宝石矿脉",
 	x: -9.0d,
 	y: -7.0d,
-	description: "Spawns in all biomes, except jungles.",
+	description: "除丛林外，其他生物群系都会生成",
 	dependencies: [
 		"7853c674"
 	],

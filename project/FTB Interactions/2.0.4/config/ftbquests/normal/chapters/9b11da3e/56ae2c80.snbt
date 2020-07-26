@@ -1,8 +1,8 @@
 {
-	title: "Diamond Vein",
+	title: "钻石矿脉",
 	x: -9.0d,
 	y: -6.0d,
-	description: "Spawns in all biomes with some scarcity. However Crystal Forests are known to have grown from plentiful diamond deposits in the ground.",
+	description: "在所有生物群系生成，较为稀缺，但据称水晶森林是从大量沉积的钻石矿中生长出来的。",
 	dependencies: [
 		"ba48dccf"
 	],

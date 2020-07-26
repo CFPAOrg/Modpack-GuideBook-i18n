@@ -2,8 +2,8 @@
 	x: -8.0d,
 	y: -8.0d,
 	text: [
-		"A liquid container used to transport and store diverse fluids, that can be stacked. When held in the hotbar, Right-clicking on a liquid will collect it.",
-		"You're gonna need a bunch of these."
+		"一个用于运输和储存多种液体的液体容器，可以堆叠。当拿在快捷栏中时，右键点击液体会收集它。",
+		"你会需要不少。"
 	],
 	tasks: [{
 		uid: "102e1864",

@@ -1,8 +1,8 @@
 {
-	title: "Iron Vein",
+	title: "铁矿脉",
 	x: -9.0d,
 	y: -4.0d,
-	description: "Spawns in all biomes, but jungles have higher sources of iron and nickel.",
+	description: "在所有的生物群系生成，但在丛林会生成更多的铁矿和镍矿",
 	dependencies: [
 		"bd71831a"
 	],

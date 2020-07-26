@@ -1,8 +1,8 @@
 {
-	title: "Emerald and Aer-Infused Vein",
+	title: "绿宝石和风之蕴魔矿脉",
 	x: -7.0d,
 	y: -10.0d,
-	description: "Spawns in biomes where the world's compressive forces have formed mountains and hills, whether it's in a jungle, desert, cliffs, or extreme hills.",
+	description: "生成在板块挤压形成的高山上，不管是那里是丛林还是沙漠，悬崖还是山脉。",
 	dependencies: [
 		"328a5a5d"
 	],

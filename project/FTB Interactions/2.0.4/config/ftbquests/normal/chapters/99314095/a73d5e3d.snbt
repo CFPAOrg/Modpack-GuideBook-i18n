@@ -1,11 +1,11 @@
 {
-	title: "I'm bulletproof, nothing to lose, fire away, fire away",
+	title: "I'm bulletproof，nothing to lose，fire away，fire away",
 	x: -9.0d,
 	y: 6.0d,
 	shape: "square",
-	description: "The main ingot used for EV-tiered crafting,",
+	description: "EV等级的合成主要用到的锭，",
 	text: [
-		"Nice work! You're on fire now. No really, hot ingots burn you, STOP DROP AND ROLL FRIEND."
+		"干的好！你现在着火了。不是真的着火了，是热的锭烫伤了你。停下，扔掉，原地打滚。"
 	],
 	dependencies: [
 		"cd295b50",

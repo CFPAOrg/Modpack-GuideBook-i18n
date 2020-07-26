@@ -1,7 +1,7 @@
 {
 	x: -12.0d,
 	y: -11.0d,
-	description: "The rare ore upgrade scanner is required to find nearly all GT ores. ",
+	description: "罕见矿石扫描仪能够找到几乎所有的格雷矿石。 ",
 	dependencies: [
 		"70a2cc40"
 	],

@@ -1,9 +1,9 @@
 {
-	title: "Diluted Dreams",
+	title: "被稀释的梦",
 	x: 4.0d,
 	y: -0.5d,
 	shape: "square",
-	description: "Created a diluted mana pool to get started.",
+	description: "建造一个稀释魔力池以开始植物魔法的旅程。",
 	dependencies: [
 		"b1dded11"
 	],

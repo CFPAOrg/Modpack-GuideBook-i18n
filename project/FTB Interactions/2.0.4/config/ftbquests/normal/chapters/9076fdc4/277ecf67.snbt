@@ -2,7 +2,7 @@
 	icon: "gtadditions:ga_meta_item 1 32018",
 	x: 0.0d,
 	y: -8.0d,
-	description: "A machine that uses living minds to work? They should make a movie about this.",
+	description: "靠生灵的意志驱动的机器？应该找些人来拍成电影。",
 	tasks: [{
 		uid: "1c208e62",
 		type: "item",

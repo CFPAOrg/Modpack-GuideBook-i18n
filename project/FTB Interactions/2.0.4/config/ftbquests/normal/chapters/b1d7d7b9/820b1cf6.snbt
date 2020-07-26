@@ -1,11 +1,11 @@
 {
-	title: "Gettin' Salty",
+	title: "变咸！",
 	x: -10.5d,
 	y: -9.0d,
 	shape: "diamond",
-	description: "Aquaman needs your help to restore the world's salt levels.",
+	description: "海王需要你的帮助来恢复世界的盐分水平。",
 	text: [
-		"The start of a processing chains that leads to producing fire and frost salts from Thermal Expansion as well as Lithium.",
+		"一个生产线的开始，包括生产锂和热力膨胀的凛冰粉和赤焱粉。",
 		""
 	],
 	tasks: [{

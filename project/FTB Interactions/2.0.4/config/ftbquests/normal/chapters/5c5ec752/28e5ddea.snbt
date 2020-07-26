@@ -1,12 +1,12 @@
 {
-	title: "The Infernal Research",
+	title: "炼狱研究",
 	icon: "minecraft:obsidian",
 	x: 1.5d,
 	y: 1.0d,
 	shape: "diamond",
-	description: "To get started in LV and creating more advanced metals.",
+	description: "进入LV阶段并制造更高级的金属。",
 	text: [
-		"Completing this quest will grant you the research required to construct the infernal furnace. This is the road to steel and LV machines."
+		"这个任务的奖励会为你解锁建造炼狱熔炉所需的研究。这是通往钢铁和LV机器的必经之路。"
 	],
 	dependencies: [
 		"669a0a29"

@@ -2,7 +2,7 @@
 	x: 2.0d,
 	y: -14.0d,
 	text: [
-		"This useful chicken can have its eggs smelted directly to dry rubber for producing industrial forgoing parts, convyors and addons or smelted along with sulfur to produce rubber as an alternative to resin or raw rubber pulp."
+		"这种有用的鸡下的蛋可以直接被烧制成干橡胶，可用于制造工业先锋(Industrial Forgoing)的部件、转运器或升级，也可以替代树脂或生橡胶浆，与硫一起反应成生橡胶。"
 	],
 	dependencies: [
 		"bad8af80",

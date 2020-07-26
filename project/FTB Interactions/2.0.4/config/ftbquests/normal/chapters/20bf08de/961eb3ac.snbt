@@ -1,5 +1,5 @@
 {
-	title: "I HATE RESEARCH.",
+	title: "我讨厌研究。",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -11,8 +11,8 @@
 	y: -12.0d,
 	shape: "gear",
 	text: [
-		"This quest wheel is entirely optional, for those that are having trouble progressing in thaumcraft you can grab key essential researches from this area without progressing the mod normally. Not recommended, but it's here if you like.",
-		"If you simply want quest progression you can come check these off once you've manually done the research should you so desire."
+		"以下的任务是完全可选的，此任务存在的目的只是为了让那些对神秘时代研究有困难的人在不正常研究神秘的前提下能获取某些必要研究。不推荐，爱用用。",
+		"如果你只是想要推进任务的进度，你可以手动完成研究后再来完成任务。"
 	],
 	dependencies: [
 		"bcf33fda"

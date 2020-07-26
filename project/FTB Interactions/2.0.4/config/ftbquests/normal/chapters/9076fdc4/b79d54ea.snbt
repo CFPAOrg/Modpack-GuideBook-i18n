@@ -1,7 +1,7 @@
 {
 	x: -14.0d,
 	y: -9.0d,
-	description: "Astral sorcery stuff suddenly runs pretty quick huh?",
+	description: "星辉魔法的东西突然就快了起来不是吗？",
 	tasks: [{
 		uid: "c78da9c7",
 		type: "item",

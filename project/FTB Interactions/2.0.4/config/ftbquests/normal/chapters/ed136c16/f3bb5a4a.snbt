@@ -2,7 +2,7 @@
 	x: -5.0d,
 	y: -3.0d,
 	shape: "square",
-	description: "At least it's not your skin being torn anymore.",
+	description: "至少，你的皮肤不会再被撕裂了",
 	tasks: [{
 		uid: "fcae326c",
 		type: "item",

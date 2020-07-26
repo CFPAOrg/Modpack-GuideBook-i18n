@@ -1,9 +1,9 @@
 {
-	title: "Photofission Nuclear Chamber",
+	title: "光核裂变反应堆",
 	x: 4.0d,
 	y: -9.0d,
 	text: [
-		"This blueprint can be found in the dungeons on Euclydes and later craftable. It will provide massive amounts of steam capable of generating LuV tier power in turbines when provided with proccessed uranium fuels."
+		"蓝图可以在Euclydes的地牢中找到，之后可以被制作出来。当你为它提供加工过的铀燃料，它可以提供给你大量的蒸汽，这些蒸汽能够在涡轮机内产生LuV等级的能量。"
 	],
 	dependencies: [
 		"da0cc52f"

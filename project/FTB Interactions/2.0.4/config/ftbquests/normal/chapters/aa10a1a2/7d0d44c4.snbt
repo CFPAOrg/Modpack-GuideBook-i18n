@@ -1,9 +1,9 @@
 {
-	title: "Time to upgrade your EBF to HV power",
+	title: "是时候将你的电力高炉升级到HV级别了",
 	x: -10.5d,
 	y: 4.5d,
 	text: [
-		"HV power you EBF to make the materials you need to progress into HV"
+		"升级至HV级电力高炉，使你可以在HV阶段发展中制造需求的材料。"
 	],
 	dependencies: [
 		"81146e1b"

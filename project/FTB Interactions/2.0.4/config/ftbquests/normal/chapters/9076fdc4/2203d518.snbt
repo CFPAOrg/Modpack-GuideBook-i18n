@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: -5.0d,
-	description: "All this talk of mills and yet theres no grinding involved?",
+	description: "说了这么多，这些GP发电机还是没发过一RF的电。",
 	tasks: [{
 		uid: "3588b32f",
 		type: "item",

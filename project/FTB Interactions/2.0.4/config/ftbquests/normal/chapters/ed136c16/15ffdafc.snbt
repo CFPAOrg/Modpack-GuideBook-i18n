@@ -2,7 +2,7 @@
 	x: -4.0d,
 	y: -1.0d,
 	text: [
-		"A fluxbore (also known as a drill) is a tool that mines blocks using Redstone Flux. It functions as both a pickaxe and a shovel."
+		"通量电钻是用红石通量（RF）工作的挖矿工具。它同时具备镐和铲的功能。"
 	],
 	dependencies: [
 		"c193d3a6"

@@ -2,7 +2,7 @@
 	x: -1.0d,
 	y: -1.0d,
 	text: [
-		"Machines need to be inside something, this hull will do for most of them."
+		"机器需要放在某些东西里面，这个壳体满足大多数机器的需求。"
 	],
 	dependencies: [
 		"e48023fb",

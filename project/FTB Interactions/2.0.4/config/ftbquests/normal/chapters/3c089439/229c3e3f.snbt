@@ -1,9 +1,9 @@
 {
-	title: "Concentrate Indi",
+	title: "富集铟",
 	x: 1.0d,
 	y: 0.0d,
 	text: [
-		"Indium concentrate is combined with aluminium dust to make tiny piles of indium dust to use in circuit fabrication. You'll need a bit of this to tier up your circuit processing."
+		"铟富集溶液与铝粉混合，制成小撮铟粉，用于电路元件制造。你需要一点点铟来升级你的电路制造过程。"
 	],
 	dependencies: [
 		"468e3e2d"
@@ -19,7 +19,7 @@
 	{
 		uid: "b93e8e44",
 		type: "checkmark",
-		title: "Indium Concetrate"
+		title: "铟富集溶液"
 	}],
 	rewards: [{
 		uid: "e94d8830",

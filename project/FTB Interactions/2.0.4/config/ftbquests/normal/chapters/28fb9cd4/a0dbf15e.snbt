@@ -2,8 +2,8 @@
 	x: -1.5d,
 	y: 6.0d,
 	text: [
-		"The stellar refraction table can focus starlight into an enchantment energy that can even exceed the normal limits of enchanting. Things like looting 5+ sharpeness 6+ are more! Be careful not to burn your paper. You can also enchant potions and armor",
-		"by using the enchantments you imprint on specialized glass."
+		"群星映射台可以聚焦星能，将其变成附魔的能量。它能超过原版的附魔限制，比如抢夺5锋利6甚至更多！小心不要烧了你的羊皮纸。你也可以用它制作更高级附魔的药水和盔甲",
+		"使用附魔要将其刻在特殊的玻璃上。"
 	],
 	dependencies: [
 		"b46714b7"

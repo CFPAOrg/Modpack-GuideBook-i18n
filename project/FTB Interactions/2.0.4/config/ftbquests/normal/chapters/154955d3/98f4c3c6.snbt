@@ -1,5 +1,5 @@
 {
-	title: "The World is Your Table",
+	title: "一桌一世界",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -53,9 +53,9 @@
 	},
 	x: 0.0d,
 	y: -1.0d,
-	description: "Grab some Gravel from your EMC table, make flint for a Tinkers flint axe head and combine it with a stone stick in your 2x2 crafting grid.",
+	description: "从转换桌上拿一些砂砾，用燧石做一个燧石斧刃，然后在2x2合成栏中与一根石棍组合起来。",
 	text: [
-		"Note: You can not repair these tools yet, but the void will happily take it as a sacrifice"
+		"注意：你目前无法修复这些工具，但是虚空会很开心把它当做祭品。"
 	],
 	dependencies: [
 		"7295ef69"

@@ -1,8 +1,8 @@
 {
-	title: "The back of this bag is ridiculous.",
+	title: "这包的背面太荒谬了",
 	x: -3.5d,
 	y: -6.0d,
-	description: "With 50% more excess than its predecessor. If you're still filling up your inventory, you're either doing something wrong or something incredibly right.",
+	description: "超过其前身50%以上的容量。如果你仍在填满你的物品栏，要么你做错了什么，要么你做得令人难以置信地正确。",
 	dependencies: [
 		"e9a328ca"
 	],

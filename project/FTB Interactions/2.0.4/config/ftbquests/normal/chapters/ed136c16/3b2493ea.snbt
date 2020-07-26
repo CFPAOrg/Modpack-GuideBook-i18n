@@ -2,7 +2,7 @@
 	x: -9.0d,
 	y: -6.0d,
 	text: [
-		"Along with some insane durability, a hammer from this head comes with some nice enchantment build in!"
+		"除了惊人的耐久度，用这种材料制作的锤子还能提供一些相当不错的附魔！"
 	],
 	dependencies: [
 		"7fd67826",

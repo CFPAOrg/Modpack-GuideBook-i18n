@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: 2.0d,
 	shape: "rsquare",
-	description: "To make your base prettier.",
+	description: "让你的基地更好看。",
 	dependencies: [
 		"009703b7"
 	],

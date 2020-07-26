@@ -2,7 +2,7 @@
 	x: -8.0d,
 	y: 4.5d,
 	text: [
-		"Volumetric filler lets you craft any size flask of any fluid type stored as long as you have the correct size flasks in your system."
+		"量瓶填充器能够合成任何容量的装有液体的量瓶，只需要你的系统中有正确容量的量瓶。"
 	],
 	dependencies: [
 		"f18ebd20"

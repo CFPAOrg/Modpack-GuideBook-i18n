@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: 5.0d,
 	text: [
-		"Crafting the celestial altar will unlock many mid tier to advanced recipes. These recipes are particularly useful for self empowerment and mid game magic utilities. You will also have access to crafting a new tier of celestial papers."
+		"天辉祭坛将解锁许多高级配方。 这些配方可以让你更好地武装你自己，并且可以制作游戏中期的魔法道具。你也将能够制作更高等级的星图。"
 	],
 	dependencies: [
 		"1d37b267"

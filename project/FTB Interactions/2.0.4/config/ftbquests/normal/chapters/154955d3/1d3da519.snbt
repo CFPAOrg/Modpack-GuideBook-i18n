@@ -1,9 +1,9 @@
 {
-	title: "fomdog melter",
+	title: "但不吃这个冶炼炉",
 	x: -5.0d,
 	y: 10.0d,
 	text: [
-		"This is not strictly needed to make it to overworld, but it does make seared stone easier, and will be needed later."
+		"去往主世界并不一定需要它，但它能让之后需要的焦黑石头更容易制作。"
 	],
 	dependencies: [
 		"d6382de0",

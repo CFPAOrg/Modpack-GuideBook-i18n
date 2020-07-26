@@ -1,12 +1,12 @@
 {
-	title: "Switch, Upgrad It.",
+	title: "切换，升级。",
 	x: -10.5d,
 	y: 0.0d,
 	shape: "diamond",
-	description: "Upgrade your Infernal Furnace into a Hellfire Kiln",
+	description: "将你的炼狱熔炉升级为炼狱窑炉。",
 	text: [
-		"The infernal furnace is nice, but it seems to attract unwanted eldritch pollutants and cause.... other problems.",
-		"We have the technology to improve upon this crude design. By using some custom venting we can direct its power into a completely clean and free source of basic smelting. "
+		"虽然炼狱熔炉很好，但它似乎会引起不想要的邪术污染并引起……一些其他问题。",
+		"我们有了科技来改进这种原始的设计。通过使用一些定制的排气系统，我们可以利用这种力量进行清洁和免费的基础冶炼。"
 	],
 	dependencies: [
 		"243978e1",

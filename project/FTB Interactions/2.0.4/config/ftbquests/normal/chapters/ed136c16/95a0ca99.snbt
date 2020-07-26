@@ -1,10 +1,10 @@
 {
-	title: "So much for nothing",
+	title: "本来无一物",
 	x: -5.0d,
 	y: -4.5d,
-	description: "\"But it doesn't contain anything!\". \"No, it contains nothing.\"",
+	description: "何处惹尘埃",
 	text: [
-		"The void satchel can be set to automatically void items you wouldn't want cluttering your inventory, make sure to set the whitelist and turn it on."
+		"虚空背包可以自动摧毁你物品栏中的物品，一定要开启白名单。"
 	],
 	dependencies: [
 		"09586bfe"

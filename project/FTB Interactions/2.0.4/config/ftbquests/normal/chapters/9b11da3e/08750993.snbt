@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: -12.0d,
-	description: "Underground commons sphere spawn!",
+	description: "地下！生成！圆球！",
 	dependencies: [
 		"2e6c74d5"
 	],

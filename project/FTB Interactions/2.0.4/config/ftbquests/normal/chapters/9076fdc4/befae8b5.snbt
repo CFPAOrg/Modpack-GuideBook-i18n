@@ -1,7 +1,7 @@
 {
 	x: -14.0d,
 	y: -11.0d,
-	description: "Lag inducing discount vein mining.",
+	description: "滥用连锁挖矿也会卡顿。",
 	tasks: [{
 		uid: "e19a83db",
 		type: "item",

@@ -1,11 +1,11 @@
 {
-	title: "Ain't nobody got time for that",
+	title: "你有《时间简史》吗？",
 	x: -9.0d,
 	y: -4.5d,
 	text: [
-		"The time in a bottle lets you store time as you play as long as the bottle is in your inventory. Once you have some stored simply right click on a block to make it work faster. ",
-		"WARNING: If you use this on energy producers you can overvoltage your cables and burn them. ",
-		"Accelerating steam boilers and producers should work fine, among many other things."
+		"当时间之瓶带在物品栏后，你的游玩时间将会储存在其中。一旦你有一些储存的时间可用，只需要右击一个方块即可让其更快工作。 ",
+		"警告：如果你在产能机器上使用这个的话，会使电缆过载并将其烧毁。 ",
+		"加速蒸汽锅炉或或其他生产蒸汽的机器应该能顺利工作"
 	],
 	dependencies: [
 		"a916453b"

@@ -1,9 +1,9 @@
 {
-	title: "now you see why they call it black (into) gold.",
+	title: "现在你知道了为什么他们把它称为黑金。",
 	x: -10.5d,
 	y: 1.0d,
 	text: [
-		"MV mix those 2 fuels in the correct ratio and you will have yourself true Diesel fuel."
+		"MV搅拌机将这两种燃料以正确的比例混合，你将拥有真正的燃料柴油。"
 	],
 	dependencies: [
 		"9063ed56"

@@ -1,8 +1,8 @@
 {
-	title: "Lapis and Aqua Veins",
+	title: "青金石和水之蕴魔矿脉",
 	x: -7.0d,
 	y: -4.0d,
-	description: "Spawns in all biomes, but the world's creation myth says that the Snow Queen is best waifu and seeded colder biomes with more of her favorite mineral.",
+	description: "在所有的生物群系生成，在创世神话中有提到冰雪女王是最好的妻子以及严寒地带会生成更多女王最喜欢的矿物",
 	dependencies: [
 		"a837e8af"
 	],

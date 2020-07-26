@@ -1,12 +1,12 @@
 {
-	title: "Infinity Dust",
+	title: "基岩尘",
 	x: 0.0d,
 	y: 5.0d,
-	description: "Obtained by left clicking on bedrock with flint. This will consume 4 levels or more of exp and most of the time destroys the flint. When placed on the floor in a dark, covered room the dust has a chance of summoning forth enemies from the void.",
+	description: "通过手持燧石左击基岩获得。这将会消耗你至少4经验并有较大概率消耗燧石，在黑暗封闭的空间里使用基岩尘将有概率生成来自虚空的敌对生物。",
 	text: [
-		"Creatures summoned by the infinity dust have a high chance of dropping infinity grains which can be used to create a self sustaining cycle of grains and dust.",
-		"WARNING: Keep cobblestone away, it makes the Endermites angry and near impossible to kill.",
-		"Final Note: You do NOT create this by burning bedrock in this pack as you typically would."
+		"通过基岩尘生成的生物在死亡后有很高的几率掉落基岩粉，你可以如此循环来持续获得基岩尘和基岩粉。",
+		"警告：把圆石放远点，它能使末影螨愤怒，然后变得几乎不可能杀死。",
+		"最后提示：在这个包中，你不能像通常那样燃烧基岩来制造它。"
 	],
 	dependencies: [
 		"1bb9079a"

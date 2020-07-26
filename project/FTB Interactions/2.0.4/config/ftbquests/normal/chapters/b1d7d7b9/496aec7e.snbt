@@ -1,8 +1,8 @@
 {
-	title: "Watching water boil",
+	title: "看着水沸腾",
 	x: -12.5d,
 	y: -9.0d,
-	description: "To heat the evaporation towers to create brine and lithium you'll need a valid heat source, fuel wood burn solid fuels and resistive use FE Energy.",
+	description: "为了加热热力蒸馏塔来制造盐水和锂，你需要一个有效的热源，木料加热器燃烧固体燃料，电阻加热装置使用FE能量。",
 	dependencies: [
 		"820b1cf6"
 	],

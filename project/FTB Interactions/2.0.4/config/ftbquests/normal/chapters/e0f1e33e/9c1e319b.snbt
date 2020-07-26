@@ -2,7 +2,7 @@
 	x: 1.0d,
 	y: 0.5d,
 	text: [
-		"Try smacking it on obsidian."
+		"试着在黑曜石上敲碎它"
 	],
 	dependencies: [
 		"6d257ec8"

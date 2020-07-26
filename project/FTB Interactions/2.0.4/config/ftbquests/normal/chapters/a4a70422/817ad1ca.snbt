@@ -3,7 +3,7 @@
 	x: -14.0d,
 	y: -6.0d,
 	text: [
-		"Has 9x12 storage slots."
+		"有 9x12 格的存储空间。"
 	],
 	dependencies: [
 		"9431e9ff"

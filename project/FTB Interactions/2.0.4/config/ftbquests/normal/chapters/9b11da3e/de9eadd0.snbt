@@ -1,14 +1,14 @@
 {
-	title: "But I'm a creep",
+	title: "我是恐怖的化身",
 	icon: "minecraft:skull 1 4",
 	x: -4.0d,
 	y: -6.0d,
 	text: [
-		"Creepers are more confusing than before:",
-		"- turn invisible when they are within 3 blocks of a player",
-		"- can explode if they are burning",
+		"爬行者会更加让你混乱",
+		"-与玩家距离少于3格时会隐形",
+		"-如果它们处于着火状态，它们就会爆炸",
 		"",
-		"No additional benefits this time around, good luck."
+		"这一次你不会有任何的额外的好处，祝你好运。"
 	],
 	dependencies: [
 		"2e6c74d5"

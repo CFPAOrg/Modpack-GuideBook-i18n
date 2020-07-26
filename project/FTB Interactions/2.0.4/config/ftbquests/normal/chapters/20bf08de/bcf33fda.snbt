@@ -1,9 +1,9 @@
 {
-	title: "I LOVE RESEARCH!",
+	title: "我爱研究！",
 	x: -11.0d,
 	y: -12.0d,
 	text: [
-		"Craft your first research table by using a scribing tools on a wood table"
+		"使用笔与墨右击木桌来制作你的第一个研究台"
 	],
 	dependencies: [
 		"43e61bff",

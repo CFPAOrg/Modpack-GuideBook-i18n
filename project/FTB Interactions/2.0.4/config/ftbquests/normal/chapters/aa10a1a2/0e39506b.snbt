@@ -1,12 +1,12 @@
 {
-	title: "Time to start moving those items to where they need to go!",
+	title: "是时候开始把这些物品转移到它们应该去的地方了！",
 	icon: "industrialforegoing:conveyor",
 	x: -10.5d,
 	y: -4.0d,
 	text: [
-		"Conveyors are a very early game method of moving both items and fluids. You can prevent pickup by right clicking plastic onto them and speed them up with glowstone.",
+		"传送带是游戏最初期用于传输物品和流体的方式。你可以用塑料片右击来阻止上面的东西被捡起来，也可以用萤石右击来加速它们。",
 		"",
-		"It is suggested you migrate to better piping options when you can though, Mekanism pipes are probably your next best option, especially for liquid transport."
+		"但是，当你有能力的时候，还是建议你去选择更好的管道，Mekanism的管道大概是你最好的下一步的选择，尤其是传输液体。"
 	],
 	dependencies: [
 		"51878972"

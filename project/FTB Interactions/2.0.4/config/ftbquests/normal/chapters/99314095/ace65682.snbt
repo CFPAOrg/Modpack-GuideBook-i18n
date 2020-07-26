@@ -1,9 +1,9 @@
 {
-	title: "Ale-Lu-Mini-Um",
+	title: "钅吕钅定",
 	x: -9.0d,
 	y: 2.0d,
 	shape: "square",
-	description: "You will be making a good amount of these to get through the MV age.",
+	description: "你将制作相当数量的铝锭来度过MV时代。",
 	dependencies: [
 		"e54fe206"
 	],

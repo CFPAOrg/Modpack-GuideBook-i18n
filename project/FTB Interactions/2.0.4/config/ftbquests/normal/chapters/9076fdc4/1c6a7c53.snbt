@@ -1,7 +1,7 @@
 {
 	x: -9.0d,
 	y: -3.0d,
-	description: "Oh good, I'm on fire again.",
+	description: "好的，我又着火了。",
 	dependencies: [
 		"7ddda4a3"
 	],

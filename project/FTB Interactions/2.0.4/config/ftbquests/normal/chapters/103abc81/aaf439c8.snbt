@@ -3,7 +3,7 @@
 	y: 13.0d,
 	shape: "diamond",
 	text: [
-		"This is it, you're done, you've beat the pack, go be free and live your life brave soul... At least until Interactions Expert mode.... Kappa."
+		"就是这样，你已经毕业啦，你通关了本包。去自由地生活吧......趁着本包还没有更新专家模式...Kappa。"
 	],
 	dependencies: [
 		"a7a83e28",

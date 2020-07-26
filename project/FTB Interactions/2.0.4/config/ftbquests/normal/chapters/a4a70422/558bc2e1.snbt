@@ -1,7 +1,7 @@
 {
 	x: -5.0d,
 	y: -7.0d,
-	description: "Holding gives some of the most insane portable fluid storage.",
+	description: "附上扩容附魔这就是最丧病的便携液体储存。",
 	dependencies: [
 		"aa752963"
 	],

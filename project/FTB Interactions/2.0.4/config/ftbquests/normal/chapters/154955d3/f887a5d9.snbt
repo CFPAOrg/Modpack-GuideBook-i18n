@@ -1,10 +1,10 @@
 {
-	title: "Void Speed Run Challenge - If you beat A$ide$ilence's time, submit your video and replace them as the victor in the questbook!",
+	title: "速通挑战赛 - 如果你打破了 A$ide$ilence 的记录，给作者发你的视频，然后这里的名字就会变成你！",
 	icon: "randomthings:eclipsedclock",
 	x: 0.0d,
 	y: 1.0d,
 	shape: "gear",
-	description: "31 minutes, 4 seconds.",
+	description: "31分零4秒",
 	text: [
 		""
 	],

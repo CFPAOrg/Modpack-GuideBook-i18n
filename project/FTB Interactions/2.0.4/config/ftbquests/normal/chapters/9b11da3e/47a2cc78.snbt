@@ -1,8 +1,8 @@
 {
-	title: "Coal Vein",
+	title: "煤炭矿脉",
 	x: -9.0d,
 	y: -9.0d,
-	description: "Spawns in all biomes, annoyingly so sometimes.",
+	description: "在所有的生物群系中生成，有时候会令你很恼火",
 	dependencies: [
 		"9ae8f543"
 	],

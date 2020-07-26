@@ -1,9 +1,9 @@
 {
-	title: "Advanced wireless linking tool",
+	title: "高级无线连接工具",
 	x: -3.0d,
 	y: -17.0d,
 	text: [
-		"Capable of linking those hidden emitters and receivers that are in a lot of these advanced rocketry machinery."
+		"能够将这些高级火箭(Advanced Rocketry)机械里的隐藏的发射器和接收器连接起来。"
 	],
 	dependencies: [
 		"05f17487"

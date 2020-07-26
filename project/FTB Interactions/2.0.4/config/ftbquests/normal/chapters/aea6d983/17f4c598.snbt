@@ -1,10 +1,10 @@
 {
-	title: "PHENOMENAL COSMIC POWER... itty bitty egg.",
+	title: "这是惊人的宇宙力量...一小颗鸡蛋。",
 	x: 0.0d,
 	y: -4.0d,
 	shape: "diamond",
 	text: [
-		"This is the ultimate culmination of magic and tech, the infinity chicken. Its egg can be proccessed in half a dozen different ways to produce all sorts of high end materials quickly."
+		"这是魔法和科技的顶点：无尽鸡。它的鸡蛋可以用六种不同的方法加工，快速生产各种高端材料。"
 	],
 	dependencies: [
 		"bad8af80",

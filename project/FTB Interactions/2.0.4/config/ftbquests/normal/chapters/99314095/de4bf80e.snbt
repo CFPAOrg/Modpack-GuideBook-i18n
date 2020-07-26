@@ -1,5 +1,5 @@
 {
-	title: "Vanilla or shock-a-lot?",
+	title: "震惊还是索然无味？",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -10,7 +10,7 @@
 	x: -11.0d,
 	y: -2.0d,
 	shape: "gear",
-	description: "For example, look at the recipe for a Tinker's Copper Hammer Head in an Extruder. Since it requires at minimum 120 EU/t, an LV Extruder cannot handle that much power at one amp, so that recipe is effectively gated behind MV level Extruder.",
+	description: "例如，看一眼匠魂的青铜锤头配方，它使用压模器。因为它至少需要120EU/t，LV压模器在只能接受1安培电流的情况下，无法达到这样大的功率。因此，这个配方实际上需要MV压模器。",
 	dependencies: [
 		"9f80387d"
 	],

@@ -1,10 +1,10 @@
 {
-	title: "Ally Smelter",
+	title: "合金炉合何合金？",
 	x: -4.0d,
 	y: 1.0d,
-	description: "An alloyer that alloys alloys for you and allies. WARNING: Do not put allies in here.",
+	description: "合金炉不合金只合合金。",
 	text: [
-		"Make sure to read the energy requriements for recipes. Pulsating iron for example requires 48V in an alloy smelter, meaning you need at least an MV Tier alloy smelter to create it!"
+		"认真看配方的能量要求。例如，脉冲铁需要48EU/t，这意味着你需要至少一个MV级合金炉来制造它！"
 	],
 	dependencies: [
 		"56f69a22",

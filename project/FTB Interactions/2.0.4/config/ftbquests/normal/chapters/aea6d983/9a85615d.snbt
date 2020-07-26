@@ -2,7 +2,7 @@
 	x: 3.5d,
 	y: -7.0d,
 	text: [
-		"The vinteum chicken produces several incredible byproducts including vinteum, manasteel and rare earths which can be further processed for many important rare metals. "
+		"温特姆鸡会生产几种不可思议的副产物，包括温特姆、魔力钢以及稀土，其中，稀土又可以进一步处理以获得多种重要的稀有金属。"
 	],
 	dependencies: [
 		"bad8af80",

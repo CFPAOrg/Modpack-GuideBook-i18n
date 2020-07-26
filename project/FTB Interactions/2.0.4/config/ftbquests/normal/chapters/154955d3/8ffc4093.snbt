@@ -1,5 +1,5 @@
 {
-	title: "Water you doing?",
+	title: "你在水啥？",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -8,7 +8,7 @@
 	},
 	x: 2.0d,
 	y: 1.0d,
-	description: "If only I knew how physics worked I could melt ice into water. And if only I had a magic block that provided me with Ice.",
+	description: "如果我懂物理学，我就可以把冰融化成水。如果我有一个魔法方块，它就可以为我提供冰。",
 	dependencies: [
 		"7a3fc83a"
 	],

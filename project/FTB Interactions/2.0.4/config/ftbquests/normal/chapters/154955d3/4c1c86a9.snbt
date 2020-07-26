@@ -1,11 +1,11 @@
 {
-	title: "The Early Game Building Aid",
+	title: "早期游戏建筑帮手",
 	x: 2.0d,
 	y: 7.0d,
 	shape: "rsquare",
-	description: "Animus Liquid Dirt can be poured and will flow like water. Once it cant flow anymore it will solidify to lots of dirt.",
+	description: "Animus的液态泥土可以被倒出并像水一样流动。一旦它不能继续流动，它将固化成大量泥土。",
 	text: [
-		"If you are quick you can pickup the source block before it solidifies and get many uses from a single bucket."
+		"如果你动作够快，你可以在固化前装走流体源方块，将一桶液态泥土多次使用。"
 	],
 	dependencies: [
 		"b030b92e"

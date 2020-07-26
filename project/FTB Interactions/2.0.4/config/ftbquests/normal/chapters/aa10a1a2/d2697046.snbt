@@ -1,9 +1,9 @@
 {
-	title: "Cruel Sun",
+	title: "残暴的太阳",
 	x: -0.5d,
 	y: -1.0d,
 	shape: "diamond",
-	description: "\"Sunshine! That is my glorious magic.\"",
+	description: "“阳光阳光！那是我壮丽的魔法。"",
 	dependencies: [
 		"0e127505"
 	],

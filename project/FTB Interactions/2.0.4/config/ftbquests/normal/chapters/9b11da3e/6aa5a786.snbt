@@ -1,8 +1,8 @@
 {
-	title: "Redstone Vein",
+	title: "红石矿脉",
 	x: -9.0d,
 	y: 0.0d,
-	description: "Doesn't spawn anywhere. Jk, it spawns in all biomes.",
+	description: "不会在任何地方生成！开个玩笑，其实所有生物群系都会生成~",
 	dependencies: [
 		"ced0c5b8"
 	],

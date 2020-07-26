@@ -1,7 +1,7 @@
 {
 	x: 4.0d,
 	y: 3.5d,
-	description: "You will need skystone blocks for your tier 4 altar blocks",
+	description: "你需要陨石去搭建你的4阶祭坛",
 	dependencies: [
 		"aa1a6d27"
 	],

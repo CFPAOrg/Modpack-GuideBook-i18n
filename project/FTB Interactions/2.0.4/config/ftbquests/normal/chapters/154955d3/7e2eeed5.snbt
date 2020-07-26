@@ -1,7 +1,7 @@
 {
 	x: 3.0d,
 	y: 5.0d,
-	description: "Combine low covalence dust and sticky resin in an alchemy array to create rustic tallow.",
+	description: "在炼金矩阵中将低等共价粉和粘性树脂结合，形成油脂。",
 	dependencies: [
 		"9df1d5ee"
 	],

@@ -1,11 +1,11 @@
 {
-	title: "A Wireless transmission of Freedom",
+	title: "自由的无线传输",
 	x: -6.5d,
 	y: -9.0d,
 	shape: "rsquare",
-	description: "The transfer node can allow oil to be piped to a remote location to save you repeated trips to collect oil tanks. With this device you only need to return occasionally to swap batteries.",
+	description: "流体传输节点可以允许油输送到远程位置，以节省你反复收集储罐的行程。使用此设备，你只需偶尔返回更换电池。",
 	text: [
-		"The wireless transfer only works within the same dimension but with some creativity some COMPACT setups may allow you to bypass this restriction...."
+		"无线传输仅在相同的维度内工作，如果你有足够的创造力，一些压缩的设施可能允许你绕过此限制……"
 	],
 	dependencies: [
 		"0220d6bb"

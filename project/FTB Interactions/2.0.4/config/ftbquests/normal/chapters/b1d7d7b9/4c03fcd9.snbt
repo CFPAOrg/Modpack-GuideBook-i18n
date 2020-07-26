@@ -2,7 +2,7 @@
 	x: 1.5d,
 	y: -5.0d,
 	text: [
-		"Water and sulfur can be used to create sulfuric acid, an important precursor to several other chemicals."
+		"水和硫可以制造硫酸，硫酸是很多其他化学品的前置。"
 	],
 	dependencies: [
 		"ba875a99"

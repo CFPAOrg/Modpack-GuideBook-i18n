@@ -2,7 +2,7 @@
 	x: -12.0d,
 	y: -2.5d,
 	text: [
-		"To setup an import chest attach a Chassis to a chest and add an extractor upgrade (or many) to it. Make sure it is powered by your LP Network. Next attach a basic LP pipe to another chest and use the pipe manager to set it to default route. "
+		"为了设置输入端，将一个物流底盘连上箱子，并添加一个(或更多)提取模块。请确保它已通过LP网络提供能量。随后将一个普通的LP物流管道连上另一个箱子，并使用管道管理器将其设置为默认路径。 "
 	],
 	dependencies: [
 		"f6041d91"

@@ -2,7 +2,7 @@
 	x: -12.0d,
 	y: -8.0d,
 	text: [
-		"Great for GregTech tools, and has plenty of early uses, you'll need quite a bit of this."
+		"用来制作格雷科技的工具非常棒，并且早期有非常多的用途，你会用掉不少的。"
 	],
 	dependencies: [
 		"8cd0b5bf"

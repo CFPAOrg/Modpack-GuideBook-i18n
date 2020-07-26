@@ -1,5 +1,5 @@
 {
-	title: "You can have the wood.",
+	title: "你可以获得这棵树。",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -19,9 +19,9 @@
 	x: -4.0d,
 	y: 1.0d,
 	shape: "rsquare",
-	description: "And my Axe! GT Axes have a built-in timber functionality, it makes chopping down logs early on easier.",
+	description: "还有我的斧头！格雷斧头具有内置的砍树功能，它使早期砍伐原木变得更容易。",
 	text: [
-		"One does not simply walk into the overworld."
+		"你没那么容易去到主世界。"
 	],
 	dependencies: [
 		"1d6fe213"

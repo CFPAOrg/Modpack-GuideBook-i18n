@@ -1,8 +1,8 @@
 {
-	title: "Apatite Vein",
+	title: "磷灰石矿脉",
 	x: -9.0d,
 	y: -10.0d,
-	description: "Spawns in all biomes except those that are extremely hot or extremely cold. Swampland vegetation tends to thrive on large hidden apatite veins beneath them.",
+	description: "除了一些特别热的地方和特别冷的地方以外，会在所有生物群系中生成，它们往往会倾向于生成并隐藏在沼泽地植物的下方",
 	dependencies: [
 		"8f249c7e"
 	],

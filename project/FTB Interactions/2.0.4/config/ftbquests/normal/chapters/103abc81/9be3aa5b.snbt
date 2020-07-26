@@ -1,9 +1,9 @@
 {
 	x: 1.5d,
 	y: 7.5d,
-	description: "Toss a penny in and watch it vanish before it hits the bottom.",
+	description: "投掷一枚硬币，看着它在落地前消失。",
 	text: [
-		"This planet has a breathable atmosphere! You'll need a warp controller and the artifact to fly to this world in your space station. Here you'll find vinteum, dungeons, powerful alien technologies and even rumors of mythical beasts...."
+		"这个星球有一个可呼吸的大气层！你需要在你的空间站使用跃迁控制器和工件来飞往这个世界。你会在这里找到温特姆矿石、 地牢、 强大的外星科技，甚至是神秘野兽的传说......"
 	],
 	dependencies: [
 		"dd0f8ba4"

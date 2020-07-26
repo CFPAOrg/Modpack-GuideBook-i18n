@@ -1,5 +1,5 @@
 {
-	title: "Chaos Mining",
+	title: "混沌采矿",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -9,7 +9,7 @@
 	},
 	x: -4.0d,
 	y: -1.5d,
-	description: "Chaos Islands generate once every 5k blocks instead of 10k blocks. In addition they spawn around Y levels 180+ and are filled with large, dense veins of rare metals. You will have to go mining here before you have access to Draconic.",
+	description: "混沌岛每隔五千格会生成一个，而非默认的一万格。此外，它们会生成在Y轴大于180的地方，拥有着大且密集的稀有矿物矿脉。你需要在开始龙之研究前先去那里挖矿。",
 	dependencies: [
 		"57ab5c66"
 	],

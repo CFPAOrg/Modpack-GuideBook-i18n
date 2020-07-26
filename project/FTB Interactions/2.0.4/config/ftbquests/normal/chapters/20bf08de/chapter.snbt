@@ -1,8 +1,8 @@
 {
-	title: "What is this sorcery",
+	title: "这是什么巫术",
 	icon: "thaumcraft:salis_mundus",
 	description: [
-		"The not so comprehensive guide to Magic"
+		"不是很详尽的魔法教程"
 	],
 	always_invisible: false,
 	group: 0,

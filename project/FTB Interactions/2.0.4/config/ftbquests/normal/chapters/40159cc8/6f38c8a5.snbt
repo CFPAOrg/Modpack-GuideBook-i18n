@@ -1,11 +1,11 @@
 {
-	title: "Spacey (Not Kevin)",
+	title: "Spacey（Not Kevin）",
 	x: -1.0d,
 	y: -18.0d,
-	description: "To create a space station you'll need a space station builder on your launch pad, you then construct the station you want, allow it scan with a satellite builder in the upper left UI and an unprogrammed station chip in the right",
+	description: "要建造空间站，你需要在你的发射台上建造一个太空站组装机，然后你就可以建造你想要的空间站，左上角放上卫星建造机，右边放上一个未编程的空间站ID芯片进行扫描",
 	text: [
-		"Place the builder on top of the Power input for this small little Multiblock to function",
-		"You can build a small station and build it out when your in space, But you can also build it fully stocked with say a celestial gateway."
+		"将卫星建造机置于能量输入口的上方，使这个小的多方块结构正常工作。",
+		"你可以建造一个小型空间站并往太空中扩建，或者你也可以将它建成一个天体星门的形状。"
 	],
 	dependencies: [
 		"f8f90da4",

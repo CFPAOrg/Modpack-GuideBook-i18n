@@ -1,14 +1,14 @@
 {
-	title: "If you scrolled here first, you're an overachiever.",
+	title: "如果你首先看的是这个任务，你应该是个非常优秀的玩家。",
 	icon: "sonarcore:stablestoneblackrimmed_lightblue",
 	x: -3.0d,
 	y: 12.0d,
 	shape: "diamond",
-	description: "You want to craft this block to get to the Overworld. However you just might die, so why not take it slow and follow some of the quests to get yourself better equipped? Also the other side of the portal should NOT be undefended.",
+	description: "你需要制作这个方块前往主世界，然而那里处处充满危险，你可能会死。所以为什么不放慢点脚步，完成一些任务并更好的装备你自己？同样的，传送门的另一边也不应该没有任何防御措施，我可不能保证当你还在传送门里时外面的怪物对你干些什么事情...",
 	text: [
-		"Light the portal with your Philospher Stone",
+		"用你的贤者之石点亮传送门",
 		"",
-		"Thanks to DJJBanx for providing the animated portal blocks textures."
+		"感谢DJJBanx提供的的传送门方块动画材质。"
 	],
 	dependencies: [
 		"7d56d52e"

@@ -1,11 +1,11 @@
 {
-	title: "Remote power",
+	title: "远距离输电",
 	x: -12.0d,
 	y: -2.0d,
 	shape: "rsquare",
 	text: [
-		"Do crops grow near all those polluting machines? they probably do, but having some way to remote power things is a much more desirable option.",
-		"Using a CEF/CEU combo you can convert between rf and GT power. You can then power a spectre energy injector and distribute rf power to remote distances where you then convert to GT power (or not) as needed."
+		"作物真的能在这些有污染的机器附近生长？它们可能可以，但用一些方法远距离输电一个更好的选择。",
+		"配合使用CEF/CEU可以转换RF和GT能量。你可以给通灵能量注入器充能，把RF能量传到远处然后再视情况再转换回GT能量。"
 	],
 	dependencies: [
 		"9063ed56"

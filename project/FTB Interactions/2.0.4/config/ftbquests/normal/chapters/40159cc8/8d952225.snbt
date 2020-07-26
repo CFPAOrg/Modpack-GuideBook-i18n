@@ -1,11 +1,11 @@
 {
-	title: "\"I'm Givin' Her All She's Got, Captain!\"",
+	title: "我正在给她她所拥有的全部，船长！",
 	icon: "advancedrocketry:spacelaser",
 	x: 6.5d,
 	y: -15.0d,
-	description: "Build an Orbital Miner on your Space Station. This baby sure is power hungry, so give her all you got!",
+	description: "在你的空间站建造一个轨道激光钻。这个婴儿将要吃掉大量的电力，所以给她你全部的电力！",
 	text: [
-		"Be sure to turn this baby on with a redstone signal and place a lens in to gui. When you play on a server you may need to change X&Y setting if other players have build one as well."
+		"请确保用红石信号打开这个婴儿的开关并在GUI中放进透镜。如果你在服务器中，你可能需要修改X和Y的值，如果其他玩家已经建好了一个的话。"
 	],
 	dependencies: [
 		"c3e76f1e"

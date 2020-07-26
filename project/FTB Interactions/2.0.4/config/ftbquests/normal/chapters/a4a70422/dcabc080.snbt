@@ -2,7 +2,7 @@
 	x: -15.0d,
 	y: 4.0d,
 	text: [
-		"Conduit binder can be made easily and early but the other materials to turn them into useful conduits may be out of your reach currently. Here's some welfare piping to ease your pains."
+		"导管粘合剂在早期很容易就能做，但把它做成导管所需要的其它材料可能暂时无法获得。这里的这些福利可以解你的燃眉之急。"
 	],
 	tasks: [{
 		uid: "bd49e00e",

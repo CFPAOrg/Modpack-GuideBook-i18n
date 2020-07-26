@@ -1,9 +1,9 @@
 {
-	title: "Just one more step!",
+	title: "就差一步了",
 	x: -9.5d,
 	y: 0.5d,
 	text: [
-		"That crystalized oil can be turned into several things by distillation, you need to work out and balance how much you make for the last step."
+		"这种晶化油可以通过蒸馏变成几种东西。 你需要做出努力，看看你为最后一步做了多少事情。"
 	],
 	dependencies: [
 		"9063ed56"

@@ -1,15 +1,15 @@
 {
-	title: "A lot of Lithium",
+	title: "大量的锂",
 	x: -10.5d,
 	y: -5.0d,
-	description: "Finally you can toss some real batteries into the fire again.",
+	description: "最后，你可以再次将一些真正的电池扔进火里。",
 	dependencies: [
 		"29825601"
 	],
 	tasks: [{
 		uid: "da6311b9",
 		type: "item",
-		title: "Lithium Dust",
+		title: "锂粉",
 		items: [{
 			ForgeCaps: {
 				Parent: {

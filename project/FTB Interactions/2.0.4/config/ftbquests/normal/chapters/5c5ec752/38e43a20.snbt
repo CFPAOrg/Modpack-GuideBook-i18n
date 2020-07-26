@@ -1,5 +1,5 @@
 {
-	title: "Steamplosion",
+	title: "锅炉爆炸",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -10,7 +10,7 @@
 	x: -7.0d,
 	y: -3.0d,
 	shape: "gear",
-	description: "Never let your boilers run dry! Putting water in a dry, hot boiler will cause an explosion.",
+	description: "不要让你的锅炉干烧！将水放进干的、热的锅炉会导致爆炸。",
 	dependencies: [
 		"049d4774"
 	],

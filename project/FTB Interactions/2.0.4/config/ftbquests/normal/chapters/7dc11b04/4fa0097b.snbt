@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: -2.0d,
 	text: [
-		"Second tier of slates, used in some more complex magic crafts."
+		"第二级的石板，用于一些更复杂的魔法工艺。"
 	],
 	dependencies: [
 		"9d77f61f"

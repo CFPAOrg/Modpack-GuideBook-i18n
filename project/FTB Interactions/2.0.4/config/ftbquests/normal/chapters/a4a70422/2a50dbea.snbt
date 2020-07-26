@@ -2,8 +2,8 @@
 	x: -18.0d,
 	y: 4.0d,
 	text: [
-		"finally interdimensional fluid transfer, the quick way.",
-		"They're not much good without more than one."
+		"最终的跨维度流体运输，快捷的方法。",
+		"如果只有一个的话，它们并不好用。"
 	],
 	tasks: [{
 		uid: "88538c68",

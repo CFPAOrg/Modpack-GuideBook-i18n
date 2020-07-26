@@ -2,7 +2,7 @@
 	x: -16.0d,
 	y: -6.0d,
 	text: [
-		"100 stacks of items on a chip, insanity!"
+		"在一块芯片上存储100组物品，太疯狂了！"
 	],
 	dependencies: [
 		"437c848c"

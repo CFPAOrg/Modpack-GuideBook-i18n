@@ -2,7 +2,7 @@
 	x: -3.0d,
 	y: -6.0d,
 	text: [
-		"Fluorine can be automated from granite but it is a slow process that takes many machines. This chicken helps to alleviated some of that by allowing you to extract some of it from the eggs. Not safe for oral use."
+		"氟可以自动化，但这是一个缓慢的过程，需要许多机器。 这个鸡让你能从它的蛋里提取一些氟，有助于缓解这种情况。不适合吃。"
 	],
 	dependencies: [
 		"bad8af80",

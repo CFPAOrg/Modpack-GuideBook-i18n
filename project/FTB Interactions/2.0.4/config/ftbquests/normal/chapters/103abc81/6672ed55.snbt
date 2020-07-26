@@ -1,9 +1,9 @@
 {
 	x: 1.5d,
 	y: 3.5d,
-	description: "Can you please stop burning coal already?",
+	description: "你能停止烧煤吗？",
 	text: [
-		"To get basic steel cooking you'll need an infernal furnace and a steam alloy smelter to make crude steel ingots. Steel will be your primary gate into LV."
+		"你需要炼狱熔炉和蒸汽合金炉来制作粗钢锭，这是最基础的炼钢方法所需要的。 钢将会是你进入LV阶段的第一扇门。"
 	],
 	dependencies: [
 		"cfcc58ad"

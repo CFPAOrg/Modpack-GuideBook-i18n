@@ -1,8 +1,8 @@
 {
-	title: "A Multiblock Oven!",
+	title: "一个多方块熔炉！",
 	x: -1.0d,
 	y: -5.0d,
-	description: "Normal furnaces are disabled, but you get an automatic upgrade to the Seared furnace. It will provide you with fast, bulk and efficient smelting early game. pure ores smelt in stacks of 16 a slot. nugget results cant melt unless result is 16 or less ",
+	description: "普通的熔炉已经被禁用了，但你可以使用更高级的焦黑熔炉。它将为你的早期游戏提供快速、批量和高效的熔炼功能。 无论是原料还是产物，每格最多堆叠16个。",
 	dependencies: [
 		"95d931f2"
 	],

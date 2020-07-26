@@ -1,9 +1,9 @@
 {
-	title: "Better Building Wand",
+	title: "更好的建筑之杖",
 	x: 2.0d,
 	y: 4.0d,
 	shape: "rsquare",
-	description: "Kinda.",
+	description: "从某种程度上说。",
 	dependencies: [
 		"b030b92e"
 	],
