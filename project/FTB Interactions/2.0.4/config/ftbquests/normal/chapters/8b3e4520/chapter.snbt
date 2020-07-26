@@ -1,1 +1,10 @@
-{title: "La Fin", icon: "minecraft:end_stone", description: ["如果你不知道这一章是干什么的，你的模式识别算法可以为你做些事情。"], "always_invisible": "false", group: 1865916608, "default_quest_shape": ""}
+{
+	title: "La Fin",
+	icon: "minecraft:end_stone",
+	description: [
+		"If you don't know what this tab is for your pattern recognition could use some work."
+	],
+	always_invisible: false,
+	group: 1865916608,
+	default_quest_shape: ""
+}

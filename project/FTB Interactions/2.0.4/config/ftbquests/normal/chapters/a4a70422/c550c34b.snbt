@@ -1,1 +1,33 @@
-{x: -10.5d, y: -2.d, text: ["这个印记可以请求符合条件的傀儡捡起范围内的掉落物品，你可以自己设定范围。"], dependencies: ["3770c1fb"], tasks: [{uid: "e2408924", type: "item", items: [{item: "thaumcraft:seal 1 1"}]}], rewards: [{uid: "cd4e7daa", type: "item", item: "thaumcraft:triple_meat_treat"}, {uid: "1e055591", type: "item", item: "enderutilities:enderpart 1 73"}, {uid: "5fdbba58", type: "item", item: "enderutilities:enderpart 1 72", count: 4}]}
+{
+	x: -10.5d,
+	y: -2.0d,
+	text: [
+		"This Seal will check an area (you can configure the size) and look for items that can be picked up by Golems."
+	],
+	dependencies: [
+		"3770c1fb"
+	],
+	tasks: [{
+		uid: "e2408924",
+		type: "item",
+		items: [{
+			item: "thaumcraft:seal 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "cd4e7daa",
+		type: "item",
+		item: "thaumcraft:triple_meat_treat"
+	},
+	{
+		uid: "1e055591",
+		type: "item",
+		item: "enderutilities:enderpart 1 73"
+	},
+	{
+		uid: "5fdbba58",
+		type: "item",
+		item: "enderutilities:enderpart 1 72",
+		count: 4
+	}]
+}

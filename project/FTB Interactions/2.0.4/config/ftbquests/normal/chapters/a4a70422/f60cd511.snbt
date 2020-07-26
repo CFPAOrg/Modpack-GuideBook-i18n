@@ -1,1 +1,19 @@
-{x: -21.d, y: -1.d, text: ["使装置变得漂亮又整洁，你看不到的就是你得到的。"], tasks: [{uid: "6f07f5eb", type: "item", items: [{item: "extrautils2:flattransfernode 1 1"}]}], rewards: [{uid: "7f348fc9", type: "item", item: "extrautils2:trashcanfluid"}]}
+{
+	x: -21.0d,
+	y: -1.0d,
+	text: [
+		"Makes for nice and clean setups, what you dont see is what you get."
+	],
+	tasks: [{
+		uid: "6f07f5eb",
+		type: "item",
+		items: [{
+			item: "extrautils2:flattransfernode 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7f348fc9",
+		type: "item",
+		item: "extrautils2:trashcanfluid"
+	}]
+}

@@ -1,1 +1,14 @@
-{title: "太空竞赛！", icon: "advancedrocketry:stationbuilder", x: 5.d, y: -15.d, description: "现在你已经进入太空，你解锁了最后等级的mob staging。向着轨道激光钻努力来获得陨石，以及跃迁控制器来前往探索其他世界。 ", dependencies: ["237309c2"], tasks: [{uid: "a3eeac18", type: "checkmark"}]}
+{
+	title: "Space Raced!",
+	icon: "advancedrocketry:stationbuilder",
+	x: 5.0d,
+	y: -15.0d,
+	description: "Now that you've made it to space you unlock the final tiering of mob staging. Work towards an orbital miner to obtain skystone as well as a Warp drive to explore other worlds. ",
+	dependencies: [
+		"237309c2"
+	],
+	tasks: [{
+		uid: "a3eeac18",
+		type: "checkmark"
+	}]
+}

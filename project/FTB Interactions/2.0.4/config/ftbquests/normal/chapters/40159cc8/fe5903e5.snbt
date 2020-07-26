@@ -1,1 +1,17 @@
-{x: 7.d, y: -10.d, text: ["在这个世界的最底层，似乎有一种拥有特殊属性的奇怪沙子…它可能有…其他用途…"], dependencies: ["97e0a29a"], tasks: [{uid: "877d03ef", type: "item", items: [{item: "advancedrocketry:vitrifiedsand"}]}]}
+{
+	x: 7.0d,
+	y: -10.0d,
+	text: [
+		"At the lowest depths of this world there seems to be strange sand with unusual properties... it may have... other uses..."
+	],
+	dependencies: [
+		"97e0a29a"
+	],
+	tasks: [{
+		uid: "877d03ef",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:vitrifiedsand"
+		}]
+	}]
+}

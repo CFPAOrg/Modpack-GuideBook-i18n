@@ -1,2 +1,10 @@
-{title: "维度
-", icon: "contenttweaker:portalblockt", description: ["此任务组侧重于一些你可能会需要或觉得有用的维度特定信息。"], "always_invisible": "false", group: 0, "default_quest_shape": ""}
+{
+	title: "Dimensionality",
+	icon: "contenttweaker:portalblockt",
+	description: [
+		"This quest group focuses on dimension specific information you may need or may find useful."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

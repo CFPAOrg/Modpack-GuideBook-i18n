@@ -1,1 +1,24 @@
-{title: "挖掉一台机器，任何机器。", icon: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "botania:cosmetic", Damage: 31s}, x: -7.d, y: -1.d, shape: "gear", description: "你现在可以安全地用镐子挖任何机器。认真的。试试吧。去吧。我们支持你。而且，机器在雨中也能正常工作。去吧，试试吧，我们支持你。然而热力膨胀电钻的 AoE 会摧毁机器。", text: ["然而，这只是为了防止人们意外毁坏机器的一种方便之举。 你仍然会需要一把扳手来更快地拆卸格雷机器。"], dependencies: ["499c8c07"], tasks: [{uid: "37046739", type: "checkmark"}]}
+{
+	title: "Pick a machine, any machine.",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -7.0d,
+	y: -1.0d,
+	shape: "gear",
+	description: "You can now pickaxe any machine safely. Seriously. Try it out. Go ahead. We dare you. Also machines work just fine in the rain. Go ahead, try it out, we dare you. However Thermal Expansion Drills' AoE will destroy machines,",
+	text: [
+		"This is merely a convenience feature to keep people from accidentally destroying their machines however. You will still mine up your GT machines much faster with a wrench."
+	],
+	dependencies: [
+		"499c8c07"
+	],
+	tasks: [{
+		uid: "37046739",
+		type: "checkmark"
+	}]
+}

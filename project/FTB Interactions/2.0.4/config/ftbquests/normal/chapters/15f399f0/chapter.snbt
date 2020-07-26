@@ -1,1 +1,20 @@
-{title: "氩根儿就没有什么好标题能用在这", icon: {id: "gregtech:meta_item_1", tag: {Fluid: {FluidName: "polytetrafluoroethylene", Amount: 1000}}, Damage: 32762s}, description: ["所有科学的和不科学的化学反应。", "这一章旨在指导你完成GTCE中的各种化工处理。"], "always_invisible": "false", group: 0, "default_quest_shape": ""}
+{
+	title: "All good titles Argon",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "polytetrafluoroethylene",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	description: [
+		"For all of your legal, and less legal chemical needs.",
+		"This tab is meant to guide you through all the various chemical processing systems in GTCE."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

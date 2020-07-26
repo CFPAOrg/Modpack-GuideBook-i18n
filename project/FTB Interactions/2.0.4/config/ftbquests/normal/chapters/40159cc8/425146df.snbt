@@ -1,1 +1,16 @@
-{title: "地什么？", x: 1.d, y: -20.d, description: "这种特制的混凝土能极快地散热，是建造一些机械以及发射台所需的材料。", dependencies: ["8fe82d61"], tasks: [{uid: "586209f8", type: "item", items: [{item: "advancedrocketry:concrete"}]}]}
+{
+	title: "Geowhatsit?",
+	x: 1.0d,
+	y: -20.0d,
+	description: "This highly specialized form on concrete dissipates heat extremely quickly and is a required building block for some machinery as well as your launchpad itself.",
+	dependencies: [
+		"8fe82d61"
+	],
+	tasks: [{
+		uid: "586209f8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:concrete"
+		}]
+	}]
+}

@@ -1,1 +1,18 @@
-{title: "暗星光辉", x: 7.d, y: -11.d, shape: "diamond", description: "这个星球正在环绕一个黑洞。即使那里的大气和地球很像，但是由于处在黑洞附近，那里的重力大大增强了。 ", dependencies: ["1e07ae16", "da0cc52f"], tasks: [{uid: "ccb13932", type: "item", items: [{item: "contenttweaker:overworldessencel"}]}]}
+{
+	title: "The Dark Star Aurellia",
+	x: 7.0d,
+	y: -11.0d,
+	shape: "diamond",
+	description: "This planet is orbiting a black hole. Although the atmosphere is earthlike you will find the gravity is greatly increased so near to the blackhole. ",
+	dependencies: [
+		"1e07ae16",
+		"da0cc52f"
+	],
+	tasks: [{
+		uid: "ccb13932",
+		type: "item",
+		items: [{
+			item: "contenttweaker:overworldessencel"
+		}]
+	}]
+}

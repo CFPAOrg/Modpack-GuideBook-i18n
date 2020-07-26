@@ -1,1 +1,18 @@
-{title: "输入到本系统", x: -11.5d, y: 4.d, text: ["把这个东西接在发电系统的的输出缓冲之后。"], dependencies: ["be691558"], tasks: [{uid: "fe5fa361", type: "item", items: [{item: "fluxnetworks:fluxplug"}]}]}
+{
+	title: "INTO AWPSI",
+	x: -11.5d,
+	y: 4.0d,
+	text: [
+		"Put this on your power production output buffer."
+	],
+	dependencies: [
+		"be691558"
+	],
+	tasks: [{
+		uid: "fe5fa361",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxplug"
+		}]
+	}]
+}

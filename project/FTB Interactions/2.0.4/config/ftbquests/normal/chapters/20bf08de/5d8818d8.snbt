@@ -1,1 +1,35 @@
-{x: -13.d, y: -13.d, text: ["", "此任务解锁傀儡学到包括神秘生物学之心在内的研究。"], "can_repeat": "true", dependencies: ["961eb3ac"], tasks: [{uid: "99567e56", type: "checkmark", title: "我变成了傀儡", icon: {id: "thaumcraft:golem", tag: {props: 72341268037894144L}}}], rewards: [{uid: "0beb39a4", type: "command", icon: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "thaumcraft:thaumonomicon", Damage: 1s}, command: "/thaumcraft research @p MINDBIOTHAUMIC"}]}
+{
+	x: -13.0d,
+	y: -13.0d,
+	text: [
+		"",
+		"This quest unlocks advanced golemancy research up to and including the biothaumic mind."
+	],
+	can_repeat: true,
+	dependencies: [
+		"961eb3ac"
+	],
+	tasks: [{
+		uid: "99567e56",
+		type: "checkmark",
+		title: "They be rollin, they decantin...",
+		icon: {
+			id: "thaumcraft:golem",
+			tag: {
+				props: 72341268037894144L
+			}
+		}
+	}],
+	rewards: [{
+		uid: "0beb39a4",
+		type: "command",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		},
+		command: "/thaumcraft research @p MINDBIOTHAUMIC"
+	}]
+}

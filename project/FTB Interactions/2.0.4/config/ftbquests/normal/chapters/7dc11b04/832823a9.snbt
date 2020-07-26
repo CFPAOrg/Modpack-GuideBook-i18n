@@ -1,1 +1,23 @@
-{title: "原生意志", x: -3.d, y: 4.d, shape: "square", description: "可以通过使用恶魔坩埚里抽取地狱魂石里的意志、或燃烧意志晶体来将恶魔意志散布到一个区块 ", text: ["除此之外也有能持续生产意志的方法。孤魂集会仪式会以生物为祭品，产出恶魔意志。你需要向它其提供多种中立生物，方能达到最大产量。", "Animus的和平仪式能持续提供中立生物作为你仪式的祭品，星辉魔法唤生座效应也行。", "想要收成意志，你需要先种上意志晶簇，然后碎晶裂纹仪式能让你收集生长后的意志晶体。 ", "最后使用和风之唤仪式或物品收集器就能收集晶体了。 "], dependencies: ["d13475fe"], tasks: [{uid: "a3694a8d", type: "item", items: [{item: "bloodmagic:item_demon_crystal"}]}]}
+{
+	title: "Raw Infernal Will",
+	x: -3.0d,
+	y: 4.0d,
+	shape: "square",
+	description: "Demon will can be released into a chunk from a tartaric gem by using a forge or by burning will crystals. ",
+	text: [
+		"Alternatively a sustainable method to create demon will exists. By utilizing the foresaken soul ritual, demon will is generated when mobs are killed. Passive and a variety of mobs is essential for maximum yield.",
+		"The Animus ritual of Peace can provide a constant supply of peaceful mobs for your ritual to kill, as can the Astral sorcery pelotrio ritual.",
+		"To harvest the will you'll want to plant demon crystals of each type and use ritual of the fractured crystal to gather them as they grow. ",
+		"Finally to collect the shards you'll want to use a ritual of the zephyr or item collectors. "
+	],
+	dependencies: [
+		"d13475fe"
+	],
+	tasks: [{
+		uid: "a3694a8d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal"
+		}]
+	}]
+}

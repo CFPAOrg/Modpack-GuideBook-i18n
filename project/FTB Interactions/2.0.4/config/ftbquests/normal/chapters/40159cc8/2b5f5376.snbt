@@ -1,1 +1,32 @@
-{title: "天域坩埚", x: -1.d, y: -11.d, shape: "rsquare", text: ["天域坩埚是在月球的地牢里发现的。它能够使用星能液和激光净化其中的晶体。"], dependencies: ["fe50d67e"], tasks: [{uid: "7ca9bdf1", type: "item", items: [{id: "modularmachinery:itemblueprint", tag: {dynamicmachine: "modularmachinery:sky_cauldron"}}]}], rewards: [{uid: "8c8bab31", type: "item", item: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "extrautils2:suncrystal"}}]}
+{
+	title: "Sky Cauldron",
+	x: -1.0d,
+	y: -11.0d,
+	shape: "rsquare",
+	text: [
+		"The sky cauldron is found in moon dungeons beneath the surface. It's capable of transforming liquid starlight and directed laser light into an a light cruicible of sorts. Inside it is able to perfect crystaline harmonics, thus purifying them."
+	],
+	dependencies: [
+		"fe50d67e"
+	],
+	tasks: [{
+		uid: "7ca9bdf1",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:sky_cauldron"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8c8bab31",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:suncrystal"
+		}
+	}]
+}

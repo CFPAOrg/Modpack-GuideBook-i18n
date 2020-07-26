@@ -1,1 +1,38 @@
-{title: "易燃易爆炸！", x: 3.d, y: -20.d, description: "使用化学反应器来混合液氢和液氧，这样你就可以得到极高活性的液体燃料用于推动火箭。有了自动化生产的火箭燃料，你现在可以建造火箭并发射向太空了。", dependencies: ["91d4c602"], tasks: [{uid: "77967da3", type: "item", items: [{id: "gregtech:meta_item_1", tag: {Fluid: {FluidName: "rocket_fuel", Amount: 1000}}, Damage: 32762s}], "ignore_damage": "true"}], rewards: [{uid: "f291c849", type: "item", item: {id: "gregtech:meta_item_1", tag: {Fluid: {FluidName: "rocket_fuel", Amount: 1000}}, Damage: 32762s}}]}
+{
+	title: "Explosive!",
+	x: 3.0d,
+	y: -20.0d,
+	description: "By combining cryogenic hydrogen and oxygen in a chemical reactor you'll have a highly reactive mixture capable of rocket propulsion. With production now automated for your rocket you are ready to build and launch into space. ",
+	dependencies: [
+		"91d4c602"
+	],
+	tasks: [{
+		uid: "77967da3",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "rocket_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "f291c849",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "rocket_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

@@ -1,1 +1,32 @@
-{x: -19.d, y: -2.d, text: ["物品阀门将允许你放置物品或从世界上拾起物品。它将世界中的目标空气方块视为一个物品栏，你可以创建一个与那个“物品栏”交互的程序。"], dependencies: ["877f5f61"], tasks: [{uid: "2607d601", type: "item", items: [{item: "superfactorymanager:cable_intake"}]}], rewards: [{uid: "6ad45201", type: "item", item: "actuallyadditions:block_phantomface"}, {uid: "e56e0369", type: "item", item: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "actuallyadditions:item_phantom_connector"}}]}
+{
+	x: -19.0d,
+	y: -2.0d,
+	text: [
+		"The item valve will allow you to place items or pickup items from the world. It treats the target in world block space as an inventory as far as it's concerned and you can create your programs to interact with that \"inventory\"."
+	],
+	dependencies: [
+		"877f5f61"
+	],
+	tasks: [{
+		uid: "2607d601",
+		type: "item",
+		items: [{
+			item: "superfactorymanager:cable_intake"
+		}]
+	}],
+	rewards: [{
+		uid: "6ad45201",
+		type: "item",
+		item: "actuallyadditions:block_phantomface"
+	},
+	{
+		uid: "e56e0369",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_phantom_connector"
+		}
+	}]
+}

@@ -1,1 +1,20 @@
-{title: "准备进入电力时代。", x: -1.5d, y: 4.d, shape: "diamond", text: ["现在你可以进入LV阶段啦，你最好去看一眼电源解决方案的任务章节，确保你有足够的蒸汽产出，否则你可能会一直等到海枯石烂。"], dependencies: ["2e003362"], size: 2.d, tasks: [{uid: "ee1beaf3", type: "item", items: [{item: "gregtech:machine 1 501"}]}]}
+{
+	title: "Get ready to enter the age of electricity.",
+	x: -1.5d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"You can jump into LV now, you might be wise to go and visit the power solutions tab and make sure you have a steam setup that doesnt make you wait forever and ever."
+	],
+	dependencies: [
+		"2e003362"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ee1beaf3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 501"
+		}]
+	}]
+}

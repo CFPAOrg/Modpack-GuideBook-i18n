@@ -1,1 +1,17 @@
-{x: -12.d, y: -6.d, text: ["升级过的储物箱还是存不下？这个玩意可以存储4096000件物品！"], dependencies: ["578d70df"], tasks: [{uid: "feea387e", type: "item", items: [{item: "gregtech:machine 1 1010"}]}]}
+{
+	x: -12.0d,
+	y: -6.0d,
+	text: [
+		"Upgraded Caches not enough storage, well this bad boy will store you 4096000 items!"
+	],
+	dependencies: [
+		"578d70df"
+	],
+	tasks: [{
+		uid: "feea387e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1010"
+		}]
+	}]
+}

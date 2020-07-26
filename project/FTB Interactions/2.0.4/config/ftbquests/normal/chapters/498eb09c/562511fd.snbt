@@ -1,1 +1,25 @@
-{title: "太冷了，你不能拿着它", icon: {id: "gregtech:meta_item_1", tag: {Fluid: {FluidName: "liquid_air", Amount: 1000}}, Damage: 32762s}, x: -10.d, y: -6.d, shape: "square", description: "真空冷冻机可以处理空气，低温和高压能够使其变成液体形式，用以离心以获得大量有用的气体。 ", text: ["这个过程产生的液态空气可以通过离心得到多种气体产物。这个包里还有一种充气鸡，它有类似的功能。你选择哪种方式都可以，但你一定会需要很多各类气体！"], tasks: [{uid: "212aefea", type: "checkmark", title: "太冷了，你不能拿着它"}]}
+{
+	title: "Too Cold To Hold",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "liquid_air",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -10.0d,
+	y: -6.0d,
+	shape: "square",
+	description: "By running Air through a vacuum freezer the low temperatures and compression allow it to take on a liquid form which can be centrifuged to obtain vast amounts of useful gases. ",
+	text: [
+		"This will produce gas that you can centrifuge to get all kinds of byproducts. There is also a gassy chicken which can assist in a similar manner, whichever way you chose is up to you but you'll need a lot of this!"
+	],
+	tasks: [{
+		uid: "212aefea",
+		type: "checkmark",
+		title: "Too Cold To Hold"
+	}]
+}

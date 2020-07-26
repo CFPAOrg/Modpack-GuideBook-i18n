@@ -1,1 +1,12 @@
-{title: "安全的空间", icon: "projecte:transmutation_table", description: ["欢迎来到 Interactions！从这一条任务线开始。", "", "只有在这一章，你的任务线是基本线性的。在进入主世界之后，你的任务将分散在多个分支之间。祝你好运！"], "always_invisible": "false", group: 0, "default_quest_shape": ""}
+{
+	title: "The Safe Space",
+	icon: "projecte:transmutation_table",
+	description: [
+		"Welcome to Interactions! Start with this questline. ",
+		"",
+		"This will be the only tab where progression is mostly linear, after you leave the void world, progression will be scattered across multiple branches across tabs. Good luck!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

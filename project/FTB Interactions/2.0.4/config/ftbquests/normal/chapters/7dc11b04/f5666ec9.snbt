@@ -1,1 +1,25 @@
-{x: 1.5d, y: -5.d, shape: "diamond", description: "数字化苦难之井使用编程过的数据模型和催化剂。催化剂越好，数据模型等级越高，它为连接的祭坛产生的血液就越多。 ", text: ["献祭符文也会增加数字化苦难之井的血液产出。"], dependencies: ["1d37b267", "11fc0573"], tasks: [{uid: "b69f7401", type: "item", items: [{item: "deepmoblearningbm:digital_agonizer"}]}], rewards: [{uid: "7e3cc5c9", type: "item", item: "gregtech:machine 1 10658"}]}
+{
+	x: 1.5d,
+	y: -5.0d,
+	shape: "diamond",
+	description: "The digital mob agonizer takes a programmed data module and optionally a catalyst. The better the catalyst and higher the datamodel the more blood it will produce for the linked altar. ",
+	text: [
+		"Adding runes of Sacrifice will increase the amount of blood the agonizer produces as well."
+	],
+	dependencies: [
+		"1d37b267",
+		"11fc0573"
+	],
+	tasks: [{
+		uid: "b69f7401",
+		type: "item",
+		items: [{
+			item: "deepmoblearningbm:digital_agonizer"
+		}]
+	}],
+	rewards: [{
+		uid: "7e3cc5c9",
+		type: "item",
+		item: "gregtech:machine 1 10658"
+	}]
+}

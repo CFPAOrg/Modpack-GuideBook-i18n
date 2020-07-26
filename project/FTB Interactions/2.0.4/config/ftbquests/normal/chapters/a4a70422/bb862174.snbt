@@ -1,1 +1,21 @@
-{x: -12.d, y: -5.d, text: ["它用于储存大量物品，内部库存能够储存同种物品2147483647件", "黑洞存储器将在被破坏时保留其内容物品，可以通过将其置于一个合成空格中来清除。 "], dependencies: ["fcd1bb3f"], tasks: [{uid: "b2a02411", type: "item", items: [{ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "industrialforegoing:black_hole_unit"}]}]}
+{
+	x: -12.0d,
+	y: -5.0d,
+	text: [
+		"It is used to store large quantities of items, with an internal inventory capable of holding 2,147,483,647 of a single item",
+		"The Black Hole Unit will keep its contents when broken and can be cleared by placing it in a crafting grid. "
+	],
+	dependencies: [
+		"fcd1bb3f"
+	],
+	tasks: [{
+		uid: "b2a02411",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:black_hole_unit"
+		}]
+	}]
+}

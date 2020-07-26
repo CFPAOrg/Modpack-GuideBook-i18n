@@ -1,1 +1,19 @@
-{x: -5.d, y: 4.d, text: ["比双足飞龙靴的能力更好，神龙靴可以免疫从高空摔落的伤害，增加跳跃高度和自动跨上一格高方块的能力。"], dependencies: ["75c24ed9"], tasks: [{uid: "12057f2c", type: "item", items: [{item: "draconicevolution:draconic_boots"}], "ignore_damage": "true", "ignore_nbt": 1b}]}
+{
+	x: -5.0d,
+	y: 4.0d,
+	text: [
+		"On top of the abilities of the Wyvern Boots, the Draconic Boots protect the player from fall damage from any height, increases the maximum jumping height and allows players to walk up single blocks as if they were stairs. "
+	],
+	dependencies: [
+		"75c24ed9"
+	],
+	tasks: [{
+		uid: "12057f2c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

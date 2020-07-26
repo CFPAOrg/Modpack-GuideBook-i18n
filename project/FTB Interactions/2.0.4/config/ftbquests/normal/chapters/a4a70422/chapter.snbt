@@ -1,1 +1,10 @@
-{title: "供应链管理", icon: "minecraft:chest", description: ["你想要的物流都在这"], "always_invisible": "false", group: 0, "default_quest_shape": ""}
+{
+	title: "Supply Chain Management",
+	icon: "minecraft:chest",
+	description: [
+		"For all of your logistics needs"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

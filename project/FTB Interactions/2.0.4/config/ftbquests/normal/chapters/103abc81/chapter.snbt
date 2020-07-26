@@ -1,1 +1,14 @@
-{title: "永不停息", icon: "cyberware:brain_upgrades 1 4", description: ["对主要发展目标非常宽泛的概述。", "", "依据目前的任务线进度而出现的提示", "如果你迷失了方向，你可以回到这个任务线来指导自己下一步要在哪个任务线上工作。", ""], "always_invisible": "false", group: 0, "default_quest_shape": ""}
+{
+	title: "Forever Forward",
+	icon: "cyberware:brain_upgrades 1 4",
+	description: [
+		"A Very broad overview of primary progression goals.",
+		"",
+		"Tips on which quest lines to focus on as you progress.",
+		"If you ever get lost you can reffer back to this quest chain for guidance on which questlines to work on next.",
+		""
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

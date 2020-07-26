@@ -1,1 +1,62 @@
-{title: "太阳是个奇妙的存在，如同一位雄伟的父亲！", x: 0.d, y: -2.5d, description: "欢迎来到游戏末期的燃料生产。这可能是你建造的最复杂的多方块结构，所以仔细听着。", text: ["聚变反应堆的配方在启动前需要一定的能量。在适当的位置添加能源仓可使反应堆的缓存增加10万。更多的能源仓解锁更多的配方。", "MKI反应堆可以生产氦和氧等离子体，以及制造稀有材料，比如锇、铁、铿铀、龙锭等等。"], dependencies: ["02eeb70a"], tasks: [{uid: "607ff657", type: "item", items: [{item: "gregtech:machine 1 2504"}]}, {uid: "ee722700", type: "item", items: [{item: "gregtech:wire_coil 1 7"}], count: 32L}, {uid: "614fbf54", type: "item", items: [{item: "gregtech:machine 1 712"}], count: 2L}, {uid: "8c639901", type: "item", items: [{item: "gregtech:machine_casing 1 6"}], count: 121L}, {uid: "e3160d5b", type: "item", items: [{item: "gregtech:machine 1 713"}]}], rewards: [{uid: "9b357083", type: "item", item: "harvestcraft:padthaiitem"}, {uid: "267b1135", type: "item", item: "gregtech:machine 1 819", count: 2}]}
+{
+	title: "The sun is a wondrous body. Like a magnificant father!",
+	x: 0.0d,
+	y: -2.5d,
+	description: "Welcome to endgame fuel generation. This is probably the most complicated multiblock you'll be making, so listen carefully.",
+	text: [
+		"A fusion reactor recipe requires a certain total amount of energy before it starts. Adding energy hatches at the appropriate locations increases the reactor's buffer by 100k. More hatches unlocks more recipes.",
+		"MKI reactor can produce Helium and Oxygen Plasma and manufacture rare materials like Osmium, Iron, Duranium, Draconium and others."
+	],
+	dependencies: [
+		"02eeb70a"
+	],
+	tasks: [{
+		uid: "607ff657",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2504"
+		}]
+	},
+	{
+		uid: "ee722700",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil 1 7"
+		}],
+		count: 32L
+	},
+	{
+		uid: "614fbf54",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}],
+		count: 2L
+	},
+	{
+		uid: "8c639901",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 6"
+		}],
+		count: 121L
+	},
+	{
+		uid: "e3160d5b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}]
+	}],
+	rewards: [{
+		uid: "9b357083",
+		type: "item",
+		item: "harvestcraft:padthaiitem"
+	},
+	{
+		uid: "267b1135",
+		type: "item",
+		item: "gregtech:machine 1 819",
+		count: 2
+	}]
+}

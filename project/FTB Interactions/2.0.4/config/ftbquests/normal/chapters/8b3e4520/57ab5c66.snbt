@@ -1,1 +1,33 @@
-{title: "龙之心", x: -4.d, y: -3.d, text: ["当到达末地后，你将面对末影龙。你需要杀掉它并获得龙心。如果它已经被杀了，你就得复活龙再杀掉。"], dependencies: ["ba6da38e"], tasks: [{uid: "1df63411", type: "item", items: [{item: "draconicevolution:dragon_heart"}]}], rewards: [{uid: "c599b77d", type: "item", item: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "iceandfire:dragonegg_silver"}}, {uid: "9fa6cbe1", type: "item", item: "harvestcraft:cantonesenoodlesitem"}]}
+{
+	title: "Dragon's Heart",
+	x: -4.0d,
+	y: -3.0d,
+	text: [
+		"Upon arrival you'll be confronted by the ender dragon. You'll need to kill it and obtain its heart. If it's already been killed you'll need to perform the ritual to resummon him first."
+	],
+	dependencies: [
+		"ba6da38e"
+	],
+	tasks: [{
+		uid: "1df63411",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dragon_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "c599b77d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_silver"
+		}
+	},
+	{
+		uid: "9fa6cbe1",
+		type: "item",
+		item: "harvestcraft:cantonesenoodlesitem"
+	}]
+}

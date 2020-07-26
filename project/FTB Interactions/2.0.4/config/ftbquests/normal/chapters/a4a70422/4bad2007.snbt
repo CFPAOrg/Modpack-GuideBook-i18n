@@ -1,1 +1,23 @@
-{x: -21.d, y: 3.d, text: ["拥有很高的传送效率，而且传输距离不止一格。。", "可调节的物品中继器是一种整洁的转移物品的方式，虽然不总是最优的解决方案，但是我们给你留着这条路。"], dependencies: ["c193d3a6"], tasks: [{uid: "2a9c989a", type: "item", items: [{item: "actuallyadditions:block_laser_relay_item_whitelist"}]}], rewards: [{uid: "c79db61e", type: "item", item: "enderio:block_buffer"}]}
+{
+	x: -21.0d,
+	y: 3.0d,
+	text: [
+		"High transfer rate over more then 1 block.",
+		"Configurable item relays are a neat looking way to move items around, not always the ideal solution but we leave their uses up to you!"
+	],
+	dependencies: [
+		"c193d3a6"
+	],
+	tasks: [{
+		uid: "2a9c989a",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_item_whitelist"
+		}]
+	}],
+	rewards: [{
+		uid: "c79db61e",
+		type: "item",
+		item: "enderio:block_buffer"
+	}]
+}
