@@ -1,0 +1,65 @@
+{
+	"onScreenNotifications": [
+		{
+			"id": "darkosto",
+			"soundlocation": "minecraft:entity.player.levelup",
+			"lines": [
+				"§9§n生日快乐！！！",
+				"§2祝你生日快乐！",
+				"§2祝你生日快乐！",
+				"§5祝你生日快乐 Darkosto！",
+				"§2祝你生日快乐！"
+			]
+		},
+		{
+			"id": "example",
+			"soundlocation": "minecraft:entity.creeper.primed",
+			"lines": [
+				"§c§nBoom！！！",
+				"§e我吓到你了吗？"
+			]
+		},
+		{
+			"id": "stage_one",
+			"lines": [
+				"§c§n欢迎来到",
+				"§e第一纪元"
+			]
+		},
+		{
+			"id": "stage_two",
+			"lines": [
+				"§c§n欢迎来到",
+				"§e第二纪元"
+			]
+		},
+		{
+			"id": "stage_three",
+			"lines": [
+				"§c§n欢迎来到",
+				"§e第三纪元"
+			]
+		},
+		{
+			"id": "stage_four",
+			"lines": [
+				"§c§n欢迎来到",
+				"§e第四纪元"
+			]
+		},
+		{
+			"id": "stage_five",
+			"lines": [
+				"§c§n欢迎来到",
+				"§e第五纪元"
+			]
+		},
+		{
+			"id": "stage_creative",
+			"lines": [
+				"§c§n欢迎来到",
+				"§e创造纪元"
+			]
+		}
+	]
+}

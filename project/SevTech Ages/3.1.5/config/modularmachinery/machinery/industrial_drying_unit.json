@@ -1,0 +1,207 @@
+{
+  "registryname": "industrial_drying_unit",
+  "localizedname": "\u5de5\u4e1a\u5e72\u71e5\u5668",
+  "color": "4c4c4c",
+  "parts": [
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockoutputbus"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockenergyinputhatch"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockinputbus"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    }
+  ]
+}
