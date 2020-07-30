@@ -648,36 +648,36 @@
         "version": "2.0.4",
         "windows": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-2.0.4-windows.zip",
-          "md5": "0626174305ad545a1feeb0b249603db2",
-          "sha1": "2b3461334d0c865e71bce613886ed420e6b147b5"
+          "md5": "8258a1c11ff79e416537c2bf09b8dd9b",
+          "sha1": "d30fbcf557b011cc76898f645f2e49f0fa71618e"
         },
         "linux": {
           "url": "https://modpack-1257209710.cos.ap-guangzhou.myqcloud.com/FTB%20Interactions-2.0.4-linux.zip",
-          "md5": "0626174305ad545a1feeb0b249603db2",
-          "sha1": "2b3461334d0c865e71bce613886ed420e6b147b5"
+          "md5": "8258a1c11ff79e416537c2bf09b8dd9b",
+          "sha1": "d30fbcf557b011cc76898f645f2e49f0fa71618e"
         },
         "author": [
-          "xinyuan-liu",
-          "idyllic_bean",
-          "TSUAGARI_",
-          "shanzhaikabi (shanzhai)",
-          "idyllist",
-          "zjuwyz",
-          "YBGS39",
-          "10935336",
+          "Rebirth_Meng",
           "starlocket",
-          "SPRunavi",
-          "QingShuiMuYang",
-          "SakuraLin",
-          "wje5",
+          "idyllist",
           "JackMeds",
+          "wje5",
+          "QingShuiMuYang",
+          "10935336",
+          "idyllic_bean",
           "waaaaou",
-          "ion (Fearless_ion)",
-          "Death-123",
-          "mudapi",
+          "SPRunavi",
           "Clefal (TUsama)",
+          "YBGS39",
+          "ion (Fearless_ion)",
+          "TSUAGARI_",
+          "mudapi",
+          "Death-123",
+          "zjuwyz",
+          "shanzhaikabi (shanzhai)",
           "J1zhimin",
-          "Rebirth_Meng"
+          "SakuraLin",
+          "xinyuan-liu"
         ],
         "time": 1595659555
       }
