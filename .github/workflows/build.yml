@@ -28,4 +28,4 @@ jobs:
     - name: install pip requirements
       run: pip3 install -r requirements.txt
     - name: Run yarn 
-      run: yarn ./page
+      run: yarn --cwd ./page
