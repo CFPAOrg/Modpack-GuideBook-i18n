@@ -1,2 +1,2 @@
-resourcePacks:["Minecraft-Mod-Language-Modpack.zip","FTBInteractions-i18n"]
+resourcePacks:["Minecraft-Mod-Language-Modpack.zip"]
 lang:zh_cn
