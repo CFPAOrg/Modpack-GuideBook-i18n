@@ -9,6 +9,12 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 131"
+		},
+		{
+			item: "gregtech:machine 1 130"
+		},
+		{
+			item: "gregtech:machine 1 132"
 		}]
 	}]
 }

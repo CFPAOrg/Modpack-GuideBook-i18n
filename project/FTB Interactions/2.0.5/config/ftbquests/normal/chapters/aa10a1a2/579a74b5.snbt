@@ -22,5 +22,16 @@
 			Damage: 32762s
 		}],
 		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "65ff88b5",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32766"
+	},
+	{
+		uid: "3f9403f4",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 8
 	}]
 }

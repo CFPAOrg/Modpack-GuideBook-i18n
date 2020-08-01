@@ -14,7 +14,8 @@
 		type: "item",
 		items: [{
 			item: "integrateddynamics:squeezer"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "b0fceb8b",

@@ -10,8 +10,8 @@
 		items: [{
 			id: "thermalexpansion:device",
 			tag: {
-				RSControl: 0,
-				Facing: 3,
+				RSControl: 0b,
+				Facing: 3b,
 				Energy: 0,
 				SideCache: [B;
 					1b,
@@ -23,6 +23,7 @@
 				]
 			},
 			Damage: 3s
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

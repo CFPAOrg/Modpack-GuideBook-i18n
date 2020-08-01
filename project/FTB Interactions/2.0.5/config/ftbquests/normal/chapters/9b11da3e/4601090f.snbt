@@ -8,7 +8,7 @@
 		Damage: 43s
 	},
 	x: -3.0d,
-	y: -7.0d,
+	y: -4.0d,
 	dependencies: [
 		"2e6c74d5"
 	],

@@ -1,0 +1,259 @@
+{
+	title: "末影杀手",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "tconstruct:shuriken",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				Accuracy: 1.0f,
+				MiningSpeed: 5.8125f,
+				FreeModifiers: 3,
+				Durability: 430,
+				HarvestLevel: 5,
+				Attack: 5.375f
+			},
+			Unbreakable: 1b,
+			display: {
+				Name: "Void Star"
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				Accuracy: 1.0f,
+				MiningSpeed: 5.8824997f,
+				FreeModifiers: 3,
+				Durability: 356,
+				HarvestLevel: 5,
+				Attack: 5.4300013f
+			},
+			Special: {
+				Categories: [
+					"projectile",
+					"tool",
+					"no_melee"
+				],
+				alienStatBonus: {
+					identifier: "",
+					color: 0,
+					attack: 0.054999992f,
+					durability: 12,
+					speed: 0.07f
+				},
+				alienStatPool: {
+					identifier: "",
+					color: 16777215,
+					attack: 1.329999f,
+					durability: 267,
+					speed: 1.8689983f
+				}
+			},
+			TinkerData: {
+				UsedModifiers: 5,
+				Materials: [
+					"end_steel",
+					"stone",
+					"lumium_plustic",
+					"stone"
+				],
+				Modifiers: [
+					"reinforced",
+					"creative"
+				]
+			},
+			Modifiers: [{
+				identifier: "enderference",
+				color: -262989,
+				level: 1
+			},
+			{
+				identifier: "alien",
+				color: -262989,
+				level: 1
+			},
+			{
+				identifier: "unnatural",
+				color: -262989,
+				level: 1
+			},
+			{
+				identifier: "cheapskate",
+				color: -6710887,
+				level: 1
+			},
+			{
+				identifier: "cheap",
+				color: -6710887,
+				level: 1
+			},
+			{
+				identifier: "illuminati",
+				color: -171,
+				level: 1
+			},
+			{
+				identifier: "glowing",
+				color: -171,
+				level: 1
+			},
+			{
+				identifier: "reinforced",
+				color: 5254787,
+				level: 5
+			},
+			{
+				identifier: "creative",
+				color: 0,
+				level: 5
+			}],
+			Traits: [
+				"enderference",
+				"alien",
+				"unnatural",
+				"cheapskate",
+				"cheap",
+				"illuminati",
+				"glowing",
+				"reinforced"
+			]
+		}
+	},
+	x: -3.0d,
+	y: -7.0d,
+	text: [
+		"你需要展示出你对虚空生物的统治力来证明你的价值。杀死100个末影人以获得这个虚空之星。"
+	],
+	dependencies: [
+		"f8958b59"
+	],
+	tasks: [{
+		uid: "bc6a41a2",
+		type: "kill",
+		entity: "minecraft:enderman",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "a50cf36c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 5.8125f,
+					FreeModifiers: 3,
+					Durability: 430,
+					HarvestLevel: 5,
+					Attack: 5.375f
+				},
+				Unbreakable: 1b,
+				display: {
+					Name: "Void Star"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 5.8545f,
+					FreeModifiers: 3,
+					Durability: 352,
+					HarvestLevel: 5,
+					Attack: 5.410001f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"tool",
+						"no_melee"
+					],
+					alienStatBonus: {
+						identifier: "",
+						color: 0,
+						attack: 0.034999996f,
+						durability: 8,
+						speed: 0.042f
+					},
+					alienStatPool: {
+						identifier: "",
+						color: 16777215,
+						attack: 1.329999f,
+						durability: 267,
+						speed: 1.8689983f
+					}
+				},
+				TinkerData: {
+					UsedModifiers: 5,
+					Materials: [
+						"end_steel",
+						"stone",
+						"lumium_plustic",
+						"stone"
+					],
+					Modifiers: [
+						"reinforced",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "enderference",
+					color: -262989,
+					level: 1
+				},
+				{
+					identifier: "alien",
+					color: -262989,
+					level: 1
+				},
+				{
+					identifier: "unnatural",
+					color: -262989,
+					level: 1
+				},
+				{
+					identifier: "cheapskate",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "cheap",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "illuminati",
+					color: -171,
+					level: 1
+				},
+				{
+					identifier: "glowing",
+					color: -171,
+					level: 1
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 5
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 5
+				}],
+				Traits: [
+					"enderference",
+					"alien",
+					"unnatural",
+					"cheapskate",
+					"cheap",
+					"illuminati",
+					"glowing",
+					"reinforced"
+				]
+			}
+		}
+	}]
+}

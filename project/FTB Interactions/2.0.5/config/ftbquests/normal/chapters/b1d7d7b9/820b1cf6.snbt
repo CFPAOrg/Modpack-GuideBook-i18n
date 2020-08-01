@@ -26,5 +26,11 @@
 		uid: "29f89fd2",
 		type: "item",
 		item: "cyclicmagic:cable_wireless_fluid"
+	},
+	{
+		uid: "6d9f4491",
+		type: "item",
+		item: "mekanism:basicblock2",
+		count: 42
 	}]
 }

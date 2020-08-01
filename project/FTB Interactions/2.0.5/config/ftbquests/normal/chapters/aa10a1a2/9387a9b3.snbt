@@ -21,7 +21,11 @@
 			},
 			Damage: 32762s
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "502baf80",
+		type: "item",
+		item: "gregtech:machine 1 481"
 	}]
 }

@@ -25,5 +25,11 @@
 		{
 			item: "gregtech:machine 1 10674"
 		}]
+	}],
+	rewards: [{
+		uid: "7e96a7bb",
+		type: "item",
+		team_reward: true,
+		item: "randomthings:spectrecoil_number"
 	}]
 }

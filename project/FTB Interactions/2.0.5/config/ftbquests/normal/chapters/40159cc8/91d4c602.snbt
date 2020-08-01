@@ -34,7 +34,12 @@
 				Amount: 1000
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "085b0dc7",
+		type: "item",
+		item: "thermalfoundation:material 1 1025",
+		count: 32
 	}]
 }

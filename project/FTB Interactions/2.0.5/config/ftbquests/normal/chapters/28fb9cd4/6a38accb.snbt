@@ -1,0 +1,50 @@
+{
+	title: "当星空发生了偏移",
+	x: -4.0d,
+	y: 8.0d,
+	shape: "rsquare",
+	text: [
+		"当你进行了共鸣，并开始获得技能经验的之后，你可能发现你犯了个错误，想要重置你的能力。",
+		"更替之星将完全重置你所有的进度，让你重新选择一个起始的共鸣。然而，失去所有这一切可能不是你想要的。",
+		"稍后你可以制作辐射之星，可以停止并保存你的经验。我们现在给你一次免费获取的机会，从这几种星星之中选择一个。去吧！闪耀吧，朋友！"
+	],
+	dependencies: [
+		"efa75c67"
+	],
+	optional: true,
+	tasks: [{
+		uid: "58172dd7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "14054f6b",
+		type: "choice",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				RepairCost: 0,
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.aevitas"
+				},
+				display: {
+					Name: "Aevitas Irradiant Star"
+				}
+			}
+		},
+		table: 1
+	}]
+}

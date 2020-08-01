@@ -9,6 +9,9 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 240"
+		},
+		{
+			item: "gregtech:machine 1 241"
 		}]
 	}],
 	rewards: [{

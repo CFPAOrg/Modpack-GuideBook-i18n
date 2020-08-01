@@ -18,7 +18,7 @@
 	tasks: [{
 		uid: "bf92a8a6",
 		type: "checkmark",
-		title: "恭喜你成功实现了柴油的自动化生产！"
+		title: "恭喜你自动化了柴油的生产！"
 	}],
 	rewards: [{
 		uid: "886e10a5",

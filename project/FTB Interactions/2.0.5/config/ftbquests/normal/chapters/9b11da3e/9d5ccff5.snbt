@@ -20,6 +20,19 @@
 					Amount: 1000
 				}
 			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5570085101611273969L,
+					AS_Amulet_HolderMost: 5678865977197479355L
+				}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "mana_fluid",
+				Amount: 1000
+			}
 		}]
 	}],
 	rewards: [{

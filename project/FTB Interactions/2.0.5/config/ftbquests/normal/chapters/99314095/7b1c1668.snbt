@@ -10,7 +10,10 @@
 	x: -4.0d,
 	y: -2.0d,
 	shape: "gear",
-	description: "这些单块发电机每个每一tick最多产生 1A 的电流。方便的是，GTCE 中的大多数单方块机器只接受1A的最大电流，热力离心机等机器除外。",
+	description: "这些单块发电机每个每一tick最多产生1A的电流。方便的是，GTCE 中的大多数单方块机器只接受1A的最大电流。",
+	text: [
+		""
+	],
 	dependencies: [
 		"6672ed55"
 	],
