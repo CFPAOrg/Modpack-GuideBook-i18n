@@ -1,0 +1,51 @@
+{
+	x: 12.0d,
+	y: -5.0d,
+	dependencies: [
+		"0caae548"
+	],
+	tasks: [{
+		uid: "cdd412a5",
+		type: "item",
+		items: [{
+			id: "embers:ember_jar",
+			tag: {
+				emberCapacity: 2000.0d,
+				ember: 0.0d
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "21ea364a",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "8b3e7c1e",
+		type: "item",
+		item: {
+			id: "embers:ember_bulb",
+			tag: {
+				emberCapacity: 1000.0d,
+				ember: 0.0d,
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -1531181710083275276L,
+						UUIDLeast: -8713164690270517460L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.shielding.name"
+				}
+			}
+		}
+	}]
+}

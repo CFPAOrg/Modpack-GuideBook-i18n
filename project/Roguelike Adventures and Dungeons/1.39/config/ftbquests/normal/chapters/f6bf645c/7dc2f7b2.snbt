@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	dependencies: [
+		"f2c38f58"
+	],
+	tasks: [{
+		uid: "5b0143cf",
+		type: "item",
+		items: [{
+			item: "twilightforest:phantom_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "230ee892",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

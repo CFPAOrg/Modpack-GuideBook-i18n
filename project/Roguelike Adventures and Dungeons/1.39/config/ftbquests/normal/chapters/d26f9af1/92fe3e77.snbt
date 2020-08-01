@@ -1,0 +1,25 @@
+{
+	title: "几乎",
+	x: 2.0d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"884a9547"
+	],
+	hide: true,
+	tasks: [{
+		uid: "967f9bbe",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "c1858a39",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 200
+	}]
+}

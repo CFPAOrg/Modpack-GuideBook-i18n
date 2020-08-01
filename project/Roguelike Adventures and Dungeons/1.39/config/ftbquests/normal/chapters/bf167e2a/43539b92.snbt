@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	dependencies: [
+		"fb7287fc"
+	],
+	tasks: [{
+		uid: "386730cf",
+		type: "item",
+		items: [{
+			item: "aether_legacy:victory_medal"
+		}]
+	}],
+	rewards: [{
+		uid: "58d51b67",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

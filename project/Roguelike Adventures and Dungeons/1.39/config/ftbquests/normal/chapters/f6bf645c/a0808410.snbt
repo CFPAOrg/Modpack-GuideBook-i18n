@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	dependencies: [
+		"a1891947"
+	],
+	tasks: [{
+		uid: "10576b89",
+		type: "item",
+		items: [{
+			item: "twilightforest:lamp_of_cinders"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "43b7a221",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

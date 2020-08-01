@@ -1,0 +1,16 @@
+{
+	x: 11.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "23fc6a91",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bentoboxitem"
+		}]
+	}],
+	rewards: [{
+		uid: "dbe99817",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

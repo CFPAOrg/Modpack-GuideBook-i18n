@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "2fa92fa7",
+		type: "item",
+		items: [{
+			item: "extrautils2:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae117f51",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"这个整合包有一个全局难度系统。基本上来说，你玩游戏的时间越长，难度就越大。",
+		"",
+		"请查看指南部分了解详细信息。"
+	],
+	dependencies: [
+		"ef285682"
+	],
+	tasks: [{
+		uid: "2c360b1f",
+		type: "item",
+		items: [{
+			item: "scalinghealth:healingitem"
+		}]
+	}],
+	rewards: [{
+		uid: "fddbb462",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

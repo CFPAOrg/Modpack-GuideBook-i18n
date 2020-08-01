@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	dependencies: [
+		"28aa7d55"
+	],
+	tasks: [{
+		uid: "582a00e6",
+		type: "item",
+		items: [{
+			item: "rustic:evaporating_basin"
+		}]
+	}],
+	rewards: [{
+		uid: "37e5dcc6",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

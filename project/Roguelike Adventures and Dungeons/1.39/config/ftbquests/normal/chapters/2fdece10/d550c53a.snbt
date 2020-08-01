@@ -1,0 +1,155 @@
+{
+	x: -1.0d,
+	y: -5.0d,
+	dependencies: [
+		"873fa349"
+	],
+	tasks: [{
+		uid: "6658fc85",
+		type: "item",
+		items: [{
+			id: "spartanfire:spear_ice_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "59014f44",
+		type: "item",
+		items: [{
+			id: "spartanfire:pike_ice_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 3286974586419103144L,
+						UUIDLeast: -5031180618642839543L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 4352125799536020761L,
+						UUIDLeast: -8504079971125441915L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.pokey.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ea747a4d",
+		type: "item",
+		items: [{
+			id: "spartanfire:lance_ice_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 7039411366894522316L,
+						UUIDLeast: -4783074014834624882L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8516413006655503284L,
+						UUIDLeast: -5564951256478546667L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cd8fc469",
+		type: "item",
+		items: [{
+			id: "spartanfire:halberd_ice_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -9130555194201521116L,
+						UUIDLeast: -8744013382762300730L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 5879553863967918141L,
+						UUIDLeast: -9017730070346669901L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "77b4ef83",
+		type: "item",
+		items: [{
+			id: "spartanfire:staff_ice_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "958e754f",
+		type: "item",
+		items: [{
+			id: "spartanfire:glaive_ice_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5653400d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "f178464b",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

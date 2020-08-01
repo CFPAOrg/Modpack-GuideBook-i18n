@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"a858eaf2"
+	],
+	tasks: [{
+		uid: "4c3670af",
+		type: "item",
+		items: [{
+			item: "twilightforest:minotaur_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "575c8f57",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

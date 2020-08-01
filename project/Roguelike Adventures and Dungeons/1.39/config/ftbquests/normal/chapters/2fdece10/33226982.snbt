@@ -1,0 +1,110 @@
+{
+	x: 4.0d,
+	y: -4.0d,
+	dependencies: [
+		"1f15bb40",
+		"786a97ec"
+	],
+	tasks: [{
+		uid: "631d4d1c",
+		type: "item",
+		items: [{
+			id: "spartanfire:dagger_jungle_venom",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: 3958160064149407778L,
+						UUIDLeast: -8841181107191539561L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -536942317338408711L,
+						UUIDLeast: -6172180039272566586L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8cd8b394",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_knife_jungle_venom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0953ed7a",
+		type: "item",
+		items: [{
+			id: "spartanfire:longbow_jungle_venom",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7ed74454",
+		type: "item",
+		items: [{
+			id: "spartanfire:crossbow_jungle_venom",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d9939053",
+		type: "item",
+		items: [{
+			item: "spartanfire:javelin_jungle_venom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "72cd5fba",
+		type: "item",
+		items: [{
+			item: "spartanfire:boomerang_jungle_venom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f7b953bc",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_axe_jungle_venom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2a64fb81",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "06365630",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

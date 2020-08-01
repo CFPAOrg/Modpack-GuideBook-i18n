@@ -1,0 +1,29 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1c4a0952",
+		type: "item",
+		items: [{
+			item: "atum:nuits_vanishing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f3b2513",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ded61d1c",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 5
+	}]
+}

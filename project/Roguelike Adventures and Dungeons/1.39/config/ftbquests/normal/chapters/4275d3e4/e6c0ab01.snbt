@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: -1.0d,
+	dependencies: [
+		"ee59fd91"
+	],
+	tasks: [{
+		uid: "cb34f066",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:cragrock"
+		}]
+	}],
+	rewards: [{
+		uid: "71d04890",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	},
+	{
+		uid: "6a58abde",
+		type: "item",
+		item: "thebetweenlands:loot_pot"
+	}]
+}

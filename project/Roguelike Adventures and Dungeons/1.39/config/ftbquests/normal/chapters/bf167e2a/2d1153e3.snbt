@@ -1,0 +1,39 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	dependencies: [
+		"7a2f1c99"
+	],
+	tasks: [{
+		uid: "1697f8ed",
+		type: "item",
+		items: [{
+			item: "aether_legacy:gravitite_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "758b0cc3",
+		type: "item",
+		items: [{
+			item: "aether_legacy:gravitite_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a8cfd1fc",
+		type: "item",
+		items: [{
+			item: "lost_aether:gravitite_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "538ba5f5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

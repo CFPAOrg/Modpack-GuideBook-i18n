@@ -1,0 +1,90 @@
+{
+	title: "海盗",
+	icon: "dungeontactics:pirate_hook",
+	loot_size: 27,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "dungeontactics:pirate_hook",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 16s
+				}],
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "quark:pirate_hat",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_chestplate",
+			tag: {
+				Quality: {},
+				display: {
+					color: 1908001
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_leggings",
+			tag: {
+				Quality: {},
+				display: {
+					color: 1908001
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_boots",
+			tag: {
+				Quality: {},
+				display: {
+					color: 1908001
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "minecraft:torch",
+		count: 16,
+		only_one: true
+	},
+	{
+		item: "minecraft:bread",
+		count: 16,
+		only_one: true
+	},
+	{
+		item: "skewers:skewer_beef_raw",
+		count: 6,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "pirate",
+		item_name: "海盗",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

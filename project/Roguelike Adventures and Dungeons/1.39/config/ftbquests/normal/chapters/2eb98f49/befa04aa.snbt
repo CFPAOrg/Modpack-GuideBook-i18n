@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"4c22bf55"
+	],
+	tasks: [{
+		uid: "29ebf867",
+		type: "item",
+		items: [{
+			item: "embers:mechanical_pump"
+		}]
+	}],
+	rewards: [{
+		uid: "60901528",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

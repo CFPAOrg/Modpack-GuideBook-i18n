@@ -1,0 +1,19 @@
+{
+	x: 14.0d,
+	y: 0.0d,
+	dependencies: [
+		"e2f0fe86"
+	],
+	tasks: [{
+		uid: "5bd3a20c",
+		type: "item",
+		items: [{
+			item: "embers:cinder_plinth"
+		}]
+	}],
+	rewards: [{
+		uid: "5b982b5b",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

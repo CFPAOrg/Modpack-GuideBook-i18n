@@ -1,0 +1,19 @@
+{
+	title: "热带世界",
+	icon: {
+		id: "tropicraft:cocktail",
+		tag: {
+			Ingredients: [{
+				IngredientID: 10b
+			},
+			{
+				IngredientID: 11b
+			}],
+			Color: 15724527,
+			DrinkID: 6b
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

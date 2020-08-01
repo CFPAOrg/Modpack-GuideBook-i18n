@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: -1.0d,
+	dependencies: [
+		"75298381"
+	],
+	tasks: [{
+		uid: "be943c69",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:spores"
+		}]
+	}],
+	rewards: [{
+		uid: "a939b30e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

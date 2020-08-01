@@ -1,0 +1,7 @@
+{
+	title: "交错次元",
+	icon: "thebetweenlands:swamp_talisman",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

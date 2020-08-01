@@ -1,0 +1,19 @@
+{
+	x: 10.0d,
+	y: -3.0d,
+	dependencies: [
+		"1d3c14d5"
+	],
+	tasks: [{
+		uid: "d0c36c2a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:emerald_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "8d50a468",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

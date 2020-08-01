@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: -6.0d,
+	dependencies: [
+		"9251d304"
+	],
+	tasks: [{
+		uid: "446c3162",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}]
+	}],
+	rewards: [{
+		uid: "72445ec0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,87 @@
+{
+	x: -2.0d,
+	y: -5.0d,
+	dependencies: [
+		"873fa349"
+	],
+	tasks: [{
+		uid: "4bd82117",
+		type: "item",
+		items: [{
+			id: "spartanfire:mace_ice_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a3709320",
+		type: "item",
+		items: [{
+			id: "spartanfire:battleaxe_ice_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "31292a0e",
+		type: "item",
+		items: [{
+			id: "spartanfire:hammer_ice_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -1496667500748649945L,
+						UUIDLeast: -7460716565806076665L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8413531686429805265L,
+						UUIDLeast: -6104523088627637997L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a3d62c3e",
+		type: "item",
+		items: [{
+			id: "spartanfire:warhammer_ice_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eaa6f8d3",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "0cc0da43",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	dependencies: [
+		"6bf338d3"
+	],
+	tasks: [{
+		uid: "efec8287",
+		type: "item",
+		items: [{
+			item: "extrautils2:itembuilderswand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d6a4d352",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

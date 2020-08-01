@@ -1,0 +1,19 @@
+{
+	x: 16.0d,
+	y: -2.0d,
+	dependencies: [
+		"6c23386a"
+	],
+	tasks: [{
+		uid: "3b886f35",
+		type: "item",
+		items: [{
+			item: "embers:auto_hammer"
+		}]
+	}],
+	rewards: [{
+		uid: "5b90635e",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

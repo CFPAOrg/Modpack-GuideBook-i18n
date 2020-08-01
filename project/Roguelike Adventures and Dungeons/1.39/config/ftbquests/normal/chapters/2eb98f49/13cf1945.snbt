@@ -1,0 +1,33 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"当它被放置在基岩上会收集余烬晶体和余烬碎片。",
+		"",
+		"灰烬晶体开采机没有交互界面。它要求固体燃料（如煤）通过输送到结构的中心方块。当中心方块有动画并且带有声音时，表示它正在运行。",
+		"",
+		"收集到的余烬碎片和晶体必须泵出中间方块。这可以使用余烬物品管道，或任何其他mod的管道。"
+	],
+	dependencies: [
+		"1135dbfd"
+	],
+	tasks: [{
+		uid: "496cef6f",
+		type: "item",
+		items: [{
+			item: "embers:ember_bore"
+		}]
+	},
+	{
+		uid: "7c634a44",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}],
+	rewards: [{
+		uid: "ab85ef89",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

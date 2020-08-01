@@ -1,0 +1,191 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"526726f6"
+	],
+	tasks: [{
+		uid: "a6b4259a",
+		type: "item",
+		items: [{
+			id: "spartanfire:spear_desert",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -5769574293905782136L,
+						UUIDLeast: -5159380552900731537L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7427773093300618564L,
+						UUIDLeast: -7243645628236353485L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5456642010243183194L,
+						UUIDLeast: -7649140514819006921L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broad.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e836cb3d",
+		type: "item",
+		items: [{
+			id: "spartanfire:pike_desert",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 2190375435631739905L,
+						UUIDLeast: -6486662337805999982L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0bd2c007",
+		type: "item",
+		items: [{
+			id: "spartanfire:lance_desert",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -3644371596736639838L,
+						UUIDLeast: -7087356330215391224L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.short.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e084db82",
+		type: "item",
+		items: [{
+			id: "spartanfire:halberd_desert",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 1975772603969848808L,
+						UUIDLeast: -4955074425522429476L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -609737993133143771L,
+						UUIDLeast: -7175495983109614971L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f1884ae3",
+		type: "item",
+		items: [{
+			id: "spartanfire:staff_desert",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -6228404306607193504L,
+						UUIDLeast: -8672764046443699732L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8718588408779224110L,
+						UUIDLeast: -6476084609910268320L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5babe8d4",
+		type: "item",
+		items: [{
+			id: "spartanfire:glaive_desert",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "76cb91a3",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "143d4745",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

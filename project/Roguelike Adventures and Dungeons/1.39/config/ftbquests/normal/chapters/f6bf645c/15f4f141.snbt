@@ -1,0 +1,21 @@
+{
+	x: -4.0d,
+	y: -3.0d,
+	dependencies: [
+		"874d913b"
+	],
+	tasks: [{
+		uid: "c7c1f5d6",
+		type: "item",
+		items: [{
+			item: "twilightforest:crumble_horn"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cbbbc09c",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

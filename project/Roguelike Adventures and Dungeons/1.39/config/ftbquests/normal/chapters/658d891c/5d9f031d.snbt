@@ -1,0 +1,39 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	dependencies: [
+		"54c01ca5"
+	],
+	tasks: [{
+		uid: "03658d06",
+		type: "item",
+		items: [{
+			item: "iceandfire:iceandfire.deathworm_egg"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fdd2fb6d",
+		type: "item",
+		item: "iceandfire:dragonscales_green",
+		count: 3
+	},
+	{
+		uid: "141a2aec",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "iceandfire:if_troll"
+				}
+			}
+		}
+	},
+	{
+		uid: "936f051c",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 3
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"cc433486"
+	],
+	tasks: [{
+		uid: "bf0f9109",
+		type: "item",
+		items: [{
+			item: "rustic:condenser"
+		}]
+	},
+	{
+		uid: "d4017142",
+		type: "item",
+		items: [{
+			item: "rustic:retort"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "29ce952a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

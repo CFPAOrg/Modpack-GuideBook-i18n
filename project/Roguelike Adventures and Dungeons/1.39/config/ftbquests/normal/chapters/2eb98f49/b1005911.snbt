@@ -1,0 +1,33 @@
+{
+	x: 9.0d,
+	y: -3.0d,
+	dependencies: [
+		"aa46a96b"
+	],
+	tasks: [{
+		uid: "440371c9",
+		type: "item",
+		items: [{
+			item: "embers:stamp_flat"
+		}]
+	},
+	{
+		uid: "b813f0d6",
+		type: "item",
+		items: [{
+			item: "embers:stamp_bar"
+		}]
+	},
+	{
+		uid: "e965c14f",
+		type: "item",
+		items: [{
+			item: "embers:stamp_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "0e2d2dee",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

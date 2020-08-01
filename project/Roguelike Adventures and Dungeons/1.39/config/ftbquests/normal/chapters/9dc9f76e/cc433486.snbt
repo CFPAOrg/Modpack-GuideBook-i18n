@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	dependencies: [
+		"ff8ad0bc"
+	],
+	tasks: [{
+		uid: "c8b114b8",
+		type: "item",
+		items: [{
+			item: "rustic:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "564dba6a",
+		type: "item",
+		item: "akashictome:tome"
+	}]
+}

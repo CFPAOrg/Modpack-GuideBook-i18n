@@ -1,0 +1,53 @@
+{
+	x: 4.0d,
+	y: -4.0d,
+	dependencies: [
+		"51eaf79d"
+	],
+	tasks: [{
+		uid: "3876ddfb",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "beb6861d",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4b1c3e06",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "17f74444",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "db966125",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1b371ac1",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

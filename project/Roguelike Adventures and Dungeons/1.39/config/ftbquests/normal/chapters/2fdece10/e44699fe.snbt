@@ -1,0 +1,166 @@
+{
+	x: 3.0d,
+	y: -4.0d,
+	dependencies: [
+		"1f15bb40",
+		"786a97ec"
+	],
+	tasks: [{
+		uid: "5860861f",
+		type: "item",
+		items: [{
+			id: "spartanfire:greatsword_jungle_venom",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 3206850114592917500L,
+						UUIDLeast: -8753669401750728339L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 3334102265862045762L,
+						UUIDLeast: -8734637717893800565L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6785bb46",
+		type: "item",
+		items: [{
+			id: "spartanfire:katana_jungle_venom",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -3574002798791473446L,
+						UUIDLeast: -8302513452535263407L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7358119970348812010L,
+						UUIDLeast: -8427787718618315101L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.sweeping.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a9ff52c6",
+		type: "item",
+		items: [{
+			id: "spartanfire:longsword_jungle_venom",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 7156098771159239292L,
+						UUIDLeast: -7151120388877035194L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5672867088799020663L,
+						UUIDLeast: -7763148326284410014L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "07d5002a",
+		type: "item",
+		items: [{
+			id: "spartanfire:saber_jungle_venom",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6911314b",
+		type: "item",
+		items: [{
+			id: "spartanfire:rapier_jungle_venom",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -6369197633689597261L,
+						UUIDLeast: -6070751464504539652L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1151506017187183249L,
+						UUIDLeast: -6847030168036055263L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.chipped.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e9918d92",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "c29cae12",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

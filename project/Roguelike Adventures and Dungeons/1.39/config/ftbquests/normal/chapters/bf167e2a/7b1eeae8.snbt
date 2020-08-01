@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"41b137aa"
+	],
+	tasks: [{
+		uid: "005bb582",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_ring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "207d46e2",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_pendant"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9757cd00",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

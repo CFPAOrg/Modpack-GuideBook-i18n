@@ -1,0 +1,24 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"1c980ee3"
+	],
+	tasks: [{
+		uid: "c6c2d320",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:alembic"
+		}]
+	}],
+	rewards: [{
+		uid: "7eeffc84",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	},
+	{
+		uid: "15f7a9e8",
+		type: "item",
+		item: "thebetweenlands:loot_pot 1 4"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: 15.0d,
+	y: -1.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0d8f4a31",
+		type: "item",
+		items: [{
+			item: "atum:shus_breath"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7ff4c14d",
+		type: "item",
+		items: [{
+			item: "atum:shus_exile"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bf62da14",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "8daaea40",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 5
+	}]
+}

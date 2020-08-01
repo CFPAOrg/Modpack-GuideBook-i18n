@@ -1,0 +1,34 @@
+{
+	x: 9.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f760d619",
+		type: "item",
+		items: [{
+			item: "atum:anubiss_mercy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "61a47124",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "abdc03ca",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 5
+	},
+	{
+		uid: "3abb5741",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

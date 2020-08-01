@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"be1b2bf1"
+	],
+	tasks: [{
+		uid: "0550c6b6",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "a1534b51",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "daebfdf3",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

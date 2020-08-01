@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "62056d1f",
+		type: "item",
+		items: [{
+			item: "ebwizardry:magic_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "86db3540",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

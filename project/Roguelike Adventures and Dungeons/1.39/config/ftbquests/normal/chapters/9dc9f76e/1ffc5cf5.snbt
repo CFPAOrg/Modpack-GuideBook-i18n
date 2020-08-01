@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: -7.0d,
+	dependencies: [
+		"4ef907ec"
+	],
+	tasks: [{
+		uid: "94082da2",
+		type: "item",
+		items: [{
+			item: "minecraft:brewing_stand"
+		}]
+	}],
+	rewards: [{
+		uid: "3435ce88",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

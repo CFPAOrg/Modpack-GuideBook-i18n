@@ -1,0 +1,103 @@
+{
+	title: "新家",
+	x: 0.0d,
+	y: 0.0d,
+	description: "制作其中一个",
+	text: [
+		"帐篷有各种尺寸：从小型（5x5）、中型（7x7）和大型（9x9）到大型（11x11）、巨型（13x13）和巨型（15x15）。"
+	],
+	dependencies: [
+		"44c9367a"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b57c88aa",
+		type: "item",
+		items: [{
+			id: "yurtmod:tent",
+			tag: {
+				TentData: {
+					TentColor: 0,
+					TentType: 0b,
+					WidthCur: 0b,
+					DepthCur: 0b,
+					ID: -32768L
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "008b7a33",
+		type: "item",
+		items: [{
+			id: "yurtmod:tent",
+			tag: {
+				TentData: {
+					TentColor: 0,
+					TentType: 1b,
+					WidthCur: 0b,
+					DepthCur: 0b,
+					ID: -32768L
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b2de320c",
+		type: "item",
+		items: [{
+			id: "yurtmod:tent",
+			tag: {
+				TentData: {
+					TentColor: 0,
+					TentType: 2b,
+					WidthCur: 0b,
+					DepthCur: 0b,
+					ID: -32768L
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c949ed22",
+		type: "item",
+		items: [{
+			id: "yurtmod:tent",
+			tag: {
+				TentData: {
+					TentColor: 0,
+					TentType: 3b,
+					WidthCur: 0b,
+					DepthCur: 0b,
+					ID: -32768L
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "db1d3320",
+		type: "item",
+		items: [{
+			id: "yurtmod:tent",
+			tag: {
+				TentData: {
+					TentColor: 0,
+					TentType: 4b,
+					WidthCur: 0b,
+					DepthCur: 0b,
+					ID: -32768L
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81f63b3b",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

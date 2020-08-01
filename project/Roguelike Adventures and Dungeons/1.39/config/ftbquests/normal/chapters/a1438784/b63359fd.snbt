@@ -1,0 +1,25 @@
+{
+	x: 12.0d,
+	y: 3.0d,
+	dependencies: [
+		"fe4f9c01"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f0422d76",
+		type: "item",
+		items: [{
+			item: "atum:loot_diamond_idol"
+		}]
+	}],
+	rewards: [{
+		uid: "d395b876",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a0052ff7",
+		type: "item",
+		item: "atum:relic_ore"
+	}]
+}

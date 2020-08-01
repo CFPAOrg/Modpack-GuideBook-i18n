@@ -1,0 +1,28 @@
+{
+	title: "帐篷锤",
+	x: 0.0d,
+	y: 1.0d,
+	description: "帐篷不会从天而降的！",
+	text: [
+		"使用帐篷物品将在您选择的位置以帐篷形状放置框架块。然后用帐篷槌敲打每一块。这将需要几分钟的现实时间，所以不要等到夜幕降临才开始！",
+		"",
+		"查看指南了解有关此模块的详细信息。"
+	],
+	dependencies: [
+		"90186a89"
+	],
+	tasks: [{
+		uid: "197ce062",
+		type: "item",
+		items: [{
+			item: "yurtmod:mallet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52095b69",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

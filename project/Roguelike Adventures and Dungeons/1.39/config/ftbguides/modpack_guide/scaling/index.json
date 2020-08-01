@@ -1,0 +1,17 @@
+[
+ {
+  "id": "kits",
+  "title": "绷带和急救箱",
+  "icon": "item:scalinghealth:healingitem"
+ },
+ {
+  "id": "crystals",
+  "title": "生命水晶",
+  "icon": "item:scalinghealth:heartcontainer"
+ },
+ {
+  "id": "hearts",
+  "title": "诅咒之心和蕴魔之心",
+  "icon": "item:scalinghealth:difficultychanger"
+ }
+]

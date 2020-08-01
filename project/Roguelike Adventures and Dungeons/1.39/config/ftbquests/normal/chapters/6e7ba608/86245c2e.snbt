@@ -1,0 +1,48 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	dependencies: [
+		"02939a40"
+	],
+	tasks: [{
+		uid: "64120b86",
+		type: "item",
+		items: [{
+			item: "tropicraft:scale_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3e63278f",
+		type: "item",
+		items: [{
+			item: "tropicraft:scale_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6d30a5b0",
+		type: "item",
+		items: [{
+			item: "tropicraft:scale_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "069a692a",
+		type: "item",
+		items: [{
+			item: "tropicraft:scale_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "35f5201d",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

@@ -1,0 +1,113 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"35076070"
+	],
+	tasks: [{
+		uid: "304459ae",
+		type: "item",
+		items: [{
+			id: "spartanfire:battleaxe_fire_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -7289328631156028057L,
+						UUIDLeast: -5258802902248085876L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1147843911997960788L,
+						UUIDLeast: -9214477779284373236L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.chipped.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9705dda6",
+		type: "item",
+		items: [{
+			id: "spartanfire:mace_fire_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 227321559394895526L,
+						UUIDLeast: -7065798030782035249L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "97f19147",
+		type: "item",
+		items: [{
+			id: "spartanfire:warhammer_fire_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0c830137",
+		type: "item",
+		items: [{
+			id: "spartanfire:hammer_fire_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 1231435683846046090L,
+						UUIDLeast: -8829546058488600634L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -4719767769765034390L,
+						UUIDLeast: -6615764892069630219L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

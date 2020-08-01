@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	dependencies: [
+		"41b137aa"
+	],
+	tasks: [{
+		uid: "206cd2c2",
+		type: "item",
+		items: [{
+			item: "lost_aether:zanite_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dab9a32c",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

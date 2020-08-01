@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: -3.0d,
+	dependencies: [
+		"51eaf79d"
+	],
+	tasks: [{
+		uid: "53cab086",
+		type: "item",
+		items: [{
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5fb9f25",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

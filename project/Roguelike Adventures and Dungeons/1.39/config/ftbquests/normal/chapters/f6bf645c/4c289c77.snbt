@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	dependencies: [
+		"10006498"
+	],
+	tasks: [{
+		uid: "c7fc82fc",
+		type: "item",
+		items: [{
+			item: "twilightforest:raven_feather"
+		}]
+	}],
+	rewards: [{
+		uid: "fc8496b0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

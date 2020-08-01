@@ -1,0 +1,32 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"f1e677e8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "76f5c613",
+		type: "item",
+		items: [{
+			item: "atum:loot_diamond_necklace"
+		}]
+	}],
+	rewards: [{
+		uid: "87603452",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7cd26d4b",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 8
+	},
+	{
+		uid: "06c275e6",
+		type: "item",
+		item: "atum:date",
+		count: 2
+	}]
+}

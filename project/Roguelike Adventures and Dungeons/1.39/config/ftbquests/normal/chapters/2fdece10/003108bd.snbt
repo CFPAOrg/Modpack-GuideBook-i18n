@@ -1,0 +1,117 @@
+{
+	x: 2.0d,
+	y: -6.0d,
+	dependencies: [
+		"786a97ec"
+	],
+	tasks: [{
+		uid: "f3176bdc",
+		type: "item",
+		items: [{
+			id: "spartanfire:hammer_jungle",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -1942790488639714880L,
+						UUIDLeast: -6777102909112902903L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -6985822999701927499L,
+						UUIDLeast: -6516581378518547825L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7278734298637225454L,
+						UUIDLeast: -6519067033947532267L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broad.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e5454871",
+		type: "item",
+		items: [{
+			id: "spartanfire:battleaxe_jungle",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a46b9ef3",
+		type: "item",
+		items: [{
+			id: "spartanfire:mace_jungle",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8f942368",
+		type: "item",
+		items: [{
+			id: "spartanfire:warhammer_jungle",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 6196557566184998197L,
+						UUIDLeast: -6335998294371418864L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2411583872344147110L,
+						UUIDLeast: -7634385460814572998L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.thin.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81cdb5dc",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "73b23411",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

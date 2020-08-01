@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: -5.0d,
+	dependencies: [
+		"4ca3d38d"
+	],
+	tasks: [{
+		uid: "18c4f8cc",
+		type: "item",
+		items: [{
+			item: "vc:item_airship_ignition"
+		}]
+	}],
+	rewards: [{
+		uid: "a368bda5",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: -5.0d,
+	dependencies: [
+		"c69b2406"
+	],
+	tasks: [{
+		uid: "d0cf05f0",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:enderman_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "29a85e0f",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

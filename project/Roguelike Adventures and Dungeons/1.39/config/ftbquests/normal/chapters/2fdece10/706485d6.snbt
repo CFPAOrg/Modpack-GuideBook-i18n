@@ -1,0 +1,117 @@
+{
+	x: 5.0d,
+	y: -6.0d,
+	dependencies: [
+		"786a97ec"
+	],
+	tasks: [{
+		uid: "676a093f",
+		type: "item",
+		items: [{
+			id: "spartanfire:dagger_jungle",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 7250664795394492629L,
+						UUIDLeast: -4690951230957358514L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 5909923539439603351L,
+						UUIDLeast: -8700736517219021416L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5164573995315411103L,
+						UUIDLeast: -4794800216137313453L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broad.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "104a17a3",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_axe_jungle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3ad1c8b0",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_knife_jungle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2c6fb1ca",
+		type: "item",
+		items: [{
+			id: "spartanfire:longbow_jungle",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c20db283",
+		type: "item",
+		items: [{
+			id: "spartanfire:crossbow_jungle",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "296542ea",
+		type: "item",
+		items: [{
+			item: "spartanfire:javelin_jungle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b9d5c61d",
+		type: "item",
+		items: [{
+			item: "spartanfire:boomerang_jungle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8481380f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "4b94de4e",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

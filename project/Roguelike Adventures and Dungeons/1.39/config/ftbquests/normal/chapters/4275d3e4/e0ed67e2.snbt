@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"71151cbb"
+	],
+	tasks: [{
+		uid: "120b845f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weeping_blue_petal"
+		}]
+	}],
+	rewards: [{
+		uid: "5f574f0c",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

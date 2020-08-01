@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: -6.0d,
+	text: [
+		"工具、盔甲和武器在进入你的背包时会拥有一个随机词条。使用“锻造台”可以更改工具的词条。把你的工具放在最上面的槽里，把修理它的材料放在下面的槽里。"
+	],
+	dependencies: [
+		"500b78ee"
+	],
+	tasks: [{
+		uid: "6b6f68cf",
+		type: "item",
+		items: [{
+			item: "qualitytools:reforging_station"
+		}]
+	}],
+	rewards: [{
+		uid: "a95b345b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

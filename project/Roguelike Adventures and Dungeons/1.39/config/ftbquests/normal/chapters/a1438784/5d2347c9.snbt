@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"fb617224"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f0a4fd4a",
+		type: "item",
+		items: [{
+			item: "atum:loot_emerald_broach"
+		}]
+	}],
+	rewards: [{
+		uid: "c287004a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "710a7877",
+		type: "item",
+		item: "atum:date",
+		count: 2
+	}]
+}

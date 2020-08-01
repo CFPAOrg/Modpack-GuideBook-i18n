@@ -1,0 +1,40 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4f4cdb2e",
+		type: "item",
+		items: [{
+			item: "atum:ras_fury"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f961f038",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b3bf8000",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 16
+	},
+	{
+		uid: "ee807a42",
+		type: "item",
+		item: "atum:khnumite",
+		count: 2
+	},
+	{
+		uid: "98c03e5c",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

@@ -1,0 +1,67 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"5616a9f7"
+	],
+	tasks: [{
+		uid: "66c5b365",
+		type: "item",
+		items: [{
+			item: "iceandfire:cockatrice_eye"
+		}],
+		count: 5L
+	},
+	{
+		uid: "81b5cd07",
+		type: "item",
+		items: [{
+			item: "iceandfire:sea_serpent_fang"
+		}],
+		count: 5L
+	},
+	{
+		uid: "fa011a30",
+		type: "item",
+		items: [{
+			item: "iceandfire:stymphalian_bird_feather"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "6cbafa9b",
+		type: "item",
+		item: "iceandfire:dragonscales_green",
+		count: 3
+	},
+	{
+		uid: "838d55d6",
+		type: "item",
+		item: "iceandfire:sea_serpent_scales_bronze",
+		count: 3
+	},
+	{
+		uid: "ca0b1f3b",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "iceandfire:if_pixie"
+				}
+			}
+		}
+	},
+	{
+		uid: "a14dec4d",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "iceandfire:if_troll"
+				}
+			}
+		}
+	}]
+}

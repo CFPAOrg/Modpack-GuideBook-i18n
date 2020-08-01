@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	shape: "octagon",
+	can_repeat: true,
+	tasks: [{
+		uid: "4c64048e",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0e2d8da1",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "1053cf8e",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

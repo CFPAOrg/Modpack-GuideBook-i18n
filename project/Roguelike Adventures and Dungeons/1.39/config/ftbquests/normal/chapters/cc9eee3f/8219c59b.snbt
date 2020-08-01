@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: -5.0d,
+	dependencies: [
+		"1cc55467"
+	],
+	tasks: [{
+		uid: "5e8325b9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:creeper_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "2722e4cc",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

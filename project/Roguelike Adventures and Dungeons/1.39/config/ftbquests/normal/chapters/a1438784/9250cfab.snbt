@@ -1,0 +1,26 @@
+{
+	x: 12.0d,
+	y: 1.0d,
+	dependencies: [
+		"fe4f9c01"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c124ec34",
+		type: "item",
+		items: [{
+			item: "atum:loot_ruby_idol"
+		}]
+	}],
+	rewards: [{
+		uid: "61a2a0a3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8b95754c",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 8
+	}]
+}

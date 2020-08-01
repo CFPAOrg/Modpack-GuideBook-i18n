@@ -1,0 +1,35 @@
+{
+	x: 7.0d,
+	y: -1.0d,
+	dependencies: [
+		"b8555d8d"
+	],
+	tasks: [{
+		uid: "2bce418e",
+		type: "item",
+		items: [{
+			id: "thaumcraft:goggles",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6584b1b7",
+		type: "item",
+		item: "thaumcraft:loot_bag"
+	},
+	{
+		uid: "45efebb3",
+		type: "item",
+		item: "minecraft:paper",
+		count: 16
+	},
+	{
+		uid: "24c38fb1",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

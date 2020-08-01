@@ -1,0 +1,21 @@
+{
+	x: 9.0d,
+	y: -2.0d,
+	dependencies: [
+		"2f4fcf13"
+	],
+	tasks: [{
+		uid: "08d58531",
+		type: "item",
+		items: [{
+			item: "twilightforest:seeker_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0d4bd3ad",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"5d6a9dc5"
+	],
+	tasks: [{
+		uid: "74658b46",
+		type: "item",
+		items: [{
+			item: "tropicraft:yellow_chestplate_gear"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "42a7a975",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

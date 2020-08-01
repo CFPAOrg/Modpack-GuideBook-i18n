@@ -1,0 +1,10 @@
+{
+	title: "需要一些魔法",
+	icon: "ebwizardry:wizard_hat",
+	description: [
+		"你是个巫师，哈利！"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

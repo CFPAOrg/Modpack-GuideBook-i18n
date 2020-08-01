@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	dependencies: [
+		"7b1045cb"
+	],
+	tasks: [{
+		uid: "c8df6abf",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_fire_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0fff1a0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

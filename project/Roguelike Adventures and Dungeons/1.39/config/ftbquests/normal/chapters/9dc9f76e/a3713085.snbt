@@ -1,0 +1,40 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	dependencies: [
+		"ace30757"
+	],
+	tasks: [{
+		uid: "a50cb1a2",
+		type: "item",
+		items: [{
+			item: "storagenetwork:request"
+		}]
+	},
+	{
+		uid: "6d007646",
+		type: "item",
+		items: [{
+			item: "storagenetwork:master"
+		}]
+	},
+	{
+		uid: "658edcab",
+		type: "item",
+		items: [{
+			item: "storagenetwork:storage_kabel"
+		}]
+	},
+	{
+		uid: "c490643c",
+		type: "item",
+		items: [{
+			item: "storagenetwork:kabel"
+		}]
+	}],
+	rewards: [{
+		uid: "bb883204",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

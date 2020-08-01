@@ -1,0 +1,7 @@
+{
+	title: "阿图姆2",
+	icon: "atum:scarab",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

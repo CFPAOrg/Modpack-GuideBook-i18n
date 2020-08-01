@@ -1,0 +1,66 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"43539b92"
+	],
+	tasks: [{
+		uid: "d610d0be",
+		type: "item",
+		items: [{
+			item: "aether_legacy:valkyrie_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c0b37895",
+		type: "item",
+		items: [{
+			item: "aether_legacy:valkyrie_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c5256ac1",
+		type: "item",
+		items: [{
+			item: "aether_legacy:valkyrie_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6e444166",
+		type: "item",
+		items: [{
+			item: "aether_legacy:valkyrie_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4495d35e",
+		type: "item",
+		items: [{
+			item: "aether_legacy:valkyrie_cape"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d517d1ae",
+		type: "item",
+		items: [{
+			item: "aether_legacy:valkyrie_gloves"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "88bf4c2a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 15.0d,
+	y: 3.0d,
+	dependencies: [
+		"6022abbd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b7ae5b9c",
+		type: "item",
+		items: [{
+			item: "atum:loot_diamond_scepter"
+		}]
+	}],
+	rewards: [{
+		uid: "2017fdab",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ce489c2e",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 3
+	},
+	{
+		uid: "4045198a",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

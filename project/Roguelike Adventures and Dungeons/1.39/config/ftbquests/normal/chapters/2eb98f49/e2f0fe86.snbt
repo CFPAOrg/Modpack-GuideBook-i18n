@@ -1,0 +1,31 @@
+{
+	x: 13.0d,
+	y: -2.0d,
+	dependencies: [
+		"aa46a96b",
+		"d88b7c36"
+	],
+	tasks: [{
+		uid: "6cc604d0",
+		type: "item",
+		items: [{
+			item: "embers:ingot_dawnstone"
+		}]
+	}],
+	rewards: [{
+		uid: "8ae6848b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d45aa7e2",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 2
+	},
+	{
+		uid: "07181a0a",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

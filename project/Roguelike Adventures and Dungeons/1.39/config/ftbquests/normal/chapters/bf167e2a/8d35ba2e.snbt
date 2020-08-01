@@ -1,0 +1,48 @@
+{
+	x: 1.0d,
+	y: -4.0d,
+	dependencies: [
+		"7a2f1c99"
+	],
+	tasks: [{
+		uid: "1868e3a6",
+		type: "item",
+		items: [{
+			item: "aether_legacy:gravitite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f3b1eadb",
+		type: "item",
+		items: [{
+			item: "aether_legacy:gravitite_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f00951b",
+		type: "item",
+		items: [{
+			item: "aether_legacy:gravitite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eee371d9",
+		type: "item",
+		items: [{
+			item: "aether_legacy:gravitite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d1ed93de",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

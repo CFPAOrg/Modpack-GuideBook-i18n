@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"a18a5b8b"
+	],
+	tasks: [{
+		uid: "51cff913",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "0c278c24",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

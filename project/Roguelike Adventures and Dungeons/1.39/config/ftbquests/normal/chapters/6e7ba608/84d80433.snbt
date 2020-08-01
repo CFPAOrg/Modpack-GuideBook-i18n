@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	dependencies: [
+		"2d8b803c"
+	],
+	tasks: [{
+		uid: "6af5fd1f",
+		type: "item",
+		items: [{
+			item: "tropicraft:drink_mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "bba73a3d",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

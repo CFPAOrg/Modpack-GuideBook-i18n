@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"d64c4abf"
+	],
+	tasks: [{
+		uid: "33cdeb2e",
+		type: "item",
+		items: [{
+			item: "twilightforest:lifedrain_scepter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9e11c341",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

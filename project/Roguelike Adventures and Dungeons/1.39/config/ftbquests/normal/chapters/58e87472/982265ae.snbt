@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	description: "在这个世界上放置一个新的和空的口袋空间，一个黑色的空白，你可以在其中建造任何你想要的东西：一个小房子，一个雕像，一个农场，一个巨大的基地，甚至整个城市！",
+	text: [
+		""
+	],
+	dependencies: [
+		"1140841d"
+	],
+	tasks: [{
+		uid: "427f8181",
+		type: "item",
+		items: [{
+			item: "dimdoors:iron_dimensional_door"
+		}]
+	}],
+	rewards: [{
+		uid: "da1a497b",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

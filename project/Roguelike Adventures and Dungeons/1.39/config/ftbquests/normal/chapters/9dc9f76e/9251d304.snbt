@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: -5.0d,
+	dependencies: [
+		"500b78ee"
+	],
+	tasks: [{
+		uid: "dd808569",
+		type: "item",
+		items: [{
+			item: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba60e53f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

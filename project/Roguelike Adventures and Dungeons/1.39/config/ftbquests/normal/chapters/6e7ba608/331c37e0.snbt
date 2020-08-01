@@ -1,0 +1,48 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"01c57f91"
+	],
+	tasks: [{
+		uid: "3ecaaf77",
+		type: "item",
+		items: [{
+			item: "tropicraft:fire_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7df78228",
+		type: "item",
+		items: [{
+			item: "tropicraft:fire_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "897abbc2",
+		type: "item",
+		items: [{
+			item: "tropicraft:fire_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "938529c0",
+		type: "item",
+		items: [{
+			item: "tropicraft:fire_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f31753d6",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

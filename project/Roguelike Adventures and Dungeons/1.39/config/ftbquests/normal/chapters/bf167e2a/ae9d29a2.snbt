@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	dependencies: [
+		"a83bb8c5"
+	],
+	tasks: [{
+		uid: "c7643e0c",
+		type: "item",
+		items: [{
+			item: "aether_legacy:aechor_petal"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "e2186e07",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

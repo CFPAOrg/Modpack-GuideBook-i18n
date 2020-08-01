@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"2dbc84d3"
+	],
+	tasks: [{
+		uid: "9f486254",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:soulium_dagger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6597e976",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

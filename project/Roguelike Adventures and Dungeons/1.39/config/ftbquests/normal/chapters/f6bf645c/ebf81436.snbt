@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"d64c4abf"
+	],
+	tasks: [{
+		uid: "6928453e",
+		type: "item",
+		items: [{
+			item: "twilightforest:zombie_scepter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2518c4df",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,9 @@
+{
+	title: "陌生的地方",
+	description: [
+		"随机传送"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

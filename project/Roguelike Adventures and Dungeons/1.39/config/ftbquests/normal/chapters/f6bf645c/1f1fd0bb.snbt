@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"03365486"
+	],
+	tasks: [{
+		uid: "5218398f",
+		type: "item",
+		items: [{
+			item: "twilightforest:block_and_chain"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3a557ad9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	dependencies: [
+		"71151cbb"
+	],
+	tasks: [{
+		uid: "5d1a6933",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_rowboat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1477b882",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

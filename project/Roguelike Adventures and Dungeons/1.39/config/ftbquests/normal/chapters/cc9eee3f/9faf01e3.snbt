@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: -3.0d,
+	dependencies: [
+		"1d3c14d5"
+	],
+	tasks: [{
+		uid: "8557d4c5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:diamond_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "319f199b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

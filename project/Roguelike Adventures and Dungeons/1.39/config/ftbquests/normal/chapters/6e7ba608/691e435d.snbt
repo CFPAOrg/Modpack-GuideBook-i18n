@@ -1,0 +1,66 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"01c57f91"
+	],
+	tasks: [{
+		uid: "ab6bdb99",
+		type: "item",
+		items: [{
+			item: "tropicraft:buried_treasure"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "91d6bd4c",
+		type: "item",
+		items: [{
+			item: "tropicraft:eastern_isles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e0ae104b",
+		type: "item",
+		items: [{
+			item: "tropicraft:summering"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4c4ca5fe",
+		type: "item",
+		items: [{
+			item: "tropicraft:the_tribe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0b7cf47e",
+		type: "item",
+		items: [{
+			item: "tropicraft:low_tide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c48d335f",
+		type: "item",
+		items: [{
+			item: "tropicraft:trade_winds"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d4bbda22",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

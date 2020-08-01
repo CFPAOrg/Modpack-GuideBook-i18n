@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"95af4be3"
+	],
+	tasks: [{
+		uid: "a972ccab",
+		type: "item",
+		items: [{
+			item: "atum:fish_skeletal"
+		}]
+	}],
+	rewards: [{
+		uid: "7ec83bb7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

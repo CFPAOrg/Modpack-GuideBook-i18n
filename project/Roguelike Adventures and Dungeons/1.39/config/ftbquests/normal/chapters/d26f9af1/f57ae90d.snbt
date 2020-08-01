@@ -1,0 +1,27 @@
+{
+	title: "Welp...",
+	x: 1.0d,
+	y: -3.0d,
+	dependencies: [
+		"c34e0587"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa855ff6",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 7"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "30fcb027",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	},
+	{
+		uid: "529871c0",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: 0.0d,
+	dependencies: [
+		"75298381"
+	],
+	tasks: [{
+		uid: "853482ea",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:root_pod"
+		}]
+	}],
+	rewards: [{
+		uid: "8a7de31e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

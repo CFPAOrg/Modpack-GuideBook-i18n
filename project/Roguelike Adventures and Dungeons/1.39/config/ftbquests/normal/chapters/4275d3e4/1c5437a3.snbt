@@ -1,0 +1,48 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"ee59fd91"
+	],
+	tasks: [{
+		uid: "bc8ba171",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bone_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "185ff4bc",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bone_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a191eae4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bone_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7f53de03",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bone_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2714fed6",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}
