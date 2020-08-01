@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"b62842b8"
+	],
+	tasks: [{
+		uid: "93615cf6",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:compost_bin"
+		}]
+	}],
+	rewards: [{
+		uid: "f8ddfaa6",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

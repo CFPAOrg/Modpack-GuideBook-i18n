@@ -1,0 +1,75 @@
+{
+	x: 9.0d,
+	y: -4.0d,
+	dependencies: [
+		"666e934e"
+	],
+	tasks: [{
+		uid: "c4a6d923",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_axe_ice_dragonsteel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0444371c",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_knife_ice_dragonsteel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e793fe26",
+		type: "item",
+		items: [{
+			id: "spartanfire:longbow_ice_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0eb1ef9a",
+		type: "item",
+		items: [{
+			id: "spartanfire:crossbow_ice_dragonsteel",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f26b545",
+		type: "item",
+		items: [{
+			item: "spartanfire:javelin_ice_dragonsteel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "145cc3fe",
+		type: "item",
+		items: [{
+			item: "spartanfire:boomerang_ice_dragonsteel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6ec7879",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "c45f2ca3",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

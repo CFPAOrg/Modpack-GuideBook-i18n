@@ -1,0 +1,47 @@
+{
+	x: 15.0d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0e060391",
+		type: "item",
+		items: [{
+			item: "atum:tefnuts_rain"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d98654fa",
+		type: "item",
+		items: [{
+			item: "atum:tefnuts_call"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "391912c3",
+		type: "item",
+		items: [{
+			item: "atum:tefnuts_blessing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fcf57773",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "032f22b3",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 5
+	}]
+}

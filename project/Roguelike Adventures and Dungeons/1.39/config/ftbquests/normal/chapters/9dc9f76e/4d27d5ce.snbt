@@ -1,0 +1,360 @@
+{
+	title: "把他们全部抓到",
+	x: -3.0d,
+	y: -5.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"69eb5100"
+	],
+	tasks: [{
+		uid: "9ea3056f",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 31"
+		}]
+	},
+	{
+		uid: "2853023d",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 30"
+		}]
+	},
+	{
+		uid: "4a7d68d1",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 29"
+		}]
+	},
+	{
+		uid: "45f478e6",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 28"
+		}]
+	},
+	{
+		uid: "20dae0ad",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 27"
+		}]
+	},
+	{
+		uid: "a76514e3",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 26"
+		}]
+	},
+	{
+		uid: "0d5f62b9",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish"
+		}]
+	},
+	{
+		uid: "77be6285",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 1"
+		}]
+	},
+	{
+		uid: "5786b84d",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 2"
+		}]
+	},
+	{
+		uid: "91f649b0",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 3"
+		}]
+	},
+	{
+		uid: "28284c5a",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 4"
+		}]
+	},
+	{
+		uid: "3feb86e6",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 5"
+		}]
+	},
+	{
+		uid: "34ae6712",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 6"
+		}]
+	},
+	{
+		uid: "e129ab44",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 7"
+		}]
+	},
+	{
+		uid: "d68dfdd7",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 8"
+		}]
+	},
+	{
+		uid: "a71908fc",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 9"
+		}]
+	},
+	{
+		uid: "a166826b",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 10"
+		}]
+	},
+	{
+		uid: "e48f8118",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 11"
+		}]
+	},
+	{
+		uid: "45619a7b",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 12"
+		}]
+	},
+	{
+		uid: "96ca6882",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 13"
+		}]
+	},
+	{
+		uid: "8f3cf0f8",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 14"
+		}]
+	},
+	{
+		uid: "764bfdad",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 15"
+		}]
+	},
+	{
+		uid: "377a74dc",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 16"
+		}]
+	},
+	{
+		uid: "a394fd4f",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 17"
+		}]
+	},
+	{
+		uid: "a6f9e54c",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 18"
+		}]
+	},
+	{
+		uid: "e93e1c08",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 19"
+		}]
+	},
+	{
+		uid: "1628913c",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 20"
+		}]
+	},
+	{
+		uid: "db3753ee",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 22"
+		}]
+	},
+	{
+		uid: "b62f40f4",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 21"
+		}]
+	},
+	{
+		uid: "41b2605c",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 23"
+		}]
+	},
+	{
+		uid: "6c626a32",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 24"
+		}]
+	},
+	{
+		uid: "d4f13f6e",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 25"
+		}]
+	},
+	{
+		uid: "0c2ca3b8",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 38"
+		}]
+	},
+	{
+		uid: "19b47009",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 37"
+		}]
+	},
+	{
+		uid: "18f7db89",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 32"
+		}]
+	},
+	{
+		uid: "126ab475",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 36"
+		}]
+	},
+	{
+		uid: "738eab20",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 33"
+		}]
+	},
+	{
+		uid: "9bcdb4c5",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 35"
+		}]
+	},
+	{
+		uid: "e44e5767",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 34"
+		}]
+	}],
+	rewards: [{
+		uid: "2834e5b1",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 125s
+				}]
+			}
+		}
+	},
+	{
+		uid: "7001eb3b",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 124s
+				}]
+			}
+		}
+	},
+	{
+		uid: "cd93d580",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 123s
+				}]
+			}
+		}
+	},
+	{
+		uid: "04278fa1",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 120s
+				}]
+			}
+		}
+	},
+	{
+		uid: "5ccc0193",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 119s
+				}]
+			}
+		}
+	},
+	{
+		uid: "f8b78548",
+		type: "item",
+		item: "aquaculture:loot 1 7"
+	},
+	{
+		uid: "22f6649a",
+		type: "ftbmoney:money",
+		ftb_money: 200L,
+		random_bonus: 100
+	}]
+}

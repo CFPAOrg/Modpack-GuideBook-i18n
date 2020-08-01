@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"8e6816fe"
+	],
+	tasks: [{
+		uid: "565db40e",
+		type: "item",
+		items: [{
+			item: "atum:spinning_wheel"
+		}]
+	}],
+	rewards: [{
+		uid: "3d3fde10",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "433776fb",
+		type: "item",
+		item: "atum:relic_ore"
+	}]
+}

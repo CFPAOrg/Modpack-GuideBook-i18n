@@ -1,0 +1,39 @@
+{
+	x: 5.0d,
+	y: -2.0d,
+	dependencies: [
+		"eb191328"
+	],
+	tasks: [{
+		uid: "096405eb",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_desert_chitin"
+		}]
+	},
+	{
+		uid: "9dd95145",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_jungle_chitin"
+		}]
+	}],
+	rewards: [{
+		uid: "38eb799c",
+		type: "item",
+		item: "iceandfire:myrmex_desert_resin",
+		count: 5
+	},
+	{
+		uid: "56dd077e",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "iceandfire:if_pixie"
+				}
+			}
+		}
+	}]
+}

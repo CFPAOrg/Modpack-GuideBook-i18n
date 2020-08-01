@@ -1,0 +1,48 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	dependencies: [
+		"f14c8185"
+	],
+	tasks: [{
+		uid: "58d0ab4a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "05fa3c45",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "46cc99b6",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "81bf758a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "738b48d0",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	dependencies: [
+		"fb7287fc"
+	],
+	tasks: [{
+		uid: "c132659a",
+		type: "item",
+		items: [{
+			item: "lost_aether:platinum_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "712a9eeb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

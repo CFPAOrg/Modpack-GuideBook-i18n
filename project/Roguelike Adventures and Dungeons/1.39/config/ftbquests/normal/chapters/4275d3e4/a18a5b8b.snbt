@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	dependencies: [
+		"ee6c23b1"
+	],
+	tasks: [{
+		uid: "8e6b3c17",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sulfur_furnace_dual"
+		}]
+	}],
+	rewards: [{
+		uid: "a941c72b",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "d5b0b3c0",
+		type: "item",
+		item: "thebetweenlands:loot_pot"
+	}]
+}

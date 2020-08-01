@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"fea2504c"
+	],
+	tasks: [{
+		uid: "cb6910a6",
+		type: "item",
+		items: [{
+			id: "rustic:fluid_bottle",
+			tag: {
+				Fluid: {
+					FluidName: "cider",
+					Amount: 1000,
+					Tag: {
+						Quality: 0.75f
+					}
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1dae7a08",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

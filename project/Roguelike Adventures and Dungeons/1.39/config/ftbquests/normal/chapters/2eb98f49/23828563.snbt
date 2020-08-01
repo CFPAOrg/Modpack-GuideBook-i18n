@@ -1,0 +1,48 @@
+{
+	x: 15.0d,
+	y: 7.0d,
+	dependencies: [
+		"7ef3dcbf"
+	],
+	tasks: [{
+		uid: "c2d295dc",
+		type: "item",
+		items: [{
+			item: "embers:ashen_cloak_head"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5fd93d38",
+		type: "item",
+		items: [{
+			item: "embers:ashen_cloak_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "35d19d8c",
+		type: "item",
+		items: [{
+			item: "embers:ashen_cloak_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a077a7be",
+		type: "item",
+		items: [{
+			item: "embers:ashen_cloak_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df393132",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

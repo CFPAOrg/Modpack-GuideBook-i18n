@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"b07d281d"
+	],
+	tasks: [{
+		uid: "536d6307",
+		type: "item",
+		items: [{
+			id: "twilightforest:fiery_sword",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 20s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3eee377e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

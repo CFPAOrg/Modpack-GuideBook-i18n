@@ -1,0 +1,26 @@
+{
+	x: 15.0d,
+	y: 1.0d,
+	dependencies: [
+		"6022abbd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "567ecad9",
+		type: "item",
+		items: [{
+			item: "atum:loot_ruby_scepter"
+		}]
+	}],
+	rewards: [{
+		uid: "8229b21b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f7ef9252",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 8
+	}]
+}

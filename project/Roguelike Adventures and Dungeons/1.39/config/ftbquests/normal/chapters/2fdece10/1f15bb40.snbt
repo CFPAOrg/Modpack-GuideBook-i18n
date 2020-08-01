@@ -1,0 +1,11 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "44b09de9",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_stinger"
+		}]
+	}]
+}

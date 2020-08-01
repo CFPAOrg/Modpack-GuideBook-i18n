@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: -5.0d,
+	dependencies: [
+		"0da96695"
+	],
+	tasks: [{
+		uid: "e749a6cd",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:zombie_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "1b1999a3",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

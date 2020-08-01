@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	dependencies: [
+		"1b913bf7"
+	],
+	tasks: [{
+		uid: "2ff21a69",
+		type: "item",
+		items: [{
+			item: "aether_legacy:cloud_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "367d8a51",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

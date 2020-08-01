@@ -1,0 +1,26 @@
+{
+	x: 13.0d,
+	y: 2.0d,
+	dependencies: [
+		"6022abbd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "67b33f5a",
+		type: "item",
+		items: [{
+			item: "atum:loot_gold_scepter"
+		}]
+	}],
+	rewards: [{
+		uid: "8d0e2a7c",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "109577e4",
+		type: "item",
+		item: "minecraft:dye 1 4",
+		count: 8
+	}]
+}

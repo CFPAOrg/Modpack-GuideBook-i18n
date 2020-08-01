@@ -1,0 +1,19 @@
+{
+	x: 14.0d,
+	y: 7.0d,
+	dependencies: [
+		"7ef3dcbf"
+	],
+	tasks: [{
+		uid: "43d11013",
+		type: "item",
+		items: [{
+			item: "embers:wildfire_core"
+		}]
+	}],
+	rewards: [{
+		uid: "09acb07a",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

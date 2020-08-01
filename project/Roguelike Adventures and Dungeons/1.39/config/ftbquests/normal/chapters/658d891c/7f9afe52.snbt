@@ -1,0 +1,121 @@
+{
+	title: "全部收集!",
+	x: 6.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"768743f4"
+	],
+	tasks: [{
+		uid: "fc4754ec",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_green"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9d6f5033",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_bronze"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c635c392",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_gray"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e7d9d388",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_blue"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3314eda7",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_silver"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fd06c9ee",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_sapphire"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c77f92a3",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_white"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a3e97276",
+		type: "item",
+		item: "iceandfire:jar_pixie 1 4"
+	},
+	{
+		uid: "18323cf6",
+		type: "item",
+		item: "iceandfire:pixie_dust"
+	},
+	{
+		uid: "6c156075",
+		type: "item",
+		item: "iceandfire:troll_leather_forest",
+		count: 16
+	},
+	{
+		uid: "6351aa66",
+		type: "item",
+		item: "iceandfire:troll_tusk",
+		count: 16
+	},
+	{
+		uid: "15383f86",
+		type: "item",
+		item: "iceandfire:troll_skull"
+	},
+	{
+		uid: "885eab00",
+		type: "item",
+		item: "iceandfire:manuscript"
+	},
+	{
+		uid: "afe33b9e",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "392fc649",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "iceandfire:snowvillager"
+				}
+			}
+		}
+	},
+	{
+		uid: "e41169df",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

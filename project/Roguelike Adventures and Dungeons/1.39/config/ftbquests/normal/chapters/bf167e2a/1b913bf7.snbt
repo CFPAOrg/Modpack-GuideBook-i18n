@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "5b2db4e8",
+		type: "dimension",
+		dim: 4
+	}],
+	rewards: [{
+		uid: "bb5b1aa2",
+		type: "item",
+		item: "aether_legacy:lore_book"
+	},
+	{
+		uid: "569dd585",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

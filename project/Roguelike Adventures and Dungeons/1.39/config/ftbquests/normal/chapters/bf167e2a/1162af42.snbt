@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	dependencies: [
+		"922ec670"
+	],
+	tasks: [{
+		uid: "81dcecc8",
+		type: "item",
+		items: [{
+			item: "aether_legacy:enchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "eb1f01fc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

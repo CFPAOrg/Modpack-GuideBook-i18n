@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	dependencies: [
+		"f1e677e8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "973a2851",
+		type: "item",
+		items: [{
+			item: "atum:loot_silver_necklace"
+		}]
+	}],
+	rewards: [{
+		uid: "6dbffd90",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

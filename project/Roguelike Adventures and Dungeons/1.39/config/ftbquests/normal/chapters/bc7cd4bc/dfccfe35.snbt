@@ -1,0 +1,95 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "d98d106e",
+		type: "item",
+		items: [{
+			id: "inventorypets:spider_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "87aa056e",
+		type: "item",
+		items: [{
+			item: "inventorypets:wither_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "45274d80",
+		type: "item",
+		items: [{
+			id: "inventorypets:snow_golem_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "15406699",
+		type: "item",
+		items: [{
+			id: "inventorypets:iron_golem_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fec294fe",
+		type: "item",
+		items: [{
+			id: "inventorypets:slime_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8aa1d022",
+		type: "item",
+		items: [{
+			item: "inventorypets:magma_cube_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "647e7a86",
+		type: "item",
+		items: [{
+			item: "inventorypets:blaze_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4559abbb",
+		type: "item",
+		items: [{
+			item: "inventorypets:creeper_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b5b407bf",
+		type: "ftbmoney:money",
+		ftb_money: 150L,
+		random_bonus: 50
+	}]
+}

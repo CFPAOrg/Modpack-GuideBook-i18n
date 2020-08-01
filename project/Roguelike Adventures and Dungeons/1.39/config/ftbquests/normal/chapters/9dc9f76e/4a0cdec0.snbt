@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"3c0c0c8f"
+	],
+	tasks: [{
+		uid: "c7352442",
+		type: "item",
+		items: [{
+			item: "colossalchests:colossal_chest 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "cb7b0ef3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ed1d4cf5",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

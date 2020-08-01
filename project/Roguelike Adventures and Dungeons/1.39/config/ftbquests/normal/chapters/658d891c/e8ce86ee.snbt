@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: -5.0d,
+	dependencies: [
+		"8a078cad"
+	],
+	tasks: [{
+		uid: "ce6446a6",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_ice_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "44b88f96",
+		type: "item",
+		item: "iceandfire:jar_pixie 1 3"
+	},
+	{
+		uid: "39dd3077",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

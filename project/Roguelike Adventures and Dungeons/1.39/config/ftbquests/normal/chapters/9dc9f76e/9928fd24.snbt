@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"16c3f3d7"
+	],
+	tasks: [{
+		uid: "0603b0b0",
+		type: "item",
+		items: [{
+			item: "vt:pad"
+		}]
+	}],
+	rewards: [{
+		uid: "457f1a27",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

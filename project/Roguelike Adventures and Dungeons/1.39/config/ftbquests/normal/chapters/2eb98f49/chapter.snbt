@@ -1,0 +1,7 @@
+{
+	title: "余烬",
+	icon: "embers:ember_cluster",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

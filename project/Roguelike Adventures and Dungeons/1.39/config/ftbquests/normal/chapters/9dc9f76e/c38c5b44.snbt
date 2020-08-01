@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: -5.0d,
+	dependencies: [
+		"73298fe2"
+	],
+	tasks: [{
+		uid: "8f4ae2c7",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d6faf4d0",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

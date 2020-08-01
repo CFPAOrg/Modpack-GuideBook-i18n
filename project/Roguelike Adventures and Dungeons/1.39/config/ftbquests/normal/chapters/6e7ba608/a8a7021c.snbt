@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	description: "如何前往",
+	text: [
+		"1.打造一把白色沙滩椅（但有16种羊毛色可选）",
+		"2.制作一个 椰林飘香（你可以在商店里买到）",
+		"3.日落时在沙滩椅上啜饮饮料（重要！！！）"
+	],
+	tasks: [{
+		uid: "3d620937",
+		type: "dimension",
+		dim: -127
+	}],
+	rewards: [{
+		uid: "1af56a2d",
+		type: "item",
+		item: "tropicraft:encyclopedia_tropica"
+	},
+	{
+		uid: "321f234e",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

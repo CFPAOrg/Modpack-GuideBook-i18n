@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"5173f31f"
+	],
+	tasks: [{
+		uid: "c285a899",
+		type: "item",
+		items: [{
+			item: "rustic:grapes"
+		}]
+	}],
+	rewards: [{
+		uid: "b2742c72",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

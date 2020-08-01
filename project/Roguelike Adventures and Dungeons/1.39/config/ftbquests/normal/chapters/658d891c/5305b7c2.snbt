@@ -1,0 +1,79 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"eb191328"
+	],
+	tasks: [{
+		uid: "d978dd4a",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_red_helmet",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -3363529764797592670L,
+						UUIDLeast: -7745332327205095472L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "30559f0f",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_red_chestplate",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0be38961",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_red_leggings",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "12caf505",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_red_boots",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "59a707b2",
+		type: "item",
+		item: "iceandfire:jar_pixie 1 1"
+	},
+	{
+		uid: "952a97cd",
+		type: "item",
+		item: "iceandfire:manuscript"
+	}]
+}

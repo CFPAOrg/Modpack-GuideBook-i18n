@@ -1,0 +1,33 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	dependencies: [
+		"84d80433"
+	],
+	tasks: [{
+		uid: "afdcd871",
+		type: "item",
+		items: [{
+			id: "tropicraft:cocktail",
+			tag: {
+				Ingredients: [{
+					IngredientID: 0b
+				},
+				{
+					IngredientID: 6b
+				},
+				{
+					IngredientID: 15b
+				}],
+				Color: 16777215,
+				DrinkID: 2b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5662f9f8",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

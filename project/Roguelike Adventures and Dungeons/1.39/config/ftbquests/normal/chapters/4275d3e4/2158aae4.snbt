@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"ee93b1e0"
+	],
+	tasks: [{
+		uid: "89c6db1f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "87a5b2f6",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b3413fb",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

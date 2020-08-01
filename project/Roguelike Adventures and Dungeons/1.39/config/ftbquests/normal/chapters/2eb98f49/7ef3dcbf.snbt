@@ -1,0 +1,34 @@
+{
+	x: 14.0d,
+	y: 5.0d,
+	description: "使用JEI查看你需要的配方。然后在每个侧面和顶面放置需要的物品。",
+	text: [
+		""
+	],
+	dependencies: [
+		"0eb6e2e8",
+		"3424d46a"
+	],
+	tasks: [{
+		uid: "e4cc531b",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_tablet"
+		}]
+	}],
+	rewards: [{
+		uid: "301d67f0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "32551f28",
+		type: "item",
+		item: "embers:seed_copper"
+	},
+	{
+		uid: "0d8e7756",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

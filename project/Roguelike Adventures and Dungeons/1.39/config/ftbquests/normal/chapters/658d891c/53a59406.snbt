@@ -1,0 +1,51 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	dependencies: [
+		"bd0e9cd3"
+	],
+	tasks: [{
+		uid: "d091a74a",
+		type: "item",
+		items: [{
+			id: "iceandfire:dragonbone_sword_fire",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -2838988105532161651L,
+						UUIDLeast: -7922920029209058261L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2250534933030520641L,
+						UUIDLeast: -6793849166201503012L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c1e3ebf3",
+		type: "item",
+		item: "iceandfire:manuscript"
+	},
+	{
+		uid: "34e7caaa",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

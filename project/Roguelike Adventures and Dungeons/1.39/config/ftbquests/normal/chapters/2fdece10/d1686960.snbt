@@ -1,0 +1,128 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "36018437",
+		type: "item",
+		items: [{
+			id: "spartanfire:warhammer_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -3696782281859972501L,
+						UUIDLeast: -8090323450689217643L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -4062001088731199297L,
+						UUIDLeast: -6997658910758356380L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.pokey.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "008dbc47",
+		type: "item",
+		items: [{
+			id: "spartanfire:hammer_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 440910402555365047L,
+						UUIDLeast: -6860590746771031400L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.short.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6c552125",
+		type: "item",
+		items: [{
+			id: "spartanfire:battleaxe_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "83c22e6e",
+		type: "item",
+		items: [{
+			id: "spartanfire:mace_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -7053639454573311855L,
+						UUIDLeast: -7588772566687526771L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5567722065041668190L,
+						UUIDLeast: -9153385355020460474L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -6496943708877207789L,
+						UUIDLeast: -4616151541368874900L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broad.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d92fd79",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "80e3b533",
+		type: "xp_levels",
+		xp_levels: 20
+	}]
+}

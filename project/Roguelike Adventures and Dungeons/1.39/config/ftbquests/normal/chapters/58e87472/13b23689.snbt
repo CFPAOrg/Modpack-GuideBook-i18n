@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	description: "用末影之眼而不是末影珍珠制作。随机制造裂缝或另一扇门。",
+	text: [
+		""
+	],
+	dependencies: [
+		"1140841d"
+	],
+	tasks: [{
+		uid: "6d7c0756",
+		type: "item",
+		items: [{
+			item: "dimdoors:unstable_dimensional_door"
+		}]
+	}],
+	rewards: [{
+		uid: "c3b004e5",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

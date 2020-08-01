@@ -1,0 +1,65 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	dependencies: [
+		"f6ee5541"
+	],
+	tasks: [{
+		uid: "c1e32c01",
+		type: "item",
+		items: [{
+			id: "spartanfire:warhammer_fire_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "527ed834",
+		type: "item",
+		items: [{
+			id: "spartanfire:hammer_fire_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0c82bd41",
+		type: "item",
+		items: [{
+			id: "spartanfire:battleaxe_fire_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9c2751a4",
+		type: "item",
+		items: [{
+			id: "spartanfire:mace_fire_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ade300a",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "339c98d8",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"fb7287fc"
+	],
+	tasks: [{
+		uid: "cdf55d9b",
+		type: "item",
+		items: [{
+			item: "aether_legacy:dungeon_key 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2135457f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

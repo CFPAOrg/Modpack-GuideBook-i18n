@@ -1,0 +1,67 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b027dad",
+		type: "item",
+		items: [{
+			item: "atum:eyes_of_atum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "957b2b30",
+		type: "item",
+		items: [{
+			item: "atum:body_of_atum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "52224562",
+		type: "item",
+		items: [{
+			item: "atum:legs_of_atum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a02001ef",
+		type: "item",
+		items: [{
+			item: "atum:feet_of_atum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dda60cf6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "aa623a67",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 16
+	},
+	{
+		uid: "290be1e7",
+		type: "item",
+		item: "atum:khnumite",
+		count: 2
+	},
+	{
+		uid: "c54e25b8",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

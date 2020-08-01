@@ -1,0 +1,61 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "82cf1e26",
+		type: "item",
+		items: [{
+			item: "atum:halo_of_ra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ca7b2bc9",
+		type: "item",
+		items: [{
+			item: "atum:body_of_ra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50bc34ce",
+		type: "item",
+		items: [{
+			item: "atum:legs_of_ra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6826f0e9",
+		type: "item",
+		items: [{
+			item: "atum:feet_of_ra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "adf5ffdd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "14549cca",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 16
+	},
+	{
+		uid: "016905b9",
+		type: "item",
+		item: "atum:crunchy_scarab"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	dependencies: [
+		"04a243d2"
+	],
+	tasks: [{
+		uid: "9c72a451",
+		type: "item",
+		items: [{
+			item: "extrautils2:grocket"
+		}]
+	}],
+	rewards: [{
+		uid: "3d1a8996",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

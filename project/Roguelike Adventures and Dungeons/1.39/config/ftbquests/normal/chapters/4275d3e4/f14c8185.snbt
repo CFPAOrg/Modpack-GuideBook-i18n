@@ -1,0 +1,24 @@
+{
+	x: 7.0d,
+	y: -1.0d,
+	dependencies: [
+		"e6c0ab01"
+	],
+	tasks: [{
+		uid: "f6d66197",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "72a917e5",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "9838af95",
+		type: "item",
+		item: "thebetweenlands:loot_pot"
+	}]
+}

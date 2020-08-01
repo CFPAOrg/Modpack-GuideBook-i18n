@@ -1,0 +1,25 @@
+{
+	x: 14.0d,
+	y: 1.0d,
+	dependencies: [
+		"76354cfb"
+	],
+	tasks: [{
+		uid: "2e63b226",
+		type: "item",
+		items: [{
+			item: "embers:dust_ash"
+		}]
+	}],
+	rewards: [{
+		uid: "8aee42ab",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "9e1d73fe",
+		type: "item",
+		item: "embers:dust_ash",
+		count: 4
+	}]
+}

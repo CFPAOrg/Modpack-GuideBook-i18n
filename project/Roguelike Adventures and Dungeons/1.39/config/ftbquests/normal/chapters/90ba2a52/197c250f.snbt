@@ -1,0 +1,16 @@
+{
+	x: 12.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "8c51c652",
+		type: "item",
+		items: [{
+			item: "harvestcraft:gourmetvenisonburgeritem"
+		}]
+	}],
+	rewards: [{
+		uid: "2fc57f3d",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

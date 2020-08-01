@@ -1,0 +1,27 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	dependencies: [
+		"8e6816fe"
+	],
+	tasks: [{
+		uid: "dc6f5f7e",
+		type: "item",
+		items: [{
+			item: "atum:camel_diamond_armor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae00470b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1d0cbca2",
+		type: "item",
+		item: "atum:khnumite",
+		count: 2
+	}]
+}

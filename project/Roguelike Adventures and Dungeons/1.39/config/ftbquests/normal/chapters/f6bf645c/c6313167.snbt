@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	dependencies: [
+		"2f4fcf13"
+	],
+	tasks: [{
+		uid: "03845d5b",
+		type: "item",
+		items: [{
+			item: "twilightforest:magic_beans"
+		}]
+	}],
+	rewards: [{
+		uid: "5a3ac58b",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

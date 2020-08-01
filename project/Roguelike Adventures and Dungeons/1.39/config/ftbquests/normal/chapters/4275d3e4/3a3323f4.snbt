@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	dependencies: [
+		"a18a5b8b"
+	],
+	tasks: [{
+		uid: "c1d161ef",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "a15e9e30",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	dependencies: [
+		"f14c8185"
+	],
+	tasks: [{
+		uid: "d50a998f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_jukebox"
+		}]
+	}],
+	rewards: [{
+		uid: "ceeeff3e",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

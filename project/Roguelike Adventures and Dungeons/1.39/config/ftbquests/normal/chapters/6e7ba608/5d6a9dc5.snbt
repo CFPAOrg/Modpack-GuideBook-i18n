@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	dependencies: [
+		"01c57f91"
+	],
+	tasks: [{
+		uid: "8ff7dad3",
+		type: "item",
+		items: [{
+			item: "tropicraft:zircon"
+		}]
+	}],
+	rewards: [{
+		uid: "fcd95182",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

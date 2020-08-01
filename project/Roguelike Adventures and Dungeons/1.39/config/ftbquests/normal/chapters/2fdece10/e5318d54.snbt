@@ -1,0 +1,109 @@
+{
+	x: 9.0d,
+	y: -2.0d,
+	dependencies: [
+		"f6ee5541"
+	],
+	tasks: [{
+		uid: "1e948b8c",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_axe_fire_dragonsteel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "782d5dbe",
+		type: "item",
+		items: [{
+			id: "spartanfire:dagger_fire_dragonsteel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 7712662285030083544L,
+						UUIDLeast: -6454307142495056148L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -3210866949153668109L,
+						UUIDLeast: -8875012290427424457L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f243b27c",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_knife_fire_dragonsteel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b1d354a8",
+		type: "item",
+		items: [{
+			id: "spartanfire:crossbow_fire_dragonsteel",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d7140610",
+		type: "item",
+		items: [{
+			id: "spartanfire:longbow_fire_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f9686811",
+		type: "item",
+		items: [{
+			item: "spartanfire:boomerang_fire_dragonsteel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5d7abe22",
+		type: "item",
+		items: [{
+			item: "spartanfire:javelin_fire_dragonsteel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "873c2823",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "d84c64a3",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

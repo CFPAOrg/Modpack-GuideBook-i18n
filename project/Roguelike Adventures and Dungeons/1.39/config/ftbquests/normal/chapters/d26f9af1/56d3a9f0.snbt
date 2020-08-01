@@ -1,0 +1,25 @@
+{
+	title: "我是无辜的...",
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4e887265"
+	],
+	hide: true,
+	tasks: [{
+		uid: "51514669",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "e85c877f",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 50
+	}]
+}

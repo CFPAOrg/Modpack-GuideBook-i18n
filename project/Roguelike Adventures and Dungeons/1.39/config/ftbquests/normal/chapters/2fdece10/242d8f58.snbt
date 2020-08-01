@@ -1,0 +1,193 @@
+{
+	x: 10.0d,
+	y: -4.0d,
+	dependencies: [
+		"666e934e"
+	],
+	tasks: [{
+		uid: "dd1a5eda",
+		type: "item",
+		items: [{
+			id: "spartanfire:spear_ice_dragonsteel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -3107333635638409601L,
+						UUIDLeast: -5272830374728555453L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 1890807829473348683L,
+						UUIDLeast: -5374574485523031821L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "10df4231",
+		type: "item",
+		items: [{
+			id: "spartanfire:pike_ice_dragonsteel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -6334348391384726709L,
+						UUIDLeast: -7627333524398551035L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1042265996789526660L,
+						UUIDLeast: -5347103126853696228L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.rusted.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "41819f49",
+		type: "item",
+		items: [{
+			id: "spartanfire:lance_ice_dragonsteel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -8267407317047032760L,
+						UUIDLeast: -8536862638885637514L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2992269817230477392L,
+						UUIDLeast: -8778812513840385466L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.sweeping.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "247d16c7",
+		type: "item",
+		items: [{
+			id: "spartanfire:halberd_ice_dragonsteel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: 3546034820016784888L,
+						UUIDLeast: -6320716276616418074L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 5825798012045052001L,
+						UUIDLeast: -8369439843386942152L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2418820880341812884L,
+						UUIDLeast: -5312646091844440254L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5376286165898608234L,
+						UUIDLeast: -6721495528423679616L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.worthless.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3178ccb6",
+		type: "item",
+		items: [{
+			id: "spartanfire:staff_ice_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5bdb8ee4",
+		type: "item",
+		items: [{
+			id: "spartanfire:glaive_ice_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d1ace36f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "5bce257f",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

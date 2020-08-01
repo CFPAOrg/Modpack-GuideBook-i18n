@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -4.0d,
+	dependencies: [
+		"df4878e2"
+	],
+	tasks: [{
+		uid: "fea79e6e",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonforge_ice_core_disabled"
+		}]
+	}],
+	rewards: [{
+		uid: "757aa352",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

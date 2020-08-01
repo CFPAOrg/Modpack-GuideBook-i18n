@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d99f088",
+		type: "item",
+		items: [{
+			item: "atum:loot_dirty_broach"
+		}]
+	}],
+	rewards: [{
+		uid: "3f66562f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

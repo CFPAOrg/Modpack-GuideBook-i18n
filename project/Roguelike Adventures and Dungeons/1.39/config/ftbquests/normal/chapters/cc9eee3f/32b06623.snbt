@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: -3.0d,
+	dependencies: [
+		"6bcc93b6"
+	],
+	tasks: [{
+		uid: "63f01ede",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:lapis_lazuli_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "4ac49046",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

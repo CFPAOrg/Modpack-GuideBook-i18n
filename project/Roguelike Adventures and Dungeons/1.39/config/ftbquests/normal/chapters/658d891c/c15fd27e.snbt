@@ -1,0 +1,73 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	dependencies: [
+		"768743f4"
+	],
+	tasks: [{
+		uid: "cd190cc6",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_diamond"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1e8607e4",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_diamond 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9cff54ea",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_diamond 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1f73cdf5",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_diamond 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "147f1e3f",
+		type: "item",
+		item: "iceandfire:pixie_dust"
+	},
+	{
+		uid: "947edfd1",
+		type: "item",
+		item: "iceandfire:troll_tusk",
+		count: 16
+	},
+	{
+		uid: "cbcaffd7",
+		type: "item",
+		item: "iceandfire:troll_leather_forest",
+		count: 8
+	},
+	{
+		uid: "a5e0138d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "04cf6390",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "iceandfire:cyclops"
+				}
+			}
+		}
+	}]
+}

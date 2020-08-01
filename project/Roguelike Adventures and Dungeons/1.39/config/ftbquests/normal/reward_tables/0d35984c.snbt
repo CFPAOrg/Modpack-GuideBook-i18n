@@ -1,0 +1,90 @@
+{
+	title: "弓箭手",
+	icon: "minecraft:bow",
+	loot_size: 43,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "minecraft:bow",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 51s
+				}],
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "minecraft:arrow",
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_chestplate",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -8173889782450533824L,
+						UUIDLeast: -8281439696185227128L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.arcane.name"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_leggings",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_boots",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "minecraft:torch",
+		count: 16,
+		only_one: true
+	},
+	{
+		item: "minecraft:bread",
+		count: 16,
+		only_one: true
+	},
+	{
+		item: "skewers:skewer_beef_raw",
+		count: 6,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "archer",
+		item_name: "弓箭手",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

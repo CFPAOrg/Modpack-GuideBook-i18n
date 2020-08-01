@@ -1,0 +1,98 @@
+{
+	title: "随机基础物品",
+	loot_size: 3,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:stone",
+		count: 16,
+		weight: 5
+	},
+	{
+		item: "minecraft:stone 1 2",
+		weight: 3
+	},
+	{
+		item: "minecraft:dispenser",
+		weight: 5
+	},
+	{
+		item: "minecraft:wool 1 2",
+		weight: 2
+	},
+	{
+		item: "minecraft:tnt",
+		weight: 3
+	},
+	{
+		item: "minecraft:emerald",
+		weight: 2
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 17s
+				}]
+			}
+		}
+	},
+	{
+		item: "minecraft:diamond_helmet"
+	},
+	{
+		item: "minecraft:redstone",
+		count: 16,
+		weight: 2
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:villager"
+				}
+			}
+		}
+	},
+	{
+		item: "minecraft:cobblestone",
+		count: 16,
+		weight: 4
+	},
+	{
+		item: "minecraft:golden_carrot",
+		count: 5,
+		weight: 2
+	},
+	{
+		item: "minecraft:blaze_powder",
+		count: 6,
+		weight: 2
+	},
+	{
+		item: "minecraft:minecart",
+		weight: 2
+	},
+	{
+		item: "minecraft:log 1 3",
+		count: 16,
+		weight: 2
+	},
+	{
+		item: "minecraft:log",
+		count: 16,
+		weight: 2
+	},
+	{
+		item: "minecraft:skull",
+		weight: 2
+	},
+	{
+		item: "prefab:block_compressed_obsidian"
+	},
+	{
+		item: "prefab:block_compressed_obsidian 1 1"
+	}]
+}

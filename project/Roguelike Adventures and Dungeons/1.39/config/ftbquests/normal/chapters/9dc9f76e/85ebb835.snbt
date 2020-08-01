@@ -1,0 +1,48 @@
+{
+	x: -1.0d,
+	y: -6.0d,
+	dependencies: [
+		"73298fe2"
+	],
+	tasks: [{
+		uid: "3f3cc790",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6376d5bb",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "80a6fb60",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "746dfb97",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68ad0ff8",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

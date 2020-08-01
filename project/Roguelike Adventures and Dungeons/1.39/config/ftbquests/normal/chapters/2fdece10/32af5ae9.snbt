@@ -1,0 +1,116 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"526726f6"
+	],
+	tasks: [{
+		uid: "5cc9ed27",
+		type: "item",
+		items: [{
+			id: "spartanfire:dagger_desert",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -394149228335315075L,
+						UUIDLeast: -7722237945378773862L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.sharp.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "380e286e",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_axe_desert"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e923520d",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_knife_desert"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "90aa4004",
+		type: "item",
+		items: [{
+			id: "spartanfire:longbow_desert",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 555838939626030650L,
+						UUIDLeast: -8887545520898436737L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.light.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cd1fd3e2",
+		type: "item",
+		items: [{
+			id: "spartanfire:crossbow_desert",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1cc982ec",
+		type: "item",
+		items: [{
+			item: "spartanfire:boomerang_desert"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "44b7af9a",
+		type: "item",
+		items: [{
+			item: "spartanfire:javelin_desert"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1d33b909",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "39fc04b4",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	dependencies: [
+		"f1e677e8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fe2d8a1f",
+		type: "item",
+		items: [{
+			item: "atum:loot_emerald_necklace"
+		}]
+	}],
+	rewards: [{
+		uid: "ab3e2783",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7ee2d7d7",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 3
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: -2.0d,
+	dependencies: [
+		"4c22bf55"
+	],
+	tasks: [{
+		uid: "3a33427d",
+		type: "item",
+		items: [{
+			id: "embers:copper_cell",
+			tag: {
+				emberCapacity: 24000.0d,
+				ember: 0.0d
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "46e09fe4",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

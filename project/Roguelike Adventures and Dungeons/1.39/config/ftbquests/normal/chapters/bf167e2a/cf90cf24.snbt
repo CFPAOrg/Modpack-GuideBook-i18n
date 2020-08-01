@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	dependencies: [
+		"1b913bf7"
+	],
+	tasks: [{
+		uid: "69213e61",
+		type: "item",
+		items: [{
+			item: "aether_legacy:swet_cape"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ca38a0bb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

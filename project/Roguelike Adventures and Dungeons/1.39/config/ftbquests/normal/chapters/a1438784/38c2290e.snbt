@@ -1,0 +1,35 @@
+{
+	x: 8.0d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "03b6dd93",
+		type: "item",
+		items: [{
+			item: "atum:atums_homecoming"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "895799f7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "70e19499",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 5
+	},
+	{
+		uid: "8e8e1c42",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 3
+	}]
+}

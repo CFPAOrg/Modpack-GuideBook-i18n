@@ -1,0 +1,34 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	dependencies: [
+		"baa5376a"
+	],
+	tasks: [{
+		uid: "4ff56f3a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:vis_resonator"
+		}]
+	},
+	{
+		uid: "bb484e4a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ee81c51",
+		type: "item",
+		item: "thaumcraft:loot_bag"
+	},
+	{
+		uid: "d6b65296",
+		type: "item",
+		item: "minecraft:dye",
+		count: 16
+	}]
+}

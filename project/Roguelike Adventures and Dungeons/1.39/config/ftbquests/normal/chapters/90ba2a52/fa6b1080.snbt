@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	shape: "octagon",
+	can_repeat: true,
+	tasks: [{
+		uid: "d0f3041c",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "45497d89",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 100
+	},
+	{
+		uid: "49c061a9",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

@@ -1,0 +1,129 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"01c57f91"
+	],
+	tasks: [{
+		uid: "4e7e3e0a",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_square_zord"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "97c382f9",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_horn_monkey"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1d60986c",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_oblongatron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "77c70088",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_headinator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0de93b07",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_square_horn"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bb2a3de3",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_screw_attack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "14eb2546",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_the_brain"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "67178a33",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_bat_boy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dbc8a476",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_ashen_mask1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d1e9a725",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_ashen_mask2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b40b6ee3",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_ashen_mask3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "78baf224",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_ashen_mask4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eb92b733",
+		type: "item",
+		items: [{
+			item: "tropicraft:mask_ashen_mask5"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c80f94c0",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

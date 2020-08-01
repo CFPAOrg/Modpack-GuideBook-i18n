@@ -1,0 +1,7 @@
+{
+	title: "以太征服者",
+	icon: "rustic:cloudsbluff",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,167 @@
+{
+	x: 3.0d,
+	y: -6.0d,
+	dependencies: [
+		"786a97ec"
+	],
+	tasks: [{
+		uid: "dbccb24c",
+		type: "item",
+		items: [{
+			id: "spartanfire:katana_jungle",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 4628822555026475601L,
+						UUIDLeast: -5021249184998605043L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broken.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1d333de4",
+		type: "item",
+		items: [{
+			id: "spartanfire:greatsword_jungle",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: 3691662535144129503L,
+						UUIDLeast: -7655058574189145447L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -6198371674193835676L,
+						UUIDLeast: -4797021209229281391L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 6546066428062090525L,
+						UUIDLeast: -6343056710579283527L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 6721099331420897965L,
+						UUIDLeast: -6863059553470123146L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.worthless.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "22a0e1a9",
+		type: "item",
+		items: [{
+			id: "spartanfire:longsword_jungle",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: 9121843060934918594L,
+						UUIDLeast: -8458285731953169301L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -6867212998634025726L,
+						UUIDLeast: -5370262860656690228L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1453235686837761079L,
+						UUIDLeast: -7120948075481117273L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 6478701473144129048L,
+						UUIDLeast: -5836382453764497813L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.worthless.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e4b9a498",
+		type: "item",
+		items: [{
+			id: "spartanfire:saber_jungle",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0335d16e",
+		type: "item",
+		items: [{
+			id: "spartanfire:rapier_jungle",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6139896b",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "ad72f59b",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

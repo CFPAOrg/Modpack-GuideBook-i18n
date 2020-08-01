@@ -1,0 +1,91 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "5a9d6c88",
+		type: "item",
+		items: [{
+			id: "inventorypets:chicken_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d75d15d",
+		type: "item",
+		items: [{
+			item: "inventorypets:cow_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8ac2c449",
+		type: "item",
+		items: [{
+			item: "inventorypets:mooshroom_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b19bc3e7",
+		type: "item",
+		items: [{
+			id: "inventorypets:sheep_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9695c2c7",
+		type: "item",
+		items: [{
+			id: "inventorypets:pig_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3cf31e3b",
+		type: "item",
+		items: [{
+			item: "inventorypets:ocelot_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9a23b1e0",
+		type: "item",
+		items: [{
+			item: "inventorypets:squid_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f7f622e9",
+		type: "item",
+		items: [{
+			item: "inventorypets:pufferfish_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a95f3de6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

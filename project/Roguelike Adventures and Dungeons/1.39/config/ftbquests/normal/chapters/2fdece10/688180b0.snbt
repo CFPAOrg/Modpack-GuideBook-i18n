@@ -1,0 +1,113 @@
+{
+	x: 8.0d,
+	y: -4.0d,
+	dependencies: [
+		"666e934e"
+	],
+	tasks: [{
+		uid: "b81ec8ca",
+		type: "item",
+		items: [{
+			id: "spartanfire:katana_ice_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "caa06294",
+		type: "item",
+		items: [{
+			id: "spartanfire:greatsword_ice_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7f2a27ec",
+		type: "item",
+		items: [{
+			id: "spartanfire:longsword_ice_dragonsteel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -7141153828365120797L,
+						UUIDLeast: -7051213923036038488L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.sharp.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ce4997e8",
+		type: "item",
+		items: [{
+			id: "spartanfire:saber_ice_dragonsteel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 671117783639149784L,
+						UUIDLeast: -6126726647183750259L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 4006897268868661693L,
+						UUIDLeast: -7460248419748789214L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b4584c60",
+		type: "item",
+		items: [{
+			id: "spartanfire:rapier_ice_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ca77bc5",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "73d8a5d4",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

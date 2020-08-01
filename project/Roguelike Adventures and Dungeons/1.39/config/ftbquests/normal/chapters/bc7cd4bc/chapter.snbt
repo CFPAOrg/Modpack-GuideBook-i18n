@@ -1,0 +1,15 @@
+{
+	title: "背包宠物",
+	icon: {
+		id: "inventorypets:slime_pet",
+		tag: {
+			GiveItems: 1b
+		}
+	},
+	description: [
+		"全部收集!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

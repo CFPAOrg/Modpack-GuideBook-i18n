@@ -1,0 +1,17 @@
+{
+	x: 11.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "246df1c0",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 256L
+	}],
+	rewards: [{
+		uid: "657d8fb4",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

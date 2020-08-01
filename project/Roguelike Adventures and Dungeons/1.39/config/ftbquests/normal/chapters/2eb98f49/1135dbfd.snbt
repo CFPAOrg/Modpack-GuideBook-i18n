@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	description: "用来制作板",
+	text: [
+		""
+	],
+	dependencies: [
+		"1f7dc924"
+	],
+	tasks: [{
+		uid: "57e6715e",
+		type: "item",
+		items: [{
+			id: "embers:tinker_hammer",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "39876276",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

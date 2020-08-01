@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	dependencies: [
+		"fb617224"
+	],
+	hide: true,
+	tasks: [{
+		uid: "22e46939",
+		type: "item",
+		items: [{
+			item: "atum:loot_silver_broach"
+		}]
+	}],
+	rewards: [{
+		uid: "2cf2b2b0",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

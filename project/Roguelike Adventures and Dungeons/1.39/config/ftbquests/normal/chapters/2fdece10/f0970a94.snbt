@@ -1,0 +1,157 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	dependencies: [
+		"35076070"
+	],
+	tasks: [{
+		uid: "096e4ea1",
+		type: "item",
+		items: [{
+			id: "spartanfire:spear_fire_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f370353",
+		type: "item",
+		items: [{
+			id: "spartanfire:pike_fire_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 8969267488141822696L,
+						UUIDLeast: -7262893081448155985L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7607928987915929600L,
+						UUIDLeast: -7719769441478695008L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8543658698607738228L,
+						UUIDLeast: -5432658324887170403L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broad.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eda642da",
+		type: "item",
+		items: [{
+			id: "spartanfire:glaive_fire_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ce88b32c",
+		type: "item",
+		items: [{
+			id: "spartanfire:staff_fire_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "44d7830c",
+		type: "item",
+		items: [{
+			id: "spartanfire:lance_fire_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: 7692996477379627908L,
+						UUIDLeast: -6057085179154164537L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8812915933834920616L,
+						UUIDLeast: -6851758123032902037L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 5014342946351957079L,
+						UUIDLeast: -7082669868463490034L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 6806494392534319280L,
+						UUIDLeast: -8454387152021687756L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.worthless.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c29e6365",
+		type: "item",
+		items: [{
+			id: "spartanfire:halberd_fire_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "671a9e42",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "58a891bf",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

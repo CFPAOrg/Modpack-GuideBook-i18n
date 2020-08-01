@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	dependencies: [
+		"15f4f141"
+	],
+	tasks: [{
+		uid: "256a9c97",
+		type: "item",
+		items: [{
+			item: "twilightforest:peacock_fan"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9dbf2942",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

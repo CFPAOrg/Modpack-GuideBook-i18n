@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	dependencies: [
+		"0786946b"
+	],
+	tasks: [{
+		uid: "f4ccef97",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone"
+		}]
+	}],
+	rewards: [{
+		uid: "8fe6c462",
+		type: "item",
+		item: "iceandfire:manuscript"
+	}]
+}

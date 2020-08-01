@@ -1,0 +1,166 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	dependencies: [
+		"1f15bb40",
+		"526726f6"
+	],
+	tasks: [{
+		uid: "0cfad2de",
+		type: "item",
+		items: [{
+			id: "spartanfire:katana_desert_venom",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -6810806575210872495L,
+						UUIDLeast: -7237333643555725053L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -873237937824642485L,
+						UUIDLeast: -5614364875755814346L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.pokey.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cb2567e9",
+		type: "item",
+		items: [{
+			id: "spartanfire:greatsword_desert_venom",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 861125530442022960L,
+						UUIDLeast: -6979591446718223638L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 5038611825776543104L,
+						UUIDLeast: -7143764651257195935L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e4a1817d",
+		type: "item",
+		items: [{
+			id: "spartanfire:longsword_desert_venom",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 2123937186322008290L,
+						UUIDLeast: -7100737445826387893L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 3503436834344356707L,
+						UUIDLeast: -7405931570504150149L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a7be1831",
+		type: "item",
+		items: [{
+			id: "spartanfire:saber_desert_venom",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -796033813550708758L,
+						UUIDLeast: -6120139732324498131L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7310799397226171564L,
+						UUIDLeast: -5169959838816985539L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.keen.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f45880aa",
+		type: "item",
+		items: [{
+			id: "spartanfire:rapier_desert_venom",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "35d436f8",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "49cf5325",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

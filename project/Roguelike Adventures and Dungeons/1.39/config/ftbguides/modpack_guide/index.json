@@ -1,0 +1,32 @@
+[
+ {
+  "id": "mods",
+  "title": "模组",
+  "icon": "item:ftbquests:book"
+ },
+ {
+  "id": "the_world",
+  "title": "世界",
+  "icon": "item:minecraft:dirt"
+ },
+ {
+  "id": "interface",
+  "title": "接口",
+  "icon": "item:minecraft:chest"
+ },
+ {
+  "id": "scaling",
+  "title": "生命扩展(难度系统)",
+  "icon": "item:scalinghealth:heartcontainer"
+ },
+ {
+  "id": "tools",
+  "title": "质量工具",
+  "icon": "item:qualitytools:emerald_ring"
+ },
+  {
+  "id": "levelup",
+  "title": "升级！",
+  "icon": "item:minecraft:experience_bottle"
+ }
+]

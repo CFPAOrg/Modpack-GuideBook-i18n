@@ -1,0 +1,26 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"c2008332"
+	],
+	tasks: [{
+		uid: "090cba44",
+		type: "item",
+		items: [{
+			item: "embers:stamper"
+		}]
+	},
+	{
+		uid: "0a8ac1a9",
+		type: "item",
+		items: [{
+			item: "embers:stamper_base"
+		}]
+	}],
+	rewards: [{
+		uid: "a6ebb8f6",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

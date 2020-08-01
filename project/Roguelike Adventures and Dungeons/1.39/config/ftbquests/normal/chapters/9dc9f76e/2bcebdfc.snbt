@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: -3.0d,
+	dependencies: [
+		"73298fe2"
+	],
+	tasks: [{
+		uid: "8e8c95de",
+		type: "item",
+		items: [{
+			id: "minecraft:iron_pickaxe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38d743ca",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

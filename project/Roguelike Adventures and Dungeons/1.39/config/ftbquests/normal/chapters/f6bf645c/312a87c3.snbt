@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"a858eaf2"
+	],
+	tasks: [{
+		uid: "d02705d7",
+		type: "item",
+		items: [{
+			item: "twilightforest:meef_stroganoff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b5d7f05c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"d64c4abf"
+	],
+	tasks: [{
+		uid: "081e39e6",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "6ff7da2a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

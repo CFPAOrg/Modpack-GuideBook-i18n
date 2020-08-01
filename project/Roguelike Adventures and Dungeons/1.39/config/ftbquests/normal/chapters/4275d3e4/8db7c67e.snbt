@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	dependencies: [
+		"3a3323f4"
+	],
+	tasks: [{
+		uid: "00e74402",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bd7fd4cb",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

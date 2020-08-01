@@ -1,0 +1,7 @@
+{
+	title: "精华作物",
+	icon: "mysticalagriculture:nature_crop",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

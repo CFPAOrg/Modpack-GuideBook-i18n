@@ -1,0 +1,28 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"fea2504c"
+	],
+	tasks: [{
+		uid: "19bad73f",
+		type: "item",
+		items: [{
+			id: "rustic:fluid_bottle",
+			tag: {
+				Fluid: {
+					FluidName: "ironwine",
+					Amount: 1000,
+					Tag: {
+						Quality: 0.75f
+					}
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9d7949da",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

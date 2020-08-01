@@ -1,0 +1,16 @@
+{
+	x: 13.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "8971fa3c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:deluxenachoesitem"
+		}]
+	}],
+	rewards: [{
+		uid: "2aa4ab27",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,0 +1,113 @@
+{
+	x: 8.0d,
+	y: -2.0d,
+	dependencies: [
+		"f6ee5541"
+	],
+	tasks: [{
+		uid: "d898bcb6",
+		type: "item",
+		items: [{
+			id: "spartanfire:katana_fire_dragonsteel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -5139051844449252933L,
+						UUIDLeast: -8600101863822829800L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2356e414",
+		type: "item",
+		items: [{
+			id: "spartanfire:greatsword_fire_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6d85cc61",
+		type: "item",
+		items: [{
+			id: "spartanfire:longsword_fire_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "768f8c3c",
+		type: "item",
+		items: [{
+			id: "spartanfire:saber_fire_dragonsteel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "df162ed8",
+		type: "item",
+		items: [{
+			id: "spartanfire:rapier_fire_dragonsteel",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -2637314195846837999L,
+						UUIDLeast: -8720243246166552291L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5558316517225773421L,
+						UUIDLeast: -7772162271030758473L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.keen.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "55ad03a3",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "75b33477",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

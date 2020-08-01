@@ -1,0 +1,24 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	dependencies: [
+		"baa5376a"
+	],
+	tasks: [{
+		uid: "38e28e35",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}]
+	}],
+	rewards: [{
+		uid: "1790725c",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "9f4099a0",
+		type: "item",
+		item: "thaumcraft:loot_bag"
+	}]
+}

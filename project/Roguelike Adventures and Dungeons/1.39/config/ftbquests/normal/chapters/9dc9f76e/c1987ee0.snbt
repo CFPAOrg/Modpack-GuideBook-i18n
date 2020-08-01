@@ -1,0 +1,20 @@
+{
+	x: 9.0d,
+	y: -7.0d,
+	dependencies: [
+		"03e91df2"
+	],
+	tasks: [{
+		uid: "f22a1038",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ced72e68",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}
