@@ -11,6 +11,13 @@ val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
 val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
 val solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
 
+
+	#Ender fluid conduits
+	recipes.remove(<enderio:item_liquid_conduit:2> * 8);
+	recipes.addShaped(<enderio:item_liquid_conduit:2> * 8, [[<enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:1>],[<enderio:item_liquid_conduit:1>, <enderutilities:enderpart:1>, <enderio:item_liquid_conduit:1>], [<enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:1>]]);
+
+
+
 	#Alloy Smelter Removal
 	mods.jei.JEI.removeAndHide(<enderio:block_decoration2>);
 	mods.jei.JEI.removeAndHide(<enderio:block_decoration3:1>);
@@ -545,6 +552,16 @@ mixer.recipeBuilder()
 
 	#industrial chassis
 	recipes.addShaped(<enderio:item_material:1>, [[<enderio:item_material:69>, <enderio:item_material:69>, <enderio:item_material:69>],[<enderio:item_material:69>, <gregtech:machine:502>, <enderio:item_material:69>], [<enderio:item_material:69>, <enderio:item_material:69>, <enderio:item_material:69>]]);
+
+	#dark steel upgrade
+	assembler.recipeBuilder()
+    .inputs(<enderio:block_dark_iron_bars>*4, <opencomputers:material:7>, <ore:wireGtSingleManasteel>*4)
+    .fluidInputs([<liquid:plastic> * 288])
+    .outputs(<enderio:item_dark_steel_upgrade>*4)
+    .duration(50)
+    .EUt(48)
+    .buildAndRegister();	
+	
 
 
 print("----------------Ender IO End-------------------");

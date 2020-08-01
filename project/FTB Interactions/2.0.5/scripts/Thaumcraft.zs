@@ -421,6 +421,7 @@ furnace.remove(<thermalfoundation:material:128>*2);
 furnace.remove(<thermalfoundation:material:129>*2);
 furnace.remove(<thermalfoundation:material:130>*2);
 furnace.remove(<thermalfoundation:material:131>*2);
+
 furnace.addRecipe(<ore:ingotCopper>.firstItem *2 ,<thaumcraft:cluster:2>);
 furnace.addRecipe(<ore:ingotTin>.firstItem *2 ,<thaumcraft:cluster:3>);
 furnace.addRecipe(<ore:ingotSilver>.firstItem *2 ,<thaumcraft:cluster:4>);
@@ -532,11 +533,13 @@ autoclave.recipeBuilder()
 	<plants2:generic:6>.setAspects([<aspect:praecantatio>*12, <aspect:sensus>*4, <aspect:ordo>*4]);
 	<plants2:generic:7>.setAspects([<aspect:praecantatio>*3, <aspect:sensus>*1, <aspect:perditio>*1]);
 	<plants2:generic:8>.setAspects([<aspect:praecantatio>*12, <aspect:sensus>*4, <aspect:perditio>*4]);
+	<astralsorcery:itemcraftingcomponent>.setAspects([<aspect:praecantatio>*5, <aspect:sensus>*1]);
 	
 	//Crucible recipes
 mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:ingot>);
 mods.thaumcraft.Crucible.registerRecipe("Thaumium", "BASEALCHEMY", <thaumcraft:ingot>, <ore:ingotSteel>, [<aspect:praecantatio> * 5, <aspect:terra> * 5]);
 mods.thaumcraft.Crucible.registerRecipe("ThaumiumfromStainless", "BASEALCHEMY", <thaumcraft:ingot> *4, <ore:ingotStainlessSteel>.firstItem, [<aspect:praecantatio> * 5, <aspect:terra> * 5]);
+mods.thaumcraft.Crucible.registerRecipe("ThaumiumfromBluesteel", "BASEALCHEMY", <thaumcraft:ingot> *2, <ore:ingotBluesteel>.firstItem, [<aspect:praecantatio> * 5, <aspect:terra> * 5]);
 
 	#void metal
 	mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:ingot:1>);
@@ -637,6 +640,16 @@ for i in aluminiumInfernal {
 		//Lead
 	mods.thaumcraft.SmeltingBonus.removeSmeltingBonus(<thaumcraft:cluster:5>, <thaumcraft:nugget:5>);
 	mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<thaumcraft:cluster:5>, leadNug % 25);
+	
+	//foobarfurnace.addRecipe(<ore:ingotCopper>.firstItem *2 ,<thaumcraft:cluster>);
+	mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:cluster>);
+	mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:cluster:1>);
+	mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:cluster:2>);
+	mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:cluster:3>);
+	mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:cluster:4>);
+	mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:cluster:5>);
+	mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:cluster:6>);
+	mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:cluster:7>);
 	
 	#celestial papers
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("thaumcraft:celestial_notes9", <thaumcraft:celestial_notes:9>, 300, 600, [

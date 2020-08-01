@@ -2,6 +2,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 print("---------------Cyclic Start------------------");
+val aquamarineGem = <astralsorcery:itemcraftingcomponent>;
+	
 	#Disabling Melter
 mods.jei.JEI.removeAndHide(<cyclicmagic:melter>);
 
@@ -43,6 +45,17 @@ recipes.addShaped(<cyclicmagic:shears_obsidian>, [
 	[null, <minecraft:obsidian>, null],]);
 
 
+	#Step assist addle
+	recipes.remove(<cyclicmagic:food_step>);
+	mods.astralsorcery.Altar.addAttunementAltarRecipe("interactions:stepapple", <cyclicmagic:food_step>, 350, 300, [
+	null, <ore:gemEmerald>,null,
+	<projecte:item.pe_covalence_dust:1>, <extrautils2:magicapple>, <projecte:item.pe_covalence_dust:1>,
+	null, <ore:gemEmerald>,null,
+	aquamarineGem,aquamarineGem,aquamarineGem,aquamarineGem]);
+
+
+<cyclicmagic:glowing_helmet>.maxDamage = 450;
+	
 	#glowing helmet
 recipes.remove(<cyclicmagic:glowing_helmet>);
 recipes.addShaped(<cyclicmagic:glowing_helmet>,

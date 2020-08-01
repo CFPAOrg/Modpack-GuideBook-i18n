@@ -237,6 +237,62 @@ SummoningDirector.addSummonInfo(
 		)
 );		
 		
+
+#thermal mobs
+SummoningDirector.addSummonInfo(
+	SummoningInfo.create()
+		.setCatalyst(<minecraft:snowball>)		
+		.setReagents([<wizardry:devil_dust>, <randomthings:ingredient:2>])
+		.addMob(MobInfo.create()
+			.setMob("thermalfoundation:blizz")
+			.setOffset(1,2,1)
+			.setSpread(1,1,1)
+			.setData({
+				"Health":40, 
+				"CustomName":"Summoned Blizz",
+				"PersistenceRequired":1,
+				"CustomNameVisible":1
+			})
+		)
+);		
+
+#thermal mobs
+SummoningDirector.addSummonInfo(
+	SummoningInfo.create()
+		.setCatalyst(<mekanism:salt>)		
+		.setReagents([<wizardry:devil_dust>, <randomthings:ingredient:2>])
+		.addMob(MobInfo.create()
+			.setMob("thermalfoundation:blitz")
+			.setOffset(1,2,1)
+			.setSpread(1,1,1)
+			.setData({
+				"Health":40, 
+				"CustomName":"Summoned Blitz",
+				"PersistenceRequired":1,
+				"CustomNameVisible":1
+			})
+		)
+);		
+
+#thermal mobs
+SummoningDirector.addSummonInfo(
+	SummoningInfo.create()
+		.setCatalyst(<gregtech:meta_item_1:2138>)		
+		.setReagents([<wizardry:devil_dust>, <randomthings:ingredient:2>])
+		.addMob(MobInfo.create()
+			.setMob("thermalfoundation:basalz")
+			.setOffset(1,2,1)
+			.setSpread(1,1,1)
+			.setData({
+				"Health":40, 
+				"CustomName":"Summoned Basalz",
+				"PersistenceRequired":1,
+				"CustomNameVisible":1
+			})
+		)
+);		
+			
+		
 	#spirit - cannot be summoned in void world
 SummoningDirector.addSummonInfo(
 	SummoningInfo.create()

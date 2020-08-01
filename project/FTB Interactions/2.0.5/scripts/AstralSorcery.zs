@@ -46,7 +46,7 @@ val sootyMarble = <astralsorcery:blockblackmarble>;
 	mods.astralsorcery.Lightwell.addLiquefaction(<ore:lensNetherStar>.firstItem, <liquid:astralsorcery.liquidstarlight>, 2, 500, 0);
 
 	#Primordial Pearl
-	mods.astralsorcery.Lightwell.addLiquefaction(<thaumcraft:primordial_pearl>, <liquid:astralsorcery.liquidstarlight>, 2.5, 2147480, 0);
+	mods.astralsorcery.Lightwell.addLiquefaction(<thaumcraft:primordial_pearl>, <liquid:astralsorcery.liquidstarlight>, 4.5, 2147480, 0);
 
 	#infused wood tooltip
 	<astralsorcery:blockinfusedwood>.addTooltip(format.darkRed("将原木投入星能液中来制作。"));
@@ -129,6 +129,7 @@ autoclave.recipeBuilder()
     .EUt(4)
     .buildAndRegister();
 
+mods.thaumcraft.Crucible.registerRecipe("Thaumium", "BASEALCHEMY", <astralsorcery:itemcraftingcomponent>, <gregtech:meta_item_1:2157>, [<aspect:praecantatio> * 6, <aspect:permutatio> * 2]);
 
 	#macerate starmetal
 macerator.recipeBuilder()
@@ -282,7 +283,7 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("interactions:aevitas", <as
 	aquamarineGem, parchment, aquamarineGem,
 	<bloodmagic:component:5>, scribingTools, <bloodmagic:component:5>,
 	illuminationPowder,illuminationPowder,illuminationPowder,illuminationPowder,
-	<thermalfoundation:fertilizer:2>,<thermalfoundation:fertilizer:2>,<thermalfoundation:fertilizer:2>,<thermalfoundation:fertilizer:2>, null, null, null, null]);
+	<botania:manaresource:23>,<botania:manaresource:23>,<botania:manaresource:23>,<botania:manaresource:23>, null, null, null, null]);
 
 	#Aevitas
 	mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/constellationpaper/aevitas");
@@ -342,9 +343,9 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("interactions:vorux", <astralsorcer
 	<ore:paper>]);
 
 	#perk crystal tooltips
-	<astralsorcery:itemperkgem>.addTooltip(format.darkRed("将萤石和水晶石投入星能液中来制作。"));
-	<astralsorcery:itemperkgem:1>.addTooltip(format.darkRed("将萤石和水晶石投入星能液中来制作。"));
-	<astralsorcery:itemperkgem:2>.addTooltip(format.darkRed("将萤石和水晶石投入星能液中来制作。"));
+	<astralsorcery:itemperkgem>.addTooltip(format.darkRed("将萤石粉和水晶石投入星能液中来制作。"));
+	<astralsorcery:itemperkgem:1>.addTooltip(format.darkRed("将萤石粉和水晶石投入星能液中来制作。"));
+	<astralsorcery:itemperkgem:2>.addTooltip(format.darkRed("将萤石粉和水晶石投入星能液中来制作。"));
 
 #custom collector crystal for Astral sorcery
 	val customCrystal = <astralsorcery:blockcollectorcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.aevitas", crystalProperties: {collectiveCapability: 80, size: 350, fract: 0, purity: 80, sizeOverride: -1}, collectorType: 0}});

@@ -117,8 +117,8 @@ mods.jei.JEI.removeAndHide(<thermalfoundation:material:101>);
 <thermalfoundation:material:101>.addTooltip(format.darkRed("此物品已停用，将其合成为来自GTCE的替代品。"));
 recipes.addShapeless(dustGTSignalum, [<thermalfoundation:material:101>]);
 mixer.recipeBuilder()
-	.inputs([<ore:dustCopper> * 3, <ore:dustRedstone>])
-	.fluidInputs(<liquid:redstone> * 1000)
+	.inputs([<ore:dustCopper> * 3, <ore:dustSterlingSilver>])
+	.fluidInputs(<liquid:redstone> * 576)
 	.outputs(<ore:dustSignalum>.firstItem * 2)
 	.duration(120)
 	.EUt(30)

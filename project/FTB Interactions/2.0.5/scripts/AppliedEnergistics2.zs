@@ -96,9 +96,9 @@ mods.thermalexpansion.Infuser.addRecipe(<appliedenergistics2:material:1>, <appli
 	#me drive
 recipes.remove(<appliedenergistics2:drive>);
 recipes.addShaped(<appliedenergistics2:drive>,[
-	[<ore:plateSkystone>,<appliedenergistics2:material:24>,<ore:plateSkystone>],
+	[<ore:plateStainlessSteel>,<appliedenergistics2:material:24>,<ore:plateStainlessSteel>],
 	[<appliedenergistics2:part:16>,<ore:alloyUltimate>,<appliedenergistics2:part:16>],
-	[<ore:plateSkystone>,<appliedenergistics2:material:24>,<ore:plateSkystone>]]);
+	[<ore:plateStainlessSteel>,<appliedenergistics2:material:24>,<ore:plateStainlessSteel>]]);
 	
 	#fluix
 mixer.recipeBuilder()

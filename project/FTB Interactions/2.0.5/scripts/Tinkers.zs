@@ -278,7 +278,9 @@ mods.chisel.Carving.addVariation("TinkersClayCasts", i);
     #Disabled Cast Basin Items and alloyer
 var disabledBasin as IItemStack[] = [
 	<tconstruct:seared_furnace_controller>,
-	<tcomplement:porcelain_alloy_tank>
+	<tcomplement:porcelain_alloy_tank>,
+	<minecraft:glowstone>,
+	<minecraft:redstone_block>
 ];
 
 for i in disabledBasin {

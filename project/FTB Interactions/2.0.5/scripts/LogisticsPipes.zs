@@ -29,7 +29,7 @@ recipes.remove(<logisticspipes:remote_orderer>);
 	recipes.addShaped(<logisticspipes:pipe_remote_orderer>, 
 	[[<ore:wireFineStainlessSteel>, <rftools:infused_enderpearl>, <ore:wireFineStainlessSteel>],
 	[null, <logisticspipes:pipe_basic>, null], 
-	[<ore:wireFineStainlessSteel>, <astralsorcery:itemcraftingcomponent:4>, <ore:wireFineStainlessSteel>]]);
+	[<ore:wireFineStainlessSteel>, <actuallyadditions:item_crystal:2>, <ore:wireFineStainlessSteel>]]);
 
 
 #basic Pipes
@@ -39,7 +39,7 @@ recipes.addShapeless(<logisticspipes:pipe_basic>,[<logisticspipes:pipe_transport
 #remote orderer
 	recipes.addShaped(<logisticspipes:remote_orderer>, 
 	[[<ore:platePlastic>, <rftools:infused_enderpearl>, <ore:platePlastic>],
-	[<astralsorcery:itemcraftingcomponent:4>, <ore:blockGlass>, <astralsorcery:itemcraftingcomponent:4>], 
+	[<actuallyadditions:item_crystal:2>, <ore:blockGlass>, <actuallyadditions:item_crystal:2>], 
 	[<ore:platePlastic>, <ore:circuitBasic>, <ore:platePlastic>]]);
 
 
@@ -232,7 +232,7 @@ assembler.recipeBuilder()
 recipes.remove(<logisticspipes:crafting_table>);
 assembler.recipeBuilder()
 		.inputs(<logisticspipes:frame>,<minecraft:crafting_table>,<ore:craftingPiston>*2, <ore:circuitBasic>)
-		.outputs(<logisticspipes:crafting_table>)
+		.outputs(<logisticspipes:crafting_table> * 8)
 		.duration(320)
 		.EUt(24)
 		.buildAndRegister();

@@ -19,9 +19,18 @@ val flightPotion = <bloodmagic:potion_flask:7>.withTag({CustomPotionEffects: [{A
 val featherPotion = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:feather", Duration: 3600, Amplifier: 0}]});
 val chemReactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
 val fluidExtractor = mods.gregtech.recipe.RecipeMap.getByName("fluid_extractor");
+val alloyer = mods.gregtech.recipe.RecipeMap.getByName("alloy_smelter");
 
 	#bloodapple
 	<animus:bloodapple>.addTooltip(format.darkRed("食用它可以添加LP到你的网络。在祭坛附近食用它可以添加LP到祭坛。"));
+	
+#Relay frames
+	alloyer.recipeBuilder()
+    .inputs(<ore:gearSmallSteel>, <ore:screwManasteel>)
+    .outputs(<bloodmagic:component:10> *2)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();	
 	
 #blood from chicken
 fluidExtractor.recipeBuilder()
@@ -72,6 +81,8 @@ mixer.recipeBuilder()
 	#bloodOrbs
 	#weak blood orb
 	mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:diamond>);
+	mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <astralsorcery:itemperkgem>, 0, 2000,2,1);
+	mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <astralsorcery:itemperkgem:1>, 0, 2000,2,1);
 	mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <astralsorcery:itemperkgem:2>, 0, 2000,2,1);
 
 	#apprentice blood orb
@@ -79,7 +90,7 @@ mixer.recipeBuilder()
 	mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <extrautils2:ingredients:2>, 1, 5000,5,5);
 
 	mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:gold_block>);
-	mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <tconstruct:metal:1>, 2, 25000,20,20);
+	mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <tconstruct:metal:1>, 2, 12500,20,20);
 
 	mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:nether_star>);
 	mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}), <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.aevitas"}}), 4, 80000,50,100);
@@ -374,11 +385,16 @@ for i in glowstoneToUnregister {
 	AnimusPlugin.removeComponentMapping(i,"GLOWSTONE"); //t3
 }
 
+
+
 	//print("-------------------------adding glowstone tiles to altar ----------------------------");
 	
 	AnimusPlugin.addComponentMapping(<blockstate:netherbackport:netheriteblock:>, "GLOWSTONE");
 	
 	//print("-------------------------removing bloodstone tiles from altar ----------------------------");
+
+	AnimusPlugin.removeComponentMapping(<blockstate:bloodmagic:decorative_brick>,"BLOODSTONE"); //t4
+	AnimusPlugin.removeComponentMapping(<blockstate:bloodmagic:decorative_brick:type=bloodstone_brick>,"BLOODSTONE"); //t4
 
 	AnimusPlugin.addComponentMapping(<blockstate:appliedenergistics2:smooth_sky_stone_block>, "BLOODSTONE");
 	mods.jei.JEI.removeAndHide(<bloodmagic:decorative_brick:1>);

@@ -123,8 +123,8 @@ furnace.addRecipe(<industrialforegoing:dryrubber>, <ore:enrichedEggRubber>);
 fluidExtractor.recipeBuilder()
 	.inputs(<ore:enrichedEggSmog>)
 	.fluidOutputs([<liquid:sludge> * 125])
-    .duration(60)
-    .EUt(12)
+    .duration(42)
+    .EUt(17)
     .buildAndRegister();
 
 	distillery.recipeBuilder()
@@ -139,7 +139,7 @@ fluidExtractor.recipeBuilder()
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:spicechicken", Gain: 1, Strength: 1}).addTooltip(format.darkRed("只能通过战利品获得：在主世界的地牢中找到。"));
 spinnyGoFast.recipeBuilder()
     .inputs(<ore:enrichedEggSpice>)
-	.chancedOutput(<harvestcraft:gingeritem>, 5500, 1000)
+	.chancedOutput(<harvestcraft:peppercornitem>, 5500, 1000)
 	.chancedOutput(<harvestcraft:spiceleafitem>, 5500, 1000)
 	.chancedOutput(<harvestcraft:mustardseedsitem>, 5500, 1000)
 	.chancedOutput(<harvestcraft:currypowderitem>, 5500, 1000)
@@ -373,7 +373,7 @@ spinnyGoFast.recipeBuilder()
 		<projecte:item.pe_covalence_dust>,<projecte:item.pe_covalence_dust>,<projecte:item.pe_covalence_dust>,<projecte:item.pe_covalence_dust>]);
 	
 	#astral egg for starlight
-	mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:astral_enriched_egg>, <liquid:astralsorcery.liquidstarlight>, 0.7, 10, 0);	
+	mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:astral_enriched_egg>, <liquid:astralsorcery.liquidstarlight>, 0.4, 10, 0);	
 	
 	
 #Learned Chicken

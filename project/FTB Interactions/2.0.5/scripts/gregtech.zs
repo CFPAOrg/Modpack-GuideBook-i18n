@@ -46,6 +46,9 @@ val distillery = mods.gregtech.recipe.RecipeMap.getByName("distillery");
 val distillation_tower = mods.gregtech.recipe.RecipeMap.getByName("distillery");
 
 
+	#tiny sulfur from tiny blaze powder
+	recipes.addShapeless(<gregtech:meta_item_1:65>, [<rusticthaumaturgy:dust_tiny_blaze>]);
+
 	#red alloy fix
 bender.findRecipe(24, 
 	[<ore:plateRedAlloy>.firstItem, <gregtech:meta_item_1:32766>.withTag({Configuration: 4})],
@@ -124,6 +127,15 @@ forgeHammer.recipeBuilder()
 	.EUt(24)
 	.duration(20)
 	.buildAndRegister();
+
+	#Netherite blocks to ingotts
+forgeHammer.recipeBuilder()
+	.inputs([<netherbackport:netheriteblock>])
+	.outputs([<netherbackport:netheriteingot>*9])
+	.EUt(24)
+	.duration(20)
+	.buildAndRegister();
+
 	
 	#Sphalerite Electrolysis
 electrolyzer.recipeBuilder()
@@ -702,12 +714,55 @@ furnace.addRecipe(<gregtech:mineral>, <gregtech:mineral:4>);
     .EUt(12)
     .buildAndRegister();
 
+
+#Bronze hulls
+	alloyer.recipeBuilder()
+    .inputs(<ore:plateBronze>*6, <ore:plateBrass> * 2 )
+    .outputs(<gregtech:machine_casing:10>)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
+
+	alloyer.recipeBuilder()
+    .inputs(<gregtech:machine_casing:10>, <ore:blockBrick>*3)
+    .outputs(<gregtech:machine_casing:11>*2)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
+
+
 	alloyer.recipeBuilder()
     .inputs(<ore:dustLapis>, <ore:ingotSteel> * 4 )
     .outputs(<ore:ingotBluesteel>.firstItem * 4)
     .duration(60)
     .EUt(12)
     .buildAndRegister();
+
+
+var moldsToChisel as IItemStack[] = [
+	<gregtech:meta_item_1:32300>,
+	<gregtech:meta_item_1:32317>,
+	<gregtech:meta_item_1:32305>,
+	<gregtech:meta_item_1:32304>,
+	<gregtech:meta_item_1:32303>,
+	<gregtech:meta_item_1:32301>,
+	<gregtech:meta_item_1:32317>,
+	<gregtech:meta_item_1:32315>,
+	<gregtech:meta_item_1:32314>,
+	<gregtech:meta_item_1:32313>,
+	<gregtech:meta_item_1:32309>,
+	<gregtech:meta_item_1:32308>,
+	<gregtech:meta_item_1:32307>,
+	<gregtech:meta_item_1:32306>
+
+	];
+
+
+for i in moldsToChisel {
+i.addTooltip(format.darkRed("可以通过雕凿其他模具获得。"));
+mods.chisel.Carving.addVariation("GTMolds", i);
+}
+
 
 
 	#Pump - LV
@@ -1146,6 +1201,13 @@ chemReactor.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
+#Alternate Vynl chloride
+chemReactor.recipeBuilder()
+	.fluidInputs([<liquid:plastic> * 1000, <liquid:chlorine> * 1000])
+	.fluidOutputs([<liquid:polyvinyl_chloride> * 1000])
+    .duration(320)
+    .EUt(30)
+    .buildAndRegister();
 
 	#new Glycol production
 chemReactor.recipeBuilder()
@@ -1330,8 +1392,8 @@ chemReactor.findRecipe(388000,
 chemReactor.recipeBuilder()
 	.fluidInputs([<liquid:cryogenicoxygen> * 1000, <liquid:cryogenichydrogen> * 1000])
 	.fluidOutputs([<liquid:rocket_fuel> * 1000])
-    .duration(220)
-    .EUt(48)
+    .duration(660)
+    .EUt(120)
     .buildAndRegister();
 	
 	#Removing Methane from Apples

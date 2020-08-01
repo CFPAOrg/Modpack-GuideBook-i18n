@@ -251,6 +251,11 @@ recipes.remove(<thermalexpansion:machine:8>);
 	[<gtadditions:ga_transparent_casing>, <gregtech:machine:500>, <gtadditions:ga_transparent_casing>],
 	[<ore:gearBronze>, <thermalfoundation:material:513>, <ore:gearBronze>]]);
 
+	#reinforced upgrade
+	recipes.remove(<thermalfoundation:upgrade:1>);
+	recipes.addShaped(<thermalfoundation:upgrade:1>, [[null, <gregtech:meta_item_1:10112>, null],[<gregtech:meta_item_1:10112>, <gregtech:meta_item_2:26062>, <gregtech:meta_item_1:10112>], [<mekanism:basicblock:10>, <gregtech:meta_item_1:10112>, <mekanism:basicblock:10>]]);
+
+
 	#slag from bioblend
 	furnace.addRecipe(<thermalfoundation:material:864>, <ore:itemBioblend>);
 

@@ -23,44 +23,35 @@ var blueprintTags as string[] = [
 ];
 
 for i in blueprintTags {
-	<modularmachinery:itemblueprint>.withTag({dynamicmachine: i}).addTooltip(format.darkRed("可以在地牢中找到的蓝图。"));
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: i}).addTooltip(format.darkRed("可以在地牢中找到该蓝图。"));
 	recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: i}) * 2,
 		[<modularmachinery:itemblueprint>.withTag({dynamicmachine: i}), <cyclicmagic:carbon_paper>]);
 }
 
-val j = 'dynamicmachine: modularmachinery:photonuclear_fission_chamber';
-val k = 'dynamicmachine: modularmachinery:sky_cauldron';
-val h = 'dynamicmachine: modularmachinery:infernal_deconglomerator';
-laser.recipeBuilder()
-	.inputs(<cyclicmagic:carbon_paper>)
-	.notConsumable(<ore:lensVinteum>)
-    .outputs(<modularmachinery:itemblueprint>.withTag({dynamicmachine: j}))
-    .duration(400)
-    .EUt(480)
-    .buildAndRegister();
+#Photofission chamber
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:photonuclear_fission_chamber"}),
+	[[null, <ore:plateVinteum>, null],
+	[<ore:plateVinteum>, <cyclicmagic:carbon_paper>, <ore:plateVinteum>],
+	[null, <ore:plateVinteum>, null]]);
+
+	#Sky Cauldron
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sky_cauldron"}),
+	[[null, <ore:plateStellarAlloy>, null],
+	[<ore:plateStellarAlloy>, <cyclicmagic:carbon_paper>, <ore:plateStellarAlloy>],
+	[null, <ore:plateStellarAlloy>, null]]);
+
+	#infernal_deconglomerator
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:infernal_deconglomerator"}),
+	[[null, <ore:ingotArdite>, null],
+	[<ore:ingotArdite>, <cyclicmagic:carbon_paper>, <ore:ingotArdite>],
+	[null, <ore:ingotArdite>, null]]);
+
 
 #vent
 recipes.addShaped(<modularmachinery:blockcasing:1>, 
 	[[<ore:plateSteel>, <thaumcraft:bellows>, <ore:plateSteel>],
 	[<thaumcraft:bellows>, <modularmachinery:blockcasing:2>, <thaumcraft:bellows>], 
 	[<ore:plateSteel>, <ore:rotorTin>, <ore:plateSteel>]]);
-
-#Sky cauldron
-alloyer.recipeBuilder()
-    .inputs(<cyclicmagic:carbon_paper>, <ore:plateStarmetal>)
-    .outputs(<modularmachinery:itemblueprint>.withTag({dynamicmachine: k}))
-    .duration(400)
-    .EUt(480)
-    .buildAndRegister();
-
-#deconglomerator
-alloyer.recipeBuilder()
-    .inputs(<cyclicmagic:carbon_paper>, <ore:dustQuartzBlack>)
-    .outputs(<modularmachinery:itemblueprint>.withTag({dynamicmachine: h}))
-    .duration(400)
-    .EUt(480)
-    .buildAndRegister();
-
 
 #Blueprints
 	#improved coke oven blueprint recipes
@@ -1239,6 +1230,7 @@ var furnaceItems as IItemStack[IItemStack] = {
 <tconstruct:slime_congealed>:<tconstruct:slime_channel> * 3,
 <tconstruct:soil:3>:<tconstruct:soil:4>,
 <gregtech:meta_item_1:10802>:<thaumcraft:ingot>,
+<ceramics:clay_hard>:<minecraft:brick_block>,
 <thaumcraft:cluster:6>:<thaumcraft:quicksilver> * 2,
 <gregtech:meta_item_1:805>:<botania:manaresource:17>,
 <thermalfoundation:material:64>:<thermalfoundation:material:128>,
@@ -1282,7 +1274,7 @@ for input, output in furnaceItems {
 
 
 print("---------------Hellfire Kiln Vanilla recipe furnace import End-----------------");
-print("#ikwid");
+
 
 #custom Kiln Recipes
 

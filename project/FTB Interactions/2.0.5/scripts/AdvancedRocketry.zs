@@ -42,17 +42,17 @@ val laser = mods.gregtech.recipe.RecipeMap.getByName("laser_engraver");
     .buildAndRegister();
 
 	macerator.recipeBuilder()
-    .inputs(<advancedrocketry:crystal:2>)
+    .inputs(<advancedrocketry:crystal:3>)
 	.outputs(<actuallyadditions:item_crystal_shard>)
-	.chancedOutput(<ore:dustSmallCadmium>.firstItem, 1000, 150)
+	.chancedOutput(<ore:dustSmallChrome>.firstItem, 1000, 150)
     .duration(40)
     .EUt(48)
     .buildAndRegister();
 
 	macerator.recipeBuilder()
-    .inputs(<advancedrocketry:crystal:3>)
+    .inputs(<advancedrocketry:crystal:2>)
 	.outputs(<actuallyadditions:item_crystal_shard:4>)
-	.chancedOutput(<ore:dustSmallChrome>.firstItem, 1000, 150)
+	.chancedOutput(<ore:dustSmallCadmium>.firstItem, 1000, 150)
     .duration(40)
     .EUt(48)
     .buildAndRegister();
@@ -242,9 +242,9 @@ mods.jei.JEI.hide(<libvulpes:productnugget:7>);
 	#precision assembler
 recipes.remove(<advancedrocketry:precisionassemblingmachine>);
 recipes.addShaped(<advancedrocketry:precisionassemblingmachine>, [
-	[<gregtech:meta_item_2:32212>, <advancedrocketry:misc>, <ore:stickDiamond>],
+	[<ore:stickAluminium>, <advancedrocketry:misc>, <ore:stickAluminium>],
 	[<advancedrocketry:ic:4>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>],
-	[<cyclicmagic:laser>, <ore:gearAluminium>, <metaitem:robot.arm.mv>]]);
+	[<metaitem:electric.motor.mv>, <ore:gearAluminium>, <metaitem:electric.motor.mv>]]);
 
 
 	#space elevator controller
