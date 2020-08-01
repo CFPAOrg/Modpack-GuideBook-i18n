@@ -1,0 +1,38 @@
+{
+	x: 1.5d,
+	y: 7.5d,
+	description: "投掷一枚硬币，看着它在落地前消失。",
+	text: [
+		"这个星球有一个可呼吸的大气层！你需要在你的空间站使用跃迁控制器和工件来飞往这个世界。你会在这里找到温特姆矿石、 地牢、 强大的外星科技，甚至是神秘野兽的传说......"
+	],
+	dependencies: [
+		"dd0f8ba4"
+	],
+	tasks: [{
+		uid: "af8c06ee",
+		type: "item",
+		items: [{
+			item: "contenttweaker:overworldessencer"
+		}]
+	}],
+	rewards: [{
+		uid: "b1c3e7cb",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "contenttweaker:overworldessencer",
+					Count: 1,
+					Damage: 0
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "The Prime Artifact",
+				TrophyColorRed: 37
+			}
+		}
+	}]
+}

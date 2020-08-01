@@ -1,0 +1,31 @@
+{
+	title: "部件化装备制造业",
+	icon: {
+		id: "tconstruct:hammer_head",
+		tag: {
+			Material: "steel"
+		}
+	},
+	x: -11.0d,
+	y: -3.0d,
+	description: "为了获取更高等级与拥有强大特性的材料所制作的可用部件，你需要压模，而不是铸造。",
+	dependencies: [
+		"495cac08",
+		"c193d3a6"
+	],
+	tasks: [{
+		uid: "40a153f6",
+		type: "item",
+		items: [{
+			id: "tconstruct:hammer_head",
+			tag: {
+				Material: "steel"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dacaa095",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	}]
+}

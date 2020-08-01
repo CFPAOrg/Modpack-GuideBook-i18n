@@ -1,0 +1,17 @@
+{
+	x: -22.0d,
+	y: 1.0d,
+	description: "单方块高速物品传输设备，可配置正则过滤。萤石右键加速，红石右键启用红石控制，钻石粒右键启用正则过滤。",
+	tasks: [{
+		uid: "ee2938ad",
+		type: "item",
+		items: [{
+			item: "translocators:translocator_part"
+		}]
+	}],
+	rewards: [{
+		uid: "89d0f8fa",
+		type: "item",
+		item: "enderutilities:storage_0"
+	}]
+}

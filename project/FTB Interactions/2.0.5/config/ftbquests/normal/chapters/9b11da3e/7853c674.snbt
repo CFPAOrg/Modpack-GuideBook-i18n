@@ -1,0 +1,15 @@
+{
+	icon: "plants2:cosmetic_1 1 10",
+	x: -10.0d,
+	y: -7.0d,
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "43d74143",
+		type: "item",
+		items: [{
+			item: "plants2:cosmetic_1 1 10"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "MV时代",
+	icon: "gregtech:machine 1 502",
+	x: -6.0d,
+	y: -5.0d,
+	description: "此列中的项目可以在MV时代制作。",
+	dependencies: [
+		"dcd19e05",
+		"84a5a212"
+	],
+	tasks: [{
+		uid: "5be91a54",
+		type: "checkmark"
+	}]
+}

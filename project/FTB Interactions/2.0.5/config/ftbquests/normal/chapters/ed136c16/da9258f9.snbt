@@ -1,0 +1,18 @@
+{
+	title: "从本系统输出",
+	x: -13.5d,
+	y: 4.0d,
+	text: [
+		"猜猜这个东西应该接到哪里..."
+	],
+	dependencies: [
+		"be691558"
+	],
+	tasks: [{
+		uid: "a0853a8d",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	}]
+}

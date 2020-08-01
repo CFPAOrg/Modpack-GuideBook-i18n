@@ -1,0 +1,13 @@
+{
+	x: -2.5d,
+	y: -9.0d,
+	shape: "rsquare",
+	description: "在高压釜中使用树脂和赛特斯石英种子合成。",
+	tasks: [{
+		uid: "fc2d91a0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:amber"
+		}]
+	}]
+}

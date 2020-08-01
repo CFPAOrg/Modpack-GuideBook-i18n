@@ -1,0 +1,15 @@
+{
+	title: "这里越来越热",
+	icon: "minecraft:grass",
+	x: 0.0d,
+	y: -6.0d,
+	description: "往南方探索可以找到比较温暖的生物群系",
+	dependencies: [
+		"c5321cae",
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "aa6318c9",
+		type: "checkmark"
+	}]
+}

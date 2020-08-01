@@ -1,0 +1,29 @@
+{
+	x: -5.0d,
+	y: -10.0d,
+	description: "抱歉，这并不是真正的无尽鸡。",
+	text: [
+		"希望你能感谢FakoTheGreat为这只无尽小鸡提供了模型和材质"
+	],
+	tasks: [{
+		uid: "5b242762",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Chicken: "contenttweaker:infinitychicken"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "4cd5cdaa",
+		type: "item",
+		item: "roost:roost"
+	},
+	{
+		uid: "436d0739",
+		type: "item",
+		item: "harvestcraft:friedchickenitem"
+	}]
+}

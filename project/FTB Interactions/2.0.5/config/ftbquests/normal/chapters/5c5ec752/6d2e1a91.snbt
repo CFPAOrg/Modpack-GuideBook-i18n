@@ -1,0 +1,28 @@
+{
+	title: "我该如何建造这个该死的东西？！",
+	x: 1.5d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"感谢MultiblockTweaker模组，所有格雷的多方块都可以在世界中进行预览了。 放置关键方块后，你可以shift右击该方块来循环切换世界内的预览。",
+		"感谢MultiblockTweaker模组，所有格雷的多方块都可以在世界中进行预览了。 放置关键方块后，你可以shift右击该方块来循环切换世界内的预览。",
+		"还有一个很重要的事情， 机器控制覆盖版可以用红石来控制机器的开关，而不必依靠软锤， 这在某些自动化中非常有用。"
+	],
+	dependencies: [
+		"eafc12e8"
+	],
+	tasks: [{
+		uid: "a439841f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "616e10fd",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "7cc81a7e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32730"
+	}]
+}

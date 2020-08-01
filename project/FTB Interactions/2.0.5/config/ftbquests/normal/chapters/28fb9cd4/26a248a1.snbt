@@ -1,0 +1,27 @@
+{
+	title: "占星术士",
+	x: -6.5d,
+	y: 1.5d,
+	description: "你获得了星图之后，就可以建造一个天文望远镜来发现天空中的星座。",
+	dependencies: [
+		"ba92ee4f"
+	],
+	tasks: [{
+		uid: "2a64f907",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "3da83223",
+		type: "item",
+		item: "astralsorcery:blockattunementrelay",
+		count: 4
+	},
+	{
+		uid: "78f1aad0",
+		type: "item",
+		item: "harvestcraft:cinnamonrollitem"
+	}]
+}

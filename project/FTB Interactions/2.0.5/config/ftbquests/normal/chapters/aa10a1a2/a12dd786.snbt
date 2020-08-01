@@ -1,0 +1,49 @@
+{
+	title: "收集掉落物",
+	x: -10.5d,
+	y: -6.0d,
+	shape: "rsquare",
+	text: [
+		"这三者的任何一种都可以让你收集烽火树的掉落物。如果你在基地以外的远处建造树场，请考虑使用原版机制。",
+		"早期游戏中在这里使用模组运输物品可能有些昂贵，所以你可能要在你的焦炉/蒸汽锅炉装置上面建造树场。"
+	],
+	dependencies: [
+		"b6d28c29"
+	],
+	tasks: [{
+		uid: "7668238c",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			},
+			Damage: 12s
+		},
+		{
+			id: "botania:specialflower",
+			tag: {
+				type: "hopperhock"
+			}
+		},
+		{
+			item: "randomthings:itemcollector"
+		}]
+	}],
+	rewards: [{
+		uid: "6d2d8de8",
+		type: "item",
+		item: "enderio:item_extract_speed_upgrade",
+		count: 64
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: -5.0d,
+	shape: "square",
+	tasks: [{
+		uid: "cd469bf9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:monster_soul"
+		}],
+		ignore_nbt: 1b
+	}]
+}

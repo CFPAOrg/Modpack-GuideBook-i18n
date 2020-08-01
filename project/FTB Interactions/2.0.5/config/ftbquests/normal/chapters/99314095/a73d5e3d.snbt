@@ -1,0 +1,34 @@
+{
+	title: "I'm bulletproof，nothing to lose，fire away，fire away",
+	x: -9.0d,
+	y: 6.0d,
+	shape: "square",
+	description: "EV等级的合成主要用到的锭，",
+	text: [
+		"干的好！你现在着火了。不是真的着火了，是热的锭烫伤了你。停下，扔掉，原地打滚。"
+	],
+	dependencies: [
+		"cd295b50",
+		"86f1912f"
+	],
+	tasks: [{
+		uid: "94fafe10",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10072"
+		}]
+	},
+	{
+		uid: "0bb4f915",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 504"
+		}]
+	}],
+	rewards: [{
+		uid: "27e3ed2c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 11072",
+		count: 8
+	}]
+}

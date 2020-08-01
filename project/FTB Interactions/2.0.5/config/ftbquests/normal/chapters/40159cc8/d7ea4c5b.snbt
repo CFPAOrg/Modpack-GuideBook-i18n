@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: -12.0d,
+	description: "有了钍，你就可以搞到钚-244了，用它来生产氡吧，这样就可以制作改良的末影之眼了",
+	text: [
+		"查看HV化学选项卡获取更多关于生产氡的信息"
+	],
+	dependencies: [
+		"2524e21f"
+	],
+	tasks: [{
+		uid: "7121ac36",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32724"
+		}]
+	}],
+	rewards: [{
+		uid: "020af9bd",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32724"
+	}]
+}

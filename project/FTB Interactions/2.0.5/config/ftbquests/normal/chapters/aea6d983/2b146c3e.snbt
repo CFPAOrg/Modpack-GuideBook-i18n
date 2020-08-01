@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: -15.5d,
+	text: [
+		"基础的鸡舍。在这里你可以放置多达16只相同类型和强度的鸡，源源不断地生产它们的蛋。"
+	],
+	dependencies: [
+		"0b123dfe"
+	],
+	tasks: [{
+		uid: "9617d343",
+		type: "item",
+		items: [{
+			item: "roost:roost"
+		}]
+	}],
+	rewards: [{
+		uid: "4af30fc7",
+		type: "item",
+		item: "minecraft:egg",
+		count: 4
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -7.0d,
+	y: 4.0d,
+	text: [
+		"比双足飞龙胸甲的能力更好，神龙胸甲可以给玩家提供飞行，它去除了当玩家在空中时挖掘速度会变慢的惩罚，并提供防火效果。"
+	],
+	dependencies: [
+		"75c24ed9"
+	],
+	tasks: [{
+		uid: "a8ebf43a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

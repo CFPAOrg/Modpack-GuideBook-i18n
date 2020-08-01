@@ -1,0 +1,25 @@
+{
+	x: -22.0d,
+	y: 3.0d,
+	description: "适用于需要即时传输液体的情况。",
+	text: [
+		"而且传输距离不止一格。",
+		"流体激光每tick可以移动无限量的液体，使它们成为中后期蒸汽涡轮的理想选择。"
+	],
+	dependencies: [
+		"c193d3a6"
+	],
+	tasks: [{
+		uid: "1eb69eef",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_fluids"
+		}]
+	}],
+	rewards: [{
+		uid: "346afc55",
+		type: "item",
+		item: "fluxnetworks:flux",
+		count: 8
+	}]
+}

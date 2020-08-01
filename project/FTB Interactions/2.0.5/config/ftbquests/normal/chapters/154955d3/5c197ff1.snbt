@@ -1,0 +1,29 @@
+{
+	title: "这甚至不应当是必要的……",
+	x: 2.0d,
+	y: -3.0d,
+	description: "但如果你加入了弄丢炼金术秘卷的专属俱乐部，那么，这里是备用选项。简直不能再帮你更多了。",
+	dependencies: [
+		"e7d70489"
+	],
+	tasks: [{
+		uid: "08646f4d",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_tome"
+		}
+	}],
+	rewards: [{
+		uid: "d6c9b41e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_tome"
+		}
+	}]
+}

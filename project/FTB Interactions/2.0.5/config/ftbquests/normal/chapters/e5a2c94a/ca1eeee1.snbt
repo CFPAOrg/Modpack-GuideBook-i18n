@@ -1,0 +1,36 @@
+{
+	title: "千锌万苦",
+	x: -1.0d,
+	y: 2.0d,
+	description: "在Y轴10~70之间生成，闪锌矿有两个特别有用副产物，锌和镓",
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "924741c5",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sphalerite_0 1 6"
+		}]
+	},
+	{
+		uid: "85bd3cc6",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sulfur_0 1 6"
+		}]
+	},
+	{
+		uid: "3de13126",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrite_0 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "0c15588c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2079",
+		count: 4
+	}]
+}

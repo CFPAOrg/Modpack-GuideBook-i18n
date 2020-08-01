@@ -1,0 +1,33 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"e92df748"
+	],
+	tasks: [{
+		uid: "d56e04f5",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockinfusedwood 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "97a07bd0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "astralsorcery.liquidstarlight",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "a0f00e01",
+		type: "item",
+		item: "harvestcraft:cookiesandmilkitem"
+	}]
+}

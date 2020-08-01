@@ -1,0 +1,25 @@
+{
+	x: -11.0d,
+	y: -6.0d,
+	text: [
+		"你拥有了粉碎矿石之后，你需要研磨机、锻造锤或将它们与锤子一起合成，将它们变成含杂的矿粉以供进一步处理。"
+	],
+	dependencies: [
+		"5c340434",
+		"2f4525e2"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "92475d2c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 5033"
+		}]
+	}],
+	rewards: [{
+		uid: "684b7ca7",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3215",
+		count: 32
+	}]
+}

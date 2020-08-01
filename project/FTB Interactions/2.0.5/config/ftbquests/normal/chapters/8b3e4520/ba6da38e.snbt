@@ -1,0 +1,52 @@
+{
+	title: "终焉之始",
+	x: -4.0d,
+	y: -5.0d,
+	description: "要塞不会在主世界生成，你需要用以下物品制作一个属于自己的末地传送门。",
+	text: [
+		"使用这些物品你可以自制一个随意作品模组的末地传送门，前往末地。"
+	],
+	dependencies: [
+		"da0cc52f"
+	],
+	tasks: [{
+		uid: "51bf017a",
+		type: "item",
+		items: [{
+			item: "minecraft:end_rod"
+		}]
+	},
+	{
+		uid: "7f453469",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 16L
+	},
+	{
+		uid: "437d1ebc",
+		type: "item",
+		items: [{
+			item: "minecraft:end_stone"
+		}],
+		count: 10L
+	},
+	{
+		uid: "f2660b8c",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7b09419d",
+		type: "item",
+		item: "astralsorcery:blockcelestialgateway"
+	},
+	{
+		uid: "03be71c3",
+		type: "item",
+		item: "bloodmagic:component 1 4"
+	}]
+}

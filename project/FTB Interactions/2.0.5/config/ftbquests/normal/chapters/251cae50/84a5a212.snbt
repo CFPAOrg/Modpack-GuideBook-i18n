@@ -1,0 +1,14 @@
+{
+	title: "LV时代",
+	icon: "gregtech:machine 1 501",
+	x: -7.0d,
+	y: -5.0d,
+	description: "此列中的项目可以在LV时代制作。",
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "636060bd",
+		type: "checkmark"
+	}]
+}

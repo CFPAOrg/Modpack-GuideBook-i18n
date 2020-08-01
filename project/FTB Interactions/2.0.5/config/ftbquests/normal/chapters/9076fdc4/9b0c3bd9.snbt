@@ -1,0 +1,18 @@
+{
+	x: -7.0d,
+	y: -7.0d,
+	description: "质量比大多数小行星还大。",
+	tasks: [{
+		uid: "0efd7b90",
+		type: "item",
+		items: [{
+			item: "avaritia:block_resource"
+		}]
+	}],
+	rewards: [{
+		uid: "714a2a4f",
+		type: "item",
+		item: "avaritia:resource 1 2",
+		count: 32
+	}]
+}

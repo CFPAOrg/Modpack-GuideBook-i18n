@@ -1,0 +1,37 @@
+{
+	title: "汉登",
+	x: -11.0d,
+	y: -4.5d,
+	text: [
+		"基础的滑翔飞行，配合飞行背包或其他能使你推你进空中的物品使用更佳。"
+	],
+	dependencies: [
+		"c193d3a6"
+	],
+	tasks: [{
+		uid: "8b003d10",
+		type: "item",
+		items: [{
+			item: "openblocks:hang_glider"
+		}]
+	}],
+	rewards: [{
+		uid: "50084703",
+		type: "item",
+		item: "plants2:cataplant"
+	},
+	{
+		uid: "3910c7f5",
+		type: "item",
+		item: {
+			id: "rustic:elixir",
+			tag: {
+				ElixirEffects: [{
+					Effect: "rustic:feather",
+					Duration: 9600,
+					Amplifier: 0
+				}]
+			}
+		}
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -4.5d,
+	y: 1.0d,
+	dependencies: [
+		"ffa54a23"
+	],
+	tasks: [{
+		uid: "eb12dd50",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "nitro_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}]
+	}]
+}

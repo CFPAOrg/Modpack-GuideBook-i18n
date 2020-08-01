@@ -1,0 +1,16 @@
+{
+	x: -6.0d,
+	y: 7.0d,
+	shape: "diamond",
+	dependencies: [
+		"c35570d8",
+		"c5c9f2f6"
+	],
+	dependency_requirement: "one_completed",
+	size: 2.0d,
+	tasks: [{
+		uid: "c71b534a",
+		type: "checkmark",
+		title: "更高效率，搞定！"
+	}]
+}

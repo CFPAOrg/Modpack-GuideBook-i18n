@@ -1,0 +1,33 @@
+{
+	title: "含硫石脑油",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "sulfuric_naphtha",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -8.5d,
+	y: -7.0d,
+	description: "听着，我们不是要求你把这种无用的化学物质盛出来，但是这是一个！非常！烦人的！任务书！做吧。",
+	text: [
+		"含硫石脑油可以通过石油直接蒸馏，或者使用蒸馏塔来获得，充能油也可以提供这种副产物。 "
+	],
+	tasks: [{
+		uid: "4aa48766",
+		type: "checkmark",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_naphtha",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

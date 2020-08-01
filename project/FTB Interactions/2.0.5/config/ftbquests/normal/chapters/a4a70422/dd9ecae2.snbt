@@ -1,0 +1,28 @@
+{
+	x: -8.0d,
+	y: 4.5d,
+	text: [
+		"量瓶填充器能够合成任何容量的装有液体的量瓶，只需要你的系统中有正确容量的量瓶。"
+	],
+	dependencies: [
+		"f18ebd20"
+	],
+	tasks: [{
+		uid: "072b2121",
+		type: "item",
+		items: [{
+			item: "volumetricflask:filler"
+		}]
+	}],
+	rewards: [{
+		uid: "20063ff8",
+		type: "item",
+		item: "appliedenergistics2:part 1 241"
+	},
+	{
+		uid: "3e16f4fc",
+		type: "item",
+		item: "appliedenergistics2:material 1 30",
+		count: 4
+	}]
+}

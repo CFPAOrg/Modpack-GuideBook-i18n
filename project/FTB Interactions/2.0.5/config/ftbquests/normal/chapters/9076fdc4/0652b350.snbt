@@ -1,0 +1,43 @@
+{
+	x: -14.0d,
+	y: -8.0d,
+	description: "实际上不能推波。",
+	tasks: [{
+		uid: "0bd400e0",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "20dad4c8",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 205,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "botania:manaresource",
+					Count: 1,
+					Damage: 5
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Gaia Remastered",
+				TrophyColorRed: 65
+			}
+		}
+	},
+	{
+		uid: "0a8dc2b0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:ancientwill",
+			Damage: 1s
+		}
+	}]
+}

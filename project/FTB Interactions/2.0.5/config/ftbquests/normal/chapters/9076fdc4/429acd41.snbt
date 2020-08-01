@@ -1,0 +1,47 @@
+{
+	x: 0.0d,
+	y: -7.0d,
+	description: "终于能做像样的自动化了，甚至还可以用上真正的大箱子！",
+	tasks: [{
+		uid: "58d8a9a2",
+		type: "item",
+		icon: "chisel:futura 1 4",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "0d7018fb",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "appliedenergistics2:controller",
+					Count: 1,
+					Damage: 0
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "AE Minimized",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "7df0f1ec",
+		type: "item",
+		team_reward: true,
+		item: "appliedenergistics2:material 1 44",
+		count: 16
+	},
+	{
+		uid: "1fd88381",
+		type: "item",
+		team_reward: true,
+		item: "appliedenergistics2:material 1 43",
+		count: 16
+	}]
+}

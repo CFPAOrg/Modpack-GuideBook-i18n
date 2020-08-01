@@ -1,0 +1,37 @@
+{
+	title: "星辉转化，四倍产矿",
+	x: -16.0d,
+	y: -3.5d,
+	description: "Mekanism能五倍产矿？Too young too simple！",
+	text: [
+		"用你的小蓝法杖来让水晶对着矿石射出特殊的魔法。 这是多倍产矿的新世界，这里的资源就像海水一样，你很快就会被它淹没，不知所措。"
+	],
+	dependencies: [
+		"bed220ce"
+	],
+	tasks: [{
+		uid: "32595c99",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "10569b43",
+		type: "item",
+		item: {
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	}]
+}

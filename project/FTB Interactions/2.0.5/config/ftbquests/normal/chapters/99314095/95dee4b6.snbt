@@ -1,0 +1,28 @@
+{
+	title: "工业熔炉",
+	x: -10.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	description: "你也可以把它称作用于化学还原、食品烹饪、美拉德反应以及非酶性褐变的并行化加热设备，从冷启动开始通过辐射热源大幅提高传热效率和加工速度的机器。",
+	text: [
+		"最低等级的是白铜线圈，但是可以用别的线圈来升级多方块结构。",
+		"",
+		"这个东西非常快，OP一般地快。完全升级后，它是所有模组中最快的熔炉之一，也许它只会被最大超频的IC2熔炉击败。",
+		""
+	],
+	dependencies: [
+		"ace65682"
+	],
+	tasks: [{
+		uid: "7453d34a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 516"
+		}]
+	}],
+	rewards: [{
+		uid: "e22d668c",
+		type: "item",
+		item: "actuallyadditions:item_food 1 14"
+	}]
+}

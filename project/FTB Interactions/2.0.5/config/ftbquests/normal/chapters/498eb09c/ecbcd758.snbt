@@ -1,0 +1,22 @@
+{
+	x: -8.0d,
+	y: -6.0d,
+	dependencies: [
+		"631ee396"
+	],
+	tasks: [{
+		uid: "e7f485d8",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "deuterium",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

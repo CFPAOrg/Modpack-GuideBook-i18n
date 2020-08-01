@@ -1,0 +1,31 @@
+{
+	title: "不用折腾了！",
+	x: -10.0d,
+	y: 4.5d,
+	text: [
+		"让你自动化一些需要液体的合成，只要在需要液体的配方中加入相应容量的装有液体的量瓶，这个接口就会自动将液体输入到机器里！"
+	],
+	dependencies: [
+		"f18ebd20"
+	],
+	tasks: [{
+		uid: "f9a47073",
+		type: "item",
+		items: [{
+			item: "volumetricflask:o_interface"
+		}]
+	}],
+	rewards: [{
+		uid: "9bbec655",
+		type: "item",
+		item: {
+			id: "volumetricflask:volumetric_flask_144",
+			tag: {}
+		}
+	},
+	{
+		uid: "e3016851",
+		type: "item",
+		item: "appliedenergistics2:part 1 221"
+	}]
+}

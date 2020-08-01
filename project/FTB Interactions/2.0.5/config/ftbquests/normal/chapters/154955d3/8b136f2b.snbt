@@ -1,0 +1,27 @@
+{
+	title: "把它们全部自动化！",
+	x: 4.0d,
+	y: 7.0d,
+	shape: "rsquare",
+	description: "最早的自动化方法之一就是使用传送带",
+	dependencies: [
+		"9df1d5ee"
+	],
+	tasks: [{
+		uid: "bac67aab",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor"
+		}]
+	}],
+	rewards: [{
+		uid: "a38767a2",
+		type: "item",
+		item: "industrialforegoing:conveyor_upgrade 1 1"
+	},
+	{
+		uid: "f9e67737",
+		type: "item",
+		item: "industrialforegoing:conveyor_upgrade"
+	}]
+}

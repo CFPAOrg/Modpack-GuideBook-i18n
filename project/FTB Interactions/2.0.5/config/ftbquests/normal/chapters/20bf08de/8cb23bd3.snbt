@@ -1,0 +1,25 @@
+{
+	x: -11.0d,
+	y: -11.0d,
+	shape: "circle",
+	text: [
+		"一个便宜实惠的前期燃料来源，虽然现在不是很值得你花时间。",
+		"它似乎有一些有趣的特性可以用来提升燃料的潜能。"
+	],
+	dependencies: [
+		"8eac9d15"
+	],
+	tasks: [{
+		uid: "6ad81ba5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alumentum"
+		}]
+	}],
+	rewards: [{
+		uid: "6e290ce5",
+		type: "item",
+		item: "projecte:item.pe_fuel 1 1",
+		count: 4
+	}]
+}

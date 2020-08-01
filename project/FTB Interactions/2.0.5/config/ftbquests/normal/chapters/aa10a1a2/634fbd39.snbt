@@ -1,0 +1,44 @@
+{
+	icon: "gregtech:machine 1 2197",
+	x: -4.0d,
+	y: -5.0d,
+	shape: "rsquare",
+	text: [
+		"你会需要储存一些杂酚油来合成物品、产生魔力或者用作燃料。钢桶是前期非常好的选择，热力的便携储罐或者mek的动态储罐也相当不错。",
+		"",
+		"热力的便携储罐是非常好用的，如果你给它们打上扩容附魔，它们就能装下巨量的液体。",
+		"",
+		"另一个好选项Mekanism的动态储罐，它可以便宜地装下大量液体，看上去也是一个好看的多方块。"
+	],
+	tasks: [{
+		uid: "d8567236",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2197"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0,
+				Level: 0
+			}
+		},
+		{
+			item: "extrautils2:drum"
+		}]
+	}],
+	rewards: [{
+		uid: "544d51cc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:reservoir",
+			tag: {}
+		}
+	}]
+}

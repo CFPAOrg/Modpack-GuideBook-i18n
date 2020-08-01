@@ -1,0 +1,42 @@
+{
+	title: "氡 \m/",
+	x: -2.5d,
+	y: -1.0d,
+	shape: "diamond",
+	description: "氡是由钚-244在化学反应釜中简单处理得到的。这会把钚转化成粉，可重新冶炼并继续循环这个过程，但这需要非常大量的能量与时间。建议至少有4个并行的装置来完成这一操作。",
+	text: [
+		"通过一个焦黑石英块催化剂的坠星标位仪式，可以取得最初的钚。这将使你获得钍矿石，进而转化成铀-238，之后离心得到小撮钚-244。",
+		"一旦有了氡，你就可以制造出改良的末影之眼和下界之星，它们是高阶力场发射器和其他EV+组件的关键组件",
+		"还有氡鸡值得你投入资源！"
+	],
+	dependencies: [
+		"ac6213e5"
+	],
+	tasks: [{
+		uid: "b86eb69a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32724"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "3f68d9af",
+		type: "item",
+		item: "harvestcraft:gourmetbeefburgeritem"
+	},
+	{
+		uid: "1eb34447",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "radon",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

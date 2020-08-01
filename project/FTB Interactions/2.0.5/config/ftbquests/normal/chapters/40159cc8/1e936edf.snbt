@@ -1,0 +1,31 @@
+{
+	title: "钻石和绿宝石矿脉",
+	x: -3.0d,
+	y: -10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"78546de8",
+		"fe50d67e"
+	],
+	tasks: [{
+		uid: "ac697a04",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_diamond_0"
+		}]
+	},
+	{
+		uid: "ea7c8dee",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_beryllium_0"
+		}]
+	},
+	{
+		uid: "20c0f484",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_emerald_0"
+		}]
+	}]
+}

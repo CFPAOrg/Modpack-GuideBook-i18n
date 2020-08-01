@@ -1,0 +1,33 @@
+{
+	title: "磨石头",
+	x: -13.5d,
+	y: -4.5d,
+	text: [
+		"单独进行基本的格雷矿石处理工序，或与interactions的矿石处理结合进一步提高产量。这一生产线的起点是都粉碎矿石或矿簇。"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"e99902e3",
+		"2f4525e2"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "71cfba28",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 9"
+		},
+		{
+			item: "gregtech:machine 1 60"
+		},
+		{
+			item: "gregtech:machine 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "5e4e8f80",
+		type: "item",
+		item: "gregtech:meta_item_1 1 5185",
+		count: 16
+	}]
+}

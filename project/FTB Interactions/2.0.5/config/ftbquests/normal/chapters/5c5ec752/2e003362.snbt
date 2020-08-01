@@ -1,0 +1,91 @@
+{
+	title: "炼狱熔炉",
+	icon: "wizardry:blackened_spirit",
+	x: 0.0d,
+	y: 2.5d,
+	description: "炼狱熔炉会将粗钢锭烧成钢，其产率会随着你使用更多的风箱而增加。还用于熔炼阿迪特和普通熔炼配方。",
+	text: [
+		"查看魔导手册获得建造多方块结构的指导。用世界盐激活。",
+		"",
+		"初始产率是1个粗钢锭产出2个钢粒。先制造一些风箱，然后将它们附在炉子上。 每个风箱增加2个钢粒产出，每个粗钢锭最多可产出10个钢粒。你也可以在底部放上风箱。"
+	],
+	dependencies: [
+		"28e5ddea",
+		"481095ef"
+	],
+	tasks: [{
+		uid: "39b7bfa7",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_endergy_ingot"
+		}]
+	},
+	{
+		uid: "74eb1057",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10184"
+		}]
+	},
+	{
+		uid: "f38ba172",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 12L
+	},
+	{
+		uid: "d52521f0",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_brick"
+		}],
+		count: 12L
+	},
+	{
+		uid: "f60693cb",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_bars"
+		}]
+	},
+	{
+		uid: "2c02930f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "1ba7ee4c",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "praecantatio"
+				}]
+			}
+		},
+		count: 20
+	},
+	{
+		uid: "14cc5a96",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2106",
+		count: 64
+	},
+	{
+		uid: "25c8e1e8",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot",
+		count: 6
+	},
+	{
+		uid: "96057837",
+		type: "item",
+		item: "thaumcraft:hungry_chest"
+	}]
+}

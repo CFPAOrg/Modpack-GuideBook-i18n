@@ -1,0 +1,34 @@
+{
+	title: "生物质",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "biomass",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -6.0d,
+	y: -2.0d,
+	description: "最好的原料是植物魔法花瓣，但如果你不相信我们，你可以仔细查看JEI。",
+	dependencies: [
+		"fbf13869"
+	],
+	tasks: [{
+		uid: "a0eb6506",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "biomass",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

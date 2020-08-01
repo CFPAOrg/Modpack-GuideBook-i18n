@@ -1,0 +1,36 @@
+{
+	title: "方铅矿脉",
+	x: -9.0d,
+	y: -5.0d,
+	description: "会在所有的生物群系中生成，除了丛林生物群系。",
+	dependencies: [
+		"0f27dc99"
+	],
+	tasks: [{
+		uid: "d39fe728",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_galena_0"
+		}]
+	},
+	{
+		uid: "aaa4c159",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_silver_0"
+		}]
+	},
+	{
+		uid: "7ef7f9a7",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_lead_0"
+		}]
+	}],
+	rewards: [{
+		uid: "76cec23c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2114",
+		count: 4
+	}]
+}

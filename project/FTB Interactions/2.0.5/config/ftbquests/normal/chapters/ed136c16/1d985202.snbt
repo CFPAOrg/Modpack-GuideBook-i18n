@@ -1,0 +1,18 @@
+{
+	x: -14.0d,
+	y: -6.0d,
+	description: "三个砂砾能给你一个燧石。使用研钵或粘土窑能提升产率。",
+	tasks: [{
+		uid: "ef6c6013",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	}],
+	rewards: [{
+		uid: "d2e14dc7",
+		type: "item",
+		item: "primal_tech:flint_block",
+		count: 16
+	}]
+}

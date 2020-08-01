@@ -1,0 +1,22 @@
+{
+	x: -9.0d,
+	y: 2.0d,
+	text: [
+		"无限的潜能..."
+	],
+	dependencies: [
+		"39d33b3e"
+	],
+	tasks: [{
+		uid: "9e5b06d5",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 220"
+		}]
+	}],
+	rewards: [{
+		uid: "d04c2300",
+		type: "item",
+		item: "appliedenergistics2:part 1 440"
+	}]
+}

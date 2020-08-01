@@ -1,0 +1,34 @@
+{
+	x: -14.0d,
+	y: 0.0d,
+	dependencies: [
+		"d65a5425"
+	],
+	tasks: [{
+		uid: "65d037ad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy",
+				Energy: 500000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a46f5a2c",
+		type: "item",
+		item: "openblocks:sky 1 1",
+		count: 16
+	},
+	{
+		uid: "33cea576",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

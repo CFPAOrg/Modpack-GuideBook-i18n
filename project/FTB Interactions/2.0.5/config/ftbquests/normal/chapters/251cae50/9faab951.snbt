@@ -1,0 +1,33 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"f917135b",
+		"8ef056b5"
+	],
+	tasks: [{
+		uid: "cebf47f3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32501"
+		}]
+	}],
+	rewards: [{
+		uid: "35136a0c",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32500",
+		count: 4
+	},
+	{
+		uid: "a3f410ca",
+		type: "item",
+		item: "avaritia:ultimate_stew",
+		count: 2
+	},
+	{
+		uid: "1e18bfdb",
+		type: "item",
+		item: "gregtech:cable 1 354",
+		count: 16
+	}]
+}

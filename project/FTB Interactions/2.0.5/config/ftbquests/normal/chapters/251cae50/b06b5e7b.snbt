@@ -1,0 +1,15 @@
+{
+	title: "EV时代",
+	icon: "gregtech:machine 1 504",
+	x: -9.0d,
+	y: -1.0d,
+	description: "此行的项目在大多数EV配方中使用。",
+	dependencies: [
+		"27253a8f",
+		"c067f204"
+	],
+	tasks: [{
+		uid: "480f34e8",
+		type: "checkmark"
+	}]
+}

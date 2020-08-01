@@ -1,0 +1,10 @@
+{
+	title: "太空",
+	icon: "advancedrocketry:satelliteprimaryfunction 1 4",
+	description: [
+		"关于太空，你最喜欢的是什么？我的答案是太空本身。这一章包含矿物生成的信息和探索系外行星的进度线。"
+	],
+	always_invisible: false,
+	group: 1865916608,
+	default_quest_shape: ""
+}

@@ -1,0 +1,26 @@
+{
+	title: "通电",
+	x: -1.5d,
+	y: 2.0d,
+	text: [
+		"人体改造的部件需要电力来工作，所以你必须有内部的电力来源。在安装好电容之后，站在充电器上就可以充电。",
+		"骨髓电池也是前期储存能量的一个不错的选择。"
+	],
+	dependencies: [
+		"4a664dce"
+	],
+	tasks: [{
+		uid: "7786fdd5",
+		type: "item",
+		items: [{
+			item: "cyberware:charger"
+		}]
+	},
+	{
+		uid: "900ddf51",
+		type: "item",
+		items: [{
+			item: "cyberware:dense_battery"
+		}]
+	}]
+}

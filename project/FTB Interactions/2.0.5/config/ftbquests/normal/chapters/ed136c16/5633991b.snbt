@@ -1,0 +1,31 @@
+{
+	icon: "cyberware:neuropozyne",
+	x: -1.5d,
+	y: 3.0d,
+	shape: "circle",
+	text: [
+		"机械手术核心右侧的数值条是你身体对机械器官的排斥程度。当心，你只有100点忍耐程度，而且如果你的忍耐程度到达红色部分，你的身体就会开始排斥机械器官。",
+		"警告：排异反应会导致死亡！"
+	],
+	dependencies: [
+		"080f8d40"
+	],
+	tasks: [{
+		uid: "95090e26",
+		type: "checkmark",
+		title: "忍受！",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
+	}],
+	rewards: [{
+		uid: "c1d303f8",
+		type: "item",
+		item: "cyberware:bone_upgrades",
+		count: 5
+	}]
+}

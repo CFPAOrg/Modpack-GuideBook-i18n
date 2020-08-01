@@ -1,0 +1,20 @@
+{
+	title: "来自 Tazz 的挤压机自动化 ",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: 1.0d,
+	y: -4.0d,
+	shape: "gear",
+	custom_click: "https://youtu.be/6bcna4ny-Ok",
+	dependencies: [
+		"3fbc06c2",
+		"5170565f"
+	],
+	dependency_requirement: "one_completed",
+	optional: true
+}

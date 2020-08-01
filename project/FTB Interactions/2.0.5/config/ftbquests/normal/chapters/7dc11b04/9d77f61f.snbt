@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	text: [
+		"第一级的石板，用于许多基础魔法工艺。例如你可以制作8个空白符文去升级你的血魔法祭坛。"
+	],
+	dependencies: [
+		"fcbe45ca",
+		"2c90ab4a",
+		"e9ff4c24"
+	],
+	tasks: [{
+		uid: "8a11e972",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate"
+		}]
+	}],
+	rewards: [{
+		uid: "36c8d163",
+		type: "item",
+		item: "bloodmagic:slate",
+		count: 8
+	},
+	{
+		uid: "a8c3dc19",
+		type: "item",
+		item: "harvestcraft:mobsoupitem"
+	}]
+}

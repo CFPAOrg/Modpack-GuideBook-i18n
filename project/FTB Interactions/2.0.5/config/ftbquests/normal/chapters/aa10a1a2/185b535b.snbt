@@ -1,0 +1,46 @@
+{
+	title: "裂解这些原子 - LuV+级能量",
+	x: -0.5d,
+	y: -5.0d,
+	shape: "square",
+	text: [
+		"光核裂变反应堆可以使用六氟化铀产生大量的蒸汽。你将需要多个蒸汽涡轮来处理输出并生产LuV级的电力。",
+		"",
+		"你可以在Euclydes的地牢中找到这台机器的蓝图，或者之后自己做一个。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e50a603a",
+		"da0cc52f"
+	],
+	tasks: [{
+		uid: "ac51fd19",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:photonuclear_fission_chamber"
+			}
+		}]
+	},
+	{
+		uid: "0aa3aa2c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "uraniumhexafluoride",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}]
+	}],
+	rewards: [{
+		uid: "546e9a2c",
+		type: "item",
+		item: "enderstorage:ender_storage 1 1",
+		count: 2
+	}]
+}

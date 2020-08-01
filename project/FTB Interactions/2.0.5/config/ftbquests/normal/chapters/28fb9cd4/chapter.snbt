@@ -1,0 +1,13 @@
+{
+	title: "我的幸运之星",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockaltar",
+		Damage: 2s
+	},
+	always_invisible: false,
+	group: 549390558,
+	default_quest_shape: ""
+}

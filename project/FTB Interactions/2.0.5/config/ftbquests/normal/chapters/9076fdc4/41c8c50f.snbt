@@ -1,0 +1,48 @@
+{
+	title: "无限的 AE 能源",
+	x: -11.0d,
+	y: -11.0d,
+	description: "为你的你数字化革命提供无限能源",
+	tasks: [{
+		uid: "2a87d041",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:creative_energy_cell"
+		}]
+	}],
+	rewards: [{
+		uid: "f2a264a7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "2387f2dd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:fluid_storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "24a75fd6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicenergistics:essentia_cell_64k",
+			tag: {
+				filter: {}
+			}
+		}
+	}]
+}

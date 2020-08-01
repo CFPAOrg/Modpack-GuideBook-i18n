@@ -1,0 +1,20 @@
+{
+	x: -4.0d,
+	y: 4.0d,
+	description: "这靴子其实并没有那么好，所以不要介意我把它跟无尽套其他装备分开。",
+	dependencies: [
+		"9c15eaeb"
+	],
+	tasks: [{
+		uid: "d07206b7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "avaritia:infinity_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

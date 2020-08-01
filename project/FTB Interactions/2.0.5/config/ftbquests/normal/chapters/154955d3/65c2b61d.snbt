@@ -1,0 +1,24 @@
+{
+	icon: "randomthings:ingredient 1 10",
+	x: 2.0d,
+	y: 6.0d,
+	description: "莲子可以开成一朵花，食用莲花会给玩家提供经验。你之后可以在离心机中自动处理它们。",
+	text: [
+		"提示：在你吃莲花的时候，你拿在副手上的或者穿在身上的有经验修补的物品会被修复。"
+	],
+	dependencies: [
+		"b030b92e"
+	],
+	tasks: [{
+		uid: "44efa3d8",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "4c4d9c0e",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

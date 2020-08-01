@@ -1,0 +1,31 @@
+{
+	title: "OwO这是什么？你看过化学章节吗？",
+	x: -1.0d,
+	y: 4.0d,
+	dependencies: [
+		"f183aac6"
+	],
+	tasks: [{
+		uid: "6cebbe28",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 192"
+		}]
+	}],
+	rewards: [{
+		uid: "01ef63b2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12141",
+		count: 16
+	},
+	{
+		uid: "e8030737",
+		type: "item",
+		item: "harvestcraft:melonsmoothieitem"
+	},
+	{
+		uid: "718dff68",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32766"
+	}]
+}

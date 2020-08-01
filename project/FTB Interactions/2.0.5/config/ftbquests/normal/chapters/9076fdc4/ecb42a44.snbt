@@ -1,0 +1,19 @@
+{
+	x: -6.0d,
+	y: -9.0d,
+	description: "99.999% 纯净中子素，前提是你得无视在其上面的一层薄雾。",
+	tasks: [{
+		uid: "261f5c29",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10972"
+		}]
+	}],
+	rewards: [{
+		uid: "95a7902c",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_1 1 10972",
+		count: 4
+	}]
+}

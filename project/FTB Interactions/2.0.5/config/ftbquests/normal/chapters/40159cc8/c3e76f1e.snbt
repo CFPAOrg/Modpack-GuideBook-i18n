@@ -1,0 +1,14 @@
+{
+	title: "太空竞赛！",
+	icon: "advancedrocketry:stationbuilder",
+	x: 5.0d,
+	y: -15.0d,
+	description: "现在你已经进入太空，你解锁了最后等级的mob staging。向着轨道激光钻努力来获得陨石，以及跃迁控制器来前往探索其他世界。 ",
+	dependencies: [
+		"237309c2"
+	],
+	tasks: [{
+		uid: "a3eeac18",
+		type: "checkmark"
+	}]
+}

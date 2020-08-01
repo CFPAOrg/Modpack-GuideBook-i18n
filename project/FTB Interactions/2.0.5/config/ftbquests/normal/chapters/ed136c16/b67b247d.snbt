@@ -1,0 +1,20 @@
+{
+	x: -8.0d,
+	y: 4.0d,
+	text: [
+		"不仅比双足飞龙头盔的抗性更高，神龙头盔还能让你在水下呼吸。",
+		"这个头盔提供夜视，免疫负面效果，并具有亲水性，能够移除水下挖掘的减速效果，还能作为揭示之护目镜使用。"
+	],
+	dependencies: [
+		"75c24ed9"
+	],
+	tasks: [{
+		uid: "1ce10c3a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

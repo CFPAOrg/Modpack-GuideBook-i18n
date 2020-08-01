@@ -1,0 +1,27 @@
+{
+	title: "可能是你第一次在科技整合包里遍地寻找植物",
+	x: -12.0d,
+	y: -10.0d,
+	shape: "circle",
+	description: "你可以合成或者是通过转换桌来获得这个改良过的扫描仪，默认扫描周围的32格方块。罕见矿石升级可以探测所有的GT矿物。范围升级会增加32格的探测范围 ，可以升级两次，最大范围96格。",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "a92a3fbd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "scannable:scanner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "343f9af4",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2218"
+	}]
+}

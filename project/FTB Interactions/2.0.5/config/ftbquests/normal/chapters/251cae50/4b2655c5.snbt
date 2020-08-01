@@ -1,0 +1,14 @@
+{
+	title: "UV时代",
+	icon: "gregtech:machine 1 508",
+	x: 0.0d,
+	y: -5.0d,
+	description: "此列中的项目可以在UV时代制作。",
+	dependencies: [
+		"ea9f723e"
+	],
+	tasks: [{
+		uid: "52e97827",
+		type: "checkmark"
+	}]
+}

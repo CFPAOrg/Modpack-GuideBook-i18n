@@ -1,0 +1,52 @@
+{
+	title: "聚合星能",
+	x: -5.0d,
+	y: 5.0d,
+	description: "星能聚合器是一个能让你转化某些物品、跳过某些科技线及合成强大的充能水晶工具和武器的多方块结构。",
+	text: [
+		"相对于星辉魔法的正常流程，星能聚合器在本包会更早地开放使用。如果你的星芒宝典还没解锁对应章节，六分仪能帮你建造星能聚合器的多方块结构。这是早期游戏中非常不错的处理钻石和青金石的方法。",
+		"此外，它还可以给水晶武器与水晶工具充能。"
+	],
+	dependencies: [
+		"1d37b267"
+	],
+	tasks: [{
+		uid: "dfa9b5d0",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockstarlightinfuser"
+		}]
+	}],
+	rewards: [{
+		uid: "42f138cd",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1,
+					id: 47
+				}]
+			}
+		}
+	},
+	{
+		uid: "d9cc9aef",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemchargedcrystalshovel",
+			tag: {
+				astralsorcery: {
+					size: 900,
+					fract: 0,
+					purity: 100,
+					sizeOverride: -1,
+					collect: 100
+				}
+			}
+		}
+	}]
+}

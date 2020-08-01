@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: 5.0d,
+	description: "在炼金矩阵中将低等共价粉和粘性树脂结合，形成油脂。",
+	dependencies: [
+		"9df1d5ee"
+	],
+	tasks: [{
+		uid: "ec469827",
+		type: "item",
+		items: [{
+			item: "rustic:tallow"
+		}]
+	}],
+	rewards: [{
+		uid: "06030b75",
+		type: "item",
+		item: "rustic:candle",
+		count: 4
+	}]
+}

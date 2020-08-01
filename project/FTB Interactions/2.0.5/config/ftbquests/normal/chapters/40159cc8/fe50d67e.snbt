@@ -1,0 +1,41 @@
+{
+	title: "“这是我的一小步，却是人类的一大步”",
+	icon: "extrautils2:ingredients 1 5",
+	x: -1.0d,
+	y: -13.0d,
+	shape: "diamond",
+	description: "你在月球上迈出的第一步告诉了你，1969年的登月再度上演了！",
+	text: [
+		"加入星球ID芯片到你的导航电脑里来让你进行不同星球的旅行",
+		"注意：月球是空岛世界的卫星，而非主世界的卫星。只有在空岛世界发射的火箭才能将月球视为其有效目的地。"
+	],
+	dependencies: [
+		"78546de8",
+		"237309c2"
+	],
+	tasks: [{
+		uid: "aab679ba",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:moonturf"
+		}]
+	},
+	{
+		uid: "272f636e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetidchip"
+		}]
+	}],
+	rewards: [{
+		uid: "b2077841",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:primordial_pearl",
+			Damage: 4s
+		}
+	}]
+}

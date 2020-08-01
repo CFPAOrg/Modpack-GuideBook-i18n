@@ -1,0 +1,25 @@
+{
+	title: "纯净之花",
+	x: -0.5d,
+	y: -1.0d,
+	description: "桃子公主很嫉妒雏菊公主：“明明我是马里奥世界的女主角，为什么没有植物学家愿意用我的名字命名一朵花？”",
+	dependencies: [
+		"8daf4c09"
+	],
+	tasks: [{
+		uid: "6d7b9db1",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f0a94ce1",
+		type: "item",
+		item: "botania:petal",
+		count: 2
+	}]
+}

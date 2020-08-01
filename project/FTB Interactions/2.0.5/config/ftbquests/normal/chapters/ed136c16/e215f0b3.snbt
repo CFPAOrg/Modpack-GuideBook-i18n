@@ -1,0 +1,29 @@
+{
+	title: "木之奥秘",
+	x: -0.5d,
+	y: -5.5d,
+	text: [
+		"魔法木头可以有力地增强附魔。像书架那样在附魔台周围放置魔法木头，可以将附魔等级提升至30到60。"
+	],
+	dependencies: [
+		"bcc51b66"
+	],
+	tasks: [{
+		uid: "eba36da9",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativesolidwood 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "135aefcf",
+		type: "item",
+		item: "extrautils2:decorativesolidwood 1 1",
+		count: 4
+	},
+	{
+		uid: "18adbbf0",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

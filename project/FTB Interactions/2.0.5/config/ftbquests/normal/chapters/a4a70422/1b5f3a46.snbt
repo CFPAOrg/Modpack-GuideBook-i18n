@@ -1,0 +1,37 @@
+{
+	x: -8.5d,
+	y: -4.0d,
+	text: [
+		"用于将物品放入容器。"
+	],
+	dependencies: [
+		"ab0c7325"
+	],
+	tasks: [{
+		uid: "64e6df42",
+		type: "item",
+		items: [{
+			item: "bloodmagic:output_routing_node"
+		}]
+	}],
+	rewards: [{
+		uid: "91704455",
+		type: "item",
+		item: "bloodmagic:base_item_filter"
+	},
+	{
+		uid: "79f0f677",
+		type: "item",
+		item: "bloodmagic:base_item_filter 1 1"
+	},
+	{
+		uid: "175cfd6e",
+		type: "item",
+		item: "bloodmagic:base_item_filter 1 2"
+	},
+	{
+		uid: "1435d411",
+		type: "item",
+		item: "bloodmagic:base_item_filter 1 3"
+	}]
+}

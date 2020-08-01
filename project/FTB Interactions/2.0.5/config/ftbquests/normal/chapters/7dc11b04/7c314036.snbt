@@ -1,0 +1,39 @@
+{
+	title: "坠星标位",
+	x: -4.5d,
+	y: -2.0d,
+	description: "陨石来啦！",
+	text: [
+		"血魔法坠星标位需要50万LP启用，它只接受两种独特的催化剂，所生成的矿物如任务所示。",
+		"想要在你的网络中拥有500k LP，你需要一个[导师]气血宝珠（最大容量1M LP）。"
+	],
+	dependencies: [
+		"631b3bd9"
+	],
+	tasks: [{
+		uid: "d7341077",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:activation_crystal",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "61ea669e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:master"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "路漫漫其修远兮",
+	x: 0.0d,
+	y: -7.0d,
+	description: "世界是按照每几千格循环一次的生物群系地图生成的。",
+	text: [
+		"世界生成遵守了冷热和干湿交替的规律，正如此处所示。如果你正处于寒冷的生物群系，你可以往南或北走，最终你会到达炎热的生物群系的。如此这般。"
+	],
+	tasks: [{
+		uid: "0d608800",
+		type: "checkmark",
+		icon: "minecraft:compass"
+	}],
+	rewards: [{
+		uid: "240abb13",
+		type: "item",
+		item: {
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}
+	}]
+}

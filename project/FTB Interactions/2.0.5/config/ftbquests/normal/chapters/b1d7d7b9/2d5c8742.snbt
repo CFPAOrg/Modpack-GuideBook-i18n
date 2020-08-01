@@ -1,0 +1,25 @@
+{
+	title: "原木！原木！不一般的原木！",
+	x: -4.5d,
+	y: -7.0d,
+	shape: "diamond",
+	description: "通过提取门瑞欧原木，你可以获得门瑞欧水晶。离心这些水晶产生许多有用的副产品，包括门瑞欧树脂，甲烷和碳！",
+	tasks: [{
+		uid: "f4ec32fb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:menril_ore_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "8f4a526f",
+		type: "item",
+		item: "integrateddynamics:menril_torch",
+		count: 32
+	},
+	{
+		uid: "9d223b93",
+		type: "item",
+		item: "harvestcraft:berrymeringuenestitem"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "你提醒了我。",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: 0.0d,
+	y: -4.0d,
+	shape: "gear",
+	description: "我们想做到尽量简单易懂。我们让你从一个空岛开始，是因为测试玩家无法在主世界生存。慢慢来，熟悉JEI和任务书。如果你想跳过一些进度线，自行承担风险。",
+	dependencies: [
+		"5a0e0129"
+	],
+	tasks: [{
+		uid: "bb58c26a",
+		type: "checkmark",
+		title: "确认"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "热力威登",
+	x: -6.5d,
+	y: -6.0d,
+	shape: "square",
+	description: "将它们在附魔台中附魔来获得更高等级的存储。",
+	tasks: [{
+		uid: "b6ea0536",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3050f80b",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "钻石矿脉",
+	x: -9.0d,
+	y: -6.0d,
+	description: "在所有生物群系生成，较为稀缺，但据称水晶森林是从大量沉积的钻石矿中生长出来的。",
+	dependencies: [
+		"ba48dccf"
+	],
+	tasks: [{
+		uid: "fb99fa88",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_diamond_0"
+		}]
+	},
+	{
+		uid: "543ec5cc",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_graphite_0"
+		}]
+	},
+	{
+		uid: "f921b2d1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_coal_0"
+		}]
+	}],
+	rewards: [{
+		uid: "800a51bd",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

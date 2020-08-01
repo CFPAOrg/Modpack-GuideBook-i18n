@@ -1,0 +1,25 @@
+{
+	title: "欢迎来到Interactions。涂好防晒霜，别忘了设置键位。",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -4.0d,
+	y: -4.0d,
+	shape: "gear",
+	description: "曾经有一个忘记设置按键绑定的minecraft玩家一直在迷失自我。不过另外一个记得设置按键绑定的聪明minecraft玩家，她打破了最快通关Interactions的纪录。",
+	text: [
+		"推荐的按键绑定：",
+		"-打开任务书：数字键1",
+		"-JEI书签功能：鼠标中键",
+		"-真是可怜的R键，被太多模组所共享。"
+	],
+	tasks: [{
+		uid: "e6bf129b",
+		type: "checkmark",
+		title: "确认"
+	}]
+}

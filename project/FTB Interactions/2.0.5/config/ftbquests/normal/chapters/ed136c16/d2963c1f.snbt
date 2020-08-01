@@ -1,0 +1,24 @@
+{
+	x: -11.0d,
+	y: -6.0d,
+	text: [
+		"这是你的第一个用魔法金属制作的锤头。它的确会提供一些免费的额外物品。"
+	],
+	dependencies: [
+		"c42f5354",
+		"11fc0573"
+	],
+	tasks: [{
+		uid: "c3cc2ebf",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 5802"
+		}]
+	}],
+	rewards: [{
+		uid: "5e99b979",
+		type: "item",
+		item: "thaumcraft:ingot",
+		count: 4
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "星辉矿石",
+	x: -6.5d,
+	y: 5.0d,
+	shape: "gear",
+	description: "星辉矿能在月球上采掘得到",
+	text: [
+		"你不能像星芒宝典上说的那样通过星辉转化来制造星辉矿石，这个东西只能在月球Luna上找到。"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "84413d97",
+		type: "checkmark",
+		icon: "astralsorcery:blockcustomore 1 1"
+	}]
+}

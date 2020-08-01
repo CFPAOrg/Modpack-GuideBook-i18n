@@ -1,0 +1,11 @@
+{
+	title: "维度
+",
+	icon: "contenttweaker:portalblockt",
+	description: [
+		"此任务组侧重于一些你可能会需要或觉得有用的维度特定信息。"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

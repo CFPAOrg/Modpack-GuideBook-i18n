@@ -1,0 +1,26 @@
+{
+	x: -11.0d,
+	y: 3.0d,
+	description: "储存63种物品，再多来点。",
+	dependencies: [
+		"33a91876"
+	],
+	tasks: [{
+		uid: "ecdc3057",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 36"
+		}]
+	}],
+	rewards: [{
+		uid: "439f8494",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}
+	}]
+}

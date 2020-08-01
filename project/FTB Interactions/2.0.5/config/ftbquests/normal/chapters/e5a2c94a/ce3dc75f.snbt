@@ -1,0 +1,43 @@
+{
+	title: "下界锰矿脉",
+	x: -1.0d,
+	y: 1.0d,
+	description: "在Y轴5~40之间生成，你如果需要锰的话，铝土也可以经过处理可以获得锰副产物",
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "2708a187",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_spessartine_0 1 6"
+		}]
+	},
+	{
+		uid: "ced11e62",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrolusite_0 1 6"
+		}]
+	},
+	{
+		uid: "2530e161",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tantalite_0 1 6"
+		}]
+	},
+	{
+		uid: "cea0ae20",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_grossular_0 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "d7d65050",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2039",
+		count: 4
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "你永远活在我们心中",
+	icon: "cyberware:body_part 1 2",
+	x: -1.0d,
+	y: 7.0d,
+	description: "由于生物不会在安全区域/空岛世界中自然生成，为了继续发展，你必须使用Zen-Summoning来召唤一个村民僵尸，并将他转化为村民。然而要制造贤者之石，你需要一个心脏或者一个绿宝石。",
+	text: [
+		"村民交易被禁用了。由于这个原因，他们的绿宝石发生了严重的通货膨胀，他们有时可能会丢掉一些..."
+	],
+	dependencies: [
+		"d7b06269"
+	],
+	tasks: [{
+		uid: "530cd49f",
+		type: "item",
+		items: [{
+			item: "cyberware:body_part 1 2"
+		},
+		{
+			item: "minecraft:emerald"
+		}]
+	}],
+	rewards: [{
+		uid: "73a5b452",
+		type: "item",
+		item: "wizardry:fairy_dust"
+	}]
+}

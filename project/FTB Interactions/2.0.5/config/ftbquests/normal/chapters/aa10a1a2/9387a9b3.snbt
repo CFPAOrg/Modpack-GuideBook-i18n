@@ -1,0 +1,27 @@
+{
+	title: "现在你知道了为什么他们把它称为黑金。",
+	x: -10.5d,
+	y: 1.0d,
+	text: [
+		"MV搅拌机将这两种燃料以正确的比例混合，你将拥有真正的燃料柴油。"
+	],
+	dependencies: [
+		"9063ed56"
+	],
+	tasks: [{
+		uid: "3e102b97",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

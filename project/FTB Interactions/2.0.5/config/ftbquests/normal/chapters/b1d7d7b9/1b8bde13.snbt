@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: -7.0d,
+	dependencies: [
+		"4bbf5b6a",
+		"1b0e527b"
+	],
+	tasks: [{
+		uid: "c8338e9e",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "chloroform",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

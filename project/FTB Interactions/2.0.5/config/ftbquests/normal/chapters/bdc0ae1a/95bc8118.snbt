@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: 3.5d,
+	shape: "diamond",
+	dependencies: [
+		"cbc20871",
+		"bde41e6b"
+	],
+	tasks: [{
+		uid: "d0fb3f5b",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 7"
+		}]
+	}]
+}

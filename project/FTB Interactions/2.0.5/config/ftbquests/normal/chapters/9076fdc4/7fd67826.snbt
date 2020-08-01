@@ -1,0 +1,26 @@
+{
+	x: -7.0d,
+	y: -8.0d,
+	description: "Dracarys",
+	tasks: [{
+		uid: "fd90314e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10815"
+		}]
+	}],
+	rewards: [{
+		uid: "dc324f3f",
+		type: "item",
+		item: {
+			id: "draconicevolution:dislocator_advanced",
+			tag: {}
+		}
+	},
+	{
+		uid: "49f31c54",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10815",
+		count: 4
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "物品集成管道",
+	x: -22.0d,
+	y: 2.0d,
+	text: [
+		"自动物品输入输出。比如，它允许通过List进行大规模的过滤（伺服器或其他的过滤可能容量太小不能满足你的要求）。"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "daa78f0c",
+		type: "item",
+		items: [{
+			item: "integratedtunnels:part_importer_item_item"
+		}]
+	},
+	{
+		uid: "5c1918e9",
+		type: "item",
+		items: [{
+			item: "integratedtunnels:part_exporter_item_item"
+		}]
+	},
+	{
+		uid: "a285df82",
+		type: "item",
+		items: [{
+			item: "integratedtunnels:part_interface_item_item"
+		}]
+	}]
+}

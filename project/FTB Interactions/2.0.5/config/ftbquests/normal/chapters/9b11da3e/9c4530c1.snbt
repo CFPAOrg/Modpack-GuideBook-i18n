@@ -1,0 +1,26 @@
+{
+	title: "史莱姆时间",
+	icon: "randomthings:slimecube",
+	x: -4.0d,
+	y: -4.0d,
+	text: [
+		"史莱姆比以前更加黏糊",
+		"-取决于史莱姆自身的大小，它们拥有更强的击退",
+		"-可以比以前跳的更远",
+		"-受到伤害时会生成更多史莱姆，最好一击杀死"
+	],
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "84049f71",
+		type: "kill",
+		entity: "minecraft:slime",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "46c3fb4f",
+		type: "item",
+		item: "randomthings:slimecube"
+	}]
+}

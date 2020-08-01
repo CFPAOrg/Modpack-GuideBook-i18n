@@ -1,0 +1,30 @@
+{
+	title: "这个包比Chrome用的内存更多吗？",
+	x: -9.0d,
+	y: 10.0d,
+	shape: "square",
+	description: "僵尸网络病毒不算在内。",
+	dependencies: [
+		"69c3da6b"
+	],
+	tasks: [{
+		uid: "7f0508b8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10016"
+		}]
+	},
+	{
+		uid: "2039d485",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 506"
+		}]
+	}],
+	rewards: [{
+		uid: "c424e141",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2016",
+		count: 32
+	}]
+}

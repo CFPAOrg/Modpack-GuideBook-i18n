@@ -1,0 +1,18 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -11.0d,
+	y: -5.0d,
+	shape: "gear",
+	description: "整个电路中制作起来第二容易的部分，然而在后期的游戏中，电路板的合成将开始嵌套。",
+	tasks: [{
+		uid: "0c7a2b6a",
+		type: "checkmark",
+		title: "电路板"
+	}]
+}

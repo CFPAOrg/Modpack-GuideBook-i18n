@@ -1,0 +1,29 @@
+{
+	title: "煤炭矿脉",
+	x: -9.0d,
+	y: -9.0d,
+	description: "在所有的生物群系中生成，有时候会令你很恼火",
+	dependencies: [
+		"9ae8f543"
+	],
+	tasks: [{
+		uid: "4811f6c4",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_coal_0"
+		}]
+	},
+	{
+		uid: "c1a87ea0",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_lignite_0"
+		}]
+	}],
+	rewards: [{
+		uid: "3d85fed9",
+		type: "item",
+		item: "gregtech:meta_item_1 1 8211",
+		count: 8
+	}]
+}

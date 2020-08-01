@@ -1,0 +1,28 @@
+{
+	icon: "ironchest:iron_chest 1 2",
+	x: -14.0d,
+	y: -6.0d,
+	text: [
+		"有 9x12 格的存储空间。"
+	],
+	dependencies: [
+		"9431e9ff"
+	],
+	tasks: [{
+		uid: "2b4a86ec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironchest:gold_diamond_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2430b14b",
+		type: "item",
+		item: "ironchest:iron_chest 1 2"
+	}]
+}

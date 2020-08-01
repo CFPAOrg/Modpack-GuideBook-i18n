@@ -1,0 +1,10 @@
+{
+	title: "不太安全的空间",
+	icon: "minecraft:grass",
+	description: [
+		"主世界生物群系和矿物生成"
+	],
+	always_invisible: false,
+	group: 1865916608,
+	default_quest_shape: ""
+}

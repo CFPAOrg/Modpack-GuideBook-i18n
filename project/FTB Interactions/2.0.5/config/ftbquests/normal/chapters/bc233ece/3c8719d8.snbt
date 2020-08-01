@@ -1,0 +1,26 @@
+{
+	icon: "enderio:item_material 1 20",
+	x: 0.5d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"基岩粉的自动化可以通过几种方式实现，最直接的是使用基岩尘来生成怪物。 当你（或使用者...嘘...）右击地面时，它会生成一团能够生成怪物的雾气。",
+		"这团雾生成的生物会掉落基岩粉，然后你可以在聚星缸中将它加工成液体梦魇，然后就能形成一个能生产更多基岩粉的自循环。 寻找能自动杀死生物的方法",
+		"以完成挑战。请注意，这团雾有小概率生成一个点燃的TNT，Animus的剔除仪式能立即摧毁这些TNT。"
+	],
+	tasks: [{
+		uid: "0f578b82",
+		type: "checkmark",
+		title: "自动化基岩粉？"
+	}],
+	rewards: [{
+		uid: "08bfd844",
+		type: "item",
+		item: "enderio:item_material 1 20"
+	},
+	{
+		uid: "ce05bb3c",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

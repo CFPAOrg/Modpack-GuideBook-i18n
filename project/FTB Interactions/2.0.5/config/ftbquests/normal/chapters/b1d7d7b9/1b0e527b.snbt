@@ -1,0 +1,34 @@
+{
+	title: "甲烷",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "methane",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -2.5d,
+	y: -5.0d,
+	dependencies: [
+		"2d5c8742"
+	],
+	tasks: [{
+		uid: "fc1a1b47",
+		type: "item",
+		title: "甲烷单元",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "methane",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

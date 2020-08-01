@@ -1,0 +1,19 @@
+{
+	title: "晶金座效应",
+	icon: "thaumcraft:nugget 1 10",
+	x: -11.5d,
+	y: 4.0d,
+	description: "晶金座效应可以将无用的石头转换成有用的矿物。可惜的是它可以转换的矿物种类的有限的，它只会制造这里所显示的矿物。",
+	dependencies: [
+		"8968f5fc",
+		"ba92ee4f",
+		"86a86cae"
+	],
+	tasks: [{
+		uid: "ddb6fcea",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ore_amber"
+		}]
+	}]
+}

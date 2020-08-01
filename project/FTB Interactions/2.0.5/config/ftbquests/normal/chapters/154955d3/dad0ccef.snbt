@@ -1,0 +1,37 @@
+{
+	title: "鸡犬不宁",
+	x: -3.642857142857146d,
+	y: 6.089285714285715d,
+	shape: "rsquare",
+	description: "查看鸡的任务线了解更多信息！",
+	text: [
+		"用滤水器来获取骨头太过无聊？或许你的答案是早一点投入资源以获取鸡的力量。瓷土鸡可以直接生产瓷土。"
+	],
+	dependencies: [
+		"555a1a94"
+	],
+	tasks: [{
+		uid: "5c9a8e83",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:porcelainchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "81840e50",
+		type: "item",
+		item: "minecraft:bone",
+		count: 4
+	},
+	{
+		uid: "fd2441d2",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

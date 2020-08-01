@@ -1,0 +1,34 @@
+{
+	x: -6.5d,
+	y: -1.0d,
+	shape: "rsquare",
+	text: [
+		"你可以使用便携式哭泣的黑曜石将实体绑定高级哭泣的黑曜石。首先用便携式哭泣的黑曜石攻击实体然后将其链结到高级哭泣的黑曜石。如此绑定的生物将会在死亡后复活。 ",
+		"",
+		"在这个危险的世界里可以保障你宠物的安全。 "
+	],
+	tasks: [{
+		uid: "ba03871d",
+		type: "item",
+		items: [{
+			item: "cryingobsidian:crying_obsidian_block_advanced"
+		}]
+	},
+	{
+		uid: "d92af915",
+		type: "item",
+		items: [{
+			item: "cryingobsidian:crying_obsidian_item"
+		}]
+	}],
+	rewards: [{
+		uid: "6d9b8063",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:diamond_hippogryph_armor"
+		}
+	}]
+}

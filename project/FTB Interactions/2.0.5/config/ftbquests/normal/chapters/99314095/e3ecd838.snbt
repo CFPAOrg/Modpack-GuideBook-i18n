@@ -1,0 +1,33 @@
+{
+	title: "我在存储，我在充电。",
+	x: -5.0d,
+	y: -1.0d,
+	text: [
+		"为雨天存点电！涡轮只在需要供电的时候才会消耗蒸汽，但是每台蒸汽机最多只能带动1台机器。如果你需要同时带动更多的机器，使用电池盒——每节电池将提供1A的电流。",
+		"即使你没有8台涡轮机，8个电池也可以给8台机器供电， 但电池的电量一旦耗尽，你要等待它们充满。"
+	],
+	dependencies: [
+		"a916453b"
+	],
+	tasks: [{
+		uid: "58e48391",
+		type: "checkmark",
+		icon: "gregtech:machine 1 614"
+	}],
+	rewards: [{
+		uid: "58cd7150",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 50000
+			},
+			Damage: 32519s
+		}
+	},
+	{
+		uid: "e22cfd72",
+		type: "item",
+		item: "harvestcraft:jelliedeelitem"
+	}]
+}

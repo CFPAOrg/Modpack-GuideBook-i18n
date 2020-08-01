@@ -1,0 +1,49 @@
+{
+	title: "随机生物发生器",
+	x: -7.0d,
+	y: -4.5d,
+	text: [
+		"合成一个卡莱恩能量之星，在转换桌中为其充能。有了卡莱恩能量之星为你提供EMC能量，你就可以使用贤者之石的发射宝珠功能（查看按键绑定）。",
+		"这个宝珠会将生物转化为其他生物。需要一个烈焰人？把那个讨厌的爬行者转换成它吧。 ",
+		"突变史蒂夫在你的尸体上扎营？现在一头棕色的牛……",
+		"",
+		"将卡莱恩能量之星放在转换桌界面的左侧以吸收EMC。将其放在转换桌右侧的中心将EMC返回到转换桌。这也是很好的和朋友分享EMC的方法。"
+	],
+	dependencies: [
+		"8eac9d15"
+	],
+	tasks: [{
+		uid: "0834238e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3aecb04c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_klein_star"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25384277",
+		type: "item",
+		item: "harvestcraft:trailmixitem"
+	},
+	{
+		uid: "9fa4a0a7",
+		type: "item",
+		item: "randomthings:spectreanchor"
+	}]
+}

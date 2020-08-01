@@ -1,0 +1,50 @@
+{
+	title: "青金石和水之蕴魔矿脉",
+	x: -7.0d,
+	y: -4.0d,
+	description: "在所有的生物群系生成，在创世神话中有提到冰雪女王是最好的妻子以及严寒地带会生成更多女王最喜欢的矿物",
+	dependencies: [
+		"a837e8af"
+	],
+	tasks: [{
+		uid: "2b181948",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_lapis_0"
+		}]
+	},
+	{
+		uid: "0baa0824",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_aqua_infused_0"
+		}]
+	},
+	{
+		uid: "c85ace3e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sodalite_0"
+		}]
+	},
+	{
+		uid: "e9d10c25",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tanzanite_0"
+		}]
+	},
+	{
+		uid: "d013ae7b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_calcite_0"
+		}]
+	}],
+	rewards: [{
+		uid: "25532377",
+		type: "item",
+		item: "minecraft:dye 1 4",
+		count: 4
+	}]
+}

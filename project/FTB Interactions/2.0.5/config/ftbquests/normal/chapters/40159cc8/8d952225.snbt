@@ -1,0 +1,69 @@
+{
+	title: "我正在给她她所拥有的全部，船长！",
+	icon: "advancedrocketry:spacelaser",
+	x: 6.5d,
+	y: -15.0d,
+	description: "在你的空间站建造一个轨道激光钻。这个婴儿将要吃掉大量的电力，所以给她你全部的电力！",
+	text: [
+		"请确保用红石信号打开这个婴儿的开关并在GUI中放进透镜。如果你在服务器中，你可能需要修改X和Y的值，如果其他玩家已经建好了一个的话。"
+	],
+	dependencies: [
+		"c3e76f1e"
+	],
+	tasks: [{
+		uid: "dbee60ad",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spacelaser"
+		}]
+	},
+	{
+		uid: "5f9a7418",
+		type: "item",
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		}],
+		count: 7L
+	},
+	{
+		uid: "3eed6cd0",
+		type: "item",
+		items: [{
+			item: "libvulpes:advstructuremachine"
+		}],
+		count: 24L
+	},
+	{
+		uid: "5e0e4b86",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}],
+		count: 8L
+	},
+	{
+		uid: "3ad39141",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "57274813",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:lens"
+		}]
+	}],
+	rewards: [{
+		uid: "b15eed33",
+		type: "item",
+		item: "randomthings:spectrecoil_ender"
+	},
+	{
+		uid: "feb6d66d",
+		type: "item",
+		item: "appliedenergistics2:chest"
+	}]
+}

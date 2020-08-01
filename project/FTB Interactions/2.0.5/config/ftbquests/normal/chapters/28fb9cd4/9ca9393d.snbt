@@ -1,0 +1,41 @@
+{
+	title: "与群星的链接",
+	x: -3.0d,
+	y: 4.0d,
+	text: [
+		"星能链接器可以允许你将星能来源——例如聚能水晶链接到透镜、棱镜、祭坛、仪式和方块，利用星能合成物品、驱动仪式和转化方块。在这个包中它将被广泛使用。"
+	],
+	dependencies: [
+		"1d37b267"
+	],
+	tasks: [{
+		uid: "a49ecaf3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemlinkingtool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "772e2c84",
+		type: "item",
+		item: {
+			id: "astralsorcery:blockprism",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	}]
+}

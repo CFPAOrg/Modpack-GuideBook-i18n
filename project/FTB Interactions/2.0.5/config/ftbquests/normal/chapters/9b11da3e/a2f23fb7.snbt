@@ -1,0 +1,29 @@
+{
+	title: "矿物我全都要",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -11.0d,
+	y: -12.0d,
+	shape: "gear",
+	description: "在GTCE的世界生成中，世界被分为许多个3*3区块大的“区域”。矿物生成被设置为大致每个“区域”生成一个大型矿脉。这些矿脉很容易有2*2区块大并拥有数百个矿石。",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "64e848b4",
+		type: "checkmark",
+		title: "确认",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
+	}]
+}

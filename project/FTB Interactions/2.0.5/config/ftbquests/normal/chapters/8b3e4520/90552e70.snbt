@@ -1,0 +1,49 @@
+{
+	title: "混沌矿脉",
+	x: -2.5d,
+	y: -1.5d,
+	description: "混沌守卫们会保护在它们自己岛屿上的富含稀有矿物的矿脉。",
+	text: [
+		"如果还没有准备好打败这条龙，你可以从岛下面飞过去并偷偷放下一个数字型采矿机来获取矿石。逃避虽可耻但有用。"
+	],
+	dependencies: [
+		"fef0a72c"
+	],
+	tasks: [{
+		uid: "49ad5c72",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_iridium_0 1 7"
+		}]
+	},
+	{
+		uid: "9c8f1750",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_platinum_0 1 7"
+		}]
+	},
+	{
+		uid: "89f56192",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_palladium_0 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "a28b7acc",
+		type: "item",
+		item: "gregtech:cable 1 51",
+		count: 32
+	},
+	{
+		uid: "6e8b52fb",
+		type: "item",
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "wyvern_plustic"
+			}
+		}
+	}]
+}

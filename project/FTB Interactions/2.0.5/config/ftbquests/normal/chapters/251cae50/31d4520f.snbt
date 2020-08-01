@@ -1,0 +1,15 @@
+{
+	title: "EV时代",
+	icon: "gregtech:machine 1 504",
+	x: -4.0d,
+	y: -5.0d,
+	description: "此列中的项目可以在EV时代制作。",
+	dependencies: [
+		"d94602f8",
+		"c067f204"
+	],
+	tasks: [{
+		uid: "c5c7439a",
+		type: "checkmark"
+	}]
+}

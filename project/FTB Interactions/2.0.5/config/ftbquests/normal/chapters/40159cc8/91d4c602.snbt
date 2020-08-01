@@ -1,0 +1,40 @@
+{
+	title: "不，是你的氢气",
+	x: 4.0d,
+	y: -21.5d,
+	description: "使用凛冰粉作为冷冻剂，冷却氢气和氧气用于制作火箭燃料。",
+	dependencies: [
+		"13f17b12"
+	],
+	tasks: [{
+		uid: "63f82899",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "cryogenichydrogen",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "bd61f21b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "cryogenicoxygen",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

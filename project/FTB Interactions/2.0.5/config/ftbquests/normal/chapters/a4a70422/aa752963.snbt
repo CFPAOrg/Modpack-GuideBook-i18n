@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: -8.0d,
+	description: "你的第一个流体储罐。",
+	text: [
+		"更高级的“桶”只能通过任务奖励或地牢获得。只有基础石桶是可以被合成出来的。想要更大量的储存流体，你需要投入资源到其他类型的储罐上(有很多)。"
+	],
+	tasks: [{
+		uid: "a5ecd790",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum"
+		}]
+	}],
+	rewards: [{
+		uid: "c9bb9843",
+		type: "item",
+		item: "extrautils2:drum 1 1"
+	}]
+}

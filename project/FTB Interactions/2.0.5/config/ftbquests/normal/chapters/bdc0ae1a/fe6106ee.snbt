@@ -1,0 +1,27 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"10775b47",
+		"72486fce"
+	],
+	tasks: [{
+		uid: "301cae4a",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}]
+	}],
+	rewards: [{
+		uid: "d9bcaea0",
+		type: "item",
+		item: "botania:livingrock",
+		count: 8
+	},
+	{
+		uid: "54c85802",
+		type: "item",
+		item: "rustic:marsh_mallow",
+		count: 4
+	}]
+}

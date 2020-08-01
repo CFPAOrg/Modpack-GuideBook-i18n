@@ -1,0 +1,58 @@
+{
+	title: "不是用来吃的！",
+	x: 2.5d,
+	y: -13.0d,
+	text: [
+		"这种鸡不能直接生产塑料，但它允许你绕过聚乙烯生产链中的几个步骤，将蛋和乙醇直接结合起来以生产聚乙烯。"
+	],
+	dependencies: [
+		"bad8af80"
+	],
+	tasks: [{
+		uid: "1991a771",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:plasticchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "aefc5a2f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:plastic_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "a7ac0514",
+		type: "item",
+		item: {
+			id: "rustic:fluid_bottle",
+			tag: {
+				Fluid: {
+					FluidName: "ironwine",
+					Amount: 1000,
+					Tag: {
+						Quality: 0.75f
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "43f8aa92",
+		type: "item",
+		item: "industrialforegoing:plastic",
+		count: 16
+	},
+	{
+		uid: "3e75b827",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "仪式，是你进程前进的关键",
+	x: 4.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"bb95207a",
+		"4fa0097b"
+	],
+	tasks: [{
+		uid: "a354edff",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	},
+	{
+		uid: "3ddee825",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:activation_crystal"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "072bf9c1",
+		type: "item",
+		item: "bloodmagic:ritual_stone",
+		count: 8
+	}]
+}

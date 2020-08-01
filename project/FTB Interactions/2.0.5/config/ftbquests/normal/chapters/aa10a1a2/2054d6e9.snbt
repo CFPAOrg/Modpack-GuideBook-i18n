@@ -1,0 +1,34 @@
+{
+	x: -9.5d,
+	y: 3.0d,
+	description: "它的好处是：不用再烦恼选哪种产物了，我全都要！",
+	text: [
+		"有时候蒸馏塔可能会非常高。通过JEI查看配方。你的蒸馏塔要有配方需要的输出仓个数再加上最下面的基础层那么高。",
+		"产物最多的蒸汽裂化的重燃油有11种输出产物，所以12格高的蒸馏塔足以应付所有配方!"
+	],
+	dependencies: [
+		"86f1912f",
+		"81146e1b"
+	],
+	tasks: [{
+		uid: "befe8208",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 515"
+		}]
+	},
+	{
+		uid: "4438ecbe",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 744"
+		}]
+	},
+	{
+		uid: "3e8b6b93",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 603"
+		}]
+	}]
+}

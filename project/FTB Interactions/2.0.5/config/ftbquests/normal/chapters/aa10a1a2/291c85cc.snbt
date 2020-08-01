@@ -1,0 +1,32 @@
+{
+	title: "升级！",
+	x: -4.0d,
+	y: 3.5d,
+	shape: "rsquare",
+	text: [
+		"当你有大量机器在运转而你的唯一一个锅炉跟不上了？ 为什么要继续堆这种低级锅炉，而不升级为更好的锅炉呢？",
+		"你的整个的基础设施都差不多保持不变，是不是要考虑一下现在的管道能不能跟上机器产出？"
+	],
+	dependencies: [
+		"e06f2bd0"
+	],
+	tasks: [{
+		uid: "f6742041",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 522"
+		}]
+	}],
+	rewards: [{
+		uid: "e0e12104",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 1s
+		},
+		count: 8
+	}]
+}

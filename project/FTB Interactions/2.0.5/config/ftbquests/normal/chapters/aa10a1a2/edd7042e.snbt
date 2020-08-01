@@ -1,0 +1,17 @@
+{
+	title: "那里正在发生着什么魔法，种子开始闪烁出微光，显现出某些特殊的潜力",
+	x: -9.5d,
+	y: -0.5d,
+	dependencies: [
+		"9063ed56",
+		"2c93dbb5"
+	],
+	tasks: [{
+		uid: "5509398b",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 23"
+		}],
+		count: 64L
+	}]
+}

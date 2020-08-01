@@ -1,0 +1,16 @@
+{
+	title: "FTB 官方 Discord 邀请链接",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "openblocks:generic_unstackable"
+	},
+	x: -2.0d,
+	y: -5.0d,
+	shape: "gear",
+	custom_click: "https://discord.gg/eWmUFrA",
+	dependencies: [
+		"87b0ee79"
+	]
+}

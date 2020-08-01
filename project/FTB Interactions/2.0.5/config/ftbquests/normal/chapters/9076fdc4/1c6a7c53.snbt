@@ -1,0 +1,33 @@
+{
+	x: -9.0d,
+	y: -3.0d,
+	description: "好的，我又着火了。",
+	dependencies: [
+		"7ddda4a3"
+	],
+	tasks: [{
+		uid: "81112c94",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "2708513f",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 205,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "minecraft:blaze_rod",
+					Count: 1,
+					Damage: 0
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Abandon All Hope",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

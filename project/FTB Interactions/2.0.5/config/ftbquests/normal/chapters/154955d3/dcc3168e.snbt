@@ -1,0 +1,34 @@
+{
+	title: "循环建筑工具",
+	x: 3.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	description: "在无需移动的情况下扩建基地。",
+	dependencies: [
+		"792f5e20"
+	],
+	tasks: [{
+		uid: "66f00ec7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:cyclic_wand_build",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3b903a2c",
+		type: "item",
+		item: "gregtech:granite 1 2",
+		count: 32
+	},
+	{
+		uid: "ce1f6e77",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

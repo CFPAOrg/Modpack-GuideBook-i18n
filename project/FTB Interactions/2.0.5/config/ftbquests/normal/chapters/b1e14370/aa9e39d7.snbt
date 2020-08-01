@@ -1,0 +1,26 @@
+{
+	title: "一小粒的进展",
+	x: 0.0d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		"熔炼出第一颗铝粒时，你就已经进入了MV时代。你会需要相当大量的铝，所以不要让你的电力高炉停止工作。不要停下来啊！",
+		"用这些棒来进入新的纪元...或者你也可以用来做你想做的东西。"
+	],
+	dependencies: [
+		"c295d1ae"
+	],
+	tasks: [{
+		uid: "972fa97a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 9001"
+		}]
+	}],
+	rewards: [{
+		uid: "51072f1c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 14001",
+		count: 5
+	}]
+}

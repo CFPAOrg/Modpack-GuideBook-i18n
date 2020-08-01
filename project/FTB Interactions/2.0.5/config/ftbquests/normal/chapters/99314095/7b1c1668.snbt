@@ -1,0 +1,21 @@
+{
+	title: "增大电流",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -4.0d,
+	y: -2.0d,
+	shape: "gear",
+	description: "这些单块发电机每个每一tick最多产生 1A 的电流。方便的是，GTCE 中的大多数单方块机器只接受1A的最大电流，热力离心机等机器除外。",
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "4989e0f4",
+		type: "checkmark"
+	}]
+}

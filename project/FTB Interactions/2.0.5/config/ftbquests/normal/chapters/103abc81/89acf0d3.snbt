@@ -1,0 +1,56 @@
+{
+	x: 4.0d,
+	y: 11.0d,
+	description: "对你来说瓶中太阳还不够？还得自己提供材料？",
+	dependencies: [
+		"5b1c2607"
+	],
+	tasks: [{
+		uid: "f9e7fbc3",
+		type: "item",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 2504
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Fuuuuuusion!",
+				TrophyColorRed: 37
+			}
+		},
+		items: [{
+			item: "gregtech:machine 1 2505"
+		}]
+	}],
+	rewards: [{
+		uid: "6882de6c",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 2504
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Fuuuuuusion!",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "6074f30f",
+		type: "item",
+		team_reward: true,
+		item: "tconstruct:materials 1 50"
+	}]
+}

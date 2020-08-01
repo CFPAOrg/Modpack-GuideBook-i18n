@@ -1,0 +1,16 @@
+{
+	title: "大容量储罐",
+	x: -5.0d,
+	y: -4.0d,
+	description: "你现在可以制作一些大容量储存设备，即使是最基础的量子储罐也可以储存12万8千桶的流体。",
+	dependencies: [
+		"558bc2e1"
+	],
+	tasks: [{
+		uid: "77cca2d5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1020"
+		}]
+	}]
+}

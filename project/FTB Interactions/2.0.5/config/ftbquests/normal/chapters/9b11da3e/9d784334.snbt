@@ -1,0 +1,15 @@
+{
+	x: -6.0d,
+	y: -12.0d,
+	description: "类似于黑花岗岩，它也是世界生成中嬗变的产物，也类似于玄武岩",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "47ad09e7",
+		type: "item",
+		items: [{
+			item: "gregtech:granite 1 1"
+		}]
+	}]
+}

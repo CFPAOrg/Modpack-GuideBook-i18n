@@ -1,0 +1,32 @@
+{
+	title: "几桶油？那只是数字",
+	x: -6.5d,
+	y: -7.0d,
+	description: "你要把这些数字泵上去！在海洋或沙漠中找到石油并将其抽出。你需要一些电池供电，以及一个CEU将电能转换为FE。",
+	text: [
+		"要给流体泵供电，你可以使用电池箱、CEU或者通灵能量注入器。要传输流体，你可以使用Cyclic的流体传输节点（仅限相同维度）"
+	],
+	dependencies: [
+		"64abbac6"
+	],
+	tasks: [{
+		uid: "2995ef50",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fluid_pump"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e57ba3fa",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 1s
+		},
+		count: 4
+	}]
+}

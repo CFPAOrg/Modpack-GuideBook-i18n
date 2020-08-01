@@ -1,0 +1,37 @@
+{
+	x: -4.0d,
+	y: -10.0d,
+	text: [
+		"这里的各种鸡生出的蛋可以通过多种方式处理(查看JEI)来产生多种必需的气体，绕过电解和空气收集等等步骤。"
+	],
+	dependencies: [
+		"bad8af80",
+		"dcd19e05"
+	],
+	tasks: [{
+		uid: "440c3fbc",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:gassychicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "cd48524c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gassy_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "3f7af8a1",
+		type: "item",
+		item: "contenttweaker:gassy_enriched_egg",
+		count: 16
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: -15.0d,
+	y: 0.0d,
+	dependencies: [
+		"d65a5425"
+	],
+	tasks: [{
+		uid: "a9002a16",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:exchangertool",
+			tag: {
+				anchorcoords: [],
+				Energy: 500000,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "16cc05c0",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32487"
+	},
+	{
+		uid: "9fff3b31",
+		type: "item",
+		item: "xtones:base",
+		count: 32
+	}]
+}

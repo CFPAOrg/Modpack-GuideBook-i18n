@@ -1,0 +1,78 @@
+{
+	x: -6.0d,
+	y: -14.0d,
+	description: "加点水上去，又不会出什么问题，对吧？",
+	tasks: [{
+		uid: "9693a131",
+		type: "item",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 255,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:meta_item_1",
+					Count: 1,
+					tag: {
+						Fluid: {
+							FluidName: "uraniumhexafluoride",
+							Amount: 256000
+						}
+					},
+					Damage: 32406
+				},
+				TrophyColorBlue: 255,
+				TrophyName: "Atomic Boogaloo",
+				TrophyColorRed: 255,
+				TrophyEarnedAt: 1553222400
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "uraniumhexafluoride",
+				Amount: 1000
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "70d0bbcf",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 255,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:meta_item_1",
+					Count: 1,
+					tag: {
+						Fluid: {
+							FluidName: "uraniumhexafluoride",
+							Amount: 256000
+						}
+					},
+					Damage: 32406
+				},
+				TrophyColorBlue: 255,
+				TrophyName: "Atomic Boogaloo",
+				TrophyColorRed: 255
+			}
+		}
+	},
+	{
+		uid: "f15cb5ed",
+		type: "item",
+		team_reward: true,
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:black_hole_tank"
+		}
+	}]
+}

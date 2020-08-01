@@ -1,0 +1,60 @@
+{
+	title: "肃静！",
+	x: -15.5d,
+	y: -4.0d,
+	shape: "rsquare",
+	text: [
+		"方块和实体音效在重复一段时间后可能让你变得烦躁。使用随意作品（Random Things）的隔音器可以屏蔽村民、传送门、火焰以及其他任何音效。",
+		"",
+		"便携式隔音器作为隔音饰品，只会为你屏蔽音效。而隔音器方块则会对半径内所有人生效。",
+		"要创造音效模块，你先要使用录音机来录制音效，然后将其保存到模块中。将你想屏蔽的音效模块放到放到隔音器里面，你就可以永远不用听到这些音效了。"
+	],
+	tasks: [{
+		uid: "0be23101",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:portablesounddampener",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "750ad5cd",
+		type: "item",
+		item: "randomthings:sounddampener"
+	},
+	{
+		uid: "d782f44c",
+		type: "item",
+		item: {
+			id: "randomthings:soundpattern",
+			tag: {
+				sound: "minecraft:entity.villager.ambient"
+			}
+		}
+	},
+	{
+		uid: "94290911",
+		type: "item",
+		item: {
+			id: "randomthings:soundpattern",
+			tag: {
+				sound: "minecraft:block.portal.ambient"
+			}
+		}
+	},
+	{
+		uid: "0e40b51a",
+		type: "item",
+		item: {
+			id: "randomthings:soundpattern",
+			tag: {
+				sound: "minecraft:block.fire.ambient"
+			}
+		}
+	}]
+}

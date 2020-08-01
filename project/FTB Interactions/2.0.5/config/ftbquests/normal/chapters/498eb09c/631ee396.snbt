@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: -8.0d,
+	dependencies: [
+		"562511fd"
+	],
+	tasks: [{
+		uid: "08b69518",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "noble_gases",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

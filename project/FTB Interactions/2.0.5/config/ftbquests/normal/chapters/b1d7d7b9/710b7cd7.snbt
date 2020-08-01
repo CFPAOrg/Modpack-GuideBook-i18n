@@ -1,0 +1,28 @@
+{
+	title: "Are you Gellin?",
+	x: 1.5d,
+	y: -3.0d,
+	description: "流体固化器和模具可以让你把液体固化成一些有用的物品。",
+	dependencies: [
+		"4c03fcd9"
+	],
+	tasks: [{
+		uid: "ac31e148",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 320"
+		}]
+	},
+	{
+		uid: "94ae247a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32307"
+		}]
+	}],
+	rewards: [{
+		uid: "4b8da1f9",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32305"
+	}]
+}

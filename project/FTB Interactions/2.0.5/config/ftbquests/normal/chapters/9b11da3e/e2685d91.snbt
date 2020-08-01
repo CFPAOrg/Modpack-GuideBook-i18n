@@ -1,0 +1,15 @@
+{
+	x: -9.0d,
+	y: -12.0d,
+	description: "偶尔在地下生成一个玄武岩圆球。",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "d66bb559",
+		type: "item",
+		items: [{
+			item: "gregtech:mineral 1 2"
+		}]
+	}]
+}
