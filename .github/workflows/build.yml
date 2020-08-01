@@ -41,3 +41,9 @@ jobs:
           
     - name: Run yarn 
       run: yarn --cwd ./page
+    
+    - name: Cpoy files
+      run: cp ./data.json ./page/static/data.json
+    
+    - name: Yarn build
+      run: yarn build -cwd ./page
