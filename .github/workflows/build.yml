@@ -25,7 +25,7 @@ jobs:
     
     - name: Install yarn
       run: npm install -g yarn
-    - name: install pip requirements
+    - name: Install pip requirements
       run: pip3 install -r requirements.txt
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
@@ -45,5 +45,5 @@ jobs:
     - name: Cpoy files
       run: cp ./data.json ./page/static/data.json
     
-    - name: Yarn build
-      run: yarn build -cwd ./page
+    - name: Run yarn build
+      run: yarn build --cwd ./page
