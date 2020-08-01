@@ -46,4 +46,6 @@ jobs:
       run: cp ./data.json ./page/static/data.json
     
     - name: Run yarn build
-      run: yarn build --cwd ./page
+      run: |
+        cd page
+        yarn build
