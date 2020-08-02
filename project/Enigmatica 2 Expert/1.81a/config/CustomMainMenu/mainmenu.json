@@ -73,7 +73,7 @@
             }
         },
         "servers": {
-            "text": "服务器",
+            "text": "custommainmenu.servers.text",
 			"hoverText": "BisectHosting",
             "posX": 44,
             "posY": -70,
@@ -120,7 +120,7 @@
         },
         
         "languages": {
-            "text": "语言",
+            "text": "custommainmenu.languages.text",
             "posX": 44,
             "posY": 20,
             "width": 100,
@@ -135,7 +135,7 @@
             }
         },
         "bug reports": {
-            "text": "错误报告",
+            "text": "custommainmenu.bug_reports.text",
             "posX": 44,
             "posY": 50,
             "width": 100,
