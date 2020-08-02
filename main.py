@@ -94,7 +94,7 @@ if __name__ == '__main__':
     # 相关数据的获取 #
     #################
     # 日志开始记录
-    logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
+    logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
     # 读取配置文件
     with open("./config.yml", "r", encoding="utf-8") as c:
