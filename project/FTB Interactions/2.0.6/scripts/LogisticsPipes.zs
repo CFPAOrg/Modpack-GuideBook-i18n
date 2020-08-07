@@ -197,8 +197,8 @@ mods.chisel.Carving.addVariation("LPUpgrades", <logisticspipes:upgrade_module_up
 #fpga Chip
 recipes.remove(<logisticspipes:chip_fpga_raw>);
 	alloyer.recipeBuilder()
-    .inputs(<ore:circuitBasic>, <ore:wireFineGold>*2)
-    .outputs(<logisticspipes:chip_fpga_raw>*2)
+    .inputs(<ore:circuitBasic>, <ore:wireFineGold>*16)
+    .outputs(<logisticspipes:chip_fpga_raw>*8)
     .duration(280)
     .EUt(16)
     .buildAndRegister();

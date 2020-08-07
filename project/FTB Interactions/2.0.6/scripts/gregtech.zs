@@ -32,6 +32,7 @@ val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
 val electrolyzer = mods.gregtech.recipe.RecipeMap.getByName("electrolyzer");
 val spinnyGoFast = mods.gregtech.recipe.RecipeMap.getByName("centrifuge");
 val blast_furnace = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
+val arc_furnace = mods.gregtech.recipe.RecipeMap.getByName("arc_furnace");
 val wiremill = mods.gregtech.recipe.RecipeMap.getByName("wiremill");
 var fusionReactor = mods.gregtech.recipe.RecipeMap.getByName("fusion_reactor");
 val chemical_bath = mods.gregtech.recipe.RecipeMap.getByName("chemical_bath");
@@ -45,6 +46,49 @@ val assembly_line = mods.gregtech.recipe.RecipeMap.getByName("assembly_line");
 val distillery = mods.gregtech.recipe.RecipeMap.getByName("distillery");
 val distillation_tower = mods.gregtech.recipe.RecipeMap.getByName("distillery");
 
+
+	#bucket
+	lathe.recipeBuilder()
+	.inputs(<ore:blockIron>)
+	.outputs(<minecraft:bucket>*3)
+	.duration(60)
+	.EUt(18)
+	.buildAndRegister();
+	
+	#iron block
+	compressor.recipeBuilder()
+	.inputs(<ore:ingotIron>*9)
+	.outputs(<ore:blockIron>.firstItem)
+	.duration(60)
+	.EUt(18)
+	.buildAndRegister();
+	
+	#Steel in arc furnace
+	arc_furnace.recipeBuilder()
+		.inputs(<ore:ingotWroughtIron>)
+		.fluidInputs([<liquid:oxygen> * 60])
+		.outputs(<ore:ingotSteel>.firstItem)
+		.duration(60)
+		.EUt(24)
+		.buildAndRegister();	
+
+	#Ardite in arc furnace
+	arc_furnace.recipeBuilder()
+		.inputs(<ore:dustArdite>)
+		.fluidInputs([<liquid:oxygen> * 60])
+		.outputs(<tconstruct:ingots:1>)
+		.duration(60)
+		.EUt(24)
+		.buildAndRegister();	
+
+	#aluminium ore in arc furnace
+	arc_furnace.recipeBuilder()
+		.inputs(<ore:oreAluminium>)
+		.fluidInputs([<liquid:oxygen> * 60])
+		.outputs(<ore:ingotAluminium>.firstItem)
+		.duration(60)
+		.EUt(24)
+		.buildAndRegister();	
 
 	#tiny sulfur from tiny blaze powder
 	recipes.addShapeless(<gregtech:meta_item_1:65>, [<rusticthaumaturgy:dust_tiny_blaze>]);
@@ -143,6 +187,18 @@ electrolyzer.recipeBuilder()
 	.outputs([<ore:dustZinc>.firstItem, <ore:dustSulfur>.firstItem])
 	.EUt(60)
 	.duration(600)
+	.buildAndRegister();
+
+
+	#remove Zeolite Electrolysis
+electrolyzer.findRecipe(60, [<ore:dustZeolite>.firstItem*141],[]).remove();
+
+electrolyzer.recipeBuilder()
+	.inputs([<ore:dustZeolite>*64])
+	.outputs([<ore:dustSodium>.firstItem, <ore:dustCalcium>.firstItem*4,<ore:dustSilicon>.firstItem*64, <ore:dustAluminium>.firstItem*9])
+	.fluidOutputs([<liquid:water> * 28000, <liquid:oxygen> * 32000])
+	.EUt(60)
+	.duration(1200)
 	.buildAndRegister();
 
 
@@ -261,6 +317,55 @@ autoclave.recipeBuilder()
     .buildAndRegister();
 	
 }
+
+#thaumcraft dusts
+autoclave.recipeBuilder()
+    .inputs(<ore:dustAerInfused>)
+    .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 10])
+    .outputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}) * 1)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+autoclave.recipeBuilder()
+    .inputs(<ore:dustAquaInfused>)
+    .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 10])
+    .outputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}) * 1)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+	
+autoclave.recipeBuilder()
+    .inputs(<ore:dustIgnisInfused>)
+    .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 10])
+    .outputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}) * 1)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+	
+autoclave.recipeBuilder()
+    .inputs(<ore:dustTerraInfused>)
+    .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 10])
+    .outputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}) * 1)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();	
+
+autoclave.recipeBuilder()
+    .inputs(<ore:dustEntropyInfused>)
+    .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 10])
+    .outputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}) * 1)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+autoclave.recipeBuilder()
+    .inputs(<ore:dustOrdoInfused>)
+    .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 10])
+    .outputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}) * 1)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
 
 #lazurite
 autoclave.recipeBuilder()
@@ -746,14 +851,35 @@ var moldsToChisel as IItemStack[] = [
 	<gregtech:meta_item_1:32304>,
 	<gregtech:meta_item_1:32303>,
 	<gregtech:meta_item_1:32301>,
-	<gregtech:meta_item_1:32317>,
 	<gregtech:meta_item_1:32315>,
 	<gregtech:meta_item_1:32314>,
 	<gregtech:meta_item_1:32313>,
 	<gregtech:meta_item_1:32309>,
 	<gregtech:meta_item_1:32308>,
 	<gregtech:meta_item_1:32307>,
-	<gregtech:meta_item_1:32306>
+	<gregtech:meta_item_1:32306>,
+	<gregtech:meta_item_1:32373>,
+	<gregtech:meta_item_1:32372>,
+	<gregtech:meta_item_1:32371>,
+	<gregtech:meta_item_1:32370>,
+	<gregtech:meta_item_1:32369>,
+	<gregtech:meta_item_1:32368>,
+	<gregtech:meta_item_1:32367>,
+	<gregtech:meta_item_1:32366>,
+	<gregtech:meta_item_1:32365>,
+	<gregtech:meta_item_1:32364>,
+	<gregtech:meta_item_1:32363>,
+	<gregtech:meta_item_1:32360>,
+	<gregtech:meta_item_1:32361>,
+	<gregtech:meta_item_1:32359>,
+	<gregtech:meta_item_1:32358>,
+	<gregtech:meta_item_1:32356>,
+	<gregtech:meta_item_1:32355>,
+	<gregtech:meta_item_1:32354>,
+	<gregtech:meta_item_1:32353>,
+	<gregtech:meta_item_1:32352>,
+	<gregtech:meta_item_1:32351>,
+	<gregtech:meta_item_1:32350>
 
 	];
 
@@ -762,7 +888,6 @@ for i in moldsToChisel {
 i.addTooltip(format.darkRed("可以通过雕凿其他模具获得。"));
 mods.chisel.Carving.addVariation("GTMolds", i);
 }
-
 
 
 	#Pump - LV
@@ -1315,7 +1440,26 @@ compressor.recipeBuilder()
     .EUt(8)
     .buildAndRegister();	
 
+
+
+		#ender shards
+	mixer.recipeBuilder()
+    .inputs(<extrautils2:endershard>, <projecte:item.pe_covalence_dust>*4)
+    .fluidInputs([<liquid:mana_fluid> * 500])
+    .outputs(<lteleporters:endercrystal>)
+    .duration(80)
+    .EUt(16)
+    .buildAndRegister();
 	
+	#Salis mundis
+	mixer.recipeBuilder()
+    .inputs(<ore:visCrystals>, <projecte:item.pe_covalence_dust>*8)
+    .fluidInputs([<liquid:mana_fluid> * 250])
+    .outputs(<thaumcraft:salis_mundus>)
+    .duration(100)
+    .EUt(16)
+    .buildAndRegister();
+
 	
 	#stemcells
 mixer.recipeBuilder()
@@ -2201,6 +2345,50 @@ cutting_saw.recipeBuilder()
 	recipes.addShapeless(<ore:cableGtQuadrupleTerrasteel>.firstItem, [<ore:cableGtDoubleTerrasteel>,<ore:cableGtDoubleTerrasteel>]);
 	recipes.addShapeless(<ore:cableGtDoubleTerrasteel>.firstItem, [<ore:cableGtSingleTerrasteel>,<ore:cableGtSingleTerrasteel>]);
 
+
+	#lossless cable uncrafting
+		recipes.addShapeless(<ore:cableGtOctalSuperconductor>.firstItem *2, [<ore:cableGtHexSuperconductor>]);
+		recipes.addShapeless(<ore:cableGtQuadrupleSuperconductor>.firstItem *2, [<ore:cableGtOctalSuperconductor>]);
+		recipes.addShapeless(<ore:cableGtDoubleSuperconductor>.firstItem *2, [<ore:cableGtQuadrupleSuperconductor>]);
+		recipes.addShapeless(<ore:cableGtSingleSuperconductor>.firstItem *2, [<ore:cableGtDoubleSuperconductor>]);
+
+        #bluesteel
+		recipes.addShapeless(<ore:cableGtOctalBluesteel>.firstItem *2, [<ore:cableGtHexBluesteel>]);
+		recipes.addShapeless(<ore:cableGtQuadrupleBluesteel>.firstItem *2, [<ore:cableGtOctalBluesteel>]);
+		recipes.addShapeless(<ore:cableGtDoubleBluesteel>.firstItem *2, [<ore:cableGtQuadrupleBluesteel>]);
+		recipes.addShapeless(<ore:cableGtSingleBluesteel>.firstItem *2, [<ore:cableGtDoubleBluesteel>]);
+
+        #manasteel
+		recipes.addShapeless(<ore:cableGtOctalManasteel>.firstItem *2, [<ore:cableGtHexManasteel>]);
+		recipes.addShapeless(<ore:cableGtQuadrupleManasteel>.firstItem *2, [<ore:cableGtOctalManasteel>]);
+		recipes.addShapeless(<ore:cableGtDoubleManasteel>.firstItem *2, [<ore:cableGtQuadrupleManasteel>]);
+		recipes.addShapeless(<ore:cableGtSingleManasteel>.firstItem *2, [<ore:cableGtDoubleManasteel>]);
+
+        #signalum
+		recipes.addShapeless(<ore:cableGtOctalSignalum>.firstItem *2, [<ore:cableGtHexSignalum>]);
+		recipes.addShapeless(<ore:cableGtQuadrupleSignalum>.firstItem *2, [<ore:cableGtOctalSignalum>]);
+		recipes.addShapeless(<ore:cableGtDoubleSignalum>.firstItem *2, [<ore:cableGtQuadrupleSignalum>]);
+		recipes.addShapeless(<ore:cableGtSingleSignalum>.firstItem *2, [<ore:cableGtDoubleSignalum>]);
+
+        #enderium
+		recipes.addShapeless(<ore:cableGtOctalEnderium>.firstItem *2, [<ore:cableGtHexEnderium>]);
+		recipes.addShapeless(<ore:cableGtQuadrupleEnderium>.firstItem *2, [<ore:cableGtOctalEnderium>]);
+		recipes.addShapeless(<ore:cableGtDoubleEnderium>.firstItem *2, [<ore:cableGtQuadrupleEnderium>]);
+		recipes.addShapeless(<ore:cableGtSingleEnderium>.firstItem *2, [<ore:cableGtDoubleEnderium>]);
+
+        #Stellar Alloy
+		recipes.addShapeless(<ore:cableGtOctalStellarAlloy>.firstItem *2, [<ore:cableGtHexStellarAlloy>]);
+		recipes.addShapeless(<ore:cableGtQuadrupleStellarAlloy>.firstItem *2, [<ore:cableGtOctalStellarAlloy>]);
+		recipes.addShapeless(<ore:cableGtDoubleStellarAlloy>.firstItem *2, [<ore:cableGtQuadrupleStellarAlloy>]);
+		recipes.addShapeless(<ore:cableGtSingleStellarAlloy>.firstItem *2, [<ore:cableGtDoubleStellarAlloy>]);
+
+
+        #Terrasteel
+		recipes.addShapeless(<ore:cableGtOctalTerrasteel>.firstItem *2, [<ore:cableGtHexTerrasteel>]);
+		recipes.addShapeless(<ore:cableGtQuadrupleTerrasteel>.firstItem *2, [<ore:cableGtOctalTerrasteel>]);
+		recipes.addShapeless(<ore:cableGtDoubleTerrasteel>.firstItem *2, [<ore:cableGtQuadrupleTerrasteel>]);
+		recipes.addShapeless(<ore:cableGtSingleTerrasteel>.firstItem *2, [<ore:cableGtDoubleTerrasteel>]);
+
 	#gtfo solar panels
 	recipes.remove(<metaitem:cover.solar.panel>);
 	recipes.addShaped(<metaitem:cover.solar.panel>, [[<ore:plateSilicon>, <ore:plateGlass>, <ore:plateSilicon>],[<ore:plateAluminium>, <contenttweaker:infinityegg>, <ore:plateAluminium>], [<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
@@ -2702,7 +2890,7 @@ cutting_saw.recipeBuilder()
 	vacfreezer.recipeBuilder()
 	.inputs(<ore:ingotHotNaquadah>)
 	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotHotNaquadah>.firstItem)
+	.outputs(<ore:ingotNaquadah>.firstItem)
 	.duration(168)
 	.EUt(120)
 	.buildAndRegister();

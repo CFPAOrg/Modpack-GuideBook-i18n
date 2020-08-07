@@ -71,8 +71,16 @@ mods.primaltech.WoodenBasin.addRecipe(<harvestcraft:cheeseitem> * 10,
 recipes.remove(<harvestcraft:doughitem>);
 mods.primaltech.WoodenBasin.addRecipe(<harvestcraft:doughitem> * 4, 
 	<liquid:water>, [<ore:dustWheat>.firstItem, <ore:dustSalt>.firstItem]);
+
 mods.primaltech.WoodenBasin.addRecipe(<harvestcraft:doughitem> * 4, 
 	<liquid:water>, [<harvestcraft:flouritem>, <ore:dustSalt>.firstItem]);
+
+mods.primaltech.WoodenBasin.addRecipe(<harvestcraft:doughitem> * 4, 
+	<liquid:water>, [<ore:dustSalt>.firstItem,<ore:dustWheat>.firstItem]);
+
+mods.primaltech.WoodenBasin.addRecipe(<harvestcraft:doughitem> * 4, 
+	<liquid:water>, [<ore:dustSalt>.firstItem, <harvestcraft:flouritem>]);
+
 		
 mods.primaltech.WoodenBasin.addRecipe(<harvestcraft:doughitem> * 4, 
 	<liquid:water>, [<ore:dustWheat>.firstItem, dustGTSalt]);

@@ -18,6 +18,17 @@ val chemReactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
 val stoneBurnt = <extrautils2:decorativesolid:3>;
 val quartzBurnt = <extrautils2:decorativesolid:7>;
 val redstoneGlass = <extrautils2:decorativeglass:5>;
+val cutting_saw = mods.gregtech.recipe.RecipeMap.getByName("cutting_saw");
+
+
+#cutting saw recipe for ender shards
+cutting_saw.recipeBuilder()
+	.inputs([<minecraft:ender_pearl>])
+	.fluidInputs([<liquid:water> * 5])
+	.outputs([<extrautils2:endershard> * 8])
+	.EUt(8)
+	.duration(60)
+	.buildAndRegister();
 
 
 	#builders wands

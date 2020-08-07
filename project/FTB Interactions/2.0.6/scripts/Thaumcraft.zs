@@ -427,6 +427,26 @@ furnace.addRecipe(<ore:ingotTin>.firstItem *2 ,<thaumcraft:cluster:3>);
 furnace.addRecipe(<ore:ingotSilver>.firstItem *2 ,<thaumcraft:cluster:4>);
 furnace.addRecipe(<ore:ingotLead>.firstItem *2 ,<thaumcraft:cluster:5>);
 
+#Convert TC native clusters to Contenttweaker variants
+recipes.addShapeless(<contenttweaker:certus_quartz_ore_cluster>, [<thaumcraft:cluster:7>]);
+recipes.addShapeless(<contenttweaker:cinnabar_ore_cluster>, [<thaumcraft:cluster:6>]);
+recipes.addShapeless(<contenttweaker:lead_ore_cluster>, [<thaumcraft:cluster:5>]);
+recipes.addShapeless(<contenttweaker:silver_ore_cluster>, [<thaumcraft:cluster:4>]);
+recipes.addShapeless(<contenttweaker:tin_ore_cluster>, [<thaumcraft:cluster:3>]);
+recipes.addShapeless(<contenttweaker:gold_ore_cluster>, [<thaumcraft:cluster:1>]);
+recipes.addShapeless(<contenttweaker:iron_ore_cluster>, [<thaumcraft:cluster>]);
+recipes.addShapeless(<contenttweaker:copper_ore_cluster>, [<thaumcraft:cluster:2>]);
+
+	#wither skeleton soul
+	val witherSkeletonSoul = <draconicevolution:mob_soul>.withTag({EntityName: "minecraft:wither_skeleton"});
+	mods.jei.JEI.addItem(witherSkeletonSoul);
+
+mods.thaumcraft.Infusion.registerRecipe("withersskeletonoul", "INFUSION", witherSkeletonSoul, 5, 
+	[<aspect:spiritus> * 64, <aspect:potentia> * 32, <aspect:exanimis> * 32, <aspect:tenebrae> * 16, <aspect:perditio> * 16], 
+	<minecraft:skull:1>,
+	[<deepmoblearning:glitch_heart>,<deepmoblearning:glitch_heart>,<minecraft:nether_star>, <randomthings:ingredient:2>,<randomthings:ingredient:2>,<netherbackport:netheriteingot>,<netherbackport:netheriteingot>,<minecraft:bone>,<minecraft:bone>]);
+
+
 	#tech method of rare earth
 autoclave.recipeBuilder()
     .inputs(<ore:dustRareEarth> * 1)

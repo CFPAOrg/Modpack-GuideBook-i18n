@@ -10,6 +10,7 @@ val blast_furnace = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
 val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
 val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
 val solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
+val chemical_bath = mods.gregtech.recipe.RecipeMap.getByName("chemical_bath");
 
 
 	#Ender fluid conduits
@@ -17,6 +18,15 @@ val solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
 	recipes.addShaped(<enderio:item_liquid_conduit:2> * 8, [[<enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:1>],[<enderio:item_liquid_conduit:1>, <enderutilities:enderpart:1>, <enderio:item_liquid_conduit:1>], [<enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:1>]]);
 
 
+	#tormented enderman head
+	chemical_bath.recipeBuilder()
+	.inputs(<enderio:block_enderman_skull>)
+	.fluidInputs([<liquid:liquidnightmares> * 1000])
+	.outputs(<enderio:block_enderman_skull:2>)
+    .duration(180)
+    .EUt(18)
+    .buildAndRegister();
+	
 
 	#Alloy Smelter Removal
 	mods.jei.JEI.removeAndHide(<enderio:block_decoration2>);
@@ -269,7 +279,7 @@ recipes.addShapeless(<ore:dustWheat>.firstItem, [<enderio:item_material:21>]);
 	#power Buffer
 	recipes.remove(<enderio:block_buffer:1>);
 	assembler.recipeBuilder()
-    .inputs(<gregtech:machine:501>, <ore:screwBlueSteel>*2,<ore:wireFineCopper>*4)
+    .inputs(<gregtech:machine:501>, <gregtech:meta_item_1:17828>*2,<ore:wireFineCopper>*4)
     .fluidInputs([<liquid:redstone> * 144])
     .outputs(<enderio:block_buffer:1>)
     .duration(160)

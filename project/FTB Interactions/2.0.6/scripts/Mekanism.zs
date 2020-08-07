@@ -37,6 +37,17 @@ furnace.remove(<ore:ingotCopper>, <mekanism:dust:3>);
 furnace.remove(<ore:ingotCopper>, <mekanism:oreblock:1>);
 furnace.remove(<ore:ingotIron>, <mekanism:dust:0>);
 
+
+	#steel casing
+	recipes.remove(<mekanism:basicblock:8>);
+assembler.recipeBuilder()
+    .inputs(<ore:plateSteel>*4, <thermalfoundation:glass:3>*4, <ore:alloyElite>)
+    .outputs(<mekanism:basicblock:8>)
+	.fluidInputs([<liquid:redstone> * 288])
+    .duration(160)
+    .EUt(120)
+    .buildAndRegister();
+	
 	#remove mek osmium ingots and nuggets
 mods.jei.JEI.removeAndHide(<mekanism:nugget:1>);
 mods.jei.JEI.removeAndHide(<mekanism:ingot:1>);

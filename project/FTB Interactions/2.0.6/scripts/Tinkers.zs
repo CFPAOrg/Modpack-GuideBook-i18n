@@ -58,6 +58,9 @@ mods.tconstruct.Melting.removeRecipe(<liquid:ardite>, <tconstruct:ore:1>);
 	furnace.addRecipe(<thermalfoundation:material:864>, <tconstruct:ore:1>);
 	mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<tconstruct:ore:1>, arditeStack % 100);
 
+	#lumium melting
+mods.tconstruct.Melting.removeRecipe(<liquid:lumium>, <ore:dustLumium>.firstItem);	
+
 	#enderium melting
 mods.tconstruct.Melting.removeRecipe(<liquid:enderium>, <thermalfoundation:material:103>);
 mods.tconstruct.Melting.removeRecipe(<liquid:enderium>, <ore:dustEnderium>.firstItem);
@@ -661,6 +664,16 @@ for mat, ingot in matForgeLVKeepCast {
 			.buildAndRegister();
 	}
 }
+
+#soularium bowstring
+
+		mods.gregtech.recipe.RecipeMap.getByName("extruder").recipeBuilder()
+			.inputs(<ore:ingotSoularium> * 2)
+			.notConsumable(<tconstruct:cast>.withTag({PartType: "tconstruct:bow_string"}))
+			.outputs(<tconstruct:bow_string>.withTag({Material: "soularium"}))
+			.duration(300* 2)
+			.EUt(120)
+			.buildAndRegister();
 
 #######################################################
 	#Bronze Materials but at MV Extruder due to Forge Parts and no casting

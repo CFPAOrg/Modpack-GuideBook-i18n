@@ -565,9 +565,9 @@ mods.thaumcraft.Infusion.registerRecipe("evershiftingfountain", "INFUSION", <ast
 	#containment chalice
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/chalice");
 mods.thaumcraft.Infusion.registerRecipe("containmentchalice", "INFUSION", <astralsorcery:blockchalice>, 4,
-	[<aspect:lux> * 16, <aspect:potentia> * 12, <aspect:sensus> * 8, <aspect:vacuos> * 12], <botania:pool>,
+	[<aspect:lux> * 16, <aspect:potentia> * 12, <aspect:sensus> * 8, <aspect:vacuos> * 12], <botania:pool:2>,
 	[<botania:manaresource:1>, <astralsorcery:itemcraftingcomponent>, <astralsorcery:itemcraftingcomponent>,
-	<thaumcraft:mechanism_complex>, <thaumcraft:mechanism_complex>, <ore:plateRoseGold>, <ore:plateRoseGold>]);
+	<ore:plateRoseGold>, <ore:plateRoseGold>]);
 
 	#Written Expertise
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/knowledgeshare");

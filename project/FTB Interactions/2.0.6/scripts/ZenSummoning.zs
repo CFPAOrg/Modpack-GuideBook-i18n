@@ -256,6 +256,24 @@ SummoningDirector.addSummonInfo(
 		)
 );		
 
+#wither skeleton
+SummoningDirector.addSummonInfo(
+	SummoningInfo.create()
+		.setCatalyst(<minecraft:bone>)		
+		.setReagents([<wizardry:blackened_spirit>,<minecraft:fermented_spider_eye>,<wizardry:devil_dust>])
+		.addMob(MobInfo.create()
+			.setMob("minecraft:wither_skeleton")
+			.setOffset(1,2,1)
+			.setSpread(1,1,1)
+			.setData({
+				"Health":40, 
+				"CustomName":"Summoned Wither Skeleton",
+				"PersistenceRequired":1,
+				"CustomNameVisible":1
+			})
+		)
+);		
+
 #thermal mobs
 SummoningDirector.addSummonInfo(
 	SummoningInfo.create()

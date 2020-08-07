@@ -30,7 +30,7 @@ mods.thaumcraft.Crucible.registerRecipe("awakeneddraconium", "BASEALCHEMY", <dra
 	#item dislocator
 recipes.remove(<draconicevolution:magnet>);
 assembler.recipeBuilder()
-    .inputs(<draconicevolution:dislocator>, <ore:ringSteelMagnetic>, <ore:dustDraconium>*2, <ore:plateTitanium>*2)
+    .inputs(<draconicevolution:dislocator>, <ore:ringSteelMagnetic>, <ore:dustImpureDraconium>*2, <ore:plateTitanium>*2)
     .fluidInputs([<liquid:ender> * 250])
     .outputs(<draconicevolution:magnet>)
     .duration(600)

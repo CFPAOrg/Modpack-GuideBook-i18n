@@ -31,6 +31,25 @@ val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor")
 <ore:crystalCertusQuartz>.remove(<appliedenergistics2:material>);
 <ore:crystalCertusQuartz>.add(gemCertus);
 
+
+	#cable washing
+mixer.recipeBuilder()
+	.inputs(<ore:coloredSmartCable>)
+    .outputs(<appliedenergistics2:part:56>)
+	.fluidInputs([<liquid:water> * 100])
+    .duration(60)
+    .EUt(18)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+	.inputs(<ore:coloredDenseCable>)
+    .outputs(<appliedenergistics2:part:76>)
+	.fluidInputs([<liquid:water> * 100])
+    .duration(60)
+    .EUt(18)
+    .buildAndRegister();
+	
+
 #skystone lense creation
 	lathe.recipeBuilder()
 		.inputs(<ore:plateSkystone>)
@@ -39,6 +58,7 @@ val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor")
 		.EUt(16)
 		.buildAndRegister();	
 	
+
 #Ae2 quartz from nether stars and quartz dust
 	alloyer.recipeBuilder()
 		.inputs(<ore:lensNetherStar>,<ore:dustCertusQuartz>*4)
@@ -79,7 +99,7 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:quartz_glass>);
 assembler.recipeBuilder()
 	.inputs(<ore:dustCertusQuartz>)
-    .outputs(<appliedenergistics2:quartz_glass>)
+    .outputs(<appliedenergistics2:quartz_glass> * 4)
 	.fluidInputs([<liquid:glass> * 144])
     .duration(200)
     .EUt(16)
@@ -95,10 +115,13 @@ mods.thermalexpansion.Infuser.addRecipe(<appliedenergistics2:material:1>, <appli
 
 	#me drive
 recipes.remove(<appliedenergistics2:drive>);
-recipes.addShaped(<appliedenergistics2:drive>,[
-	[<ore:plateStainlessSteel>,<appliedenergistics2:material:24>,<ore:plateStainlessSteel>],
-	[<appliedenergistics2:part:16>,<ore:alloyUltimate>,<appliedenergistics2:part:16>],
-	[<ore:plateStainlessSteel>,<appliedenergistics2:material:24>,<ore:plateStainlessSteel>]]);
+assembler.recipeBuilder()
+	.inputs(<ore:plateStainlessSteel>*4,<appliedenergistics2:material:24>*2,<appliedenergistics2:part:16>*2, <ore:alloyElite>*2)
+    .outputs(<appliedenergistics2:drive>)
+	.fluidInputs([<liquid:redstone> * 1296])
+    .duration(200)
+    .EUt(16)
+    .buildAndRegister();
 	
 	#fluix
 mixer.recipeBuilder()
@@ -123,7 +146,7 @@ recipes.remove(<appliedenergistics2:dense_energy_cell>);
 	
 	#energy cell
 recipes.remove(<appliedenergistics2:energy_cell>);
-recipes.addShaped(<appliedenergistics2:energy_cell>,[
+recipes.addShaped(<appliedenergistics2:energy_cell> * 6,[
 	[<ore:plateCertusQuartz>,<appliedenergistics2:part:16>,<ore:plateCertusQuartz>],
 	[<appliedenergistics2:part:16>,<metaitem:battery.re.lv.lithium>,<appliedenergistics2:part:16>],
 	[<ore:plateCertusQuartz>,<appliedenergistics2:part:16>,<ore:plateCertusQuartz>]
@@ -136,8 +159,8 @@ assembler.recipeBuilder()
 	.inputs(<appliedenergistics2:part:16>)
 	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 24}).or(<metaitem:circuit.integrated>))
     .outputs(<appliedenergistics2:part:36>)
-	.fluidInputs([<liquid:polytetrafluoroethylene> * 5])
-    .duration(200)
+	.fluidInputs([<liquid:polytetrafluoroethylene> * 2])
+    .duration(60)
     .EUt(16)
 	.buildAndRegister();
 
@@ -205,7 +228,7 @@ recipes.addShaped(<appliedenergistics2:energy_acceptor>,[
 recipes.remove(<appliedenergistics2:part:140>);
 assembler.recipeBuilder()
 	.inputs(<ore:stickCertusQuartz>)
-    .outputs(<appliedenergistics2:part:140>)
+    .outputs(<appliedenergistics2:part:140> * 8)
 	.fluidInputs([<liquid:glass> * 144])
     .duration(200)
     .EUt(16)
@@ -256,13 +279,17 @@ laser.recipeBuilder()
 
 	recipes.addShaped(<appliedenergistics2:part:360>, 
 	[[<ore:screwStainlessSteel>, <appliedenergistics2:part:380>, <ore:screwStainlessSteel>],
-	[<ore:plateAluminium>, <logisticspipes:crafting_table>, <ore:plateAluminium>], 
+	[<ore:plateAluminium>, <minecraft:crafting_table>, <ore:plateAluminium>], 
 	[<ore:screwStainlessSteel>, <ore:plateAluminium>, <ore:screwStainlessSteel>]]);
 
-	recipes.addShaped(<appliedenergistics2:part:380>, 
-	[[<ore:screwAluminium>, <ore:circuitGood>, <ore:screwAluminium>],
-	[<actuallyadditions:item_crystal>, <ore:itemIlluminatedPanel>, <actuallyadditions:item_crystal:1>], 
-	[<ore:screwAluminium>, <ore:plateSteel>, <ore:screwAluminium>]]);	
+assembler.recipeBuilder()
+	.inputs(<ore:screwAluminium>*4, <ore:circuitGood>, <ore:itemIlluminatedPanel>)
+    .outputs(<appliedenergistics2:part:380>)
+	.fluidInputs([<fluid:redstone> * 144])
+    .duration(110)
+    .EUt(48)
+    .buildAndRegister();		
+
 	
 	#crafting unit
 recipes.remove(<appliedenergistics2:crafting_unit>);
@@ -409,7 +436,7 @@ assembler.recipeBuilder()
 	.inputs(<appliedenergistics2:quartz_glass>*3, <ore:plateRedAlloy>, <ore:plateAluminium>)
     .outputs(<appliedenergistics2:part:180> * 3)
 	.fluidInputs([<liquid:glowstone> * 144])
-    .duration(200)
+    .duration(100)
     .EUt(16)
     .buildAndRegister();
 	
@@ -498,7 +525,7 @@ implosion.recipeBuilder()
 
 	#logic
 	laser.recipeBuilder()
-	.inputs(<ore:plateRoseGold>)
+	.inputs(<ore:plateGold>)
 	.notConsumable(<contenttweaker:skystonelense>)
     .outputs(<appliedenergistics2:material:18>)
     .duration(200)
@@ -518,7 +545,7 @@ implosion.recipeBuilder()
 laser.recipeBuilder()
 	.inputs(<ore:waferSilicon>)
 	.notConsumable(<contenttweaker:skystonelense>)
-    .outputs(<appliedenergistics2:material:20>)
+    .outputs(<appliedenergistics2:material:20>*4)
     .duration(200)
     .EUt(120)
     .buildAndRegister();
@@ -737,6 +764,12 @@ print("---------------Lazy AE Start------------------");
 		#Mass Assembler
 	recipes.remove(<threng:big_assembler:4>);
 	recipes.remove(<threng:big_assembler:2>);
+
+	#smart/dense cable combining/uncombining
+	recipes.addShapeless(<appliedenergistics2:part:56> * 8, [<appliedenergistics2:part:76>]);
+	recipes.addShaped(<appliedenergistics2:part:75>, [[<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],[<appliedenergistics2:part:56>, null, <appliedenergistics2:part:56>], [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]]);
+
+	
 
 	#coprocessor
 	recipes.addShaped(<threng:big_assembler:4>, 
