@@ -259,7 +259,7 @@ if __name__ == '__main__':
         MODPACK_DATA_TOTAL.append({"name": modpack, "contents": contents})
     MODPACK_DATA_TOTAL.sort(key=lambda x:x["name"])
     for data in MODPACK_DATA_TOTAL:
-        data["contents"].sort(key=lambda x:['0'*(10-len(i))+i for i in re.split('[.-]', x["version"])], reverse=True)
+        data["contents"].sort(key=lambda x:['0'*(10-len(i))+i for i in x["version"].split('-')[0].split('.')], reverse=True)
     # 存入这次的 Json 文件
     with open(DATA_JSON_PATH, "w", encoding="utf-8") as c:
         # 依次是，允许非 ASCII 字符，缩进为 2 空格，分隔符带空格
