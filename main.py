@@ -259,6 +259,9 @@ if __name__ == '__main__':
         MODPACK_DATA_TOTAL.append({"name": modpack, "contents": contents})
     MODPACK_DATA_TOTAL.sort(key=lambda x:x["name"])
     # 存入这次的 Json 文件
+    for data in MODPACK_DATA_TOTAL:
+        data["contents"].sort(key=lambda x:x["version"])
+        data["contents"].reverse()
     with open(DATA_JSON_PATH, "w", encoding="utf-8") as c:
         # 依次是，允许非 ASCII 字符，缩进为 2 空格，分隔符带空格
         js = json.dumps(MODPACK_DATA_TOTAL, ensure_ascii=False, indent=2, separators=(',', ': '))
