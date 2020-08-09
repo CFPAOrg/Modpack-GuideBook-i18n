@@ -59,3 +59,15 @@ jobs:
       run: |
         cd page
         yarn build
+    
+    - name: Push to git repo
+      if: github.event == 'push'
+      run: |
+        cd dist
+        ls
+        git config --global user.email "baka943@baka943.com"
+        git config --global user.name "baka943"
+        git init
+        git add .
+        git commit -m 'AppVeyor自动部署 '
+        git push --force --quiet "https://ptl5jl9m65l9:${{secrets.token}}@${{secrets.ref}}" master:master
