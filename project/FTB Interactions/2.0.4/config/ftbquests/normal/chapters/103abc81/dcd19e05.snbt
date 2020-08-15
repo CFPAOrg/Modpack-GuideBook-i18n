@@ -1,0 +1,72 @@
+{
+	x: 3.0d,
+	y: 4.5d,
+	description: "柴油，你好骚啊。",
+	text: [
+		"一旦你进入MV时代后，你的下一个材料目标将会是在HV级电力下生产不锈钢。请检查任务章节【冶金】及【啊哟！科技】以获取相关阶段信息。",
+		"你需要更多抛瓦 。柴油是个不错的选择，你可以用油菜籽来增加一倍或更多的产出，你还可以在HV阶段更进一步做出高十六烷值柴油和蕴魔硝化柴油。",
+		"不可再生资源的概念可能会让你不太满意，但我们在这个包里为你准备了工具，让不可再生资源也能有丰富的储量。一口油井就能让你抽好几天而不用移动你的泵，而且在后期你还可以使用纳耳狂曼喷口。",
+		"一个星期或者更长时间后，你就可以把它移动到下一个区块了。即使到了游戏末期这些燃料依旧有用，用以合成游戏中最强大的燃料，硅岩燃料。"
+	],
+	dependencies: [
+		"6672ed55",
+		"0dcfd09c"
+	],
+	tasks: [{
+		uid: "a0f93e2e",
+		type: "item",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 502
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Medium Voltage",
+				TrophyColorRed: 37,
+				TrophyEarnedAt: 1553222293
+			}
+		},
+		items: [{
+			item: "gregtech:machine 1 502"
+		}]
+	}],
+	rewards: [{
+		uid: "3e8bdc10",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 502
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Medium Voltage",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "1c6b2a5e",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_2 1 32488",
+		count: 4
+	},
+	{
+		uid: "9ed635ec",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:machine 1 502",
+		count: 4
+	}]
+}

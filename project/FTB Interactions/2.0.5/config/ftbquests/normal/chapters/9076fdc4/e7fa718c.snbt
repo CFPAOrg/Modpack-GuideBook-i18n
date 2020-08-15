@@ -1,0 +1,68 @@
+{
+	x: -7.0d,
+	y: -13.0d,
+	description: "我们有时候必须承认，这很模块化",
+	tasks: [{
+		uid: "d733f737",
+		type: "item",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 255,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 2191
+				},
+				TrophyColorBlue: 255,
+				TrophyName: "Naquadiractic!",
+				TrophyColorRed: 255,
+				TrophyEarnedAt: 1553222400
+			}
+		},
+		items: [{
+			item: "gregtech:machine 1 2172"
+		}]
+	}],
+	rewards: [{
+		uid: "7c263ee2",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 255,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 2191
+				},
+				TrophyColorBlue: 255,
+				TrophyName: "Naquadiractic!",
+				TrophyColorRed: 255
+			}
+		}
+	},
+	{
+		uid: "cf778ecc",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "naquadah_enriched",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	},
+	{
+		uid: "8c8fe037",
+		type: "item",
+		team_reward: true,
+		item: "avaritia:cosmic_meatballs"
+	}]
+}

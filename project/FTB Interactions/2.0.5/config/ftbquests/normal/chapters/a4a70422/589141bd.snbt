@@ -1,0 +1,20 @@
+{
+	x: -22.0d,
+	y: -7.0d,
+	description: "你的第一个漏斗。",
+	text: [
+		"一切都要从木头开始，对吧？"
+	],
+	tasks: [{
+		uid: "d53e6483",
+		type: "item",
+		items: [{
+			item: "primal_tech:wooden_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "4b20e3b7",
+		type: "item",
+		item: "industrialforegoing:conveyor_upgrade 1 4"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -3.0d,
+	y: 1.5d,
+	dependencies: [
+		"10103324"
+	],
+	tasks: [{
+		uid: "a006a61e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crystallizer"
+		}]
+	}],
+	rewards: [{
+		uid: "6e22876a",
+		type: "item",
+		item: "bloodmagic:component 1 29",
+		count: 32
+	}]
+}

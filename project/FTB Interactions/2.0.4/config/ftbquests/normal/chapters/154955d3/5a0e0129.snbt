@@ -1,0 +1,30 @@
+{
+	title: "嘿！听好了！嘿！听好了！嘿！听好了！嘿！听好了！嘿！听好了！嘿！听好了！嘿！听好了！嘿！听好了！",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: 0.0d,
+	y: -5.5d,
+	shape: "gear",
+	description: "若你看见这类任务图标，则表示你将会在这里看到连JEI里面也无法找到的信息、一些实用的提示及技巧，带领你游玩本包。",
+	size: 2.0d,
+	tasks: [{
+		uid: "2d1c49ff",
+		type: "checkmark",
+		title: "确认"
+	}],
+	rewards: [{
+		uid: "20d13745",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "31402acf",
+		type: "item",
+		item: "wizardry:fairy_imbued_apple"
+	}]
+}

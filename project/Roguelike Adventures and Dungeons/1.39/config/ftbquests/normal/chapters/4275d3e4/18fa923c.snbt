@@ -1,0 +1,143 @@
+{
+	x: 7.0d,
+	y: 2.0d,
+	dependencies: [
+		"aa7f4752"
+	],
+	tasks: [{
+		uid: "4b33ab72",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:onwards"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5d205377",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:christmas_on_the_marsh"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "091f5e92",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:the_explorer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d38e738",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:hag_dance"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c4482b36",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:lonely_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2712f92c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mysterious_record"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3e151808",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:ancient"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c745d462",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:beneath_a_green_sky"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ec050016",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:dj_wights_mixtape"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "35c63016",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:between_you_and_me"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "438bf04b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:astatos"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7c06aa9e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:waterlogged"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "99b2ffaa",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:wandering_wisps"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b7e64f36",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:stuck_in_the_mud"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cee0b657",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "9778b585",
+		type: "item",
+		item: "thebetweenlands:loot_pot 1 4"
+	}]
+}

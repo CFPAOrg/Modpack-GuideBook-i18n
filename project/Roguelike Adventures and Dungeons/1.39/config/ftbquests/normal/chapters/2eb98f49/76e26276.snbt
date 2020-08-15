@@ -1,0 +1,45 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	text: [
+		"物品提取泵管道需要一个红石信号才能工作，他能从容器中将物品提取进入物品管道。"
+	],
+	dependencies: [
+		"13cf1945"
+	],
+	tasks: [{
+		uid: "16f976ce",
+		type: "item",
+		items: [{
+			item: "embers:item_pipe"
+		}],
+		count: 2L
+	},
+	{
+		uid: "7d90921d",
+		type: "item",
+		items: [{
+			item: "embers:item_pump"
+		}],
+		count: 2L
+	},
+	{
+		uid: "90a31581",
+		type: "item",
+		items: [{
+			item: "minecraft:lever"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "08f71692",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5e1c3f25",
+		type: "item",
+		item: "embers:caminite_lever",
+		count: 2
+	}]
+}

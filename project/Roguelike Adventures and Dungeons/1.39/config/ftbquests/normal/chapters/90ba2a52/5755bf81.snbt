@@ -1,0 +1,16 @@
+{
+	x: 12.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "af6b91d8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:ploughmanslunchitem"
+		}]
+	}],
+	rewards: [{
+		uid: "170c4aa5",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

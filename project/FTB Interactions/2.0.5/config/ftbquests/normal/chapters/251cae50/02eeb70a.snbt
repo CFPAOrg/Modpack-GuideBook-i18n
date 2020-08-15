@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	dependencies: [
+		"1207a7cd",
+		"666c1917"
+	],
+	tasks: [{
+		uid: "cbf2db83",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32499"
+		}]
+	}],
+	rewards: [{
+		uid: "5fa4d22c",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32015",
+		count: 8
+	},
+	{
+		uid: "91583d1a",
+		type: "item",
+		item: "gregtech:meta_item_2 1 16200",
+		count: 64
+	},
+	{
+		uid: "a56ba323",
+		type: "item",
+		item: "harvestcraft:epicbaconitem",
+		count: 16
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "高级无线连接工具",
+	x: -3.0d,
+	y: -17.0d,
+	text: [
+		"能够将这些高级火箭(Advanced Rocketry)机械里的隐藏的发射器和接收器连接起来。"
+	],
+	dependencies: [
+		"05f17487"
+	],
+	tasks: [{
+		uid: "1b7a9969",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "libvulpes:linker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

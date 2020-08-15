@@ -1,0 +1,30 @@
+{
+	x: -10.5d,
+	y: -1.0d,
+	text: [
+		"氮是多次检查反应的前置，你需要准备充足的氮气，用于高炉和一些化学反应过程。"
+	],
+	dependencies: [
+		"eebe34c9"
+	],
+	tasks: [{
+		uid: "e1d7890c",
+		type: "checkmark",
+		title: "氮气单元",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "nitrogen",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}],
+	rewards: [{
+		uid: "b4648556",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

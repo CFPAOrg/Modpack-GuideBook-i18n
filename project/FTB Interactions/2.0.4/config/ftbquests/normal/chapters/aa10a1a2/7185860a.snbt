@@ -1,0 +1,33 @@
+{
+	title: "泵入黑金",
+	x: -9.5d,
+	y: -1.5d,
+	text: [
+		"是的，格雷科技也有你可以使用的泵。许多东西都能用，但有些东西更好用..."
+	],
+	dependencies: [
+		"9063ed56"
+	],
+	tasks: [{
+		uid: "d37f6eea",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fluid_pump"
+		}]
+	},
+	{
+		uid: "82508132",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oil",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

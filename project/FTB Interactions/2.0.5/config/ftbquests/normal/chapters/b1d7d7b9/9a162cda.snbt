@@ -1,0 +1,33 @@
+{
+	title: "大量的锂",
+	x: -10.5d,
+	y: -5.0d,
+	description: "最后，你可以再次将一些真正的电池扔进火里。",
+	dependencies: [
+		"29825601"
+	],
+	tasks: [{
+		uid: "da6311b9",
+		type: "item",
+		title: "锂粉",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustLithium",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "8a2bbd3d",
+		type: "item",
+		item: "harvestcraft:pistachioicecreamitem"
+	},
+	{
+		uid: "09231ab3",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32528"
+	}]
+}

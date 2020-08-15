@@ -1,0 +1,28 @@
+{
+	"name": "Ender Fossils",
+	"icon": "soulus:bone_chunk_ender",
+	"category": "fossils_and_essence",
+	"sortnum": 10103,
+	"pages": [
+		{
+			"type": "text",
+			"text": "As of writing, there are alien creatures in our world. Taxonomically, I consider them a part of Animalia, as they do share similarities, but it is more likely they evolved separately.$(p)Unfortunately, the $(thing)Extinction Event$() also should have wiped out alien life, but it should be possible to restore them in the same way as Animalia."
+		},
+		{
+			"type": "spotlight",
+			"item": "soulus:fossil_dirt_ender",
+			"title": "Ender Fossils",
+			"text": "You should hopefully be able to find and extract the essence from fossils of alien creatures.$(p)I should note, however, that the raw fossil will come in handy as well; alien bones glow and seem to have magical properties."
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:dust/dust_ender",
+			"text": "I call this powder $(item)Ender Dust$(). Using this it's possible to create all manner of contraptions which will interact with the soulus of creatures past."
+		},
+		{
+			"type": "image_footer",
+			"text": "$(p)$(l:summoning/soulbook)Next, I will show how to create the Soulbook.$()",
+			"image": "soulus:textures/gui/guidebook/soul_transfer_rate_formula.png"
+		}
+	]
+}

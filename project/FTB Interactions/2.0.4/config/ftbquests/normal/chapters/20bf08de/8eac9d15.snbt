@@ -1,0 +1,52 @@
+{
+	x: -8.0d,
+	y: -10.0d,
+	text: [
+		"神秘坩埚是开始炼金术的第一步。你需要手持世界盐右键原版坩埚，用水填满它后在其下面放上热源。",
+		"重要：关于JEI的说明-",
+		"JEI上所有的配方对你而言都是可见的，我们将其设置成这样的原因，是为了让你能更好的准备本包被更改的配方，但是你仍然需要完成相关研究以使用相关配方制造相关物品。",
+		"",
+		"例如，如果你想制造无尽之瓮，你可以随时在JEI上看见相关的合成，但是正如魔导手册显示的那样，你仍然需要完成其前置炼金杂项，才能制造出无尽之瓮。"
+	],
+	dependencies: [
+		"43e61bff"
+	],
+	tasks: [{
+		uid: "38e0a97d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "2090b4ca",
+		type: "item",
+		item: "harvestcraft:meatystewitem"
+	},
+	{
+		uid: "db28591a",
+		type: "item",
+		item: "thaumcraft:nugget 1 9",
+		count: 16
+	},
+	{
+		uid: "82ed66a2",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "mortuus"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 2
+	},
+	{
+		uid: "cf2d0e1d",
+		type: "command",
+		command: "/tc research @p EVERFULLURN"
+	}]
+}

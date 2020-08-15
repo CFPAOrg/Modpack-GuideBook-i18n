@@ -1,0 +1,33 @@
+{
+	x: -9.0d,
+	y: 12.0d,
+	shape: "square",
+	dependencies: [
+		"a8780d79"
+	],
+	tasks: [{
+		uid: "3e8112c7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10032"
+		}]
+	},
+	{
+		uid: "2c0398f7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 507"
+		}]
+	}],
+	rewards: [{
+		uid: "de90b995",
+		type: "item",
+		item: "harvestcraft:springfieldcashewchickenitem"
+	},
+	{
+		uid: "3a8b28c2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10200",
+		count: 8
+	}]
+}

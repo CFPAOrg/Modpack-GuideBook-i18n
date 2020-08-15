@@ -1,0 +1,26 @@
+{
+	x: -11.0d,
+	y: 2.0d,
+	description: "储存63种物品",
+	dependencies: [
+		"39d33b3e"
+	],
+	tasks: [{
+		uid: "099a4871",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 35"
+		}]
+	}],
+	rewards: [{
+		uid: "0f4d9f3b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -9.0d,
+	y: -8.0d,
+	description: "我真是嗨到不行了",
+	tasks: [{
+		uid: "0399be67",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaotic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "c7770d60",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "chaotic_plustic"
+			}
+		}
+	},
+	{
+		uid: "db91f64b",
+		type: "item",
+		item: "avaritia:ultimate_stew"
+	}]
+}

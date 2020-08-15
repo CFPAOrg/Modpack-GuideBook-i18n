@@ -1,0 +1,13 @@
+{
+	"name": "Skewer: Tethering",
+	"advancement": "soulus:ash",
+	"icon": "soulus:ash",
+	"category": "processing",
+	"sortnum": 10302,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Some alien creatures have the ability of teleportation. If they take damage, they're likely to teleport away and not take any more damage from the Skewer. However, I've found a way to prevent it, most of the time: $(item)Ash$()!$(p)The more ash you cover the skewer in, the more likely each creature able to teleport will find themselves unable to upon taking damage."
+		}
+	]
+}

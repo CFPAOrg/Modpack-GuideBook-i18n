@@ -1,0 +1,15 @@
+{
+	x: 8.0d,
+	y: -15.0d,
+	description: "通过轨道激光钻来获得陨石",
+	dependencies: [
+		"8d952225"
+	],
+	tasks: [{
+		uid: "3c36e426",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_block"
+		}]
+	}]
+}

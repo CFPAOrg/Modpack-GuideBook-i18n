@@ -1,0 +1,34 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:goggles"
+	},
+	x: -14.0d,
+	y: -12.0d,
+	text: [
+		"此任务解锁炼化学到包括炼狱熔炉在内的研究。"
+	],
+	can_repeat: true,
+	dependencies: [
+		"961eb3ac"
+	],
+	tasks: [{
+		uid: "958d6e13",
+		type: "checkmark",
+		title: "炼化学"
+	}],
+	rewards: [{
+		uid: "35cf8a76",
+		type: "command",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		},
+		command: "/thaumcraft research @p BELLOWS"
+	}]
+}

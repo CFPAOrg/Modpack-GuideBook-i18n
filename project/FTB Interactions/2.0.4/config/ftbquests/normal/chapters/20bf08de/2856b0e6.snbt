@@ -1,0 +1,126 @@
+{
+	title: "一闪一闪亮晶晶",
+	x: -4.0d,
+	y: -12.0d,
+	shape: "square",
+	text: [
+		"由于你不能睡觉，当你捡起魔力碎片的时候就能解锁合成世界盐的研究了。",
+		"",
+		"蕴魔矿石可以通过挖矿获得（请检查任务章节【不太安全的空间】）。把矿石放到白雏菊旁边可将其转化为该属性的魔力结晶。",
+		"",
+		"提示：魔力结晶会在石头上生长，如果你在草地上转化它们，它们会自动掉落，这在自动化的时候很有用。"
+	],
+	dependencies: [
+		"10775b47"
+	],
+	tasks: [{
+		uid: "2f175460",
+		type: "item",
+		icon: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1
+				}],
+				display: {
+					Name: "Any Vis Crystal"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "43c5dd9a",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "18089c6d",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "b1b941f6",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "2cb36ed3",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "75672b49",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "4fb2903a",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		},
+		count: 5
+	}]
+}

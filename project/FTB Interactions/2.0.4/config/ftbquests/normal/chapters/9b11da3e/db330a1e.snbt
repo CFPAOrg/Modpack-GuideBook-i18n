@@ -1,0 +1,29 @@
+{
+	title: "锡矿脉",
+	x: -7.0d,
+	y: -3.0d,
+	description: "在所有生物群系中生成，锡石矿产锡两倍于普通的锡矿石",
+	dependencies: [
+		"9235b3a2"
+	],
+	tasks: [{
+		uid: "a27e10e2",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tin_0"
+		}]
+	},
+	{
+		uid: "9f27cbf2",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cassiterite_0"
+		}]
+	}],
+	rewards: [{
+		uid: "4f6f7b45",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10071",
+		count: 4
+	}]
+}

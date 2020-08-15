@@ -1,0 +1,74 @@
+{
+    "name": "装饰",
+    "icon": "hwell:moonstone",
+    "category": "other",
+    "sortnum": 100,
+    "pages": [
+    	{	
+        	"type": "spotlight",
+            "title": "装饰性方块",
+            "item": "hwell:moonstone",
+            "link_recipe": true,
+            "text": "通过将水晶碎片的神奇特性注入普通方块中，可以获得许多不同的材料。这些方块看起来很漂亮，有些也很有用。可以冶炼成平滑版本。"
+        },
+		{
+            "type": "text",
+			"text": "这些方块中的大多数都可以制作成台阶和楼梯，也可以制成石砖，石砖也可以制作成台阶和楼梯。$(br2)这些台阶有些不同。你可以将它们垂直放置，而不是将它们放置在方块的顶部或底部。它们将始终放置在右键单击的方块上，按下shift键可以将它们放置在相反的一侧。"
+        },
+	    {
+            "type": "crafting",
+			"title": "",
+			"recipe": "hwell:citrinic_stone",
+			"recipe2": "hwell:white_block"
+		},
+	    {
+            "type": "crafting",
+			"title": "",
+			"recipe": "hwell:azurite",
+			"recipe2": "hwell:onyx"
+		},
+
+	    {
+            "type": "crafting",
+			"title": "",
+			"recipe2": "hwell:scorch_grit",
+			"recipe": "hwell:fullgrass_block"
+		},
+		{
+            "type": "crafting",
+			"recipe": "hwell:gaseous_sand",
+			"recipe2": "hwell:moonstone"
+		},
+		{
+            "type": "smelting",
+			"recipe": "hwell:citrinic_stone",
+			"recipe2": "hwell:azurite"
+		},
+		{
+            "type": "smelting",
+			"recipe": "hwell:scorch_grit",	
+			"recipe2": "hwell:onyx"		
+        },
+		{
+            "type": "smelting",
+			"recipe": "hwell:gaseous_sand"
+        },
+        {
+            "type": "crafting",
+			"title": "",
+			"recipe": "hwell:moonstone_bricks"
+		},        
+		{
+            "type": "crafting",
+			"title": "",
+			"recipe": "hwell:moonstone_slab",
+			"recipe2": "hwell:moonstone_stairs"
+		},
+		{
+        	"type": "crafting",
+			"test": "etc...",
+			"recipe": "hwell:moonstone_bricks_slab",
+			"recipe2": "hwell:moonstone_bricks_stairs"
+		}
+    ]
+}

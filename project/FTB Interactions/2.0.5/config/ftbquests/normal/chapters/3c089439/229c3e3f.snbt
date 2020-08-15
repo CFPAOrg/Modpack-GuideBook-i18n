@@ -1,0 +1,30 @@
+{
+	title: "富集铟",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"铟富集溶液与铝粉混合，制成小撮铟粉，用于电路元件制造。你需要一点点铟来升级你的电路制造过程。"
+	],
+	dependencies: [
+		"468e3e2d"
+	],
+	tasks: [{
+		uid: "1897cc1e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2001"
+		}],
+		count: 4L
+	},
+	{
+		uid: "b93e8e44",
+		type: "checkmark",
+		title: "铟富集溶液"
+	}],
+	rewards: [{
+		uid: "e94d8830",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32469",
+		count: 4
+	}]
+}

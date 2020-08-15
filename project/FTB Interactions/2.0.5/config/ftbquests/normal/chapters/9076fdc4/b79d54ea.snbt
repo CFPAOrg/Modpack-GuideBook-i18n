@@ -1,0 +1,73 @@
+{
+	x: -14.0d,
+	y: -9.0d,
+	description: "星辉魔法的东西突然就快了起来不是吗？",
+	tasks: [{
+		uid: "c78da9c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockcelestialcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					},
+					collectorType: 1
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8863d0b5",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 205,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "astralsorcery:itemtunedcelestialcrystal",
+					Count: 1,
+					Damage: 0
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Celestial Mastery",
+				TrophyColorRed: 65
+			}
+		}
+	},
+	{
+		uid: "f048f8f7",
+		type: "item",
+		item: {
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "37c1334c",
+		type: "item",
+		item: "harvestcraft:starfruityogurtitem"
+	}]
+}

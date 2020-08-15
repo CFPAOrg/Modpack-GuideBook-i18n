@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: -14.5d,
+	text: [
+		"只能在地狱的地牢中找到，可以培养至10/10/10。生产地狱疣。"
+	],
+	dependencies: [
+		"1deb0b04"
+	],
+	tasks: [{
+		uid: "9cfe51fc",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "chickens:netherwartchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "604372dc",
+		type: "item",
+		item: "minecraft:nether_wart",
+		count: 16
+	}]
+}

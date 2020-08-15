@@ -1,0 +1,30 @@
+{
+	title: "变咸！",
+	x: -10.5d,
+	y: -9.0d,
+	shape: "diamond",
+	description: "海王需要你的帮助来恢复世界的盐分水平。",
+	text: [
+		"一个生产线的开始，包括生产锂和热力膨胀的凛冰粉和赤焱粉。",
+		""
+	],
+	tasks: [{
+		uid: "934bfcd7",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 14"
+		}]
+	},
+	{
+		uid: "cd6a072c",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "29f89fd2",
+		type: "item",
+		item: "cyclicmagic:cable_wireless_fluid"
+	}]
+}

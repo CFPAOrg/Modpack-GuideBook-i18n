@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	dependencies: [
+		"8e6816fe"
+	],
+	tasks: [{
+		uid: "f63f1ae2",
+		type: "item",
+		items: [{
+			item: "atum:pharaoh_torch"
+		}]
+	}],
+	rewards: [{
+		uid: "88985203",
+		type: "item",
+		item: "atum:crunchy_scarab"
+	},
+	{
+		uid: "a0ee0fe8",
+		type: "item",
+		item: "atum:khnumite",
+		count: 2
+	}]
+}

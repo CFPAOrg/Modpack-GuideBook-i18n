@@ -1,0 +1,56 @@
+{
+	x: -14.0d,
+	y: -10.0d,
+	description: "再也没有什么烦人的研究了。",
+	text: [
+		"说真的，为什么很多其他整合包里面都不能合成这个东西？"
+	],
+	tasks: [{
+		uid: "69960a0f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "acd25543",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "thaumcraft:thaumonomicon",
+					Count: 1,
+					Damage: 1
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Eldritch Secrets",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "4a8e3f01",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:sanity_checker"
+		}
+	},
+	{
+		uid: "f61f0933",
+		type: "item",
+		item: "thaumcraft:sanity_soap",
+		count: 4
+	}]
+}

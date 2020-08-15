@@ -1,0 +1,21 @@
+{
+	x: 9.0d,
+	y: -1.0d,
+	dependencies: [
+		"2f4fcf13"
+	],
+	tasks: [{
+		uid: "11750c27",
+		type: "item",
+		items: [{
+			item: "twilightforest:ice_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7a99915",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

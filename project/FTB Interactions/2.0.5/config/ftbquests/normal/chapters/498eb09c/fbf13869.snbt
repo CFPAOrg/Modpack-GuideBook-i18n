@@ -1,0 +1,20 @@
+{
+	title: "环保啤酒。还有能量。",
+	x: -4.0d,
+	y: -2.0d,
+	shape: "square",
+	description: "如果你要做一个大型的乙醇生产线，你可能想一口气做几十个。",
+	tasks: [{
+		uid: "8ebb4861",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 131"
+		},
+		{
+			item: "gregtech:machine 1 130"
+		},
+		{
+			item: "gregtech:machine 1 132"
+		}]
+	}]
+}

@@ -1,0 +1,81 @@
+{
+	title: "巫师",
+	icon: "ebwizardry:wizard_hat",
+	loot_size: 27,
+	use_title: true,
+	rewards: [{
+		item: "ebwizardry:wizard_handbook",
+		only_one: true
+	},
+	{
+		item: "ebwizardry:magic_wand",
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:wizard_leggings",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:wizard_hat",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -6159840448603143282L,
+						UUIDLeast: -7765215361051407919L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "ebwizardry:wizard_robe",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "minecraft:torch",
+		count: 16,
+		only_one: true
+	},
+	{
+		item: "minecraft:bread",
+		count: 16,
+		only_one: true
+	},
+	{
+		item: "skewers:skewer_beef_raw",
+		count: 6,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "wizard",
+		item_name: "巫师",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

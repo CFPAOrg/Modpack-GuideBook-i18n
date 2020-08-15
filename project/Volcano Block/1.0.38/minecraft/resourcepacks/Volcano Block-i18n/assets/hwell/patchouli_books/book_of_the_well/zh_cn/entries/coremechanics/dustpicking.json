@@ -1,0 +1,35 @@
+{
+    "name": "水晶碎片筛选杖",
+    "icon": "hwell:myst_dust_picker_h",
+    "category": "core_mechanics",
+    "sortnum": 100,
+    "pages": [
+        {
+            "type": "text",
+            "text": "水晶碎片筛选杖是最终获取特定碎片而不是随机碎片的必不可少的工具。$(br)它们与水晶碎片筛选台和一些神秘粉结合使用。"
+        },
+        { 	"type": "crafting",
+	        "name": "水晶碎片筛选杖",
+            "recipe": "hwell:myst_dust_picker_o",
+	        "text": "水晶碎片筛选杖的合成需要一个重型锭,一个灵魂钢锭以及一个水晶碎片。"
+        },
+		{
+            "type": "text",
+            "text": "要使用水晶碎片筛选台，只需要右键将神秘粉放在顶部的水晶碗里即可。$(br)然后拿着水晶碎片筛选杖在粉末中寻找水晶碎片。你可能什么都找不到，请继续尝试。"
+        },
+        { 	"type": "crafting",
+	        "name": "Shard Picking Table",
+            "recipe": "hwell:picking_table",
+	        "text": ""
+        },
+		{
+            "type": "text",
+            "text": "当你有了需要的水晶碎片后，请将筛选杖整齐地放置在筛选杖支架上。潜行右键单击筛选杖支架，将筛选杖取回。$(br2)当你需要一个筛选杖时，只需右键单击支架即可取出一个。反复用筛选杖右键单击支架，以循环遍历支架上的筛选杖。"
+        },
+        { 	"type": "crafting",
+	        "name": "水晶碎片筛选杖支架",
+            "recipe": "hwell:picker_holder",
+	        "text": ""
+        }
+    ]
+}

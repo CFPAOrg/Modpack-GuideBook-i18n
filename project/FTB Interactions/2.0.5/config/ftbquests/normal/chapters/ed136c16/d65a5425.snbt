@@ -1,0 +1,52 @@
+{
+	title: "你急需的帮手",
+	x: -14.5d,
+	y: -1.0d,
+	text: [
+		"建造小帮手（Building gadgets）模组为你提供了多种有用的工具，帮助建造、导入/导出结构和拆除结构。",
+		"一定要看看链接里的作者 Direwolf20 本人的模组介绍。",
+		"提示：你可以找到此包中的一些多方块结构的模板，节省你一些建造的时间！",
+		"",
+		"提供RF能量时，奖励中的充电台能够充能你的快捷栏中的任何RF物品。"
+	],
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "c496eaed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "274fa174",
+		type: "item",
+		item: "buildinggadgets:constructionblockpowder",
+		count: 16
+	},
+	{
+		uid: "ecbe9b35",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			tag: {
+				mekData: {}
+			},
+			Damage: 14s
+		}
+	}]
+}

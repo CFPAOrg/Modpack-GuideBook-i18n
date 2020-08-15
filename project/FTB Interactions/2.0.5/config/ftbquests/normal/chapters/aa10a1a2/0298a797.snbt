@@ -1,0 +1,23 @@
+{
+	title: "ZPM柴油发电机",
+	x: 0.0d,
+	y: 2.5d,
+	shape: "rsquare",
+	text: [
+		"ZPM Diesel generator是一个可行的的升级（你可以直接升级LUV级的多方块），它能燃烧柴油并输出1A的ZPM级能量。需要通入氧气和柴油，可以是蕴魔硝化柴油或硅岩燃料。"
+	],
+	dependencies: [
+		"50f6ce33",
+		"97e0a29a"
+	],
+	tasks: [{
+		uid: "dfb7cb0f",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dieselgenerator_zpm"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: -7.0d,
+	text: [
+		"氢气是化学中的一个核心元素。你需要一个持久的供应并拥有一些缓存。你也需要将他分发到一些其他的地方，所以考虑一下使用LP网络，管道或者无线系统。"
+	],
+	dependencies: [
+		"7f0e32a6"
+	],
+	tasks: [{
+		uid: "441bf08c",
+		type: "checkmark",
+		title: "氢气：GET！",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "hydrogen",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

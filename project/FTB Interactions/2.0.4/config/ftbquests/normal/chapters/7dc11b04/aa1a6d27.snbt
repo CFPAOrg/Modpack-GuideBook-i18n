@@ -1,0 +1,20 @@
+{
+	x: 7.0d,
+	y: 3.5d,
+	dependencies: [
+		"fda10774"
+	],
+	tasks: [{
+		uid: "41a06295",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "7c2fa424",
+		type: "item",
+		item: "bloodmagic:slate 1 2",
+		count: 4
+	}]
+}

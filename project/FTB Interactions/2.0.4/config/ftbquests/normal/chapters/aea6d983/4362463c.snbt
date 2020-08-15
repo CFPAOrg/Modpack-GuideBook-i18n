@@ -1,0 +1,27 @@
+{
+	x: -2.0d,
+	y: -14.0d,
+	text: [
+		"想给食物加点香料，或者有些香料很难寻找和种植...那么这就是你实现自动化的方法了。"
+	],
+	tasks: [{
+		uid: "9e66f6b9",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:spicechicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "ecb423b4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:spice_enriched_egg"
+		}]
+	}]
+}

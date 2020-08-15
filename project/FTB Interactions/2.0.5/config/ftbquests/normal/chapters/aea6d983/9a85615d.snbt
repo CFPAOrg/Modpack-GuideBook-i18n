@@ -1,0 +1,50 @@
+{
+	x: 3.5d,
+	y: -7.0d,
+	text: [
+		"温特姆鸡会生产几种不可思议的副产物，包括温特姆、魔力钢以及稀土，其中，稀土又可以进一步处理以获得多种重要的稀有金属。"
+	],
+	dependencies: [
+		"bad8af80",
+		"da0cc52f"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "4a5cf161",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:vinteumchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "e0d8f286",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vinteum_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "13ca896c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2326",
+		count: 16
+	},
+	{
+		uid: "5eb26f87",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2247",
+		count: 16
+	},
+	{
+		uid: "f20fc6b9",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2805",
+		count: 16
+	}]
+}

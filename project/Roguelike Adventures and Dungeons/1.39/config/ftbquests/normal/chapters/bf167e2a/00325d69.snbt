@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 1.0d,
+	dependencies: [
+		"43539b92"
+	],
+	tasks: [{
+		uid: "84733f2c",
+		type: "item",
+		items: [{
+			item: "aether_legacy:valkyrie_lance"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e379b40b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

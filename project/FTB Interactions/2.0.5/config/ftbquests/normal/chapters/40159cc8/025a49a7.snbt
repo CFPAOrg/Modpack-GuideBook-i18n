@@ -1,0 +1,38 @@
+{
+	title: "聚合世界...",
+	icon: "draconicevolution:fusion_crafting_core",
+	x: 4.0d,
+	y: -11.0d,
+	text: [
+		"你需要强大的聚合工艺来制作一个工件来将空间站引导到系外行星，别担心，在这个整合包中可以直接合成混沌注入合成装置。"
+	],
+	dependencies: [
+		"d7ea4c5b"
+	],
+	tasks: [{
+		uid: "9c15eaeb",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	},
+	{
+		uid: "bd69fa9c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 3"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1b9f5e68",
+		type: "item",
+		item: "draconicevolution:crafting_injector 1 3",
+		count: 4
+	},
+	{
+		uid: "97fdb762",
+		type: "item",
+		item: "avaritia:cosmic_meatballs"
+	}]
+}

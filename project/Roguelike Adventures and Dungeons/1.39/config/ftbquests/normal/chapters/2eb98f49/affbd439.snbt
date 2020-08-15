@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"1135dbfd"
+	],
+	tasks: [{
+		uid: "ed520037",
+		type: "item",
+		items: [{
+			item: "embers:brick_caminite"
+		}]
+	}],
+	rewards: [{
+		uid: "1faa8d46",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "388e72d5",
+		type: "dimension",
+		dim: 7
+	}],
+	rewards: [{
+		uid: "d886a51d",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "twilightforest:guide"
+			}
+		}
+	},
+	{
+		uid: "44779443",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

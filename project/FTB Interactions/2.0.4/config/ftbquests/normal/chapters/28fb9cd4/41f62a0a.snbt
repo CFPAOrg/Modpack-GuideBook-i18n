@@ -1,0 +1,15 @@
+{
+	x: -11.5d,
+	y: 6.5d,
+	dependencies: [
+		"d85bce55",
+		"625261a5"
+	],
+	tasks: [{
+		uid: "f699202a",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_terra_infused_0"
+		}]
+	}]
+}

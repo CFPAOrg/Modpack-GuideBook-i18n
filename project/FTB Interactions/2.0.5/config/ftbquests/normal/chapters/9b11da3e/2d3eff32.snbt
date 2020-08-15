@@ -1,0 +1,20 @@
+{
+	x: -13.0d,
+	y: -10.0d,
+	description: "每个范围升级可以增加32格的扫描范围。",
+	dependencies: [
+		"70a2cc40"
+	],
+	tasks: [{
+		uid: "6eab6b72",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "scannable:module_range"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

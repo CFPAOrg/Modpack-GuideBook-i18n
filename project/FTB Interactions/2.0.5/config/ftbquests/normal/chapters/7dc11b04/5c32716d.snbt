@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 3.5d,
+	description: "你需要先到Euclydes Prime收集温特姆来制造这个方块，以建造五级祭坛。",
+	dependencies: [
+		"f813636e"
+	],
+	tasks: [{
+		uid: "a8f2ecac",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:beacon_potion"
+		}]
+	}]
+}

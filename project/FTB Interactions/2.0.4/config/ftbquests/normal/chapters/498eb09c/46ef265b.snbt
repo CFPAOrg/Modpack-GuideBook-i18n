@@ -1,0 +1,29 @@
+{
+	title: "氟",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "fluorine",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -6.0d,
+	y: -4.0d,
+	description: "可以通过电解许多不同的盐，主要是锂云母来获得。也可以从可再生的黑云母粉中获得。 ",
+	text: [
+		"你也可以创造一只氟鸡，鸡真的能解决一切问题，不是吗？"
+	],
+	tasks: [{
+		uid: "15662f0d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b5c6f441",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2250",
+		count: 22
+	}]
+}

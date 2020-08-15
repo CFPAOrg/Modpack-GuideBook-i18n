@@ -1,0 +1,38 @@
+{
+	title: "我听说你对自动化有很炫的想法",
+	x: -2.5d,
+	y: -1.0d,
+	text: [
+		"建议做好这个东西的自动化，之后会用到很多，很多。",
+		"炫珠母液是一种神奇的液体，它用于制造某几个模组的关键材料。你固然可以手搓但是建议你将其自动化，因为你需要的量可不只是一点。"
+	],
+	dependencies: [
+		"8daf4c09"
+	],
+	tasks: [{
+		uid: "1966614d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nacre_fluid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "1bbf1287",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 16
+	},
+	{
+		uid: "5d5d8822",
+		type: "item",
+		item: "harvestcraft:meringuecookieitem"
+	}]
+}

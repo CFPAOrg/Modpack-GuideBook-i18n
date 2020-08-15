@@ -1,0 +1,57 @@
+{
+	title: "吃掉那些小麦",
+	x: -2.0d,
+	y: 8.0d,
+	shape: "rsquare",
+	description: "这个奖励是我们想要告诉你，虽然你可以用植物球复制植物，但你仍然要制作这些。",
+	dependencies: [
+		"d7b06269"
+	],
+	tasks: [{
+		uid: "0916f7b0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:aridgarden"
+		}]
+	},
+	{
+		uid: "085aa98e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:frostgarden"
+		}]
+	},
+	{
+		uid: "8e788b9c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:shadedgarden"
+		}]
+	},
+	{
+		uid: "0ab71623",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tropicalgarden"
+		}]
+	},
+	{
+		uid: "7b5e8e00",
+		type: "item",
+		items: [{
+			item: "harvestcraft:soggygarden"
+		}]
+	},
+	{
+		uid: "e9969804",
+		type: "item",
+		items: [{
+			item: "harvestcraft:windygarden"
+		}]
+	}],
+	rewards: [{
+		uid: "c73380c8",
+		type: "item",
+		item: "cyclicmagic:sprinkler"
+	}]
+}

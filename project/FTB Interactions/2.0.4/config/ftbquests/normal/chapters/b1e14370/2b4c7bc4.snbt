@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	description: "你早期的主要金红石来源是加工铝土矿得到的产品。之后，你将能获得钛铁矿。",
+	tasks: [{
+		uid: "07149139",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2123"
+		},
+		{
+			item: "gregtech:meta_item_1 1 2121"
+		}]
+	}]
+}

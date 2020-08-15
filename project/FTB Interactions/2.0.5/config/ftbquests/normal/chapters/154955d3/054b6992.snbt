@@ -1,0 +1,23 @@
+{
+	title: "JEI使用技巧",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -4.0d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"-FTBQ（任务书）与JEI有很好的兼容，在任务图标，或在左边的图标（如有多项物品）可以直接使用"显示物品配方"按键（默认：R）。",
+		"-如果你的鼠标有返回键的话，建议你将其绑定为JEI的“显示上个查看的配方”以取代预设的退格键。它会让你的生活更容易。",
+		"-对着物品点shift键会显示物品的矿物词典，许多配方都能接受相同矿物词典的物品。",
+		"-如果你发现你一直需要查看某个物品的合成时，试试使用JEI的书签功能。你大概在合成电路、机械臂和马达时会用到这个功能。"
+	],
+	tasks: [{
+		uid: "6def5b0b",
+		type: "checkmark"
+	}]
+}

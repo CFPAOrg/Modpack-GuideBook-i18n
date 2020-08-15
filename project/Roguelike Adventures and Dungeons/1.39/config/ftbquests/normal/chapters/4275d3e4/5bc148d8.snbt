@@ -1,0 +1,30 @@
+{
+	x: 8.0d,
+	y: -2.0d,
+	dependencies: [
+		"f14c8185"
+	],
+	tasks: [{
+		uid: "c5b4f708",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b1810fa7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3aa9680f",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

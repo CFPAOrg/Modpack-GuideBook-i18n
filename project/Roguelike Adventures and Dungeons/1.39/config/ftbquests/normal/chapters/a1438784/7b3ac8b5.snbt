@@ -1,0 +1,26 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	dependencies: [
+		"fb617224"
+	],
+	hide: true,
+	tasks: [{
+		uid: "04e6f11c",
+		type: "item",
+		items: [{
+			item: "atum:loot_sapphire_broach"
+		}]
+	}],
+	rewards: [{
+		uid: "1624131b",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "d5fb2387",
+		type: "item",
+		item: "minecraft:dye 1 4",
+		count: 8
+	}]
+}

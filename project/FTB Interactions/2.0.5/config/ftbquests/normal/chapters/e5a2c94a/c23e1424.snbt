@@ -1,0 +1,39 @@
+{
+	title: "进击的猪人",
+	icon: {
+		id: "openblocks:trophy",
+		tag: {
+			entity_id: "minecraft:zombie_pigman"
+		},
+		Damage: 5s
+	},
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"-僵尸猪人比以往更具有攻击性！即使你只是轻轻的碰到它们，它们也会对你有敌意",
+		"-当你破坏僵尸猪人旁边的方块时，它们有几率会变得疯狂",
+		"-此外，它们也会获得普通僵尸所有的强化。"
+	],
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "9b7ec47c",
+		type: "kill",
+		entity: "minecraft:zombie_pigman",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "9f7bb18e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xreliquary:mob_charm",
+			tag: {
+				type: 5
+			}
+		}
+	}]
+}

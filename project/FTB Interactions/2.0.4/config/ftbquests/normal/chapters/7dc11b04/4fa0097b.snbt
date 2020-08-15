@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	text: [
+		"第二级的石板，用于一些更复杂的魔法工艺。"
+	],
+	dependencies: [
+		"9d77f61f"
+	],
+	tasks: [{
+		uid: "f436181f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "5b8cd761",
+		type: "item",
+		item: "bloodmagic:slate 1 1",
+		count: 4
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -8.5d,
+	y: -2.0d,
+	text: [
+		"这个印记与贮存印记十分类似，但是它会保持容器内物品有一定的数量，以确保里面的物品占格，防止过剩储存。"
+	],
+	dependencies: [
+		"3770c1fb"
+	],
+	tasks: [{
+		uid: "92a0ffff",
+		type: "item",
+		items: [{
+			item: "thaumcraft:seal 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "7e9f1400",
+		type: "item",
+		item: "thaumcraft:salis_mundus",
+		count: 2
+	},
+	{
+		uid: "b027c7aa",
+		type: "item",
+		item: "thaumcraft:triple_meat_treat"
+	}]
+}

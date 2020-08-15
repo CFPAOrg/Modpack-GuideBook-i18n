@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: -11.0d,
+	description: "世界上没有两片雪花是完全相同的，好吧看来这几片彩色的是例外。",
+	tasks: [{
+		uid: "6c69adfc",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "83d39816",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 205,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "avaritia:resource",
+					Count: 1,
+					Damage: 5
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Unlocked the Infinite",
+				TrophyColorRed: 65
+			}
+		}
+	},
+	{
+		uid: "f77f7ca2",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_2 1 32501",
+		count: 4
+	}]
+}

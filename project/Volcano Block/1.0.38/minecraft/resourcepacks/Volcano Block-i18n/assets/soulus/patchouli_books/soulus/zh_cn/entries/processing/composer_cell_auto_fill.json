@@ -1,0 +1,13 @@
+{
+	"name": "Automatic Essence Fill",
+	"icon": "soulus:composer_cell",
+	"advancement": "soulus:endersteel_dark",
+	"category": "processing",
+	"sortnum": 10306,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The second of two $(l:exploiting/composer_cell)Composer Cell$() functions is the automatic filling of $(l:summoning/soulbook)Soulbooks$(), $(l:summoning/range)Murky Orbs$(), and $(l:legacy/soul_catalyst)Soul Catalysts$().$(p)To automatically fill these items with essence, place the composer cell in a convenient location, then insert your fillable (just a single one at a time!) and your essence."
+		}
+	]
+}

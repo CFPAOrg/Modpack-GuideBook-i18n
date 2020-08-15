@@ -1,0 +1,100 @@
+{
+	title: "这是你的采石场，请查收。",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "advancedrocketry:satellite"
+	},
+	x: 5.0d,
+	y: -17.0d,
+	shape: "rsquare",
+	description: "虽然没有直接的方法来在行星上进行大范围的挖掘，但你仍然可以快乐地摧毁其他世界为来获取资源。在瞭望台的帮助下制造这些物品并分析返回数据，以启动挖掘任务。",
+	dependencies: [
+		"dc8a31e7"
+	],
+	tasks: [{
+		uid: "9ce80998",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:satellite"
+		}],
+		count: 3L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3846b19c",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:dataunit"
+		}],
+		count: 3L
+	},
+	{
+		uid: "d20e5cd2",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteprimaryfunction"
+		}]
+	},
+	{
+		uid: "1e3b6c57",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteprimaryfunction 1 1"
+		}]
+	},
+	{
+		uid: "4a07ccfa",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteprimaryfunction 1 2"
+		}]
+	},
+	{
+		uid: "4731dfce",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteidchip"
+		}],
+		count: 3L
+	},
+	{
+		uid: "a797c40a",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satellitecontrolcenter"
+		}]
+	},
+	{
+		uid: "11c8d1d5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:observatory"
+		}]
+	}],
+	rewards: [{
+		uid: "1ece85aa",
+		type: "item",
+		item: "advancedrocketry:planetanalyser"
+	},
+	{
+		uid: "3d7695a1",
+		type: "item",
+		item: "harvestcraft:grilledskewersitem"
+	},
+	{
+		uid: "1ff7d521",
+		type: "item",
+		item: "fluxnetworks:fluxplug"
+	},
+	{
+		uid: "eca768be",
+		type: "item",
+		item: "fluxnetworks:fluxpoint"
+	}]
+}

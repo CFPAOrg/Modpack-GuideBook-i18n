@@ -1,0 +1,32 @@
+{
+	title: "聚四氟...好吧，它就是特氟龙",
+	x: -0.5d,
+	y: -3.0d,
+	shape: "diamond",
+	text: [
+		"从MV阶段开始，你可以生产出各种不同的太空时代的材料，这些材料将用于专门的电路和机器。聚四氟乙烯生产线可能会令人望而生畏，但我们已经采取了一些措施来简化它，并且提供了一个漂亮的流程图",
+		"user Turtle#1231."
+	],
+	dependencies: [
+		"0608c105"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "8953ff9d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12145"
+		}]
+	}],
+	rewards: [{
+		uid: "299c5403",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12145",
+		count: 16
+	},
+	{
+		uid: "d0c9a71e",
+		type: "item",
+		item: "harvestcraft:gourmetvenisonburgeritem"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -3.0d,
+	y: -13.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"78546de8",
+		"fe50d67e"
+	],
+	tasks: [{
+		uid: "5fbc6b0b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_lepidolite_0"
+		}]
+	}],
+	rewards: [{
+		uid: "e2470d6b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2274",
+		count: 32
+	},
+	{
+		uid: "00fde8e4",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

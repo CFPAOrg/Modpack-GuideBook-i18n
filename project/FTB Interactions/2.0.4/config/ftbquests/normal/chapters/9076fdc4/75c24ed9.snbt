@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: -10.0d,
+	description: "一觉醒来就觉醒了。",
+	tasks: [{
+		uid: "59ecdc15",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	}],
+	rewards: [{
+		uid: "ea795492",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 205,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "draconicevolution:chaotic_core",
+					Count: 1,
+					Damage: 0
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Core of Chaos",
+				TrophyColorRed: 65
+			}
+		}
+	},
+	{
+		uid: "862258f6",
+		type: "item",
+		team_reward: true,
+		item: "draconicevolution:draconic_ingot",
+		count: 4
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "正确地迈出第一步",
+	x: -4.964285714285715d,
+	y: 6.089285714285708d,
+	shape: "rsquare",
+	text: [
+		"因为无法解决的模组交互问题，星辉魔法虚御座提供的步行辅助能力被禁用了。不过，我们为你准备了美味的健体苹果来获得同样的自动跳跃效果，马上做一个吧。去吧，跳起来！"
+	],
+	dependencies: [
+		"1d37b267"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e69b6e59",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:food_step"
+		}]
+	}],
+	rewards: [{
+		uid: "b79be7e6",
+		type: "item",
+		item: "minecraft:golden_apple 1 1"
+	},
+	{
+		uid: "bad22650",
+		type: "item",
+		item: "cyclicmagic:horse_upgrade_jump"
+	}]
+}

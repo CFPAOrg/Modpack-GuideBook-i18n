@@ -1,0 +1,19 @@
+{
+	title: "当你有了图书馆借书卡，这一切并不难。",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -4.0d,
+	y: -3.0d,
+	shape: "gear",
+	description: "这里，凿子就是你的借书卡。你可以把普通的书或者起始的FTB任务书雕凿成其他的手册。",
+	tasks: [{
+		uid: "f5db1b96",
+		type: "checkmark",
+		title: "确认"
+	}]
+}

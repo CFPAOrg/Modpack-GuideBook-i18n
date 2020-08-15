@@ -1,0 +1,36 @@
+{
+    "name": "拆解",
+    "icon": "hwell:separator",
+    "category": "core_mechanics",
+    "sortnum": 90,
+    "pages": [
+		{
+            "type": "crafting",
+            "title": "拆解器",            
+			"text": "一个多方块结构，可让你将一些物品拆解成合成它的物品。拆解产物将从机器的各个输出口输出。每次工作需要一些能量。",
+            "recipe": "hwell:separator"
+        },
+		{
+            "type": "multiblock",
+            "name": "拆解器",
+            "multiblock": {
+                "pattern": [
+					[ " C ", "   ", " C "],
+					[ " A ", "   ", " A "],
+					[ "PH ", "PPS", "PH "],
+					[ "H_H", "_L0", "H_H"]
+                ],
+                "mapping": {
+                    "H": "hwell:heat_block",
+					"S": "hwell:separator",
+					"A": "hwell:furnace_tube",
+					"C": "hwell:light_collector",
+                    "P": "hwell:heavy_protection_block",
+					"0": "hwell:heavy_protection_block",
+                    "L": "hwell:fluid_liquid_souls"
+                }
+            }
+		}
+
+    ]
+}

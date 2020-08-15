@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	description: "用来关闭裂缝",
+	text: [
+		""
+	],
+	dependencies: [
+		"2afd528f"
+	],
+	tasks: [{
+		uid: "3f20864d",
+		type: "item",
+		items: [{
+			item: "dimdoors:rift_remover"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3b5a472a",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

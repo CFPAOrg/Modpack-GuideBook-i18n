@@ -1,0 +1,52 @@
+{
+	title: "提升魂石的能量",
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"意志，是允许你在狱火中进行熔炼的本源。 你从我们这得到了一块[微小]地狱魂石，估计你会想要把它升级成拥有更多的容量的某种东西。",
+		"感知の剑可以让你收集意志进入你的地狱魂石，你收集的越多，你就能变得越强。"
+	],
+	dependencies: [
+		"10103324"
+	],
+	tasks: [{
+		uid: "052b0e24",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a069d72d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sentient_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "90767cd5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {
+				souls: 256.0d
+			},
+			Damage: 1s
+		}
+	}]
+}

@@ -1,0 +1,913 @@
+#PARSE_ESCAPES
+
+#Quest
+continuum.logs.name=I'm a Lumberjack and I'm OK
+continuum.logs.desc=Like pretty much every modpack, you start with punching trees. Now, making planks through crafting only gives you 2 planks instead of 4, and you can only craft vanilla planks. To get more planks, or planks from modded trees, you have to use the Sawmill.\n\nThis quest will work with any wood type.
+
+continuum.efab.name=EFab-ulous
+continuum.efab.desc=The EFab is a new modular multiblock machine that works like an advanced crafting table. Several items are only craftable through the EFab. To start with, you only need the EFab Crafting Grid.\n\nTo get Stone tools (which use Flint, not Cobblestone) or better, you must have the Armory Upgrade installed. Craft the Armory Upgrade then place it inside one of the 9 upgrade slots under the crafting grid in the EFab GUI. Other recipes may require blocks like the Gear Box added to the multiblock instead of upgrades put into the Efab Crafting Grid.\n\nThe multiblock can be extended with EFab Bases. Blocks in the multiblock do not have to directly touch the EFab Crafting Grid, they just have to be touching another EFab block that §ois.§o§r§r\n\nAlso notice that some recipes require time as well as materials to craft. This time can be decreased by having multiple Gear Boxes, Pipes, Steam Engines, or RF Controls, depending on the recipe you want to speed up. If a recipe uses more than one of these, it always takes the highest speed multiplier in the multiblock.
+
+continuum.tinkering.name=Tinkering
+continuum.tinkering.desc=Now that the EFab is set up, we can get started with Tinkers' Construct. While you techically only need 6 Blank Patterns to make all the blocks and a functioning Pickaxe, you should make a few more.
+
+continuum.smeltery.name=Meltery
+continuum.smeltery.desc=The Smeltery is a multiblock that allows you to make alloys, metal tool parts, and gears at the cost of Lava as fuel.\n\nPut metals into the Smeltery, either as ores or ingots, and they will slowly be smelted into molten metal. A single ore will only smelt into a single ingot\u0027s worth of that metal. Some molten metals will alloy with each other, so be careful not to smelt them at the same time if you don\u0027t want that alloy. To get the molten metal out of the Smeltery, you need to pour it into a Cast on a Casting Table or pour 9 ingots worth into a Casting Basin to get a block of that metal. \n\nThere are Casts for every tool part type as well as Ingots, Nuggets, Gems, and Gears. To make a Cast, pour either 2 ingots of Molten Gold, 1 ingot of Molten Brass, or 1 ingot of Molten Aluminum Brass onto a part of the type you want to make a Cast of. This will destroy the part.\n\nThe blocks required by this quest will allow you to make a 3x3x1 interior Smeltery. The Smeltery can have up to a 7x7x7 interior. Each block of empty space in the interior is another item or block you can put into the Smeltery, and 8 more ingots of fluid storage.\n\nIt is recommended to start the Smeltery Controller early, as it takes 10 minutes to craft in the EFab using only one Gear Box.
+
+continuum.lunch_box.name=Diversity is the Spice of Life
+continuum.lunch_box.desc=Thanks to the mod "The Spice of Life", eating the same food too often will make that food give you less, forcing you to diversify your diet.\n\nThe Lunch Box allows you to keep up to 6 different foods, up to 2 of each for a total of 6 foods, in a single item. Use it while it's closed to open the GUI and insert the foods. Use it while sneaking to open it. You can directly eat out of an open Lunch Box by using it.
+
+continuum.cooking.name=I'm the Cook
+continuum.cooking.desc=As we have "The Spice of Life", we're going to need a lot of different foods. "Cooking for Blockheads" is a mod that helps make crafting foods a lot easier. It adds a multiblock kitchen that you can store your ingredients and tools and quickly make food at. All the blocks must be touching themselves, and you can use the Kitchen Floor to connect blocks that aren't close to each other.\n\nThe Cooking Table is the block that has the crafting GUI. It accesses foods and ingredients that are in Kitchen Counters or Fridges that are a part of the multiblock.\n\nIf a Sink is a part of the kitchen, it will also be able to do recipes that require Water (the Sink also works as an infinite Water source for Buckets and pipes).\n\nIt will be able to use Pam's Harvestcraft's tools if they are placed in Tool Racks.\n\nThe Oven allows you to use furnace recipes as well as crafting recipes. It must be supplied with Coal or other burnables to work. It can also smelt up to 9 items at once.\n\nIf you also want to have Milk, you can use either the Milk Jar or the Cow in a Jar. The Milk Jar uses any Milk it has inside it, and is manually filled by using a Bucket of Milk on it. The Cow in a Jar however slowly generates Milk infinitely. Both store up to 8 buckets of Milk.
+
+continuum.coke_oven.name=Baking Bad
+continuum.coke_oven.desc=The Coke Oven is a multiblock machine that turns 1 Coal into 1 Coal Coke and 500 mB of Creosote Oil. To make it, place a 3x3x3 of Coke Brick in the world and right-click an Engineer's Hammer on the middle of the face you want the front of the Coke Oven to be.\n\nTo make Treated Wood in the EFab, part of the multiblock must be a Tank. Tanks can store up to 16,000mB of a single fluid. You can have multiple Tanks within a single EFab structure and they can have separate fluids. Tanks stacked on top of each other will attatch and combine their storage space.
+
+continuum.forestry_machine.name=Not Really for Wood
+continuum.forestry_machine.desc=The Carpenter is a machine that uses RF to craft from recipes, which can also use fluids. In the crafting grid, set the recipe by clicking items in the proper slots. The items do not actually go in the crafting grid, they go in the 18 storage slots and get used up as the Carpenter crafts.\n\nThe Thermionic Fabricator is another machine that uses RF to melt Glass and use it to make Electron Tubes, among other things. Place Sand or Glass in the top left slot and it will melt it at the cost of RF. It is otherwise used similar to the Carpenter as far as crafting goes.
+
+continuum.atomic_reconstructor.name=Technological Transmutation
+continuum.atomic_reconstructor.desc=The Atomic Reconstructor uses CF (which is the same as RF and FE, just another name) to change certain things into certain other things.\n\nPlace the machine down facing the direction you want the laser to go to. The laser itself does not change items, it changes items in a small area around the block the laser hits. By default, it is set so that a Redstone signal will turn the Atomic Reconstructor off; it will fire the laser as often as it can so long as there is nothing turning it off and it has power. It is recommended to right-click the machine with a Redstone Torch, which turns it into Pulse Mode, and it will not fire unless given a Redstone signal.\n\nHit U while hovering over the Atomic Reconstructor to see its uses.
+
+continuum.yabba.name=YABBA Dabba Doo
+continuum.yabba.desc=Barrels store large amounts of a single item and keep their contents when broken. Right click on a barrel to store the item you're holding, or hold right click to store all of that item from your inventory. Punch to pull one item out, and sneak punch to pull out a stack. You can sneak right click on a Barrel to open it's GUI and modify its settings.\n\nYou can use the Barrel Hammer to change the model of the Barrel. The Barrel Painter allows you to change the texture of the Barrel. Sneak right click the tools to open their GUIs and select the model or texture you wish, then right click on the Barrel to apply it.\n\nBy default, a Barrel can store up to 4096 items. You can upgrade the tier, multiplying the storage capacity by 4 times the previous tier, up to 262,144 items with the Diamond Tier upgrade. After that you can install the Infinite Capacity upgrade which removes the maximum limit entirely.\n\nThere's also a Hopper Upgrade which allows you to automatically pull from the top face and push into the bottom face like a Hopper, and adds the option to pick up item entities on the top face. The Collect Pickups upgrade will make it work like a single item backpack, automatically moving items you pick up into the Barrel if there's room; it's very useful for keeping Cobblestone clutter down early game. The Void Items upgrade allows you to insert items while full, destroying the item in the process. This is useful for Barrels that hold Cobblestone, as you can still put Cobblestone in it when it's full instead of throwing it in a corner.\n\nThe Item Barrel Connector allows you to access all Barrels touching either the IBC or Barrels that §oare §rthrough pipes and other automation. Open its GUI and you can remotely open the settings for other Barrels.\n\nThe AntiBarrel works like the polar opposite of a Barrel. It holds infinite amounts of items that do not stack. You cannot store items that would normally stack.
+
+continuum.drawer.name=Stock Cupboards
+continuum.drawer.desc=Storage Drawers come in 3 varieties: they can hold either 1, 2, or 4 different items. They all store up to 32 stacks by default, which is split equally between the amount of slots it has. Half Drawers hold half as much. You can open the GUI by sneak right clicking the Storage Drawer to apply upgrades.\n\nThere are several upgrades Drawers can have. Storage Upgrades increase the storage capacity of a Drawer. They do not require the previous tier and you can have multiple of the same tier at once. The Drawer Key will lock or unlock a Drawer, so that only what is currently inside it can ever be inserted into it, even when emptied.\n\nThe Compacting Drawer is special in that it shows the higher and lower versions of the item you place inside it. For example, if you placed a Gold Ingot inside, it would show Gold Nuggets and Gold Blocks as well. You are also able to pull any of the 3 out if you have enough of that item inside.\n\nThe Drawer Controller allows you to interact with all connected Drawers through pipes or other automation. Drawers that are touching the Drawer Controller (or Drawers that are touching Drawers that are, etc) are connected. You can use Controller Slaves as extensions of the Drawer Controller if you run out of faces to interact with. You can manually insert items into connected Drawers through the Drawer Controller like you would normally, but you cannot manually extract items through it.
+
+continuum.clockwork_engine.name=Cranking Up the Heat
+continuum.clockwork_engine.desc=The only RF generator you can make so far is the Clockwork Engine. It uses no fuel, but it needs to be manually wound. As you wind it by holding right click on it, it will increase in heat, as you can tell from the color change. If you let it get to red hot, it will start damaging you, so don't get too overzealous with it. Once you let go, it will start generating RF as it cools down. The hotter it is, the more RF/t it produces. You won't be able to pipe RF for a while, you have to place the Clockwork Engine next to the machines you want to use until you get better generators and Fluxducts. \n\nYou can get a Gear Cast by pouring Gold or Aluminum Brass onto a Wooden Gear with a Smeltery.
+
+continuum.empowerer.name=A Certain Scientific Infusion Altar
+continuum.empowerer.desc=The Empowerer is a multiblock machine that uses RF to combine 5 items into 1. The Empowerer itself should be placed in the middle of a + shape of Display Stands, with 2 blocks in between the Display Stands and the Empowerer. Give the Display Stands RF and put the correct items in each of the Stands and the Empowerer, and it will start the crafting process.
+
+continuum.grindstone.name=Arm's Length, Please
+continuum.grindstone.desc=The Quartz Grindstone allows you to double your ores by using the Crank while ores are inside. Grinding an ore does not have a 100 percent chance to double ores, and is §overy§o §rslow and cannot be automated.
+
+continuum.te_sawmill.name=Really for Wood
+continuum.te_sawmill.desc=Thermal Expansion's Sawmill allows you to get 4 Planks per log, as well as unlocking Planks from non-vanilla logs. Simply supply RF, stick some logs in there, and watch the Planks flow.
+
+continuum.update_quests.name=Update quests
+continuum.update_quests.desc=This quest is for when the modpack updates, and will update the quests and rewards. Click the checbox to the right, then claim both command rewards.
+
+continuum.workshop_table.name=Work Station
+continuum.workshop_table.desc=The Workshop Table has 4 slots for either Crafting Tables or Furnaces, which means you can use them all at the same time. In the "Upgrades" tab, you can set which quarter has the Furnaces or Crafting Tables. Items stay inside the Workshop Table when you close it.\n\nYou can apply a single Storage Upgrade to each Crafting Table slot, giving it 6 items for it to use. When crafting with a Storage Upgrade installed, items will be pulled out of the 6 slots instead of the crafting grid.
+
+continuum.coal_generator.name=Old King Coal
+continuum.coal_generator.desc=Now that we have the Carpenter, and thus Circuit Boards, there are some better RF generators you can make. These use Coal and other burnables rather than manual winding, so they can make RF while you\u0027re gone.\n\nThe Coal Generator makes less RF than the Survival Generator, but it has higher RF generation speed. The Survival Generator makes more than 1.5x as much RF, but it does so much slower.\n\nBoth of these Generators will keep their RF if broken.
+
+continuum.fluxduct.name=Flowing Power
+continuum.fluxduct.desc=Leadstone Fluxducts are the first way you will be able to transfer power from a source of RF to a machine. Place them in such a way that they connect the two, and RF will transfer through it.\n\nThe Leadstone Fluxduct can only transfer 1,000 RF/t per connection, while the Hardened Fluxduct can transfer 4,000 RF/t.
+
+continuum.engineers_manual.name=Lexica Technica
+continuum.engineers_manual.desc=The Engineer's Manual is the guidebook for Immersive Engineering. It has detailed instructions on what things do and how they work. Any recipes changed for this pack may not be reflected inside.\n\nThis quest only triggers when the book is open to the first page.
+
+continuum.crude_blast_furnace.name=Harder, Better
+continuum.crude_blast_furnace.desc=The Crude Blast Furnace allows you to create Steel. Create a 3x3x3 cube of Blast Brick and use an Engineer's Hammer on the middle block of the face you wish the front to be.\n\nYou cannot automatically pull from or push into a Crude Blast Furnace. You need to use Coal Coke as fuel to turn the Iron into Steel.
+
+continuum.improved_blast_furnace.name=Faster
+continuum.improved_blast_furnace.desc=The Improved Blast Furnace allows you to automate the production of Steel. Coal Coke and Iron can be pushed in through the top face, Steel comes out through the front, and Slag comes out through the back. It is constructed similar to the Crude Blast Furnace, but using Reinforced Blast Brick instead and a Hopper on top.\n\nOn either side of the Improved Blast Furnace, you can have Blast Furnace Preheaters to speed up the process at the cost of RF. At the cost of 32 RF/t, they will each speed it up by 100 percent, at the maximum of 3 times fast with both Preheaters at the cost of 64 RF/t. RF is provided at the top of the Preheater.\n\nThe Improved Blast Furnace is 3x4x3 (3x4x5 with both Preheaters installed).
+
+continuum.tree_fluid_extractor.name=Tree Juice
+continuum.tree_fluid_extractor.desc=The Tree Fluid Extractor extracts tree fluids. Namely, Latex. Place the Tree Fluid Extractor so that it faces a log, and it will slowly generate Latex with no RF cost. It has a chance to destroy the log, and that chance increases every time a bit of Latex is extracted from that log. It is a good idea to stock up on a lot of Latex.
+
+continuum.conveyor.name=Here to There
+continuum.conveyor.desc=Conveyor Belts are the earliest way you can move items automatically (aside from Hoppers). Place them in the world and they will move items that are on top of them in the direction they are facing. They will push into an inventory if they can, but you need a Hopper (or other automation) to pull from one.\n\nThere are several kinds of Conveyor Belt. The Dropping Conveyor Belt will drop items through it if there is no block under it, or insert items into an inventory under it if it can. The Vertical Conveyor Belt will move items straight up. The Splitting Conveyor Belt will make items turn left or right, alternating per item stack that passes through it. Covered Conveyor Belts will prevent items from being picked up off of it by the player.
+
+continuum.schematic.name=Hologramic
+continuum.schematic.desc=The Projector allows you to see multiblock blueprints in the world. Open your Engineer's Manual to the multiblock you want to see and then exit it. Crafting the Projector with the Engineer's Manual that's opened to a multiblock's page will set the Projector to that multiblock. \n\nWhile holding a Projector that's set to a multiblock, you can decide where you want it to go. Click the scroll wheel to rotate the blueprint, and right click to place the blueprint, which puts down "ghost" blocks that aren't really there and can be replaced with the real blocks by placing them normally. After the multiblock is finished, sneak right click the Projector to get the ghost blocks to disappear.
+
+continuum.metal_press.name=Pressing Matters
+continuum.metal_press.desc=The Metal Press is a multiblock machine that allows you to turn ingots into gears, plates, wires, and rods automatically. See the Engineer\u0027s Manual or a projector for instructions on how to construct the multiblock.\n\nRF is input through the top, and items can be pushed in and out from the appropriate Conveyor Belts. Place a Mold onto the Metal Press by right clicking it.\n\nThe Plate Mold has a crafting recipe, you don\u0027t need to use the Engineer\u0027s Workbench.\n\nItems are processed slowly, so it\u0027s recommended to use a Hopper to insert items rather than Conveyor Belts.\n\nThe Metal Press is 3x3x1.
+
+continuum.crusher.name=Crushinator
+continuum.crusher.desc=The Crusher is a multoblock machine that doubles ores and kill mobs. See the Engineer's Manual or the Projector for instructions on how to construct the multiblock.\n\nItems (and mobs) are input through the top, and must be thrown in as entities. It outputs from the bottom front block; if there is no inventory for it to go into, it gets thrown as an entity. Power is input on the right side on the top, and you can disable the machine on the left side.\n\nThe Crusher is 3x3x5.
+
+continuum.steam.name=Steampunk
+continuum.steam.desc=Certain EFab recipes require Steam. Getting a functioning EFab Steam setup requires a Boiler above a heat source (Lava, Fire, or Magma), a Steam Engine, and a Tank with water in it.
+
+continuum.cable.name=Covered Cable
+continuum.cable.desc=These Cables allow you to transfer a higher amount of RF/t. Each tier of cable is better than the last, transferring more RF/t as you go higher. Tiers do not affect machines at all, they only change the amount of RF/t that transfers.\n\nUninsulated Cables will damage you if you touch them while RF is passing through it, while Insulated Cables will not.\n\nThe tier order for the Cable is Tin < Copper < Gold < HV < Glass Fiber.
+
+continuum.water_wheel.name=Passive Power
+continuum.water_wheel.desc=The Water Wheel is a good way to passively generate power. That means it creates RF essentially for free, but they don't do it very quickly. They are created by placing a Kinetic Dynamo, then placing the Water Wheel on the side facing you. RF is pulled out of the Kinetic Dynamo.\n\nThe Water Wheel generates RF based on the amount of water flowing on it. The more blocks of flowing water touching it, the more RF/t it creates. The optimal water placement will generate 30 RF/t per Water Wheel. A single Kinetic Dynamo can have 3 Water Wheels placed next to each other.
+
+continuum.tool_forge.name=Advanced Tinkering
+continuum.tool_forge.desc=The Tool Forge allows you to create more advanced Tinker's Construct tools, like the Hammer and Excavator. It otherwise functions identical to the Tool Station.
+
+continuum.alloy_kiln.name='Allo, Alloy!
+continuum.alloy_kiln.desc=The Alloy Kiln is a multiblock machine that allows you to make alloys using solid fuel instead of going through the Smeltery. \n\nCreate a 2x2x2 cube of Kiln Bricks and use an Engineer's Hammer on the face you wish to be the front.
+
+continuum.industrial_blast_furnace.name=Stronger
+continuum.industrial_blast_furnace.desc=The Industrial Blast Furnace is a multiblock machine that smelts the toughest metals, like Chrome, Titanium, and Tungsten.\n\nOnce you place the Industrial Blast Furnace, the GUI will have a button that will show you the blueprint for the rest of the multiblock. You can make the multiblock out of any combination of Machine Casing.\n\nThe temperature is based on the combination of Machine Casings. Starting at 0, each Standard Machine Casing adds 40, each Reinforced Machine Casing adds 68, and each Advanced Machine Casing adds 95.\n\nYou can fill the center two blocks with Lava source blocks to add another 500 heat. \n\nYou get Titanium from putting Bauxite Dust into the Industrial Electrolyzer.
+
+continuum.mega_torch.name=Safety Torch
+continuum.mega_torch.desc=The Mega Torch disables natural monster spawning within 64 blocks of itself. It does §n§o§r§onot §rdisable monster spawning from Spawners or Cursed Earth, or anything similar, it only stops mobs that would spawn due to low light level.
+
+continuum.electronic_circuit.name=Monty Python's Flying Circuit
+continuum.electronic_circuit.desc=The Electronic Circuit is required for pretty much every Tech Reborn machine.\n\nAt this point in the progression you can only use the Infusion recipe. Later you can use the EFab instead.
+
+continuum.fluid_manipulation.name=Fluid Manipulation
+continuum.fluid_manipulation.desc=The Magma Crucible melts items into fluids.\n\nThe Fluid Transposer can either empty items into its internal tank, or use the tank's contents to fill an item.\n\nRecipes that need a bucket of, say, Destabilized Redstone work using Cans or other similar items as well.
+
+continuum.transfer_nodes.name=Herer to Therer
+continuum.transfer_nodes.desc=Transfer Pipes and Nodes allow you to move items in a much easier and faster way than Conveyor Belts. Place the Node on the inventory/tank you wish to extract from and place a line of Transfer Pipes along the path you wish it to go, and connect it to the inventory/tank you wish to insert into. You can apply several upgrades and a Filter to Transfer Nodes by opening the Node's GUI and placing them inside.\n\nYou can also create Retrieval Nodes that function similarly, but extract from inventories/tanks connected via pipes and inserts into the inventory/tank it's placed on.\n\nItems do not go through Nodes like other pipes. Instead, the Node slowly searches for an inventory that it can send items to, and then teleports the items there.
+
+continuum.leadstone_jetpack.name=Onwards and Upwards
+continuum.leadstone_jetpack.desc=The Leadstone Jetpack is the first method of flight available. All the tiers of Jetpack have roughly the same flight speed, but higher tiers store much more than the previous tiers.\n\nYou can install Armor Plating on Jetpacks to give them protecetion as well as function. Higher tiers of Jetpack can have higher tiers of Armor Plating.
+
+continuum.drill.name=Pierce the Heavens!
+continuum.drill.desc=The Drill acts as a Pickaxe and Shovel, but never breaks and uses RF. Sneak right click the Drill to open the GUI, where you can install Augments. There are Augments that add Silk Touch or Fortune, increase XP given, increase the mining radius, and let you place blocks down without moving to them. Higher tier Augments require the previous tier also be installed, and you only have 5 slots, so choose carefully which you want. Augments can be removed at any time for no cost. You can also dye the Drill any of the 16 available colors. \n\nYou can also insert Batteries into the upgrade slots to increase the RF capacity of the Drill. \n\nUse the Energizer to charge the Drill.
+
+continuum.industrial_electrolyzer.name=It's What Plants Crave!
+continuum.industrial_electrolyzer.desc=The Industrial Electrolyzer creates fluids and dusts from other fluids and dusts. Input items in the bottom slot and, if required, put Empty Cells in the bottom left slot. With RF, the machine will process the items.\n\nThe Electrolyzer is one of the only ways to get certain materials like Chrome (from Ruby) and Titanium (from Bauxite).
+
+continuum.void_ore_miner.name=Metallum Ex Vacui
+continuum.void_ore_miner.desc=The Void Ore Miner is a multiblock machine that generates ores at the cost of RF. There are six tiers in total, each giving you more resources faster and costing more RF/t. You can further influence what ores you get by replacing the Clear Laser Lens with a colored one.\n\nThe first tier is 7x7x4, with the Controller taking the top middle slot. Once it's placed, you can use an Assembler on it and it will start to place the other components where they should go.\n\nOnce the Void Ore Miner is constructed, provide RF to the Controller block and it will start to generate ores and place them in any inventories touching it. For the Void Ore Miner to function, you have to have a clear sight to Bedrock from the Laser Lens downwards.
+
+continuum.modular_storage.name=Modular Storage
+continuum.modular_storage.desc=The Modular Storage block on its own does nothing, it needs to have a Storage Module inside of it to function. The first tier holds a maximum of 100 stacks, each tier adding another 100 stacks. With the Storage Module installed, the Modular Storage acts basically like a chest. Stacks do not automatically combine; if you put a stack of 32 Dirt and later another stack of 16, they will stay separate. Hit the Z button at the bottom of the GUI to combine the stacks. Above the Z button, you can change how the items are shown, be it a list, two columns, or stacks like most other inventories. The button directly to the right of that one changes the way the items are sorted (you can install a Generic Type Module to add more options). The G button will combine the items into groups depending on the way they are sorted.\n\nThe Remote Storage and its Module allow increased functionality. Place the Storage Module inside one of the spaces for it in the Remote Storage and place the other Module on the right of it, and it will bind them together. You can then place the RSM into a Module Storage (or even multiple of them) and it will access that Storage Module. You can even have multiple Storage Modules in a single Remote Storage, and so long as they all have an ID (they've been bound to any RSM), you can cycle between the Storage Modules by hitting the C at the bottom left of the Modular Storage GUI.\n\nThe Storage Scanner allows you to access all nearby inventories around itself remotely. Set the radius and hit the Scan button, and it will detect nearby inventories. Select an inventory from the list to access it. You can reorder the list using the buttons to the left of it. You can only insert items into inventories on the list that have the star enabled, and then you insert through the blue slot at the bottom left. It will enter the first acceptable inventory on the list, starting at the top. If you wish to specify which items go where, put filtered inventories at the top of the list. You can disable the star at the bottom left and it will instead insert items to whichever inventory is currently selected. You can select "All Routable" from the list and it will display every inventory with a star at once. 
+
+continuum.machine_frame.name=Machina
+continuum.machine_frame.desc=You can use Upgrade Kits on Thermal Expansion machines to increase their tier which makes them faster, hold more RF, and gives another Augment slot per tier. The tier list goes Basic -> Hardened -> Reinforced -> Signalum -> Resonant.\n\nCertain machines can have specialization Augments installed that change their function in some way. You can only have one specialization Augment per machine.
+
+continuum.itemduct.name=Pretty Items
+continuum.itemduct.desc=Itemducts are generally much better for transferring items than Transfer Nodes. Itemducts will instantly search for a place to send items and they will slowly make their way through.\n\nItemducts default to insert only, you have to apply a Servo where you want to pull from. Inside the Servo's GUI, you can set if it needs redstone to pull, and you can set a whitelist or blacklist. Higher tier Servos have more options and can pull more, faster.\n\nYou can use a Wrench to disconnect two Itemducts from each other so they do not interact.
+
+continuum.auto_efab.name=Weapons of Mass Production
+continuum.auto_efab.desc=To automate the EFab, every block on the right has to be a part of the EFab multiblock.\n\nSet the recipe to craft in the Crafter and put the ingredients into the Item Storage. Provide the Crafter with a redstone signal and it will begin to craft. You can have multiple separate Crafters running at once on a single Processor and Item Storage, but you may want to add more Item Storages if you run out of storage space.\n\nThe number of Processors effects the speed that items are crafted.
+
+continuum.void_ore_miner_2.name=Metallum Ex Vacui II
+continuum.void_ore_miner_2.desc=The Tier 2 Void Ore Miner can generate a larger variety of materials. To upgrade the machine, you will have to tear the whole thing down, using those parts to create the next tier.\n\nThe Tier 2 Void Ore Miner is 7x7x5, with the Controller as the top middle block. From tier 2 and onwards, you can install various upgrades to the machines by replacing the Null Modifiers in the machine with other Modifiers.\n\nThe Accuracy Modifier increases the percent chance to get ores based on the color Lens and the Speed Modifier decreases the time it takes to generate ores.
+
+continuum.refined_storage.name=Cyber Storage
+continuum.refined_storage.desc=Refined Storage allows you to store large amounts of items digitally. You will only be able to store items, autocrafting comes later when you can set up an ME System.\n\nThe Controller is the brain of the system, and also where the system is powered. Everything must be a connected to the Controller in some way to work. Use Cables to connect the Controller to the other parts of the RS System. You can only have one Controller per RS system.\n\nThe Solderer crafts several important items. You can insert and extract from any side. Power it through the Controller. You can install Speed Upgrades into the 4 slots at the top right to make it faster.\n\nThe Disk Drive stores Storage Disks (higher tiers \u003d more items stored).
+
+continuum.translocators.name=Ahorita Regreso
+continuum.translocators.desc=Translocators are useful for very fast transfer over a very small distance (in fact, an upgraded Translocator is the fastest way to transfer items and fluids). There's a maximum range of 1 block between the input and the output. \n\nPlace Translocators on all blocks you want to be connected - the Translocators themselves must be in the same block space. Right click the middle of the Translocator with an empty hand to toggle insert mode, and it will pull from Translocators not in insert mode into that inventory/tank. Right click with a full hand and you can set filters on what can get inserted.\n\nYou can use a Glowstone Dust on the Translocator to make it pull a stack at a time, and a Redstone Dust to allow you to toggle insert mode with a redstone signal. \n\nA Diamond Nugget will allow you to set it to maintain the specified amount of the item inside and no more. \n\nThe filter on an inserting Translocator will restrict what can enter, while a filter on an outputting filter will eject items that are not in the filter. \n\nUsing an Iron Nugget will make it emit redstone based on certain factors - on an inserting Translocator it will emit if there's no room for items in the filter; on aan outputing Translocator it will emit if there's nowhere for the items in the filter to go.
+
+continuum.phantomface.name=Transvectorface
+continuum.phantomface.desc=The Phantomface allows you to access inventories from farther away than normal. Place the Phantomface in the world, sneak right click on the block you wish to connect to with a Phantom Connector, then sneak right click the Phantomface to connect the two. You can then pipe in to/out from the Phantomface as if it were the block it's linked to, including which side does what. By default, the Phantomface must be within 16 blocks of the block you want to connect it to, but you can increase the range by placing up to 3 Phantom Boosters above it.\n\nThere are also the Phantom Energyface and Phantom Liquiface that allow you to interact with distant energy storages and tanks, and function similarly to the regular Phantomface. \n\nThere are Phantom versions of the Auto-Placer and Auto-Breaker that work almost exactly the same, but instead of placing/breaking the block in front of them they place/break the block you assign with the Phantom Connector.
+
+continuum.storage_crate.name="'Small'"
+continuum.storage_crate.desc=Storage Crates store a very large amount of items. The smallest tier can hold 117 stacks of items, with each higher tier adding an additional 117.\n\nThere are Storage Crate Upgrades that allow you to turn the previous tier into the next tier by right clicking the upgrade on the Crate you wish to upgrade. You can also place a Storage Crate Keeper inside the Storage Crate and you will be able to break it without losing the items. The Storage Crate Keeper is destroyed in the process.
+
+continuum.ender_storage.name=Better Ender
+continuum.ender_storage.desc=Ender Chests (and Pouch) share the same inventory with all others that have the same color combination. You can dye the 3 pieces of wool at the top of the Ender Chest to change what the color combination is. Sneak right click an Ender Pouch on an Ender Chest to bind the Pouch to that color combination.\n\nEnder Tanks work similarly; they share their fluid storage with all other Ender Tanks using the same color combination. You can right click the center circle to toggle auto-output.\n\nYou can use a Diamond on the Ender Chest and Ender Tank to set it to private (for the Ender Chest, use the Diamond on the latch; for the Ender Tank, use the Diamond on the circle). When private, it will only interact with others that have the same color combination §oand were made private by the same person.§r This means two people can have separate W/W/W Ender Chests so long as they both set theirs to private.
+
+continuum.ranged_pump.name=Telepump
+continuum.ranged_pump.desc=Ranged Pump's Pump uses RF to pump fluids from underneath it to any connected tanks. It has a range of 64 blocks in each direction and replaces the fluids pumped with Stone.
+
+continuum.void_ore_miner_3.name=Metallum Ex Vacui III
+continuum.void_ore_miner_3.desc=The third tier of Void Ore Miner generates an even larger variety of ores and is 11x11x6.\n\nThe multiblock also needs 8 of any ET Modifier block.
+
+
+continuum.void_ore_miner_5.name=Metallum Ex Vacui V
+continuum.void_ore_miner_5.desc=The fifth tier of Void Ore Miner generates an even larger variety of ores and is 11x11x8.\n\nThe multiblock also needs 16 of any ET Modifier block.
+
+continuum.shipping_bin.name=Agribusiness
+continuum.shipping_bin.desc=The Shipping Bin allows you to sell a stack of any Harvestcraft or Vanilla crop for an Emerald. 
+
+continuum.market.name=Open Market
+continuum.market.desc=You can spend Emeralds to buy seeds and saplings at the Market.
+
+continuum.tr_rolling_machine.name=Rolling in the Deep
+continuum.tr_rolling_machine.desc=The Rolling Machine acts like a crafting bench that requires RF. 
+
+continuum.electric_furnace.name=Microwave
+continuum.electric_furnace.desc=The Electric Furnace uses RF to smelt items.
+
+continuum.compressor.name=Compressum
+continuum.compressor.desc=The Compressor creates Plates from ingots faster and easier than the Metal Press.
+
+continuum.alloy_smelter.name=Mix n Match
+continuum.alloy_smelter.desc=The Alloy Smelter combines different metals to create alloys using RF.
+
+continuum.grinder.name=Dust to Dust
+continuum.grinder.desc=The Grinder uses RF to grind ores into dusts which can be smelted, doubling the amount of ingots each ore gives.
+
+continuum.pumpjack.name=Oil Fields
+continuum.pumpjack.desc=Pumpjacks can pull fluids from pools within chunks. These fluids are not actually present in the chunk physically, but in the chunk's data. You can use a Core Drill Sampler to check what fluids are in a chunk, if any.\n\nPlace the Pumpjack in the same chunk as the fluid you wish to extract, then provide it with power. The fluids will be output from sides with orange dots on them.
+
+continuum.rfab.name=RFab
+continuum.rfab.desc=Certain EFab recipes require RF as well as items and fluids to craft. Put the Power Upgrade into the EFab Crafting Grid and provide power with the RF Control.\n\nEach RF Control provides a maximum of 50 RF/t. so you may need multiple if a recipe requires more than 50 RF/t. You can also later add an RF Storage block, which stores 100,000 RF and provides a maximum of 250 RF/t. The more RF Controls you have, the less time it takes to perform a crafting operation.\n\nNote that if you have multiple Gear Boxes or are otherwise speeding up crafts, the RF/t requirement increases. The RF total is unchanged.
+
+continuum.grid.name=Now You Can Use It!
+continuum.grid.desc=The Grid allows you to actually access the RS system's inventory.
+
+continuum.more_alloys.name=Mo Betta Alloys
+continuum.more_alloys.desc=Certain alloys can only be created with the Magma Crucible and Fluid Transposer and smelted in the Arc Furnace.
+
+continuum.fluiduct.name=Filled With Fluid
+continuum.fluiduct.desc=Fluiducts are generally much better for transferring fluids than Transfer Nodes.\n\nFluiducts default to insert only; to extract you need to place a Servo where you wish to extract from. In the Servo GUI you can set if it needs a redstone signal to extract, and you can set a whitelist or blacklist. There does not need to be a valid tank to insert fluids into, they will be pulled from the connected tank as long as the Fluiducts themselves have room.\n\nYou can use a Wrench to disconnect two Fluiducts from each other so that they do not interact.
+
+continuum.autofarming.name=Autofarming
+continuum.autofarming.desc=Automating farming is very easy with the Plant Sower and the Plant Gatherer.\n\nPlace the Plant Sower one block below where you want the middle of the farm to be. In the GUI you can click a button to toggle if the working area is shown. The 9 slots in the middle are where you can set which sector of the work area has which crop, and also stores the seeds or saplings for that sector. You can lock or unlock the sectors as well, so only what is currently in there can ever enter that slot.\n\nThe Plant Gatherer harvests fully grown crops and chops down trees in the work area. Items harvested are collected in the Gatherer's inventory and can be piped out. Sludge is also generated as the Gatherer works.\n\nYou can install a Range Addon to almost any Industrial Foregoing machines to increase the range by the tier.
+
+continuum.void_ore_miner_4.name=Metallum Ex Vacui IV
+continuum.void_ore_miner_4.desc=The fourth tier of Void Ore Miner and onward generate most Nether ores in addition to Overworld ones,and is 11x11x7.\n\nThe multiblock also needs 12 of any ET Modifier block.
+
+continuum.low_powercell.name=Row Row, Store the Power!
+continuum.low_powercell.desc=Powercells are used to store RF. They can be single blocks or freform multiblocks. Each Powercell (Low) can store 250,000 RF. Use a Wrench to toggle between RF in, RF out, and neither. Each face of the Powercell (Low) can only insert and extract at 100 RF/t. RF is saved when the Powercell is broken.\n\nA single Powercell multiblock can be made of 729 blocks (if it was a cube, the max size would be 9x9x9).
+
+continuum.medium_powercell.name=Compact Power
+continuum.medium_powercell.desc=The second tier of Powercell can store 10,000,000 RF per block, and can transfer 500 RF/t per connection. RF is kept when upgrading Powercells, so you can safely use old Powercells to make higher tiers without losing the RF inside.
+
+continuum.information_screen.name=How Much?
+continuum.information_screen.desc=The Information Screen shows the current and maximum RF of any machine it is placed on. When placed on a Powercell, it also shows how much RF/t is entering and exiting the multiblock.
+
+continuum.reinforced_jetpack.name=Up Up and Away
+continuum.reinforced_jetpack.desc=The Reinforced Jetpack stores twice as much RF as the Hardened Fluxduct, and is slightly faster.
+
+continuum.plastic.name=Plastic
+continuum.plastic.desc=The Latex Processing Unit uses 75mB of Latex and 1,000mB Water to make each Tiny Dry Rubber. 9 Tiny Dry Rubber makes 1 Dry Rubber, which smelts into Plastic.
+
+continuum.resonator.name=Resonance of the Soul
+continuum.resonator.desc=The Resonator uses GP to craft items. GP (Grid Power) is a kind of wireless energy. Mills create a static amount of GP and certain machines and items "use up" the GP. If more GP is being used than is being created, nothing will run.\n\nThe first thing you need to craft is Stoneburnt. To generate the GP required to do this, you need to craft and use a Manual Mill until you've made enough Stoneburnt to make other Mills.\n\nMills are less efficient at generating GP the more GP there is.\n\nWhile hovering over any machine that generates or uses GP, you can see the GP in the system. It is displayed as a fraction of (GP used) / (GP total).
+
+continuum.implosion_compressor.name=Explosive Fun
+continuum.implosion_compressor.desc=The Implosion Compressor is a multiblock machine that uses TNT to compress the hardest materials. The implosion Compressor block sits on top of a hollow 3x3x3 cube of Reinforced Machine Casing.
+
+continuum.industrial_squeezer.name=Squeeeeze
+continuum.industrial_squeezer.desc=The Industrial Squeezer is a multiblock machine that squeezes items, generating other items or fluids.\n\nThe Industrial Squeezer is 3x3x3.
+
+continuum.extreme_reactor.name=Extreme Energy
+continuum.extreme_reactor.desc=Reactors are multiblock machines that generate large amounts of RF using Uranium as fuel and Cyanite as waste. Reactors need to be cuboids, with the largest possible size as 11x11x11.\n\nThe frame of the Reactor must be made of only Reactor Casing. There must be one Reactor Controller on any face. Reactor Control Rods must be on the top face of the Reactor, with Reactor Fuel Rods directly underneath to the floor of the Reactor. There needs to be at least one Reactor Access Port on any face, and at least one Reactor RF Power Tap. Any open space on a face must be filled with either Reactor Casing or Reactor Glass.\n\nThe Reactor Access Port is where Uranium is inserted as fuel and Cyanite is extracted as waste. They have to be set to be either insert or extract if you wish to automate them.\nThe more Reactor Fuel Rods (which is possible with more Reactor Control Rods or a taller Reactor) means more fuel and waste can be stored in the Reactor. \nThe Reactor RF Power Tap is where RF is extracted. \nThe Reactor Controller is where the Reactor is turned on and off, as well as if waste is auto-ejected or not.
+
+continuum.high_powercell.name=PHENOMENAL COSMIC POWER
+continuum.high_powercell.desc=The highest tier of Powercell stores 100,000,000 RF per block and can transfer 2,500 RF/t per connection. You can have multiple tiers of Powercell in a single multiblock.
+
+continuum.flux_network.name=Truly Wireless
+continuum.flux_network.desc=Flux Networks allows you to essentially teleport RF. \n\nPlace down an RF Plug where you want to pull RF from, and place the RF Point where you want the RF to exit. Inside the GUI of each, connect it to the Flux Network of your choice. You can name the Plugs and Points and set their priority, as well as toggle the RF/t limit on or off. When off, it will be able to transfer an unlimited amount of RF/t.\n\nThe Flux Controller allows you to access everything on your Network, as well as toggle Transmitter Mode. When on, the Flux Controller will charge all items in your inventory. This has no range limit, and even works across dimensions!
+
+continuum.storage_tablet.name=Storage On the Go
+continuum.storage_tablet.desc=The Storage Tablet can be linked with a Storage Module, Remote Storage Module, or Storage Control Screen Module and it will be able to access that inventory from anywhere by right clicking it. To link the Storage Tablet with the Module, craft them together. To unlink them, put the Tablet by itself in the crafting grid.
+
+continuum.auto_placer.name=Auto-Placer
+continuum.auto_placer.desc=The Auto-Placer will automatically place any blocks in its internal inventory in front of it.\n\nYou can toggle between if a redstone signal turns it off or turns it on by right clicking the Auto-Placer with a Redstone Torch.
+
+continuum.auto_breaker.name=Hit the Breaks
+continuum.auto_breaker.desc=The Auto-Breaker will automatically breakwhatever block is in front of it. Pretty simple.\n\nThe result of mining the block in front of it is placed inside of the Auto-Breakers's inventory, and can be piped out.\n\nYou can toggle if the Auto-Breaker works with a redstone signal on or off by right clicking it with a Redstone Torch.
+
+continuum.beacon.name=Look at Me!
+continuum.beacon.desc=The Beacon is a multiblock that uses no RF. The Beacon, when placed on a discovered planet, allows all other players to see that planet without having to discover it themselves. They will still need the artifact to fly there however.\n\nYou can install the Beacon Finder upgrade to your Space Suit Helmet and it will add a GUI element to the top of the screen pointing you towards and Beacon on the planet you are on.
+
+continuum.device_frame.name=Mechanisms
+continuum.device_frame.desc=Devices, as opposed to machines, require no RF to run and cannot be upgraded. They also tend to be much simpler than machines.
+
+continuum.insightful_condensor.name=Knawledge
+continuum.insightful_condensor.desc=The Insightful Condensor collects nearby experience orbs and converts them into Essence of Knowledge. This can be used in the Arcane Ensorcellator to produce Enchanted Books, or you use the Fluid Transposer to fill up a Tome of Knowledge or create Bottles o' Enchanting.
+
+continuum.nullifier.name=404
+continuum.nullifier.desc=The Nullifier destroys any item or fluid you pipe into it with no chance of ever getting it back. Useful for excess or junk items clogging up automation.
+
+continuum.aqueous_accumulator.name=Pool Party
+continuum.aqueous_accumulator.desc=The Aqueous Accumulator essentially creates water as long as it is touching at least 2 other water source blocks. This is especially useful as you can automatically pipe the water out instead of needing a pump.
+
+continuum.thermal_mediator.name=Water Cooling
+continuum.thermal_mediator.desc=The Thermal Mediator speeds up any machine it is touching at the cost of certain coolants. Different coolants speed machines up by different amounts.
+
+continuum.arboreal_extractor.name=Tapping
+continuum.arboreal_extractor.desc=The Arboreal Extractor pulls fluids from trees. The fluid that generates varies depending on the tree.
+
+continuum.fracionating_still.name=Moonshine and Sunshine
+continuum.fracionating_still.desc=The Fracionating Still refines fluids. There are two specialization Augments the Still can have.\n\nThe Reflux Column increases the efficiency that fuels are processed at.\n\nThe Alchemical Retort allows the Still to refine liquid potions, increasing their potency by one.
+
+continuum.material_stoneworks_factory.name=Cobbleworks
+continuum.material_stoneworks_factory.desc=The Material Stoneworks Factory is a machine that can automatically create anything that uses Cobblestone as a starting point.\n\nProvided with RF, the MSF will begin to generate Cobblestone in the first two slots. The buttons between the columns will let you toggle between Disabled, Furnace Mode, 2x2 Craft, Grind Mode, and 3x3 Craft. The mode decides what happens when the material goes from the left column to the right column.\n\nIf you keep grinding, Silicon is created. This lets you skip having to go through the EFab with Latex to get Silicon. You can also use this to smelt into Latex using the Magma Crucible, so you don't have to keep using the Tree Fluid Extractor.
+
+continuum.decoctive_diffuser.name=Air Freshening
+continuum.decoctive_diffuser.desc=The Decoctive Diffuser sprays the effects of liquid potions into an area around itself. The range depends on the kind of potion.\n\nRegular potions cover a 9x9x9 area centered on the Decoctive Diffuser, splash potions have a 13x13x13 area, and lingering potions have an 17x17x17 area.\n\nYou can apply reagents that boost the potion's effectiveness for 15 cycles per item. Redstone increases the duration and Glowstone Dust increases the potency by one level. The maximum time and efficiency is 6 minutes of level IV potions.
+
+continuum.alchemical_imbuer.name=Witchcraft
+continuum.alchemical_imbuer.desc=The Alchemical Imbuer brews liquid potions. The input fluid is the fluid you wish to change using the item inside. You may want to have more than one Alchemical Imbuer in a line inserting into eachother if you want to make more complicated potions.\n\nIf you wanted to make, for example, a Speed II Potion: Start with Water and Nether Wart to make Liquid Awkward Potion, and pipe that to the next Alchemical Imbuer. Combine the Liquid Awkward Potion with some Sugar to create Liquid Potion of Swiftness. Combine that with some Glowstone Dust in another Alchemical Imbuer, and you have some Liquid Potion of Swiftness II. You can put that into bottles using the Fluid Transposer, or use it in a Decoctive Infuser to spread the potion effect over an area.
+
+continuum.igneous_extruder.name=Finally Cobble Gen
+continuum.igneous_extruder.desc=The Igneous Extruder mixes Water and Lava to create items like Cobblestone and Obsidian.\n\nIn the GUI, set which block you wish to generate. Certain blocks require the fluid exist but does not use them up, like Cobblestone. Other blocks, like Obsidian, use up one of the fluids (in this case Lava).
+
+continuum.centrifugal_separator.name=You Spin Me Right Round
+continuum.centrifugal_separator.desc=The Centrifugal Separator separates items into their core parts. This includes separating alloys into their core materials as well asextracting resources from Combs, and some others.\n\nThere is the Enstabulation Apparatus specialization Augment that makes the Separator extract mob drops from Morbs. However when installed, only Morbs can be processed.
+
+continuum.arcane_ensorellator.name=Liber Arcana
+continuum.arcane_ensorellator.desc=The Arcane Ensorellator enchants books using Essence of Knowledge and items. You can check JEI for the recipes for the different Enchanted Books you can create, and what you need to create them. Enchanted Books are only level 1, but you can combine them in an Anvil if you want them to be more powerful.
+
+continuum.glacial_precipitator.name=Crank That Thermostat
+continuum.glacial_precipitator.desc=The Glacial Precipitator freezes fluids into items. It can make any vanilla version of Ice and Snow.
+
+continuum.questing_tutorial.name=Questing Tutorial
+continuum.questing_tutorial.desc=Flashing §c§c§r§cred quests§r are unlocked, and you can click on them to see how to complete §rthem. \n\nCompleted quests flash §9§s§bblue§r if they have a reward that hasn't been collected, and are §agreen§r if they don't.\n\n§8Gray quests §rhave not been unlocked and cannot be completed. You can hover over locked quests to see what quests they require to be completed to unlock them.\n\n§4Red lines§r between quests connect locked quests with the quests that they require. Flashing §eyellow lines§r connect unlocked quests to the quests that they require. §2Green lines§r connect completed quests to the quests that they required.\n\nLines are not the best way to see quest connections; the you do not need to complete all quests that are connected in a line in order. If the quest is §cred§r, it is unlocked, even if there's a §4red line§r connecting to them. \n\nIf you're playing with friends, you can use the Party menu in the main screen when opening the quests.
+
+continuum.mob_crusher.name=Crushed Under Your Feet
+continuum.mob_crusher.desc=The Mob Crusher kills any mob in front of it. The mobs will not drop items or XP however; instead, the Mob Crusher's internal tank will fill up with Essence.
+
+continuum.mob_slaughter_factory.name=Skeleton Meat
+continuum.mob_slaughter_factory.desc=The Mob Slaughter Factory kills any mob in front of it. The mobs will not drop items or XP however; instead, the Mob Slaughter Factory's internal tank will fill up with Liquid Meat, with a chance of Pink Slime.
+
+continuum.meat_feeder.name=Meat Syringe
+continuum.meat_feeder.desc=The Meat Feeder, while in your inventory and filled with Liquid Meat, will automatically feed you without having to interact with it. This completely bypasses Spice of Life, so you don't need to have any variety in your diet!
+
+continuum.resonant_jetpack.name=Higher and Higher
+continuum.resonant_jetpack.desc=The Resonant Jetpack holds 4 times as much RF as the Reinforced Jetpack, and is slightly faster.
+
+continuum.mob_imprisonment_tool.name=Pokemans
+continuum.mob_imprisonment_tool.desc=The Mob Imprisonment Tool is an item that you can use to grab mobs as items. Simply use the Mob Imprisonment Tool on any mob and it will be trapped inside. You can use a filled MIT on a block and it will empty, dumping the mob there.\n\nYou can also put a filled Mob Imprisonment Tool inside a Mob Duplicator, and it will use RF and Essence to spawn more of that mob.
+
+continuum.wither_builder.name=Wither Builder
+continuum.wither_builder.desc=The Wither Builder builds Withers. Give it 4 Soul Sand and 3 Wither Skeleton Skulls and it will spawn a Wither 2 blocks above it leaving 1 block between the Wither's "feet" and the Wither Builder. It is recommended to put something Wither-proof in that space.
+
+continuum.alchemical_chest.name=Alchemical Storage
+continuum.alchemical_chest.desc=The Alchemical Chest has 104 storage slots, and gives special functions to certain items.
+
+continuum.item_repairer.name=I Can Fix It!
+continuum.item_repairer.desc=The Item Repairer repairs items with RF, including Tinkers' Construct tools!
+
+continuum.extractor.name=Extractor
+continuum.extractor.desc=The Extractor pulls certain things out of items and blocks.
+
+continuum.industrial_centrifuge.name=Round and Round
+continuum.industrial_centrifuge.desc=The Industrial Centrifuge separates items from other items.
+
+continuum.repair_talisman.name=Horse Talisman
+continuum.repair_talisman.desc=The Repair Talisman automatically repairs items in your inventory for free. It still functions inside of an Alchemical Chest as well, repairing all items inside.\n\nThe Repair Talisman does not repair Tinkers' Construct tools.
+
+continuum.distillation_tower.name=Finery
+continuum.distillation_tower.desc=The Distillation Tower is a multiblock machine that refines Crude Oil into Lubricant, Gasoline, and Diesel. All three outputs exit the same block face, so you should use Filters to restrict which fluids go where.
+
+continuum.vacuum_freezer.name=Chill It Dude!
+continuum.vacuum_freezer.desc=The Vacuum Freezer is a multiblock machine that is used to put certain items into a deep freeze, transforming them into other items.\n\nThe Vacuum Freezer sits on top of a 3x3 square of Reinforced Machine Casing.
+
+continuum.automated_engineers_workbench.name=Automated Engineer's Workbench
+continuum.automated_engineers_workbench.desc=The Automated Engineer's Workbench is a multiblock machine that crafts  Engineer's Workbench recipes automatically.\n\nInsert the Blueprint you wish to use into the bottom right slot of the GUI and select the item you wish to autocraft, then feed it items and RF.\n\nThe Automated Engineer's Workshop is 3x2x3.
+
+continuum.hemp_seed.name=Industrial Strength
+continuum.hemp_seed.desc=Hemp Seeds cannot be found by breaking Tall Grass, instead it is crafted in the Carpenter. Hemp grows two blocks tall, and you can harvest it by breaking the top half only.\n\nHemp Seeds also give much more Plant Oil than other Seeds.
+
+continuum.industrial_fermenter.name=Industrial Fermenter
+continuum.industrial_fermenter.desc=The Industrial Fermenter is a multiblock machine that makes Ethanol out of plant matter.\n\nThe Industrial Fermenter is 3x3x3.
+
+continuum.refinery.name=Refinery
+continuum.refinery.desc=The Refinery is a multiblock machine that combines Plant Oil and Ethanol to make Biodiesel.\n\nThe Refinery is 3x3x5.
+
+continuum.diesel_generator.name=Diesel Generator
+continuum.diesel_generator.desc=The Diesel Generator is a multiblock machine that generates RF from Biodiesel. \n\n The Diesel Generator produces 1024 RF/t. \n\nThe Diesel Generator is 5x3x3.
+
+continuum.arc_furnace.name=Arc Furnace
+continuum.arc_furnace.desc=The Arc Furnace is a multiblock machine that quickly smelts ores and creates alloys.\n\nTo work, it requires 3 Graphite Electrodes in the top slots. Graphite Electrodes have durability, and must be replaced when broken.\n\nThe base thing to be processed (ores or the main part of an alloy) go into the 12 slots on the left, and can be inserted into the blue face to the left of the Electrodes.\n\nAdditives, such as the rest of the alloy) go into the 4 slots on the right, and can be inserted into the blue face to the right of the Electrodes.\n\nThe bottom 7 slots are the output, and can be pulled from the bottom front block (Slag will leave from the bottom back instead).\n\nThe Arc Furnace is 7x7x7.
+
+continuum.fusion.name=Fuuuuusion, Ha!
+continuum.fusion.desc=The Fusion Control Computer is the main part of a multiblock machine that either uses or generates RF by fusing two filled Cells to create something new. Fusion recipes have to be jumpstarted with RF before they begin even. RF can be inserted through any horizontal side and extracted from either vertical side.\n\nThe Fusion Control Computer is in the center of the multiblock which has a variable size. The smallest size is 7x1x7 and the largest is 55x5x55. The larger the reactor, the higher the RF output. You can see the multiplier at the bottom left corner of the GUI.\n\nYou can automatically place the Fusion Coils by right clicking them on the Fusion Control Computer.
+
+continuum.me_controller.name=ME! ME! ME!
+continuum.me_controller.desc=§rAn ME System is the most powerful storage system available. With it, you can store your items like you could with your RS system, but now you can have requestable autocrafting. \n\nThe ME System is powered through the ME Controller. The ME Controller can be a multiblock, with a maximum size of 7x7x7. You can only have one ME Controller multiblock per ME system. It is best to focus on maximizing the amount of visible faces rather than just adding more Controllers.\n\nThe ME System is unique in that it has a channel system. Each Bus, Interface, or other AE2 device part of an ME System takes up a channel. A normal ME Cable can have up to 8 channels at once. Smart Cables allow you to see how many channels are in use. 
+
+continuum.engineers_workbench.name=Certified Crafting
+continuum.engineers_workbench.desc=The Engineer's Workbench is a kind of crafting bench. It crafts items based on the Engineer's Blueprint inside. Different Engineer's Blueprints allow you to craft different things. \n\nPlace the Engineer's Blueprint in the far left slot, and then hover over the item you wish to craft on the right to see the ingredients. Place the ingredients in the center slots, and then you can pull out the item you wish to craft.\n\nThe Engineer's Workbench also allows cheaper but more complex ways to craft certain items.
+
+continuum.mixer.name=Mixer
+continuum.mixer.desc=The Mixer is a multiblock machine that dissolves solids into fluids, mixing them together. This can create Liquid Concrete, Nepalm, and Potions.\n\nLiquid Concrete is interesting in that it slowly flows before soldifying at whatever level it is at. That means if you pour it down in a flat open area, it will be much flatter at the edges than it will at the center.\n\nThe Mixer is 3x3x3.
+
+continuum.excavate_modifier.name=Did You Know We Had OreExcavation?
+continuum.excavate_modifier.desc=Using the Excavate Modifier, you can mine out entire veins just by mining one block from it. At lower levels, the tool will only have a chance to break a single extra ore touching the ore you mined. As you increase the level of the modifier, it will have a larger chance to successfully mine the other blocks, as well as starting to mine larger veins. Increasing the level of the modifier does not use more modifier slots, it will only ever use one.\n\nYou can only mine ores and Clay with the modifier, it will be useless on anything else.\n\nThis is also available as an enchantment for other tools.
+
+continuum.crafting_grid.name=Crafting Grid
+continuum.crafting_grid.desc=The Crafting Grid acts like the regular Grid but includes a 3x3 crafting grid for you to use.
+
+continuum.void_ore_miner_6.name=Metallum Ex Vacui VI
+continuum.void_ore_miner_6.desc=The sixth and final tier of Void Ore Miner generates all available ores and is 13x13x8.\n\nThe multiblock also needs 20 of any ET Modifier block.
+
+continuum.void_resource_miner.name=Saxa Ex Vacui
+continuum.void_resource_miner.desc=The Void Resource Miner is a multiblock machine that generates resources like Stone and Dirt at the cost of RF. There are three tiers in total, each giving you more resources faster and costing more RF/t. You can further influence what resources you get by replacing the Clear Laser Lens with a colored one.\n\nThe first tier is 7x7x4, with the Controller taking the top middle slot. Once it's placed, you can use an Assembler on it and it will start to place the other components where they should go.\n\nOnce the Void Resouce Miner is constructed, provide RF to the Controller block and it will start to generate resources and place them in any inventories touching it. For the Void Resource Miner to function, you have to have a clear sight to Bedrock from the Laser Lens downwards.
+
+continuum.void_resource_miner_2.name=Saxa Ex Vacui II
+continuum.void_resource_miner_2.desc=The tier 2 Void Resource Miner can generate a larger variety of materials. To upgrade the machine, you will have to tear the whole thing down, using those parts to create the next tier.\n\nThe tier 2 Void Resource Miner is 7x7x5, with the Controller as the top middle block. From tier 2 and onwards, you can install various upgrades to the machines by replacing the Null Modifiers in the machine with other Modifiers.
+
+continuum.void_resource_miner_3.name=Saxa Ex Vacui III
+continuum.void_resource_miner_3.desc=The third and final tier of Void Resource Miner generates an even larger variety of resources and is 11x11x6.\n\nThe multiblock also needs 8 of any ET Modifier block.
+
+continuum.garden_cloche.name=Not Your Garden Variety Garden
+continuum.garden_cloche.desc=The Garden Cloche is a quick and simple way to automate most crops at the cost of Water and RF. You can put most seeds in the top center slot and the soil (Dirt or Sand depending on the crop). Water can be input from the very bottom, the bottom front, and the bottom back. RF can be input from the very top or the bottom sides.\n\nOnce all the requirements are met, the Garden Cloche will start to grow the crop (you can speed it up by putting fertilizers like Bone Meal or Fertilizer in the bottom left slot via the GUI or any of the bottom ports) and put the product in the right slots. If there's room, the items will be automatically output to the front second-from-the-bottom face.
+
+continuum.importer.name=Innie
+continuum.importer.desc=The Importer pulls items from the inventory it is placed on into the RS system it is connected to.
+
+continuum.external_storage.name=Here and Not Here
+continuum.external_storage.desc=The External Storage connects whatever inventory it is touching to the RS System it is connected to. The contents will not be stored in the RS System - they will stay in the inventory - but you will be able to access them from Grids.
+
+continuum.industrial_grinder.name=Grinder II: Electric Boogaloo
+continuum.industrial_grinder.desc=The Industrial Grinder is a multiblock machine that gives more materials from ground ores at the additional cost of certain fluids.\n\nThe Industrial Grinder block is the front middle (height and width) block of a 3x3 multiblock.
+
+continuum.hardened_jetpack.name=Movin' On Up
+continuum.hardened_jetpack.desc=The Hardened Jetpack has more than 3x the amount of RF storage as the Leadstone Jetpack. It is also slightly faster.
+
+continuum.digital_upgrade.name=Beep Boop
+continuum.digital_upgrade.desc=The Digital Upgrade unlocks more recipes you can craft in the EFab.
+
+continuum.flux_infused_jetplate.name=Iron Man
+continuum.flux_infused_jetplate.desc=The Flux-Infused Jetplate is the fastest Jetpack and is the only one with a functioning hover mode. It also stores twice as much as the Resonant Jetpack.
+
+continuum.rf_storage.name=More Power!
+continuum.rf_storage.desc=The RF Storage holds 100,000 RF and allows the EFab to use 250 RF/t per RF Storage. An RF Control and Power Upgrade are still necessary. RF Storages within an EFab aren't connected; you need to provide power to all of them for them to work.\n\nIt is recommended to use RF Storages to increase the RF/t cost that the EFab uses, rather than using multiple RF Controls.
+
+continuum.me_dense_cable.name=Cable TV
+continuum.me_dense_cable.desc=ME Dense Cables can hold up to 32 channels, 4 times as much as a regular ME Cable. They cannot connect to Buses or Panels however.\n\nThere are also ME Smart Dense Cables which show how many channels are passing through them.
+
+continuum.inscriber.name=Inscriber
+continuum.inscriber.desc=The Inscriber is where you craft the three Processors.
+
+continuum.me_drive.name=Digitaler Storage
+continuum.me_drive.desc=Each ME Drive can store up to 10 Storage Cells and takes up a single channel.\n\nStorage Cells can hold up to 63 unique items each, and higher tiers can store more total of those 63 items.
+
+continuum.me_16384k_storage_cell.name=4^12
+continuum.me_16384k_storage_cell.desc=The ME 16384k Storage Cell is the highest tier Storage Cell.
+
+continuum.me_terminal.name=Link Start
+continuum.me_terminal.desc=The ME Terminal takes up a channel and allows you to access all the items in your ME System.
+
+continuum.me_crafting_terminal.name=Making Things
+continuum.me_crafting_terminal.desc=The ME Crafting Terminal acts like the regular ME Terminal but includes a 3x3 crafting grid.
+
+continuum.crystal_growth_accelerator.name=Aqua Pura
+continuum.crystal_growth_accelerator.desc=Certus Quartz, Nether Quartz, and Fluid Seeds can be grown into Pure versions of their respective material by throwing them in water. This takes a long time, but you can speed it up by throwing them into water that is touching Crystal Growth Accelerators that are being powered by an ME system. The more Crystal Growth Accelerators whose sides are touching the water block, the faster the Seeds grow.
+
+continuum.crystal_growth_chamber.name=Crystal Chamber
+continuum.crystal_growth_chamber.desc=The Crystal Growth Chamber grows Crystal Seeds inside its inventory instead of requiring the Seeds be thrown into water. You can install Acceleration Cards to increase the speed at which Seeds grow.
+
+continuum.energizer.name=Recharging
+continuum.energizer.desc=The Energizer uses its own internal RF to fill the item inside with RF.
+
+continuum.molecular_assembler.name=Automation Station
+continuum.molecular_assembler.desc=The ME Interface is the most important component of autocrafting. \n\nPlace the ME Interface next to up to 6 Molecular Assemblers for regular crafting recipes, or connect them to other machines for processing recipes. If you connect them to machines, don't forget to also add a way to transfer the item back into the ME System.\n\nEach ME Interface takes up a channel, though Molecular Assemblers do not take any.
+
+continuum.me_interface_terminal.name=Remote Access
+continuum.me_interface_terminal.desc=The ME Interface Terminal allows you to insert Patterns into any ME Interfaces remotely. This Terminal takes up a channel.\n\nEach Interface has is labeled with the name of the machine it is on. You can rename the Interface in an Anvil and it will be labeled that instead.
+
+continuum.me_pattern_terminal.name=Writing Recipes
+continuum.me_pattern_terminal.desc=The ME Pattern Terminal allows you to assign patterns to Blank Patterns to use in ME Interfaces. On the far right you can toggle between Crafting Patterns for use with Molecular Assemblers to make regular crafting recipes and Processing Patterns for use in machines (for instance, Iron Ore input to Iron Ingot output on a Furnace). You can also toggle if that recipe can use Ore Dictionary or not.\n\nThe ME Pattern Terminal takes up a channel.
+
+continuum.p2p.name=Pay to Play
+continuum.p2p.desc=P2P Tunnels are very useful because they can essentially teleport information from one end of the Tunnel to the other. This can be used to transfer items and fluids by moving Pipes to and from the Tunnels (if they are of the right type), but they can also be used to transfer ME channels.\n\nPlace one end of the P2P Tunnel at the source (near the Controller if it's channels you are after), and the other P2P Tunnel where you want them to go. You can have as many outputs as you want.\n\nBy default P2P Tunnels only can transfer channels but you can right click certain items on them to transfer other things instead (Hoppers to make Item Tunnels, Buckets for Fluid Tunnels, etc).\n\nTo connect P2P Tunnels, sneak use a Memory Card on the input then use use it on any outputs you want to connect them to.\n\nEach P2P Tunnel takes up a channel.
+
+continuum.holoprojector.name=How Do I Build Things?
+continuum.holoprojector.desc=The Holo-Projector allows you to see exactly how to build Advanced Rocketry multiblocks easily. Sneak right click the Holo-Projector to open its GUI in order to select which multiblock you want to build, then right click it in the world to place down the hologram guide. Scroll while sneaking to change layers of the guide.\n\nClick and drag in the GUI to scroll up and down.
+
+continuum.electric_arc_furnace.name=Getting Hot In Here
+continuum.electric_arc_furnace.desc=The Electric Arc Furnace is a multiblock machine that is the only way to get certain materials.\n\nThe multiblock is modular in that you can place the Input and Output hatches in different places and the Coil material can change. The Coil material changes the processing speed of the machine, more expensive materials being faster. To form the multiblock, right click the Electric Arc Furnace.\n\nPlace the ingredients into the Input Hatch, flick the switch in the main Electric Arc Furnace GUI to turn it on, and take the final item out of the Output Hatch.
+
+continuum.crystallizer.name=Time to Cook
+continuum.crystallizer.desc=The Crystallizer is a multiblock machine that is required to make certain items.\n\nThe Crystallizer is modular in that you can use different Coil materials to increase the speed. To form the multiblock, right click on the Crystallizer block.\n\nPut the inputs in the Input Hatch, flip the switch in the main GUI, then wait for the final items to come out of the Output Hatch.
+
+continuum.lathe.name=Lathey
+continuum.lathe.desc=The Lathe is used to make metal Rods.
+
+continuum.precision_assembler.name=Precision Assembler
+continuum.precision_assembler.desc=The Precision Assembler is a multiblock machine that is used to create certain items. It is the only way to get certain items but also provides more resource efficient recipes for items you can otherwise craft without it.
+
+continuum.cutting_machine.name=Cutting Machine
+continuum.cutting_machine.desc=The Cutting Machine is a multiblock machine that is the only way to create certain items. It can also cut Wood logs into 6 Planks each.
+
+continuum.electrolyser.name=H20 2 H+O
+continuum.electrolyser.desc=The Electrolyser uses RF to turn Water into Oxygen and Hydrogen.\n\nWater is input through the back, Hydrogen comes out of the front right, and Oxygen comes out of the front left.
+
+continuum.chemical_reactor.name=Rocket Fuel
+continuum.chemical_reactor.desc=The Chemical Reactor is used to turn Oxygen and Hydrogen into Rocket Fuel. \n\nYou can also combine any armor piece with a Diamond to enchant it with "Airtight Seal," which makes it so that you can fill your armor with Oxygen so you can use it in vacuums without suffocating. Chestpieces must also have a Super High Pressure Tank as well. All of your armor has to be airtight to use it in a vacuum.
+
+continuum.gas_charge_pad.name=Breathe!
+continuum.gas_charge_pad.desc=The Gas Charge Pad fills the armor of the Player standing on it with Oxygen or Hydrogen if there is room. 
+
+continuum.modular_space_suit.name=New Uniform
+continuum.modular_space_suit.desc=The Modular Space Suit can protect players from vacuums and offers various other upgrades that can be applied in the Suit Workstation. The Suit will only let you breathe when you have all pieces on and you have at least some Oxygen in the Chestplate's tank (refilled at a Gas Charge Pad).\n\nPlace the Space Suit piece in the top left slot of the Suit Workstation and you will be able to insert upgrades. The upgrades are listed below:\n\nThe Atmosphere Analyzer is installed onto the Helmet and adds a GUI element displaying information about the atmosphere.\n\nThe Anti-Fog Visor is installed onto the Helmet and lets you see through fog on high pressure planets.\n\nThe Beacon Finder is installed onto the Helmet and will point you towards any active Beacons on the planet you are on.\n\nPressure Tanks are installed onto the Chestplate and allow storage of certain gasses. The first two slots increase your Oxygen capacity and any more increase Hydrogen capacity. Higher tier Pressure Tanks increase the capacity more.\n\nThe Jet Pack is installed onto the Chestplate and allows you to fly at the cost of Hydrogen (has to be toggled with a button). \n\nThe Hover Upgrade is installed onto the Helmet and will allow you to enter hover mode with your Jet Pack when you sneak while pressing the toggle button.\n\nThe Flight Speed Control Upgrade is installed onto the Helmet and will increase the speed that the Jet Pack flies with. You can install multiple at a time.\n\nBionic Legs are installed onto the Leggings and increase the player's sprint speed. You can install multiple at a time.\n\nPadded Landing Boots are installed onto the Boots and eliminate all fall damage.
+
+continuum.ar_rolling_machine.name=Rollin' Rollin' Rollin'
+continuum.ar_rolling_machine.desc=The Rolling Machine is a multiblock machine that is the only way to get certain items, such as Pressure Tanks.
+
+continuum.first_rocket.name=And We Have Liftoff
+continuum.first_rocket.desc=Now it's time to build your first rocket!\n\nBuild a platform that's at least 3x3 of Launch Pads and on one side make a tower of Structure Towers (starting on the same layer as the Launch Pads) up to as high as you want the Rocket to be.\n\nThe Rocket itself needs to be one piece (everything touching each other) and have Liquid Fuel Tanks and Liquid Fueled Engines. Later on you can use Advanced Rocket Engines which give much more thrust than the Liquid Fueled Engines do. The Guidance Computer tells the Rocket where to go. The Seat will allow you to ride the Rocket.\n\nThe Rocket Assembling Machine needs to be placed near or on the Launch Pad and provided with RF. With it, you can hit the Scan button to see if the Rocket is able to fly and then you can Build it if it is, turning the Rocket from a bunch of blocks to a single Rocket entity. It will tell you the amount of thrust you have, the weight of the ship, the fuel consumption, and how fast it takes off.\n\nThe Fueling Machine will fill up the Rocket it is linked to with Fuel from its internal tank. Sneak use a Linker on the Fueling Station then use it on the Rocket entity or Rocket Assembling Machine block to link the two.\n\nSneak use the Rocket entity (or sit in it and hit the "Open Rocket GUI" button) and click on the Guidance Computer and insert an unprogrammed Planet ID Chip. You can then hit the Select Dst button on the Rocket's GUI to select your destination by clicking on the body you wish to go to and hitting the Select button at the top left. You can hit the Up button to go up a level to focus on the thing the current body is orbitting. A Rocket alone can only travel between a body and its moons.\n\nDon't leave the planet unless you have enough fuel to get home (you can use a Pressure Tank filled with Fuel on the Rocket to fuel it on the go). If you are ready, you can set off and fly to the moon!
+
+continuum.moon.name=Fly Me To The Moon
+continuum.moon.desc=Luna, the Earth's only moon, is a barren wasteland. It's surface is made of Moon Turf, though a few blocks down it becomes Stone with normal ore generation.\n\nIf you explore enough, you might find the Apollo 11 landing site!
+
+continuum.space_station.name=Space Base
+continuum.space_station.desc=Now that you have a means of getting into space, you can begin to construct your Space Station. Make another platform out of Landing Pads and construct what you want to send up into space on top. This won't be flown up like the rocket, it will be stored as an item and built later.\n\nOnce you are happy with your Space Station (you can make changes later once it's in orbit), place down a Space Station Assembler like you did with the Rocket Assembling Machine. Put a Satellite Bay and an unprogrammed Space Station ID Chip inside and hit Scan. If the Space Station was constructed correctly, you can Build the Station and the blocks will be removed and stored inside of a Space Station Container inside the Space Station Assembler along with the Space Station ID Chip that is programmed to the new Space Station. \n\nIt is extremely recommended to copy your Space Station ID Chip in a Satellite Builder by putting the programmed one in the center top slot and the unprogrammed one in the slot to the right, then hitting the "Write to Secondary Chip" button, which programs the second one with the data on the first. Store this second one somewhere so you don't lose the ability to fly to your Space Station.\n\nPlace a second Satellite Bay onto your Rocket and insert the Space Station Container, then in the Guidance Computer insert the programmed Space Station ID Chip. You can now ride the Rocket up into orbit and it will land on top of the built Space Station. Rockets that have a programmed Space Station ID Chip will always fly between the Space Station and whatever it is orbitting.
+
+continuum.co2_scrubber.name=Gasp
+continuum.co2_scrubber.desc=In case you hadn't noticed, there's no air in space. You might have your Space Suit, but that could run out of Oxygen at any time. You can use the CO2 Scrubber and Oxygen Vent to give your Space Station some breathable air.\n\nPlace CO2 Scrubbers touching two sides of an Oxygen Vent and place Carbon Collector Cartridges in each, and provide the Oxygen Vent with RF. Give the Oxygen Vent a redstone signal (or tell it to work without one) and the air will become breathable. The Carbon Collector Cartridges lose durability over time but should last about 24 real hours.\n\nYou may want to make small airlocks by making a room with 2 Small Airlock Doors where only one opens at a time, one inside the Space Station and one facing the vacuum.
+
+continuum.orientation_controller.name=Why Are You Upside Down, Soldier?
+continuum.orientation_controller.desc=The Orientation Controller allows you to change the orientation of the Space Station. When placed down, in the GUI you can set the angular velocity in the X and Z directions, which will make the Space Station spin in that direction. When you're happy with the orientation you can set the velocities to zero, or just let your station spin wildly through space.\n\nThis also changes the natural lighting of your Space Station depending on if the Sun is above you.
+
+continuum.gravity_controller.name=Light as a Feather Made of Stone
+continuum.gravity_controller.desc=The Gravity Controller allows you to change the gravity of your Space Station. 
+
+continuum.altitude_controller.name=Altitude Adjustment
+continuum.altitude_controller.desc=The Altitude Controller allows you to change the altitude of your Space Station, making the orbiting body bigger or smaller in your view.
+
+continuum.docking_pad.name=Space Garage
+continuum.docking_pad.desc=Docking Pads allow you to specify where a Rocket can land on your Space Station. Normally Rockets land in the center of the Space Station, which might be on top of your roof or some other inconvenient location. You can instead place down a Docking Pad somewhere on your Space Station (with open access above it) 
+
+continuum.space_elevator.name=Stairway to Heaven
+continuum.space_elevator.desc=The Space Elevator is a convenient way to travel within a system (a planet and anything orbitting it) without having to fly your Rocket every time. You need to have a Space Elevator at both locations, not just one. It costs 50,000 RF to send a player from a Space Elevator, but none to receive a player.\n\nYou have to connect Space Elevators together before you can travel between them. Insert an Elevator Chip into each then connect the two Space Elevator blocks with a Linker.\n\nAs with all Advanced Rocketry multiblocks, you can use different tiers of materials used in the Space Elevator. In this case the Stone can also be replaced with different blocks to make the Space Elevator go faster. See the Holo-Projector for a list of what else you can use instead of Stone.\n\nYou can not use a Space Elevator to travel within the same dimension.
+
+continuum.warp.name=Prepare Ship for Ludicrous Speed
+continuum.warp.desc=To travel to other planets and solar systems, you have to turn your Space Station into a Starship. This is done by placing a Warp Core and Warp Controller inside of the Space Ship.\n\nConstruct the Warp Core and insert Dilithium Crystals into the Input Hatch, then place the Warp Controller. In the Warp Controller you can choose whatever planet in whatever solar system you want to travel to. Warping requires more Dilithium if you are trying to reach planets that are farther away.\n\nThe Starship travels depending on the orientation of the Warp Controller. If you place the Warp Controller sideways, the Starship will travel sideways.\n\nPlanets need to be discovered before you can warp to them. You have to have at least 100 of each Data in the Warp Controller before you can scan for a planet, and there's only a 1/2 chance that the scan will be successful. You can insert an unprogrammed Planet ID Chip into the Warp Controller and it will be programmed with the planet you've discovered, which you can then remove and store. You can share programmed Planet ID Chips by inserting them into other Warp Controllers and clicking the "Program from Chip" button to discover that planet without having to scan for it. The planet you discover is randomly selected from all available undiscovered planets.\n\nCertain planets can not be warped to without having the required "artifact" inside the Warp Controller. Insert the artifact into the "Planet Tracking" tab.
+
+continuum.satellite.name=Data Analytica
+continuum.satellite.desc=Place the Satellite Builder with a Power Tap beneath it. \n\nAll Satellites need a Satellite ID Chip and a Solar Panel, either Basic or Large. There are several types of Satellites. Some collect Data, some produce energy, and some do some other utility.\n\nThere are three types of Data you can collect: Optics, Composition, and Mass.\n\nInsert the Satellite Chassis into the top left slot of the Satellite Builder GUI, a Satellite ID Chip in the slot one to the right, and fill the IO slots with Data Storage Units, then fill the slots above those with either Solar Panels or Batteries.\n\nTo determine the type of satellite, insert the item for that type in the top right slot. An Optical Sensor will collect data about how far away planets are, Composition Sensors will collect data about what planets are made of, and Mass Detectors will collect data about a planet's mass. A Satellite can only have one of these installed. \n\nTake the completed Satellite and the programmed Satellite ID Chip out of the Satellite Builder and insert the Satellite into a Satellite Bay on a Rocket and the Satellite will be placed into orbit the next time the Rocket launches.\n\nYou can launch an unmanned rocket using the Rocket Monitoring Station. Unmanned rockets are basically the same as regular rockets, but without seats. Use the Linking Tool to connect the Rocket Monitoring Station to the rocket. Inside the GUI, you can see the rocket's current altitude, velocity, and fuel level. Click the Launch button to launch the rocket.\n\nYou can copy ID Chips of all kinds with the Satellite Builder by placing a programmed ID Chip in the top center slot and an unprogrammed one in the slot to the right then hitting the "Write to Secondary Chip" button.\n\nInsert the programmed Satellite ID Chip into the top right slot of a Satellite Terminal to wirelessly connect to it, showing you the amount and type of Data it's collected so far. You can take the Data out by clicking the "Connect" button then inserting a Data Storage Unit and clicking on the arrow pointing down.
+
+continuum.astrobody_data_process.name=Astroboy
+continuum.astrobody_data_process.desc=The Astrobody Data Process allows you to use the Data you've collected to create Asteroid ID Chips for asteroid mining missions.
+
+continuum.power_optimizer.name=I've Got Places to Be!
+continuum.power_optimizer.desc=The Power Optimizer completely negates the upper limit of RF/t for EFab crafting. With it installed, the craft operation can go as fast as the EFab can accept power.
+
+continuum.observatory.name=Macroscope
+continuum.observatory.desc=The Observatory is a large machine that uses Distance Data to search for asteroids. These asteroids are useful because they can be mined for materials, although not very much usually. There's a small change to find Iridium Ore on Enriched Asteroids. Give it Distance Data then hit "Scan" in the second tab. The range is dependant on the type of Motor used and if Glass or Lenses are used.\n\nTo store the coordinates of an Asteroid, insert an Asteroid ID Chip into the bottom left slot of the second tab while the Asteroid you want to mine is selected and click the "Process discovery" button. \n\nThe Programmed Asteroid ID Chip needs to be filled with a lot of Data which is done by inserting it into the bottom slot of the Astrobody Data Processor and filling all three switches in the GUI. 
+
+continuum.asteroid_mining.name=Piercing the Heavens
+continuum.asteroid_mining.desc=Now that our Satellite ID Chip is programmed and full of Data, we can begin the asteroid mining mission. This will require a specially built Rocket.\n\nThis Rocket needs to have Chests and Drills anywhere on it in addition to the rest of the normal Rocket things. The more Drills installed, the faster the mining mission is. \n\nInsert the Satellite ID Chip into the Guidance Computer and launch the Rocket using a Rocket Monitoring Station (don't ride it!) and it will begin the mission. In the Rocket Monitoring Station you can see how done the mission is. Once it's done, the Rocket will return to the Launch Pad ready for the next mission. \n\nUse a Rocket Unloader linked to the Rocket to automatically pull the items out.
+
+continuum.common_planet.name=Common Ore Planet
+continuum.common_planet.desc=This planet is in the Resources system. It has Coal, Iron, Gold, Copper, Tin, Silver, Lead, Aluminum, and Bauxite Ore on it. Ores here are much more common than on Earth.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with one of each item on the right.
+
+continuum.dustsngems.name=DustsnGems
+continuum.dustsngems.desc=This planet is in the Resources system. It has Black Quartz, Redstone, Emerald, Diamond, Lapis Lazuli, Certus Quartz, Ruby, Sapphire, Apatite, and Peridot Ore on it. Ores here are much more common here than on Earth.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with one of each item on the right.
+
+continuum.precious_planet.name=Precious
+continuum.precious_planet.desc=This planet is in the Resources system. It has Uranium, Titanium, Nickel, Platinum, Iridium, Titanium, Sheldonite, and Sodalite Ore on it. Ores here are much more common here than on Earth.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with one of each item on the right.
+
+continuum.hellish.name=Hellish
+continuum.hellish.desc=This planet is in the Resources system. It has Pyrite, Cinnabar, Sphalerite, Nether Quartz, Ardite, and Cobalt Ore on it. Ores here are much more common here than on Earth.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with one of each item on the right.
+
+continuum.gravity_machine.name=You're Blue Now!
+continuum.gravity_machine.desc=The Gravity Controller is a multiblock machine that allows you to change the force and direction of gravity in a set area.\n\nAt the bottom of the GUI, you can set the area of effect and the force of gravity. "1.00/100" is normal Earth gravity.\n\nOn the right side of the GUI, you can set the direction that the gravity will start going, and if it adds the force or sets the force. If you "add" upwards force of .50/50 on Earth, gravity will be half strength as it is adding 50 percent of Earth gravity upwards. The same happens if you "set" downwards force to 2.00/200.
+
+continuum.dark_matter.name=Oddly Squishy
+continuum.dark_matter.desc=Dark Matter makes up approximately 80 percent of the known universe. You would think it would suck everything into it like a black hole, but apparently not.\n\nDark Matter is a major crafting component in ProjectE items and blocks. The Charcoal Logs are found on the Lava world.
+
+continuum.dark_matter_armor.name=Cloaked in Star
+continuum.dark_matter_armor.desc=Dark Matter armor is highly resistant to damage. Wearing a full set provides a near complete resistance to attacking and burning.
+
+continuum.dark_matter_furnace.name=Heat Death of the Universe
+continuum.dark_matter_furnace.desc=The Dark Matter Furnace is a furnace that can smelt things at using EMC as fuel (it can use regular fuel as well). It can smelt 2 items at a time and has a chance to double ores. Fuels are more efficient in the Dark Matter Furnace as well.
+
+continuum.energy_collector_mk1.name=Light Energy
+continuum.energy_collector_mk1.desc=The Energy Collector MK1 passively generates EMC. The higher the light level, the more EMC is created, at max of 4 EMC/s.\n\nYou can insert a Klein Star into the bottom slot and it will insert the EMC directly into its internal storage.
+
+continuum.energy_collector_mk2.name=Lighter Energy
+continuum.energy_collector_mk2.desc=The Energy Collector MK2 creates a maximum of 12 EMC/s.
+
+continuum.relay_mk1.name=EMC Transfer
+continuum.relay_mk1.desc=The Anti-Mattery Relay MK1 manipulates EMC. You can burn items directly to transfer its EMC into the Klein Star inside. You can also place it next to Energy Collectors and the EMC will be transferred into it, with an additional 1 EMC/s.\n\nIt can move 64 EMC/s at maximum speed.
+
+continuum.relay_mk2.name=Transfer MK2
+continuum.relay_mk2.desc=The Anti-Matter Relay MK2 can transfer 192 EMC/s.
+
+continuum.klein_star_1.name=4^0
+continuum.klein_star_1.desc=Klein Stars act as batteries for EMC. You can charge a Klein Star in an Energy Collector or Anti-Matter Relay and empty them in Dark/Red Matter Furnaces or other Anti-Matter Relays.\n\nYou can craft 4 Klein Stars of the same tier to upgrade them to the next, which stores 4 times as much. The first tier only stores 50,000 EMC.
+
+continuum.red_matter.name=Rad Matter
+continuum.red_matter.desc=Red Matter is the next tier and final of ProjectE items and machines.
+
+continuum.evertide_amulet.name=Evertide Island
+continuum.evertide_amulet.desc=The Evertide Amulet can be used to place down water and fill up tanks at no EMC cost. You can also hit the "Fire Projectile" button to fire a projectile that creates a Water source block wherever it hits.
+
+continuum.volcanite_amulet.name=Burn Baby Burn
+continuum.volcanite_amulet.desc=The Volcanite Amulet can be used to place down and fill tanks with Lava at the cost of 32 EMC. You can also hit the "Fire Projectile" button to fire a projectile that places down a Lava source block wherever it hits.
+
+continuum.red_matter_armor.name=Warm to the Touch
+continuum.red_matter_armor.desc=Red Matter armor is even more powerful than Dark Matter armor.
+
+continuum.red_matter_furnace.name=Hottest Topic
+continuum.red_matter_furnace.desc=The Red Matter Furnace has a 100 percent chance of doubling ores and increases fuel efficiency by 4 times.
+
+continuum.dark_matter_pedestal.name=Functional Displays
+continuum.dark_matter_pedestal.desc=The Dark Matter Pedestal, as well as giving you a swanky new way to display items, gives extra functions to certain ProjectE items. You can see the functions in the tooltips of the item. \n\nThe Dark Matter Pedestal must be toggled on and off by right clicking it. Left click the Pedestal to remove whatever is on it.
+
+continuum.energy_collector_mk3.name=Lightest Energy
+continuum.energy_collector_mk3.desc=The Energy Collector MK3 generates a maximum of 40 EMC/s.
+
+continuum.relay_mk3.name=Transfer MK3
+continuum.relay_mk3.desc=The Anti-Matter Relay MK3 can transfer 640 EMC/s.
+
+continuum.mercurial_eye.name=This to That, Over Ther
+continuum.mercurial_eye.desc=The Mercurial Eye is a powerful building tool. You can use it to place down walls and replace materials. \n\nFirst, hit the "Extra Function" button to open the Mercurial Eye's GUI. Insert a Klein Star and set the block you wish to create/transmute into (it must have EMC).\n\nHit the "Change Mode" button to toggle between Normal Mode and Transfusion Mode. In Normal Mode, the Mercurial Eye will place a wall made of the material at the cost of the EMC of all the blocks created. In Transfusion Mode, the Mercurial Eye will replace the blocks you click on with the block you set.\n\nThe area of effect (which changes the size of the wall and the radius of the block change) can be increased using the "Charge" key. Hold sneak while hitting it to uncharge it, lowering the area of effect.
+
+continuum.klein_star_6.name=4^5
+continuum.klein_star_6.desc=The Klein Star Omega is the largest tier of Klein Star, and holds 51,200,000 EMC.
+
+continuum.gem_armor.name=Armor of the Fallen
+continuum.gem_armor.desc=Gem Armor is the highest tier of armor in ProjectE. Each piece gives it's own special abilities, but as a whole the set offers no more protection than the Red Matter Armor.\n\nThe Gem Helmet protects against drowning, provides night vision, lets the player walk on water, and allows the wearer to shoot lightning bolts with the "Fire Projectile" button, so long as armor offensive capabilities are enabled. This is toggled with the "Charge" button.\n\nThe Gem Chestplate protects against Fire and Lava.\n\nThe Gem Leggings allow you to fall quickly by sneaking midair. On the ground, sneaking will push away all nearby mobs. \n\nThe Gem Boots protects against all fall damage, allows you to fly by holding space, and enables creative flight. It also adds a togglable step assist.
+
+continuum.condenser_mk1.name=Mass Mass Production
+continuum.condenser_mk1.desc=The Energy Condenser allows you to turn EMC into items directly. You can set the item you want to create by placing one in the top left slot, then place items you wish to burn into EMC (and thus, into the item) anywhere in the Energy Condenser's inventory, and it will be converted into EMC. The EMC will then be used to create the target item, which is placed into the inventory as well.\n\nYou can place the Energy Condenser next to Anti-Matter Relays and the EMC inside of them will be pushed into the Energy Condenser, with a small boost. Only items that have an EMC value can be burned and created.
+
+continuum.condenser_mk2.name=MK Ultra
+continuum.condenser_mk2.desc=The Energy Condensor MK2 is an upgraded version of the regular Energy Condenser. In addition to being much faster, it has separate inventories for inputs and outputs so you don't need to filter extraction.
+
+continuum.creative_modifier.name=Modifiers, Please
+continuum.creative_modifier.desc=The Creative Modifier, when installed on any Tinkers' Construct tool as an upgrade, unlocks another Modifier slot. There's no limit to how many times this can be done.\n\nNaturally, this does not use up a modifier slot.
+
+continuum.creative_watering_can.name=Infinite Irrigation
+continuum.creative_watering_can.desc=The Creative Watering Can speeds up item growth substantially at zero cost of water. 
+
+continuum.creative_capacitor.name=Creative Flux Capacitor
+continuum.creative_capacitor.desc=The Creative Flux Capacitor creates an infinite amount of RF in your inventory. You can sneak right click it and it will charge items in your inventory. 
+
+continuum.creative_mill.name=Free GP
+continuum.creative_mill.desc=The Creative Mill gives your grid 1,000 GP each at no additional cost. You can have as many as you can afford. \n\n§cYou cannot pick up any creative blocks once they are placed unless you are an OP.
+
+continuum.creative_energy.name=UNLIMITED COSMIC POWER
+continuum.creative_energy.desc=The Creative Energy Source creates an infinite amount of RF. \n\n§cYou cannot pick up any creative blocks once they are placed unless you are an OP.
+
+continuum.creative_drum.name=Ocean in a Block
+continuum.creative_drum.desc=The Creative Portable Tank stores an unlimited amount of any fluid of your choosing. Right click the Creative Portable Tank with the fluid you want to set it to. If you want to change the fluid, just right click the new fluid on the Tank to replace the old one. \n\n§cYou cannot pick up any creative blocks once they are placed unless you are an OP. 
+
+continuum.advanced_tank.name=Space Saving
+continuum.advanced_tank.desc=The Advanced Tank can hold 64 buckets of fluid, 4 times as much as a regular Tank.
+
+continuum.pipe.name=SCP-015
+continuum.pipe.desc=Pipes can be used to decrease the time it takes for a fluid crafting recipe to complete.\n\nThe EFab takes the highest time decrease available; If there are 4 Gear Boxes and no Pipes on a fluid + Gear Box recipe, it will run at max speed.
+
+continuum.recycler.name=Reduce, Reuse, Recycler
+continuum.recycler.desc=The Recycler converts any items you insert into Scrap. Each item has a 1/6 chance to become Scrap.\n\nYou can craft 9 Scrap into a Scrap Box which can turn into a bunch of random items when you open!
+
+continuum.matter_fabricator.name=Nothing's the Matter, Now That I Have the Matter Fabricator!
+continuum.matter_fabricator.desc=The Matter Fabricator creates UU Matter, which can be used to craft many items. The Matter Fabricator uses a large amount of RF, but also requires Scrap to run.
+
+continuum.security_station.name=Firewall
+continuum.security_station.desc=The ME Security Terminal allows you to decide who can use your ME System and what they can do with it.\n\nYou can insert a Biometric Card to set the permissions of the player it is set to (use it on a player to set it to them). If unprogrammed, the settings become the new default for players that aren't a part of the ME System. \n\nArguably more important, the ME Security Terminal also allows you to link a Wireless Terminal to your ME System.
+
+continuum.wireless_terminal.name=WiFi Enabled
+continuum.wireless_terminal.desc=The Wireless Terminal allows you to open the contents of your ME System from anywhere in range of an ME Wireless Access Point connected to it. \n\nInsert the Wireless Terminal in the top right slot of the ME Security Terminal to program it to that ME System.\n\nPlace an ME Wireless Access Point on any ME Cables in the system to be able to use the Wireless Terminal. You can insert Wireless Boosters into the ME Wireless Access Point to increase its range.\n\nYou can have as many ME Wireless Access Points as you want within an ME System.
+
+continuum.wireless_crafting_terminal.name=WCT, Easy As 123
+continuum.wireless_crafting_terminal.desc=The Wireless Crafting Terminal acts like the Wireless Terminal does, but it also has a 3x3 crafting GUI, visible armor slots, and a Trash slot.\n\nYou can also a Magnet Card, which will allow you to automatically insert certain items into your ME System instead of your inventory when picking them up. \n\nThe Wireless Crafting Terminal can be worn as a bauble in the head slot and opened with a keybind as well.
+
+continuum.me_fluid_terminal.name=Waterproof
+continuum.me_fluid_terminal.desc=The ME Fluid Terminal allows you to access any fluids in your ME System, which are stored in ME Fluid Storage Cells and inserted into any ME Drives.
+
+continuum.wireless_universal_table.name=All In One
+continuum.wireless_universal_table.desc=The Wireless Universal Table can be used as both a Wireless Crafting Terminal and a Wireless Fluid Terminal. Sneak right click on the Wireless Universal Table to toggle between the two.\n\nThe Wireless Universal Tabel cannot be charged in an Energizer; you must use an AE2 Charger or a TE Energetic Infuser to charge it.
+
+continuum.quantum_network_bridge.name=Quantum Leap
+continuum.quantum_network_bridge.desc=The ME Quantum Network Bridge is a multiblock machine that works in pairs and allows you to connect to your ME System across dimensions and long distances.\n\nFirst you need a set of Quantum Entangled Singularities. These are created by throwing a Singularity and an Ender Dust on the ground and exploding it. This will turn them into 2 Quantum Entangled Singularities. It is recommended to rename these so you don't confuse where they go.\n\nYou need a Quantum Network Bridge at the main ME System and another at the place you want to access it. The multiblock is formed by creating a hollow 3x3 of ME Quantum Rings with an ME Quantum Link Chamber in the center. Insert each of the paired Quantum Entangled Singularities to connect the two.\n\nThe Quantum Network Bridge at your main base gets powered by the Controller there. To power the Quantum Network Bridge at the other end, it is recommended to connect a Controller using Quartz Fiber, which transfer power but not storage data. That way, the second Controller won't be part of the ME System and so won't disable the Controller at your base, but will provide power. The Energy Acceptor does not convert power quickly enough to power the Quantum Network Bridge on it's own.
+
+continuum.matter_condenser.name=Squeezer 2.0
+continuum.matter_condenser.desc=The Matter Condensor allows you to turn massive amounts of items into Singularities and Matter Balls.\n\nPlace an ME Storage Component in the top slot (64k if you're trying to make Singularities) then hit the button to the right to swap between destroying items, creating Matter Balls, and creating Singularities. Place the items you wish to convert in the left slot, and the output will appear in the right slot.
+
+continuum.infinity_booster_card.name=Base on the Go
+continuum.infinity_booster_card.desc=The Infinity Booster allows you to use your Wireless Crafting Table from anywhere in any dimension, as well as increasing the amount of RF that can be stored inside it. Simply insert the Infinity Boosters into their slot in the Wireless Crafting Table (under the crafting grid) for it to be put into effect.
+
+continuum.slimesling.name=Parabolic
+continuum.slimesling.desc=The Slimesling sends you flinging through the air. Hold it down on a block to charge it and let go to go flying in the opposite direction. You must be on the ground and looking at a block for it to work.\n\nYou may want some boots with Feather Falling or a Hang Glider before launching off though as Slime Boots are disabled!
+
+continuum.ghast_trophy.name=Ghastlierest
+continuum.ghast_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Ghast noises.
+
+continuum.slime_trophy.name=Slimy
+continuum.slime_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob.
+
+continuum.cave_spider_trophy.name=Cave Story
+continuum.cave_spider_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Cave Spider noises.
+
+continuum.spider_trophy.name=Piderman
+continuum.spider_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Spider noises.
+
+continuum.blaze_trophy.name=Fire Man
+continuum.blaze_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Blaze noises and light the player on fire.
+
+continuum.sheep_trophy.name=Wake Up Sheeple
+continuum.sheep_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Sheep noises.
+
+continuum.ocelot_trophy.name=Ozelot, Ocelot, Same Thing Really
+continuum.ocelot_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Cat noises.
+
+continuum.villager_trophy.name=Testificate
+continuum.villager_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Villager noises.
+
+continuum.enderman_trophy.name=Skinnydude
+continuum.enderman_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Enderman noises and teleport the player short distances.
+
+continuum.rabbit_trophy.name=I'm Hunting Wabbits
+continuum.rabbit_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will occaisonally spawn a Carrot.
+
+continuum.pig_trophy.name=Pig Out
+continuum.pig_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Pig noises and occasionally spawn a Raw Porkchop.
+
+continuum.mooshroom_trophy.name=Ophiocordyceps Unilateralis
+continuum.mooshroom_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Mooshroom noises.
+
+continuum.guardian_trophy.name=Guardian Angelfish
+continuum.guardian_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Guardian noises and occasinally spawn the Guardian particle effect.
+
+continuum.snowman_trophy.name=Let it Snow, Let is Snow, Let it Snow
+continuum.snowman_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will place Snow on surrounding blocks.
+
+continuum.squid_trophy.name=Wet William
+continuum.squid_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will place Water on nearby blocks.
+
+continuum.wolf_trophy.name=Good Boy
+continuum.wolf_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will make Wolf noises.
+
+continuum.villager_golem_trophy.name=Rose Bud
+continuum.villager_golem_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. 
+
+continuum.magma_cube_trophy.name=Hellslime
+continuum.magma_cube_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob.
+
+continuum.wither_skeleton_trophy.name=Long Larry
+continuum.wither_skeleton_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will make Wither Skeleton noises and occasionally drop a Wither Skeleton Skull.
+
+continuum.llama_trophy.name=Tina
+continuum.llama_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will make Llama noises and make it spit at you.
+
+continuum.horse_trophy.name=Friendship is Magic
+continuum.horse_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will make Horse noises and occasionally spawn Wheat.
+
+continuum.chicken_trophy.name=What's Wrong McFly?
+continuum.chicken_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Chicken noises and occasionally spawn Eggs.
+
+continuum.mule_trophy.name=Mule
+continuum.mule_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will make Mule noises and occasionally spawn Wheat.
+
+continuum.shulker_trophy.name=I'm Really Feeling It!
+continuum.shulker_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will give the player Levitation II for 5 seconds.
+
+continuum.elder_guardian_trophy.name=Absolute Unit
+continuum.elder_guardian_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Elder Guardian noises and occasionally spawn the Elder Guardian particle effect.
+
+continuum.donkey_trophy.name=Donkay
+continuum.donkey_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will make Donkey noises and occasionally spawn Wheat.
+
+continuum.polar_bear_trophy.name=Bear Hug
+continuum.polar_bear_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will make Polar Bear noises and occasionally spawn Raw Fish.
+
+continuum.husk_trophy.name=Empty Inside
+continuum.husk_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Husk noises and occasionally drop Feathers.
+
+continuum.zombie_trophy.name=In Your Head
+continuum.zombie_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Zombie noises.
+
+continuum.zombie_pigman_trophy.name=The Other Other Other White Meat
+continuum.zombie_pigman_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Zombie Pigman noises and occasionally drop Gold Nuggets.
+
+continuum.stray_trophy.name=Does It Have a Collar?
+continuum.stray_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will shoot Arrows up into the air.
+
+continuum.cow_trophy.name=Don't Have a Cow, Man
+continuum.cow_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Cow noises and occasionally drop Leather.
+
+continuum.skeleton_trophy.name=Skellington
+continuum.skeleton_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Skeleton noises and shoot Arrows up into the air.
+
+continuum.witch_trophy.name=Witchcraft and Wizardry
+continuum.witch_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Witch noises and give the player Blindness II for 4 seconds.
+
+continuum.bat_trophy.name=Baman
+continuum.bat_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will play Bat noises.
+
+continuum.creeper_trophy.name=That's a Nice Trophy You've Got There...
+continuum.creeper_trophy.desc=Trophies have a 0.1% chance to drop after killing any vanilla mob. Right clicking this trophy will make explosion particle effects and noises, but will not actually harm anything.
+
+continuum.compressed_cobblestone.name=176,319,369,216
+continuum.compressed_cobblestone.desc=Each Octuple Compressed Cobblestone has 43,046,721 Cobblestone. Each Octuple Compressed Cobblestone would weigh approximately 2,300 kg, or about 2.5 tons.\n\nThis quest needs 64 stacks to complete.
+
+continuum.oss.name=HMS OSS
+continuum.oss.desc=The Object Submission Station allows you to automatically complete submit quests. Place it down in the world and use the higher arrow buttons to choose the quest and the lower arrow buttons to change the task in the quest. Once you are happy with your choice, hit the checkmark button to lock it in. You can hit the X button to unlink the OSS from that task in order to change it to another one.\n\nYou can use Ducts and other automation with the OSS.
+
+continuum.lava.name=Hot Stuff
+continuum.lava.desc=This quest requires 131,072 buckets of Lava, which is about two full Demonically Garguantuan Drums full.
+
+continuum.water.name=Revelation 21:6
+continuum.water.desc=This quest requires 131,072 buckets of Water, which is about two full Demonically Garguantuan Drums full.
+
+continuum.pyrotheum.name=Burning Love
+continuum.pyrotheum.desc=This quest requires 131,072 buckets of Blazing Pyrotheum, which is about two full Demonically Garguantuan Drums full or 524,288 Pyrotheum Dust.
+
+continuum.cryotheum.name=Ice Ice Baby
+continuum.cryotheum.desc=This quest requires 131,072 buckets of Gelid Cryotheum, which is about two full Demonically Garguantuan Drums full or 524,288 Cryotheum Dust.
+
+continuum.lubricant.name=Slip n Slide
+continuum.lubricant.desc=This quest requires 131,072 buckets of Lubricant, which is about two full Demonically Garguantuan Drums full.
+
+continuum.blood.name=Blood for the Blood God
+continuum.blood.desc=This quest requires 250,000 buckets of Blood.
+
+continuum.redstone.name=Oceans of Red
+continuum.redstone.desc=This quest requires 131,072 buckets of Destabilized Redstone, which is about two full Demonically Garguantuan Drums full or 1,310,720 Redstone Dust.
+
+continuum.ender.name=Endest
+continuum.ender.desc=This quest requires 131,072 buckets of Resonant Ender, which is about two full Demonically Garguantuan Drums full or 524,288 Ender Pearls.
+
+continuum.refined_fuel.name=Refined Fuel
+continuum.refined_fuel.desc=This quest requires 131,072 buckets of Refined Fuel, which is about two full Demonically Garguantuan Drums full.
+
+continuum.for_honey.name=Sticky Sucrose
+continuum.for_honey.desc=This quest requires 131,072 buckets of Honey, which is about two full Demonically Garguantuan Drums full.
+
+continuum.wither.name=Wither Killer
+continuum.wither.desc=The Wither can be automatically built with a Wither Builder.
+
+continuum.ender_dragon.name=Here There Been Dragons
+continuum.ender_dragon.desc=The Ender Dragon can be respawned by placing 4 End Crystals on the Bedrock Portal in the End.
+
+continuum.shape_card.name=World Holes
+continuum.shape_card.desc=The Quarry Card allows you to dig blocks with the RFTools Builder. Use it on the Builder then choose 2 opposite corners to dig. Given RF, the builder will then place the blocks mined into any inventory above it.\n\nYou can upgrade it to have Silk Touch and Fortune. By default, blocks mined will be replaced with Dirt. If upgraded to Clearning, the blocks are removed entirely. Clearing Quarry Cards can also have Fortune and Silk Touch as well.
+
+continuum.eye_of_storm.name=Eye of the Storm
+continuum.eye_of_storm.desc=This planet has no special ores, but is the only source of Charcoal Logs in the known universe. It's also a good source of Lava.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with one of each item on the right.
+
+continuum.fusionarium.name=Fusionarium
+continuum.fusionarium.desc=This planet is in the Resources system. It is a gas giant that has Tritrium, Deuterium, and Helium3.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with one of each item on the right.
+
+continuum.gas_collection.name=Gassy
+continuum.gas_collection.desc=Gas giants cannot be landed on as they have no land to do so on. Instead, you can send out gas collection missions to collect certain gasses from their atmospheres. \n\nGas collection rockets should be built on the Space Station, as that's where they launch from and return to. Build a room or wing for it and place down an Unmanned Vehicle Assembler. On the left and right sides of it, place down Structure Towers to decide how wide you want it to be, and on the top place more to decide how tall it should be. From the top go forward (to behind the UVA) to decide how long the rocket should be. There should be nothing underneath, the rocket needs to have full access to hard vacuum.\n\nInside the area defined by the Structure Towers you can build the rocket. These rockets will be horizontal, not vertical. For gas collection rockets, make sure to include plenty of Pressurized Tanks and some Gas Intakes on as well. Place the Engines on the back of the rocket, and in the UVA you can scan and then build the rocket. Make sure it isn't pointed at the station itself - it might get stuck if it is!\n\nLink a Fuelling Station to the UVA to fuel the rocket, and link a Rocket Monitoring Station so you will be able to see how much time left until the rocket returns from its mission. Sneak right click on the built rocket and in the bottom right corner you can choose which gas to collect. If you aren't orbitting a gas giant there will be nothing to collect, so there's no purpose in sending one out there.\n\nOnce you've chosen the gas you want to collect, go to the Rocket Monitoring Station and click the launch button! The rocket will begin to lower out of the station before launching, flying off into the distance.\n\nOnce the gas collection mission is completed the rocket will return to the space station, no matter if you've moved away from the planet you deployed from. You can automatically extract the collected gases via a Rocket Fluid Unloader that's linked to the rocket or the UVA.
+
+continuum.litherite.name=Litherite
+continuum.litherite.desc=This planet is in the ETech system. It is the only source of Litherite in the known universe.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with a stack of Structure Panels.
+
+continuum.erodium.name=Erodium
+continuum.erodium.desc=This planet is in the ETech system. It is the only source of Erodium in the known universe.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with a stack of Litherite.
+
+continuum.kyronite.name=Kyronite
+continuum.kyronite.desc=This planet is in the ETech system. It is the only source of Kyronite in the known universe.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with a stack of Erodium.
+
+continuum.pladium.name=Pladium
+continuum.pladium.desc=This planet is in the ETech system. It is the only source of Litherite in the known universe.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with a stack of Kyronite.
+
+continuum.ionite.name=Ionite
+continuum.ionite.desc=This planet is in the ETech system. It is the only source of Ionite in the known universe.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with a stack of Pladium.
+
+continuum.aethium.name=Aethium
+continuum.aethium.desc=This planet is in the ETech system. It is the only source of Litherite in the known universe.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with a stack of Ionite.
+
+continuum.lonsdaleite.name=Lonsdaleite
+continuum.lonsdaleite.desc=This planet is in the ETech system. It is the only source of Litherite in the known universe.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with a stack of Aethium
+
+continuum.opinium.name=Fact
+continuum.opinium.desc=This quest requires 2048 Perfected Opinium Cores. You can duplicate Elytras by crafting an Elytra with a Dragon Scale, which drops after killing every Ender Dragon after the first. This will create a new Elytra while keeping the original.
+
+continuum.oil_planet.name=Black Gold Ahoy
+continuum.oil_planet.desc=This planet is in the Fluid system. It is an ocean planet made almost entirely of Crude Oil.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with one of each item on the right.\n\nIt is highly recommended to place a waypoint at the rocket landing site, as it will probably be under the surface of the ocean.
+
+continuum.honey_planet.name=Sweet Sweet Honey
+continuum.honey_planet.desc=This planet is in the Fluid system. It is an ocean planet made almost entirely of Honey.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with one of each item on the right.\n\nIt is highly recommended to place a waypoint at the rocket landing site, as it will probably be under the surface of the ocean.
+
+continuum.dna_planet.name=Swimming in Liquid DNA
+continuum.dna_planet.desc=This planet is in the Fluid system. It is a gas giant that is made of Raw DNA.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with one of each item on the right.
+
+continuum.redstone_planet.name=Land of the Red Blood
+continuum.redstone_planet.desc=This planet is in the Fluid system. It is an ocean planet made almost entirely of Destabilized Redstone.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with one of each item on the right.\n\nIt is highly recommended to place a waypoint at the rocket landing site, as it will probably be under the surface of the ocean.
+
+continuum.cryotheum_planet.name=Frozen but not Solid
+continuum.cryotheum_planet.desc=This planet is in the Fluid system. It is an ocean planet made almost entirely of Gelid Cryotheum.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with one of each item on the right.\n\nIt is highly recommended to place a waypoint at the rocket landing site, as it will probably be under the surface of the ocean.
+
+continuum.ender_planet.name=Fluid of the Enderman
+continuum.ender_planet.desc=This planet is in the Fluid system. It is an ocean planet made almost entirely of Resonant Ender.\n\nTo fly to this planet, the Warp Controller Artifact slots must be filled with one of each item on the right.\n\nIt is highly recommended to place a waypoint at the rocket landing site, as it will probably be under the surface of the ocean.
+
+continuum.red_katar.name=[Thunderfury, Blessed Blade of the Windseeker]
+continuum.red_katar.desc=The Red Katar is an omnitool that serves as a Sword, Hoe, Axe, and Shears all in one, and has infinite durability.\n\nIt has 4 levels which can be switched between with the charge button. With the Extra Function button, it will kill all hostiles in a radius around the player dependant on the charge level. You can toggle between killing only hostiles and killing all mobs with the Change Mode key.
+
+continuum.red_morningstar.name=Good Morning!
+continuum.red_morningstar.desc=The Red Morningstar is an omnitool that serves as a Hammer, Pickaxe, and Shovel.\n\nWhen right clicked on an ore vein, it will mine the entire vein all at once. Right clicking on any other block will mine a horizontal area dependant on the charge level.
+
+continuum.fusion_coil.name=Large Hadron Collider
+continuum.fusion_coil.desc=The max size Fusion Reactor creates ludicrous amounts of RF and requires a very large amount of blocks to build. In total, you need 3172 Fusion Coils. As this is more than your inventory can hold, this quest instead requires a YABBA barrel with no upgrades that has 3172 Fusion Coils inside.
+
+continuum.plasma_generator.name=Please Sir, I Want Some More
+continuum.plasma_generator.desc=The Plasma Generator allows you to use Heliumplasma to generate very large amounts of RF, in addition to the RF that was created making it. 
+
+continuum.mob_souls.name=Mob Souls
+continuum.mob_souls.desc=The Spawner Changer allows you to change the mob spawned by Mob Spawners. Right click the Spawner Changer on a mob to set it, killing the mob. You can then right click on a Monster Spawner and it will be changed to spawn that mob. The Spawner Changer is destroyed in the process.\n\nYou can right click a Drop of Evil on any Monster Spawner to turn it into a Resturbed Mob Spawner. These can be broken and picked up without breaking, and will constantly spawn whatever mob it is assigned to. These mobs will be more powerful than normal, similar to mobs spawned by Cursed Earth. You can also insert Speed Upgrades to decrease the time between spawns.
+
+continuum.solar_lunar_panels.name=Clean Energy
+continuum.solar_lunar_panels.desc=Solar and Lunar Panels create a fairly small amount of GP. Each only generates GP during the day or night, I trust you can figure out which is which.
+
+continuum.water_mill.name=Hydroelectric
+continuum.water_mill.desc=The Water Mill generates 4 GP per side that has flowing water touching it, which means you can have a maximum of 16 GP per Water Mill. Water flowing downwards does not count, and so does not generate GP.
+
+continuum.lava_mill.name=Thermoelectric
+continuum.lava_mill.desc=The Lava Mill generates 2 GP while it is touching Lava on any horizontal side. The amount of Lava does not matter, it makes a maximum of 2 GP per Lava Mill.
+
+continuum.fire_mill.name=Smoky Power
+continuum.fire_mill.desc=The Fire Mill generates 4 GP while directly over Fire.
+
+continuum.dummy_quest.name=Rolling Machine / Implosion Compressor
+continuum.dummy_quest.desc=This is a dummy quest that completes when either the Implosion Compressor or the Rolling Machine are completed.
+
+continuum.tr_sawmill.name=Woody
+continuum.tr_sawmill.desc=Tech Reborn's Sawmill is a multiblock machine that allows you to get 6 Planks per log.\n\nThe Sawmill block sits on the front middle of a 3x3x3 cube of Machine Casings.
+
+continuum.archangel.name=Aimbot
+continuum.archangel.desc=The Archangel's Smite is a weapon that shoots arrows. If you left click it will shoot a burst of 10 arrows all at once, and if you hold right click it will shoot a continuous stream of arrows. \n\nArrows shot by the Archangel's Smite will home in on the nearest mob, hostile or not.
+
+continuum.crafting_CPU.name=Crafting Computer
+continuum.crafting_CPU.desc=The Crafting CPU is a multiblock that lets the ME System automatically craft items. The Crafting CPU multiblock must be a regular cuboid (6 sides only) and must have at least one Crafting Storage block.\n\nMore complex crafting recipes require more bytes of Crafting Storage than more simple recipes, and thus need a Crafting CPU with higher tier Crafting Storages. \n\nWith no Crafting Co-Processing Units, the Crafting CPU can only craft one item at a time. The more Crafting Co-Processing Units there are in a Crafting CPU, the more steps of the crafting recipe it can do at the same time.\n\nYou can also put a Crafing Monitor onto the Crafting CPU and it will display what is currently being crafted.\n\nA single Crafting CPU can only be used for a single crafting task, if you want to request multiple things you need to have multiple Crafting CPUs.
+
+#Quest Line
+continuum.new_game.name=It's Like a Whole New Game
+continuum.factorio.name=Factorio
+continuum.industrial_rebirth.name=Industrial Rebirth
+continuum.thermal_foregoing.name=Thermal Foregoing
+continuum.digital_style.name=Digital Style
+continuum.final_frontier.name=The Final Frontier
+continuum.alchemy.name=The Basis of All Alchemy
+continuum.hoarding.name=Obligatory Hoarding Quests

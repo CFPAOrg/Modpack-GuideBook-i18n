@@ -1,0 +1,66 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"eb191328"
+	],
+	tasks: [{
+		uid: "174431d5",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_sapphire"
+		}]
+	},
+	{
+		uid: "74ea504d",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_white"
+		}]
+	},
+	{
+		uid: "185ddfc7",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_blue"
+		}]
+	},
+	{
+		uid: "22a100ed",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_gray"
+		}]
+	},
+	{
+		uid: "bc8d9be6",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_bronze"
+		}]
+	},
+	{
+		uid: "acd3de90",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_green"
+		}]
+	},
+	{
+		uid: "8461f798",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_silver"
+		}]
+	}],
+	rewards: [{
+		uid: "edb90921",
+		type: "item",
+		item: "iceandfire:manuscript"
+	},
+	{
+		uid: "129ed445",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

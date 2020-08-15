@@ -1,0 +1,46 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"组合燧石，红石，一个碗和任何3种水晶（只要它们是不同的类型）将给你世界盐。",
+		"",
+		"手里拿着世界盐，右击书架，看着它变成你的魔导手册。"
+	],
+	dependencies: [
+		"c9bd7dfb"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "599c8679",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	},
+	{
+		uid: "c83655d7",
+		type: "item",
+		items: [{
+			item: "minecraft:bowl"
+		}]
+	},
+	{
+		uid: "75833ed3",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	},
+	{
+		uid: "7c674301",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}],
+	rewards: [{
+		uid: "cc1c36ef",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

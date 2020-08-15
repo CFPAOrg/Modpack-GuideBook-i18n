@@ -1,0 +1,85 @@
+{
+	title: "*活塞引擎* 这个坏男孩可能会造成非常多的污染。",
+	x: -10.0d,
+	y: 6.5d,
+	description: "消耗柴油发电机燃料，默认输出2000EU/t多方块发电机。通过添加氧气可以增加到6144EU/t。如果你还是不相信它，我们可以告诉你它也比单方块发电机的柴油利用效率更高。",
+	text: [
+		"你也可以使用格雷科技的泵来设置精确的流速，以匹配你的产量。因为这个多方块需要一段时间来冷启动加速转子，所以最好是让它一直运行，而不要因为燃料供给不足频繁开启或关闭！",
+		""
+	],
+	dependencies: [
+		"c48fa03d"
+	],
+	tasks: [{
+		uid: "041bcc49",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 517"
+		}]
+	},
+	{
+		uid: "bad6b784",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing"
+		}],
+		count: 8L
+	},
+	{
+		uid: "08d76071",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}],
+		count: 2L
+	},
+	{
+		uid: "248828ef",
+		type: "item",
+		items: [{
+			item: "gregtech:turbine_casing 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "57d277db",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 6"
+		}],
+		count: 23L
+	},
+	{
+		uid: "081f1a79",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 745"
+		},
+		{
+			item: "gregtech:machine 1 735"
+		},
+		{
+			item: "gregtech:machine 1 755"
+		}]
+	}],
+	rewards: [{
+		uid: "bf9ed6fd",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "infused_nitrofuel",
+					Amount: 256000
+				}
+			},
+			Damage: 32406s
+		}
+	},
+	{
+		uid: "710fa827",
+		type: "item",
+		item: "harvestcraft:ploughmanslunchitem",
+		count: 3
+	}]
+}

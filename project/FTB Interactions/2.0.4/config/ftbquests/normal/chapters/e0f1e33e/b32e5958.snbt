@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"添加一些黄金、青金石和水，你可能就能得到这里的东西。"
+	],
+	dependencies: [
+		"9c1e319b"
+	],
+	tasks: [{
+		uid: "b2124ac4",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_fragment"
+		}]
+	}]
+}

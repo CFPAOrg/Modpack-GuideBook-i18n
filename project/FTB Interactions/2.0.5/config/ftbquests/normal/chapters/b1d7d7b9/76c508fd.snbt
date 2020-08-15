@@ -1,0 +1,32 @@
+{
+	title: "晶化油",
+	x: -4.5d,
+	y: -3.0d,
+	shape: "rsquare",
+	description: "通过将石油与晶化油菜种子混合获得晶化油，晶化油可以蒸馏出出轻燃料和重燃料，使柴油生产更便宜。",
+	text: [
+		"此步骤是可选的，以提高产量，你仍然可以直接蒸馏，只是产量较低。 "
+	],
+	dependencies: [
+		"f99434e4",
+		"64abbac6"
+	],
+	tasks: [{
+		uid: "0aab2196",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 23"
+		}]
+	}],
+	rewards: [{
+		uid: "f3650f4f",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 8
+	},
+	{
+		uid: "7bdb49fd",
+		type: "item",
+		item: "harvestcraft:chaiteaitem"
+	}]
+}

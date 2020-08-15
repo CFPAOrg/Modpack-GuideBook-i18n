@@ -1,0 +1,45 @@
+{
+	title: "早期游戏建筑帮手",
+	x: 2.0d,
+	y: 7.0d,
+	shape: "rsquare",
+	description: "Animus的液态泥土可以被倒出并像水一样流动。一旦它不能继续流动，它将固化成大量泥土。",
+	text: [
+		"如果你动作够快，你可以在固化前装走流体源方块，将一桶液态泥土多次使用。"
+	],
+	dependencies: [
+		"b030b92e"
+	],
+	tasks: [{
+		uid: "b8d63607",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "blockfluiddirt",
+				Amount: 1000
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "blockfluiddirt",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "9bb47f07",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

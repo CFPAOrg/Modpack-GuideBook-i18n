@@ -1,0 +1,22 @@
+{
+	x: -12.0d,
+	y: -6.0d,
+	dependencies: [
+		"562511fd"
+	],
+	tasks: [{
+		uid: "18a35921",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "argon",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

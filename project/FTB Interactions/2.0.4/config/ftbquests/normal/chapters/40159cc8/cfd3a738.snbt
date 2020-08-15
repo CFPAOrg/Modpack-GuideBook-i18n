@@ -1,0 +1,10 @@
+{
+	title: "MV组装机",
+	icon: "gregtech:machine 1 101",
+	x: -2.0d,
+	y: -22.0d,
+	tasks: [{
+		uid: "1ab1f34a",
+		type: "checkmark"
+	}]
+}

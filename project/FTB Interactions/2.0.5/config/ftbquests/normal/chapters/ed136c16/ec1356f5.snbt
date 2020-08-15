@@ -1,0 +1,36 @@
+{
+	title: "机械腿",
+	x: -1.5d,
+	y: 4.0d,
+	shape: "circle",
+	text: [
+		"机械腿给用户提供一系列好用的升级，包括：",
+		"- 自动上坡*",
+		"- 跳跃提升*",
+		"免受坠落伤害",
+		"还有一些其他效果。",
+		"* 仅在安装特定升级后可用"
+	],
+	dependencies: [
+		"5633991b"
+	],
+	tasks: [{
+		uid: "71f6481f",
+		type: "item",
+		items: [{
+			item: "cyberware:cyberlimbs 1 2"
+		}]
+	},
+	{
+		uid: "fd0ffdbc",
+		type: "item",
+		items: [{
+			item: "cyberware:cyberlimbs 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "2f2fb254",
+		type: "item",
+		item: "cyberware:foot_upgrades 1 2"
+	}]
+}

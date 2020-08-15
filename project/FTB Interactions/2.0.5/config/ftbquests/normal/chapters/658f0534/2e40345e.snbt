@@ -1,0 +1,28 @@
+{
+	title: "电力和魔法，八倍产矿",
+	x: -16.0d,
+	y: -2.5d,
+	text: [
+		"在MV阶段之后，你可以将魔力、生命源质与矿石混合，制作纯净的血碎片，进一步增加你的矿物产量。"
+	],
+	dependencies: [
+		"254a6531"
+	],
+	tasks: [{
+		uid: "bdc3bc55",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iron_ore_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "c4fa9133",
+		type: "item",
+		item: {
+			id: "botania:floatingspecialflower",
+			tag: {
+				type: "bellethorn"
+			}
+		}
+	}]
+}

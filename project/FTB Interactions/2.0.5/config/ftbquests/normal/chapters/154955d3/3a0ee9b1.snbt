@@ -1,0 +1,34 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	text: [
+		"这个魔杖会朝你看着的地方开始形成方块，非常适合在远处快速搭建大型平台，或者是在普通的建筑之杖不允许的方向上。"
+	],
+	dependencies: [
+		"dcc3168e"
+	],
+	tasks: [{
+		uid: "19073bd4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemarchitectwand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b20ec17c",
+		type: "item",
+		item: "gregtech:mineral",
+		count: 16
+	},
+	{
+		uid: "c2943589",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

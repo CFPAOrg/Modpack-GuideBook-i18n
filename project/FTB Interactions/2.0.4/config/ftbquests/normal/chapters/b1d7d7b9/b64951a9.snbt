@@ -1,0 +1,24 @@
+{
+	x: -6.5d,
+	y: 1.0d,
+	shape: "diamond",
+	dependencies: [
+		"79ebddca",
+		"11747a7e"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "15b7ee23",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}]
+	}]
+}

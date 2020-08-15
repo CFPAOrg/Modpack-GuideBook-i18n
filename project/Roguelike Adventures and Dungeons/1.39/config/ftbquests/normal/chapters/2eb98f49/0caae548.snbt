@@ -1,0 +1,14 @@
+{
+	x: 12.0d,
+	y: -4.0d,
+	dependencies: [
+		"e2f0fe86"
+	],
+	tasks: [{
+		uid: "5b52a348",
+		type: "item",
+		items: [{
+			item: "embers:charger"
+		}]
+	}]
+}

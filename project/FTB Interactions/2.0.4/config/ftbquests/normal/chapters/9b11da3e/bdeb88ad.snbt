@@ -1,0 +1,36 @@
+{
+	title: "双倍，双倍的劳作，以及双倍的问题",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "xreliquary:witch_hat"
+	},
+	x: -4.0d,
+	y: -3.0d,
+	text: [
+		"女巫比以前更加恶心了",
+		"-会帮周围的怪物上随机的buff",
+		"-投掷喷溅型的药水会换成投掷滞留型的药水",
+		"-死亡后产生蝙蝠"
+	],
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "eb326ed4",
+		type: "kill",
+		entity: "minecraft:witch",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0974abae",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xreliquary:witch_hat"
+		}
+	}]
+}

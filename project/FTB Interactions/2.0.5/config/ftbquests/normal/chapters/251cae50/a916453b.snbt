@@ -1,0 +1,14 @@
+{
+	title: "LV时代",
+	icon: "gregtech:machine 1 501",
+	x: -9.0d,
+	y: -4.0d,
+	description: "此行的项目在大多数LV配方中使用。",
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "99523cf2",
+		type: "checkmark"
+	}]
+}

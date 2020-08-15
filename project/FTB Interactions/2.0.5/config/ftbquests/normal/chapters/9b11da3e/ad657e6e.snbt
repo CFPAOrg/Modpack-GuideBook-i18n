@@ -1,0 +1,21 @@
+{
+	title: "对我的朋友说：李好",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -11.0d,
+	y: -10.0d,
+	shape: "gear",
+	description: "来自 Plants 模组的植物生长在大型矿脉的上方。某些物种已经适应了在特定的矿床上方生长，表明在它下面埋藏着丰富的矿物。",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "00d1a7c5",
+		type: "checkmark"
+	}]
+}

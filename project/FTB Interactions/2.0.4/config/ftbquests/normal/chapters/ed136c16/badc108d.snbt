@@ -1,0 +1,42 @@
+{
+	title: "制作部件化装备",
+	x: -14.0d,
+	y: -4.0d,
+	text: [
+		"你想要一个工具装配台和一些基本的工匠用品，如模具箱、模具加工台和部件加工台。 我们不想让你为这个任务制作所有的这些东西，但你需要做出工具装配台。",
+		"",
+		"开始的时候，你可以像平常一样铸造铁部件或在部件加工台中制作圆石部件。更高级的材料将需要机器加工使金属成型。 圆石是一种早期很有用的材料，可以使用红石来加速，也很方便维修。"
+	],
+	tasks: [{
+		uid: "61bc8931",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "c8ca603d",
+		type: "item",
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "xu_magical_wood"
+			}
+		}
+	},
+	{
+		uid: "54d92390",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "obsidian"
+			}
+		}
+	},
+	{
+		uid: "2258f7b5",
+		type: "item",
+		item: "minecraft:flint"
+	}]
+}

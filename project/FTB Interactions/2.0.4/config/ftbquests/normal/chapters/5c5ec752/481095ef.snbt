@@ -1,0 +1,27 @@
+{
+	title: "合金炉合何合金？",
+	x: -4.0d,
+	y: 1.0d,
+	description: "合金炉不合金只合合金。",
+	text: [
+		"认真看配方的能量要求。例如，脉冲铁需要48EU/t，这意味着你需要至少一个MV级合金炉来制造它！"
+	],
+	dependencies: [
+		"56f69a22",
+		"499c8c07"
+	],
+	tasks: [{
+		uid: "3ed9f655",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 17"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "924b3b0d",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 5",
+		count: 4
+	}]
+}

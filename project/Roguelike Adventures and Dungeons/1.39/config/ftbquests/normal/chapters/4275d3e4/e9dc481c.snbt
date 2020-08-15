@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	dependencies: [
+		"f14c8185"
+	],
+	tasks: [{
+		uid: "187097f4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sickle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a89a7d86",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "聚乙烯生产流程图",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "plastic",
+				Amount: 256000
+			}
+		},
+		Damage: 32406s
+	},
+	x: -10.0d,
+	y: -2.0d,
+	shape: "gear",
+	custom_click: "https://www.zenflowchart.com/docs/view/LPQZOpnelm1VaKBzyVXv",
+	dependencies: [
+		"c58a646a",
+		"829ccb26"
+	]
+}

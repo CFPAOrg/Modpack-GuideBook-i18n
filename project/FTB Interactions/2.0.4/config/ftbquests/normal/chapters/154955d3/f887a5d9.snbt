@@ -1,0 +1,15 @@
+{
+	title: "速通挑战赛 - 如果你打破了 A$ide$ilence 的记录，给作者发你的视频，然后这里的名字就会变成你！",
+	icon: "randomthings:eclipsedclock",
+	x: 0.0d,
+	y: 1.0d,
+	shape: "gear",
+	description: "31分零4秒",
+	text: [
+		""
+	],
+	custom_click: "https://www.youtube.com/watch?v=MnHIja3IgM8",
+	dependencies: [
+		"7a3fc83a"
+	]
+}

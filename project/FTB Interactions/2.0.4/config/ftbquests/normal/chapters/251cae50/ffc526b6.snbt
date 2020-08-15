@@ -1,0 +1,15 @@
+{
+	title: "青铜时代",
+	icon: "gregtech:machine_casing 1 10",
+	x: -8.0d,
+	y: -5.0d,
+	description: "此列中的项目可以在青铜时代制作。",
+	dependencies: [
+		"499c8c07"
+	],
+	tasks: [{
+		uid: "4a2270af",
+		type: "checkmark",
+		title: "确认"
+	}]
+}

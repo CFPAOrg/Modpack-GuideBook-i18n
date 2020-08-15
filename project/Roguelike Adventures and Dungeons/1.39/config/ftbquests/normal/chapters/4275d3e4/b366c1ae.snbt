@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"95fa2be3"
+	],
+	tasks: [{
+		uid: "02485e20",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:amulet",
+			tag: {
+				Gem: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9f63741",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	},
+	{
+		uid: "6275c22c",
+		type: "item",
+		item: "thebetweenlands:loot_pot 1 4"
+	}]
+}

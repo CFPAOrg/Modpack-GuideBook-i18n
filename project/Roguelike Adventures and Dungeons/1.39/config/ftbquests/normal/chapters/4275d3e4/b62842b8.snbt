@@ -1,0 +1,48 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"3a3323f4"
+	],
+	tasks: [{
+		uid: "f6ca2cb7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "97febddc",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "beadf5b5",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f7419cb5",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "701d766a",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

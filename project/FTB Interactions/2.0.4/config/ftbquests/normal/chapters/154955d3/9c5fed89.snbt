@@ -1,0 +1,30 @@
+{
+	title: "树木理发师",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "pickletweaks:flint_shears"
+	},
+	x: -2.0d,
+	y: 1.0d,
+	description: "真正的EMC生产专家。",
+	dependencies: [
+		"7a3fc83a"
+	],
+	tasks: [{
+		uid: "492677e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pickletweaks:flint_shears"
+		}]
+	}],
+	rewards: [{
+		uid: "8d29e0cc",
+		type: "item",
+		item: "harvestcraft:bananasplititem"
+	}]
+}

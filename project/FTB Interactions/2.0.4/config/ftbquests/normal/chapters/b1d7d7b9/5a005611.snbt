@@ -1,0 +1,44 @@
+{
+	title: "蒸汽裂化的石脑油",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "steamcracked_naphtha",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -8.5d,
+	y: -3.0d,
+	description: "真正的问题是，我们给它加了蒸汽，它的颜色为什么会变暗？",
+	dependencies: [
+		"54b7c3b0"
+	],
+	tasks: [{
+		uid: "017da1f6",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "steamcracked_naphtha",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "dc907284",
+		type: "item",
+		item: "mekanism:obsidiantnt"
+	},
+	{
+		uid: "137ce8b8",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	}]
+}

@@ -1,0 +1,13 @@
+tile.altar.name=召唤祭坛
+interactions.menu.singleplayer.hovertext=现在是白天了吗？
+interactions.menu.multiplayer.hovertext=不，你先请。
+interactions.menu.mods.hovertext=主打模组是格雷和生活调味料
+interactions.menu.options.hovertext=记得设置按键绑定
+interactions.menu.tracker.text=报告Bug
+interactions.menu.tracker.hovertext=写成俳句会加分哦
+interactions.menu.discord.text=Discord
+interactions.menu.discord.hovertext=出来逛逛
+interactions.menu.quit.hovertext=这个包有ReAuth
+interactions.menu.language.tooltip=语言
+interactions.menu.website.tooltip=FTB网站
+interactions.menu.creeperhost.tooltip=马上获得一个服务器!

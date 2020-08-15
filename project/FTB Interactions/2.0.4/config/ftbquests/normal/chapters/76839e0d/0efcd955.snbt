@@ -1,0 +1,11 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "b4d8eb31",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: 14.0d,
+	y: -1.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "056d13de",
+		type: "item",
+		items: [{
+			item: "atum:ptahs_decadence"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f45f9ee",
+		type: "item",
+		items: [{
+			item: "atum:ptahs_undoing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d5fa9b0d",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "b3386f80",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 5
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "钢桶",
+	x: -4.0d,
+	y: -5.0d,
+	description: "当你获得了钢后，就可以制作钢桶，钢桶的容量比青铜的高，其他都相似。一般来说在格雷科技中比钢桶更高级的桶性价比不高。",
+	dependencies: [
+		"c13fb853",
+		"e03e9a01"
+	],
+	tasks: [{
+		uid: "13c6a4b6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2197"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -22.0d,
+	y: -2.0d,
+	shape: "circle",
+	text: [
+		"我们想让它动起来（物品部分），但实际上这是个啥？入门级过滤器。",
+		"噢，实际上你需要它来移动物品。"
+	],
+	tasks: [{
+		uid: "c6868332",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:servo"
+		}]
+	},
+	{
+		uid: "c9dc1765",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_32"
+		}]
+	}]
+}

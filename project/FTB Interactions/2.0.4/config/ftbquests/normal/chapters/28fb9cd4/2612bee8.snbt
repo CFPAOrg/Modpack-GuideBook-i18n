@@ -1,0 +1,14 @@
+{
+	x: -13.0d,
+	y: 1.5d,
+	dependencies: [
+		"d85bce55"
+	],
+	tasks: [{
+		uid: "60ba16f1",
+		type: "item",
+		items: [{
+			item: "rftools:dimensional_shard_ore"
+		}]
+	}]
+}

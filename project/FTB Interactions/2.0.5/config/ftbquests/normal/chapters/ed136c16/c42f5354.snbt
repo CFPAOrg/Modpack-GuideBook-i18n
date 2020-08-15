@@ -1,0 +1,23 @@
+{
+	x: -10.0d,
+	y: -7.0d,
+	shape: "gear",
+	description: "关键的魔法材料将提供非常强大多样的常规工具，如扳手，锤子，螺丝刀等。强烈鼓励你去寻找这些材料，从而大大简化你所需的常规工具数量。",
+	tasks: [{
+		uid: "b2cd5254",
+		type: "checkmark",
+		title: "工欲善其事，必先利其器",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					PrimaryMaterial: "darmstadtium"
+				}
+			},
+			Damage: 8s
+		}
+	}]
+}

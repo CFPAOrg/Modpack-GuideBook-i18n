@@ -1,0 +1,86 @@
+{
+	title: "奇怪的水晶...",
+	x: -2.5d,
+	y: -1.0d,
+	text: [
+		"关于这个模组的更多信息和它的功能在魔导手册中有更好的描述。",
+		"",
+		"全世界共有6种不同的水晶，但一旦你开采出第一颗水晶（颜色无关紧要），屏幕上就会出现一条信息。",
+		"",
+		"回家睡觉吧。建议你在回家前多拿些水晶（各种颜色）、朱砂和琥珀石。",
+		"",
+		"当你醒来的时候，你会看到另一条信息，同时也会收到一本关于“异梦”的书。阅读这本书可以让你更详细地了解下一步该做什么。",
+		"",
+		"本指南的所有贡献https://minecraftguides.net/tc6/credits"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "8fd4d2eb",
+		type: "item",
+		title: "任意水晶",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "260e070d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "b3b4a523",
+		type: "item",
+		item: "thaumcraft:amber"
+	}]
+}

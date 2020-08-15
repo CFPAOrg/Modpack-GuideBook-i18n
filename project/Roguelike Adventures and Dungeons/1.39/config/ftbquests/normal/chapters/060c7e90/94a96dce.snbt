@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: -4.0d,
+	dependencies: [
+		"7b1045cb"
+	],
+	tasks: [{
+		uid: "7eacf9d3",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_necromancy_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba07048a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

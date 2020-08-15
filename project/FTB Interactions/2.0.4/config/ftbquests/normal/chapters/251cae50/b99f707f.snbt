@@ -1,0 +1,15 @@
+{
+	title: "IV时代",
+	icon: "gregtech:machine 1 505",
+	x: -3.0d,
+	y: -5.0d,
+	description: "此列中的项目可以在IV时代制作。",
+	dependencies: [
+		"94cc51d4",
+		"31d4520f"
+	],
+	tasks: [{
+		uid: "880103bd",
+		type: "checkmark"
+	}]
+}

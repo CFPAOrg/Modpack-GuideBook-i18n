@@ -1,0 +1,29 @@
+{
+	title: "所有花的制造方法",
+	x: 5.5d,
+	y: -0.5d,
+	description: "植物魔法的花朵不会天然生成。你可以选择制造花瓣，或者是合成出翡翠苋并给予魔力来产生花朵",
+	dependencies: [
+		"1d2f9478"
+	],
+	tasks: [{
+		uid: "fcfb433c",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "jadedAmaranthus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "511852bc",
+		type: "item",
+		item: "botania:forestdrum"
+	},
+	{
+		uid: "024a6b58",
+		type: "item",
+		item: "harvestcraft:crispyricepuffcerealitem"
+	}]
+}

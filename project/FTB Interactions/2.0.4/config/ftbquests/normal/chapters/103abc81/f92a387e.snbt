@@ -1,0 +1,17 @@
+{
+	title: "通往地狱之路",
+	x: 4.0d,
+	y: 2.0d,
+	description: "为了到达下界，你需要合成十个这样的下界传送门方块。一旦你到达了下界之后，你周围生成怪物的难度也会随之增加。注意在基础工作台中合成需要用到死亡之水。",
+	dependencies: [
+		"cfcc58ad"
+	],
+	tasks: [{
+		uid: "04261b03",
+		type: "item",
+		items: [{
+			item: "sonarcore:stablestonerimmed_black"
+		}],
+		count: 10L
+	}]
+}

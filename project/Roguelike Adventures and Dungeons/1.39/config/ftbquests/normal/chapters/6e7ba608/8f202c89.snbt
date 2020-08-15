@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	dependencies: [
+		"9c73a56d"
+	],
+	tasks: [{
+		uid: "6958de4e",
+		type: "item",
+		items: [{
+			item: "tropicraft:air_compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "732fe8ed",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

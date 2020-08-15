@@ -1,0 +1,84 @@
+{
+	x: -9.5d,
+	y: -3.5d,
+	description: "在没有自动化生产的燃料或极高热值的燃料的情况下，加热这个锅炉就是一场必定会输的战斗。",
+	text: [
+		"-需要一个输入仓输入水。",
+		"-需要一个输入总线输入熔炉燃料来燃烧。如果你不用输入总线而是使用输入仓，它也可以使用柴油发电机燃料或半固体燃料",
+		"-需要一个输出仓输出蒸汽。输出仓会自动输出储存的液体。",
+		"你可以同时使用物品和液体输入，强烈建议烧改良焦炉生产的焦煤和杂酚油。"
+	],
+	dependencies: [
+		"51878972"
+	],
+	tasks: [{
+		uid: "cfeffefc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 521"
+		}]
+	},
+	{
+		uid: "38efb5e3",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_firebox_casing"
+		}],
+		count: 6L
+	},
+	{
+		uid: "61b10a45",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing"
+		}],
+		count: 2L
+	},
+	{
+		uid: "6bc72dca",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing"
+		}],
+		count: 23L
+	},
+	{
+		uid: "3e597d64",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 710"
+		}]
+	},
+	{
+		uid: "11cd2109",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}]
+	},
+	{
+		uid: "4192d247",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "f97763da",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 1s
+		},
+		count: 8
+	},
+	{
+		uid: "91e4ef06",
+		type: "item",
+		item: "projecte:item.pe_fuel 1 2"
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	x: 3.5d,
+	y: -11.0d,
+	text: [
+		"我想这是不可避免的。所有的这些过程都在一定程度上污染了土地，但大自然适应了，因此我给你一只污泥鸡。这种鸡把废料当成了家，用它的蛋能直接产生污泥。",
+		"污泥可以变成木炭副产，完全不需要热解炉。为了达到最佳效果，你需要使用蒸馏塔进行进一步处理。"
+	],
+	dependencies: [
+		"bad8af80",
+		"99e967c1"
+	],
+	tasks: [{
+		uid: "c5cae70b",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:smogchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "1919364f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:smog_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "73232377",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "charcoal_byproducts",
+					Amount: 64000
+				}
+			},
+			Damage: 32405s
+		}
+	},
+	{
+		uid: "bf33c07f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

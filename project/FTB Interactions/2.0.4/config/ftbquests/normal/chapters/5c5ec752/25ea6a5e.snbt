@@ -1,0 +1,61 @@
+{
+	title: "改良焦炉……",
+	x: 3.0d,
+	y: 1.0d,
+	description: "制作改良焦炉蓝图并建造多方块结构，这将让你能够更高效地处理煤炭和木炭。它甚至能够把木炭变成焦煤。这个过程大约是普通焦炉的两倍速快。",
+	text: [
+		"与大多数多方块机器一样，改良焦炉之间可以共享顶部和底部的方块。运行5个改良焦炉应该就能够完全驱动大型锅炉。"
+	],
+	dependencies: [
+		"669a0a29"
+	],
+	tasks: [{
+		uid: "f10f70e4",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:improved_coke_oven"
+			}
+		}]
+	},
+	{
+		uid: "480001dc",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 8"
+		}],
+		count: 4L
+	},
+	{
+		uid: "62c17482",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "afbe5463",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 11"
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "ca2535f4",
+		type: "item",
+		item: "gregtech:meta_item_1 1 8357",
+		count: 32
+	},
+	{
+		uid: "8bea21a1",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32487"
+	},
+	{
+		uid: "51ab4d65",
+		type: "item",
+		item: "harvestcraft:crayfishsaladitem"
+	}]
+}

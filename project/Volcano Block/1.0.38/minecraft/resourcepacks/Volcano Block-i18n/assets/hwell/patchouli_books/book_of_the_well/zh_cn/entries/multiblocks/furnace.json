@@ -1,0 +1,75 @@
+{
+    "name": "高温熔炉",
+    "icon": "hwell:heat_furnace",
+    "category": "multiblocks",
+    "sortnum": 30,
+    "pages": [
+		{
+            "type": "text",
+            "title": "高温熔炉",            
+			"text": "一种多方块结构，可以不消耗时间、材料、能量进行烹饪和冶炼。但是，它有时候会从消耗顶部的一些水。$(br)若要使用高温熔炉，将你想冶炼的物品扔到熔炉的前端，产物会立即从熔炉的另一端出来。你扔的物品越多，消耗水的概率就越大。",
+            "recipe": "hwell:heat_furnace"
+        },
+		{
+            "type": "multiblock",
+            "name": "高温熔炉",
+            "multiblock": {
+                "pattern": [
+					["        ", "HPPPPPPH", "HWWWWWWH", "HPPPPPPH", "        "],
+					["  H  H  ", "HPHPPHPH", " AAAAAS ", "HPHPPHPH", "  H  H  "],
+					["  H  H  ", "HPLPPLPH", "HLLLLLL0", "HPLPPLPH", "  H  H  "]
+                ],
+                "mapping": {
+                    "H": "hwell:heat_block",
+					"S": "hwell:heat_furnace",
+					"A": "hwell:furnace_tube",
+                    "P": "hwell:protection_block",
+					"0": "hwell:heat_block",
+                    "L": "minecraft:lava",
+					"W": "minecraft:water"
+                }
+            }
+		},
+		{
+            "type": "multiblock",
+            "name": "高温熔炉",
+			"text": "结构的底部只有中间一排需要岩浆，如右图所示。",
+            "multiblock": {
+                "pattern": [
+					["  H  H  ", "HPHPPHPH", " AAAAAS ", "HPHPPHPH", "  H  H  "],
+					["  H  H  ", "HPLPPLPH", "HLLLLLL0", "HPLPPLPH", "  H  H  "]
+                ],
+                "mapping": {
+                    "H": "hwell:heat_block",
+					"S": "hwell:heat_furnace",
+					"A": "hwell:furnace_tube",
+                    "P": "hwell:protection_block",
+					"0": "hwell:heat_block",
+                    "L": "minecraft:lava"
+                }
+            }
+		},
+		{
+            "type": "multiblock",
+            "name": "高温熔炉",
+			"text": "聚焦管必须水平放置并指向高温熔炉。",
+            "multiblock": {
+                "pattern": [
+					["  H  H  ", "HP PP PH", "HLLLLLL0", "HP PP PH", "  H  H  "]
+                ],
+                "mapping": {
+                    "H": "hwell:heat_block",
+					"S": "hwell:heat_furnace",
+					"A": "hwell:furnace_tube",
+                    "P": "hwell:protection_block",
+					"0": "hwell:heat_block",
+                    "L": "minecraft:lava"
+                }
+            }
+		},
+		{
+			"type": "text",
+			"text": "所需材料：$(br)$(li)1个高温熔炉$(li)28个发热方块$(li)28个抗爆石$(li)6桶水$(li)5个聚焦管$(li)6桶熔岩"
+		}
+    ]
+}

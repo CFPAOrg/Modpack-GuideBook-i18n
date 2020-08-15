@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 3.0d,
+	dependencies: [
+		"8db7c67e"
+	],
+	tasks: [{
+		uid: "54dacf9e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:moss_bed_item"
+		}]
+	}],
+	rewards: [{
+		uid: "b997b36b",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

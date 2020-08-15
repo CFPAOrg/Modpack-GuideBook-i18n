@@ -1,0 +1,24 @@
+{
+	x: 14.0d,
+	y: 8.0d,
+	dependencies: [
+		"e3e69f18"
+	],
+	tasks: [{
+		uid: "352d6a9e",
+		type: "item",
+		items: [{
+			item: "embers:inferno_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "5f48e64d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2742467a",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

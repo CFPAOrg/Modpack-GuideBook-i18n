@@ -1,0 +1,36 @@
+{
+	title: "红石矿脉",
+	x: -9.0d,
+	y: 0.0d,
+	description: "不会在任何地方生成！开个玩笑，其实所有生物群系都会生成~",
+	dependencies: [
+		"ced0c5b8"
+	],
+	tasks: [{
+		uid: "ef0af61d",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_redstone_0"
+		}]
+	},
+	{
+		uid: "248514cc",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cinnabar_0"
+		}]
+	},
+	{
+		uid: "31cbc54a",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ruby_0"
+		}]
+	}],
+	rewards: [{
+		uid: "6ab08326",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 6
+	}]
+}

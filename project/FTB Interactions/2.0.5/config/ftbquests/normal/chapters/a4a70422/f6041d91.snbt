@@ -1,0 +1,42 @@
+{
+	title: "物流梦魇",
+	x: -13.26190476190476d,
+	y: -3.4761904761904816d,
+	text: [
+		"随着你的发展，你会发现库存整理、合成和流体管理会变得越来越复杂。物流管道（Logistics pipes）提供一种优雅的方式将你的库存连接到一起管理。"
+	],
+	tasks: [{
+		uid: "8fc129e5",
+		type: "item",
+		items: [{
+			item: "logisticspipes:power_junction"
+		}]
+	}],
+	rewards: [{
+		uid: "e74aed9b",
+		type: "item",
+		item: "logisticspipes:pipe_transport_basic",
+		count: 64
+	},
+	{
+		uid: "f4976e4f",
+		type: "item",
+		item: "logisticspipes:pipe_manager"
+	},
+	{
+		uid: "5098563d",
+		type: "item",
+		item: "logisticspipes:pipe_controller"
+	},
+	{
+		uid: "69010e60",
+		type: "item",
+		item: "gregtech:machine 1 10658"
+	},
+	{
+		uid: "c2d3cf59",
+		type: "item",
+		item: "logisticspipes:pipe_basic",
+		count: 16
+	}]
+}

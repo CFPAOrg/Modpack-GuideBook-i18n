@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"8e6816fe"
+	],
+	tasks: [{
+		uid: "bebd73ec",
+		type: "item",
+		items: [{
+			item: "atum:quern"
+		}]
+	}],
+	rewards: [{
+		uid: "90b98b2a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "bb9be18b",
+		type: "item",
+		item: "atum:relic_ore"
+	}]
+}

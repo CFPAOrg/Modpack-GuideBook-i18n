@@ -1,0 +1,46 @@
+{
+	title: "贴片元件",
+	x: -9.0d,
+	y: -5.0d,
+	shape: "square",
+	text: [
+		"电路以多种不同的部件制造而成。将贴片部件自动化生产，你绝不会后悔的。这些部件要从LV级一直用到湿件电路。"
+	],
+	dependencies: [
+		"d94602f8"
+	],
+	tasks: [{
+		uid: "b962aefc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32460"
+		}]
+	},
+	{
+		uid: "c7c06742",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32459"
+		}]
+	},
+	{
+		uid: "896677c2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32458"
+		}]
+	},
+	{
+		uid: "a767a240",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32457"
+		}]
+	}],
+	rewards: [{
+		uid: "aae501d4",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32507",
+		count: 8
+	}]
+}

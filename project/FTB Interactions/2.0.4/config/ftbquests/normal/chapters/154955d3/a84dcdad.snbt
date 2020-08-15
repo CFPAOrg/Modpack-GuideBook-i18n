@@ -1,0 +1,12 @@
+{
+	x: -1.0d,
+	y: 6.0d,
+	description: "祝你好运。我把它放在了一个你永远找不到的位置。",
+	tasks: [{
+		uid: "3aaebe00",
+		type: "item",
+		items: [{
+			item: "minecraft:stained_hardened_clay 1 9"
+		}]
+	}]
+}

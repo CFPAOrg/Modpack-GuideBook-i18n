@@ -1,0 +1,36 @@
+{
+	title: "镁矿脉",
+	x: -4.0d,
+	y: -13.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"78546de8",
+		"fe50d67e"
+	],
+	tasks: [{
+		uid: "8d21f251",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_magnesite_0"
+		}]
+	},
+	{
+		uid: "356c4776",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_calcite_0"
+		}]
+	},
+	{
+		uid: "13b37de8",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_olivine_0"
+		}]
+	}],
+	rewards: [{
+		uid: "26b92c76",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

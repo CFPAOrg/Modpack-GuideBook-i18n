@@ -1,0 +1,44 @@
+{
+	title: "这是一场胜利",
+	x: -5.0d,
+	y: 1.0d,
+	description: "在整合包的家乡，该设备现在比每个人的器官和综合收入更有价值。",
+	text: [
+		"可以在地牢中被找到，也可以制作出来"
+	],
+	tasks: [{
+		uid: "8a20ad0d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "portalgun:item_portalgun",
+			tag: {
+				lastFired: 1,
+				width: 1,
+				channelName: "Chell",
+				grabStrength: 4,
+				uuid: "Global",
+				username: "Global",
+				height: 2
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "edd699a1",
+		type: "item",
+		icon: "actuallyadditions:item_food 1 8",
+		item: {
+			id: "minecraft:lingering_potion",
+			tag: {
+				RepairCost: 0,
+				Potion: "cofhcore:wither3+",
+				display: {
+					Name: "\"Cake\""
+				}
+			}
+		}
+	}]
+}

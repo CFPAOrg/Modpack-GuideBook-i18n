@@ -1,0 +1,55 @@
+{
+	title: "“有人需要呕吐袋嘛？”",
+	icon: "minecraft:fireworks",
+	x: 1.0d,
+	y: -17.0d,
+	shape: "diamond",
+	description: "现在你可以准备发射进入太空站来搭建你的火箭啦，并且可以通过你的pad来组装火箭，一旦组装好了，你就可以往导航电脑中插入你的空间站ID芯片，以及把你的空间站放进卫星仓。 ",
+	dependencies: [
+		"95179e4c",
+		"df12bbbe",
+		"b7776072",
+		"6f38c8a5"
+	],
+	tasks: [{
+		uid: "46f38270",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketmotor"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a26ecf13",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}],
+		count: 7L
+	},
+	{
+		uid: "38031240",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:seat"
+		}]
+	},
+	{
+		uid: "0f0de0ea",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	}],
+	rewards: [{
+		uid: "b845353b",
+		type: "item",
+		title: "Miniature Rocket",
+		item: "minecraft:fireworks"
+	},
+	{
+		uid: "0d5a060f",
+		type: "item",
+		item: "harvestcraft:theatreboxitem"
+	}]
+}

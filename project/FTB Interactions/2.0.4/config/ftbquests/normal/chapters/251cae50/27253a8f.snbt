@@ -1,0 +1,15 @@
+{
+	title: "HV时代",
+	icon: "gregtech:machine 1 503",
+	x: -9.0d,
+	y: -2.0d,
+	description: "此行的项目在大多数HV配方中使用。",
+	dependencies: [
+		"c193d3a6",
+		"3308d327"
+	],
+	tasks: [{
+		uid: "d4ff2a19",
+		type: "checkmark"
+	}]
+}

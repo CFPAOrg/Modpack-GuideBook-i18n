@@ -1,0 +1,35 @@
+{
+	title: "等等，什么?",
+	x: 1.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f57ae90d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "88818464",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 7"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c035debe",
+		type: "item",
+		item: "randomloot:titan_case"
+	},
+	{
+		uid: "eda30a61",
+		type: "item",
+		item: "chancecubes:chance_icosahedron"
+	},
+	{
+		uid: "3bb02760",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

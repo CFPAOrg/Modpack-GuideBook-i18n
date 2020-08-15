@@ -1,0 +1,18 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	description: "你需要下届合金块去搭建你3阶祭坛的顶部。这种金属可以在地狱的古老栖息地发现并且他们有藏其他的资源在这。",
+	text: [
+		"在Y<=17的地狱深处随机生成。"
+	],
+	dependencies: [
+		"4fa0097b"
+	],
+	tasks: [{
+		uid: "a7425586",
+		type: "item",
+		items: [{
+			item: "netherbackport:netheriteblock"
+		}]
+	}]
+}

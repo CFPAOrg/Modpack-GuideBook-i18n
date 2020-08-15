@@ -1,0 +1,16 @@
+{
+    "name": "催生机",
+    "icon": "hwell:nourisher",
+    "category": "other_machines",
+    "sortnum": 40,
+    "pages": [
+        { 	"type": "spotlight",
+            "item": "hwell:nourisher",
+            "text": "使用催生机来改善你的农场。只要你提供能量，它将大大提高周围农作物的生长速度。$(br2)"
+        },
+		{ 	"type": "crafting",
+            "recipe": "hwell:nourisher",
+            "text": ""
+        }
+    ]
+}

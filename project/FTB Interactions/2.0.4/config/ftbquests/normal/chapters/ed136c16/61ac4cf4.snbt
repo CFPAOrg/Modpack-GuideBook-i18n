@@ -1,0 +1,40 @@
+{
+	title: "没有史莱姆空岛",
+	x: -14.0d,
+	y: -5.0d,
+	description: "如果你想要某些彩色史莱姆球用于制作装备或刻印工具，你必须种植树木来收获它们。",
+	tasks: [{
+		uid: "40d93cf4",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_sapling"
+		}]
+	},
+	{
+		uid: "df2dfcb5",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_sapling 1 1"
+		}]
+	},
+	{
+		uid: "f34c1b76",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_sapling 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "5861534b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xreliquary:mob_charm",
+			tag: {
+				type: 10
+			}
+		}
+	}]
+}

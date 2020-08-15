@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: -3.0d,
+	dependencies: [
+		"5d6a9dc5"
+	],
+	tasks: [{
+		uid: "ce779fe3",
+		type: "item",
+		items: [{
+			item: "tropicraft:yellow_scuba_goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c08f26f0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "你的第一个树场",
+	x: -5.0d,
+	y: 3.0d,
+	description: "使用烽火树能更容易地收集木头和树苗。",
+	dependencies: [
+		"77432fb3",
+		"b1dded11"
+	],
+	tasks: [{
+		uid: "b69491c4",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blocktreebeacon"
+		}]
+	}],
+	rewards: [{
+		uid: "ae372ac8",
+		type: "item",
+		item: "enderutilities:enderpart 1 73",
+		count: 3
+	},
+	{
+		uid: "32a17468",
+		type: "item",
+		item: "thaumcraft:seal 1 1"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: -1.0d,
+	y: -7.0d,
+	dependencies: [
+		"85ebb835"
+	],
+	tasks: [{
+		uid: "1ed0628b",
+		type: "item",
+		items: [{
+			id: "minecraft:shield",
+			tag: {
+				Quality: {
+					Slots: [
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 5798395279653817724L,
+						UUIDLeast: -7031094138227291250L,
+						Amount: 0.5d,
+						AttributeName: "generic.knockbackResistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.solid.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f965f11e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

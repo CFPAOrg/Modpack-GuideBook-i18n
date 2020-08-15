@@ -1,0 +1,41 @@
+{
+	title: "格雷锉刀",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				PrimaryMaterial: "darmstadtium",
+				HandleMaterial: "darmstadtium"
+			}
+		},
+		Damage: 9s
+	},
+	x: -12.0d,
+	y: -6.0d,
+	description: "有些金属太软了，不能制作锉，比如铜。推荐使用格雷的主要材料，如青铜，铁，锻铁，钢，等等。",
+	tasks: [{
+		uid: "82868ab5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "iron"
+				}
+			},
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4beb53ba",
+		type: "item",
+		item: "gregtech:meta_item_2 1 6113"
+	}]
+}

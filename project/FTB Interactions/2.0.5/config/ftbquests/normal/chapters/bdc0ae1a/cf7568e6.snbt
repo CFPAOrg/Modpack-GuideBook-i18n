@@ -1,0 +1,31 @@
+{
+	title: "“记得你试图杀死我两次？”",
+	x: 9.0d,
+	y: 4.5d,
+	dependencies: [
+		"7df3941b"
+	],
+	tasks: [{
+		uid: "620ad4bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:dice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2283900f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:dice",
+			tag: {}
+		}
+	}]
+}

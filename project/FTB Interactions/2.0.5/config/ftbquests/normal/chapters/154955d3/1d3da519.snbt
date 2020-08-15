@@ -1,0 +1,35 @@
+{
+	title: "但不吃这个冶炼炉",
+	x: -5.0d,
+	y: 10.0d,
+	text: [
+		"去往主世界并不一定需要它，但它能让之后需要的焦黑石头更容易制作。"
+	],
+	dependencies: [
+		"d6382de0",
+		"7d56d52e",
+		"555a1a94"
+	],
+	tasks: [{
+		uid: "c3da0a4b",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_melter"
+		}]
+	}],
+	rewards: [{
+		uid: "841297c7",
+		type: "item",
+		item: "harvestcraft:applepieitem"
+	},
+	{
+		uid: "cecdc228",
+		type: "item",
+		item: "extrautils2:redstoneclock"
+	},
+	{
+		uid: "032d256e",
+		type: "item",
+		item: "tconstruct:cast"
+	}]
+}

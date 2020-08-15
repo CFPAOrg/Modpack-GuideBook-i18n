@@ -1,0 +1,41 @@
+{
+	x: -2.0d,
+	y: -4.5d,
+	text: [
+		"作为替代刷怪场或莲花农场的一种办法，知识鸡的蛋可用于提取液态经验。"
+	],
+	dependencies: [
+		"bad8af80",
+		"a916453b"
+	],
+	tasks: [{
+		uid: "777f3a55",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:learningchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "690ad6f7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:learning_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "c0bbe073",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "28ffe40d",
+		type: "item",
+		item: "gregtech:machine 1 300"
+	}]
+}

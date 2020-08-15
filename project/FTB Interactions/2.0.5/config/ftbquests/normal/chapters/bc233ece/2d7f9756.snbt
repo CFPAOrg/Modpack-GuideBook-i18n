@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: 1.0d,
+	dependencies: [
+		"27bdd5c0"
+	],
+	tasks: [{
+		uid: "8e7e221e",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "infused_nitrofuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

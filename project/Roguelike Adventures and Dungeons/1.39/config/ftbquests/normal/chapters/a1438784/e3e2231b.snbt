@@ -1,0 +1,35 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"8e6816fe"
+	],
+	tasks: [{
+		uid: "6ebcbd77",
+		type: "kill",
+		entity: "atum:assassin",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "f39aa3bc",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 8
+	},
+	{
+		uid: "846e5240",
+		type: "item",
+		item: "atum:khnumite",
+		count: 2
+	},
+	{
+		uid: "5a222fba",
+		type: "item",
+		item: "atum:emmer_seeds"
+	},
+	{
+		uid: "4bcd98fd",
+		type: "item",
+		item: "roughtweaks:bandage"
+	}]
+}

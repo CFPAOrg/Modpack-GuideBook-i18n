@@ -1,0 +1,38 @@
+{
+	x: -2.0d,
+	y: 6.0d,
+	description: "Rustic的酿造系统能在游戏早期提供生命恢复buff。祝你好运，你会需要它的。",
+	dependencies: [
+		"a84dcdad",
+		"ca362eca"
+	],
+	tasks: [{
+		uid: "df099f0e",
+		type: "item",
+		items: [{
+			item: "rustic:condenser"
+		}]
+	},
+	{
+		uid: "aa84579b",
+		type: "item",
+		items: [{
+			item: "rustic:retort"
+		}],
+		count: 2L
+	},
+	{
+		uid: "8bd87114",
+		type: "item",
+		items: [{
+			id: "rustic:elixir",
+			tag: {
+				ElixirEffects: [{
+					Effect: "minecraft:instant_health",
+					Duration: 1,
+					Amplifier: 0
+				}]
+			}
+		}]
+	}]
+}

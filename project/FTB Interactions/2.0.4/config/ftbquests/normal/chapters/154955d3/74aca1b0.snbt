@@ -1,0 +1,18 @@
+{
+	title: "双击搜索",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -3.0d,
+	y: -2.0d,
+	shape: "gear",
+	description: "在任务界面连续按shift键两次可开启任务搜索栏。它能帮你更方便的追踪在其他页面的任务前置。",
+	tasks: [{
+		uid: "07551b23",
+		type: "checkmark"
+	}]
+}

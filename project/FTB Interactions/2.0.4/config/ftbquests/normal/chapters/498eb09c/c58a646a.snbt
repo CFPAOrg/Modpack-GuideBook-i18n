@@ -1,0 +1,30 @@
+{
+	title: "蒸馏室总是处于中等的精神状态。",
+	x: -8.0d,
+	y: -2.0d,
+	description: "有些配方和机器的运行速度比其他配方和机器快，因此请注意瓶颈在哪。此外，生产线中的一些配方具有不同的最小电压，因此它们可能会超频并使数学计算进一步复杂化。",
+	dependencies: [
+		"31031dcd"
+	],
+	tasks: [{
+		uid: "331e59b9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 231"
+		}]
+	}],
+	rewards: [{
+		uid: "d1a08192",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "biomass",
+					Amount: 64000
+				}
+			},
+			Damage: 32405s
+		}
+	}]
+}

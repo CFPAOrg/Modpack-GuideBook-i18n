@@ -1,0 +1,21 @@
+{
+	x: -4.0d,
+	y: 4.5d,
+	dependencies: [
+		"e2616a91",
+		"1de75dbc"
+	],
+	tasks: [{
+		uid: "2c097e10",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	}],
+	rewards: [{
+		uid: "cdfd50e8",
+		type: "item",
+		item: "botania:livingwood",
+		count: 8
+	}]
+}

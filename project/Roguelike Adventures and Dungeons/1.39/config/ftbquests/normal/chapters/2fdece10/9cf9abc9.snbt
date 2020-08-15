@@ -1,0 +1,169 @@
+{
+	x: 4.0d,
+	y: -6.0d,
+	dependencies: [
+		"786a97ec"
+	],
+	tasks: [{
+		uid: "3b6235cf",
+		type: "item",
+		items: [{
+			id: "spartanfire:spear_jungle",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 1877611536110471039L,
+						UUIDLeast: -5196072055718469816L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 4590680842515530597L,
+						UUIDLeast: -5032701215089036176L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.chipped.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "76584865",
+		type: "item",
+		items: [{
+			id: "spartanfire:pike_jungle",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -8360509963154943L,
+						UUIDLeast: -6615784923406455030L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "795895f3",
+		type: "item",
+		items: [{
+			id: "spartanfire:lance_jungle",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -6476682380959069885L,
+						UUIDLeast: -5604285832100509981L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 6231755402916350757L,
+						UUIDLeast: -8175618202667836682L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8a7221bc",
+		type: "item",
+		items: [{
+			id: "spartanfire:halberd_jungle",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -6651221511541472917L,
+						UUIDLeast: -7820149270100536920L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 4109619025802183643L,
+						UUIDLeast: -7188073878339142558L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "481a2c57",
+		type: "item",
+		items: [{
+			id: "spartanfire:staff_jungle",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "17455d77",
+		type: "item",
+		items: [{
+			id: "spartanfire:glaive_jungle",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6dc5f9bf",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "a9175339",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	title: "赞美太阳 \(T)/",
+	x: -1.0d,
+	y: -3.5d,
+	dependencies: [
+		"185b535b",
+		"73fa51ac"
+	],
+	tasks: [{
+		uid: "83da96c0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2506"
+		}]
+	},
+	{
+		uid: "f5da30f0",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil 1 8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "dfdac0ff",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing 1 4"
+		}],
+		count: 79L
+	},
+	{
+		uid: "3e718361",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}],
+		count: 2L
+	},
+	{
+		uid: "893376f5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}]
+	}],
+	rewards: [{
+		uid: "081c2224",
+		type: "item",
+		item: "gregtech:meta_item_2 1 15807",
+		count: 8
+	}]
+}

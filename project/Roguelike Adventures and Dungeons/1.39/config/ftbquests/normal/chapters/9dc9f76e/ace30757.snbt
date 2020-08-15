@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	text: [
+		"可用存储项"
+	],
+	dependencies: [
+		"16c3f3d7"
+	],
+	tasks: [{
+		uid: "c412b8c4",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "046dc755",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

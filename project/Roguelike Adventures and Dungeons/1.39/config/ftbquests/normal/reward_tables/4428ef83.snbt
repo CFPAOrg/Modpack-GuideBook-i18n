@@ -1,0 +1,85 @@
+{
+	title: "随机种子",
+	loot_size: 27,
+	rewards: [{
+		item: "harvestcraft:blackberryseeditem"
+	},
+	{
+		item: "harvestcraft:blueberryseeditem"
+	},
+	{
+		item: "harvestcraft:candleberryseeditem"
+	},
+	{
+		item: "harvestcraft:raspberryseeditem"
+	},
+	{
+		item: "harvestcraft:strawberryseeditem"
+	},
+	{
+		item: "harvestcraft:cactusfruitseeditem"
+	},
+	{
+		item: "harvestcraft:asparagusseeditem"
+	},
+	{
+		item: "harvestcraft:barleyseeditem"
+	},
+	{
+		item: "harvestcraft:coffeeseeditem"
+	},
+	{
+		item: "harvestcraft:grapeseeditem"
+	},
+	{
+		item: "harvestcraft:elderberryseeditem"
+	},
+	{
+		item: "harvestcraft:juteseeditem"
+	},
+	{
+		item: "harvestcraft:kenafseeditem"
+	},
+	{
+		item: "harvestcraft:gigapickleseeditem"
+	},
+	{
+		item: "harvestcraft:spinachseeditem"
+	},
+	{
+		item: "harvestcraft:flaxseeditem"
+	},
+	{
+		item: "harvestcraft:milletseeditem"
+	},
+	{
+		item: "harvestcraft:soybeanseeditem"
+	},
+	{
+		item: "harvestcraft:beanseeditem"
+	},
+	{
+		item: "harvestcraft:cottonseeditem"
+	},
+	{
+		item: "harvestcraft:tomatoseeditem"
+	},
+	{
+		item: "harvestcraft:seaweedseeditem"
+	},
+	{
+		item: "harvestcraft:curryleafseeditem"
+	},
+	{
+		item: "harvestcraft:coffeeseeditem"
+	},
+	{
+		item: "harvestcraft:barleyseeditem"
+	},
+	{
+		item: "harvestcraft:asparagusseeditem"
+	},
+	{
+		item: "harvestcraft:cactusfruitseeditem"
+	}]
+}

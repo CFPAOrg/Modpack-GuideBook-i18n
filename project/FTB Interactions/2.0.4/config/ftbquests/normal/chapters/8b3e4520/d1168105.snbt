@@ -1,0 +1,25 @@
+{
+	x: -5.5d,
+	y: -1.5d,
+	dependencies: [
+		"57ab5c66"
+	],
+	tasks: [{
+		uid: "9fc0d4b6",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tungstate_0 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "513b2395",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2074",
+		count: 16
+	},
+	{
+		uid: "69961bc8",
+		type: "item",
+		item: "harvestcraft:chaoscookieitem"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 10.0d,
+	dependencies: [
+		"2b15bcdb"
+	],
+	tasks: [{
+		uid: "548ebf52",
+		type: "item",
+		items: [{
+			item: "cryingobsidian:crying_obsidian_block"
+		}]
+	}]
+}

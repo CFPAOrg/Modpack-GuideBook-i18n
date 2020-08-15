@@ -1,0 +1,5 @@
+{
+	title: "一个随机物品",
+	loot_size: 27,
+	rewards: []
+}

@@ -1,0 +1,48 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	dependencies: [
+		"eb191328"
+	],
+	tasks: [{
+		uid: "bfcff6d5",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonegg_red"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e4b72309",
+		type: "item",
+		item: "iceandfire:pixie_house 1 3"
+	},
+	{
+		uid: "6e99e1fe",
+		type: "item",
+		item: "iceandfire:pixie_dust"
+	},
+	{
+		uid: "73f2939c",
+		type: "item",
+		item: "iceandfire:troll_leather_forest",
+		count: 8
+	},
+	{
+		uid: "0788ee7a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "097ec74b",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "iceandfire:if_troll"
+				}
+			}
+		}
+	}]
+}

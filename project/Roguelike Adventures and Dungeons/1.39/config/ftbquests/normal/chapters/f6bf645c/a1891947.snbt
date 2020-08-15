@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	dependencies: [
+		"c6313167"
+	],
+	tasks: [{
+		uid: "3bbdc6a0",
+		type: "item",
+		items: [{
+			item: "twilightforest:giant_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ea729f1",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

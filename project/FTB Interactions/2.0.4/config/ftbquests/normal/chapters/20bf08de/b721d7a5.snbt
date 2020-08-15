@@ -1,0 +1,58 @@
+{
+	x: -5.0d,
+	y: -8.0d,
+	text: [
+		"核心镶饰台允许你为法师护手创建和升级核心。它能为你在游戏前期获得大量不同的增益效果，我们特别推荐一个治疗核心以在需要时治疗自己。"
+	],
+	dependencies: [
+		"0d7b471a"
+	],
+	tasks: [{
+		uid: "991e687a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:wand_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "3c21d50a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:focus_2"
+		}
+	},
+	{
+		uid: "66dbefb2",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "victus"
+				}]
+			}
+		}
+	},
+	{
+		uid: "e2df58fd",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "alkimia"
+				}]
+			}
+		}
+	},
+	{
+		uid: "706ff39f",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

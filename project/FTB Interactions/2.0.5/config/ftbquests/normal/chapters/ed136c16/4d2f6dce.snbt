@@ -1,0 +1,38 @@
+{
+	title: "廉价的工具",
+	x: -13.0d,
+	y: -3.0d,
+	text: [
+		"在你获得更先进的机器之前，你只能用一些低端和廉价的材料来制作匠魂工具，之后你才能将更好的材料塑形。",
+		"",
+		"这不会是你旅途的终点。如果你具有足够的创造性，即使是石质工具也能陪你很久，你只需要用红石，钻石和磨制工具给它强化。而且，你还可以用便宜的石头来修复它，即使坏了也不心疼！"
+	],
+	dependencies: [
+		"495cac08"
+	],
+	tasks: [{
+		uid: "48d79077",
+		type: "item",
+		items: [{
+			id: "tconstruct:hammer_head",
+			tag: {
+				Material: "stone"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4e4648db",
+		type: "item",
+		item: "minecraft:flint"
+	},
+	{
+		uid: "d59d60f3",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "diamatine_actadd_plustic"
+			}
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "诡异又可怕的黏球",
+	x: -11.5d,
+	y: -1.0d,
+	shape: "square",
+	description: "灵魂在击杀怪物时有概率生成，你也可以通过召唤祭坛生成灵魂（但不是在空岛世界！）。为了伤害它们，你必须用魔法伤害，也就是喷溅型伤害药水。",
+	tasks: [{
+		uid: "decad255",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "50e17146",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "spiritus"
+				}]
+			},
+			Damage: 1s
+		}
+	}]
+}

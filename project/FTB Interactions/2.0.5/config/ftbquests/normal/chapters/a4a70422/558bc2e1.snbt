@@ -1,0 +1,23 @@
+{
+	x: -5.0d,
+	y: -7.0d,
+	description: "附上扩容附魔这就是最丧病的便携液体储存。",
+	dependencies: [
+		"aa752963"
+	],
+	tasks: [{
+		uid: "c1571686",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0,
+				Level: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

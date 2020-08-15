@@ -1,0 +1,34 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	description: "要进入青铜时代，你需要相当大量的的青铜。",
+	text: [
+		"你可以烧一些铜锭和锡锭然后用研钵研磨它们。 或者如果你做了挤压机，你可以把矿石直接放进去处理成粉。 将它们混合成青铜粉并烧出你的第一块青铜锭。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d6801307"
+	],
+	tasks: [{
+		uid: "1d4c77a4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10095"
+		}]
+	},
+	{
+		uid: "2c651a06",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2018"
+		}],
+		count: 3L
+	},
+	{
+		uid: "e29b30a0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2071"
+		}]
+	}]
+}

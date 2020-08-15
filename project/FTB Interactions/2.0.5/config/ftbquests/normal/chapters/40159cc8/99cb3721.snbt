@@ -1,0 +1,28 @@
+{
+	title: "元始粉末",
+	x: 5.0d,
+	y: -8.0d,
+	text: [
+		"有了这些来自Euclydes星的终极原料，你现在可以生产元始粉末，然后生产元始魔力，这是终极的魔法能量汇集。在高级的电力高炉提供的足够高的热量与温度下具有极高反应活性。"
+	],
+	dependencies: [
+		"2f6967ca"
+	],
+	tasks: [{
+		uid: "2a82909d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1028"
+		}]
+	}],
+	rewards: [{
+		uid: "b83dfe52",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_life_stone"
+		}
+	}]
+}

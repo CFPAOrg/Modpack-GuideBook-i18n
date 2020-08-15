@@ -1,0 +1,39 @@
+{
+	title: "饥饿的工匠",
+	icon: "artisanworktables:worktable 1 5",
+	x: -2.0d,
+	y: 2.0d,
+	description: "你终于有了第一个工作台。它需要消耗额外的材料，而且不能自动化。之后，你会用机器来替代它。此外，使用它的配方还可能需要液体。",
+	dependencies: [
+		"9c5fed89"
+	],
+	tasks: [{
+		uid: "011cd1ac",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 5"
+		}]
+	},
+	{
+		uid: "422d388d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal_tech:stone_mallet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a56cd8a",
+		type: "item",
+		item: "harvestcraft:tunafishsandwichitem"
+	},
+	{
+		uid: "76bd0eb4",
+		type: "item",
+		item: "artisanworktables:toolbox"
+	}]
+}

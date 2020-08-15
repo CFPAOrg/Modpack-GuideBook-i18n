@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: -6.0d,
+	dependencies: [
+		"73d4705b"
+	],
+	tasks: [{
+		uid: "0a9b46ea",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk"
+		}]
+	}],
+	rewards: [{
+		uid: "289df0f4",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

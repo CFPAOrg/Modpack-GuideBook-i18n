@@ -1,0 +1,101 @@
+{
+	title: "“长命百岁！”",
+	x: 1.0d,
+	y: -18.5d,
+	description: "为了在没有大气层的情况下生存，你需要太空服与氧气。在制作了基本的太空服后，你需要在太空服调节台进行升级，胸甲的氧气罐是最重要的，你也可以选择添加其他可用的配件。",
+	text: [
+		"请确保你是使用格雷科技的氧气来填充你的氧气罐。",
+		"您可以选择在装备上使用真空密封附魔来代替太空服，它提供了一个内置的小储罐。你不能添加更多储罐或者升级它，所以，你在用空气换取更多的保护，但这值得。"
+	],
+	dependencies: [
+		"425146df"
+	],
+	tasks: [{
+		uid: "8ac46537",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:suitworkstation"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f8ea46d8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spacehelmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "43e79be0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spaceboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7253d4ce",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spacechestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "62ca0375",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:pressuretank",
+			Damage: 2s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c357cb49",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spaceleggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "48270b23",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1,
+					id: 27
+				}]
+			}
+		}
+	},
+	{
+		uid: "2727fc5e",
+		type: "item",
+		item: "harvestcraft:koreandinneritem"
+	}]
+}

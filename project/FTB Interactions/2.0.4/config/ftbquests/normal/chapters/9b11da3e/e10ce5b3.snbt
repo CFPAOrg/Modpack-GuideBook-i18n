@@ -1,0 +1,40 @@
+{
+	title: "锰矿脉",
+	x: -9.0d,
+	y: -2.0d,
+	description: "在所有的生物群系中生成，较为稀缺。",
+	text: [
+		"锰矿脉在主世界非！常！罕！见！你最好在下界碰碰运气。"
+	],
+	dependencies: [
+		"04f0531a"
+	],
+	tasks: [{
+		uid: "56813e21",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrolusite_0"
+		}]
+	},
+	{
+		uid: "de6ac878",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_grossular_0"
+		}]
+	},
+	{
+		uid: "ab4512e3",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tantalite_0"
+		}]
+	},
+	{
+		uid: "7dfb7100",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_spessartine_0"
+		}]
+	}]
+}

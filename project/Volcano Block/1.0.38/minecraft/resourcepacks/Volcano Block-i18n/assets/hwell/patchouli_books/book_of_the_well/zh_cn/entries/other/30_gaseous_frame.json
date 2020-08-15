@@ -1,0 +1,19 @@
+{
+    "name": "气态框架",
+    "icon": "hwell:gaseous_frame",
+    "category": "other",
+    "sortnum": 30,
+    "pages": [
+    	{	
+            "type": "spotlight",
+            "title": "气态框架",
+			"item": "hwell:gaseous_frame",
+			"text": "在右键单击之前，气态框架是一个固体方块，但右键后会变成气体方块。它还能连接到接触它的任何气态框架，并对其进行转换。可以再次单击鼠标右键将其恢复正常。"
+        },
+		{	
+            "type": "crafting",
+            "title": "气态框架",
+			"recipe": "hwell:gaseous_frame"
+        }
+    ]
+}

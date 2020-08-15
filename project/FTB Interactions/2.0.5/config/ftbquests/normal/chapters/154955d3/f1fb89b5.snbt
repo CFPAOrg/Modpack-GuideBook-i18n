@@ -1,0 +1,18 @@
+{
+	disable_toast: true,
+	x: 7.5d,
+	y: -3.5d,
+	shape: "rsquare",
+	text: [
+		"圆角正方形是推荐的可选任务，但它们不是主线任务的一部分。"
+	],
+	dependencies: [
+		"3b4bd52b"
+	],
+	tasks: [{
+		uid: "2c813b57",
+		type: "checkmark",
+		title: "可选任务",
+		icon: "gregtech:machine 1 825"
+	}]
+}

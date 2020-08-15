@@ -1,0 +1,43 @@
+{
+	title: "秩序蕴魔矿和蓝宝石矿脉",
+	x: -7.0d,
+	y: -5.0d,
+	description: "仅生成在寒冷的生物群系。",
+	dependencies: [
+		"e3f5c7be"
+	],
+	tasks: [{
+		uid: "aa2dfc76",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ordo_infused_0"
+		}]
+	},
+	{
+		uid: "0cd63889",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sapphire_0"
+		}]
+	},
+	{
+		uid: "196f79ee",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tanzanite_0"
+		}]
+	},
+	{
+		uid: "8466db2e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_green_sapphire_0"
+		}]
+	}],
+	rewards: [{
+		uid: "27329411",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2157",
+		count: 4
+	}]
+}

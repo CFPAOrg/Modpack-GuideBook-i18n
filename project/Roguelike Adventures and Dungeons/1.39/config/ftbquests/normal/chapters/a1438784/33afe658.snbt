@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	dependencies: [
+		"95af4be3"
+	],
+	tasks: [{
+		uid: "38e83e85",
+		type: "item",
+		items: [{
+			item: "atum:fish_forsaken"
+		}]
+	}],
+	rewards: [{
+		uid: "1935e0b7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

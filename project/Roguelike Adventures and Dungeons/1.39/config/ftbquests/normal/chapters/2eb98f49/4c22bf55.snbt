@@ -1,0 +1,35 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	text: [
+		"灰烬能量发射器是用来提取方块中的灰烬能量的(比如铜质灰烬能量单元和晶胞灰烬能量单元)。需要红石信号工作，并且需要用铁匠锤链接到一个灰烬能量接收器或灰烬能量漏斗。",
+		"",
+		"灰烬能量接收器是用来传输灰烬能量进入贴着的方块。需要用铁匠锤和灰烬能量发射器或者多方向爆射器链接。",
+		"",
+		"手持铁匠锤，shift右键接收端（灰烬能量接收器），然后右键发射端（灰烬能量发射器）来链接一对能量的输入输出。"
+	],
+	dependencies: [
+		"56f8ecf9",
+		"70aedd69"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "1448a82a",
+		type: "item",
+		items: [{
+			item: "embers:ember_emitter"
+		}]
+	},
+	{
+		uid: "e2229f95",
+		type: "item",
+		items: [{
+			item: "embers:ember_receiver"
+		}]
+	}],
+	rewards: [{
+		uid: "561318a0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	x: -14.5d,
+	y: -2.5d,
+	text: [
+		"你需要一个物流程序编译器，物流磁盘和物流编程器来刷入程序。从这里开始研究你的物流底盘升级。模块和升级可以使用凿子来切换。"
+	],
+	dependencies: [
+		"f6041d91"
+	],
+	tasks: [{
+		uid: "ec194a7a",
+		type: "item",
+		items: [{
+			item: "logisticspipes:program_compiler"
+		}]
+	},
+	{
+		uid: "c4f472f4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "logisticspipes:disk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d6c12b3",
+		type: "item",
+		items: [{
+			item: "logisticspipes:logistics_programmer"
+		}]
+	}],
+	rewards: [{
+		uid: "ead10333",
+		type: "item",
+		item: "logisticspipes:pipe_basic",
+		count: 4
+	},
+	{
+		uid: "74a1f116",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "logisticspipes:guide_book",
+			tag: {
+				sliderProgress: 0.0f,
+				page: 9
+			}
+		}
+	}]
+}

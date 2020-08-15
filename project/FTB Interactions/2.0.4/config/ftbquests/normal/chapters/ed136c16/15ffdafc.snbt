@@ -1,0 +1,30 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	text: [
+		"通量电钻是用红石通量（RF）工作的挖矿工具。它同时具备镐和铲的功能。"
+	],
+	dependencies: [
+		"c193d3a6"
+	],
+	tasks: [{
+		uid: "383e9983",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 40000,
+				Mode: 1
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "59cae91f",
+		type: "item",
+		item: "randomthings:spectreanchor"
+	}]
+}

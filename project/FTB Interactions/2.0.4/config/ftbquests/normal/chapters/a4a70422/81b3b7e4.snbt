@@ -1,0 +1,17 @@
+{
+	x: -8.0d,
+	y: -6.0d,
+	text: [
+		"一格里面还能存更多！一组16个，一个256桶，一格4096桶流体！"
+	],
+	dependencies: [
+		"ec626521"
+	],
+	tasks: [{
+		uid: "aac9c0e1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32406"
+		}]
+	}]
+}

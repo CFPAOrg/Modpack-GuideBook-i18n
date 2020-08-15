@@ -1,0 +1,30 @@
+{
+	x: 5.0d,
+	y: 2.0d,
+	dependencies: [
+		"fea2504c"
+	],
+	tasks: [{
+		uid: "4751a6d7",
+		type: "item",
+		items: [{
+			id: "rustic:fluid_bottle",
+			tag: {
+				Fluid: {
+					FluidName: "ale",
+					Amount: 1000,
+					Tag: {
+						Quality: 0.75f
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "02b6b6f5",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

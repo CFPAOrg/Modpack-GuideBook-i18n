@@ -1,0 +1,24 @@
+{
+	x: -4.0d,
+	y: -4.0d,
+	shape: "diamond",
+	dependencies: [
+		"92121a82"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "58dd6d31",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "tetranitromethane",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

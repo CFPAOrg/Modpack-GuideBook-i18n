@@ -1,0 +1,44 @@
+{
+	title: "附魔最低等级要求",
+	x: -1.5d,
+	y: -6.0d,
+	description: "这个整合包里的最低附魔等级要求调整",
+	text: [
+		"1级：横扫之刃、毒液",
+		"10级：真空密封、吸血、生命修补",
+		"12级：收割者、拾荒者",
+		"15级：斩首",
+		"20级：快弓、稳定立足",
+		"30级：腐烂、灵魂绑定",
+		"40级：万箭、极致无限",
+		"60级：磁引、夜视",
+		"80级：范围扩展"
+	],
+	dependencies: [
+		"bcc51b66"
+	],
+	tasks: [{
+		uid: "a083b575",
+		type: "checkmark",
+		title: "最低等级要求调整",
+		icon: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1,
+					id: 0
+				}]
+			}
+		}
+	}],
+	rewards: [{
+		uid: "c9de3c18",
+		type: "item",
+		item: "enderutilities:storage_0 1 7"
+	},
+	{
+		uid: "b138a810",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

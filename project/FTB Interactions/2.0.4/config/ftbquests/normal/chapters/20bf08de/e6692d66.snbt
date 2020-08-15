@@ -1,0 +1,44 @@
+{
+	x: -11.0d,
+	y: -9.0d,
+	text: [
+		"一份精心调制邪恶魔力的混合物。 "
+	],
+	dependencies: [
+		"8eac9d15"
+	],
+	tasks: [{
+		uid: "2ff9fd1a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquid_death",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "6c40dbc4",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "liquid_death",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	},
+	{
+		uid: "f892af3c",
+		type: "item",
+		item: "thermalexpansion:morb 1 1"
+	}]
+}

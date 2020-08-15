@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 10.0d,
+	description: "只要你有一个魔法转化桌就好，转化桌可以为你创造它。像所有其他EMC物品一样，它只在转化桌上有足够的EMC时才显示。",
+	tasks: [{
+		uid: "62a8e000",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}]
+	}]
+}

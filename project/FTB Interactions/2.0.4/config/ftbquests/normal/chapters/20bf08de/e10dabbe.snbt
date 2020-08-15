@@ -1,0 +1,28 @@
+{
+	x: -2.5d,
+	y: -12.0d,
+	shape: "rsquare",
+	description: "宝石精炼器蓝图可以在主世界的地牢里拿到。它能用魔力和热力将普通的宝石精炼成无暇宝石。",
+	tasks: [{
+		uid: "73ee7792",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:gem_refiner"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ad96adfa",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 6s
+		},
+		count: 4
+	}]
+}

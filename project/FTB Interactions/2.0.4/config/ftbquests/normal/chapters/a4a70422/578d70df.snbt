@@ -1,0 +1,36 @@
+{
+	title: "我外缓存，咋样？",
+	x: -12.0d,
+	y: -7.0d,
+	text: [
+		"早期游戏的巨大存储，基础等级就能储存20000个物品，还能使用升级套件继续提升容量。只有一个缺点... 没有虚空升级！"
+	],
+	dependencies: [
+		"123eb389"
+	],
+	tasks: [{
+		uid: "17194658",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:cache",
+			tag: {
+				Facing: 3,
+				Level: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b4d8528a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:wrench"
+		}
+	}]
+}

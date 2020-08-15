@@ -1,0 +1,41 @@
+{
+	title: "青色的死亡之水",
+	x: 6.0d,
+	y: -9.0d,
+	text: [
+		"Euclydes中的海洋似乎充满了一种略有酸性的蓝色液体。分析显示，它的铜含量极高。 如果你抽取并精炼它，这可能是一个获取无限的铜的来源。",
+		"甚至有传言说一种转基因鸡可以生产这种液体……"
+	],
+	dependencies: [
+		"da0cc52f"
+	],
+	tasks: [{
+		uid: "bbfd7376",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "blue_vitriol_water_solution",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "1f6a0a4a",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "blue_vitriol_water_solution",
+					Amount: 64000
+				}
+			},
+			Damage: 32405s
+		}
+	}]
+}

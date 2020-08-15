@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: 1.0d,
+	dependencies: [
+		"86a86cae"
+	],
+	tasks: [{
+		uid: "2ba642b1",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore 1 1"
+		}]
+	}]
+}

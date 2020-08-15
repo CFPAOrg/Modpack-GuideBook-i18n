@@ -1,0 +1,50 @@
+{
+	title: "铜矿脉",
+	x: -7.0d,
+	y: -9.0d,
+	description: "在所有生物群系生成，但是在丛林中的矿脉会聚集更多的孔雀石。",
+	dependencies: [
+		"0e4fbe4c"
+	],
+	tasks: [{
+		uid: "15dd4d47",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_chalcopyrite_0"
+		}]
+	},
+	{
+		uid: "78f40287",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_malachite_0"
+		}]
+	},
+	{
+		uid: "9ad90a3c",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_copper_0"
+		}]
+	},
+	{
+		uid: "0636ab31",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrite_0"
+		}]
+	},
+	{
+		uid: "1fd1dec7",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_iron_0"
+		}]
+	}],
+	rewards: [{
+		uid: "9666ff2f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10018",
+		count: 4
+	}]
+}

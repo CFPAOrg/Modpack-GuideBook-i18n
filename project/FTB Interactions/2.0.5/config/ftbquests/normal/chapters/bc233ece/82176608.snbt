@@ -1,0 +1,20 @@
+{
+	title: "聚四氟乙烯生产流程图",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "polytetrafluoroethylene",
+			Amount: 1000
+		}
+	},
+	x: 1.5d,
+	y: -3.0d,
+	shape: "gear",
+	custom_click: "https://www.zenflowchart.com/docs/view/J4q2Volejk1BajNmGQBW",
+	dependencies: [
+		"19612041"
+	]
+}

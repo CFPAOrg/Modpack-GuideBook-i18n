@@ -1,0 +1,29 @@
+{
+	x: 7.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0465758c",
+		type: "item",
+		items: [{
+			item: "atum:isis_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "079dec91",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c7487895",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 5
+	}]
+}

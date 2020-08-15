@@ -1,0 +1,36 @@
+{
+	title: "扩大你的存储",
+	x: -17.0d,
+	y: -6.0d,
+	description: "现在，你可以制作终极储存仓，只需要将几个模块化储存器接入物流网络就可以储存大量资源，为日后解决储存问题提供了一个不错的方案。",
+	text: [
+		"警告: 升级低级的存储仓不会保留物品，所有存储的物品都将丢失。 "
+	],
+	dependencies: [
+		"18a905eb"
+	],
+	tasks: [{
+		uid: "47c28f7b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rftools:storage_module",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05326a59",
+		type: "item",
+		item: "mekanism:enrichedalloy",
+		count: 4
+	},
+	{
+		uid: "50a1fe92",
+		type: "item",
+		item: "mekanism:reinforcedalloy",
+		count: 2
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "我要飞得更高",
+	x: -7.0d,
+	y: 2.0d,
+	text: [
+		"Mekanism喷气背包是最早的飞行方式，它提供了几乎完美的漂浮功能，对建筑、采矿或战斗都很有帮助。它的推力较低，但是与其他移动工具组合使用可以拥有相当强大的功能。"
+	],
+	dependencies: [
+		"635d5fcc"
+	],
+	tasks: [{
+		uid: "75fa0277",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:jetpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ede1e4d8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:gastank",
+			tag: {
+				tier: 1
+			}
+		}
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 5.5d,
+	text: [
+		"从空岛世界 （<=非常重要！） 将你的火箭发射到太空。 在这里，你将能够建立一个空间站并设置轨道激光钻来收集陨石并开始完整的应用能源。 这里推荐使用天体星门。"
+	],
+	dependencies: [
+		"3308d327"
+	],
+	tasks: [{
+		uid: "73643b51",
+		type: "dimension",
+		title: "无边无际",
+		dim: -2
+	}],
+	rewards: [{
+		uid: "93a5009e",
+		type: "item",
+		item: "enderstorage:ender_storage",
+		count: 2
+	}]
+}

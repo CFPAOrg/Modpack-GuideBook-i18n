@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	description: "用于制造电路板中的多个部件，LV版本的这个机器没什么用，不值得制作。",
+	dependencies: [
+		"c193d3a6"
+	],
+	tasks: [{
+		uid: "457a310a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 431"
+		}]
+	}],
+	rewards: [{
+		uid: "ea6ce122",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

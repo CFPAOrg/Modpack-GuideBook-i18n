@@ -1,0 +1,37 @@
+{
+	icon: "deepmoblearning:simulation_chamber",
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"模拟室是跨入深度怪物学习(Deep Mob Learning)模组的大门。",
+		"你可以通过聚合粘土凭空制造出怪物的掉落物，例如末影珍珠和烈焰粉。",
+		"为了发挥功能，你需要制作一个你想要的怪物数据模型，并在深度学习器里升级它。当你做足准备后，插入一个模型并通上电来开始产出掉落物。"
+	],
+	dependencies: [
+		"a916453b"
+	],
+	tasks: [{
+		uid: "f4c74b23",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:simulation_chamber"
+		}]
+	},
+	{
+		uid: "65edcc5b",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_blank"
+		}]
+	}],
+	rewards: [{
+		uid: "59ce3638",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "deepmoblearning:deep_learner"
+		}
+	}]
+}

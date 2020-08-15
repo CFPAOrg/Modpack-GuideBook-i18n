@@ -1,0 +1,54 @@
+{
+	x: 2.0d,
+	y: -14.0d,
+	text: [
+		"这种有用的鸡下的蛋可以直接被烧制成干橡胶，可用于制造工业先锋(Industrial Forgoing)的部件、转运器或升级，也可以替代树脂或生橡胶浆，与硫一起反应成生橡胶。"
+	],
+	dependencies: [
+		"bad8af80",
+		"c193d3a6"
+	],
+	tasks: [{
+		uid: "82b8e2a7",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:rubberychicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "a03916b5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rubber_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "d77268fe",
+		type: "item",
+		item: "gregtech:meta_item_1 1 18152",
+		count: 4
+	},
+	{
+		uid: "c27ee336",
+		type: "item",
+		item: "industrialforegoing:dryrubber",
+		count: 8
+	},
+	{
+		uid: "97f4d94b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10152",
+		count: 4
+	},
+	{
+		uid: "289e4a9f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "其他的供电选项",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -2.5d,
+	y: 2.0d,
+	text: [
+		"其他供电选项包括：",
+		"- 心血管耦合器",
+		"- 太阳能电路皮肤",
+		"- 新陈代谢发电器"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4a664dce"
+	],
+	tasks: [{
+		uid: "d7f2e087",
+		type: "checkmark",
+		title: "其他的供电选项"
+	}]
+}

@@ -1,0 +1,52 @@
+{
+	title: "怒斥”机器“",
+	x: -8.0d,
+	y: -2.0d,
+	text: [
+		"压缩机械确实很便利，但它内部的空间还是存在限制，一定有什么办法逃出这个机械！可以通过某种神奇的方式突破阻止你出去的屏障，这之后就轮到你的创造力自由发挥了。"
+	],
+	dependencies: [
+		"c4d06ee3"
+	],
+	tasks: [{
+		uid: "18944509",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:tool_elevate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95b609c5",
+		type: "item",
+		item: "enderio:block_travel_anchor",
+		count: 2
+	},
+	{
+		uid: "a873890e",
+		type: "item",
+		item: {
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "d1b28865",
+		type: "item",
+		item: "astralsorcery:itemcoloredlens 1 6"
+	}]
+}

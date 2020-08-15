@@ -1,0 +1,22 @@
+{
+	x: -6.5d,
+	y: -1.0d,
+	dependencies: [
+		"76c508fd"
+	],
+	tasks: [{
+		uid: "6e941796",
+		type: "checkmark",
+		title: "轻燃料",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "light_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

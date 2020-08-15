@@ -1,0 +1,28 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	description: "通常在Y轴40-110之间生成。",
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "7f62b0cc",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_nether_quartz_0 1 6"
+		}]
+	},
+	{
+		uid: "7eef4077",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_barite_0 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "f37dce40",
+		type: "item",
+		item: "minecraft:quartz",
+		count: 6
+	}]
+}

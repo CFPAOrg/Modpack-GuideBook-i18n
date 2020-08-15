@@ -1,0 +1,37 @@
+{
+	x: 3.0d,
+	y: -6.0d,
+	text: [
+		"福鲁伊克斯水晶的制造过程非常简单，可那些赛特斯石英、下界石英、还有红石都好贵！这种鸡可以使你生产大量的福鲁伊克斯水晶来满足所有的自动化需求。"
+	],
+	dependencies: [
+		"bad8af80",
+		"39d33b3e"
+	],
+	tasks: [{
+		uid: "371e5531",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:fluixchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "9a09956d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fluix_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "c9a70593",
+		type: "item",
+		item: "threng:material",
+		count: 16
+	}]
+}

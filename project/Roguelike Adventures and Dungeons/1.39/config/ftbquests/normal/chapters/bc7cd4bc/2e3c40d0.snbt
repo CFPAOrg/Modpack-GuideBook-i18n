@@ -1,0 +1,85 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "08101d98",
+		type: "item",
+		items: [{
+			item: "inventorypets:apple_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c2706065",
+		type: "item",
+		items: [{
+			item: "inventorypets:wolf_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "24839a81",
+		type: "item",
+		items: [{
+			item: "inventorypets:silverfish_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f6933917",
+		type: "item",
+		items: [{
+			id: "inventorypets:house_pet",
+			tag: {
+				homeDimension: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "59c5631b",
+		type: "item",
+		items: [{
+			item: "inventorypets:pacman_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a7a84c7",
+		type: "item",
+		items: [{
+			item: "inventorypets:cheetah_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7c3fcd24",
+		type: "item",
+		items: [{
+			item: "inventorypets:heart_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "619764a2",
+		type: "item",
+		items: [{
+			item: "inventorypets:pixie_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6f4f04f0",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

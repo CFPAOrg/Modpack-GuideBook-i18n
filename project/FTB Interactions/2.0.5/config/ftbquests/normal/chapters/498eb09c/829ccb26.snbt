@@ -1,0 +1,29 @@
+{
+	title: "地下室化学套装",
+	x: -8.0d,
+	y: 0.0d,
+	text: [
+		"进入MV化学将需要更高级的化学反应釜。 这是进行柴油生产、加速塑料生产和许多其他高阶化学配方所需的关键机器。 你最后也会用上好几个的。"
+	],
+	dependencies: [
+		"cdf825f7"
+	],
+	tasks: [{
+		uid: "50f0fd5f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 191"
+		}]
+	}],
+	rewards: [{
+		uid: "43a84e93",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32489"
+	},
+	{
+		uid: "2e02c98e",
+		type: "item",
+		item: "gregtech:machine 1 191",
+		count: 2
+	}]
+}

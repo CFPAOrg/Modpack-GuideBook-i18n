@@ -1,0 +1,12 @@
+{
+	title: "以血还血魔法",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "bloodmagic:altar_maker"
+	},
+	always_invisible: false,
+	group: 549390558,
+	default_quest_shape: ""
+}

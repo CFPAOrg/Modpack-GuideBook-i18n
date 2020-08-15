@@ -1,0 +1,28 @@
+{
+	x: -6.0d,
+	y: -12.0d,
+	text: [
+		"世界盐可以在基础工作台上制作，需要使用任何类型的魔力水晶碎片，250mb的液态魔力和8个低等共价粉。"
+	],
+	dependencies: [
+		"2856b0e6",
+		"8daf4c09"
+	],
+	tasks: [{
+		uid: "eddc1aae",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "fefb5520",
+		type: "item",
+		item: "thaumcraft:salis_mundus"
+	},
+	{
+		uid: "62afb370",
+		type: "item",
+		item: "harvestcraft:salisburysteakitem"
+	}]
+}

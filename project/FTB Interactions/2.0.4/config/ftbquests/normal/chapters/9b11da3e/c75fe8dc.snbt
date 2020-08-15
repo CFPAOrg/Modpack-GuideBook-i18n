@@ -1,0 +1,39 @@
+{
+	title: "辉锑矿",
+	x: -7.0d,
+	y: -2.0d,
+	description: "在所有的生物群系中生成，也包括丛林生物群系，但极罕见。在地狱中能非常轻松地找到。",
+	text: [
+		"这种矿物在主世界十分稀有，倾向于生成在高海拔的地区，也推荐你前去地狱寻找"
+	],
+	dependencies: [
+		"78d3f804"
+	],
+	tasks: [{
+		uid: "0cab4d57",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tetrahedrite_0"
+		}]
+	},
+	{
+		uid: "aaab410b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_stibnite_0"
+		}]
+	},
+	{
+		uid: "743cc096",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_copper_0"
+		}]
+	}],
+	rewards: [{
+		uid: "992cf143",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2185",
+		count: 4
+	}]
+}

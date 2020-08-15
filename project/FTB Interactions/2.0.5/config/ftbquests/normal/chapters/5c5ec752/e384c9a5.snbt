@@ -1,0 +1,31 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	description: "更好地将锭制成板，进一步粉碎矿物，拆分一些材料，处理速度很快。由于研磨机能够增产矿物，更高等级的锻造锤失去了一些价值，但你扔要用它来拆分材料。",
+	dependencies: [
+		"56f69a22",
+		"d728580e"
+	],
+	tasks: [{
+		uid: "2d3559db",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 13"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a719851",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "praecantatio"
+				}]
+			}
+		},
+		count: 15
+	}]
+}

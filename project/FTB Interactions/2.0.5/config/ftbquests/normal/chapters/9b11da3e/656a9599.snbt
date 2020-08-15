@@ -1,0 +1,30 @@
+{
+	title: "巨大的岩石人之火",
+	x: -3.0d,
+	y: -5.0d,
+	description: "暴雪人在较冷的生物群系生成，岩石人在多山的生物群系生成，狂风人在干燥的生物群系生成",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "8e16f356",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2052"
+		}]
+	},
+	{
+		uid: "0874922f",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2050"
+		}]
+	},
+	{
+		uid: "635dc95a",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2048"
+		}]
+	}]
+}

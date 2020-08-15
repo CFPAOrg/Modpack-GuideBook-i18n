@@ -1,0 +1,59 @@
+{
+	x: -1.5d,
+	y: 6.0d,
+	text: [
+		"群星映射台可以聚焦星能，将其变成附魔的能量。它能超过原版的附魔限制，比如抢夺5锋利6甚至更多！小心不要烧了你的羊皮纸。你也可以用它制作更高级附魔的药水和盔甲",
+		"使用附魔要将其刻在特殊的玻璃上。"
+	],
+	dependencies: [
+		"b46714b7"
+	],
+	tasks: [{
+		uid: "9980f3fc",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmapdrawingtable"
+		}]
+	}],
+	rewards: [{
+		uid: "e3b33d34",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:iteminfusedglass",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	},
+	{
+		uid: "79ad8f2d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:iteminfusedglass",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	},
+	{
+		uid: "d19deab3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:spellcloth"
+		}
+	},
+	{
+		uid: "69cb8ed8",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

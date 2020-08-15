@@ -1,0 +1,20 @@
+{
+	title: "随机传送",
+	x: -2.0d,
+	y: 0.0d,
+	description: "rtp",
+	text: [
+		"3000一次,童叟无欺!"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "c273c05a",
+		type: "ftbmoney:money",
+		value: 3000L
+	}],
+	rewards: [{
+		uid: "45876cbb",
+		type: "command",
+		command: "/rtp"
+	}]
+}

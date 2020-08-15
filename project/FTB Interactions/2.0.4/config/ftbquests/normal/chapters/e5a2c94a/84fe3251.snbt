@@ -1,0 +1,37 @@
+{
+	title: "黑暗中的光明",
+	icon: "astralsorcery:blockcustomflower",
+	x: 2.5d,
+	y: -1.0d,
+	text: [
+		"荧石可以在下界挖掘到，也可以使用微光苋进行可再生地获取。当你制作完一朵后，你可以在有机灌注器中无限种植。"
+	],
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "95e47acb",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomflower"
+		}]
+	},
+	{
+		uid: "8b7ee41c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:fertilizer"
+		}]
+	}],
+	rewards: [{
+		uid: "252b8ddb",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 35"
+	},
+	{
+		uid: "01bbddda",
+		type: "item",
+		item: "thermalexpansion:augment 1 128",
+		count: 3
+	}]
+}

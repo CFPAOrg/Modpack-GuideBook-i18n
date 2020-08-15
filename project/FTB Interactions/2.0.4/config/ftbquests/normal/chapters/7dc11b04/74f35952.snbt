@@ -1,0 +1,11 @@
+{
+	title: "自动化恶魔意志 - 血魔法原版教程。其他方案见Animus的Eldritch Will仪式。",
+	icon: "bloodmagic:demon_crystal",
+	x: -1.0d,
+	y: 4.0d,
+	shape: "gear",
+	custom_click: "https://www.youtube.com/watch?v=K25QmSmfTRA&feature=youtu.be",
+	dependencies: [
+		"832823a9"
+	]
+}

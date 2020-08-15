@@ -1,0 +1,10 @@
+{
+	title: "非常不安全的空间",
+	icon: "minecraft:netherrack",
+	description: [
+		"这一章包含有关下界的改动的信息，比如矿物生成，怪物行为或地牢。"
+	],
+	always_invisible: false,
+	group: 1865916608,
+	default_quest_shape: ""
+}

@@ -1,0 +1,17 @@
+{
+	x: -8.0d,
+	y: -7.0d,
+	text: [
+		"和空单元一样，只是更大! 一组16个，一个64桶。一个格子就能存1024桶液体!"
+	],
+	dependencies: [
+		"64d58d0e"
+	],
+	tasks: [{
+		uid: "cd2ee9a6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32405"
+		}]
+	}]
+}

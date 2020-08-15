@@ -1,0 +1,19 @@
+{
+	title: "外星钨矿",
+	x: -2.0d,
+	y: 0.5d,
+	text: [
+		"在你成功到达末地之后，除了电解末地石之外，你可以直接挖掘钨矿石，使你能更容易地得处理得到大量钨，满足EV或EV以上等级的需求。"
+	],
+	tasks: [{
+		uid: "8aaa310c",
+		type: "item",
+		title: "钨矿石",
+		items: [{
+			item: "gregtech:ore_tungstate_0 1 7"
+		},
+		{
+			item: "gregtech:ore_scheelite_0"
+		}]
+	}]
+}

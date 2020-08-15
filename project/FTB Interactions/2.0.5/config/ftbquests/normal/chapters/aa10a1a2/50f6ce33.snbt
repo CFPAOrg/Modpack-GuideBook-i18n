@@ -1,0 +1,24 @@
+{
+	title: "Wouldn't you just LuV a better diesel gen?",
+	x: -1.5d,
+	y: 2.5d,
+	shape: "rsquare",
+	text: [
+		"LuV柴油发电机能够以最高效的方式燃烧柴油并输出1A的LuV级能量。 需要通入氧气和柴油，可以是蕴魔硝化柴油或硅岩燃料。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e50a603a",
+		"da0cc52f"
+	],
+	tasks: [{
+		uid: "5b822ca5",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dieselgenerator_luv"
+			}
+		}]
+	}]
+}

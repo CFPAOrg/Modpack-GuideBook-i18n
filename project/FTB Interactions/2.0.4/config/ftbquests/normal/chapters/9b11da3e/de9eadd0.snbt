@@ -1,0 +1,28 @@
+{
+	title: "我是恐怖的化身",
+	icon: "minecraft:skull 1 4",
+	x: -4.0d,
+	y: -6.0d,
+	text: [
+		"爬行者会更加让你混乱",
+		"-与玩家距离少于3格时会隐形",
+		"-如果它们处于着火状态，它们就会爆炸",
+		"",
+		"这一次你不会有任何的额外的好处，祝你好运。"
+	],
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "a9d681e7",
+		type: "kill",
+		entity: "minecraft:creeper",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "373a3642",
+		type: "item",
+		item: "cyclicmagic:ender_tnt_3",
+		count: 4
+	}]
+}

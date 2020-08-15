@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"其他类型的意志晶簇自然生成的概率非常低，如果你需要百分百获得，请看右边的任务。"
+	],
+	tasks: [{
+		uid: "3e30dd8f",
+		type: "checkmark",
+		title: "要么操纵随机数生成，要么让它百分百成功。",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
+	}]
+}

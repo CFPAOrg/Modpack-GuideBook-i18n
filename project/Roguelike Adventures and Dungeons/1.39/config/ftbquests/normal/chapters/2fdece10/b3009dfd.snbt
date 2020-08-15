@@ -1,0 +1,87 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"526726f6"
+	],
+	tasks: [{
+		uid: "6c2cb955",
+		type: "item",
+		items: [{
+			id: "spartanfire:warhammer_desert",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2b50d272",
+		type: "item",
+		items: [{
+			id: "spartanfire:hammer_desert",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 3958219364197027434L,
+						UUIDLeast: -6616121215058261031L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8454898767982380609L,
+						UUIDLeast: -7265891329929606313L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.rusted.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "68250df6",
+		type: "item",
+		items: [{
+			id: "spartanfire:battleaxe_desert",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "94d1664a",
+		type: "item",
+		items: [{
+			id: "spartanfire:mace_desert",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8202319a",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "556fb7fb",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

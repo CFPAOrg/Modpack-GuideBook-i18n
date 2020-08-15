@@ -1,0 +1,40 @@
+{
+	x: -5.0d,
+	y: -1.0d,
+	text: [
+		"3X3挖掘！来给他附魔一个耐久吧"
+	],
+	tasks: [{
+		uid: "318330b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:tool.hammer_steel"
+		}]
+	}],
+	rewards: [{
+		uid: "835283c2",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3,
+					id: 34
+				}]
+			}
+		}
+	},
+	{
+		uid: "97612b35",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "cyclicmagic:magnet"
+			}
+		}
+	}]
+}

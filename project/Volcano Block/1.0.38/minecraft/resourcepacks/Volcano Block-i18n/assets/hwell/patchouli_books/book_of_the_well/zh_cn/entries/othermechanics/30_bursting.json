@@ -1,0 +1,48 @@
+{
+    "name": "爆裂",
+    "icon": "hwell:burst_seed_dirt",
+    "category": "other_mechanics",
+    "sortnum": 30,
+    "pages": [
+        {
+            "type": "text",
+            "title": "爆裂种子",            
+			"text": "爆发种子是增加现有资源的简便方法。制作一个后，将其放在地面上。种子将慢慢利用内部资源制造压力，最终爆发出的资源通常比用于制作它的资源多十倍。但是要小心，因为产出的资源会以高速、全方位的方式飞散出来。"
+        },
+		{
+            "type": "crafting",
+            "title": "爆裂种子",            
+            "recipe": "hwell:burst_seed_cobblestone",
+			"recipe2": "hwell:burst_seed_stone"
+		},
+		{
+            "type": "crafting",
+            "title": "爆裂种子",            
+            "recipe": "hwell:burst_seed_gravel",
+			"recipe2": "hwell:burst_seed_sand"
+		},
+		{
+            "type": "crafting",
+            "title": "爆裂种子",            
+            "recipe": "hwell:burst_seed_dirt",
+			"recipe2": "hwell:burst_seed_snow"
+        },
+		{
+            "type": "crafting",
+            "title": "爆裂种子",            
+            "recipe": "hwell:burst_seed_netherrack",
+			"recipe2": "hwell:burst_seed_quartz"
+        },
+		{
+            "type": "crafting",
+            "title": "爆裂种子",            
+            "recipe": "hwell:burst_seed_endstone",
+			"recipe2": "hwell:burst_seed_prismarine"
+        },
+		{
+            "type": "crafting",
+            "title": "爆裂种子",            
+            "recipe": "hwell:burst_seed_crystal"
+        }
+	]
+}

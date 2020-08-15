@@ -1,0 +1,21 @@
+{
+	title: "/dev/null",
+	x: -3.5d,
+	y: -4.5d,
+	description: "存储在这里的物品会被删除，不要试图使用垃圾桶存储重要文件。",
+	dependencies: [
+		"95a0ca99"
+	],
+	tasks: [{
+		uid: "f3d382ce",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderutilities:nullifier"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

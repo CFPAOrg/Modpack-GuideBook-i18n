@@ -1,0 +1,33 @@
+{
+	title: "橡皮人",
+	x: -10.5d,
+	y: -3.0d,
+	description: "现在，你可以将原材料加工成有用的橡胶。无论哪种路线，你都需要硫磺，但你是使用生橡胶还是树脂都取决于你。 ",
+	tasks: [{
+		uid: "54a476eb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2153"
+		}],
+		count: 9L
+	},
+	{
+		uid: "70eca13c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2065"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "648d3898",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10152",
+		count: 16
+	},
+	{
+		uid: "8da2af38",
+		type: "item",
+		item: "xreliquary:glowing_bread"
+	}]
+}

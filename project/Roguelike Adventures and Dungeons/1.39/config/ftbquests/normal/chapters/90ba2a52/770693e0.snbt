@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "98dca818",
+		type: "item",
+		items: [{
+			item: "harvestcraft:chocolatesprinklecakeitem"
+		}]
+	}],
+	rewards: [{
+		uid: "1d28e82d",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

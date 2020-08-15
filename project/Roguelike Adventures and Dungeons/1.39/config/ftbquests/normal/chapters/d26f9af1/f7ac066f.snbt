@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	dependencies: [
+		"04a243d2"
+	],
+	tasks: [{
+		uid: "bce8af2c",
+		type: "item",
+		items: [{
+			item: "extrautils2:analogcrafter"
+		}]
+	}],
+	rewards: [{
+		uid: "027dd830",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

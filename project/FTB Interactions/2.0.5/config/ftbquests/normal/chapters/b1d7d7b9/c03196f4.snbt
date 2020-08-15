@@ -1,0 +1,24 @@
+{
+	title: "这一池子谁知道是什么",
+	x: -2.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "25b0a79a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 180"
+		},
+		{
+			item: "gregtech:machine 1 181"
+		},
+		{
+			item: "gregtech:machine 1 182"
+		}]
+	}],
+	rewards: [{
+		uid: "f22c2f4f",
+		type: "item",
+		item: "minecraft:blaze_powder",
+		count: 2
+	}]
+}

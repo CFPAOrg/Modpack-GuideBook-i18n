@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"fb7287fc"
+	],
+	tasks: [{
+		uid: "afc3f842",
+		type: "item",
+		items: [{
+			item: "lost_aether:sentry_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4522d411",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 7.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	description: "用于处理器组件、超级计算机等。小道消息称，它能让你的计算机在玩 Minecraft 时运行更快，加载更快，防止爬行者爆炸，并让你长回掉了的头发，还能保护你的各项隐私。",
+	dependencies: [
+		"50f9234e"
+	],
+	tasks: [{
+		uid: "9bb45558",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32485"
+		}]
+	}]
+}

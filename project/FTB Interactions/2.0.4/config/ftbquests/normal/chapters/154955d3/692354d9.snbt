@@ -1,0 +1,11 @@
+{
+	title: "自动化水动力锯的视频指南",
+	icon: "primal_tech:water_saw",
+	x: 2.0d,
+	y: 3.0d,
+	shape: "gear",
+	custom_click: "https://www.youtube.com/watch?v=WbBREOmX6Ls",
+	dependencies: [
+		"009703b7"
+	]
+}

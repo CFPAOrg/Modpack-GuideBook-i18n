@@ -1,0 +1,41 @@
+{
+	title: "跨越复杂物流的桥梁",
+	x: -13.309523809523817d,
+	y: -0.2380952380952479d,
+	text: [
+		"当你从早期发展到中后期，你自然会过渡到AE上。这个适配器能帮你桥接两个网络，允许你访问LP网络里的一切，包括合成。",
+		"当迁移完成后，这会为你创造一个统一的系统"
+	],
+	dependencies: [
+		"454cc06c"
+	],
+	tasks: [{
+		uid: "73a15daa",
+		type: "item",
+		items: [{
+			item: "logisticsbridge:lb.bridge"
+		}]
+	}],
+	rewards: [{
+		uid: "6afd9611",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}
+	},
+	{
+		uid: "f86291a1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:fluid_storage_cell_1k",
+			tag: {}
+		}
+	}]
+}

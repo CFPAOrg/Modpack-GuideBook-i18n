@@ -1,0 +1,29 @@
+{
+	title: "无国界立方体",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: 3.0d,
+	y: -1.0d,
+	shape: "gear",
+	description: "“许多格雷科技和模块化机械的多方块结构可以共用方块，包括顶层、底层、四壁甚至线圈。利用这一点可以节省成吨的资源。" ",
+	text: [
+		"另外，提醒你注意区块边界。默认情况下按F9会高亮显示区块边界。强烈建议你在同一区块内建造多方块机器，以避免加载过程中的任何潜在错误……以免发生不幸的工业事故。"
+	],
+	dependencies: [
+		"eafc12e8"
+	],
+	tasks: [{
+		uid: "1f4e9ee9",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "cb8de2bf",
+		type: "item",
+		item: "harvestcraft:kungpaochickenitem"
+	}]
+}

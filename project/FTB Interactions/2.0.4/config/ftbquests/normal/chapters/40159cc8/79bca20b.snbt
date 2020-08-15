@@ -1,0 +1,17 @@
+{
+	title: "传送我吧，史考提！",
+	icon: "astralsorcery:blockcelestialgateway",
+	x: 2.5d,
+	y: -22.0d,
+	description: "如果你想来回往返空间站，一定要使用一些更容易的旅行方式",
+	text: [
+		"天体星门是跨维度旅行的完美方式"
+	],
+	tasks: [{
+		uid: "e4050539",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcelestialgateway"
+		}]
+	}]
+}

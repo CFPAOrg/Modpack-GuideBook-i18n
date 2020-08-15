@@ -1,0 +1,10 @@
+{
+	title: "油往直前",
+	x: -6.5d,
+	y: -5.0d,
+	description: "石油在平顶山与深海群系中生成",
+	tasks: [{
+		uid: "e143e9de",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	title: "自动产粘土的视频指南",
+	icon: "minecraft:clay_ball",
+	x: -1.0d,
+	y: -0.5d,
+	shape: "gear",
+	custom_click: "https://www.youtube.com/watch?v=AUpRZ_PdVlo",
+	dependencies: [
+		"4fc0c539"
+	]
+}

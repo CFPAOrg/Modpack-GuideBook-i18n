@@ -1,0 +1,26 @@
+{
+	x: 7.0d,
+	y: -8.0d,
+	dependencies: [
+		"1ffc5cf5"
+	],
+	tasks: [{
+		uid: "55398c66",
+		type: "item",
+		items: [{
+			id: "extraalchemy:potion_bag",
+			tag: {
+				new_inv: {
+					Items: []
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "61e25d89",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

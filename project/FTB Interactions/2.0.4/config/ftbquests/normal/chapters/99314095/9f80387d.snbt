@@ -1,0 +1,21 @@
+{
+	title: "你好，欧姆",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -11.0d,
+	y: -3.0d,
+	shape: "gear",
+	description: "大多数 FE 能量系统只关心电压，格雷还引入了电流。每个格雷机器配方都有要求的电压和电流。请确保检查JEI上的电压和电流需求！",
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "e5f0ff78",
+		type: "checkmark"
+	}]
+}

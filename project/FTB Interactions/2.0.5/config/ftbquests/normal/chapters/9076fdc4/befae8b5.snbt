@@ -1,0 +1,44 @@
+{
+	x: -14.0d,
+	y: -11.0d,
+	description: "滥用连锁挖矿也会卡顿。",
+	tasks: [{
+		uid: "e19a83db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e10ff9bd",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "projecte:item.pe_philosophers_stone",
+					Count: 1,
+					Damage: 0
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Equivalence Exchanged",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "5c8d1b0b",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 8
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"d3601ed0"
+	],
+	tasks: [{
+		uid: "a72fade6",
+		type: "item",
+		items: [{
+			item: "twilightforest:charm_of_life_2"
+		}]
+	}],
+	rewards: [{
+		uid: "2dfa655b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

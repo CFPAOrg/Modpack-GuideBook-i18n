@@ -1,0 +1,27 @@
+{
+	x: -3.0d,
+	y: 6.0d,
+	description: "在EV等级，研磨机合法地申请了新的名字，现在它被称为粉碎机。",
+	dependencies: [
+		"75685738"
+	],
+	tasks: [{
+		uid: "cd825659",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 63"
+		}]
+	}],
+	rewards: [{
+		uid: "195e3f46",
+		type: "item",
+		item: "harvestcraft:cookedtofurkeyitem",
+		count: 3
+	},
+	{
+		uid: "a9ed09f8",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2111",
+		count: 16
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: -3.0d,
+	dependencies: [
+		"7477c930"
+	],
+	tasks: [{
+		uid: "8b59e2b9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:redstone_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "7a4599cd",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

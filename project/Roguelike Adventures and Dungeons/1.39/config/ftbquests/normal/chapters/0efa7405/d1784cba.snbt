@@ -1,0 +1,38 @@
+{
+	x: 9.0d,
+	y: 0.0d,
+	dependencies: [
+		"f3ec74db"
+	],
+	tasks: [{
+		uid: "9a459cfd",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_stone"
+		}]
+	},
+	{
+		uid: "9b351673",
+		type: "item",
+		items: [{
+			item: "thaumcraft:wand_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "582137b1",
+		type: "item",
+		item: "thaumcraft:loot_bag 1 1"
+	},
+	{
+		uid: "f183ee68",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 16
+	},
+	{
+		uid: "a6cfb051",
+		type: "item",
+		item: "thaumcraft:plank_greatwood",
+		count: 32
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Shake it off",
+	x: -0.5d,
+	y: -10.0d,
+	shape: "rsquare",
+	text: [
+		"筛选器是一种更精细的处理大多数宝石矿的方法，它能产出更高质量的宝石，得到比简单使用高压釜更高的总产量。"
+	],
+	tasks: [{
+		uid: "c18e04dd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 450"
+		},
+		{
+			item: "gregtech:machine 1 451"
+		},
+		{
+			item: "gregtech:machine 1 452"
+		}]
+	}],
+	rewards: [{
+		uid: "b5ac5676",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32487",
+		count: 2
+	},
+	{
+		uid: "1cf8de73",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32640",
+		count: 4
+	}]
+}

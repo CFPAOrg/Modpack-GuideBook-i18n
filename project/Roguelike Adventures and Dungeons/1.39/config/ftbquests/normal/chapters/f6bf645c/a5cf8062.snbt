@@ -1,0 +1,42 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	dependencies: [
+		"6f493177"
+	],
+	tasks: [{
+		uid: "ca8437f6",
+		type: "item",
+		items: [{
+			id: "twilightforest:yeti_helmet",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 0s
+				}],
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -8675907949656257859L,
+						UUIDLeast: -7641074908373834429L,
+						Amount: 0.5d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae7eb786",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

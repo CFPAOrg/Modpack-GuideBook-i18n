@@ -1,0 +1,27 @@
+{
+	title: "原版自动化",
+	x: -22.0d,
+	y: -8.0d,
+	description: "前期物流最好的方法之一就是使用原版的流水方式运输，也可以用流水配合传送带。",
+	tasks: [{
+		uid: "39ac2c42",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:water_bucket"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "cb1869ad",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "openblocks:sponge_on_a_stick"
+		}
+	}]
+}

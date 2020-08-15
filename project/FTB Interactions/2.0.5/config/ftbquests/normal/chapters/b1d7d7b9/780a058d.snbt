@@ -1,0 +1,34 @@
+{
+	x: -10.5d,
+	y: -2.0d,
+	text: [
+		"组装机中的许多配方都会使用橡胶，例如包裹你的电缆(很好的替代羊毛地毯的方式)。 你可能还需要使用流体固化机将橡胶制成片，用于制造传送带等。"
+	],
+	dependencies: [
+		"2853e86e"
+	],
+	tasks: [{
+		uid: "20c12cc1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12152"
+		}]
+	}],
+	rewards: [{
+		uid: "db2459f4",
+		type: "item",
+		item: "gregtech:meta_item_1 1 18152",
+		count: 8
+	},
+	{
+		uid: "8a561001",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10152",
+		count: 8
+	},
+	{
+		uid: "24be53fa",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

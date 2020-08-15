@@ -1,0 +1,27 @@
+{
+	x: -1.5d,
+	y: 5.0d,
+	text: [
+		"天辉祭坛将解锁许多高级配方。 这些配方可以让你更好地武装你自己，并且可以制作游戏中期的魔法道具。你也将能够制作更高等级的星图。"
+	],
+	dependencies: [
+		"1d37b267"
+	],
+	tasks: [{
+		uid: "3eb8ec01",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6443b3e1",
+		type: "item",
+		item: "astralsorcery:itemcoloredlens 1 2"
+	}]
+}

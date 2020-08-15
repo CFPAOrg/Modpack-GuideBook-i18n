@@ -1,0 +1,45 @@
+{
+	x: -8.0d,
+	y: -8.0d,
+	text: [
+		"一个用于运输和储存多种液体的液体容器，可以堆叠。当拿在快捷栏中时，右键点击液体会收集它。",
+		"你会需要不少。"
+	],
+	tasks: [{
+		uid: "102e1864",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32762"
+		}]
+	}],
+	rewards: [{
+		uid: "cd210bcd",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32762",
+		count: 4
+	},
+	{
+		uid: "d33b32d7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5570085101611273969L,
+					AS_Amulet_HolderMost: 5678865977197479355L
+				}
+			},
+			id: "hotornot:mitts",
+			tag: {
+				ench: [{
+					lvl: 3,
+					id: 34
+				},
+				{
+					lvl: 1,
+					id: 70
+				}],
+				RepairCost: 3
+			}
+		}
+	}]
+}

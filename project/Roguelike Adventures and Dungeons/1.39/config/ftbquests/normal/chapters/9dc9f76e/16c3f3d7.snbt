@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	description: "请看说明书！",
+	text: [
+		"指南位背包界面的左上角！"
+	],
+	dependencies: [
+		"35def456"
+	],
+	tasks: [{
+		uid: "322efd57",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "08148115",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

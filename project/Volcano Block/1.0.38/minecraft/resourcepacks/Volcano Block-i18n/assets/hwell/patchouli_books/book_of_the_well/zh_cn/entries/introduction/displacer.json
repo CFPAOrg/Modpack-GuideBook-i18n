@@ -1,0 +1,29 @@
+{
+    "name": "黑曜石破坏器",
+    "icon": "hwell:obsidian_displacer",
+    "category": "introduction",
+    "sortnum": 60,
+    "pages": [
+		{
+            "type": "spotlight",
+			"item": "hwell:obsidian_displacer",	
+			"text": "置换器是获取玻璃、黑曜石和冰的重要工具。"
+        },
+		{
+            "type": "crafting",
+			"title": " ",
+			"recipe": "hwell:obsidian_displacer",	
+			"text": "看着你想要移动的方块，拿着它右键，会有一股力量使方块离开它的位置，变成掉落物。"
+        },
+		{
+            "type": "spotlight",
+			"item": "hwell:empowered_displacer",	
+			"text": "稍后，你也许可以制作出具有丝般触感的改良型置换器，从而可以移动几乎所有类型的方块。"
+        },
+		{
+            "type": "crafting",
+			"title": " ",
+			"recipe": "hwell:empowered_displacer"		
+        }
+    ]
+}

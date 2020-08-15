@@ -1,0 +1,35 @@
+{
+	title: "孔明的陷阱",
+	icon: "harvestcraft:groundtrap",
+	x: -3.0d,
+	y: 5.0d,
+	description: "必须和草方块放在相同高度，且至少与五个草方块或泥土相连。计算范围为两格以内。",
+	text: [
+		"我们建议你扩大你的平台，以有足够的空间让4-5个捕兽笼运作，毕竟他们很便宜。",
+		"警告：请确保你在捕兽笼中放置多与一个诱饵，因为第一个诱饵仅能用于启用捕兽笼，在消耗的同时并不会获得任何副产物。"
+	],
+	dependencies: [
+		"29f7cca1"
+	],
+	tasks: [{
+		uid: "456423e8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:groundtrap"
+		}],
+		count: 4L
+	},
+	{
+		uid: "54052b29",
+		type: "item",
+		items: [{
+			item: "minecraft:beef"
+		}]
+	}],
+	rewards: [{
+		uid: "0502684e",
+		type: "item",
+		item: "minecraft:bone",
+		count: 3
+	}]
+}

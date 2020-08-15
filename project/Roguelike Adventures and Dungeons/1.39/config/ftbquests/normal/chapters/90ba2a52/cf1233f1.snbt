@@ -1,0 +1,16 @@
+{
+	x: 6.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "7887ebfc",
+		type: "item",
+		items: [{
+			item: "harvestcraft:southernstylebreakfastitem"
+		}]
+	}],
+	rewards: [{
+		uid: "68f0e9c7",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

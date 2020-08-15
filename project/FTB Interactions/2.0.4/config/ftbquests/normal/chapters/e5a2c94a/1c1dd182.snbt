@@ -1,0 +1,46 @@
+{
+	title: "阿迪特矿和金矿脉",
+	x: -1.0d,
+	y: 5.0d,
+	description: "在Y轴30-150之间生成。",
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "3548635f",
+		type: "item",
+		items: [{
+			item: "tconstruct:ore 1 1"
+		}]
+	},
+	{
+		uid: "16846d43",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_stibnite_0 1 6"
+		}]
+	},
+	{
+		uid: "86ebc1f1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sulfur_0 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "b5758476",
+		type: "item",
+		item: {
+			id: "tconstruct:tough_tool_rod",
+			tag: {
+				Material: "ardite"
+			}
+		}
+	},
+	{
+		uid: "e31d3cd5",
+		type: "item",
+		item: "tconstruct:ingots 1 1",
+		count: 2
+	}]
+}

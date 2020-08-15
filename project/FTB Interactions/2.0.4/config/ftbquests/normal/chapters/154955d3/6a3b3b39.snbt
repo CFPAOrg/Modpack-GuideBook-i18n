@@ -1,0 +1,11 @@
+{
+	title: "让我 ToAsgaard 教你用便携传送器！",
+	icon: "lteleporters:teleporter",
+	x: -1.5d,
+	y: 12.0d,
+	shape: "gear",
+	custom_click: "https://www.youtube.com/watch?v=T7y9M6cQ06k",
+	dependencies: [
+		"7979431a"
+	]
+}

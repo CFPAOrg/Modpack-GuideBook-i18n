@@ -1,0 +1,29 @@
+{
+	title: "粘糊糊",
+	x: -12.5d,
+	y: -3.0d,
+	shape: "rsquare",
+	description: "通过在树根底部使用树汁提取器，你可以提取树脂，然后再加工成橡胶。 这是制作橡胶的三种主要方式之一。",
+	tasks: [{
+		uid: "e1e6035a",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

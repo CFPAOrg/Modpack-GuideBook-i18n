@@ -1,0 +1,36 @@
+{
+	title: "吼吼，我是塑料做的吗，真是塑吧拉西！",
+	x: -12.0d,
+	y: -4.0d,
+	shape: "diamond",
+	dependencies: [
+		"eebe34c9",
+		"f39b0c90"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "99e967c1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12141"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "f8eef70b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12141",
+		count: 16
+	},
+	{
+		uid: "5a151e56",
+		type: "item",
+		item: "industrialforegoing:plastic",
+		count: 32
+	},
+	{
+		uid: "dd877caa",
+		type: "item",
+		item: "harvestcraft:jambalayaitem"
+	}]
+}

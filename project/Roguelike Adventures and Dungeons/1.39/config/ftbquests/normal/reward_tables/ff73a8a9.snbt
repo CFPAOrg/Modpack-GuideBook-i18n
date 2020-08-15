@@ -1,0 +1,106 @@
+{
+	title: "农夫",
+	icon: "minecraft:wheat_seeds",
+	loot_size: 48,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:wheat_seeds",
+		count: 6,
+		only_one: true
+	},
+	{
+		item: "uniquecrops:seedenderlily",
+		only_one: true
+	},
+	{
+		item: "minecraft:potato",
+		count: 6,
+		only_one: true
+	},
+	{
+		item: "harvestcraft:broccoliseeditem",
+		count: 3,
+		only_one: true
+	},
+	{
+		item: "harvestcraft:tomatoseeditem",
+		count: 3,
+		only_one: true
+	},
+	{
+		item: "harvestcraft:strawberryseeditem",
+		count: 3,
+		only_one: true
+	},
+	{
+		item: "minecraft:iron_hoe",
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_chestplate",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -8173889782450533824L,
+						UUIDLeast: -8281439696185227128L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.arcane.name"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_leggings",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_boots",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "minecraft:torch",
+		count: 16,
+		only_one: true
+	},
+	{
+		item: "minecraft:bread",
+		count: 16,
+		only_one: true
+	},
+	{
+		item: "skewers:skewer_beef_raw",
+		count: 6,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "farmer",
+		item_name: "农夫",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

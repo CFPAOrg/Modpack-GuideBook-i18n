@@ -6,7 +6,7 @@ setIcon(<amnesia:memories>)
 setTitle("记忆方块")
 
 //Set description String
-setDescription("挖掘或获取你的第一块记忆。记忆方块可以在y层数的0-32之间找到。")
+setDescription("挖掘或获取你的第一块记忆方块。记忆方块可以在y轴的0-32层数之间找到。")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("challenges:challenges/root")

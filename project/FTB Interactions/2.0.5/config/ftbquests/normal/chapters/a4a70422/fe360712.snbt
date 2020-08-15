@@ -1,0 +1,37 @@
+{
+	x: -10.5d,
+	y: -4.0d,
+	text: [
+		"用于从容器中取出物品"
+	],
+	dependencies: [
+		"ab0c7325"
+	],
+	tasks: [{
+		uid: "7ae694fd",
+		type: "item",
+		items: [{
+			item: "bloodmagic:input_routing_node"
+		}]
+	}],
+	rewards: [{
+		uid: "fa297f5c",
+		type: "item",
+		item: "bloodmagic:base_item_filter"
+	},
+	{
+		uid: "22a06aff",
+		type: "item",
+		item: "bloodmagic:base_item_filter 1 1"
+	},
+	{
+		uid: "4a4bd5a4",
+		type: "item",
+		item: "bloodmagic:base_item_filter 1 2"
+	},
+	{
+		uid: "2f7da0ca",
+		type: "item",
+		item: "bloodmagic:base_item_filter 1 3"
+	}]
+}

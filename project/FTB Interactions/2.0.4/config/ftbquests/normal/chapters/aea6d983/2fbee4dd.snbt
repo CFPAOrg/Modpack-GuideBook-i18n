@@ -1,0 +1,42 @@
+{
+	x: -1.0d,
+	y: -5.0d,
+	text: [
+		"这只小家伙可以制造星辉锭，焦黑石英或者陨石，源源不断。你需要自己先凑齐这些资源，但一旦做到了，这就是你的鸡啦！"
+	],
+	dependencies: [
+		"bad8af80",
+		"f1db3ede"
+	],
+	tasks: [{
+		uid: "eec9c0fd",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:spacechicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "898f81bd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:space_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "e286d385",
+		type: "item",
+		item: "contenttweaker:space_enriched_egg",
+		count: 16
+	},
+	{
+		uid: "e860c037",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

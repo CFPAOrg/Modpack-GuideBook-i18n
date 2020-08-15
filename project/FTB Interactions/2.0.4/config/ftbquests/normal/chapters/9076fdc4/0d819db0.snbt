@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: -9.0d,
+	description: "我是说你只要用这个池子就完事了，不需要那些……眼花缭乱的产魔装置。",
+	tasks: [{
+		uid: "e18abbe0",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "9afa0984",
+		type: "item",
+		item: "botania:spreader 1 3",
+		count: 2
+	},
+	{
+		uid: "f9467002",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manatablet",
+			tag: {
+				mana: 500000,
+				creative: 1
+			}
+		}
+	}]
+}

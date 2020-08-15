@@ -1,0 +1,44 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	text: [
+		"最后一个等级的星辉合成祭坛。这个祭坛使你能够用新的方式从最远的星星聚焦星光，以强化物品和水晶。还能够制造非常强大的装备，如星斗披风。"
+	],
+	dependencies: [
+		"b46714b7",
+		"f1db3ede"
+	],
+	tasks: [{
+		uid: "1e146306",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c3d044a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	}]
+}

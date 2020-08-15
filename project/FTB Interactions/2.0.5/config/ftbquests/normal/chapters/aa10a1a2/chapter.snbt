@@ -1,0 +1,13 @@
+{
+	title: "如何给这场派对供电?",
+	icon: "opencomputers:powerconverter",
+	description: [
+		"还在为机器处理和自动化所需要的能量困扰吗？",
+		"",
+		"我遇到了99个问题，但是能源不是其中之一。 ",
+		"检查这里的进度以查看每个阶段推荐的发电选项。记住这些只是建议，如果你发现了一些其他创造性的方式来给你的基地供电，也是你的本事...哈"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

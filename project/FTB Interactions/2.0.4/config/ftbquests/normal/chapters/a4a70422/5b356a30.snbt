@@ -1,0 +1,26 @@
+{
+	x: -14.0d,
+	y: 5.0d,
+	text: [
+		"红石导管允许你通过同一个方块上的不同频道传递多个红石信号，并设置信号强度。加强和精简了原版自动化，非常有用。"
+	],
+	dependencies: [
+		"dcabc080"
+	],
+	tasks: [{
+		uid: "05adbe4a",
+		type: "checkmark",
+		title: "红石导管",
+		icon: "enderio:item_redstone_conduit"
+	}],
+	rewards: [{
+		uid: "6dc6065f",
+		type: "item",
+		item: "cyclicmagic:wireless_transmitter"
+	},
+	{
+		uid: "667eaa0f",
+		type: "item",
+		item: "cyclicmagic:wireless_receiver"
+	}]
+}

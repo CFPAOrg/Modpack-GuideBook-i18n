@@ -1,0 +1,1 @@
+mods.recipestages.Recipes.setRecipeStage("铝", <minecraft:dirt:1>);

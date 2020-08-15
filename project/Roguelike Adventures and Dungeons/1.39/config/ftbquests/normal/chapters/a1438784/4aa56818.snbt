@@ -1,0 +1,47 @@
+{
+	x: 14.0d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "222e2895",
+		type: "item",
+		items: [{
+			item: "atum:nuits_duality"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "80b58c75",
+		type: "item",
+		items: [{
+			item: "atum:nuits_ire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "72279d9b",
+		type: "item",
+		items: [{
+			item: "atum:nuits_quarter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2204876c",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "ac6efc92",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 5
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	dependencies: [
+		"e9ff4c24",
+		"f5666ec9"
+	],
+	tasks: [{
+		uid: "d467431b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "deepmoblearningbm:altar_linker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c36b5578",
+		type: "item",
+		item: "deepmoblearning:data_model_blank"
+	}]
+}

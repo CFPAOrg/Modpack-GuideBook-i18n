@@ -1,0 +1,26 @@
+{
+	title: "What's all the buzz about?",
+	x: 4.0d,
+	y: 6.0d,
+	text: [
+		"作物生长太慢？总是处在死亡边缘？别担心，高兴点，因为现在你可以同时解决这两个问题。乡村（Rustic）模组的蜂房在有蜜蜂工作时能够加速周边作物的生长。这一效果可以叠加。",
+		"",
+		"此外，它们还生产蜂蜜，与升麻结合可以酿造生命恢复药水。"
+	],
+	dependencies: [
+		"a9d0a2ad"
+	],
+	tasks: [{
+		uid: "ee194474",
+		type: "item",
+		items: [{
+			item: "rustic:apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "ddfdb55e",
+		type: "item",
+		item: "rustic:cohosh",
+		count: 4
+	}]
+}

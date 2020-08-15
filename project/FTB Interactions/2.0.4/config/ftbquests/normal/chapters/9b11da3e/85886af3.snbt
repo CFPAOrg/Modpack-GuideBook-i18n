@@ -1,0 +1,18 @@
+{
+	icon: "dmonsters:mobspawneritem_mutantsteve",
+	x: -3.0d,
+	y: -9.0d,
+	description: "踏入青铜时代后，突变史蒂夫会比较稀少地生成，这些僵尸破坏力更强，他们有能力破坏石头或者硬度不如石头的方块。",
+	text: [
+		"警告：目前，突变史蒂夫的侵略性很强，它们会破坏方块，甚至可以刨掉你的坟墓，这些恐怖分子以后可能会被削弱，不过现在，请小心应对它们！"
+	],
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "1f8caf94",
+		type: "kill",
+		entity: "dmonsters:mutantsteve",
+		value: 1L
+	}]
+}

@@ -1,0 +1,71 @@
+{
+	title: "源初与终焉之鸡",
+	x: 4.0d,
+	y: -9.0d,
+	text: [
+		"元始魔力对于红物质等高端材料来说是必不可少的，其生产过程中会耗费大量的时间和电力。元始蛋能离心出元始魔力所需的所有粉并产生一些氘，从而大大简化了这一过程。"
+	],
+	dependencies: [
+		"bad8af80",
+		"2a82909d"
+	],
+	tasks: [{
+		uid: "24fb531b",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:primalchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "78dac58d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:primal_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "5214f09b",
+		type: "item",
+		item: "thermalfoundation:material 1 1024"
+	},
+	{
+		uid: "8b0da382",
+		type: "item",
+		item: "thermalfoundation:material 1 1025"
+	},
+	{
+		uid: "3469425e",
+		type: "item",
+		item: "thermalfoundation:material 1 1026"
+	},
+	{
+		uid: "27224755",
+		type: "item",
+		item: "thermalfoundation:material 1 1027"
+	},
+	{
+		uid: "c6175570",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "deuterium",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	},
+	{
+		uid: "25a0724f",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

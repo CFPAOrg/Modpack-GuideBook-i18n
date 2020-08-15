@@ -1,0 +1,7 @@
+{
+	title: "神秘时代",
+	icon: "thaumcraft:thaumonomicon",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

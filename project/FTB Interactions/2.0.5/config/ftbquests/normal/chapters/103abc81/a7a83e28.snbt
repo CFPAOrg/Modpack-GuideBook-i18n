@@ -1,0 +1,38 @@
+{
+	x: 1.5d,
+	y: 11.0d,
+	description: "这个星球搞的好像我很胖似的。",
+	text: [
+		"你将会在这里找到各类高端材料，如硅岩和大量铂矿等。 此外，这个世界拥有可以让你召唤传说级末影鸡的条件，也许这是有用的......"
+	],
+	dependencies: [
+		"5b1c2607"
+	],
+	tasks: [{
+		uid: "efae3be9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:overworldessencel"
+		}]
+	}],
+	rewards: [{
+		uid: "261eed31",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "contenttweaker:overworldessencel",
+					Count: 1,
+					Damage: 0
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "The Dark Star",
+				TrophyColorRed: 37
+			}
+		}
+	}]
+}

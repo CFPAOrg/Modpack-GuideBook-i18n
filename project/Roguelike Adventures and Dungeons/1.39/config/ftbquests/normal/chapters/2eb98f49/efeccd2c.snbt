@@ -1,0 +1,23 @@
+{
+	x: 5.0d,
+	y: -3.0d,
+	description: "它可以在你的屏幕上显示所连接的机器的灰烬能量。",
+	text: [
+		""
+	],
+	dependencies: [
+		"4c22bf55"
+	],
+	tasks: [{
+		uid: "ce2a6d86",
+		type: "item",
+		items: [{
+			item: "embers:ember_gauge"
+		}]
+	}],
+	rewards: [{
+		uid: "614c68cd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

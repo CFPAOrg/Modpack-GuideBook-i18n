@@ -1,0 +1,24 @@
+{
+	x: -10.0d,
+	y: -6.0d,
+	text: [
+		"难道魔法不会一直给它的主人带来好运吗？做一个试试！"
+	],
+	dependencies: [
+		"c42f5354",
+		"a138555f"
+	],
+	tasks: [{
+		uid: "0546af23",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 5807"
+		}]
+	}],
+	rewards: [{
+		uid: "177d7bcf",
+		type: "item",
+		item: "botania:manaresource 1 4",
+		count: 4
+	}]
+}

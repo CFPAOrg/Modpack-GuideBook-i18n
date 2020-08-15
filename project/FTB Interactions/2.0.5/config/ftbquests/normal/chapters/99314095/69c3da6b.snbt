@@ -1,0 +1,30 @@
+{
+	title: "做出了格雷中颜色最好的金属锭，你获得的奖励是：",
+	x: -9.0d,
+	y: 8.0d,
+	shape: "square",
+	description: "你懂的，钨钢是IV等级的合成中最常用到的原材料。它的样子看上去也很神奇，你有见过钨钢外壳吗？",
+	dependencies: [
+		"a73d5e3d"
+	],
+	tasks: [{
+		uid: "3cd55fca",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10235"
+		}]
+	},
+	{
+		uid: "b31b9509",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 505"
+		}]
+	}],
+	rewards: [{
+		uid: "3e6a74b5",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2074",
+		count: 16
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "山顶上的孤独",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -15.0d,
+	y: -5.0d,
+	shape: "gear",
+	description: "并非所有矿石都足够纯净，允许最高倍数的增产，查看每个矿石的配方来了解它到底能够几倍增产。",
+	tasks: [{
+		uid: "bf572b93",
+		type: "checkmark"
+	}]
+}

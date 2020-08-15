@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -3.0d,
+	dependencies: [
+		"8756baa7"
+	],
+	tasks: [{
+		uid: "1bd965cd",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:coal_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "4f5ec7ba",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"a614e306"
+	],
+	tasks: [{
+		uid: "8177ca92",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:intermedium_apple"
+		}]
+	}],
+	rewards: [{
+		uid: "dccbe1f5",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "数据存储",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "deepmoblearning:deep_learner"
+	},
+	x: 0.0d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"你需要一个深度学习器来给faulty等级的数据模型提供初始数据。",
+		"你需要Shift右击这个物品来插入你的数据模型，一旦你插入模型后，每当这个怪物类型被你杀死一次，就会增加1点数据。",
+		"当一个模型到达Basic层级，你就可以使用聚合粘土在模拟室进行模拟。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"cbbc96a7"
+	],
+	tasks: [{
+		uid: "0c8eb7ff",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: -9.0d,
+	y: 3.0d,
+	text: [
+		"像它的名字说的那样，它是ME网络与流体贮存运输系统之间的接口，比如流体管道和桶。",
+		"每一侧都可以独立配置成不同的流体。要导出流体，通过将对应的流体桶放置在与该侧相对应的空槽位中设置",
+		"从左到右，每个槽位对应的面朝向分别是下、上、北、南、西、东。 你也可以将鼠标悬停在矩形位置以查看此信息， 它代表10000mB或10桶的内部缓存。"
+	],
+	dependencies: [
+		"39d33b3e"
+	],
+	tasks: [{
+		uid: "63fc2aed",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:fluid_interface"
+		}]
+	}],
+	rewards: [{
+		uid: "eb01fb92",
+		type: "item",
+		item: "appliedenergistics2:part 1 302"
+	},
+	{
+		uid: "d279acb7",
+		type: "item",
+		item: "appliedenergistics2:part 1 281"
+	},
+	{
+		uid: "6df0fcfd",
+		type: "item",
+		item: "appliedenergistics2:part 1 321"
+	}]
+}

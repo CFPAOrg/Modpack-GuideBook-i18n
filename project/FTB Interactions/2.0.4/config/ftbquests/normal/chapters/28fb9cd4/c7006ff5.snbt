@@ -1,0 +1,14 @@
+{
+	x: -11.0d,
+	y: 1.5d,
+	dependencies: [
+		"d85bce55"
+	],
+	tasks: [{
+		uid: "be3632a9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ore_amber"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "炼金第一步",
+	x: -8.0d,
+	y: -8.0d,
+	text: [
+		"黄铜为你的世界带来了工业革命。",
+		"你的第一台机器将会需要黄铜，所以多做一点黄铜。",
+		"重要提示：你需要跟随魔导手册的指导，解锁需要的研究来制作它。 在你从魔导手册里解锁基础炼金术之前不要尝试制作它。"
+	],
+	dependencies: [
+		"8eac9d15"
+	],
+	tasks: [{
+		uid: "ef3e7378",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "e450cc31",
+		type: "item",
+		item: "thaumcraft:ingot 1 2",
+		count: 8
+	}]
+}

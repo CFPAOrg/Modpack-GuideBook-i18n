@@ -1,0 +1,33 @@
+{
+	"name": "The Soulbook",
+	"icon": "soulus:soulbook",
+	"advancement": "soulus:dust_ender",
+	"category": "summoning",
+	"sortnum": 10201,
+	"pages": [
+		{
+			"type": "spotlight",
+			"item": "soulus:soulbook{essence_quantity:1,essence_type:'unfocused'}",
+			"title": "The Soulbook",
+			"text": "The $(item)Soulbook$() is used for essence storage. A soulbook can contain up to the exact number of essence required in order to complete a 'soul' of that type.",
+			"link_recipe": true
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:misc/soulbook",
+			"title": "Recipe",
+			"text": "To craft a soulbook, simply combine a book with ender dust. The dust turns the book into a soul container, as it will cause any essence to congeal to the surface of the book's pages and cover."
+		},
+		{
+			"type": "text",
+			"text": "An empty soulbook is as useless as an empty book. That is: it has a singular use, being filled.$(p)To fill a soulbook, craft it with essence of a single type. For example, crafting it with chicken essence would cause its alignment to change to that of the chicken. As the soulbook comes closer to containing a full soul, its colour will shift towards that of the essence it contains."
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:soulbook2",
+			"recipe2": "soulus:soulbook3",
+			"title": "Filling Soulbooks",
+			"text": "$(l:summoning/summoner)Next up: the Summoner.$()"
+		}
+	]
+}

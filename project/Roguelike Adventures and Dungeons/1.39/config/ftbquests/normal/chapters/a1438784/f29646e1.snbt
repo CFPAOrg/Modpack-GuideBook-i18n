@@ -1,0 +1,35 @@
+{
+	x: 4.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3b174cee",
+		type: "item",
+		items: [{
+			item: "atum:atums_will"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ddf9ce96",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e2e95a68",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 16
+	},
+	{
+		uid: "9c0c6564",
+		type: "item",
+		item: "atum:khnumite",
+		count: 2
+	}]
+}

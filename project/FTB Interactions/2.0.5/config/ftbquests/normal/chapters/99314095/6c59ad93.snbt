@@ -1,0 +1,28 @@
+{
+	title: "压模器警告！",
+	x: -7.0d,
+	y: 2.0d,
+	description: "在大多数格雷整合包中，压模器让你方便地将一个锭到制成两根杆。在这个整合包中，压模器还让你能够制作工具锻造台等级的匠魂部件。",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ace65682"
+	],
+	tasks: [{
+		uid: "3e304dc7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 271"
+		}]
+	}],
+	rewards: [{
+		uid: "de5526a7",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10017",
+		count: 16
+	},
+	{
+		uid: "fa237186",
+		type: "item",
+		item: "harvestcraft:cornishpastyitem"
+	}]
+}

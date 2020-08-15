@@ -1,0 +1,39 @@
+{
+	x: -8.0d,
+	y: -9.0d,
+	description: "当你可以复制的时候，还挖什么矿呢？",
+	tasks: [{
+		uid: "673e9c73",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "uumatter",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "37a4b376",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "uumatter",
+					Amount: 64000
+				}
+			},
+			Damage: 32405s
+		}
+	},
+	{
+		uid: "1a31926e",
+		type: "item",
+		item: "avaritia:endest_pearl"
+	}]
+}

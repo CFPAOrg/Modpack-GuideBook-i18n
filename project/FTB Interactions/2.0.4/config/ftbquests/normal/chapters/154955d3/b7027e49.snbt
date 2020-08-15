@@ -1,0 +1,21 @@
+{
+	title: "Hot or Not？",
+	x: -3.0d,
+	y: 8.0d,
+	description: "如果你手持着一个装着岩浆的储罐或者容器，它会持续烫伤你，就算你放在物品栏中也一样。手持这些手套来抵消炙热液体的影响（以及手持其他液体所导致的副作用）。",
+	dependencies: [
+		"ca362eca"
+	],
+	tasks: [{
+		uid: "f654b502",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "hotornot:mitts"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

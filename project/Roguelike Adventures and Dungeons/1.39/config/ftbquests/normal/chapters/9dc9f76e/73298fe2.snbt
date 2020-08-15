@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: -5.0d,
+	dependencies: [
+		"670114ab"
+	],
+	tasks: [{
+		uid: "bb7c18b0",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "2d44bec4",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

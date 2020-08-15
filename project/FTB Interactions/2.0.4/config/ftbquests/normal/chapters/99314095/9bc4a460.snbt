@@ -1,0 +1,32 @@
+{
+	title: "黑绵羊咩咩叫",
+	x: -2.0d,
+	y: -2.0d,
+	description: "简陋的低级导线使用同样简陋的覆盖层。闯入你邻居的房子，撕开他们的地毯为你的线缆绝缘，这样的想法多么滑稽！",
+	tasks: [{
+		uid: "24c4baeb",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 1 15"
+		}],
+		count: 128L
+	}],
+	rewards: [{
+		uid: "e37e2ae4",
+		type: "item",
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "minecraft:sheep"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "370bbae9",
+		type: "item",
+		item: "minecraft:dye",
+		count: 4
+	}]
+}

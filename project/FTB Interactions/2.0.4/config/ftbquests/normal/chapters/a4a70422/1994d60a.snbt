@@ -1,0 +1,35 @@
+{
+	x: -18.0d,
+	y: -2.0d,
+	text: [
+		"这两个方块能发送或接收红石信号，可以与创造出复杂的物流供应体系。"
+	],
+	dependencies: [
+		"877f5f61"
+	],
+	tasks: [{
+		uid: "b4bda897",
+		type: "item",
+		items: [{
+			item: "superfactorymanager:cable_output"
+		}]
+	},
+	{
+		uid: "e509491b",
+		type: "item",
+		items: [{
+			item: "superfactorymanager:cable_input"
+		}]
+	}],
+	rewards: [{
+		uid: "626fe76a",
+		type: "item",
+		item: "superfactorymanager:cable",
+		count: 8
+	},
+	{
+		uid: "e6fe6e85",
+		type: "item",
+		item: "thermalfoundation:material 1 513"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "由铜开始的矿物处理",
+	x: -3.0d,
+	y: -5.0d,
+	text: [
+		"矿物处理的第一步是铜的处理。建议你使用格雷锤子或者匠魂的镐子。你需要一些铜矿石，任意一种都可以，在陶瓷冶炼炉中融化它并把它浇筑成锭。",
+		"这之后你将能够收集到所需的材料来制造匠魂的焦黑熔炉，并生产一些铁来制造一个挤压机。"
+	],
+	dependencies: [
+		"d6801307"
+	],
+	tasks: [{
+		uid: "deec492b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12018"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "795fa5bb",
+		type: "item",
+		item: "minecraft:slime",
+		count: 2
+	},
+	{
+		uid: "21ce5830",
+		type: "item",
+		item: "harvestcraft:chimichangaitem"
+	}]
+}

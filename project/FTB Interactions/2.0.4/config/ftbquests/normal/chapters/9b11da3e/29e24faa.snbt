@@ -1,0 +1,15 @@
+{
+	icon: "thaumcraft:banner_crimson_cult",
+	x: -3.0d,
+	y: -8.0d,
+	description: "当你踏入了青铜时代以后，血腥教徒会比较稀少地开始生成，当你进入了下界并进行探索时，有时候会生成血腥骑士，血腥主教，血腥传送门",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "44bb92f6",
+		type: "kill",
+		entity: "thaumcraft:cultistknight",
+		value: 1L
+	}]
+}

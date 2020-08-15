@@ -1,0 +1,23 @@
+{
+	x: 11.0d,
+	y: 3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "2473e4f9",
+		type: "item",
+		items: [{
+			item: "xreliquary:mob_ingredient 1 11"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "212a6e73",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "254c340a",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "SFM真是太棒啦！",
+	x: -18.0d,
+	y: -3.0d,
+	text: [
+		"超级工厂管理（Super Factory Manager，旧版本叫史蒂夫工厂管理）是一个极为健全的物流系统，能够以集中控制的方式非常快速地运送大量流体与物品。它也能够进行基本的自动合成。",
+		"",
+		"它可以放置或破坏方块，进行红石信号互动，从世界中丢弃或拾取物品，以及保持库存与流体的供应。 它是自动化许多格雷科技流程的宝贵工具。",
+		"请务必查看来自Direwolf20的旧模组介绍，由于与旧版本模组基本相同，因此大多内容还是可以应用的。"
+	],
+	tasks: [{
+		uid: "09769133",
+		type: "item",
+		items: [{
+			item: "superfactorymanager:manager"
+		}]
+	}],
+	rewards: [{
+		uid: "82db6a9b",
+		type: "item",
+		item: "superfactorymanager:cable",
+		count: 8
+	}]
+}

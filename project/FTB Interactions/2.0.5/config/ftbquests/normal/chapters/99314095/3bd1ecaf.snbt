@@ -1,0 +1,29 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	description: "它消耗蒸汽发电，如果你之前不清楚的话。 ",
+	text: [
+		"这个小老弟可以给一个LV机器提供能量，他的输出是32V 1A。你可能得多做几个。"
+	],
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "e00e873f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 485"
+		}]
+	}],
+	rewards: [{
+		uid: "6a3a2f91",
+		type: "item",
+		item: "mekanism:enrichedalloy",
+		count: 3
+	},
+	{
+		uid: "fe9ef7d5",
+		type: "item",
+		item: "harvestcraft:steamedspinachitem"
+	}]
+}

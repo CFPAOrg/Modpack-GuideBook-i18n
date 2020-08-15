@@ -1,0 +1,55 @@
+{
+	title: "切换，升级。",
+	x: -10.5d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "将你的炼狱熔炉升级为炼狱窑炉。",
+	text: [
+		"虽然炼狱熔炉很好，但它似乎会引起不想要的邪术污染并引起……一些其他问题。",
+		"我们有了科技来改进这种原始的设计。通过使用一些定制的排气系统，我们可以利用这种力量进行清洁和免费的基础冶炼。"
+	],
+	dependencies: [
+		"243978e1",
+		"c13fb853"
+	],
+	tasks: [{
+		uid: "c2d3f544",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:hellfire_kiln"
+			}
+		}]
+	},
+	{
+		uid: "7bc0eb9c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}]
+	},
+	{
+		uid: "13ca3e5b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "ec5d620c",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32487",
+		count: 4
+	},
+	{
+		uid: "884d4b54",
+		type: "item",
+		item: "logisticspipes:module_active_supplier"
+	},
+	{
+		uid: "47794786",
+		type: "item",
+		item: "logisticspipes:module_provider"
+	}]
+}

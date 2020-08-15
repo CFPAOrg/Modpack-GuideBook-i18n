@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 7.0d,
+	description: "它能治愈僵尸村民。那些成为了僵尸的村民。",
+	dependencies: [
+		"a0918964"
+	],
+	tasks: [{
+		uid: "51f17823",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:apple_emerald"
+		}]
+	}]
+}

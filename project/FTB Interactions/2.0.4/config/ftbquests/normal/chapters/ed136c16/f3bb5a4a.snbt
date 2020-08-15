@@ -1,0 +1,29 @@
+{
+	x: -5.0d,
+	y: -3.0d,
+	shape: "square",
+	description: "至少，你的皮肤不会再被撕裂了",
+	tasks: [{
+		uid: "fcae326c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:leather_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e381af11",
+		type: "item",
+		item: "harvestcraft:honeycombchocolatebaritem"
+	},
+	{
+		uid: "45683326",
+		type: "item",
+		item: "harvestcraft:hardenedleatheritem",
+		count: 8
+	}]
+}

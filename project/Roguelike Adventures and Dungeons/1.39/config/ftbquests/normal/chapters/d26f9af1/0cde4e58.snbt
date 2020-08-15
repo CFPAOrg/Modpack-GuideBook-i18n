@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -4.0d,
+	dependencies: [
+		"62ea89ba"
+	],
+	tasks: [{
+		uid: "6e3dbd0a",
+		type: "item",
+		items: [{
+			item: "extrautils2:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "411ceaaa",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

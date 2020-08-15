@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -4.0d,
+	dependencies: [
+		"c292e334"
+	],
+	tasks: [{
+		uid: "264469d4",
+		type: "item",
+		items: [{
+			item: "embers:tinker_lens"
+		}]
+	}],
+	rewards: [{
+		uid: "229c37b9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

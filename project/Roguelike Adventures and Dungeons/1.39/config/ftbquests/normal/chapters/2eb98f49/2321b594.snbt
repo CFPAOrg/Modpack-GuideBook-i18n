@@ -1,0 +1,29 @@
+{
+	x: 14.0d,
+	y: -4.0d,
+	description: "更高级的灰烬能量存储",
+	text: [
+		""
+	],
+	dependencies: [
+		"e2f0fe86"
+	],
+	tasks: [{
+		uid: "9639e30b",
+		type: "item",
+		items: [{
+			item: "embers:crystal_cell"
+		}]
+	}],
+	rewards: [{
+		uid: "27bac4db",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "9c0fd495",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 2
+	}]
+}

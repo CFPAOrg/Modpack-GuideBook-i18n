@@ -1,0 +1,27 @@
+{
+	title: "摇，摇，晃，摇",
+	x: -22.0d,
+	y: -3.0d,
+	description: "用这种管道进行简单的物品传输时还能凑合用用，然而一些奇怪的特性使得用它来做自动化时并不那么简单。对于前期来说不错，但并不是最好的。",
+	tasks: [{
+		uid: "67a6dc43",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "7781d100",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:configurator"
+		}
+	}]
+}

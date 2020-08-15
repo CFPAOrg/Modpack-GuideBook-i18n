@@ -1,0 +1,9 @@
+{
+	"name": "Well指南书",
+	"subtitle": " ",
+	"version": 1,
+	"model": "hwell:book",
+	"book_texture": "patchouli:textures/gui/book_purple.png",
+	"show_progress": false,
+	"landing_text": "欢迎来到HearthWell。该mod的目标是制作基地所需的机器（并希望这样做很有趣），并且一切都尽可能地简单，没有复杂的GUI或数字，同时仍然具有足够的多样性，可以让你全神贯注地发展mod。"
+}

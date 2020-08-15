@@ -1,0 +1,50 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	description: "坏松鼠:中世纪",
+	dependencies: [
+		"f3bb5a4a"
+	],
+	tasks: [{
+		uid: "d1522789",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aa0fa921",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_helmet"
+		}
+	},
+	{
+		uid: "12793e1e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_leggings"
+		}
+	},
+	{
+		uid: "84d51cfe",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_boots"
+		}
+	}]
+}

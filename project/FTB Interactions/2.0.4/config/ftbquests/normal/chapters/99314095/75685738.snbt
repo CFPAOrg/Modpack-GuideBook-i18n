@@ -1,0 +1,27 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	description: "注意到劣质的的蒸汽研磨机没有前置任务了吗？这个研磨机也能双倍！",
+	dependencies: [
+		"5470f8d6"
+	],
+	tasks: [{
+		uid: "16870e62",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 60"
+		},
+		{
+			item: "gregtech:machine 1 61"
+		},
+		{
+			item: "gregtech:machine 1 62"
+		}]
+	}],
+	rewards: [{
+		uid: "6e657c8d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2117",
+		count: 32
+	}]
+}

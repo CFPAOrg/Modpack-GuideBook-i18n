@@ -1,0 +1,19 @@
+{
+	x: -6.0d,
+	y: 4.0d,
+	text: [
+		"神龙护腿提供比双足飞龙护腿更快的速度。"
+	],
+	dependencies: [
+		"75c24ed9"
+	],
+	tasks: [{
+		uid: "120b63c8",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -12.0d,
+	y: -8.0d,
+	text: [
+		"用来制作格雷科技的工具非常棒，并且早期有非常多的用途，你会用掉不少的。"
+	],
+	dependencies: [
+		"8cd0b5bf"
+	],
+	tasks: [{
+		uid: "3b1aae09",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "4897b880",
+		type: "item",
+		item: "thaumcraft:ingot",
+		count: 8
+	}]
+}

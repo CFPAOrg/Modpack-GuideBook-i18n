@@ -1,0 +1,26 @@
+{
+	title: "知识宝库",
+	icon: "minecraft:dispenser",
+	x: 4.5d,
+	y: -2.5d,
+	shape: "gear",
+	text: [
+		"齿轮形状的任务将提供视频、图表或流程图的外部链接，帮助你完成任务或生产线自动化。"
+	],
+	dependencies: [
+		"3b4bd52b"
+	],
+	tasks: [{
+		uid: "c239ec5d",
+		type: "checkmark",
+		title: "教学任务",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		},
+		disable_toast: true
+	}]
+}

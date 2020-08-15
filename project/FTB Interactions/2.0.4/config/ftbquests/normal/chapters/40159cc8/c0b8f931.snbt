@@ -1,0 +1,29 @@
+{
+	title: "别再换储罐了",
+	x: -1.5d,
+	y: -15.0d,
+	text: [
+		"如果您可以像那些高端手机那样进行无线充(chōng)电(qì)怎么办？ 好吧，只需为这小东西提供氧气，然后你站在它顶部，接下来就是见证奇迹的时刻！"
+	],
+	dependencies: [
+		"237309c2"
+	],
+	tasks: [{
+		uid: "0ab03433",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygencharger"
+		}]
+	}],
+	rewards: [{
+		uid: "c3382f24",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:pressuretank",
+			Damage: 3s
+		}
+	}]
+}

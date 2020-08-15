@@ -1,0 +1,66 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	dependencies: [
+		"e6c0ab01"
+	],
+	tasks: [{
+		uid: "ad0b8667",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:swift_pick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5c764e30",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:shockwave_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2df2853a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:hag_hacker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d98c4630",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:critter_cruncher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bf8ec4bd",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sludge_slicer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "640a9c2a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:wights_bane"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "503e055c",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

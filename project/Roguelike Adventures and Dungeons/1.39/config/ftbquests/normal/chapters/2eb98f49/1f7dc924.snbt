@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	dependencies: [
+		"4f3ce528"
+	],
+	tasks: [{
+		uid: "fe163d3a",
+		type: "item",
+		items: [{
+			item: "embers:codex"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7c1c822",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

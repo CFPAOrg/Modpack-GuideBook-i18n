@@ -1,0 +1,35 @@
+{
+	x: -23.0d,
+	y: -6.0d,
+	text: [
+		"早期的自动化方法，后面的合成也会用到！"
+	],
+	tasks: [{
+		uid: "57c218d7",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor"
+		}]
+	}],
+	rewards: [{
+		uid: "3407d84d",
+		type: "item",
+		item: "industrialforegoing:conveyor",
+		count: 8
+	},
+	{
+		uid: "866b37d9",
+		type: "item",
+		item: "industrialforegoing:conveyor_upgrade 1 1"
+	},
+	{
+		uid: "9299a3df",
+		type: "item",
+		item: "industrialforegoing:conveyor_upgrade"
+	},
+	{
+		uid: "c0285d92",
+		type: "item",
+		item: "harvestcraft:cucumbersandwichitem"
+	}]
+}

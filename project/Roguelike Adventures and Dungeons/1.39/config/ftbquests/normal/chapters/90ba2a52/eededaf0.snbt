@@ -1,0 +1,16 @@
+{
+	x: 5.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "0c3af0f0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:minerstewitem"
+		}]
+	}],
+	rewards: [{
+		uid: "be2b52df",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

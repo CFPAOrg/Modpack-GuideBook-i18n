@@ -1,0 +1,52 @@
+{
+	x: 12.0d,
+	y: -6.0d,
+	dependencies: [
+		"c63f2806"
+	],
+	tasks: [{
+		uid: "2fe3e57d",
+		type: "item",
+		items: [{
+			id: "embers:staff_ember",
+			tag: {
+				cooldown: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1fe3c6d1",
+		type: "item",
+		items: [{
+			id: "embers:ignition_cannon",
+			tag: {
+				cooldown: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11dbf376",
+		type: "item",
+		items: [{
+			id: "embers:axe_clockwork",
+			tag: {
+				tickCount: 1,
+				didUse: 0b,
+				poweredOn: 0b,
+				Quality: {},
+				cooldown: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d8d62dde",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

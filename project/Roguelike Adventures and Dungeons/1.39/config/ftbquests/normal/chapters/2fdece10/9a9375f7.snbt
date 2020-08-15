@@ -1,0 +1,139 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	dependencies: [
+		"35076070"
+	],
+	tasks: [{
+		uid: "193426f7",
+		type: "item",
+		items: [{
+			id: "spartanfire:battleaxe_fire_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 707651478921824395L,
+						UUIDLeast: -7300285795956373020L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6bc40672",
+		type: "item",
+		items: [{
+			id: "spartanfire:mace_fire_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: -1049195199889650348L,
+						UUIDLeast: -7391847276691459761L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -3756289522416268560L,
+						UUIDLeast: -5327573570134662705L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7099105423551317317L,
+						UUIDLeast: -4955824059470208674L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8755679180840612075L,
+						UUIDLeast: -7007558766925494153L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.worthless.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3546f0d4",
+		type: "item",
+		items: [{
+			id: "spartanfire:warhammer_fire_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 2883233505412534216L,
+						UUIDLeast: -8906251062729259386L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8565942785459663823L,
+						UUIDLeast: -6532822862900266730L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.keen.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8eece8da",
+		type: "item",
+		items: [{
+			id: "spartanfire:hammer_fire_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df1e2cb4",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "846ec753",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

@@ -1,0 +1,8 @@
+{
+	title: "小撮粉，大麻烦 - ToAsgaard 的小撮粉自动化 - 处理小撮粉和小堆粉的多种自动化方案之一。",
+	icon: "gregtech:meta_item_1 1 1",
+	x: -2.5d,
+	y: -1.5d,
+	shape: "gear",
+	custom_click: "https://youtu.be/8WjiZB9rTrU?t=1973"
+}

@@ -1,0 +1,28 @@
+{
+	title: "锚定于灵魂中",
+	x: -10.0d,
+	y: -1.0d,
+	text: [
+		"通灵锚可以与工具或装备进行合成，赋予其“锚定”效果，拥有此效果的工具，在玩家死亡后不会掉落。制作通灵锚，将它附在重要的东西上来保护它们。"
+	],
+	dependencies: [
+		"caf422c5"
+	],
+	tasks: [{
+		uid: "cab93052",
+		type: "item",
+		items: [{
+			item: "randomthings:spectreanchor"
+		}]
+	}],
+	rewards: [{
+		uid: "6505dbdb",
+		type: "xp_levels",
+		xp_levels: 4
+	},
+	{
+		uid: "ba426c4f",
+		type: "item",
+		item: "randomthings:spectreilluminator"
+	}]
+}

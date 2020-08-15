@@ -1,0 +1,26 @@
+{
+	title: "高级无线电力系统公司",
+	x: -12.5d,
+	y: 3.0d,
+	shape: "square",
+	text: [
+		"即使末影通灵线圈也很难维持IV+等级机器的运作...你需要更高的传输速度！",
+		"本公司不提供存储电能服务，请使用格雷科技的电池。"
+	],
+	dependencies: [
+		"3308d327"
+	],
+	tasks: [{
+		uid: "79c65080",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "e04a0fa3",
+		type: "item",
+		item: "fluxnetworks:fluxcore",
+		count: 8
+	}]
+}

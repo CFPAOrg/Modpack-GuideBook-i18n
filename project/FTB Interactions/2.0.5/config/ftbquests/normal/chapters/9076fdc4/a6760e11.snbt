@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: -6.0d,
+	description: "该清理你的咒波了。",
+	tasks: [{
+		uid: "0191e79c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:creative_flux_sponge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ddf1b14a",
+		type: "item",
+		item: "thaumcraft:condenser"
+	}]
+}

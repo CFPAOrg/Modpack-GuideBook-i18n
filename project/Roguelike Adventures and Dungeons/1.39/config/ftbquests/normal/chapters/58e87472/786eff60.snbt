@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	description: "类似一个铁质次元门，除了石英质的次元门会通往一个玩家专属的口袋空间。",
+	text: [
+		""
+	],
+	dependencies: [
+		"982265ae"
+	],
+	tasks: [{
+		uid: "157949c4",
+		type: "item",
+		items: [{
+			item: "dimdoors:quartz_dimensional_door"
+		}]
+	}],
+	rewards: [{
+		uid: "87308ae7",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

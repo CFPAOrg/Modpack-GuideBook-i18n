@@ -1,0 +1,16 @@
+itemGroup.bedrockminerTab=基岩矿工
+
+tile.bedrock_infused_obsidian.name=基岩注入黑曜石
+tile.bedrock_breaker.name=基岩破坏器
+tile.bedrock_breaker_on.name=基岩破坏器
+
+item.bedrock_chunk.name=基岩碎块
+item.bedrock_sword.name=基岩剑
+item.bedrock_shovel.name=基岩锹
+item.bedrock_pickaxe.name=基岩镐
+item.bedrock_axe.name=基岩斧
+item.bedrock_hoe.name=基岩锄
+item.bedrock_helmet.name=基岩头盔
+item.bedrock_chestplate.name=基岩胸甲
+item.bedrock_leggings.name=基岩护腿
+item.bedrock_boots.name=基岩靴子

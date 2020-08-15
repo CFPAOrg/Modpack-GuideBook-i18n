@@ -1,0 +1,27 @@
+{
+	icon: "gregtech:meta_item_1 1 32406",
+	x: -1.5d,
+	y: -2.5d,
+	shape: "gear",
+	description: "小比尔曾经喜欢喝酒，但他现在不喝了，因为他以为的 H2O 其实是 H2SO4。",
+	text: [
+		"一旦你进入蒸汽时代或更高，这些任务章节就会开始解锁。每一个主要电压等级的格雷机器都会需要一些新的化学工艺，这些工艺将用于制造其他的化学品和高级材料。",
+		"",
+		"本指南只是对在游戏过程中获得必需化学品所涉步骤的非常宽泛的概述。还有许多其他的配方你可以探索，但我们只给出获得你所需要的东西的最直接的途径。"
+	],
+	dependencies: [
+		"a916453b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2fbc7667",
+		type: "checkmark",
+		title: "化学和你！"
+	}],
+	rewards: [{
+		uid: "e787db9d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32762",
+		count: 16
+	}]
+}

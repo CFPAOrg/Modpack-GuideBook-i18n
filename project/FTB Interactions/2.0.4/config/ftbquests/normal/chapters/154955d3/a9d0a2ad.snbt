@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: 5.0d,
+	description: "进一步的将油脂变为蜡杨梅种子，最后你可以将蜡杨梅压成蜡，用于制作硬化皮革或者做成蜡烛照明。",
+	dependencies: [
+		"7e2eeed5"
+	],
+	tasks: [{
+		uid: "95ef326d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:candleberryseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "cac3927c",
+		type: "item",
+		item: "rustic:bee"
+	}]
+}

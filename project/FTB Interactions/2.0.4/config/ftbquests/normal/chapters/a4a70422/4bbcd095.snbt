@@ -1,0 +1,69 @@
+{
+	title: "机器正在为你工作",
+	x: -4.0d,
+	y: 3.5d,
+	text: [
+		"最终，你需要一个合成存储器来真正地进行合成。",
+		"  ",
+		"多方块必须是长方体的形状，并且至少拥有一个并行处理单元和一个合成储存器。这个多方块可以从任意一个方块连接到ME网络。"
+	],
+	dependencies: [
+		"995e98b6"
+	],
+	tasks: [{
+		uid: "d1246ce4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_accelerator"
+		}]
+	},
+	{
+		uid: "7b6f8aa7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_1k"
+		}]
+	},
+	{
+		uid: "ce858e10",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_monitor"
+		}]
+	}],
+	rewards: [{
+		uid: "d5448923",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "a36c1684",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:fluid_storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "cf6795f0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicenergistics:essentia_cell_64k",
+			tag: {
+				filter: {}
+			}
+		}
+	}]
+}

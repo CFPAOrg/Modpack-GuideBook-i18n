@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	dependencies: [
+		"4c289c77"
+	],
+	tasks: [{
+		uid: "1888c039",
+		type: "item",
+		items: [{
+			item: "twilightforest:magic_map_empty"
+		}]
+	}],
+	rewards: [{
+		uid: "ee56ff56",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

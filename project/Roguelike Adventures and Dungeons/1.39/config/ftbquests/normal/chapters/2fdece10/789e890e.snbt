@@ -1,0 +1,102 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"35076070"
+	],
+	tasks: [{
+		uid: "f1ee4b09",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_axe_fire_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "60607a0b",
+		type: "item",
+		items: [{
+			id: "spartanfire:dagger_fire_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cdea676b",
+		type: "item",
+		items: [{
+			item: "spartanfire:javelin_fire_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "17c96502",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_axe_fire_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "18794f29",
+		type: "item",
+		items: [{
+			id: "spartanfire:crossbow_fire_dragonbone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3f111035",
+		type: "item",
+		items: [{
+			id: "spartanfire:longbow_fire_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand",
+						"offhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 3520717558870590063L,
+						UUIDLeast: -7924738962996443443L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.cracked.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9c25a7d7",
+		type: "item",
+		items: [{
+			item: "spartanfire:boomerang_fire_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8cea67d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "f654457e",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

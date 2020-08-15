@@ -1,0 +1,26 @@
+{
+	title: "组装机，集合！",
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "cc259504",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 100"
+		}]
+	}],
+	rewards: [{
+		uid: "a8c278c7",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32766"
+	},
+	{
+		uid: "9ef46930",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10180",
+		count: 8
+	}]
+}

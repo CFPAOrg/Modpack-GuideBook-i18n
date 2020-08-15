@@ -1,0 +1,42 @@
+{
+	x: -15.0d,
+	y: 2.0d,
+	dependencies: [
+		"56b12c95"
+	],
+	tasks: [{
+		uid: "1ce48179",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32487"
+		},
+		{
+			item: "gregtech:meta_item_2 1 32507"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "31409c2d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12196",
+		count: 32
+	},
+	{
+		uid: "652c7e6e",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32455",
+		count: 16
+	},
+	{
+		uid: "eba69d00",
+		type: "item",
+		item: "gregtech:cable 1 5237",
+		count: 16
+	},
+	{
+		uid: "a08c337b",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32450",
+		count: 8
+	}]
+}

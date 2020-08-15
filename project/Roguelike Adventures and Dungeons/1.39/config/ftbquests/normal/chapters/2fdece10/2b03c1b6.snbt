@@ -1,0 +1,117 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"1f15bb40",
+		"526726f6"
+	],
+	tasks: [{
+		uid: "148fc396",
+		type: "item",
+		items: [{
+			id: "spartanfire:dagger_desert_venom",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -5978444257334900211L,
+						UUIDLeast: -5642655485046021979L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broken.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c58b2464",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_axe_desert_venom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "406ca529",
+		type: "item",
+		items: [{
+			id: "spartanfire:longbow_desert_venom",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 3186346257602267007L,
+						UUIDLeast: -8421977428037024712L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.light.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6e731512",
+		type: "item",
+		items: [{
+			id: "spartanfire:crossbow_desert_venom",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e440b12b",
+		type: "item",
+		items: [{
+			item: "spartanfire:boomerang_desert_venom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a16fb056",
+		type: "item",
+		items: [{
+			item: "spartanfire:javelin_desert_venom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "55a9b6f7",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_knife_desert_venom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f81b351e",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "674a700f",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

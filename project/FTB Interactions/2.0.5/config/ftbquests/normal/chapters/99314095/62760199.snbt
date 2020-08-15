@@ -1,0 +1,27 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	description: "合金炉的电力版本。没有什么别的可说的了，所以这是合金炉的最后一个任务。更高级的合金炉会将配方超频，处理得更快。",
+	dependencies: [
+		"481095ef"
+	],
+	tasks: [{
+		uid: "5d2f3865",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 70"
+		},
+		{
+			item: "gregtech:machine 1 71"
+		},
+		{
+			item: "gregtech:machine 1 72"
+		}]
+	}],
+	rewards: [{
+		uid: "a5124ddb",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10801",
+		count: 8
+	}]
+}

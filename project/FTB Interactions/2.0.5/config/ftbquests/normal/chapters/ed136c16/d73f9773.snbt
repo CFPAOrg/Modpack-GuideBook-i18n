@@ -1,0 +1,51 @@
+{
+	title: "停下！现在是锤子时间！",
+	x: -13.0d,
+	y: -6.0d,
+	description: "它能在世界中或在你的合成栏中粉碎东西。在矿石上试一下。不知道你首先找到的矿脉是什么，青铜锤可能适合你。",
+	tasks: [{
+		uid: "da13661c",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 6s
+		},
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				CraftingComponents: [{
+					id: "gregtech:meta_item_2",
+					Count: 1,
+					Damage: 5033
+				},
+				{
+					id: "minecraft:stick",
+					Count: 1,
+					Damage: 0
+				}],
+				GT.ToolStats: {
+					PrimaryMaterial: "iron",
+					HandleMaterial: "wood"
+				}
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "41aabbac",
+		type: "item",
+		item: "gregtech:meta_item_2 1 5113"
+	}]
+}

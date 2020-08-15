@@ -1,0 +1,17 @@
+{
+	title: "不是鼓，是桶",
+	icon: "gregtech:machine 1 2196",
+	x: -4.0d,
+	y: -6.0d,
+	description: "青铜桶是游戏早期很好的存储液体的选择。",
+	dependencies: [
+		"558bc2e1"
+	],
+	tasks: [{
+		uid: "7f95abb1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2196"
+		}]
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "天体研究笔记",
+	x: -5.0d,
+	y: 1.5d,
+	description: "有了星辉合成台，你可以制作星图了，不过你现在只能制作出几种简单的星图。请注意，这些星图不再出现在神殿中。",
+	dependencies: [
+		"b1dded11"
+	],
+	tasks: [{
+		uid: "f6367fb6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "71303bf0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5570085101611273969L,
+					AS_Amulet_HolderMost: 5678865977197479355L
+				}
+			},
+			id: "bloodmagic:potion_flask",
+			tag: {
+				CustomPotionEffects: [{
+					Ambient: 0,
+					CurativeItems: [{
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 800,
+					Id: 71,
+					Amplifier: 0
+				}]
+			},
+			Damage: 1s
+		}
+	}]
+}

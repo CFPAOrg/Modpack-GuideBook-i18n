@@ -1,0 +1,26 @@
+{
+	title: "光核裂变反应堆",
+	x: 4.0d,
+	y: -9.0d,
+	text: [
+		"蓝图可以在Euclydes的地牢中找到，之后可以被制作出来。当你为它提供加工过的铀燃料，它可以提供给你大量的蒸汽，这些蒸汽能够在涡轮机内产生LuV等级的能量。"
+	],
+	dependencies: [
+		"da0cc52f"
+	],
+	tasks: [{
+		uid: "2f918c76",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:photonuclear_fission_chamber"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1b4548f9",
+		type: "item",
+		item: "compactmachines3:machine 1 5"
+	}]
+}

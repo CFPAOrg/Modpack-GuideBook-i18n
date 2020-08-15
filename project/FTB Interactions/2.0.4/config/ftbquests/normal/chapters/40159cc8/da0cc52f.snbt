@@ -1,0 +1,23 @@
+{
+	title: "Euclydes Prime",
+	icon: "contenttweaker:overworldessencer",
+	x: 5.0d,
+	y: -11.0d,
+	shape: "diamond",
+	description: "你需要制作Euclydes Prime工件，把它用在跃迁控制器中来前往这个世界。",
+	text: [
+		"强烈感谢DJJBanx为此提供动画材质。",
+		""
+	],
+	dependencies: [
+		"1e07ae16",
+		"025a49a7"
+	],
+	tasks: [{
+		uid: "8f0ba1b9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:overworldessencer"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "爆炸就是艺术！",
+	x: -0.5d,
+	y: -0.5d,
+	shape: "diamond",
+	dependencies: [
+		"6ce21c6c"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e3fd7261",
+		type: "item",
+		items: [{
+			item: "minecraft:tnt"
+		}]
+	}],
+	rewards: [{
+		uid: "09b7d163",
+		type: "item",
+		item: "minecraft:tnt",
+		count: 16
+	}]
+}

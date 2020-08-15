@@ -1,0 +1,102 @@
+{
+	title: "冰封千里我也从不动摇",
+	icon: "gregtech:machine 1 512",
+	x: -8.0d,
+	y: 5.0d,
+	description: "在高温处理金属时，有时需要急冻以防止内部结构失衡。另外，有些液体需要极度冷却才能用于化学反应。对于这些情况，真空冷冻机是理想选择。",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d94602f8"
+	],
+	tasks: [{
+		uid: "0e104c66",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 512"
+		}]
+	},
+	{
+		uid: "37e77a33",
+		type: "item",
+		title: "任意输入仓",
+		items: [{
+			item: "gregtech:machine 1 712"
+		},
+		{
+			item: "gregtech:machine 1 722"
+		},
+		{
+			item: "gregtech:machine 1 732"
+		},
+		{
+			item: "gregtech:machine 1 742"
+		}]
+	},
+	{
+		uid: "fd2922bd",
+		type: "item",
+		title: "任意输入总线",
+		items: [{
+			item: "gregtech:machine 1 710"
+		},
+		{
+			item: "gregtech:machine 1 700"
+		},
+		{
+			item: "gregtech:machine 1 720"
+		},
+		{
+			item: "gregtech:machine 1 730"
+		}]
+	},
+	{
+		uid: "bfee98c4",
+		type: "item",
+		title: "任意输出总线",
+		items: [{
+			item: "gregtech:machine 1 711"
+		},
+		{
+			item: "gregtech:machine 1 721"
+		},
+		{
+			item: "gregtech:machine 1 731"
+		},
+		{
+			item: "gregtech:machine 1 741"
+		}]
+	},
+	{
+		uid: "9ed39842",
+		type: "item",
+		title: "任意输出仓",
+		items: [{
+			item: "gregtech:machine 1 713"
+		},
+		{
+			item: "gregtech:machine 1 723"
+		},
+		{
+			item: "gregtech:machine 1 733"
+		}]
+	},
+	{
+		uid: "7fda50b1",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 3"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "f2887c7b",
+		type: "item",
+		item: "thermalfoundation:material 1 2049",
+		count: 8
+	},
+	{
+		uid: "f7c7d9c9",
+		type: "item",
+		item: "harvestcraft:chocolateicecreamitem"
+	}]
+}

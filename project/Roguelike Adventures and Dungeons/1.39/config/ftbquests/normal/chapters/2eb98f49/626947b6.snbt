@@ -1,0 +1,26 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	dependencies: [
+		"befa04aa"
+	],
+	tasks: [{
+		uid: "aac9f345",
+		type: "item",
+		items: [{
+			item: "embers:pipe"
+		}]
+	},
+	{
+		uid: "cd04479f",
+		type: "item",
+		items: [{
+			item: "embers:pump"
+		}]
+	}],
+	rewards: [{
+		uid: "997ef76d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

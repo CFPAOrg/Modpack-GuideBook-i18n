@@ -1,0 +1,26 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	dependencies: [
+		"88dda5be"
+	],
+	tasks: [{
+		uid: "a097d60c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32482"
+		}]
+	}],
+	rewards: [{
+		uid: "0e167f4a",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32468",
+		count: 4
+	},
+	{
+		uid: "7561ad8a",
+		type: "item",
+		item: "harvestcraft:zestyzucchiniitem"
+	}]
+}

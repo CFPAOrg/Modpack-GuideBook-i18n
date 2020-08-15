@@ -1,0 +1,30 @@
+{
+	x: -10.0d,
+	y: -6.0d,
+	description: "我们保证这回一定不会只有一个前置mod了。",
+	tasks: [{
+		uid: "98b33eea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wct:wct_creative",
+			tag: {
+				IsInRange: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3aa6859b",
+		type: "item",
+		item: {
+			id: "wct:magnet_card",
+			tag: {
+				MagnetMode: 0
+			}
+		}
+	}]
+}

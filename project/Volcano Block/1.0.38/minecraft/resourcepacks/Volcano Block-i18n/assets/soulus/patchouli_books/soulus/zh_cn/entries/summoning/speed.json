@@ -1,0 +1,37 @@
+{
+	"name": "Summoner: Speed",
+	"icon": "soulus:gear_oscillating",
+	"advancement": "soulus:summoner",
+	"category": "summoning",
+	"sortnum": 10203,
+	"pages": [
+		{
+			"type": "text",
+			"text": "A basic Summoner has no moving pieces. It works exclusively via the draw of the Soulbook through the lattice of endersteel. As you might expect, this is a very slow process.$(p)However, I've discovered that I can create gears from bones and Endersteel, or ender bones and iron."
+		},
+		{
+			"type": "text",
+			"text": "Simply putting one of these $(item)Oscillating Gears$() into a summoner will improve its $(thing)Soulus Flow$() (rate of soul transfer). It will, by itself (likely due to the $(thing)Souletic Field$()) move into a suitable place inside the Summoner, attaching itself to the inner workings and improving the flow."
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:oscillating_gear/gear_bone",
+			"recipe2": "soulus:oscillating_gear/gear_oscillating"
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:oscillating_gear/gear_bone_ender",
+			"recipe2": "soulus:oscillating_gear/gear_oscillating_from_gear_bone_ender"
+		},
+		{
+			"type": "relations",
+			"title": "Other Upgrades",
+			"entries": [
+				"summoning/quantity",
+				"summoning/range",
+				"summoning/efficiency"
+			],
+			"text": "$(l:processing/skewer)The next chapter will detail a contraption you can use to kill creatures more easily$(), in order to collect their bones or blood in the continual pursuit of restoring Animalia."
+		}
+	]
+}

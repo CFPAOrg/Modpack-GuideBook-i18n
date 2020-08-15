@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"01c57f91"
+	],
+	tasks: [{
+		uid: "a15002a0",
+		type: "item",
+		items: [{
+			item: "tropicraft:eudialyte"
+		}]
+	}],
+	rewards: [{
+		uid: "69a7b030",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

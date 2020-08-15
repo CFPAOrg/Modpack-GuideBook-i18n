@@ -1,0 +1,29 @@
+{
+	x: 5.0d,
+	y: 5.0d,
+	text: [
+		"蜡烛比火把在游戏早期更容易制作，并提供类似的功能。 当你冒险进入黑暗时，请确保你的准备充足。"
+	],
+	dependencies: [
+		"a9d0a2ad"
+	],
+	tasks: [{
+		uid: "971bfcaa",
+		type: "item",
+		items: [{
+			item: "harvestcraft:candledeco1"
+		}]
+	}],
+	rewards: [{
+		uid: "b90c8147",
+		type: "item",
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "chickens:smartchicken"
+				}
+			}
+		}
+	}]
+}

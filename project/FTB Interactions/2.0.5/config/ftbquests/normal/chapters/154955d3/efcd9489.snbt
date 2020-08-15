@@ -1,0 +1,25 @@
+{
+	title: "雨盾神器",
+	x: 2.0d,
+	y: 8.0d,
+	shape: "rsquare",
+	text: [
+		"雨天使你烦躁沮丧？用这个护盾来保护你自己免受阴霾的困扰。Random Things的驱雨盾可以永久阻止在5区块范围内的降雨。为你带来晴朗的天空，我的朋友。"
+	],
+	dependencies: [
+		"b030b92e"
+	],
+	tasks: [{
+		uid: "7232c0cf",
+		type: "item",
+		items: [{
+			item: "randomthings:rainshield"
+		}]
+	}],
+	rewards: [{
+		uid: "b1b5605a",
+		type: "item",
+		item: "rustic:cloudsbluff",
+		count: 4
+	}]
+}

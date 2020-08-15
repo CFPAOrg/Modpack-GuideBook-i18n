@@ -1,0 +1,46 @@
+{
+	x: 5.5d,
+	y: 0.5d,
+	shape: "gear",
+	text: [
+		"仪式推测杖可以让你通过按shift+鼠标滚轮选择一个仪式，然后预览仪式的形状，接着shift+右键主仪式石和你物品栏里的仪式石并自动创建仪式。",
+		"",
+		"需求薄暮仪式石的高阶的仪式会需要仪式推测杖[薄暮]与[觉醒]激活水晶。"
+	],
+	dependencies: [
+		"a1389ac0",
+		"fda10774",
+		"1de75dbc"
+	],
+	tasks: [{
+		uid: "ad93edf9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_diviner"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dede47be",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_dismantler"
+		}
+	},
+	{
+		uid: "ceb4185c",
+		type: "item",
+		item: "animus:altardiviner"
+	},
+	{
+		uid: "33028c04",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

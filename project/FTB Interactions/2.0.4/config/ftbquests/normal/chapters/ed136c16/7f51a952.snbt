@@ -1,0 +1,31 @@
+{
+	title: "数字型采集",
+	x: -1.5d,
+	y: -1.0d,
+	shape: "diamond",
+	text: [
+		"数字采矿机消耗很多电，但可以为你采集特定矿石。 比传统的采石场更加地环境友好，不会留下光年大洞。"
+	],
+	dependencies: [
+		"d94602f8",
+		"a92a3fbd"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "55df685d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1bd1bfaa",
+		type: "item",
+		item: "cyclicmagic:cable_wireless"
+	}]
+}

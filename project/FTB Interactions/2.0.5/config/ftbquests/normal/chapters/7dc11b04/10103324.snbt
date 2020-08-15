@@ -1,0 +1,32 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	dependencies: [
+		"631b3bd9"
+	],
+	tasks: [{
+		uid: "81ffab56",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "5f29c0a6",
+		type: "item",
+		item: "harvestcraft:steaktartareitem"
+	},
+	{
+		uid: "c12bc02b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {
+				souls: 64.0d
+			}
+		}
+	}]
+}

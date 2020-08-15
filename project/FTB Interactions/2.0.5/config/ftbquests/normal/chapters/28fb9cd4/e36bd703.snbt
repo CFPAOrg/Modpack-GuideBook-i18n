@@ -1,0 +1,15 @@
+{
+	x: -11.5d,
+	y: 5.5d,
+	dependencies: [
+		"d85bce55",
+		"625261a5"
+	],
+	tasks: [{
+		uid: "24c6206e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ordo_infused_0"
+		}]
+	}]
+}

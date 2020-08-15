@@ -1,0 +1,42 @@
+{
+	title: "绿宝石和风之蕴魔矿脉",
+	x: -7.0d,
+	y: -10.0d,
+	description: "生成在板块挤压形成的高山上，不管是那里是丛林还是沙漠，悬崖还是山脉。",
+	dependencies: [
+		"328a5a5d"
+	],
+	tasks: [{
+		uid: "b01aeeb1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_beryllium_0"
+		}]
+	},
+	{
+		uid: "818353d2",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_garnet_yellow_0"
+		}]
+	},
+	{
+		uid: "ab30d3ba",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_emerald_0"
+		}]
+	},
+	{
+		uid: "cac9f927",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_aer_infused_0"
+		}]
+	}],
+	rewards: [{
+		uid: "c4e0a582",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

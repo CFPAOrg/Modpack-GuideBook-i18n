@@ -1,0 +1,30 @@
+{
+	title: "多方块专精",
+	x: -14.0d,
+	y: 1.0d,
+	text: [
+		"模板管理器允许你导入和导出保存的结构到你的复制-粘贴小帮手。这可以节省大量的建筑时间。",
+		"注意：你不能复制/粘贴方块实体，比如，如果你粘贴一个模块化机械，你仍然需要手动放置机械控制器和其他任何方块实体。"
+	],
+	dependencies: [
+		"1b1ccd9e"
+	],
+	tasks: [{
+		uid: "7dd1aa36",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:templatemanager"
+		}]
+	}],
+	rewards: [{
+		uid: "984df30a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "animus:sigil_builder",
+			tag: {}
+		}
+	}]
+}

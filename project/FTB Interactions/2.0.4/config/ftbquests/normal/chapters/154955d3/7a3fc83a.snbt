@@ -1,0 +1,27 @@
+{
+	title: "用斧头敲",
+	icon: "minecraft:planks",
+	x: 0.0d,
+	y: 0.0d,
+	description: "游戏早期，大部分交互都将在世界中进行。在有更好的方法之前，你需要拿着斧子右击两次原木来获得木板，这将会消耗一些饥饿值。",
+	text: [
+		"你之后很快就可以使用锯子或者自动化锯来锯木头，用不着消耗饱食度手敲一堆木板。",
+		"你最多只需要用这种方式制作8个木板。"
+	],
+	dependencies: [
+		"98f4c3c6"
+	],
+	tasks: [{
+		uid: "594dc11f",
+		type: "item",
+		items: [{
+			item: "minecraft:planks"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5a98a38b",
+		type: "item",
+		item: "harvestcraft:sweetpotatosouffleitem"
+	}]
+}

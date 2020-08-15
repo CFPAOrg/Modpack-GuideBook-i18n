@@ -1,0 +1,52 @@
+{
+	title: "小心水花",
+	x: -0.5d,
+	y: -2.0d,
+	shape: "square",
+	text: [
+		"魔力在本包里是所有魔法的源动力。它是液体且能主世界上的生成的小池塘里找到。它也能在魔力泛化器中转换成能被魔力发射器发射的魔力脉冲。 ",
+		"此外，魔力泛化器能将魔力脉冲形态的魔力转换回液体形态，虽然每次转换大概会有10%的魔力流失。 "
+	],
+	tasks: [{
+		uid: "9823de90",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "mana_fluid",
+				Amount: 1000
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "mana_fluid",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "fb657c8b",
+		type: "item",
+		item: "gregtech:machine 1 2200"
+	},
+	{
+		uid: "e3279da9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:monocle"
+		}
+	}]
+}

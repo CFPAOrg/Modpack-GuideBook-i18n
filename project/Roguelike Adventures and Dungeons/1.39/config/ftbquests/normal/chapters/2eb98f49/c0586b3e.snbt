@@ -1,0 +1,19 @@
+{
+	x: 16.0d,
+	y: 6.0d,
+	dependencies: [
+		"7ef3dcbf"
+	],
+	tasks: [{
+		uid: "f2900905",
+		type: "item",
+		items: [{
+			item: "embers:dust_metallurgic"
+		}]
+	}],
+	rewards: [{
+		uid: "0e133718",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

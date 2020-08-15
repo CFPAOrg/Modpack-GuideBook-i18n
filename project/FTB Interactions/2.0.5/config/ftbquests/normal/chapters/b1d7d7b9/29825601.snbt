@@ -1,0 +1,46 @@
+{
+	title: "盐水",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "brine",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -10.5d,
+	y: -7.0d,
+	description: "通过离心盐水(mek)，你可以获得盐水和液态锂。盐水可以用来制造许多化学合成都需要的氯，锂可以转化为锂粉制造电池或另作他用。",
+	text: [
+		"或者，你可以使用模具来直接将盐水(mek)变为盐。这样做会更快，不过会损失副产物。 "
+	],
+	dependencies: [
+		"820b1cf6"
+	],
+	tasks: [{
+		uid: "00be7ca9",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "brine",
+				Amount: 1000
+			}
+		}
+	}],
+	rewards: [{
+		uid: "ed8bbe97",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32313"
+	},
+	{
+		uid: "8f0cbb48",
+		type: "item",
+		item: "harvestcraft:saltedcaramelitem"
+	}]
+}

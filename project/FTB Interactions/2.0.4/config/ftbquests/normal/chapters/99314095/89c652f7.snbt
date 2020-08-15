@@ -1,0 +1,29 @@
+{
+	title: "离子与青鸟",
+	x: -6.0d,
+	y: 2.0d,
+	description: "利用电流对物质进行化学分解。不用管这是什么意思。东西扔进去，电力输进去，你想要的和不想要的东西就都出来了。当你进入了了MV时代，它可以让你获得某些粉末变得容易的多，比如铝。",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ace65682"
+	],
+	tasks: [{
+		uid: "a63f4f80",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 241"
+		}]
+	}],
+	rewards: [{
+		uid: "497b7494",
+		type: "item",
+		item: "minecraft:clay_ball",
+		count: 32
+	},
+	{
+		uid: "5506953a",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32507",
+		count: 4
+	}]
+}

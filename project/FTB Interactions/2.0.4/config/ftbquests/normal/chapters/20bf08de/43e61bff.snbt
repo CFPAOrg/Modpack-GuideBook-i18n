@@ -1,0 +1,40 @@
+{
+	x: -8.0d,
+	y: -12.0d,
+	shape: "square",
+	text: [
+		"制作魔导手册来开始研究奥术和邪术的旅程。请注意，这种魔力是有代价的。你越深地陷入疯狂，现实世界受到的影响就越大。",
+		"神秘学可能对你的世界产生持久的影响，它将以腐化裂隙的形式出现，进而生成腐化触手并腐化你的土地。疯狂也会侵蚀你的心灵，扭曲你的现实，使你成为各种怪异事物的目标。 ",
+		"本任务书不会教你如何处理扭曲和咒波，这是你自己的事，但这里我已经就这事警告过你了。"
+	],
+	dependencies: [
+		"4cd5380d"
+	],
+	tasks: [{
+		uid: "e41fb155",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af3e9dd3",
+		type: "item",
+		item: "harvestcraft:meatloafsandwichitem"
+	},
+	{
+		uid: "8e2ea4e2",
+		type: "item",
+		item: "minecraft:paper",
+		count: 32
+	},
+	{
+		uid: "1c9e4c98",
+		type: "item",
+		item: "actuallyadditions:block_black_lotus"
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "木炭副产",
+	icon: "minecraft:coal 1 1",
+	x: -4.0d,
+	y: -8.0d,
+	shape: "square",
+	text: [
+		"木炭副产可以转化成你需要的三种关键化学品。转化成何种产物由你来决定。它可以通过工业先锋（Industrial foregoing）农场产生的污泥、污泥鸡产生的污泥获取，也可以从裂解炉多方块机器中直接获取。",
+		"pyrolyse oven multiblock."
+	],
+	tasks: [{
+		uid: "f431ec9e",
+		type: "checkmark"
+	},
+	{
+		uid: "0b3efff2",
+		type: "fluid",
+		fluid: "charcoal_byproducts"
+	}],
+	rewards: [{
+		uid: "3a0a31d1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	},
+	{
+		uid: "5bf50126",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32766"
+	},
+	{
+		uid: "cd03cd10",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12184",
+		count: 16
+	}]
+}

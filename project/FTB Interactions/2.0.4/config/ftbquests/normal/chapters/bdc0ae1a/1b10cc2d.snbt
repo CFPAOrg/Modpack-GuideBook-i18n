@@ -1,0 +1,17 @@
+{
+	title: "被稀释的梦",
+	x: 4.0d,
+	y: -0.5d,
+	shape: "square",
+	description: "建造一个稀释魔力池以开始植物魔法的旅程。",
+	dependencies: [
+		"b1dded11"
+	],
+	tasks: [{
+		uid: "0101f9ce",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 2"
+		}]
+	}]
+}

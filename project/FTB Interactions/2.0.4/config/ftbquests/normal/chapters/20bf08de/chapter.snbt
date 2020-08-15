@@ -1,0 +1,10 @@
+{
+	title: "这是什么巫术",
+	icon: "thaumcraft:salis_mundus",
+	description: [
+		"不是很详尽的魔法教程"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

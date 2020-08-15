@@ -1,0 +1,25 @@
+{
+	x: 13.0d,
+	y: 3.0d,
+	dependencies: [
+		"c51bc0d7",
+		"dd4a57a8"
+	],
+	tasks: [{
+		uid: "c03afa8d",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "02503a81",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "95c8a59c",
+		type: "item",
+		item: "embers:archaic_light"
+	}]
+}

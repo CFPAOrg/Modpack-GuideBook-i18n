@@ -1,0 +1,46 @@
+{
+	title: "更高级的祭坛，嘻嘻嘻。",
+	x: 4.0d,
+	y: 2.0d,
+	shape: "diamond",
+	text: [
+		"仪式推测仗 [薄暮] 能让你进行多面晶体的共振仪式，这个仪式可以将成长完全的原生意志晶簇分裂出四个不同种类的恶魔意志",
+		"你需要一个 [较大] 地狱魂石 来制作 [原生] 意志晶簇 。不过我们有时也会做好事，所以我们会支援你一个。"
+	],
+	dependencies: [
+		"4f55dcad",
+		"ad93edf9",
+		"ea573063",
+		"bb95207a"
+	],
+	tasks: [{
+		uid: "f95abe43",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_diviner",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a2b4f7a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc82716d",
+		type: "item",
+		item: "bloodmagic:demon_crystal"
+	}]
+}

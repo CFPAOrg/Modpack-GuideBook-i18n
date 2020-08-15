@@ -1,0 +1,36 @@
+{
+	x: -4.0d,
+	y: -9.0d,
+	text: [
+		"早期需要少量的瓷土来制作陶瓷冶炼炉，但除此之外，它的主要用途是装饰。这种鸡可以帮助生产大量的陶土用于装饰，并且它在游戏早期就能非常廉价地制作出来。"
+	],
+	dependencies: [
+		"bad8af80"
+	],
+	tasks: [{
+		uid: "d8e69e3b",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:porcelainchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "2458a456",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "bdefbcf1",
+		type: "item",
+		item: "ceramics:unfired_clay 1 4",
+		count: 8
+	}]
+}

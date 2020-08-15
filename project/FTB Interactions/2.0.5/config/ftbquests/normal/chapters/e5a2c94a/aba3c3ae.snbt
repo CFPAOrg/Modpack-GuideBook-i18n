@@ -1,0 +1,41 @@
+{
+	title: "引火上身",
+	icon: {
+		id: "openblocks:trophy",
+		tag: {
+			entity_id: "minecraft:blaze"
+		},
+		Damage: 12s
+	},
+	x: 1.0d,
+	y: -1.0d,
+	text: [
+		"-烈焰人能被更容易找到！它会生成在下界的每一个角落。",
+		"-相比原版，他们有多10滴血。",
+		"-注意，它们死亡时会产生一次小型的爆炸。",
+		"-若你使用近战武器攻击烈焰人的话，他们会将你推走且对你造成一定量的反伤。",
+		"-试着不要贴它们太近，否则只会引火上身。"
+	],
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "c16a3dd2",
+		type: "kill",
+		entity: "minecraft:blaze",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "ca3a2e94",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xreliquary:mob_charm",
+			tag: {
+				type: 12
+			}
+		}
+	}]
+}

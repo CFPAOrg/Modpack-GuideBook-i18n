@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: -6.0d,
+	description: "不管你什么时候打开物品栏，它都会自动打开，不需要占用一个快捷栏。也可以使用各个等级的存储卡，来让它获得比其他背包更大的存储容量。",
+	dependencies: [
+		"09586bfe"
+	],
+	tasks: [{
+		uid: "994c6562",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderutilities:handybag"
+		}],
+		ignore_nbt: 1b
+	}]
+}

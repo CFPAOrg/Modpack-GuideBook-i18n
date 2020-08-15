@@ -1,0 +1,47 @@
+{
+	x: 8.0d,
+	y: -2.0d,
+	dependencies: [
+		"768743f4"
+	],
+	tasks: [{
+		uid: "3ed377e7",
+		type: "item",
+		items: [{
+			id: "iceandfire:dragon_horn",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "45155a24",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_flute"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "83e2ebeb",
+		type: "item",
+		item: "iceandfire:pixie_house 1 5"
+	},
+	{
+		uid: "6ea00df7",
+		type: "item",
+		item: "iceandfire:pixie_dust"
+	},
+	{
+		uid: "d1a97d2d",
+		type: "item",
+		item: "iceandfire:troll_leather_forest",
+		count: 8
+	},
+	{
+		uid: "acf19e02",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

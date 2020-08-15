@@ -1,0 +1,29 @@
+{
+	title: "快漏过来",
+	x: -19.5d,
+	y: -5.5d,
+	description: "漏斗花尤其适于收集树场产物。漏斗花会优先将物品存入用展示框标记好的容器里，可以挨着漏斗花再放一个垃圾桶，让漏斗花把剩下的物品直接送进去。",
+	dependencies: [
+		"a058147f"
+	],
+	tasks: [{
+		uid: "82734b2d",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hopperhock"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9a924d65",
+		type: "item",
+		item: "botania:miniisland"
+	},
+	{
+		uid: "23edc801",
+		type: "item",
+		item: "harvestcraft:mashedpotatoeschickenbiscuititem"
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	title: "Spacey（Not Kevin）",
+	x: -1.0d,
+	y: -18.0d,
+	description: "要建造空间站，你需要在你的发射台上建造一个太空站组装机，然后你就可以建造你想要的空间站，左上角放上卫星建造机，右边放上一个未编程的空间站ID芯片进行扫描",
+	text: [
+		"将卫星建造机置于能量输入口的上方，使这个小的多方块结构正常工作。",
+		"你可以建造一个小型空间站并往太空中扩建，或者你也可以将它建成一个天体星门的形状。"
+	],
+	dependencies: [
+		"f8f90da4",
+		"05f17487"
+	],
+	tasks: [{
+		uid: "c38c3f07",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:stationbuilder"
+		}]
+	},
+	{
+		uid: "196a8b32",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:loader 1 1"
+		}]
+	},
+	{
+		uid: "a8992f95",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spacestationchip"
+		}]
+	},
+	{
+		uid: "36d307cf",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satellitebuilder"
+		}]
+	},
+	{
+		uid: "12a8c319",
+		type: "item",
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		}]
+	}],
+	rewards: [{
+		uid: "8574d4a3",
+		type: "item",
+		item: "advancedrocketry:spacestationchip"
+	}]
+}

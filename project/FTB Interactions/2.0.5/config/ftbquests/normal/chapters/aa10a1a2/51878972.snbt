@@ -1,0 +1,13 @@
+{
+	x: -13.0d,
+	y: -5.0d,
+	shape: "square",
+	dependencies: [
+		"5e4d5b44"
+	],
+	tasks: [{
+		uid: "187aa945",
+		type: "checkmark",
+		title: "蒸汽怎么全自动？"
+	}]
+}

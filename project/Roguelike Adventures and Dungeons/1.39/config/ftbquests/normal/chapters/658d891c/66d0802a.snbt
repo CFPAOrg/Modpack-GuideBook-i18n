@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: -4.0d,
+	dependencies: [
+		"df4878e2"
+	],
+	tasks: [{
+		uid: "ed9bd1cb",
+		type: "item",
+		items: [{
+			id: "iceandfire:dragonbone_sword_ice",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0cfef66",
+		type: "item",
+		item: "iceandfire:manuscript"
+	},
+	{
+		uid: "de816d2d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

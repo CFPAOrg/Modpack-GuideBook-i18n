@@ -1,0 +1,56 @@
+{
+	x: -14.0d,
+	y: -7.0d,
+	description: "以血还血魔法",
+	tasks: [{
+		uid: "1f3d0d93",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick 1 2"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "cc5f861d",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "bloodmagic:decorative_brick",
+					Count: 1,
+					Damage: 2
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Bloody Apex",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "aed7bd29",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "animus:keybinding"
+		}
+	},
+	{
+		uid: "5e7771ec",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5,
+					id: 11
+				}]
+			}
+		}
+	}]
+}

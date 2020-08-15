@@ -1,0 +1,40 @@
+{
+	title: "有丶能吸的收集器",
+	x: -20.5d,
+	y: -5.5d,
+	description: "前期可以制作的物品和经验收集器之一，非常有用，但范围有限，之后的收集设备范围会更大。",
+	dependencies: [
+		"a058147f"
+	],
+	tasks: [{
+		uid: "a96e657a",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0,
+				Facing: 3,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			},
+			Damage: 12s
+		}]
+	}],
+	rewards: [{
+		uid: "56b67f43",
+		type: "item",
+		item: "thermalfoundation:material 1 512"
+	},
+	{
+		uid: "0061d9d3",
+		type: "item",
+		item: "harvestcraft:raspberrymilkshakeitem"
+	}]
+}

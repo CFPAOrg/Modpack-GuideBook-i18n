@@ -1,0 +1,19 @@
+{
+	title: "月岩",
+	x: -0.5d,
+	y: 1.5d,
+	description: "开始产钨之前，你需要获取一些月面土，然后通过星辉转化，将其转化成末地石。",
+	dependencies: [
+		"fe50d67e"
+	],
+	tasks: [{
+		uid: "621819a0",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:moonturf"
+		},
+		{
+			item: "advancedrocketry:moonturf_dark"
+		}]
+	}]
+}

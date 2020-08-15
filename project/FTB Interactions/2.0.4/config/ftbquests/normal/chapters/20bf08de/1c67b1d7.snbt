@@ -1,0 +1,19 @@
+{
+	x: -9.0d,
+	y: -9.0d,
+	text: [
+		"源质是Vis的“液体”形式，要利用源质，你需要一个源质冶炼厂。",
+		"将奥术蒸馏器置于顶端，然后它就会开始从源质冶炼厂中提取出源质。",
+		"可以在两侧放奥术风箱来超级加速。"
+	],
+	dependencies: [
+		"8eac9d15"
+	],
+	tasks: [{
+		uid: "8f49dd45",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	}]
+}

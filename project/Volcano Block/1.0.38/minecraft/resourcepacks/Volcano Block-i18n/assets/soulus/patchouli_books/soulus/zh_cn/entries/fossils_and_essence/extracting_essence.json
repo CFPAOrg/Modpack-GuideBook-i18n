@@ -1,0 +1,27 @@
+{
+	"name": "Extracting Essence",
+	"icon": "soulus:bone_chunk_normal",
+	"category": "fossils_and_essence",
+	"sortnum": 10102,
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(o)When holding a $(item)chunk of bone$()$(o), you should be able to break it apart in order to extract $(item)Essence$().$(p)I expect that the kinds of essence will seem very random, as there was once a wide variety of Animalia in the world."
+		},
+		{
+			"type": "spotlight",
+			"item": "soulus:essence{essence_type:'minecraft:chicken'}",
+			"title": "Essence",
+			"text": "It's likely that the essence of some creatures will be more common than others.$(p)You'll need a large amount of essence in general in order to restore Animalia, so even large quantities of the same essence should come in useful eventually."
+		},
+		{
+			"type": "text",
+			"text": "I expect that many different kinds of fossils survived the $(thing)Extinction Event$(). These fossil types will likely be based on location. For example, the fossils in a frozen tundra may be different from the fossils in a forest.$(p)If this speculation is true, it will likely mean that the type of $(item)Essence$() you extract from a given bone chunk will be based on its type."
+		},
+		{
+			"type": "image_footer",
+			"text": "$(p)$(l:fossils_and_essence/ender_fossils)The next chapter will detail fossils from alien creatures.$()",
+			"image": "soulus:textures/gui/guidebook/potential_fossil_types.png"
+		}
+	]
+}

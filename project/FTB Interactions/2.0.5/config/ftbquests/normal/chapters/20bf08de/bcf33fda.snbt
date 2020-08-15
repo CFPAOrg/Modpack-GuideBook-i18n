@@ -1,0 +1,37 @@
+{
+	title: "我爱研究！",
+	x: -11.0d,
+	y: -12.0d,
+	text: [
+		"使用笔与墨右击木桌来制作你的第一个研究台"
+	],
+	dependencies: [
+		"43e61bff",
+		"9d09d7f8"
+	],
+	tasks: [{
+		uid: "8cb89c90",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_wood"
+		}]
+	},
+	{
+		uid: "0336c44e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:scribing_tools"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb7fb0bc",
+		type: "item",
+		item: "minecraft:paper",
+		count: 64
+	}]
+}

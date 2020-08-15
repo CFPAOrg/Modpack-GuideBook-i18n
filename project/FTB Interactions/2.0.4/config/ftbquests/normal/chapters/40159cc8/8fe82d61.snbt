@@ -1,0 +1,40 @@
+{
+	title: "“逻辑只是智慧的开始，而不是智慧的终结。”",
+	icon: "libvulpes:holoprojector",
+	x: -1.0d,
+	y: -21.0d,
+	shape: "square",
+	description: "上面的任务是前往太空所需的材料。你有了它们之后，使用全息投影器作为建造多方块的指南。右击设置你的机器投影，点击地面选择位置，滚动切换下一层。",
+	text: [
+		"选择机器后，鼠标悬停在全息投影器上将向你展示所需的内容"
+	],
+	dependencies: [
+		"2732c95a",
+		"cfd3a738",
+		"fef2395c",
+		"bf1555f2",
+		"e3087d37"
+	],
+	tasks: [{
+		uid: "522c6899",
+		type: "item",
+		items: [{
+			item: "libvulpes:holoprojector"
+		}]
+	}],
+	rewards: [{
+		uid: "60638cdc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:basiclasergun"
+		}
+	},
+	{
+		uid: "45afa54c",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32489"
+	}]
+}

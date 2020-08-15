@@ -1,0 +1,20 @@
+{
+	title: "混沌采矿",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -4.0d,
+	y: -1.5d,
+	description: "混沌岛每隔五千格会生成一个，而非默认的一万格。此外，它们会生成在Y轴大于180的地方，拥有着大且密集的稀有矿物矿脉。你需要在开始龙之研究前先去那里挖矿。",
+	dependencies: [
+		"57ab5c66"
+	],
+	tasks: [{
+		uid: "ea34465c",
+		type: "checkmark"
+	}]
+}

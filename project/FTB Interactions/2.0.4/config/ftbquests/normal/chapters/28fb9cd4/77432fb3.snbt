@@ -1,0 +1,47 @@
+{
+	title: "星能液",
+	x: -4.0d,
+	y: 3.0d,
+	description: "使用聚星缸获得一桶星能液吧。闪耀之光会是你前期获得星能液不错的来源。注意：可安全饮用。",
+	dependencies: [
+		"b1dded11"
+	],
+	tasks: [{
+		uid: "cd01fdd8",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	},
+	{
+		uid: "9d09d7f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "astralsorcery.liquidstarlight",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "4220fab5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:straw"
+		}
+	},
+	{
+		uid: "d53172b1",
+		type: "item",
+		item: "enderio:item_liquid_conduit",
+		count: 8
+	}]
+}

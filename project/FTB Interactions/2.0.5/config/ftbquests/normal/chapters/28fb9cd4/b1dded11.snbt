@@ -1,0 +1,29 @@
+{
+	title: "星辉合成",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockaltar"
+	},
+	x: -4.0d,
+	y: 1.5d,
+	description: "要开始玩星辉魔法(Astral Sorcery)，你需要有星辉合成台。请确保你有把它捡起来以完成任务。",
+	tasks: [{
+		uid: "c5e6d160",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "96fddc0c",
+		type: "item",
+		item: "astralsorcery:blockmarble 1 6",
+		count: 4
+	}]
+}

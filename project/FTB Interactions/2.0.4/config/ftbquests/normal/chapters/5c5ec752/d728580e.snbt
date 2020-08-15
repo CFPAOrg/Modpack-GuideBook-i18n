@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"机器需要放在某些东西里面，这个壳体满足大多数机器的需求。"
+	],
+	dependencies: [
+		"e48023fb",
+		"72a630e9"
+	],
+	tasks: [{
+		uid: "6c73972f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 10"
+		}]
+	}]
+}

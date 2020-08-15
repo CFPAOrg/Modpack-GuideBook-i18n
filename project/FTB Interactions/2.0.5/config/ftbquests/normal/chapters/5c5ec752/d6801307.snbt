@@ -1,0 +1,25 @@
+{
+	title: "禁止炼铜",
+	x: -5.0d,
+	y: -5.0d,
+	shape: "square",
+	text: [
+		"格雷早期所有机器都需要铜。挖一些铜矿，在陶瓷冶炼炉中把它们处理成铜锭，开始工业化的进程。"
+	],
+	dependencies: [
+		"eafc12e8"
+	],
+	tasks: [{
+		uid: "19c9dd65",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10018"
+		}]
+	}],
+	rewards: [{
+		uid: "3bd9e23b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2018",
+		count: 16
+	}]
+}

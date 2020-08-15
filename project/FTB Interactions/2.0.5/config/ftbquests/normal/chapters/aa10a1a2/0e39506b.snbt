@@ -1,0 +1,25 @@
+{
+	title: "是时候开始把这些物品转移到它们应该去的地方了！",
+	icon: "industrialforegoing:conveyor",
+	x: -10.5d,
+	y: -4.0d,
+	text: [
+		"传送带是游戏最初期用于传输物品和流体的方式。你可以用塑料片右击来阻止上面的东西被捡起来，也可以用萤石右击来加速它们。",
+		"",
+		"但是，当你有能力的时候，还是建议你去选择更好的管道，Mekanism的管道大概是你最好的下一步的选择，尤其是传输液体。"
+	],
+	dependencies: [
+		"51878972"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9cb859bf",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "f23b6052",
+		type: "item",
+		item: "industrialforegoing:conveyor",
+		count: 8
+	}]
+}

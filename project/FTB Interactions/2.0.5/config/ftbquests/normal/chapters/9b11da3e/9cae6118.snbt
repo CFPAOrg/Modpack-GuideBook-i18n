@@ -1,0 +1,29 @@
+{
+	title: "磷灰石矿脉",
+	x: -9.0d,
+	y: -10.0d,
+	description: "除了一些特别热的地方和特别冷的地方以外，会在所有生物群系中生成，它们往往会倾向于生成并隐藏在沼泽地植物的下方",
+	dependencies: [
+		"8f249c7e"
+	],
+	tasks: [{
+		uid: "3202881d",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_apatite_0"
+		}]
+	},
+	{
+		uid: "f3ada044",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_phosphor_0"
+		}]
+	}],
+	rewards: [{
+		uid: "a9dd1c03",
+		type: "item",
+		item: "gregtech:meta_item_1 1 8226",
+		count: 8
+	}]
+}

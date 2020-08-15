@@ -1,0 +1,29 @@
+{
+	icon: "thaumcraft:curio 1 6",
+	x: -14.0d,
+	y: -11.0d,
+	text: [
+		"此任务解锁邪术学研究。警告：你仍然会承受扭曲的影响，后果自负。"
+	],
+	can_repeat: true,
+	dependencies: [
+		"961eb3ac"
+	],
+	tasks: [{
+		uid: "435de7e0",
+		type: "checkmark",
+		title: "这些骇人的欢愉有同样骇人的后果。"
+	}],
+	rewards: [{
+		uid: "fa21e694",
+		type: "command",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		},
+		command: "/thaumcraft research @p BASEELDRITCH"
+	}]
+}

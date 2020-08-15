@@ -1,0 +1,21 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	description: "请参阅指南部分，了解有关交错次元的详细指南！",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ceb4bebc",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:swamp_talisman"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "766f9f4e",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

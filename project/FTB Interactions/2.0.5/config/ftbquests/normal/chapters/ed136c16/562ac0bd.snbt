@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -3.0d,
+	description: "每个地狱灌注书架都有普通书架两倍的附魔等级，用于超过50级（最高150）的附魔。",
+	dependencies: [
+		"bcc51b66"
+	],
+	tasks: [{
+		uid: "dfa37df4",
+		type: "item",
+		items: [{
+			item: "apotheosis:hellshelf"
+		}]
+	}],
+	rewards: [{
+		uid: "3ca59598",
+		type: "item",
+		item: "logisticspipes:module_enchantment_sink_mk2"
+	},
+	{
+		uid: "22b776b3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:spellcloth"
+		}
+	}]
+}

@@ -1,0 +1,65 @@
+{
+	title: "很高兴你解决了这个问题",
+	x: -11.0d,
+	y: -3.0d,
+	shape: "circle",
+	text: [
+		"你已经完成了处理矿物的初始教程！呐呐呐，快去挖矿吧，你需要很多哦",
+		"既然你已经完成了基础的矿物处理，你应该去看LV冶金任务页了。"
+	],
+	dependencies: [
+		"b3aee2cb"
+	],
+	tasks: [{
+		uid: "bf3b3db5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2033"
+		}]
+	},
+	{
+		uid: "f9eae0a7",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "2b34d77a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:jackhammer",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 70
+				},
+				{
+					lvl: 3,
+					id: 34
+				},
+				{
+					lvl: 5,
+					id: 32
+				},
+				{
+					lvl: 1,
+					id: 24
+				}],
+				RepairCost: 15,
+				pickletweaks: {
+					BlocksBroken: 9002
+				}
+			}
+		}
+	},
+	{
+		uid: "5c4b6bbb",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 8
+	}]
+}

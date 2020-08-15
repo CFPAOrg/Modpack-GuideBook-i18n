@@ -1,0 +1,24 @@
+{
+	x: -10.0d,
+	y: 0.5d,
+	description: "将灵气使用在橡树树苗上，你可以把它变成一个通灵树苗。这些树木将随着时间的推移生长并为你提供可再生的灵气来源。你可能需要几个通灵树苗来以可接受的速度获取灵气。",
+	text: [
+		"提示：烽火树对它有效！"
+	],
+	dependencies: [
+		"caf422c5"
+	],
+	tasks: [{
+		uid: "a2c27221",
+		type: "item",
+		items: [{
+			item: "randomthings:spectresapling"
+		}]
+	}],
+	rewards: [{
+		uid: "3b57105f",
+		type: "item",
+		item: "randomthings:ingredient 1 2",
+		count: 4
+	}]
+}

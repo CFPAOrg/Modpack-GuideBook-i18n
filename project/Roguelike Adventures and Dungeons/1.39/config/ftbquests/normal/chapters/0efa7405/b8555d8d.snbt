@@ -1,0 +1,31 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	dependencies: [
+		"6f3eefe6"
+	],
+	tasks: [{
+		uid: "033d0686",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "d3624ff0",
+		type: "item",
+		item: "thaumcraft:loot_bag"
+	},
+	{
+		uid: "ce579654",
+		type: "item",
+		item: "thaumcraft:ingot 1 2",
+		count: 3
+	},
+	{
+		uid: "aac8647e",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 16
+	}]
+}

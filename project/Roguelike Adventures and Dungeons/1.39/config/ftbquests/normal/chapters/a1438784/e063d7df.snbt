@@ -1,0 +1,20 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	dependencies: [
+		"cf715fd3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "46244253",
+		type: "item",
+		items: [{
+			item: "atum:loot_sapphire_ring"
+		}]
+	}],
+	rewards: [{
+		uid: "353c46be",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -9.5d,
+	y: -6.5d,
+	text: [
+		"是的，又一种扳手！"
+	],
+	dependencies: [
+		"ab0c7325"
+	],
+	tasks: [{
+		uid: "ba9d80c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:node_router"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

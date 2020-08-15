@@ -1,0 +1,21 @@
+{
+	title: "卫道士!",
+	icon: {
+		id: "openblocks:trophy",
+		tag: {
+			entity_id: "minecraft:vindication_illager"
+		},
+		Damage: 43s
+	},
+	x: -3.0d,
+	y: -4.0d,
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "9848dba0",
+		type: "kill",
+		entity: "minecraft:vindication_illager",
+		value: 1L
+	}]
+}

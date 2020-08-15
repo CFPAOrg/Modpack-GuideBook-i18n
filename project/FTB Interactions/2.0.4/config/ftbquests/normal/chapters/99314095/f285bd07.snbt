@@ -1,0 +1,21 @@
+{
+	title: "发电机的超频",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -8.0d,
+	y: 2.0d,
+	shape: "gear",
+	description: "这里的数学很简单，和LV发电机相比，MV发电机每一个tick将产生4倍的EU，但同时使用4倍的燃料，燃料效率不变。",
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "037b7a68",
+		type: "checkmark"
+	}]
+}

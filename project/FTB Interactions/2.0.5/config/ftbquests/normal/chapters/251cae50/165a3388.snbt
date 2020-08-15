@@ -1,0 +1,15 @@
+{
+	title: "LuV时代",
+	icon: "gregtech:machine 1 506",
+	x: -2.0d,
+	y: -5.0d,
+	description: "此列中的项目可以在LuV时代制作。",
+	dependencies: [
+		"b99f707f",
+		"2039d485"
+	],
+	tasks: [{
+		uid: "085504c5",
+		type: "checkmark"
+	}]
+}

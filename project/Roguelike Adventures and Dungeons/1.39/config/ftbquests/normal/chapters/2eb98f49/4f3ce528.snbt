@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"dbf87357"
+	],
+	tasks: [{
+		uid: "dd2e1550",
+		type: "item",
+		items: [{
+			item: "embers:ancient_motive_core"
+		}]
+	},
+	{
+		uid: "c7686cc5",
+		type: "item",
+		items: [{
+			item: "embers:archaic_brick"
+		}]
+	}],
+	rewards: [{
+		uid: "c76b5c4e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

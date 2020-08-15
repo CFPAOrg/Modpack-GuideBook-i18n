@@ -1,0 +1,30 @@
+{
+	title: "点石成金",
+	icon: "thaumcraft:crucible",
+	x: -13.0d,
+	y: -12.0d,
+	description: "此任务解锁炼金术研究。",
+	text: [
+		"此任务解锁炼金术研究。"
+	],
+	can_repeat: true,
+	dependencies: [
+		"961eb3ac"
+	],
+	tasks: [{
+		uid: "f3805884",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "e14feeef",
+		type: "command",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		},
+		command: "/thaumcraft research @p HEDGEALCHEMY"
+	}]
+}

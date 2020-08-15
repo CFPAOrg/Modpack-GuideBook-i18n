@@ -1,0 +1,32 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"b37a814e"
+	],
+	tasks: [{
+		uid: "31720e6d",
+		type: "item",
+		items: [{
+			item: "iceandfire:fire_dragon_flesh"
+		}]
+	},
+	{
+		uid: "42fd4bd5",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_flesh"
+		}]
+	}],
+	rewards: [{
+		uid: "f9b07e38",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "123bc32b",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 3
+	}]
+}

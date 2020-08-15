@@ -1,0 +1,42 @@
+{
+	x: 1.0d,
+	y: -5.0d,
+	text: [
+		"末影小老弟，这种鸡能够产生末影合金粉与深渊露水，它可以为末影接口(EnderIO)的传送器供能，也可以离心成其他有用的产物。"
+	],
+	dependencies: [
+		"bad8af80",
+		"57568467"
+	],
+	tasks: [{
+		uid: "fe1d5491",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:resonatingchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "5bb99f1f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:resonating_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "7276703d",
+		type: "item",
+		item: "enderio:block_tele_pad",
+		count: 9
+	},
+	{
+		uid: "a2cd11d4",
+		type: "item",
+		item: "enderio:block_dialing_device"
+	}]
+}

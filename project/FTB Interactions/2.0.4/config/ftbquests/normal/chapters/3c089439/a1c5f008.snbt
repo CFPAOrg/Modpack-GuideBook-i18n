@@ -1,0 +1,32 @@
+{
+	title: "来自外星的石头",
+	x: -0.5d,
+	y: 3.0d,
+	shape: "pentagon",
+	text: [
+		"现在，你已经得到了末地石，你可以把它加工成钨酸锂粉，然后再进行下一步加工。加工末地石的最有效方法是使用炼狱离心机。",
+		"它的蓝图只能在地狱的地牢中发现。 如果你很不幸，一个都没找到， 你也可以对末地石进行研磨后再离心。这是个稍微低效，但仍可以满足你需求的的方法。",
+		"这是在HV冶金中的最后一步，此后会前进到EV+冶金。"
+	],
+	dependencies: [
+		"2904b19b"
+	],
+	tasks: [{
+		uid: "e4022a0b",
+		type: "item",
+		items: [{
+			item: "minecraft:end_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "a9f04160",
+		type: "item",
+		item: "minecraft:end_stone",
+		count: 64
+	},
+	{
+		uid: "986d0884",
+		type: "item",
+		item: "harvestcraft:grilledcheeseitem"
+	}]
+}

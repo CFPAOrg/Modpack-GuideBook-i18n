@@ -1,0 +1,35 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	description: "没有什么特殊的事情要说，我们只是再次提醒你需要暴露蒸汽机器的耗尽喷口。",
+	dependencies: [
+		"56f69a22",
+		"d728580e"
+	],
+	tasks: [{
+		uid: "0994952f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 11"
+		},
+		{
+			item: "gregtech:machine 1 12"
+		},
+		{
+			item: "gregtech:machine 1 210"
+		},
+		{
+			item: "gregtech:machine 1 211"
+		},
+		{
+			item: "gregtech:machine 1 212"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f29f588",
+		type: "item",
+		item: "gregtech:meta_item_1 1 17033",
+		count: 4
+	}]
+}

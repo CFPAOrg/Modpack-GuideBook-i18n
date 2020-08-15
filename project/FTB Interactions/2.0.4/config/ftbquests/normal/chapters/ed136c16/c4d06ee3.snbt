@@ -1,0 +1,44 @@
+{
+	title: "欢迎进入”机器“",
+	x: -8.0d,
+	y: -3.0d,
+	text: [
+		"自动化会占用你很多的空间，变得非常碍眼，但是你可以压缩这些玩意的大小，字面意思上的压缩。有了压缩机械的帮助，基地内部的空间可以变得更大。",
+		"首先你需要4个空间压缩机械制作器，把它们按十字状面对面摆好，然后根据 JEI 的配方把显示的多方块结构在区域内搭好，最后把配方页右下角提示的催化物品扔进去就可以了。 ",
+		"进入制作好的压缩机械要使用个人空间收缩设备。"
+	],
+	dependencies: [
+		"c193d3a6"
+	],
+	tasks: [{
+		uid: "69a6044a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "compactmachines3:psd"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "15861256",
+		type: "item",
+		items: [{
+			item: "compactmachines3:fieldprojector"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3502cde7",
+		type: "item",
+		item: "compactmachines3:machine 1 2"
+	},
+	{
+		uid: "93171d81",
+		type: "item",
+		item: "compactmachines3:tunneltool",
+		count: 2
+	}]
+}

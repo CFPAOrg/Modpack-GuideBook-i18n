@@ -1,0 +1,15 @@
+{
+	title: "MV时代",
+	icon: "gregtech:machine 1 502",
+	x: -9.0d,
+	y: -3.0d,
+	description: "此行的项目在大多数MV配方中使用。",
+	dependencies: [
+		"dcd19e05",
+		"a916453b"
+	],
+	tasks: [{
+		uid: "cbea07df",
+		type: "checkmark"
+	}]
+}

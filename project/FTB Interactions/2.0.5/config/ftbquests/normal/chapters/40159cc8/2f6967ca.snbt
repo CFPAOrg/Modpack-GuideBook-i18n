@@ -1,0 +1,27 @@
+{
+	title: "温特姆矿石",
+	x: 5.0d,
+	y: -9.0d,
+	text: [
+		"这种神奇的注魔金属只会在Euclydes星自然地生成。它有着超凡脱俗的属性，使你能够开始新的魔法进程，取得更高级的科技进步，这些科技和魔法只用地面上的材料是无法达成的。"
+	],
+	dependencies: [
+		"da0cc52f"
+	],
+	tasks: [{
+		uid: "9552f4e6",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_vinteum_0"
+		},
+		{
+			item: "gregtech:ore_vinteum_0 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "cf6d62e8",
+		type: "item",
+		item: "contenttweaker:vinteum_enriched_egg",
+		count: 16
+	}]
+}

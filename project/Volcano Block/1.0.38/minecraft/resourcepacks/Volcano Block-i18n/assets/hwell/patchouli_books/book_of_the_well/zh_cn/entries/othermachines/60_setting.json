@@ -1,0 +1,27 @@
+{
+    "name": "方块放置器",
+    "icon": "hwell:setter",
+    "category": "other_machines",
+    "sortnum": 60,
+    "pages": [
+        {
+            "type": "text",
+            "text": "方块放置器是一台将尝试放置扔入其影响范围的方块的机器。放置方块放置器时，一些粒子效果会指示方块放置机的影响范围有多大。$(br2)可以使用投掷器或手动扔物品到对应位置，方块放置器如果有足够的能量就会将这些方块放置到位。"
+        },
+		{
+            "type": "crafting",
+            "title": "The Setter",            
+			"text": "",
+            "recipe": "hwell:setter"
+        },{
+            "type": "text",
+            "text": "方块放置器的范围可以通过在其周围放置方块来更改。放置月光石会增加，而石青石或光滑石青石会缩小。将水晶块放置在靠近它的位置将使有效范围向前移动，的前面留下一些不受影响的位置。$(br2)方块放置器放置的方块可以用托盘过滤。托盘可以设置黑名单或白名单。"
+        },
+		{ 	"type": "image",
+	        "title": "方块放置器",
+	        "border": true,
+            "images": [ "hwell:textures/gui/setter.png" ],
+            "text": "方块放置器的默认范围。"
+        } 
+    ]
+}

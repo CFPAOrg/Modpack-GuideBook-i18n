@@ -1,0 +1,33 @@
+{
+	title: "The Generation Gap",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -8.5d,
+	y: -3.5d,
+	shape: "gear",
+	text: [
+		"一台大型锅炉在完全达到最大温度时，每tick会产生 900mb 蒸汽。 将蒸汽转换为LV能量的比率为每32eu需要60mb蒸汽。",
+		"这意味着一个大型青铜锅炉能带动刚好15个LV蒸汽涡轮。建议你将其中的4个用于为高炉供电。",
+		"这将带你进入MV时代。 ",
+		"",
+		"用2台大锅炉的话，你甚至可以有足够的蒸汽配合变压器推到HV，但是你",
+		"届时大概需要考虑改用柴油。（锅炉也可以使用柴油和其他液体燃料！）"
+	],
+	dependencies: [
+		"b468cef6"
+	],
+	tasks: [{
+		uid: "b299111d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "998e56c6",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

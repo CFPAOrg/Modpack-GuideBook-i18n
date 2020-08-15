@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: -4.0d,
+	description: "硅材料引领着晶圆市场。",
+	dependencies: [
+		"fdd9e9d0",
+		"a916453b",
+		"a912b4b8"
+	],
+	tasks: [{
+		uid: "0e968ff3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32439"
+		}]
+	}],
+	rewards: [{
+		uid: "3d71591b",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32439",
+		count: 8
+	}]
+}

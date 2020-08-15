@@ -1,0 +1,58 @@
+{
+    "name": "制作灵魂钢锭",
+    "icon": "hwell:soulsteel_ingot",
+    "category": "introduction",
+    "sortnum": 70,
+    "pages": [
+    	{	
+        	"type": "spotlight",
+            "title": "灵魂钢",
+            "item": "hwell:soulsteel_ingot",
+            "link_recipe": true,
+            "text": "灵魂钢是一种结实的材料，具有很高的吸引力。获取灵魂钢的第一步是准备原材料。本章涵盖了从头到尾的过程。"
+        },   
+        { 	"type": "crush",
+	        "name": "获取灵魂粉",
+			"recipe": "hwell:soul_dust",
+			"input1": "hwell:crushing_block",
+			"input2": "minecraft:soul_sand",
+			"output": "hwell:soul_dust",
+	        "text": "制作未烧制的灵魂钢锭需要灵魂粉。"
+        },
+        { 
+	        "type": "core",
+	        "name": "钻石金属",
+	        "input1": "hwell:core_sentient",
+	        "input2": "hwell:shard_fe",
+	        "input3": "minecraft:diamond_block",
+	        "output": "hwell:metaldiamond_block",
+	        "text": "钻石金属用于合成，并且需要一个钻石块作为催化剂。"
+        },
+	    {
+            "type": "crafting",
+			"title": "未烧制的灵魂钢锭",
+			"recipe": "hwell:metaldiamond",
+			"recipe2": "hwell:raw_soulsteel_ingot",
+			"text": "制作一个没有烧制的灵魂钢，然后将其熔炼。"
+		},  
+	    {
+            "type": "smelting",
+			"text": "被困在未烧制的灵魂钢锭里面的灵魂，必须送入熔炉才能达到最终形态。$(br2)灵魂钢锭可以用来制造强力的武器和盔甲。",
+			"recipe2": "hwell:raw_soulsteel"
+		},
+	    {
+            "type": "crafting",
+			"title": "灵魂钢工具和武器",
+			"recipe": "hwell:soulsteel_sword",
+			"recipe2": "hwell:soulsteel_Chest",
+			"text": "灵魂钢物品可以被附魔。"
+		},
+		{
+            "type": "crafting",
+			"title": "灵魂钢工具",
+			"recipe": "hwell:dust_picker_au",
+			"recipe2": "hwell:empowered_displacer",
+			"text": "在HearthWell，灵魂钢用于制作各种工具和机器。"
+		}  
+    ]
+}

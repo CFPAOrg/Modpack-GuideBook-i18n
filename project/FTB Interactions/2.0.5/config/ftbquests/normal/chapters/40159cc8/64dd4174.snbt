@@ -1,0 +1,44 @@
+{
+	title: "镍矿脉",
+	x: -4.0d,
+	y: -11.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"78546de8",
+		"fe50d67e"
+	],
+	tasks: [{
+		uid: "ccd98365",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_garnierite_0"
+		}]
+	},
+	{
+		uid: "d3e4b757",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_yellow_limonite_0"
+		}]
+	},
+	{
+		uid: "68bd6795",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_nickel_0"
+		}]
+	},
+	{
+		uid: "6964cd9b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_iron_0"
+		}]
+	}],
+	rewards: [{
+		uid: "4663e531",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2114",
+		count: 32
+	}]
+}

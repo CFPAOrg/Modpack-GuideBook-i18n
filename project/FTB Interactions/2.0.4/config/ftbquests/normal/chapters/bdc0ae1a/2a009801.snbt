@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: 1.5d,
+	shape: "diamond",
+	dependencies: [
+		"c5695e13"
+	],
+	tasks: [{
+		uid: "6a0a0f3d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "unstable_mana",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}]
+}

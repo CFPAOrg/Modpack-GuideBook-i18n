@@ -1,0 +1,47 @@
+{
+	x: 13.0d,
+	y: 1.0d,
+	dependencies: [
+		"e2f0fe86"
+	],
+	tasks: [{
+		uid: "76d60b6e",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_iron"
+		}]
+	},
+	{
+		uid: "4a44c663",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_copper"
+		}]
+	},
+	{
+		uid: "b7953159",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_lead"
+		}]
+	},
+	{
+		uid: "12294955",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_silver"
+		}]
+	},
+	{
+		uid: "4ba77903",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_dawnstone"
+		}]
+	}],
+	rewards: [{
+		uid: "3526f129",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

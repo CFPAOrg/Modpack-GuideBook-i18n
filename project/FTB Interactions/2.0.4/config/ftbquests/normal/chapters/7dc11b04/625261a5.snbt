@@ -1,0 +1,39 @@
+{
+	x: -6.5d,
+	y: -2.0d,
+	description: "在月球上挖矿",
+	text: [
+		"通过制造一个坠星位标仪式，并使用焦黑石英块作为催化剂，你可以从宇宙中召唤一个半径为4的矿物落星。此外，使用星辉矿石作为媒介，你可以获得更多的星辉矿石，水晶石矿石和一些其他的矿石。"
+	],
+	dependencies: [
+		"7c314036"
+	],
+	tasks: [{
+		uid: "968914f5",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_misc 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "f6577283",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:quartz_paxel",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 29
+				},
+				{
+					lvl: 3,
+					id: 73
+				}],
+				RepairCost: 3
+			}
+		}
+	}]
+}

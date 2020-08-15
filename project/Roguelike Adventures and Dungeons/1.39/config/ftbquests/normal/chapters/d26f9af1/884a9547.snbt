@@ -1,0 +1,25 @@
+{
+	title: "只剩三个了...",
+	x: 2.0d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"475ad7cf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c2297d99",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "e05e5d37",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 100
+	}]
+}

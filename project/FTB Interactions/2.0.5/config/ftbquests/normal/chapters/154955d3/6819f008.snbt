@@ -1,0 +1,50 @@
+{
+	title: "你可以获得这棵树。",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				PrimaryMaterial: "flint",
+				MaxDurability: 55,
+				DigSpeed: 6.0f,
+				AttackDamage: 1.0f,
+				HarvestLevel: 1
+			}
+		},
+		Damage: 3s
+	},
+	x: -4.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	description: "还有我的斧头！格雷斧头具有内置的砍树功能，它使早期砍伐原木变得更容易。",
+	text: [
+		"你没那么容易去到主世界。"
+	],
+	dependencies: [
+		"1d6fe213"
+	],
+	tasks: [{
+		uid: "48860982",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					PrimaryMaterial: "flint",
+					MaxDurability: 55,
+					DigSpeed: 6.0f,
+					AttackDamage: 1.0f,
+					HarvestLevel: 1
+				}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

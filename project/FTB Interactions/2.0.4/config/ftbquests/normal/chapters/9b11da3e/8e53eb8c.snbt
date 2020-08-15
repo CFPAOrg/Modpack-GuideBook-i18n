@@ -1,0 +1,43 @@
+{
+	title: "皂石矿脉",
+	x: -7.0d,
+	y: -1.0d,
+	description: "在所有生物群系中生成。",
+	dependencies: [
+		"8d74acc7"
+	],
+	tasks: [{
+		uid: "e0e71bbf",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_soapstone_0"
+		}]
+	},
+	{
+		uid: "4f035eaf",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_talc_0"
+		}]
+	},
+	{
+		uid: "e1cd7d41",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_glauconite_0"
+		}]
+	},
+	{
+		uid: "19c30698",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pentlandite_0"
+		}]
+	}],
+	rewards: [{
+		uid: "2b55107a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2295",
+		count: 4
+	}]
+}

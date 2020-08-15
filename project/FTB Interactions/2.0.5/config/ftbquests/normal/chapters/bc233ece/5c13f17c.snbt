@@ -1,0 +1,16 @@
+{
+	title: "为油充能",
+	x: -0.5d,
+	y: -1.0d,
+	description: "一旦你的电力基础设施足够高阶，你将有能力用无限的谷物和星能液给晶化油菜充能，进一步提高你的燃料产量与直接生产柴油的能力，并绕过轻燃料和重燃料的步骤。",
+	dependencies: [
+		"76c508fd"
+	],
+	tasks: [{
+		uid: "f5d034b9",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 24"
+		}]
+	}]
+}

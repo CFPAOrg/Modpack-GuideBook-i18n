@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"ace30757"
+	],
+	tasks: [{
+		uid: "2102fcc5",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "00b9f4d6",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

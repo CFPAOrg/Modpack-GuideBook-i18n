@@ -1,0 +1,11 @@
+{
+	x: 3.5d,
+	y: -5.0d,
+	tasks: [{
+		uid: "0a3877be",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_jungle_chitin"
+		}]
+	}]
+}
