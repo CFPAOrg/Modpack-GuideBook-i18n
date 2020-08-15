@@ -1,0 +1,54 @@
+{
+	title: "血腥地狱",
+	x: 1.0d,
+	y: -13.0d,
+	description: "通过血魔法的坠星标位仪式，使用焦黑石英块作为催化剂，你可以召唤一个富含高辐射材料的陨石。",
+	text: [
+		"通过这种仪式来获得钍矿石，你可以将它转化为铀并进一步处理成钚，用来制作氡。"
+	],
+	dependencies: [
+		"fe50d67e"
+	],
+	tasks: [{
+		uid: "b317ea30",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_thorium_0"
+		}]
+	},
+	{
+		uid: "513cf24f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:activation_crystal",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f78c31aa",
+		type: "item",
+		item: "astralsorcery:itemcoloredlens 1 6"
+	},
+	{
+		uid: "079a3e5f",
+		type: "item",
+		item: {
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -19.0d,
+	y: 4.0d,
+	description: "钻石不包括在内。",
+	text: [
+		"和原版末影箱子一样，只是拥有频道而已。在插销上用钻石锁住它。",
+		"（你也可以使用管道对其进行输入输出）"
+	],
+	tasks: [{
+		uid: "a89f0396",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}]
+	}],
+	rewards: [{
+		uid: "50384ecf",
+		type: "item",
+		item: "enderstorage:ender_storage"
+	}]
+}

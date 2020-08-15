@@ -1,0 +1,37 @@
+{
+	x: -6.0d,
+	y: -0.5d,
+	shape: "diamond",
+	text: [
+		"这种柴油可以直接用在柴油发电机中，或者作为燃料驱动锅炉，怎么做随你。"
+	],
+	dependencies: [
+		"9387a9b3",
+		"2c93dbb5",
+		"edd7042e",
+		"b00b4e76",
+		"7185860a",
+		"579a74b5",
+		"c4bcc6d3"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "bf92a8a6",
+		type: "checkmark",
+		title: "恭喜你成功实现了柴油的自动化生产！"
+	}],
+	rewards: [{
+		uid: "886e10a5",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "fuel",
+					Amount: 64000
+				}
+			},
+			Damage: 32405s
+		}
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	x: -3.0d,
+	y: -6.0d,
+	text: [
+		"氟可以自动化，但这是一个缓慢的过程，需要许多机器。 这个鸡让你能从它的蛋里提取一些氟，有助于缓解这种情况。不适合吃。"
+	],
+	dependencies: [
+		"bad8af80",
+		"c193d3a6"
+	],
+	tasks: [{
+		uid: "5fd24d20",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:fluorinechicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "44e8859b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fluorine_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "a8acce1c",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "fluorine",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

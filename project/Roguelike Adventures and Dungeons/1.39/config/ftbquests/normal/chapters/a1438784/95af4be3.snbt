@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	dependencies: [
+		"8e6816fe"
+	],
+	tasks: [{
+		uid: "482bd567",
+		type: "item",
+		items: [{
+			item: "atum:atums_bounty"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "582b1f06",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

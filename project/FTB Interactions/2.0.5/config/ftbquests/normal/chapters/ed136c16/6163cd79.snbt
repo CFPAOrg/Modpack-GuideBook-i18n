@@ -1,0 +1,28 @@
+{
+	x: -11.5d,
+	y: 0.5d,
+	description: "无线地从你的个人存储中抽取通灵能量，用它来为你物品栏中的工具和物品充能，比如通量电钻。",
+	dependencies: [
+		"becdc9a7"
+	],
+	tasks: [{
+		uid: "d391da77",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:spectrecharger",
+			tag: {
+				options: {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2851919",
+		type: "item",
+		item: "lteleporters:endercrystal",
+		count: 2
+	}]
+}

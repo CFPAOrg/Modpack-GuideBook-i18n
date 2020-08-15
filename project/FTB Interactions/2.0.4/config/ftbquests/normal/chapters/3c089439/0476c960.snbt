@@ -1,0 +1,25 @@
+{
+	title: "小型铟度游戏开发公司",
+	x: 1.0d,
+	y: 1.5d,
+	text: [
+		"既然你已经得到了铟，你便能制造磷化铟镓用于更好的电路。你也可以制造恶魔之泪以激活人工末地传送门。 "
+	],
+	dependencies: [
+		"5c01e42a",
+		"229c3e3f"
+	],
+	tasks: [{
+		uid: "68f5d91e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 31"
+		}]
+	}],
+	rewards: [{
+		uid: "9e6c7e5c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2421",
+		count: 4
+	}]
+}

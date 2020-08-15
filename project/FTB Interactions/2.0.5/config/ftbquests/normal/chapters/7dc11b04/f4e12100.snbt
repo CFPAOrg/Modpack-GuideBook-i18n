@@ -1,0 +1,38 @@
+{
+	title: "Off with their heads!",
+	x: -2.0d,
+	y: -3.5d,
+	text: [
+		"炽焰之啄颅剑可以烧焦普通的骷髅，使它们掉落凋零骷髅头。为你自己制作一把。去吧，斩尽杀绝！"
+	],
+	dependencies: [
+		"5eaa3801"
+	],
+	dependency_requirement: "all_started",
+	optional: true,
+	tasks: [{
+		uid: "a6b8e735",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5570085101611273969L,
+					AS_Amulet_HolderMost: 5678865977197479355L
+				}
+			},
+			id: "avaritia:skullfire_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b5762cd7",
+		type: "item",
+		item: "minecraft:skull 1 1"
+	},
+	{
+		uid: "98422628",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

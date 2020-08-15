@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"13cf1945"
+	],
+	tasks: [{
+		uid: "765baac6",
+		type: "item",
+		items: [{
+			item: "embers:ember_detector"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3904d3fe",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

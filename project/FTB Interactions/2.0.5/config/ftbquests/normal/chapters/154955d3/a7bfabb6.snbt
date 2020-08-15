@@ -1,0 +1,16 @@
+{
+	title: "FTB Interactions问题反馈",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:writable_book"
+	},
+	x: -3.0d,
+	y: -6.0d,
+	shape: "gear",
+	custom_click: "https://github.com/FTBTeam/FTB-Interactions/issues",
+	dependencies: [
+		"87b0ee79"
+	]
+}

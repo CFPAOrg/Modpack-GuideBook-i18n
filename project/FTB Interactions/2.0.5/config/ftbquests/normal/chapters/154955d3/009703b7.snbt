@@ -1,0 +1,27 @@
+{
+	title: "我的目光如锯。",
+	x: 2.0d,
+	y: 2.0d,
+	description: "也许可以节省你的饥饿值。或许不能。将水源方块直接放在锯子下方，并让它流动。",
+	text: [
+		"如果它一个方向不工作的话，试试另外的方向",
+		"就像USB接口那样"
+	],
+	dependencies: [
+		"1bb9079a",
+		"8ffc4093",
+		"b0039b2c"
+	],
+	tasks: [{
+		uid: "84407c58",
+		type: "item",
+		items: [{
+			item: "primal_tech:water_saw"
+		}]
+	}],
+	rewards: [{
+		uid: "b1593a3a",
+		type: "item",
+		item: "harvestcraft:curryitem"
+	}]
+}

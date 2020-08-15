@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "3a52e0a0",
+		type: "kill",
+		entity: "embers:ancient_golem",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "fde73fe0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

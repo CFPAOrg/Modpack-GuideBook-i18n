@@ -1,0 +1,37 @@
+{
+	title: "巴啦啦能量！",
+	x: -1.5d,
+	y: 1.5d,
+	shape: "square",
+	description: "共鸣星杖能让你发现隐藏的水晶石矿石，而且也是开始星辉合成的必要工具。",
+	dependencies: [
+		"e48023fb",
+		"5eaa3801",
+		"8cd0b5bf"
+	],
+	tasks: [{
+		uid: "50fa5c0f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c41f416",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent"
+	},
+	{
+		uid: "4993011c",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

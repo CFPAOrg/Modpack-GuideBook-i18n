@@ -1,0 +1,23 @@
+{
+	title: "不要在太空中迷路。",
+	icon: "advancedrocketry:guidancecomputer",
+	x: -1.5d,
+	y: -17.0d,
+	description: "导航电脑对每个火箭都至关重要，向其中插入你的目的地ID芯片，告诉火箭它应该飞向哪里。",
+	dependencies: [
+		"05f17487"
+	],
+	tasks: [{
+		uid: "4fa304e8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:guidancecomputer"
+		}]
+	}],
+	rewards: [{
+		uid: "fab47195",
+		type: "item",
+		item: "enderutilities:ender_elevator",
+		count: 2
+	}]
+}

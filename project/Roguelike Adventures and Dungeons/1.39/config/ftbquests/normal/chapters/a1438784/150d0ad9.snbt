@@ -1,0 +1,25 @@
+{
+	x: 9.0d,
+	y: 3.0d,
+	dependencies: [
+		"cf715fd3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2527acee",
+		type: "item",
+		items: [{
+			item: "atum:loot_diamond_ring"
+		}]
+	}],
+	rewards: [{
+		uid: "9ab97b6c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2efe6af9",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

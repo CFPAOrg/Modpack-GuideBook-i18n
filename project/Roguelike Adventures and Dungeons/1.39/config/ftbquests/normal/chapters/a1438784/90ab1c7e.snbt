@@ -1,0 +1,43 @@
+{
+	x: 13.0d,
+	y: -1.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d69360d4",
+		type: "item",
+		items: [{
+			item: "atum:seths_sting"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3a9840c8",
+		type: "item",
+		items: [{
+			item: "atum:seths_venom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d53b7f65",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "4d9a6271",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 5
+	},
+	{
+		uid: "ee6e7681",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -9.0d,
+	y: -11.0d,
+	text: [
+		"要获取荧石粉，你可以离心红石、在下界挖掘、以及使用炼金矩阵合成小撮荧石粉后再将其合成为荧石粉。",
+		"",
+		"你有了一些之后就可以使用神秘时代无限复制它。",
+		"",
+		"注意: 闪耀之光可以用无序合成重新染色..."
+	],
+	dependencies: [
+		"8eac9d15"
+	],
+	tasks: [{
+		uid: "9feeb972",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nitor_yellow"
+		}]
+	}],
+	rewards: [{
+		uid: "cff7c294",
+		type: "item",
+		item: "thaumcraft:nitor_yellow",
+		count: 4
+	},
+	{
+		uid: "776fff8b",
+		type: "item",
+		item: "harvestcraft:sausageinbreaditem"
+	}]
+}

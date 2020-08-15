@@ -1,0 +1,20 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	description: "这是我写的最后一个关于压缩机的任务了。如果你是一个主播，为了你观众的利益，请使用语音压缩器。",
+	dependencies: [
+		"fa1162c0"
+	],
+	tasks: [{
+		uid: "0391a05c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 210"
+		}]
+	}],
+	rewards: [{
+		uid: "8c50d4c4",
+		type: "item",
+		item: "harvestcraft:cookedtofuttonitem"
+	}]
+}

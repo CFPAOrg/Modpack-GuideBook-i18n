@@ -1,0 +1,42 @@
+{
+	x: -12.5d,
+	y: -1.0d,
+	shape: "rsquare",
+	text: [
+		"树脂可以作为一种备用的高效制备橡胶的方式。"
+	],
+	tasks: [{
+		uid: "1631c174",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "resin",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "c3355fb4",
+		type: "item",
+		item: "harvestcraft:maplesyruppancakesitem"
+	},
+	{
+		uid: "ad6bd69f",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "resin",
+					Amount: 64000
+				}
+			},
+			Damage: 32405s
+		}
+	}]
+}

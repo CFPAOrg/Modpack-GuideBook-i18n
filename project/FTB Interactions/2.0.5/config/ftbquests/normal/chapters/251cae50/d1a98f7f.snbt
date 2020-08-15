@@ -1,0 +1,14 @@
+{
+	title: "UV时代",
+	icon: "gregtech:machine 1 508",
+	x: -9.0d,
+	y: 3.0d,
+	description: "此行的项目在大多数UV配方中使用。",
+	dependencies: [
+		"1207a7cd"
+	],
+	tasks: [{
+		uid: "af79277e",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	title: "火箭人",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 49,
+			TrophyVariant: "classic",
+			TrophyItem: {
+				id: "advancedrocketry:rocketbuilder",
+				Count: 1,
+				Damage: 0
+			},
+			TrophyColorBlue: 146,
+			TrophyName: "SPACE",
+			TrophyColorRed: 37,
+			TrophyEarnedAt: 1553222296
+		}
+	},
+	x: 4.0d,
+	y: 7.5d,
+	description: "我想我下次再在这里着陆将是很久很久以后了。",
+	text: [
+		"前往月球Luna将使你能够获取纯铝、焦黑石英和恒星合金，以及来自月球地牢的强大战利品。"
+	],
+	dependencies: [
+		"78546de8"
+	],
+	tasks: [{
+		uid: "be241b80",
+		type: "dimension",
+		title: "前往维度：月球Luna",
+		dim: 145
+	}],
+	rewards: [{
+		uid: "31b23490",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "advancedrocketry:rocketbuilder",
+					Count: 1,
+					Damage: 0
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "SPAAAAAAACE!",
+				TrophyColorRed: 37
+			}
+		}
+	}]
+}

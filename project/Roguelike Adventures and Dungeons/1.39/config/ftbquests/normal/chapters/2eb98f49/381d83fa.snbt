@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	dependencies: [
+		"626947b6"
+	],
+	tasks: [{
+		uid: "d4fceb68",
+		type: "item",
+		items: [{
+			item: "embers:block_tank"
+		}]
+	}],
+	rewards: [{
+		uid: "3a1f467e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

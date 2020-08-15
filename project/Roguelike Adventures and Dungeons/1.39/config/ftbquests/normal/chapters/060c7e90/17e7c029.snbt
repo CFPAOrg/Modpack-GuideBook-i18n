@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	dependencies: [
+		"0d83a71c"
+	],
+	tasks: [{
+		uid: "5592b3ec",
+		type: "item",
+		items: [{
+			item: "ebwizardry:armour_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "897c56e4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

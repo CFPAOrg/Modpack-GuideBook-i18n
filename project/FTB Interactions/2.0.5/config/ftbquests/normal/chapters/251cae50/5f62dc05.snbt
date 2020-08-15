@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"5d7e187e"
+	],
+	tasks: [{
+		uid: "7e4f74de",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32470"
+		}]
+	}],
+	rewards: [{
+		uid: "a732e608",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32470",
+		count: 4
+	},
+	{
+		uid: "116c57e2",
+		type: "item",
+		item: "harvestcraft:cheddarandsourcreampotatochipsitem"
+	}]
+}

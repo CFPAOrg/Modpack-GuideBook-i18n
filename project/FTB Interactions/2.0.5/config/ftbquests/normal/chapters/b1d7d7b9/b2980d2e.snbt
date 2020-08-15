@@ -1,0 +1,23 @@
+{
+	title: "元素粉",
+	x: -12.5d,
+	y: -7.0d,
+	description: "将元素属性注入盐水似乎会产生元素粉，这些粉可能有许多不同的用途。",
+	dependencies: [
+		"29825601"
+	],
+	tasks: [{
+		uid: "1050b222",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1024"
+		}]
+	},
+	{
+		uid: "13f17b12",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1025"
+		}]
+	}]
+}

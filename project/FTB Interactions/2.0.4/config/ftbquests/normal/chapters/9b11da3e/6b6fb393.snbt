@@ -1,0 +1,37 @@
+{
+	title: "红石和火之蕴魔矿脉",
+	x: -7.0d,
+	y: -6.0d,
+	description: "有火之蕴魔矿石和更多红宝石的红石矿脉生成在炎热和干燥的生物群系",
+	dependencies: [
+		"4d7d97ed"
+	],
+	tasks: [{
+		uid: "45bddaa7",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ignis_infused_0"
+		}]
+	},
+	{
+		uid: "e44cdc39",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_redstone_0"
+		}]
+	},
+	{
+		uid: "beaf7a3f",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ruby_0"
+		}]
+	},
+	{
+		uid: "a2e814b0",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cinnabar_0"
+		}]
+	}]
+}

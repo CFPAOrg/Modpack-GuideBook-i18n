@@ -1,0 +1,21 @@
+{
+	title: "你就像大理石那样尖锐",
+	x: -3.0d,
+	y: -12.0d,
+	description: "大理石可以在古代神庙中找到，但是请小心，神庙年久失修，没有火把的照亮，大理石可能会崩塌，幸运的是，你或许可以找到别的方式来修复这些破旧的大理石",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "7d678a4c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "00f39ddf",
+		type: "item",
+		item: "tconstruct:materials 1 16"
+	}]
+}

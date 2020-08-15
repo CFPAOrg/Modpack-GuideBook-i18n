@@ -1,0 +1,82 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "e527b107",
+		type: "item",
+		items: [{
+			item: "inventorypets:banana_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a8f41711",
+		type: "item",
+		items: [{
+			item: "inventorypets:loot_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f2c1dda2",
+		type: "item",
+		items: [{
+			item: "inventorypets:mickerson_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "12187398",
+		type: "item",
+		items: [{
+			item: "inventorypets:pingot_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fb938bf7",
+		type: "item",
+		items: [{
+			item: "inventorypets:purplicious_cow_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f98cd61f",
+		type: "item",
+		items: [{
+			item: "inventorypets:qcm_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11fa392f",
+		type: "item",
+		items: [{
+			item: "inventorypets:sponge_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3ffbe26",
+		type: "item",
+		items: [{
+			item: "inventorypets:sun_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f837bfd",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

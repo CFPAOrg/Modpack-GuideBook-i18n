@@ -1,0 +1,54 @@
+{
+	title: "锻造部件化装备",
+	icon: {
+		id: "tconstruct:toolforge",
+		tag: {
+			textureBlock: {
+				id: "enderio:block_alloy",
+				Count: 1,
+				Damage: 0
+			}
+		}
+	},
+	x: -13.0d,
+	y: -4.0d,
+	description: "你可以使用任意匠魂材料（铁，铜，青铜，等等）去制作它。然而大部分工具的工具部件需要在MV等级以后才能制作",
+	dependencies: [
+		"badc108d"
+	],
+	tasks: [{
+		uid: "12276c8f",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "enderio:block_alloy",
+					Count: 1,
+					Damage: 0
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "37207f12",
+		type: "item",
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "iron"
+			}
+		}
+	},
+	{
+		uid: "184909a4",
+		type: "item",
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "copper"
+			}
+		}
+	}]
+}

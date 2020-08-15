@@ -1,0 +1,85 @@
+{
+	title: "FTBUltimine！FTB的终极挖矿模组！",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "tconstruct:hammer",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 7.75f,
+				FreeModifiers: 3,
+				Durability: 1550,
+				HarvestLevel: 4,
+				Attack: 3.85f
+			},
+			display: {
+				NoRename: 1,
+				Name: "InfiMiner"
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 999999.0f,
+				FreeModifiers: 0,
+				Durability: 999999,
+				HarvestLevel: 4,
+				Attack: 999999.0f
+			},
+			Special: {
+				Categories: [
+					"tool",
+					"harvest",
+					"aoe",
+					"weapon"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"slime",
+					"cobalt",
+					"ardite",
+					"ardite"
+				],
+				Modifiers: [
+					"infitool"
+				]
+			},
+			Modifiers: [{
+				identifier: "slimey_green",
+				color: -8206221,
+				level: 1
+			},
+			{
+				identifier: "momentum",
+				color: -14122284,
+				level: 1
+			},
+			{
+				identifier: "stonebound",
+				color: -3063280,
+				level: 1
+			},
+			{
+				identifier: "infitool",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"slimey_green",
+				"momentum",
+				"stonebound",
+				"infitool"
+			]
+		}
+	},
+	x: -3.0d,
+	y: -3.0d,
+	shape: "gear",
+	description: "本包使用FTBUltimine模组来连锁挖矿。但是本包的连锁挖矿只是为了让你更好的采掘非资源方块。你可以连锁剪树叶、拆星辉祭坛或除草。矿石和原木在连锁挖矿的黑名单上，否则的话会使锤、钻和伐木斧失去其作用。默认按键是~波浪键。",
+	tasks: [{
+		uid: "b46531ec",
+		type: "checkmark",
+		title: "确认"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"6bf338d3"
+	],
+	tasks: [{
+		uid: "cd843fb8",
+		type: "item",
+		items: [{
+			item: "extrautils2:boomerang"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84b7814b",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

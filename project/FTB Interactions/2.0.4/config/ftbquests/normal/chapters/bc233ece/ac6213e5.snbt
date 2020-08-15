@@ -1,0 +1,23 @@
+{
+	title: "加快转速",
+	x: -3.5d,
+	y: -2.0d,
+	shape: "square",
+	text: [
+		"有时，你使用更高级的机器是为了提高副产物的产出率，也有时，你即使使用了高级的机器也很难获得你想要的的副产物。",
+		"其中一种是钚，通过在HV+的离心机中离心铀粉，你有机会得到小撮钚粉，这是生产氡的至关重要的材料。"
+	],
+	dependencies: [
+		"829ccb26"
+	],
+	tasks: [{
+		uid: "078be84b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 152"
+		},
+		{
+			item: "gregtech:machine 1 153"
+		}]
+	}]
+}

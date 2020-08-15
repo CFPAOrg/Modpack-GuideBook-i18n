@@ -1,0 +1,15 @@
+{
+	title: "任务线最初的一环",
+	icon: "minecraft:crafting_table",
+	disable_toast: true,
+	x: 6.0d,
+	y: -5.0d,
+	shape: "square",
+	text: [
+		"带有方形图标的任务代表着一条任务线的开始"
+	],
+	tasks: [{
+		uid: "00469ede",
+		type: "checkmark"
+	}]
+}

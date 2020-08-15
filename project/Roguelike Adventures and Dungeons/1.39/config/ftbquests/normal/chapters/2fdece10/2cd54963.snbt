@@ -1,0 +1,132 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"873fa349"
+	],
+	tasks: [{
+		uid: "8c2c55c1",
+		type: "item",
+		items: [{
+			id: "spartanfire:dagger_ice_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 1101923489044711943L,
+						UUIDLeast: -9152652250485795397L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 3698413219778611620L,
+						UUIDLeast: -8442883505718086216L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -3588989522105973096L,
+						UUIDLeast: -5491149325414694127L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broad.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e1df6c4f",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_axe_ice_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e4dae95b",
+		type: "item",
+		items: [{
+			item: "spartanfire:throwing_knife_ice_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "100159f2",
+		type: "item",
+		items: [{
+			id: "spartanfire:longbow_ice_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand",
+						"offhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 405905169979033911L,
+						UUIDLeast: -4842651195457974535L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "29ee4f32",
+		type: "item",
+		items: [{
+			id: "spartanfire:crossbow_ice_dragonbone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "920a8c0f",
+		type: "item",
+		items: [{
+			item: "spartanfire:javelin_ice_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e7776f6",
+		type: "item",
+		items: [{
+			item: "spartanfire:boomerang_ice_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ab20cf34",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "ce30c9f5",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -0.5d,
+	y: -9.0d,
+	text: [
+		"电解水可以产出氢气和氧气。你也可以直接通过充气鸡产的蛋获得氢气。 "
+	],
+	tasks: [{
+		uid: "5a5649fc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 240"
+		},
+		{
+			item: "gregtech:machine 1 241"
+		}]
+	}],
+	rewards: [{
+		uid: "b7a75f55",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32600",
+		count: 4
+	},
+	{
+		uid: "68b0dd89",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32488"
+	}]
+}

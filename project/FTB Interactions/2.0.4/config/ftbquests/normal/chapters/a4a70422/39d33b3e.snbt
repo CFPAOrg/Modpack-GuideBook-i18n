@@ -1,0 +1,21 @@
+{
+	x: -9.0d,
+	y: 0.0d,
+	text: [
+		"一个用于在ME网络中的设备之间传输数据和能量的线缆，它能够同时传输8个频道。用恰当的染料还可以制作16种彩色的玻璃线缆。",
+		"用恰当的染料还可以制作16种彩色的玻璃线缆。彩色线缆允许与其他彩色线缆接触但不分享信号或连接，除非有着相同颜色。"
+	],
+	tasks: [{
+		uid: "afb28886",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "2c026b42",
+		type: "item",
+		item: "appliedenergistics2:part 1 56",
+		count: 16
+	}]
+}

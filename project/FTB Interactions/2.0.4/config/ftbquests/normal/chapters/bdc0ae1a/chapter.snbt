@@ -1,0 +1,7 @@
+{
+	title: "Mana.. Mahna Mahna ",
+	icon: "botania:pylon",
+	always_invisible: false,
+	group: 549390558,
+	default_quest_shape: ""
+}

@@ -1,0 +1,20 @@
+{
+	x: 11.0d,
+	y: 1.0d,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5dab81f7",
+		type: "item",
+		items: [{
+			item: "atum:loot_dirty_idol"
+		}]
+	}],
+	rewards: [{
+		uid: "26d66e6a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

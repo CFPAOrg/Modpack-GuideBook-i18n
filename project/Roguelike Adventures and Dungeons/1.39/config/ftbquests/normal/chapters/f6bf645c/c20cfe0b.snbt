@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	dependencies: [
+		"c441e053"
+	],
+	tasks: [{
+		uid: "f4f88873",
+		type: "item",
+		items: [{
+			item: "twilightforest:moonworm_queen"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7f83d24",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	description: "你需要下届合金块去搭建你3阶祭坛的顶部。这种金属可以在地狱的古老栖息地发现并且他们有藏其他的资源在这。",
+	text: [
+		"在Y<=17的地狱深处随机生成。",
+		"",
+		"你可以使用这种材料制造下届合金锭，进而制造出下届合金块，用于建造3级血魔法祭坛，或者再进一步处理成魂金锭，用于制造Ender IO的各种机器。"
+	],
+	dependencies: [
+		"4fa0097b"
+	],
+	tasks: [{
+		uid: "dcb8e7f9",
+		type: "item",
+		items: [{
+			item: "netherbackport:ancientdebris"
+		}]
+	}],
+	rewards: [{
+		uid: "531458eb",
+		type: "item",
+		item: "netherbackport:netheritescrap",
+		count: 4
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "像钢制陷阱一样的大脑。",
+	x: -9.0d,
+	y: -1.0d,
+	shape: "square",
+	description: "锈迹斑斑，在大多数地方都是非法的。更重要的是，制造这一列中列出的金属锭将是每一个时代的主要工作。你要为LV时代制造大量钢材。",
+	dependencies: [
+		"2e003362"
+	],
+	tasks: [{
+		uid: "dc1931f6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10184"
+		}]
+	},
+	{
+		uid: "6b90db90",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 501"
+		}]
+	}],
+	rewards: [{
+		uid: "1365d777",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12184",
+		count: 8
+	}]
+}

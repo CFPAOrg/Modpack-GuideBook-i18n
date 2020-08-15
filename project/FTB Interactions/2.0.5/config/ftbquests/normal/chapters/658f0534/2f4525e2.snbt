@@ -1,0 +1,56 @@
+{
+	x: -13.5d,
+	y: -6.0d,
+	text: [
+		"你可以使用GT的锤子来破坏矿物使其变成粉碎的矿物来代替原来的矿物采集方法，这样的做法可以直接生产两倍的矿物，就相当于研磨机一样，甚至还可以给锤子附魔时运以此来获得三倍或者以上的矿物生产。 ",
+		"当你获得了粉碎的矿物之后，你就可以进行下一步的处理，那就是把含杂粉碎矿物放入你的物品自带的合成栏用锤子与其合成一下，最后丢入炼药锅清洗一下，你可以一次投入一组的含杂矿粉来清洗",
+		"你也可以绕过锤子并直接粉碎你的矿石，如果你有机器为你做这些。"
+	],
+	dependencies: [
+		"bed220ce"
+	],
+	tasks: [{
+		uid: "8a30e6db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 16
+				}],
+				CraftingComponents: [{
+					id: "gregtech:meta_item_2",
+					Count: 1,
+					Damage: 5033
+				},
+				{
+					id: "minecraft:stick",
+					Count: 1,
+					Damage: 0
+				}],
+				GT.ToolStats: {
+					PrimaryMaterial: "iron",
+					HandleMaterial: "wood"
+				}
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "104d38c1",
+		type: "item",
+		item: "gregtech:meta_item_1 1 5018",
+		count: 8
+	},
+	{
+		uid: "3ecae5b7",
+		type: "item",
+		item: "gregtech:meta_item_1 1 5033",
+		count: 8
+	}]
+}

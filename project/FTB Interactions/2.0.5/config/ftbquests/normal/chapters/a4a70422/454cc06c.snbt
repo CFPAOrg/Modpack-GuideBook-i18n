@@ -1,0 +1,31 @@
+{
+	title: "一个简单的请求",
+	x: -13.309523809523817d,
+	y: -1.5238095238095326d,
+	text: [
+		"制作一个物流请求桌，访问所有相连容器的物品并进行合成。"
+	],
+	dependencies: [
+		"518a088a",
+		"074fc3f0"
+	],
+	tasks: [{
+		uid: "b445785f",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_request_table"
+		}]
+	}],
+	rewards: [{
+		uid: "d2ad7e18",
+		type: "item",
+		item: "logisticspipes:upgrade_action_speed",
+		count: 16
+	},
+	{
+		uid: "c8bf6f18",
+		type: "item",
+		item: "logisticspipes:upgrade_speed",
+		count: 16
+	}]
+}

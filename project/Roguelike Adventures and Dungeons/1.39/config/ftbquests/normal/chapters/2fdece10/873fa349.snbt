@@ -1,0 +1,11 @@
+{
+	x: -1.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "a9cbaae7",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_blood"
+		}]
+	}]
+}

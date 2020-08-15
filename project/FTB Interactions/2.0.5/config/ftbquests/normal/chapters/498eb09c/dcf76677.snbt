@@ -1,0 +1,24 @@
+{
+	title: "Awesome Mix Tape",
+	x: -12.0d,
+	y: 0.0d,
+	text: [
+		"MV+阶段的搅拌机将解锁几种新的化学配方，包括一种新的提炼石油的方法：通过浸出油菜籽中的成分使其产出效率提高两倍以上。"
+	],
+	tasks: [{
+		uid: "3b8f74fb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 371"
+		},
+		{
+			item: "gregtech:machine 1 372"
+		}]
+	}],
+	rewards: [{
+		uid: "08e0f4a1",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 8
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -10.0d,
+	y: -4.0d,
+	dependencies: [
+		"33705eac",
+		"5a005611",
+		"4c03fcd9"
+	],
+	tasks: [{
+		uid: "7c8538ad",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "ethylene",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

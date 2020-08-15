@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	dependencies: [
+		"71151cbb"
+	],
+	tasks: [{
+		uid: "46c6248f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "31692aae",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

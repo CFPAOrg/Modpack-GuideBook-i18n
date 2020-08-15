@@ -1,0 +1,26 @@
+{
+	x: -11.0d,
+	y: 5.0d,
+	description: "存储63种物品，不能更大了。",
+	dependencies: [
+		"ac6cf1f2"
+	],
+	tasks: [{
+		uid: "b65d1a91",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 38"
+		}]
+	}],
+	rewards: [{
+		uid: "c1f9c49d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	}]
+}

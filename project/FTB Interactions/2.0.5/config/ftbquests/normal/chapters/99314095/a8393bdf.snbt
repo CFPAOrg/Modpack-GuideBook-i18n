@@ -1,0 +1,23 @@
+{
+	title: "卷板机！卷板机！我们要卷板机！",
+	x: -4.0d,
+	y: 0.0d,
+	description: "“我的故事和你的很像，只有更有趣，因为它涉及到机器人”。这台机器1:1地将锭制成板材。这很棒。更高级的机器做同样的事情，只不过速度更快。",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c13fb853"
+	],
+	tasks: [{
+		uid: "9484da21",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 120"
+		}]
+	}],
+	rewards: [{
+		uid: "7d6fd738",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12237",
+		count: 16
+	}]
+}

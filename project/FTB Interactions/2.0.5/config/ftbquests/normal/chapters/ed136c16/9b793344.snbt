@@ -1,0 +1,39 @@
+{
+	title: "建造水下基地或探索海洋地牢可能需要持久的氧气源。潜水罐能大大延长你在水下逗留的时间。",
+	x: -9.0d,
+	y: 2.0d,
+	description: "建造水下基地或探索海洋地牢可能需要持久的氧气源。潜水罐能大大延长你在水下逗留的时间。",
+	dependencies: [
+		"635d5fcc"
+	],
+	tasks: [{
+		uid: "932540e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:scubatank"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9e4acff",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1,
+					id: 6
+				}]
+			}
+		}
+	},
+	{
+		uid: "60e103b7",
+		type: "item",
+		item: "harvestcraft:bentoboxitem"
+	}]
+}

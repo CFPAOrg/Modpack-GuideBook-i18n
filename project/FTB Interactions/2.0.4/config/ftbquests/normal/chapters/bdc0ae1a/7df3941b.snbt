@@ -1,0 +1,15 @@
+{
+	title: "征服你自己！——Navi ",
+	x: 7.5d,
+	y: 4.5d,
+	dependencies: [
+		"461c6e32"
+	],
+	tasks: [{
+		uid: "bf25e2ea",
+		type: "kill",
+		icon: "botania:gaiahead",
+		entity: "botania:doppleganger",
+		value: 1L
+	}]
+}

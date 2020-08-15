@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: -17.5d,
+	text: [
+		"你总不想让你的鸡全都到处乱跑，把它们的产物拉得到处都是。 用鸡捕手狠狠揍它们一顿，将它们变成物品形式，接着你可以将物品鸡放进鸡笼里，以便更好地控制鸡的饲养与生产。"
+	],
+	tasks: [{
+		uid: "cc97a74a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roost:catcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "77f5b3ed",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:chicken"
+				}
+			}
+		}
+	}]
+}

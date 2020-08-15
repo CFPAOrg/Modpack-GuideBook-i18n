@@ -1,0 +1,32 @@
+{
+	title: "Radon Man!",
+	x: -3.5d,
+	y: -7.0d,
+	text: [
+		"获取氡会是一个耗费时间的痛苦过程，而制造钚则是件很麻烦的事。一旦你获得了一点点钚，你可以考虑制作一个氡鸡。它的产物将帮助你更快地生产出氡。"
+	],
+	dependencies: [
+		"bad8af80",
+		"d03a9479"
+	],
+	tasks: [{
+		uid: "f9e6c3ec",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:radonchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "e70ff7c3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:radon_enriched_egg"
+		}]
+	}]
+}

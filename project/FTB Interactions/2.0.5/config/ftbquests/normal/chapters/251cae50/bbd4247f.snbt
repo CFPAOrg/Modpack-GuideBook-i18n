@@ -1,0 +1,15 @@
+{
+	title: "LuV时代",
+	icon: "gregtech:machine 1 506",
+	x: -9.0d,
+	y: 1.0d,
+	description: "此行的项目在大多数LuV配方中使用。",
+	dependencies: [
+		"2039d485",
+		"326abe93"
+	],
+	tasks: [{
+		uid: "9e484b9f",
+		type: "checkmark"
+	}]
+}

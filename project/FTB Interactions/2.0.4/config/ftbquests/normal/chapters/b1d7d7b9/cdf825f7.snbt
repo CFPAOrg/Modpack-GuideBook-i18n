@@ -1,0 +1,20 @@
+{
+	title: "家庭化学套装",
+	x: -2.5d,
+	y: -1.0d,
+	text: [
+		"基础化学反应釜将在你的LV工作间里服役很久，你将会需要所有等级的化学反应釜，所以做好计划。"
+	],
+	tasks: [{
+		uid: "d3dfbe28",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 190"
+		}]
+	}],
+	rewards: [{
+		uid: "b617dbee",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32766"
+	}]
+}

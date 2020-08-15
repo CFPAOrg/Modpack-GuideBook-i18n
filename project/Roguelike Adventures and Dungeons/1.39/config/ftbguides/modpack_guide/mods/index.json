@@ -1,0 +1,27 @@
+[
+ {
+  "id": "betweenlands",
+  "title": "交错次元(The Betweenlands)",
+  "icon": "item:thebetweenlands:swamp_talisman"
+ },
+ {
+  "id": "livingench",
+  "title": "生命附魔(Living Enchantment)",
+  "icon": "item:minecraft:enchanted_book"
+ },
+ {
+  "id": "doors",
+  "title": "次元门(Dimensional doors)",
+  "icon": "item:dimdoors:oak_dimensional_door"
+ },
+ {
+  "id": "cavern",
+  "title": "洞穴世界(Cavern dimension)",
+  "icon": "item:cavern:cavern_portal"
+ },
+ {
+  "id": "tents",
+  "title": "游牧帐篷(Nomadic tents)",
+  "icon": "item:yurtmod:tent"
+ }
+]

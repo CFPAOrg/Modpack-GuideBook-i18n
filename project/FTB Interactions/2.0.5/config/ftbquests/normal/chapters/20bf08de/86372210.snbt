@@ -1,0 +1,37 @@
+{
+	x: -6.0d,
+	y: -10.5d,
+	text: [
+		"用这个右键激活你的符文祭坛/注魔祭坛。",
+		"也可以用来施法。"
+	],
+	dependencies: [
+		"43e61bff"
+	],
+	tasks: [{
+		uid: "31236302",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2724f39c",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "auram"
+				}]
+			}
+		},
+		count: 5
+	}]
+}

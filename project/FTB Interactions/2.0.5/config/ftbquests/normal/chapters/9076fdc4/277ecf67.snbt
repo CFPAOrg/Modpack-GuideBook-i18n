@@ -1,0 +1,45 @@
+{
+	icon: "gtadditions:ga_meta_item 1 32018",
+	x: 0.0d,
+	y: -8.0d,
+	description: "靠生灵的意志驱动的机器？应该找些人来拍成电影。",
+	tasks: [{
+		uid: "1c208e62",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32015"
+		}]
+	}],
+	rewards: [{
+		uid: "6940260b",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gtadditions:ga_meta_item",
+					Count: 1,
+					Damage: 32018
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Living Circuitry",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "8b3ed316",
+		type: "item",
+		team_reward: true,
+		item: "cyberware:heart_upgrades 1 2"
+	},
+	{
+		uid: "941962d9",
+		type: "item",
+		item: "waterstrainer:worm",
+		count: 64
+	}]
+}

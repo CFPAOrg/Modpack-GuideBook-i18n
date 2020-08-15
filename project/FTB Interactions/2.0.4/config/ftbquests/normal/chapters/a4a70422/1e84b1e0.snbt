@@ -1,0 +1,26 @@
+{
+	x: -7.0d,
+	y: 4.0d,
+	description: "存储63种液体，用3个可以换4倍的容量。",
+	dependencies: [
+		"44a10c88"
+	],
+	tasks: [{
+		uid: "58214d12",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 56"
+		}]
+	}],
+	rewards: [{
+		uid: "0e386275",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:fluid_storage_cell_16k",
+			tag: {}
+		}
+	}]
+}

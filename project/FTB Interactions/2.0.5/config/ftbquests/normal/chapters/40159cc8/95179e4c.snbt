@@ -1,0 +1,16 @@
+{
+	title: "埃克森 Wifi",
+	x: 2.0d,
+	y: -18.5d,
+	description: "你难道认为我们会让你用塑料管来把这些危险的燃料注入到火箭里吗？",
+	dependencies: [
+		"3d592508"
+	],
+	tasks: [{
+		uid: "07a65bd5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fuelingstation"
+		}]
+	}]
+}

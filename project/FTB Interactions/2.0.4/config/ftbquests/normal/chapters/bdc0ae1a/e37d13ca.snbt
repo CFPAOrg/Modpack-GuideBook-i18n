@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: 4.5d,
+	shape: "square",
+	dependencies: [
+		"fda10774",
+		"2f81abca"
+	],
+	tasks: [{
+		uid: "71c1797c",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}],
+		ignore_nbt: 1b
+	}]
+}

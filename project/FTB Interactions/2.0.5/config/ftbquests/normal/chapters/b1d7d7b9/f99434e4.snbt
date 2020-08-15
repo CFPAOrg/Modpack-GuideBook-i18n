@@ -1,0 +1,27 @@
+{
+	title: "鸡尾酒机",
+	x: -6.5d,
+	y: -3.0d,
+	text: [
+		"你需要一个基础搅拌机来浓缩和提炼你的油，让它们更上一层楼。"
+	],
+	tasks: [{
+		uid: "b837bdae",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 370"
+		},
+		{
+			item: "gregtech:machine 1 371"
+		},
+		{
+			item: "gregtech:machine 1 372"
+		}]
+	}],
+	rewards: [{
+		uid: "d93f3e7c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32600",
+		count: 4
+	}]
+}

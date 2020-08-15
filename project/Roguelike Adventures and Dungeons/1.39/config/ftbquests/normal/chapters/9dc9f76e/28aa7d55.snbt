@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 1.0d,
+	dependencies: [
+		"5173f31f"
+	],
+	tasks: [{
+		uid: "6e6f3abb",
+		type: "item",
+		items: [{
+			item: "rustic:ironberries"
+		}]
+	}],
+	rewards: [{
+		uid: "a9643733",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

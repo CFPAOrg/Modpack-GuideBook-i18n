@@ -5,7 +5,7 @@ setIcon(<soulshardsrespawn:soul_cage>)
 setTitle("灵魂碎片")
 
 //Set description String
-setDescription("获得灵魂笼子和一个未绑定的灵魂碎片。")
+setDescription("获得灵魂笼子和一个未绑定的灵魂碎片")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("challenges:challenges/root")

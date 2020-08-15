@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"在地表下面很深的地方，埋藏着很久很久以前矿化的星能水晶。这些水晶石具有独特的性质，能够聚焦和控制星光。 要找到它们，就把共鸣之杖放在你的手上或副手上四处逛逛吧。",
+		"等到夜晚的时候看看周围的地面。你会看到微弱的闪光指示着你应该从哪里挖下去寻找矿石。在基岩附近，你也可以看到深处有着类似的闪光。强烈推荐使用时运工具来挖掘。"
+	],
+	dependencies: [
+		"de2a21ac"
+	],
+	tasks: [{
+		uid: "267386ed",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore"
+		}]
+	}],
+	rewards: [{
+		uid: "16818b1a",
+		type: "item",
+		item: "minecraft:dye 1 4",
+		count: 8
+	},
+	{
+		uid: "e95a22e7",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

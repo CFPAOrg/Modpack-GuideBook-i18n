@@ -1,0 +1,44 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"bebd8eb6"
+	],
+	tasks: [{
+		uid: "81f00672",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4947cad7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e7abfb1e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "332d366f",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "ecb6a1f1",
+		type: "item",
+		item: "thebetweenlands:loot_pot 1 8"
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "在黑暗中寻找出路",
+	x: -3.0d,
+	y: 1.5d,
+	description: "六分仪能让你更容易的找到神殿。",
+	text: [
+		"六分仪也可以给你展示星辉多方块结构的预览。你只需要右键关键方块就能显示（例如：效应放大器，星能聚合器，等等）"
+	],
+	dependencies: [
+		"b1dded11"
+	],
+	tasks: [{
+		uid: "f35be7c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemsextant",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7f1231e",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent"
+	},
+	{
+		uid: "46b86a4e",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "astralsorcery.liquidstarlight",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		},
+		count: 2
+	}]
+}

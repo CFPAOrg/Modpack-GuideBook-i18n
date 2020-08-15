@@ -1,0 +1,37 @@
+{
+	x: 9.0d,
+	y: -1.0d,
+	dependencies: [
+		"47814f82"
+	],
+	tasks: [{
+		uid: "b7a15ee9",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba59e1dd",
+		type: "item",
+		item: "iceandfire:pixie_house 1 1"
+	},
+	{
+		uid: "86ce6df1",
+		type: "item",
+		item: "iceandfire:pixie_dust"
+	},
+	{
+		uid: "ec3e1245",
+		type: "item",
+		item: "iceandfire:troll_leather_forest",
+		count: 16
+	},
+	{
+		uid: "959a4670",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

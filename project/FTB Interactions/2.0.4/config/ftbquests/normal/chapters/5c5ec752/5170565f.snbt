@@ -1,0 +1,31 @@
+{
+	title: "一个多方块熔炉！",
+	x: -1.0d,
+	y: -5.0d,
+	description: "普通的熔炉已经被禁用了，但你可以使用更高级的焦黑熔炉。它将为你的早期游戏提供快速、批量和高效的熔炼功能。 无论是原料还是产物，每格最多堆叠16个。",
+	dependencies: [
+		"95d931f2"
+	],
+	tasks: [{
+		uid: "be49ce9b",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_furnace_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "73e46e3f",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		},
+		count: 4
+	}]
+}

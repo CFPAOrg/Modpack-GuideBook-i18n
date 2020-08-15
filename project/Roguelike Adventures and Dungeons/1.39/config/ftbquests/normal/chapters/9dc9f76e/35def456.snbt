@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "4896abf0",
+		type: "dimension",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "81fd1e5c",
+		type: "choice",
+		table: 7
+	}]
+}

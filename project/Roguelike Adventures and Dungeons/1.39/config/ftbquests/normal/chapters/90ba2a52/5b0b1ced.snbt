@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	shape: "octagon",
+	can_repeat: true,
+	tasks: [{
+		uid: "ffb3bd2c",
+		type: "kill",
+		entity: "minecraft:cave_spider",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "5dabb87c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "恒星威能",
+	icon: "lcrdrfs:creeper_plasma",
+	x: -7.0d,
+	y: -12.0d,
+	description: "恒星不经意间放了个屁，数百个文明便摆脱了能源危机。",
+	tasks: [{
+		uid: "2b18e8ff",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 520"
+		}]
+	}],
+	rewards: [{
+		uid: "b7970628",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 255,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "lcrdrfs:creeper_plasma",
+					Count: 1,
+					Damage: 0
+				},
+				TrophyColorBlue: 255,
+				TrophyName: "恒星威能",
+				TrophyColorRed: 255
+			}
+		}
+	}]
+}

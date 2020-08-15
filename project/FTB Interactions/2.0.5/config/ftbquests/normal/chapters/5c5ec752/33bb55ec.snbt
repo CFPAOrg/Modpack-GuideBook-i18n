@@ -1,0 +1,39 @@
+{
+	title: "别累到自己！",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				PrimaryMaterial: "darmstadtium"
+			}
+		},
+		Damage: 8s
+	},
+	x: -7.0d,
+	y: 1.0d,
+	shape: "gear",
+	description: "你知道吗，你可以使用GTCE的扳手右击一个蒸汽机器的一侧来改变蒸汽的喷口（默认是在机器的后面）",
+	text: [
+		"如果蒸汽机器上的排气口被堵住了，它就将停止运行。 幸运的是，一旦你进入了LV时代，这就将不再是一个问题，但是现在你要牢记这一点。"
+	],
+	dependencies: [
+		"5e4d5b44"
+	],
+	tasks: [{
+		uid: "742b3803",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "08945e49",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "extrautils2:xu2.greek.fire"
+			}
+		}
+	}]
+}

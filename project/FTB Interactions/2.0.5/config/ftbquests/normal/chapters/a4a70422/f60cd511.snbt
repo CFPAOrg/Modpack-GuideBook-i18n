@@ -1,0 +1,19 @@
+{
+	x: -21.0d,
+	y: -1.0d,
+	text: [
+		"使装置变得漂亮又整洁，你看不到的就是你得到的。"
+	],
+	tasks: [{
+		uid: "6f07f5eb",
+		type: "item",
+		items: [{
+			item: "extrautils2:flattransfernode 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7f348fc9",
+		type: "item",
+		item: "extrautils2:trashcanfluid"
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: -6.0d,
+	y: -7.0d,
+	shape: "diamond",
+	text: [
+		"稳定是关键，如果你的祭坛开始变得不稳定，可以在周围放一些蜡烛和怪物头颅。",
+		"记住，对称是关键，任何东西都记得要对称摆放。",
+		"不稳定可能导致：",
+		"- 丢失物品",
+		"- 招致腐毒",
+		"- 遭雷劈"
+	],
+	dependencies: [
+		"86372210"
+	],
+	tasks: [{
+		uid: "cf0ac783",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}],
+	rewards: [{
+		uid: "c211a68f",
+		type: "item",
+		item: "xreliquary:interdiction_torch"
+	},
+	{
+		uid: "a17e3c5e",
+		type: "item",
+		item: "thaumcraft:triple_meat_treat",
+		count: 8
+	}]
+}

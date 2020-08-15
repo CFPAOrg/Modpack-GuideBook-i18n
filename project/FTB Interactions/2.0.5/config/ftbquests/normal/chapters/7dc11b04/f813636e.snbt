@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: 3.5d,
+	description: "你需要陨石去搭建你的4阶祭坛",
+	dependencies: [
+		"aa1a6d27"
+	],
+	tasks: [{
+		uid: "4fb256a9",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:smooth_sky_stone_block"
+		}]
+	}]
+}

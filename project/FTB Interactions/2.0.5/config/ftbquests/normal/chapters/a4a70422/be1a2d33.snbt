@@ -1,0 +1,22 @@
+{
+	title: "物品导管",
+	x: -16.0d,
+	y: 5.0d,
+	text: [
+		"物品导管能和所有末影接口管道共用一格，可以用导管框架伪装。它们能传输物品，也可以升级速度，设定频道，添加过滤。功能全面的优秀管道。"
+	],
+	dependencies: [
+		"dcabc080"
+	],
+	tasks: [{
+		uid: "a00268be",
+		type: "checkmark",
+		icon: "enderio:item_item_conduit"
+	}],
+	rewards: [{
+		uid: "1a362e45",
+		type: "item",
+		item: "enderio:item_extract_speed_upgrade",
+		count: 15
+	}]
+}

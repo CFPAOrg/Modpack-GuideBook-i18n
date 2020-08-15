@@ -1,0 +1,11 @@
+{
+	title: "自动化炫珠母液 - 早期方案示例",
+	icon: "wizardry:nacre_block",
+	x: -4.0d,
+	y: -2.0d,
+	shape: "gear",
+	custom_click: "https://www.youtube.com/watch?v=mdd0L0t9ZbA",
+	dependencies: [
+		"8daf4c09"
+	]
+}

@@ -1,0 +1,34 @@
+{
+	title: "恭喜你自动化了蒸汽的生产！",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "steam",
+			Amount: 1000
+		}
+	},
+	x: -6.0d,
+	y: -5.0d,
+	shape: "diamond",
+	dependencies: [
+		"ad67ba55",
+		"0e39506b",
+		"b6d28c29",
+		"634fbd39",
+		"b468cef6",
+		"210a1f85"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d0932d6e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "1e606993",
+		type: "item",
+		item: "minecraft:cake"
+	}]
+}

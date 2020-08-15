@@ -1,0 +1,18 @@
+{
+	x: 13.0d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "ce2d53b9",
+		type: "item",
+		items: [{
+			item: "ordinarycoins:coingold"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b17d76ab",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 4.5d,
+	y: 3.0d,
+	description: "你需要通过筛选器或者在地牢里拿到宝石精炼器蓝图来获得无暇钻石。 ",
+	dependencies: [
+		"1b10cc2d"
+	],
+	tasks: [{
+		uid: "cd8cc18d",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}]
+	}]
+}

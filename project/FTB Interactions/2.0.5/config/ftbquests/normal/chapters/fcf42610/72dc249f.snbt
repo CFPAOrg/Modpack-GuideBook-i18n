@@ -1,0 +1,36 @@
+{
+	title: "电弧能量",
+	x: -4.5d,
+	y: -2.5d,
+	text: [
+		"用电弧炉和氧气能非常简单快速地自动生产退火铜和锻铁这类材料。它有很多用处，值得早早投资。",
+		"当你能够快速生产锻铁之后，你可以用电力高炉冶炼锻铁，进一步自动化钢锭的生产。这是种快速的没有咒波污染的方式。"
+	],
+	tasks: [{
+		uid: "ff9f1068",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 90"
+		},
+		{
+			item: "gregtech:machine 1 91"
+		},
+		{
+			item: "gregtech:machine 1 92"
+		}]
+	}],
+	rewards: [{
+		uid: "062c32ee",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oxygen",
+					Amount: 64000
+				}
+			},
+			Damage: 32405s
+		}
+	}]
+}

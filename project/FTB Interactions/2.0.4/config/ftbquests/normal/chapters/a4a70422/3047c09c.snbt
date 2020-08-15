@@ -1,0 +1,20 @@
+{
+	title: "一闪一闪亮晶晶，繁星帮我来合成",
+	x: -6.5d,
+	y: 0.0d,
+	text: [
+		"要开始使用应用能源的自动合成，你需要用轨道激光钻来采集陨石， 然后用月球Luna上的材料制作的恒星合金，最后用杀死凋灵获得的下界之星来制作下界之星板。"
+	],
+	tasks: [{
+		uid: "4b7671cb",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}],
+	rewards: [{
+		uid: "d116083e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12331"
+	}]
+}

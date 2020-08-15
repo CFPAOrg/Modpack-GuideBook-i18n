@@ -1,0 +1,112 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "514d1b50",
+		type: "item",
+		items: [{
+			id: "spartanfire:katana_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "55e83f87",
+		type: "item",
+		items: [{
+			id: "spartanfire:greatsword_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: -1972579359459358968L,
+						UUIDLeast: -5243524900084703752L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 6011302987094182093L,
+						UUIDLeast: -6499413021692146943L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7288732134098685515L,
+						UUIDLeast: -8145927597678033108L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5786444780533759838L,
+						UUIDLeast: -6387756857092689793L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.worthless.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ba4dfa09",
+		type: "item",
+		items: [{
+			id: "spartanfire:longsword_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1b81f0ee",
+		type: "item",
+		items: [{
+			id: "spartanfire:saber_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "52cf680f",
+		type: "item",
+		items: [{
+			id: "spartanfire:rapier_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b1b9caa2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ebd072d3",
+		type: "xp_levels",
+		xp_levels: 20
+	}]
+}

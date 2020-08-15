@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: -11.0d,
+	text: [
+		"这是一些较高端合金的主要成分，可以在富含它的Aurellia行星中找到。"
+	],
+	dependencies: [
+		"97e0a29a"
+	],
+	tasks: [{
+		uid: "f8310970",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_molybdenite_0"
+		}]
+	}],
+	rewards: [{
+		uid: "d4e4db0b",
+		type: "item",
+		item: "gregtech:wire_coil 1 4",
+		count: 8
+	}]
+}

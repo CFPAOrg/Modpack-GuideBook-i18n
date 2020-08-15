@@ -1,0 +1,21 @@
+{
+	title: "绝命毒师",
+	x: -4.5d,
+	y: -3.0d,
+	shape: "square",
+	dependencies: [
+		"829ccb26"
+	],
+	tasks: [{
+		uid: "f01aedee",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 192"
+		}]
+	}],
+	rewards: [{
+		uid: "537d6353",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32491"
+	}]
+}

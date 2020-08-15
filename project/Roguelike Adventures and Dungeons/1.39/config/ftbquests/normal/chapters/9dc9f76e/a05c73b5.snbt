@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: -4.0d,
+	dependencies: [
+		"51eaf79d"
+	],
+	tasks: [{
+		uid: "131f5fd2",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "6623ef1c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

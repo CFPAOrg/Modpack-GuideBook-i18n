@@ -1,0 +1,27 @@
+{
+	x: 1.5d,
+	y: 0.5d,
+	shape: "diamond",
+	dependencies: [
+		"a1c5f008",
+		"6b69f34f"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "523c0b56",
+		type: "item",
+		title: "钨粉",
+		items: [{
+			item: "gregtech:meta_item_1 1 2191"
+		},
+		{
+			item: "gregtech:meta_item_1 1 2074"
+		}]
+	}],
+	rewards: [{
+		uid: "1ee0222f",
+		type: "item",
+		item: "bloodmagic:item_demon_crystal",
+		count: 64
+	}]
+}

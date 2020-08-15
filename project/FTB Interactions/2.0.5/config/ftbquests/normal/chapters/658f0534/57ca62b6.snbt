@@ -1,0 +1,25 @@
+{
+	title: "八倍的英文是octuple，十六倍的是...",
+	x: -16.0d,
+	y: -1.5d,
+	description: "炽热的等离子电弧炉对你很有用，相信我",
+	text: [
+		"在等离子电弧炉中，烈焰之炽焱能进一步把血碎片处理成更纯净的晶体。"
+	],
+	dependencies: [
+		"2e40345e"
+	],
+	tasks: [{
+		uid: "981ccf7d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iron_ore_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "c337a3f0",
+		type: "item",
+		item: "rusticthaumaturgy:cindermote_seeds",
+		count: 4
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	title: "天行者",
+	x: -4.0d,
+	y: 7.0d,
+	description: "掌握着共鸣祭坛力量的你可以将星体的力量转化成自身的能力。于星座可见之时，持星座之图，即可建星座共鸣之坛。",
+	dependencies: [
+		"1d37b267"
+	],
+	tasks: [{
+		uid: "6ce489cd",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}],
+	rewards: [{
+		uid: "d4773612",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.evorsio"
+				}
+			}
+		}
+	},
+	{
+		uid: "0127b69f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia"
+				}
+			}
+		}
+	},
+	{
+		uid: "86cbce51",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:luxsaber"
+		}
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "组装机：无限战争",
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"a096da71"
+	],
+	tasks: [{
+		uid: "14fc8ba2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 102"
+		}]
+	}],
+	rewards: [{
+		uid: "edb9ceef",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32441",
+		count: 32
+	}]
+}

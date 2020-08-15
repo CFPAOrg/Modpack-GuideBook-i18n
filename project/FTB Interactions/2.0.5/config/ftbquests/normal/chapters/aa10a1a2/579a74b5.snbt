@@ -1,0 +1,37 @@
+{
+	title: "快好了！",
+	x: -10.5d,
+	y: 0.0d,
+	text: [
+		"将石油与这些晶化种子混合在一起，可以得到一种近似液体的东西，可以燃烧来发电。"
+	],
+	dependencies: [
+		"9063ed56"
+	],
+	tasks: [{
+		uid: "a3454e79",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "crystaloil",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "65ff88b5",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32766"
+	},
+	{
+		uid: "3f9403f4",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 8
+	}]
+}

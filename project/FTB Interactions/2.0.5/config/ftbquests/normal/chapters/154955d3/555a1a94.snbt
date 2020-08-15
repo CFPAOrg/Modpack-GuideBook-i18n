@@ -1,0 +1,23 @@
+{
+	title: "狗爱吃骨头",
+	x: -4.0d,
+	y: 5.0d,
+	text: [
+		"要为微缩冶炼炉制造瓷土，你需要一些骨粉。你可以从滤水器里获得骨头。 "
+	],
+	dependencies: [
+		"29f7cca1"
+	],
+	tasks: [{
+		uid: "11be61eb",
+		type: "item",
+		items: [{
+			item: "minecraft:bone"
+		}]
+	}],
+	rewards: [{
+		uid: "5bbedb82",
+		type: "item",
+		item: "harvestcraft:baconmushroomburgeritem"
+	}]
+}

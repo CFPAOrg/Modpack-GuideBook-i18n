@@ -6,7 +6,7 @@ setIcon(<twilightforest:miniature_structure>)
 setTitle("Run, Forrest, Run!")
 
 //Set description String
-setDescription("使用1个记忆进入“暮色森林”维度")
+setDescription("使用1个记忆方块进入“暮色森林”维度")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("challenges:challenges/root")

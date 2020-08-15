@@ -1,0 +1,30 @@
+{
+	title: "魔力泄漏",
+	x: -4.0d,
+	y: -12.0d,
+	description: "你可以在主世界中找到天然生成的魔力池。",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "76d4d453",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "mana_fluid",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9720b99a",
+		type: "item",
+		item: "botania:blacklotus"
+	}]
+}

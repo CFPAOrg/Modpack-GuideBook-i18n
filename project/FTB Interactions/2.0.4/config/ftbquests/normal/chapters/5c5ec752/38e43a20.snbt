@@ -1,0 +1,31 @@
+{
+	title: "锅炉爆炸",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -7.0d,
+	y: -3.0d,
+	shape: "gear",
+	description: "不要让你的锅炉干烧！将水放进干的、热的锅炉会导致爆炸。",
+	dependencies: [
+		"049d4774"
+	],
+	tasks: [{
+		uid: "53f915dd",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6aeb6362",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cookingforblockheads:ice_unit"
+		}
+	}]
+}

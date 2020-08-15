@@ -1,0 +1,42 @@
+{
+	title: "混沌蕴魔矿和石英矿脉",
+	x: -7.0d,
+	y: -7.0d,
+	description: "在魔法森林里和石英生成在同样的矿脉中",
+	dependencies: [
+		"332f52b2"
+	],
+	tasks: [{
+		uid: "89a4640e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_entropy_infused_0"
+		}]
+	},
+	{
+		uid: "f763a013",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_quartzite_0"
+		}]
+	},
+	{
+		uid: "93556799",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_certus_quartz_0"
+		}]
+	}],
+	rewards: [{
+		uid: "7e647ca9",
+		type: "item",
+		item: "gregtech:meta_item_1 1 8203",
+		count: 2
+	},
+	{
+		uid: "43d9bf82",
+		type: "item",
+		item: "gregtech:meta_item_1 1 8202",
+		count: 2
+	}]
+}

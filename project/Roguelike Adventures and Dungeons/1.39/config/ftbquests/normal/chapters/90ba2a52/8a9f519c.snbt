@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "0ca4e427",
+		type: "item",
+		items: [{
+			item: "harvestcraft:paradiseburgeritem"
+		}]
+	}],
+	rewards: [{
+		uid: "72aed0c9",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

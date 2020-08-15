@@ -1,0 +1,20 @@
+{
+	x: 15.0d,
+	y: 2.0d,
+	dependencies: [
+		"6022abbd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8dfe9532",
+		type: "item",
+		items: [{
+			item: "atum:loot_emerald_scepter"
+		}]
+	}],
+	rewards: [{
+		uid: "820f1ecf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

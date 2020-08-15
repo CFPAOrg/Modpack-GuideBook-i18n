@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	description: "虽然仍然是手动的，但这是一个快捷的制作木板的方法，可以充分的利用木材。",
+	dependencies: [
+		"1d6fe213"
+	],
+	tasks: [{
+		uid: "e308f688",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "microblockcbe:saw_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

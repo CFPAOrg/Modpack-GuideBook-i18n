@@ -1,0 +1,28 @@
+{
+	title: "天空不为极限！",
+	x: -8.0d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"你挣脱了束缚，获得了自由，视野变得广阔而通透，你可以把收集水晶放在压缩机械上方，将星能引下，用其驱动星辉的造物。 "
+	],
+	dependencies: [
+		"160488c2"
+	],
+	tasks: [{
+		uid: "a01e7cc0",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
+	}],
+	rewards: [{
+		uid: "fc75162b",
+		type: "item",
+		item: "botania:starfield"
+	}]
+}

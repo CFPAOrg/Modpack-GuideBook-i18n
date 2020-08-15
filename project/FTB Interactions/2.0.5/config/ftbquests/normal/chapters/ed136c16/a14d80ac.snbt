@@ -1,0 +1,33 @@
+{
+	title: "你有《时间简史》吗？",
+	x: -9.0d,
+	y: -4.5d,
+	text: [
+		"当时间之瓶带在物品栏后，你的游玩时间将会储存在其中。一旦你有一些储存的时间可用，只需要右击一个方块即可让其更快工作。 ",
+		"警告：如果你在产能机器上使用这个的话，会使电缆过载并将其烧毁。 ",
+		"加速蒸汽锅炉或或其他生产蒸汽的机器应该能顺利工作"
+	],
+	dependencies: [
+		"a916453b"
+	],
+	tasks: [{
+		uid: "835266a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f5104c13",
+		type: "item",
+		item: "randomthings:beans 1 2"
+	}]
+}

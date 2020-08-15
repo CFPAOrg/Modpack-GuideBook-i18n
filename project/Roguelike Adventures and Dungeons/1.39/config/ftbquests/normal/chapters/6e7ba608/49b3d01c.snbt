@@ -1,0 +1,26 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	dependencies: [
+		"8f202c89",
+		"5d6a9dc5"
+	],
+	tasks: [{
+		uid: "55f22ec3",
+		type: "item",
+		items: [{
+			id: "tropicraft:yellow_scuba_tank",
+			tag: {
+				airType: "regular",
+				pressure: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e0eadcd2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

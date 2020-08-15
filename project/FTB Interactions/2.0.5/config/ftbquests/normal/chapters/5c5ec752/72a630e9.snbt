@@ -1,0 +1,15 @@
+{
+	title: "指青铜和黄铜",
+	x: -2.5d,
+	y: -3.0d,
+	dependencies: [
+		"7b7b6eb6"
+	],
+	tasks: [{
+		uid: "8460f730",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12095"
+		}]
+	}]
+}

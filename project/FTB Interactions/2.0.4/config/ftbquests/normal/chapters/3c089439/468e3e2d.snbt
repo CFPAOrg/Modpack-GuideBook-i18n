@@ -1,0 +1,47 @@
+{
+	title: "开始制作铟吧！",
+	x: 1.0d,
+	y: -1.5d,
+	text: [
+		"高阶电路的生产需要一种叫做铟的稀有材料。制造这种金属，你需要将纯净闪锌矿、方铅矿和硫酸混合为铟富集溶液。 "
+	],
+	dependencies: [
+		"a73d5e3d"
+	],
+	tasks: [{
+		uid: "766be986",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 6114"
+		}]
+	},
+	{
+		uid: "5c0c70af",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 6182"
+		}]
+	},
+	{
+		uid: "63483480",
+		type: "checkmark",
+		title: "硫酸"
+	}],
+	rewards: [{
+		uid: "53df31b3",
+		type: "item",
+		item: "gregtech:meta_item_1 1 6182",
+		count: 16
+	},
+	{
+		uid: "b3697032",
+		type: "item",
+		item: "gregtech:meta_item_1 1 6114",
+		count: 16
+	},
+	{
+		uid: "5a367269",
+		type: "item",
+		item: "harvestcraft:pumpkinspicelatteitem"
+	}]
+}

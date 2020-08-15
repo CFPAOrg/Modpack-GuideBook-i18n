@@ -1,0 +1,39 @@
+{
+	title: "不可口的可乐",
+	x: 1.5d,
+	y: -1.0d,
+	description: "你的第一个多方块结构，给你提供两种重要的资源，杂酚油和木炭。",
+	dependencies: [
+		"893f1a30"
+	],
+	tasks: [{
+		uid: "80ae2406",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 527"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4a9bad59",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 526"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1b7725a1",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 8"
+		}],
+		count: 24L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5e182ad9",
+		type: "item",
+		item: "gregtech:compressed_15 1 4"
+	}]
+}

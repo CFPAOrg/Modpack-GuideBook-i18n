@@ -1,0 +1,30 @@
+{
+	title: "鲁滨逊的危机！",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: 1.0d,
+	y: -15.0d,
+	description: "当你到达太空后，你将解锁一个新的mob staging，其中一些生物会无视亮度生成。非常建议你使用和平蜡烛或圣芒座效应来保护你的基地。",
+	dependencies: [
+		"323ae2d3"
+	],
+	tasks: [{
+		uid: "5cb9b009",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "03d31529",
+		type: "item",
+		item: "bloodmagic:component 1 16"
+	},
+	{
+		uid: "95577dc3",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

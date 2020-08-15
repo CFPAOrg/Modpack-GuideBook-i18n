@@ -1,0 +1,25 @@
+{
+	title: "“放松点，给他一点空间”-第3维度",
+	x: -1.0d,
+	y: 3.0d,
+	description: "这矿物在下界中以单个方块生成。",
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "6b2b8135",
+		type: "item",
+		items: [{
+			item: "rftools:dimensional_shard_ore 1 1"
+		},
+		{
+			item: "rftools:dimensional_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "5e9744c4",
+		type: "item",
+		item: "rftools:dimensional_shard",
+		count: 4
+	}]
+}

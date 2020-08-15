@@ -1,0 +1,37 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	description: "检查tooltip和JEI。你会想要这些球的。",
+	text: [
+		"认真的，请使用这些东西，他们会在早期游戏中节省你非常多的时间。种上一些小麦之类的植物，等到它们接近成熟的时候——85%成熟就非常好，可以用植物球瞬间将它们复制多次。比骨粉要好™！",
+		""
+	],
+	dependencies: [
+		"8ffc4093"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "0dd741ea",
+		type: "item",
+		items: [{
+			item: "plants2:plantball"
+		}]
+	}],
+	rewards: [{
+		uid: "078604f9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "plants2:dark_crystal_hoe"
+		}
+	},
+	{
+		uid: "8dfd6a1e",
+		type: "item",
+		item: "actuallyadditions:item_worm",
+		count: 3
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 3.0714285714285694d,
+	y: 0.4166666666666643d,
+	shape: "diamond",
+	dependencies: [
+		"b9a6f02c",
+		"a99f90c8"
+	],
+	tasks: [{
+		uid: "2f519318",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "安全的空间",
+	icon: "projecte:transmutation_table",
+	description: [
+		"欢迎来到 Interactions！从这一条任务线开始。",
+		"",
+		"只有在这一章，你的任务线是基本线性的。在进入主世界之后，你的任务将分散在多个分支之间。祝你好运！"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

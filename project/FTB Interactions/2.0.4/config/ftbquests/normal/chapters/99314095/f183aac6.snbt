@@ -1,0 +1,25 @@
+{
+	title: "不，我是认真的，查看化学章节。",
+	x: -1.0d,
+	y: 2.0d,
+	dependencies: [
+		"2db695fd"
+	],
+	tasks: [{
+		uid: "35024f07",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 191"
+		}]
+	}],
+	rewards: [{
+		uid: "fbb3b5b5",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32766"
+	},
+	{
+		uid: "b2dcc016",
+		type: "item",
+		item: "harvestcraft:homestylelunchitem"
+	}]
+}

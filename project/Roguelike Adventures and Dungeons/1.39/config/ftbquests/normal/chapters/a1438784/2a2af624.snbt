@@ -1,0 +1,20 @@
+{
+	x: 12.0d,
+	y: 2.0d,
+	dependencies: [
+		"fe4f9c01"
+	],
+	hide: true,
+	tasks: [{
+		uid: "efbf49ff",
+		type: "item",
+		items: [{
+			item: "atum:loot_emerald_idol"
+		}]
+	}],
+	rewards: [{
+		uid: "3bb90967",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

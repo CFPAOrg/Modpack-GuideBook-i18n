@@ -1,0 +1,34 @@
+{
+	title: "装配线：终局之战",
+	x: 0.0d,
+	y: 6.0d,
+	text: [
+		"装配线是一个大的任意长度重复的多方块结构，包括底部的ULV物品输入总线，以及外壳、输入仓和能源仓（见JEI多方块结构预览）。 ",
+		"",
+		"装配机可以被极大幅度超频，只要你增加更多更高等级的能源仓，它代表了自动化的顶点，用来实现最终的游戏目标。"
+	],
+	dependencies: [
+		"627ad98a"
+	],
+	tasks: [{
+		uid: "46fe7d17",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2502"
+		}]
+	}],
+	rewards: [{
+		uid: "0a0635e3",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:frame_tungsten_steel",
+		count: 16
+	},
+	{
+		uid: "5418951e",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_2 1 32442",
+		count: 8
+	}]
+}

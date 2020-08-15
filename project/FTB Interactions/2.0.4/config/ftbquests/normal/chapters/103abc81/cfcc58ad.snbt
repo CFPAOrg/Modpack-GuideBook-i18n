@@ -1,0 +1,63 @@
+{
+	title: "呜~ 呜~ 蒸汽轰鸣",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 49,
+			TrophyVariant: "classic",
+			TrophyItem: {
+				id: "gregtech:machine",
+				Count: 1,
+				Damage: 1
+			},
+			TrophyColorBlue: 146,
+			TrophyName: "Steam Age",
+			TrophyColorRed: 37,
+			TrophyEarnedAt: 1553222291
+		}
+	},
+	x: 1.5d,
+	y: 2.0d,
+	description: "终于可以摆脱用锤子敲金属板命运了",
+	text: [
+		"从手工操作到辉煌的蒸汽革命会需要一些原始机器。虽然不是特别完美，但这是一个开端！",
+		"这个世界上的金属需要黄铜中的锌来稳定，而黄铜却极其稀有，你最好的选择是用神秘时代的炼金术来开始制取黄铜。"
+	],
+	dependencies: [
+		"7ddda4a3"
+	],
+	tasks: [{
+		uid: "5e4d5b44",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2df7e638",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 1
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Steam Age",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "a9377b61",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_1 1 12095",
+		count: 16
+	}]
+}

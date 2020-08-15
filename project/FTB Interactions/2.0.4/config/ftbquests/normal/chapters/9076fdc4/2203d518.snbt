@@ -1,0 +1,24 @@
+{
+	x: -7.0d,
+	y: -5.0d,
+	description: "说了这么多，这些GP发电机还是没发过一RF的电。",
+	tasks: [{
+		uid: "3588b32f",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "7df11985",
+		type: "item",
+		team_reward: true,
+		item: "extrautils2:passivegenerator 1 8"
+	},
+	{
+		uid: "115e3ec5",
+		type: "item",
+		item: "extrautils2:ingredients 1 17",
+		count: 8
+	}]
+}

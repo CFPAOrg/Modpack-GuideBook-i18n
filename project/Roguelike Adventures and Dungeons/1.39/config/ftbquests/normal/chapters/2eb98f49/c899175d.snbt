@@ -1,0 +1,20 @@
+{
+	x: 9.0d,
+	y: -1.0d,
+	dependencies: [
+		"c2008332",
+		"626947b6"
+	],
+	tasks: [{
+		uid: "fb7fae56",
+		type: "item",
+		items: [{
+			item: "embers:block_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "3c3980af",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

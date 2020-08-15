@@ -1,0 +1,28 @@
+{
+	title: "下界辉锑和和黝铜矿脉",
+	x: -1.0d,
+	y: 6.0d,
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "168f6145",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_stibnite_0 1 6"
+		}]
+	},
+	{
+		uid: "e8733b00",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tetrahedrite_0 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "c1052ab3",
+		type: "item",
+		item: "minecraft:glowstone_dust",
+		count: 16
+	}]
+}

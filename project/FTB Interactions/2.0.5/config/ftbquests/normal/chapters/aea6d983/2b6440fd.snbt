@@ -1,0 +1,33 @@
+{
+	x: 1.0d,
+	y: -15.5d,
+	text: [
+		"你把这个放下来，它就从鸡舍中收集掉落物，是个不错的便捷自动化。"
+	],
+	dependencies: [
+		"0b123dfe"
+	],
+	tasks: [{
+		uid: "f8e9031a",
+		type: "item",
+		items: [{
+			item: "roost:collector"
+		}]
+	}],
+	rewards: [{
+		uid: "d762f5b2",
+		type: "item",
+		item: "industrialforegoing:conveyor_upgrade 1 1"
+	},
+	{
+		uid: "f950a1c3",
+		type: "item",
+		item: "industrialforegoing:conveyor_upgrade"
+	},
+	{
+		uid: "26cb953d",
+		type: "item",
+		item: "industrialforegoing:conveyor",
+		count: 8
+	}]
+}

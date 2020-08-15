@@ -1,0 +1,25 @@
+{
+	x: -20.0d,
+	y: -4.5d,
+	description: "这个强大的物品收集器可以在地牢箱子中找到或者用略微昂贵的配方合成。 ",
+	dependencies: [
+		"a058147f"
+	],
+	tasks: [{
+		uid: "4e86168c",
+		type: "item",
+		items: [{
+			item: "randomthings:itemcollector"
+		}]
+	}],
+	rewards: [{
+		uid: "2934b9d1",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "extrautils2:xu2.gravity.long"
+			}
+		}
+	}]
+}

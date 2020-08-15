@@ -1,0 +1,31 @@
+{
+	title: "基础飞行",
+	x: 0.0d,
+	y: -19.0d,
+	description: "为了发射火箭，你需要一个合适的发射台来建造和扫描你的空间站与火箭，并发射。 发射台应该是一个正方形，结构塔应该建造在侧面。",
+	dependencies: [
+		"425146df"
+	],
+	tasks: [{
+		uid: "34591d9a",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:launchpad"
+		}],
+		count: 25L
+	},
+	{
+		uid: "f2c26d80",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "341574e3",
+		type: "item",
+		item: "enderio:block_fused_quartz",
+		count: 16
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "不要新娘，只要锅炉女工。",
+	x: 0.0d,
+	y: 0.0d,
+	description: "你可以制作普通蒸汽机器的升级版本，它们使用更多的蒸汽，速度更快，但我们通常会跳过它们。",
+	text: [
+		"需要5个这样的锅炉来为LV蒸汽轮机提供充分的动力。"
+	],
+	dependencies: [
+		"56f69a22",
+		"2e003362"
+	],
+	tasks: [{
+		uid: "a4f2a6c9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c0a2cc57",
+		type: "item",
+		item: "gregtech:fluid_pipe 1 1095",
+		count: 8
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	dependencies: [
+		"ba6da38e"
+	],
+	tasks: [{
+		uid: "f71edb0a",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_iridium_0 1 7"
+		}]
+	}]
+}

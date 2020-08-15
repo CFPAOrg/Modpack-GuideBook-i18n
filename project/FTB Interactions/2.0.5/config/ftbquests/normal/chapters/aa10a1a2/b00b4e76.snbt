@@ -1,0 +1,32 @@
+{
+	title: "另一个？",
+	x: -10.5d,
+	y: -2.0d,
+	text: [
+		"是的，另一个，也许不是你的选择。你可以在烽火树旁多种一颗门瑞欧树，它会减少你当前已有的树的掉落率（它还能跟上你的焦炭生产吗？",
+		"除此之外，你是否考虑过或者已经设置了第二个烽火树，用来获得一些其他树提供的有用产物？",
+		"",
+		"燃气轮机可以燃烧气——例如甲烷来发电。如果你的燃气产能过剩，你可以把它利用起来发电而不是浪费掉。"
+	],
+	dependencies: [
+		"9063ed56"
+	],
+	tasks: [{
+		uid: "5d76fb41",
+		type: "item",
+		items: [{
+			item: "contenttweaker:menril_ore_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "c8a414ae",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2196",
+		count: 64
+	},
+	{
+		uid: "055a5287",
+		type: "item",
+		item: "gregtech:machine 1 490"
+	}]
+}

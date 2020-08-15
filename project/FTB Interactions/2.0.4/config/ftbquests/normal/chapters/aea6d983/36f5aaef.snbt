@@ -1,0 +1,38 @@
+{
+	x: -3.0d,
+	y: -12.0d,
+	text: [
+		"最没用的鸡之一。它产生大量可以被你拿去做成线的原料...",
+		"也可以在主世界的地牢中找到。"
+	],
+	dependencies: [
+		"bad8af80",
+		"c193d3a6"
+	],
+	tasks: [{
+		uid: "5c21ba29",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:polywhatsitchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "b4067124",
+		type: "item",
+		items: [{
+			item: "contenttweaker:polywhatsit_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "43317fdd",
+		type: "item",
+		item: "minecraft:string",
+		count: 32
+	}]
+}

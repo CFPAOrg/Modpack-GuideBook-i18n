@@ -1,0 +1,22 @@
+{
+	"name": "Soul Catalyst",
+	"icon": "soulus:soul_catalyst{essence_quantity:256}",
+	"advancement": "soulus:niobium",
+	"category": "legacy",
+	"sortnum": 10502,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Turns out that all it took to create the next container was to use composition to combine some ender dust and a midnight jewel. Not only did they stick together, they created something more. The $(item)Soul Catalyst$() is like a midnight jewel but with tentacles of darkness. That is, until it's filled with more essence."
+		},
+		{
+			"type": "crafting_composer",
+			"recipe": "soulus:composer/soul_catalyst",
+			"recipe2": "soulus:soul_catalyst3"
+		},
+		{
+			"type": "text",
+			"text": "This single item contains such an incredible amount of soulus. It's as powerful as a human soul. Maybe even more powerful. If there was a way to transfer the soulus at a steady rate into a summoner, it would function in the absence of a human.$(p)$(l:legacy/soul_totem)Luckily, there is.$()"
+		}
+	]
+}

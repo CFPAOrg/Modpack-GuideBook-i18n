@@ -1,0 +1,35 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	dependencies: [
+		"a18a5b8b"
+	],
+	tasks: [{
+		uid: "2197b7c9",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bone_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "79f4a029",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "78de3fde",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "454da28d",
+		type: "item",
+		item: "thebetweenlands:loot_pot"
+	}]
+}

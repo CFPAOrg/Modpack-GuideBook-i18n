@@ -1,0 +1,19 @@
+{
+	title: "炼狱离心机",
+	x: -3.0d,
+	y: 1.0d,
+	description: "一种来自地狱的装置，它使用魔法和能量将普通的方块分解为稀有材料。",
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "66274b8b",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:infernal_deconglomerator"
+			}
+		}]
+	}]
+}

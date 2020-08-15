@@ -1,0 +1,18 @@
+{
+	title: "暗星光辉",
+	x: 7.0d,
+	y: -11.0d,
+	shape: "diamond",
+	description: "这个星球正在环绕一个黑洞。即使那里的大气和地球很像，但是由于处在黑洞附近，那里的重力大大增强了。 ",
+	dependencies: [
+		"1e07ae16",
+		"da0cc52f"
+	],
+	tasks: [{
+		uid: "ccb13932",
+		type: "item",
+		items: [{
+			item: "contenttweaker:overworldessencel"
+		}]
+	}]
+}

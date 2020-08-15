@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	dependencies: [
+		"2d043773"
+	],
+	tasks: [{
+		uid: "d857d90c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:infusion_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5eaaf6b5",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

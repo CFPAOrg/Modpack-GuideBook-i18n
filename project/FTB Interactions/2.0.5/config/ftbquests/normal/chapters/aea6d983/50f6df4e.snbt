@@ -1,0 +1,42 @@
+{
+	title: "闪耀之星",
+	x: 3.0d,
+	y: -12.0d,
+	text: [
+		"这种神秘的野兽可以帮助你自动生产晶胞液...是的，听起来比以前你见过的好用多了，对吧？备注：它也可能是下界之星的来源。"
+	],
+	dependencies: [
+		"bad8af80",
+		"d03a9479"
+	],
+	tasks: [{
+		uid: "d5a68269",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:latticitechicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "3cd9b4d4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:latticite_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "0421e6ef",
+		type: "item",
+		item: "appliedenergistics2:material"
+	},
+	{
+		uid: "67116098",
+		type: "item",
+		item: "appliedenergistics2:material 1 1"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	dependencies: [
+		"2bcebdfc"
+	],
+	tasks: [{
+		uid: "0df01ab0",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "70aa137b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

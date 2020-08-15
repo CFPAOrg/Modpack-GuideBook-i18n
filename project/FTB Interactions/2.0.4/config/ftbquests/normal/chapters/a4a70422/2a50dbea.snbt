@@ -1,0 +1,20 @@
+{
+	x: -18.0d,
+	y: 4.0d,
+	text: [
+		"最终的跨维度流体运输，快捷的方法。",
+		"如果只有一个的话，它们并不好用。"
+	],
+	tasks: [{
+		uid: "88538c68",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c77664e4",
+		type: "item",
+		item: "enderstorage:ender_storage 1 1"
+	}]
+}

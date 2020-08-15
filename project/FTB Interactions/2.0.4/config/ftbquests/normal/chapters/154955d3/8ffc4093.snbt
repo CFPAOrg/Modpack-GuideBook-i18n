@@ -1,0 +1,27 @@
+{
+	title: "你在水啥？",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:water_bucket"
+	},
+	x: 2.0d,
+	y: 1.0d,
+	description: "如果我懂物理学，我就可以把冰融化成水。如果我有一个魔法方块，它就可以为我提供冰。",
+	dependencies: [
+		"7a3fc83a"
+	],
+	tasks: [{
+		uid: "d9331e21",
+		type: "item",
+		items: [{
+			item: "minecraft:ice"
+		}]
+	}],
+	rewards: [{
+		uid: "463f6b00",
+		type: "item",
+		item: "harvestcraft:stuffedpepperitem"
+	}]
+}

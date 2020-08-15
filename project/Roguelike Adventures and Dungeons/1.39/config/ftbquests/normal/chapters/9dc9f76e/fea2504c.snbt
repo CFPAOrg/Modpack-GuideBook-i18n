@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"cc433486"
+	],
+	tasks: [{
+		uid: "35bad21e",
+		type: "item",
+		items: [{
+			item: "rustic:brewing_barrel"
+		}]
+	}],
+	rewards: [{
+		uid: "f000b489",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

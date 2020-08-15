@@ -1,0 +1,24 @@
+{
+	title: "社区至关重要。",
+	x: -3.0d,
+	y: -5.0d,
+	shape: "diamond",
+	text: [
+		"我们努力持续对这个包进行维护、改进和修复bug，但没有社区的支持我们无法做到这一点。 这意味着你和像你这样的人都参与进来！",
+		"",
+		"请务必向我们的问题追踪系统提交任何的错误报告或改进想法。 我们还在 FTB 官方 discord 的 #ftb-interaction 频道中拥有一个非常活跃的社区。",
+		"",
+		"上面是我们的问题追踪系统，右边是我们的Discord的邀请链接，来逛逛灌个水！"
+	],
+	tasks: [{
+		uid: "309a9c50",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
+	}]
+}

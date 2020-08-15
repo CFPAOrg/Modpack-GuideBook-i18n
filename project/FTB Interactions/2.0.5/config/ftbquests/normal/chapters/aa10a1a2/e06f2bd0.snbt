@@ -1,0 +1,33 @@
+{
+	x: -6.0d,
+	y: 3.5d,
+	shape: "diamond",
+	dependencies: [
+		"7d0d44c4",
+		"7eaf5f76",
+		"d26ea9a5",
+		"72db0097",
+		"ddd91cac",
+		"2054d6e9"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d43d941b",
+		type: "checkmark",
+		title: "恭喜，你现在知道了如何让火烧得更旺。"
+	}],
+	rewards: [{
+		uid: "d7094a4b",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "infused_nitrofuel",
+					Amount: 64000
+				}
+			},
+			Damage: 32405s
+		}
+	}]
+}

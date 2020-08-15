@@ -1,0 +1,68 @@
+{
+	title: "残暴的太阳",
+	x: -0.5d,
+	y: -1.0d,
+	shape: "diamond",
+	description: "“阳光阳光！那是我壮丽的魔法。"",
+	dependencies: [
+		"0e127505"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "14690e73",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 520"
+		}]
+	},
+	{
+		uid: "3062eec8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 755"
+		},
+		{
+			item: "gregtech:machine 1 765"
+		}]
+	},
+	{
+		uid: "8b859409",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 817"
+		},
+		{
+			item: "gregtech:machine 1 818"
+		},
+		{
+			item: "gregtech:machine 1 819"
+		}]
+	},
+	{
+		uid: "f70bfbc7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}]
+	},
+	{
+		uid: "21a838c6",
+		type: "item",
+		items: [{
+			item: "gregtech:turbine_casing 1 6"
+		}],
+		count: 30L
+	}],
+	rewards: [{
+		uid: "4fdbafdd",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12183",
+		count: 16
+	},
+	{
+		uid: "833e32e9",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32496",
+		count: 4
+	}]
+}

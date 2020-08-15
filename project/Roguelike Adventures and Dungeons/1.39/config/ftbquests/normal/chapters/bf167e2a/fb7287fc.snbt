@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"1162af42"
+	],
+	tasks: [{
+		uid: "911cea10",
+		type: "item",
+		items: [{
+			item: "aether_legacy:healing_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "6752caa0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

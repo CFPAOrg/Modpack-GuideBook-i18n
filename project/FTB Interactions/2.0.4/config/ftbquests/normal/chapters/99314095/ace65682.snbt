@@ -1,0 +1,29 @@
+{
+	title: "钅吕钅定",
+	x: -9.0d,
+	y: 2.0d,
+	shape: "square",
+	description: "你将制作相当数量的铝锭来度过MV时代。",
+	dependencies: [
+		"e54fe206"
+	],
+	tasks: [{
+		uid: "76fc2786",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10001"
+		}]
+	},
+	{
+		uid: "a6b90a87",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 502"
+		}]
+	}],
+	rewards: [{
+		uid: "0fdfbd60",
+		type: "item",
+		item: "gregtech:machine 1 502"
+	}]
+}

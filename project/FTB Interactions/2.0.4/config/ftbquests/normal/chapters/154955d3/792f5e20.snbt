@@ -1,0 +1,39 @@
+{
+	title: "更好的建筑之杖",
+	x: 2.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	description: "从某种程度上说。",
+	dependencies: [
+		"b030b92e"
+	],
+	tasks: [{
+		uid: "d5402492",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:itembuilderswand"
+		},
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:itembuilderswand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b043d75",
+		type: "item",
+		item: "littletiles:ltcoloredblock",
+		count: 64
+	},
+	{
+		uid: "372c5e5d",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "石脑油",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "steamcracked_naphtha",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -8.5d,
+	y: -5.0d,
+	text: [
+		"将氢气和石脑油混合可以获得纯净的石脑油，这东西本身也是燃料，不过有更好的用途……"
+	],
+	dependencies: [
+		"4be04c93"
+	],
+	tasks: [{
+		uid: "4c6326ee",
+		type: "checkmark",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "naphtha",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

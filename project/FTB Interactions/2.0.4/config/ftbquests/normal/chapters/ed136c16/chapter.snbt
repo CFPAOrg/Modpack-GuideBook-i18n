@@ -1,0 +1,24 @@
+{
+	title: "部件化装备",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "industrialforegoing:infinity_drill",
+		tag: {
+			Energy: 9223372036854775807L,
+			Fluid: {
+				FluidName: "biofuel",
+				Amount: 1000000
+			},
+			Special: 1,
+			Selected: "ARTIFACT"
+		}
+	},
+	description: [
+		"穿上它，改进它！"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

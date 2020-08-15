@@ -1,0 +1,30 @@
+{
+	x: -7.0d,
+	y: -10.0d,
+	description: "第一个荧石粉获取起来可能会有点繁琐，但在之后你可以通过神秘炼金术复制，或在下界采掘得到。",
+	dependencies: [
+		"8eac9d15",
+		"de2a21ac"
+	],
+	tasks: [{
+		uid: "d8f952bc",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}]
+	},
+	{
+		uid: "30ce7b24",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 330"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "dc74f16f",
+		type: "item",
+		item: "minecraft:glowstone",
+		count: 4
+	}]
+}

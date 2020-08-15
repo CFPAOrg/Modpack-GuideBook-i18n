@@ -1,0 +1,42 @@
+{
+	title: "光明祭坛",
+	x: -4.0d,
+	y: 5.0d,
+	description: "通过使用注入魔力的新型金属，你可以建造一个能更好地聚合性能的祭坛了。这将让你能够进行许多新的魔法合成。",
+	dependencies: [
+		"77432fb3"
+	],
+	tasks: [{
+		uid: "500e1d29",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b6ea09f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.armara"
+				}
+			}
+		}
+	},
+	{
+		uid: "67fa50bc",
+		type: "item",
+		item: "astralsorcery:blockblackmarble",
+		count: 16
+	}]
+}

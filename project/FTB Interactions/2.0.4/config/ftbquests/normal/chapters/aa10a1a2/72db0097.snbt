@@ -1,0 +1,22 @@
+{
+	x: -10.5d,
+	y: 2.5d,
+	dependencies: [
+		"81146e1b"
+	],
+	tasks: [{
+		uid: "6879b159",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "empoweredoil",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

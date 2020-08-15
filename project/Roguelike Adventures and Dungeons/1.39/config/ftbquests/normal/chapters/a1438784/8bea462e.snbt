@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	dependencies: [
+		"8e6816fe"
+	],
+	tasks: [{
+		uid: "4c4272d9",
+		type: "kill",
+		entity: "atum:warlord",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "19497068",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	},
+	{
+		uid: "1c6b9c08",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 3
+	},
+	{
+		uid: "2d98e1d9",
+		type: "item",
+		item: "atum:flax_seeds"
+	}]
+}

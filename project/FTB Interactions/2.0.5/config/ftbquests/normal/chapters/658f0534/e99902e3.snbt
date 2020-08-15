@@ -1,0 +1,24 @@
+{
+	x: -13.5d,
+	y: -2.5d,
+	description: "任何路径最终都会形成这种矿物簇，我猜魔法真的到处都有。",
+	text: [
+		"别忘了你有64倍的矿物产出，通过粉碎矿物簇并使用标准的格雷矿物处理",
+		"另外，这些矿簇也能简单的烧成矿石"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"254a6531",
+		"57ca62b6",
+		"b83f091b",
+		"2e40345e"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "76ba63fb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iron_ore_cluster"
+		}]
+	}]
+}

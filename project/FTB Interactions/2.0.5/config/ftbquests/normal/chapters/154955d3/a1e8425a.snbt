@@ -1,0 +1,38 @@
+{
+	x: -4.0d,
+	y: 3.5d,
+	shape: "rsquare",
+	description: "这个包禁用了来自饥饿值的自动回复。你必须使用各种模组增加你的血量，或者最终找到自动治疗的方法。现在为止你可以使用药膏和创可贴。",
+	text: [
+		"什么牌子的创可贴最好？",
+		"提示：原版花可以通过在原版草地上洒骨粉获得。"
+	],
+	dependencies: [
+		"29f7cca1"
+	],
+	tasks: [{
+		uid: "0e09ede5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roughtweaks:salve"
+		}]
+	}],
+	rewards: [{
+		uid: "56777e27",
+		type: "item",
+		item: "harvestcraft:baconpancakesitem"
+	},
+	{
+		uid: "5a7f8824",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roughtweaks:plaster"
+		}
+	}]
+}

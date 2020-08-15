@@ -1,0 +1,34 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	shape: "square",
+	description: "这是最基本的魔法合成。无法/很难自动化，产出也不怎么样，但这是你的第一步。",
+	text: [
+		"提示：如果你还在等着牛肉，试试从鸡肉转化。"
+	],
+	dependencies: [
+		"ee31eaaf"
+	],
+	tasks: [{
+		uid: "a28c2530",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "e98206c5",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "67dc4e58",
+		type: "item",
+		item: "projecte:item.pe_covalence_dust",
+		count: 9
+	}]
+}

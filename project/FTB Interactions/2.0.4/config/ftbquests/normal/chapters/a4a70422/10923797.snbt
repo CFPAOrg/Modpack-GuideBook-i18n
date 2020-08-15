@@ -1,0 +1,17 @@
+{
+	x: -21.0d,
+	y: 1.0d,
+	description: "单方块高速液体传输设备，可配置正则过滤。萤石右键加速，红石右键启用红石控制。",
+	tasks: [{
+		uid: "a17bde4a",
+		type: "item",
+		items: [{
+			item: "translocators:translocator_part 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0bcf54cb",
+		type: "item",
+		item: "extrautils2:drum 1 1"
+	}]
+}

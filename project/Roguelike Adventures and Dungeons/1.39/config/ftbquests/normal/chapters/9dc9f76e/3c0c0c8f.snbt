@@ -1,0 +1,27 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"ace30757"
+	],
+	tasks: [{
+		uid: "5e91fc23",
+		type: "item",
+		items: [{
+			item: "colossalchests:chest_wall"
+		}],
+		count: 25L
+	},
+	{
+		uid: "57e11a76",
+		type: "item",
+		items: [{
+			item: "colossalchests:colossal_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "f0836a44",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

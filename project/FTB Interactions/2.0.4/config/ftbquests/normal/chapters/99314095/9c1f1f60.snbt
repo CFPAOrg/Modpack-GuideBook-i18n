@@ -1,0 +1,22 @@
+{
+	title: "充电箱",
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"你知道吗？你可以制作格雷工具的电力版本，并在充电箱中充电。此外，它还可以给电池充电，将其作为移动电源使用。"
+	],
+	dependencies: [
+		"a916453b"
+	],
+	tasks: [{
+		uid: "7bf2cd81",
+		type: "checkmark",
+		icon: "gregtech:machine 1 681"
+	}],
+	rewards: [{
+		uid: "505e9263",
+		type: "item",
+		item: "gregtech:cable 1 8071",
+		count: 8
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -6.0d,
+	dependencies: [
+		"73298fe2"
+	],
+	tasks: [{
+		uid: "f49bdebe",
+		type: "item",
+		items: [{
+			item: "pumpkinlauncher:pumpkinlauncher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6a2d1184",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

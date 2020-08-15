@@ -1,0 +1,16 @@
+{
+	x: 6.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "d79461a7",
+		type: "item",
+		items: [{
+			item: "harvestcraft:holidaycakeitem"
+		}]
+	}],
+	rewards: [{
+		uid: "b938bd00",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

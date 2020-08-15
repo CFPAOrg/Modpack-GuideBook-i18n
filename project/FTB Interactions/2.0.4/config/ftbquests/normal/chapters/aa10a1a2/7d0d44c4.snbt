@@ -1,0 +1,22 @@
+{
+	title: "是时候将你的电力高炉升级到HV级别了",
+	x: -10.5d,
+	y: 4.5d,
+	text: [
+		"升级至HV级电力高炉，使你可以在HV阶段发展中制造需求的材料。"
+	],
+	dependencies: [
+		"81146e1b"
+	],
+	tasks: [{
+		uid: "3720501b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 724"
+		},
+		{
+			item: "gregtech:machine 1 734"
+		}],
+		count: 2L
+	}]
+}

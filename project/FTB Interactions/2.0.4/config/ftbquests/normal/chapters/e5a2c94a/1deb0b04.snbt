@@ -1,0 +1,20 @@
+{
+	title: "天很黑，地狱很热",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -3.0d,
+	y: -1.0d,
+	description: "你会认为，下届到处都是火焰与岩浆，将会非常明亮，大体上确是如此！但还是请确保带上一些夜视",
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "3bb11a6b",
+		type: "checkmark"
+	}]
+}

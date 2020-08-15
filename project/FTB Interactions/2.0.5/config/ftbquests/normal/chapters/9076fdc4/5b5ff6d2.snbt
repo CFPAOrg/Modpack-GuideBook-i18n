@@ -1,0 +1,23 @@
+{
+	x: -11.0d,
+	y: -9.0d,
+	description: "这个物品坏了，甚至看起来材质也坏了。",
+	tasks: [{
+		uid: "ca510456",
+		type: "item",
+		items: [{
+			item: "cyberware:creative_battery"
+		}]
+	}],
+	rewards: [{
+		uid: "de746039",
+		type: "item",
+		item: "harvestcraft:cantonesenoodlesitem"
+	},
+	{
+		uid: "7e842cef",
+		type: "item",
+		item: "cyberware:neuropozyne",
+		count: 64
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 2.5d,
+	y: 6.5d,
+	dependencies: [
+		"d13475fe",
+		"a138555f"
+	],
+	tasks: [{
+		uid: "a43e56f0",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}],
+	rewards: [{
+		uid: "fa0ca41e",
+		type: "item",
+		item: "botania:manaresource 1 4",
+		count: 3
+	},
+	{
+		uid: "09bd88b2",
+		type: "item",
+		item: "botania:manacookie"
+	}]
+}

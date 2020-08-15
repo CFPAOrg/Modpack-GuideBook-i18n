@@ -1,0 +1,14 @@
+{
+	title: "MAX时代",
+	icon: "gregtech:machine 1 509",
+	x: -9.0d,
+	y: 4.0d,
+	description: "此行的项目在大多数MAX配方中使用。",
+	dependencies: [
+		"d1a98f7f"
+	],
+	tasks: [{
+		uid: "0c44005b",
+		type: "checkmark"
+	}]
+}

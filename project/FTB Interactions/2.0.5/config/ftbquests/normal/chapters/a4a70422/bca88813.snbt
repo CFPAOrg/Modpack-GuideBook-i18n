@@ -1,0 +1,26 @@
+{
+	x: -7.0d,
+	y: 2.0d,
+	description: "储存63种液体",
+	dependencies: [
+		"39d33b3e"
+	],
+	tasks: [{
+		uid: "f85e5bdd",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "75f281f4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:fluid_storage_cell_1k",
+			tag: {}
+		}
+	}]
+}

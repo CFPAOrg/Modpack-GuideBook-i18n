@@ -1,0 +1,24 @@
+{
+	title: "说明",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "projecte:item.pe_tome"
+	},
+	x: 0.0d,
+	y: -3.0d,
+	description: "把这本书放进转换桌来通关这个包。恭喜！",
+	dependencies: [
+		"54f0c63a"
+	],
+	tasks: [{
+		uid: "c2164290",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b94c92f8",
+		type: "item",
+		item: "harvestcraft:pizzasoupitem"
+	}]
+}

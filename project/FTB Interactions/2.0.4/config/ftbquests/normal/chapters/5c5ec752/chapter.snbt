@@ -1,0 +1,10 @@
+{
+	title: "蒸汽动力和最初的多方块",
+	icon: "gregtech:machine 1 1",
+	description: [
+		"你知道的，所有的工业化都是从蒸汽开始的。也有些人认为是从马开始，但它们是似乎不是机器？"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

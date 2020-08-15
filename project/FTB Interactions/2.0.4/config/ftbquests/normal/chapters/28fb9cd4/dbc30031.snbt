@@ -1,0 +1,15 @@
+{
+	x: -10.5d,
+	y: 6.5d,
+	dependencies: [
+		"d85bce55",
+		"625261a5"
+	],
+	tasks: [{
+		uid: "38ac1281",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_entropy_infused_0"
+		}]
+	}]
+}

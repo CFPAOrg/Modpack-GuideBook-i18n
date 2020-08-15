@@ -1,0 +1,26 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"ff8ad0bc"
+	],
+	tasks: [{
+		uid: "700b6d54",
+		type: "item",
+		items: [{
+			item: "bountiful:bounty"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2984af6f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "eb54a609",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

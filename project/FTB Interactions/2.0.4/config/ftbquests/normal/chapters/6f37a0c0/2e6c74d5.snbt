@@ -1,0 +1,33 @@
+{
+	title: "维度",
+	x: -2.0d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"当你进入各个维度后，你会解锁新的材料，新的挑战和新的地方去探索。保证重新回到这里去查看每个维度的特殊指南"
+	],
+	dependencies: [
+		"eafc12e8"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ccd16250",
+		type: "dimension",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "9b78c4ac",
+		type: "item",
+		item: {
+			id: "rustic:elixir",
+			tag: {
+				ElixirEffects: [{
+					Effect: "minecraft:night_vision",
+					Duration: 9600,
+					Amplifier: 0
+				}]
+			}
+		},
+		count: 4
+	}]
+}

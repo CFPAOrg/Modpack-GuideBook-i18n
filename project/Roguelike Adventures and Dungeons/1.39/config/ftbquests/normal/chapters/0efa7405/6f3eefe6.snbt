@@ -1,0 +1,31 @@
+{
+	x: 5.0d,
+	y: -1.0d,
+	dependencies: [
+		"435696c9"
+	],
+	tasks: [{
+		uid: "3c057dcf",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "b4fc89d6",
+		type: "item",
+		item: "thaumcraft:loot_bag"
+	},
+	{
+		uid: "89ecb816",
+		type: "item",
+		item: "thaumcraft:quicksilver",
+		count: 2
+	},
+	{
+		uid: "767b8d95",
+		type: "item",
+		item: "thaumcraft:salis_mundus",
+		count: 5
+	}]
+}

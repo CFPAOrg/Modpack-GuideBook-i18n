@@ -1,0 +1,16 @@
+{
+	x: 9.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "fde95148",
+		type: "item",
+		items: [{
+			item: "harvestcraft:redvelvetcakeitem"
+		}]
+	}],
+	rewards: [{
+		uid: "ee854cd5",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

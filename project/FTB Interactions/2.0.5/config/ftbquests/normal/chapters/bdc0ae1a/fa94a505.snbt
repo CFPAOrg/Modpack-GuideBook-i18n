@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: 0.5d,
+	dependencies: [
+		"430d8d06"
+	],
+	tasks: [{
+		uid: "f5b29274",
+		type: "item",
+		items: [{
+			item: "wizardry:nacre_block"
+		}]
+	}]
+}

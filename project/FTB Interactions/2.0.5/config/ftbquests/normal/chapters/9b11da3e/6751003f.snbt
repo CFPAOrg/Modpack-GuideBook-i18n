@@ -1,0 +1,42 @@
+{
+	title: "铜-宝石矿脉",
+	x: -9.0d,
+	y: -7.0d,
+	description: "除丛林外，其他生物群系都会生成",
+	dependencies: [
+		"7853c674"
+	],
+	tasks: [{
+		uid: "d368e1e1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_copper_0"
+		}]
+	},
+	{
+		uid: "baf64cb8",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_topaz_0"
+		}]
+	},
+	{
+		uid: "12dd1f05",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_jasper_0"
+		}]
+	},
+	{
+		uid: "93880102",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_garnet_red_0"
+		}]
+	}],
+	rewards: [{
+		uid: "32e88198",
+		type: "item",
+		item: "gregtech:meta_item_1 1 8206"
+	}]
+}

@@ -1,0 +1,68 @@
+{
+	x: -1.0d,
+	y: 11.0d,
+	description: "亨利福特会为你感到骄傲的。",
+	text: [
+		"格雷科技中最先进的科技都需要建造一个大型多方块结构来进行相应的生产。"
+	],
+	dependencies: [
+		"5b1c2607"
+	],
+	tasks: [{
+		uid: "76bc120f",
+		type: "item",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gtadditions:ga_multiblock_casing",
+					Count: 1,
+					Damage: 1
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Fully Assembled",
+				TrophyColorRed: 37,
+				TrophyEarnedAt: 1553222285
+			}
+		},
+		items: [{
+			item: "gregtech:machine 1 2502"
+		}]
+	}],
+	rewards: [{
+		uid: "e7523b43",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gtadditions:ga_multiblock_casing",
+					Count: 1,
+					Damage: 1
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Fully Assembled",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "29d1da2d",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:machine 1 505",
+		count: 4
+	},
+	{
+		uid: "51efcf3a",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_2 1 32493",
+		count: 4
+	}]
+}

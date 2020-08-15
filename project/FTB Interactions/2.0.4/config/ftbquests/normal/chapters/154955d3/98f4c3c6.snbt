@@ -1,0 +1,262 @@
+{
+	title: "一桌一世界",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "tconstruct:hatchet",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 54,
+				HarvestLevel: 1,
+				Attack: 3.4f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 54,
+				HarvestLevel: 1,
+				Attack: 3.4f
+			},
+			Special: {
+				Categories: [
+					"weapon",
+					"aoe",
+					"tool",
+					"harvest"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"flint",
+					"flint",
+					"flint"
+				],
+				Modifiers: []
+			},
+			Modifiers: [{
+				identifier: "crude",
+				color: -9868951,
+				level: 3,
+				crude1: 1,
+				crude2: 1
+			}],
+			Traits: [
+				"crude1",
+				"crude2"
+			]
+		}
+	},
+	x: 0.0d,
+	y: -1.0d,
+	description: "从转换桌上拿一些砂砾，用燧石做一个燧石斧刃，然后在2x2合成栏中与一根石棍组合起来。",
+	text: [
+		"注意：你目前无法修复这些工具，但是虚空会很开心把它当做祭品。"
+	],
+	dependencies: [
+		"7295ef69"
+	],
+	tasks: [{
+		uid: "fa9a345b",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}],
+		count: 7L
+	},
+	{
+		uid: "c978d298",
+		type: "item",
+		items: [{
+			item: "tconstruct:stone_stick"
+		}],
+		count: 3L
+	},
+	{
+		uid: "ce6a7b75",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:hatchet",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 54,
+					HarvestLevel: 1,
+					Attack: 3.4f
+				},
+				display: {
+					Name: "Rudimentary Hatchet"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 54,
+					HarvestLevel: 1,
+					Attack: 3.4f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"weapon",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"flint",
+						"flint",
+						"flint"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "crude",
+					color: -9868951,
+					level: 3,
+					crude1: 1,
+					crude2: 1
+				}],
+				Traits: [
+					"crude1",
+					"crude2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b526ee3c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:pickaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 54,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				display: {
+					Name: "Rudimentary Pickaxe"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 54,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"flint",
+						"flint",
+						"flint"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "crude",
+					color: -9868951,
+					level: 3,
+					crude1: 1,
+					crude2: 1
+				}],
+				Traits: [
+					"crude1",
+					"crude2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8ba74e31",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:shovel",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 54,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				display: {
+					Name: "Rudimentary Shovel"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 54,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"flint",
+						"flint",
+						"flint"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "crude",
+					color: -9868951,
+					level: 3,
+					crude1: 1,
+					crude2: 1
+				}],
+				Traits: [
+					"crude1",
+					"crude2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a37e68b0",
+		type: "item",
+		item: "harvestcraft:pineapplehamitem"
+	}]
+}

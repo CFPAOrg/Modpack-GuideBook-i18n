@@ -1,0 +1,23 @@
+{
+	title: "1920 EU -> 2Mb",
+	x: -9.5d,
+	y: 5.0d,
+	dependencies: [
+		"81146e1b"
+	],
+	tasks: [{
+		uid: "32f35772",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "infused_nitrofuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

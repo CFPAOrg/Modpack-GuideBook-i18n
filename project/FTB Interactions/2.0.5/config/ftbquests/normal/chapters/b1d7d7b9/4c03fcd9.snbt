@@ -1,0 +1,39 @@
+{
+	x: 1.5d,
+	y: -5.0d,
+	text: [
+		"水和硫可以制造硫酸，硫酸是很多其他化学品的前置。"
+	],
+	dependencies: [
+		"ba875a99"
+	],
+	tasks: [{
+		uid: "13f749de",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_acid",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "d618f6a1",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_acid",
+					Amount: 64000
+				}
+			},
+			Damage: 32405s
+		}
+	}]
+}

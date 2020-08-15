@@ -1,0 +1,54 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"eb191328"
+	],
+	tasks: [{
+		uid: "7ee72de6",
+		type: "item",
+		items: [{
+			id: "iceandfire:dragon_skull",
+			tag: {
+				Stage: 4,
+				DragonAge: 75
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "814808eb",
+		type: "item",
+		items: [{
+			id: "iceandfire:dragon_skull",
+			tag: {
+				Stage: 4,
+				DragonAge: 75
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9ce01f70",
+		type: "item",
+		item: "iceandfire:pixie_house"
+	},
+	{
+		uid: "7553f8d8",
+		type: "item",
+		item: "iceandfire:troll_leather_forest",
+		count: 8
+	},
+	{
+		uid: "55260671",
+		type: "item",
+		item: "iceandfire:troll_tusk",
+		count: 16
+	},
+	{
+		uid: "fbd6690f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

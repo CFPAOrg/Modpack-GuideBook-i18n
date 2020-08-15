@@ -1,0 +1,30 @@
+{
+	title: "原木不再短缺",
+	x: -9.5d,
+	y: -5.5d,
+	text: [
+		"任何初始能源的基石，你需要原木和大量的原木。别把它放的太远",
+		"",
+		"重要：上方不要有阻挡。 请确保你的树木不会在烽火树顶部生长，因为它们会令星能减弱并使其运行速度变慢。"
+	],
+	dependencies: [
+		"51878972"
+	],
+	tasks: [{
+		uid: "499ef677",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blocktreebeacon"
+		}]
+	}],
+	rewards: [{
+		uid: "a08f6afe",
+		type: "item",
+		item: "randomthings:advanceditemcollector"
+	},
+	{
+		uid: "f342aac1",
+		type: "item",
+		item: "randomthings:itemfilter"
+	}]
+}

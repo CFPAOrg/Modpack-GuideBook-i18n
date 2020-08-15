@@ -1,0 +1,32 @@
+{
+	x: -6.0d,
+	y: -4.0d,
+	dependencies: [
+		"a916453b"
+	],
+	tasks: [{
+		uid: "d411f83d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32507"
+		}]
+	},
+	{
+		uid: "53cb415f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32488"
+		}]
+	}],
+	rewards: [{
+		uid: "68940402",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32507",
+		count: 4
+	},
+	{
+		uid: "3156d57b",
+		type: "item",
+		item: "harvestcraft:blueberrymuffinitem"
+	}]
+}

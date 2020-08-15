@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	dependencies: [
+		"1162af42"
+	],
+	tasks: [{
+		uid: "12301141",
+		type: "item",
+		items: [{
+			item: "aether_legacy:incubator"
+		}]
+	}],
+	rewards: [{
+		uid: "83d23dca",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	shape: "square",
+	dependencies: [
+		"c03196f4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c3ca63a4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 181"
+		},
+		{
+			item: "gregtech:machine 1 182"
+		}]
+	}],
+	rewards: [{
+		uid: "89545f09",
+		type: "item",
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "minecraft:blaze"
+			}
+		}
+	},
+	{
+		uid: "638bb813",
+		type: "item",
+		item: "harvestcraft:blazingsoupitem"
+	}]
+}

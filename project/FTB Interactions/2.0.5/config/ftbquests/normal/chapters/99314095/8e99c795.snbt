@@ -1,0 +1,27 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	description: "更硬。更好。更快。更强。除了更快，这个方块的功能不会随着电压升高改变。",
+	dependencies: [
+		"e384c9a5"
+	],
+	tasks: [{
+		uid: "eb0c6eb3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 330"
+		},
+		{
+			item: "gregtech:machine 1 331"
+		},
+		{
+			item: "gregtech:machine 1 332"
+		}]
+	}],
+	rewards: [{
+		uid: "fe39b07b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12184",
+		count: 8
+	}]
+}

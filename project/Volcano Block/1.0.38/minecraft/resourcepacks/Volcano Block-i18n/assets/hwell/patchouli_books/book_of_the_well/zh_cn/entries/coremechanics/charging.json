@@ -1,0 +1,40 @@
+{
+    "name": "充能器",
+    "icon": "hwell:charger",
+    "category": "core_mechanics",
+    "sortnum": 50,
+    "pages": [
+        {
+            "type": "text",
+            "text": "能源水晶有时候会耗尽。想要给水晶充能的话，需要一个充能器以及相关的多方块结构。$(br2)要给水晶充能，只需拿着水晶右键将其放入充能器。然后将含有能量的物品扔到地上。这些物品将会被充能器吸入并消耗，以此为能源水晶充能。"
+        },
+        {
+            "type": "multiblock",
+            "name": "充能器的多方块结构",
+            "multiblock": {
+                "pattern": [
+					[ "     ", "  G  ", " GTG ", "  G  ", "     "],
+					[ "     ", "     ", "     ", "     ", "     "],
+					[ "COOOC", "OMMMO", "OM0MO", "OMMMO", "COOOC"]
+                ],
+                "mapping": {
+                    "0": "hwell:moonstone",
+                    "M": "hwell:moonstone",
+                    "C": "hwell:crystal_block",
+                    "O": "hwell:smooth_onyx",
+                    "T": "hwell:charger",
+                    "G": "hwell:gravity_block_mini"					
+                }
+            }
+        
+        },
+		{
+            "type": "text",
+            "text": "这是一些内部含有能源的物品:$(li)液态灵魂桶$(li)神秘粉$(li)神秘树树叶$(li)神秘棒$(li)水晶催化剂$(li)被囚禁的光$(li)荧石粉$(li)TNT$(li)煤炭$(li)附魔之瓶$(br2)如果物品会产生副产物，将会从充能器顶部弹出。"
+        },
+        { 	"type": "crafting",
+	        "name": "充电器",
+            "recipe": "hwell:charger"
+        }
+	]
+}

@@ -1,0 +1,30 @@
+{
+	x: -11.0d,
+	y: -10.0d,
+	text: [
+		"向贴着的储罐缓慢输出水。",
+		"也是时候该换用蓄水器了。"
+	],
+	dependencies: [
+		"8eac9d15"
+	],
+	tasks: [{
+		uid: "0b4836bf",
+		type: "item",
+		items: [{
+			item: "thaumcraft:everfull_urn"
+		}]
+	}],
+	rewards: [{
+		uid: "81304309",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 8
+	},
+	{
+		uid: "6e53a9de",
+		type: "item",
+		item: "thermaldynamics:duct_16 1 1",
+		count: 8
+	}]
+}

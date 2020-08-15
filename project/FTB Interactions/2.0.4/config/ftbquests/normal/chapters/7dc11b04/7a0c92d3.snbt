@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 5.0d,
+	dependencies: [
+		"832823a9"
+	],
+	tasks: [{
+		uid: "94857efe",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal 1 2"
+		}]
+	}]
+}

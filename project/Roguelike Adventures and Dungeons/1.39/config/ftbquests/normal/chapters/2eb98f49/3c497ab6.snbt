@@ -1,0 +1,31 @@
+{
+	x: 9.0d,
+	y: 1.0d,
+	text: [
+		"放置时，它将生成一个3x3x1的多方块结构，以炉缸线圈的放置位置为中心。它就像一个接受余烬能量的熔炉。",
+		"",
+		"当通过连接在机器底部的机械核心提供能量时，它将加热并处理掉在其顶面上的任何物品。",
+		"",
+		"成品可使用物品泵管道和物品管道输送出去。炉边线圈加热时间越长，处理物品的速度就越快。"
+	],
+	dependencies: [
+		"c899175d"
+	],
+	tasks: [{
+		uid: "32fd1b34",
+		type: "item",
+		items: [{
+			item: "embers:heat_coil"
+		}]
+	}],
+	rewards: [{
+		uid: "654f8c77",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	},
+	{
+		uid: "fa952433",
+		type: "item",
+		item: "embers:item_dropper"
+	}]
+}

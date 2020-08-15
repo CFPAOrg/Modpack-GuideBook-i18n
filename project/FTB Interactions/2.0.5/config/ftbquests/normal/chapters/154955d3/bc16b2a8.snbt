@@ -1,0 +1,28 @@
+{
+	title: "咸者之食",
+	x: 0.0d,
+	y: 8.0d,
+	description: "警告：风味不佳，不宜食用",
+	dependencies: [
+		"095258c2",
+		"b030b92e"
+	],
+	tasks: [{
+		uid: "e6b2f56f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b2e65701",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

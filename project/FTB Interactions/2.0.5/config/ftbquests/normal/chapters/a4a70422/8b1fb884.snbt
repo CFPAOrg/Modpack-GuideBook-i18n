@@ -1,0 +1,14 @@
+{
+	title: "Direwolf20 的 SFM 教程",
+	icon: "superfactorymanager:cable_relay 1 8",
+	x: -17.0d,
+	y: -3.0d,
+	shape: "gear",
+	description: "(它是一个旧的版本上，但它仍然使用)",
+	custom_click: "https://www.youtube.com/watch?v=tCUBfHz3UUA",
+	dependencies: [
+		"c193d3a6"
+	],
+	dependency_requirement: "all_started",
+	optional: true
+}

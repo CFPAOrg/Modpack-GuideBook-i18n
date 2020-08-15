@@ -1,0 +1,63 @@
+{
+	title: "大胆地前往史蒂夫从未探索过的地方…",
+	icon: "advancedrocketry:warpcore",
+	x: 5.0d,
+	y: -13.0d,
+	description: "在你的空间站创造一个跃迁核心，给它提供双锂晶体，并且使用跃迁控制器去银河系更远的地方探索吧！",
+	dependencies: [
+		"a73d5e3d",
+		"c3e76f1e"
+	],
+	tasks: [{
+		uid: "12856d01",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpcore"
+		}]
+	},
+	{
+		uid: "c6549d1e",
+		type: "item",
+		items: [{
+			item: "gregtech:compressed_3 1 10"
+		}],
+		count: 15L
+	},
+	{
+		uid: "127177f9",
+		type: "item",
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 4L
+	},
+	{
+		uid: "131c6b87",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_block"
+		}],
+		count: 2L
+	},
+	{
+		uid: "4bc12b34",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "1375e13b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpmonitor"
+		}]
+	},
+	{
+		uid: "ae2147e6",
+		type: "item",
+		items: [{
+			item: "libvulpes:productgem"
+		}]
+	}]
+}

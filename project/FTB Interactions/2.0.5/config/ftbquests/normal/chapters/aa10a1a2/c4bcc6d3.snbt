@@ -1,0 +1,25 @@
+{
+	title: "就差一步了",
+	x: -9.5d,
+	y: 0.5d,
+	text: [
+		"这种晶化油可以通过蒸馏变成几种东西。 你需要做出努力，看看你为最后一步做了多少事情。"
+	],
+	dependencies: [
+		"9063ed56"
+	],
+	tasks: [{
+		uid: "477a26a5",
+		type: "checkmark",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "heavy_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

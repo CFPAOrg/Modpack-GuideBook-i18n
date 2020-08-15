@@ -1,0 +1,18 @@
+{
+	title: "没有自然生成",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -3.0d,
+	y: -4.0d,
+	shape: "gear",
+	description: "在空岛，自然生成被禁用了，包括在黑暗房间里的怪物和草地上的动物。不过如果你有能力，你仍可强制生成它们。",
+	tasks: [{
+		uid: "52a5b475",
+		type: "checkmark"
+	}]
+}

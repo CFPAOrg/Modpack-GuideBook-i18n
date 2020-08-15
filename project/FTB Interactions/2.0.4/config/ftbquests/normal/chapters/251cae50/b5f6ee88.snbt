@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	dependencies: [
+		"b06b5e7b"
+	],
+	tasks: [{
+		uid: "f637fa0e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32494"
+		}]
+	}],
+	rewards: [{
+		uid: "230d09a9",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32494",
+		count: 4
+	},
+	{
+		uid: "8b8765b6",
+		type: "item",
+		item: "harvestcraft:marshmellowsitem",
+		count: 4
+	}]
+}

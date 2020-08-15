@@ -1,0 +1,35 @@
+{
+	title: "雪片空气",
+	x: -8.0d,
+	y: 1.0d,
+	text: [
+		"Mekanism机械使用的气体比格雷使用的气体压力更低。为了将氢或氧供给Mekanism机械使用，要将氢或氧在化学反应釜中进行转化，转化时使用配置为1的编程电路。",
+		"有了Mekanism的液态氢和液态氧之后，你可以使用回旋式气液转换机将其变成气体，用于喷气背包，潜水罐或者喷火器。"
+	],
+	dependencies: [
+		"c193d3a6"
+	],
+	tasks: [{
+		uid: "874c0efa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8ed9ab8e",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 2s
+		},
+		count: 4
+	}]
+}

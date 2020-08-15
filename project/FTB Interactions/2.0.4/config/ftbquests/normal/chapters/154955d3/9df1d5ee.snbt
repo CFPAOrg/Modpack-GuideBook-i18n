@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	shape: "rsquare",
+	description: "有了炼金矩阵，你可以把橡树树苗和粘液球变成橡胶树苗。这将允许你种植掉落粘性树脂的橡胶树。",
+	dependencies: [
+		"b030b92e"
+	],
+	tasks: [{
+		uid: "56293289",
+		type: "item",
+		items: [{
+			item: "gregtech:sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "2523e761",
+		type: "item",
+		item: "thermalfoundation:material 1 23",
+		count: 16
+	}]
+}

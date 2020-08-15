@@ -1,0 +1,21 @@
+{
+	x: -12.0d,
+	y: -5.0d,
+	text: [
+		"它用于储存大量物品，内部库存能够储存同种物品2147483647件",
+		"黑洞存储器将在被破坏时保留其内容物品，可以通过将其置于一个合成空格中来清除。 "
+	],
+	dependencies: [
+		"fcd1bb3f"
+	],
+	tasks: [{
+		uid: "b2a02411",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:black_hole_unit"
+		}]
+	}]
+}

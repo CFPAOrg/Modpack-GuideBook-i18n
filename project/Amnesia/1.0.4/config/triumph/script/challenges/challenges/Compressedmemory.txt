@@ -5,7 +5,7 @@ setIcon(<amnesia:memories_compressed_3>)
 setTitle("压缩记忆")
 
 //Set description String
-setDescription("获得三重压缩记忆")
+setDescription("获得三重压缩记忆方块")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("challenges:challenges/root")

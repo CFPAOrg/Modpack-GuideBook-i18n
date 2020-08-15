@@ -1,0 +1,44 @@
+{
+	x: -3.5d,
+	y: -11.0d,
+	text: [
+		"这只来自血腥的可憎之物能生产传说中的血之苹果，当食用时会将LP添加到你的个人网络。 如果在血之祭坛附近吃掉，它将会将LP添加到祭坛上。它也可以在更高的电压下直接加工为生命源质。"
+	],
+	dependencies: [
+		"bad8af80",
+		"832823a9",
+		"d94602f8"
+	],
+	tasks: [{
+		uid: "34396512",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:bloodchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "aa7ea124",
+		type: "item",
+		items: [{
+			item: "animus:bloodapple"
+		}]
+	}],
+	rewards: [{
+		uid: "13cac4a5",
+		type: "item",
+		item: "animus:bloodapple",
+		count: 8
+	},
+	{
+		uid: "b2fb0973",
+		type: "item",
+		item: "bloodmagic:slate 1 1",
+		count: 8
+	}]
+}

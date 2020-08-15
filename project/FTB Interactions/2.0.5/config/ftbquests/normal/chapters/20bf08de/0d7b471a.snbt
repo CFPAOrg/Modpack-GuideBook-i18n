@@ -1,0 +1,37 @@
+{
+	x: -5.0d,
+	y: -10.5d,
+	text: [
+		"空白次级核心可以在核心镶饰台中改造，为你提供挖掘，攻击和回复等各种效果。"
+	],
+	dependencies: [
+		"86372210"
+	],
+	tasks: [{
+		uid: "842f93ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:focus_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "41873c4a",
+		type: "item",
+		item: "minecraft:ender_pearl"
+	},
+	{
+		uid: "9d578d05",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "cyclicmagic:saturation"
+			}
+		}
+	}]
+}

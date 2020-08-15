@@ -1,0 +1,15 @@
+{
+	x: -12.5d,
+	y: 5.5d,
+	dependencies: [
+		"d85bce55",
+		"625261a5"
+	],
+	tasks: [{
+		uid: "c2c940f1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ignis_infused_0"
+		}]
+	}]
+}

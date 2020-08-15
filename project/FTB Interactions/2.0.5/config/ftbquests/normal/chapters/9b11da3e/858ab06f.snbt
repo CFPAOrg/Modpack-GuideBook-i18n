@@ -1,0 +1,21 @@
+{
+	title: "哪里才有最珍珍珍珍贵的东西？",
+	x: -13.0d,
+	y: -11.0d,
+	description: "搜索某种特定方块的扫描仪有助于你精确地找出矿物，你最少需要一个方块来将其绑定到扫描模块上。另外，绑定了箱子的扫描器能帮你快速的找到地牢！",
+	dependencies: [
+		"70a2cc40"
+	],
+	tasks: [{
+		uid: "0f26e660",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "scannable:module_block"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 11.0d,
+	y: -6.0d,
+	dependencies: [
+		"c63f2806"
+	],
+	tasks: [{
+		uid: "7b884588",
+		type: "item",
+		items: [{
+			id: "embers:ember_cartridge",
+			tag: {
+				emberCapacity: 6000.0d,
+				ember: 0.0d
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f39f079",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "无人火箭飞向太空！",
+	x: 3.0d,
+	y: -17.0d,
+	shape: "rsquare",
+	description: "要向太空发送无人驾驶火箭，你需要一个火箭监测站。请确保将无人驾驶火箭与火箭监测站连接",
+	dependencies: [
+		"323ae2d3"
+	],
+	tasks: [{
+		uid: "b18fdab0",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:monitoringstation"
+		}]
+	}]
+}

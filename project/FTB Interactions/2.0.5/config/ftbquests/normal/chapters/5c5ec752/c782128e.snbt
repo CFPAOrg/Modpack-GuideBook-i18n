@@ -1,0 +1,30 @@
+{
+	title: "烦人的炼金术",
+	x: -5.0d,
+	y: -3.0d,
+	text: [
+		"这个包的一个中心主题是科技和魔法的并行发展。一些魔法材料可以合理地用于科技，反之亦然。 为了开始青铜时代，你需要黄铜。地狱***应该***有着丰富的黄铜。",
+		"但目前没有办法去到地狱，你将不得不求助魔法来制作你的第一批黄铜。 你需要投入一点时间和资源在神秘时代模组上，从而制作出黄铜，查看【这是什么巫术】任务线获得更多的帮助。"
+	],
+	dependencies: [
+		"d6801307"
+	],
+	tasks: [{
+		uid: "3344ce5a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "09cf8c99",
+		type: "item",
+		item: "thaumcraft:nitor_purple"
+	},
+	{
+		uid: "03b869ed",
+		type: "item",
+		item: "thaumcraft:ingot 1 2",
+		count: 4
+	}]
+}

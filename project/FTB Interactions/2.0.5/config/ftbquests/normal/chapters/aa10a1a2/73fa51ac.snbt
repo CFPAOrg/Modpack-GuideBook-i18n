@@ -1,0 +1,53 @@
+{
+	title: "但愿我也能如此闪耀！",
+	x: -1.0d,
+	y: -2.5d,
+	description: "与MKI反应堆类似的方法搭建，但使用聚变线圈，只有使用ZPM和UV能源仓才能正常工作。",
+	dependencies: [
+		"0e127505"
+	],
+	tasks: [{
+		uid: "2895222e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2505"
+		}]
+	},
+	{
+		uid: "03f529ba",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil 1 8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "db48800d",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing 1 3"
+		}],
+		count: 79L
+	},
+	{
+		uid: "6035265a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}],
+		count: 2L
+	},
+	{
+		uid: "5478aad5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}]
+	}],
+	rewards: [{
+		uid: "160a94c6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10815",
+		count: 16
+	}]
+}

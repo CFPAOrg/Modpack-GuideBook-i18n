@@ -1,0 +1,32 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	dependencies: [
+		"b37a814e"
+	],
+	tasks: [{
+		uid: "09a21862",
+		type: "item",
+		items: [{
+			item: "iceandfire:fire_dragon_heart"
+		}]
+	},
+	{
+		uid: "4d2f94d5",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "62f24392",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a1e564f3",
+		type: "item",
+		item: "iceandfire:myrmex_jungle_resin",
+		count: 3
+	}]
+}

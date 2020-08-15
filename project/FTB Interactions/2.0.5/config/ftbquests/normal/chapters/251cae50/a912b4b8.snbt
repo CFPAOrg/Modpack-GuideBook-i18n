@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	text: [
+		"镓是一种用于制造高级电路的稀有金属。你可以通过加工地狱中的铝土矿或闪锌矿获得镓作为副产品。 "
+	],
+	dependencies: [
+		"a916453b"
+	],
+	tasks: [{
+		uid: "50b556d5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 25"
+		}]
+	}],
+	rewards: [{
+		uid: "32b0e2b0",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32451",
+		count: 8
+	}]
+}

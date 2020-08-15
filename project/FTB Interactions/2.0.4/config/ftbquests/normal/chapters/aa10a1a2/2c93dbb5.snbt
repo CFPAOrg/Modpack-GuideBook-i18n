@@ -1,0 +1,21 @@
+{
+	title: "自动农场? 请！",
+	x: -10.5d,
+	y: -1.0d,
+	shape: "circle",
+	text: [
+		"植物收获器右键植物来进行收获。对于这条任务线我们需要一个油菜农场。",
+		"或者，你可以创造一只油菜鸡来为你生产种子！"
+	],
+	dependencies: [
+		"9063ed56"
+	],
+	tasks: [{
+		uid: "bd0046cf",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_canola_seed"
+		}],
+		count: 64L
+	}]
+}

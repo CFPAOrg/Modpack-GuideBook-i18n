@@ -1,0 +1,21 @@
+{
+    "name": "燃料",
+    "icon": "hwell:fuel_dust",
+    "category": "other_mechanics",
+    "sortnum": 20,
+    "pages": [
+		{
+            "type": "crafting",
+			"title": "重型粒",
+			"text": "重型粒可以被压碎成燃料。",
+			"recipe": "hwell:heavy_nugget"		
+        },
+        {
+            "type": "crafting",
+			"title": "燃料粉末",
+			"text": "熔炼4个物品，或每一小撮熔炼1个物品。",
+			"recipe": "hwell:fuel_dust",
+			"recipe2": "hwell:fuel_dust_tiny"
+        }
+			]
+}

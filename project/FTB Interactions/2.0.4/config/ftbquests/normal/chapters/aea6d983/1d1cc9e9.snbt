@@ -1,0 +1,55 @@
+{
+	title: "星辰之鸡",
+	x: 4.0d,
+	y: -8.0d,
+	text: [
+		"这只星辉鸟儿会产下来自天上的蛋。它的富集蛋可以放入聚星缸里，作为产生星能液的原料。它们碎裂得非常快，但能产生可观的星能液。"
+	],
+	dependencies: [
+		"bad8af80",
+		"77432fb3"
+	],
+	tasks: [{
+		uid: "f000ee6c",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:astralchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "e07127ed",
+		type: "item",
+		items: [{
+			item: "contenttweaker:astral_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "5240969a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.aevitas",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					},
+					collectorType: 0
+				}
+			}
+		}
+	}]
+}

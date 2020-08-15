@@ -5,7 +5,7 @@ setIcon(<jwcrafter:crafter>)
 setTitle("使用失忆症制作")
 
 //Set description String
-setDescription("获得一个合成器，即使当失忆症发生时，它也可以自动为你合成物品。这可以用来使一些有用的物品产出。你能制作出什么样的自动合成产出呢？")
+setDescription("获得一个合成器，即使当失忆症发生时，它也可以自动为你合成物品。这可以产出一些有用的物品。你能制作出什么样的自动合成产出呢？")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("challenges:challenges/root")

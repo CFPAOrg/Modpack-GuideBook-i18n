@@ -1,0 +1,33 @@
+{
+	title: "源质传输",
+	x: -7.0d,
+	y: -6.0d,
+	text: [
+		"源质装置可以从所有有效的源质源头，例如炼金构材、蒸馏器和虚空罐子中析出和注入源质。有如注魔的时候那样抽取源质一样。这将大大的简化你的体验并允许你绕过",
+		"使用源质管道。 当与源质之镜一起使用时，您可以创建一个无线的源质生产设施，并将源质传送到任何您可能需要它的地方。"
+	],
+	dependencies: [
+		"1d2f9478",
+		"85a2b7d1"
+	],
+	tasks: [{
+		uid: "662cc4db",
+		type: "item",
+		items: [{
+			item: "thaumcraft:essentia_input"
+		}]
+	},
+	{
+		uid: "fb5dedba",
+		type: "item",
+		items: [{
+			item: "thaumcraft:essentia_output"
+		}]
+	}],
+	rewards: [{
+		uid: "edd79c35",
+		type: "item",
+		item: "thaumcraft:mirror_essentia",
+		count: 2
+	}]
+}

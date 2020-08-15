@@ -1,0 +1,42 @@
+{
+	title: "最大的牺牲需要最强烈的意志。",
+	x: 0.0d,
+	y: -9.0d,
+	shape: "square",
+	text: [
+		"所有配方都需要一个完全成熟的智慧鸡。只有最聪明的鸡才适合成为特殊类型的鸡。",
+		"从这里分支的每一种配方都需要10/10/10的智慧鸡，再加上特定品种的鸡所需的特定试剂。 当你进行到能制作某种鸡的进度，或是到达能找到它的地方，对应的鸡的任务就会解锁。"
+	],
+	dependencies: [
+		"5681a1ea"
+	],
+	tasks: [{
+		uid: "bf7c26fa",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 10,
+				Chicken: "chickens:smartchicken",
+				Gain: 10,
+				Strength: 10
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d84bdad2",
+		type: "item",
+		item: "minecraft:hay_block",
+		count: 32
+	},
+	{
+		uid: "8d689cbf",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "14a4d572",
+		type: "item",
+		item: "harvestcraft:chickensandwichitem"
+	}]
+}

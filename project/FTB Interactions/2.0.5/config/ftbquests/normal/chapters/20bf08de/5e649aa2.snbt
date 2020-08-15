@@ -1,0 +1,34 @@
+{
+	x: -14.0d,
+	y: -13.0d,
+	text: [
+		"此任务解锁神秘学到包括治愈核心在内的研究。"
+	],
+	can_repeat: true,
+	dependencies: [
+		"961eb3ac"
+	],
+	tasks: [{
+		uid: "315e1fa1",
+		type: "checkmark",
+		title: "你现在成为傲罗了，哈利",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:focus_3"
+		}
+	}],
+	rewards: [{
+		uid: "3f398206",
+		type: "command",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		},
+		command: "/thaumcraft research @p FOCUSHEAL"
+	}]
+}

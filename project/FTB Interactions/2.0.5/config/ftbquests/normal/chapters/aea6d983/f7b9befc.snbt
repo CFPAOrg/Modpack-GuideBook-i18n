@@ -1,0 +1,34 @@
+{
+	x: -2.5d,
+	y: -13.0d,
+	dependencies: [
+		"bad8af80",
+		"a916453b"
+	],
+	tasks: [{
+		uid: "fed471b4",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:concretechicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "6251be7a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:concrete_enriched_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "c7f0408d",
+		type: "item",
+		item: "gregtech:concrete",
+		count: 32
+	}]
+}

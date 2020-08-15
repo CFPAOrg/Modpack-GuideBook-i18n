@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"41b137aa"
+	],
+	tasks: [{
+		uid: "1c3eecf8",
+		type: "item",
+		items: [{
+			item: "aether_legacy:ambrosium_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "b24a3820",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

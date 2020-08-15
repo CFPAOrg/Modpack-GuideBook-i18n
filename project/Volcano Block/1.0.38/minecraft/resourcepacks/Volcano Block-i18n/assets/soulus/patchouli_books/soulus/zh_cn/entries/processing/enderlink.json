@@ -1,0 +1,31 @@
+{
+	"name": "The Enderlink",
+	"icon": "soulus:enderlink",
+	"advancement": "soulus:crystal_dark",
+	"category": "processing",
+	"sortnum": 10307,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The enderlink is a tool I've developed for teleportation. Some alien creatures could do so, and they infrequently dropped items that allowed me to teleport as well. However, I had never had a way to force the teleportation of an entity. The enderlink fulfills that purpose."
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:doodads/enderlink",
+			"title": "Recipe",
+			"text": "To use the enderlink, place it in the direction you want the creature to teleport out from, then place ender dust on the ground. When you, a creature, or even an item touches the ender dust, the enderlink should teleport you to itself."
+		},
+		{
+			"type": "text",
+			"text": "The enderlink is not the fastest means of transport, by far. It's rather inconsistent in operation and inconvenient to set up. However, it's perfect for quickly moving many things in a wide area to a tiny space. Are you picking up what I'm putting down? (Maybe not, but the enderlink definitely is.)$(p)Also, note, you can recolor the enderlink and the ender dust; the enderlink will only teleport things on dust of the same alignment."
+		},
+		{
+			"type": "relations",
+			"title": "Upgrades",
+			"entries": [
+				"summoning/range"
+			],
+			"text": "Each range upgrade will increase the teleportation range by around one block."
+		}
+	]
+}

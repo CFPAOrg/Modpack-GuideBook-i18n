@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: -2.0d,
+	dependencies: [
+		"889d8e5f"
+	],
+	tasks: [{
+		uid: "6c7505a5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32467"
+		}]
+	}],
+	rewards: [{
+		uid: "ac359851",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32504",
+		count: 64
+	},
+	{
+		uid: "4400bb1a",
+		type: "item",
+		item: "harvestcraft:minerstewitem"
+	}]
+}

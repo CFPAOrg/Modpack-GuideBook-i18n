@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: -4.5d,
+	text: [
+		"植物魔法的魔力水晶能提升8点附魔等级，盖亚水晶则能提升15点，不过它们都不能使附魔等级超过30。此外，魔力水晶是魔力附魔台的主要门槛。"
+	],
+	dependencies: [
+		"bcc51b66"
+	],
+	tasks: [{
+		uid: "912720d6",
+		type: "item",
+		items: [{
+			item: "botania:pylon"
+		}]
+	}],
+	rewards: [{
+		uid: "9e42ad32",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	},
+	{
+		uid: "e8dd03cd",
+		type: "item",
+		item: "harvestcraft:fishandchipsitem"
+	}]
+}

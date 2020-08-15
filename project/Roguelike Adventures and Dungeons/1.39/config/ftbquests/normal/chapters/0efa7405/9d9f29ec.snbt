@@ -1,0 +1,31 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	dependencies: [
+		"f3ec74db"
+	],
+	tasks: [{
+		uid: "03cda680",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}],
+	rewards: [{
+		uid: "02982d1f",
+		type: "item",
+		item: "thaumcraft:loot_bag 1 1"
+	},
+	{
+		uid: "2c63aef8",
+		type: "item",
+		item: "thaumcraft:plank_greatwood",
+		count: 32
+	},
+	{
+		uid: "f673f824",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 16
+	}]
+}

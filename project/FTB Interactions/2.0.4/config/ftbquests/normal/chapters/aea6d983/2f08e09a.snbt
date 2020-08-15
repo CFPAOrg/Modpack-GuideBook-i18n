@@ -1,0 +1,31 @@
+{
+	x: -2.0d,
+	y: -6.0d,
+	text: [
+		"通过一系列神奇的注魔，这只鸡可以直接产生魔力蛋，完全消除了你对魔力生产的欲望...当然，是以能量为代价的。"
+	],
+	dependencies: [
+		"bad8af80",
+		"d94602f8"
+	],
+	tasks: [{
+		uid: "e870df43",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:manachicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "097d8da7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mana_enriched_egg"
+		}]
+	}]
+}

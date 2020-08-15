@@ -1,0 +1,28 @@
+{
+	title: "青铜时代是第三好的时代。",
+	x: -3.0d,
+	y: -1.0d,
+	shape: "diamond",
+	description: "你最好从底部输入水，因为在消耗熔炉燃料产生热量之后，其他的面都会输出蒸汽。所有消耗蒸汽的格雷机器都有一个耗尽喷口。请确保喷口暴露于空气中，否则机器会堵塞卡住。",
+	dependencies: [
+		"eafc12e8"
+	],
+	tasks: [{
+		uid: "c30b15df",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			tag: {
+				PaintingColor: 16777215
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "70a62b4d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12095",
+		count: 16
+	}]
+}

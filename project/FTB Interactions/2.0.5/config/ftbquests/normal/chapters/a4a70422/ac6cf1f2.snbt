@@ -1,0 +1,26 @@
+{
+	x: -11.0d,
+	y: 4.0d,
+	description: "存储63种物品，用3个可以换4倍的容量。",
+	dependencies: [
+		"1645b4b1"
+	],
+	tasks: [{
+		uid: "57cb9943",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 37"
+		}]
+	}],
+	rewards: [{
+		uid: "296d402b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		}
+	}]
+}

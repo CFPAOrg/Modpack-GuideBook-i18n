@@ -1,0 +1,17 @@
+[
+ {
+  "id": "getting",
+  "title": "去到这里",
+  "icon": "item:thebetweenlands:swamp_talisman"
+ },
+ {
+  "id": "guide",
+  "title": "生存的基础指导",
+  "icon": "item:thebetweenlands:swamp_talisman"
+ },
+ {
+  "id": "tools",
+  "title": "新的工具",
+  "icon": "item:thebetweenlands:swamp_talisman"
+ }
+]

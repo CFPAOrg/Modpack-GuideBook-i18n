@@ -1,0 +1,30 @@
+{
+	x: -12.5d,
+	y: 1.0d,
+	text: [
+		"氧气主要用于特定的高炉配方、电弧炉配方和许多化学反应。"
+	],
+	dependencies: [
+		"eebe34c9"
+	],
+	tasks: [{
+		uid: "4c5b2778",
+		type: "checkmark",
+		title: "氧气单元",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oxygen",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}],
+	rewards: [{
+		uid: "aa75f05b",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

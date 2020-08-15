@@ -1,0 +1,40 @@
+{
+    "name": "神秘粉",
+    "icon": "hwell:myst_dust",
+    "category": "introduction",
+    "sortnum": 20,
+    "pages": [
+        	{	
+        	"type": "spotlight",
+            "title": "神秘粉",
+            "item": "hwell:myst_dust",
+            "link_recipe": true,
+            "text": "用灵魂填充一个空棒，然后将其压碎$(br2)或者，用神秘粉对着草方块右键，然后等待神秘草成长并收获"
+        },
+		{
+            "type": "crafting",
+			"title": "神秘粉块",
+			"text": "神秘粉可以制造成块状粉, 以此可以用于进一步的制作.",
+			"recipe": "hwell:myst_dust_block"		
+        },
+	    {
+            "type": "crafting",
+			"title": "石粉",
+			"recipe": "hwell:dust"
+		},
+	    {
+            "type": "crush",
+			"name": "石粉",
+			"recipe": "hwell:dust",
+			"input1": "hwell:crushing_block",
+			"input2": "minecraft:cobblestone",
+			"output": "hwell:dust",
+			"text": "将物品扔到地面上，然后将压碎方块放置在上方。它会像沙子一样掉下，压碎下面的东西。"
+		},
+	    {
+            "type": "smelting",
+			"text": "将石头压碎成粉末。制成块状后，可以在熔炉中将其熔炼成玻璃。",
+			"recipe2": "hwell:dust_block"
+			}
+    ]
+}

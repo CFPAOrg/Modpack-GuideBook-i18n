@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	description: "容易制作，但不是很有用。在地牢中，它通常会回到之前的口袋，但有时地牢中的第二扇橡树门会回到玩家第一次进入这个地牢链的地方。",
+	text: [
+		"使用这扇门来离开这个维度。"
+	],
+	tasks: [{
+		uid: "a048962f",
+		type: "item",
+		items: [{
+			item: "dimdoors:oak_dimensional_door"
+		}]
+	}],
+	rewards: [{
+		uid: "930d8aca",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "c0922701",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

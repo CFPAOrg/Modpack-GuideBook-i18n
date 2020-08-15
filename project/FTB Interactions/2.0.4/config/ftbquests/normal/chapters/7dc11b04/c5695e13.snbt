@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	dependencies: [
+		"436c48ef"
+	],
+	tasks: [{
+		uid: "3a70b01d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 29"
+		}]
+	}],
+	rewards: [{
+		uid: "6aba1a04",
+		type: "item",
+		item: "botania:manaresource 1 2",
+		count: 2
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -10.5d,
+	y: 1.0d,
+	description: "什么？你以为我们会通过压缩压缩机中的空单元来收集空气吗？",
+	text: [
+		"充气鸡可以直接生产其中很多的产物。",
+		""
+	],
+	tasks: [{
+		uid: "26102a6b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 950"
+		},
+		{
+			item: "contenttweaker:gassy_enriched_egg"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -3.0d,
+	dependencies: [
+		"7477c930"
+	],
+	tasks: [{
+		uid: "737554e9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:iron_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "eef6c027",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

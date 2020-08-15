@@ -1,0 +1,29 @@
+{
+	title: "困难的是金红石",
+	x: -6.0d,
+	y: 0.0d,
+	description: "电解39个铝土矿粉，只能得到两个金红石粉；或者离心三个纯净的粉碎铝土矿也可以得到一个金红石粉。幸运的是，我们在地狱中发现了铝土矿脉，还在遥远的Euclydes星上发现了更为富集的金红石矿脉。",
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "c8150421",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2122"
+		}]
+	},
+	{
+		uid: "d8f97bdd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2123"
+		}],
+		count: 39L
+	}],
+	rewards: [{
+		uid: "c88e0810",
+		type: "item",
+		item: "gregtech:ore_rutile_0"
+	}]
+}

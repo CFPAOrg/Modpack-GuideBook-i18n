@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"d3601ed0"
+	],
+	tasks: [{
+		uid: "7bf54791",
+		type: "item",
+		items: [{
+			item: "twilightforest:charm_of_keeping_3"
+		}]
+	}],
+	rewards: [{
+		uid: "c0c49178",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

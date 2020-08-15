@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	dependencies: [
+		"a83bb8c5"
+	],
+	tasks: [{
+		uid: "1084baa6",
+		type: "item",
+		items: [{
+			id: "aether_legacy:moa_egg",
+			tag: {
+				typeId: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6dac19df",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

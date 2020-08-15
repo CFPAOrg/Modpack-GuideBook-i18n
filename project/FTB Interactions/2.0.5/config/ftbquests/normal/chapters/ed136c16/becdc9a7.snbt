@@ -1,0 +1,30 @@
+{
+	x: -13.0d,
+	y: 0.5d,
+	description: "通过通灵能量注入器你可以在通灵网络内存储RF能量，便于日后提取。此能量与放置注入器的玩家绑定！",
+	dependencies: [
+		"caf422c5"
+	],
+	tasks: [{
+		uid: "d9b48988",
+		type: "item",
+		items: [{
+			item: "randomthings:spectreenergyinjector"
+		}]
+	}],
+	rewards: [{
+		uid: "9615be6b",
+		type: "item",
+		item: "thaumcraft:vis_battery"
+	},
+	{
+		uid: "0275d784",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:soulstone"
+		}
+	}]
+}

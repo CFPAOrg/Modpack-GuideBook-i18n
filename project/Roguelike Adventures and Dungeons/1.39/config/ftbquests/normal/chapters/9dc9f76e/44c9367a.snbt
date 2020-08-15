@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"ef285682"
+	],
+	tasks: [{
+		uid: "6e56f791",
+		type: "item",
+		items: [{
+			item: "comforts:sleeping_bag"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b2b4d69d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

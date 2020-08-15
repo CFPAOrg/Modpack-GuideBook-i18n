@@ -1,0 +1,35 @@
+{
+	title: "独秀钢",
+	x: -9.0d,
+	y: 4.0d,
+	shape: "square",
+	description: "如果你没玩过格雷的话，你要知道HV时代是大多数玩家开始真正建造基础设施的时候。很有可能你在你的生产线上使用的不锈钢远多于其他金属。",
+	dependencies: [
+		"ace65682"
+	],
+	tasks: [{
+		uid: "7c5d7dcd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10183"
+		}]
+	},
+	{
+		uid: "eb944d1b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 503"
+		}]
+	}],
+	rewards: [{
+		uid: "c9de3e24",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2039",
+		count: 8
+	},
+	{
+		uid: "65dae228",
+		type: "item",
+		item: "harvestcraft:friedchickenitem"
+	}]
+}

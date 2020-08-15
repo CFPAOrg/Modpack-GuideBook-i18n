@@ -1,0 +1,16 @@
+{
+	x: -13.0d,
+	y: 3.5d,
+	shape: "square",
+	text: [
+		"你已经到达HV阶段，现在可以改进你的柴油生产线啦！包括产率和最终成品。"
+	],
+	dependencies: [
+		"d94602f8"
+	],
+	tasks: [{
+		uid: "5a8f80e5",
+		type: "checkmark",
+		title: "改良你的柴油"
+	}]
+}

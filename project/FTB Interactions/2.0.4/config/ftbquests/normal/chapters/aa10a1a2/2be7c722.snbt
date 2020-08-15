@@ -1,0 +1,53 @@
+{
+	title: "你已经有了无尽之瓮",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "mekanism:machineblock",
+		Damage: 12s
+	},
+	x: -13.0d,
+	y: -3.5d,
+	description: "当你进入LV时代，你可以制造一个更好的水源，蓄水器能免费产水，Mekanism 泵更快但需要能量。你可以自己选择。",
+	text: [
+		""
+	],
+	dependencies: [
+		"c13fb853",
+		"51878972"
+	],
+	tasks: [{
+		uid: "77a980c2",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0,
+				Facing: 3,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "421ed431",
+		type: "item",
+		item: "gregtech:machine 1 2197"
+	}]
+}

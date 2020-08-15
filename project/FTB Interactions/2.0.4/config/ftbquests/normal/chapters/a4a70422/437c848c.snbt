@@ -1,0 +1,28 @@
+{
+	icon: "ironchest:iron_chest",
+	x: -16.0d,
+	y: -7.0d,
+	text: [
+		"拥有 6x9 格的存储空间。"
+	],
+	dependencies: [
+		"f74bda48"
+	],
+	tasks: [{
+		uid: "16c9049a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironchest:wood_iron_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2a040c96",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 34"
+	}]
+}

@@ -1,0 +1,88 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "5d0139e7",
+		type: "item",
+		items: [{
+			item: "inventorypets:nether_portal_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "274fbabe",
+		type: "item",
+		items: [{
+			item: "inventorypets:pet_politically_correct"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "464743c0",
+		type: "item",
+		items: [{
+			id: "inventorypets:illuminati_pet",
+			tag: {
+				slowDelay: 12010
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e48a511b",
+		type: "item",
+		items: [{
+			item: "inventorypets:april_fool_pet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "70fc2999",
+		type: "item",
+		items: [{
+			item: "inventorypets:pet_mishumaa_saba"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f1a5e201",
+		type: "item",
+		items: [{
+			item: "inventorypets:pet_menorah"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "80ae8b49",
+		type: "item",
+		items: [{
+			item: "inventorypets:pet_christmas_tree"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0388f6d9",
+		type: "item",
+		items: [{
+			id: "inventorypets:black_hole_pet",
+			tag: {
+				AttractItems: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8367f214",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

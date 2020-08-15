@@ -1,0 +1,38 @@
+{
+	title: "默然忍受玩家的暴虐的充能箭",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"-凋零骷髅能被更容易找到！它会生成在下界的每一个角落。",
+		"-它们也会获得普通骷髅所有的强化。"
+	],
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "3b93a502",
+		type: "kill",
+		icon: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:wither_skeleton"
+			},
+			Damage: 37s
+		},
+		entity: "minecraft:wither_skeleton",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "486a4dfa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xreliquary:mob_charm",
+			tag: {
+				type: 2
+			}
+		}
+	}]
+}

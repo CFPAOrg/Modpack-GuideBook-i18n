@@ -1,0 +1,24 @@
+{
+	title: "永远不要放弃你自己",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -4.0d,
+	y: -5.0d,
+	shape: "gear",
+	description: "如果你在一个队伍中游戏，使用Together Forever的命令同步你们的gamestages。",
+	text: [
+		"/tofe invite <玩家名>",
+		"/tofe accept <玩家名>",
+		"/tofe kick <玩家名>",
+		"/tofe info"
+	],
+	tasks: [{
+		uid: "b479aa54",
+		type: "checkmark"
+	}]
+}

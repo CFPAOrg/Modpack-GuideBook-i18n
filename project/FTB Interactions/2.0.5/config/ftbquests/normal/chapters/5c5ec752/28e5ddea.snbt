@@ -1,0 +1,42 @@
+{
+	title: "炼狱研究",
+	icon: "minecraft:obsidian",
+	x: 1.5d,
+	y: 1.0d,
+	shape: "diamond",
+	description: "进入LV阶段并制造更高级的金属。",
+	text: [
+		"这个任务的奖励会为你解锁建造炼狱熔炉所需的研究。这是通往钢铁和LV机器的必经之路。"
+	],
+	dependencies: [
+		"669a0a29"
+	],
+	tasks: [{
+		uid: "3aee36fd",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "37197b8c",
+		type: "command",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		},
+		command: "/thaumcraft research @p INFERNALFURNACE"
+	},
+	{
+		uid: "c95e2f2c",
+		type: "command",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		},
+		command: "/thaumcraft research @p BELLOWS"
+	}]
+}

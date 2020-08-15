@@ -1,0 +1,54 @@
+{
+	title: "混沌锦衣",
+	x: 1.0d,
+	y: 6.0d,
+	text: [
+		"顶层祭坛可以让你制作星辉魔法的强力的护甲：星斗披风。它有着许多不同的能力，能给你提供强大的增益效果，而它的能力取决于你给它共鸣的星座。",
+		"",
+		"另一个好处是保护你完全免疫混沌伤害。 这或许可以帮你打败依靠混沌力量攻击你的强大敌人。"
+	],
+	dependencies: [
+		"645e1204"
+	],
+	tasks: [{
+		uid: "f90f5c4c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcape",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ac3484f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:iteminfusedglass",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	},
+	{
+		uid: "872f376d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:iteminfusedglass",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	}]
+}

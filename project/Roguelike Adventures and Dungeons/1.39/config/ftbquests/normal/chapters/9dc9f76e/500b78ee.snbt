@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -5.0d,
+	dependencies: [
+		"c38c5b44"
+	],
+	tasks: [{
+		uid: "549eb4cf",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}]
+	}],
+	rewards: [{
+		uid: "b1dc55c3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	dependencies: [
+		"7b1045cb"
+	],
+	tasks: [{
+		uid: "c6b0dad5",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_healing_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f5d7e19",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

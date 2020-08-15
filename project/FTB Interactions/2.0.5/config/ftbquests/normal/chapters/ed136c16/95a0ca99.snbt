@@ -1,0 +1,27 @@
+{
+	title: "本来无一物",
+	x: -5.0d,
+	y: -4.5d,
+	description: "何处惹尘埃",
+	text: [
+		"虚空背包可以自动摧毁你物品栏中的物品，一定要开启白名单。"
+	],
+	dependencies: [
+		"09586bfe"
+	],
+	tasks: [{
+		uid: "26902743",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1
+			},
+			Damage: 100s
+		}],
+		ignore_nbt: 1b
+	}]
+}

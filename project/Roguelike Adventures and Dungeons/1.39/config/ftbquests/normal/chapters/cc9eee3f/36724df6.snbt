@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -5.0d,
+	dependencies: [
+		"1cc55467"
+	],
+	tasks: [{
+		uid: "f1c0db54",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:skeleton_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "88208db4",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

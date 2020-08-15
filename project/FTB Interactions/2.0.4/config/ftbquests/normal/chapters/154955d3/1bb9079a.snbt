@@ -1,0 +1,44 @@
+{
+	icon: "primal_tech:clay_kiln",
+	x: 0.0d,
+	y: 3.0d,
+	description: "这是你的第一个炉子。用它熔炼物品也会给你经验，这在接下来的步骤中可能很有用。",
+	text: [
+		"熔炼需要时间，我们建议你制作多个窑。"
+	],
+	dependencies: [
+		"29f7cca1"
+	],
+	tasks: [{
+		uid: "0808761c",
+		type: "item",
+		items: [{
+			item: "primal_tech:clay_kiln"
+		}]
+	},
+	{
+		uid: "072a5d83",
+		type: "item",
+		items: [{
+			item: "primal_tech:charcoal_block"
+		}]
+	},
+	{
+		uid: "bf15b0dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal_tech:fire_sticks"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ffc51c6",
+		type: "item",
+		item: "harvestcraft:sausagebeanmeltitem"
+	}]
+}

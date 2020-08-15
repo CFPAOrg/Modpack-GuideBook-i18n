@@ -1,0 +1,127 @@
+{
+	x: -3.0d,
+	y: -5.0d,
+	dependencies: [
+		"873fa349"
+	],
+	tasks: [{
+		uid: "b1f849f5",
+		type: "item",
+		items: [{
+			id: "spartanfire:katana_ice_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4eb1a696",
+		type: "item",
+		items: [{
+			id: "spartanfire:greatsword_ice_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: 2564837179710852503L,
+						UUIDLeast: -7815180956573197785L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.short.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50309570",
+		type: "item",
+		items: [{
+			id: "spartanfire:longsword_ice_dragonbone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b81f9bcd",
+		type: "item",
+		items: [{
+			id: "spartanfire:saber_ice_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 3151706798252117618L,
+						UUIDLeast: -8439056812923910967L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broken.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "77a15d41",
+		type: "item",
+		items: [{
+			id: "spartanfire:rapier_ice_dragonbone",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -271615166974375780L,
+						UUIDLeast: -7740469252576079410L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2926222598323062678L,
+						UUIDLeast: -7040457933543044336L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "deb6f0a9",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "bd4ce6c0",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

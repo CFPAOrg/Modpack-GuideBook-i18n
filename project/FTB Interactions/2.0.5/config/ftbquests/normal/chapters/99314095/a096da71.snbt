@@ -1,0 +1,21 @@
+{
+	title: "组装机：奥创纪元",
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"a1d50784"
+	],
+	tasks: [{
+		uid: "2c76e804",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 101"
+		}]
+	}],
+	rewards: [{
+		uid: "c6bcf4a7",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32440",
+		count: 16
+	}]
+}

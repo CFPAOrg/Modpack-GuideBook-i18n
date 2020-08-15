@@ -1,0 +1,23 @@
+{
+	x: -22.0d,
+	y: -6.0d,
+	text: [
+		"啊，原版的漏斗老伙计，仍然能像以前一样胜任这项工作。"
+	],
+	dependencies: [
+		"589141bd"
+	],
+	tasks: [{
+		uid: "ad1da9a8",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "33fcc749",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12033",
+		count: 4
+	}]
+}

@@ -1,0 +1,114 @@
+{
+	title: "最终，这并不重要",
+	icon: "enderio:block_enderman_skull",
+	x: -4.0d,
+	y: -7.0d,
+	text: [
+		"末影人变的更加麻烦了",
+		"-可以把攻击他们的玩家传送走",
+		"-有极小几率会给予目标失明效果",
+		"",
+		"为平衡加强后的末影人，末影人死亡后掉落至少一颗末影珍珠，你还可以在你的物品栏里留有末影珍珠来防止他们的随机传送"
+	],
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "a3f4e6f4",
+		type: "kill",
+		entity: "minecraft:enderman",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "2848a0fc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5570085101611273969L,
+					AS_Amulet_HolderMost: 5678865977197479355L
+				}
+			},
+			id: "plustic:katana",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.25f,
+					FreeModifiers: 3,
+					Durability: 690,
+					HarvestLevel: 4,
+					Attack: 7.5f
+				},
+				Unbreakable: 1,
+				PlusTiC_Counter: 0.0f,
+				display: {
+					Name: "Void Hunter"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.25f,
+					FreeModifiers: 3,
+					Durability: 690,
+					HarvestLevel: 4,
+					Attack: 7.5f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 5,
+					Materials: [
+						"thaumium",
+						"dark_steel",
+						"enderium_plustic",
+						"xu_enchanted_metal"
+					],
+					Modifiers: [
+						"reinforced",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "thaumic",
+					color: -14811034,
+					level: 1
+				},
+				{
+					identifier: "enderference",
+					color: -9671572,
+					level: 1
+				},
+				{
+					identifier: "portly",
+					color: -16733696,
+					level: 1
+				},
+				{
+					identifier: "xu_xp_boost",
+					color: -4197792,
+					level: 1
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 5
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 4
+				}],
+				Traits: [
+					"thaumic",
+					"enderference",
+					"portly",
+					"xu_xp_boost",
+					"reinforced"
+				]
+			}
+		}
+	}]
+}

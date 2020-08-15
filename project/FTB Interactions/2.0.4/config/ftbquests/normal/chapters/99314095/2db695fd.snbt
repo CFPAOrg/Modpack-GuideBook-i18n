@@ -1,0 +1,35 @@
+{
+	title: "查看化学章节，“氩根儿就没有什么好标题能用在这”。",
+	x: -1.0d,
+	y: 0.0d,
+	description: "虽然电力高炉是你的主要助力，但这也是一个配套设备。将会有很多化学物质或物品在这台机器里结合，但在LV时代，你可以暂时摆脱它。",
+	text: [
+		"在每个等级，你都需要一堆这种机器用于化学合成。"
+	],
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "d9587647",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 190"
+		}]
+	}],
+	rewards: [{
+		uid: "9b37b245",
+		type: "item",
+		item: "minecraft:ender_eye"
+	},
+	{
+		uid: "e2125f6d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32766"
+	},
+	{
+		uid: "0120d1ec",
+		type: "item",
+		item: "gregtech:machine 1 190",
+		count: 2
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: -2.0d,
+	dependencies: [
+		"75298381"
+	],
+	tasks: [{
+		uid: "b841dc43",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:tarminion"
+		}]
+	}],
+	rewards: [{
+		uid: "ba324931",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

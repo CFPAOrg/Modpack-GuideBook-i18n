@@ -1,0 +1,39 @@
+{
+	title: "速成教学",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ceramics:clay_bucket",
+		tag: {
+			fluids: {
+				FluidName: "lava",
+				Amount: 1000
+			}
+		}
+	},
+	x: -3.0d,
+	y: 10.0d,
+	description: "只要你拥有一个将黑曜石转化为岩浆的物品。",
+	dependencies: [
+		"2b15bcdb",
+		"bc16b2a8",
+		"b7027e49"
+	],
+	tasks: [{
+		uid: "1bf621af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

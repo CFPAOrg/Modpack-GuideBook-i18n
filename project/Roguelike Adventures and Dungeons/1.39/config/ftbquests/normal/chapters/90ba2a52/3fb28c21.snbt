@@ -1,0 +1,18 @@
+{
+	title: "Kill 50x Skeletons",
+	x: 1.0d,
+	y: 1.0d,
+	shape: "octagon",
+	can_repeat: true,
+	tasks: [{
+		uid: "3a0cd2f9",
+		type: "kill",
+		entity: "minecraft:skeleton",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "c5c9a489",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

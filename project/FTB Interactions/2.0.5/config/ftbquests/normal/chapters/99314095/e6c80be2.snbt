@@ -1,0 +1,92 @@
+{
+	x: -11.0d,
+	y: 8.0d,
+	dependencies: [
+		"c067f204"
+	],
+	tasks: [{
+		uid: "994b75fd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32603"
+		}],
+		count: 40L
+	},
+	{
+		uid: "f6f942a1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32613"
+		}]
+	},
+	{
+		uid: "d8351b9d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32633"
+		}]
+	},
+	{
+		uid: "030b2f75",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32643"
+		}]
+	},
+	{
+		uid: "bccf1deb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32653"
+		}]
+	}],
+	rewards: [{
+		uid: "c94d4e55",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_1 1 14299",
+		count: 32
+	},
+	{
+		uid: "519093a9",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_1 1 10072",
+		count: 32
+	},
+	{
+		uid: "603076b9",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:cable 1 3087",
+		count: 64
+	},
+	{
+		uid: "2f982006",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:cable 1 1",
+		count: 32
+	},
+	{
+		uid: "938cba85",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_1 1 10152",
+		count: 32
+	},
+	{
+		uid: "d930c1b9",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_1 1 18152",
+		count: 8
+	},
+	{
+		uid: "373ac00b",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_2 1 18183",
+		count: 8
+	}]
+}

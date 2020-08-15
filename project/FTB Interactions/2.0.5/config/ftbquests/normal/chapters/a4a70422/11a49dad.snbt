@@ -1,0 +1,18 @@
+{
+	x: -5.0d,
+	y: -3.0d,
+	description: "终于有东西能存下你所有的星能液了。",
+	dependencies: [
+		"7dba0de1"
+	],
+	tasks: [{
+		uid: "35ac1ad1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:black_hole_tank"
+		}]
+	}]
+}

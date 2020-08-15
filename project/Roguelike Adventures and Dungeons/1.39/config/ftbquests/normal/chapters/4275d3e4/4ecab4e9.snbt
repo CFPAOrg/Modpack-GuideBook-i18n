@@ -1,0 +1,29 @@
+{
+	x: 5.0d,
+	y: -2.0d,
+	dependencies: [
+		"e6c0ab01"
+	],
+	tasks: [{
+		uid: "c34a0fcf",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mortar"
+		}]
+	},
+	{
+		uid: "e0a9c6f2",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:pestle",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8da441ba",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

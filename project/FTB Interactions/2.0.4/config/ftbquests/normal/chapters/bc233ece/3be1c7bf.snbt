@@ -1,0 +1,27 @@
+{
+	x: -4.5d,
+	y: -1.0d,
+	dependencies: [
+		"19612041",
+		"76231851"
+	],
+	tasks: [{
+		uid: "92841c3e",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "titanium_tetrachloride",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}]
+	}],
+	rewards: [{
+		uid: "3588118e",
+		type: "item",
+		item: "harvestcraft:gourmetporkburgeritem"
+	}]
+}

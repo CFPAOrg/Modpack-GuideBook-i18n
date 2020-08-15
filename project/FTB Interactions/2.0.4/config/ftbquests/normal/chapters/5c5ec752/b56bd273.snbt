@@ -1,0 +1,20 @@
+{
+	title: "准备进入电力时代。",
+	x: -1.5d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"现在你可以进入LV阶段啦，你最好去看一眼电源解决方案的任务章节，确保你有足够的蒸汽产出，否则你可能会一直等到海枯石烂。"
+	],
+	dependencies: [
+		"2e003362"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ee1beaf3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 501"
+		}]
+	}]
+}

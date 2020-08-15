@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	dependencies: [
+		"2dbc84d3"
+	],
+	tasks: [{
+		uid: "26144206",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:seed_reprocessor"
+		}]
+	}],
+	rewards: [{
+		uid: "b3d44321",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

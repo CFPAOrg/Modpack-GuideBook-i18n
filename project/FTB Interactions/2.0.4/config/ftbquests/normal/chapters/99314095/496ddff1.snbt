@@ -1,0 +1,28 @@
+{
+	x: -9.0d,
+	y: 14.0d,
+	shape: "square",
+	dependencies: [
+		"1cd767eb"
+	],
+	tasks: [{
+		uid: "34af4016",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10047"
+		}]
+	},
+	{
+		uid: "48179820",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 508"
+		}]
+	}],
+	rewards: [{
+		uid: "07016eb2",
+		type: "item",
+		item: "gregtech:cable 1 47",
+		count: 16
+	}]
+}

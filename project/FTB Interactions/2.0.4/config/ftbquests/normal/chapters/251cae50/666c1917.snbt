@@ -1,0 +1,31 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	dependencies: [
+		"bbd4247f"
+	],
+	tasks: [{
+		uid: "4805e478",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32498"
+		}]
+	}],
+	rewards: [{
+		uid: "4b85e013",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32018",
+		count: 64
+	},
+	{
+		uid: "ca4b1afd",
+		type: "item",
+		item: "harvestcraft:deviledeggitem"
+	},
+	{
+		uid: "c6ffa997",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32498",
+		count: 2
+	}]
+}

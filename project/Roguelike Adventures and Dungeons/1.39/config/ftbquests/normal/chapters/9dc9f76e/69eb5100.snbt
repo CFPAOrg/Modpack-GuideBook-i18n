@@ -1,0 +1,27 @@
+{
+	x: -2.0d,
+	y: -5.0d,
+	dependencies: [
+		"73298fe2"
+	],
+	tasks: [{
+		uid: "c08327bd",
+		type: "item",
+		items: [{
+			item: "aquaculture:iron_fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e143e29",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "a7a04ebe",
+		type: "item",
+		item: "minecraft:dye",
+		count: 32
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -9.0d,
+	y: -10.0d,
+	description: "最先进的神经网络可操作分析软件，大数据机构将其应用于物联网机器人。 ",
+	tasks: [{
+		uid: "7ea85d67",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "deepmoblearning:creative_model_learner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "029a9cdb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "deepmoblearning:data_model_dragon"
+		}
+	}]
+}

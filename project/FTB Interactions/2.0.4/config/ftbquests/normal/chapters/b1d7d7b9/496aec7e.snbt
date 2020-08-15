@@ -1,0 +1,40 @@
+{
+	title: "看着水沸腾",
+	x: -12.5d,
+	y: -9.0d,
+	description: "为了加热热力蒸馏塔来制造盐水和锂，你需要一个有效的热源，木料加热器燃烧固体燃料，电阻加热装置使用FE能量。",
+	dependencies: [
+		"820b1cf6"
+	],
+	tasks: [{
+		uid: "dd979c81",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock3",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock3",
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e7b14840",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 6s
+		},
+		count: 4
+	}]
+}

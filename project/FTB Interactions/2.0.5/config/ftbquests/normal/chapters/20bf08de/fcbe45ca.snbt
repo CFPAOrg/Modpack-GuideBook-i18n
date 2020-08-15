@@ -1,0 +1,24 @@
+{
+	x: -4.0d,
+	y: -9.0d,
+	text: [
+		"自动化生产炫珠母液很重要，制造奥术石材时你会用到很多。"
+	],
+	dependencies: [
+		"2856b0e6",
+		"fa94a505"
+	],
+	tasks: [{
+		uid: "c9768754",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}]
+	}],
+	rewards: [{
+		uid: "41d67331",
+		type: "item",
+		item: "thaumcraft:stone_arcane",
+		count: 16
+	}]
+}

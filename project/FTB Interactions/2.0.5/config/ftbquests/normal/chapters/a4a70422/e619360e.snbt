@@ -1,0 +1,32 @@
+{
+	title: "铺设管道中",
+	icon: {
+		id: "mekanism:transmitter",
+		tag: {
+			tier: 0
+		},
+		Damage: 1s
+	},
+	x: -21.0d,
+	y: -3.0d,
+	description: "通用机械的基础机械管道除了输入输出液体还可以设置红石模式，对于前期来说是不错的管道。",
+	text: [
+		"你知道吗？Mekanism的管道可以在世界中升级。只需要用更高一级的合金右击管道，相连的管道就会转换成更高一级的管道，当然最多还是八根。"
+	],
+	tasks: [{
+		uid: "6b467c22",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "1f0adb98",
+		type: "item",
+		item: "mekanism:enrichedalloy"
+	}]
+}

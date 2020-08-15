@@ -1,0 +1,29 @@
+{
+	title: "远距离输电",
+	x: -12.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	text: [
+		"作物真的能在这些有污染的机器附近生长？它们可能可以，但用一些方法远距离输电一个更好的选择。",
+		"配合使用CEF/CEU可以转换RF和GT能量。你可以给通灵能量注入器充能，把RF能量传到远处然后再视情况再转换回GT能量。"
+	],
+	dependencies: [
+		"9063ed56"
+	],
+	tasks: [{
+		uid: "495fecbe",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 10658"
+		},
+		{
+			item: "randomthings:spectrecoil_normal"
+		},
+		{
+			item: "gregtech:machine 1 10666"
+		},
+		{
+			item: "gregtech:machine 1 10674"
+		}]
+	}]
+}

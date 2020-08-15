@@ -1,0 +1,25 @@
+{
+	title: "不，这不钻石",
+	x: -3.0d,
+	y: 0.5d,
+	shape: "rsquare",
+	description: "海蓝宝石是之后魔法工序中极为重要的原材料。你现在或许没有能力使用蓝宝石精炼得到它，但你仍然可以在位于主世界各地的星辉神殿中找到它。",
+	tasks: [{
+		uid: "e76ca271",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent"
+		}]
+	}],
+	rewards: [{
+		uid: "463e04f9",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent",
+		count: 2
+	},
+	{
+		uid: "85f87fbc",
+		type: "item",
+		item: "harvestcraft:blueberrysmoothieitem"
+	}]
+}

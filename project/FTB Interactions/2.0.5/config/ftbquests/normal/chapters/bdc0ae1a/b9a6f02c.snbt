@@ -1,0 +1,20 @@
+{
+	title: "魔力生产",
+	x: 3.5d,
+	y: 3.0d,
+	shape: "square",
+	description: "是时候生产魔力了。你的起始选择分别是石油矮牵牛和启命英。其他的产能花你暂时做不出来。",
+	text: [
+		"石油矮牵牛能燃烧任何可燃的液体燃料，比如杂酚油或者柴油，甚至能够直接从储罐里抽取。"
+	],
+	dependencies: [
+		"1b10cc2d"
+	],
+	tasks: [{
+		uid: "82793346",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 23"
+		}]
+	}]
+}

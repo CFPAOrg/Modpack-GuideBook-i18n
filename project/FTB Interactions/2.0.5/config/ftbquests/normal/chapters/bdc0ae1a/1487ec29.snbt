@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: 8.0d,
+	dependencies: [
+		"57568467"
+	],
+	tasks: [{
+		uid: "f9a27674",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "3fb948ae",
+		type: "item",
+		item: "avaritia:resource",
+		count: 2
+	},
+	{
+		uid: "bbf82791",
+		type: "item",
+		item: "harvestcraft:stuffedduckitem"
+	}]
+}

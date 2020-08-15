@@ -1,0 +1,28 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	description: "在Y轴30-100之间生成。",
+	dependencies: [
+		"f92a387e"
+	],
+	tasks: [{
+		uid: "379e21fe",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_bauxite_0 1 6"
+		}]
+	},
+	{
+		uid: "e6cf16e9",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tantalite_0 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "02c52666",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2123",
+		count: 11
+	}]
+}

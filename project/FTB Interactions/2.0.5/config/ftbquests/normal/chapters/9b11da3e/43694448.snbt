@@ -1,0 +1,29 @@
+{
+	title: "褐煤矿脉",
+	x: -9.0d,
+	y: -8.0d,
+	description: "生成在除了丛林以外的所有生物群系，所以它更令人烦恼。",
+	dependencies: [
+		"db13041e"
+	],
+	tasks: [{
+		uid: "38d310c7",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_lignite_0"
+		}]
+	},
+	{
+		uid: "6387e73a",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_coal_0"
+		}]
+	}],
+	rewards: [{
+		uid: "51145cdb",
+		type: "item",
+		item: "minecraft:coal",
+		count: 8
+	}]
+}

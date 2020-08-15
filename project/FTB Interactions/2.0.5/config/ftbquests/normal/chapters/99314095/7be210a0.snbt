@@ -1,0 +1,20 @@
+{
+	x: -4.5d,
+	y: 5.0d,
+	dependencies: [
+		"70d8812a"
+	],
+	tasks: [{
+		uid: "6809175d",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 5800"
+		}]
+	}],
+	rewards: [{
+		uid: "9c8c5b8b",
+		type: "item",
+		item: "gregtech:cable 1 5800",
+		count: 8
+	}]
+}

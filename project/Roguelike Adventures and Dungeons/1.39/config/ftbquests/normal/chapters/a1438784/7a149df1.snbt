@@ -1,0 +1,38 @@
+{
+	x: 13.0d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3373e711",
+		type: "item",
+		items: [{
+			item: "atum:horuss_soaring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b721936",
+		type: "item",
+		items: [{
+			item: "atum:horuss_ascension"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7acb0c51",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "50ec786f",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 5
+	}]
+}

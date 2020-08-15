@@ -1,0 +1,22 @@
+{
+	title: "穿过导线",
+	x: -2.0d,
+	y: 0.0d,
+	description: "你知不知道Kanye Westraw初次登台时的歌曲，由于他出了车祸只能奇怪地闭着嘴说唱？哦好吧，这个东西更高效的制作导线。",
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "9013a235",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 470"
+		}]
+	}],
+	rewards: [{
+		uid: "6978cf56",
+		type: "item",
+		item: "gregtech:cable 1 87",
+		count: 32
+	}]
+}

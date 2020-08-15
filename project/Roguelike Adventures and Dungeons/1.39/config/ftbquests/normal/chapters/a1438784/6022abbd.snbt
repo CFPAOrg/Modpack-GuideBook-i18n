@@ -1,0 +1,20 @@
+{
+	x: 14.0d,
+	y: 1.0d,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ea8525f4",
+		type: "item",
+		items: [{
+			item: "atum:loot_dirty_scepter"
+		}]
+	}],
+	rewards: [{
+		uid: "ab417a83",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

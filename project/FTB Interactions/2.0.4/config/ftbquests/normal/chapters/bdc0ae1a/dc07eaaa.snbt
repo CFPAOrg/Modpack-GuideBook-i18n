@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "ea1da7bb",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:rockwool 1 7"
+		}]
+	}]
+}

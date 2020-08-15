@@ -1,0 +1,27 @@
+{
+	"name": "Niobium",
+	"icon": "soulus:ingot_niobium",
+	"advancement": "soulus:crystal_dark",
+	"category": "legacy",
+	"sortnum": 10501,
+	"pages": [
+		{
+			"type": "text",
+			"text": "After accumulating a large collection of $(item)Midnight Jewels$(), and all subsequent experiments on adding additional soulus failing, it came to me. $(thing)Endersteel Alchemy$(). I immediately attempted to combine a jewel with endersteel.$(p)It was the longest a composition had ever taken. Many, many creatures were consumed by my composer."
+		},
+		{
+			"type": "text",
+			"text": "But when it finished, it had worked. It produced a vibrant blue metal. The metal did not inherit the violent, maddening properties of the midnight jewel, but instead emanated a sorrowful, depressing aura.$(p)It took all I had to prevent myself from being overcome with emotions. Why had I ended so much life, just for this? Thoughts such as these wouldn't leave my brain."
+		},
+		{
+			"type": "crafting_composer",
+			"recipe": "soulus:composer/niobium",
+			"recipe2": "soulus:composer/endersteel_alchemy/niobium",
+			"text": "Post-creation alchemy."
+		},
+		{
+			"type": "text",
+			"text": "It inverts the pull of the midnight jewel, and instead seems to dislike my presence. I don't blame it.$(p)$(item)Niobium$() is a useful metal, however, as a result. We can use its emanation in order to remotely transfer large amounts of soulus. The only ingredient missing is a soulus container stronger than anything we've created before.$(p)$(l:legacy/soul_catalyst)We need a $(o)soul catalyst.$()"
+		}
+	]
+}

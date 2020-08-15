@@ -1,0 +1,32 @@
+{
+	x: -8.0d,
+	y: -7.0d,
+	text: [
+		"坩埚当然可以胜任炼金配方的合成，但它容易产生废气、污染以及咒波。我们可以制作炼金构材 来更好地完成这件事并进行自动化合成。更多信息请参阅魔导手册。"
+	],
+	dependencies: [
+		"8eac9d15"
+	],
+	tasks: [{
+		uid: "b8e02194",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_alchemical"
+		}]
+	}],
+	rewards: [{
+		uid: "45005cc0",
+		type: "item",
+		item: "thaumcraft:metal_alchemical"
+	},
+	{
+		uid: "6b74ceba",
+		type: "item",
+		item: "thaumcraft:crucible"
+	},
+	{
+		uid: "53bd0bd0",
+		type: "item",
+		item: "thaumcraft:salis_mundus"
+	}]
+}

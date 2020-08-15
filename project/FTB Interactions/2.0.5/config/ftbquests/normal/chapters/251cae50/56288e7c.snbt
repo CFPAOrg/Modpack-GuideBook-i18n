@@ -1,0 +1,32 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	dependencies: [
+		"7095eff0",
+		"27253a8f"
+	],
+	tasks: [{
+		uid: "83da3b04",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32491"
+		}]
+	}],
+	rewards: [{
+		uid: "46e17668",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32491",
+		count: 4
+	},
+	{
+		uid: "a3ee33a0",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32437",
+		count: 8
+	},
+	{
+		uid: "e9cdda5d",
+		type: "item",
+		item: "harvestcraft:lemonchickenitem"
+	}]
+}

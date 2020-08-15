@@ -1,0 +1,25 @@
+{
+	title: "终结者！",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -0.5d,
+	y: 2.0d,
+	text: [
+		"你还有很多部件可以更换。成为终极机器人吧！",
+		"玩的开心，注意安全"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5633991b"
+	],
+	tasks: [{
+		uid: "9defd4ba",
+		type: "checkmark",
+		title: "进一步升级"
+	}]
+}

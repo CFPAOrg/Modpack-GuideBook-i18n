@@ -1,0 +1,68 @@
+{
+	x: 1.5d,
+	y: 3.5d,
+	description: "你能停止烧煤吗？",
+	text: [
+		"你需要炼狱熔炉和蒸汽合金炉来制作粗钢锭，这是最基础的炼钢方法所需要的。 钢将会是你进入LV阶段的第一扇门。"
+	],
+	dependencies: [
+		"cfcc58ad"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "57e54baa",
+		type: "item",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 501
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Electrical Age",
+				TrophyColorRed: 37,
+				TrophyEarnedAt: 1553222291
+			}
+		},
+		items: [{
+			item: "gregtech:machine 1 501"
+		}]
+	}],
+	rewards: [{
+		uid: "66320beb",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 501
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Electrical Age",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "f12a04ab",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:machine 1 501",
+		count: 4
+	},
+	{
+		uid: "d4bf0f1d",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32450",
+		count: 4
+	}]
+}

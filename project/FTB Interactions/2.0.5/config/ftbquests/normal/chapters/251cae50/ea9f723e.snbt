@@ -1,0 +1,15 @@
+{
+	title: "ZPM时代",
+	icon: "gregtech:machine 1 507",
+	x: -1.0d,
+	y: -5.0d,
+	description: "此列中的项目可以在ZPM时代制作。",
+	dependencies: [
+		"2c0398f7",
+		"165a3388"
+	],
+	tasks: [{
+		uid: "4a842b14",
+		type: "checkmark"
+	}]
+}

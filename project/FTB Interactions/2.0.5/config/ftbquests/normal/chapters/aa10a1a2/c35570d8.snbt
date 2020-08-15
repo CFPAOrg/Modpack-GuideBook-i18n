@@ -1,0 +1,31 @@
+{
+	x: -10.0d,
+	y: 7.5d,
+	text: [
+		"使用蒸汽/燃气/等离子体的量取决于其内部的涡轮。它的加速过程非常缓慢，因此应该用于不间断的能源供应上。",
+		"大型涡轮机需要涡轮转子。涡轮转子在体积、材料、输出效率、耐久、最佳流量等方面差异很大。 ",
+		"你可以使用格雷科技的泵作为覆盖版，并使用螺丝刀进入它的界面，并精确设置最佳流速来最优化能源产出，以匹配你的燃料/蒸汽生产！"
+	],
+	dependencies: [
+		"c48fa03d"
+	],
+	tasks: [{
+		uid: "6e44a824",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 518"
+		}]
+	}],
+	rewards: [{
+		uid: "013cb542",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32489",
+		count: 2
+	},
+	{
+		uid: "5b41cdf2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12184",
+		count: 16
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 15.0d,
+	y: 3.0d,
+	dependencies: [
+		"dd4a57a8"
+	],
+	tasks: [{
+		uid: "8eb17d1e",
+		type: "item",
+		items: [{
+			item: "embers:beam_cannon"
+		}]
+	}],
+	rewards: [{
+		uid: "91f19220",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "185a090d",
+		type: "item",
+		item: "embers:archaic_light"
+	}]
+}

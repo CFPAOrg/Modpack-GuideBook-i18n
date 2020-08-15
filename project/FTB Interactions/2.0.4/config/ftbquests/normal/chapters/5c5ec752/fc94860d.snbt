@@ -1,0 +1,39 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	description: "蒸汽锅炉消耗水的速度很慢，但如果你计划使用区块加载，你最终还是会想要无限的水源。警告 x 2：锅炉会在你添加水到干燥的空锅炉时爆炸，所以，永远不让锅炉烧干。",
+	dependencies: [
+		"56f69a22"
+	],
+	tasks: [{
+		uid: "8aa4e4dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "steam",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "3ded58ff",
+		type: "item",
+		item: "harvestcraft:hardenedleatheritem",
+		count: 4
+	},
+	{
+		uid: "92bd0618",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roughtweaks:plaster"
+		}
+	}]
+}

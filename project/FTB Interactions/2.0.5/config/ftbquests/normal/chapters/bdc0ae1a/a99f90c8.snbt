@@ -1,0 +1,14 @@
+{
+	x: 3.0714285714285694d,
+	y: -1.9642857142857153d,
+	dependencies: [
+		"8daf4c09"
+	],
+	tasks: [{
+		uid: "14ff8156",
+		type: "item",
+		items: [{
+			item: "wizardry:wisdom_stick"
+		}]
+	}]
+}

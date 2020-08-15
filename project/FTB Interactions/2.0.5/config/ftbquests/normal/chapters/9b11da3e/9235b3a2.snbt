@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "f3a4b948",
+		type: "item",
+		items: [{
+			item: "plants2:cosmetic_1 1 8"
+		}]
+	}]
+}

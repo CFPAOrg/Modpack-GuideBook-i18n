@@ -1,0 +1,35 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	dependencies: [
+		"768743f4"
+	],
+	tasks: [{
+		uid: "36a5d582",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_meal"
+		}]
+	}],
+	rewards: [{
+		uid: "0b454eae",
+		type: "item",
+		item: "iceandfire:pixie_house 1 4"
+	},
+	{
+		uid: "ab3f4fda",
+		type: "item",
+		item: "iceandfire:pixie_dust"
+	},
+	{
+		uid: "ed3d853e",
+		type: "item",
+		item: "iceandfire:troll_leather_forest",
+		count: 16
+	},
+	{
+		uid: "6cab6e9d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

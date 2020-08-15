@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	description: "通向一个装满宝藏、谜题和陷阱的地牢。",
+	text: [
+		""
+	],
+	dependencies: [
+		"1140841d"
+	],
+	tasks: [{
+		uid: "bce76e49",
+		type: "item",
+		items: [{
+			item: "dimdoors:gold_dimensional_door"
+		}]
+	}],
+	rewards: [{
+		uid: "ade85e24",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

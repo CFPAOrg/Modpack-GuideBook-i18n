@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	description: "让你的基地更好看。",
+	dependencies: [
+		"009703b7"
+	],
+	tasks: [{
+		uid: "9debe170",
+		type: "item",
+		items: [{
+			item: "architecturecraft:sawbench"
+		}]
+	}],
+	rewards: [{
+		uid: "8ba7f999",
+		type: "item",
+		item: "xtones:base",
+		count: 64
+	}]
+}

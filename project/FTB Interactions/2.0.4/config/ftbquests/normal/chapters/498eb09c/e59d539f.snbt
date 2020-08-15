@@ -1,0 +1,43 @@
+{
+	title: "充能油",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "empoweredoil",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -12.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	text: [
+		"通过再一次浸出富集，你每桶石油的总产出效率提高了300%。 此外，它在蒸馏塔中蒸馏得到的产物也变得更加纯净，让你在整个生产过程中节省能量和时间。"
+	],
+	dependencies: [
+		"dcf76677",
+		"5c13f17c"
+	],
+	tasks: [{
+		uid: "1d402622",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "empoweredoil",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "2096f001",
+		type: "item",
+		item: "extrautils2:drum 1 2"
+	}]
+}

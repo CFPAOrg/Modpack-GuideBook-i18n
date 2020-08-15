@@ -5,7 +5,7 @@ setIcon(<craftingislife:soul_sand_furnace>)
 setTitle("最好的最好的")
 
 //Set description String
-setDescription("获得一个泥土，灵魂沙，圆石熔炉和工作台")
+setDescription("分别获得泥土熔炉，灵魂沙熔炉，圆石熔炉和泥土工作台，灵魂沙工作台，圆石工作台")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("challenges:challenges/root")

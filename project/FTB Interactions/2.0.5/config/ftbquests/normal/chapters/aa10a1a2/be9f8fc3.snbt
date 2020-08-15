@@ -1,0 +1,45 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	shape: "rsquare",
+	description: "柴油可能没有蒸汽那么早就能获得，但这是MV时代之后较为推荐的选择。",
+	text: [
+		"确保检查JEI，查看你使用的每个发电机类型的燃料都有什么选择。你可能找到一些你从没考虑过的独特的燃料。",
+		"现在你有柴油了，你可以将它放入蒸汽锅炉产生蒸汽，或者直接放入柴油发电机中发电。柴油发电机仅当需要发电时才会消耗柴油。"
+	],
+	dependencies: [
+		"b9e859bd"
+	],
+	tasks: [{
+		uid: "990af63f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 480"
+		},
+		{
+			item: "gregtech:machine 1 481"
+		},
+		{
+			item: "gregtech:machine 1 482"
+		}]
+	}],
+	rewards: [{
+		uid: "23e88db5",
+		type: "item",
+		item: "harvestcraft:delightedmealitem"
+	},
+	{
+		uid: "d12231eb",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oil",
+					Amount: 64000
+				}
+			},
+			Damage: 32405s
+		}
+	}]
+}

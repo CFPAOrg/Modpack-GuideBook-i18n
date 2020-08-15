@@ -1,0 +1,62 @@
+{
+	title: "星辉矿脉",
+	x: -3.0d,
+	y: -11.0d,
+	description: "只有拥有格雷钠块才能让它变得更蓝。",
+	text: [
+		"这个矿脉中的铝是很特殊的，它能直接在炼狱熔炉里被加工，而不需要高炉。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"78546de8",
+		"fe50d67e"
+	],
+	tasks: [{
+		uid: "a5153e13",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_aluminium_0"
+		}]
+	},
+	{
+		uid: "47d33418",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sapphire_0"
+		}]
+	},
+	{
+		uid: "63300dbf",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "68f9d48c",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "80f1b619",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemtunedcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.horologium",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "困难的是金红石",
+	x: 2.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	text: [
+		"当你电解了足够的铝土矿后，你就需要氯、碳和镁。 先生产出四氯化钛后再用高炉高炉产出钛锭。",
+		"这最后一步会将带你进入HV冶金。"
+	],
+	dependencies: [
+		"2b4c7bc4"
+	],
+	tasks: [{
+		uid: "728a51da",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2122"
+		}]
+	}]
+}

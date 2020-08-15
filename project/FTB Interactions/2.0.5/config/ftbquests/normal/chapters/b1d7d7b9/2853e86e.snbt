@@ -1,0 +1,38 @@
+{
+	title: "橡皮人",
+	x: -10.5d,
+	y: -3.0d,
+	description: "现在，你可以将原材料加工成有用的橡胶。无论哪种路线，你都需要硫磺，但你是使用生橡胶还是树脂都取决于你。 ",
+	text: [
+		"你可通过处理朱砂矿获得硫，也可以从银矿或铅矿中获得相对少量的硫。不过，一旦你到达了地狱之后，硫的获取会变得容易，地狱的矿石含有丰富的硫，也可以从烈焰粉中提炼硫。"
+	],
+	dependencies: [
+		"d9587647"
+	],
+	tasks: [{
+		uid: "54a476eb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2153"
+		}],
+		count: 9L
+	},
+	{
+		uid: "70eca13c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2065"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6d98361b",
+		type: "item",
+		item: "gregtech:machine 1 320"
+	},
+	{
+		uid: "6dd92c65",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32301"
+	}]
+}

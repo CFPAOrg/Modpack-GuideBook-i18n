@@ -1,0 +1,24 @@
+{
+	title: "32倍你的矿物",
+	x: -16.0d,
+	y: -0.5d,
+	text: [
+		"不，我不会要求你用整桶的UU物质来完成这个任务。",
+		"Interactions自定义矿物处理的最终步骤是使用UU物质和高压釜来生产大量的矿簇。"
+	],
+	dependencies: [
+		"57ca62b6"
+	],
+	tasks: [{
+		uid: "b75b427a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iron_ore_clump"
+		}]
+	}],
+	rewards: [{
+		uid: "4764f47e",
+		type: "item",
+		item: "projecte:condenser_mk2"
+	}]
+}

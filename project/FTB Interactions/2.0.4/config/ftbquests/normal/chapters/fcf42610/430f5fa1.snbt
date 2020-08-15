@@ -1,0 +1,22 @@
+{
+	x: -4.5d,
+	y: -0.5d,
+	text: [
+		"用工业高炉烧锻铁是非常迅速的获得大量的钢的方法，还不会产生咒波。对大规模自动化很有用。"
+	],
+	dependencies: [
+		"a6d5688e"
+	],
+	tasks: [{
+		uid: "881f6893",
+		type: "checkmark",
+		title: "更容易的炼钢",
+		icon: "libvulpes:productingot 1 6"
+	}],
+	rewards: [{
+		uid: "1ddd536f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12184",
+		count: 4
+	}]
+}

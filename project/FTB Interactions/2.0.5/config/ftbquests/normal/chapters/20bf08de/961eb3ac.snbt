@@ -1,0 +1,37 @@
+{
+	title: "我讨厌研究。",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -12.0d,
+	y: -12.0d,
+	shape: "gear",
+	text: [
+		"以下的任务是完全可选的，此任务存在的目的只是为了让那些对神秘时代研究有困难的人在不正常研究神秘的前提下能获取某些必要研究。不推荐，爱用用。",
+		"如果你只是想要推进任务的进度，你可以手动完成研究后再来完成任务。"
+	],
+	dependencies: [
+		"bcf33fda"
+	],
+	tasks: [{
+		uid: "6a139dad",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "f4985005",
+		type: "item",
+		item: {
+			id: "dmonsters:dump",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "World's #1 Thaumcrafter"
+				}
+			}
+		}
+	}]
+}

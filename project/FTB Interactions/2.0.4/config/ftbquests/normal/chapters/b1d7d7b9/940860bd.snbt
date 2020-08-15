@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: -9.0d,
+	dependencies: [
+		"46ef265b",
+		"14eeece7"
+	],
+	tasks: [{
+		uid: "4a1fd9d3",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "hydrofluoric_acid",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}]
+}

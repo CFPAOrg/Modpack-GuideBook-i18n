@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -6.0d,
+	dependencies: [
+		"273f3d84"
+	],
+	tasks: [{
+		uid: "92a2aaf3",
+		type: "checkmark",
+		title: "丙酮",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "acetone",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

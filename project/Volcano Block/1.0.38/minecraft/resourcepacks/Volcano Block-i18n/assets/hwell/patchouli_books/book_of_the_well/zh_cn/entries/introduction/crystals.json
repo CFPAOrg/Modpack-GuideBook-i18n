@@ -1,0 +1,33 @@
+{
+    "name": "制作水晶",
+    "icon": "hwell:crystal",
+    "category": "introduction",
+    "sortnum": 40,
+    "pages": [
+        	{	
+        	"type": "spotlight",
+            "title": "水晶",
+            "item": "hwell:crystal",
+            "link_recipe": true,
+            "text": "这些水晶是神秘而脆弱的。它们会发出五颜六色的光。$(br2)可以使用压碎方块将水晶压碎以获得随机碎片。也可以将它们扔到地狱传送门制成地狱水晶。"
+        },
+		{
+            "type": "smelting",
+			"title": "冶炼水晶",
+			"text": "要获得这些水晶，请制作一个神秘混合物，然后将其熔炼成水晶块。然后可以将水晶块拆分为水晶。",
+			"recipe": "hwell:leaf_mesh"		
+        },
+	    {
+            "type": "crafting",
+			"title": "水晶",
+			"recipe": "hwell:crystal",
+			"recipe2": "hwell:crystal_block"
+		},
+		{
+            "type": "crafting",
+			"title": "水晶的用途",
+			"recipe": "hwell:crystal_bowl",
+			"recipe2": "hwell:crystal_catalyst"
+		}
+    ]
+}

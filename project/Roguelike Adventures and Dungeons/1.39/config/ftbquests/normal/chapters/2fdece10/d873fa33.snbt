@@ -1,0 +1,121 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"526726f6"
+	],
+	tasks: [{
+		uid: "917b7c03",
+		type: "item",
+		items: [{
+			id: "spartanfire:katana_desert",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -5977126885090242594L,
+						UUIDLeast: -6636532539399146112L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5880902360715476506L,
+						UUIDLeast: -7720709037675007614L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.keen.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "34bba3c6",
+		type: "item",
+		items: [{
+			id: "spartanfire:greatsword_desert",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8f5cdf3b",
+		type: "item",
+		items: [{
+			id: "spartanfire:longsword_desert",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0002aea2",
+		type: "item",
+		items: [{
+			id: "spartanfire:saber_desert",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "26c77d1e",
+		type: "item",
+		items: [{
+			id: "spartanfire:rapier_desert",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -6937151483391490383L,
+						UUIDLeast: -5197712471576916093L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2668082151638584658L,
+						UUIDLeast: -6465549691625738704L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.bulky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a1951cae",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "ff96db93",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

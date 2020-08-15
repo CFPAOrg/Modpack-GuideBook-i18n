@@ -1,0 +1,32 @@
+{
+	title: "底特律：变人",
+	x: -1.5d,
+	y: 1.0d,
+	shape: "square",
+	text: [
+		"这是你成为机器人的第一步。P.S. 机械手术核心可以在地牢中找到。"
+	],
+	dependencies: [
+		"dcd19e05"
+	],
+	tasks: [{
+		uid: "4c36ef2a",
+		type: "item",
+		items: [{
+			item: "cyberware:surgery"
+		}]
+	},
+	{
+		uid: "b54cd265",
+		type: "item",
+		items: [{
+			item: "cyberware:surgery_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "367de97b",
+		type: "item",
+		item: "cyberware:neuropozyne",
+		count: 16
+	}]
+}

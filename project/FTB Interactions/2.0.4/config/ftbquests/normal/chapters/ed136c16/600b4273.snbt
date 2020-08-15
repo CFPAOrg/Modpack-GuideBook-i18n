@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 4.0d,
+	text: [
+		"比双足飞龙靴的能力更好，神龙靴可以免疫从高空摔落的伤害，增加跳跃高度和自动跨上一格高方块的能力。"
+	],
+	dependencies: [
+		"75c24ed9"
+	],
+	tasks: [{
+		uid: "12057f2c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

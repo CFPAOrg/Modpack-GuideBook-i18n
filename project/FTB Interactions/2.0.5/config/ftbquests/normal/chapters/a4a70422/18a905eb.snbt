@@ -1,0 +1,38 @@
+{
+	x: -16.0d,
+	y: -6.0d,
+	text: [
+		"在一块芯片上存储100组物品，太疯狂了！"
+	],
+	dependencies: [
+		"437c848c"
+	],
+	tasks: [{
+		uid: "cdbf7f24",
+		type: "item",
+		items: [{
+			item: "rftools:modular_storage"
+		}]
+	},
+	{
+		uid: "202646ea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rftools:storage_module"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7dd451f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rftools:storage_module"
+		}
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 5.0d,
+	y: -1.0d,
+	dependencies: [
+		"e6a0b1c3"
+	],
+	tasks: [{
+		uid: "f240c6cb",
+		type: "item",
+		items: [{
+			item: "aether_legacy:ambrosium_torch"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "452044f6",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

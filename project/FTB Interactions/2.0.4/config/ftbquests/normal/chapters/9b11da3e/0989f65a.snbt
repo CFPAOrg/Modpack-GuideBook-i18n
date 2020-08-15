@@ -1,0 +1,15 @@
+{
+	x: -8.0d,
+	y: -12.0d,
+	description: "一般生成在地下……也是圆球？",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "c346fc10",
+		type: "item",
+		items: [{
+			item: "gregtech:granite"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 6.0d,
+	y: 1.0d,
+	dependencies: [
+		"f1e677e8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "264e7135",
+		type: "item",
+		items: [{
+			item: "atum:loot_ruby_necklace"
+		}]
+	}],
+	rewards: [{
+		uid: "e0aa7dd3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b2efd43a",
+		type: "item",
+		item: "atum:date",
+		count: 2
+	}]
+}

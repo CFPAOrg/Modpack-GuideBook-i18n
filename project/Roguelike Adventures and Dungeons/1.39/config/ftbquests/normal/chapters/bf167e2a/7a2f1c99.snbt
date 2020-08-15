@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"922ec670"
+	],
+	tasks: [{
+		uid: "9f17480c",
+		type: "item",
+		items: [{
+			item: "aether_legacy:gravitite_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "f0fba7e6",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

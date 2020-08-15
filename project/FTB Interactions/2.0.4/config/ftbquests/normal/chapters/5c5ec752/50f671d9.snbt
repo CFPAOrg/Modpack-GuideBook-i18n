@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	dependencies: [
+		"56f69a22",
+		"d728580e"
+	],
+	tasks: [{
+		uid: "e51c1a46",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 7"
+		},
+		{
+			item: "gregtech:machine 1 8"
+		},
+		{
+			item: "gregtech:machine 1 260"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "851c71d5",
+		type: "item",
+		item: "harvestcraft:gourmetbeefburgeritem"
+	},
+	{
+		uid: "f0dd23dd",
+		type: "item",
+		item: "gregtech:machine_casing 1 11",
+		count: 4
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "不是我...",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4f2df8f0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7547ca16",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "8788b891",
+		type: "ftbmoney:money",
+		ftb_money: 80L,
+		random_bonus: 50
+	}]
+}

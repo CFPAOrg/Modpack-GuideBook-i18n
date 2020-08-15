@@ -1,0 +1,68 @@
+{
+	x: 1.5d,
+	y: 5.5d,
+	description: "终于迎来真正的矿物处理。",
+	text: [
+		"在HV阶段中，你可以熔炼所有金属中的80%，并且可以获得许多种魔法和科技材料。 你的游玩方式选择将在这里真正开放。请注重自动化。不锈钢，聚四氟乙烯的生产与进入太空将成为你的下一个目标。"
+	],
+	dependencies: [
+		"dcd19e05"
+	],
+	tasks: [{
+		uid: "cf19d9f0",
+		type: "item",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 503
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "High Voltage",
+				TrophyColorRed: 37,
+				TrophyEarnedAt: 1553222294
+			}
+		},
+		items: [{
+			item: "gregtech:machine 1 503"
+		}]
+	}],
+	rewards: [{
+		uid: "1eb72af3",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:machine",
+					Count: 1,
+					Damage: 503
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "High Voltage",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "2344638f",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:meta_item_2 1 32489",
+		count: 4
+	},
+	{
+		uid: "7aeae0d5",
+		type: "item",
+		team_reward: true,
+		item: "gregtech:machine 1 503",
+		count: 4
+	}]
+}

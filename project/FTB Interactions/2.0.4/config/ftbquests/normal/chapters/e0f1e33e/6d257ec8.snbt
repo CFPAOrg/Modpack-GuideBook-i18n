@@ -1,0 +1,30 @@
+{
+	title: "30天的免费试用",
+	x: -1.0d,
+	y: 0.5d,
+	text: [
+		"测试楔石试炼是深入植物魔法的必由之路，故障心脏可以进一步加工成故障灌注锭，用于制造符文祭坛和故障盔甲。"
+	],
+	dependencies: [
+		"cbbc96a7"
+	],
+	tasks: [{
+		uid: "849803a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "deepmoblearning:trial_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c7450198",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_keystone"
+		}]
+	}]
+}

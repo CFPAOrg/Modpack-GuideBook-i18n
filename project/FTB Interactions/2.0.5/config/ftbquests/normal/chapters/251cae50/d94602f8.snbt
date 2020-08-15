@@ -1,0 +1,15 @@
+{
+	title: "HV时代",
+	icon: "gregtech:machine 1 503",
+	x: -5.0d,
+	y: -5.0d,
+	description: "此列中的项目可以在HV时代制作。",
+	dependencies: [
+		"3ab2fbc0",
+		"3308d327"
+	],
+	tasks: [{
+		uid: "16b0f9b6",
+		type: "checkmark"
+	}]
+}

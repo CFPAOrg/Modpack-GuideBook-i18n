@@ -1,0 +1,33 @@
+{
+	title: "懒惰的开端",
+	x: -4.0d,
+	y: 0.0d,
+	text: [
+		"要开始自动合成，你需要一种东西来存储配方。",
+		"  ",
+		"样板终端用于将配方保存到样板。"
+	],
+	dependencies: [
+		"39d33b3e"
+	],
+	tasks: [{
+		uid: "3e4ea050",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}],
+		count: 8L
+	},
+	{
+		uid: "364f077c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	}],
+	rewards: [{
+		uid: "44c9556a",
+		type: "item",
+		item: "threng:big_assembler 1 3"
+	}]
+}

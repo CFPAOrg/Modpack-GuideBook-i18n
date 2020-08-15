@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	shape: "octagon",
+	can_repeat: true,
+	tasks: [{
+		uid: "a9e9697a",
+		type: "kill",
+		entity: "minecraft:ghast",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "06d26259",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

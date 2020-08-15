@@ -1,0 +1,31 @@
+{
+	"name": "The Skewer",
+	"icon": "soulus:skewer",
+	"advancement": "soulus:dust_ender",
+	"category": "processing",
+	"sortnum": 10301,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(item)Skewer$() is a very simple machine for killing creatures; when it receives a redstone signal, sharp metal spikes will extend out of it. Creatures that fall into or walk into the spikes will take damage.$(p)The Skewer can also be used to collect blood from creatures, into a $(l:summoning/quantity)Blood Crystal$()."
+		},
+		{
+			"type": "crafting",
+			"recipe": "soulus:doodads/skewer"
+		},
+		{
+			"type": "text",
+			"title": "Basic Upgrades",
+			"text": "$(li)$(item)Nether Quartz$(0) - Damage$(li)$(item)Spider Eyes$(0) - Poison$(li)$(item)Redstone Torch$(0) - Extend$(p)Notes on advanced upgrades for the Skewer will be revealed as the Restoration of Animalia progresses."
+		},
+		{
+			"type": "relations",
+			"title": "Advanced Upgrades",
+			"entries": [
+				"processing/tether",
+				"processing/human"
+			],
+			"text": "$(l:processing/soul_inquirer)Next up is detecting whether creatures of a type are present.$()"
+		}
+	]
+}

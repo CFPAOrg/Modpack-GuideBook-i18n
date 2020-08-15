@@ -1,0 +1,44 @@
+{
+	title: "硫酸",
+	x: -0.5d,
+	y: -5.0d,
+	description: "水和硫混合可以获得硫酸，硫可以从烈焰粉中获得。你可以使用烈焰人数据模型和模拟室获取烈焰粉，当然也有很多其他的途径。",
+	dependencies: [
+		"14eeece7"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "cfd32416",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "hydrogen_sulfide",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "b7ebb494",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2065"
+		}]
+	}],
+	rewards: [{
+		uid: "a1c3be8c",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:blaze"
+				}
+			}
+		}
+	}]
+}

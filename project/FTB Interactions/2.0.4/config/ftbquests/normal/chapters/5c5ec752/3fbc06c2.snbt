@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	shape: "diamond",
+	description: "使用挤压机是一种非常早期和低效的矿石处理方法。挤压机的优点在于能够自动化，自动化的挤压机可以非常快地处理矿石，并推动你向LV时代迈进。 建议作为你的第一个矿石处理器。",
+	text: [
+		"要制造这个挤压机，你需要挖掘和熔化一些铁，并使用浇筑盆进行浇筑来获得铁块。 挤压机可以使用一些红石和粘液块来自动化。"
+	],
+	dependencies: [
+		"5170565f"
+	],
+	tasks: [{
+		uid: "37ae8f5e",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:squeezer"
+		}]
+	}],
+	rewards: [{
+		uid: "b0fceb8b",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 16
+	},
+	{
+		uid: "13cbb769",
+		type: "item",
+		item: "harvestcraft:minerstewitem"
+	}]
+}

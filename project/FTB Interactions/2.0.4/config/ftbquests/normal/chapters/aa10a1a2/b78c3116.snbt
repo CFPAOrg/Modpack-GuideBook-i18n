@@ -1,0 +1,47 @@
+{
+	title: "零点矩阵",
+	x: -0.5d,
+	y: 6.5d,
+	shape: "diamond",
+	description: "从富集硅岩中获得能量的唯一理智的方法之一。",
+	text: [
+		"零点矩阵能够以比标准方式高效得多的速度精炼硅岩。基础耗电和处理时间是一样的，但你只要给它更多的能量，就可以无限地将它超频。",
+		"这是一种特殊类型的超频操作，不会增加消耗能量的总量，只加速生产过程。",
+		"硅岩产出的EU比生产所需能量的两倍还要多，这是一种双倍能量产出的机制。进一步处理成硅岩燃料，你就能达到这个包里燃料密度的顶点。"
+	],
+	dependencies: [
+		"97e0a29a"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "dd5503ed",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:zero_point_matrix"
+			}
+		}]
+	},
+	{
+		uid: "be6e366c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 309"
+		}]
+	}],
+	rewards: [{
+		uid: "7933c883",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "naquadah_enriched",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}]
+}

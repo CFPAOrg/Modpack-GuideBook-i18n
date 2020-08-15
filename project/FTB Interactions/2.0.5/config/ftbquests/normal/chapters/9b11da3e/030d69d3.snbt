@@ -1,0 +1,21 @@
+{
+	icon: {
+		id: "openblocks:trophy",
+		tag: {
+			entity_id: "minecraft:evocation_illager"
+		},
+		Damage: 41s
+	},
+	x: -3.0d,
+	y: -6.0d,
+	description: "唤魔者没有作任何的改动，但它们在地牢中会变得比较常见，你或许会找到一个法杖使你能像唤魔者那样召唤尖刺进攻",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "527224fc",
+		type: "kill",
+		entity: "minecraft:evocation_illager",
+		value: 1L
+	}]
+}

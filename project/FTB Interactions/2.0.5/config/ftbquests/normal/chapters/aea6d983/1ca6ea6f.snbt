@@ -1,0 +1,42 @@
+{
+	title: "我失去了我的...",
+	x: 4.0d,
+	y: -10.0d,
+	text: [
+		"磷灰石拥有几种用途，其中最重要的是植物生产。这种鸡将直接生产小撮磷灰石粉，可以用于于光合堆肥自动化。"
+	],
+	dependencies: [
+		"bad8af80",
+		"a916453b"
+	],
+	tasks: [{
+		uid: "559dd34d",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "contenttweaker:apatitechicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "c8e5886b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 226"
+		}]
+	}],
+	rewards: [{
+		uid: "97f4013f",
+		type: "item",
+		item: "harvestcraft:delightedmealitem"
+	},
+	{
+		uid: "897a0325",
+		type: "item",
+		item: "gregtech:meta_item_2 1 24226"
+	}]
+}

@@ -1,0 +1,55 @@
+{
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 49,
+			TrophyVariant: "classic",
+			TrophyItem: {
+				id: "draconicevolution:dragon_heart",
+				Count: 1,
+				Damage: 0
+			},
+			TrophyColorBlue: 146,
+			TrophyName: "The Dragon's Heart",
+			TrophyColorRed: 37,
+			TrophyEarnedAt: 1553222298
+		}
+	},
+	x: 1.5d,
+	y: 9.0d,
+	description: "仔细听就能听到炸弹在你脸上爆炸的声音。",
+	text: [
+		"这是个末影龙统治的由虚空和黑暗组成的怪诞领域。你需要在这里取得进展才能获得更多的锇、铱、铂及其他材料。你可以尝试直接去找混沌龙或者先",
+		"前往暗星Aurellia，解锁最终阶段的科技和魔法。"
+	],
+	dependencies: [
+		"9be3aa5b"
+	],
+	tasks: [{
+		uid: "f96763f8",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dragon_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "21cb9809",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "draconicevolution:dragon_heart",
+					Count: 1,
+					Damage: 0
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "The Dragon's Heart",
+				TrophyColorRed: 37
+			}
+		}
+	}]
+}

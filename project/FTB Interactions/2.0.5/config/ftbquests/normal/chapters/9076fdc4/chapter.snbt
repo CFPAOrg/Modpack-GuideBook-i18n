@@ -1,0 +1,10 @@
+{
+	title: "神之基业",
+	icon: "thermalfoundation:upgrade 1 256",
+	description: [
+		"十分抱歉，我只喜欢我的创造电池"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

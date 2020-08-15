@@ -1,0 +1,62 @@
+{
+	title: "来自星星的力量",
+	x: -1.5d,
+	y: 7.0d,
+	description: "现在你已经掌握了共振的基础知识，你可以将水晶石与星座进行共鸣。这些水晶石根据所共鸣的星座提供一定的范围效应。选一种水晶石放到效应放大器上。 ",
+	text: [
+		"这个任务提供给你的水晶能让你建成虚御座效应。这种效应允许在其区域内进行创造飞行。当你想在基地进行一些创造性的建筑时，这非常有用。"
+	],
+	dependencies: [
+		"1d37b267"
+	],
+	tasks: [{
+		uid: "faf59e1b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockritualpedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "622ff6ca",
+		type: "item",
+		item: {
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "d8dd797d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5570085101611273969L,
+					AS_Amulet_HolderMost: 5678865977197479355L
+				}
+			},
+			id: "astralsorcery:itemtunedrockcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.vicio",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	}]
+}

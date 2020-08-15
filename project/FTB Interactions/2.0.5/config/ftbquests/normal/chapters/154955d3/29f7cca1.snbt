@@ -1,0 +1,60 @@
+{
+	title: "滤水器",
+	icon: "waterstrainer:strainer_base",
+	x: -2.0d,
+	y: 3.0d,
+	description: "在你获得棉花来制造线之前，你可以使用麻绳。转换桌里的草是一个很好的植物材料来源。",
+	text: [
+		"我们建议你建造4-6个，以减轻过多等候的痛苦。",
+		"",
+		"它有多种滤网，生存者滤网，致密生存者滤网和渔夫滤网。这三种滤网提供不同的资源，因此这三种滤网你都会需要。"
+	],
+	dependencies: [
+		"1d6fe213"
+	],
+	tasks: [{
+		uid: "94caa5d7",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_base"
+		}],
+		count: 3L
+	},
+	{
+		uid: "359bcf83",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "waterstrainer:strainer_survivalist"
+		}]
+	},
+	{
+		uid: "4485a6a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "waterstrainer:strainer_survivalist_dense"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fb06ff0c",
+		type: "item",
+		item: "harvestcraft:leafyfishsandwichitem"
+	},
+	{
+		uid: "3c60416e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "waterstrainer:efficiency_meter"
+		}
+	}]
+}

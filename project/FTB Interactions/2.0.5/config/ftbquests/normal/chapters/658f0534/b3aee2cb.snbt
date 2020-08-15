@@ -1,0 +1,24 @@
+{
+	title: "清除杂质",
+	x: -11.0d,
+	y: -4.5d,
+	text: [
+		"现在你得到了含杂的矿粉，你需要进行最后一步的处理。这个步骤因矿石种类而异。有些可以直接熔炼，有些应该被放进炼药锅或者洗矿厂清洗，其他的一些需要高压釜。请查看JEI。"
+	],
+	dependencies: [
+		"fad424f0"
+	],
+	tasks: [{
+		uid: "87a44702",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 3033"
+		}]
+	}],
+	rewards: [{
+		uid: "793720a1",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10197",
+		count: 4
+	}]
+}

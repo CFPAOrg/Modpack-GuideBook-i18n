@@ -1,0 +1,49 @@
+{
+	title: "锰矿脉",
+	x: -4.0d,
+	y: -12.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"78546de8",
+		"fe50d67e"
+	],
+	tasks: [{
+		uid: "333a371f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ore_amber"
+		}]
+	},
+	{
+		uid: "e0f85e09",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_spessartine_0"
+		}]
+	},
+	{
+		uid: "b4615915",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrolusite_0"
+		}]
+	},
+	{
+		uid: "b06afb3e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tantalite_0"
+		}]
+	}],
+	rewards: [{
+		uid: "4751621a",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "05de526b",
+		type: "item",
+		item: "thaumcraft:curio 1 1",
+		count: 3
+	}]
+}

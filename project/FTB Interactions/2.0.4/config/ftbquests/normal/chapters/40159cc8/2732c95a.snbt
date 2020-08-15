@@ -1,0 +1,10 @@
+{
+	title: "铝的生产",
+	icon: "gregtech:meta_item_1 1 12016",
+	x: -1.0d,
+	y: -22.0d,
+	tasks: [{
+		uid: "d9d2f356",
+		type: "checkmark"
+	}]
+}

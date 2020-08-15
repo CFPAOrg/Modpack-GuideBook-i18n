@@ -1,0 +1,28 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -6.0d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"每个阶段都有一种奇特的金属，用这种金属制作的线缆能承受4A的电流，零电阻，比同级别的其他所有线缆都要强。"
+	],
+	dependencies: [
+		"6672ed55"
+	],
+	tasks: [{
+		uid: "21a0c41f",
+		type: "checkmark",
+		title: "无损输电"
+	}],
+	rewards: [{
+		uid: "3cad185e",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	dependencies: [
+		"a935a92e"
+	],
+	tasks: [{
+		uid: "c62e7f76",
+		type: "item",
+		items: [{
+			item: "aether_legacy:dart_shooter 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b38f9caf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

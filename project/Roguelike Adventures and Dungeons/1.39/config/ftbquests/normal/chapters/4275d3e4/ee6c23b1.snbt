@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	dependencies: [
+		"71151cbb"
+	],
+	tasks: [{
+		uid: "98b87a24",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "649d12a7",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

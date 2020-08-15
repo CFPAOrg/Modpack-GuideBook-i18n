@@ -1,0 +1,15 @@
+{
+	x: -7.0d,
+	y: -12.0d,
+	description: "地下！生成！圆球！",
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "217d1205",
+		type: "item",
+		items: [{
+			item: "gregtech:mineral"
+		}]
+	}]
+}

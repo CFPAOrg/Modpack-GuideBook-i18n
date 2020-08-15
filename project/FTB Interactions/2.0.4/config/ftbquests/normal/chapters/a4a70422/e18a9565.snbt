@@ -1,0 +1,20 @@
+{
+	x: -6.0d,
+	y: -7.0d,
+	description: "一个更大的桶。",
+	text: [
+		"像热力的储罐和储物箱一样都可以被附魔上扩容。非常大的桶！"
+	],
+	tasks: [{
+		uid: "10657249",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:reservoir",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -1.5d,
+	y: -4.5d,
+	shape: "square",
+	description: "原版的附魔、Animus的拆解仪式、植物魔法的魔力附魔台和Apothesis的铁砧将原版附魔提升到了一个前所未有的新高度。",
+	text: [
+		"这种新力量的到来还伴随着一些新限制。一些附魔可能只出现在30级以上，并需要你的附魔台配有地狱灌注书架。",
+		"",
+		"提示: 它接受任何种类的附魔书。你可以用一本书和一个绿宝石在工作台中合成得到尔虞我诈附魔书。"
+	],
+	dependencies: [
+		"c5e6d160"
+	],
+	tasks: [{
+		uid: "3c3ae52b",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "8098ec96",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 4
+	}]
+}

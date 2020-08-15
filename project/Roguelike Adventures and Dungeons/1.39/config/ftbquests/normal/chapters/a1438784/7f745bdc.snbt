@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"fb617224"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4d61d1b1",
+		type: "item",
+		items: [{
+			item: "atum:loot_ruby_broach"
+		}]
+	}],
+	rewards: [{
+		uid: "e901ede5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

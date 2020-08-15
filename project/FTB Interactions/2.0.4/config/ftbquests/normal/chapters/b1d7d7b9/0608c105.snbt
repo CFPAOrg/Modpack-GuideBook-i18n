@@ -1,0 +1,48 @@
+{
+	title: "氢",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "air",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -8.5d,
+	y: 1.0d,
+	description: "高可燃性！",
+	text: [
+		"氢被用于许多有机化学配方，也是几乎所有燃料生产配方的重要部分。某些高炉配方也需要它。"
+	],
+	dependencies: [
+		"eebe34c9"
+	],
+	tasks: [{
+		uid: "49dfeec2",
+		type: "checkmark",
+		title: "氮气单元",
+		icon: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "air",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}
+	}],
+	rewards: [{
+		uid: "94975c52",
+		type: "item",
+		item: "contenttweaker:gassy_enriched_egg",
+		count: 16
+	},
+	{
+		uid: "24ffeed4",
+		type: "item",
+		item: "harvestcraft:fairybreaditem"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	dependencies: [
+		"834eaa9f"
+	],
+	tasks: [{
+		uid: "4a690309",
+		type: "item",
+		items: [{
+			id: "iceandfire:bestiary",
+			tag: {
+				Pages: [I;
+					0
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82bc7d98",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

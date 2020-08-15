@@ -1,0 +1,21 @@
+{
+	x: -21.0d,
+	y: -2.0d,
+	text: [
+		"我们想让它动起来（流体部分），但实际上这是个啥？入门级过滤器。"
+	],
+	tasks: [{
+		uid: "c8e334f9",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:servo"
+		}]
+	},
+	{
+		uid: "ad67277e",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_16"
+		}]
+	}]
+}

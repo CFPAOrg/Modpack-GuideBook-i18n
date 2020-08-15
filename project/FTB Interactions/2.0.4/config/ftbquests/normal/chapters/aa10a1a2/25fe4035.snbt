@@ -1,0 +1,18 @@
+{
+	title: "FTBI的燃油处理流程图，从柴油到硅岩燃料！",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "nitro_fuel",
+				Amount: 1000
+			}
+		},
+		Damage: 32762s
+	},
+	x: -15.5d,
+	y: 1.5d,
+	shape: "gear",
+	custom_click: "https://www.zenflowchart.com/docs/view/yLkQWjnegGAkewZ1p0GD",
+	size: 2.0d
+}

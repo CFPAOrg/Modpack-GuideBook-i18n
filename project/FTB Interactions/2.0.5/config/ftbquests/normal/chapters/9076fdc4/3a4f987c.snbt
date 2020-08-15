@@ -1,0 +1,24 @@
+{
+	x: -7.0d,
+	y: -10.0d,
+	description: "100%良心储能，童叟无欺。",
+	tasks: [{
+		uid: "4662135f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_storage_core"
+		}]
+	}],
+	rewards: [{
+		uid: "8efb2963",
+		type: "item",
+		team_reward: true,
+		item: "fluxnetworks:fluxpoint",
+		count: 4
+	},
+	{
+		uid: "8d6026ba",
+		type: "item",
+		item: "harvestcraft:delightedmealitem"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"e9ff4c24"
+	],
+	tasks: [{
+		uid: "0caa3af4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba387b0b",
+		type: "item",
+		item: "animus:bloodapple",
+		count: 8
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 49,
+			TrophyVariant: "classic",
+			TrophyItem: {
+				id: "extrautils2:ingredients",
+				Count: 1,
+				Damage: 5
+			},
+			TrophyColorBlue: 146,
+			TrophyName: "Lunar Legacy",
+			TrophyColorRed: 37,
+			TrophyEarnedAt: 1553222296
+		}
+	},
+	x: -5.5d,
+	y: -3.0d,
+	description: "包含98%氢元素，1.9%氦元素，0.1%其他元素，以及一些微量金属元素。",
+	dependencies: [
+		"dd0f8ba4"
+	],
+	tasks: [{
+		uid: "95799c4f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "5d3e9ac7",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "extrautils2:ingredients",
+					Count: 1,
+					Damage: 5
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Lunar Legacy",
+				TrophyColorRed: 37
+			}
+		}
+	}]
+}

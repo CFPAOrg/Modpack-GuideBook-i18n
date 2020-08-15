@@ -1,0 +1,29 @@
+{
+	x: 14.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9062cd92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8631ffed",
+		type: "item",
+		items: [{
+			item: "atum:anubiss_wrath"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "01b0d163",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "1d1abe2a",
+		type: "item",
+		item: "atum:coin_gold",
+		count: 5
+	}]
+}

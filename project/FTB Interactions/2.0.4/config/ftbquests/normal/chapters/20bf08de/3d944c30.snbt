@@ -1,0 +1,27 @@
+{
+	x: -2.5d,
+	y: -10.0d,
+	description: "使用宝石精炼器，通过消耗魔力和热能，你可以将宝石转化成无暇宝石。 ",
+	text: [
+		"你可以选择使用筛选器来获取这些东西，无论怎样都只是你的个人选择！"
+	],
+	dependencies: [
+		"ed71db18",
+		"6cd9406c",
+		"e10dabbe"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "456babbb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 24111"
+		}]
+	}],
+	rewards: [{
+		uid: "cddbb34b",
+		type: "item",
+		item: "gregtech:meta_item_2 1 24111",
+		count: 4
+	}]
+}

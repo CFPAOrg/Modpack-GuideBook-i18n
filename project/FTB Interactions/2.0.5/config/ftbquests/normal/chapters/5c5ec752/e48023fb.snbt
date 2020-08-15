@@ -1,0 +1,22 @@
+{
+	title: "青黄不接",
+	x: -3.5d,
+	y: -3.0d,
+	description: "想要开始格雷科技？好的，你需要黄铜和青铜，前者需要只有在下界才有的锌。在你到达那里之前，你必须先用炼金术制作黄铜。",
+	dependencies: [
+		"c782128e"
+	],
+	tasks: [{
+		uid: "da1bb3ac",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12094"
+		}]
+	}],
+	rewards: [{
+		uid: "9222e466",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2079",
+		count: 16
+	}]
+}

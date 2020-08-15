@@ -1,0 +1,91 @@
+{
+	title: "斗士",
+	icon: "minecraft:iron_sword",
+	loot_size: 43,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "minecraft:iron_sword",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "dungeontactics:stone_shield",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_chestplate",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -8173889782450533824L,
+						UUIDLeast: -8281439696185227128L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.arcane.name"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_leggings",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:leather_boots",
+			tag: {
+				Quality: {}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "minecraft:torch",
+		count: 16,
+		only_one: true
+	},
+	{
+		item: "minecraft:bread",
+		count: 16,
+		only_one: true
+	},
+	{
+		item: "skewers:skewer_beef_raw",
+		count: 6,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "warrior",
+		item_name: "斗士",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

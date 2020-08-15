@@ -1,0 +1,10 @@
+{
+	title: "啊哟！科技",
+	icon: "gregtech:machine 1 2506",
+	description: [
+		"这一章是主要的科技线。尽管这一章与魔法章节是分开的，但这不意味着进度线是独立的。你将不得不同时发展很多章节。"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

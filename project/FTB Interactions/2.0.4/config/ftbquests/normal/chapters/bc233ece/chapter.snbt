@@ -1,0 +1,16 @@
+{
+	title: "HV+化学",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "infused_nitrofuel",
+				Amount: 256000
+			}
+		},
+		Damage: 32406s
+	},
+	always_invisible: false,
+	group: 368286192,
+	default_quest_shape: ""
+}

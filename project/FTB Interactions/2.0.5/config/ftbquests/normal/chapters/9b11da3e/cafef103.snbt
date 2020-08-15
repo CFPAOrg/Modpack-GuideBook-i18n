@@ -1,0 +1,32 @@
+{
+	title: "一只可爱的小蜘蛛",
+	icon: "minecraft:spider_eye",
+	x: -4.0d,
+	y: -5.0d,
+	text: [
+		"蜘蛛的腿比以往多了：",
+		"-不会受到掉落伤害",
+		"-有几率生成被怪物骑着的蜘蛛"
+	],
+	dependencies: [
+		"2e6c74d5"
+	],
+	tasks: [{
+		uid: "30cf9cc3",
+		type: "kill",
+		entity: "minecraft:spider",
+		value: 1L
+	},
+	{
+		uid: "2db81c9e",
+		type: "kill",
+		title: "洞穴蜘蛛",
+		entity: "minecraft:cave_spider",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "52fea26c",
+		type: "item",
+		item: "harvestcraft:spiderweb_sapling"
+	}]
+}

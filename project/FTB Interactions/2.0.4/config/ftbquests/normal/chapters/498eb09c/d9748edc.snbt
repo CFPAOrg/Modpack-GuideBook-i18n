@@ -1,0 +1,42 @@
+{
+	x: -8.0d,
+	y: -8.0d,
+	dependencies: [
+		"631ee396"
+	],
+	tasks: [{
+		uid: "05d9e169",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "helium",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "fc6f3a13",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "helium",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		},
+		count: 8
+	},
+	{
+		uid: "ee292e2e",
+		type: "item",
+		item: "harvestcraft:cottoncandyitem"
+	}]
+}

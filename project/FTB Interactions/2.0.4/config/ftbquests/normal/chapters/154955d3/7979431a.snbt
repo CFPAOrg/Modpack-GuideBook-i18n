@@ -1,0 +1,37 @@
+{
+	title: "如果你首先看的是这个任务，你应该是个非常优秀的玩家。",
+	icon: "sonarcore:stablestoneblackrimmed_lightblue",
+	x: -3.0d,
+	y: 12.0d,
+	shape: "diamond",
+	description: "你需要制作这个方块前往主世界，然而那里处处充满危险，你可能会死。所以为什么不放慢点脚步，完成一些任务并更好的装备你自己？同样的，传送门的另一边也不应该没有任何防御措施，我可不能保证当你还在传送门里时外面的怪物对你干些什么事情...",
+	text: [
+		"用你的贤者之石点亮传送门",
+		"",
+		"感谢DJJBanx提供的的传送门方块动画材质。"
+	],
+	dependencies: [
+		"7d56d52e"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "eafc12e8",
+		type: "item",
+		items: [{
+			item: "sonarcore:stablestoneblackrimmed_lightblue"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "02b0e3c2",
+		type: "item",
+		item: "lteleporters:teleporter",
+		count: 2
+	},
+	{
+		uid: "5fb9a659",
+		type: "item",
+		item: "lteleporters:endercrystal",
+		count: 2
+	}]
+}

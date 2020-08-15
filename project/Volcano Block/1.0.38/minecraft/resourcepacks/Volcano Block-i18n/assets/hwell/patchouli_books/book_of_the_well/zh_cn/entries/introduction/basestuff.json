@@ -1,0 +1,45 @@
+{
+    "name": "重型的东西",
+    "icon": "hwell:heavy_ingot",
+    "category": "introduction",
+    "sortnum": 0,
+    "pages": [
+		{
+            "type": "crafting",
+			"title": "重型锭",
+			"text": "重型锭,用于制作的合成材料。",
+			"recipe": "hwell:heavy_mesh"		
+        },
+        {
+            "type": "smelting",
+			"title": "重型锭",
+			"text": "重型锭,用于制作的合成材料。",
+			"recipe": "hwell:heavy_mesh"
+        },
+		{
+            "type": "crafting",
+			"title": "压碎方块",
+			"text": "这个物品，放置在世界上时，会像沙子一样下落，会将下面的物体压碎成各种粉末。",
+			"recipe": "hwell:crushing_block"
+    	},
+ 		{
+            "type": "crafting",
+			"title": "重型物品",
+			"text": "剪刀和奇怪的棒棒",
+			"recipe": "hwell:heavy_shears"			
+        },
+    	{	
+        	"type": "spotlight",
+            "title": "空棒",
+            "item": "hwell:empty_rod",
+            "link_recipe": true,
+			"text": "握住手中的棒，然后右键单击以从自己身上汲取一些灵魂。$(br2)尝试用另一只手拿着烈焰粉或神秘粉。"
+        },
+ 		{
+            "type": "crafting",
+			"title": "",
+			"text": "",
+			"recipe": "hwell:empty_rod"			
+        }
+    ]
+}

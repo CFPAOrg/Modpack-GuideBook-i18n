@@ -1,0 +1,41 @@
+{
+	x: -14.0d,
+	y: -8.0d,
+	dependencies: [
+		"10103324",
+		"11fc0573",
+		"625261a5"
+	],
+	tasks: [{
+		uid: "0acd0b3d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_seed"
+		}]
+	}],
+	rewards: [{
+		uid: "9f3d869c",
+		type: "item",
+		item: "bloodmagic:demon_crystal 1 1"
+	},
+	{
+		uid: "fed937ef",
+		type: "item",
+		item: "bloodmagic:demon_crystal"
+	},
+	{
+		uid: "bc569e32",
+		type: "item",
+		item: "bloodmagic:demon_crystal 1 2"
+	},
+	{
+		uid: "5cd28210",
+		type: "item",
+		item: "bloodmagic:demon_crystal 1 3"
+	},
+	{
+		uid: "25f9c476",
+		type: "item",
+		item: "bloodmagic:demon_crystal 1 4"
+	}]
+}

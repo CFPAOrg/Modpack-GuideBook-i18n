@@ -1,0 +1,21 @@
+{
+	title: "这包的背面太荒谬了",
+	x: -3.5d,
+	y: -6.0d,
+	description: "超过其前身50%以上的容量。如果你仍在填满你的物品栏，要么你做错了什么，要么你做得令人难以置信地正确。",
+	dependencies: [
+		"e9a328ca"
+	],
+	tasks: [{
+		uid: "ced66d4f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderutilities:handybag",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

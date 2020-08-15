@@ -1,0 +1,30 @@
+{
+	title: "这是一个第八章的故事",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"56d3a9f0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7bb08b8d",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "122e8695",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	},
+	{
+		uid: "0e092b76",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 100
+	}]
+}

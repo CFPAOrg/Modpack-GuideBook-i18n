@@ -1,0 +1,45 @@
+{
+	x: 0.0d,
+	y: -9.0d,
+	description: "我无法觉醒。",
+	tasks: [{
+		uid: "a4caee93",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "f96c4d01",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 205,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "draconicevolution:draconic_core",
+					Count: 1,
+					Damage: 0
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Draconic Technology",
+				TrophyColorRed: 65
+			}
+		}
+	},
+	{
+		uid: "13f8cee2",
+		type: "item",
+		team_reward: true,
+		item: "draconicevolution:draconic_core",
+		count: 4
+	},
+	{
+		uid: "ac3ac956",
+		type: "item",
+		team_reward: true,
+		item: "draconicevolution:draconic_spawner"
+	}]
+}

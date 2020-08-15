@@ -1,0 +1,30 @@
+{
+	title: "物流小管家",
+	x: -9.5d,
+	y: -3.0d,
+	description: "你为储存设备（包括模块化储存器）安装供应印记之后，傀儡就可以响应你用傀儡使铃铛进行的请求。简直就是前期的无线AE！",
+	tasks: [{
+		uid: "94ba3456",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:golem_bell"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bded733e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:seal 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "c334fc5b",
+		type: "item",
+		item: "thaumcraft:seal 1 14"
+	}]
+}

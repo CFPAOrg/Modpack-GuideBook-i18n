@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: -3.0d,
+	text: [
+		"甲苯可以通过很多方式提炼油来获取，我们推荐使用污泥鸡，不过最终都取决于你。你需要很多很多炸药来制造中子素和宝石。"
+	],
+	dependencies: [
+		"710b7cd7"
+	],
+	tasks: [{
+		uid: "ed69a45d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32010"
+		}]
+	}],
+	rewards: [{
+		uid: "c53483ba",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32010",
+		count: 32
+	}]
+}

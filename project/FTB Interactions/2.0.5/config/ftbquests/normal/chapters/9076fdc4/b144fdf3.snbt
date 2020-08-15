@@ -1,0 +1,80 @@
+{
+	x: -8.0d,
+	y: -14.0d,
+	description: "看起来就像把一个爬行者塞在罐子里一样，然而你把它当作了燃料。",
+	tasks: [{
+		uid: "b8f2cb59",
+		type: "item",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:meta_item_1",
+					Count: 1,
+					tag: {
+						Fluid: {
+							FluidName: "infused_nitrofuel",
+							Amount: 64000
+						}
+					},
+					Damage: 32405
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Extreme Oil",
+				TrophyColorRed: 37,
+				TrophyEarnedAt: 1553222399
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "infused_nitrofuel",
+				Amount: 1000
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5d185052",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "gregtech:meta_item_1",
+					Count: 1,
+					tag: {
+						Fluid: {
+							FluidName: "infused_nitrofuel",
+							Amount: 64000
+						}
+					},
+					Damage: 32405
+				},
+				TrophyColorBlue: 146,
+				TrophyName: "Extreme Oil",
+				TrophyColorRed: 37
+			}
+		}
+	},
+	{
+		uid: "548602b6",
+		type: "item",
+		item: {
+			id: "apotheosis:hellshelf",
+			tag: {
+				ench: [{
+					lvl: 10,
+					id: 58
+				}]
+			}
+		}
+	}]
+}

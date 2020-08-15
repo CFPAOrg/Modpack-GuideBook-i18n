@@ -1,0 +1,40 @@
+{
+	title: "平衡的电解",
+	x: 0.0d,
+	y: 0.0d,
+	description: "一旦你进入了MV，你就可以电解许多粉末来获得铝粉，建议使用粘土，因为它被平衡过了。",
+	text: [
+		"电解粘土可以提供相当重要的副产物，比如硅，而且粘土可以用很多方法制造。它值得你尽早的开始这道工序。"
+	],
+	dependencies: [
+		"aa9e39d7"
+	],
+	tasks: [{
+		uid: "7b090e88",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2105"
+		}]
+	},
+	{
+		uid: "46691765",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 241"
+		},
+		{
+			item: "gregtech:machine 1 242"
+		}]
+	}],
+	rewards: [{
+		uid: "986260d4",
+		type: "item",
+		item: "minecraft:clay",
+		count: 32
+	},
+	{
+		uid: "4e7982bb",
+		type: "item",
+		item: "harvestcraft:cinnamonappleoatmealitem"
+	}]
+}

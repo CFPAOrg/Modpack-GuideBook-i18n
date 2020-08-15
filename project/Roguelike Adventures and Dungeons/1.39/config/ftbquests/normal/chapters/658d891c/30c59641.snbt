@@ -1,0 +1,93 @@
+{
+	x: 4.0d,
+	y: -3.0d,
+	dependencies: [
+		"7136a73b"
+	],
+	tasks: [{
+		uid: "211c618a",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_blue_helmet",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -5882104751473735014L,
+						UUIDLeast: -7363923587581043880L,
+						Amount: 0.5d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6f9e07fd",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_blue_chestplate",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9384a74a",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_blue_leggings",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d576a5e",
+		type: "item",
+		items: [{
+			id: "iceandfire:armor_blue_boots",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 3483911251735955922L,
+						UUIDLeast: -8903466785914596413L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa7935a6",
+		type: "item",
+		item: "iceandfire:jar_pixie"
+	},
+	{
+		uid: "38d5a78e",
+		type: "item",
+		item: "iceandfire:manuscript"
+	}]
+}

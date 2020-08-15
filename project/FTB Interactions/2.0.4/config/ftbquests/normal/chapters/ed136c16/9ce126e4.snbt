@@ -1,0 +1,28 @@
+{
+	x: -2.5d,
+	y: 4.0d,
+	text: [
+		"机械眼睛能让你获得许多效果，包括：",
+		"- 免受失明影响",
+		"- 夜视*",
+		"- 更好的水下视野*",
+		"还有一些其他效果。",
+		"* 仅在安装特定升级后可用"
+	],
+	dependencies: [
+		"5633991b"
+	],
+	tasks: [{
+		uid: "69bc520e",
+		type: "item",
+		items: [{
+			item: "cyberware:cybereyes"
+		}]
+	}],
+	rewards: [{
+		uid: "1f4063ba",
+		type: "item",
+		item: "minecraft:spider_eye",
+		count: 2
+	}]
+}

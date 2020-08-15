@@ -1,0 +1,23 @@
+{
+	title: "油往直前",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "oil",
+			Amount: 1000
+		}
+	},
+	x: -6.5d,
+	y: -5.0d,
+	description: "石油在平顶山与深海群系中生成",
+	text: [
+		"石油可以提供电力，通过石油矮牵牛生产魔力，还可以通过精炼产生大量副产物，满足你所有的化学合成需求。 查看燃料处理任务线，了解如何最好地利用石油化学品。"
+	],
+	tasks: [{
+		uid: "e143e9de",
+		type: "checkmark"
+	}]
+}

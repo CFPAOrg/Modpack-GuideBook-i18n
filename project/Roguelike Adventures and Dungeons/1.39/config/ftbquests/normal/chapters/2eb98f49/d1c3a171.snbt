@@ -1,0 +1,19 @@
+{
+	x: 16.0d,
+	y: 5.0d,
+	dependencies: [
+		"7ef3dcbf"
+	],
+	tasks: [{
+		uid: "b4b01718",
+		type: "item",
+		items: [{
+			item: "embers:isolated_materia"
+		}]
+	}],
+	rewards: [{
+		uid: "6ebadbe5",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}
