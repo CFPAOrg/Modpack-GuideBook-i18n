@@ -644,9 +644,10 @@ interactions.40159cc8.6c94636b.title=高级无线连接工具
 interactions.40159cc8.6c94636b.text.0=能够将这些高级火箭(Advanced Rocketry)机械里的隐藏的发射器和接收器连接起来。
 
 interactions.40159cc8.6f38c8a5.title=Spacey（Not Kevin）
-interactions.40159cc8.6f38c8a5.description=要建造空间站，你需要在你的发射台上建造一个太空站组装机，然后你就可以建造你想要的空间站，左上角放上卫星建造机，右边放上一个未编程的空间站ID芯片进行扫描
+interactions.40159cc8.6f38c8a5.description=要建造空间站，你需要在你的发射台旁边建造一个太空站组装机。现在你可以在这个平台上随意地建造空间站，在你进入太空后你还可以继续扩建它。建好之后，打开太空站组装机，左上角放上卫星仓，右边放上一个未编程的空间站ID芯片，点击扫描，如果一切顺利的话就会开始组装了。拿下来你的芯片和卫星仓就可以进行下一步了。
 interactions.40159cc8.6f38c8a5.text.0=将卫星建造机置于能量输入口的上方，使这个小的多方块结构正常工作。
 interactions.40159cc8.6f38c8a5.text.1=你可以建造一个小型空间站并往太空中扩建，或者你也可以将它建成一个天体星门的形状。
+interactions.40159cc8.6f38c8a5.text.2=推荐你在发射前复制你的空间站ID芯片，以防有一天你可能把它弄丢！
 
 interactions.40159cc8.79bca20b.title=传送我吧，史考提！
 interactions.40159cc8.79bca20b.description=如果你想来回往返空间站，一定要使用一些更容易的旅行方式
@@ -1418,7 +1419,7 @@ interactions.a4a70422.1994d60a.text.0=这两个方块能发送或接收红石信
 
 interactions.a4a70422.1b5f3a46.text.0=用于将物品放入容器。
 
-interactions.a4a70422.1e84b1e0.description=存储63种液体，用3个可以换4倍的容量。
+interactions.a4a70422.1e84b1e0.description=存储5种液体，用3个可以换4倍的容量。
 
 interactions.a4a70422.2a50dbea.text.0=最终的跨维度流体运输，快捷的方法。
 interactions.a4a70422.2a50dbea.text.1=如果只有一个的话，它们并不好用。
@@ -1440,7 +1441,7 @@ interactions.a4a70422.437c848c.text.0=拥有 6x9 格的存储空间。
 
 interactions.a4a70422.439a50a5.text.0=无限的潜能...
 
-interactions.a4a70422.44a10c88.description=储存63种液体，再多来点。
+interactions.a4a70422.44a10c88.description=储存5种液体，再多来点。
 
 interactions.a4a70422.44ad6391.title=跨越复杂物流的桥梁
 interactions.a4a70422.44ad6391.text.0=当你从早期发展到中后期，你自然会过渡到AE上。这个适配器能帮你桥接两个网络，允许你访问LP网络里的一切，包括合成。
@@ -1559,12 +1560,12 @@ interactions.a4a70422.acf09ff6.text.0=让你自动化一些需要液体的合成
 interactions.a4a70422.bb862174.text.0=它用于储存大量物品，内部库存能够储存同种物品2147483647件
 interactions.a4a70422.bb862174.text.1=黑洞存储器将在被破坏时保留其内容物品，可以通过将其置于一个合成空格中来清除。 
 
-interactions.a4a70422.bca88813.description=储存63种液体
+interactions.a4a70422.bca88813.description=储存5种液体
 
 interactions.a4a70422.be1a2d33.title=物品导管
 interactions.a4a70422.be1a2d33.text.0=物品导管能和所有末影接口管道共用一格，可以用导管框架伪装。它们能传输物品，也可以升级速度，设定频道，添加过滤。功能全面的优秀管道。
 
-interactions.a4a70422.c3762d13.description=存储63种液体，不能更大了。
+interactions.a4a70422.c3762d13.description=存储5种液体，不能更大了。
 
 interactions.a4a70422.c550c34b.text.0=这个印记可以请求符合条件的傀儡捡起范围内的掉落物品，你可以自己设定范围。
 
@@ -2389,3 +2390,13 @@ interactions.logistics.mecontroller.description=AE网络十分强大，但简单
 interactions.logistics.mecontroller.text.0=为了奖励你解决了诸多问题和困难到达这里，请收下这份礼物。
 
 interactions.fd71bc82.chapter.title=EV+冶金
+
+multiblocktweaker.machine.disassembler.name=拆解机
+multiblocktweaker.multiblock.disassembler.description=拆解机器以回收其部分部件
+recipemap.disassembler.name=拆解机
+
+interactions.partygear.antimatter.title=What's the matter? ANTIMATTER!
+interactions.partygear.antimatter.description=你需要液态反物质来制作通量粉尘，这是一种强大的材料，它能够穿透虚空传输近乎无限的能量。
+interactions.partygear.antimatter.text.0=当生命源质接触到闪电就会产生液态反物质。这可能会自然发生，但显然非常罕见。
+interactions.partygear.antimatter.text.1=你应该寻找一种直接召唤闪电的方法，比如使用裂风者或者风之印记。
+interactions.partygear.antimatter.text.2=警告：液态反物质极具破坏性。它会将接触到的任何物体转化成反物质，反物质在被破坏时会造成大范围的连锁崩塌。
