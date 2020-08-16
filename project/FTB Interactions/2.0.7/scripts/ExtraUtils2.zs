@@ -30,6 +30,14 @@ cutting_saw.recipeBuilder()
 	.duration(60)
 	.buildAndRegister();
 
+cutting_saw.recipeBuilder()
+	.inputs([<minecraft:ender_pearl>])
+	.fluidInputs([<liquid:lubricant> * 5])
+	.outputs([<extrautils2:endershard> * 8])
+	.EUt(8)
+	.duration(30)
+	.buildAndRegister();
+
 
 	#builders wands
 	recipes.remove(<extrautils2:itembuilderswand>);

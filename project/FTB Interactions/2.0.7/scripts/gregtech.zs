@@ -23,6 +23,7 @@ val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor")
 val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
 val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
 val solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
+val plasma_arc_furnace = mods.gregtech.recipe.RecipeMap.getByName("plasma_arc_furnace");
 val chemReactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
 val forgeHammer = mods.gregtech.recipe.RecipeMap.getByName("forge_hammer");
 val fluidExtractor = mods.gregtech.recipe.RecipeMap.getByName("fluid_extractor");
@@ -62,6 +63,18 @@ val distillation_tower = mods.gregtech.recipe.RecipeMap.getByName("distillery");
 	.duration(60)
 	.EUt(18)
 	.buildAndRegister();
+
+
+	#Polyeth bar from sheet
+	#Steel in arc furnace
+	arc_furnace.recipeBuilder()
+		.inputs(<ore:platePlastic>)
+		.fluidInputs([<liquid:oxygen> * 60])
+		.outputs(<ore:ingotPlastic>.firstItem)
+		.duration(60)
+		.EUt(24)
+		.buildAndRegister();	
+	
 	
 	#Steel in arc furnace
 	arc_furnace.recipeBuilder()
@@ -90,6 +103,15 @@ val distillation_tower = mods.gregtech.recipe.RecipeMap.getByName("distillery");
 		.EUt(24)
 		.buildAndRegister();	
 
+	#Ardite ore in arc furnace
+	arc_furnace.recipeBuilder()
+		.inputs(<ore:oreArdite>)
+		.fluidInputs([<liquid:oxygen> * 60])
+		.outputs(<tconstruct:ingots:1>)
+		.duration(60)
+		.EUt(24)
+		.buildAndRegister();	
+
 	#tiny sulfur from tiny blaze powder
 	recipes.addShapeless(<gregtech:meta_item_1:65>, [<rusticthaumaturgy:dust_tiny_blaze>]);
 
@@ -98,6 +120,30 @@ bender.findRecipe(24,
 	[<ore:plateRedAlloy>.firstItem, <gregtech:meta_item_1:32766>.withTag({Configuration: 4})],
 	[null])
 	.remove();	
+	
+	#golden apples
+macerator.findRecipe(8, 
+	[<minecraft:golden_apple:1>],
+	[null])
+	.remove();	
+
+arc_furnace.findRecipe(30, 
+	[<minecraft:golden_apple:1>],
+	[<liquid:oxygen>*4320])
+	.remove();	
+	
+plasma_arc_furnace.findRecipe(10, 
+	[<minecraft:golden_apple:1>],
+	[<liquid:plasma.argon>*6])
+	.remove();	
+
+plasma_arc_furnace.findRecipe(30, 
+	[<minecraft:golden_apple:1>],
+	[<liquid:plasma.nitrogen>*19])
+	.remove();	
+	
+	
+	
 	
 bender.recipeBuilder()
 	.inputs(<ore:plateRedAlloy>.firstItem)
@@ -134,6 +180,30 @@ macerator.findRecipe(8,
 	#GT Flour to Pam's Flour
 	recipes.addShaped(<harvestcraft:flouritem>, [[null, null, null],[null, <gregtech:meta_item_1:2345>, null], [null, null, null]]);
 	
+	
+	
+	#thermal dusts from rods
+macerator.recipeBuilder()
+	.inputs(<ore:rodBlizz>)
+	.outputs(<thermalfoundation:material:2049>*4)
+	.duration(120)
+	.EUt(8)
+	.buildAndRegister();
+
+macerator.recipeBuilder()
+	.inputs(<ore:rodBasalz>)
+	.outputs(<thermalfoundation:material:2053>*4)
+	.duration(120)
+	.EUt(8)
+	.buildAndRegister();
+
+macerator.recipeBuilder()
+	.inputs(<ore:rodBlitz>)
+	.outputs(<thermalfoundation:material:2051>*4)
+	.duration(120)
+	.EUt(8)
+	.buildAndRegister();
+	
 
 macerator.recipeBuilder()
 	.inputs(<minecraft:beacon>)
@@ -156,6 +226,14 @@ thermalCent.findRecipe(60,
 	[null])
 	.remove();
 	
+macerator.findRecipe(12,[<ore:crushedPurifiedCoal>.firstItem],[null]).remove();
+macerator.recipeBuilder()
+	.inputs(<ore:crushedPurifiedCoal>)
+	.outputs(<ore:dustPureCoal>.firstItem)
+	.duration(200)
+	.EUt(12)
+	.buildAndRegister();
+
 	
 thermalCent.recipeBuilder()
 	.inputs([<ore:crushedPurifiedThorium>])
@@ -214,6 +292,18 @@ compressor.findRecipe(2,
 	[<minecraft:wheat>*8],
 	[null])
 	.remove();
+	
+compressor.findRecipe(2,	
+	[<minecraft:wheat>*9],
+	[null])
+	.remove();
+
+forgeHammer.recipeBuilder()
+	.inputs([<minecraft:wheat>*9])
+	.outputs([<minecraft:hay_block>])
+	.EUt(24)
+	.duration(20)
+	.buildAndRegister();
 	
 	
 	#Remove GT Chests
@@ -547,6 +637,14 @@ brewery.recipeBuilder()
 	assembler.findRecipe(500, [<ore:plateTitanium>.firstItem*2, <ore:circuitHigh>.firstItem*2, <gregtech:machine:522>], [null]).remove();
 	assembler.findRecipe(2000, [<ore:plateTungstenSteel>.firstItem*2, <ore:circuitHigh>.firstItem*2, <gregtech:machine:523>], [null]).remove();	
 	
+	#wool from woven cotten
+assembler.recipeBuilder()
+		.inputs(<harvestcraft:wovencottonitem>*2)
+		.outputs(<minecraft:wool>)
+		.duration(20)
+		.EUt(8)
+		.buildAndRegister();	
+	
 	#Bronze to steel
 assembler.recipeBuilder()
 		.inputs(<gregtech:metal_casing>, <ore:plateSteel> *2)
@@ -819,6 +917,120 @@ furnace.addRecipe(<gregtech:mineral>, <gregtech:mineral:4>);
     .EUt(12)
     .buildAndRegister();
 
+
+	#CEF/CEU Conversions
+#Remove useless ICEU/ICEF
+
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10722>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10723>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10724>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10725>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10726>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10727>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10728>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10729>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10730>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10731>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10732>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10733>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10734>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10735>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10736>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10737>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10738>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10739>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10740>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10741>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10742>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10743>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10744>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10745>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10746>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10747>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10748>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10749>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10750>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10751>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10752>);
+	mods.jei.JEI.removeAndHide(<gregtech:machine:10753>);
+
+	#CEU to CEF conversion recipes
+
+	recipes.addShapeless(<gregtech:machine:10650>, [<gregtech:machine:10651>]);
+	recipes.addShapeless(<gregtech:machine:10652>, [<gregtech:machine:10653>]);
+	recipes.addShapeless(<gregtech:machine:10654>, [<gregtech:machine:10655>]);
+	recipes.addShapeless(<gregtech:machine:10656>, [<gregtech:machine:10657>]);
+	recipes.addShapeless(<gregtech:machine:10658>, [<gregtech:machine:10659>]);
+	recipes.addShapeless(<gregtech:machine:10660>, [<gregtech:machine:10661>]);
+	recipes.addShapeless(<gregtech:machine:10662>, [<gregtech:machine:10663>]);
+	recipes.addShapeless(<gregtech:machine:10664>, [<gregtech:machine:10665>]);
+	recipes.addShapeless(<gregtech:machine:10666>, [<gregtech:machine:10667>]);
+	recipes.addShapeless(<gregtech:machine:10668>, [<gregtech:machine:10669>]);
+	recipes.addShapeless(<gregtech:machine:10670>, [<gregtech:machine:10671>]);
+	recipes.addShapeless(<gregtech:machine:10672>, [<gregtech:machine:10673>]);
+	recipes.addShapeless(<gregtech:machine:10674>, [<gregtech:machine:10675>]);
+	recipes.addShapeless(<gregtech:machine:10676>, [<gregtech:machine:10677>]);
+	recipes.addShapeless(<gregtech:machine:10678>, [<gregtech:machine:10679>]);
+	recipes.addShapeless(<gregtech:machine:10680>, [<gregtech:machine:10681>]);
+	recipes.addShapeless(<gregtech:machine:10682>, [<gregtech:machine:10683>]);
+	recipes.addShapeless(<gregtech:machine:10684>, [<gregtech:machine:10685>]);
+	recipes.addShapeless(<gregtech:machine:10686>, [<gregtech:machine:10687>]);
+	recipes.addShapeless(<gregtech:machine:10688>, [<gregtech:machine:10689>]);
+	recipes.addShapeless(<gregtech:machine:10690>, [<gregtech:machine:10691>]);
+	recipes.addShapeless(<gregtech:machine:10692>, [<gregtech:machine:10693>]);
+	recipes.addShapeless(<gregtech:machine:10694>, [<gregtech:machine:10695>]);
+	recipes.addShapeless(<gregtech:machine:10696>, [<gregtech:machine:10697>]);
+	recipes.addShapeless(<gregtech:machine:10698>, [<gregtech:machine:10699>]);
+	recipes.addShapeless(<gregtech:machine:10700>, [<gregtech:machine:10701>]);
+	recipes.addShapeless(<gregtech:machine:10702>, [<gregtech:machine:10703>]);
+	recipes.addShapeless(<gregtech:machine:10704>, [<gregtech:machine:10705>]);
+	recipes.addShapeless(<gregtech:machine:10706>, [<gregtech:machine:10707>]);
+	recipes.addShapeless(<gregtech:machine:10708>, [<gregtech:machine:10709>]);
+	recipes.addShapeless(<gregtech:machine:10710>, [<gregtech:machine:10711>]);
+	recipes.addShapeless(<gregtech:machine:10712>, [<gregtech:machine:10713>]);
+	recipes.addShapeless(<gregtech:machine:10714>, [<gregtech:machine:10715>]);
+	recipes.addShapeless(<gregtech:machine:10716>, [<gregtech:machine:10717>]);
+	recipes.addShapeless(<gregtech:machine:10718>, [<gregtech:machine:10719>]);
+	recipes.addShapeless(<gregtech:machine:10720>, [<gregtech:machine:10721>]);
+
+	#CEF to CEU conversion recipes
+
+	recipes.addShapeless(<gregtech:machine:10651>, [<gregtech:machine:10650>]);
+	recipes.addShapeless(<gregtech:machine:10653>, [<gregtech:machine:10652>]);
+	recipes.addShapeless(<gregtech:machine:10655>, [<gregtech:machine:10654>]);
+	recipes.addShapeless(<gregtech:machine:10657>, [<gregtech:machine:10656>]);
+	recipes.addShapeless(<gregtech:machine:10659>, [<gregtech:machine:10658>]);
+	recipes.addShapeless(<gregtech:machine:10661>, [<gregtech:machine:10660>]);
+	recipes.addShapeless(<gregtech:machine:10663>, [<gregtech:machine:10662>]);
+	recipes.addShapeless(<gregtech:machine:10665>, [<gregtech:machine:10664>]);
+	recipes.addShapeless(<gregtech:machine:10667>, [<gregtech:machine:10666>]);
+	recipes.addShapeless(<gregtech:machine:10669>, [<gregtech:machine:10668>]);
+	recipes.addShapeless(<gregtech:machine:10671>, [<gregtech:machine:10670>]);
+	recipes.addShapeless(<gregtech:machine:10673>, [<gregtech:machine:10672>]);
+	recipes.addShapeless(<gregtech:machine:10675>, [<gregtech:machine:10674>]);
+	recipes.addShapeless(<gregtech:machine:10677>, [<gregtech:machine:10676>]);
+	recipes.addShapeless(<gregtech:machine:10679>, [<gregtech:machine:10678>]);
+	recipes.addShapeless(<gregtech:machine:10681>, [<gregtech:machine:10680>]);
+	recipes.addShapeless(<gregtech:machine:10683>, [<gregtech:machine:10682>]);
+	recipes.addShapeless(<gregtech:machine:10685>, [<gregtech:machine:10684>]);
+	recipes.addShapeless(<gregtech:machine:10687>, [<gregtech:machine:10686>]);
+	recipes.addShapeless(<gregtech:machine:10689>, [<gregtech:machine:10688>]);
+	recipes.addShapeless(<gregtech:machine:10691>, [<gregtech:machine:10690>]);
+	recipes.addShapeless(<gregtech:machine:10693>, [<gregtech:machine:10692>]);
+	recipes.addShapeless(<gregtech:machine:10695>, [<gregtech:machine:10694>]);
+	recipes.addShapeless(<gregtech:machine:10697>, [<gregtech:machine:10696>]);
+	recipes.addShapeless(<gregtech:machine:10699>, [<gregtech:machine:10698>]);
+	recipes.addShapeless(<gregtech:machine:10701>, [<gregtech:machine:10700>]);
+	recipes.addShapeless(<gregtech:machine:10703>, [<gregtech:machine:10702>]);
+	recipes.addShapeless(<gregtech:machine:10705>, [<gregtech:machine:10704>]);
+	recipes.addShapeless(<gregtech:machine:10707>, [<gregtech:machine:10706>]);
+	recipes.addShapeless(<gregtech:machine:10709>, [<gregtech:machine:10708>]);
+	recipes.addShapeless(<gregtech:machine:10711>, [<gregtech:machine:10710>]);
+	recipes.addShapeless(<gregtech:machine:10713>, [<gregtech:machine:10712>]);
+	recipes.addShapeless(<gregtech:machine:10715>, [<gregtech:machine:10714>]);
+	recipes.addShapeless(<gregtech:machine:10717>, [<gregtech:machine:10716>]);
+	recipes.addShapeless(<gregtech:machine:10719>, [<gregtech:machine:10718>]);
+	recipes.addShapeless(<gregtech:machine:10721>, [<gregtech:machine:10720>]);	
 
 #Bronze hulls
 	alloyer.recipeBuilder()
@@ -1128,9 +1340,9 @@ recipes.remove(<gregtech:concrete>);
 	#Concrete_powder
 solidifier.findRecipe(8, [<metaitem:shape.mold.block>], [<liquid:concrete> * 1296]).remove();
 solidifier.recipeBuilder()
-    .fluidInputs([<liquid:concrete> * 1296])
+    .fluidInputs([<liquid:concrete> *  576])
 	.notConsumable(<metaitem:shape.mold.block>)
-	.outputs(<gregtech:concrete> * 9)
+	.outputs(<gregtech:concrete> * 4)
 	.duration(300)
 	.EUt(14)
 	.buildAndRegister();
@@ -1158,6 +1370,23 @@ recipes.addShaped(<meta_tile_entity:gregtech:distillation_tower>, [
 	.duration(80)
 	.EUt(64)
 	.buildAndRegister();
+
+	#granite
+macerator.findRecipe(8, [<minecraft:stone:1>], null).remove();	
+macerator.recipeBuilder()
+    .inputs(<minecraft:stone:1>)
+	.outputs(<ore:dustGraniteBlack>.firstItem)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .inputs(<minecraft:stone:2>)
+	.outputs(<ore:dustGraniteBlack>.firstItem)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+	
 	
 	#Ender Dust
 macerator.findRecipe(8, [<minecraft:ender_pearl>], null).remove();
@@ -1450,6 +1679,8 @@ compressor.recipeBuilder()
     .duration(80)
     .EUt(16)
     .buildAndRegister();
+
+
 	
 	#Salis mundis
 	mixer.recipeBuilder()
@@ -2058,7 +2289,7 @@ furnace.remove(<ore:nuggetCobalt>.firstItem, <ore:dustTinyCobalt>.firstItem);
 mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetOsmium>.firstItem);
 
 	#Uranium from Thorium transmutation
-	mods.astralsorcery.LightTransmutation.addTransmutation(<ore:oreThorium>.firstItem, <gregtech:ore_uranium_0>, 300);
+	mods.astralsorcery.LightTransmutation.addTransmutation(<ore:oreThorium>.firstItem, <gregtech:ore_uranium_0>, 50);
 
 	#super conductor cable covered
 assembler.recipeBuilder()

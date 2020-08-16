@@ -55,7 +55,7 @@ blast_furnace.recipeBuilder()
     .inputs(<ore:dustEnderium> * 2, <ore:dustPyrotheum>)
     .fluidInputs([<liquid:helium> * 100])
     .outputs(<ore:ingotHotEnderium>.firstItem * 2)
-    .property("temperature", 4500)
+    .property("temperature", 2500)
     .duration(2200)
     .EUt(480)
     .buildAndRegister();

@@ -263,7 +263,6 @@ var furnaceItems as IItemStack[IItemStack] = {
 <actuallyadditions:item_dust:7>:<actuallyadditions:item_misc:5>,
 <advancedrocketry:productdust:1>:<advancedrocketry:productingot:1>,
 <advancedrocketry:productdust>:<advancedrocketry:productingot>,
-<gregtech:compressed_17:7>:<appliedenergistics2:sky_stone_block>,
 <appliedenergistics2:sky_stone_block>:<appliedenergistics2:smooth_sky_stone_block>,
 <astralsorcery:itemcraftingcomponent:2>:<astralsorcery:itemcraftingcomponent:1>,
 <backportedflora:kelp:*>:<backportedflora:dried_kelp>,

@@ -70,8 +70,9 @@ mixer.recipeBuilder()
 recipes.remove(<appliedenergistics2:charger>);
 <appliedenergistics2:charger>.addTooltip(format.darkRed("使用能量灌注机。"));
 	
-	#skystone from GT Skystone
-furnace.addRecipe(<appliedenergistics2:sky_stone_block>, <ore:skystone>);
+#skystone variant conversion
+recipes.addShapeless(<gregtech:compressed_17:7>, [<appliedenergistics2:sky_stone_block>]);
+recipes.addShapeless(<appliedenergistics2:sky_stone_block>, [<gregtech:compressed_17:7>]);
 	
 	#smelt certus ore to flawed certus
 
@@ -455,7 +456,7 @@ assembler.recipeBuilder()
 	recipes.remove(<appliedenergistics2:part:16>);
 	assembler.recipeBuilder()
 	.inputs(<appliedenergistics2:part:140>,<ore:dustFluix>*2)
-    .outputs(<appliedenergistics2:part:16>)
+    .outputs(<appliedenergistics2:part:16>*4)
 	.fluidInputs([<liquid:plastic> * 36])
     .duration(200)
     .EUt(16)
@@ -553,7 +554,7 @@ laser.recipeBuilder()
 laser.recipeBuilder()
 	.inputs(<metaitem:wafer.glowstone>)
 	.notConsumable(<contenttweaker:skystonelense>)
-    .outputs(<appliedenergistics2:material:20> *2)
+    .outputs(<appliedenergistics2:material:20> *8)
     .duration(200)
     .EUt(480)
     .buildAndRegister();
@@ -561,7 +562,7 @@ laser.recipeBuilder()
 laser.recipeBuilder()
 	.inputs(<metaitem:wafer.naquadah>)
 	.notConsumable(<contenttweaker:skystonelense>)
-    .outputs(<appliedenergistics2:material:20> *4)
+    .outputs(<appliedenergistics2:material:20> *16)
     .duration(200)
     .EUt(1920)
     .buildAndRegister();
@@ -766,9 +767,8 @@ print("---------------Lazy AE Start------------------");
 	recipes.remove(<threng:big_assembler:2>);
 
 	#smart/dense cable combining/uncombining
-	recipes.addShapeless(<appliedenergistics2:part:56> * 8, [<appliedenergistics2:part:76>]);
-	recipes.addShaped(<appliedenergistics2:part:75>, [[<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],[<appliedenergistics2:part:56>, null, <appliedenergistics2:part:56>], [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]]);
-
+recipes.addShapeless(<appliedenergistics2:part:56> * 4, [<appliedenergistics2:part:76>]);
+recipes.addShaped(<appliedenergistics2:part:76>, [[<appliedenergistics2:part:56>, <appliedenergistics2:part:56>],[<appliedenergistics2:part:56>, <appliedenergistics2:part:56>]]);
 	
 
 	#coprocessor

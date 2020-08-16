@@ -27,6 +27,9 @@ val chemical_bath = mods.gregtech.recipe.RecipeMap.getByName("chemical_bath");
     .EUt(18)
     .buildAndRegister();
 	
+	#me conduits	
+	recipes.remove(<enderio:item_me_conduit>);
+	recipes.addShaped(<enderio:item_me_conduit> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<appliedenergistics2:part:16>, null, <appliedenergistics2:part:16>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 
 	#Alloy Smelter Removal
 	mods.jei.JEI.removeAndHide(<enderio:block_decoration2>);
@@ -422,7 +425,7 @@ alloyer.recipeBuilder()
 	
 	#Crystalline Alloy Ingot
 	alloyer.recipeBuilder()
-    .inputs(<ore:crystalChunk>, <ore:dustDiamond>*4)
+    .inputs(<ore:ingotManasteel>, <ore:dustDiamond>*4)
     .outputs(<ore:ingotCrystallineAlloy>.firstItem)
     .duration(80)
     .EUt(42)

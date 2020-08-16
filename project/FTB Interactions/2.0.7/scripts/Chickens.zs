@@ -70,7 +70,7 @@ recipes.addShaped(<roost:collector>, [[<ore:plankWood>, null, <ore:plankWood>],[
 	mixer.recipeBuilder()
 	.inputs(smartChicken, <ore:itemInfinityGoop>)
 	.outputs(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:concretechicken", Gain: 1, Strength: 1}))
-	.fluidInputs([<liquid:concrete> * 10000])
+	.fluidInputs([<liquid:concrete> * 10368])
 	.duration(1800)
 	.EUt(30)
 	.buildAndRegister();
@@ -78,7 +78,7 @@ recipes.addShaped(<roost:collector>, [[<ore:plankWood>, null, <ore:plankWood>],[
 #Concrete from egg
 fluidExtractor.recipeBuilder()
 	.inputs(<ore:enrichedEggConcrete> * 1)
-	.fluidOutputs([<liquid:concrete> * 100])
+	.fluidOutputs([<liquid:concrete> * 72])
 	.duration(20)
 	.EUt(18)
 	.buildAndRegister();
@@ -294,7 +294,7 @@ spinnyGoFast.recipeBuilder()
 
 fluidExtractor.recipeBuilder()
 	.inputs(<ore:enrichedEggPolywhatsit>)
-	.fluidOutputs([<liquid:polycaprolactam> * 10])
+	.fluidOutputs([<liquid:polycaprolactam> * 16])
     .duration(4)
     .EUt(12)
     .buildAndRegister();	
@@ -304,7 +304,7 @@ fluidExtractor.recipeBuilder()
 	mixer.recipeBuilder()
 	.inputs(smartChicken, <enderio:block_infinity_fog>*2, <ore:quicksilver>, <ore:itemRubber>*64)
 	.outputs(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:plasticchicken", Gain: 1, Strength: 1}))
-	.fluidInputs([<liquid:plastic> * 2000])
+	.fluidInputs([<liquid:plastic> * 2160])
 	.duration(600)
 	.EUt(28)
 	.buildAndRegister();

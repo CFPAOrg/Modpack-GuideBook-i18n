@@ -136,31 +136,31 @@ recipes.addShaped(<bloodmagic:soul_forge>, [[<tconstruct:seared:3>, <bloodmagic:
 	//mods.botania.RuneAltar.addRecipe(null,[<bloodmagic:blood_rune>, ], 2000);
 	#speed rune
 	recipes.remove(<bloodmagic:blood_rune:1>);
-	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:1>,[<bloodmagic:blood_rune>,<bloodmagic:slate>,<bloodmagic:slate>,<ore:gemQuartzite>], 20000);
+	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:1>*2,[<bloodmagic:blood_rune>,<bloodmagic:slate>,<bloodmagic:slate>,<ore:gemQuartzite>], 20000);
 
 	#displacement runes
 	recipes.remove(<bloodmagic:blood_rune:5>);
-	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:5>,[<bloodmagic:blood_rune>,<bloodmagic:component>,<bloodmagic:slate:1>,<bloodmagic:slate:1>], 25000);
+	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:5>*2,[<bloodmagic:blood_rune>,<bloodmagic:component>,<bloodmagic:slate:1>,<bloodmagic:slate:1>], 25000);
 
 	#capacity rune
 	recipes.remove(<bloodmagic:blood_rune:6>);
-	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:6>,[<bloodmagic:blood_rune>,<bloodmagic:slate:2>,<minecraft:cauldron>, <minecraft:blaze_powder>], 20000);
+	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:6>*2,[<bloodmagic:blood_rune>,<bloodmagic:slate:2>,<minecraft:cauldron>, <minecraft:blaze_powder>], 20000);
 
 	#rune of sacrifice
 	recipes.remove(<bloodmagic:blood_rune:3>);
-	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:3>,[<bloodmagic:blood_rune>,<ore:dustBlackSteel>, <bloodmagic:slate:2>, <bloodmagic:item_demon_crystal:3>], 50000);
+	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:3>*2,[<bloodmagic:blood_rune>,<ore:dustBlackSteel>, <bloodmagic:slate:2>, <bloodmagic:item_demon_crystal:3>], 50000);
 
 	#acceleration rune
 	recipes.remove(<bloodmagic:blood_rune:9>);
-	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:9>,[<bloodmagic:blood_rune>, <bloodmagic:slate:3>, <ore:foilRoseGold>, <integrateddynamics:crystalized_menril_block>], 100000);
+	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:9>*2,[<bloodmagic:blood_rune>, <bloodmagic:slate:3>, <ore:foilRoseGold>, <integrateddynamics:crystalized_menril_block>], 100000);
 
 	#charging rune
 	recipes.remove(<bloodmagic:blood_rune:10>);
-	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:10>,[<bloodmagic:blood_rune>,<ore:dustQuartzBlack>, <ore:glowstone>, <ore:glowstone>, <bloodmagic:slate:3>  ], 50000);
+	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:10>*2,[<bloodmagic:blood_rune>,<ore:dustQuartzBlack>, <ore:glowstone>, <ore:glowstone>, <bloodmagic:slate:3>  ], 50000);
 
 	#augmented capacity
 	recipes.remove(<bloodmagic:blood_rune:7>);
-	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:7>,[<bloodmagic:blood_rune:6>, <bloodmagic:slate:3>, <ore:plateSkystone>,<ore:plateSkystone> ], 50000);
+	mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_rune:7>*2,[<bloodmagic:blood_rune:6>, <bloodmagic:slate:3>, <ore:plateSkystone>,<ore:plateSkystone> ], 50000);
 
 	#alchemy table
 	recipes.remove(<bloodmagic:alchemy_table>);
@@ -179,17 +179,25 @@ recipes.addShaped(<bloodmagic:soul_forge>, [[<tconstruct:seared:3>, <bloodmagic:
 	#alternate binding reagent
 	mods.bloodmagic.TartaricForge.addRecipe(<bloodmagic:component:8>,[<enderio:item_material:75>,<ore:ingotRoseGold>.firstItem,<minecraft:gunpowder>,<minecraft:glowstone_dust>], 200, 20);
 
+
+	#Chains reagent
+	mods.bloodmagic.TartaricForge.removeRecipe([<minecraft:iron_bars>,<minecraft:ender_pearl>,<minecraft:glass_bottle>,<minecraft:end_stone>]);
+	mods.bloodmagic.TartaricForge.addRecipe(<animus:component:1>,[<minecraft:ender_pearl>, <minecraft:glass_bottle>, <netherbackport:netheritescrap>, <minecraft:slime_ball>], 200, 20);
+	
+	#phantom bridge
+	
+	
 	#whirlwind
-	mods.bloodmagic.AlchemyArray.addRecipe(<bloodmagic:sigil_whirlwind>, <bloodmagic:component:2>, <bloodmagic:slate:4>, "bloodmagic:textures/models/AlchemyArrays/shardoflaputa.png");
+	mods.bloodmagic.AlchemyArray.addRecipe(<bloodmagic:sigil_whirlwind>, <bloodmagic:component:2>, <bloodmagic:slate:2>, "bloodmagic:textures/models/AlchemyArrays/shardoflaputa.png");
 
 	val volatusCrystal = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "volatus"}]});
 
 	#air reagent
 	mods.bloodmagic.TartaricForge.removeRecipe([<minecraft:ghast_tear>,<minecraft:feather>,<minecraft:feather>]);
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("interactions:airreagent", <bloodmagic:component:2>, 250, 200, [
-	<ore:plateSkystone>, <minecraft:feather>, <ore:plateSkystone>,
+	<ore:foilAluminium>, <minecraft:feather>, <ore:foilAluminium>,
 	<minecraft:feather>, <minecraft:ghast_tear>, <minecraft:feather>,
-	<ore:plateSkystone>, <minecraft:feather>, <ore:plateSkystone>,
+	<ore:foilAluminium>, <minecraft:feather>, <ore:foilAluminium>,
 	volatusCrystal,volatusCrystal,volatusCrystal,volatusCrystal]);
 
 	#leech Sigil
@@ -313,6 +321,10 @@ RecipeBuilder.get("basic")
 	.setFluid(<liquid:water>*1000)
 	.addOutput(<bloodmagic:arcane_ashes>)
 	.create();
+
+	#phantom bridge
+	mods.bloodmagic.AlchemyArray.removeRecipe(<bloodmagic:component:15>, <bloodmagic:slate:3>);
+	mods.bloodmagic.AlchemyArray.addRecipe(<bloodmagic:sigil_phantom_bridge>,<bloodmagic:component:15>, <bloodmagic:slate:2>);
 
 	#liquid Dirt
 mods.bloodmagic.AlchemyArray.addRecipe(<forge:bucketfilled>.withTag({FluidName: "blockfluiddirt", Amount: 1000}),

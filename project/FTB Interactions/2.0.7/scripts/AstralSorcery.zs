@@ -95,7 +95,6 @@ val sootyMarble = <astralsorcery:blockblackmarble>;
 	
 	#bismuth from stibnite
 	mods.astralsorcery.LightTransmutation.addTransmutation(<ore:oreStibnite>.firstItem, <ore:oreBismuth>.firstItem, 250);
-	mods.astralsorcery.LightTransmutation.addTransmutation(<ore:oreNetherrackStibnite>.firstItem, <ore:oreBismuth>.firstItem, 250);
 	
 	#infused wood
 	mods.astralsorcery.StarlightInfusion.removeInfusion(<astralsorcery:blockinfusedwood:6>);
@@ -346,6 +345,28 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("interactions:vorux", <astralsorcer
 	<astralsorcery:itemperkgem>.addTooltip(format.darkRed("将萤石粉和水晶石投入星能液中来制作。"));
 	<astralsorcery:itemperkgem:1>.addTooltip(format.darkRed("将萤石粉和水晶石投入星能液中来制作。"));
 	<astralsorcery:itemperkgem:2>.addTooltip(format.darkRed("将萤石粉和水晶石投入星能液中来制作。"));
+
+
+	#Add constellation tooltip names
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.discidia"}}).addTooltip(format.darkRed("非攻座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.armara"}}).addTooltip(format.darkRed("遁甲座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.vicio"}}).addTooltip(format.darkRed("虚御座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.aevitas"}}).addTooltip(format.darkRed("生息座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.evorsio"}}).addTooltip(format.darkRed("解离座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.lucerna"}}).addTooltip(format.darkRed("圣芒座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.mineralis"}}).addTooltip(format.darkRed("晶金座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.horologium"}}).addTooltip(format.darkRed("时钟座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.octans"}}).addTooltip(format.darkRed("南极座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.bootes"}}).addTooltip(format.darkRed("牧夫座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.fornax"}}).addTooltip(format.darkRed("天炉座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.pelotrio"}}).addTooltip(format.darkRed("唤生座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.gelu"}}).addTooltip(format.darkRed("寒冰座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.ulteria"}}).addTooltip(format.darkRed("避役座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.alcara"}}).addTooltip(format.darkRed("振变座"));
+	<astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.vorux"}}).addTooltip(format.darkRed("贪狼座"));
+
+
+	
 
 #custom collector crystal for Astral sorcery
 	val customCrystal = <astralsorcery:blockcollectorcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.aevitas", crystalProperties: {collectiveCapability: 80, size: 350, fract: 0, purity: 80, sizeOverride: -1}, collectorType: 0}});
