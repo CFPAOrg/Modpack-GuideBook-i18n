@@ -1,0 +1,14 @@
+{
+	title: "维度",
+	icon: "minecraft:obsidian",
+	x: 0.0d,
+	y: -11.5d,
+	shape: "square",
+	text: [
+		"为了防止跳科技,我们使用了gamestage,它会限制你访问某些维度,直到你推到相应的发展点. "
+	],
+	tasks: [{
+		uid: "1503d3c6",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "烘烤和晾干",
+	x: -2.0d,
+	y: -2.5d,
+	text: [
+		"要制作瓷砖,你需要在晾干架上晾干瓷土.等等!别把你所有的瓷土都晒干了!你还会需要它们来制作一些瓷器而不是砖头.",
+		"",
+		"因为窑的配方存在一些问题,所以不需要做瓷器的组件.但是它在一些冶炼的配方里面还是有用的.",
+		"",
+		"注:Atum模组的窑为2x2x2的多方块结构,第二层前端为窑,其余为小型石灰岩砖."
+	],
+	dependencies: [
+		"44a83ff5"
+	],
+	tasks: [{
+		uid: "4d96d94c",
+		type: "item",
+		items: [{
+			item: "atum:kiln"
+		}],
+		count: 2L
+	},
+	{
+		uid: "1e21bf55",
+		type: "item",
+		items: [{
+			item: "atum:limestone_brick_small"
+		}],
+		count: 6L
+	},
+	{
+		uid: "bfe59c2e",
+		type: "item",
+		items: [{
+			id: "tconstruct:rack",
+			tag: {
+				textureBlock: {
+					id: "minecraft:wooden_slab",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "等级0",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "flintmod:axe_flint"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

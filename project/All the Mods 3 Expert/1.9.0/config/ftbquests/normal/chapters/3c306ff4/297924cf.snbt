@@ -1,0 +1,66 @@
+{
+	title: "大,黑,粗,想要.",
+	x: 2.0d,
+	y: -2.5d,
+	shape: "gear",
+	text: [
+		"你该搭建一个像样的冶炼炉了,它拥有你想要的所有功能,好爽,好厉害!",
+		"",
+		"注意:这些材料只够你制作一个基础尺寸,不过我相信你会想要更大的,或者是更刺激的."
+	],
+	dependencies: [
+		"1d4c46c4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f26daacb",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "39dca6f8",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "f74a9b3c",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "57af483f",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}],
+		count: 2L
+	},
+	{
+		uid: "327a96ec",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	},
+	{
+		uid: "9db5a333",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "67de5a6a",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared"
+		}],
+		count: 2L
+	}]
+}

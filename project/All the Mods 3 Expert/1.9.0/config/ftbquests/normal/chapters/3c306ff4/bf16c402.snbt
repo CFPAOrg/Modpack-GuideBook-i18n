@@ -1,0 +1,14 @@
+{
+	icon: "minecraft:skull 1 2",
+	x: -4.0d,
+	y: -8.0d,
+	shape: "square",
+	text: [
+		"当你探索世界时,你可能会发现各种各样的变化!世界是广阔且多样的,非常建议玩家去探索,但是要小心,怪物还是一样强."
+	],
+	tasks: [{
+		uid: "9574f114",
+		type: "checkmark",
+		title: "探索"
+	}]
+}
