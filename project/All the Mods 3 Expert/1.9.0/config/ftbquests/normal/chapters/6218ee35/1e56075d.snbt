@@ -1,0 +1,23 @@
+{
+	title: "无限手套",
+	x: -4.0d,
+	y: 0.0d,
+	text: [
+		"法师护手可以让符文矩阵成型,也可以通过各种核心来释放法术."
+	],
+	dependencies: [
+		"b6176e60"
+	],
+	tasks: [{
+		uid: "3e41f69c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
