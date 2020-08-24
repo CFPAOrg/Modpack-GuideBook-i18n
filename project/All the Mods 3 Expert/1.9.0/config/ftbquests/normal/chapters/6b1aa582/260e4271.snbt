@@ -1,0 +1,23 @@
+{
+	title: "游戏阶段",
+	icon: "minecraft:command_block",
+	x: -3.0d,
+	y: 1.5d,
+	shape: "square",
+	text: [
+		"为了跨入下一个阶段,你会看到任务书的每一个节点，你需要一步一步达到最终目标,这是为了确保你不会乱做事.你知道你是谁;)"
+	],
+	dependencies: [
+		"e0a8e1e4",
+		"c6c1c4db"
+	],
+	tasks: [{
+		uid: "1fe6d740",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "28c8a97c",
+		type: "command",
+		command: "/gamestage add @p nether"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "你想做个植物学家吗？",
+	x: -9.0d,
+	y: -6.5d,
+	text: [
+		"你需要发展的第一个魔法(科技)模组是植物魔法.花瓣药剂师将是你的第一步."
+	],
+	dependencies: [
+		"e73c6bc7"
+	],
+	tasks: [{
+		uid: "5e9cdee6",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	},
+	{
+		uid: "950ebca6",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer"
+		}],
+		count: 16L
+	}]
+}

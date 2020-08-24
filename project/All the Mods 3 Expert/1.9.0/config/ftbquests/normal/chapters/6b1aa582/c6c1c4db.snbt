@@ -1,0 +1,30 @@
+{
+	title: "点亮传送门!",
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"你意识到没有火源就进入不了地狱,但你发现碳板可以帮你."
+	],
+	dependencies: [
+		"4bc3ad2e"
+	],
+	tasks: [{
+		uid: "9c8c7505",
+		type: "item",
+		items: [{
+			item: "ic2:itemmisc 1 256"
+		}]
+	},
+	{
+		uid: "791b62d7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "深度挖掘它的潜力",
+	x: 4.5d,
+	y: -2.5d,
+	shape: "diamond",
+	text: [
+		"金属成型机将帮助你更方便的制作齿轮,金属板,电线等等"
+	],
+	dependencies: [
+		"4bc3ad2e"
+	],
+	tasks: [{
+		uid: "74878ba2",
+		type: "item",
+		items: [{
+			item: "ic2c_extras:metalbender"
+		}]
+	},
+	{
+		uid: "114c49c8",
+		type: "item",
+		items: [{
+			item: "ic2c_extras:rollingpress"
+		}]
+	},
+	{
+		uid: "5c01a4be",
+		type: "item",
+		items: [{
+			item: "ic2c_extras:gearingpress"
+		}]
+	},
+	{
+		uid: "1e59ce57",
+		type: "item",
+		items: [{
+			item: "ic2c_extras:extrudingpress"
+		}]
+	}]
+}

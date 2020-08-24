@@ -1,0 +1,20 @@
+{
+	title: "说好的活木?",
+	x: -7.5d,
+	y: -2.5d,
+	text: [
+		"用白雏菊将一些防腐木板变成活木,很神奇吧?"
+	],
+	dependencies: [
+		"184fe39b",
+		"a222ec47"
+	],
+	tasks: [{
+		uid: "5c83c74a",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 16L
+	}]
+}

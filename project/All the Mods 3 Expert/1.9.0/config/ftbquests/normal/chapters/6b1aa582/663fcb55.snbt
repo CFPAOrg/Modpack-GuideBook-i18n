@@ -1,0 +1,19 @@
+{
+	title: "说好的活石呢?怎么不动?",
+	x: -9.0d,
+	y: -4.5d,
+	text: [
+		"希望你还有一些焦黑石头:)"
+	],
+	dependencies: [
+		"184fe39b"
+	],
+	tasks: [{
+		uid: "53fac16a",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 16L
+	}]
+}

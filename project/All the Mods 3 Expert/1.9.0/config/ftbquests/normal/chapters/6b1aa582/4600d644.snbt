@@ -1,0 +1,21 @@
+{
+	title: "超 频 升 级",
+	icon: "ic2:ic2upgrades",
+	x: 6.0d,
+	y: -4.5d,
+	shape: "square",
+	text: [
+		"IC2Classic的机械可以通过超频升级组件进行加速.",
+		"",
+		"不过当它们加入一定数量升级组件后,就没办法平衡功耗了. ",
+		"",
+		"你可以通过升级变压器来提高机器的等级.这就可以让低电压的机器接受中电压,而且可以加入更多的超频."
+	],
+	dependencies: [
+		"1bf4a0d5"
+	],
+	tasks: [{
+		uid: "429d5c4e",
+		type: "checkmark"
+	}]
+}

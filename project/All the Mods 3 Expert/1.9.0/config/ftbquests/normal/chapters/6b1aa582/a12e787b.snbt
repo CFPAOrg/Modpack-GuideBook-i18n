@@ -1,0 +1,35 @@
+{
+	title: ""树叶"挺好"吃"的",
+	x: -10.5d,
+	y: -4.5d,
+	text: [
+		"咀叶花通过吃树叶产魔力.",
+		"",
+		"彼方兰通过吃食物产魔力",
+		"",
+		"两者各有利弊,挑选你喜欢的."
+	],
+	dependencies: [
+		"2d6842c5"
+	],
+	tasks: [{
+		uid: "e7c99d04",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "munchdew"
+			}
+		}]
+	},
+	{
+		uid: "f5ec7166",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "gourmaryllis"
+			}
+		}]
+	}]
+}

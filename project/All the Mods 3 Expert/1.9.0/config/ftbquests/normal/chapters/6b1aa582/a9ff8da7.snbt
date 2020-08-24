@@ -1,0 +1,52 @@
+{
+	title: "魔力存储和传输",
+	x: -9.0d,
+	y: -2.5d,
+	text: [
+		"魔力池存储魔力,魔力发射器发射魔力,就这样.",
+		"",
+		"你还需要一个森林法杖用来链接鲜花,魔力发射器和魔力池.",
+		"你制作森林法杖所选择的花朵颜色并不重要."
+	],
+	dependencies: [
+		"de7a2c76",
+		"a12e787b",
+		"663fcb55"
+	],
+	tasks: [{
+		uid: "07d20086",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 2"
+		}]
+	},
+	{
+		uid: "28a6c328",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	},
+	{
+		uid: "621a05b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "739f4b26",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin"
+	}]
+}

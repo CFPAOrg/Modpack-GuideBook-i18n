@@ -1,0 +1,15 @@
+{
+	title: "等级1",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ic2:itembatre",
+		tag: {
+			charge: 10000
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
