@@ -1,0 +1,18 @@
+{
+	title: "发展核电",
+	x: -6.0d,
+	y: -5.5d,
+	text: [
+		"对不起,这又是一个基础机器方块."
+	],
+	dependencies: [
+		"7f543340"
+	],
+	tasks: [{
+		uid: "490b50d9",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 10"
+		}]
+	}]
+}

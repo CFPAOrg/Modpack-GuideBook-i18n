@@ -1,0 +1,26 @@
+{
+	title: "注入合成",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"龙之进化加入了自己独特的合成装置:注入合成.你需要一个聚合核心和与配方每种物品对应数量的注入合成装置."
+	],
+	dependencies: [
+		"52d7afc3"
+	],
+	tasks: [{
+		uid: "a7b667f8",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}],
+		count: 9L
+	},
+	{
+		uid: "18cdc686",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	}]
+}

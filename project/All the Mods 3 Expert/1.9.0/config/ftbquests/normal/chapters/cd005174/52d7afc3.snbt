@@ -1,0 +1,19 @@
+{
+	title: "第一个核心",
+	x: 1.0d,
+	y: -3.5d,
+	text: [
+		"龙芯是你要制作的第一个核心,会用在基本的机器和之后的双足飞龙核心上."
+	],
+	dependencies: [
+		"59bbf000"
+	],
+	tasks: [{
+		uid: "43e53a31",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}],
+		count: 4L
+	}]
+}

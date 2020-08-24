@@ -1,0 +1,19 @@
+{
+	title: "第二个核心",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"双足飞龙核心可以让你制造一些装备和工具,还有觉醒核心"
+	],
+	dependencies: [
+		"52d7afc3"
+	],
+	tasks: [{
+		uid: "5d4fab59",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}],
+		count: 4L
+	}]
+}

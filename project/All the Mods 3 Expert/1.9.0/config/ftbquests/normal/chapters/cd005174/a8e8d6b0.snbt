@@ -1,0 +1,15 @@
+{
+	title: "统一理论",
+	x: 1.0d,
+	y: 10.5d,
+	text: [
+		"将龙心和盖亚魂锭打造成一种强大的金属,你将获得一个统一场核心.这是ATM之星的一部分."
+	],
+	tasks: [{
+		uid: "983a1b46",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 7"
+		}]
+	}]
+}

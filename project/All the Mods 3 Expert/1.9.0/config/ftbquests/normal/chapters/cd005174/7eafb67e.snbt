@@ -1,0 +1,27 @@
+{
+	title: "最高级血之祭坛",
+	x: 1.0d,
+	y: -5.5d,
+	text: [
+		"使用4个信标来搭建目前最高等级的血之祭坛."
+	],
+	dependencies: [
+		"7f543340"
+	],
+	tasks: [{
+		uid: "d765e159",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}],
+		count: 4L
+	},
+	{
+		uid: "3ac6e763",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 4"
+		}],
+		count: 4L
+	}]
+}

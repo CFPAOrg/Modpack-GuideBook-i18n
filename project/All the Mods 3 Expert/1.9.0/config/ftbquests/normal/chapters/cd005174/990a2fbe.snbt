@@ -1,0 +1,32 @@
+{
+	title: "桶中的中子",
+	x: -6.0d,
+	y: -0.5d,
+	text: [
+		"获得一桶中子流体,ATM之星会需要的."
+	],
+	dependencies: [
+		"3d120152"
+	],
+	tasks: [{
+		uid: "4f74e89e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "neutron",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "e41a71c3",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 103"
+	}]
+}

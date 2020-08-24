@@ -1,0 +1,68 @@
+{
+	title: "绿色的水晶",
+	x: 8.0d,
+	y: -3.5d,
+	text: [
+		"环境科技需要一点水晶来开始发展,第一块莱泽尔水晶将在你的熔岩制造机中获得. ",
+		"",
+		"为了得到碎片所需的故障心脏,你需要发展深度怪物学习,他有一本指导书可以帮助你发展."
+	],
+	dependencies: [
+		"23c5e588"
+	],
+	tasks: [{
+		uid: "29ab2b2a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "for.honey",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d8eb7a8e",
+		type: "item",
+		items: [{
+			item: "forestry:propolis"
+		}],
+		count: 4L
+	},
+	{
+		uid: "f985d2c4",
+		type: "item",
+		items: [{
+			item: "forestry:royal_jelly"
+		}],
+		count: 4L
+	},
+	{
+		uid: "606369a4",
+		type: "item",
+		items: [{
+			item: "plustic:osgloglasingot"
+		}],
+		count: 3L
+	},
+	{
+		uid: "0da83663",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_fragment"
+		}]
+	},
+	{
+		uid: "9c2a6861",
+		type: "item",
+		items: [{
+			item: "environmentaltech:litherite_crystal"
+		}],
+		count: 4L
+	}]
+}

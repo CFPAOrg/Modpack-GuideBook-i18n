@@ -1,0 +1,47 @@
+{
+	title: "蜜蜂很开心,因为有基因工业",
+	x: 6.0d,
+	y: -3.5d,
+	text: [
+		"这些都是基因工业的基础,当你谈到养蜂时,你不会被烦到."
+	],
+	dependencies: [
+		"22dae56e"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "d9f6cd31",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron"
+		}]
+	},
+	{
+		uid: "38c29cdd",
+		type: "item",
+		items: [{
+			item: "gendustry:mutagen_producer"
+		}]
+	},
+	{
+		uid: "16ed2c1f",
+		type: "item",
+		items: [{
+			item: "gendustry:sampler"
+		}]
+	},
+	{
+		uid: "26c7da32",
+		type: "item",
+		items: [{
+			item: "gendustry:imprinter"
+		}]
+	},
+	{
+		uid: "1a51b8c4",
+		type: "item",
+		items: [{
+			item: "gendustry:industrial_apiary"
+		}]
+	}]
+}

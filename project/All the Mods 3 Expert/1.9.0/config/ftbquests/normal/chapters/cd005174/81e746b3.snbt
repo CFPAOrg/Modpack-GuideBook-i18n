@@ -1,0 +1,15 @@
+{
+	title: "密度比黑洞还大",
+	x: -2.5d,
+	y: 4.0d,
+	text: [
+		"使用一些工业元素合金和许多转子,你可以扭曲空间,并产生一个密集的组件,这是ATM之星的组成部分."
+	],
+	tasks: [{
+		uid: "3df5c73a",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 8"
+		}]
+	}]
+}

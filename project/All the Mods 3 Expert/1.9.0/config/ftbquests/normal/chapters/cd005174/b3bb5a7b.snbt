@@ -1,0 +1,26 @@
+{
+	title: "最终的水晶",
+	x: 8.0d,
+	y: -0.5d,
+	text: [
+		"继续虚空矿石开采,升级,开采,如此反复,知道你获得了最终的水晶--以太水晶.你可以搭建一个虚空资源开采机来获取制作速度升级的材料.",
+		"",
+		"在此期间,你可以进行一些蜜蜂的研究,游戏最终目标会需要的."
+	],
+	dependencies: [
+		"07439754"
+	],
+	tasks: [{
+		uid: "67c5b75e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:aethium_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "b924239e",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 103"
+	}]
+}
