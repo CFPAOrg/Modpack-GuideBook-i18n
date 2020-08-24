@@ -1,0 +1,49 @@
+{
+	title: "精灵们的礼物",
+	x: -4.5d,
+	y: 1.5d,
+	text: [
+		"一旦你打开了精灵们,你就可以与它们愉快的交♂易.你给♂ 它,它给♂ 你. "
+	],
+	dependencies: [
+		"db071cc3"
+	],
+	tasks: [{
+		uid: "1c9475e2",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 9"
+		}],
+		count: 2L
+	},
+	{
+		uid: "51e03a58",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 8"
+		}],
+		count: 2L
+	},
+	{
+		uid: "7a2e1e4a",
+		type: "item",
+		items: [{
+			item: "botania:dreamwood"
+		}],
+		count: 16L
+	},
+	{
+		uid: "cedcb674",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 7"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f8a58f72",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 97"
+	}]
+}

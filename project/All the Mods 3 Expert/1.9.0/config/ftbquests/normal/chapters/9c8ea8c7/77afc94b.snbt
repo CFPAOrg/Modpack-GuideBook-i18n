@@ -1,0 +1,28 @@
+{
+	title: "结合原子",
+	x: 2.5d,
+	y: 0.0d,
+	text: [
+		"锂是这章任务的基本材料之一.",
+		"",
+		"既然你可以把物品分解,那么也可以做相反的事."
+	],
+	dependencies: [
+		"45596053"
+	],
+	tasks: [{
+		uid: "0f9cf138",
+		type: "item",
+		title: "任何锂锭",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotLithium",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 8L
+	}]
+}

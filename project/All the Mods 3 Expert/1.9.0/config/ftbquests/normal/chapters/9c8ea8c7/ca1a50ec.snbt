@@ -1,0 +1,19 @@
+{
+	title: "杀怪?湿湿碎啦!",
+	x: -3.5d,
+	y: 3.0d,
+	text: [
+		"屠宰机只需要提供能量就可以屠杀怪物."
+	],
+	dependencies: [
+		"251d766b",
+		"f4cb5b25"
+	],
+	tasks: [{
+		uid: "a7895313",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_relocator"
+		}]
+	}]
+}

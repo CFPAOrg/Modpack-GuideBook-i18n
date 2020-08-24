@@ -1,0 +1,21 @@
+{
+	title: "噢我亲爱的达瓦里希,这玩意在发光啊",
+	x: -6.5d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		"你应该注意到了,魔力发射器传输的还不够快.你可以做一些火花来加速魔力的传输.而且越多越快!",
+		""
+	],
+	dependencies: [
+		"58e02911"
+	],
+	tasks: [{
+		uid: "30e12d75",
+		type: "item",
+		items: [{
+			item: "botania:spark"
+		}],
+		count: 2L
+	}]
+}

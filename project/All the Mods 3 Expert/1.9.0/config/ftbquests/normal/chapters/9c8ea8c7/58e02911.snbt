@@ -1,0 +1,36 @@
+{
+	title: "这不是化合物",
+	x: -4.5d,
+	y: -1.5d,
+	text: [
+		"要制作泰拉钢,你需要一个小小的结构.该结构可以在书中看到.",
+		"",
+		"植物魔法辞典可以帮助你,有什么不懂的可以看书."
+	],
+	dependencies: [
+		"cbbf9d02"
+	],
+	tasks: [{
+		uid: "d125ea32",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	},
+	{
+		uid: "64300e84",
+		type: "item",
+		items: [{
+			item: "minecraft:lapis_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "f9ff18f7",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 5L
+	}]
+}
