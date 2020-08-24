@@ -695,7 +695,7 @@ interactions.40159cc8.c0b8f931.title=别再换储罐了
 interactions.40159cc8.c0b8f931.text.0=如果您可以像那些高端手机那样进行无线充(chōng)电(qì)怎么办？ 好吧，只需为这小东西提供氧气，然后你站在它顶部，接下来就是见证奇迹的时刻！
 
 interactions.40159cc8.c3e76f1e.title=太空竞赛！
-interactions.40159cc8.c3e76f1e.description=现在你已经进入太空，你解锁了最后等级的mob staging。向着轨道激光钻努力来获得陨石，以及跃迁控制器来前往探索其他世界。 
+interactions.40159cc8.c3e76f1e.description=现在你已经进入太空，你解锁了最后等级的mob stage。努力建成一台轨道激光钻来获得陨石，另外你还需要跃迁控制器以前往其他世界进行探索。这个任务右侧的这些方块是轨道激光钻能够为你获取的所有方块。
 
 interactions.40159cc8.c7808115.description=通过轨道激光钻来获得陨石
 
@@ -1763,7 +1763,7 @@ interactions.aa10a1a2.c4bcc6d3.text.0=这种晶化油可以通过蒸馏变成几
 
 interactions.aa10a1a2.c5c9f2f6.title=*活塞引擎* 这个坏男孩可能会造成非常多的污染。
 interactions.aa10a1a2.c5c9f2f6.description=消耗柴油发电机燃料，默认输出2000EU/t多方块发电机。通过添加氧气可以增加到6144EU/t。如果你还是不相信它，我们可以告诉你它也比单方块发电机的柴油利用效率更高。
-interactions.aa10a1a2.c5c9f2f6.text.0=你也可以使用格雷科技的泵来设置精确的流速，以匹配你的产量。因为这个多方块需要一段时间来冷启动加速转子，所以最好是让它一直运行，而不要因为燃料供给不足频繁开启或关闭！
+interactions.aa10a1a2.c5c9f2f6.text.0=你也可以使用格雷科技的泵来设置精确的流速以匹配你的产量。因为这个多方块需要一段时间来冷启动加速转子，所以最好是让它一直运行，而不要因为燃料供给不足频繁开启或关闭！这个多方块需要少量的润滑油来使它持续工作，否则它将会卡住。
 
 interactions.aa10a1a2.c726c9c9.title=恭喜你自动化了蒸汽的生产！
 
@@ -2379,7 +2379,7 @@ interactions.fd71bc82.2e5abfbb.tasks.0.title=钨粉
 
 interactions.fd71bc82.6b69f34f.title=外星钨矿
 interactions.fd71bc82.6b69f34f.tasks.0.title=钨矿石
-interactions.fd71bc82.6b69f34f.text.0=在你成功到达末地之后，除了电解末地石之外，你可以直接挖掘钨矿石，使你能更容易地得处理得到大量钨，满足EV或EV以上等级的需求。
+interactions.fd71bc82.6b69f34f.text.0=除了电解末地石或者用炼狱离心机处理末地石（推荐）之外，在你成功到达末地之后，除了电解末地石之外，你可以直接挖掘钨矿石，使你能更容易地得处理得到大量钨，满足EV或EV以上等级的需求。
 
 interactions.crate.title=Dont get carried away
 interactions.crate.description=格雷科技板条箱可以用来储存物品，还可以使用传送带或机械臂来从相邻的容器中抽取物品或进行过滤。这在矿物处理过程中非常有用。
@@ -2392,11 +2392,38 @@ interactions.logistics.mecontroller.text.0=为了奖励你解决了诸多问题�
 interactions.fd71bc82.chapter.title=EV+冶金
 
 multiblocktweaker.machine.disassembler.name=拆解机
-multiblocktweaker.multiblock.disassembler.description=拆解机器以回收其部分部件
-recipemap.disassembler.name=拆解机
+multiblocktweaker.multiblock.disassembler.description=拆解机可以回收部分部件和材料，将它们用于合成新的物品。
+recipemap.disassembler.name=物品拆解
 
 interactions.partygear.antimatter.title=What's the matter? ANTIMATTER!
 interactions.partygear.antimatter.description=你需要液态反物质来制作通量粉尘，这是一种强大的材料，它能够穿透虚空传输近乎无限的能量。
 interactions.partygear.antimatter.text.0=当生命源质接触到闪电就会产生液态反物质。这可能会自然发生，但显然非常罕见。
 interactions.partygear.antimatter.text.1=你应该寻找一种直接召唤闪电的方法，比如使用裂风者或者风之印记。
 interactions.partygear.antimatter.text.2=警告：液态反物质极具破坏性。它会将接触到的任何物体转化成反物质，反物质在被破坏时会造成大范围的连锁崩塌。
+
+interactiosns.luckystar.dynanism.title=动态三重奏
+interactiosns.luckystar.dynanism.description=将萤石和水晶石丢进星能液中可以产出三种活力宝石。它们将随着时间的推移生长，随机地变化到更高阶的生长状态。 建议你同时生长多个宝石，以尽量减少随机性的影响。
+interactiosns.luckystar.dynanism.text.0=活力宝石分为三种：芙荙姆（白色）、奥瑞尔（蓝色）和伊利姆（橙色）。生成宝石的类型取决于转化发生的时间。
+interactiosns.luckystar.dynanism.text.1=提供星能或者使用加速火把（误）能让这些宝石生长的更快，当它们开始释放出薄雾就可以安全地收获它们了。如果一段时间没有被收获，它们就会回退到之前的某个生长状态并持续这一循环。
+
+interactions.metallurgyev.implosioncompressor.title=爆炸性进展
+interactions.metallurgyev.implosioncompressor.description=有些材料需要比普通的压缩机大得多的压力进行压缩。聚爆压缩机就适用于这种任务。
+interactions.metallurgyev.implosioncompressor.text.0=聚爆压缩机本身消耗极少的电力并且能迅速地完成它的工作，但它需要持续的TNT供应。 请参考LV
+interactions.metallurgyev.implosioncompressor.text.1=化学标签，那里展示了自动化生产甲苯和TNT的路线——如果你还没完成的话。已经到这个时候了，强烈建议你使用蒸馏塔进行化学处理。
+interactions.metallurgyev.implosioncompressor.text.2=将石油蒸馏并用蒸汽裂化能为你提供足量的甲苯，聚苯乙烯的原料以及其他一些副产物。
+
+interactions.metallurgymaster.vanadium.title=天神下钒！
+interactions.metallurgymaster.vanadium.description=还记得你在找金矿和铁矿的时候挖到的那些没用的钒磁铁矿吗？好吧，surprise！现在它终于能派上用场了。LuV等级的机器需要钒和镓的合金制成的线缆。其他一些本包的终极科技的组件也会用到。
+interactions.metallurgymaster.vanadium.text.0=在电力高炉中制作钒镓合金锭需要至少4500K的温度。如果你还能没达到这一温度，你需要将你的电力高炉升级成钨钢线圈或超导线圈。
+
+interactions.metallurgymaster.ytt.title=钇！
+interactions.metallurgymaster.ytt.description=将钇和钡、氧化铜进行合金形成一种新的金属，这种金属是超导原件的关键材料。你可以将其制成超导线缆，超导线缆不仅用于传输能量，也用于制造某些高级机器。
+interactions.metallurgymaster.ytt.text.0=钇可以通过离心稀土获得，也可以通过粉碎Aurellia星的或者轨道激光钻挖到的紫水晶方块获得。钡可以通过重晶石获得，而重晶石可以通过处理赛特斯石英矿获得。
+
+interactions.metallurgymaster.plutonium.title=我有放射性
+interactions.metallurgymaster.plutonium.description=通过对铀238进行一系列离心提炼，你可以获得最初的一小撮钚-244，然后再将它离心，有几率获得钚-241。
+interactions.metallurgymaster.plutonium.text.0=获得几率很低，处理时间很长，消耗能量很大，所以你可能想要一种更好的方式。在你到达Aurellia星之后，你可以通过离心铁砂直接获得它。精炼的钚是硅岩反应堆和聚变反应堆的重要材料之一。
+
+interactions.ayo.coil.tier0.title=觉得线圈不重要？这不0K。
+interactions.ayo.coil.tier0.description=高炉所用线圈的种类决定了它能产生的热量。
+interactions.ayo.coil.tier0.text.0=高级的线圈允许你熔炼更高级更先进的材料，如果你不随时升级你的线圈，线圈就会成为你整个科技线的卡脖子环节。线圈的升级路径在本包中相对地精简了，一旦你有了钨钢之后你就可以直接跳到超导线圈。这条任务线会辅助你进行线圈的升级过程，减半你每次升到新一级所需的线圈数量。
