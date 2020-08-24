@@ -695,6 +695,7 @@ print("---------------Lazy AE Start------------------");
 	mods.jei.JEI.removeAndHide(<threng:machine:2>);
 	mods.jei.JEI.removeAndHide(<threng:machine:3>);
 	mods.jei.JEI.removeAndHide(<threng:machine>);
+	mods.jei.JEI.removeAndHide(<threng:machine:5>);
 	
 	#carbonic mix
 	recipes.remove(<threng:material:1>);

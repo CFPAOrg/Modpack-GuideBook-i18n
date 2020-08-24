@@ -199,6 +199,7 @@ mods.botania.ManaInfusion.addInfusion(<enderutilities:endercapacitor:2>,
     #Ender Elevator
 recipes.remove(<enderutilities:ender_elevator>);
 mods.thaumcraft.Crucible.registerRecipe("enderElevator", "UNLOCKALCHEMY", <enderutilities:ender_elevator>, <thaumcraft:levitator>, [<aspect:alienis> * 5, <aspect:motus> * 10]);
+recipes.addShapeless(<enderutilities:ender_elevator> * 2, [<enderutilities:ender_elevator_slab>,<enderutilities:ender_elevator_slab>]);
 
     #Ender Pickaxe
 recipes.remove(<enderutilities:endertool>);

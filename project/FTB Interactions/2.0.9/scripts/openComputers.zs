@@ -24,7 +24,9 @@ val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor")
 	#trading upgrade
 	mods.jei.JEI.removeAndHide(<opencomputers:upgrade:29>);
 
-
+	#cable - this will not work until OC fixes it
+	//recipes.addShapeless(<opencomputers:cable> * 4, [<ore:cableGtSingleIron>,<ore:dustRedstone>]);
+	
 	#boots
 	recipes.remove(<opencomputers:hoverboots>);
 	<opencomputers:hoverboots>.addTooltip(format.darkRed("到达月球或之后有机会通过战利品获得，"));
@@ -39,6 +41,30 @@ val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor")
     .EUt(42)
     .buildAndRegister();
 	
+	#chips
+	assembler.recipeBuilder()
+	.inputs(<opencomputers:material:6>*4, <ore:circuitLow>)
+    .outputs(<opencomputers:material:7>*4)
+	.fluidInputs([<fluid:redstone> * 144])
+    .duration(40)
+    .EUt(18)
+    .buildAndRegister();	
+
+	assembler.recipeBuilder()
+	.inputs(<opencomputers:material:7>*4, <ore:circuitLow>)
+    .outputs(<opencomputers:material:8>*4)
+	.fluidInputs([<fluid:redstone> * 144])
+    .duration(80)
+    .EUt(18)
+    .buildAndRegister();	
+
+	assembler.recipeBuilder()
+	.inputs(<opencomputers:material:8>*4, <ore:circuitGood>)
+    .outputs(<opencomputers:material:9>*4)
+	.fluidInputs([<fluid:redstone> * 144])
+    .duration(120)
+    .EUt(18)
+    .buildAndRegister();
 	
 	#Drones
 	recipes.remove(<opencomputers:material:24>);

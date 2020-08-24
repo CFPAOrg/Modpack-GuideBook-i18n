@@ -54,10 +54,19 @@ mods.rustic.Condenser.addRecipe(flightPotion, featherPotion, <wizardry:sky_dust>
 	recipes.remove(<animus:altardiviner>);
 	recipes.addShaped(<animus:altardiviner>, [[null, <bloodmagic:monster_soul>, <projecte:item.pe_covalence_dust:1>],[null, <botania:manaresource:3>, null], [<projecte:item.pe_covalence_dust:1>, null, null]]);
 
+	#dusk diviner
+	recipes.remove(<bloodmagic:ritual_diviner:1>);
+	recipes.addShaped(<bloodmagic:ritual_diviner:1>, [[<botania:manaresource:1>, <enderio:block_infinity_fog>, <botania:manaresource:1>],[<astralsorcery:itemusabledust:1>, <bloodmagic:ritual_diviner>, <astralsorcery:itemusabledust:1>], [<botania:manaresource:1>, <gregtech:meta_item_2:24106>, <botania:manaresource:1>]]);
+
+
+	#normal activation sigil
+	mods.thaumcraft.Infusion.registerRecipe("normalActivation", "INFUSION", <bloodmagic:activation_crystal>, 4, [<aspect:tenebrae> * 32, <aspect:potentia> * 18, <aspect:alienis> * 16, <aspect:victus> * 8], <bloodmagic:lava_crystal>,
+	[<bloodmagic:slate:1>,<bloodmagic:slate:1>,<projecte:item.pe_covalence_dust:2>,<projecte:item.pe_covalence_dust:2>,<gregtech:meta_item_2:24154>]);
+
 	#awakened Activation Sigil
 	recipes.remove(<bloodmagic:activation_crystal:1>);
 	mods.thaumcraft.Infusion.registerRecipe("awakenedActivation", "INFUSION", <bloodmagic:activation_crystal:1>, 7, [<aspect:tenebrae> * 32, <aspect:potentia> * 18, <aspect:exanimis> * 16, <aspect:victus> * 32], <bloodmagic:activation_crystal>,
-	[<bloodmagic:slate:3>,<bloodmagic:slate:3>,<botania:manaresource:1>,<botania:manaresource:1>,<minecraft:nether_star>]);
+	[<bloodmagic:slate:1>,<bloodmagic:slate:1>,<botania:manaresource:1>,<botania:manaresource:1>,<minecraft:nether_star>]);
 
 	
 	#demon blood shard

@@ -24,6 +24,10 @@ print("---------------Logistic Pipes Start------------------");
 recipes.remove(<logisticspipes:pipe_remote_orderer>);
 recipes.remove(<logisticspipes:remote_orderer>);
 
+#fluid pipes
+recipes.remove(<logisticspipes:pipe_fluid_basic>);
+recipes.addShaped(<logisticspipes:pipe_fluid_basic>, [[null, <gregtech:meta_item_1:18152>, null],[null, <logisticspipes:pipe_basic>, null], [null, null, null]]);
+
 
 #remote pipe orderer
 	recipes.addShaped(<logisticspipes:pipe_remote_orderer>, 

@@ -246,6 +246,15 @@ spinnyGoFast.recipeBuilder()
 	.EUt(320)
 	.buildAndRegister();
 
+#vitriolic egg 
+chemReactor.recipeBuilder()
+	.inputs(<bloodmagic:component:8>, <ore:egg>*4)
+	.fluidInputs([<liquid:lead_zinc_solution> * 1000, <liquid:sulfuric_acid>])
+	.outputs(<contenttweaker:vitriolic_enriched_egg>*4) 
+	.duration(420)
+    .EUt(18)
+    .buildAndRegister();
+
 spinnyGoFast.recipeBuilder()
     .inputs(<ore:enrichedEggPrimal>)
 	.fluidOutputs([<liquid:deuterium> * 20])

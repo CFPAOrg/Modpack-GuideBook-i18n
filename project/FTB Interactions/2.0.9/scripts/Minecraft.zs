@@ -34,6 +34,11 @@ var concreteRecipes as IItemStack[IIngredient] = {
 	<ore:dyeBlack> : <minecraft:concrete:15>
 	};
 
+	#Observer
+		recipes.addShaped(<minecraft:observer>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],[<minecraft:redstone>, <minecraft:redstone>, <gregtech:meta_item_1:8203>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
+		recipes.addShaped(<minecraft:observer>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],[<minecraft:redstone>, <minecraft:redstone>, <gregtech:meta_item_1:8202>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
+
+
 for dye, concrete in concreteRecipes {
 mixer.recipeBuilder()
 		.inputs(<minecraft:gravel>*4, <minecraft:sand>*4, dye)

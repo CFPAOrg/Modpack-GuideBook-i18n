@@ -54,7 +54,7 @@ recipes.remove(<projecte:matter_block>);
 blast_furnace.recipeBuilder()
     .inputs(<actuallyadditions:item_crystal_empowered:3>, <ore:ingotVanadium>.firstItem * 4)
     .fluidInputs([<liquid:mana> * 2000])
-    .outputs(<projecte:item.pe_matter>)
+    .outputs(<projecte:item.pe_matter>*4)
     .property("temperature", 3500)
     .duration(1800)
     .EUt(1920)
