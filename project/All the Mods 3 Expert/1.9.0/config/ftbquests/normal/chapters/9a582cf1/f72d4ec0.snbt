@@ -1,0 +1,19 @@
+{
+	title: "等级4的血魔法祭坛",
+	x: -2.0d,
+	y: 1.0d,
+	text: [
+		"你可能会意识到,你的血魔法祭坛不能发挥出最大潜能,以一些大血石砖作为柱头,来激发它的能量."
+	],
+	dependencies: [
+		"67813eca"
+	],
+	tasks: [{
+		uid: "69e83960",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick"
+		}],
+		count: 4L
+	}]
+}

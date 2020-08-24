@@ -1,0 +1,18 @@
+{
+	title: "精灵们的血之礼物",
+	x: -2.0d,
+	y: 4.0d,
+	text: [
+		"这就是你对待精灵们礼物的方式?但你确实发现了这些损坏的星光,你也不能浪费对吧."
+	],
+	dependencies: [
+		"b1e9fa4d"
+	],
+	tasks: [{
+		uid: "8d749469",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crystallisedblood"
+		}]
+	}]
+}

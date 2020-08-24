@@ -1,0 +1,18 @@
+{
+	title: "神秘行星的碎片",
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		"你发现Hellheim的地表岩石是你下一个制作物品--行星碎片的最佳原材料,这些将帮助损坏的星能附着于星辉锭上."
+	],
+	dependencies: [
+		"f1c0e9c8"
+	],
+	tasks: [{
+		uid: "c1bf5091",
+		type: "item",
+		items: [{
+			item: "contenttweaker:planetshard"
+		}]
+	}]
+}

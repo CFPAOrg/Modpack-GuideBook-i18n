@@ -1,0 +1,35 @@
+{
+	title: "跃 迁",
+	x: 5.5d,
+	y: 2.5d,
+	text: [
+		"在月球上面,你要找到一些双锂矿,把它结晶之后,就可以用来补充跃迁所需要的燃料.",
+		"",
+		"跃迁核心能让你到达很远的行星,比如你的下一个目的地:Diemos."
+	],
+	dependencies: [
+		"7b88edbf"
+	],
+	tasks: [{
+		uid: "4f773bd9",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpmonitor"
+		}]
+	},
+	{
+		uid: "fade7723",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpcore"
+		}]
+	},
+	{
+		uid: "5da1107e",
+		type: "item",
+		items: [{
+			item: "libvulpes:productgem"
+		}],
+		count: 8L
+	}]
+}

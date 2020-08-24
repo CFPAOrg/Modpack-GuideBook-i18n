@@ -1,0 +1,89 @@
+{
+	title: "将来我要当太空人,爷爷奶奶可高兴了!",
+	x: 8.5d,
+	y: -0.5d,
+	text: [
+		"为了在太空中生存,你需要一套太空服. ",
+		"",
+		"太空服调节台能让你调节你的太空服,你需要为太空服装上超高压槽,这样才能背上氧气在太空中生存.",
+		"",
+		"将气体装填台充满氧气,然后站上去为太空服充氧气."
+	],
+	dependencies: [
+		"825e4672"
+	],
+	tasks: [{
+		uid: "539744da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spacehelmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b3ad53b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spacechestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7609d3e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spaceleggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "54b3c7f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spaceboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ad65f1f7",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:suitworkstation"
+		}]
+	},
+	{
+		uid: "ed4aaaa9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:pressuretank",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "beb667e8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygencharger"
+		}]
+	}]
+}

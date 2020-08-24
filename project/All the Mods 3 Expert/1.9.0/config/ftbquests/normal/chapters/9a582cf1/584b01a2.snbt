@@ -1,0 +1,49 @@
+{
+	title: "兄弟.看我的大火♂ 箭！",
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"铺好火箭基座，准备造你的第一个火箭吧."
+	],
+	dependencies: [
+		"825e4672",
+		"88cd4474"
+	],
+	tasks: [{
+		uid: "4ce826b8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketmotor"
+		}],
+		count: 3L
+	},
+	{
+		uid: "7d13cc0c",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}],
+		count: 6L
+	},
+	{
+		uid: "d5d7ae76",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:guidancecomputer"
+		}]
+	},
+	{
+		uid: "f79b92f7",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetidchip"
+		}]
+	},
+	{
+		uid: "cd8894b7",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:seat"
+		}]
+	}]
+}

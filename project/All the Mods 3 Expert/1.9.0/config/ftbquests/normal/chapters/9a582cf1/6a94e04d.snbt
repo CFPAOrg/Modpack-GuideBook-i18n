@@ -1,0 +1,19 @@
+{
+	title: "我是一个芭比女孩,在芭比世界中",
+	x: -0.5d,
+	y: -0.5d,
+	text: [
+		"和其他资源一样,HDPE纸是MEK的基本资源."
+	],
+	dependencies: [
+		"a52680fb"
+	],
+	tasks: [{
+		uid: "05ea0fed",
+		type: "item",
+		items: [{
+			item: "mekanism:polyethene 1 2"
+		}],
+		count: 8L
+	}]
+}

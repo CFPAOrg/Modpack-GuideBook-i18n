@@ -1,0 +1,22 @@
+{
+	title: "钛坦尼克",
+	x: 2.5d,
+	y: -0.5d,
+	shape: "circle",
+	text: [
+		"钛是高级火箭中的高级金属,它可以让你制造更高级别的多方块材料,也可以让你准备好升天.",
+		"",
+		"黑色染料或许会很有帮助 :)"
+	],
+	dependencies: [
+		"4f244ef0"
+	],
+	tasks: [{
+		uid: "5e8ce2f2",
+		type: "item",
+		items: [{
+			item: "libvulpes:productdust 1 7"
+		}],
+		count: 8L
+	}]
+}
