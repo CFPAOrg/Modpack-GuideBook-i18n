@@ -1,0 +1,19 @@
+{
+	title: "存储,但是模块化!",
+	x: 4.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"你应该烦透了每次找东西满地箱子了吧?模块化存储器可以在一格方块中存储大量物品,并且可以和存储检测器共同使用."
+	],
+	dependencies: [
+		"06b83a66"
+	],
+	tasks: [{
+		uid: "d98f5681",
+		type: "item",
+		items: [{
+			item: "rftools:modular_storage"
+		}]
+	}]
+}

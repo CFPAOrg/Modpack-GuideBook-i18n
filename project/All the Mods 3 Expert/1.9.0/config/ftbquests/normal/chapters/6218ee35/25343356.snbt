@@ -1,0 +1,26 @@
+{
+	title: "看穿黑曜石",
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"我记得我告诉过你需要硬化玻璃了吧,它不仅用于各种配方,你也需要它来种植一些冶金作物."
+	],
+	dependencies: [
+		"301a457a"
+	],
+	tasks: [{
+		uid: "31ea6f5e",
+		type: "item",
+		title: "任何硬化玻璃",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockGlassHardened",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	}]
+}

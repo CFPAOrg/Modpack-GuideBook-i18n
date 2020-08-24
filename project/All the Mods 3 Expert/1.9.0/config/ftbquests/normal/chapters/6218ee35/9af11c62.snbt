@@ -1,0 +1,41 @@
+{
+	title: "获得源质",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"继续你的炼金术研究,找到一种方法,把你的物品变为源质,几乎每次注魔都要这些源质."
+	],
+	dependencies: [
+		"b6176e60"
+	],
+	tasks: [{
+		uid: "e8729868",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	},
+	{
+		uid: "40c31670",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	},
+	{
+		uid: "ee2a5017",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_normal"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8d7bc01f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube"
+		}],
+		count: 8L
+	}]
+}

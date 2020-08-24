@@ -1,0 +1,18 @@
+{
+	title: "超级变变变!!",
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"虽然IC2和沉浸工程已经让你发展到这里,但我相信你很想发展一些RF系的机器,但愿你已经做了蒸汽能源炉."
+	],
+	dependencies: [
+		"23d4dedc"
+	],
+	tasks: [{
+		uid: "b71afba6",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}]
+}

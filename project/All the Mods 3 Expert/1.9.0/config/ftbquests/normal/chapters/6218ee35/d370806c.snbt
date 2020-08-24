@@ -1,0 +1,24 @@
+{
+	title: "你被框了!",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"大多热力膨胀的机器都需要框架."
+	],
+	dependencies: [
+		"96dfcfcc"
+	],
+	tasks: [{
+		uid: "90f5c2c4",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "ec005a89",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 1"
+	}]
+}

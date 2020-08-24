@@ -1,0 +1,19 @@
+{
+	title: "充能方块",
+	x: -2.0d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"有好几种不同的充能配方,制作一个,让我康康你是否掌握了这项技术."
+	],
+	dependencies: [
+		"bfa03efe"
+	],
+	tasks: [{
+		uid: "1ec7c639",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 5"
+		}]
+	}]
+}

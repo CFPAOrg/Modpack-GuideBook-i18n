@@ -1,0 +1,33 @@
+{
+	title: "电磁炉",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"一开始是合金储罐,然后是冶炼炉,不如现在再做一个感应炉来烧制合金硬化玻璃?"
+	],
+	dependencies: [
+		"d370806c"
+	],
+	tasks: [{
+		uid: "d13ee426",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		}]
+	}]
+}

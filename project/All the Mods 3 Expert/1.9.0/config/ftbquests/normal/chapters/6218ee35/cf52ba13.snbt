@@ -1,0 +1,33 @@
+{
+	title: "如此的干燥",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"手握圣甲虫,是时候前往亚图姆世界了.用砂岩建造前往亚图姆的入口,然后装满水,丢入圣甲虫,作为对神的祭品.",
+		"",
+		"你应该祈祷他们很高兴你去往他们的世界."
+	],
+	dependencies: [
+		"bfa03efe"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7a2aa0f6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atum:scarab"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d05ca210",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 1"
+	}]
+}

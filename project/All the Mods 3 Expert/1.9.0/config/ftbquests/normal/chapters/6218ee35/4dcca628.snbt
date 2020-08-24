@@ -1,0 +1,36 @@
+{
+	title: "奥术小饰品",
+	x: -4.0d,
+	y: 2.0d,
+	shape: "diamond",
+	text: [
+		"神秘时代加了很多小饰品,这些饰品可以让玩家更加容易的研究奥术."
+	],
+	dependencies: [
+		"e38c58e2"
+	],
+	tasks: [{
+		uid: "c19adbea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e21c8cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:curiosity_band"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
