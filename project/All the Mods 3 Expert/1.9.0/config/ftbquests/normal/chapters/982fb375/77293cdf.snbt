@@ -1,0 +1,29 @@
+{
+	title: "宁静...",
+	x: 6.0d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"如果你对一下下的右键来从自己的心脏器官获取血液很烦的话,那么恭喜你!",
+		"",
+		"熏香祭坛会让你的刀充能.当你在血之祭坛旁边使用时,它会将你当前生命值的90%转化为LP,并提供一定收益.更高层次的熏香祭坛和静谧将增长这一收益."
+	],
+	dependencies: [
+		"dc07d6d6"
+	],
+	tasks: [{
+		uid: "f2a52f76",
+		type: "item",
+		items: [{
+			item: "bloodmagic:incense_altar"
+		}]
+	},
+	{
+		uid: "d5b5390d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:path"
+		}],
+		count: 36L
+	}]
+}

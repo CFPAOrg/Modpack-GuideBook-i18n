@@ -1,0 +1,89 @@
+{
+	title: "这儿冷吗?",
+	x: 1.5d,
+	y: 4.0d,
+	text: [
+		"下一步,你需要制造一个能冷却这些热钢的机器."
+	],
+	dependencies: [
+		"5aeedd3f"
+	],
+	tasks: [{
+		uid: "e6faefb6",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:industrial_chiller"
+			}
+		}]
+	},
+	{
+		uid: "31c96d49",
+		type: "item",
+		items: [{
+			item: "quark:snow_bricks"
+		}],
+		count: 24L
+	},
+	{
+		uid: "e05dbc43",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "1e29f34e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "11c14cd9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "cryotheum",
+				Amount: 1000
+			}
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5fb0df9f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "3514777d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "93f39e83",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}],
+		count: 5L
+	},
+	{
+		uid: "f977d1e1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	}]
+}

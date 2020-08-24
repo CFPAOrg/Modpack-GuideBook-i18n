@@ -1,0 +1,33 @@
+{
+	title: "血魔法祭坛 T2",
+	x: 4.5d,
+	y: 4.0d,
+	text: [
+		"二级血之祭坛可以帮你制作一套新的石板和更好符文."
+	],
+	dependencies: [
+		"28af0be4"
+	],
+	tasks: [{
+		uid: "3736806f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 8L
+	},
+	{
+		uid: "91d53996",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 1"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "78ea4e51",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 96"
+	}]
+}

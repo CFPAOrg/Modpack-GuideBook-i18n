@@ -1,0 +1,27 @@
+{
+	title: "最初的钢",
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"钢铁制造是一个很复杂的过程.首先,你需要制作一些石英锭,然后在高炉里把他们加热成破损热钢."
+	],
+	dependencies: [
+		"864187e2"
+	],
+	tasks: [{
+		uid: "1695cf22",
+		type: "item",
+		items: [{
+			item: "contenttweaker:quartzingot"
+		}],
+		count: 4L
+	},
+	{
+		uid: "862bf8ea",
+		type: "item",
+		items: [{
+			item: "contenttweaker:unrefinedhotsteel"
+		}],
+		count: 4L
+	}]
+}

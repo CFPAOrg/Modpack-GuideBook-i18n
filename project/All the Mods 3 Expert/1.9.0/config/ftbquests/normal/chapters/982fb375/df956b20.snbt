@@ -1,0 +1,32 @@
+{
+	title: "大炼钢铁",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"最后,把破损热钢冷却成你的第一块钢!"
+	],
+	dependencies: [
+		"7e61fce5"
+	],
+	tasks: [{
+		uid: "39e6b143",
+		type: "item",
+		title: "任何钢锭",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "21715226",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 96"
+	}]
+}
