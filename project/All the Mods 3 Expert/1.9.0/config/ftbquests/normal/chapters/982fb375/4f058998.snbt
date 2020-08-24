@@ -1,0 +1,23 @@
+{
+	title: "星辉祭坛T2",
+	x: -4.5d,
+	y: 4.0d,
+	text: [
+		"为了发展,你需要做一个第二等级的祭坛,这个祭坛需要搭建一个多方块结构来使用."
+	],
+	dependencies: [
+		"04420cf4"
+	],
+	tasks: [{
+		uid: "7f52ed8a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}
