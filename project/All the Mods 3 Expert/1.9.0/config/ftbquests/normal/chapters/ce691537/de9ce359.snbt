@@ -1,0 +1,34 @@
+{
+	title: "解锁 压缩空间",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "compactmachines3:psd"
+	},
+	x: 0.5d,
+	y: -16.5d,
+	shape: "diamond",
+	text: [
+		"解锁压缩空间模组的相关合成."
+	],
+	dependencies: [
+		"4f381548",
+		"5d81ffe3"
+	],
+	tasks: [{
+		uid: "b705047d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin 1 1"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c633cbae",
+		type: "command",
+		team_reward: false,
+		command: "/gamestage add @p compact"
+	}]
+}

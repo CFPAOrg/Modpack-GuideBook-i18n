@@ -1,0 +1,34 @@
+{
+	title: "解锁 扫描器",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "scannable:scanner"
+	},
+	x: -6.5d,
+	y: -16.5d,
+	shape: "diamond",
+	text: [
+		"解锁扫描器模组的合成配方."
+	],
+	dependencies: [
+		"4f381548",
+		"5d81ffe3"
+	],
+	tasks: [{
+		uid: "7f2a5d1f",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0e98fbb3",
+		type: "command",
+		team_reward: false,
+		command: "/gamestage add @p scanners"
+	}]
+}
