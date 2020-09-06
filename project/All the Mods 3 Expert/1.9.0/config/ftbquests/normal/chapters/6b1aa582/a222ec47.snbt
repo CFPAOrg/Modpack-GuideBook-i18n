@@ -1,0 +1,18 @@
+{
+	title: "油腻不清爽",
+	x: -5.0d,
+	y: -2.5d,
+	text: [
+		"把杂酚油好好利用起来,有助于你发展植物魔法和沉浸工程."
+	],
+	dependencies: [
+		"257bbfb0"
+	],
+	tasks: [{
+		uid: "28dc6537",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}]
+	}]
+}

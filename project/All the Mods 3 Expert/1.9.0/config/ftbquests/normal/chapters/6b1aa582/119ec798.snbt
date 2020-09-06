@@ -1,0 +1,19 @@
+{
+	title: "种 树 苗",
+	icon: "minecraft:sapling",
+	x: -12.0d,
+	y: -4.5d,
+	shape: "square",
+	text: [
+		"在这个整合包里树苗不能相邻的栽种.",
+		"",
+		"要制作一个树场，把树苗以棋盘式放置，这样它们就不会互相干扰，可以生长。"
+	],
+	dependencies: [
+		"a12e787b"
+	],
+	tasks: [{
+		uid: "c5815cb7",
+		type: "checkmark"
+	}]
+}

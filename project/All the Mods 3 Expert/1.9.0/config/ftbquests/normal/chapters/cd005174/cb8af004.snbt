@@ -1,0 +1,25 @@
+{
+	title: "第三个核心",
+	x: 1.0d,
+	y: -0.5d,
+	text: [
+		"第三个核心是觉醒核心,用它制作更好的装备和武器吧."
+	],
+	dependencies: [
+		"888b1997",
+		"f14ab873"
+	],
+	tasks: [{
+		uid: "65ecb387",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	}],
+	rewards: [{
+		uid: "fe3f69a8",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 103"
+	}]
+}

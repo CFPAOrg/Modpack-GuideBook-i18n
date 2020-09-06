@@ -1,0 +1,51 @@
+{
+	title: "更好的工具!",
+	x: -2.0d,
+	y: -4.5d,
+	text: [
+		"要制作工具,你需要这其中的几个部件.组件化的燧石工具对你现在的燧石斧来说可谓是极大的改进了."
+	],
+	dependencies: [
+		"1354fb44"
+	],
+	tasks: [{
+		uid: "9a486bbe",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "877802e1",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "79b3be7d",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "62cd402a",
+		type: "item",
+		items: [{
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	}]
+}

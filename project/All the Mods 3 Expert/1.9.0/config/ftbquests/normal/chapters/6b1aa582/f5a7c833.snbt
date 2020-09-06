@@ -1,0 +1,38 @@
+{
+	title: "升级你的发电机",
+	x: -3.0d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		"为了升级你的 发电机,你需要升级套件,第一个等级为硬化. ",
+		"",
+		"涡轮增压装置可以提高发电量,但是机器本身就不能产生蒸汽了. ",
+		"",
+		"蒸汽锅炉转化将使你的发电机以更快的速度生产蒸汽,但不再生产RF."
+	],
+	dependencies: [
+		"98f064e5"
+	],
+	tasks: [{
+		uid: "745430b2",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade"
+		}],
+		count: 2L
+	},
+	{
+		uid: "1dfcf967",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 640"
+		}]
+	},
+	{
+		uid: "01cb5d93",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 576"
+		}]
+	}]
+}

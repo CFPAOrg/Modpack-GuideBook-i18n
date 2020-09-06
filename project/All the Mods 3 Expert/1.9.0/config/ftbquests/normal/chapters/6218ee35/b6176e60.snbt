@@ -1,0 +1,43 @@
+{
+	title: "奥术炼金学",
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		"作为一个奥术魔法师,炼金术会是不可缺少的一部分. ",
+		"",
+		"注意,不要在你的基地附近研究炼金学,我们要保护大自然不是吗?"
+	],
+	dependencies: [
+		"fee5dc13"
+	],
+	tasks: [{
+		uid: "f2d0d904",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	},
+	{
+		uid: "006e099f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nitor_yellow"
+		}]
+	},
+	{
+		uid: "ce11b535",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "79800908",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot"
+		}],
+		count: 4L
+	}]
+}

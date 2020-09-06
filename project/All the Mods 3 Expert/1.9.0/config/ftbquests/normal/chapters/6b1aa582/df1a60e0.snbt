@@ -1,0 +1,25 @@
+{
+	title: "牛批!所有IC2工业的开始!",
+	x: 3.0d,
+	y: -6.5d,
+	text: [
+		"这是IC2中制作机器的基本材料."
+	],
+	dependencies: [
+		"090e705e",
+		"6c9bd5b4"
+	],
+	tasks: [{
+		uid: "591b4436",
+		type: "item",
+		items: [{
+			item: "ic2:blockmachinelv"
+		}]
+	}],
+	rewards: [{
+		uid: "e418f024",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin"
+	}]
+}

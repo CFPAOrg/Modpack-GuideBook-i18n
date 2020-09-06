@@ -1,0 +1,29 @@
+{
+	title: "浑然天成",
+	x: -3.5d,
+	y: 2.5d,
+	text: [
+		"如果你还没升级到,那么赶快升级吧,将来还要升级到五彩祭坛."
+	],
+	dependencies: [
+		"f72d4ec0"
+	],
+	tasks: [{
+		uid: "5b6ffddb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ddec9ea",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 101"
+	}]
+}

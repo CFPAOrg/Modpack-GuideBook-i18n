@@ -1,0 +1,70 @@
+{
+	title: "通 用 机 械",
+	x: -3.5d,
+	y: -0.5d,
+	text: [
+		"MEK有一些普通的机器,粉碎机或冶炼炉,但它还有特殊的机器,做一些看看吧."
+	],
+	dependencies: [
+		"6a6fe1c6"
+	],
+	tasks: [{
+		uid: "07a1c787",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f0b31706",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 10s
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "32697475",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b5e1ef89",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0c4b2c72",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "全速前进!",
+	x: -3.0d,
+	y: -3.5d,
+	shape: "diamond",
+	text: [
+		"现在你已经有了电缆和焦煤,你可以做一些产能装置,虽然以后才用到,但未雨绸缪不好吗?",
+		"",
+		"使用水和煤,你就可以拥有蒸汽了"
+	],
+	dependencies: [
+		"2ed8f881",
+		"a1012814",
+		"257bbfb0"
+	],
+	tasks: [{
+		uid: "46654f15",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	},
+	{
+		uid: "68b6c9e1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

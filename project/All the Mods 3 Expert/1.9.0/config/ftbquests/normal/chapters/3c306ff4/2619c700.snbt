@@ -1,0 +1,60 @@
+{
+	title: "玻化镐",
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		"现在,你意识到燧石工具不足以让你开采各种矿石,你需要使用玻化沙镐头.使用磨制工具修理.(译者注:这种材质的磨制工具可以合成获得)",
+		"",
+		"注:压缩沙子对应熔融玻化沙.普通沙子对应玻璃."
+	],
+	dependencies: [
+		"d4fa8667"
+	],
+	tasks: [{
+		uid: "376f0285",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedsand"
+		}]
+	},
+	{
+		uid: "09e4bcc6",
+		type: "item",
+		items: [{
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "26c59a93",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "vitrified_sand"
+			}
+		}]
+	},
+	{
+		uid: "605289a1",
+		type: "item",
+		items: [{
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:sharpening_kit"
+			}
+		}]
+	},
+	{
+		uid: "fa59e9b9",
+		type: "item",
+		items: [{
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "vitrified_sand"
+			}
+		}]
+	}]
+}

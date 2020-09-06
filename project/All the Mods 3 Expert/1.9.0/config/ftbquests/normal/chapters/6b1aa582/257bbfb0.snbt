@@ -1,0 +1,34 @@
+{
+	title: "对不起,百事可乐(Pepsi)买完了,可口可乐(Coke=Coca-Cola)可以吗?",
+	x: -5.0d,
+	y: -4.5d,
+	text: [
+		"希望你做了足够多的焦黑石头,你需要用它制作焦炉.焦炉可以把煤变成焦煤和杂酚油.它们都很有用."
+	],
+	dependencies: [
+		"2278fbfc"
+	],
+	tasks: [{
+		uid: "c4874942",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	},
+	{
+		uid: "f4febfcd",
+		type: "item",
+		title: "任何焦燃料",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "fuelCoke",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 8L
+	}]
+}

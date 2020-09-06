@@ -1,0 +1,35 @@
+{
+	title: "工业还是农业?都一样!",
+	x: -10.5d,
+	y: -2.5d,
+	shape: "diamond",
+	text: [
+		"你知道我们整合包里有"农业工艺"模组吗?",
+		"",
+		"你可以用它来培养多种材料,这样就可以节省大量的采矿时间.",
+		"",
+		"而且农业工艺还可以让你改良种子,从单一的作物里获得更多的收益.",
+		"",
+		"杂草已经被禁用了.它们真的太烦人了!",
+		"",
+		"植物可以通过传播来改善它们的属性.所以你不需要杂交了."
+	],
+	dependencies: [
+		"a9ff8da7"
+	],
+	tasks: [{
+		uid: "d756ae64",
+		type: "item",
+		items: [{
+			item: "agricraft:seed_analyzer"
+		}]
+	},
+	{
+		uid: "84bb53db",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}],
+		count: 16L
+	}]
+}

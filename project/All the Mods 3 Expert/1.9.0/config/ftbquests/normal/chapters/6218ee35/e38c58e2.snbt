@@ -1,0 +1,50 @@
+{
+	title: "奥术注魔",
+	x: -2.0d,
+	y: 2.0d,
+	text: [
+		"作为一个奥术魔法师,你还得学习注魔的知识,但在注魔过程中请小心,一不留神或许就发生意外了.",
+		"",
+		"任务奖励会给你魔导手册里需要的研究,因为符文矩阵冶炼合成你查不到."
+	],
+	dependencies: [
+		"1e56075d",
+		"9af11c62"
+	],
+	tasks: [{
+		uid: "a591d4c6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	},
+	{
+		uid: "d26922af",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane"
+		}],
+		count: 9L
+	},
+	{
+		uid: "54268088",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "e61dada3",
+		type: "command",
+		title: "Thaumcraft INFUSION research",
+		icon: "minecraft:command_block",
+		command: "/thaumcraft research @p INFUSION"
+	},
+	{
+		uid: "a8648cc3",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 1"
+	}]
+}

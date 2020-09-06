@@ -1,0 +1,31 @@
+{
+	title: "望穿秋水筒",
+	x: -6.0d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"当你探索世界时,你会在各种星辉遗迹中找到星座图纸,玩过连点游戏吗?"
+	],
+	dependencies: [
+		"4f058998"
+	],
+	tasks: [{
+		uid: "7b42f923",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemhandtelescope"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "96096728",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}]
+}

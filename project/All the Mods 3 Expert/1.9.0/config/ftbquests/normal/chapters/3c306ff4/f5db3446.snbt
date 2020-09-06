@@ -1,0 +1,19 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ftbquests:book"
+	},
+	x: 2.0d,
+	y: -10.0d,
+	shape: "square",
+	text: [
+		"任务章节以逐个等级上升的方式进行划分,除了等级0外,其余等级的任务都有不同的模组发展线,你必须按照这些发展线来达到该阶段的最终目标,通常都是科技与魔法混合."
+	],
+	tasks: [{
+		uid: "dac9ff07",
+		type: "checkmark",
+		title: "任务线"
+	}]
+}

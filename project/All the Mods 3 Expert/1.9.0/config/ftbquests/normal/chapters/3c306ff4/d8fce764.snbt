@@ -1,0 +1,21 @@
+{
+	title: "石匠之路",
+	x: -4.0d,
+	y: -4.5d,
+	text: [
+		"让我们一起来升级你的燧石工具.收集一些骨粉和粘土来制作瓷土.",
+		"",
+		"探索途中,你会在地表发现成堆的骨块,这会是骨粉很好的来源."
+	],
+	dependencies: [
+		"44a83ff5"
+	],
+	tasks: [{
+		uid: "e21155dd",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay 1 4"
+		}],
+		count: 16L
+	}]
+}

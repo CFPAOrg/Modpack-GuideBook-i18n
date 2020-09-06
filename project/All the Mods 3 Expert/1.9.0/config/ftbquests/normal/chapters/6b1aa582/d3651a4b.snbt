@@ -1,0 +1,21 @@
+{
+	title: "Automated Requests",
+	x: -5.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"一旦你对物流管道有了一些经验,你应该第一时间制造一个物流请求桌.",
+		"",
+		"你可以想到一个自动化的库存传输系统，你也可以用这个小坏蛋来合成！如果你缺少合成配方的部件，它就会可以自动从系统中发送传输请求。"
+	],
+	dependencies: [
+		"dde56582"
+	],
+	tasks: [{
+		uid: "dd8a1af8",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_request_table"
+		}]
+	}]
+}

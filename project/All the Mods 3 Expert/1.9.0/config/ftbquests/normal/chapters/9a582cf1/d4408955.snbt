@@ -1,0 +1,34 @@
+{
+	title: "前往通用机械之路",
+	x: -6.5d,
+	y: -0.5d,
+	text: [
+		"你刚刚做了一些锇,锇是通用机械的基本材料.通用机械是一个强大的模组,但一开始,你需要做一套末影合成装置. ",
+		"",
+		"要使用末影工作台,你需要在周围摆上足够多的末影发电机,发电机越多,制作速度就越快."
+	],
+	dependencies: [
+		"23823aea"
+	],
+	tasks: [{
+		uid: "6bdae0e5",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_crafter"
+		}]
+	},
+	{
+		uid: "5a60d112",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_alternator"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "c94a7e9b",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 101"
+	}]
+}

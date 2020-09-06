@@ -1,0 +1,20 @@
+{
+	title: "超越今生",
+	x: 4.0d,
+	y: 9.5d,
+	text: [
+		"将不同形式的经验和其他物品结合起来,并放入球体中.这是ATM之星的组成部分."
+	],
+	tasks: [{
+		uid: "f4eff7da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atmtweaks:item_material",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}]
+}

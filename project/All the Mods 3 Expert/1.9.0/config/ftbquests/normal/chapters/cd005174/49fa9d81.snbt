@@ -1,0 +1,15 @@
+{
+	title: "再次锻造工业元素合金",
+	x: 2.5d,
+	y: 2.5d,
+	text: [
+		"你之前已经做过了,但现在你需要更好的.这也是ATM之星所需要的."
+	],
+	tasks: [{
+		uid: "c523c6d0",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 3"
+		}]
+	}]
+}

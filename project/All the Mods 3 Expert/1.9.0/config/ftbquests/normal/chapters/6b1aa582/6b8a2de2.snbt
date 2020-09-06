@@ -1,0 +1,19 @@
+{
+	title: "这神圣的储电盒!",
+	x: 3.0d,
+	y: -4.5d,
+	shape: "diamond",
+	text: [
+		"有一个电池盒来储能是个明智的选择,在你燃料耗尽时,机器也不会停止工作."
+	],
+	dependencies: [
+		"624121d5"
+	],
+	tasks: [{
+		uid: "6b749a48",
+		type: "item",
+		items: [{
+			item: "ic2:blockelectric"
+		}]
+	}]
+}

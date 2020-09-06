@@ -1,0 +1,30 @@
+{
+	title: "腐蚀群星",
+	x: 1.0d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"令人难以置信的是,星辉锭竟然能够承受.在通过如此复杂的手段后,一块腐蚀的星辉锭终于面世.",
+		"",
+		"拜托,你最好不要让腐蚀布满世界,你已经把星辉锭弄脏♂了."
+	],
+	dependencies: [
+		"974cd831",
+		"8a97c60d",
+		"ad8e9ffd"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "fcab2bf5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:corruptedstarmetal"
+		}]
+	}],
+	rewards: [{
+		uid: "5e8549b3",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 101"
+	}]
+}

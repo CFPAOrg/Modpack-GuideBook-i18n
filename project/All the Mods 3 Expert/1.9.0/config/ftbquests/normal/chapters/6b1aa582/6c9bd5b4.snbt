@@ -1,0 +1,21 @@
+{
+	title: "这是铁，但需要更长时间",
+	x: -1.0d,
+	y: -6.5d,
+	text: [
+		"精炼铁是更加纯净的铁",
+		"",
+		"制作它需要更多的机器和零件"
+	],
+	dependencies: [
+		"a1012814"
+	],
+	tasks: [{
+		uid: "a44f7d80",
+		type: "item",
+		items: [{
+			item: "ic2:itemmisc 1 53"
+		}],
+		count: 10L
+	}]
+}

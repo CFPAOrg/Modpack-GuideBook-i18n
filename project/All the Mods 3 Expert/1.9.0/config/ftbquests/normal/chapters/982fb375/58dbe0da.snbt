@@ -1,0 +1,43 @@
+{
+	title: "高级发电机",
+	x: -1.5d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"蒸汽和菜籽油已经让你发展到这一步了.但钢为你提供了更先进的发电机.",
+		"",
+		"这些发电机是多方块结构,只需搭建完成后,提供所需的资源,就可以大量的发电."
+	],
+	dependencies: [
+		"df956b20"
+	],
+	tasks: [{
+		uid: "9757c212",
+		type: "item",
+		items: [{
+			item: "advgenerators:turbine_steel"
+		}],
+		count: 2L
+	},
+	{
+		uid: "803d55d8",
+		type: "item",
+		items: [{
+			item: "advgenerators:fluid_input"
+		}]
+	},
+	{
+		uid: "887fc859",
+		type: "item",
+		items: [{
+			item: "advgenerators:turbine_controller"
+		}]
+	},
+	{
+		uid: "12663656",
+		type: "item",
+		items: [{
+			item: "advgenerators:rf_output"
+		}]
+	}]
+}

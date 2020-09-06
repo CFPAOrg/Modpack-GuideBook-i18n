@@ -1,0 +1,24 @@
+{
+	title: "充能所有方块!",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"就像神秘时代拥有注魔系统一样,实用拓展模组也有自身的充能系统,掌握了这项技术,将对你的发展大有帮助."
+	],
+	dependencies: [
+		"e38c58e2",
+		"2790b6db"
+	],
+	tasks: [{
+		uid: "5fd74c60",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	}],
+	rewards: [{
+		uid: "9e4fc575",
+		type: "command",
+		command: "/gamestage add @p atum"
+	}]
+}

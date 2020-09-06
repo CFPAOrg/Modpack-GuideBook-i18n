@@ -1,0 +1,60 @@
+{
+	title: "面向未来!",
+	x: -3.0d,
+	y: -7.5d,
+	text: [
+		"齿轮是每台机器必不可少的部件.以后会用得更多."
+	],
+	dependencies: [
+		"e73c6bc7"
+	],
+	tasks: [{
+		uid: "a2cffe83",
+		type: "item",
+		title: "石制齿轮",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gearStone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "95bf5331",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 4"
+		}]
+	},
+	{
+		uid: "2276d4de",
+		type: "item",
+		title: "铁制齿轮",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gearIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "c79d4c17",
+		type: "item",
+		title: "铜制齿轮",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gearCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

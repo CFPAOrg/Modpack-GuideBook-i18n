@@ -1,0 +1,77 @@
+{
+	title: "切尔诺贝利日记",
+	x: -1.5d,
+	y: 2.5d,
+	shape: "diamond",
+	text: [
+		"既然你已经有了钢,那么你就有很多选择了.这个是关于核能的,这个反应堆的副产物有钚,这是今后要用到的,所以我建议你搭建一个.",
+		"",
+		"另外,这对你的EU生产方面有很大帮助."
+	],
+	dependencies: [
+		"df956b20"
+	],
+	tasks: [{
+		uid: "49ba75ba",
+		type: "item",
+		items: [{
+			item: "ic2:blockgenerator 1 5"
+		}]
+	},
+	{
+		uid: "599dbb1f",
+		type: "item",
+		items: [{
+			item: "ic2:blockchambers"
+		}],
+		count: 6L
+	},
+	{
+		uid: "d5dd6e5e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ic2:itemarmorhazmathelmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2ccd171a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ic2:itemarmorhazmatchestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "85db07ac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ic2:itemarmorhazmatleggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cb62a21f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ic2:itemarmorrubboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

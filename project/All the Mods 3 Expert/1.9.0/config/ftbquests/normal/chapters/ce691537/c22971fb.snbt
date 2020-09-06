@@ -1,0 +1,29 @@
+{
+	title: "解锁 无限增幅卡",
+	icon: "ae2wtlib:infinity_booster_card",
+	x: 0.5d,
+	y: -9.0d,
+	shape: "diamond",
+	text: [
+		"解锁AE2 Wireless Terminal模组的无限增幅卡."
+	],
+	dependencies: [
+		"4f381548",
+		"5d81ffe3"
+	],
+	tasks: [{
+		uid: "d8f26494",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin 1 97"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d2f55488",
+		type: "command",
+		team_reward: false,
+		command: "/gamestage add @p infinity"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "''合金炉先生,给我一个磨粉机!''",
+	x: 0.5d,
+	y: 3.0d,
+	text: [
+		"EIO有一些十分炫酷的机器,你应该好好看看.有些物品只能在EIO的机器中制作.所以多整几个."
+	],
+	dependencies: [
+		"4207c9d9"
+	],
+	tasks: [{
+		uid: "35105d05",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "15a42a95",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}]
+}

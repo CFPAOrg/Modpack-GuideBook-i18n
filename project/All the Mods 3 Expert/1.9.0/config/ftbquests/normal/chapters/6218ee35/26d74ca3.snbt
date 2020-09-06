@@ -1,0 +1,58 @@
+{
+	title: "熔岩转运还是液体坩埚?由你自己决定.",
+	x: 2.0d,
+	y: -4.0d,
+	shape: "diamond",
+	text: [
+		"尽管冶炼炉在熔炼很多方块的工具方面对你很有帮助,但它有时候还是不够热,熔岩炉可以帮你.",
+		"",
+		"顾名思义,流体转置机也可以转运流体."
+	],
+	dependencies: [
+		"d370806c"
+	],
+	tasks: [{
+		uid: "3b15a144",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 8s
+		}]
+	},
+	{
+		uid: "1767b936",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}]
+	}]
+}

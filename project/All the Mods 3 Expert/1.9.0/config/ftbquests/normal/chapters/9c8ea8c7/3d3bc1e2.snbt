@@ -1,0 +1,93 @@
+{
+	title: "脚滑!太脚滑了!",
+	x: -1.5d,
+	y: -3.0d,
+	text: [
+		"石油是制作燃料的重要资源.",
+		"",
+		"你需要一个采油机抽取原油,再用精馏塔提炼."
+	],
+	dependencies: [
+		"cbbf9d02"
+	],
+	tasks: [{
+		uid: "bc94f39f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "92669af2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 6L
+	},
+	{
+		uid: "c01208ba",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}],
+		count: 2L
+	},
+	{
+		uid: "4284a753",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 36L
+	},
+	{
+		uid: "e068e6b2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1_slab 1 1"
+		}],
+		count: 30L
+	},
+	{
+		uid: "8be5c5da",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 8"
+		}],
+		count: 4L
+	},
+	{
+		uid: "fc6996fb",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage_alloy"
+		}],
+		count: 2L
+	},
+	{
+		uid: "039e8e61",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 21L
+	},
+	{
+		uid: "207b4518",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 9"
+		}],
+		count: 60L
+	},
+	{
+		uid: "ff749ff0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_decoration"
+		}],
+		count: 6L
+	}]
+}

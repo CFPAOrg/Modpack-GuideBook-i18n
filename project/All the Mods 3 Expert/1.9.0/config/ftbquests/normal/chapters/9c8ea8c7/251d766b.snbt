@@ -1,0 +1,19 @@
+{
+	title: "用能量"刷怪"",
+	x: -2.5d,
+	y: 1.5d,
+	text: [
+		"一个强大的电动刷怪笼,它可以让你使用能量刷出几乎任何的怪物.自动化爱了爱了."
+	],
+	dependencies: [
+		"ec7b7fe4"
+	],
+	tasks: [{
+		uid: "57e84f22",
+		type: "item",
+		items: [{
+			item: "enderio:block_powered_spawner"
+		}],
+		ignore_nbt: 1b
+	}]
+}

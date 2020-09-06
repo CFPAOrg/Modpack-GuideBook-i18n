@@ -1,0 +1,19 @@
+{
+	title: "生长精华",
+	x: 0.0d,
+	y: 5.5d,
+	shape: "diamond",
+	text: [
+		"生长精华可以让你制作园艺玻璃罩,也可以让你制作增生之种."
+	],
+	dependencies: [
+		"bca785bc"
+	],
+	tasks: [{
+		uid: "dbec8f06",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,66 @@
+{
+	title: "像龙一样",
+	x: 3.0d,
+	y: -3.5d,
+	shape: "diamond",
+	text: [
+		"有了双足飞龙核心,现在你可以做出更强的装甲和武器.虽然觉醒核心更强,但是这套装甲和武器被认为是和混沌守卫战斗的最佳配置. "
+	],
+	dependencies: [
+		"f14ab873"
+	],
+	tasks: [{
+		uid: "78690314",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "059cfbf0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9d77b72e",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "436803d7",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f92493f8",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "01c58f47",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

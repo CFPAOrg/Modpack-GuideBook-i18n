@@ -1,0 +1,34 @@
+{
+	title: "沙子中的石英和太空里的陨石",
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"焦黑石英和陨石是你前往亚图姆最重要的原因,你需要很多,所以赶快挖吧.不过你可能需要更多的焦黑石英,因为陨石可能没有那么多.",
+		"",
+		"此外,焦黑石英触动了你的灵魂,让你知道怎么前往末地."
+	],
+	dependencies: [
+		"c26a30ec"
+	],
+	tasks: [{
+		uid: "d1265999",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 5"
+		}],
+		count: 64L
+	},
+	{
+		uid: "d130bef6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_block"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "e908ca8e",
+		type: "command",
+		command: "/gamestage add @p end"
+	}]
+}

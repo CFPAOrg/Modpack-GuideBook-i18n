@@ -1,0 +1,62 @@
+{
+	title: "高级火箭装置",
+	x: 2.5d,
+	y: 2.5d,
+	text: [
+		"大多数mod都使用一台机器来制作物品,但高级火箭却用了很多多方块机器,使用全息投影仪查看搭建方法.",
+		"",
+		"请记住,大多数机器都需要输入输出口.还有些可能需要人工输入或者其他的方块.所以要研究好了在放置."
+	],
+	dependencies: [
+		"67813eca"
+	],
+	tasks: [{
+		uid: "9cbefb83",
+		type: "item",
+		items: [{
+			item: "libvulpes:holoprojector"
+		}]
+	},
+	{
+		uid: "dc3c985d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:cuttingmachine"
+		}]
+	},
+	{
+		uid: "da8c576b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:precisionassemblingmachine"
+		}]
+	},
+	{
+		uid: "37c3dec1",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:crystallizer"
+		}]
+	},
+	{
+		uid: "3991028e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rollingmachine"
+		}]
+	},
+	{
+		uid: "b050164e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:chemicalreactor"
+		}]
+	},
+	{
+		uid: "14f76b53",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:electrolyser"
+		}]
+	}]
+}

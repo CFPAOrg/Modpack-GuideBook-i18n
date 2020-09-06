@@ -1,0 +1,25 @@
+{
+	title: "太太太太太太太太太太太太太太太太太太太太太太空啊!!!",
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		"走走走我们去月球找嫦娥！"
+	],
+	dependencies: [
+		"7cb3c263",
+		"825e4672",
+		"584b01a2"
+	],
+	tasks: [{
+		uid: "fe88580f",
+		type: "dimension",
+		title: "Go to Luna",
+		dim: 3
+	}],
+	rewards: [{
+		uid: "ff9c8f4a",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 101"
+	}]
+}

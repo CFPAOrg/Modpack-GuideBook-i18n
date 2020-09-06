@@ -1,0 +1,18 @@
+{
+	title: "...需要更大的桌子",
+	x: 0.0d,
+	y: 7.0d,
+	text: [
+		"这是个高级的工作台,所以,它对应着高级的合成配方."
+	],
+	dependencies: [
+		"f9e11c7a"
+	],
+	tasks: [{
+		uid: "44d46e02",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	}]
+}

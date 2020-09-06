@@ -1,0 +1,23 @@
+{
+	title: "连♂接",
+	x: -4.5d,
+	y: 5.5d,
+	text: [
+		"顾名思义,将不同方块连接到一起."
+	],
+	dependencies: [
+		"4f058998"
+	],
+	tasks: [{
+		uid: "200f7797",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemlinkingtool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "球球你",
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		"要做出这个球你需要6级的血之祭坛!",
+		"",
+		"用于制作ATM之星."
+	],
+	tasks: [{
+		uid: "dd315301",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atmtweaks:item_material",
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}]
+}

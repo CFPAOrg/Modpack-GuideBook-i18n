@@ -1,0 +1,53 @@
+{
+	title: "结晶体",
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		"为了完全腐蚀星辉锭,你必须将损坏的星能透过这四种晶体照到星辉锭上. ",
+		"",
+		"血魔法添加了一般指南--血染知书,它会让你知道怎样培育和获取这些晶体."
+	],
+	dependencies: [
+		"f72d4ec0"
+	],
+	tasks: [{
+		uid: "57ab89c9",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal 1 1"
+		}]
+	},
+	{
+		uid: "20bd67f0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal 1 2"
+		}]
+	},
+	{
+		uid: "4108d013",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal 1 3"
+		}]
+	},
+	{
+		uid: "ef888825",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal 1 4"
+		}]
+	},
+	{
+		uid: "31fad881",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "guideapi:bloodmagic-guide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

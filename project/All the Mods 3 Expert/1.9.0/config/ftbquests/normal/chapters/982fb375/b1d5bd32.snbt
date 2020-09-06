@@ -1,0 +1,48 @@
+{
+	title: "更大,更长的高炉",
+	x: 1.5d,
+	y: 2.5d,
+	shape: "diamond",
+	text: [
+		"强化高炉允许你使用电力加速进程,并且能够更好的进行自动化."
+	],
+	dependencies: [
+		"7e61fce5"
+	],
+	tasks: [{
+		uid: "958ecd35",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	},
+	{
+		uid: "627d6ab7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "08c65d2c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 2"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "163e03c0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:BlastFurnaceAdvanced"
+			}
+		}
+	}]
+}

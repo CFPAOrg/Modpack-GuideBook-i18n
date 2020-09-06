@@ -1,0 +1,27 @@
+{
+	title: "一些有用的化学物质",
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"这个模组的确很强大.你可以将物品分解为它们所含的化学元素和基本化合物.拿些材料试着把这些化学物质做出来吧."
+	],
+	dependencies: [
+		"cbbf9d02"
+	],
+	tasks: [{
+		uid: "9c3e19ae",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 32"
+		}],
+		count: 8L
+	},
+	{
+		uid: "fbe08ae8",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 22"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "物流管道",
+	x: -1.0d,
+	y: -2.5d,
+	shape: "diamond",
+	text: [
+		"老玩家会一眼认出这个经典mod,建议查看指南游玩.",
+		"",
+		"这可能会是你第一个自动化存储系统,甚至还可以进行合成!",
+		"",
+		"一旦你制作了一些物流管道，你就会得到它的指南书，这样你就可以试着了解这个美妙模组的来龙去脉。它从1.7.10到现在已经有了很多变化。"
+	],
+	dependencies: [
+		"624121d5",
+		"98f064e5"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "bc68cb02",
+		type: "item",
+		items: [{
+			item: "logisticspipes:power_junction"
+		}]
+	},
+	{
+		uid: "a6be355d",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_request"
+		}]
+	},
+	{
+		uid: "98846ad4",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_transport_basic"
+		}],
+		count: 16L
+	},
+	{
+		uid: "9b1a4e9c",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_basic"
+		}],
+		count: 4L
+	}]
+}

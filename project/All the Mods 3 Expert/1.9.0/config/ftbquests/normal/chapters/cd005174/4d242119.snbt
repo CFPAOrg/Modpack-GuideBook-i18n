@@ -1,0 +1,15 @@
+{
+	title: "世界灵魂",
+	x: 4.5d,
+	y: 4.0d,
+	text: [
+		"把一些星辉物品和UU物质结合,然后把它们浸泡在中子流体中,你就得到了一些世界灵魂,这也是ATM之星的一部分."
+	],
+	tasks: [{
+		uid: "c04b65e5",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 4"
+		}]
+	}]
+}

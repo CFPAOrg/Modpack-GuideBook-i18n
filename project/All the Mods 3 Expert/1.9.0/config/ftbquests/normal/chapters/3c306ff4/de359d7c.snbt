@@ -1,0 +1,42 @@
+{
+	title: "砍 树,致 富",
+	x: -2.0d,
+	y: -6.5d,
+	text: [
+		"既然你已经有了工具,那么就像MC普通玩家一样,开始砍树吧!"
+	],
+	dependencies: [
+		"743db6c6"
+	],
+	tasks: [{
+		uid: "8882d733",
+		type: "item",
+		title: "任何原木",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b35a1153",
+		type: "item",
+		title: "任何木板",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	}]
+}

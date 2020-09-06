@@ -1,0 +1,26 @@
+{
+	title: "下 届",
+	x: -3.0d,
+	y: 3.5d,
+	shape: "gear",
+	text: [
+		"现在,是时候从那些猪人手中抢回钻石了,在地狱里,你还会发现一些地狱特有的矿. ",
+		"",
+		"你或许应该做点装备,因为地狱的怪物比主世界要强."
+	],
+	dependencies: [
+		"260e4271"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "8c1ba8ea",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "ae21a987",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin"
+	}]
+}

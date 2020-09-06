@@ -1,0 +1,18 @@
+{
+	title: "破坏岩石",
+	x: -4.0d,
+	y: -3.5d,
+	text: [
+		"这台机器会压碎岩石,根据你放入岩石种类不同,压出的产物也不同."
+	],
+	dependencies: [
+		"982d406c"
+	],
+	tasks: [{
+		uid: "92a1ce8a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rock_crusher_idle"
+		}]
+	}]
+}

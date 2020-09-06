@@ -1,0 +1,21 @@
+{
+	title: "更大的合成,更多的物品...",
+	x: 1.5d,
+	y: 7.0d,
+	text: [
+		"如果你想要一些更大的合成配方,我们已经为你准备好了.将石墨锭加热,获得黑铁锭.",
+		"",
+		"建议你制作多一点,很多高级工作台需要它."
+	],
+	dependencies: [
+		"5d22e529"
+	],
+	tasks: [{
+		uid: "e9d7efb0",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material"
+		}],
+		count: 4L
+	}]
+}

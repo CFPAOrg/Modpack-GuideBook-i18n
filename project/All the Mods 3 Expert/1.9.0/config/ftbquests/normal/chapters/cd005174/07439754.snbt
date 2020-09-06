@@ -1,0 +1,18 @@
+{
+	title: "从虚空中挖矿",
+	x: 9.0d,
+	y: -2.0d,
+	text: [
+		"虚空矿物挖掘机是你第一个环境科技的多方块机器,它不仅能让你获得更多的莱泽尔水晶,还能让你获得下一等级的水晶. "
+	],
+	dependencies: [
+		"727a37fb"
+	],
+	tasks: [{
+		uid: "f4ded744",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_1"
+		}]
+	}]
+}
