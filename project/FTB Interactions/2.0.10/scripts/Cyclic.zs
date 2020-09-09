@@ -25,6 +25,8 @@ recipes.addShaped(<cyclicmagic:beacon_potion>,
 <cyclicmagic:apple_emerald>.displayName = "恢复之果";
 <cyclicmagic:apple_emerald>.addTooltip(format.darkRed("用于治愈僵尸村民。(见Zen Summoning模组!)"));
 
+<cyclicmagic:card_location>.addTooltip(format.darkRed("对着空气shift右键来重置GPS坐标。"));
+
 recipes.remove(<cyclicmagic:apple_emerald>);
 recipes.addShaped(<cyclicmagic:apple_emerald>,
 	[[<projecte:item.pe_covalence_dust>, <minecraft:apple>, <projecte:item.pe_covalence_dust>],

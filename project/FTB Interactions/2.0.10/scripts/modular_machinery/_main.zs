@@ -403,7 +403,6 @@ var furnaceItems as IItemStack[IItemStack] = {
 <contenttweaker:tin_ore_clump>:<contenttweaker:tin_ore_cluster> * 16,
 <contenttweaker:tin_ore_shard>:<contenttweaker:tin_ore_cluster> * 4,
 <contenttweaker:tin_ore_crystal>:<contenttweaker:tin_ore_cluster> * 8,
-<contenttweaker:sub_block_holder_4:15>:<contenttweaker:tungstate_ore_cluster> * 2,
 <contenttweaker:tungsten_ore_clump>:<contenttweaker:tungsten_ore_cluster> * 16,
 <contenttweaker:tungsten_ore_shard>:<contenttweaker:tungsten_ore_cluster> * 4,
 <contenttweaker:tungsten_ore_crystal>:<contenttweaker:tungsten_ore_cluster> * 8,

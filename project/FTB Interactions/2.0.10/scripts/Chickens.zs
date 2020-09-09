@@ -85,6 +85,7 @@ fluidExtractor.recipeBuilder()
 
 val radonChicken = <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:radonchicken", Gain: 1, Strength: 1});
 
+
 #Radon chicken
 	mods.thaumcraft.Infusion.registerRecipe("radonChicken", "INFUSION", radonChicken, 6,
 	[<aspect:volatus> * 32, <aspect:potentia> * 64, <aspect:desiderium> * 16, <aspect:alienis> * 16],
@@ -136,7 +137,16 @@ fluidExtractor.recipeBuilder()
 	.buildAndRegister();
 
 #spicey chicken
-<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:spicechicken", Gain: 1, Strength: 1}).addTooltip(format.darkRed("只能通过战利品获得：在主世界的地牢中找到。"));
+val spiceChicken = <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:spicechicken", Gain: 1, Strength: 1});
+
+spiceChicken.addTooltip(format.darkRed("可以在主世界的地牢中找到。"));
+
+	mods.thaumcraft.Infusion.registerRecipe("spiceChicken", "INFUSION", spiceChicken, 4,
+	[<aspect:volatus> * 32, <aspect:herba> * 32, <aspect:praecantatio> * 12, <aspect:alkimia> * 8],
+	smartChicken,
+	[<harvestcraft:peppercornitem>,<harvestcraft:spiceleafitem>,<harvestcraft:cinnamonitem>,<harvestcraft:mustardseedsitem>]);
+
+
 spinnyGoFast.recipeBuilder()
     .inputs(<ore:enrichedEggSpice>)
 	.chancedOutput(<harvestcraft:peppercornitem>, 5500, 1000)
@@ -415,6 +425,18 @@ val manaChicken = <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:m
 	mods.astralsorcery.Lightwell.addLiquefaction(<ore:enrichedEggMana>.firstItem, <liquid:mana_fluid>, 0.7, 10, 0);	
 
 
+#nightmare
+
+val nightmareChicken = <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:nightmarechicken", Gain: 1, Strength: 1});
+
+	mods.thaumcraft.Infusion.registerRecipe("nightmareChicken", "INFUSION", nightmareChicken, 4,
+	[<aspect:volatus> * 32, <aspect:potentia> * 64, <aspect:tenebrae> * 48, <aspect:alienis> * 16, <aspect:exanimis> * 16],
+	smartChicken,
+	[<ore:compressed3xDustBedrock>, <ore:enrichedEggAstral>, <ore:enrichedEggAstral>, <bloodmagic:component:29>, <projecte:item.pe_covalence_dust:1>,<projecte:item.pe_covalence_dust:1>]);
+
+
+mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:nightmare_enriched_egg>, <liquid:liquidnightmares>, 0.4, 10, 0);	
+
 #latticite chicken
 
 val latticiteChicken = <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:latticitechicken", Gain: 1, Strength: 1});
@@ -459,7 +481,7 @@ spinnyGoFast.recipeBuilder()
     .buildAndRegister();
 
 	mixer.recipeBuilder()
-	.inputs(smartChicken, <ore:dustSmallGraphene>, <ore:dustNetherQuartz>, <ore:dustDiamond>)
+	.inputs(smartChicken, <ore:dustGraphite>*32, <ore:dustNetherQuartz>, <ore:dustDiamond>)
 	.outputs(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:graphitechicken", Gain: 1, Strength: 1}))
 	.duration(1000)
 	.EUt(24)

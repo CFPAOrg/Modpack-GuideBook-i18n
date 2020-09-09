@@ -86,6 +86,11 @@ mixer.recipeBuilder()
 	recipes.remove(<bloodmagic:sacrificial_dagger>);
 	<bloodmagic:sacrificial_dagger>.addTooltip(format.darkRed("被禁用了？肯定会有其他的方法......（看看DML的数字化苦难之井吧）"));
 
+
+	#dragon hearts
+	mods.bloodmagic.BloodAltar.addRecipe(<draconicevolution:dragon_heart>, <iceandfire:fire_dragon_heart>, 5, 10000, 200, 200);
+	mods.bloodmagic.BloodAltar.addRecipe(<draconicevolution:dragon_heart>, <iceandfire:ice_dragon_heart>, 5, 10000, 200, 200);
+
 	//mods.bloodmagic.BloodAltar.addRecipe(IItemStack output, IItemStack input, int minimumTier, int syphon, int consumeRate, int drainRate);
 	#bloodOrbs
 	#weak blood orb

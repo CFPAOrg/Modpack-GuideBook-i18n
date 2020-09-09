@@ -101,7 +101,7 @@ recipes.remove(<appliedenergistics2:quartz_glass>);
 assembler.recipeBuilder()
 	.inputs(<ore:dustCertusQuartz>)
     .outputs(<appliedenergistics2:quartz_glass> * 4)
-	.fluidInputs([<liquid:glass> * 144])
+	.fluidInputs([<liquid:glass> * 1000])
     .duration(200)
     .EUt(16)
     .buildAndRegister();
@@ -230,7 +230,7 @@ recipes.remove(<appliedenergistics2:part:140>);
 assembler.recipeBuilder()
 	.inputs(<ore:stickCertusQuartz>)
     .outputs(<appliedenergistics2:part:140> * 8)
-	.fluidInputs([<liquid:glass> * 144])
+	.fluidInputs([<liquid:glass> * 1000])
     .duration(200)
     .EUt(16)
     .buildAndRegister();
@@ -239,7 +239,7 @@ recipes.remove(<appliedenergistics2:part:140>);
 assembler.recipeBuilder()
 	.inputs(<ore:stickNetherQuartz>)
     .outputs(<appliedenergistics2:part:140>)
-	.fluidInputs([<liquid:glass> * 144])
+	.fluidInputs([<liquid:glass> * 1000])
     .duration(200)
     .EUt(16)
     .buildAndRegister();

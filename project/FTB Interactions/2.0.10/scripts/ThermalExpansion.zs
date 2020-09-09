@@ -48,6 +48,9 @@ val chemReactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:diamond>, <liquid:redstone>);
 mods.thermalexpansion.Transposer.addFillRecipe(<ore:gemCrystalFlux>.firstItem, <ore:manaDiamond>.firstItem, <liquid:redstone> * 1000, 42240);
 
+	#IF Fertilizer
+mods.thermalexpansion.Transposer.addFillRecipe(<industrialforegoing:fertilizer>, <thermalfoundation:fertilizer>, <liquid:sludge> * 10, 2000);	
+
 	#drill tip
 	mods.jei.JEI.removeAndHide(<thermalfoundation:material:656>);
 
@@ -170,7 +173,7 @@ recipes.addShaped(servo,
 	mixer.recipeBuilder()
     .inputs(<ore:dustPyrotheum>,<ore:dustCryotheum>,<ore:dustAerotheum>,<ore:dustPetrotheum>)
     .outputs([<thermalfoundation:material:1028>])
-    .fluidInputs([<liquid:unstable_mana> * 10000])
+    .fluidInputs([<liquid:unstable_mana> * 5000])
     .duration(150)
     .EUt(480)
     .buildAndRegister();
@@ -185,7 +188,7 @@ recipes.addShaped(servo,
     .buildAndRegister();
 	
 	
-	chemReactor.recipeBuilder()
+	mixer.recipeBuilder()
     .inputs(<ore:dustMana>,<ore:enrichedEggPrimal>*16, <ore:dustVinteum>)
 	.fluidOutputs([<liquid:mana> * 2000])
     .fluidInputs([<liquid:helium> * 50])

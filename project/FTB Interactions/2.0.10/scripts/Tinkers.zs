@@ -46,6 +46,12 @@ var arditeOre = <tconstruct:ore:1> as IBlock;
 arditeOre.definition.setHarvestLevel("pickaxe", 3);
 
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <chisel:chisel_iron>);
+mods.tconstruct.Melting.removeRecipe(<liquid:enderium>, <ore:dustTinyEnderium>.firstItem);
+mods.tconstruct.Melting.removeRecipe(<liquid:enderium>, <ore:dustSmallEnderium>.firstItem);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:lumium>, <ore:dustSmallLumium>.firstItem);
+mods.tconstruct.Melting.removeRecipe(<liquid:lumium>, <ore:dustTinyLumium>.firstItem);
+mods.tconstruct.Melting.removeRecipe(<liquid:lumium>, <ore:dustLumium>.firstItem);
 
 	#remove ardite ore smelting
 mods.tconstruct.Melting.removeRecipe(<liquid:ardite>, <tconstruct:ore:1>);
