@@ -1,2 +1,2 @@
 cos-python-sdk-v5==1.6.5
-PyYAML==3.13
+PyYAML==5.4
