@@ -1,0 +1,18 @@
+{
+	title: "终于, 一个熔炉.",
+	x: 2.0d,
+	y: -4.5d,
+	text: [
+		"一般来说,你会在minecraft的第一个晚上做出一个熔炉,不过在这里我们做不到.有了烤砖,你终于可以做出心心念念的炉子了!"
+	],
+	dependencies: [
+		"ce3cf585"
+	],
+	tasks: [{
+		uid: "d6866b5e",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}

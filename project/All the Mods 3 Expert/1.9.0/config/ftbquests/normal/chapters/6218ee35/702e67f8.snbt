@@ -1,0 +1,28 @@
+{
+	title: "管理,连接你的存储系统",
+	x: 4.0d,
+	y: -2.0d,
+	shape: "diamond",
+	text: [
+		"这有两种主要的存储大量物品的方式:抽屉和YABBA.两者功能相似,但特点不同.",
+		"",
+		"然而,它们都有一个主要方块,可以管理所连接的所有抽屉或桶."
+	],
+	dependencies: [
+		"06b83a66"
+	],
+	tasks: [{
+		uid: "a51110fd",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	},
+	{
+		uid: "385ecb23",
+		type: "item",
+		items: [{
+			item: "yabba:item_barrel_connector"
+		}]
+	}]
+}

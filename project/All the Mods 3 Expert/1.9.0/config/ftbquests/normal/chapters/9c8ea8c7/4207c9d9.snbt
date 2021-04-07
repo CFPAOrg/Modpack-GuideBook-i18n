@@ -1,0 +1,20 @@
+{
+	title: "这玩意看起来可以种",
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"把锂用起来,做一些电容.EIO的机器需要它."
+	],
+	dependencies: [
+		"77afc94b",
+		"ab1c80f4"
+	],
+	tasks: [{
+		uid: "03afc113",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor"
+		}],
+		count: 4L
+	}]
+}

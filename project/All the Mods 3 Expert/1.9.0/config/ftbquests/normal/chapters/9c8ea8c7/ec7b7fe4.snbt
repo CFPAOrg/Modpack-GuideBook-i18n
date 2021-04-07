@@ -1,0 +1,45 @@
+{
+	title: "导管",
+	x: -0.5d,
+	y: 1.5d,
+	text: [
+		"EIO的导管可以在一个方块中放置多种导管,这样你的基地就不会导管满天飞了.",
+		"",
+		"注:不要在导管中创建循环路径,这样会对单人世界或服务器造成卡顿."
+	],
+	dependencies: [
+		"9f0db2c5"
+	],
+	tasks: [{
+		uid: "9d6d72c2",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "10eb6c8e",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "672eedf3",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "1909a579",
+		type: "item",
+		items: [{
+			item: "enderio:item_redstone_conduit"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "血淋淋的石板",
+	x: 4.5d,
+	y: 2.5d,
+	text: [
+		"是时候了.将你的血液献祭到祭坛上,做些神秘的石板.",
+		"",
+		"如果你需要的话,带个枕头,这样你晕倒的时候就不会受伤."
+	],
+	dependencies: [
+		"d93e6d6e"
+	],
+	tasks: [{
+		uid: "0e61ea9f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate"
+		}],
+		count: 4L
+	}]
+}

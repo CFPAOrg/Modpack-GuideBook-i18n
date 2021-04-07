@@ -1,0 +1,58 @@
+{
+	title: "火箭,组装!",
+	x: 5.5d,
+	y: -0.5d,
+	text: [
+		"组装火箭需要很多零件.首先,你需要发射台和结构塔.",
+		"",
+		"然后,用发射台建造一个3x3的平台.随便选择一个方向,在它旁边的同一水平上用8个结构塔造一个塔架.",
+		"",
+		"然后把火箭组装机和燃油站放在座位相邻的随便一侧.",
+		"它们需要比垫本身高一级,而且它们俩都需要能量."
+	],
+	dependencies: [
+		"88cd4474"
+	],
+	tasks: [{
+		uid: "2c421b73",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	},
+	{
+		uid: "0e6cff37",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fuelingstation"
+		}]
+	},
+	{
+		uid: "9ebbba44",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "libvulpes:linker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d526b9f5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:launchpad"
+		}],
+		count: 9L
+	},
+	{
+		uid: "944d485f",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "你瞅啥?",
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"酿液桶实际上是一个流体混合机,输入对应的流体,你会得到新的流体."
+	],
+	dependencies: [
+		"ec7b7fe4"
+	],
+	tasks: [{
+		uid: "5b29e1a0",
+		type: "item",
+		items: [{
+			item: "enderio:block_vat"
+		}]
+	}]
+}

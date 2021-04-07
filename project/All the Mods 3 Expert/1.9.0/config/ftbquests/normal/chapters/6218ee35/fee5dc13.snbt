@@ -1,0 +1,71 @@
+{
+	title: "魔法研究院",
+	x: -2.0d,
+	y: -4.0d,
+	text: [
+		"对于魔法,你一开始是从植物身上发掘的,现在你可以发展一些奥术了,这里的物品都是你所需要的最基本的物品.",
+		"",
+		"这个整合包给了魔导透镜扫描箱子内物品的能力.",
+		"",
+		"注意:魔导手册只会记录原版制作物品的信息.所以为了让达成条件生效,你必须要在原版工作台上制作."
+	],
+	dependencies: [
+		"23d4dedc"
+	],
+	tasks: [{
+		uid: "1a775192",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50673016",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_wood"
+		}]
+	},
+	{
+		uid: "ddb0dbb8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b312f49c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:scribing_tools"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f5d5dd49",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	},
+	{
+		uid: "7df3fa23",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}]
+}

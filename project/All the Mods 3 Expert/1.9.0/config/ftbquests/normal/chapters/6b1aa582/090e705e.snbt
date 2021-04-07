@@ -1,0 +1,56 @@
+{
+	title: "铁匠第一步,砸板砸到吐.",
+	disable_toast: true,
+	x: -1.0d,
+	y: -9.0d,
+	text: [
+		"为了制作你的第一台机器,你需要一些金属板."
+	],
+	dependencies: [
+		"e73c6bc7"
+	],
+	tasks: [{
+		uid: "11a0d1a5",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay 1 9"
+		}]
+	},
+	{
+		uid: "c818e5c2",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 3"
+		}]
+	},
+	{
+		uid: "b0693173",
+		type: "item",
+		title: "Iron Plate",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plateIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	},
+	{
+		uid: "86266c62",
+		type: "item",
+		title: "Invar Plate",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plateInvar",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	}]
+}

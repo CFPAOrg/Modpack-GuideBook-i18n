@@ -1,0 +1,20 @@
+{
+	title: "高强度钢",
+	x: -7.0d,
+	y: -2.0d,
+	text: [
+		"涡轮和伺服系统都需要低合金高强度钢锭."
+	],
+	dependencies: [
+		"67162a66",
+		"af31e2cf"
+	],
+	tasks: [{
+		uid: "1a626b71",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy 1 15"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "龙之进化",
+	x: -1.0d,
+	y: -3.5d,
+	text: [
+		"终于可以发展龙之进化了,这是其中最OP的模组.在血之祭坛上制作一些龙锭."
+	],
+	dependencies: [
+		"7eafb67e"
+	],
+	tasks: [{
+		uid: "54e7aec5",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ingot"
+		}],
+		count: 8L
+	}]
+}

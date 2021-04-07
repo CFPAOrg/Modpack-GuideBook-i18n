@@ -1,0 +1,20 @@
+{
+	title: "一丢丢",
+	x: -4.0d,
+	y: -4.0d,
+	shape: "diamond",
+	text: [
+		"石英碎片将在你发展奥术过程中派上很大用场."
+	],
+	dependencies: [
+		"b6176e60"
+	],
+	tasks: [{
+		uid: "14c1f837",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nugget 1 9"
+		}],
+		count: 64L
+	}]
+}

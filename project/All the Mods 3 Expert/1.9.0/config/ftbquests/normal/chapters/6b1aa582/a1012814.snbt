@@ -1,0 +1,19 @@
+{
+	title: "这个高炉不是很高",
+	x: -3.0d,
+	y: -5.5d,
+	text: [
+		"高炉可以让你制作精炼铁锭."
+	],
+	dependencies: [
+		"2278fbfc"
+	],
+	tasks: [{
+		uid: "9d867ea2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "储存更多魔力",
+	x: 4.0d,
+	y: -4.0d,
+	shape: "diamond",
+	text: [
+		"稀释魔力池虽然可以储存魔力,但它的容量确实不敢恭维.把一些液态萤石倒进稀释魔力池中给它升个级吧."
+	],
+	dependencies: [
+		"26d74ca3"
+	],
+	tasks: [{
+		uid: "34c4ddea",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}]
+}

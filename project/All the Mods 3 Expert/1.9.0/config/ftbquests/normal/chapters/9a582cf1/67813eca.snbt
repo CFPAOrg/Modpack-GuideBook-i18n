@@ -1,0 +1,33 @@
+{
+	title: "经典的机器",
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"这东西有一个有趣的过去,起初是固体,然后变成了流体,现在又变成了固体.你需要在很多配方中使用它,所以你得想办法囤一点."
+	],
+	dependencies: [
+		"6a94e04d"
+	],
+	tasks: [{
+		uid: "96e1428b",
+		type: "item",
+		items: [{
+			item: "ic2:blockmachinehv 1 1"
+		}]
+	},
+	{
+		uid: "495327dc",
+		type: "item",
+		items: [{
+			item: "ic2:itemmisc 1 202"
+		}],
+		count: 8L
+	},
+	{
+		uid: "072e4030",
+		type: "item",
+		items: [{
+			item: "ic2:blockmachinelv 1 7"
+		}]
+	}]
+}

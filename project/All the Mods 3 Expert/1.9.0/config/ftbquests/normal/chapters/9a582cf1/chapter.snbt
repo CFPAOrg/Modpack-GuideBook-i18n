@@ -1,0 +1,7 @@
+{
+	title: "等级5",
+	icon: "mekanism:basicblock 1 8",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

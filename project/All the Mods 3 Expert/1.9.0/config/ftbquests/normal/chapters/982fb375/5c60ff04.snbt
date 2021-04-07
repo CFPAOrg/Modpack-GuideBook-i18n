@@ -1,0 +1,30 @@
+{
+	title: "借助星光的力量",
+	x: -4.5d,
+	y: 1.0d,
+	text: [
+		"你触碰过大自然,涉及过奥术,接下来要发展星光的力量了.",
+		"",
+		"星辉魔法自己拥有一套合成系统和其它的机器.借助星芒宝典查看更多内容,但其中的合成有时不准确,请参考JEi."
+	],
+	dependencies: [
+		"c26a30ec"
+	],
+	tasks: [{
+		uid: "9b9bb6ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8beae09d",
+		type: "command",
+		command: "/as research @p BASIC_CRAFT"
+	}]
+}

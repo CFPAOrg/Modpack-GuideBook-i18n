@@ -1,0 +1,33 @@
+{
+	title: "分裂原子",
+	x: -1.5d,
+	y: -4.5d,
+	text: [
+		"好的,又到了发展另一个模组的时候了.这是一个让你溶解并结合各种化学元素和化合物的新世界."
+	],
+	dependencies: [
+		"cb89813c"
+	],
+	tasks: [{
+		uid: "bf260126",
+		type: "item",
+		items: [{
+			item: "alchemistry:chemical_dissolver"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "67579cdf",
+		type: "item",
+		items: [{
+			item: "alchemistry:chemical_combiner"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11961386",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 97"
+	}]
+}

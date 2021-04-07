@@ -1,0 +1,29 @@
+{
+	title: "解锁 板条箱",
+	icon: "actuallyadditions:block_giant_chest",
+	x: -5.5d,
+	y: -16.5d,
+	shape: "diamond",
+	text: [
+		"解锁实用拓展里的板条箱合成配方."
+	],
+	dependencies: [
+		"4f381548",
+		"5d81ffe3"
+	],
+	tasks: [{
+		uid: "41f140c7",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a75c198d",
+		type: "command",
+		team_reward: false,
+		command: "/gamestage add @p crates"
+	}]
+}

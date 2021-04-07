@@ -1,0 +1,24 @@
+{
+	title: "''第三个'S'不发音''",
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"就像IC2和热力膨胀的机器有框架一样,EIO的机器也有自己的框架."
+	],
+	dependencies: [
+		"45596053"
+	],
+	tasks: [{
+		uid: "30186546",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "014acde2",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 97"
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "解锁 建筑小帮手",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "buildinggadgets:buildingtool",
+		tag: {
+			blockstate: {
+				Name: "minecraft:air"
+			}
+		}
+	},
+	x: 1.5d,
+	y: -16.5d,
+	shape: "diamond",
+	text: [
+		"解锁direwolf20制作的建筑小帮手模组的相关合成."
+	],
+	dependencies: [
+		"4f381548",
+		"5d81ffe3"
+	],
+	tasks: [{
+		uid: "b8750097",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin 1 1"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3650f060",
+		type: "command",
+		team_reward: false,
+		command: "/gamestage add @p gadgets"
+	}]
+}

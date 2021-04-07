@@ -1,0 +1,26 @@
+{
+	title: "血的..法球?",
+	x: 4.5d,
+	y: 5.5d,
+	text: [
+		"气血宝珠有几种用途.第一,它们会将LP存储到你个人的血网络中,来满足各种需求.其次,他们能让你为你的血之祭坛制作更好的符文."
+	],
+	dependencies: [
+		"dc07d6d6"
+	],
+	tasks: [{
+		uid: "862189bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:magician"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

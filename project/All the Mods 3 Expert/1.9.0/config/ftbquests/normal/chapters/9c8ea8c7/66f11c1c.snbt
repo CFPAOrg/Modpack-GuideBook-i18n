@@ -1,0 +1,29 @@
+{
+	title: "这会让我飘起来吗?",
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"用你的桶装一些轻盈之气.",
+		"接下来你会用到它的."
+	],
+	dependencies: [
+		"ca1a50ec"
+	],
+	tasks: [{
+		uid: "8b2b08bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "vapor_of_levity",
+				Amount: 1000
+			}
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

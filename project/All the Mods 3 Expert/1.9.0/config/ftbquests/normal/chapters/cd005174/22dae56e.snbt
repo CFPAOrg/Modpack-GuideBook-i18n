@@ -1,0 +1,18 @@
+{
+	title: "蜜蜂嗡嗡嗡",
+	x: 8.0d,
+	y: -5.5d,
+	text: [
+		"蜜蜂需要吸食.基因工业能让它们有地可吸.任何盛放蜜蜂的东西都需要一个蜜蜂插槽,所以做一点吧."
+	],
+	dependencies: [
+		"7f543340"
+	],
+	tasks: [{
+		uid: "bb8a8212",
+		type: "item",
+		items: [{
+			item: "gendustry:bee_receptacle"
+		}]
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "水多多,RF多多,传家宝多多",
+	x: 0.0d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"三种不同的中继器:能量,流体,物品.",
+		"",
+		"能量激光中继器有三个等级,每个等级都有不同的传输速率和能量流失率.",
+		"物品激光中继器需要一个物品传输接口才能工作.",
+		"流体激光中继器本身就可以工作.",
+		"",
+		"<3 真酷."
+	],
+	dependencies: [
+		"e44c0180",
+		"bfa03efe"
+	],
+	tasks: [{
+		uid: "c200a761",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay"
+		}]
+	},
+	{
+		uid: "05b4dcee",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_fluids"
+		}]
+	},
+	{
+		uid: "fe0f0cbe",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_item"
+		}]
+	},
+	{
+		uid: "15e9fc02",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_item_viewer"
+		}]
+	}]
+}

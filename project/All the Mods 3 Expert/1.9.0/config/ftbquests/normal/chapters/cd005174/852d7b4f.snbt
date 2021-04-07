@@ -1,0 +1,15 @@
+{
+	title: "凋零精华",
+	x: -3.0d,
+	y: 7.0d,
+	text: [
+		"凋零精华是ATM之星最简单的部分,将凋零的力量注入到生长精华中就能得到."
+	],
+	tasks: [{
+		uid: "f88cd022",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 10"
+		}]
+	}]
+}

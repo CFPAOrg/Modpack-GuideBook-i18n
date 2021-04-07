@@ -1,0 +1,19 @@
+{
+	title: "橡胶是长在树上的!",
+	x: 1.5d,
+	y: -2.5d,
+	shape: "diamond",
+	text: [
+		"你需要一点橡胶来制作机器中的电路."
+	],
+	dependencies: [
+		"4bc3ad2e"
+	],
+	tasks: [{
+		uid: "13327ac0",
+		type: "item",
+		items: [{
+			item: "ic2:blockmachinelv 1 4"
+		}]
+	}]
+}

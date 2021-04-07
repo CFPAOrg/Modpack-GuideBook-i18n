@@ -1,0 +1,7 @@
+{
+	title: "街机乐园(指各种币",
+	icon: "thermalfoundation:coin 1 103",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

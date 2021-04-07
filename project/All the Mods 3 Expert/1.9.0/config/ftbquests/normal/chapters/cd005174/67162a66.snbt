@@ -1,0 +1,18 @@
+{
+	title: "菱锰制造商",
+	x: -6.0d,
+	y: -3.5d,
+	text: [
+		"粉碎一些花岗岩,你可以获得一些菱锰矿.柠檬糖需要用到...额我说的是锰. "
+	],
+	dependencies: [
+		"ac8fb506"
+	],
+	tasks: [{
+		uid: "0488235b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:gem_dust 1 1"
+		}]
+	}]
+}

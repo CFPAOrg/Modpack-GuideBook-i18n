@@ -1,0 +1,22 @@
+{
+	title: "全是金字塔",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"恭喜你走到这一步!在亚图姆有很多冒险等着你,大胆去探索吧!"
+	],
+	dependencies: [
+		"cf52ba13"
+	],
+	tasks: [{
+		uid: "95de750a",
+		type: "dimension",
+		dim: 17
+	}],
+	rewards: [{
+		uid: "b6cb7746",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 96"
+	}]
+}

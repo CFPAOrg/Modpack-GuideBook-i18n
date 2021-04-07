@@ -1,0 +1,51 @@
+{
+	title: "共振是关键",
+	x: -4.5d,
+	y: 2.5d,
+	text: [
+		"在星辉魔法中,很多合成都需要共鸣星杖来开始.",
+		"",
+		"它也可以帮你找到水晶石.将它拿在手里,在夜晚你便会看到地面上冒出白色的光,挖到基岩层,你就会找到水晶石."
+	],
+	dependencies: [
+		"5c60ff04"
+	],
+	tasks: [{
+		uid: "bcce48a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fea5b299",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "没错,另一台合金机器",
+	x: -8.0d,
+	y: -3.5d,
+	text: [
+		"你以前的合金机器似乎不能制作核电工艺的合金,为了获得某些合金,你必须制作这台机器."
+	],
+	dependencies: [
+		"982d406c"
+	],
+	tasks: [{
+		uid: "d8d8f072",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy_furnace_idle"
+		}]
+	}]
+}

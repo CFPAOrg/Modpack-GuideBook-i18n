@@ -1,0 +1,78 @@
+{
+	title: "应用能源",
+	x: -1.5d,
+	y: 5.5d,
+	shape: "diamond",
+	text: [
+		"钢还可以让你发展AE,一个最著名的存储系统,虽然现在你只能做一套最基本的AE系统.",
+		"",
+		"注:AE2的压印机已经可以压印模版了,不会在陨石里生成了."
+	],
+	dependencies: [
+		"df956b20"
+	],
+	tasks: [{
+		uid: "3b7395b8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	},
+	{
+		uid: "b640bb3d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	},
+	{
+		uid: "8fced3cf",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 35"
+		}]
+	},
+	{
+		uid: "9d8275cb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	},
+	{
+		uid: "97bbc823",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 16"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9c779a25",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "fe13ae82",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "0ef6cec3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "36763c75",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "聚 变",
+	x: -2.5d,
+	y: 4.5d,
+	text: [
+		"你一定注意到锇很缺乏,这是因为你需要把元素融合到一起才能得到它.",
+		"",
+		"首先,你需要一个聚变仓.请按照Alchemistry书中内容搭建. ",
+		"",
+		"配方很简单,将你放入的两个元素的原子序数相加,之和就是你能得到的物品数量."
+	],
+	dependencies: [
+		"20b39f52"
+	],
+	tasks: [{
+		uid: "32bb07cc",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_casing"
+		}],
+		count: 98L
+	},
+	{
+		uid: "01091e2c",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_controller"
+		}]
+	},
+	{
+		uid: "25af115c",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_core"
+		}],
+		count: 3L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "起初我很害怕,我被吓呆了",
+	x: -1.5d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		"是的,你的植物学研究还没有结束.石矮油牵牛花将从不同的燃料中获取魔力.详情见JEI.",
+		"",
+		"注者加:可用燃料为 精制菜籽油,晶化油,充能油,生物柴油,柴油,合成气."
+	],
+	dependencies: [
+		"3d3bc1e2"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ba6a89c1",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "petro_petunia"
+			}
+		}]
+	}]
+}

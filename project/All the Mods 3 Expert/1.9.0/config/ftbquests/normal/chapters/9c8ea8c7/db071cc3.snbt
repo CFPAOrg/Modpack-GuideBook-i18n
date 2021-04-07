@@ -1,0 +1,29 @@
+{
+	title: "莱戈拉斯,你的精灵之眼看到了什么?",
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"精灵门核心将开通一条你与爱尔夫海姆的精灵们之间的物流通道.给他们一些东西,他们就会返还对应的东西.",
+		"",
+		"可惜的是,你不能亲身去拜访(抢劫)精灵们."
+	],
+	dependencies: [
+		"228f0835",
+		"739f5cdc"
+	],
+	tasks: [{
+		uid: "92d77dbf",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "26f8ada7",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	}]
+}

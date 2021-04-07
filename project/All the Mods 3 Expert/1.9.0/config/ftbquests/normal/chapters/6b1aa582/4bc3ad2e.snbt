@@ -1,0 +1,19 @@
+{
+	title: "压力山大",
+	x: 3.0d,
+	y: -2.5d,
+	text: [
+		"当你做金属板做到吐时,压缩机出现了."
+	],
+	dependencies: [
+		"624121d5",
+		"1bf4a0d5"
+	],
+	tasks: [{
+		uid: "c65de043",
+		type: "item",
+		items: [{
+			item: "ic2:blockmachinelv 1 5"
+		}]
+	}]
+}

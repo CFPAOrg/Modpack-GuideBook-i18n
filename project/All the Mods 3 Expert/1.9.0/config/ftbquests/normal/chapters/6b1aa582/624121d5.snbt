@@ -1,0 +1,19 @@
+{
+	title: "发电机先辈",
+	x: 1.5d,
+	y: -4.5d,
+	text: [
+		"在?你以为不用电就能用机器了?"
+	],
+	dependencies: [
+		"df1a60e0",
+		"6c9bd5b4"
+	],
+	tasks: [{
+		uid: "a4b3f1ca",
+		type: "item",
+		items: [{
+			item: "ic2:blockgenerator"
+		}]
+	}]
+}

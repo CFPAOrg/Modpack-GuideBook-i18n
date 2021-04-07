@@ -1,0 +1,28 @@
+{
+	title: "工业..啥?",
+	x: 0.0d,
+	y: 9.0d,
+	shape: "gear",
+	text: [
+		"工业元素合金!这是你发展过程中一个重要的里程碑!从炼金术到EIO再到奥尔夫海姆(植魔精灵门),工业元素合金被用于很多配方中,做一点吧."
+	],
+	dependencies: [
+		"8ae4bd78",
+		"05954352",
+		"bca785bc"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7b958622",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "be09e691",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 96"
+	}]
+}

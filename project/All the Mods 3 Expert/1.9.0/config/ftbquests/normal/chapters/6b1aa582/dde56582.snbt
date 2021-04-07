@@ -1,0 +1,40 @@
+{
+	title: "令 人 头 秃",
+	x: -1.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"一旦你的电源连上了RF或者EU,你可以做一个物流程序编辑器和一个物流磁盘.",
+		"",
+		"在这个表格里,如果你想更进一步的设置物流管道,可以解锁和编译需要的模块和零件."
+	],
+	dependencies: [
+		"a9346989"
+	],
+	tasks: [{
+		uid: "f8944728",
+		type: "item",
+		items: [{
+			item: "logisticspipes:program_compiler"
+		}]
+	},
+	{
+		uid: "97ce2f62",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "logisticspipes:disk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "18bcf44d",
+		type: "item",
+		items: [{
+			item: "logisticspipes:logistics_programmer"
+		}]
+	}]
+}

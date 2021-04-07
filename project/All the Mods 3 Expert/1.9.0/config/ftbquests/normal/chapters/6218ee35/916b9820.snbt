@@ -1,0 +1,33 @@
+{
+	title: "存储能量",
+	x: 4.0d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"实用拓展模组也提供了自身存储能量的方法,把电池盒放下,然后用电池右键,砰的一声,你就可以充电进去了.电池盒也可以在你的背包里为各种用电物品充电."
+	],
+	dependencies: [
+		"e44c0180"
+	],
+	tasks: [{
+		uid: "e2b91159",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_battery_box"
+		}]
+	},
+	{
+		uid: "c39e6da1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_battery",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

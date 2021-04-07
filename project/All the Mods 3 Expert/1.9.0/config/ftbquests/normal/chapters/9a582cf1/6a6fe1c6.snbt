@@ -1,0 +1,19 @@
+{
+	title: "通用机械 启动",
+	x: -5.0d,
+	y: 1.0d,
+	text: [
+		"不是吧阿sir?你都见多识广啦.怎么做你知道的."
+	],
+	dependencies: [
+		"d4408955"
+	],
+	tasks: [{
+		uid: "acf693df",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 8"
+		}],
+		count: 2L
+	}]
+}

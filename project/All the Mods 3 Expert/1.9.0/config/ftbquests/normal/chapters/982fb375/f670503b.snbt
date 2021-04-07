@@ -1,0 +1,17 @@
+{
+	title: "最后,一些闲话...",
+	x: -1.5d,
+	y: 7.0d,
+	shape: "diamond",
+	description: "这个园艺玻璃罩可以让你在一个方块中种植作物.不再需要耕地了.",
+	dependencies: [
+		"b820f97a"
+	],
+	tasks: [{
+		uid: "dfa8380a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 13"
+		}]
+	}]
+}

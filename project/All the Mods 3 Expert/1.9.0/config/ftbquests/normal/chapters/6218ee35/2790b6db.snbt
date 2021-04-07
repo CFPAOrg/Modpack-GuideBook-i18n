@@ -1,0 +1,19 @@
+{
+	title: "建议裱起来,当然我只是建议",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"展示台有两种用途.第一,它可以用作充能台的合成.第二,你可以把炫酷的东西放在上面,让你的朋友恰柠檬."
+	],
+	dependencies: [
+		"25343356"
+	],
+	tasks: [{
+		uid: "ccc8e603",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}],
+		count: 5L
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "最终核心",
+	x: -2.0d,
+	y: 9.5d,
+	text: [
+		"混沌守卫难以击败,但我相信你可以的.杀死一只,并获得这个核心的碎片.这也是ATM之星的一部分."
+	],
+	tasks: [{
+		uid: "8938e847",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaotic_core"
+		}]
+	}]
+}

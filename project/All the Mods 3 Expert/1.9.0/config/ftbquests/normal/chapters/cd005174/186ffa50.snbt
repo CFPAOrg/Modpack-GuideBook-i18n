@@ -1,0 +1,18 @@
+{
+	title: "太阳没咯",
+	x: 7.0d,
+	y: -2.0d,
+	shape: "square",
+	text: [
+		"由于破损了星光产生了不可预知的后果,太阳被你整没了:(真棒呢.环境科技的太阳能就不再工作了. "
+	],
+	dependencies: [
+		"727a37fb"
+	],
+	tasks: [{
+		uid: "1a62b1c9",
+		type: "checkmark",
+		title: "#对不起..对不起",
+		icon: "environmentaltech:solar_cont_1"
+	}]
+}

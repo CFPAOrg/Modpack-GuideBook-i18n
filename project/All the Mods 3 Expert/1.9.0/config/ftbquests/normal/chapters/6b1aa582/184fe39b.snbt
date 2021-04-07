@@ -1,0 +1,21 @@
+{
+	title: "小花也有大能量",
+	x: -7.5d,
+	y: -4.5d,
+	text: [
+		"花药台可以让你制作白雏菊,白雏菊可以将一些方块变为另一些方块."
+	],
+	dependencies: [
+		"2d6842c5"
+	],
+	tasks: [{
+		uid: "5c8bb6e5",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}]
+}

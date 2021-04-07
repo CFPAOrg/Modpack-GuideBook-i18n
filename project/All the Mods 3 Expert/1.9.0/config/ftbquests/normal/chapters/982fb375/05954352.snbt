@@ -1,0 +1,19 @@
+{
+	title: "星星的金属",
+	x: -4.5d,
+	y: 7.0d,
+	text: [
+		"星辉锭是星辉魔法中一个很重要的资源,它是由铁矿石通过星能转化而来. "
+	],
+	dependencies: [
+		"7de6ca3d"
+	],
+	tasks: [{
+		uid: "5b3f8a6f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 1"
+		}],
+		count: 16L
+	}]
+}

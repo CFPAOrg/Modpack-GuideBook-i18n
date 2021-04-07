@@ -1,0 +1,19 @@
+{
+	title: "EU类固醇",
+	x: -0.5d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		"随着化学加入了你的发展线后,你可以使用那些高级的发电机生产一些EU.你最好做一个MV端口."
+	],
+	dependencies: [
+		"45596053"
+	],
+	tasks: [{
+		uid: "bbcc6ec8",
+		type: "item",
+		items: [{
+			item: "advgenerators:eu_output_mv"
+		}]
+	}]
+}

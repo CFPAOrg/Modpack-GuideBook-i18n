@@ -1,0 +1,2 @@
+resourcePacks:["Minecraft-Mod-Language-Modpack.zip"]
+lang:zh_cn

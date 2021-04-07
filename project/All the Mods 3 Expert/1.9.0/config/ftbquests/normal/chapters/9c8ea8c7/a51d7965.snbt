@@ -1,0 +1,41 @@
+{
+	title: "化学工具",
+	x: 3.5d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		"这有一些额外的化学工具和机器,应该对你有所帮助."
+	],
+	dependencies: [
+		"77afc94b"
+	],
+	tasks: [{
+		uid: "2e498a71",
+		type: "item",
+		items: [{
+			item: "alchemistry:electrolyzer"
+		}]
+	},
+	{
+		uid: "bcc6a40b",
+		type: "item",
+		items: [{
+			item: "alchemistry:atomizer"
+		}]
+	},
+	{
+		uid: "8fdfe3de",
+		type: "item",
+		items: [{
+			item: "alchemistry:liquifier"
+		}]
+	},
+	{
+		uid: "3676c66d",
+		type: "item",
+		items: [{
+			item: "alchemistry:obsidian_breaker"
+		}],
+		consume_items: false
+	}]
+}

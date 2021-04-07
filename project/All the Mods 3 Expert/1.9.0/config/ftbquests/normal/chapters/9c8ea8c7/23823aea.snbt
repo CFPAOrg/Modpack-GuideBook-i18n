@@ -1,0 +1,34 @@
+{
+	title: "饥锇的男人",
+	x: -1.5d,
+	y: 6.0d,
+	shape: "gear",
+	text: [
+		"是时候做一块锇锭了!把大概两个锶或者其他相同原子序数之和的配方放到聚变仓然后通电启动!芜湖起飞!"
+	],
+	dependencies: [
+		"5aacafea"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ce9b6186",
+		type: "item",
+		title: "任何锇锭",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotOsmium",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "3fa76ba5",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 97"
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "浪漫的多方块",
+	x: -5.0d,
+	y: -6.5d,
+	text: [
+		"你需要沉浸工程的多方块机器来进行发展,而这些机器,都需要这个锤子来成型."
+	],
+	dependencies: [
+		"fda223c6",
+		"e73c6bc7"
+	],
+	tasks: [{
+		uid: "72a8f4b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}]
+}

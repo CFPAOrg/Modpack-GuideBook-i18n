@@ -1,0 +1,15 @@
+{
+	title: "龙之精华",
+	x: 5.0d,
+	y: 7.0d,
+	text: [
+		"用来合成ATM之星."
+	],
+	tasks: [{
+		uid: "1161894d",
+		type: "item",
+		items: [{
+			item: "atmtweaks:item_material 1 9"
+		}]
+	}]
+}

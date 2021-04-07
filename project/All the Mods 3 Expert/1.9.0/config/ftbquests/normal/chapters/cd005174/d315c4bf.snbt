@@ -1,0 +1,24 @@
+{
+	title: "组装机器",
+	x: 10.0d,
+	y: -3.5d,
+	shape: "diamond",
+	text: [
+		"这个工具可以帮助你组装环境科技中的机器."
+	],
+	dependencies: [
+		"727a37fb"
+	],
+	tasks: [{
+		uid: "1fbe1074",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "environmentaltech:tool_multiblock_assembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

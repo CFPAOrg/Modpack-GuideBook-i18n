@@ -1,0 +1,32 @@
+{
+	title: "结束了.",
+	x: 1.0d,
+	y: 6.5d,
+	shape: "heart",
+	text: [
+		"就这样,结束在望.将各个部分组装起来,以制作最终的ATM之星."
+	],
+	dependencies: [
+		"4b2bb109",
+		"852d7b4f",
+		"81e746b3",
+		"35ef184a",
+		"0a07d4f1",
+		"a8e8d6b0",
+		"49fa9d81",
+		"4d242119",
+		"c8a782c8"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "1d053f81",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atmtweaks:item_material"
+		}],
+		ignore_nbt: 1b
+	}]
+}

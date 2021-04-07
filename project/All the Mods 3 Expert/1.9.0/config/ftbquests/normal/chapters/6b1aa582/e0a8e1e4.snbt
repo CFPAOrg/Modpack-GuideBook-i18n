@@ -1,0 +1,23 @@
+{
+	title: "黑曜石破坏者",
+	x: -7.5d,
+	y: 1.5d,
+	text: [
+		"你可能已经注意到钻石很缺乏,但猪人非常喜欢这些东西,懂了吧. ",
+		"",
+		"为了前往地狱,你需要挖一些黑曜石,这个材料的镐头应该足够硬."
+	],
+	dependencies: [
+		"a9ff8da7"
+	],
+	tasks: [{
+		uid: "22637fb6",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "manasteel"
+			}
+		}]
+	}]
+}

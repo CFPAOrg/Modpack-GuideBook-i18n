@@ -1,0 +1,41 @@
+{
+	title: "地狱资源",
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		"地狱充满了很多资源.去挖一些吧."
+	],
+	dependencies: [
+		"714af203"
+	],
+	tasks: [{
+		uid: "16e40c4c",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}],
+		count: 16L
+	},
+	{
+		uid: "b171c82f",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 8L
+	},
+	{
+		uid: "dec6a5e4",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "02451ff1",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin 1 1"
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "嗜血狂魔",
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"现在是你钻研黑魔法的时候了!血魔法会满足你将自己的生命注入到石头中的渴望.",
+		"",
+		"血魔法本身自带一本指导书,来帮助新手血法师.魔法也是科学的."
+	],
+	dependencies: [
+		"c26a30ec"
+	],
+	tasks: [{
+		uid: "8b77c163",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	},
+	{
+		uid: "2f4523c1",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e0ee6c48",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

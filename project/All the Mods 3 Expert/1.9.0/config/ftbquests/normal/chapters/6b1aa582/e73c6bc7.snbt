@@ -1,0 +1,93 @@
+{
+	title: "最初的梦想",
+	x: -5.0d,
+	y: -9.0d,
+	text: [
+		"既然你已经拥有了一个功能齐全的冶炼炉,何不做一些基础的锭呢?铜,铁,锡,镍是你发展所需要的基础金属.",
+		"",
+		"记住,冶炼炉并不能双倍化矿物,并且你需要找到熔岩,加热器已经满足不了这个又大又黑的玩意了. "
+	],
+	dependencies: [
+		"297924cf"
+	],
+	tasks: [{
+		uid: "bf7d4af6",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay 1 5"
+		}]
+	},
+	{
+		uid: "7f87da1e",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom"
+		}]
+	},
+	{
+		uid: "0631d48f",
+		type: "item",
+		title: "Iron Ingot",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c70536f3",
+		type: "item",
+		title: "Copper Ingot",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	},
+	{
+		uid: "d017622c",
+		type: "item",
+		title: "Tin Ingot",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotTin",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	},
+	{
+		uid: "fc5cc7d3",
+		type: "item",
+		title: "Nickel Ingot",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotNickel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f7282c45",
+		type: "item",
+		team_reward: true,
+		item: "thermalfoundation:coin"
+	}]
+}

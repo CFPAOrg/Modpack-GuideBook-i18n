@@ -1,0 +1,50 @@
+{
+	title: "谁把焦炭放我煤上了?",
+	x: -1.0d,
+	y: -5.5d,
+	shape: "diamond",
+	text: [
+		"你可能已经发现了,这里没有像往常一样获取木炭的方法.",
+		"不过,你还是可以得到它.",
+		"",
+		"在林业坑洞中的原木桩可以燃烧成木炭,每堆原木桩都可以产出较高数量的木炭.只需要将木桩埋在坑里点火就可以了.",
+		"",
+		"只要烧制出了木炭,就可以用它掉落的灰烬对坑洞进行合成升级.更多有关的信息,请查看JEI中原木桩的用法.",
+		"",
+		"过一会你会需要大量的木炭的,收集这些东西需要花不少的时间,所以建设得越快越好."
+	],
+	dependencies: [
+		"743db6c6"
+	],
+	tasks: [{
+		uid: "6e8a68e0",
+		type: "item",
+		items: [{
+			item: "forestry:wood_pile"
+		}]
+	},
+	{
+		uid: "cc860d14",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}],
+		count: 10L
+	},
+	{
+		uid: "eccd8dbe",
+		type: "item",
+		title: "火源",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:flint_and_steel"
+		},
+		{
+			item: "minecraft:fire_charge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

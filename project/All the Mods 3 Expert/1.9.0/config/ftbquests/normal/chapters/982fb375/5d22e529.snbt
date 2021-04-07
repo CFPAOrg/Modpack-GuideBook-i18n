@@ -1,0 +1,27 @@
+{
+	title: "HOP石墨锭!",
+	x: 1.5d,
+	y: 5.5d,
+	text: [
+		"和炼钢一样,石墨锭的制作过程也很复杂,你需要很多沉浸工程的多方块机器,所以你最好清理出一片空地.",
+		"",
+		"注:目前在工业挤压机里有一个错误的配方,它显示你需要8个焦煤粉,但不会给你任何额外奖励,它只会给你一个石墨粉."
+	],
+	dependencies: [
+		"df956b20"
+	],
+	tasks: [{
+		uid: "fb8d400d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 18"
+		}]
+	},
+	{
+		uid: "0c21ab15",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 19"
+		}]
+	}]
+}

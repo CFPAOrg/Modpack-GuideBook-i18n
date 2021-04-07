@@ -1,0 +1,22 @@
+{
+	title: "宰相肚里能撑船",
+	x: 2.0d,
+	y: -2.0d,
+	shape: "diamond",
+	text: [
+		"你有没有满地都摆了箱子来存储物品?",
+		"你有没有找一个东西找到吐?",
+		"",
+		"哇呜,你的运气可真好!有了存储检测器,你不再需要到处找东西,甚至你还可以在里面制作物品!"
+	],
+	dependencies: [
+		"d370806c"
+	],
+	tasks: [{
+		uid: "276a4903",
+		type: "item",
+		items: [{
+			item: "rftools:storage_scanner"
+		}]
+	}]
+}

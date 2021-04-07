@@ -1,0 +1,45 @@
+{
+	title: "肩上的行囊",
+	x: 0.0d,
+	y: -6.5d,
+	shape: "diamond",
+	text: [
+		"如果你发现在冒险过程中,你的背包空间不足?那么我建议你做一个心仪的背包吧!",
+		"",
+		"你可以通过升级背包来获得更大的物品空间.它还支持auto-collect.",
+		"",
+		"背包的物品空间是可以通过附魔书进一步增加的.如果幸运的话你还可以在附魔台上或者是地牢里找到附魔书来附魔."
+	],
+	dependencies: [
+		"743db6c6"
+	],
+	tasks: [{
+		uid: "e795872c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0bdc7bba",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 100s
+		}
+	}]
+}

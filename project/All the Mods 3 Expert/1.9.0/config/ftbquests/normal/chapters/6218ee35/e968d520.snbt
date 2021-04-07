@@ -1,0 +1,104 @@
+{
+	title: "奥术魔法师的超级武器",
+	x: -4.0d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"既然你已经掌握了注魔技术,那么你可以制作一些所有奥术魔法师都喜欢的工具吗?"
+	],
+	dependencies: [
+		"e38c58e2"
+	],
+	tasks: [{
+		uid: "0d23fd9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:elemental_sword",
+			tag: {
+				infench: [{
+					lvl: 2s,
+					id: 5s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2b7b4a55",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:elemental_axe",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 2s
+				},
+				{
+					lvl: 1s,
+					id: 0s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8fbb8ca3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:elemental_shovel",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 1s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "40d3c836",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:elemental_pick",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 4s
+				},
+				{
+					lvl: 2s,
+					id: 3s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "47c17101",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:elemental_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
