@@ -32,7 +32,7 @@ static renameMap as string[IItemStack] = {
 	//Chisel & Bits
 	<chiselsandbits:chisel_iron:0>: "微型凿子",
 	
-	<extraplanets:apple_iron:0>: "旅行地图令牌"
+	<extraplanets:apple_iron:0>: "旅行地图令牌",
 	
 	//Fixing Localization
 	<primal:wolf_head_item>: "狼头"
