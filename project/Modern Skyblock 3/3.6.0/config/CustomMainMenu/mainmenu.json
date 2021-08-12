@@ -1,0 +1,259 @@
+/*Please note styling like this is only for leaving notes and making things easier to find.
+        sincerely Battery3996 (Team Rapture Head Artist)
+        `editing done in Visual Studio Code`*/
+{
+    /* Main image of the pack*/
+    "images": {
+        "title": {
+            "image": "modpack:logo/logonew.png",
+            "posX": -125,
+            "posY": -130,
+            "width": 256,
+            "height": 128,
+            "imageWidth": 1920,
+            "imageHeight": 1080,
+            "alignment": "center"
+        }
+    },
+
+    /* Buttons used to get around the menus*/
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text": "\u5355\u4eba\u6e38\u620f",
+            "normalTextColor": 16777215,
+            "hoverTextColor": -1,
+            "texture": "modpack:buttons/newbs.png",
+            "posX": -78,
+            "posY": -20,
+            "width":156,
+            "height":20,
+            "imageWidth":312,
+            "imageHeight":40,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text": "\u591a\u4eba\u6e38\u620f",
+            "normalTextColor": 16777215,
+            "hoverTextColor": -1,
+            "texture": "modpack:buttons/newbs.png",
+            "posX": -78,
+            "posY": 2,
+            "width":156,
+            "height":20,
+            "imageWidth":312,
+            "imageHeight":40,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"multiplayer"
+            }
+        },
+
+        "mods":
+        {
+            "text": "Mods",
+            "normalTextColor": 16777215,
+            "hoverTextColor": -1,
+            "texture": "modpack:buttons/newbs.png",
+            "posX": -78,
+            "posY": 24,
+            "width":156,
+            "height":20,
+            "imageWidth":312,
+            "imageHeight":40,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"mods"
+            }
+        },
+
+        "quit":
+        {
+            "text": "\u9000\u51fa\u6e38\u620f",
+            "normalTextColor": 16777215,
+            "hoverTextColor": -1,
+            "texture": "modpack:buttons/newbs.png",
+            "posX": -78,
+            "posY": 46,
+            "width":156,
+            "height":20,
+            "imageWidth":312,
+            "imageHeight":40,
+            "alignment":"center",
+            "action":{
+                "type":"quit"
+            }
+        },
+
+        "options":
+        {
+            "text": "",
+            "normalTextColor": 6081343,
+            "hoverTextColor": -1,
+            "tooltip": "\u8bbe\u7f6e",
+            "texture": "modpack:buttons/settings.png",
+            "posX" : -52,
+            "posY" : 68,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth": 300,
+            "imageHeight": 300,
+            "alignment": "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "language": {
+            "text": "",
+            "normalTextColor": 6081343,
+            "hoverTextColor": -1,
+            "tooltip": "\u8bed\u8a00",
+            "texture": "modpack:buttons/lang.png",
+            "posX" : -24,
+            "posY" : 68,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "center",
+            "imageWidth": "300",
+            "imageHeight": "300",
+            "action" :{
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+        "discord": {
+            "text": "",
+            "normalTextColor": 6081343,
+            "hoverTextColor": -1,
+            "tooltip": "\u70b9\u51fb\u52a0\u5165\u6211\u4eec\u7684 Discord",
+            "texture": "modpack:buttons/discord.png",
+            "posX" : 4,
+            "posY" : 68,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "center",
+            "imageWidth": "300",
+            "imageHeight": "300",
+            "action" : {
+                "type" : "openLink",
+                "link" : "https://discord.gg/3yHZvHk"
+            }
+        },
+
+        "Bug Report": {
+            "text": "",
+            "normalTextColor": -1,
+            "hoverTextColor": -1,
+            "tooltip": "\u62a5\u544a\u9519\u8bef",
+            "texture": "modpack:buttons/bug.png",
+            "posX" : 32,
+            "posY" : 68,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "center",
+            "imageWidth": "300",
+            "imageHeight": "300",
+            "action" : {
+                "type" : "openLink",
+                "link" : "https://github.com/EmosewaGamer/Modern-Skyblock-3/issues"
+            }
+        },
+        
+        /* refresh Not really need but wont work unless its there. Image is a 1x1 pixel image. If you need to refresh the mainmenu do ` ctrl+r `*/
+
+        "refresh": {
+            "text": "",
+            "posX": -154,
+            "posY": 132,
+            "width": 0,
+            "height": 0,
+            "texture": "modpack:buttons/refresh.png",
+            "action": {
+                "type": "refresh"
+            }
+        }
+    },
+    
+        /* These options are used for miscellaneous things. example: splash text, Mainmenu bg, or extra texts */
+
+    "labels":
+    {
+        "mojang":{
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -125,
+            "posY" : -10,
+            "fontSize": .6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment" : "bottom_right"
+        },
+        "forge": {
+            "text": "Minecraft #forgeversion#-#mcversion#",
+            "posX": 3,
+            "posY": -16,
+            "fontSize": .6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment": "bottom_left"
+        },
+        "modsloaded": {
+            "text": "#modsactive#/#modsloaded# Mods Loaded",
+            "posX": 3,
+            "posY": -10,
+            "fontSize": .6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment": "bottom_left"
+        },
+        "modpack": {
+            "text": "Modern Skyblock 3: Departed 3.6.0",
+            "posX": 3,
+            "posY": -22,
+            "fontSize": .6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment": "bottom_left"
+        },
+        "Welcome": {
+            "text": "Welcome #username#",
+            "posX": 3,
+            "posY": -28,
+            "fontSize": .6,
+            "color": -1,
+            "hoverColor": -1,
+            "alignment": "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text": {
+            "posX": 80,
+            "posY": -51,
+            "color": -256,
+            "alignment": "center",
+            "texts": "file:modpack:Logo/splash.txt"
+        },
+
+
+        "background":{
+            "image":"modpack:title/bgsky.jpg",
+            "mode":"fill"
+        }
+    }
+}
+
