@@ -1,0 +1,462 @@
+{
+	id: "210C824739F46888",
+	group: "",
+	order_index: 11,
+	filename: "extended_crafting",
+	title: "为了逝去的资源，我们都要竭尽全力",
+	icon: "extendedcrafting:ultimate_singularity",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 3.0d,
+			y: -0.5d,
+			shape: "diamond",
+			size: 1.3d,
+			id: "244B3D999DB6141C",
+			tasks: [{
+				id: "194DED2EF3D61014",
+				type: "item",
+				item: {
+					id: "botania:mana_tablet",
+					Count: 1b,
+					tag: {
+						mana: 500000,
+						creative: 1b
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -0.5d,
+			shape: "diamond",
+			size: 1.4d,
+			id: "0A28449BDB5A0AC3",
+			tasks: [{
+				id: "40020021352D68D5",
+				type: "item",
+				item: "botania:creative_pool"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -1.0d,
+			id: "0B0308FD3F995983",
+			tasks: [{
+				id: "7DB4AF487AE2CB91",
+				type: "item",
+				item: "extendedcrafting:ender_crafter"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -1.5d,
+			id: "15EADEBA9E72C0F8",
+			tasks: [{
+				id: "1023A0AAE3A777DE",
+				type: "item",
+				item: "extendedcrafting:ender_alternator"
+			}]
+		},
+		{
+			x: -3.2500000000000004d,
+			y: -6.500000000000001d,
+			shape: "gear",
+			size: 1.5d,
+			id: "01924CC016C6E79B",
+			tasks: [{
+				id: "7EDF2A03B5E3E380",
+				type: "item",
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -4.0d,
+			id: "47B785D999B3A992",
+			tasks: [{
+				id: "57863FBFD67248FD",
+				type: "item",
+				item: "extendedcrafting:basic_component"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -4.5d,
+			id: "6EB375053C820BBA",
+			tasks: [{
+				id: "1EDDB4939E402CC8",
+				type: "item",
+				item: "extendedcrafting:basic_catalyst"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -3.0d,
+			id: "773784C7F1EFBCCA",
+			tasks: [{
+				id: "598C2D72DFF32CF4",
+				type: "item",
+				item: "extendedcrafting:advanced_component"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -3.5d,
+			id: "69C83254CD5AE040",
+			tasks: [{
+				id: "0130A3C909814255",
+				type: "item",
+				item: "extendedcrafting:advanced_catalyst"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -2.0d,
+			id: "7AB7C99AB277E3F3",
+			tasks: [{
+				id: "5CCFCEE0418EE87E",
+				type: "item",
+				item: "extendedcrafting:elite_component"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -1.0d,
+			id: "442FDFD1206C54FF",
+			tasks: [{
+				id: "71D62E12B1093A21",
+				type: "item",
+				item: "extendedcrafting:ultimate_component"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 0.0d,
+			id: "56A9FBF0970E45F2",
+			tasks: [{
+				id: "62DC5765CD1E0961",
+				type: "item",
+				item: "extendedcrafting:redstone_component"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -1.5d,
+			id: "000000000000023F",
+			tasks: [{
+				id: "0000000000000240",
+				type: "item",
+				item: "extendedcrafting:ultimate_catalyst"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 1.0d,
+			id: "0000000000000241",
+			tasks: [{
+				id: "0000000000000242",
+				type: "item",
+				item: "extendedcrafting:ender_component"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 2.0d,
+			id: "0000000000000243",
+			tasks: [{
+				id: "0000000000000244",
+				type: "item",
+				item: "extendedcrafting:enhanced_ender_component"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 3.0d,
+			id: "0000000000000245",
+			tasks: [{
+				id: "0000000000000246",
+				type: "item",
+				item: "extendedcrafting:crystaltine_component"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 4.0d,
+			id: "0000000000000247",
+			tasks: [{
+				id: "0000000000000248",
+				type: "item",
+				item: "extendedcrafting:the_ultimate_component"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 3.5d,
+			id: "0000000000000249",
+			tasks: [{
+				id: "000000000000024A",
+				type: "item",
+				item: "extendedcrafting:the_ultimate_catalyst"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 2.5d,
+			id: "000000000000024B",
+			tasks: [{
+				id: "000000000000024C",
+				type: "item",
+				item: "extendedcrafting:crystaltine_catalyst"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 1.5d,
+			id: "000000000000024D",
+			tasks: [{
+				id: "000000000000024E",
+				type: "item",
+				item: "extendedcrafting:enhanced_ender_catalyst"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 0.5d,
+			id: "000000000000024F",
+			tasks: [{
+				id: "0000000000000250",
+				type: "item",
+				item: "extendedcrafting:ender_catalyst"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -2.5d,
+			id: "0000000000000251",
+			tasks: [{
+				id: "0000000000000252",
+				type: "item",
+				item: "extendedcrafting:elite_catalyst"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -0.5d,
+			id: "0000000000000253",
+			tasks: [{
+				id: "0000000000000254",
+				type: "item",
+				item: "extendedcrafting:redstone_catalyst"
+			}]
+		},
+		{
+			x: -1.2d,
+			y: -3.5999999999999996d,
+			shape: "hexagon",
+			size: 1.2d,
+			id: "0000000000000255",
+			tasks: [{
+				id: "0000000000000256",
+				type: "item",
+				item: "extendedcrafting:basic_table"
+			}]
+		},
+		{
+			x: -1.2d,
+			y: -2.4d,
+			shape: "hexagon",
+			size: 1.2d,
+			id: "0000000000000257",
+			tasks: [{
+				id: "0000000000000258",
+				type: "item",
+				item: "extendedcrafting:advanced_table"
+			}]
+		},
+		{
+			x: -1.2d,
+			y: -1.2d,
+			shape: "hexagon",
+			size: 1.2d,
+			id: "0000000000000259",
+			tasks: [{
+				id: "000000000000025A",
+				type: "item",
+				item: "extendedcrafting:elite_table"
+			}]
+		},
+		{
+			x: -1.2d,
+			y: 0.0d,
+			shape: "hexagon",
+			size: 1.2d,
+			id: "000000000000025B",
+			tasks: [{
+				id: "000000000000025C",
+				type: "item",
+				item: "extendedcrafting:ultimate_table"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -3.0d,
+			id: "000000000000025D",
+			tasks: [{
+				id: "000000000000025E",
+				type: "item",
+				item: "extendedcrafting:basic_auto_table"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -2.0d,
+			id: "000000000000025F",
+			tasks: [{
+				id: "0000000000000260",
+				type: "item",
+				item: "extendedcrafting:advanced_auto_table"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -1.0d,
+			id: "0000000000000261",
+			tasks: [{
+				id: "0000000000000262",
+				type: "item",
+				item: "extendedcrafting:elite_auto_table"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 0.0d,
+			id: "0000000000000263",
+			tasks: [{
+				id: "0000000000000264",
+				type: "item",
+				item: "extendedcrafting:ultimate_auto_table"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 2.5d,
+			shape: "diamond",
+			size: 1.4d,
+			id: "0000000000000265",
+			tasks: [{
+				id: "0000000000000266",
+				type: "item",
+				item: "mekanism:creative_fluid_tank"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 2.5d,
+			shape: "diamond",
+			size: 1.4d,
+			id: "0000000000000267",
+			tasks: [{
+				id: "0000000000000268",
+				type: "item",
+				item: "refinedstorage:creative_storage_disk"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -0.5d,
+			shape: "diamond",
+			size: 1.4d,
+			id: "0000000000000269",
+			tasks: [{
+				id: "000000000000026A",
+				type: "item",
+				item: "appliedenergistics2:creative_energy_cell"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.0d,
+			shape: "diamond",
+			size: 1.4d,
+			id: "000000000000026B",
+			tasks: [{
+				id: "000000000000026C",
+				type: "item",
+				item: "mekanism:creative_chemical_tank"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.0d,
+			shape: "diamond",
+			size: 1.4d,
+			id: "000000000000026D",
+			tasks: [{
+				id: "000000000000026E",
+				type: "item",
+				item: "powah:energy_cell_creative"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 1.0d,
+			shape: "diamond",
+			size: 1.4d,
+			id: "000000000000026F",
+			tasks: [{
+				id: "0000000000000270",
+				type: "item",
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -3.5d,
+			id: "0000000000000271",
+			tasks: [{
+				id: "0000000000000272",
+				type: "item",
+				item: "extendedcrafting:crafting_core"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -4.0d,
+			id: "0000000000000273",
+			tasks: [{
+				id: "0000000000000274",
+				type: "item",
+				item: "extendedcrafting:pedestal",
+				count: 13L
+			}]
+		},
+		{
+			icon: "refinedpipes:ultimate_extractor_attachment",
+			x: -8.0d,
+			y: -4.5d,
+			subtitle: "You Will Need The Whitelist To Automate Crafting Core Craftings. You Can Use These.",
+			id: "0000000000000275",
+			tasks: [
+				{
+					id: "0000000000000276",
+					type: "item",
+					item: "refinedpipes:ultimate_extractor_attachment",
+					count: 4L
+				},
+				{
+					id: "0000000000000277",
+					type: "item",
+					item: "refinedpipes:advanced_item_pipe",
+					count: 18L
+				}
+			],
+			rewards: [{
+				id: "0000000000000278",
+				type: "item",
+				item: "refinedpipes:ultimate_extractor_attachment",
+				count: 4
+			}]
+		}
+	]
+}

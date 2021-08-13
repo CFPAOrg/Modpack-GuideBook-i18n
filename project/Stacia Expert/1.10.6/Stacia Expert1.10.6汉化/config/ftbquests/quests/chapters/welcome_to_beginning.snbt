@@ -1,0 +1,700 @@
+{
+	id: "0000000000000394",
+	group: "",
+	order_index: 0,
+	filename: "welcome_to_beginning",
+	title: "全新的世界！！！",
+	icon: {
+		id: "minecraft:fire_coral",
+		Count: 3b
+	},
+	default_quest_shape: "circle",
+	quests: [
+		{
+			title: "欢迎游玩",
+			icon: "minecraft:oak_log",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "hexagon",
+			description: [
+				"&a这是这个包的第一个任务！",
+				"",
+				"我&a非常激动&f。你应该知道，第一个任务通常都很重要。",
+				"",
+				"",
+				"这是你迈向&d新世界&f的第一步！",
+				"",
+				"到这，我会骄傲地说：",
+				"欢迎来到&aStacia Expert！"
+			],
+			hide_dependency_lines: false,
+			size: 1.1d,
+			id: "0000000000000395",
+			tasks: [{
+				id: "0000000000000396",
+				type: "item",
+				title: "Any minecraft:logs",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:logs"
+					}
+				},
+				count: 32L
+			}],
+			rewards: [{
+				id: "0000000000000397",
+				type: "item",
+				item: "minecraft:oak_planks",
+				count: 48
+			}]
+		},
+		{
+			tags: ["aaaa"],
+			x: 2.2d,
+			y: 0.55d,
+			subtitle: "这玩意对我们有着特殊的意义。",
+			description: ["这个东西是专门用来纪念SwapSkipS的。"],
+			hide_dependency_lines: false,
+			dependencies: ["0000000000000395"],
+			size: 1.1d,
+			id: "0000000000000398",
+			tasks: [{
+				id: "0000000000000399",
+				type: "item",
+				item: "minecraft:crafting_table"
+			}],
+			rewards: [{
+				id: "000000000000039A",
+				type: "item",
+				item: "extendedcrafting:handheld_table"
+			}]
+		},
+		{
+			title: "收下吧！",
+			x: 4.0d,
+			y: -1.0d,
+			subtitle: "让我稍微帮你一下",
+			description: [
+				"&a你可以借助Ore Excavation来同时破坏&a多个相同相邻的方块。",
+				"",
+				"&a按下“C”键使用OreExcavation。（能够在设置中修改。）",
+				"",
+				"&a按下“V”键来改变连锁的形状。",
+				"",
+				"&6你也可以设置快捷键打开任务书。"
+			],
+			dependencies: ["0000000000000398"],
+			id: "000000000000039B",
+			tasks: [{
+				id: "000000000000039C",
+				type: "checkmark",
+				title: "Ore Excavation"
+			}],
+			rewards: [{
+				id: "000000000000039D",
+				type: "item",
+				item: "pamhc2foodcore:hotdogitem",
+				count: 4
+			}]
+		},
+		{
+			title: "板条箱！",
+			icon: "quantumstorage:chestdiamond",
+			x: 3.5d,
+			y: -3.0d,
+			shape: "diamond",
+			subtitle: "早期物品存储方式！",
+			description: ["&a提示：&f当你破坏QuantumStorage模组的板条箱时，其中的物品会保留在板条箱内。"],
+			dependencies: ["000000000000039B"],
+			dependency_requirement: "one_completed",
+			id: "000000000000039E",
+			tasks: [
+				{
+					id: "000000000000039F",
+					type: "item",
+					item: "cyclic:crate"
+				},
+				{
+					id: "00000000000003A0",
+					type: "item",
+					item: "quantumstorage:chestdiamond"
+				},
+				{
+					id: "00000000000003A1",
+					type: "item",
+					item: "ironchest:diamond_chest"
+				}
+			],
+			rewards: [{
+				id: "00000000000003A2",
+				type: "item",
+				item: "minecraft:item_frame",
+				count: 8
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.5d,
+			shape: "diamond",
+			subtitle: "更先进的/Dank/Null",
+			description: [
+				"你可以扔掉不需要的物品。跟Dank Null一样。",
+				"",
+				"&a你可以按“左ALT”键切换背包和建造模式。（能在设置中更改。）"
+			],
+			dependencies: ["000000000000039B"],
+			id: "00000000000003A3",
+			tasks: [{
+				id: "00000000000003A4",
+				type: "item",
+				item: "dankstorage:dank_2"
+			}],
+			rewards: [{
+				id: "00000000000003A5",
+				type: "item",
+				item: {
+					id: "usefulbackpacks:backpack_small",
+					Count: 1b,
+					tag: {
+						display: {
+							color: 3949738
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 0.5d,
+			shape: "hexagon",
+			subtitle: "&a第一个机器框架！",
+			description: ["这位仁兄可以帮你制作第一台机器。"],
+			dependencies: ["000000000000039B"],
+			id: "00000000000003A6",
+			tasks: [{
+				id: "00000000000003A7",
+				type: "item",
+				item: "silents_mechanisms:stone_machine_frame"
+			}],
+			rewards: [{
+				id: "00000000000003A8",
+				type: "item",
+				item: "silents_mechanisms:stone_machine_frame"
+			}]
+		},
+		{
+			icon: "silents_mechanisms:basic_alloy_smelter",
+			x: 6.5d,
+			y: 0.5d,
+			shape: "hexagon",
+			description: ["&6基础合金炉：&f你可以将两种金属混合起来得到新的金属。"],
+			dependencies: ["00000000000003A6"],
+			id: "00000000000003A9",
+			tasks: [{
+				id: "00000000000003AA",
+				type: "item",
+				item: "silents_mechanisms:basic_alloy_smelter"
+			}],
+			rewards: [{
+				id: "743FB4F2039AF24E",
+				type: "item",
+				item: "thermal:bronze_ingot",
+				count: 8
+			}]
+		},
+		{
+			title: "早期存储系统",
+			x: 7.5d,
+			y: -2.5d,
+			shape: "pentagon",
+			subtitle: "就像Refined Storage... 但用的是镭射！",
+			dependencies: ["1B1F2DD775FF6432"],
+			id: "5CDEB4D2CF3C4E30",
+			tasks: [{
+				id: "5DEB2A2A8EF7C80C",
+				type: "item",
+				item: "logisticslasers:controller"
+			}]
+		},
+		{
+			x: 7.8d,
+			y: -0.6d,
+			shape: "octagon",
+			subtitle: "&a机器框架 Lv2！",
+			description: [
+				"这位仁兄可以帮你制作更多高级机器。",
+				"",
+				"&6提示：&f如果任务还不能完成，请先完成钢锭任务。"
+			],
+			dependencies: [
+				"3601DF8059A8F3F0",
+				"00000000000003A9"
+			],
+			size: 1.3d,
+			id: "1B1F2DD775FF6432",
+			tasks: [{
+				id: "70D49D79697EF5AC",
+				type: "item",
+				item: "silents_mechanisms:alloy_machine_frame"
+			}],
+			rewards: [{
+				id: "1BF0ECFEF2032BD8",
+				type: "item",
+				item: "silents_mechanisms:redstone_alloy_ingot",
+				count: 4
+			}]
+		},
+		{
+			icon: "silents_mechanisms:basic_crusher",
+			x: 6.0d,
+			y: -0.5d,
+			shape: "hexagon",
+			description: [
+				"&a基础粉碎机：&f你现在可以双倍矿物了。你可以用速度升级给你的机器加加速。",
+				"",
+				"&6燃煤发电机：&f产能效率：40 FE/t."
+			],
+			dependencies: ["00000000000003A6"],
+			id: "3601DF8059A8F3F0",
+			tasks: [
+				{
+					id: "3EEDB1966653B720",
+					type: "item",
+					item: "silents_mechanisms:basic_crusher"
+				},
+				{
+					id: "0EA853AC6A5C10CE",
+					type: "item",
+					item: "silents_mechanisms:coal_generator"
+				}
+			],
+			rewards: [{
+				id: "3D9ACF4495D42297",
+				type: "item",
+				item: "pamhc2foodextended:tacoitem",
+				count: 2
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -1.0d,
+			shape: "diamond",
+			description: ["&6电炉：&f你可以用RF烧制所有能烧的东西。"],
+			dependencies: ["1B1F2DD775FF6432"],
+			id: "228C4B343C41E169",
+			tasks: [{
+				id: "01FDB1DE7783BCD1",
+				type: "item",
+				item: "silents_mechanisms:electric_furnace"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -0.5d,
+			shape: "diamond",
+			description: [
+				"&6压缩机：&f你可以用它制作板材。",
+				"",
+				"&a提示：&f它也可以被加加速。"
+			],
+			dependencies: ["1B1F2DD775FF6432"],
+			id: "4B6D4495605DDF95",
+			tasks: [{
+				id: "0A082EBF99EE2552",
+				type: "item",
+				item: "silents_mechanisms:compressor"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 0.0d,
+			shape: "diamond",
+			description: ["&6粉碎机：&f你可以给它安装加速升级来让它更快！"],
+			dependencies: ["1B1F2DD775FF6432"],
+			id: "7773DEEE5ED3937F",
+			tasks: [{
+				id: "00000000000003BA",
+				type: "item",
+				item: "silents_mechanisms:crusher"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -2.0d,
+			shape: "hexagon",
+			dependencies: ["5CDEB4D2CF3C4E30"],
+			id: "2EE7ED0EDE71FD2A",
+			tasks: [{
+				id: "7820626EB518FBE9",
+				type: "item",
+				item: "logisticslasers:wrench"
+			}]
+		},
+		{
+			icon: "logisticslasers:card_stocker",
+			x: 7.0d,
+			y: -3.5d,
+			shape: "hexagon",
+			dependencies: ["5CDEB4D2CF3C4E30"],
+			id: "19A48EF1C6371033",
+			tasks: [{
+				id: "6E017DA5295487EF",
+				type: "item",
+				item: "logisticslasers:card_stocker"
+			}]
+		},
+		{
+			icon: "logisticslasers:routing_logic_module",
+			x: 8.0d,
+			y: -3.5d,
+			shape: "hexagon",
+			dependencies: ["5CDEB4D2CF3C4E30"],
+			id: "347830458C6B1B8F",
+			tasks: [
+				{
+					id: "5A735FCD676C9ED8",
+					type: "item",
+					item: "logisticslasers:card_extractor"
+				},
+				{
+					id: "2CF54A5E3DBE0ED4",
+					type: "item",
+					item: "logisticslasers:card_inserter"
+				},
+				{
+					id: "56353A5701836B7B",
+					type: "item",
+					item: "logisticslasers:card_polymorph"
+				},
+				{
+					id: "4F1E7E607D396052",
+					type: "item",
+					item: "logisticslasers:card_provider"
+				},
+				{
+					id: "00000000000003C4",
+					type: "item",
+					item: "logisticslasers:routing_logic_module"
+				}
+			],
+			rewards: [{
+				id: "00000000000003C5",
+				type: "item",
+				item: "pamhc2foodcore:pumpkinbreaditem",
+				count: 5
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -4.5d,
+			shape: "hexagon",
+			dependencies: [
+				"19A48EF1C6371033",
+				"347830458C6B1B8F"
+			],
+			size: 1.1d,
+			id: "666F5C881E7AFD8D",
+			tasks: [{
+				id: "7490685BC72CE817",
+				type: "item",
+				item: "logisticslasers:crafting_station"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -2.0d,
+			shape: "hexagon",
+			dependencies: ["5CDEB4D2CF3C4E30"],
+			id: "011625F933D3A283",
+			tasks: [{
+				id: "706DCBFAF6CD9D18",
+				type: "item",
+				item: "logisticslasers:inventorynode"
+			}]
+		},
+		{
+			title: "眼里闪着泪光",
+			icon: "mekanism:steel_casing",
+			x: 12.0d,
+			y: -0.75d,
+			shape: "octagon",
+			subtitle: "&6第一季第8集",
+			description: [
+				"&6“那”是唯一的选择吗？",
+				"",
+				"&6但。。。",
+				"",
+				"你完成了第一章节。现在，你可以前往Mekanism章节了。恭喜！",
+				"",
+				"这儿什么都没有。。。"
+			],
+			dependencies: [
+				"7773DEEE5ED3937F",
+				"228C4B343C41E169",
+				"4B6D4495605DDF95"
+			],
+			size: 1.2d,
+			id: "2D37B5BE446FA725",
+			tasks: [{
+				id: "069FB46F34C63665",
+				type: "checkmark",
+				icon: "mekanism:steel_casing"
+			}],
+			rewards: [{
+				id: "592B32C12AD79586",
+				type: "item",
+				item: "pamhc2foodcore:chocolatedonutitem",
+				count: 4
+			}]
+		},
+		{
+			icon: "refinedpipes:basic_energy_pipe",
+			x: 4.05d,
+			y: 1.3499999999999999d,
+			shape: "diamond",
+			subtitle: "早期运输！",
+			dependencies: ["00000000000003A6"],
+			size: 0.9d,
+			id: "0C2527C7A6218A43",
+			tasks: [
+				{
+					id: "0C22E6C79860CE00",
+					type: "item",
+					item: "refinedpipes:basic_item_pipe"
+				},
+				{
+					id: "7187EA13180FA106",
+					type: "item",
+					item: "refinedpipes:basic_fluid_pipe"
+				},
+				{
+					id: "1D002CBDD23D9E9D",
+					type: "item",
+					item: "refinedpipes:basic_energy_pipe"
+				},
+				{
+					id: "58D1793B05B4F2CE",
+					type: "item",
+					item: "refinedpipes:basic_extractor_attachment"
+				}
+			],
+			rewards: [{
+				id: "544DEE1C70126245",
+				type: "item",
+				item: "pamhc2foodcore:basiccheeseburgeritem",
+				count: 4
+			}]
+		},
+		{
+			icon: "xnet:controller",
+			x: 4.5d,
+			y: 1.7999999999999998d,
+			shape: "diamond",
+			subtitle: "&aXnet电缆: &f可以在一个方块里做很多事情，就像Ender IO的导管。",
+			dependencies: ["00000000000003A6"],
+			size: 0.9d,
+			id: "0903F3D20C6A9F51",
+			tasks: [
+				{
+					id: "175D2603FAB47BA6",
+					type: "item",
+					item: "xnet:controller"
+				},
+				{
+					id: "0876F8AF7108E40F",
+					type: "item",
+					item: "xnet:netcable_blue",
+					count: 16L
+				},
+				{
+					id: "195F05E2D5796D1F",
+					type: "item",
+					item: "xnet:connector_blue"
+				}
+			],
+			rewards: [{
+				id: "471341B282293F2F",
+				type: "item",
+				item: "xnet:connector_blue",
+				count: 3
+			}]
+		},
+		{
+			icon: {
+				id: "tconstruct:earth_slime_sling",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 4.0d,
+			y: -2.5d,
+			shape: "diamond",
+			subtitle: "&a你可以用它快速跑图。",
+			description: [
+				"&a史莱姆球有替代的合成表。请看&aJEI。",
+				"",
+				"你可以使用指路石在各地传送。"
+			],
+			dependencies: ["000000000000039B"],
+			id: "78D60530D40B81F5",
+			tasks: [
+				{
+					id: "69AB803EFC1712F7",
+					type: "item",
+					item: "tconstruct:earth_slime_boots"
+				},
+				{
+					id: "741E2F86F9F41BEC",
+					type: "item",
+					item: {
+						id: "tconstruct:earth_slime_sling",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 1.3499999999999999d,
+			y: -0.44999999999999996d,
+			shape: "hexagon",
+			description: [
+				"&d阿迪特，我们会想你的。",
+				"",
+				"“为了这一刻，我等了一辈子。”",
+				"",
+				"&a-Maria"
+			],
+			dependencies: ["0000000000000398"],
+			size: 0.9d,
+			id: "23BA5056E1BB9A61",
+			tasks: [
+				{
+					id: "01F43100CC82BAC7",
+					type: "item",
+					item: "tconstruct:crafting_station"
+				},
+				{
+					id: "79E369E264A4BAD1",
+					type: "item",
+					item: {
+						id: "tconstruct:tinker_station",
+						Count: 1b,
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				},
+				{
+					id: "606F98F5A962402A",
+					type: "item",
+					item: {
+						id: "tconstruct:part_builder",
+						Count: 1b,
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "4F557B99D6DBBF31",
+				type: "item",
+				item: "tconstruct:pattern",
+				count: 8
+			}]
+		},
+		{
+			x: 7.6499999999999995d,
+			y: 0.8999999999999999d,
+			shape: "diamond",
+			description: ["&6Solar Panel I: &f产能效率：1 FE/t"],
+			dependencies: ["00000000000003A9"],
+			size: 0.9d,
+			id: "6483F7CCF3BCF4C7",
+			tasks: [{
+				id: "4B7AA9803D980F17",
+				type: "item",
+				item: "solarflux:sp_1"
+			}]
+		},
+		{
+			x: 7.199999999999999d,
+			y: 1.3499999999999999d,
+			shape: "diamond",
+			description: ["&6Solar Panel II: &f产能效率：8 FE/t"],
+			dependencies: ["6483F7CCF3BCF4C7"],
+			size: 0.9d,
+			id: "3B73865D853A728C",
+			tasks: [{
+				id: "58E72A15F4EB35F7",
+				type: "item",
+				item: "solarflux:sp_2"
+			}]
+		},
+		{
+			x: 8.1d,
+			y: 1.3499999999999999d,
+			shape: "diamond",
+			description: ["&6Solar Panel III: &f产能效率：32 FE/t"],
+			dependencies: ["3B73865D853A728C"],
+			size: 0.9d,
+			id: "575767081C52858C",
+			tasks: [{
+				id: "0423AF1EBB167641",
+				type: "item",
+				item: "solarflux:sp_3"
+			}]
+		},
+		{
+			x: 7.6499999999999995d,
+			y: 1.7999999999999998d,
+			shape: "diamond",
+			description: ["&6Solar Panel IV: &f产能效率：32 FE/t"],
+			dependencies: ["575767081C52858C"],
+			size: 0.9d,
+			id: "16DAA36E322A5052",
+			tasks: [{
+				id: "0B5017603794496A",
+				type: "item",
+				item: "solarflux:sp_4"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.0d,
+			shape: "hexagon",
+			description: ["&a箱子三兄弟: &f你知道匠魂现在有多少箱子吗？"],
+			dependencies: ["0000000000000398"],
+			size: 0.9d,
+			id: "34436D3E329544E9",
+			tasks: [
+				{
+					id: "052B3248D0B89C0C",
+					type: "item",
+					item: "tconstruct:cast_chest"
+				},
+				{
+					id: "22FF2B414A3478A8",
+					type: "item",
+					item: "tconstruct:part_chest"
+				},
+				{
+					id: "085E75C7CBC90DFD",
+					type: "item",
+					item: "tconstruct:modifier_chest"
+				}
+			],
+			rewards: [{
+				id: "5D351A88D930E7AA",
+				type: "item",
+				item: "tconstruct:ingot_cast"
+			}]
+		}
+	]
+}

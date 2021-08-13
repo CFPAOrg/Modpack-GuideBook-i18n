@@ -1,0 +1,522 @@
+{
+	id: "00000000000000B6",
+	group: "",
+	order_index: 7,
+	filename: "thermal",
+	title: "爱丽丝·滋贝鲁库",
+	icon: {
+		id: "patchouli:guide_book",
+		Count: 1b,
+		tag: {
+			"patchouli:book": "thermal:guidebook"
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -3.85d,
+			y: -3.3000000000000003d,
+			description: ["To Unlock This, You Must Complete The Supreme Machine Frame Quest."],
+			dependencies: [
+				"00000000000002F4",
+				"00000000000003EA"
+			],
+			size: 1.1d,
+			id: "0000000000000193",
+			tasks: [{
+				id: "0000000000000194",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.0d,
+			dependencies: ["00000000000002F4"],
+			size: 1.4d,
+			id: "0000000000000195",
+			tasks: [{
+				id: "0000000000000196",
+				type: "item",
+				item: "thermal:machine_frame"
+			}]
+		},
+		{
+			x: -1.4d,
+			y: -2.1d,
+			shape: "hexagon",
+			size: 1.4d,
+			id: "00000000000002F4",
+			tasks: [{
+				id: "00000000000002F5",
+				type: "item",
+				item: "thermal:wrench"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.5d,
+			shape: "hexagon",
+			id: "00000000000002F6",
+			tasks: [{
+				id: "00000000000002F7",
+				type: "item",
+				item: "thermal:upgrade_augment_1"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 0.5d,
+			shape: "hexagon",
+			id: "00000000000002F8",
+			tasks: [{
+				id: "00000000000002F9",
+				type: "item",
+				item: "thermal:upgrade_augment_2"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 0.5d,
+			shape: "hexagon",
+			id: "00000000000002FA",
+			tasks: [{
+				id: "00000000000002FB",
+				type: "item",
+				item: "thermal:upgrade_augment_3"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.5d,
+			dependencies: ["0000000000000127"],
+			id: "00000000000002FC",
+			tasks: [{
+				id: "00000000000002FD",
+				type: "item",
+				item: "thermal:device_tree_extractor"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["0000000000000195"],
+			id: "0000000000000300",
+			tasks: [{
+				id: "0000000000000301",
+				type: "item",
+				item: "thermal:machine_refinery"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 0.5d,
+			dependencies: ["0000000000000306"],
+			id: "0000000000000302",
+			tasks: [{
+				id: "0000000000000303",
+				type: "item",
+				item: "thermal:dynamo_stirling"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 1.5d,
+			dependencies: [
+				"0000000000000306",
+				"0000000000000302"
+			],
+			id: "0000000000000304",
+			tasks: [{
+				id: "0000000000000305",
+				type: "item",
+				item: "thermal:dynamo_compression"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 1.0d,
+			shape: "diamond",
+			dependencies: [
+				"0000000000000300",
+				"00000000000002FC"
+			],
+			size: 0.8d,
+			id: "0000000000000306",
+			tasks: [{
+				id: "0000000000000307",
+				type: "item",
+				item: "thermal:rosin"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 2.5d,
+			dependencies: [
+				"0000000000000127",
+				"0000000000000304"
+			],
+			id: "0000000000000308",
+			tasks: [{
+				id: "0000000000000309",
+				type: "item",
+				item: "thermal:dynamo_magmatic"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.5d,
+			dependencies: ["0000000000000308"],
+			id: "000000000000030A",
+			tasks: [{
+				id: "000000000000030B",
+				type: "item",
+				item: "thermal:dynamo_numismatic"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 4.5d,
+			dependencies: ["000000000000030A"],
+			id: "000000000000030C",
+			tasks: [{
+				id: "000000000000030D",
+				type: "item",
+				item: "thermal:dynamo_lapidary"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 2.5d,
+			dependencies: ["0000000000000127"],
+			id: "000000000000030E",
+			tasks: [{
+				id: "000000000000030F",
+				type: "item",
+				item: {
+					id: "thermal:flux_capacitor",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 2.5d,
+			dependencies: ["0000000000000127"],
+			id: "0000000000000310",
+			tasks: [{
+				id: "0000000000000311",
+				type: "item",
+				item: "thermal:flux_drill"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 2.5d,
+			dependencies: ["0000000000000127"],
+			id: "0000000000000312",
+			tasks: [{
+				id: "0000000000000313",
+				type: "item",
+				item: "thermal:flux_saw"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 2.5d,
+			dependencies: ["0000000000000127"],
+			id: "0000000000000314",
+			tasks: [{
+				id: "0000000000000315",
+				type: "item",
+				item: "thermal:flux_magnet"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 2.5d,
+			dependencies: ["0000000000000127"],
+			id: "0000000000000316",
+			tasks: [{
+				id: "0000000000000317",
+				type: "item",
+				item: {
+					id: "thermal:potion_infuser",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 2.5d,
+			dependencies: ["0000000000000127"],
+			id: "0000000000000318",
+			tasks: [{
+				id: "0000000000000319",
+				type: "item",
+				item: {
+					id: "thermal:potion_quiver",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 1.5d,
+			shape: "gear",
+			dependencies: [
+				"00000000000002F6",
+				"00000000000002F8",
+				"00000000000002FA",
+				"0000000000000310",
+				"0000000000000312",
+				"0000000000000314",
+				"0000000000000316",
+				"0000000000000318",
+				"000000000000030E"
+			],
+			dependency_requirement: "one_completed",
+			id: "000000000000031A",
+			tasks: [{
+				id: "000000000000031B",
+				type: "item",
+				item: "thermal:tinker_bench"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			shape: "diamond",
+			hide_dependency_lines: true,
+			dependencies: [
+				"0000000000000304",
+				"000000000000030C",
+				"0000000000000308",
+				"000000000000030A",
+				"0000000000000302"
+			],
+			dependency_requirement: "one_completed",
+			size: 0.9d,
+			id: "000000000000031C",
+			tasks: [{
+				id: "000000000000031D",
+				type: "item",
+				item: "thermal:dynamo_output_augment"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 3.0d,
+			shape: "diamond",
+			hide_dependency_lines: true,
+			dependencies: [
+				"0000000000000304",
+				"000000000000030C",
+				"0000000000000308",
+				"000000000000030A",
+				"0000000000000302"
+			],
+			dependency_requirement: "one_completed",
+			size: 0.9d,
+			id: "000000000000031E",
+			tasks: [{
+				id: "000000000000031F",
+				type: "item",
+				item: "thermal:dynamo_fuel_augment"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -2.0d,
+			subtitle: "Once upon a time there was a Turkish joke. But I won't say it because if I write in English it doesn't mean anything.",
+			dependencies: ["0000000000000195"],
+			id: "0000000000000320",
+			tasks: [{
+				id: "0000000000000321",
+				type: "item",
+				item: "thermal:machine_pulverizer"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.0d,
+			dependencies: ["0000000000000195"],
+			id: "0000000000000322",
+			tasks: [{
+				id: "0000000000000323",
+				type: "item",
+				item: "thermal:machine_furnace"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -2.0d,
+			dependencies: ["0000000000000195"],
+			id: "0000000000000324",
+			tasks: [{
+				id: "0000000000000325",
+				type: "item",
+				item: "thermal:machine_smelter"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -2.0d,
+			dependencies: ["0000000000000195"],
+			id: "0000000000000326",
+			tasks: [{
+				id: "0000000000000327",
+				type: "item",
+				item: "thermal:machine_bottler"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -2.0d,
+			dependencies: ["0000000000000195"],
+			id: "0000000000000328",
+			tasks: [{
+				id: "0000000000000329",
+				type: "item",
+				item: "thermal:machine_crucible"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -3.0d,
+			shape: "diamond",
+			hide_dependency_lines: true,
+			dependencies: ["0000000000000195"],
+			size: 0.8d,
+			id: "000000000000032A",
+			tasks: [{
+				id: "000000000000032B",
+				type: "item",
+				item: "thermal:machine_sawmill"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -3.0d,
+			shape: "diamond",
+			hide_dependency_lines: true,
+			dependencies: ["0000000000000195"],
+			size: 0.8d,
+			id: "000000000000032C",
+			tasks: [{
+				id: "000000000000032D",
+				type: "item",
+				item: "thermal:machine_press"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -1.0d,
+			shape: "diamond",
+			dependencies: ["0000000000000127"],
+			size: 0.9d,
+			id: "000000000000032E",
+			tasks: [{
+				id: "000000000000032F",
+				type: "item",
+				item: "thermal:machine_speed_augment"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -1.0d,
+			shape: "diamond",
+			dependencies: ["0000000000000127"],
+			size: 0.9d,
+			id: "0000000000000330",
+			tasks: [{
+				id: "0000000000000331",
+				type: "item",
+				item: "thermal:machine_output_augment"
+			}]
+		},
+		{
+			icon: "thermal:machine_catalyst_augment",
+			x: 8.0d,
+			y: -1.0d,
+			shape: "diamond",
+			dependencies: ["0000000000000127"],
+			size: 0.9d,
+			id: "0000000000000332",
+			tasks: [
+				{
+					id: "0000000000000333",
+					type: "item",
+					item: "thermal:machine_catalyst_augment"
+				},
+				{
+					id: "0000000000000334",
+					type: "item",
+					item: "thermal:machine_cycle_augment"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -2.5d,
+			dependencies: ["0000000000000127"],
+			id: "0000000000000335",
+			tasks: [
+				{
+					id: "0000000000000336",
+					type: "item",
+					item: {
+						id: "thermal:diving_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000337",
+					type: "item",
+					item: {
+						id: "thermal:diving_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000338",
+					type: "item",
+					item: {
+						id: "thermal:diving_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000339",
+					type: "item",
+					item: {
+						id: "thermal:diving_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+}

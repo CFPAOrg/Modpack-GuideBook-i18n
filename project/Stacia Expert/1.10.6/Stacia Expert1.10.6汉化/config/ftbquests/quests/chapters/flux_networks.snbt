@@ -1,0 +1,237 @@
+{
+	id: "000000000000005C",
+	group: "",
+	order_index: 8,
+	filename: "flux_networks",
+	title: "Kaguya Ōtsutsuki",
+	icon: "fluxnetworks:flux_point",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "黑色红石",
+			x: 0.0d,
+			y: 0.0d,
+			subtitle: "你会需要很多，超过1组",
+			description: ["&e 查看JEI获取更多信息。"],
+			id: "000000000000005D",
+			tasks: [{
+				id: "000000000000005E",
+				type: "item",
+				item: "fluxnetworks:flux_dust",
+				count: 64L
+			}],
+			rewards: [
+				{
+					id: "000000000000005F",
+					type: "item",
+					item: "fluxnetworks:flux_plug"
+				},
+				{
+					id: "0000000000000060",
+					type: "item",
+					item: "fluxnetworks:flux_point"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -0.5d,
+			dependencies: ["000000000000005D"],
+			id: "0000000000000063",
+			tasks: [{
+				id: "0000000000000064",
+				type: "item",
+				item: "fluxnetworks:flux_plug"
+			}],
+			rewards: [{
+				id: "0000000000000065",
+				type: "item",
+				item: "fluxnetworks:flux_plug"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.5d,
+			dependencies: ["000000000000005D"],
+			id: "0000000000000066",
+			tasks: [{
+				id: "0000000000000067",
+				type: "item",
+				item: "fluxnetworks:flux_point"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.5d,
+			dependencies: ["000000000000005D"],
+			id: "0000000000000068",
+			tasks: [{
+				id: "0000000000000069",
+				type: "item",
+				item: "fluxnetworks:flux_configurator"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -0.5d,
+			dependencies: ["000000000000005D"],
+			id: "000000000000006A",
+			tasks: [{
+				id: "000000000000006B",
+				type: "item",
+				item: "fluxnetworks:flux_block"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.0d,
+			dependencies: ["000000000000005D"],
+			id: "000000000000006C",
+			tasks: [{
+				id: "000000000000006D",
+				type: "item",
+				item: "fluxnetworks:flux_controller"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			dependencies: ["000000000000005D"],
+			id: "000000000000006E",
+			tasks: [{
+				id: "000000000000006F",
+				type: "item",
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.5d,
+			dependencies: ["000000000000006E"],
+			id: "0000000000000070",
+			tasks: [{
+				id: "0000000000000071",
+				type: "item",
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.5d,
+			dependencies: ["0000000000000070"],
+			id: "0000000000000072",
+			tasks: [{
+				id: "0000000000000073",
+				type: "item",
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+		},
+		{
+			title: "我的老朋友？",
+			x: -2.0d,
+			y: 1.5d,
+			subtitle: "我们什么时候遇见的？1.6.4？",
+			description: ["超立方体可以无线传输能量、流体、物品。"],
+			id: "00000000000000C3",
+			tasks: [{
+				id: "00000000000000C4",
+				type: "item",
+				item: "tesseract:tesseract"
+			}]
+		},
+		{
+			title: "无线红石！",
+			x: 2.0d,
+			y: 1.5d,
+			subtitle: "谁玩有线红石啊？",
+			description: ["&e 查看JEI获取更多信息。"],
+			id: "00000000000000C5",
+			tasks: [
+				{
+					id: "00000000000000C6",
+					type: "item",
+					item: "cyclic:wireless_transmitter"
+				},
+				{
+					id: "00000000000000C7",
+					type: "item",
+					item: "cyclic:wireless_receiver"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 2.5d,
+			id: "2819108BCC5BE61B",
+			tasks: [{
+				id: "2CE59BECF44BF658",
+				type: "item",
+				item: "powah:ender_cell_basic"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 2.5d,
+			id: "00000000000003F2",
+			tasks: [
+				{
+					id: "00000000000003F3",
+					type: "item",
+					item: "rftoolsutility:redstone_receiver"
+				},
+				{
+					id: "00000000000003F4",
+					type: "item",
+					item: "rftoolsutility:redstone_transmitter"
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: 0.0d,
+			shape: "diamond",
+			id: "000000000000060F",
+			tasks: [{
+				id: "0000000000000610",
+				type: "item",
+				item: "solarflux:sp_5"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 0.5d,
+			shape: "diamond",
+			dependencies: ["000000000000060F"],
+			id: "0000000000000611",
+			tasks: [{
+				id: "0000000000000612",
+				type: "item",
+				item: "solarflux:sp_6"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.5d,
+			shape: "diamond",
+			dependencies: ["0000000000000611"],
+			id: "0000000000000613",
+			tasks: [{
+				id: "0000000000000614",
+				type: "item",
+				item: "solarflux:sp_7"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 1.0d,
+			shape: "diamond",
+			dependencies: ["0000000000000613"],
+			id: "0000000000000615",
+			tasks: [{
+				id: "0000000000000616",
+				type: "item",
+				item: "solarflux:sp_8"
+			}]
+		}
+	]
+}

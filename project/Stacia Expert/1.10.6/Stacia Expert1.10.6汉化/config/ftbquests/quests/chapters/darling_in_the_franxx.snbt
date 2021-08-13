@@ -1,0 +1,732 @@
+{
+	id: "0000000000000019",
+	group: "",
+	order_index: 1,
+	filename: "darling_in_the_franxx",
+	title: "Kabaneri of the Iron Fortress",
+	icon: "immersiveengineering:tesla_coil",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "hexagon",
+			size: 1.2d,
+			id: "000000000000001A",
+			tasks: [{
+				id: "000000000000001C",
+				type: "item",
+				item: {
+					id: "immersiveengineering:hammer",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 1.0d,
+			shape: "hexagon",
+			subtitle: "就是个普通的机器框架。",
+			dependencies: ["000000000000001A"],
+			size: 1.1d,
+			id: "000000000000001D",
+			tasks: [{
+				id: "000000000000001F",
+				type: "item",
+				item: "mysticalagriculture:machine_frame"
+			}],
+			rewards: [{
+				id: "00000000000005F8",
+				type: "item",
+				item: "thermal:lumium_ingot",
+				count: 4
+			}]
+		},
+		{
+			x: -1.2d,
+			y: -2.4d,
+			shape: "diamond",
+			subtitle: "你现在可以制作一些部件了。",
+			dependencies: ["0000000000000124"],
+			size: 0.8d,
+			id: "0000000000000020",
+			tasks: [{
+				id: "0000000000000021",
+				type: "item",
+				item: "immersiveengineering:workbench"
+			}],
+			rewards: [{
+				id: "00000000000005C1",
+				type: "item",
+				item: "immersiveengineering:electron_tube",
+				count: 4
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 2.0d,
+			shape: "pentagon",
+			dependencies: ["000000000000001D"],
+			id: "0000000000000022",
+			tasks: [{
+				id: "0000000000000023",
+				type: "item",
+				item: "immersiveengineering:capacitor_lv"
+			}],
+			rewards: [{
+				id: "00000000000005FE",
+				type: "item",
+				item: "pamhc2foodcore:friedeggitem"
+			}]
+		},
+		{
+			icon: "immersiveengineering:blast_furnace",
+			x: 2.0d,
+			y: -1.0d,
+			shape: "hexagon",
+			subtitle: "现在，你可以制作你的第一块钢。",
+			dependencies: ["000000000000001A"],
+			size: 1.1d,
+			id: "0000000000000026",
+			tasks: [{
+				id: "0000000000000027",
+				type: "item",
+				item: "immersiveengineering:blastbrick",
+				count: 27L
+			}]
+		},
+		{
+			title: "加速Tick",
+			icon: "torcherino:lantern",
+			x: 1.0d,
+			y: -2.0d,
+			shape: "diamond",
+			subtitle: "我猜你会需要很多钢。你可以用它来加速炼钢。",
+			description: [
+				"很像ProjectE的时间怀表。",
+				"",
+				"&e右键切换范围。"
+			],
+			dependencies: ["0000000000000026"],
+			id: "0000000000000028",
+			tasks: [{
+				id: "000000000000002A",
+				type: "item",
+				item: "torcherino:torcherino"
+			}],
+			rewards: [{
+				id: "000000000000002B",
+				type: "item",
+				item: "pamhc2foodcore:toastitem",
+				count: 5
+			}]
+		},
+		{
+			title: "我们需要更多板！",
+			icon: "immersiveengineering:metal_press",
+			x: 4.0d,
+			y: -2.0d,
+			shape: "pentagon",
+			subtitle: "多做点板没有坏处。",
+			description: ["&e 你总是会需要更多板的。"],
+			dependencies: ["00000000000005A1"],
+			id: "000000000000002C",
+			tasks: [
+				{
+					id: "000000000000002E",
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 2L
+				},
+				{
+					id: "000000000000002F",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: "0000000000000030",
+					type: "item",
+					item: "immersiveengineering:heavy_engineering"
+				},
+				{
+					id: "0000000000000031",
+					type: "item",
+					item: "immersiveengineering:conveyor_basic",
+					count: 2L
+				},
+				{
+					id: "0000000000000032",
+					type: "item",
+					item: "minecraft:piston"
+				}
+			],
+			rewards: [{
+				id: "00000000000005D3",
+				type: "item",
+				item: "pamhc2foodcore:potroastitem"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.0d,
+			shape: "pentagon",
+			dependencies: ["0000000000000022"],
+			id: "0000000000000035",
+			tasks: [{
+				id: "0000000000000036",
+				type: "item",
+				item: "immersiveengineering:capacitor_mv"
+			}],
+			rewards: [{
+				id: "00000000000005FF",
+				type: "item",
+				item: "pamhc2foodcore:friedeggitem"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.5d,
+			shape: "pentagon",
+			dependencies: ["0000000000000035"],
+			id: "0000000000000037",
+			tasks: [{
+				id: "0000000000000038",
+				type: "item",
+				item: "immersiveengineering:capacitor_hv"
+			}],
+			rewards: [{
+				id: "0000000000000600",
+				type: "item",
+				item: "pamhc2foodcore:friedeggitem"
+			}]
+		},
+		{
+			icon: "immersiveengineering:alloy_smelter",
+			x: -1.5d,
+			y: 1.0d,
+			subtitle: "合金窑已被禁用。请使用Silent's Mechanism的合金炉。",
+			dependencies: ["000000000000001A"],
+			id: "000000000000003A",
+			tasks: [{
+				id: "0000000000000444",
+				type: "checkmark",
+				title: "Alloy Smelter",
+				icon: "immersiveengineering:alloybrick"
+			}],
+			rewards: [{
+				id: "00000000000005C4",
+				type: "item",
+				item: "pamhc2foodcore:jellydonutitem",
+				count: 2
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -0.5d,
+			subtitle: "更好的工作台！",
+			dependencies: ["000000000000001A"],
+			id: "0000000000000054",
+			tasks: [{
+				id: "0000000000000055",
+				type: "item",
+				item: "immersiveengineering:craftingtable"
+			}],
+			rewards: [{
+				id: "00000000000005C3",
+				type: "item",
+				item: "pamhc2foodcore:jellydonutitem",
+				count: 2
+			}]
+		},
+		{
+			icon: "immersiveengineering:mold_gear",
+			x: -0.5d,
+			y: -2.0d,
+			dependencies: ["0000000000000020"],
+			size: 0.9d,
+			id: "0000000000000056",
+			tasks: [
+				{
+					id: "0000000000000057",
+					type: "item",
+					item: "immersiveengineering:mold_plate"
+				},
+				{
+					id: "0000000000000058",
+					type: "item",
+					item: "immersiveengineering:mold_gear"
+				},
+				{
+					id: "0000000000000059",
+					type: "item",
+					item: "immersiveengineering:mold_rod"
+				},
+				{
+					id: "000000000000005A",
+					type: "item",
+					item: "immersiveengineering:mold_wire"
+				}
+			],
+			rewards: [{
+				id: "000000000000005B",
+				type: "item",
+				item: "pamhc2foodcore:chocolaterollitem",
+				count: 8
+			}]
+		},
+		{
+			title: "焦炉",
+			icon: "immersiveengineering:coke_oven",
+			x: -1.5d,
+			y: -1.5d,
+			subtitle: "生产焦煤的一种方式。",
+			dependencies: ["000000000000001A"],
+			id: "1923BD75AD92E9A5",
+			tasks: [{
+				id: "2FA2F816EB01282A",
+				type: "item",
+				item: "immersiveengineering:cokebrick",
+				count: 27L
+			}],
+			rewards: [{
+				id: "00000000000005C2",
+				type: "item",
+				item: "immersiveengineering:coal_coke",
+				count: 16
+			}]
+		},
+		{
+			x: 2.8d,
+			y: 2.0d,
+			shape: "diamond",
+			dependencies: ["000000000000001D"],
+			size: 0.8d,
+			id: "000000000000033F",
+			tasks: [{
+				id: "0000000000000340",
+				type: "item",
+				item: "immersiveengineering:charging_station"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -2.0d,
+			shape: "hexagon",
+			subtitle: "恭喜！",
+			dependencies: ["0000000000000026"],
+			size: 0.9d,
+			id: "00000000000005A1",
+			tasks: [{
+				id: "00000000000005A2",
+				type: "item",
+				item: "emendatusenigmatica:steel_ingot"
+			}],
+			rewards: [{
+				id: "00000000000005D2",
+				type: "item",
+				item: "pamhc2foodcore:melonsmoothieitem",
+				count: 2
+			}]
+		},
+		{
+			title: "粉碎机",
+			icon: "immersiveengineering:crusher",
+			x: 4.0d,
+			y: -4.0d,
+			shape: "diamond",
+			dependencies: ["000000000000002C"],
+			id: "00000000000005A3",
+			tasks: [
+				{
+					id: "00000000000005D4",
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 10L
+				},
+				{
+					id: "00000000000005D5",
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 10L
+				},
+				{
+					id: "00000000000005D6",
+					type: "item",
+					item: "minecraft:hopper",
+					count: 9L
+				},
+				{
+					id: "00000000000005D7",
+					type: "item",
+					item: "immersiveengineering:steel_fence",
+					count: 8L
+				},
+				{
+					id: "00000000000005D8",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				}
+			],
+			rewards: [{
+				id: "00000000000005ED",
+				type: "item",
+				item: "pamhc2foodcore:baconcheeseburgeritem"
+			}]
+		},
+		{
+			title: "工业挤压机",
+			icon: "immersiveengineering:squeezer",
+			x: 5.0d,
+			y: -4.0d,
+			shape: "diamond",
+			dependencies: ["000000000000002C"],
+			id: "00000000000005A5",
+			tasks: [
+				{
+					id: "00000000000005DC",
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 6L
+				},
+				{
+					id: "00000000000005DD",
+					type: "item",
+					item: "immersiveengineering:wooden_barrel",
+					count: 4L
+				},
+				{
+					id: "00000000000005DE",
+					type: "item",
+					item: "minecraft:piston"
+				},
+				{
+					id: "00000000000005DF",
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: "00000000000005E0",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: "00000000000005E1",
+					type: "item",
+					item: "immersiveengineering:steel_fence",
+					count: 3L
+				},
+				{
+					id: "00000000000005E2",
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 2L
+				}
+			],
+			rewards: [{
+				id: "00000000000005EC",
+				type: "item",
+				item: "pamhc2foodcore:baconcheeseburgeritem"
+			}]
+		},
+		{
+			title: "锯木机",
+			icon: "immersiveengineering:sawmill",
+			x: 5.5d,
+			y: -3.0d,
+			shape: "diamond",
+			dependencies: ["000000000000002C"],
+			id: "00000000000005A7",
+			tasks: [
+				{
+					id: "00000000000005E4",
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 8L
+				},
+				{
+					id: "00000000000005E5",
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 6L
+				},
+				{
+					id: "00000000000005E6",
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 4L
+				},
+				{
+					id: "00000000000005E8",
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 2L
+				},
+				{
+					id: "00000000000005E9",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: "00000000000005EA",
+					type: "item",
+					item: "immersiveengineering:conveyor_basic",
+					count: 4L
+				}
+			],
+			rewards: [{
+				id: "00000000000005EB",
+				type: "item",
+				item: "pamhc2foodcore:baconcheeseburgeritem"
+			}]
+		},
+		{
+			title: "混合器",
+			icon: "immersiveengineering:mixer",
+			x: 5.5d,
+			y: -2.0d,
+			shape: "diamond",
+			dependencies: ["000000000000002C"],
+			id: "00000000000005A9",
+			tasks: [
+				{
+					id: "00000000000005EF",
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 5L
+				},
+				{
+					id: "00000000000005F0",
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 4L
+				},
+				{
+					id: "00000000000005F1",
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 4L
+				},
+				{
+					id: "00000000000005F2",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: "00000000000005F3",
+					type: "item",
+					item: "immersiveengineering:steel_fence"
+				},
+				{
+					id: "00000000000005F4",
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 3L
+				}
+			],
+			rewards: [{
+				id: "00000000000005F5",
+				type: "item",
+				item: "pamhc2foodcore:baconcheeseburgeritem"
+			}]
+		},
+		{
+			x: 3.15d,
+			y: -3.15d,
+			shape: "diamond",
+			subtitle: "自动润滑器可以用来加速粉碎机、挖掘机和采油机的工作速度，大约是25%。",
+			dependencies: ["000000000000002C"],
+			size: 0.9d,
+			id: "00000000000005AB",
+			tasks: [{
+				id: "00000000000005AC",
+				type: "item",
+				item: "immersivepetroleum:auto_lubricator"
+			}],
+			rewards: [{
+				id: "00000000000005EE",
+				type: "item",
+				item: "pamhc2foodcore:baconcheeseburgeritem"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 1.5d,
+			subtitle: "环境友好，无限能源。",
+			dependencies: ["000000000000001D"],
+			id: "00000000000005AD",
+			tasks: [{
+				id: "00000000000005AE",
+				type: "item",
+				item: "immersiveengineering:dynamo"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 2.0d,
+			dependencies: ["00000000000005AD"],
+			id: "00000000000005AF",
+			tasks: [{
+				id: "00000000000005B0",
+				type: "item",
+				item: "immersiveengineering:watermill"
+			}],
+			rewards: [{
+				id: "00000000000005FB",
+				type: "item",
+				item: "pamhc2foodcore:caramelicecreamitem"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 3.0d,
+			dependencies: ["00000000000005AD"],
+			id: "00000000000005B1",
+			tasks: [{
+				id: "00000000000005B2",
+				type: "item",
+				item: "immersiveengineering:windmill"
+			}],
+			rewards: [{
+				id: "00000000000005FC",
+				type: "item",
+				item: "pamhc2foodcore:caramelicecreamitem"
+			}]
+		},
+		{
+			title: "精馏塔",
+			icon: "immersivepetroleum:distillationtower",
+			x: 4.0d,
+			y: -0.5d,
+			subtitle: "你可以用油发电。",
+			description: [""],
+			dependencies: ["0000000000000026"],
+			id: "00000000000005B3",
+			tasks: [
+				{
+					id: "00000000000005C7",
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 25L
+				},
+				{
+					id: "00000000000005C8",
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 4L
+				},
+				{
+					id: "00000000000005C9",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: "00000000000005CA",
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 60L
+				},
+				{
+					id: "00000000000005CB",
+					type: "item",
+					item: "immersiveengineering:slab_steel_scaffolding_standard",
+					count: 30L
+				},
+				{
+					id: "00000000000005CC",
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 17L
+				}
+			],
+			rewards: [{
+				id: "00000000000005CE",
+				type: "item",
+				item: "immersiveengineering:wooden_barrel",
+				count: 4
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -1.0d,
+			shape: "hexagon",
+			dependencies: ["00000000000005B3"],
+			id: "00000000000005B5",
+			tasks: [{
+				id: "00000000000005B6",
+				type: "item",
+				item: "immersivepetroleum:gas_generator"
+			}],
+			rewards: [{
+				id: "00000000000005F7",
+				type: "item",
+				item: "pamhc2foodcore:caramelappleitem"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -0.5d,
+			shape: "diamond",
+			dependencies: ["00000000000005B5"],
+			id: "00000000000005B7",
+			tasks: [{
+				id: "00000000000005B8",
+				type: "item",
+				item: "immersivepetroleum:napalm_bucket"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 0.0d,
+			shape: "diamond",
+			dependencies: ["00000000000005B5"],
+			id: "00000000000005B9",
+			tasks: [{
+				id: "00000000000005BA",
+				type: "item",
+				item: "immersivepetroleum:diesel_bucket"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.5d,
+			shape: "diamond",
+			dependencies: ["00000000000005B5"],
+			id: "00000000000005BB",
+			tasks: [{
+				id: "00000000000005BC",
+				type: "item",
+				item: "immersivepetroleum:gasoline_bucket"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 0.0d,
+			shape: "diamond",
+			dependencies: ["00000000000005B5"],
+			id: "00000000000005BD",
+			tasks: [{
+				id: "00000000000005BE",
+				type: "item",
+				item: "immersivepetroleum:lubricant_bucket"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 3.0d,
+			shape: "octagon",
+			subtitle: "你可以用它加速作物生长。",
+			dependencies: ["000000000000001D"],
+			size: 1.1d,
+			id: "00000000000005BF",
+			tasks: [{
+				id: "00000000000005C0",
+				type: "item",
+				item: "immersiveengineering:cloche"
+			}]
+		}
+	]
+}
