@@ -1,0 +1,2155 @@
+打开进度界面即可查看游戏流程（默认按钮为“L”）
+
+WAILA 和小地图在这个整合的一开始阶段都是不可用的，需要玩家游戏中解锁。还有很多方块在玩家通过进度解锁之前都是隐藏的！
+
+**请注意，在游戏中途修改了材质包，需要重启游戏。否则物品隐藏和合成显示会出一点问题，对此造成的不便我们感到十分抱歉！**
+
+对于多人游戏组队，请使用“Together Forever”模组，在游戏聊天框中输入“/tofe”指令来进行检查核实。
+---------------------------------------------------------------------
+
+3.2.1 Skyblock
+
+Bug Fixes:
+* Removed Sevadus skull drop to prevent potential lag
+
+---------------------------------------------------------------------
+
+3.2.0 Skyblock
+
+Enhancements:
+* SevTech, but now in Skyblock!
+* Increased Volarkite durability
+* The Hunting Dimension, Twilight Forest, Nether, and Beneath have void generation
+* Added a recipe to turn rocks into gravel
+* Added additional methods to obtain clay
+* Added AbyssalCraft ritual to summon a Raven
+* Add tooltips for Rustic bees
+* Added Primal's Stacked Logs and Charcoal Pit mechanics
+* Increased Rustic Apiaries crop aging frequency
+* Add Rustic bee advancement
+* Move Rustic bees to age 1 from age 2
+* Add Twilight Forest trees to Bonsai pots
+* Add liveroot and liveroot block conversion recipes
+* Added location description tooltips to all ores and ore samples
+* Add liveroot to Twilight Forest loot chests
+* Staged loot in loot tables (chests, etc)
+* Changed saddle advancement to piggy backpack
+* Add trollber to Twilight Forest loot tables
+* Enabled fishing!
+
+Bug Fixes:
+* Correct rat's meat drops & added wolf meat drop to dire wolf
+* Create recipes for Abyssalcraft's animated darklands log
+* Remove "WIP" natura doors
+* Rustic liquids appearing too early
+* Add Primal's Yew Stick to stickWood oredict
+* Enabled AE2 paint balls
+* Added Amethyst, Cobalt, and Ardite to prospectors detection lists
+
+Mods Added:
+* Drafty Kites
+* Topography (1.14.4)
+* ZenLoot
+
+Mod Updates:
+* ExtraPlanets (0.5.6 -> 0.7.0)
+* Galacticraft (4.0.2.236 -> 4.0.2.280)
+    * Core, Planets, & MicdoodleCore
+* MJRLegendsLib (1.1.8 -> 1.2.0)
+* SevPatches (1.5-6 -> 1.7-8)
+* SevTweaks (0.3.1-25 -> 0.4.0-1)
+* Wall-Jump! (1.2.3 -> 1.3.2)
+
+Mods Removed:
+* Better Bedrock
+* BringBedrockBack
+
+---------------------------------------------------------------------
+
+3.1.7
+
+Enhancements:
+* Code cleanup
+* Tweaked tooltip grammar and lengths
+
+Mods Updated:
+* Bring Bedrock Back (0.0.1 -> 0.0.4)
+
+---------------------------------------------------------------------
+
+3.1.6 Hotfix 1
+
+Bug Fixes:
+* Fixed unintentional change to shoggoth generation chance in swamps
+* Resolved potential issue with bedrock generation in unintended dimensions
+
+---------------------------------------------------------------------
+
+3.1.6
+
+Mods Added:
+* Bring Back Bedrock (0.0.1)
+    * A HUGE thank you to JayJay for making this for us!
+    * Resolves issue introduced with latest Better Bedrock update
+
+Mods Added:
+* Corail Tombstone (4.0.0)
+
+Mods Removed:
+* Advanced Mortars
+* Tombstone: Revived
+    * Corail Tombstone is back
+
+---------------------------------------------------------------------
+
+3.1.5
+
+Mods Updated:
+* Tombstone: Revived (4.0.0-2 -> 4.0.1-3)
+    * Fixes server startup crash
+
+---------------------------------------------------------------------
+
+3.1.4
+
+Bug Fixes:
+* Correctly stage the Stray and its equipment
+* Wool being visible in the world before intended
+* Remove unnecessary imp leather drops (#4143)
+* Fixed BWM Anchor and Pulley uncraftable in stage one
+* Slime boots in conflicting stages
+* Moved Void Sack to Age 5 as the recipe reciquired items from that age
+* Staged the application of the iChisel (hitech) modifier on tinkers' tools
+* Strange mob spawn counts potentially caused by low view distance
+
+Enhancements:
+* Remove Barley Flour - Barley now produces regular flour instead
+* Cutting a wooden slab using the BWM Saw will convert it to a thin slab if one exists for that material
+* Stop Forge logging cascading world generation
+* Adjusted the Betweenland's Boulder Sprite spawn rates
+
+Mods Added:
+* Tombstone: Revived
+
+Mod Updates:
+* AbyssalCraft (1.9.19.1)
+* AbyssalCraft Integration (1.11.2)
+* AppleSkin (1.0.9 -> 1.0.14)
+* Bedrock B Gone/Better Bedrock (5.1.11)
+* Better Foliage (2.3.1)
+    * Now works with Optifine F4 and later
+* BnBGamingCore (0.11.0 -> 0.12.0)
+* Bonsai Trees (1.1.4-b170)
+* CD4017BE Library (6.4.6 -> 6.4.18)
+* Cooking for Blockheads (6.4.70 -> 6.5.0)
+* CraftTweaker (4.1.20.57)
+* Custom Main Menu (2.0.9 -> 2.0.9.1)
+* Cyclic (1.19.11 -> 1.20.3)
+* Dark Utilities (1.8.226 -> 1.8.230)
+* Dimensional Control (2.13.0)
+* Enchantment Descriptions (1.1.15)
+* Ender Storage 1.8.+ (2.4.5.135 -> 2.4.6.137)
+* Ender Utilities (0.7.12 -> 0.7.15)
+* Extended Crafting (1.5.4 -> 1.5.6)
+* Farming for Blockheads (3.1.26 -> 3.1.28)
+* Farseek (2.3.2 -> 2.5)
+* FastWorkbench (1.7.3)
+* Game Stages (2.0.123)
+* Hunting Dimension (1.0.42)
+* Improved Backpacks (1.4.0.0 -> 1.5.0.0)
+* Immersive Engineering (0.12-92 -> 0.12-98)
+* Inductive Logistics (1.3.3 -> 1.3.4)
+* Industrial Foregoing (1.12.12-236 -> 1.12.13-237)
+* Inventory Tweaks (1.64+dev.146 -> 1.64+dev.151)
+* Iron Chests (7.0.69.845 -> 7.0.72.847)
+* KleeSlabs (5.4.11 -> 5.4.12)
+* McJtyLib (3.5.3 -> 3.5.4)
+* Modular Routers (3.2.1 -> 3.3.0-33)
+* More Overlays (1.14 -> 1.15.1)
+* Ocean Floor - Clay Sand and Dirt (1.0.1 -> 1.0.2)
+* RandomPatches (1.21.0.3 -> 1.22.0.0)
+* Reborn Storage (3.3.4.85 -> 3.3.4.1)
+* Refined Storage (1.6.14 -> 1.6.16)
+* Refined Storage Addons (0.4.4 -> 0.4.5)
+* RFTools (7.71 -> 7.73)
+* Rustic (1.1.0 -> 1.1.4)
+* SevPatches (1.4-5 -> 1.5-6)
+* Simple Storage Network (1.7.6 -> 1.7.11)
+* Steve's Carts Reborn (2.4.30.134 -> 2.4.32.137)
+* Storage Drawers (5.3.8 -> 5.4.2)
+* Thirsty Bottles (1.1.4 -> 2.0.1)
+* ViesCraft - Airships! (5.9.13 -> 5.9.16)
+* Wawla - What Are We Looking At (2.5.273 -> 2.6.275)
+* XNet (1.8.1 -> 1.8.2)
+
+Mods Removed:
+* Corail's Tombstone
+
+---------------------------------------------------------------------
+
+3.1.3
+
+Bug Fixes:
+* Remove/alter additional recipes using Refined Storage Processors
+* Use a staged output bus in the auto-cauldron structure (#3851)
+* Dying eight slime blocks will now produce eight slime blocks rather than just one (#3899)
+* Black Quartz and Silicon can now be crafted using their respective essences (#3833, #3913)
+* Scamulator blueprint now has a recipe (#3870)
+* Painted wood crafting recipe readded (#3685)
+* The colour of quantum storage bags can now be changed (#3743)
+* Fix Together Forever command in getting started text (#3943)
+* Update Tartaric Forge removed recipes as changed upstream (#3942)
+* Vanilla bookshelves can now only be crafted using vanilla planks, preventing conflict with natura (#3940)
+* Lapis blocks are now be chiselable (#3932)
+* Dupe bug as a result of TCon Crafting Station exposing Auto Chisel slots to JEI fixed (#3956)
+* Enchantments now staged by definition, meaning books remain hidden even in old worlds where enchant IDs are different
+* Properly stage the "easy" recipe for the Compacting Storage Drawer (#4100)
+* Re-Added Cyclic GPS Marker for use in the Sensor Display (#4093)
+* Removed recipe for TConstruct EFLN (as it was not intended to be craftable) (#4062)
+* Fix Biodiesel not working with UltimateCarMod (#3885)
+* Base tier Viescraft airship now triggers advancement (#4021)
+* Blacklisted The Betweenland's Item Shelf from carryon to prevent item loss (#4121)
+* Fixed incorrect ouput from some recipes in the Mekanism sawmill (#4111)
+* Glass crafting in arc furnace now accepts all sand from the oredict (#3963)
+* Fixed Cinnabar mineral vein not being overriden as intended. Cinnabar mineral veins now give redstone dust. (#4071)
+* Removed Rusted Mineshafts from spawning
+* Mekanism ore crushing yielding incorrect amount of dust (now yields 2 dust)
+* Stage One Chisel recipe contained iron (which is unobtainable)
+* Many damaged items should now appear as staged
+
+Enhancements:
+* Graves will now have their outline highlighted
+* Applied Energistics standard energy cells are now available in stage 4 (#4082)
+* Increased Gasoline energy density in Advanced Generators to be the same as Simple Generators' (#4076)
+* Adjusted the spawning of many mobs to reduce lag or increase diversity:
+    * Limited the amount of JAFF fish:
+        * Cod: 20
+        * Clownfish: 6
+        * Pufferfish: 4
+        * salmon: 20
+    * Increased weight of hammerhead sharks and applied minimums and maximums
+    * Limited pigs, cows, sheeps, and chickens to 100 to increase passive mob diversity
+    * Limited the amount of Steppe wolves to 15
+    * Made all Custom-constrolled mobs spawn with minecraft spawning rules (per chunk)
+* Manyullyn alloying added to arc furnace (#3965)
+* Crusher recipes for stardust from starmetal ore and ingots (#3963)
+* Added ability for Apple Trees to grow in Bonsai Pots (#3916, #3917)
+* Add ground meat & meatball recipes for Modular Machinery (#3882, #4026)
+* Crafting stumps show cracks before breaking
+* Added recipe for corn seeds - work blade + corn cob (#4131)
+* Tweaked the biome texture for Void in Antique Atlas
+* Added repair options to the Volarkite using either a waterlilly or volarpad.
+* Set Odin Rounded as default font
+* Add Nutrient values for Sushi and Spirit Fruit
+* Increase FBP particle effects
+* Increase range and size of underground clay clusters
+* Add Sugar Cane to Survivalist Strainer
+* Add glider tooltip to Volarkite
+* Add Ardite and Cobalt dusts
+* Death Compass can now be crushed into Bone Meal
+
+Mods Added:
+* Loading Screens
+* RandomPatches (1.21.0.3)
+* SevPatches
+* Wall-Jump!
+
+Mod Updates:
+* Forge (14.23.5.2854)
+* AbyssalCraft (1.9.15)
+    * Using the sigil of the green grove (and other non-stackable bone meal like items) in purged lnads will no longer cause the item to be consumed (#3914)
+    * Resolves crash with Materializer (#3967)
+* Applied Energistics 2 (rv6-stable-7)
+* Astral Sorcery (1.10.21)
+    * Carminite ghastlings are now harmed by Discidia Ritual (#3817)
+    * Fixes potion handler, players should no longer find themselves
+    invincible (#3874)
+* Building Gadgets (2.8.3)
+* Carry On (1.12.3)
+* CodeChicken Lib (3.2.3.358)
+* Controlling (3.0.9)
+* CraftTweaker (4.1.20.570)
+* Extra Planets (0.5.6)
+* Foamfix (0.10.10)
+* Galacticraft (4.0.2.236)
+    * Fixes an incompatibility with Sponge (#3909)
+* In Control! (3.9.16)
+* Immersive Engineering (0.12-92)
+    * Assembler is now able to craft staged and scripted recipes (#1803)
+* JustEnoughIDs (1.0.3-55)
+* Mekanism (9.8.3.390)
+* MultiBlock Stages (1.2.0)
+* Ore Excavation (1.4.150)
+* Overloaded (0.0.59)
+* Primal Tech (0.3.5)
+    * Fixes an issue which meant the clay kiln would only become fired if it had an item inside it (#3846)
+    * Work stumps will visibly show when close to breaking
+* Recipe Stages (1.1.3)
+    * Fixes an issue where JEI would display certain staged shaped recipes as shapeless (#3863)
+* Smooth Font (2.1.2)
+* Streams (0.4.8)
+    * Resolves ecursive stream generation issue (#3902)
+* Stuff A Sock In It (1.1.32)
+* The Betweenlands (3.5.10)
+    * Fixes an incompatibility with Optifine (#3865)
+    * Adds Volarkite
+    * Elixir of Starvation no longer causes negative saturation (#3982)
+* Tinkers' Complement (0.4.3)
+    * Steel Nuggets recipe will no longer be registered without the corresponding item (#3911)
+* Translocators (2.5.2.81)
+* Triumph (3.19.2)
+* Tumbleweed (0.4.7)
+* ZenStages (0.4.2)
+
+Mods Removed:
+* ArcFurnacePatch
+* JustEnoughIDs Integration
+    * Deprecated with JEIDs update
+* Tips
+
+---------------------------------------------------------------------
+
+3.1.2
+
+Bug Fixes:
+* Fixed Horse Power dye recipes being flipped
+* Moved BiblioCraft Framed Tool Rack & Framed Shelf to correct stage (#3625)
+* Fixed bark workblade recipes on servers (#3621)
+* Fixed dyed wool crafting recipes (#3642)
+* Fixed Amadron trades using emeralds as currency (#3648)
+* Restaged Hemp Seeds to zero, matching when hemp may be obtained (#3649)
+* Prevent pickup of Transport Cart with carryon (#3640)
+* Restaged Better With Addons pies to two, where they are obtainbale (#3633)
+* Fixed item drops for various blocks that were overridden in scripts (#3673)
+* Removed JEID error biome from Nature's Compass search GUI (#3612)
+* Correctly stage Aqueduct constructed from stone bricks (#3635)
+* Galacticraft Emergency Kits can now be crafted using their normal recipe (#3692)
+* Blacklist chisels and bits blocks from being picked up using carryon (#3711)
+* Cyclic cables should no longer drop sticks (#3709)
+* Fixed Mekanism recipe staging (#3636, #3628)
+* Stop backpacks from being swapped to armour slots when right clicked
+* Stage RFTools Control Workbench container, allowing it to craft staged recipes (#3697)
+* Fixed crash when using carryon with enderstorage by blacklisting the mod (#3729)
+* Remove unused primal ores from world generation (#3730)
+* Fixed jukebox saw recipes giving diamond instead of quartz (#3667)
+* Added missing leaf -> stick recipes (#3668)
+* Added missing plank recipes (#3669)
+* Replace certain recipes still using rose red with recipes that use Red Dye Powder (#3682)
+* Correctly stage Inductive Logistics Autocrafters
+* Remove uncraftable recipes for BWM Fertilizer and prevent blank recipe for key displaying (#3651)
+* Stop Sports Car being casually carried around (#3666)
+* Alter recipe of Tier 8 Heavy Duty Plates to match pattern set by previous tiers (#3676)
+* Barrel types are now craftable with different wood varieties (#3691)
+* Pink Slime ingots now consume steel instead of iron - preventing a conflict with compressed iron (#3765)
+* Prevent NetherEx Golden Wither Bone tools being placed in Item Repairer or Diamond Powered Anvil (#3774)
+* Mossy Cobblestone Blocks now have same stage as item and recipe - can be seen in the world from age 0 (#3775)
+* "Iron" Bits Chisel is now only in stage one (made from tin in this pack) preventing Unfamiliar Item and mis-staged recipe problems (#3775)
+* Remove MREs from loot tables (#3776)
+* Replace disabled cord in Yoyo book recipe with String Cord (#3717)
+* Many more blocks now work with the chisel as expected - inc. metals, (char)coal, gem blocks, etc. (#2092)
+* Ciniscotta and Terracotta from Primal now have crafting paths (#3714)
+* Resolved issue with crafting of metal Spartan Shields (#3650)
+* Adjusted staging and recipes of certain items from Cyclic (#3805)
+    * Interdiction Pulsar moved to stage 5 as it seems to serve the same purpose as the fan, only better
+    * Merchant Almanac disabled as it offers no real benefit in this pack - villager trading is a thing of the past by the time it's available
+    * Entity Detector has a new recipe that only uses items from stage 3
+* Increase output of Hemp Fibers and Ground Resin from the Industrial Mill (#3791)
+* Fixed recipe name mismatch between server and client that was causing certain Mystical Agriculture essence recipes to behave strangely (#3818)
+* Config change - blood magic altar tier 6 is available again (#3841)
+
+Enhancements:
+* Removed primal tech twine (had no use)
+* Re-introduce Infused Crystal Pickaxe
+* Both carts from AstikorCarts will now trigger the "Love and Carriage" advancement, text clarified
+* More Metal Press packaging recipes can be reversed using an unpacking mold (#3694)
+* Light gray dye powder now accepted by the AE2 Color Applicator (#3683)
+* Added a crafting recipe for Ironwood Bark/Stripped Ironwood (#3622)
+* Made Charcoal Hopper's Age One recipe to be craftable in a 2x2 grid
+* Added tooltip to clarify how to obtain a car key
+* Stripped unnecessary nulls from recipes; plenty of shaped recipes are now less picky about having their ingredients in the exact right spots in the crafting grid! (@pupnewfster)
+* Ground Netherrack can now be made in the Industrial Mill or the IE Crusher from all types of Netherrack (#3757)
+* Actually Additions Crushed Quartz replaced with AE2 Nether Quartz Dust in all recipes (#3757)
+* Full range of BWM Adobe can now be crafted using Betweenlands Compost in place of dung - see https://ftb.gamepedia.com/Adobe
+* Added an auto-cauldron multiblock machine - making glue now 10x more futuristic (#2545)
+* Hide most Armor Forge variants from JEI - same as is done for the Tool Forge
+* Increased the ceremony times for many of the Totemic Ceremonies. The most difficult: Eagle, Baykok, flute imbuing have been made much easier to attain especially for Single Player worlds. Every ceremony is at least 50% longer
+* Added a new machine to Modular Machinery "Scamulator". This machine's purpose is to allow the crafting of all Galacticraft and Extra Planet schematics by using resources found on planets. This should alleviate the headache of randomly searching for dungeons and hoping the loot you needed dropped. Every schematic requires Liquid Cheese, (because science)!
+* Antique Atlas Markers can now be copied to JourneyMap waypoints. This is done automatically when the JMapStages Waypoint stage is reached. This can also be triggered manually using "/waypoints"
+* Added a final quest to the modpack to summon Sevadus. You will need to use AbyssalCraft to summon him
+* Huge number of mobs added to RFTools Spawner (#3825)
+
+Mods Added:
+* ArcFurnacePatch (1.0.0.3)
+    * Fixes #3718
+* JustEnoughIDsIntegration (1.2.1.29)
+    * Fixes biome changing in various other mods
+
+Mod Updates:
+* AbyssalCraft (1.9.8)
+* AbyssalCraft Integration (1.8.1)
+* Actually Additions (r149)
+* Advanced Mortars (1.6.23)
+* Antique Atlas (4.5.1)
+    * Fixes end city crash (#3731)
+* ArmoreableMobs (1.1.8)
+* AstikorCarts (0.1.2.7)
+* Astral Sorcery (1.10.19)
+* AutoRegLib (1.3-31)
+* BASE (3.13.0)
+* Better Advancements (0.1.0.77)
+* Better Builders Wands (0.13.2.271)
+* Better with Addons (0.50)
+* Blood Magic (2.4.1-103)
+    * Fixes an issue where a Blood Letters Pack could be voided if right clicked when in off hand (#3722)
+* BnBGamingCore (0.11.0)
+* BnBGamingLib (2.17.6)
+* Bonsai Trees (1.1.3-b156)
+* Bookshelf (2.3.581)
+* BuildCraft (7.99.24.1)
+* Building Gadgets (2.6.8)
+* CD4017BE Library (6.4.6)
+* Ceramics (1.3.7)
+* Chisels and Bits (14.33)
+* Common Capabilities (2.4.1)
+* Compact Machines (3.0.18-b278)
+* Construct's Armory (1.2.4)
+* Cooking for Blockheads (6.4.70)
+* Corail Tombstone (3.5.3)
+* CraftTweaker (4.1.18)
+* Cyclic (1.19.11)
+    * Fixes an issue with hydrator recipe caching (#3700)
+* Cyclops Core (1.3.0)
+* DarkUtils (1.8.226)
+* Dimensional Control (2.11.0)
+* Environmental Tech (2.0.20.1)
+* Elevator Mod (1.4.2)
+* Extended Crafting (1.5.4)
+* ExtraPlanets (0.5.3)
+* Farseek (2.3.2)
+* Fast Furnace (1.3.1)
+* FastWorkbench (1.7.2)
+* Foamfix (0.10.5)
+* Galacticraft Core (4.0.2.211)
+* Galacticraft Planets (4.0.2.211)
+* Gamestages (2.1.115)
+* Geolosys (2.2.6)
+* Horse Power (2.6.3.74)
+* Hunting Dimension (1.0.39)
+* ImmCraft (1.6.0)
+* In Control! (3.9.8)
+* Industrial Foregoing (1.12.11-235)
+* Integrated Dynamics (1.0.14)
+* Iron Chests (7.0.69.845)
+    * Fixes issue with inventories not being visible when in the same chunk as a TConstruct Smeltery Controller (#3696)
+* Item Stages (2.0.49)
+* JEI (4.15.0.278)
+* JourneyMapStages (2.0.9)
+    * Fixes an issue where JourneyMap minimap would not display when unlocked (#3613)
+* Mantle (1.3.3.55)
+* MCJtyLib (3.5.3)
+* Mekanism (9.7.9.380)
+* MicDoodleCore (4.0.2.211)
+* ModTweaker (4.0.17)
+* MTLib (3.0.6)
+* MystAgrad (1.3.2)
+* Mystical Agriculture (1.7.5)
+* Natura (4.3.2.69)
+* Nutrition (4.3.0)
+* OreExcavation (1.4.140)
+* Overloaded (0.0.57)
+* Pickle Tweaks (2.1.3)
+* Placebo (1.6.0)
+* PlayerBosses (1.0.0)
+* PneumaticCraft: Repressurized (0.11.1-361)
+    * Adds a way to transmit redstone along pressure tubes using the Redstone Screen Module
+* Primal Tech (0.3.4)
+    * Fixes saw stripping NBT (#3542)
+* Quark (r1.5-158)
+* RebornCore (3.13.12.447)
+* RebornStorage (3.3.4.85)
+* Recurrent Complex (1.4.8.2)
+* Refined Storage (1.6.14)
+* Refined Storage Addons (0.4.4)
+* RFTools (7.71)
+* RFTools Control (2.0.2)
+* SevTweaks (0.3.1-25)
+* Simple Generators (2.0.20.2)
+* Simple Storage Network (1.7.6)
+* Smooth Font (2.0)
+* Spartan Shields (1.5.2)
+* Steve's Carts Reborn (2.4.30.134)
+* Streams (0.4.7)
+* The Beneath (1.5.1)
+* Tinkers Construct (2.12.0.135)
+* Tinkers' Complement (0.4.1)
+* TipTheScales (1.0.4)
+* Toast Control (1.8.1)
+* Together Forever (1.0.12-22)
+* Totemic (0.11.6)
+* Triumph (3.17.0)
+* ValkyrieLib (2.0.20.1)
+* WAWLA (2.5.273)
+* Weirding Gadget (2.1.16)
+* YNot (0.2.4)
+* Yoyos (1.3.0.21)
+* Xnet (1.8.1)
+
+Mods Removed:
+* AppleCore
+    * Not required - AppleSkin supersedes
+* Caliper
+    * Debug tool - not needed in release
+* Sampler
+    * Debug tool - not needed in release
+* World Stripper
+    * Debug tool - not needed in release
+
+---------------------------------------------------------------------
+
+3.1.1
+
+Bug Fixes:
+* Propene recipe not matching inputs (#3614)
+* Changed BWM Adobe recipe to not require Dung
+
+Enhancements:
+* Hide junk from JEI
+
+Mod Updates:
+* Modular Machinery (1.9.5)
+* MPBasic Tools (1.4.11)
+
+---------------------------------------------------------------------
+
+3.1.0
+
+Important Notes:
+* The modpack has had a complete re-write of all the CraftTweaker Scripts to make our lives easier during development along with easier updates. However in the process some bugs may show from items
+being staged wrong. Or recipes not working correctly, we have done all the testing we can to ensure this won't happen. But with all development processes things will get past QA. So if you find
+any problems please report them to our tracker, thanks!
+* Tomb Many Graves has been removed! So what does this mean for me? Well if you have any graves lying around they are now gone. The change has been done due to the lack of support from other mods
+in the pack which TMG was not getting all the player items. Leading to item loss and users not playing the pack again. So we have changed to using Corails Tombstone which has the mod support we
+need, along with some added items which will help the player in the long run. Also for you builders out there, you now have graves to place around your base! We're sorry if you've lost items from
+the old graves. But this is a major update and we had to make the change now rather than later. We hope you can understand this.
+* If you get a crash relating to `java.lang.NoSuchFieldError: OpenGL45` your LWJGL is out of date. The needed version is 2.9.4 if your using MultiMC you can change the version in the instance settings.
+Twitch you should use the Jar Launcher as this will auto use the correct version. Likewise for ATLauncher.
+* Refined Storage (1.6) has a major change in how the mod works. So please review the changes to see what's broken on your network. There is nothing we can do on the pack side to help with, the possible
+breakage of your networks/autocrafting etc... So please ensure you read the changelog and understand the changes done by the mod. The modder has put work into upgrading current networks. But expect to find
+issues! This is your only warning about this. So don't open issues on the tracker about issues. Unless it's an actual bug with the mod!
+* Viescraft has been updated (which the mod did a refactor) this means that your ships will vanish, along with some items. This is another thing we can't control with mod updates. All we can say is sorry. Feel free to
+spawn in components to re-make your ships. Note: Ship building changed a bit so please read up on the changes.
+* ContentTweaker Molten Fiery is now removed (deprecated in 3.0.8)
+* Astral Sorcery has a new perk system, and as a result the mod will reset your perk experience.
+* Astral Sorcery rituals may not be active after upgrading. To restart them, simply pick up the crystal from the pedestal and place it back down.
+* The Compact Machines Advancement ("Project Miniaturization") may have been reset if you currently had the advancement. See https://github.com/DarkPacks/SevTech-Ages/issues/3594#issuecomment-471080837 for a resolution.
+
+Bug Fixes:
+* Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
+* Fixed Bronze Tool recipe issue and added Copper Tool recipes (#2802)
+* Fixed "Broken" tooltip from displaying on the Cyclic swords and Twilight Forest's Glass Sword.
+* Fixed Cyclic player launcher recipe.
+* Fixed Bloodwood and Ghostwood planks crafting each others slabs (#3173)
+* Fixed Steve's Carts Liquid Sensor recipe to fit age 3 (#3152)
+* Fixed Better With Mod's Bamboo Chimes recipe to be craftable in age 1, and made the Metal Chimes recipe match
+* Fixed Primal Tech fibre torch to vanilla torch recipe to allow lit fibre torches (#797)
+* Disabled "pistons move t es" from Quark to prevent crash with Cyclic Redstone Clock (#3110)
+* Disabled "What is 11?" Easter Egg with Actually Additions (#3140)
+* Disabled Coal Block to Diamonds in PneumaticCraft config to force it off.
+* Disabled "Right-Click Places Torch from Hotbar" in ClientTweaks config to fix incompatibility with Tinkers Construct Smelteries (#2892)
+* Disabled Iridium Singularity (#2985)
+* Disabled Compressed Zinc (#3168)
+* Fixed Unrefined Desh not smelting in Mekanism smelters
+* Blacklisted Tinkers' Tools & Construct's Armory Armor from the Powered Diamond Anvil to prevent some issues. As well, we feel these items
+should not be repairable anyways using this method. (#2925)
+* Fix exploit to obtain Mystical Agriculture ores early using oredict conversion machines. (#2840)
+* Fixed Chisel Temple block recipe giving incorrect recipe output amount. (#2814)
+* Disabled pickup of the GCPlan spout with the sack of holding.
+* Fixed custom bedrock not being in the allowed bedrock for Ender Utilities (#3201)
+* Fixed dye recipes not being removed (some missed ones) and fixed current recipes (#3217)
+* Fixed Constructs Armory's book not being able to go into bookshelves (#3227)
+* Fixed jukebox missing recipe (#2905)
+* Fixed removed dupe processing recipe for Lapis (#3083)
+* Added missing recipes for some power inputs for MM (#3090)
+* Fixed inconsistent recipe for VC frame upgrades (#2568)
+* Fixed raw pigman pelt processing recipe (#2912)
+* Fixed Content Tweaker ores only working in quartz grindstone (#3147)
+* Fixed custom Geolosys Ores generating in un-wanted dimensions (#2184)
+* Added recipes for Priaml cosmetic stones (#1672)
+* Fixed Pneumaticraft assembly laser recipe to use correct dye.
+* Added recipes for missing Natura Grass blocks/slabs/stairs (#3310)
+* Fixed missing recipe for emptying rustic bottles (#2157)
+* Tweaked staging for rustic slate blocks (#3372)
+* Fixed conflicting recipes with a diamond apple (#3446)
+* Fixed Creative advancement trigger being called by two advancements (#3596)
+* Fixed Compact Machines Advancement ("Project Miniaturization") being in incorrect stage (#3594)
+* Fix IE excavator not yielding geolosys clusters (#3025)
+
+Enhancements:
+* Disabled more Cyclic Enhancements not needed for this pack.
+* Added Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
+* Made ore advancement descriptions uniform and corrected Y values.
+* Added trade with the FFBH mod to get Corn Seeds.
+* Fixed inconsistent recipes with Rice and some Bread recipes.
+* Increased age 3 coal coke torch recipe to make 4 torches instead of 2.
+* Nerfed Better With Mod's nether coal recipe to make 1 instead of 4.
+* Fixed remaining recipes using the wrong lead ingot, also hidden the ingot and block in JEI to prevent confusions.
+* Added Industrial Mill recipes for Bone Meal (#3189)
+* Added some more ingredients to the CWBH compact module (#2051)
+* Fixed some FakePlayers not being staged (more will be added as we find them). #progress!
+* Hid Totemic's netherumbrian pipes, bark stripper, and Primal Tech's water powered saw from JEI
+* Add recipe to the Industrial Mill to process Low Grade Charcoal to Charcoal (#2843)
+* Add better bucket recipe via the Hydraulic Press (Age 5) (#2777)
+* Added recipe for low grade charcoal to the BWM Kiln (#2786)
+* Added recipe for Sticks from the BWM Saw via Wood Slabs (#2786)
+* Added more recipes to the Industrial Loom (#2293)
+* Added Bibliocraft shelf recipe with BWM siding (#1476)
+* Tweaked the spawn weight for Steppe Wolves (#3315)
+* Re-Stage water bottle to Stage Two (#1648)
+* Added recipes to the Squeezer to help Alcohol Production (#2724)
+* Added more wood items from Natura to OreDict to enforce more barrel compat.
+* Changed stage advancements to now show regardless of their parent being completed (If you have the age, you can see all advancements)
+* Tweaked the portal color of the Hunting Dimension Portal
+* Removed Shoggoth Acid Spit
+* Disabled Shoggoth item destruction
+* Decreased the health of Lesser Shoggoths to 50
+* Decreased the health of Shadow Beasts to 50
+* Decreased the health of Shadow Creatures to 10
+* Decreased the health of Shadow Monsters to 35
+* Increased the spawn chance of meteors
+* Disabled Galacticraft "Harder Difficulty" & enabled "Quick Game Mode" - This reduces the cost of plates, and in general aims to reduce the grind
+* Added a Meteoric Iron dust and unified Meteoric Iron
+* Allow fire sticks to be used as a fire source (for lighting torches, etc)
+* Removed Meteorite Compass as it was not used for anything (#3517)
+* Reordered advancement tabs so SevTech advancements are first (in order of stage) followed by the remaining in alphabetical order
+* Astikoor Wheel & Steve's Carts Wooden Wheel recipes altered slightly
+* Added Abyssalcraft ritual to get Mooshroom Essence for RF Tools Peaceful Dimlet (#3093)
+* Increased the chances of finding Shoggoth Lairs
+* Changed Carbon Wafer to Advanced Wafer in Creative Jetpack recipe
+* Remove useless Wafers
+* Add tooltip to Death Compass Singularity to indicate how a Death Compass can be obtained
+* Add tooltip to Coralium Ore & Pearl (#3591)
+* Add tooltip to BWM Mill Stone (#3585)
+* Disable Better Foliage's falling leaves to help improve performance
+* Add chocolate recipe to Modular Machinery Mixer
+* Reduce HP of Steppe Wolf by half (25-12.5)
+* Allow death compasses to be stackable & add a recipe to clear NBT data
+* Allow NetherEx Basalt Blocks to be obtained by chiseling other basalt blocks
+* Blacklist Shoggoth Lairs from Twilight Forest
+
+Forge: 14.23.5.2815
+
+Mods Added:
+* BetterWithLib (1.5)
+    * Now needed with a BWM update. Yay more libs! >.<
+* Building Gadgets (26.6)
+* Corails Tombstone (3.3.2)
+    * This replaces Tomb Many Graves.
+* Fast Furnace (1.2.1)
+    * Caches the last recipe used. Helps with tick time and look up speed etc...
+* In-Game Wiki
+    * Needed for the mods which don't have only docs but support IGW.
+* JustEnoughIDs (1.0.2-26)
+    * Allows us to add more content #ContentUpdateAnyone?
+* LibEx (1.0.8)
+    * Now required by Nether Ex (2.0.0+)
+* Mekatweaks (1.0.0)
+* More Overlays (1.14)
+* Playerbosses (0.1.0)
+* Proportional Destruction Particles (1.2.4)
+* Tips (1.0.7)
+    * JustTheTips replacement
+* ZenStages (0.4.0-18)
+    * Allows us to create staging modpacks far easier.
+
+Mods Removed:
+* CraftStudio API
+* JustTheTips
+* NotEnoughItems
+    * Conflicting more and more with JEI and other utilities
+* Tomb Many Graves
+    * This mod was causing more problems than solving. So we have decided to drop the mod in favour of another which has mod support
+      and active development.
+
+Mod Updates:
+* A Block of Charcoal (1.2)
+* AbyssalCraft (1.9.5.2)
+    * Acid Projectiles no longer break blocks with Tile Entities when hitting Players or other mobs
+    * Fixed a dupe bug in the Materializer GUI
+    * Reduced the range of Cha'garoth's melee attacks
+    * Slowed down the initial velocity of the Acid Projectile, increased the time between each projectile being fired, and made it so baby Lesser Shoggoths won't fire them
+    * Any NBT checks for crafting recipes and/or rituals are now a lot less strict (the placed item needs to contain the recipe item NBT tags)
+    * Increased the range of the Corruption, Cleansing and Purging rituals to 8x8 chunks (previously 3x3)
+    * Lesser Shoggoths now swim faster (and can move against flowing water)
+    * If two mobs/players/whatevers close to each other both have Dread Plague I, they can infect each other with Dread Plague II
+    * Lesser Shoggoths now have an AI for monolith construction, which makes the construction happen more frequently
+    * The purging ritual now only converts biomes that are Dreadlands biomes
+    * Cha'garoth now opens his mouth during his barf attack (courtesy of Enderman_Of_D00m)
+    * Fixed the crystallizer recipes for processing Bronze
+    * J'zahar has been buffed with new attacks (including shouts, earthquakes and conjuring black holes and gravity anomalies)
+    * The Dreadlands Portal now spawn Dreadlings instead of Dread Spawns
+    * Energy Containers can now display values over 32767 in their GUIs
+    * Doubled the time it takes for a Lesser Dreadbeast to spawn a Dread Spawn
+    * Lesser Shoggoths have a new model
+    * Lesser Shoggoths are now multipart entities
+* AbyssalCraft Integration (1.7.0)
+* Actually Additions (r146)
+    * Added redstone sensitivity / comparator output to Bio Reactor.
+    * The farmer will now only plant from seed slots.
+    * The farmer will now only attempt to plant if the current block can be replaced.
+    * The crusher is no longer animated when not crushing.
+    * Fixed the farmer (and other inventories) failing to add items if all items have a stacksize of 1.
+* Advanced Mortars (1.6.22)
+* Animalium (0.3.8)
+* Antique Atlas (4.5.0)
+* Apple Core (3.2.0)
+* Applied Energistics 2 (rv6-stable-6)
+* Aroma Core (2.0.0.2)
+* Aroma Backup (2.1.1.4)
+* AstikorCarts (0.1.2.6)
+* Astral Sorcery (1.10.11)
+* AutoRegLib (1.3-26)
+* B.A.S.E (3.12.0)
+* Better Advancements (0.0.17.75)
+* Better Foliage (2.2.0)
+* Better With Addons (0.47-hotfix)
+    * Changes Lanterns to only extinguish when sneaking while rightclicking.
+    * Fixes some networking issues in multiplayer when using a writing table
+* Better With Mods (2.3.20-1027)
+* BiblioCraft (2.4.5)
+* Blood Magic (2.4.0-102)
+    * Fixed Teleposition Sigil not checking for a Teleposer at it's destination
+    * Fixed Lava Crystal not syphoning LP
+    * Fixed the Ritual of the Green Grove not working on Cactus and Reeds
+    * Fixed Mob Sacrifice Array so it no longer kills bosses and players
+    * Fixed issues with inter-dimensional teleportation
+    * Fixed the Lava, Water, and Void sigils so they now work properly with tanks
+* BnBGamingCore (0.10.0)
+* BnBGamingLib (2.17.5)
+* Bookshelf (2.3.574)
+* Bonsai Trees (1.1.2-b144)
+* BuildCraft (7.99.22)
+* Caliper (1.1.41)
+* Car Mod (1.2.12)
+* CarryOn (1.12.1)
+    * When a carried object somehow gets out of the hand of the player and gets moved anywhere in the inventory, it gets automatically removed and placed in the world.
+    * Fixed a bug that could force-close certain GUI's even if the block was blacklisted
+    * Carry-Key could get stuck when entering through dimensions
+    * More blocks are now rotated properly when placed down
+* Caliper (1.1.37)
+* CD4017BE Lib (6.3.3)
+* Ceramics (1.3.6)
+* Chargers (1.2.0.4)
+* Chisel (0.2.1.35)
+* Chisel & Bits (14.30)
+    * Fix a crash when rendering invalid ghost blocks.
+    * Enhance API to provide collisions and other bounding box information
+    * Fix performance when placing bits with a ridiculous surplus of extra bits.
+    * Dye-able bit bags.
+    * Sort/Combine/Condense Button for Bit Bag.
+    * Rotate X / Z buttons.
+* Client Tweaks (3.1.11)
+    * Removed Hotbar Torch Tweaks
+* Clumps (3.1.2)
+* Code Chicken Lib (3.2.2.353)
+* Coloured Tooltips (1.0.7)
+* Common Capabilities (2.0.4)
+* Compact Machines (3.0.15-b249)
+* Connected Textures Mod (0.3.3.22)
+* Construct's Armory (1.2.3)
+* ContentTweaker (4.9.1)
+* Cooking With Blockheads (6.4.69)
+    * Added Storage Drawers support
+        * Only actual drawer blocks are supported, controllers can not be connected.
+    * Added Heating Unit
+        * Apply it to an oven (via right-click) to power the oven via Forge Energy compatible mods
+    * Added rendering of water inside the sink
+    * Made tool racks and spice racks placeable on non-solid blocks (like glass)
+    * Fixed crafting of recipes with tools not working when the tool is damaged
+    * Fixed wrong rock material of the placed cutting board (instead of wood)
+* CraftTweaker (4.1.14)
+* Cucumber (1.1.3)
+* CustomMainMenu (2.0.9)
+* Cyclic (1.17.16)
+    * Entity Detector lag busting: it now only scans serverside, and ticks 4 times per second instead of 20 times per second.
+    * Fixed RF Energy bars in machine GUI's not updating clientside when certain cables/fluxducts/generators would insert energy serverside.
+    * Forester GUI now has size and height controls.
+    * Fixed Auto User not gathering drops from certain plants and bushes.
+    * Fix crash when Block Placer uses some directional blocks.
+    * Block Placer no longer has a timer bar, it just places when it can.
+* Cyclops Core (1.0.5)
+* Dark Utilities (1.8.223)
+* Default Options (9.2.8)
+* Despawning Spawners (1.2.0-2)
+* Dimensional Control (2.10.3)
+* Dimension Stages (2.0.23)
+* EmberRootZoo (1.3.10)
+* Enchantment Descriptions (1.1.13)
+* Ender Storage (2.4.5.135)
+* Ender Utilities (0.7.12)
+* Environmental Tech (2.0.19.1)
+* Extended Crafting (1.5.2)
+    * WAILA will now show what's being crafted for the Crafting Core and Quantum Compressor
+    * Fixed the Automation Interface not working properly with the Ender Crafter
+    * Fixed the Ender Crafter not saving it's inventory in some cases
+    * Fixed the Automation Interface not saving the result of an Ender Crafting recipe properly
+* ExtraPlanets (0.5.0)
+* Fancy Block Particles (2.4.1)
+* Farming For Blockheads (3.1.26)
+    * Remove villager idle noises from merchants because they're so annoying
+* Farseek (2.3.1)
+* FastWorkbench (1.6.1)
+* Ferdinand's Flowers (1.10.4.1)
+* FindMe (1.1.0-8)
+* FoamFix (0.10.3)
+    * Please note that this is the formerly "Anarchy" version; the "Lawful" version is no longer distributed.
+    * Optimized model deduplication speed, though with the increased number of recursion it won't be noticeable in practice - however, it should lead to more RAM saved.
+    * Add patch which lowers the expensive "player presence" check for mob spawners from being done every tick to being done every 10 ticks (by default; you can increase or decrease it). The default will be changed to vanilla behaviour if it's proven that it causes a perceptible difference in gameplay, particularly with regards to automation - but it really shouldn't...
+    * Fix compatibility with ArmorPlus.
+* Forge Multi Part (2.6.1.81)
+* ForgeLin (1.7.4)
+* Galacticraft (4.0.1.181)
+* Galacticraft Planets (4.0.1.181)
+* Galacticraft Tweaker (1.0.3)
+* Game Stages (2.0.112)
+* Geolosys (2.1.4)
+    * NEW: Depleting a mineral resource prevents it from showing up with the prospector's pick on the surface
+    * CHANGED: ProPick and guide book now use depth relative to sea-level instead of just Y level
+    * FIX: log outputs with the Mineral tracking process; this was causing lots of lag.
+    * CHANGED: storage method of internal variables to an almost-no-latency method; helps with mineral tracking too.
+* Guide API (2.1.8-63)
+* Horse Power (2.6.2.71)
+    * Fixed rare crash with the error display of the blocks while holding a lead.
+* Hunting Dimension (1.0.36)
+* Immersive Craft (1.5.1)
+* Immersive Engineering (0.12-89)
+    * Added a "Distribute Inputs" button to the ArcFurnace GUI. It keeps splitting the biggest stacks in the input if there is space available
+* Improved Backpacks (1.4.0.0)
+* In Control (3.9.4)
+* Inductive Logistics (1.3.3)
+* Industrial Foregoing (1.12.7-231)
+* Informational Accessories (1.0.11)
+* Integrated Dynamics (1.0.7)
+    * Add visual indicator in operator dropdown list on next/prev elements
+    * Fix simple omnidirectional copy recipe resetting IDs
+    * Fix variables with operations not updating after chunk reload
+    * Fix incomplete flipped operators throwing errors
+    * Add state-type check to display panel TESR this fixes a rare crash where swapping dimensions could cause conflicting part states.
+* Inventory Tweaks (1.64+dev.146)
+* Iron Chests (7.0.59.842)
+* Iron Jetpacks (1.1.0)
+* Item Stages (2.0.46)
+* JourneyMap (5.5.4)
+* JourneyMapStages (2.0.8)
+* Just Enough Items (4.15.0.268)
+* KleeSlabs (5.4.11)
+* Mantle (1.3.3.42)
+* MTLib (3.0.5)
+* Mekanism (9.6.0.351)
+* MicDoodleCore (4.0.1.181)
+* MicJty Lib (3.1.1)
+* MJRLegends Lib (1.1.8)
+* Mob Grinding Utils (0.3.13)
+    * Changed mob masher to extend kill zone slightly past the block bounds - now exceeds the block by 1 pixel all around - be careful.
+    * Changed some code with the Fans due to reports of them causing server crashes when broken.
+    * Fixed overlooked derp that meant Mob Mashers could be broken by Withers and the Dragon - doh!
+    * Should fix beheading attribute on mobmasher returning null for mobs without heads and crashing people - whoops.
+* Mob Stages (2.0.13)
+* Modular Machinery (1.9.6)
+* Modular Routers (3.2.1)
+    * Added the Distributor Module, a way to distribute items across multiple target inventories. Can do round-robin, random, nearest-first or furthest-first.
+* Mod Tweaker (4.0.16)
+* Morpheus (3.5.106)
+* MouseTweaks (2.10)
+* MPBasic Tools (1.4.10)
+* MPUtils (1.5.7)
+* MulitBlock Stages (1.1.1)
+* Mundane Redstone Ore (1.1.4)
+* Mystical Agradditions (1.3.1)
+* Mystical Agriculture (1.7.3)
+    * Fixed a crash involving PneumaticCraft harvest drones
+* Natura (4.3.2.66)
+* Neat (1.4-17)
+* Nether Ex (2.0.8)
+    * Pigtificate Villages not spawning
+    * Potion effects from decreasing performance
+    * Forge population not being triggered
+    * Features not generating during the correct stages
+    * A crash caused by the Ghast Queen's Urn position being null
+    * A crash caused when right-clicking Zombie Pigmen
+* Not Enough Items (4.2.1.238)
+* Nutrition (3.5.0)
+* OpenBlocks Elevator (1.3.8)
+* Ore Excavation (1.4.137)
+* Ore Excavation Integration (2.3.4)
+* Ore Prospector (1.0.2)
+* Ore Stages (2.0.37)
+* Overloaded (0.0.53)
+* PickleTweaks (2.1.1)
+* PrimalCore (0.6.102)
+    * Cauldron item storage size has increased, existing cauldrons will need to be picked up and placed again
+    * Fix Corn worldgen issues
+    * Fix Worldgen issues
+    * Tonnes of other changes/fixes. #Content!
+* Placebo (1.5.1)
+* PneumaticCraft (0.8.4-303)
+    * The Omnidirectional Hopper and Liquid Hopper now have comparator support to measure their fullness.
+    * Logistics Drones now grab as many of the requested item type as can fit in a single item stack, instead of taking simply the first stack from the inventory.
+    * Fix: items not always transferring in Logistics Network (using tubes & Logistics Modules)
+    * Fixed drones having their AI overridden by carried entities (Entity Import program piece)
+    * Fixed possible lockup (endless loop) on startup with drones
+    * Fixed occasional crashes when teleporting into areas with client-side (TESR) renderers
+    * Drones will now auto-equip the best (highest damage, taking enchantments into account) weapon in their inventory when entering combat (only applies with upgraded inventories, of course).
+    * Drones have been taught how to melee 1.9 style. They were still fighting 1.7.10 style, which made them hopeless at melee.
+    * Fix: server crash if a drone carrying multiple buckets tried to milk a cow. Now the drone will drop any milk buckets that it has no inventory space for on the ground.
+    * Fix: right clicking a refinery block with a bucket or other fluid container will now extract the right fluid (previously it always tried to extract from the bottom block in the stack, regardless of which block was clicked)
+    * Pneumatic Door now plays a (suitably pneumatic) opening/closing sound effect.
+    * Some performance improvement work, particularly around Omni and Liquid Hoppers. In particular, extracting from the Refinery with Liquid Hoppers caused significant FPS drops.
+    * Liquid Hoppers no longer accept input fluids on their output face, and will no longer output fluids from their input face. (Related to performance improvements mentioned above)
+    * Reworked 3rd party wrench support: many more wrenches are now supported
+    * Fixed NPE when using a newly-crafted GPS Area Tool
+    * Fixed (hopefully) semiblocks rendering leaking across dimensions (semiblocks are logistics frames, heat frames, crop supports, spawner agitators & transfer gadgets)
+* Prestige (1.1.30)
+* PrimalCore (0.6.104)
+* Quantum Storage (4.6.8)
+* Quark (r1.5-146)
+* Realistic Item Drops (1.2.14)
+* Reborn Core (3.13.5.421)
+* Reborn Storage (3.3.2.79)
+* Recipe Stages (1.1.1)
+* Redstone Flux (2.1.0.6)
+* Refined Storage (1.6.12)
+    * TLDR: The mod changed a lot and some things are gone/changed. So check your networks/recipes, basically check all your setup! And read the changelog below!
+    * Changes: https://minecraft.curseforge.com/projects/refined-storage/files/2587374
+* Refined Storage Addons (0.4.3)
+    * Removed Network Bag
+    * Removed Network Picker
+    * Removed Infinite Wireless Transmitter
+* RFTools (7.61)
+    * Support for COFH RF API is removed. Only Forge Energy is supported now
+* RFTools Control (1.9.3)
+    * Support for COFH RF API is removed. Only Forge Energy is supported now
+* Rustic (1.1.0)
+* Scannable (1.6.3.24)
+* SevTweaks (0.2.3-20)
+* Simple Generators (2.0.19.1)
+* SimpleHarvest (1.2.7-20)
+* Simple Storage Network (1.5.7)
+* Smooth Font (1.16.2)
+* Steve Carts (2.4.29.132)
+* Storage Drawers (5.3.8)
+* Super Sound Muffler (1.0.2.10)
+* Tesla Core Lib (1.0.15.13)
+* The Beneath (1.5.0)
+* Together Forever (1.0.11-20)
+* Translocators (2.5.1.77)
+* Triumph (3.12.0)
+* The Betweenlands (3.4.6)
+    * Fixed water invisible when in Weedwood Rowboat with Galacticraft installed
+    * Fixed a crash when certain items were rendered in Weedwood Workbench
+    * Fixed apparent crash when entering the Betweenlands
+    * Fixed some shader textures uninitialized in first frame when loading world causing a crash with Optifine
+    * Fixed player mounting Harlequinn Toad when healing with Dragonfly Wings
+    * Fixed Harlequinn Toad healing causing a null stack crash in a specific situation
+    * Tonnes of other changes see: https://minecraft.curseforge.com/projects/angry-pixel-the-betweenlands-mod/files/2631583 and https://minecraft.curseforge.com/projects/angry-pixel-the-betweenlands-mod/files/2635610
+* The Twilight Forest (3.8.689)
+* The Weirding Gadget (2.0.13)
+* Tinkers Construct (2.12.0.115)
+    * New Pattern Chest model!
+    * Patterns/Toolparts can now be rightclicked into chests
+* Tinker Tool Leveling (1.1.0)
+* Tinker Stages (2.0.17)
+* Tinkers Construct (2.10.1.87)
+* TipTheScales (1.0.3)
+* To The Bat Poles (1.1.0.1)
+* Toast Control (1.8.0)
+* Together Forever (1.0.10-17)
+* Totemic (0.11.5)
+* Translocators (2.5.0.73)
+* Traverse (1.6.0-69)
+* Triumph (3.13.0)
+* ValkyrieLib (2.0.19.1)
+* Viescraft (5.9.13)
+* WanionLib (2.2)
+* Wawla (2.5.270)
+* Wither Skeleton Tweaks (2.6.3)
+* World Stripper (1.6.0)
+* XNet (1.7.6)
+    * Support for COFH RF API is removed. Only Forge Energy is supported now
+* YNot (0.2.3)
+
+---------------------------------------------------------------------
+
+3.0.8
+
+Important Notes:
+* Molten Fiery liquid has changed. The old liquid is now deprecated and a new one will take over provided by Twilight Forest
+
+Bug Fixes:
+* Fix platinum crushing / etc recipes (#2315)
+* Fix wool dying recipe giving 1x output instead of 8x - No, we are not jerks (#2307)
+* Adjusted tooltip of Journeymap Token to clarify it needs to be eaten not just obtained (#2291)
+* Fix Ore Excavation modifier recipe not working (#2314)
+* Fixed some buckets being shown/hidden incorrectly
+* Blacklist aspectrus crop from carryon (#2341)
+* Adjust fiery sword and pickaxe recipes to be craftable in age 2 (#2288)
+* Add a few more entries to book array (#2363)
+* Twilight Forest Castle Doors now drop the right item
+* Re-remove tiny iron dust recipe (#2298)
+* Move Garden Scythe into proper age 3 to match items used in recipe
+* Add back Ironberry Juice recipe (#2298)
+* Add missing platinum magical crop (#2350)
+* Add missing Rope Block decompression recipe (#2379)
+* Fixed dupe cocoa bean recipe (#2386)
+* Fixed staging on the Unchant Pylon (#2380)
+* Fix many logs not working with BWM Sawmill (#2369)
+* Add missing recipes for Diamond and Emerald Workblades (#2260)
+* Re-add ingot -> dust crushing recipes (#2353)
+* Fixed Mantle of Stars Aevitas not giving any hunger/saturation (#2371)
+* Fixed Bone dupe when repairing sharp bone in crafting grid (#2358)
+* Turned off Better with Mods handling of default Mossy Cobble and Mossy Stone Brick recipes (#2393)
+* Fixed dupe bug by Blacklisted Immersive Engineering blocks from the Cyclic Sack of Holding (#2410)
+* Fix Arc Furnace bronze alloying giving incorrect output amount (#2334)
+* Mining Ilmenite with silk touch will now give the block
+* Fix Chisels and Bits chisel recipe to work in 2x2 grid
+* Removed ability to put ironbackpacks inside of ironbackpacks (#2402)
+* Fixed Parchment advancement not triggering in some situations (#2416)
+* Disabled the Uncrafter for good (#2436)
+* Fixed Paperclip Factory not forming when conveyors weren't facing/moving items north (#2404)
+* Fixed Orematic Mk2 and Mk3 requiring some blocks being placed in a specific orientation
+* Fixed more dupe bugs caused by Cyclic Uncrafting Grinder and Cyclic Sack of Holding
+* Fixed Better with Mods Saw no longer working on leaves and melons (#2428 and #2483)
+* Fixed Explorer Map now showing for the Cartographer (#2480)
+* Moved Galacticraft Battery and Energy Storage Module to stage 4 to allow for the Tier 1 Space Suit to be charged (#2503)
+* Move sign recipe to age 0 (#2507)
+* Fix Power adapter breaking instantly with no drop (#2478)
+* Move Flat Bread to age 0 to match Flour (#2508)
+* Fix Mekanism Tank clearing recipe giving creative tank in return (#2513)
+* Fix Astral Sorcery Rock Crystal Sample not showing in JEI (#1271)
+* Fixed missed recipes in ExPlant with it's uranium (#2539)
+* Fixed Blood Magic bound tools being able to break in some situations
+* Hopefully fix the spawn rate for Imps (#1910)
+* Fixed Wither Skulls not craftable with withering souls (#2564)
+* Fixed invalid recipe for a few Extra Planet things (#2575)
+* Fix Car Mod Yellow Painter using the wrong dye (#2594)
+* Fix Diamond Block not having an uncraft recipe back to Diamonds (#2599)
+* Fix IE Bottling Machine being staged wrong (#2607)
+* Fix Molten Stone exploit with melting Seared Cobblestone (#1673)
+* Fix Nether Wart turning into beetroot when breaking the block below it (#1274)
+* Fix Netherrack breaking into Low Grade Charcoal from explosions etc (#1941)
+* Move the Tinkers Bacon back a stage to allow usage when you have Pig Iron Tools (#2614)
+* Remove the Actually Additions Crafting stick in favour for the Extended Crafting version (#2198)
+* Allow Leather Cordage to be made in top or bottom slots
+* Blacklist Buggy Fueling pad from carry-on
+* Blacklist all of PneumaticCraft from Carry-On to prevent crashes (#2651)
+* Add missing Gray Wool dying recipe (#2653)
+* Fix glue cauldron recipes for pelts being derpy (#2680)
+* Fix Tier 4 space suit using Tier 1 armor layer (#2695)
+* Fix inconsistency with the Mining Level on Nether Quartz Ores (#1782)
+* Fix remove Prismarine variants from the Chisel to force the crafting recipe also fixes dupe issue (#2450)
+* Remove recipe for the clay armour as we force another recipe (#1674)
+* Fix recipe conflict with cocoa beans turning into dye powder instead of cocoa powder (#2386)
+* Fix incorrect tooltip on Tier 4 Rocket Schematic (#1908)
+* Fix missing recipe for the pipe pulsar due to the pack not having the assembler table (#2762)
+* Staged Skeleton Trap Horses in Age 1 (#1611)
+* Add hardness to Reinforced Coke Brick (#2784)
+
+Enhancements:
+* Updated Privacy Policy
+* Experiment 115 now grants all nutrition groups instead of only protein
+* Add dying recipes for the Twilight Forest Castle Doors
+* Removed the Cyclic conveyors as they are not needed and the new ones claims more Ids which we don't want to waste
+* Adjusted Aevitas attunement perk and Mineralis ritual to only spawn Geolosys ores
+* Added recipes for the Bronze tools added by Pickle Tweaks
+* Added recipe for rice dough to the Mixer modular machine (#2447)
+* Updated Better with Mods potash recipes so they are more clear
+* Allow any Heavy Oxygen Tank to be used in the Oxygen Storage Module recipe (#2479)
+* Allow a larger selection of cobblestone slabs for the Kiln recipe (#2482)
+* Add a additional 50% drop chance for Wild Dog Pelts from Wild Dogs and also added a higher drop rate with Looting
+* Added upgrade recipe for the Primal Chest Advanced to a Minecraft Chest
+* Added Startlight Transmutation for Kepler Iron and Copper to Inferium and Prosperity Ores (#2514)
+* Updated Desh Ore advancement to trigger on Unrefined Desh as well as Desh Ore for those that don't use silk touch (#1516)
+* Add recipe to decompress arrow bundle (#1391)
+* Added a recipe to turn Mud Clumps into Wet Mud blocks (#1551)
+* Added Flame String to the String Ore Dictionary (#2628)
+* Added recipe for the Quark Trowel in stage one
+* Added recipe for the Blood Magic Crystal Cluster (#2112)
+* Added grinding/crushing recipe for the Prismarine Block (#2657)
+* Added recipes from the TiC drying rack to the Industrial Drying Unit (#2721)
+* Added tooltips to Space Suit so players are aware of how to charge them
+* Added tooltip to BWM Hibachi telling players to use a redstone signal to light
+* Crafting the Tier 1 Space suit now yields a fully charged version
+* Added a recipe to the ArcFurnace for Glass Panes using Pile of Sand
+* Adjusted the cost for making Steel in the ArcFurnace (#1796)
+* Added recipes to the ArcFurnace for Redstone Alloy and Modularium (#2437)
+* Added more blocks to be classed as sealable for GC thanks to @Iorce! (#2764)
+* Added Charcoal Block recipe to the Crystallizer (#2791)
+* Changed the size of the Bit Bag by x4
+
+Forge: 14.23.4.2707
+
+Mods Added:
+* Aroma Backup (2.1.1.3)
+* Aroma Core (1.3.0.2)
+    * Needed for Aroma Backpack
+* Construct's Armory (0.0.21-rc1)
+    * Armor add-on mod for Tinkers' Construct
+* SevTweaks (0.1.0)
+    * Custom mod to allow more integration with mods in the pack.
+
+Mod Updates:
+* Actually Additions (r135)
+* Advanced Mortars (1.6.21)
+* Antique Atlas (4.4.9)
+    * The Biome id fix from 4.4.8 wasn't actually merged. This was fixed.
+* B.A.S.E (3.7.2)
+    * Fixes crash when invalid items are fed
+* Bedrock B Gone (5.0-b8)
+    * Fixed Better Bedrock's Itemblock not registering correctly
+* Better With Addons (0.41)
+    * Fixes a crash where BWA has been using a deprecated slipperiness method for months.
+* Better With Mods (2.1.24)
+    * Fix server crash with HCFurnace tooltips.
+    * Greatly optimize the kiln, saw and turntable recipe handlers.
+    * Improve syncing of progress bars in UIs.
+    * Fix dupe with Filtered Hoppers.
+* BiblioCraft (2.4.4)
+* BnBGamingCore (0.8.0)
+    * Added Module for next Triumph update
+* BNBGamingLib (11.2)
+    * Script parser now properly reads hexadecimal values
+* Bonsai Trees (1.0.5-b77)
+    * Improvement: Skip loading tree shapes of unregistered trees saving a bit of memory
+* BuildCraft: Builders (7.99.17)
+* BuildCraft: Core (7.99.17)
+* BuildCraft: Factory (7.99.17)
+* BuildCraft: Robotics (7.99.17)
+* BuildCraft: Silicon (7.99.17)
+* BuildCraft: Transport (7.99.17)
+* Carry On (1.9)
+    * Fixed a common issue where some blocks could not get picked up
+* CD4017BE Library (6.2.4)
+    * Added opaqueness feature to block covers
+    * Added improved FakePlayer implementation
+* Chisels & Bits (14.17)
+    * Special case air when determining colors, to prevent crashing when another mod registers their color handler for air.
+* Client Tweaks (3.1.8)
+    * Torches will only be placed via right-click now if the offhand slot is either empty or also a torch tool
+* Connected Textures Mod (0.3.0.15)
+* Compact Machines (3.0.12-b215)
+    * Try to avoid crashing when rendering TE in machine view. This fixes e.g. crashes with PneumaticCraft and other mods.
+* Cyclops Core (0.11.6)
+* Cyclic (1.15.8)
+    * Tweaked item models for Torch Launcher, Randomizer, and Auto Torch.
+    * Upgraded cable models.
+    * Export cables now connect and pump out on all sides.
+    * Exchange Scepters updated to be compatible with GameStages, and working in off-hand.
+    * Storage Sack will now auto-close if it leaves your hand for any reason.
+    * Storage Sack can no longer be opened in the off-hand.
+    * Fix compatibility with Block Placer and Better With Mods mini-blocks.
+    * Fixed Wireless Receiver not dropping as a block when it gets mined.
+    * Fixed a dupe exploit related to Player Interface from AA.
+    * Brush Scythe now more compatible with special block drops (such as causing plant fibers from Primal Core now drop from grass with scythe).
+    * Fixed hydrator mismatching some ore dict entries (such as Biomass recipe not working).
+    * Fixed block transparency bug with Moon Phase Sensor.
+    * Greatly reduced tick lag from cables when they are empty.
+* Dark Utilities (1.8.210)
+    * Fixed some blocks allowing torches to be placed on them when it shouldn't.
+* Dung Pipe (1.2)
+* Ender Storage (2.4.3.130)
+* Environmental Tech (2.0.11a)
+    * Fixed Lightning rod spamming console with energy gen values.
+    * Fixed Lenses not working properly.
+* Extended Crafting (1.3.7)
+    * Fixed combination crafting ignoring NBT
+    * Fixed some shaped table recipes showing incorrectly in JEI
+    * Added an indicator to JEI categories for table recipes with required tiers
+    * Moved the shapless icons in in the table crafting JEI categories
+    * Fixed the progress arrow in the Ender Crafter gui being incorrectly located
+    * Fixed combination crafting not accepting items with NBT tags when no tags are set for an input item
+    * Fixed lighting issues with some blocks
+    * Fixed items with NBT not working in combination crafting recipes that don't require it
+    * Fixed the Automation Interface outputting only stacks of 1 when auto crafting
+    * Fixed the Automation Interface ignoring NBT when outputting during auto crafting
+* Extra Planets (0.3.8)
+    * See: https://minecraft.curseforge.com/projects/extraplanets/files/2564038
+* Farming for Blockheads (3.1.17)
+* Farseek (2.3)
+* Fast Workbench (1.5.0)
+    * Contains a compat fix for a mod interaction bug between FW, RealBench, and AA.
+* Forge MultiPart CBE (2.4.2.58)
+* GameStages (1.0.86)
+* Geolosys (1.9.2)
+    * ADDED: Ore-swapping: replaces other mod ores with Geolosys ones after they've generated (like for Twilight Forest).
+    * ADDED: Compatibility for Astral Sorcery's Infused Crystal Pickaxe.
+    * FIXED: Various crashes with field manual.
+    * FIXED: Dimension Blacklisting issues with custom entries
+* Hwyla (1.8.26-B41)
+    * Don't attempt to render the overlay if the tooltip is somehow null.
+    * Add a config to render current state values in the tooltip.
+    * Reduced network usage by the villager handler.
+* Horse Power (2.6.1.64)
+    * Added needed area visualisation when placing HP blocks
+    * Fixed not using correct item for jei catalysts, issue with itemstages
+* Immersive Tech (1.3.10)
+    * Fixed BlockITMultiblock.getPickBlock() null pointer issue
+* Improved Backpacks (1.2.0.3)
+    * Fixed duplication glitch
+    * Open backpack hotkey now works for Baubles slot
+    * Backpack in Baubles slot now shows on you (you definitely should check out chestplate backpack combined with baubles backpack)
+* Industrial Foregoing (1.9.2-173)
+    * Black Hole Tank Block now changes color depending of the fluid it contains
+    * Black hole unit extract button now respects stack sizes
+    * Mob Crusher and Mob Slaughter Factory do same amount of damage
+    * Improved fluid handling
+    * Improved tank color handling
+    * Mob duplicator and Animal Sewer shouldnt waste power anymore
+    * Fixed Enchantment Extractor not splitting enchanted books
+    * Tree fluid extractor no longer resets progress when the wood is broken
+* Inductive Logistics (1.2.3)
+    * Pipe model parts and contents hidden under opaque covers is no longer rendered (the server won't even send update packets for them) for performance improvement.
+    * Item Placer crash with vanilla blocks that have GUIs.
+    * Pipe connection issues with immersive multiblocks and potential other TileEntities that take time to initialize after load.
+    * Fixed div / 0 crash when Portable Autocrafter tries recipes with empty stacks as result
+    * Fixed server & client thread race condition on 'RECURSION' flag in Overflow Trash
+* Integrated Dynamics (0.11.12)
+    * Fix incorrect regex_groups operators output type.
+* Just Enough Items (4.9.1.196)
+* KleeSlabs (5.4.10)
+* Mekanism (9.4.11.346)
+* MJRLegends Lib (1.1.4)
+* Modular Routers (3.1.5)
+    * Fix item dupe with Dropper/Flinger in some circumstances.
+* ModTweaker (4.0.12)
+* Mystical Agriculture (1.6.10)
+    * Added PneumaticCraft crops: Compressed Iron
+* No Recipe Book (1.2.2)
+* Overloaded (0.0.52)
+    * Multi-Tool now gives better error message when unable to break / place
+* PrimalCore (0.6.56)
+    * Fix Barrel Crash with FBP
+    * Fix Side sensitive Capabilities for Cauldron and Fish Traps
+* Primal Tech (0.3.3)
+    * Added overlooked world side check - should stop fire sticks spamming the server with packets.
+* PneumaticCraft: Repressurized (0.6.6-192)
+    * Fix: crash when crafting Speed Upgrades in some situations.
+    * Fix: Gas Lift now works with infinite fluid blocks such as Better With Addons Aqueducts.
+    * Fix: crash when right-clicking some PneumaticCraft blocks with other mods' wrenches
+* ReAuth (3.6.0)
+* Reborn Core (3.5.8.293)
+* Reborn Storage (3.1.0.50)
+    * Fix IO port lag
+    * Add IO Port
+    * Add IItemHandler capability to TileMultiCrafter
+* Redstone Flux (2.0.2.3)
+* Refined Storage (1.5.34)
+    * Allow crafters to be daisy-chained.
+    * Empty patterns can no longer be inserted in the pattern result slot in the Pattern Grid with hoppers.
+    * Added OR search operator to the Grid with "|".
+* Rustic (1.0.5)
+    * Possibly fixed some bugs
+* RebornCore (3.8.7.295)
+* Scannable (1.6.3.19)
+    * Fixes potential crashes/issues due to some mods still using null instead of ItemStack.EMPTY.
+    * Disable debug logging of failed item lookups by default, add config to allow enabling it. Fixes potential timeout when first
+* SevTweaksNPC (0.0.4)
+    * ( ͡~ ͜ʖ ͡°)
+* Simple Generators (2.0.11a)
+* Steve's Carts Reborn (2.4.19.99)
+    * Fixed fluid manager not moving on when constantly using up the carts tanks.
+    * Rail remover fix for activator block.
+    * Fixed usage of wrong resize method for aabb, fixed recipe for cart assembler.
+* Streams (0.4.4)
+* Tinkers Construct (2.10.0.84)
+    * Implement a FastWorkbench approach in the Crafting Station. This should help with big modpacks with lots of recipes
+    * Fix faucets trying to drain from the wrong side
+    * Several smaller fixes/changes that got lost in translation
+    * Try to impliment FastWorkbench
+* Tinkers' Tool Leveling (1.0.5)
+    * Fix a rare crash when having a level up at the same time as dropping your weapon.
+* Toast Control (1.6.0)
+* Triumph (1.13.0)
+    * Added support for new Better Advancements options
+* Twilight Forest (3.7.424)
+    * See: https://minecraft.curseforge.com/projects/the-twilight-forest/files/2561393
+* ValkyrieLib (2.0.11a)
+* Wawla - What Are We Looking At (2.5.257)
+    * Fixed horse speed and jump strength not showing. #93
+
+---------------------------------------------------------------------
+
+3.0.7
+
+Bug Fixes:
+* Downgraded the Scannable mod to eliminate players getting kicked out of their first world join
+* Added DarkLands wood slab to the ore dictionary (#1627)
+* Fixed Arrow heads/bows being staged incorrectly (#964)
+* Fixed Shields being uncraftable in the Smeltery due to incorrect staging (#944)
+* Removed the Primal Dust bin (#841)
+* Fixed incorrect recipes for Reborn Storage Storage Parts (#1635)
+* Fixed Minecraft Cookie being incorrectly staged.
+* Fixed Abyssalcraft Wasteland ores not being staged/masked correctly (#1625)
+* Fixed Diamond Tools staging for recipe showing (#902)
+* Fixed Skeletons being immune to Cacti and Punji Stick damage (#1419)
+* Fixed the Saturn and Neptune advancements not triggering when entering the dimension (#1599)
+* Fixed the Creative Tank Advancement triggering incorrectly (#1743)
+* Better With Mods Leather Straps now have a recipe (#1736)
+* Fixed incorrect advancement name for Compressor in stage 4
+* Disable Quark's hotbar swap feature to prevent carry-on bugs (#1623)
+* Removed the Astral Sorcery marble slab recipe/block from JEI until it's completed in the mod itself (#1608)
+* Fixed broken compressed steel recipe for the Compressor (#1687)
+* Fixed Tartaric Forge recipes (#1341)
+* Added more tiles to Carry On blacklisting (#1590, #1610, #1630, #1770, #1824, #1804)
+* Remove melting for Merchant to prevent infinite blood exploit; also gave villagers the same treatment (#1487)
+* Fixed some logs missing plank conversions (#1861)
+* Removed Diamond creation from the Pneumaticraft Pressure Chamber (not supposed to be available in this manner)
+* Fixed the Mob Grinding Utils Saw to not require a diamond
+* Fixed the Wicker in the Compost recipe to not require stage one
+* Removed Carry-on allowing the pickup of Improved Backpacks
+* Disabled MouseTweaks WheelTweak config...again.
+* Fixed broken recipe for Chemical Injector (#2000)
+* Inconsistent behaviour with barley (#1966)
+* Fixed being unable to craft Drying Rack with Yew slabs (#1944)
+* Fixed dupe recipes for the Map (#1798)
+* Fixed Quantum Storage Crate being hidden in JEI (#1967)
+* Fixed Crystallized Obsidian armour being staged incorrectly (#1477)
+* Fixed recipe for Fire Charm due to staging (#1807)
+* Fixed missed recipes for CarMod (#1852)
+* Fixed "Broken" tooltip from displaying on the Bound Blade
+* Moved raw and cooked ghast meat to age 2 from 3 (#1793)
+* Removed default recipe left in for Mechanical Squeezer (#1795)
+* Fix Bio-Mash not being able to be crafted in player inventory and in any 2x2 area of grid (#2019)
+* Fix End Crystal advancement
+* Disabled Liquid Coralium Transmutation to prevent massive lag (#1915)
+* Disabled Buildcraft fluid shards to prevent a dupe (#1602)
+* Fixed recipe for Filtered Buffer (#2014)
+* Fixed missing processing recipe for Ilmenite ore in the crusher (#1411)
+* Removed Automatic Fishing Net from villager trades (#2037)
+* Fixed staging for Elemental Inscription Tool: Dusk and hide Efficency Rune (#1075)
+* Fixed staging on various Blood Magic items (#1238)
+* Fixed staging on Charcoal piece (#1248)
+* Fixed old recipe not being removed for Arcane Ashes (#1779)
+* Fixed incorrect staging for Electrum/Constantan (#1517)
+* Remove slimeball dupe (#2040)
+* Fixed Lonsdaleite Cystal being missing in the Environmental Tech config (#1708)
+* The Ladder recipe now gives 3 instead of 1
+* Switched the Unfired Porcelain millstone recipe to require white dye instead of bonemeal to stop a conflicting recipe interfering with progression
+* Added recipe for sextant (#1995)
+* Fixed staging issue with some light Oxygen Tanks (#2098)
+* Fixed recipes and staging issues with Cyclic baubles (#1994)
+* Removed casting recipe for Furnace Controller as it breaks progression
+* Fixed titanium shards dropping on GC ores which had no use (#1455)
+* Remove & hide and printing press until the mod is updated/fixed (#1429)
+* Fixed Immersive Engineering Excavator not harvisting ores as expected (#2008)
+* Moved the incorrectly item staged Stone Builder's Wand to stage 1 where it belongs
+* IE Crusher gives proper dye from wool -> string recipes & AA Crusher gives proper dye from flower -> dye recipes (#593)
+* Removed useless ironpane group from chisel
+* Removed some recipes of items that dont exist
+* Blacklist Compact Machines from Carry-On (#2193)
+* Removed conflicting Arc Furnace recipes (Any that used a metal dust as a primary item)
+* Fixed issue with mining Redstone ore with Silktouch not giving the correct ore block (#1875)
+* Fixed Iron duplication exploit involving Iron Bars in the Stoked Crucible (#2187)
+* Moved the Cyclic Dungeon Finder item to stage 3 and staged its recipe properly
+* Fixed Creative Jetpack Thruster being incorrectly staged (#2227)
+* Fixed Ender Crafter advancemnt triggering without both items being crafted. (#2209)
+* Fixed Autunite not being detected by the Ultimate Prospector (#1895)
+* Fix "Ender Alloy" advancement triggered on wrong ender alloy (#2240)
+* Fixed Astral Sorcery Aevitas attunement converting stone into ores that should not be accessible. (#1240)
+* Fixed an incorrect tooltip on the Inductive Logistics autocrafters to say stage 4 instead of 3
+* Fixed the Cyclic Slow Slime Conveyor being staged incorrectly
+* Removed dying wool in the Crucibal to correct a duplication bug
+* Removed Elytra recipe from the Abyssal Craft Materializer since it was craftable in stage 3
+* Added Mekanism cables and pipes to the carry-on blacklist to prevent potential crash
+* Modified Containment Chalice recipe and pushed it back to age 3 (#2256)
+* Re-Staged and changed the recipe for the AS Exchange Wand (#1005)
+* Fix blood being staged wrong (#1168)
+* Allow the Wild Dog to be spawnable in the RFTools Spawner (#2150)
+* Remove Leather recipes from the Drying Basin (#2107)
+* Disable AE2 Formation Plane Entity spawning until a fix is made in regards to spawning
+* Re-Stage Containment Chalice to stage 3 (#2556)
+
+Enhancements:
+* Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
+* Increased the drop chance of bones for most passive and hostile animal mobs
+* Blazes and Endermen drops are now affected by looting
+* Added the Ring of Ascent to 100% chance drop from Betweenlands Bosses and a small chance to drop from Pyrads, Peat Mummies, Wights, Gas Clouds, & Tar Beasts
+* Lowered the creative tank recipe Blood Tank requirement to level 10 instead of 16
+* Added a stage 2 recipe to create Astral Sorcery Stardust using Blood Magic
+* Removed the Industrial Foregoing Fisher machine since it was not usable due to the fishing table being cleared (#1760)
+* Added an Advancement to alert players on how to create a Nugget Cast
+* Altered the recipe for the RFTools Machine Base for consistency
+* The Market recipe was changed yet again
+* Added an advancement for creating and using End Crystals in stage 4
+* Added prismarine drops to mobs primarily located in the Dark Forest Maze (the one with the Knight Phantoms)
+* Added an Advancement to alert players that Sea Lanterns can be used as Blood Magic Tier 3 Altar Caps
+* Added an Advancement for the Galacticraft Oxygen Collector Fuel method
+* Created a Steve's Carts Singularity
+* Added a recipe to the Creative Tank to clear the liquid out of it
+* Re-added the transmutation recipe for Starmetal Ore (#1792)
+* Added crusher recipes for Salt block to dusts (#1717)
+* Added clay block creation to the press (#1734)
+* Added Chisel support for some of the Betweenland stones (#1686)
+* Add Totempedia to Bibliocraft bookshelf (#1840)
+* Created a Modular Machine for Paperclips
+* Added a new recipe for the Creative Flight Modifier
+* Tweaked the Supremium Armor Boot recipe
+* Added glue recipe for Buffalo hide to the Cauldron (#1851)
+* Added glass recipe to the ArcFurnace (#1858)
+* Added all Geolosys ore to the Scannable Config in the proper category (rare & common)
+* Removed the Scannable Structure Card. It was not picking up any structures and is a useless item
+* Added Improved Backpacks and Shulker Boxes to the Iron Backpacks Blacklist so you cannot nest backpacks
+* Increased the Y level range for the following Geolosys Veins: Coal, Rock Crystal,  Gold, Lapis, Quartz, Kimberlite, Limonite, Malachite
+* Add Environmental Tech JEI Descriptions and tooltips to Lightning Rod and Nanobot structures (#1592)
+* Added recipe for Porcelain to the Industrial Mill (#2002)
+* Allow Fiery Tears in Lava Crystal recipe (#1975)
+* Fix the immersive engineering windmill advancement typo (#1845)
+* Enabled rustic clay walls and staged in (#1822)
+* Added recipe to convert Raw PigMan hide to salted hide (#1787)
+* Added tooltip to the Quarry/Miner about usage in Space (#1452)
+* Added Valus Melon to staging (#1349)
+* Added more books to the ImmCraft Bookshelf (#1368)
+* Added tooltip to the Creeping Moss on how to use it (#1968)
+* Disabled Black Quartz from BWM (#1937)
+* Added Betweenlands Infuser & Mortar to CarryOn blacklist (#1935)
+* Diabled the BWM Manual being given by the mod via the config (#1724)
+* Removed the Wolf Ash from JEI as we don't have a use for it.
+* Added usage for the Wolf Head (#851)
+* Changeds Starlight Advancement to use right click on the upgraded table (#978)
+* Added tooltips to the GC rocket schematics to help users on what planet to find them (#2052)
+* Added more foods to Cooking For Blockheads (#2051)
+* Moved the Blood Magic Sentient sword to Stage One and gave it a new recipe
+* Added support for any bucket type in Astral Sorcery recipes (#1809)
+* Any unsupported plank type for barrels will now make an Oak Barrel (#2085)
+* Disabled the Cyclic Shear block to force the path in the pack. (#2106)
+* Added more food items to Nutrition (#2017)
+* Changed durability on the Dog Boots
+* Fixed staging on Iron Matchpick (#1503)
+* Removed recipe for Reinforced Mesh (#1415)
+* Added Black Iron recipe to the Arc Furnace (#1416)
+* Added more seeds to be pressed into dirt
+* Disabled the Extra Planets Radiation Mechanic
+* Added Death Compass drops to Player Skinned mobs
+* Add flower crushing recipes to Mekanism crusher (#1665)
+* Add Bronze Ingot alloying to Arc Furnace (#1665)
+* Added a Modular Machine to allow faster Compressed and Heavy Duty Plate Creation for stage 5
+* Added an Advancement to alert players of the Spawner Seeker and its helpfulness when locating Galacticraft Dungeons
+* Set Quark deposit to chest default behavior to stack with existing instead of dumping your entire inventory (#2231)
+* Added The Betweenlands limestone to oreDict (#2196)
+* Adjusted the Astral Sorcery Aevitas attunement hunger and saturation per tick
+* Re-add Minecraft wool dying recipes
+* Ore Changes:
+    * Ore processing has been changed in this version. Many processing recipes have been removed in favour for other mods and/or had values
+      tweaked. Processing is now performed on a Tier system starting with basic machines to top tier machines. With this update we have a new
+      Modular Machine which enables easier Ore processing this is based on the Mekanism spec but does not require all the normal machines as
+      you'd normally needed. Also you grain the secondary outputs for valid ores. So your getting more Dollars per Bill! All the recipes are
+      listed in JEI. Note however due to how the JEI is built for Modular Machinery the UI is not scaling correctly this may be solved in a
+      later update but we'll post on the Wiki the power usage/conversions for the machines to give more details.
+* Added Twilight Forest to the Betweenlands Portal whitelist (#2205)
+* Re-Stage the chisel to better suit the villager trade and enables players to start being creative eariler (#2258)
+
+Mods Added:
+* BuildCraft: Silicon (7.99.16)
+    * Needed for the .16 update to BuildCraft to keep the plugs/facades.
+* FindMe (1.0.1-5)
+    * FindMe allows you to search for items in nearby inventories by pressing a key. For that you simply need to hover over an item (JEI Compatible) and press "Y".
+* MystAgrad Cloche Compat (1.2)
+    * Add support for Tier 6 seeds in the Cloche.
+* ReAuth (3.5.2)
+    * Fixes the Problem of having to restart your Client when your Session is invalid
+* Just Enough Petroleum (0.1)
+    * Adds JEI support for Immersive Petroleum
+* Bedrock B Gone
+    * Flattens Bedrock in the Overworld, Nether, Twilight Forest, and Hunting dimensions
+* Nature's Compass
+    * Added the Nature's Compass mod to help players better locate certain Biomes
+
+Mod Updates:
+* Forge: 14.23.3.2678
+
+* AbyssalCraft (1.9.4.9)
+    * Many Changes See: https://minecraft.curseforge.com/projects/abyssalcraft/files/2551262
+    * Also: https://minecraft.curseforge.com/projects/abyssalcraft/files/2553883
+* Actually Additions (r134)
+    * Worm should no longer attempt to post a UseHoeEvent on farmland.
+    * Only items with FE capability can be placed in the energizer.
+    * Oil generator outputs now properly scale with configured values.
+* Animalium (0.3.7)
+    * Increased Bear Claw Paxel's mining speed on blocks that harvest slower to make it faster than punching them.
+    * Removed Flying Cake Monster spawning on Darkosto's Birthday due to it constantly spawning.
+* Antique Atlas (4.4.8)
+    * Fixes unknown biome id crashes (Thanks The-Fireplace)
+* Astral Sorcery (1.8.10)
+    * Tonnes of fixes!
+* AutoRegLib (1.3-17)
+* Better Advancements (0.0.7.42)
+* Better With Addons (0.40hotfix)
+    * Fixes another stray CME from hardcore packing. It just keeps happening.
+    * Fixes two crashes with getBlockFaceShape. Oops.
+    * Fixes Aqueduct Water acting like a fluid tank and adds a config option to preserve that behavior
+    * Fixes Mooshrooms fissioning into two cows and 10 mushrooms.
+    * Fixes Saplings not breaking instantly because they were trying very hard to be leaves instead probably
+    * Fixes Greatarrows crash when impacting Biomes o Plenty soil (for how much shit i gave them about the farming crash i make a lot of the same mistakes)
+    * Fixes Paper Lantern recipe missing entirely
+    * Fixes cullfaces on recessed Tatami Mats aka they'll look better when combined with other slat block
+* Better With Mods (2.1.15)
+    * Fixes NPE when Kiln has invalid heat source
+    * Fixes NPE when mods add null oredict names
+    * Fixes crash when placing a waterwheel in forge fluids (Oops)
+    * Internal Changes for CT integration
+* Betweenlands (3.3.8)
+    * Workaround for Intel graphics driver crash
+    * Fixed some block models causing crash when non-forge lighting pipeline is used
+    * Fixed double tall underwater plant stalks not breaking when flower is broken
+    * Fixed Mortars not saving their rotation
+    * Fixed changing translation causing crash when opening Herblore book
+    * Fixed Valonite Shield causing crash when charging into each other
+    * Fixed world locations sometimes not syncing properly when teleporting
+* Blood Magic (2.2.10-97)
+    * Fixed a client side null-pointer exception with the Blood Lamp
+        * It's a bright idea to fix this as soon as I can.
+    * Fixed a server crash when handling dye recipes
+    * Fixed a crash when trying to use unbound toggle-able sigils in the Sigil of Holding
+    * Fixed Turret Array crash on servers.
+    * Fixed the Blood Altar so it can actually fill Blood Orbs (derp).
+    * Fixed the Alchemy Array from voiding items when broken when it shouldn't have.
+    * Fixed Blood Tank NBT transfer between item/tile form.
+    * Fixed Hellfire Forge and Alchemy Table's shape-crafted-ness.
+    * Fixed the Living Armour Upgrade that provides night vision, so it is no longer as finicky.
+* BNBGamingLib (2.11.1)
+* Bonsai Trees (1.0.4-b71)
+    * Breaking a bonsai pot with an axe is now faster
+    * Fix crashes/issues caused by always returning a capability even when it shouldnt.
+* Bookshelf (2.3.544)
+* BuildCraft: Builders (7.99.16)
+* BuildCraft: Core (7.99.16)
+* BuildCraft: Factory (7.99.16)
+* BuildCraft: Robotics (7.99.16)
+* BuildCraft: Transport (7.99.16)
+* Caliper (1.1.35)
+* CD4017BE Library (6.2.3)
+* Ceramics (1.3.4)
+    * Minor tweaks and fixes.
+* Code Chicken Lib (3.1.7.341)
+* Compact Machines (3.0.10-b207)
+    * Fix NPE when tunnels are being checked on the client side
+    * Only consume one catalyst item instead of the whole stack
+* CraftTweaker (4.1.8)
+* Cucumber (1.1.0)
+    * Add guide book system POGGERS
+* Cyclic (1.14.9)
+    * Sleeping mat now correctly dismounts for you if you try to sleep on the saddle.
+    * Emerald Carrot retextured and renamed as Infected Carrot - new recipe, same effect.
+    * Fixed a small glitch where Auto Crafter fuel slot would not consuming items when fuel is at zero.
+    * Added a small optimization to network traffic on player join (Thanks to darkh4x).
+    * Fixed a dupe bug with certain items that have durability.
+* Death Compass (0.0.3)
+    * Added a Time and date stamp to the compass so people know which is which when
+* Default Options (9.2.7)
+    * Fixed crash on keys with colons in their names
+* Dimensional Control (2.10.2)
+* EnderUtils (0.7.8)
+    * Add a Pet Contract item, which allows changing the ownership of tameable mobs
+    * Add camouflage ability to the Barrel
+    * Add Portal type Link Crystals, allowing Portals to be "paired"
+    * Fix/improve some Drawbridge retraction/extension logic issues (which blocks get taken/placed in which situations)
+    * Fix camouflage model overlays on items (elevators)
+    * Fix some items always eating the keybinds even when they don't have any
+    * Update some registrations to new Forge events (now requires Forge 2571+)
+* Environmental Tech (2.0.9c)
+* Extended Crafting (1.3.1)
+    * Fixed the arrow in the Quantum Compressor GUI not rendering properly for recipes with large power requirements
+    * Fixed the Quantum Compressor ejecting ItemStacks with larger than max stack sizes
+    * Fixed the Quantum Compressor overwriting NBT tags
+* ExtraPlanets (0.3.3)
+    * Fixed a few Server/Client packet handling issues
+    * Fixed player spawning in liquid when re-spawning after death
+    * Fixed NullPointerException
+* Fancy Block Particles (2.4.0)
+* Farming for Blockheads (3.1.12)
+    * Change the feeding trough range to five blocks
+    * Fix the feeding trough prioritizing certain animals over others, it should be more natural now
+    * Fix merchant falling sound not playing for other players in multiplayer
+* Ferdinand's Flowers (1.10.1b)
+    * Hopefully fixed a naming issue- found & fixed 2 mistakes (Issue #2)
+* Foamfix (0.9.9.1)
+    * Fix invalid Forge dependency
+    * #137] Fix 3D item models not rendering correctly (for example Silent's Gems shields)
+* Forge MultiPart CBE (2.4.1.57)
+    * Fix world being null on part load
+* Galacticraft Core (4.0.1.176)
+* Galacticraft Planets (4.0.1.176)
+* Hunting Dimension (1.0.24)
+    * Added a cache system for frame variants. Also removed non full blocks from the candidate list.
+    * Fixed setting spawn or sound chance to 0 causing a crash.
+* Immersive Engineering (0.12-82)
+    * See: https://minecraft.curseforge.com/projects/immersive-engineering/files/2554650
+* ImmersiveTech (1.3.8)
+    * Fixed Boiler crash
+    * Changed the distance parameters for the Solar Tower and the Reflectors
+* Improved Backpacks (1.2.0.2)
+    * Fixed backpacks does not have tooltips
+    * Fixed Stack Overflow Crash
+    * Backpacks are now equipable in the chest slot or as a bauble
+    * When worn on chest backpacks can be opened with a keybind
+    * Optimized updating backpack tile entities on clients
+* Industrial Foregoing (1.8.10-143)
+    * Added support for the Adult Filter in the Mob Slaughter Factory
+    * Added Right Click Harvestability to cocoa beans as no other mod adds it so the Plant Interactor can harvest them.
+    * Animal rancher will stop shearing animals if the inventory is full
+    * Fixed a crash with the enchantment extractor
+* Inductive Logistics (1.2.1)
+* InControl (3.8.0)
+* Industrial Foregoing (1.9.0-163)
+    * Fixed Server Side Crash with the Mob Crusher
+    * Fixed Fluid Dictionary Converted working when no fluid was selected
+    * Fixed server side crash
+* Integrated Dynamics (0.11.11)
+    * Fix Refined Storage autocrafting writer aspects not working
+    * Fix Mechanical Squeezer crafttweaker crash
+    * Fix networks with no active elements not being properly reloaded
+    * Fix formatting typo in value types book section
+    * Fix memory leak and stackoverflow due to cloning of positioned iterators, Closes #568
+* Iron Backpacks (3.0.7-10)
+* Iron Jetpacks (1.0.4)
+    * Fixed an issue with HUD rendering
+* Just a Raft (1.1.2)
+    * Should fix a really rare crash where it gets an integer where it should get a float.
+* Just Enough Items (4.9.1-175)
+* KleeSlabs (5.4.9)
+    * Fixed Betweenlands single slabs not being breakable
+    * Added missing Betweenlands slabs support
+* Mantle (1.3.2.24)
+    * Fix Heart rendering with >120 hearts. It'll loop correctly now. However if you actually had more than 120 hearts, you should take a break and reconsider your life choices.
+    * Fix book crashing when trying to render a missing item (at least in some instances)
+    * Make getSubBlocks also available serverside (pre 1.12 leftover)
+* Mekanism (9.4.10.345)
+    * Make Universal cables ForgeEnergy a bit more cross mod friendly
+    * add factories to jei catalysts if enabled
+* Micdoodle Core (4.0.1.176)
+* Mob Grinding Utils (0.3.6)
+    * Complete re-code of the mod registries - under the hood changes that needed doing.
+    * Removed old legacy code and classes and rejigged a few bits.
+* Mod Tweaker (4.0.10)
+* Modular Machinery (1.9.4)
+     * Fixed problematic handling regarding I/O of fluids and energy leading to problematic interactions when I/O conditions were not fulfilled
+     * Fixed Mekanism Gas integration not properly handling input/output checks
+* Modular Routers (3.1.4)
+* Mystical Agradditions (1.2.8)
+    * Added a JEI description for Dragon Scales
+    * Fixed the Insanium Ingot harder recipe using the wrong essence
+* Mystical Agriculture (1.6.9)
+    * Fixed Superium armor not having step assist (and Prudentium armor having it instead)
+    * Fixed Prudentium armor's model being messed up
+* Natura (4.3.2.49)
+    * Flowers can now be able to placed on Topiary Grass
+    * @SideOnly has been removed from getSubBlocks
+* Ore Excavation (1.4.118)
+    * Fixed shears not working under particular settings
+    * Fixed ghost blocks showing up after some excavations
+* OreExcavation Integration (2.3.3)
+* Overloaded (0.0.51)
+* PickleTweaks (2.0.16)
+    * Fixed some tooltips having the wrong colored text with the latest Cucumber Library
+    * Make only layer 0 of the repair kit texture get colored
+    * Fixed repair kit texture being flat
+* Placebo (1.3.4)
+* Playerskin (1.0.5)
+    * Fixed issue with blank loot table spamming servers
+* PneumaticCraft: Repressurized (0.6.3-186)
+    * Fix: Server crash when Spawner Agitators are used in conjunction with the Despawning Spawners mod.
+    * Fix: Omnidirectional Hoppers now respect the sidedness of the block they pull from
+    * Plastic Mixer JEI page now uses Ore Dictionary to show the dyes instead of hard-coded vanilla dye items.
+    * Fix: client crash when looking at RFTools Powercells with the Pneumatic Helmet Block Upgrade Tracker active.
+* Power Adapters (1.0.9)
+    * Fixed power input and output being wrong
+    * Fixed block accepting power even if it's full (#1745)
+* Prestige (1.0.15)
+* PrimalCore (0.6.53)
+    * Charcoal Stacks now have a slight variation in the output grade
+    * Fixes for various plants and certain primal blocks not getting along during WorldGen
+* Quantum Storage (4.5.0)
+    * Fixed z-fighting on new crate model.
+    * Added new models for the Crafting machine and Crating machine.
+    * Added Quantum Bag (Works like EE2 Alchemical Bags)
+    * Fixed some partials not working after model change.
+* Realistic Item Drops (1.2.12)
+* RebornCore (3.8.1.271)
+* Reborn Storage (3.0.6.43)
+    *  Added support for crafter manager
+* Refined Storage (1.5.33)
+    * Added Crafter Manager
+    * Fixed Grid not always using all combinations when using JEI autocompletion
+    * Increased Grid performance
+* Refined Storage Addons (0.3)
+    * Fixed stack-crafting in the Wireless Crafting Grid (crafting table) causing lag on a dedicated server
+* Rustic (1.0.4)
+    * Fixed a crash from drinking wine or wildberry wine of low quality
+* Smooth Font (1.15)
+    * Added clientSideOnly property
+    * Fixed the issue that a blank page texture is not loaded correctly.
+* Spartan Shields (1.4.1)
+    * Minor tweaks and recipe fixes.
+* Tesla Core Lib (1.0.14.10)
+* Tinkers Construct (2.10.0.75)
+    * Note: This is an Alpha build but contains an possible fix for OreExc.
+* Tinkers Complement (0.2.3b)
+    * Fix crash from melter without a heating source
+    * If the melter previously held solid fuel, that is now cleaned upon switching to liquid fuel
+    * Tweaked manyullyn armor to be more tough and provide less defense
+    * Fix missing repair material for manyullyn armor
+    * Fix temperature in the melter GUI not matching JEI
+* Tinkers' Tool Leveling (1.0.4)
+    * Harvesting crops with kama/scythe rightclick grants xp
+    * Fix crash with recursion with modifiers like PortlyGentleman from PlusTic
+* Toast Control (1.5.0)
+* Totemic (0.11.1)
+    * See: https://minecraft.curseforge.com/projects/totemic/files/2551386
+    * Changed Totem Pole textures, now with paint
+    * Totem Poles can now face in any direction
+    * Totem Torch can no longer be placed in midair, and can be washed away by liquids
+    * Fixed weird behavior when trying to place blocks on top of Totem Torch
+* Tomb Many Graves 2 (4.0.3)
+    * Should fix all issues with users getting the grave as a block (the block item no longer exists).
+    * Death item lists should now automatically enter the players' inventories upon respawning after death
+* Traverse (1.5.3-58)
+    * Fixed a crash issue
+    * New Desert Shrubland biome
+    * Fences and fence gates now have ore dict names
+    * Chickens now spawn in Crag Cliffs instead of pigs
+    * New Arid Highland biome - hilly desert with acacia trees and a bit of grass (TEMP: Biomes.DESERT)
+    * New Thicket biome - dense forest with a coarse dirt and grass floor (TEMP: 0.8F Extends Biome)
+    * New Rocky Plains biome - a less flat plains with patches of rock and greener grass (Idea suggested by MechWarrior) (TEMP: 0.9F Extends Normal Plains)
+* Triumph (1.12.0)
+* Trumpet Skeleton (1.0.2.1)
+    * Fixed issue causing crash on dedicated server.
+    * Added parrot imitation sounds for Trumpet Skeletons.
+* Tumbleweeds (0.4.5)
+    * Mod items now work in configuration
+    * Tumbleweeds now always travel north-west
+* Uppers (0.0.6)
+    * Fixed redstone deleting contents on occasions
+* Waddles (0.6.0)
+    * Rewrote registry system
+    * Added config option for what biomes penguins can spawn in, based on BiomeDictionary types
+    * Fixed penguins returning null in getLootTable, which broke compatibility with loot table mods
+* WAWLA (2.5.256)
+* Water Control Extreme (1.0.2)
+* Wither Skeleton Tweaks (2.6.0)
+
+---------------------------------------------------------------------
+
+3.0.6
+
+Bug Fixes:
+* Fixed a Better With Mods Turntable crash. This should also allow you to get back into your worlds that were crashing on load
+* Added a number of Betweenland blocks to the Geolosys whitelist allowing ores to overwrite those blocks
+* Added back the extra Mulberry Structure that was lost in 3.0.5, sorry!
+
+Mod Updates:
+* Environmental Tech (1.12.2-2.0.9c)
+    * Update to, hopefully, fix a crash experienced by players
+
+* There is a known bug with being kicked back to the title or server screen after loading into your first world and sometimes after gaining/losing advancements/stages. We are looking into it. You should be able to join the world back with no issues after this happens.
+
+* Dimensional Control has updated and added a new default worldgen. Among removing a few extra biomes and moving some biomes to their proper temperature zone, oceans have been further reduced. YOU DO NOT need to start a new world. Existing worlds will keep their generation type and only new worlds will inherit the new changes. This is not really a bug fix or critical change. It is mostly an enhancement meaning you can start a new world if you want.
+
+---------------------------------------------------------------------
+
+3.0.5
+
+* There is a known bug with being kicked back to the title or server screen after loading into your first world and sometimes after gaining/losing advancements/stages. We are looking into it. You should be able to join the world back with no issues after this happens.
+
+* Dimensional Control has updated and added a new default worldgen. Among removing a few extra biomes and moving some biomes to their proper temperature zone, oceans have been further reduced. YOU DO NOT need to start a new world. Existing worlds will keep their generation type and only new worlds will inherit the new changes. This is not really a bug fix or critical change. It is mostly an enhancement meaning you can start a new world if you want.
+
+Bug Fixes:
+* Move Galacticraft's Tin Canister recipe to age 4 (#1201)
+* Remove 4x rice slimeball recipes (#1241)
+* Re-add Liquid Slime recipe (#1212)
+* Altered the Y level advancement description for Hematite ore (#1206)
+* Removed erroring items in the Tumbleweed drop list (#946)
+* Fixed the incorrect beach entry and added a few new biomes to the infinite water list (#1204)
+* Removed the Bauxite Entry from the Tough Dowsing Rod list (#1124)
+* Added the remaining flowers from Ferdinand's Flowers to the crusher lists to make dye (#1110)
+* Added back the Cyclic Block Placer since it was accidently hidden from JEI (#1129)
+* Due to recipe and staging issues, Rocket Fuel was unable to be created. The Oxygen Collector recipe is now correct and the oxygen can be mixed with Kerosene in the Immersive Engineering Refinery to fuel Rockets
+* Fixed an incorrect prospector tooltip to say 48 block range instead of 32
+* Properly moved Silicon back to stage 4, should be available to use now (#1008)
+* Moved wooden basin's item stage from 0 to 1 to align with the recipe. (#866)
+* Removed pigman hide (#794)
+* Removed reference to Osmium in Platinum Ore tooltip
+* Fix stage 5 root advancement not triggering (#1199)
+* Fixed Nether Brick Stairs being unbreakable when using Tinkers Pickaxe or Hammer if in a certain orientation (#1331)
+* Fixed Mystical Agriculture Soulstone being unbreakable when using Tinkers Pickaxe or Hammer (#1363)
+* The PrimalCore Flint Axe has a tooltip to alert players that it cannot be repaired (#807)
+* Fixed a number of advancements with broken entries
+* Fixed Wolf Chop not being able to be cooked in the Fire Pit (#1262)
+* Fixed Clear Glass recipe conflict with Glass Chunks (#1310)
+* Fixed Mekanism Cardboard box staging issue (#1330)
+* Fixed barley flour not being able to create dough (#1216)
+* Fixed RebornStorage Invalid Recipes (#1401)
+* Fixed Elite Crafting Table staging issue (#1461)
+* Fixed Bark from BWM not being usable in the Mill Stone (#1449)
+* Fixed recipe issue in regards to staging for the Mechanical Squeezer (#1453)
+* Made a mistake and used the incorrect brick on the Uncrafting Table. The recipe should now be fixed (#1063)
+* Remove Villagers melting into Emerald in Tinker's smeltery
+* Disabled the exploit of using the Farming for Blockheads Merchant as a way to collect Life Essence in Blood Magic
+* Added Translocators to the Carry-on blacklist (#1489)
+* Removed Natura blue dye from the dye oredict
+* Remove broken recipes for Pneumaticcraft drone (#1457)
+* Remove infinite Blaze Powder/Rod recipe from Integrated Dynamics Mechanical Squeezer (#1300)
+* Fix Mekanism Enrichment chamber recipes for dirty dust giving the wrong dust (#1427)
+
+Enhancements:
+* Added the ability for llamas to pull Astikoor Carts (#1242)
+* Added some text to the Aqueduct advancement letting players know completion is on placement and not crafting
+* Increased the max height of Black Quartz in the Beneath from 20 to 100
+* Added an Advancement for Power Adapters to alert players (#1332)
+* Added some tooltips to the Totemic Red Cedar items/blocks to help players understand where to acquire them
+* Removed the limitation of only being able to move mob spawners at stage four
+* Because of whining, squids
+* Increased the minimum number of Fiery Blood dropped from a Hydra to 16 (#1275)
+* Lowered the mining level of the Astral Sorcery Tables so players do not accidentally break them when trying to complete advancements
+* Slightly increased the spawn rates of the Shoggoth Lairs
+* Allowed Betweenlands Sulfur torches right-click functionality with a pickaxe in main hand (#1437)
+* Added Betweenlands Rotten Food to drop from most Betweenlands mobs so players can complete the rotten food advancement (#1359)
+* Added Stage 1 crafting for the strainer to use a chest as well as a Immersive Craft Chest (#)
+* Shoggoths will now always drop at least 3 Shoggoth Flesh when killed
+* Added a new method of collecting Shoggoth Flesh from villager trades in case Shoggoth's stop spawning due to finite spawning
+* Slightly increased village spawn rates
+* Added a Shoggoth Flesh trade to the Farming for Blockheads Market
+* Moved the Farming for Blockheads Market to stage one
+* Regenerated the Smooth Font config, you may need to redo your personal settings if you made any changes
+* Disabled Cyclic Inventory Shift Keybindings to both help players with a sticky key issue and to stop an exploit (#1451)
+* Add grinding recipes for shark tooth -> bone meal (#1414)
+* Add detection range tooltip to all prospectors and fix the range stated (#1494)
+
+Mod Updates:
+* Forge (14.23.2.2654)
+* Dimensional Control (2.10.0)
+    * Update to allow changes listed above
+* BnBGamingCore (1.12-0.7.1)
+* Cyclic (1.12.2-1.14.7)
+    * Fixed some broken blocks in the Nether and the End causing crashes (#1158, #1209)
+* Geolosys (1.12.2-1.8.10c)
+    * Assorted Quartz ore now gives all the quartz items again (#1278)
+* Horse Power (1.12.2-2.1.62)
+    * Fixed crash when things happen to overlap machines (#1105)
+* Abyssalcraft (1.12.2-1.9.46)
+* ArmoreableMobs (1.12-1.1.6-4)
+    * Jockey mobs are now "caught" by the mod so we can control their weapons/armor (#1087)
+* Totemic (1.12.2-0.10.3)
+    * Clarified a number of entries in the Totempedia
+    * Fixed ghost blocks when the Tipi is blown up
+* Rustic (1.0.3)
+    * Fixed rendering crashes with blocks that hold fluids when the fluid doesn't have a sprite
+    * Axes are now effective on crop sticks
+* OreStages (1.12.2-1.0.26)
+* Bookshelf (1.12.2-2.3.539)
+* Gamestages (1.12.2-1.0.85)
+* The Betweenlands (3.3.6)
+    * Fixed Tar Minion portal dupe (#1237)
+    * No more death loops! Players will respawn at the last portal if no spawn point is set (#1146)
+    * Fixed dimwitted advancement not triggering for all torches (#1098)
+    * Fixed empty buckets having a burn time (#1191)
+    * Mortar GUI is now right-click and grinding is left-click (#1198)
+    * Fixed effects stripping Nutrition's gold hearts (#1096)
+    * Added config to fix Life Crystal ore being invisible with Optifine (Set fullbright blocks to false in config) (#1335)
+    * Fixed ring EXP dupe (#1380)
+* Hunting Dimension (1.12.2-1.0.20)
+    * Fixed players sometimes spawning in the ground instead of the portal (#1287)
+* Galacticraft-Planets (1.12.2-4.0.1.170)
+* Galacticraft-Core (1.12.2-4.0.1.170)
+* MicDoodleCore (1.12.2-4.0.1.170)
+* ExtraPlanets (1.12.2-0.3.2)
+* PrimalTech (0.3.2)
+    * Fix losing logs when doing multiple debarking recipes with a workblade
+* Farseek (2.2.5)
+    * Fix ClassCastException crash (#1377)
+* Quark (r1.4-123)
+    * Fixes a number of issues and crashes
+* AutoRegLib (1.3-16)
+* Better Advancements (1.12.2-0.0.6.25)
+    * Correct location for tabs
+* The Beneath (1.12.2-1.4.1)
+    * Teleporting to/from the Beneath should longer get you stuck in walls
+    * You can no longer teleport to the Beneath while riding something
+* Foamfix (0.9.6-1.12.2)
+    * Improves compat with 3d-in-gui item models
+* Overloaded (1.12.2-0.0.47)
+    * Code refactor
+    * Asset updates
+* Together Forever (1.12.2-1.0.7-13)
+    * Added a safe check in case the overworld is not loaded
+* Triumph (1.12-1.10.3)
+    * Fix advancement display data not properly syncing to clients on servers
+* PrimalCore (1.12.2-0.6.45)
+    * Properly stop teleporting from Ineris plants in the End dimension. May only affect new generation.
+* RFTools (1.12-7.33)
+* Smooth Font (1.12.2-1.14.2)
+* Simple Generators (1.12.2-2.0.9a)
+* Valkyrie Lib (1.12.2-2.0.9b)
+* Xnet (1.12-1.6.9)
+* Storage Drawers (1.12.2-5.3.6)
+
+---------------------------------------------------------------------
+
+3.0.4
+
+Bug Fixes:
+* Removed the Craft Studio API mod as it's no longer needed
+* Parrots have now been given a cap since they spawn a little too much in some worlds after I increased their spawn in 3.0.3
+* Altered the Vanilla Book recipe so it can actually be made and not conflict with another recipe
+* Changed the recipe for Dog Pelt Boots to be craftable in stage zero
+* Tweaked the recipe for the Uncrafting Table to fix a potential progression exploit (#1063)
+* Staged the recipes for Buildcraft Pipes
+* Moved the Hunting Dimension back to stage 1. Now the recipe should match the time a player can go
+* Disabled, again, Magnetite ore spawning. It should not have been available
+* Added Aquamarine to the Weak Dowsing Rod in stage one
+* Fix Lesser Tartaric Gem recipe (#1128)
+* Use dye oredict for Elytra dying recipe
+* Moved steam to stage 3 (#796)
+* Re-added a bunch of missing Mystical Agriculture metal essence recipes (#565)
+* Adjust recipes that use milk to stage 3 (#1088)
+* Fixed Quartz Glass requiring Natura Glass only, now asks for any blockGlass (#1184)
+* Added Blue Dye to all the Modular Machinery Blueprint recipes to eliminate recipe conflicts (#1156)
+* Field Manual is now craftable in stage one (#1140)
+* Add missing Molten Invar alloying recipe (#1789)
+
+Enhancement:
+* Added Bear Claw drops to all types of bears
+* Tweaked Shadow Creature drops just a bit so you will always get at least 1 drop
+* Colored the main quest lines to help players find the quest to unlock new stages
+* Added a side quest to alert players on how to get Kerosene, Lubricant, and Gasoline
+* Ore Samples now spawn underwater
+* Prospectors now scan in a 48 block line instead of 32
+* The Betweenlands will no longer spawn common ores, making rare ores more abundant. Note, all ores still spawn in the Overworld and Twilight Forest.
+
+Mod Updates:
+* Triumph advancement tabs are now in order and not just randomly thrown about! Also, previous uncompleted advancements due pack updates or changes should now be auto-completed on world join or able to be completed again. Not everything could be covered on auto-complete sorry for the inconvenience (1.12.2-1.10.1)
+* Better with Mods (1.12.-2.0.32)
+* Better with Addons (0.3.4)
+* Geolosys updated to significantly improve their generation so it does not get overwritten by another block or feature and remove the ore. Also, more stone has been properly added to the config to allow veins to spawn in other types of stones (1.12.2-1.8.10b)
+* PrimalTech (0.3.1)
+* Mob Grinding Utils (0.3.5)
+* PrimalCore fixed a localization issue and a few small tweaks (1.12.2-0.6.44)
+* ImmersiveTech fixed GUI's not working. The mod also removed Liquid Green Slime but we have replaced it with a custom liquid. You will be asked to confirm the missing item when loading your world. You can confirm and play as normal (1.12-1.3.7)
+* Better Advancements fixed a uncommon rendering crash (1.12.2-0.0.6.24)
+* EmberRootZoo (1.12-1.3.7)
+* FastWorkbench (1.12.2-1.3.1)
+* SmoothFont (1.12.2-1.13.1)
+
+---------------------------------------------------------------------
+
+3.0.3
+
+Bug Fixes:
+* The Enderman advancement should now only trigger after killing 1 type of endermen, not 6
+* The Darklands advancement no longer triggers on a coralium swamp biome since this biome does not generate the intended mobs and blocks the player needs to find
+
+Enhancements:
+* The following animals have been added to work with Horse Power (I can't guarantee they are diligent workers): Pig, Cow, Llama, Wolf
+* Added a ritual in stage 1 to summon parrots using Abyssalcraft
+* Added some more parrot spawns to Swamps and Savannahs
+* Added a secondary trigger to possibly unlock the Baykok stage instead of killing the mob yourself. Picking up his bow will enable the advancement
+
+Mod Updates:
+* Updated Better With Mods to restore the ability to make Unfired Porcelain in the millstone again (1.12-2.0.31)
+* Updated Together Forever to fix a server sync issue (1.12.2-1.0.6-12)
+* Updated Item Stages to fix a server side crash (1.12.2-1.0.33)
+* Updated Better Advancements to stop the screen from fading when your cursor is on an advancement (1.12.2-0.0.06.22)
+
+
+
+---------------------------------------------------------------------
+
+3.0.2
+
+Bug Fixes:
+* Changed the Aquamarine, Vanilla Chest, Necronomicon, Prospector, Furnace, Weirding Gadget, Crafting Table, Chopping Block, Channels, Stone Anvil, and Plumbline Advancement to trigger on Pickup rather than the ore block break or needing to craft the item
+* The Apple advancement should now trigger when you have the item in your inventory
+* Disable F3 Spawn Chunk information
+* Fix "Not repairable" tooltip from disappearing once the item is damaged
+* Removed some default recipes for Abyssalcraft statues
+* Disable Sphalerite (Geolosys Zinc) ore from spawning
+* Fixed Baykok advancement - Players that have it already will need to run `/gamestage add PlayerName baykok`
+* Moved the Iron Chisel back to stage two from one
+* Animals will no longer flee when placing or breaking a block. They will, however, flee when you kill another animal near them
+* Removed Signs from Carry-on due to issues with broken textures and resetting NBT data
+* Removed Item Frames from Carry-on due to... issues
+* Added a few more pieces of information in tooltips or advancements to help out stuck players
+* Added Geolosys Gold Ore to the Prospectors list
+* Increased Rock Crystal and Osmium minimum Y level to 3 so it does not get surrounded by bedrock
+* Coal has been moved back up to minimum Y48. Note, all existing generation can still potentially be as low as Y8. New generation will be correct
+* The temporary fix that allowed an exploit with certain dyes has been mostly removed. Also, Dung and Wither dust are no longer in the ore dictionary for dyes and will not show up in recipes
+* Astral Sorcery Illumination Powder and Starlight Crafting Altar recipes should now work correctly
+* Added a dye crushing recipe for Cocoa powder
+
+Mod Updates:
+* Updated HWYLA to fix the incorrect block being reported in the tooltip (1.8.25-B40_1.12)
+* Updated Smooth Font. The mod has decreased its RAM usage (1.12.2-1.13)
+* Updated OreStages to allow placing on "hidden" blocks again (1.12.2-1.0.25)
+* Updated Power adapters to fix a crash when certain power types were missing (1.12.2-1.0.6)
+* Updated Together Forever which should fix its issues in LAN environments (1.12-1.0.5-11)
+* Updated Item Stages. There is a new message for Restricted items that is a bit more clear so players don't mistake it as a bug any longer (1.12.2-1.0.31)
+* Updated Immersive Petroleum to fix the lack of GUI's in the last update (1.12.2.-1.1.9)
+* Updated Triumph to allow for multiple functions to be run on an advancement (fixing some advancements not triggering stages or rewards) (1.12.2-1.9.0)
+* Updated KleeSlabs "Fixed air blocks being considered slabs, causing random slab generation while breaking air (1.12.2-5.4.8)
+* Updated Primal Tech to fix issues with fire stick crafting and kilns lagging on servers (0.2.99)
+* Updated Integrated Dynamics (1.12.2-0.11.9)
+* Updated Carry-on to fix duplication exploits (1.12.2 v1.8)
+* Updated Toast Control to latest version (1.12.2-1.4.1)
+* Updated Foamfix to latest version (0.9.5-1.12.2)
+
+Upcoming:
+* The Better Advancements update to stop the background from going dark when mousing over an advancement had to be put on hold because of a server crash. Hopefully, it will be ready for the 3.0.3 update
+* Content will be included in future updates: More Advancements, Fully implemented Prestige System, etc. The first few updates are specifically focused on bug fixes and major issues that halt game play. Thanks for all the reports so far and thanks for helping to make SevTech awesome!
+
+---------------------------------------------------------------------
+
+Alpha 10
+* Fixed the Wooden Basin recipes
+* Altered the consumption chance of liquid starlight for the Stardust recipe
+* Disabled Buildcraft world generation
+* Fully converted skillable skills to advancements
+* Added "Wooden Barrel" and "Market" advancements
+* Removed Wooden Tools
+* Added recipe for Primal Barrel
+* Added a "nicer" recipe for BWM rope as you progress
+* Modified BWM Wooden Axle Recipe
+* Adjusted recipe for I.E. Pump
+* Added "nicer" recipe for Tcon smeltery parts as you progress
+* Added Viescraft Core, Frame, Engine, and Balloon recipes
+* Adjusted 4x Minecraft torch recipe
+
+---------------------------------------------------------------------
+
+Alpha 9
+* Turned the Better With Mods hunger mechanic off. Sorry for calling everyone fat and obese FeelsBadMan
+* Added marble, limestone, and slate to stage 0 so you can now interact with them. I swear it actually works this time
+* Turned village generation down slightly
+* Turned trumpet skeletons off in the Twilight, they were a bit too frequent
+* Allowed the use of Industrial Hemp earlier and added a recipe for BWM Hemp Rope in stage 1 that gives 3x
+* Cleaned up / deleted old config files
+* Netherrack was added to the compression list
+* Totempedia is now a shapeless recipe and edited others to be craftable in 2x2 grids
+* Fixed a number of Advancements not giving rewards
+* A number of Scripts have been cleaned up
+* Removed the Garden Stuff mod
+* Added Buildcraft for testing purposes
+* Staged the PlayerSkins mod and configured
+* Storage Drawer upgrades can now be crafted
+* Removed the Skillable Roadwalk upgrade
+* Doubled the amount of Luminessence recieved from recipe
+* Increased the amount of rails per crafting operation
+
+---------------------------------------------------------------------
+
+Alpha 8
+* This update will most likely break your current world due to passing the block limit
+* Removed Viescraft tweaker as it's no longer needed
+* Added Mystical Agriculture and Agggggggggraditions and turned off all essence drops
+* Hid Redstone blocks and disabled redstone to be used during stage 2
+* Removed Glowstone, redstone, and redstone blocks from loot tables
+* Added the Fat Cat Industrialist to the Stage 3 mob spawn table and gave him some pretty cool loot
+* Removed a number of decorative blocks from Chisel and Quark to lower total block number
+* Added Advanced Rocketry and began configuring for the pack
+* Added recipes for Viescraft using the Extended Crafting tables
+* Removed the Trash Slot mod
+* Staged Actually Additions and removed items from the Ball of Fur drop table
+* Thanks to Dawenzel, all the Tcon parts have been staged and will show in JEI when you unlock them
+
+---------------------------------------------------------------------
+
+Alpha 7
+* Added a Stage 1 recipe to Ember Dials
+* Charcoal and Coal blocks can now be ground down into pieces of charcoal and coal
+* Reworked the torch recipes a bit
+* Adjusted the flint crafting recipes
+* Tinker Tool Leveling now has a higher XP requirement
+* Slats have recipes now
+* Staged carpet recipes
+* Changed Teacups to use porcelain
+* Updated the meshes and recipes
+* Fixed the Better With Mods removal scripts not working
+* Dung Pipe advancement now allows either item to be placed and not both
+* Removed the skillable requirements for seeds
+* Added a number of new advancements including the beginnings of stage 3
+* Reduced the amount of Charcoal acquired from Low Grade Charcoal
+* Sleeping Mat has functionality to change whether it will set your spawn or not, check the tooltip for info
+* Constantan can not be alloyed in a smeltery any longer, it requires using Immersive Engineering methods
+* Reduced Direwolf damage yet again!
+* Cleaned up the Recurrent Complex structures, hopefully they should be spawning in the correct biomes or dimensions
+* Turned down the spawning of Cobalt and Ardite ore in the Nether
+* Removed the extra Uranium Ore Clusters so there should NOT be anymore "glowing" blocks on the surface
+* Added Iron Backpacks and put it in stage 2
+* Added a fleece recipe in stage 1
+* Lowered the amount of sugar cane needed for a wicker panel to 4 instead of 9
+* Increased the droprate of Ender Pearl dust to 50% instead of 25%
+* Disabled the mining upgrade functionality of the Tinkers' sharpening kits since these basically allow you to circumnavigate progression
+* Removed the Embers Melter due to it not able to be tweaked
+* Fixed string recipes using fleece and shears
+* Removed the glowstone drops from Spritelings
+* Initial cleanup of Bedrock Ores
+* Added an advancement page for Stage 4 and 5 along with root and entry advancements
+* Recipes should now be hidden when in the incorrect stage along with certain items
+
+---------------------------------------------------------------------
+
+Alpha 6
+* Fixed the hand grindstone to be craftable/usable at the correct time
+* All golems should now trigger the golem advancement
+* Added a water requirement to the crafting recipe for pulp
+* Added a parent requirement to many advancements
+* Fixed the wrong block assigned to complete the pedestal advancement
+
+---------------------------------------------------------------------
+
+Alpha 5
+* Updated the modpack to Minecraft version 1.12.2
+* Fixed the Wooden Basin Mulberry Pulp recipe, it was backwards
+* Removed Stellar Sky and Stellar API mods for the time being in an attempt for better overall pack performance
+* Added Unidict to unify Ingots, plates, etc.
+* Added back Embers recipes
+* Disabled Actually Additions Crystal Spawning
+* Added the Astral Sorcery Ores to the Tier 2 Prospector
+
+---------------------------------------------------------------------
+
+Alpha 4
+* Changed the total amount of materials for Tool grid repair to 3 instead of 4
+* Cleaned up a number of unnecessary config files
+* Added a new gif for the loading screen
+* Disabled Better With Mods Pollution and Weather Control in the config
+* The Bronze Block can now be hammered into Ingots on the Stone Anvil
+* Disabled Quark's multi-textured animals
+* Fixed a number of items to use Advancements instead of XP levels to use/place
+* Completed the Iron Chest recipes up to stage 2
+* Added a number of new advancements
+* Switched Nuclear Physics to large ore veins using Geolosys
+* Increased the durability of Better Builder's Wands and Chisel items
+* Assigned a number of items to their correct Game Stages
+* Edited values of the Immersive Engineering config to disallow oregen in dimension 0(on top of the ores individually disabled) and disabled the I.E. village house(also previously disabled via another method)
+* Removed the Crossroads mod
+* Switched Aqua Munda to use 'vanilla' style farmland to avoid crops popping off blocks. This will remove all existing tilled farmland created by players in the world
+* Added the Nuclear Phyics oregen to the OreTiers hiding file
+* Added the Stage 3 trigger into Advancements
+* Altered some of the backgrounds for Advancement Stages
+* Added parts for Steeleaf and Fiery Ingots from the Twilight Forest to be used in advanced recipes
+* Removed a number of items from the Twilight Forest Loot tables
+* Removed Bedrock ores from the Carry On mod
+* Primal Tech added a Wooden Basin allowing more efficient methods of creating dough, leather, etc. has JEI support
+* Debarked Birch logs can now be chopped up
+* Added a new Roots structure to worldgen
+* Lowered the limit for how many Amphibians, peacocks, ferrets, and hamster type mobs can spawn in the world from Animania
+* Slightly lowered the spawn frequency for Fish
+* Lowered the max Y limit Magma monsters can spawn to 50
+* Lowered the total amount of Horses and Golems allowed in the world
+* Changed the world to generate in a logical 'heat map', cold biomes are far north or south, and warmer biomes are between
+* Staged a number of mods in the pack in terms of recipes
+* Added text to a variety of advancements to help the player to complete them easier
+* Added a side quest advancement to defeat the Boss "baykok" from Totemic and unlock arrows sooner
+* Added the Weirding Gadget mod to allow chunkloading in stage 2
+* Added the Caravans mod back into the pack with a small amount of trades available
+* Removed the chest inventory search bar
+* Added the correct Fir Log slab recipe
+* Converted a number of recipes to be Shaped Mirrored
+* Fixed Barley Flour cooking the incorrect item on a firepit (now makes flatbread)
