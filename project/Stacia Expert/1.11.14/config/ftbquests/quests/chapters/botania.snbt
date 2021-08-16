@@ -1,0 +1,646 @@
+{
+	id: "0000000000000123"
+	group: ""
+	order_index: 2
+	filename: "botania"
+	title: "&7碧琪公主（植魔）"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["&a植物魔法辞典：&f包含了植物魔法中你需要知道的所有东西。"]
+			id: "0000000000000124"
+			tasks: [{
+				id: "61109A830BF77E33"
+				type: "checkmark"
+				title: "植物魔法"
+				icon: "botania:lexicon"
+			}]
+			rewards: [
+				{
+					id: "0000000000000126"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 4
+				}
+				{
+					id: "61221F6BA0E9BDF5"
+					type: "item"
+					item: "botania:lexicon"
+				}
+			]
+		}
+		{
+			x: -2.4d
+			y: 1.7999999999999998d
+			shape: "hexagon"
+			description: ["&a提示：&f你可以使用cyclic的玩家模拟器自动为花药台装水！"]
+			dependencies: ["0000000000000124"]
+			size: 1.2d
+			id: "0000000000000127"
+			tasks: [{
+				id: "0000000000000128"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["&a提示：&f自动化白雏菊的方式有很多。打开你的脑洞！"]
+			dependencies: ["0000000000000127"]
+			id: "0000000000000129"
+			tasks: [{
+				id: "000000000000012A"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "000000000000012B"
+				type: "item"
+				item: "botania:open_crate"
+			}]
+		}
+		{
+			x: 0.44999999999999996d
+			y: 2.25d
+			shape: "diamond"
+			description: ["&a提示：&f同样也有很多方式自动化白色混凝土。试试在JEI里输入@concrete。"]
+			dependencies: ["0000000000000129"]
+			size: 0.9d
+			id: "000000000000012C"
+			tasks: [{
+				id: "000000000000012D"
+				type: "item"
+				item: "botania:livingrock"
+				count: 16L
+			}]
+		}
+		{
+			x: 0.44999999999999996d
+			y: 3.5999999999999996d
+			shape: "diamond"
+			description: ["&a提示：&f使用动力搅拌器自动制作防腐木是个不错的方式。"]
+			dependencies: ["0000000000000129"]
+			size: 0.9d
+			id: "000000000000012E"
+			tasks: [{
+				id: "000000000000012F"
+				type: "item"
+				item: "botania:livingwood"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["&a其实：&f它就是个披着魔法外衣的能量电池。"]
+			dependencies: ["000000000000012C"]
+			id: "0000000000000130"
+			tasks: [{
+				id: "0000000000000131"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			description: ["&a提示：&f一朵贪食花产出的魔力大于一个魔力发射器能够存储的魔力。"]
+			dependencies: ["000000000000012E"]
+			id: "0000000000000132"
+			tasks: [{
+				id: "0000000000000133"
+				type: "item"
+				item: "botania:mana_spreader"
+				count: 4L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			description: ["&a活木枝：&f活木制作的木棍。"]
+			dependencies: ["000000000000012E"]
+			id: "0000000000000134"
+			tasks: [{
+				id: "0000000000000135"
+				type: "item"
+				item: "botania:livingwood_twig"
+				count: 4L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			shape: "hexagon"
+			description: ["&a符文祭坛：&f全自动符文祭坛比看上去要简单。"]
+			dependencies: ["0000000000000130"]
+			id: "0000000000000136"
+			tasks: [{
+				id: "0000000000000137"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 0.8999999999999999d
+			description: ["&a魔力石板：&f移动式魔力存储。"]
+			dependencies: ["0000000000000130"]
+			size: 0.9d
+			id: "0000000000000138"
+			tasks: [{
+				id: "0000000000000139"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.8d
+			y: 0.0d
+			description: ["&aBand Of Mana: &fPortable Mana Storage But You Can Wear This To The Baubles Slot."]
+			dependencies: ["0000000000000130"]
+			size: 0.8d
+			id: "000000000000013A"
+			tasks: [{
+				id: "000000000000013B"
+				type: "item"
+				item: {
+					id: "botania:mana_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.2d
+			y: 1.2d
+			shape: "hexagon"
+			description: ["&a炼金催化器：&fJEI里有详细的配方。"]
+			dependencies: ["0000000000000130"]
+			size: 0.8d
+			id: "000000000000013C"
+			tasks: [{
+				id: "000000000000013D"
+				type: "item"
+				item: "botania:alchemy_catalyst"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			description: ["&a森林法杖：&f不能施放法术的法杖。"]
+			dependencies: ["0000000000000134"]
+			id: "000000000000013E"
+			tasks: [{
+				id: "000000000000013F"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			description: ["&a翻阅植魔辞典获取详细信息"]
+			dependencies: ["0000000000000136"]
+			id: "0000000000000140"
+			tasks: [{
+				id: "0000000000000141"
+				type: "item"
+				item: "botania:travel_belt"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			description: ["&a翻阅植魔辞典获取详细信息"]
+			dependencies: ["0000000000000144"]
+			id: "0000000000000142"
+			tasks: [{
+				id: "0000000000000143"
+				type: "item"
+				item: "botania:super_travel_belt"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			description: ["&a翻阅植魔辞典获取详细信息"]
+			dependencies: ["0000000000000140"]
+			id: "0000000000000144"
+			tasks: [{
+				id: "0000000000000145"
+				type: "item"
+				item: "botania:speed_up_belt"
+			}]
+		}
+		{
+			x: 6.500000000000001d
+			y: 2.6d
+			shape: "hexagon"
+			description: ["&a泰拉凝聚板：&f有着超炫特效的魔法合成方式。"]
+			dependencies: ["0000000000000136"]
+			size: 1.2d
+			id: "0000000000000146"
+			tasks: [{
+				id: "0000000000000147"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			description: ["&a泰拉钢：&f跟泰拉瑞亚有点关系的物品。"]
+			dependencies: ["0000000000000146"]
+			id: "0000000000000148"
+			tasks: [{
+				id: "0000000000000149"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			description: ["&a自然水晶：&f大地之母的自然能量水晶。"]
+			dependencies: ["0000000000000146"]
+			id: "000000000000014A"
+			tasks: [{
+				id: "000000000000014B"
+				type: "item"
+				item: "botania:natura_pylon"
+			}]
+		}
+		{
+			title: "层级一符文"
+			x: 3.5d
+			y: 1.0d
+			description: ["&a植物魔法的第一层级符文！"]
+			dependencies: ["0000000000000136"]
+			id: "000000000000014C"
+			tasks: [
+				{
+					id: "000000000000014D"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "000000000000014E"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "000000000000014F"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "0000000000000150"
+					type: "item"
+					item: "botania:rune_air"
+				}
+			]
+		}
+		{
+			title: "层级二符文"
+			x: 4.5d
+			y: 0.0d
+			description: ["&a植物魔法层级二的符文！"]
+			dependencies: ["0000000000000136"]
+			id: "0000000000000151"
+			tasks: [
+				{
+					id: "0000000000000152"
+					type: "item"
+					item: "botania:rune_spring"
+				}
+				{
+					id: "0000000000000153"
+					type: "item"
+					item: "botania:rune_summer"
+				}
+				{
+					id: "0000000000000154"
+					type: "item"
+					item: "botania:rune_autumn"
+				}
+				{
+					id: "0000000000000155"
+					type: "item"
+					item: "botania:rune_winter"
+				}
+				{
+					id: "0000000000000156"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+		}
+		{
+			title: "层级三符文"
+			x: 5.5d
+			y: 0.5d
+			description: ["&a植物魔法层级三的符文！"]
+			dependencies: ["0000000000000136"]
+			id: "0000000000000157"
+			tasks: [
+				{
+					id: "0000000000000158"
+					type: "item"
+					item: "botania:rune_lust"
+				}
+				{
+					id: "0000000000000159"
+					type: "item"
+					item: "botania:rune_gluttony"
+				}
+				{
+					id: "000000000000015A"
+					type: "item"
+					item: "botania:rune_greed"
+				}
+				{
+					id: "000000000000015B"
+					type: "item"
+					item: "botania:rune_sloth"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			shape: "octagon"
+			description: ["&d精灵门核心：&f二次元女孩们超爱的传送门。"]
+			dependencies: ["0000000000000146"]
+			id: "000000000000015C"
+			tasks: [
+				{
+					id: "000000000000015D"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "000000000000015E"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "000000000000015F"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "0000000000000160"
+				type: "item"
+				item: {
+					id: "botania:mana_gun"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			description: ["&a翻阅植魔辞典获取详细信息"]
+			dependencies: ["000000000000015C"]
+			id: "0000000000000161"
+			tasks: [{
+				id: "0000000000000162"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+		}
+		{
+			x: 5.85d
+			y: 5.3999999999999995d
+			shape: "diamond"
+			description: ["&dElven Mana Spreader: &fA Faster Mana Spreader. But Not The Fastest."]
+			dependencies: ["0000000000000161"]
+			size: 0.9d
+			id: "0000000000000163"
+			tasks: [{
+				id: "0000000000000164"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			description: ["&d源质钢套装：&f这是粉红二次元女孩套装。"]
+			dependencies: ["000000000000015C"]
+			id: "0000000000000165"
+			tasks: [
+				{
+					id: "0000000000000166"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000167"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000168"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000169"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "000000000000016A"
+				type: "item"
+				item: "pamhc2foodextended:lemonsmoothieitem"
+				count: 8
+			}]
+		}
+		{
+			icon: "botania:gaia_pylon"
+			x: 10.0d
+			y: 3.5d
+			description: ["&d植物魔法辞典：&f高级版本的辞典，拥有更多植物魔法后期的内容。"]
+			dependencies: ["000000000000016D"]
+			id: "000000000000016B"
+			tasks: [{
+				id: "000000000000016C"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.0d
+			shape: "octagon"
+			description: [
+				"&d盖亚之魂：&f击杀盖亚获得的合成用材料。"
+				""
+				"&d翻阅植魔辞典获取详细信息。"
+			]
+			dependencies: ["000000000000015C"]
+			id: "000000000000016D"
+			tasks: [{
+				id: "000000000000016E"
+				type: "item"
+				item: "botania:life_essence"
+				count: 8L
+			}]
+			rewards: [{
+				id: "000000000000016F"
+				type: "item"
+				item: {
+					id: "botania:dice"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			shape: "octagon"
+			description: ["&a磁化指环：&f免费的磁铁。不用魔力也不用钱。"]
+			dependencies: ["0000000000000130"]
+			size: 0.9d
+			id: "0000000000000170"
+			tasks: [{
+				id: "0000000000000171"
+				type: "item"
+				item: {
+					id: "botania:magnet_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			description: ["&d触物指环：&f增加玩家的最大触碰范围。"]
+			dependencies: ["000000000000015C"]
+			id: "0000000000000172"
+			tasks: [{
+				id: "0000000000000173"
+				type: "item"
+				item: {
+					id: "botania:reach_ring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: -23831268810011884L
+						baubleUUIDLeast: -8419620320435513121L
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 4.0d
+			description: ["&d天翼族之冠：&f创造飞行。当然，它需要消耗魔力。"]
+			dependencies: ["000000000000016D"]
+			id: "0000000000000174"
+			tasks: [{
+				id: "0000000000000175"
+				type: "item"
+				item: {
+					id: "botania:flight_tiara"
+					Count: 1b
+					tag: {
+						variant: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 6.0d
+			shape: "gear"
+			description: ["&d盖亚魂锭：&f贵重的合成材料。"]
+			dependencies: ["000000000000016D"]
+			size: 1.3d
+			id: "0000000000000176"
+			tasks: [{
+				id: "0000000000000177"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.0d
+			description: ["&a翻阅植魔辞典获取详细信息"]
+			dependencies: ["000000000000016D"]
+			id: "0000000000000178"
+			tasks: [
+				{
+					id: "0000000000000179"
+					type: "item"
+					item: "botania:unholy_cloak"
+				}
+				{
+					id: "000000000000017A"
+					type: "item"
+					item: "botania:balance_cloak"
+				}
+			]
+		}
+	]
+}
