@@ -1,0 +1,243 @@
+{
+	"registryname": "assemblermktwo",
+    "localizedname": "高级装配及",
+    "requires-blueprint": true,
+    "color": "B0B0B0",
+    "modifiers": [
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "thermalfoundation:storage@7",
+            "description": "3x 速度，4x 能量消耗",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.333
+            },
+            {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 1.333
+            }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "techreborn:storage2@0",
+            "description": "1.5x 速度，3x 能量消耗",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.667
+            },
+            {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 2
+            }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "plustic:osmiridiumblock@0",
+            "description": "3.75x 速度，7.5x 能量消耗",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.267
+            },
+            {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 2
+            }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "enderio:block_alloy_endergy@3",
+            "description": "4.8x 速度，1.2x 流体消耗，10.8x 能量消耗",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.208
+            },
+            {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 2.25
+            },
+            {
+                "io": "input",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 1.2
+            }
+            ]
+        }, 
+        {
+            "x": [-3,-1,1,3],
+            "y": 1,
+            "z": [0,2],
+            "elements": "techreborn:machine_casing@2",
+            "description": "升级机械外壳来减少所需时间。",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.93
+            }
+            ]
+        },
+        {
+            "x": [-3,-1,1,3],
+            "y": 1,
+            "z": [0,2],
+            "elements": "techreborn:fusion_coil",
+            "description": "升级机械外壳来减少所需时间。",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.87
+            }
+            ]
+        }
+    ],
+    "parts": [
+            {
+                "x": [-3,-2,-1,0,1,2,3],
+                "y": 0,
+                "z": 1,
+                "elements": [
+                    "immersiveengineering:metal_decoration0@2"
+                ]
+            },
+            {
+                "x": [-3,-2,2,3],
+                "y": 0,
+                "z": [0,2],
+                "elements": [
+                    "mekanism:plasticblock@7"
+                ]
+            },
+            {
+                "x": [-1,0,1],
+                "y": 0,
+                "z": 2,
+                "elements": [
+                    "modularmachinery:blockcasing@0",
+                    "modularmachinery:blockinputbus",
+                    "modularmachinery:blockenergyinputhatch",
+                    "modularmachinery:blockfluidinputhatch",
+                    "modularmachinery:blockoutputbus"
+                ]
+            },
+            {
+                "x": [-1,1],
+                "y": 0,
+                "z": 0,
+                "elements": [
+                    "modularmachinery:blockcasing@0",
+                    "modularmachinery:blockinputbus",
+                    "modularmachinery:blockenergyinputhatch",
+                    "modularmachinery:blockfluidinputhatch",
+                    "modularmachinery:blockoutputbus"
+                ]
+            },       
+            {
+                "x": [-3,-1,1,3],
+                "y": 1,
+                "z": [0,2],
+                "elements": [
+                    "techreborn:machine_casing@1"
+                ]
+            },
+            {
+                "x": [-2,2],
+                "y": 1,
+                "z": [0,2],
+                "elements": [
+                    "modularmachinery:blockcasing@1"
+                ]
+            },                                                    
+            {
+                "x": [-3,-2,-1,1,2,3],
+                "y": 1,
+                "z": 1,
+                "elements": [
+                    "libvulpes:structuremachine"
+                ]
+            },               
+            {
+                "x": 0,
+                "y": 1,
+                "z": [0,2],
+                "elements": [
+                    "libvulpes:structuremachine"
+                ]
+            },                       
+            {
+                "x": 0,
+                "y": 1,
+                "z": 1,
+                "elements": [
+                    "techreborn:storage@2",
+                    "techreborn:storage@10"
+                ]
+            },                               
+            {
+                "x": [1,-3],
+                "y": [1,2,3],
+                "z": -1,
+                "elements": [
+                    "mekanism:plasticfence@15"
+                ]
+            },
+            {
+                "x": [-1,3],
+                "y": [1,2,3],
+                "z": 3,
+                "elements": [
+                    "mekanism:plasticfence@15"
+                ]
+            },
+            {
+                "x": [1,-3],
+                "y": 3,
+                "z": 0,
+                "elements": [
+                    "mekanism:plasticfence@15"
+                ]
+            },
+            {
+                "x": [-1,3],
+                "y": 3,
+                "z": 2,
+                "elements": [
+                    "mekanism:plasticfence@15"
+                ]
+            }                                                                                                                                                                                       
+        ]
+            }
