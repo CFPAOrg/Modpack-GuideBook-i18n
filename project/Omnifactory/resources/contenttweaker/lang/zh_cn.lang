@@ -1,0 +1,237 @@
+material.conductive_iron=导电铁
+material.pulsating_iron=脉冲铁
+material.energetic_alloy=充能合金
+material.vibrant_alloy=脉冲合金
+material.dark_steel=玄钢
+material.lumium=流明
+material.signalum=信素
+material.enderium=末影
+material.electrical_steel=磁钢
+material.end_steel=末地钢
+material.ardite=阿迪特
+material.manyullyn=玛玉灵
+material.omnium=锇
+material.draconium=龙
+material.microversium=微宇宙
+
+item.contenttweaker.omnicoin.name=全能币 [1]
+item.contenttweaker.omnicoin5.name=全能币 [5]
+item.contenttweaker.omnicoin25.name=全能币 [25]
+item.contenttweaker.omnicoin100.name=全能币 [100]
+
+item.contenttweaker.woodenwidget.name=木制装置
+item.contenttweaker.stonewidget.name=石制装置
+item.contenttweaker.alloywidget.name=合金装置
+item.contenttweaker.enderwidget.name=末影装置
+item.contenttweaker.stonewidgetup.name=石制装置部件（顶部）
+item.contenttweaker.stonewidgetdown.name=石制装置部件（底部）
+item.contenttweaker.woodwidgetleft.name=木制装置部件（左部）
+item.contenttweaker.woodwidgetright.name=木制装置部件（右部）
+
+item.contenttweaker.moteoflife.name=生命精华微尘
+item.contenttweaker.moteofnature.name=自然精华微尘
+item.contenttweaker.moteoffire.name=火焰精华微尘
+item.contenttweaker.moteofearth.name=大地精华微尘
+item.contenttweaker.moteofair.name=气之精华微尘
+item.contenttweaker.moteofwater.name=水之精华微尘
+
+item.contenttweaker.primalnature.name=原始自然精华
+item.contenttweaker.primalfire.name=原始火之精华
+item.contenttweaker.primalearth.name=原始大地精华
+item.contenttweaker.primalair.name=原始大气精华
+item.contenttweaker.primalwater.name=原始水之精华
+item.contenttweaker.primallife.name=原始生命精华
+
+item.contenttweaker.essentianeedle.name=Essentia Needle
+item.contenttweaker.runedessentianeedle.name=Runed Essentia Needle
+item.contenttweaker.ornateessentianeedle.name=Ornate Essentia Needle
+item.contenttweaker.woodenmortar.name=Wooden Mortar
+item.contenttweaker.blockofleaddust.name=Block of Lead Dust
+
+fluid.quicksilver=水银
+fluid.aether=以太
+fluid.brimstone=硫磺
+fluid.aquafortis=硝酸
+
+item.contenttweaker.combinationcircuit.name=低等处理器
+item.contenttweaker.electronicprocessor.name=电子处理器
+item.contenttweaker.electronicprocessorarray.name=电子处理器阵列
+item.contenttweaker.refinedcircuit.name=Refined Circuit
+item.contenttweaker.refinedprocessor.name=Refined Processor
+item.contenttweaker.refinedprocessorarray.name=Refined Processor Array
+item.contenttweaker.refinedprocessormainframe.name=Refined Processor Mainframe
+item.contenttweaker.crystalcircuit.name=Crystal Circuit
+item.contenttweaker.crystalprocessorarray.name=Crystal Processor Array
+item.contenttweaker.crystalprocessormainframe.name=Crystal Processor Mainframe
+item.contenttweaker.quantumprocessor.name=Quantum Processor
+item.contenttweaker.quantumprocessorarray.name=Quantum Processor Array
+item.contenttweaker.quantumprocessormainframe.name=Quantum Processor Mainframe
+item.contenttweaker.nanoprocessorarray.name=Nanoprocessor Array
+item.contenttweaker.nanoprocessormainframe.name=Nanoprocessor Mainframe
+item.contenttweaker.microcircuit.name=Microcircuit
+item.contenttweaker.microprocessorarray.name=Microprocessor Array
+item.contenttweaker.microprocessormainframe.name=Microprocessor Mainframe
+
+item.contenttweaker.tieroneship.name=Steel Plated Micro Miner [Tier One]
+item.contenttweaker.tiertwoship.name=Titanium Plated Micro Miner [Tier Two]
+item.contenttweaker.tierthreeship.name=Tungsten Carbide Plated Micro Miner [Tier Three]
+item.contenttweaker.tierfourship.name=Signalum Plated Micro Miner [Tier Four]
+item.contenttweaker.tierfiveship.name=Iridium Plated Micro Miner [Tier Five]
+item.contenttweaker.tiersixship.name=Enderium Plated Micro Miner [Tier Six]
+item.contenttweaker.tiersevenship.name=Draconium Plated Micro Dragon Hunter [Tier Seven]
+item.contenttweaker.tiereightship.name=Crystal Matrix Plated Micro Leviathan Slayer [Tier Eight]
+item.contenttweaker.tiernineship.name=Eternium Plated Micro Sun Eater [Tier Nine]
+item.contenttweaker.tiertenship.name=Neutronium Plated Micro Universe Harvester [Tier Ten]
+item.contenttweaker.moondust.name=Moon Dust
+item.contenttweaker.quantumflux.name=Quantum Flux
+
+item.contenttweaker.t1guidance.name=Basic Microminer Guidance System
+item.contenttweaker.t1laser.name=Basic Mining Laser
+item.contenttweaker.t2laser.name=Reinforced Mining Laser
+item.contenttweaker.t2guidance.name=Advanced Microminer Guidance System
+item.contenttweaker.t3engine.name=Supercharged Thruster Jet
+item.contenttweaker.t3laser.name=Supercharged Laser Array
+
+item.contenttweaker.steelplating.name=重型钢护板
+item.contenttweaker.titaniumplating.name=重型钛护板
+item.contenttweaker.tungstencarbideplating.name=重型碳化钨护板
+item.contenttweaker.signalumplating.name=重型信素护板
+item.contenttweaker.iridiumalloyplating.name=重型铱护板
+item.contenttweaker.enderiumplating.name=重型末影护板
+item.contenttweaker.draconiumplating.name=重型龙护板
+item.contenttweaker.crystalmatrixplating.name=重型水晶矩阵护板
+item.contenttweaker.quantumfluxedeterniumplating.name= Quantum Fluxed Eternium Heavy Plating
+item.contenttweaker.neutroniumplating.name=重型中子素护板
+
+item.contenttweaker.heartofauniverse.name=Heart Of A Universe
+item.contenttweaker.radiationlayer.name=Radiation Layer
+item.contenttweaker.pressurelayer.name=Pressure Layer
+tile.contenttweaker.excitationcoil.name=Excitation Coil
+item.contenttweaker.unpreparedspacehelmet.name=Unprepared Space Helmet
+item.contenttweaker.unpreparedspacechestpiece.name=Unprepared Space Chestpiece
+item.contenttweaker.unpreparedspaceleggings.name=Unprepared Space Leggings
+item.contenttweaker.unpreparedspaceboots.name=Unprepared Space Boots
+item.contenttweaker.cloth.name=Cloth
+item.contenttweaker.thermalcloth.name=Thermal Cloth
+item.contenttweaker.smallgearextrudershape.name=Extruder Shape (Small Gear)
+item.contenttweaker.creativeportabletankmold.name=Mold (Creative Portable Tank)
+
+item.contenttweaker.conductivewire.name=Conductive Iron Wire
+item.contenttweaker.pulsatingwire.name=Pulsating Iron Wire
+item.contenttweaker.energeticwire.name=Energetic Alloy Wire
+item.contenttweaker.vibrantwire.name=Vibrant Alloy Wire
+
+item.contenttweaker.knightslimeingot.name=Knightslime Ingot
+item.contenttweaker.endstonedust.name=Endstone Dust
+item.contenttweaker.lapisarmorplate.name=Heavy Lapis Plate
+item.contenttweaker.carbonarmorplate.name=Heavy Carbon Plate
+item.contenttweaker.redstonearmorplate.name=Heavy Redstone Plate
+tile.contenttweaker.block_dust.name=Dust Block
+item.contenttweaker.blazepowder.name=Blaze Powder
+item.contenttweaker.grainsofinnocence.name=Grains Of Innocence
+
+item.contenttweaker.hotdraconiumingot.name=热龙锭
+item.contenttweaker.exoticmaterialscatalyst.name=Exotic Materials Catalyst
+item.contenttweaker.eternalcatalyst.name=Eternal Catalyst
+item.contenttweaker.draconicstemcells.name=Draconic Stem Cells
+item.contenttweaker.gemsensor.name=Gemstone Sensor
+item.contenttweaker.radiumsalt.name=Radium Salt
+item.contenttweaker.warpengine.name=曲速引擎
+item.contenttweaker.universalnavigator.name=Universal Navigator
+item.contenttweaker.deuteriumrover.name=Deuterium Rover
+item.contenttweaker.helium3rover.name=Helium-3 Rover
+
+item.contenttweaker.solidifiedargon.name=Solidified Argon
+item.contenttweaker.solidifiedchlorine.name=Solidified Chlorine
+item.contenttweaker.solidifiedfluorine.name=Solidified Fluorine
+item.contenttweaker.solidifiedhelium.name=Solidified Helium
+item.contenttweaker.solidifiedhydrogen.name=Solidified Hydrogen
+item.contenttweaker.solidifiedkrypton.name=Solidified Krypton
+item.contenttweaker.solidifiedmercury.name=Solidified Mercury
+item.contenttweaker.solidifiedneon.name=Solidified Neon
+item.contenttweaker.solidifiednitrogen.name=Solidified Nitrogen
+item.contenttweaker.solidifiedoxygen.name=Solidified Oxygen
+item.contenttweaker.solidifiedradon.name=Solidified Radon
+item.contenttweaker.solidifiedxenon.name=Solidified Xenon
+
+item.contenttweaker.heartofauniverse.name=Heart Of A Universe
+item.contenttweaker.netherstarsouth.name=Nether Star Tip South
+item.contenttweaker.netherstareast.name=Nether Star Tip East
+item.contenttweaker.netherstarwest.name=Nether Star Tip West
+
+fluid.neon=氖气
+fluid.xenon=氙气
+fluid.krypton=氪气
+fluid.elementalreduction=Elemental Reduction Fluid
+fluid.einsteinium=锿
+fluid.berkelium=锫
+fluid.californium=锎
+fluid.awakeneddraconium=Molten Awakened Draconium
+fluid.curium=Curium
+fluid.neptunium=Neptunium
+fluid.plutonium2=Plutonium
+fluid.uranium233=Uranium 233
+fluid.moltencreativeportabletank=Molten Creative Portable Tank
+fluid.moltencrystalmatrix=Molten Crystal Matrix
+fluid.moltennetherstar=Molten Nether Star
+fluid.moltenempoweredvoid=Molten Empowered Void Crystal
+fluid.moltenempoweredrestonia=Molten Empowered Restonia Crystal
+fluid.moltenempoweredpalis=Molten Empowered Palis Crystal
+fluid.moltenempoweredenori=Molten Empowered Enori Crystal
+fluid.moltenempowereddiamatine=Molten Empowered Diamatine Crystal
+fluid.moltenempoweredemeradic=Molten Empowered Emeradic Crystal
+fluid.moltensoularium=Molten Soularium
+fluid.moltendarksoularium=Molten Dark Soularium
+
+item.contenttweaker.stabilizedeinsteinium.name=Stabilized Einsteinium
+item.contenttweaker.stabilizedberkelium.name=Stabilized Berkelium
+item.contenttweaker.stabilizedplutonium.name=Stabilized Plutonium
+item.contenttweaker.stabilizeduranium.name=Stabilized Uranium
+item.contenttweaker.stabilizedneptunium.name=Stabilized Neptunium
+item.contenttweaker.stabilizedamericium.name=Stabilized Americium
+item.contenttweaker.stabilizedcurium.name=Stabilized Curium
+item.contenttweaker.stabilizedcalifornium.name=Stabilized Californium
+item.contenttweaker.stabilizedthorium.name=Stabilized Thorium
+
+item.contenttweaker.compressedoctadiccapacitor.name=Compressed Octadic Capacitor
+item.contenttweaker.doublecompressedoctadiccapacitor.name=Double Compressed Octadic Capacitor
+item.contenttweaker.ultimate_circuit.name=Ultimate Circuit
+item.contenttweaker.ultimate_power_storage.name=Ultimate Power Storage
+item.contenttweaker.ultimate_generator.name=Ultimate Generator
+item.contenttweaker.ultimate_crafting_table.name=Ultimate Crafting Table
+item.contenttweaker.ultimate_gem.name=Ultimate Gem
+
+item.contenttweaker.dragonlairdata.name=Dragon Lair Data
+item.contenttweaker.witherrealmdata.name=Wither Realm Data
+tile.contenttweaker.denseoilshale.name=Dense Oilsands Ore
+item.contenttweaker.impossiblerealmdata.name=Impossible Realm Data
+item.contenttweaker.sentientgear.name=Sentient Gear Core
+item.contenttweaker.lairoftheclockworkkingdata.name=Lair Of The Clockwork King Data
+item.contenttweaker.lairofthechaosguardiandata.name=Lair Of The Chaos Guardian Data
+item.contenttweaker.universecreationdata.name=Universe Creation Data
+item.contenttweaker.stellarcreationdata.name=Stellar Creation Data
+item.contenttweaker.densehydrogen.name=Dense Hydrogen
+item.contenttweaker.ultradensehydrogen.name=Ultra Dense Hydrogen
+
+tile.contenttweaker.microverse_casing.name=Microverse Projector Casing
+tile.contenttweaker.microverse_vent.name=Microverse Projector Vent
+
+item.contenttweaker.eightsmore.name=EightS'more OctoS'mingot
+item.contenttweaker.sixteensmore.name=SixteenS'more HexadecaS'mingot
+item.contenttweaker.thirtytwosmore.name=Half-stack-o'-S'more TriacontadyoS'mingot
+item.contenttweaker.sixtyfoursmore.name=Stack-o'-S'more HexecontatessaraS'mingot
+
+item.contenttweaker.hand_framing_tool.name=Hand Framing Tool
+
+item.contenttweaker.hand_framing_tool.desc1=Frame your tools by hand!
+item.contenttweaker.hand_framing_tool.desc2=The Hand Framing Tool lets you frame drawers already placed in the world.
+item.contenttweaker.hand_framing_tool.desc3=To do this, the tool itself needs to be framed in a crafting table. See the item's crafting table recipes in JEI.
+item.contenttweaker.hand_framing_tool.desc4=Then, once the tool is framed, right clicking any drawers in-world will frame them.
+item.contenttweaker.hand_framing_tool.desc5=Optionally, the tool can be filled with sticks using the crafting table recipe. Up to a stack of sticks will be consumed from each slot.
+item.contenttweaker.hand_framing_tool.desc6=The tool can then be used to convert existing unframed drawers into framed drawers, consuming 8 sticks to do so.
+
+item.contenttweaker.pulsatingdust.name=Pulsating Dust
+item.contenttweaker.pulsatingmesh.name=Pulsating Mesh
+
+tile.contenttweaker.simulation_casing.name=Naquadah-Plated Dark Steel Machine Casing
+tile.contenttweaker.simulation_casing_2.name=Naquadah Machine Casing
