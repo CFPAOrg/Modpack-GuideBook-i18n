@@ -119,8 +119,8 @@ omnifactory.quest.db.18.title=熔炉 v7.0
 omnifactory.quest.db.18.desc=§3黑曜石熔炉§f的熔炼速度虽与§3钻石熔炉§f一致，但§e同时熔炉两件物品§f的能力使得其实际吞吐量为钻石熔炉的两倍。%n%n你或许感觉钻石熔炉更符合你的需求，但在不久后两者都将作为合成材料参与多种机器的制作配方，所以即使你并不使用它，做上一个也并不浪费。
 
 # db 19
-omnifactory.quest.db.19.title=LV Alloy Smelter
-omnifactory.quest.db.19.desc=Alloy Smelters are used to create alloys by melting and reforming items together.%n%nNow you won't need to grind up metals into dusts and mix them for alloy dusts! Plus, many of the more complex alloys you couldn't make that way are now possible.
+omnifactory.quest.db.19.title=低压合金炉
+omnifactory.quest.db.19.desc=合金炉能将物品熔化并重塑成合金。%n%n有了合金炉，你就不再需要将金属材料先磨粉再混合才能获得合金了！此外，无法通过原始方法制得的复杂合金在它的帮助下也将成为可能。
 
 # db 20
 omnifactory.quest.db.20.title=熔炉 v6.0
@@ -255,8 +255,8 @@ omnifactory.quest.db.52.title=LV Cluster Mill
 omnifactory.quest.db.52.desc=Before you get access to easier circuits, you will need to be able to make §6Foils§r.%n%nThat's the purpose of the §3Cluster Mill§r.
 
 # db 53
-omnifactory.quest.db.53.title=LV Wiremill
-omnifactory.quest.db.53.desc=The §3Wiremill§r is a major efficiency boost, giving you a much greater yield of §6wires§r for your ingots. But first, you'll need to make some §6Motors§r.%n%n§bGregTech§r machines are built from a number of components, many of which are shared between the machines. Motors§r are used in a great number of recipes, even including other components.%n%nMake sure to encode the recipes needed for motors into a §3Crafting Station§r. You'll need quite a lot of them.%n%nAfter you make the Wiremill, §econsider making a few stacks§r of LV motors. This might sound extreme, but §ebatch crafting§r in this manner is an important habit to pick up. This way you won't have to craft more for a while, and you §owill §ruse all those motors eventually, so you're not wasting materials.%n%nAs you get access to more machinery you will no longer need to craft things manually. Instead, you will engineer factories to automate the production for you. It is useful to keep a stockpile of frequently used things like circuits and components crafted so you don't have to wait for them when you need them.%n%n
+omnifactory.quest.db.53.title=低压线材轧机
+omnifactory.quest.db.53.desc=§3线材轧机§r能够将锭处理成更多的§6线缆§r，极大地提升效率。但首先，你需要制作一些§6电动马达§r。%n%n§b格雷科技§r的机器都是用若干组件来制造的，大多数组件为各个机器配方所共用。在非常多的配方中都能见到电动马达的身影，甚至一些其它的组件也需要它来制造。%n%n电动马达的需求很大，所以别忘了把电动马达的配方编入§3合成站§r。%n%n做出线材轧机后，§e考虑多做几组§r低压（LV）的电动马达。听上去虽然不现实，但培养§e批量合成§r的习惯是非常重要的。如此一来，你在相当一段时间内就不需要忙于制作更多马达了，而且话说回来，你也§o肯定会§r需要把它们全部用光光的，所以多做几组并不是浪费。%n%n在你接触到更多机械之后，你就不再需要手搓物品了，取而代之的则是由你一手建成并将反哺于你的自动化产业工厂，它将为你维持电路和组件等常用物品的储备，将你从物不就手的焦急和漫长的等待中解放出来。
 
 # db 54
 omnifactory.quest.db.54.title=Quantum Eyes
@@ -279,12 +279,12 @@ omnifactory.quest.db.58.title=低压能量存储
 omnifactory.quest.db.58.desc=§6电池§r是§b格雷科技§r中用以存储§aEU§r能量的途径。%n%n§6镉电池§r是一众可制作的电池中的佼佼者，§6锂电池§r次之，§6钠电池§r再次之。%n%n§6锂§r可在§6钨§r矿脉中找到，但含量相当稀少，所以你可以考虑使用§d全能币§r来“购买”一些锂矿石。%n%n目前，制作§6镉电池§r还是相当困难的，甚至都用不着去惦记，但§6钠§r就真是唾手可得了，烧炼§6盐§r即可制取，而后续更会接触到其它的制取方法。
 
 # db 59
-omnifactory.quest.db.59.title=Copper... Nickel... Cupronickel?
-omnifactory.quest.db.59.desc=Nickel comes from several different ores, including Pentlandite and Garnierite, but they're all found in the same vein.%n%nNickel is used mostly for several very important alloys, including Invar and Cupronickel.
+omnifactory.quest.db.59.title=铜镍合金叫什么？
+omnifactory.quest.db.59.desc=镍黄铁矿与硅镁镍矿等矿石中均含有镍，这些矿石都出自同一种矿脉。%n%n镍主要用于制取若干种非常重要的合金，包括殷钢和白铜。
 
 # db 60
-omnifactory.quest.db.60.title=Blast Furnace Fun
-omnifactory.quest.db.60.desc=The §3Electric Blast Furnace§r is a major, major milestone in your §bGregTech§r career. It has the power to smelt more advanced materials. The first of which, §6Aluminium§r, is going to be important in the immediate future.%n%nThere is a diagram of how to build the EBF in §bJEI§r. The second and third levels must be a 3x3 square shape of Coil Blocks (§6Cupronickel§r is the only type of coil block you have access to for now) with an empty center. You can also §6sneak-right click§r the controller to enable the in-world preview.%n%nHowever, the bottom and top layers are very flexible. The §6EBF Controller§r must be on the §ebottom layer§r of the structure, and on the §emiddle of an outer edge§r. Otherwise, you can put the hatches and buses wherever you want, filling in all gaps in each layer with §6Heatproof Machine Casings§r. It's worth noting that you must §euse at least 10 Heatproof Machine Casings in your layout or the structure will not form§r.%n%nThis quest calls for two energy hatches, a fluid input and output, and an item input and output, which is a total of six positions. Their specific order and placement don't matter, as long as you can access them. The seventh position is your EBF controller, leaving eleven gaps to be filled by Heatproof Machine Casings. If you did everything right, the structure will form: the colors on its hatches and casings will unify, and the controller will say "Idling."%n%nYou'll most likely want to locate your power quite near to the EBF. It is very power hungry, and if it cannot get enough energy, progress on the current item smelting will start to regress. Be careful to ensure the EBF has enough power, and keep a Soft Hammer nearby to pause it by tapping the controller if you run out of power.
+omnifactory.quest.db.60.title=快乐高炉
+omnifactory.quest.db.60.desc=§3电力高炉§r是你§b格雷科技§r生涯中一块非常，非常，非常重要的里程碑。这种多方块机器能够熔炼更加高级的材料，譬如§6铝§r，铝将在不远的将来扮演重要的角色。%n%n在§bJEI§r中可以查阅到电力高炉的搭建图示。第二和第三层必须是使用线圈方块（目前你只能做出§6白铜§r线圈方块）构建的3x3中空正方形。你也可以§6潜行右击§r控制器来启用世界内结构预览来辅助搭建。%n%n相比中间两层，顶层和底层的组成方块就非常灵活了。§6电力高炉控制器§r可放置在结构§e底层任意一边的中央位置§r，各类仓和总线则可在这两层中随意放置，最后使用§6隔热机器外壳§r来填充空档即可。需要注意的是，§e结构中包含的隔热机器外壳必须至少为10块，否则结构将无法成型§r。%n%n完成本任务需要两个能源仓、一个流体输入仓、一个流体输出仓、一个输入总线以及一个输出总线，共占用六个位置。只要保证不被阻隔，你就可以随意将它们设置在顶层和底层的任何地方。第七个位置当然是电力高炉控制器了。那么剩下的11个位置统统交给隔热机器外壳就好。如果一切正确，机器结构就会成型：所有仓和总线的颜色都会被统一，控制器界面中也会显示“待机。”的字样。%n%n你很可能会想要将电力高炉设置在紧靠能量源的地方。这种机器很能吃电，如果电力供应不足，当前物品的处理进度就会开始倒退。一定要注意保持电力高炉供能充足，并且带好软锤，在电力竭尽时立即停止其运转。
 
 # db 61
 omnifactory.quest.db.61.title=Gemstone Sensor
@@ -627,12 +627,12 @@ omnifactory.quest.db.145.title=LV Pistons
 omnifactory.quest.db.145.desc=A piston is a specialized motor, which is needed to make certain machines.%n%nOne of the more intricate components, as it is made using a motor.
 
 # db 146
-omnifactory.quest.db.146.title=LV Pumps
-omnifactory.quest.db.146.desc=Another common component of any machine that uses fluids. Also usable as a cover for moving fluids between §bGregTech§r machines and adjacent tanks or machines.%n%nYou can use §6Paper Rings§r or §6Rubber Rings§r, but both will require a §aKnife§r to craft. A stick and a piece of flint will make a Knife with low durability, or check the recipe for metal ones.
+omnifactory.quest.db.146.title=低压电动泵
+omnifactory.quest.db.146.desc=所有和流体有关的机器都要用到电动泵这种常见的组件进行制造。此外，它也是一种可以在§b格雷科技§r的机器与相邻的其它机器或储罐间传输流体的覆盖板。%n%n你可以选用§6纸环§r或§6橡胶环§r来参与合成，这两种环都需要§a刀§r来制作。一根木棍和一片燧石即可拼凑成一把耐久度较低的刀，你也可以查阅合成配方并制作耐久度更高的金属刀。
 
 # db 147
-omnifactory.quest.db.147.title=Polarizer
-omnifactory.quest.db.147.desc=Note: this quest accepts both LV and MV Polarizer.%n%nAlthough you could §emagnetize§r §6Iron Ingots§r by hand using §6Redstone§r, doing that consumes considerable amounts of dust and that's not an option for more advanced materials. This machine will let you magnetize §6Steel Rods§r, as well as even more advanced materials later.%n%nThere are no recipes for the §3Polarizer§r that require more than 32 volts, which means you can get away with using an LV Polarizer for the entire pack. However, higher voltages will work faster, in exchange for consuming more power.%n%n
+omnifactory.quest.db.147.title=两极磁化机
+omnifactory.quest.db.147.desc=提醒：本任务同时接受基础（LV）和进阶（MV）的两极磁化机。%n%n直接用§6红石§r来§e磁化§r§6铁锭§r尽管可行，但耗材实在太大，更加高级的材料也并不适用于这种方法，而两极磁化机则能磁化§6钢杆§r等后续将会用到的高级材料。%n%n§3两极磁化机§r能够处理的所有配方要求的输入电压均不会大于32伏，这就意味着一台低压的两极磁化机便足以陪你走完整个流程。当然了，机器的电压等级越高，处理的速度也就越快，耗电也会越多。%n%n
 
 # db 148
 omnifactory.quest.db.148.title=Titanium
