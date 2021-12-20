@@ -3,44 +3,44 @@ omnifactory.quest.line.0.title=新手上路
 omnifactory.quest.line.0.desc=格雷科技低压等级：一座工厂即将拔地而起！%n%n开启§b深度怪物学习§r之门，接触早期的§b末影接口§r科技与§b应用能源 2§r的数字化存储。%n%n搭建一台§3电力高炉§r来熔炼进阶材料与合金。
 
 # line 1
-omnifactory.quest.line.1.title=游戏早期
+omnifactory.quest.line.1.title=游戏前期
 omnifactory.quest.line.1.desc=格雷科技中压等级：新型机器与初级矿物处理。%n%n借助有机化学来制取§6塑料§r以及搭建§3蒸馏塔§r。掌握%n%n§b应用能源2§r自动化。探索§b实用拓展§r。
 
 # line 2
 omnifactory.quest.line.2.title=游戏中期
-omnifactory.quest.line.2.desc=格雷科技高压、超高压、强导压等级：%n%n§6§3Cryogenic Distillation§r, and petrochemistry for §6Epoxy§r and §9Nitro Diesel§r.%n%nCraft §6Nether Stars§r and unlock §bThermal Expansion§r machines.%n%nBuild a§b NuclearCraft§r fission reactor to obtain new materials.%n%nBuild a Space Station and Warp Core.
+omnifactory.quest.line.2.desc=格雷科技高压、超高压、强导压等级：%n%n§6§3低温蒸馏§r，借助石油化学来制取§6环氧树脂§r与§9高十六烷值柴油§r。%n%n合成§6下界之星§r并解锁§b热力膨胀§r机器。%n%n搭建一座§b核电工艺§r的裂变反应堆来获取新型材料。%n%n建造空间站与跃迁核心。
 
 # line 3
-omnifactory.quest.line.3.title=Progression
-omnifactory.quest.line.3.desc=It's always rewarding to take a step forward.%n%nThis tab outlines the progression of various things in §5Omnifactory§r.%n%nCircuits are the primary measure of your progress.
+omnifactory.quest.line.3.title=发展进程
+omnifactory.quest.line.3.desc=前进的每一步都值得被奖励。%n%n本任务标签页概述了§5全能工厂§r中各种物品的发展进程。%n%n电路是进程的首要衡量标准。
 
 # line 4
-omnifactory.quest.line.4.title=Late Game
-omnifactory.quest.line.4.desc=GregTech LuV, ZPM, and UV tiers:%n%nBuild §3Assembly Lines§r, §3Fusion Reactors§r, and more!%n%nAutomate in style with §bPackagedAuto§r. Climb the tiers of §6Micro Miners§r.%n%n§bDraconic Evolution§r for fusion crafting and energy storage.
+omnifactory.quest.line.4.title=游戏后期
+omnifactory.quest.line.4.desc=格雷科技剧差压、零点压与极限压等级：%n%n搭建§3装配线§r、§3聚变反应堆§r等更多多方块机器！%n%n借助§b封包合成§r进行自动化合成，逐步升级§6微型采矿器§r。%n%n接触§b龙之进化§r的聚合合成与能量存储。
 
 # line 5
-omnifactory.quest.line.5.title=End Game
-omnifactory.quest.line.5.desc=You're in the endgame now...%n%nHarvest entire microverses and unlock the §dCreative Portable Tank§r.%n%nPut your automation to the ultimate test as you progress towards the final goal: the §dCreative Vending Upgrade§r.
+omnifactory.quest.line.5.title=游戏末期
+omnifactory.quest.line.5.desc=你终于来到了游戏末期……%n%n凿尽微宇宙的每一寸资源，解锁§d便携储罐（创造）§r。%n%n你的自动化产线将迎来终极挑战并奋力达成最后的目标：§d创造模式取出升级§r。
 
 # line 6
 omnifactory.quest.line.6.title=起始
 omnifactory.quest.line.6.desc=欢迎来到§5全能工厂§r，这里是你的向导。
 
 # line 7
-omnifactory.quest.line.7.title=Into The Microverse
-omnifactory.quest.line.7.desc=Get your feet wet with §bExtra Utilities§r and §bExtended Crafting§r.%n%nConquer The End or invest in §bEnderIO §rfor teleportation technologies.%n%nBuild a rocket and go to the Moon (or don't, but it's fun).%n%nEither way, it's time to start mining §emicroverses§r.
+omnifactory.quest.line.7.title=步入微宇宙
+omnifactory.quest.line.7.desc=在§b更多实用设备§r与§b合成拓展§r中尽情徜徉。%n%n征服末地或投身§b末影接口§r的传送科技。%n%n建造火箭，登上月球（登不登由你，但真的很好玩）。%n%n无论如何，我们是时候开始§e微宇宙§r采矿之旅了。
 
 # line 8
-omnifactory.quest.line.8.title=Fun With Fusion
-omnifactory.quest.line.8.desc=Create new elements and power your base with doughnuts!
+omnifactory.quest.line.8.title=聚变乐无边
+omnifactory.quest.line.8.desc=使用甜甜圈似的聚变反应堆来创造新元素并为你的基地提供能源！
 
 # line 9
-omnifactory.quest.line.9.title=Simulating Resources
-omnifactory.quest.line.9.desc=Generate resources with §bDeep Mob Learning§r!%n%nClose the production loop in MV for 100%% renewable resources!
+omnifactory.quest.line.9.title=资源出产靠模拟
+omnifactory.quest.line.9.desc=使用§b深度怪物学习§r来生成资源！%n%n形成中压产线闭环，获得100%可再生资源！
 
 # line 10
-omnifactory.quest.line.10.title=Matter-Energy
-omnifactory.quest.line.10.desc=Convert between matter and energy with §bApplied Energistics§r§r.%n%nAutomate ALL the things! o/
+omnifactory.quest.line.10.title=物质-能量
+omnifactory.quest.line.10.desc=借助§b应用能源§r进行物质与能量的相互转化。%n%n万物皆可自动化！o/
 
 # db 0
 omnifactory.quest.db.0.title=Charging Quartz
@@ -127,8 +127,8 @@ omnifactory.quest.db.20.title=熔炉 v6.0
 omnifactory.quest.db.20.desc=§3钻石熔炉§f是速度最快的熔炉，熔炼一个物品仅需§a25刻§f。
 
 # db 21
-omnifactory.quest.db.21.title=Steel
-omnifactory.quest.db.21.desc=§6Steel§r is a basic component in all sorts of machines and alloys. It is made in the §3Alloy Smelter§r.%n%nYou might want to save your §6Coal Dust§r for circuits and use §6Charcoal Dust§r instead. Later, you can also centrifuge either of these dusts or §6Coal Coke Dust§r into §6Carbon Dust§r, which can be used for Steel and other useful things.
+omnifactory.quest.db.21.title=钢
+omnifactory.quest.db.21.desc=§6钢§r常见于各种机器和合金的制作流程，可使用§3合金炉§r进行制作。%n%n你也许会想把手上的§6煤炭粉§r留给电路制造，转而使用§6木炭粉§r来制作钢。在以后，你也可以使用离心机来产出这些粉或将§6焦煤粉§r处理成§6碳粉§r，用它来制作钢等其它有用的物品。
 
 # db 22
 omnifactory.quest.db.22.title=Pyrolyse Oven
@@ -147,8 +147,8 @@ omnifactory.quest.db.25.title=基于蛋糕的维度传送
 omnifactory.quest.db.25.desc=本任务每一小时即可完成一次并免费奖励一块可将玩家传送至主世界或虚空的蛋糕。你也可以在蛋糕的信息提示中获悉用以填补蛋糕的物品。
 
 # db 26
-omnifactory.quest.db.26.title=Dark Steel
-omnifactory.quest.db.26.desc=§6Steel§r alloyed with §6Obsidian§r makes §6Dark Steel§r, which is needed for many of the machines in §bEnderIO§r and §bApplied Energistics§r.%n%nLater, you can use §6Void Crystal§r instead of Obsidian.
+omnifactory.quest.db.26.title=玄钢锭
+omnifactory.quest.db.26.desc=§6钢§r与§6黑曜石§r的合金即为§6玄钢锭§r，许多§b末影接口§r和§b应用能源§r的机器都需要用到这种材料。%n%n§6煤晶§r在以后可代替黑曜石来制造玄钢。
 
 # db 27
 omnifactory.quest.db.27.title=LV Chemical Reactor
@@ -967,11 +967,11 @@ omnifactory.quest.db.230.title=Oops... A Blackout!
 omnifactory.quest.db.230.desc=If you've tried to insert or remove a lot of items quickly, you might notice your ME network%n§eflickers offline§r briefly. This is because digitizing and re-materializing items requires energy!%n%nYour network doesn't naturally store very much energy and the §6Energy Acceptor§r only intermittently refills the network's power. To keep things stable, you will need to add some energy storage in your network using §6Energy Cells§r.%n%nJust place one anywhere in your network and it will fill up with AE energy received from the Energy Acceptor. Now, you should have enough energy in your network to prevent these power losses. Feel free to add more energy cells, or upgrade to §6Dense Energy Cells§r, if you continue to experience problems.%n%nIf you've opted to enable channels in your AE2 configs, you will innately have some energy storage from the §3ME Controller§r, but we assume you know what you're doing at that point. §eAE2 Channels mechanics are outside the scope of the quest book, and this is the only time it will be mentioned.
 
 # db 231
-omnifactory.quest.db.231.title=Infiniter Water
-omnifactory.quest.db.231.desc=Endervoirs are blocks that generate water much faster than basic NuclearCraft infinite water sources.%n%nEndervoirs are multiblocks formed by at least three Endervoir blocks. You can right-click a block with a wrench to make it output into adjacent machines.%n%nThe maximum transfer rate of an Endervoir is one bucket per second.
+omnifactory.quest.db.231.title=无限无限水
+omnifactory.quest.db.231.desc=末影水库能以比核电工艺的无限水源更快的速度生产水。%n%n你需要至少三个末影水库方块来构建一个末影水库，使用扳手右击其中一个方块可使其向相邻的机器供水。%n%n末影水库的最大传输速率为每秒一桶。
 
 # db 232
-omnifactory.quest.db.232.title=Fly To The Moon
+omnifactory.quest.db.232.title=飞向月球
 omnifactory.quest.db.232.desc=With your Rocket built, fuel loaded, and destination set, it's time for the prelaunch checklist.%n%n- §eMake sure you're wearing your Space Suit§r (all four pieces) and that it has a full tank of Oxygen. If you plan to stay on the Moon a while, maybe bring a gas charging pad and Ender Tank (being filled with Oxygen) with you.%n%nTeleportation:%n%n- If you decided to go with §aDislocators§r, make sure you take two with you: one bound to the Overworld, the other ready to bind to the Moon. Also bring along a Pedestal to put the Overworld one on the Moon surface.%n%n- If you decided to go with §aTelepads§r, make sure you've constructed a Telepad in the Overworld and that you're carrying coordinates that lead to it. Make sure to bring your Coordinate Selector, blank Paper, and materials for the second Telepad setup. Bring Dew of the Void and RF power (like a §6Solar Panel§r and a §6Capacitor Bank§r).%n%nIn either case, as soon as you land you will need to prepare the other half of the teleportation route, and chunkload it.%n%nWhen you're sure you're prepared, sit in your rocket and press §eSpace§r.%n%nLiftoff!
 
 # db 233
@@ -2255,12 +2255,12 @@ omnifactory.quest.db.552.title=铅石喷气背包
 omnifactory.quest.db.552.desc=在天上自由飞翔，帅是真的帅，贵也是真的贵。%n%n现在就想着§6喷气背包§r确实有点天真了，但要是你诚心想做一个，那就做呗。%n%n§b末影接口§r的喷气背包也有一条对应的任务线，从§6导电铁喷气背包§r开始。两条线都是需要完成的，但用不了太久，所以你大可不必两头兼顾，除非你真的真的很喜欢在天上飞。%n%n如果§6喷气背包§r的信息总览和§bThe One Probe§r的信息框在显示上冲突了，你可以在§b简单喷气背包2§r的§e配置文件§r及使用§6/topcfg§r命令打开的设置界面中分别调整两者的位置。
 
 # db 553
-omnifactory.quest.db.553.title=Hardened Jetpack
-omnifactory.quest.db.553.desc=Better flying.
+omnifactory.quest.db.553.title=硬化飞行背包。
+omnifactory.quest.db.553.desc=更好的飞行体验。
 
 # db 554
-omnifactory.quest.db.554.title=Reinforced Jetpack
-omnifactory.quest.db.554.desc=Even better flying.%n%nYou're not getting up to Resonant for a long time, just FYI.
+omnifactory.quest.db.554.title=强化飞行背包
+omnifactory.quest.db.554.desc=好上加好的飞行体验。%n%n仅供参考：你在短时间内是摸不到谐振级的飞行背包的。
 
 # db 555
 omnifactory.quest.db.555.title=Fluxed Phyto-Gro
@@ -2427,7 +2427,7 @@ omnifactory.quest.db.595.title=Mana Infused Ingots
 omnifactory.quest.db.595.desc= 
 
 # db 596
-omnifactory.quest.db.596.title=Dark Steel Ingots
+omnifactory.quest.db.596.title=玄钢锭
 omnifactory.quest.db.596.desc= 
 
 # db 597

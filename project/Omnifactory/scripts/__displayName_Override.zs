@@ -56,7 +56,7 @@ val DNMap as string[IItemStack] = {
     <enderio:item_basic_capacitor:2> : "rf_cap_8",
     <enderio:item_power_conduit> : "econduit_cond_iron",
     <enderio:item_power_conduit:1> : "econduit_ener_alloy",
-    <enderio:item_power_conduit:2> : "econduit_vibr_alloy"
+    <enderio:item_power_conduit:2> : "econduit_vibr_alloy",
     <enderio:item_endergy_conduit:1> : "econduit_end_steel",
     <enderio:item_endergy_conduit:6> : "econduit_lumium",
     <enderio:item_endergy_conduit:4> : "econduit_signalum",
