@@ -163,8 +163,8 @@ omnifactory.quest.db.29.title=Pulsating Iron and Ender Pearls
 omnifactory.quest.db.29.desc=An §bEnder IO§r alloy.%n%nMade from §6Pulsating Dust§r and an §6Iron Ingot§r.%n%nIf you can't find one otherwise, §6Ender Pearls§r can be crafted using Pulsating Dust and a §6Diamond§r in an §3Alloy Smelter§r.
 
 # db 30
-omnifactory.quest.db.30.title=Electrical Steel
-omnifactory.quest.db.30.desc=An §bEnderIO§r alloy, made from §6Silicon Dust§r and a §6Steel Ingot§r.%n%nThis material is frequently used in electronics and digital equipment.
+omnifactory.quest.db.30.title=磁钢
+omnifactory.quest.db.30.desc=这是一种来自§b末影接口§r的合金，由§6硅粉§r和§6钢锭§r制作而成。%n%n很多电子与数字装备的制造都需要用到它。
 
 # db 31
 omnifactory.quest.db.31.title=Vibrant Capacitor Bank
@@ -256,7 +256,7 @@ omnifactory.quest.db.52.desc=Before you get access to easier circuits, you will 
 
 # db 53
 omnifactory.quest.db.53.title=低压线材轧机
-omnifactory.quest.db.53.desc=§3线材轧机§r能够将锭处理成更多的§6线缆§r，极大地提升效率。但首先，你需要制作一些§6电动马达§r。%n%n§b格雷科技§r的机器都是用若干组件来制造的，大多数组件为各个机器配方所共用。在非常多的配方中都能见到电动马达的身影，甚至一些其它的组件也需要它来制造。%n%n电动马达的需求很大，所以别忘了把电动马达的配方编入§3合成站§r。%n%n做出线材轧机后，§e考虑多做几组§r低压（LV）的电动马达。听上去虽然不现实，但培养§e批量合成§r的习惯是非常重要的。如此一来，你在相当一段时间内就不需要忙于制作更多马达了，而且话说回来，你也§o肯定会§r需要把它们全部用光光的，所以多做几组并不是浪费。%n%n在你接触到更多机械之后，你就不再需要手搓物品了，取而代之的则是由你一手建成并将反哺于你的自动化产业工厂，它将为你维持电路和组件等常用物品的储备，将你从物不就手的焦急和漫长的等待中解放出来。
+omnifactory.quest.db.53.desc=§3线材轧机§r能够将锭处理成更多的§6线缆§r，极大地提升效率。但首先，你需要制作一些§6电动马达§r。%n%n§b格雷科技§r的机器都是用若干组件来制造的，大多数组件为各个机器配方所共用。在很多配方中都能见到电动马达的身影，甚至一些其它的组件也需要它来制造。%n%n电动马达的需求很大，所以别忘了把电动马达的配方编入§3合成站§r。%n%n做出线材轧机后，§e考虑多做几组§r低压（LV）的电动马达。听上去虽然不现实，但培养§e批量合成§r的习惯是非常重要的。如此一来，你在相当一段时间内就不需要忙于制作更多马达了，而且话说回来，你也§o肯定会§r需要把它们全部用光光的，所以多做几组并不是浪费。%n%n在你接触到更多机械之后，你就不再需要手搓物品了，取而代之的则是由你一手建成并将反哺于你的自动化产业工厂，它将为你维持电路和组件等常用物品的储备，将你从物不就手的焦急和漫长的等待中解放出来。
 
 # db 54
 omnifactory.quest.db.54.title=Quantum Eyes
@@ -319,8 +319,8 @@ omnifactory.quest.db.68.title=Experience Obelisk
 omnifactory.quest.db.68.desc=The §3Experience Obelisk§r is a mass storage device for player experience in the form of §9Liquid XP§r.%n%nVia the GUI you can insert or extract levels as needed, as well as configure interactions with neighboring blocks (as is typical of §bEnderIO§r machines).%n%nLiquid XP can also be pumped in directly from your automation such as §3Fluid Extractors§r.
 
 # db 69
-omnifactory.quest.db.69.title=Aluminium Ingots
-omnifactory.quest.db.69.desc=With your EBF running, start to create a supply of §6Aluminium Ingots§r. These are crucial ingredients for MV machines, including §bApplied Energistics§r.%n%nIf you find your power supply is faltering, you may want to make additional dynamos and turn them into steam boilers and turbines. Upgrading your dynamos is also advisable.%n%nHowever, you're also about to reach MV. You're bound to discover a better power source than steam before long.
+omnifactory.quest.db.69.title=铝锭
+omnifactory.quest.db.69.desc=电力高炉蓄势待发，大批§6铝锭§r势在必得。这种材料对于中压等级的，以及来自§b应用能源§r的机器都至关重要。%n%n如果感觉供电吃紧，可以考虑多做几台蒸汽能源炉并将其转化为蒸汽锅炉和蒸汽涡轮，也建议你对这些能源炉进行升级。%n%n然而中压的大门就在眼前，你必须尽快找到比蒸汽更好的能量来源。
 
 # db 70
 omnifactory.quest.db.70.title=MV Power Storage
@@ -1079,8 +1079,8 @@ omnifactory.quest.db.258.title=Awakened Draconium
 omnifactory.quest.db.258.desc=§6Awakened Draconium§r is a powerful material used for crafting high-grade components, items, and machines from §bDraconic Evolution§r.%n%nFive §6§6Draconium Blocks§r can be processed in a Wyvern Tier fusion crafting setup to create an equal output of five §6Awakened Draconium Blocks§r. At §e24 Billion RF per craft§r, you better have a handle on your power infrastructure.
 
 # db 259
-omnifactory.quest.db.259.title=MV Machine Hulls
-omnifactory.quest.db.259.desc=Your first MV hull is as good of a place as any to consider yourself graduated from LV.%n%nYou might notice that these hulls can be made more cheaply in an §3Assembling Machine§r, but you don't have that weird fluid. Don't worry, you'll be able to make that soon.
+omnifactory.quest.db.259.title=中压机身
+omnifactory.quest.db.259.desc=第一个中压等级的机身标志着你已经顺利通过了低压阶段。%n%n你也许会注意到，在§3装配机§r中制造这些机身要便宜得多，但是你暂时还没法拿到配方里那种奇怪的流体。别担心，你离做出它其实也不远了。
 
 # db 260
 omnifactory.quest.db.260.title=LV Electrolyzer
@@ -2219,12 +2219,12 @@ omnifactory.quest.db.543.title=Blue Steel Ingots
 omnifactory.quest.db.543.desc= 
 
 # db 544
-omnifactory.quest.db.544.title=Hardened Satchel
-omnifactory.quest.db.544.desc=Carry even more stuff.
+omnifactory.quest.db.544.title=硬化背包
+omnifactory.quest.db.544.desc=装得更多。
 
 # db 545
-omnifactory.quest.db.545.title=Reinforced Satchel
-omnifactory.quest.db.545.desc=Carry §oeven more§r stuff.
+omnifactory.quest.db.545.title=强化背包
+omnifactory.quest.db.545.desc=装得§o更多更多§r。
 
 # db 546
 omnifactory.quest.db.546.title=I Don't Need No Stinkin' Tower
@@ -2411,7 +2411,7 @@ omnifactory.quest.db.591.title=Vanadium Steel Ingots
 omnifactory.quest.db.591.desc= 
 
 # db 592
-omnifactory.quest.db.592.title=Electrical Steel Ingots
+omnifactory.quest.db.592.title=磁钢锭
 omnifactory.quest.db.592.desc= 
 
 # db 593
@@ -3051,8 +3051,8 @@ omnifactory.quest.db.751.title=Infinitest Water
 omnifactory.quest.db.751.desc=§3Aqueous Accumulators§r in §5Omnifactory§r are infinite water sources; they §l§ndo not§r require any water blocks nearby.%n%nThis machine can produce §9Water§r as fast as you can extract it (the only downside being that it makes some annoying noises).%n%nFriendship with §aEndervoirs§r ended.
 
 # db 752
-omnifactory.quest.db.752.title=Boilers and Turbines
-omnifactory.quest.db.752.desc=Using plain §3Steam Dynamos§f is pretty inefficient.%n%nIt's strongly recommended to make §aaugments§r. With these, you can turn one Steam Dynamo into a §3steam boiler§f, and two other Steam Dynamos into §3steam turbines§f. The ratio is always §a1:2§r if all Dynamos are equally upgraded.%n%nThis greatly increases the overall efficiency and the amount of power produced, from §a40 RF/t§r per basic steam dynamo to §a320 RF/t§r per set of three augmented dynamos.
+omnifactory.quest.db.752.title=锅炉和涡轮
+omnifactory.quest.db.752.desc=初始的§3蒸汽能源炉§f效率相当低下。%n%n强烈建议你为它制造一些§a升级§r。在升级的帮助下，你可以将一台蒸汽能源炉转化为§3蒸汽锅炉§f，再将另外两台转化为§3蒸汽涡轮§f。若所有蒸汽能源炉性能一致，则蒸汽转化比率为§a1：2§r。%n%n这将在很大程度上提升整体效率与产出能量。一台基础的蒸汽能源炉产能功率仅为§a40 RF/t§r，而三台经过专业化升级的能源炉协同运作则可将这一数字提升至§a320 RF/t§r。
 
 # db 753
 omnifactory.quest.db.753.title=Resonant Satchel
