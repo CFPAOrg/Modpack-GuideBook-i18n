@@ -11,10 +11,10 @@ multiblocktweaker.multiblock.cryogenicairdistillation.description=一台用以�
 multiblocktweaker.multiblock.small_microverse.description=一台能够稳定微宇宙投影以便执行基础开采任务的机器。
 multiblocktweaker.multiblock.medium_microverse.description=一台能够稳定微宇宙投影以便在空间最深处的执行复杂任务的进阶机器。
 multiblocktweaker.multiblock.large_microverse.description=一台能够稳定微宇宙投影以便执行包括完全崩解微宇宙在内的外域任务的精英级机器。
-multiblocktweaker.multiblock.oildrillingrig.description=A structure that "drills" for oil, producing it seemingly from thin air.
-multiblocktweaker.multiblock.naquadahreactormk1.description=An advanced reactor that produces energy from the decay of Enriched Naquadah and Naquadria bolts.
-multiblocktweaker.multiblock.naquadahreactormk2.description=An elite reactor capable of capturing more energy from the decay of Enriched Naquadah and Naquadria bolts.
-multiblocktweaker.multiblock.lunarminingstation.description=A mining installation that §lonly forms on the moon§r. It deploys rovers to collect rare isotopes of helium and hydrogen.
+multiblocktweaker.multiblock.oildrillingrig.description=一个似乎能够从稀薄的空气中“钻取”石油的结构。
+multiblocktweaker.multiblock.naquadahreactormk1.description=一座利用富集硅岩螺栓与硅岩合金螺栓的衰变产生能量的高级反应堆。
+multiblocktweaker.multiblock.naquadahreactormk2.description=一座能够从富集硅岩螺栓与硅岩合金螺栓的衰变中捕获更多能量的精英反应堆。
+multiblocktweaker.multiblock.lunarminingstation.description=一台仅能在§l月球上成型§r的采掘装置，能够部署月球车来收集氦与氢的稀有同位素。
 
 recipemap.cryogenicairdistillation.name=低温气体蒸馏
 recipemap.small_microverse.name=小型微宇宙任务

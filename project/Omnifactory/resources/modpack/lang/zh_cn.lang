@@ -85,6 +85,10 @@ omnifactory.cp_boots=碳装甲靴子
 omnifactory.fueling_station=燃油站
 omnifactory.dark_steel_bars=玄钢栏杆
 
+//Deep Mob Learning
+omnifactory.hull_dark_steel=玄钢机身
+omnifactory.pulsating_polymer_clay=脉动聚合粘土
+
 //Actually Additions
 omnifactory.aluminium_casing=铝制外壳
 

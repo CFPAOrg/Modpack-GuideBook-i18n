@@ -65,7 +65,9 @@ val DNMap as string[IItemStack] = {
     <enderio:item_endergy_conduit:11> : "econduit_superconductor",
     <thermalfoundation:material:72> : "mana_infused_dust",
     <thermalexpansion:frame> : "thermal_machine_casing",
-    <thermalexpansion:frame:64> : "thermal_device_casing"
+    <thermalexpansion:frame:64> : "thermal_device_casing",
+    <deepmoblearning:machine_casing> : "hull_dark_steel",
+    <deepmoblearning:polymer_clay> : "pulsating_polymer_clay"
 };
 
 for item in DNMap{
