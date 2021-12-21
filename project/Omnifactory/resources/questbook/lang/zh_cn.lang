@@ -120,7 +120,7 @@ omnifactory.quest.db.18.desc=§3黑曜石熔炉§f的熔炼速度虽与§3钻石
 
 # db 19
 omnifactory.quest.db.19.title=低压合金炉
-omnifactory.quest.db.19.desc=合金炉能将物品熔化并重塑成合金。%n%n有了合金炉，你就不再需要将金属材料先磨粉再混合才能获得合金了！此外，无法通过原始方法制得的复杂合金在它的帮助下也将成为可能。
+omnifactory.quest.db.19.desc=合金炉能将物品熔化并重塑成合金。%n%n有了合金炉，你就不再需要将金属材料先研磨再混合才能获得合金了！此外，无法通过原始方法制得的复杂合金在它的帮助下也将成为可能。
 
 # db 20
 omnifactory.quest.db.20.title=熔炉 v6.0
@@ -155,12 +155,12 @@ omnifactory.quest.db.27.title=LV Chemical Reactor
 omnifactory.quest.db.27.desc=The place for your very first chemical reactions, namely making some improved substrates.
 
 # db 28
-omnifactory.quest.db.28.title=Pulsating Dust
-omnifactory.quest.db.28.desc=§6Pulsating Dust§r is a mysterious magical material that taps into the power of Ender. It has all sorts of strange and potentially dangerous applications, including the ability to make §6Pulsating Ingots§r and §6Ender Pearls§r.%n%nYour first source of Pulsating Dust is §6Uraninite§r, which you can get from §6Uraninite Ore§r. Later on, you'll be able to produce Pulsating Dust by smelting §6Resonant Clathrates§r.%n%n§cPlease note that the Enderpearl Dust electrolysis recipe requires an EV Electrolyzer, and is most likely not worth it.§r
+omnifactory.quest.db.28.title=脉动之尘
+omnifactory.quest.db.28.desc=§6脉动之尘§r是一种能够激发末影能量的玄妙材料，有着各种各样奇妙怪异又暗藏危机的应用，包括制作§6脉冲铁锭§r和§6末影珍珠§r。%n%n由§6晶质铀矿§r处理而成的§6晶质铀矿粉§r是脉动之尘的首个来源。此后，你也可以通过烧炼§6谐振末影络合物§r来制取脉动之尘。%n%n§c请注意，末影珍珠粉电解为脉动之尘的配方需要超高压（Extreme Voltage，EV）的电解机，而且可以说是相当不值的。§r
 
 # db 29
-omnifactory.quest.db.29.title=Pulsating Iron and Ender Pearls
-omnifactory.quest.db.29.desc=An §bEnder IO§r alloy.%n%nMade from §6Pulsating Dust§r and an §6Iron Ingot§r.%n%nIf you can't find one otherwise, §6Ender Pearls§r can be crafted using Pulsating Dust and a §6Diamond§r in an §3Alloy Smelter§r.
+omnifactory.quest.db.29.title=脉冲铁和末影珍珠
+omnifactory.quest.db.29.desc=脉冲铁是一种来自§b末影接口§r的合金，由§6脉动之尘§r与§6铁锭§r制作而成。%n%n另外，如果有时要用又找不到找不到§6末影珍珠§r，你可以使用§3合金炉§r处理脉动之尘与§6钻石§r来制作一些。
 
 # db 30
 omnifactory.quest.db.30.title=磁钢
@@ -623,8 +623,8 @@ omnifactory.quest.db.144.title=Yttrium
 omnifactory.quest.db.144.desc=Centrifuge §6Rare Earth§r, and among other useful materials, you'll get some §6Yttrium§r.%n%nBecause this recipe has chanced outputs, use an §3HV Centrifuge§r or better to guarantee all items, and §eensure the output slots don't fill up or excess items will be voided§r.
 
 # db 145
-omnifactory.quest.db.145.title=LV Pistons
-omnifactory.quest.db.145.desc=A piston is a specialized motor, which is needed to make certain machines.%n%nOne of the more intricate components, as it is made using a motor.
+omnifactory.quest.db.145.title=低压电力活塞
+omnifactory.quest.db.145.desc=电力活塞相当于一个专业化的电动马达，适用于特定机器的制造。%n%n制作材料中的电动马达决定了这种组件绝不简单。
 
 # db 146
 omnifactory.quest.db.146.title=低压电动泵
@@ -1083,8 +1083,8 @@ omnifactory.quest.db.259.title=中压机身
 omnifactory.quest.db.259.desc=第一个中压等级的机身标志着你已经顺利通过了低压阶段。%n%n你也许会注意到，在§3装配机§r中制造这些机身要便宜得多，但是你暂时还没法拿到配方里那种奇怪的流体。别担心，你离做出它其实也不远了。
 
 # db 260
-omnifactory.quest.db.260.title=LV Electrolyzer
-omnifactory.quest.db.260.desc=§3Electrolyzers§r use electricity to separate items into their more basic components.%n%nFor example, you can break down Water into §9Hydrogen Gas§r and §9Oxygen Gas§r, or break down §6Clay Dust§r into §6Sodium Dust§r, §6Silicon Dust§r, §6Lithium Dust§r, and §6Aluminium Dust§r.
+omnifactory.quest.db.260.title=低压电解机
+omnifactory.quest.db.260.desc=§3电解机§r使用电力将物品分解为若干更为基础的组分。%n%n打个比方，你可以借助电解机将水电解为§9氢气§r与§9氧气§r，或是分解§6粘土粉§r来获取§6钠粉§r、§6硅粉§r、§6锂粉§r和§6铝粉§r。
 
 # db 261
 omnifactory.quest.db.261.title=Signalum Upgrade Kit
@@ -1451,8 +1451,8 @@ omnifactory.quest.db.351.title=The Ultimate Material
 omnifactory.quest.db.351.desc=You don't need it just yet, but you can make it now.%n%nThis is a critical material for the Endgame.
 
 # db 352
-omnifactory.quest.db.352.title=LV Fluid Solidifier
-omnifactory.quest.db.352.desc=If you don't want to mine Obsidian by hand, consider using a Fluid Solidifier to turn §cLava§r into §6Obsidian Blocks§r for you. The process is slow and energy intensive, though.%n%n§3Fluid Solidifiers§r are useful for lots of other things too, of course. Look through the various molds to see what you can make with one.
+omnifactory.quest.db.352.title=低压流体固化机
+omnifactory.quest.db.352.desc=如果你不想自己动手挖黑曜石，可以考虑让流体固化机代劳，将§c熔岩§r处理成§6黑曜石§r，只是处理起来既耗时又耗电。%n%n除此之外，§3流体固化机§r当然也有许多其它的用处。通过各种模具来看看它都能做些什么吧。
 
 # db 353
 omnifactory.quest.db.353.title=滑翔翼
@@ -2028,11 +2028,11 @@ omnifactory.quest.db.495.desc=§a抽屉控制器§r是任何一个优质存储�
 
 # db 496
 omnifactory.quest.db.496.title=抽屉
-omnifactory.quest.db.496.desc=§b储物抽屉§r能够存储巨量同种物品，适用于存储石头、泥土和矿石等保有量极大的材料。%n%n如果你不喜欢储物抽屉的原始外观，可以使用§3镶框台§f，配合至多三种用以决定成品材质的方块来为§6镶框抽屉§f打造自定义的式样。%n%n此外，你也可以使用§a手持镶框工具§r来将已摆放于世界中的抽屉转化为§6镶框抽屉§r并对其进行镶框。请参阅§a手持镶框工具§r的§eJEI信息页面§r 来获取详情。
+omnifactory.quest.db.496.desc=§b储物抽屉§r能够存储巨量同种物品，适用于存储石头、泥土和矿石等保有量极大的材料。%n%n如果你不喜欢储物抽屉的原始外观，可以在§3镶框台§f中配合至多三种用以决定成品材质的方块来为§6镶框抽屉§f打造自定义的式样。%n%n此外，你也可以使用§a手持镶框工具§r来将已摆放于世界中的抽屉转化为§6镶框抽屉§r并对其进行镶框。请参阅§a手持镶框工具§r的§eJEI信息页面§r 来获取详情。
 
 # db 497
-omnifactory.quest.db.497.title=Compacting Drawers
-omnifactory.quest.db.497.desc=Great for automatically converting between Nuggets, Ingots, and Blocks of metals, or simply storing massive amounts of things. Also works with §dOmnicoins§r.%n%nThe appearance can be customized by crafting the drawer into §aFramed Compacting Drawer§r and putting it into a §aFraming Table§r.
+omnifactory.quest.db.497.title=压缩抽屉
+omnifactory.quest.db.497.desc=自动进行金属粒、锭、块之间的自动转化，或只是想要存储大量物品，选择压缩抽屉准没错。此外，它也能用来转换不同面额的§d全能币§r。%n%n将压缩抽屉做成§a镶框压缩抽屉§r即可借助§a镶框台§r来定制其外观。
 
 # db 498
 omnifactory.quest.db.498.title=Soldering Alloy
@@ -2155,8 +2155,8 @@ omnifactory.quest.db.527.title=Lumium
 omnifactory.quest.db.527.desc=Glowing!%n%nThis one takes a significant amount of time to cook, so make sure to have it going constantly.%n%nWires made from §6Lumium§r transmit IV power losslessly, and it forms the basis for §6LuV Machine Hulls§r.
 
 # db 528
-omnifactory.quest.db.528.title=Hardened Upgrade Kit
-omnifactory.quest.db.528.desc=What?!%n§6STEAM DYNAMO§r is evolving!%n%nUpgrade kits can be applied to Thermal Expansion Dynamos, machines, and even Portable Tanks. Machines and dynamos get additional augment slots.%n%nWhen applied to a dynamo, it increases the §apower generation and fuel burn rate to 150%%§r.%n%nIncreases the base capacity of Portable Tanks to §a200 buckets§r.%n%nAllows machines operate at §a150%% of base power per tick§r. The more power a machine can use, the faster it works.%n
+omnifactory.quest.db.528.title=硬化升级套件
+omnifactory.quest.db.528.desc=什么？！%n§6§l蒸汽能源炉§r进化了！%n%n升级套件可加装于热力膨胀的能源炉、机器，甚至是便携储罐，为能源炉与机器提供额外的升级槽，便携储罐则可提升容积。%n%n加装硬化升级套件后的能源炉可提升§a50%%的能量产出与燃料燃烧效率§r。%n%n加装于便携储罐可使其流体容积提升至§a200桶§r。%n%n硬化等级的机器则可使其耗能功率提升至§a基础数值的150%%§r。耗能越快，运作速度就越快。%n
 
 # db 529
 omnifactory.quest.db.529.title=IV Assembling Machine
@@ -2235,8 +2235,8 @@ omnifactory.quest.db.547.title=扫描模块：方块
 omnifactory.quest.db.547.desc=寻找特定矿石的最佳方法无异是为你的扫描器加装§6扫描模块：方块§r。手持该模块并§6潜行右击§f一块矿石来绑定，接着手持§a扫描器§f，再次§6潜行右击§f来打开模块界面，将绑定好的模块放入其中即可开始扫描。%n%n与扫描全部矿石时相比，通过该模块扫描特定方块的范围明显更大，并且如果你有§6末影珍珠§f，甚至可以再行合成并加装一个§6扫描模块：范围§f来进一步扩大扫描范围。%n%n你可以把用§d全能币§f买来的矿石作为用以绑定的“样本”，与加装了方块模块的扫描器组合使用，便能轻松找到你想要的一整条矿脉。
 
 # db 548
-omnifactory.quest.db.548.title=Molds
-omnifactory.quest.db.548.desc=§aMolds§r are used in a §3Fluid Solidifier§r or §3Alloy Smelter§r to form materials into specific shapes. These are not consumed or damaged during crafting, so you can leave them in a machine to dedicate it to that shape.%n%nThe Fluid Solidifier tends to be the more efficient option: for example, you can use §e8 ingots§r to make one §6Gear§r in an Alloy Smelter, but with a Fluid Extractor and Solidifier you can accomplish the same result with §e4 ingots§r.%n%nBe careful not to accidentally make §aExtruder Shapes§r. Those are for a machine you will get access to later. The three molds in this quest are ones you will find useful right away.
+omnifactory.quest.db.548.title=模具
+omnifactory.quest.db.548.desc=§a模具§r可以在§3流体固化机§r及§3合金炉§r中将材料塑造为特定形制，且不会在配方处理中被消耗，所以你可以将其留存在机器中，使其专门用来制作单种形制的物品。%n%n流体固化机是一个相对更高效的选择：拿§6齿轮§r来说，使用合金炉来制作需要§e8块锭§r，而使用流体固化机则只需要相当于§e4块锭§r的流体。%n%n请注意，你需要做的是模具而非§a模头§r，这是给另一种你往后会接触到的机器用的。任务所要求的三种模具马上就会派上用场。
 
 # db 549
 omnifactory.quest.db.549.title=Oil Drilling Rig
@@ -2383,7 +2383,7 @@ omnifactory.quest.db.584.title=Enderium Ingots
 omnifactory.quest.db.584.desc= 
 
 # db 585
-omnifactory.quest.db.585.title=Pulsating Iron Ingots
+omnifactory.quest.db.585.title=脉冲铁锭
 omnifactory.quest.db.585.desc= 
 
 # db 586
@@ -2951,8 +2951,8 @@ omnifactory.quest.db.726.title=Gap
 omnifactory.quest.db.726.desc=
 
 # db 727
-omnifactory.quest.db.727.title=Ore Processing for Byproducts
-omnifactory.quest.db.727.desc=When you first started the pack, we told you that ore doubling can wait, and that's true... But you will need to start doing some rudimentary ore processing for §ebyproducts§r.%n%nByproducts are additional materials that can only be obtained from processing ores in certain machines. For example, there is no "Gallium Ore". You get §6Gallium§r as a byproduct from processing other ores.%n%nOres have various means of processing, and eventually you'll use machine pipelines to process ores in specific ways to optimize what byproducts you gain. You can look at the §b§b§6Ore Byproduct Page§6§r of an ore in §bJEI§r, accessed by pressing 'U' on an ore and navigating to the byproduct tab, to see the required route to obtain desired byproducts. The tooltips on a byproduct will specify what processing method is needed to obtain it.%n%nThe relevant machines are as follows:%n %n- §3Macerator§r: turns ores into §6Crushed Ores§r, Crushed Ores into §6Impure Dusts§r, and §6Purified Crushed Ores§r into §6Pure Dusts§r. Higher tiers of macerators have byproduct slots and gain a chance to get a full pile of byproduct from ores and both types of crushed ores.%n%n- §3Washer§r: cleans Crushed Ores with §9Water§r, making Purified Crushed Ores§r, and a guaranteed 3 tiny piles of byproduct. Using §9Distilled Water§r makes them go faster. This is an improved alternative to dropping dusts in a Cauldron.%n%n- §3Chemical Bath§r: similar to a washer, but uses chemicals to purify the crushed ores. Has a chance to give a full pile of byproducts, often different than what the Washer would give.%n%n- §3§3Centrifuge§r: separates Pure or Impure dusts into the final material, producing a guaranteed 3 tiny piles of byproduct.%n%n- §3Electrolyzer§r: uses power to split compounds into individual elements, sometimes gaining useful byproducts in the process.%n%nThe §3Thermal Centrifuge§r, not to be confused with the regular Centrifuge, can be used for alternative ore processing but is §edreadfully slow and power-hungry§r. No LV form exists, and its primary use is for §bNuclearCraft§r fission fuels.%n%nYour first forays into ore processing for byproducts will be the Electrolyzer and the Centrifuge.%n
+omnifactory.quest.db.727.title=处理矿物，获取副产
+omnifactory.quest.db.727.desc=在整合包的起步阶段我们确实有说过双倍矿产可以先放一放……但现在，你就必须开始做一些初步的矿物处理来获取§e副产物§r了。%n%n副产物指的是一系列必须在特定机器中处理矿石方可出产的额外材料。例如，对于§6镓§r来说，是不存在“镓矿石”这种东西的，你必须通过处理其它矿石来获得镓。%n%n处理矿石的手段有很多，而你最终必须以特定方式构建一条机器流水线来优化副产物产出。你可以将鼠标指针指向矿石，按下“U”键，并在§bJEI§r的§6矿物副产列表§r中查询到你想要的副产物产出途径。副产物的信息提示中会对处理方式进行具体说明。%n%n相关机器如下所示：%n %n-§3研磨机§r：可将矿石研磨成§6粉碎矿石§r，将粉碎矿石研磨成§6含杂粉§r，将§6纯净粉碎矿石§r研磨成§6纯净粉§r。等级更高的研磨机将具备副产物输出槽，并有几率从矿石、粉碎矿石与纯净粉碎矿石中处理出整堆粉（即粉，区别于小撮粉与小堆粉）形式的副产物。%n%n-§3洗矿厂§r：消耗§9水§r清洗粉碎矿石来获得§6纯净粉碎矿石§r，并产出3小撮的副产物。使用§9蒸馏水§r将提升机器运作速度。这相当于把粉扔进炼药锅这一工作的改进手段。%n%n-§3化学浸洗器§r：类似于洗矿厂，但用来净化粉碎矿石的并不是水，而是化学物质。有几率从中获得整堆粉形式的副产物，但往往与洗矿厂的产出物不尽相同。%n%n-§3§3离心机§r：将纯净粉与含杂粉分离为最终材料，同时必定产出3小撮的副产物。%n%n-§3电解机§r：使用电力将化合物分离为单独的元素，有时能出产颇具使用价值的副产物。%n%n§3热力离心机§r：用于可选的矿物处理流程中，但§e处理速度慢得可怕，吃电也多得吓人§r，没有低压型号，首次需求会出现在§b核电工艺§r的裂变燃料制造阶段。切勿与离心机混淆。%n%n你的矿物处理之旅将开始于电解机和离心机。%n
 
 # db 728
 omnifactory.quest.db.728.title=Resonant Clathrate
@@ -3159,8 +3159,8 @@ omnifactory.quest.db.778.title=Power Storage on a Massive Level
 omnifactory.quest.db.778.desc=Now that you have §6Awakened Cores§r, you can make the §eEnergy Storage Core§r from §bDraconic Evolution§r. It's a great way to store all the energy required to craft power-hungry late game items.%n%nThe §eEnergy Storage Core§r is a multiblock structure that can be upgraded to store increasingly immense amounts of RF energy. See the §bDraconic Evolution§r manual for more information on the material requirements for each tier.%n%n§6Energy Pylons§r are required to input and output energy from the core. Each pylon allows movement in a single direction, so you need at least two.%n%nOnce you have the materials together for your desired tier, § the structure can build itself: simply access the GUI of the §6Energy Core§r, set the tier, and click Assemble. Items will be automatically used from your inventory. Once the structure is built, you can access the core's GUI again through §6Energy Core Stabilizers§r to activate it.%n%nIt is recommended to postpone Tier 8 until after you reach the §dCreative Portable Tank§r, as it requires large amounts of §6Awakened Draconium§r.%n%n
 
 # db 779
-omnifactory.quest.db.779.title=Infinite Cobblestone
-omnifactory.quest.db.779.desc=Now that you have acquired §6Steel§6§r, your path to infinite cobblestone awaits! The §6Cobblestone Generator§r continuously outputs cobblestone into adjacent inventories, and can be upgraded to produce it even faster.%n%nCobblestone can be processed into many useful materials:%n%n§6Gravel§r is useful for making conduits and §9Concrete§r.%n%n§6Sand§r is useful for §6Glass§r, which can be turned into §6Nether Quartz§r.%n%nFinally, §6Dust§r can be turned into §6Clay§r which is both a reliable source of §6Aluminium§r and very important for automating §bDeep Mob Learning§r.%n%nSet up a §ecobbleworks§r soon, so you can stockpile all these useful materials.%n
+omnifactory.quest.db.779.title=无限圆石
+omnifactory.quest.db.779.desc=§6钢§r炼成了，无限圆石还会远吗？§6造石机§r能源源不断将圆石输出至相邻的物品存储空间中，并拥有两种出产速度更快的升级型号。%n%n圆石能被处理成许多有用的材料：%n%n能用来制造导管和§9混凝土§r的§6沙砾§r；%n%n§6玻璃§r的原材料——§6沙子§r，而玻璃经电解处理更可变为§6下界石英§r；%n%n最后，沙子经研磨而制成的§6沙尘块§r可处理为§6粘土块§r，粘土既是§6铝§r的可靠来源，又是§b深度怪物学习§r自动化的重要耗材。%n%n马上开始§e生产圆石§r吧，圆石一有，上面提到的所有材料都不用愁了。%n
 
 # db 780
 omnifactory.quest.db.780.title=To the Nether
