@@ -903,8 +903,8 @@ omnifactory.quest.db.214.title=Deuterium
 omnifactory.quest.db.214.desc=The Moon is a barren, lifeless rock... So why did you want to come here?%n%nOne major draw is that §6Moon Turf§r, which makes up the surface of the Moon, is an efficient means of obtaining §9Deuterium§r. It will be useful for producing §9Microversium§r, §9Tritium§r, plasmas from fusion, and crystallizing §6Dilithium§r.%n%nThere are also several ores that are rare on the Overworld but exist in abundance on the Moon. In particular, the Moon contains large quantities of §6Titanium§r (in the form of §6Rutile Ore§r and §6Ilmenite Ore§r) and §6Tungsten§r (in the form of §6Scheelite Ore§r and §6Tungstate Ore§r).%n%nMuch later you will also gain access to the §3Lunar Mining Station§r, which as the name suggests only works on the Moon.%n%n
 
 # db 215
-omnifactory.quest.db.215.title=Ender Pump and Ender Tanks
-omnifactory.quest.db.215.desc=Great for gathering large amounts of §9lava§r and §9oil§r, at least until you have better ways to obtain them.%n%n§3Ender Pumps§r use RF to function.%n%n§aEnder Tanks§r do not require power, but rather simply store fluid. All Ender Tanks on the same 'channel' (denoted by the three colors on the top) have the same contents, essentially allowing for §einstant long range transfer of fluid§r.%n%nTry setting up one Ender Tank by an Ender Pump positioned over lava, and the other back up in your base. You'll have more lava than you know what to do with, without any boring bucketing.%n%nYou'll need a way to power the Ender Pump though... maybe a §aMagmatic Dynamo§r on site?
+omnifactory.quest.db.215.title=末影泵和末影蓄水槽
+omnifactory.quest.db.215.desc=在拥有更好的解决方案之前，使用RF来驱动的§3末影泵§r都是收集大量§9熔岩§r和§9石油§r的极佳选择。%n%n§a末影蓄水槽§r并不需要消耗能量，它只负责存储流体。相同“频道”（以顶部的三种颜色来区别表示）中的所有末影蓄水槽都拥有同样的内容物，实质上能够进行§e即时的远距离流体传输§r。%n%n可以试着将末影泵放置在熔岩上方，并在一旁摆放一个末影蓄水槽，接着回到基地，再设置一个末影蓄水槽。这样一来，不用一桶一桶地舀就能拥有多得用不完的熔岩。%n%n然而，你还是得找个办法给末影泵供能……或许可以来一台§a热力能源炉§r？
 
 # db 216
 omnifactory.quest.db.216.title=Small Microverse Projector
@@ -1131,12 +1131,12 @@ omnifactory.quest.db.271.title=Reactor Stabilizer
 omnifactory.quest.db.271.desc=The §6Reactor Stabilizer§r is a component needed for the Tier Nine and Tier Ten Micro Miners, as well as a component in a few Endgame recipes.%n%nThey are made in a Chaotic Tier fusion crafting setup, requiring a whopping §e56 Billion total RF each§r. You're gonna need some serious power generation and crafting infrastructure to make everything for these.
 
 # db 272
-omnifactory.quest.db.272.title=Basic Capacitors
-omnifactory.quest.db.272.desc=The first tier of §6capacitors§r. These (or stronger versions) are required to make §bEnderIO§r machines run. They're also used as components in a variety of recipes.%n%nHigher tier capacitors will significantly increase the speed at which these machines operate, among other machine-specific properties.
+omnifactory.quest.db.272.title=基础电容
+omnifactory.quest.db.272.desc=最最初级的§6电容§r。这一系列的电容是§b末影接口§r得以运转的必要条件。同时，在各种配方中也有它们的一席之地。%n%n为机器加装更高等级的电容将显著提升其处理速度及特有属性。
 
 # db 273
-omnifactory.quest.db.273.title=LV Mixer
-omnifactory.quest.db.273.desc=Mixes two dusts to make a third.%n%nFor now, you'll be using it to make §6Glowstone Dust§r and §6Energetic Blend§r.%n%nGlowstone Dust is made from §6Tricalcium Phosphate Dust§r and §6Gold Dust§r, or you could eventually gather it from the Nether.%n%nEnergetic Blend is made from Glowstone Dust and §6Redstone Dust§r.
+omnifactory.quest.db.273.title=低压搅拌机
+omnifactory.quest.db.273.desc=把一种粉和一种粉混合起来得到另一种粉。%n%n目前，你会需要用到它来制作§6荧石粉§r和§6高能混合物§r。%n%n荧石粉由§6磷酸钙粉§r与§6金粉§r混合而成，在下界里也可以采掘到。%n%n高能混合物的组成材料包括荧石粉和§6红石§r。
 
 # db 274
 omnifactory.quest.db.274.title=Dragon Hearts
@@ -1227,8 +1227,8 @@ omnifactory.quest.db.295.title=Basic Fusion Injectors
 omnifactory.quest.db.295.desc=§bDraconic Evolution§r features §eFusion Crafting§r, which requires a §6Fusion Crafting Core§r and up to ten injectors of the appropriate tier.%n%nYou'll need eight §6Basic Fusion Crafting Injectors§r to upgrade any additional injectors you make to Wyvern Tier.%n%nYes, that means you should plan to make more than eight. If you really want to plan ahead, make thirty-four of these.
 
 # db 296
-omnifactory.quest.db.296.title=Grains Of Infinity
-omnifactory.quest.db.296.desc=Obtaining §6Grains of Infinity§r will require you to mine all the way down to Bedrock level.%n%nUse Flint and Steel to light a fire (or many fires) and then wait for it to go out. There's a 50%% chance of Grains Of Infinity to appear for every fire that burns out on its own.%n%nBut who wants to do that forever? There will be better ways before too long, don't worry.
+omnifactory.quest.db.296.title=基岩粉
+omnifactory.quest.db.296.desc=要想获取§6基岩粉§r，你必须一路直下前往基岩层。%n%n使用打火石来点起一团（或是一大片）火焰并稍等片刻，基岩粉将有50%%的几率在火焰自然熄灭后产生。%n%n但是又有谁愿意干这种无聊的差事呢？别担心，不久后就会有更好的处理办法。
 
 # db 297
 omnifactory.quest.db.297.title=Mana Infused Ingot
@@ -1655,8 +1655,8 @@ omnifactory.quest.db.402.title=Machine Covers
 omnifactory.quest.db.402.desc=§bGregTech§r adds a very versatile way of augmenting machines with §aMachine Covers§r. Covers are "upgrades" that you can put on any GregTech machine, chest, or drum to expand its functionality. To work with covers, you'll need to make yourself a §aScrewdriver§r to configure covers, and a §aCrowbar§r to remove covers without having to break the machine.%n%nHere's a list of some covers there are in the game, and what they do:%n%n- §a§lConveyor§r: transfers items continuously to or from an adjacent inventory.%n%n- §a§lPump§r: is much like a §aConveyor§f, but for fluids.%n%n- §a§lRobotic Arm§r: is much like §aConveyor§r, but has two additional modes:%n    * §eKeep Exact§r: moves items to keep a stock of at most the specified number of items%n    * §eSupply Exact§r: transfers precisely the specified number of items per operation.%nThis cover is very useful for crafting automation.%n%n- §a§lFluid Regulator§r: is like a §aRobotic Arm§r, but works with fluids instead of items.%n%n- §a§lShutter§r: prevents automation from interacting with a specific side of a machine.%n%nCovers that move items or fluids can have a §aFilter§r placed inside them. These modify the functionality of covers in ways explained in their own quests.%n
 
 # db 403
-omnifactory.quest.db.403.title=Screwdrive Output Sides!
-omnifactory.quest.db.403.desc=All GregTech machines have one dedicated output side, which can be set by right-clicking a side with a §aGregTech Wrench§f. This is used for ejecting items into an adjacent inventory.%n%nTo enable auto-output, open the machine GUI and click one of the buttons in the bottom-left corner: §6orange§r is items and §9blue§r is fluids.%n%nIf you want to also be able to insert items into the output side, you'll have to right-click the output side with a §aGregTech Screwdriver§r.%n%nThis can be done by directly right clicking on the output side with a screwdriver, or §6shift right-clicking§r with a screwdriver from the machine grid.%n%nThese features can be used to chain machines together to make processing pipelines and facilitate crafting automation with §bApplied Energistics 2§f.
+omnifactory.quest.db.403.title=手拿螺丝刀，拧拧输出面！
+omnifactory.quest.db.403.desc=所有格雷科技的机器都有一个可使用§a格雷科技扳手§f来设定的专用输出面，用来向相邻的存储空间输出物品。%n%n若要启用自动输出，打开机器界面并点选左下角的按钮即可：§6橙色§r为物品自动输出，§9蓝色§r则为流体自动输出。%n%n如果还想使输出面接受物品输入，你需要手持§a格雷科技螺丝刀§r并右击输出面，或是§6潜行右击§r其它侧面的网格区域。%n%n这些特性适用于将多台机器连结成流水产线，便于在§b应用能源2§f的帮助下进行自动化合成。
 
 # db 404
 omnifactory.quest.db.404.title=Simple GregTech Automation
@@ -3289,7 +3289,6 @@ omnifactory.quest.db.810.desc=§6Sulfur§r will be used in a variety of upcoming
 # db 811
 omnifactory.quest.db.811.title=Sulfur Ore
 omnifactory.quest.db.811.desc=§6Sulfur Ore§r is the only source of §6Sulfur Dust§r that's currently available to you.%n%nYou may want to spend a few §dOmnicoins§r on the ore to jumpstart your power storage.%n%nOtherwise the ore is only available in §athe Nether§r, and the only way to get there is with a §6Nether Cake§r. Oh no!
-omnifactory.quest.db.811.display=I bought ore with Omnicoins
 
 # db 812
 omnifactory.quest.db.812.title="Distillation Tower" or "I Don't Need No Stinkin' Tower"
