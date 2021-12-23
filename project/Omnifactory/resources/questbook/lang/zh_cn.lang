@@ -996,11 +996,11 @@ omnifactory.quest.db.237.desc=§bApplied Energistics§r uses §aPresses§r found
 
 # db 238
 omnifactory.quest.db.238.title=Tier Eight Micro Miner
-omnifactory.quest.db.238.desc=The Eighth Micro Miner.%n%nThe main source of §6Chaos Shards§r: as with Nether Stars and Withers, farming these in the needed amounts from Chaos Guardians would be absurd.%n%nThe other mission gives negligible amounts of §6Neutronium§r and some other moderately useful things, but you're better off making Neutronium in the §3Fusion Reactor Mark 3§r§r and the other items are otherwise craftable.
+omnifactory.quest.db.238.desc=The Eighth Micro Miner.%n%nThe main source of §6Chaos Shards§r.%n%nThe other mission gives negligible amounts of §6Neutronium§r and some other moderately useful things, but you're better off making Neutronium in the §3Fusion Reactor Mark 3§r§r and the other items are otherwise craftable.
 
 # db 239
 omnifactory.quest.db.239.title=Chaos Shards
-omnifactory.quest.db.239.desc=§6Chaos Shards§r are an endgame component for §bDraconic Evolution§r.%n%nThey are the base material for Chaotic Tier materials and come exclusively from Tier Eight Micro Miners.%n%nTechnically they also come from Chaos Guardians, but in the quantities you'll need these? That would be a silly prospect.
+omnifactory.quest.db.239.desc=§6Chaos Shards§r are an endgame component for §bDraconic Evolution§r.%n%nThey are the base material for Chaotic Tier materials and come exclusively from Tier Eight Micro Miners.
 
 # db 240
 omnifactory.quest.db.240.title=Tier Nine Micro Miner
@@ -1148,7 +1148,7 @@ omnifactory.quest.db.275.desc=§6Luminessence§r is used in a number of things, 
 
 # db 276
 omnifactory.quest.db.276.title=Phosphoric Acid
-omnifactory.quest.db.276.desc=§9Phosphorus§r, §9Oxygen§r, and §9Water§r combine together into §9Phosphoric Acid§r.%n%nAlternatively, you can combine §6Phosphorous Pentoxide§r and Water for a much faster reaction.
+omnifactory.quest.db.276.desc=§9Phosphoric Acid§r is a key component of §6Luminessence§r, which will be used extensively for such things as §6Nether Stars§r, §6Lumium Blend§r, and §bExtended Crafting§r components.%n%nIt can be made using several equally viable recipes:%n%n§6Phosphorus§r, §9Oxygen§r, and §9Water§r can be chemically reacted to produce §9Phosphoric Acid§r.%n%nAlternatively, you can combine §6Phosphorus Pentoxide§r and Water for a much faster reaction.%n%nOtherwise, you can react §6Apatite Dust§r, §9Sulfuric Acid§r, and Water to get Phosphoric Acid, §9Hydrochloric Acid§r, and a whole bunch of §6Gypsum Dust§r.
 
 # db 277
 omnifactory.quest.db.277.title=Gap
@@ -1427,12 +1427,12 @@ omnifactory.quest.db.345.title=Wyvern Core
 omnifactory.quest.db.345.desc=§6Wyvern Cores§r are the second tier of cores, used for intermediate crafting recipes.%n%nEach Wyvern Core is made via fusion crafting and the setup needs eight §6Basic Fusion Crafting Injectors§r.
 
 # db 346
-omnifactory.quest.db.346.title=Basic Reactor Plating
-omnifactory.quest.db.346.desc=§6Steel Heavy Plating§r can be augmented with §6Tungsten Plates§r and §6Tough Alloy§r to make §6Basic Reactor Plating§r.%n%nThat's right-- it's time to get into §bNuclearCraft§r.%n%nTough Alloy is a couple steps to get to, but nothing too serious. Check §bJEI§r for more details.
+omnifactory.quest.db.346.title=Gap
+omnifactory.quest.db.346.desc=
 
 # db 347
-omnifactory.quest.db.347.title=Advanced Plating
-omnifactory.quest.db.347.desc=Enhancing basic plating with §6YBCO§r and §6Hard Carbon alloy§r results in a better plating material for more advanced §bNuclearCraft§r blocks.
+omnifactory.quest.db.347.title=NuclearCraft Platings
+omnifactory.quest.db.347.desc=§6Steel Heavy Plating§r can be augmented with §6Tungsten Plates§r and §6Tough Alloy§r to make §6Basic Reactor Plating§r.%n%nThat's right-- it's time to get into §bNuclearCraft§r.%n%nEnhancing basic plating with §6YBCO§r and §6Hard Carbon alloy§r results in a better plating material for more advanced §bNuclearCraft§r blocks.
 
 # db 348
 omnifactory.quest.db.348.title=Gap
@@ -2199,8 +2199,8 @@ omnifactory.quest.db.538.title=Gap
 omnifactory.quest.db.538.desc=
 
 # db 539
-omnifactory.quest.db.539.title=Phosphorus and Sulfur
-omnifactory.quest.db.539.desc=These two dusts will be used in a variety of upcoming chemical reactions.%n%n§6Phosphorous§r can be obtained by processing §6Tricalcium Phosphate Ore§r into dust and electrolyzing several times. This ore is found in §6Apatite§r veins.%n%n§6Sulfur§r can be electrolyzed easily from §6Sphalerite§r (which also provides §6Gallium§r), §6Cinnabar§r, and §6Pyrite§r. Alternately, Sulfur can be acquired through §bDeep Mob Learning§r- look into that quest line if you haven't already.
+omnifactory.quest.db.539.title=Phosphorus
+omnifactory.quest.db.539.desc=§6Phosphorus§r can be obtained by processing §6Tricalcium Phosphate Ore§r into dust and electrolyzing several times. This ore is found in §6Apatite§r veins.
 
 # db 540
 omnifactory.quest.db.540.title=MV Extruder
@@ -2732,7 +2732,7 @@ omnifactory.quest.db.671.desc=Thorium is another basic fissile material that can
 
 # db 672
 omnifactory.quest.db.672.title=Nuclear Fuel Infrastructure
-omnifactory.quest.db.672.desc=Climbing the ladder of fissile materials will require some specific raw materials and machinery.%n%n§6Uranium 238§r is an important fissile material, and can be obtained from ores like §6Uranium Ore§r and §6Pitchblende Ore§r. Uranium 238 ingots or dusts need to be processed in a §3Thermal Centrifuge§r into clumps required for Enriched Fuels. In the process, you'll get §6Tiny Clumps of Uranium 235§r, nine of which can be combined like nuggets or dusts into a full-size clump.%n%nThermal Centrifuges are very slow machines so you should parallelize this processing as much as possible, using the highest tier ones you can afford for overclocking.%n%n
+omnifactory.quest.db.672.desc=Climbing the ladder of fissile materials will require some specific raw materials and machinery.%n%n§6Uranium 238§r is an important fissile material, and can be obtained from ores like §6Uranium Ore§r and §6Pitchblende Ore§r. Uranium 238 ingots or dusts need to be processed in a §3Thermal Centrifuge§r into clumps required for Enriched Fuels. §6Uranium 235§r dust is a byproduct of processing Uranium 238 Ore or §6Uraninite Ore§r, and must also be turned into clumps with a Thermal Centrifuge.%n%nThermal Centrifuges are very slow machines so you should parallelize this processing as much as possible, using the highest tier ones you can afford for overclocking.%n%n
 
 # db 673
 omnifactory.quest.db.673.title=Neptunium Fission
@@ -3016,7 +3016,7 @@ omnifactory.quest.db.742.desc=
 
 # db 743
 omnifactory.quest.db.743.title=用JEI！用JEI！用JEI！
-omnifactory.quest.db.743.desc=§e§e用JEI！！！%n%n§bJEI§f，全称§bJust Enough Items§r。打开物品栏即可看到屏幕左侧由JEI列出的物品列表。这是一种比原版的配方书更好™的，用以显示整合包中所有可用物品及配方的趁手工具。%n%n打开一个有物品需求的任务并点击该物品即可借助JEI直接查看其合成配方！%n%n亦可将鼠标指针悬于物品之上并点击§6R§r键来查看合成配方，点击§6U§r键则可查看其所参与的所有配方，而点击§6A§r键则会将其列入物品栏界面左侧的书签栏中。%n%n帮助配方摆放是JEI的显著功用之一。右击工作台，查询你需要的合成配方并点击§a[+]§r按钮：若你拥有该配方所需的全部材料，此时JEI将帮助你把这些材料放入工作台。
+omnifactory.quest.db.743.desc=§e用JEI！！！§r%n%n§bJEI§r，全称§bJust Enough Items§r。打开物品栏即可看到屏幕左侧由JEI列出的物品列表。这是一种比原版的配方书更好™的，用以显示整合包中所有可用物品及配方的趁手工具。%n%n打开一个有物品需求的任务并点击该物品即可借助JEI直接查看其合成配方！%n%n亦可将鼠标指针悬于物品之上并点击§6R§r键来查看合成配方，点击§6U§r键则可查看其所参与的所有配方，而点击§6A§r键则会将其列入物品栏界面左侧的书签栏中。%n%n帮助配方摆放是JEI的显著功用之一。右击工作台，查询你需要的合成配方并点击§a[+]§r按钮：若你拥有该配方所需的全部材料，此时JEI将帮助你把这些材料放入工作台。
 
 # db 744
 omnifactory.quest.db.744.title=Multi-Layer Fiber-Reinforced Epoxy Substrate
@@ -3281,3 +3281,16 @@ omnifactory.quest.db.808.desc=§5全能工厂§r的官方Discord群组是一个�
 # db 809
 omnifactory.quest.db.809.title=Simulation Supercomputer
 omnifactory.quest.db.809.desc=The §3Simulation Supercomputer§r is a multiblock structure that performs §bDeep Mob Learning§r simulations like the §3Simulation Chamber§r, but is capable of overclocking these simulations to incredible speeds.%n%nOne of these structures can perform the equivalent work of hundreds of individual Simulation Chambers more efficiently. This will make it far easier to generate pristine matter you'll need for things like §6Dragon Lair Data§r. You'll probably need several §3Loot Fabricators§r to keep up with it.%n%nThe data model you place in the input bus will increment the iteration count and level up the same as if it were running in a regular Simulation Chamber. §eOverclocking does not alter the chances of pristines§r: those come at fixed rates per iteration based on the level of the data model. Training a fresh data model up to Self-Aware for 30%% rates can be done very quickly though.%n%nAs a §dCreative Tier§r structure, it is rather expensive to make. However, it is an investment that will easily pay for itself as you progress through the endgame. You should strongly consider making one of these with your second §dHeart of a Universe§r.%n
+
+# db 810
+omnifactory.quest.db.810.title=Sulfur
+omnifactory.quest.db.810.desc=§6Sulfur§r will be used in a variety of upcoming chemical reactions.%n%nIt can be electrolyzed easily from §6Sphalerite§r (which also provides §6Gallium§r), §6Cinnabar§r, and §6Pyrite§r. Alternately, Sulfur can be acquired through §bDeep Mob Learning§r- look into that quest line if you haven't already.
+
+# db 811
+omnifactory.quest.db.811.title=Sulfur Ore
+omnifactory.quest.db.811.desc=§6Sulfur Ore§r is the only source of §6Sulfur Dust§r that's currently available to you.%n%nYou may want to spend a few §dOmnicoins§r on the ore to jumpstart your power storage.%n%nOtherwise the ore is only available in §athe Nether§r, and the only way to get there is with a §6Nether Cake§r. Oh no!
+omnifactory.quest.db.811.display=I bought ore with Omnicoins
+
+# db 812
+omnifactory.quest.db.812.title="Distillation Tower" or "I Don't Need No Stinkin' Tower"
+omnifactory.quest.db.812.desc=
