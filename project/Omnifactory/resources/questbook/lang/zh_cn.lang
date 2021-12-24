@@ -175,8 +175,8 @@ omnifactory.quest.db.32.title=Advanced Capacitor Bank
 omnifactory.quest.db.32.desc=Two §aCapacitor Banks§r can be grafted together with a §6Double-Layer Capacitor§r and §6Electrical Steel§r to create an §aAdvanced Capacitor Bank§r, which stores five times as much RF as the basic bank.
 
 # db 33
-omnifactory.quest.db.33.title=Basic Capacitor Bank
-omnifactory.quest.db.33.desc=Expandable multi-block storage for RF power.%n%nThis first tier isn't much, but you can upgrade them over time to hold substantial amounts of power.
+omnifactory.quest.db.33.title=基础电容库
+omnifactory.quest.db.33.desc=基础电容库可以构建一个用以存储RF能量的可拓展多方块结构。%n%n基础型号的电容库只能说差强人意，但过段时间你就可以升级它们，以此来实现相当可观的能量存储。
 
 # db 34
 omnifactory.quest.db.34.title=Energetic Alloy
@@ -223,8 +223,8 @@ omnifactory.quest.db.44.title=Double Capacitor
 omnifactory.quest.db.44.desc=Combining §6Basic RF Capacitors§r with some §6Coal Dust§r and §6Energetic Alloy§r produces a §6Double-Layer RF Capacitor§r.%n%nThis is a tier two capacitor. Higher tier RF Capacitors will make §bEnderIO§r machines process faster and depending on the machine will expand their capabilities further (like area of effect).
 
 # db 45
-omnifactory.quest.db.45.title=Ironman
-omnifactory.quest.db.45.desc=Being able to fly is nice. This is the first jetpack that uses §bEnderIO§r materials.%n%nThere's also a quest chain for §bThermal Expansion§r material Jetpacks (starting with the §6Leadstone Jetpack§r). Eventually you'll need to make both, but not for a long time, so feel free to ignore at least one of these quest chains unless you really really like flying.%n%nIf the §6Jetpack§r overview and information from §bThe One Probe§r conflict, they can be adjusted through the §bSimply Jetpacks 2§r §eConfiguration file§r or the command §6/topcfg§r respectively.
+omnifactory.quest.db.45.title=钢铁侠
+omnifactory.quest.db.45.desc=飞上天才够爽。导电铁飞行背包是第一个采用§b末影接口§r材料制作的飞行背包。%n%n§b热力膨胀§r的飞行背包也有一条对应的任务线，从§6铅石飞行背包§r开始。两条线都是需要完成的，但用不了太久，所以你大可不必两头兼顾，除非你真的真的很喜欢在天上飞。%n%n如果§6飞行背包§r的信息总览和§bThe One Probe§r的信息框在显示上冲突了，你可以在§b简单飞行背包2§r的§e配置文件§r及使用§6/topcfg§r命令打开的设置界面中分别调整两者的位置。
 
 # db 46
 omnifactory.quest.db.46.title=Gap
@@ -355,8 +355,8 @@ omnifactory.quest.db.77.title=Exquisite Gems
 omnifactory.quest.db.77.desc=§6Exquisite Gems§r are mostly needed for crafting special materials.%n%nIf you don't need them for that though, they can be cut through two cycles in a §3Cutting Machine§r into eight of the basic version of that gem.
 
 # db 78
-omnifactory.quest.db.78.title=Gallium
-omnifactory.quest.db.78.desc=Throwing §6Impure Piles of Sphalerite§r into Cauldrons is the first way of obtaining §6Sphalerite§r, which can be electrolyzed as a good source of §6Gallium§r. The §6Zinc§r and §6Sulfur§r you get from doing this will be quite useful as well. Sphalerite Ore§r spawns in §6Zinc§r veins. %n%nA §3Centrifuge§r instead of a Cauldron is slower and requires power, but it gets you more Gallium while separating the impure dust into Sphalerite.%n%nIf you're having trouble getting the quest to complete, check to see if you are holding §6small piles§r instead of §6tiny piles§r. If so, combine four small piles into a regular dust, then split that into tiny piles. A §3Crafting Station§r can help you quickly convert between pile types.
+omnifactory.quest.db.78.title=镓
+omnifactory.quest.db.78.desc=将§6含杂闪锌矿粉§r扔进炼药锅得到§6闪锌矿粉§r，随后将其放入电解机进行电解即可获得§6镓§r。这一步骤中同时产出的§6锌§r和§6硫§r则同样用处多多。§6闪锌矿矿石§r生成于§6锌§r矿脉。%n%n可以使用§3离心机§r代替炼药锅来处理含杂粉，虽解放了双手，但速度较慢，还需要耗电，然而通过离心含杂闪锌矿粉所产出的镓要比炼药锅更多。%n%n如果任务死活完不成，看看你是不是把§6小堆粉§r当成§6小撮粉§r在手里握着了。如果真是的话，将四份小堆粉合成为整堆的粉再拆分为九份小撮粉即可。§3合成站§r可以帮助你快速转换粉的各个形式。
 
 # db 79
 omnifactory.quest.db.79.title=MV Cutting Machine
@@ -2003,8 +2003,8 @@ omnifactory.quest.db.489.title=LV Compressor
 omnifactory.quest.db.489.desc=You'll need a §3Compressor§r for a variety of things, but probably most importantly is the ability to make many kinds of plates from a single ingot.
 
 # db 490
-omnifactory.quest.db.490.title=LV Autoclave
-omnifactory.quest.db.490.desc=An §3Autoclave§r is a machine that uses liquids (usually water) to polish stones, carve gems into lenses, infuse gems with special liquids, and crystallize various dusts.%n%nYou'll need an Autoclave for many recipes, but right now you want it to make §6Certus Quartz Crystals§r for §bApplied Energistics§r out of the §bGregTech§r §6Certus Quartz§r and its dust you get from mining and ore processing.
+omnifactory.quest.db.490.title=低压高压釜
+omnifactory.quest.db.490.desc=§3高压釜§r利用流体（通常为水）来处理物品的机器，可完成的工作包括打磨石头、将宝石雕刻成透镜、为宝石注入特殊流体以及使各种粉末结晶。%n%n许多必要配方都得使用高压釜来处理，眼下就有一种：通过采掘并处理矿石获得§b格雷科技§r的§6赛特斯石英粉§r并将其处理为§6赛特斯石英§r，再经过二次处理来制取§b应用能源§r的§6赛特斯石英水晶§r。
 
 # db 491
 omnifactory.quest.db.491.title=连锁砍树？
@@ -2251,8 +2251,8 @@ omnifactory.quest.db.551.title=Phantom Booster
 omnifactory.quest.db.551.desc=Up to three §aPhantom Boosters§r can be placed atop the §3Vertical Digger§r to increase its area of effect.%n%nThese are also useful for extending the range of other "Phantom" machines and devices from §bActually Additions§r.
 
 # db 552
-omnifactory.quest.db.552.title=铅石喷气背包
-omnifactory.quest.db.552.desc=在天上自由飞翔，帅是真的帅，贵也是真的贵。%n%n现在就想着§6喷气背包§r确实有点天真了，但要是你诚心想做一个，那就做呗。%n%n§b末影接口§r的喷气背包也有一条对应的任务线，从§6导电铁喷气背包§r开始。两条线都是需要完成的，但用不了太久，所以你大可不必两头兼顾，除非你真的真的很喜欢在天上飞。%n%n如果§6喷气背包§r的信息总览和§bThe One Probe§r的信息框在显示上冲突了，你可以在§b简单喷气背包2§r的§e配置文件§r及使用§6/topcfg§r命令打开的设置界面中分别调整两者的位置。
+omnifactory.quest.db.552.title=铅石飞行背包
+omnifactory.quest.db.552.desc=在天上自由飞翔，帅是真的帅，贵也是真的贵。%n%n现在就想着§6飞行背包§r确实有点天真了，但要是你诚心想做一个，那就做呗。%n%n§b末影接口§r的飞行背包也有一条对应的任务线，从§6导电铁飞行背包§r开始。两条线都是需要完成的，但用不了太久，所以你大可不必两头兼顾，除非你真的真的很喜欢在天上飞。%n%n如果§6飞行背包§r的信息总览和§bThe One Probe§r的信息框在显示上冲突了，你可以在§b简单飞行背包2§r的§e配置文件§r及使用§6/topcfg§r命令打开的设置界面中分别调整两者的位置。
 
 # db 553
 omnifactory.quest.db.553.title=硬化飞行背包。
