@@ -43,8 +43,8 @@ omnifactory.quest.line.10.title=物质-能量
 omnifactory.quest.line.10.desc=借助§b应用能源§r进行物质与能量的相互转化。%n%n万物皆可自动化！o/
 
 # db 0
-omnifactory.quest.db.0.title=Charging Quartz
-omnifactory.quest.db.0.desc=The main purpose for this device is to turn §6Certus Quartz Crystal§r into §6Charged Certus Quartz Crystal§r.%n%nThis device can be powered with RF via energy conduits or use AE energy from a network via ME conduits or cables.%n%nIt accepts power from two sides. Which two sides? It's pretty easy to guess.%n%n%n%n%n%n%n%n%nOk, ok. It's the top and bottom.%n%n
+omnifactory.quest.db.0.title=石英充能
+omnifactory.quest.db.0.desc=充能器的主要目的是将§6赛特斯石英水晶§r转化为§6充能赛特斯石英水晶§r。%n%n这种设备同时接受可经由能量导管进行供给的RF能量，或是通过ME导管或线缆传输的AE能量。%n%n可接收能量的侧面有两面。哪两面呢？这也太好猜了吧。%n%n%n%n%n%n%n%n%n行行行，不卖关子了。是顶面和底面。%n%n
 
 # db 1
 omnifactory.quest.db.1.title=Crystal Growth Chamber
@@ -347,8 +347,8 @@ omnifactory.quest.db.75.title=Machine Block
 omnifactory.quest.db.75.desc=The §6Machine Block§r is the first step into a mod called §bExtra Utilities 2§r.
 
 # db 76
-omnifactory.quest.db.76.title=The First Tier Two Circuits
-omnifactory.quest.db.76.desc=Your first §6Tier Two Circuits§r will require four §6Tier One Circuits§r plus a §6Diode§r made with §6Gallium§r to craft.%n%nThese are rather expensive... Always be on the lookout for a cheaper way to make your circuits- new sets of recipes become available each time you make a new tier of §3Assembling Machine§r.
+omnifactory.quest.db.76.title=第一块二级电路
+omnifactory.quest.db.76.desc=你的第一块§6二级电路§r将需要四块§6一级电路§r与一根用§6镓§r制成的§6二极管§r。%n%n这些东西还是相当昂贵的……每制造出新一级的§3组装机§r后即可依照一套新的配方来制作电路，所以请时刻留心有无更加便宜的电路制作配方可供采用。
 
 # db 77
 omnifactory.quest.db.77.title=Exquisite Gems
@@ -667,7 +667,7 @@ omnifactory.quest.db.155.title=The Fourth and Final Tier Five Circuits
 omnifactory.quest.db.155.desc=With your §6Crystal CPUs§r and the §3LuV Assembling Machine§r crafted, you can make the final type of Tier Five Circuit: the §6Crystal Circuit§r.%n%nAs the best form of Tier Five circuit, these should be automated and stockpiled. The variant recipe requiring §6Crystal System-on-Chip§r won't be available until you can make a §3ZPM Assembling Machine§r.
 
 # db 156
-omnifactory.quest.db.156.title=Kanthal Ingots
+omnifactory.quest.db.156.title=坎塔尔合金锭
 omnifactory.quest.db.156.desc=§6Kanthal§r is an alloy of §6Iron§r, §6Aluminium§r, and §6Chrome§r.%n%nThis alloy is cooked in an §3Electric Blast Furnace§r into a §6Hot Kanthal Ingot§r which will damage you if it is held. To prevent this damage and obtain the desired ingot, the Hot Ingot must be cooled in a §3Vacuum Freezer§r.%n%nIt is best to directly route this Hot Ingot from the §6Output Bus§r of your Blast Furnace to the §6Input Bus§r of your Vacuum Freezer via conduits or an §6Ore Dictionary Filter§r and then retrieve the cooled ingot.
 
 # db 157
@@ -675,7 +675,7 @@ omnifactory.quest.db.157.title=Kanthal Coil Blocks
 omnifactory.quest.db.157.desc=§6Kanthal§r is the second coil material available, increasing your EBF's operating temperature to 2700K so it can process more advanced materials.
 
 # db 158
-omnifactory.quest.db.158.title=Nichrome Ingots
+omnifactory.quest.db.158.title=镍铬合金锭
 omnifactory.quest.db.158.desc=§6Nichrome§r is an alloy of §6Nickel§r and §6Chrome§r.%n%nThis alloy is cooked in an §3Electric Blast Furnace§r and cooled in a §3Vacuum Freezer§r.%n
 
 # db 159
@@ -955,8 +955,8 @@ omnifactory.quest.db.227.title=MV Chemical Reactor
 omnifactory.quest.db.227.desc=Here comes the chemistry.%n%nIt might seem crazy right now, but you'll want a dedicated §3Chemical Reactor§r for pretty much every chemical you want to process. You probably want to hold off on doing that until you've got a solid base of autocrafting though... it stings a lot less when you can just request crafts of Chemical Reactors from your AE2 system.%n
 
 # db 228
-omnifactory.quest.db.228.title=Snad
-omnifactory.quest.db.228.desc=Yes, Snad.%n%nThis pack has §aSnad§r, which is simply a sand-like block that instantly grows sugar cane/cactus on top of it when it receives either a block update or a redstone update.%n%nThe sugar cane it produces can be used as a fuel for your dynamos, and later you can even brew it for §9Biomass§r.%n%nThis quest calls for a §aRedstone Timer§r, but there are other ways to make snad grow sugar cane even faster (like a vanilla observer clock pointing into the Snad). Make sure to set the timer to pulse as fast as possible.%n%nTo collect the sugar cane, you can use a piston and an observer. Later you can make an §6Auto-Breaker§r from §bActually Additions§r, which works even better and doesn't spill sugar cane everywhere.%n%nFor now, a §3Vacuum Chest§r should help keep the floor clean, and causes less lag than Hoppers. A §aVoid Upgrade§r in a §6Storage Drawer§r will automatically delete any items that overflow the drawer's capacity, so it's a good way to ensure you don't crash your server from accumulating a massive sugar cane pile before safer block breakers are available to you.
+omnifactory.quest.db.228.title=子沙
+omnifactory.quest.db.228.desc=没错，就叫子沙。%n%n本整合包有一种名叫§a子沙§r的方块，和沙子长得一模一样，但能够在接收到方块或红石信号更新时立即催熟扎根于自身的甘蔗或仙人掌。%n%n如此生产出的大批甘蔗能够作为能源炉的燃料，在以后更可将其处理成§9生物质§r。%n%n本任务需要一个§a计时器§r，它能够定时输出所接收到的红石信号，一定要记得把计时器的时间间隔设置得越短越好。除此之外，还有一些方法能让甘蔗的生长速度更上一层楼，譬如指向子沙的原版侦测器时钟。%n%n你可以搭配使用活塞和侦测器来收集甘蔗，往后你也可以制作一台来自§b实用拓展§r模组的§6方块破坏器§r，效果更好，还不会把掉落物搞得到处都是。%n%n眼下，你可以使用§3吸物箱§r来保持地面整洁，而且还不会像漏斗那么卡。为§6储物抽屉§r加装§a销毁升级§r能使其销毁超出存储容量的物品，以防止过量的甘蔗掉落物在你能够使用更为安全的方块破坏器之前就崩掉了服务器。
 
 # db 229
 omnifactory.quest.db.229.title=Explore Extra Utilities 2
@@ -1335,7 +1335,7 @@ omnifactory.quest.db.322.title=Empowered Emeradic Gear
 omnifactory.quest.db.322.desc=A gear forged from §6Empowered Emeradic Crystal§r.%n%nMade from fluid solidification.
 
 # db 323
-omnifactory.quest.db.323.title=Naquadah Ingots
+omnifactory.quest.db.323.title=硅岩锭
 omnifactory.quest.db.323.desc=An otherworldly material exclusive to Microverses, §6Naquadah§r is an important material in the late game.%n%nIt can be alloyed and enriched to various forms, and is the eventual source of §6Neutronium§r in a §3Mark Three Fusion Reactor§r.
 
 # db 324
@@ -1651,8 +1651,8 @@ omnifactory.quest.db.401.title=维护工具的正确方法
 omnifactory.quest.db.401.desc=§3铁砧§f几乎可以修复所有§b格雷科技的工具§f！%n%n与其不停地用坏工具再重做工具，你可能会更想制作一个铁砧。铁砧会大量生成于§b失落的城市§f建筑之中，去拿一个吧！%n%n放入受损的工具和一些工具制作材料即可进行修复。例如，修复§6锻铁§f工具需要一并放入§6锻铁锭§f。唯二无法修复的工具是研钵和搋子。
 
 # db 402
-omnifactory.quest.db.402.title=Machine Covers
-omnifactory.quest.db.402.desc=§bGregTech§r adds a very versatile way of augmenting machines with §aMachine Covers§r. Covers are "upgrades" that you can put on any GregTech machine, chest, or drum to expand its functionality. To work with covers, you'll need to make yourself a §aScrewdriver§r to configure covers, and a §aCrowbar§r to remove covers without having to break the machine.%n%nHere's a list of some covers there are in the game, and what they do:%n%n- §a§lConveyor§r: transfers items continuously to or from an adjacent inventory.%n%n- §a§lPump§r: is much like a §aConveyor§f, but for fluids.%n%n- §a§lRobotic Arm§r: is much like §aConveyor§r, but has two additional modes:%n    * §eKeep Exact§r: moves items to keep a stock of at most the specified number of items%n    * §eSupply Exact§r: transfers precisely the specified number of items per operation.%nThis cover is very useful for crafting automation.%n%n- §a§lFluid Regulator§r: is like a §aRobotic Arm§r, but works with fluids instead of items.%n%n- §a§lShutter§r: prevents automation from interacting with a specific side of a machine.%n%nCovers that move items or fluids can have a §aFilter§r placed inside them. These modify the functionality of covers in ways explained in their own quests.%n
+omnifactory.quest.db.402.title=机器覆盖板
+omnifactory.quest.db.402.desc=§b格雷科技§r提供了§a覆盖板§r这样一个全能的途径来增强机器。覆盖板相当于一种“升级”，能够加装至所有格雷科技的机器、箱子和桶来拓展它们的功能。你需要给自己准备一把§a螺丝刀§r以便对覆盖板进行配置，以及一根§a撬棍§r来拆卸覆盖板而无需破坏整台机器。%n%n下面介绍了游戏中的一些覆盖板以及各自的功能：%n%n-§a§l传送带§r：与相邻的存储空间持续进行物品的输入或输出；%n%n-§a§l泵（电动泵）§r：相当于流体版的§a传送带§f；%n%n-§a§l机械臂§r：相当于§a传送带§r，但具有两种非常适用于自动化合成的特殊模式：%n　　*§e保持补给§r：尽可能保持目标容器中的物品处于特定数量；%n　　*§e精确补给§r：每次传输特定数量的物品，若物品数量不足则不会进行传输。%n%n-§a§l流体校准器§r：相当于流体版的§a机械臂§r；%n%n-§a§l扇板§r：阻止对所在侧面进行的自动化交互。%n%n用以转运物品或流体的覆盖板可在内部额外配备一张§a过滤卡§r，以此调配各自的功能，详情请见相关任务描述。%n
 
 # db 403
 omnifactory.quest.db.403.title=手拿螺丝刀，拧拧输出面！
@@ -1695,8 +1695,8 @@ omnifactory.quest.db.412.title=Lunar Mining Station
 omnifactory.quest.db.412.desc=The §3Lunar Mining Station§r is a large multiblock structure used for mining gases from the moon. It is an excellent (though not the only) source of §9Deuterium§r or §9Helium-3§r, depending on what kind of §6Rover§r you use. %n%nRovers only have a 10%% chance to break while mining, so a stack of them will last quite a while.%n%nWhile both available recipes require §eMV power§r, you can overclock it with higher tiers of power. The positions of hatches and buses can be swapped with any §6LuV Machine Casing§r.%n%n§6Sneak-right click§r the controller to enable the in-world preview.%n%nBecause this structure must be placed on the Moon, it is a good idea to use mechanisms like §aEnder Tanks§r or a §6Quantum Link Chamber§r for teleporting the fluids back to your base.%n%nMake sure to keep it chunk-loaded!%n
 
 # db 413
-omnifactory.quest.db.413.title=LV Fluid Extractor
-omnifactory.quest.db.413.desc=§3Fluid Extractors§r are useful for melting things into liquids. For example, you can melt down ingots into molten metals, or §6Rubber Sheets§r into liquid §9Rubber§r.%n%nWhen you have access to §6Steel§r, you can make molds and use §3Fluid Solidifiers§r to form various components more efficiently from fluids, like §6Gears§r.%n%nThis quest will take the LV, MV, or HV version of the §3Fluid Extractor§r.
+omnifactory.quest.db.413.title=低压流体提取机
+omnifactory.quest.db.413.desc=§3流体提取机§r能将物品熔化为流体，譬如将金属锭处理为熔融金属，或将§6橡胶片§r熔成液态的§9橡胶§r。%n%n有§6钢§r之后，你便可制造模具并使用§3流体固化机§r将流体塑型为§6齿轮§r等各种部件。%n%n本任务同时接受低压、中压与高压型号的§3流体提取机§r。
 
 # db 414
 omnifactory.quest.db.414.title=Gap
@@ -2055,7 +2055,7 @@ omnifactory.quest.db.502.title=Capacitors
 omnifactory.quest.db.502.desc=§6Capacitors§r are devices that store electrical energy, which is useful for circuits.%n%nNot to be confused with §bEnderIO§r's capacitors§r, which store redstone flux.
 
 # db 503
-omnifactory.quest.db.503.title=Dark Soularium Ingots
+omnifactory.quest.db.503.title=玄色魂金锭
 omnifactory.quest.db.503.desc= 
 
 # db 504
@@ -2075,7 +2075,7 @@ omnifactory.quest.db.507.title=Chlorine
 omnifactory.quest.db.507.desc=You'll need §9Chlorine§r at this point. It is an important ingredient in many chemical processes, and you primarily get it from electrolyzing either §6Salt§r or §6Rock Salt§r.
 
 # db 508
-omnifactory.quest.db.508.title=Knightslime Ingots
+omnifactory.quest.db.508.title=骑士史莱姆锭
 omnifactory.quest.db.508.desc= 
 
 # db 509
@@ -2095,7 +2095,7 @@ omnifactory.quest.db.512.title=Slice'N'Splice
 omnifactory.quest.db.512.desc=The §3Slice'N'Splice§r is a machine from §bEnderIO§r.%n%nIt is used for making monster-head-related items that are components for various things.%n%nIt needs to be supplied with an Axe and Shears, which are slowly damaged over time as items are crafted.
 
 # db 513
-omnifactory.quest.db.513.title=Red Steel Ingots
+omnifactory.quest.db.513.title=红钢锭
 omnifactory.quest.db.513.desc= 
 
 # db 514
@@ -2215,7 +2215,7 @@ omnifactory.quest.db.542.title=Soul Binder
 omnifactory.quest.db.542.desc=The §3Soul Binder§r is an §bEnderIO§r machine which uses §aSoul Vials§r and Experience to enhance specific items.%n%nIt may be prudent to store §9Liquid XP§r in an adjacent §3Obelisk§r, which the Soul Binder can draw from directly, or you can insert it using other standard means of fluid routing.
 
 # db 543
-omnifactory.quest.db.543.title=Blue Steel Ingots
+omnifactory.quest.db.543.title=蓝钢锭
 omnifactory.quest.db.543.desc= 
 
 # db 544
@@ -2375,11 +2375,11 @@ omnifactory.quest.db.582.title=Fluxed Electrum Ingots
 omnifactory.quest.db.582.desc= 
 
 # db 583
-omnifactory.quest.db.583.title=Signalum Ingots
+omnifactory.quest.db.583.title=信素锭
 omnifactory.quest.db.583.desc= 
 
 # db 584
-omnifactory.quest.db.584.title=Enderium Ingots
+omnifactory.quest.db.584.title=末影锭
 omnifactory.quest.db.584.desc= 
 
 # db 585
@@ -2391,15 +2391,15 @@ omnifactory.quest.db.586.title=High Speed Steel Type E Ingot
 omnifactory.quest.db.586.desc= 
 
 # db 587
-omnifactory.quest.db.587.title=High Speed Steel Type G Ingots
+omnifactory.quest.db.587.title=高速钢-G锭
 omnifactory.quest.db.587.desc= 
 
 # db 588
-omnifactory.quest.db.588.title=High Speed Steel Type S Ingots
+omnifactory.quest.db.588.title=高速钢-S锭
 omnifactory.quest.db.588.desc= 
 
 # db 589
-omnifactory.quest.db.589.title=Crystal Matrix Ingots
+omnifactory.quest.db.589.title=水晶矩阵锭
 omnifactory.quest.db.589.desc= 
 
 # db 590
@@ -2407,7 +2407,7 @@ omnifactory.quest.db.590.title=Gap
 omnifactory.quest.db.590.desc=
 
 # db 591
-omnifactory.quest.db.591.title=Vanadium Steel Ingots
+omnifactory.quest.db.591.title=钒钢锭
 omnifactory.quest.db.591.desc= 
 
 # db 592
@@ -2415,11 +2415,11 @@ omnifactory.quest.db.592.title=磁钢锭
 omnifactory.quest.db.592.desc= 
 
 # db 593
-omnifactory.quest.db.593.title=End Steel Ingots
+omnifactory.quest.db.593.title=末地钢锭
 omnifactory.quest.db.593.desc= 
 
 # db 594
-omnifactory.quest.db.594.title=Microversium Ingots
+omnifactory.quest.db.594.title=微宇宙锭
 omnifactory.quest.db.594.desc= 
 
 # db 595
@@ -2431,19 +2431,19 @@ omnifactory.quest.db.596.title=玄钢锭
 omnifactory.quest.db.596.desc= 
 
 # db 597
-omnifactory.quest.db.597.title=Vibrant Alloy Ingots
+omnifactory.quest.db.597.title=振动合金锭
 omnifactory.quest.db.597.desc= 
 
 # db 598
-omnifactory.quest.db.598.title=Energetic Alloy Ingots
+omnifactory.quest.db.598.title=充能合金锭
 omnifactory.quest.db.598.desc= 
 
 # db 599
-omnifactory.quest.db.599.title=Soularium Ingots
+omnifactory.quest.db.599.title=魂金锭
 omnifactory.quest.db.599.desc= 
 
 # db 600
-omnifactory.quest.db.600.title=Manyullyn Ingots
+omnifactory.quest.db.600.title=玛玉灵锭
 omnifactory.quest.db.600.desc= 
 
 # db 601
@@ -2451,11 +2451,11 @@ omnifactory.quest.db.601.title=Magnalium Ingots
 omnifactory.quest.db.601.desc= 
 
 # db 602
-omnifactory.quest.db.602.title=Kanthal Ingots
+omnifactory.quest.db.602.title=坎塔尔合金锭
 omnifactory.quest.db.602.desc= 
 
 # db 603
-omnifactory.quest.db.603.title=Nichrome Ingots
+omnifactory.quest.db.603.title=镍铬合金锭
 omnifactory.quest.db.603.desc= 
 
 # db 604
@@ -3287,8 +3287,8 @@ omnifactory.quest.db.810.title=Sulfur
 omnifactory.quest.db.810.desc=§6Sulfur§r will be used in a variety of upcoming chemical reactions.%n%nIt can be electrolyzed easily from §6Sphalerite§r (which also provides §6Gallium§r), §6Cinnabar§r, and §6Pyrite§r. Alternately, Sulfur can be acquired through §bDeep Mob Learning§r- look into that quest line if you haven't already.
 
 # db 811
-omnifactory.quest.db.811.title=Sulfur Ore
-omnifactory.quest.db.811.desc=§6Sulfur Ore§r is the only source of §6Sulfur Dust§r that's currently available to you.%n%nYou may want to spend a few §dOmnicoins§r on the ore to jumpstart your power storage.%n%nOtherwise the ore is only available in §athe Nether§r, and the only way to get there is with a §6Nether Cake§r. Oh no!
+omnifactory.quest.db.811.title=硫矿石
+omnifactory.quest.db.811.desc=目前为止，§6硫矿石§r是§6硫粉§r的唯一来源。%n%n你可能会想要花点§d全能币§r在这种矿石上，以便迅速步入能量存储阶段。%n%n要不然，你就只能吃§6下界蛋糕§r去§a下界§r才能找到它了，天哪！
 
 # db 812
 omnifactory.quest.db.812.title="Distillation Tower" or "I Don't Need No Stinkin' Tower"
