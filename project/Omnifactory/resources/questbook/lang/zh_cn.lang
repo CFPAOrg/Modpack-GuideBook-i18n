@@ -131,8 +131,8 @@ omnifactory.quest.db.21.title=钢
 omnifactory.quest.db.21.desc=§6钢§r常见于各种机器和合金的制作流程，可使用§3合金炉§r进行制作。%n%n你也许会想把手上的§6煤炭粉§r留给电路制造，转而使用§6木炭粉§r来制作钢。在以后，你也可以使用离心机来产出这些粉或将§6焦煤粉§r处理成§6碳粉§r，用它来制作钢等其它有用的物品。
 
 # db 22
-omnifactory.quest.db.22.title=Pyrolyse Oven
-omnifactory.quest.db.22.desc=The main function of this oven is to increase the fuel values of your wood and coal while also recovering some of the various potentially useful waste products.%n%nTurning §6Coal§r into §6Coal Coke§r will not only make it more useful as fuel, but will also produce §9Phenol§r, which you'll need for circuits.%n%nThe Pyrolyse Oven is also the source of several other fluids that can be distilled for useful ingredients.%n%nYou can §6sneak-right click§r the controller to enable the in-world preview.%n
+omnifactory.quest.db.22.title=热解炉
+omnifactory.quest.db.22.desc=这种炉子主要用于提升木头和煤炭的燃料值并产出若干种具有潜在用途的废料。%n%n将§6煤炭§r转化为§6焦煤§r的意义不仅在于能够获取一种更佳的燃料，更重要的是该配方会额外产出一种制造电路所需的材料——§9苯酚§r。%n%n除此之外，热解炉还能产出其它数种流体，这些流体可经蒸馏处理而成为各具用途的材料。%n%n§6潜行右击§r控制器即可在世界中显示多方块结构预览。%n
 
 # db 23
 omnifactory.quest.db.23.title=黑曜石
@@ -179,8 +179,8 @@ omnifactory.quest.db.33.title=基础电容库
 omnifactory.quest.db.33.desc=基础电容库可以构建一个用以存储RF能量的可拓展多方块结构。%n%n基础型号的电容库只能说差强人意，但过段时间你就可以升级它们，以此来实现相当可观的能量存储。
 
 # db 34
-omnifactory.quest.db.34.title=Energetic Alloy
-omnifactory.quest.db.34.desc=An §bEnderIO§r alloy, made from §6Energetic Blend§r and a §6Gold Ingot§r in your new §3Electric Blast Furnace§r.%n%nThrow both ingredients into the input bus and in twenty seconds your §6Energetic Alloy Ingot§r will be in the output bus.
+omnifactory.quest.db.34.title=充能合金
+omnifactory.quest.db.34.desc=在你新作成的§3电力高炉§r中烧炼§6高能混合物§r与§6金锭§r即可得到这种来自§b末影接口的§r合金。%n%n将上述两种材料放入输入总线，20秒后便可从输出总线中拿取§6充能合金锭§r。
 
 # db 35
 omnifactory.quest.db.35.title=Vibrant Alloy
@@ -1171,8 +1171,8 @@ omnifactory.quest.db.281.title=Gap
 omnifactory.quest.db.281.desc=
 
 # db 282
-omnifactory.quest.db.282.title=Energy Acceptor
-omnifactory.quest.db.282.desc=Fluix is initially made via in-world crafting, by dropping §6Redstone Dust§r, §6Nether Quartz§r, and a §6Charged Certus Quartz Crystal§r in the same block of §9Water§r. You'll see some sparks then the items will merge into a §6Fluix Crystal§r. Be sure to turn off any nearby item magnets/collectors or they might interrupt this crafting process.%n%nThe §3Energy Acceptor§r converts RF power into AE power that Applied Energistics uses, in a 2 RF to 1 AE ratio. This power will be transmitted through adjacent full-block ME Network devices, as well as along all connected §6ME Cables§r, §6ME Conduits§r, and §6Quartz Fiber§r. %n%nQuartz Fiber are §emicroparts§r you can put between an ME Cable and any ME Network block or another ME Cable. This will allow transmission of AE power but not data, which is useful for having data-isolated ME Networks all sharing the same power source.
+omnifactory.quest.db.282.title=能源接收器
+omnifactory.quest.db.282.desc=福鲁伊克斯的首个获取途径为世界内合成。将§6红石§r、§6下界石英§r和一块§6充能赛特斯石英水晶§r扔进同一格§9水§r中，闪起的火花平息后，水中的各种材料便会融合成§6福鲁伊克斯水晶§r。一定要确保周围的物品磁铁或收集器等设备处于关闭状态，以免干扰合成进程。%n%n§3能源接收器§r以2：1的比率将RF能量转换为供应用能源使用的AE能量。这种能量会在相邻的ME网络设备（必须为不透明方块）以及所有相连的§6ME线缆§r、§6ME导管§r与§6石英纤维§r之间进行传输。%n%n石英纤维是一种可在ME线缆与任何ME网络方块及其它ME线缆之间放置的§e微型构件§r，能够实现纯粹的AE能量传输而不会传输数据，适用于在数据彼此独立的ME网络之间共享能源。
 
 # db 283
 omnifactory.quest.db.283.title=LuV Assembling Machine
@@ -2039,8 +2039,8 @@ omnifactory.quest.db.498.title=Soldering Alloy
 omnifactory.quest.db.498.desc=When making circuits, you'll need either molten §9Tin§r, or molten §9Soldering Alloy§r§r§r in the §3Assembling Machine§r. Soldering Alloy is made in the §3Alloy Smelter§r with a 9:1 ratio of §6Tin Ingots§r to §6Antimony Dust§r. You then process it in a §3Fluid Extractor §rfor the usual 144mB of fluid per ingot.%n%nThe Assembling Machine will only consume half as much Soldering Alloy as it would have consumed molten Tin per craft (72mB vs 144mB), so it's very efficient to use this stuff.%n%nPut your §3Centrifuge§r to work for the §6Antimony§r you'll need, which comes in tiny piles from processing §6Tetrahedrite Ore§r and §6Stibnite Ore§r.%n
 
 # db 499
-omnifactory.quest.db.499.title=Fine Copper Wire
-omnifactory.quest.db.499.desc=Now that you have a §3Wiremill§r, you can turn one §6Copper Wire§r into four §6Fine Copper Wire§r. The recipes for §6Resistors§r, §6LV Motors§r and §6Vacuum Tubes§r all accept either type, so doing this extra processing step will make your §6Copper Ingots§r go §efour times further§r when making circuits.%n%nYou'll be making a lot more circuits from here on out, so it's definitely worthwhile to save your copper!
+omnifactory.quest.db.499.title=细铜导线
+omnifactory.quest.db.499.desc=有了§3线材轧机§r，就能用一根§6铜导线§r来制作四盘§6细铜导线§r了。§6电阻§r、§6电动马达（LV）§r和§6真空管§r的配方同时接受1x铜导线和细铜导线，所以多走这一步，你的§6铜锭§r就能在电路制作的道路上§e多走三步§r。%n%n从现在开始，你将需要制作比以往更多的电路，所以节约用铜绝对是很值当的做法。
 
 # db 500
 omnifactory.quest.db.500.title=The Fourth And Final Tier Three Circuits
