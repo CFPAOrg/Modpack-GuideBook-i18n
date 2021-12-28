@@ -8,7 +8,7 @@ omnifactory.quest.line.1.desc=格雷科技中压等级：新型机器与初级�
 
 # line 2
 omnifactory.quest.line.2.title=游戏中期
-omnifactory.quest.line.2.desc=格雷科技高压、超高压、强导压等级：%n%n§6§3低温蒸馏§r，借助石油化学来制取§6环氧树脂§r与§9高十六烷值柴油§r。%n%n合成§6下界之星§r并解锁§b热力膨胀§r机器。%n%n搭建一座§b核电工艺§r的裂变反应堆来获取新型材料。%n%n建造空间站与跃迁核心。
+omnifactory.quest.line.2.desc=格雷科技高压、超高压、强导压等级：%n%n§3低温蒸馏§r，借助石油化学来制取§6环氧树脂§r与§9高十六烷值柴油§r。%n%n合成§6下界之星§r并解锁§b热力膨胀§r机器。%n%n搭建一座§b核电工艺§r的裂变反应堆来获取新型材料。%n%n建造空间站与跃迁核心。
 
 # line 3
 omnifactory.quest.line.3.title=发展进程
@@ -56,23 +56,23 @@ omnifactory.quest.db.2.desc=Note: this quest accepts both LV and MV Canning Mach
 
 # db 3
 omnifactory.quest.db.3.title=起始
-omnifactory.quest.db.3.desc=欢迎来到§5全能工厂§f！%n%n本整合包应在§b失落的城市§f或§b主世界§f维度中进行游玩。%n%n在多人游戏中，别忘了将你的朋友邀请至§e任务队伍§f。%n%n将§6虚空世界蛋糕§f放置在地面，右击食用即可传送至空岛世界中搭建你的基地，但请注意，尽管§e虚空世界§f提供了绝对安全的建筑环境，你仍需返回失落的城市或主世界维度方能采掘到矿物资源。
+omnifactory.quest.db.3.desc=欢迎来到§5全能工厂§r！%n%n本整合包应在§b失落的城市§r或§b主世界§r维度中进行游玩。%n%n在多人游戏中，别忘了将你的朋友邀请至§e任务队伍§r。%n%n将§6虚空世界蛋糕§r放置在地面，右击食用即可传送至空岛世界中搭建你的基地，但请注意，尽管§e虚空世界§r提供了绝对安全的建筑环境，你仍需返回失落的城市或主世界维度方能采掘到矿物资源。
 
 # db 4
 omnifactory.quest.db.4.title=铁资源储备
-omnifactory.quest.db.4.desc=§5全能工厂§f中的§c矿石§r都是以大量聚集，或称“§e矿脉§f”的形式出现的。这些矿脉零散分布于世界各处，且较为常见。你物品栏中的§a扫描器§f可在以你自身为中心，半径16格的区域内搜寻所有种类的矿石。向下采掘并扫描即可显示出你身边所有的矿石。不妨现在就试着手持扫描器并按住§6右键§f直至进度条显示完成。%n%n虽然扫描器的工作需要消耗电量，但接下来本任务书将引导你制作一个用以为物品栏中的电力工具充能的§a通量电容§f，而扫描器中存储的电量并不太可能在此之前就消耗殆尽。%n%n你需要定位一处§6铁§f来源以便向前推进。生成在较高处，蕴含着铁、§6钒§f与§6金§f的§6磁铁矿§f矿脉、包含数种铁化合物的§6褐铁矿§f矿脉，以及在若干种矿脉中均可发现的，与§6铜§f伴生的§6黄铁矿§f都是很好的选择。%n%n§e将铁二次熔炼§f即可制得§6锻铁§f。锻铁具有比铁更高的耐久度，故更适合制作工具，但§c切勿将你储备的所有铁全部处理为锻铁§f。这两种材料并不互通且都要按需参与各种配方。
+omnifactory.quest.db.4.desc=§5全能工厂§r中的§c矿石§r都是以大量聚集，或称“§e矿脉§r”的形式出现的。这些矿脉零散分布于世界各处，且较为常见。你物品栏中的§a扫描器§r可在以你自身为中心，半径16格的区域内搜寻所有种类的矿石。向下采掘并扫描即可显示出你身边所有的矿石。不妨现在就试着手持扫描器并按住§6右键§r直至进度条显示完成。%n%n虽然扫描器的工作需要消耗电量，但接下来本任务书将引导你制作一个用以为物品栏中的电力工具充能的§a通量电容§r，而扫描器中存储的电量并不太可能在此之前就消耗殆尽。%n%n你需要定位一处§6铁§r来源以便向前推进。生成在较高处，蕴含着铁、§6钒§r与§6金§r的§6磁铁矿§r矿脉、包含数种铁化合物的§6褐铁矿§r矿脉，以及在若干种矿脉中均可发现的，与§6铜§r伴生的§6黄铁矿§r都是很好的选择。%n%n§e将铁二次熔炼§r即可制得§6锻铁§r。锻铁具有比铁更高的耐久度，故更适合制作工具，但§c切勿将你储备的所有铁全部处理为锻铁§r。这两种材料并不互通且都要按需参与各种配方。
 
 # db 5
 omnifactory.quest.db.5.title=采矿锤
-omnifactory.quest.db.5.desc=§a采矿锤§r提供了一种相对廉价且高效的范围采掘途径。这种工具可以一次性采掘3x3范围内的方块且速度较快，拿几块锭出来做上一把，绝对稳赚不亏。%n%n能用来制作采矿锤的材料之中，§6石头§f当属最便宜的一种，但用石头做出来的采矿锤本身并不耐用，那么既然你已经有一些§6铁§f了，不妨拿着用它做的采矿锤下几次矿吧。%n%n§6钻石§f和§6铂§f采矿锤再好不过了，其它的除了不经用其实也挺好。
+omnifactory.quest.db.5.desc=§a采矿锤§r提供了一种相对廉价且高效的范围采掘途径。这种工具可以一次性采掘3x3范围内的方块且速度较快，拿几块锭出来做上一把，绝对稳赚不亏。%n%n能用来制作采矿锤的材料之中，§6石头§r当属最便宜的一种，但用石头做出来的采矿锤本身并不耐用，那么既然你已经有一些§6铁§r了，不妨拿着用它做的采矿锤下几次矿吧。%n%n§6钻石§r和§6铂§r采矿锤再好不过了，其它的除了不经用其实也挺好。
 
 # db 6
 omnifactory.quest.db.6.title=更多材料
-omnifactory.quest.db.6.desc=在继续发展之前，你需要接触一些新的材料。%n%n§6红石§f：只生成在地下深处与§6朱砂§f和§6红宝石§f伴生的矿脉中。%n%n§6铜§f：有两种主要来源。§6黝铜矿§f矿脉生成位置较高，而伴生着少量§6铁§f的§6黄铜矿§f矿脉则较低。铁矿脉中也能找到一些§6孔雀石§f，这是另一种类型的铜矿石。%n%n§6锡§f：基本用不着下去就能找得到，在地面上使用§a扫描器§f也总能发现。常与其伴生的§6锡石矿石§f则是另一种类型的锡矿石。如果找不到锡矿矿脉，§6铝§f和§6岩盐§f矿脉中也含有少量的锡，在找到真正的锡矿脉之前足解一时之需。%n%n§6煤炭§f：生成深度相对较浅。§6褐煤§f只是煤炭的一种纯度和效率较低的形态。%n%n§6金§f：生成于接近地表的§6磁铁矿§f矿脉之中。
+omnifactory.quest.db.6.desc=在继续发展之前，你需要接触一些新的材料。%n%n§6红石§r：只生成在地下深处与§6朱砂§r和§6红宝石§r伴生的矿脉中。%n%n§6铜§r：有两种主要来源。§6黝铜矿§r矿脉生成位置较高，而伴生着少量§6铁§r的§6黄铜矿§r矿脉则较低。铁矿脉中也能找到一些§6孔雀石§r，这是另一种类型的铜矿石。%n%n§6锡§r：基本用不着下去就能找得到，在地面上使用§a扫描器§r也总能发现。常与其伴生的§6锡石矿石§r则是另一种类型的锡矿石。如果找不到锡矿矿脉，§6铝§r和§6岩盐§r矿脉中也含有少量的锡，在找到真正的锡矿脉之前足解一时之需。%n%n§6煤炭§r：生成深度相对较浅。§6褐煤§r只是煤炭的一种纯度和效率较低的形态。%n%n§6金§r：生成于接近地表的§6磁铁矿§r矿脉之中。
 
 # db 7
 omnifactory.quest.db.7.title=线缆
-omnifactory.quest.db.7.desc=诸如§6红色合金线缆§f一类最为基础的线缆可以直接通过在导线外面包上一层绝缘§6橡胶§f的方法制作而成。%n%n品类更高级的线缆则需要用到§3组装机§f和液态的§9橡胶§f，但现在你可以先挑简单的做。
+omnifactory.quest.db.7.desc=诸如§6红色合金线缆§r一类最为基础的线缆可以直接通过在导线外面包上一层绝缘§6橡胶§r的方法制作而成。%n%n品类更高级的线缆则需要用到§3组装机§r和液态的§9橡胶§r，但现在你可以先挑简单的做。
 
 # db 8
 omnifactory.quest.db.8.title=The Third Tier Three Circuits
@@ -80,7 +80,7 @@ omnifactory.quest.db.8.desc=With three §6Microcircuits§r and some standard com
 
 # db 9
 omnifactory.quest.db.9.title=双倍矿产？
-omnifactory.quest.db.9.desc=在大多数专业级的整合包里，人们都有一个习惯：能够倍产矿物之前会尽可能保证直接处理的矿石越少越好。%n%n§e在全能工厂，你大可不必有这种压力。§f矿脉都很大，§a采矿锤§f挖起矿来也相当快，况且就算你有了§3研磨机§f，它也是需要耗时耗电的。%n%n话虽如此，存量稀少的材料和你花费§d全能币§f买来的东西，如果条件允许，还是值得走倍产处理的，毕竟它们不是白来的。%n%n但最起码在现在，把常见的矿石直接放进熔炉里烧可不是什么丑事！§e在拥有中压甚至更高电压等级的机器之前，你完全可以把矿物倍产抛在脑后。§r
+omnifactory.quest.db.9.desc=在大多数专业级的整合包里，人们都有一个习惯：能够倍产矿物之前会尽可能保证直接处理的矿石越少越好。%n%n§e在全能工厂，你大可不必有这种压力。§r矿脉都很大，§a采矿锤§r挖起矿来也相当快，况且就算你有了§3研磨机§r，它也是需要耗时耗电的。%n%n话虽如此，存量稀少的材料和你花费§d全能币§r买来的东西，如果条件允许，还是值得走倍产处理的，毕竟它们不是白来的。%n%n但最起码在现在，把常见的矿石直接放进熔炉里烧可不是什么丑事！§e在拥有中压甚至更高电压等级的机器之前，你完全可以把矿物倍产抛在脑后。§r
 
 # db 10
 omnifactory.quest.db.10.title=Tier Two Micro Miner
@@ -88,35 +88,35 @@ omnifactory.quest.db.10.desc=The Second Micro Miner!%n%nThis uses an §bExtended
 
 # db 11
 omnifactory.quest.db.11.title=电子零件
-omnifactory.quest.db.11.desc=“电路板”的“板”叫“§e基板§f”……它是各个电路元件和导线的立足之处。由于种种原因，一块优质的基板是不能够导电的。覆有§6粘性树脂§r的§6木头§r是一种原始而有效的基板制造材料，你将使用它来制作你的第一块基板。%n%n除此之外，你还需要制作一些§6真空管§f和原始的§6电阻§r。当下，§6纸§r将作为它们的制造材料。%n%n一定要记得把这些配方存进§3合成站§r……这些东西的需求量可是§l相当大§r的……
+omnifactory.quest.db.11.desc=“电路板”的“板”叫“§e基板§r”……它是各个电路元件和导线的立足之处。由于种种原因，一块优质的基板是不能够导电的。覆有§6粘性树脂§r的§6木头§r是一种原始而有效的基板制造材料，你将使用它来制作你的第一块基板。%n%n除此之外，你还需要制作一些§6真空管§r和原始的§6电阻§r。当下，§6纸§r将作为它们的制造材料。%n%n一定要记得把这些配方存进§3合成站§r……这些东西的需求量可是§l相当大§r的……
 
 # db 12
 omnifactory.quest.db.12.title=新手必备工具
-omnifactory.quest.db.12.desc=工具的显示方式，是这个整合包需要你去习惯的怪事之一。大多数工具可以使用几乎任何材料来制作，§bJEI§f也会显示巨量的可选方案……每种材料制作的每种工具的每种组合。即使材料不一，同种工具的配方摆放的样式都是相同的，所以只需按照示例去摆放板和锭即可，不需要在意示例中的材料种类。§f杆归杆，板归板，等等。唯一的限制是§e所有物品的材料必须一致§f，你不能使用多种不同材料的物品进行合成。%n%n有工具参与的配方中，工具类型是准确的，而工具材料则会显示为“§6§f”（有时会是铝），但实际上只要类型正确，任何材料的工具均可用于这些配方，无视即可。%n%n现在，制作一把§a锤§f（提醒一下，不是§a采矿锤§f……采矿锤只需要用到5块锭，锤则需要6块）。锤可将§e两块锭合成为一块板§f，而用§6板§f制作而成的§a锉§f又是制作§6杆§f所需的工具，等等等等。可以通过JEI来查询工具的配方信息。%n%n§6锻铁§f可能是眼下用来制作工具的最佳选择了。随着游戏的逐步推进，还将会有更好的材料供你使用。
+omnifactory.quest.db.12.desc=工具的显示方式，是这个整合包需要你去习惯的怪事之一。大多数工具可以使用几乎任何材料来制作，§bJEI§r也会显示巨量的可选方案……每种材料制作的每种工具的每种组合。即使材料不一，同种工具的配方摆放的样式都是相同的，所以只需按照示例去摆放板和锭即可，不需要在意示例中的材料种类。§r杆归杆，板归板，等等。唯一的限制是§e所有物品的材料必须一致§r，你不能使用多种不同材料的物品进行合成。%n%n有工具参与的配方中，工具类型是准确的，而工具材料则会显示为“§6§r”（有时会是铝），但实际上只要类型正确，任何材料的工具均可用于这些配方，无视即可。%n%n现在，制作一把§a锤§r（提醒一下，不是§a采矿锤§r……采矿锤只需要用到5块锭，锤则需要6块）。锤可将§e两块锭合成为一块板§r，而用§6板§r制作而成的§a锉§r又是制作§6杆§r所需的工具，等等等等。可以通过JEI来查询工具的配方信息。%n%n§6锻铁§r可能是眼下用来制作工具的最佳选择了。随着游戏的逐步推进，还将会有更好的材料供你使用。
 
 # db 13
 omnifactory.quest.db.13.title=酷炫批量合成
-omnifactory.quest.db.13.desc=现用现做逼死人。§e批量合成§f一些常用物品会大大提升效率，免于重复劳动。整合所有材料，一次性合成§e一整组物品§f再舒服不过了。%n%n§3合成站§f是进行批量合成所不可或缺的用具，它可以保存工具、电路、机器外壳等等物品的所有合成步骤，§e一做做一堆§r不是问题。%n%n每个合成站都有一些可供存放各种物品的槽位，以及一些专供§b格雷科技§r工具的槽位。此外，合成站还可以§e与相邻的物品存储空间进行交互§r，所以你可以在多个合成站之间的存储空间中存放一些常见材料。在之后你还将接触到§a抽屉控制器§r。这种大型虚拟物品存储空间的接入点也是可以与合成站进行交互的。%n%n首先，你必须在合成栏内手动设定配方摆放样式或通过§bJEI§r导入配方样式，随后将原料存入合成站，点击输出物品即可完成合成，按住Shift并点击则可直接合成至多一组物品。合成物品后，该配方将出现在界面右上角的合成历史区域中。%n%n每个合成站会将§e最后合成的9个配方§r存储在合成历史中，点击合成历史区域中的物品即可将配方摆放样式带回合成栏。合成历史已满时，新合成的配方会顶替最旧的配方。§e按住Shift并点击合成历史区域中的物品可使其配方不被顶替§r。%n%n点击§e存储空间§r标签页可显示相邻存储空间中的物品。你也可以将物品通过该界面存入可用的存储空间中。
+omnifactory.quest.db.13.desc=现用现做逼死人。§e批量合成§r一些常用物品会大大提升效率，免于重复劳动。整合所有材料，一次性合成§e一整组物品§r再舒服不过了。%n%n§3合成站§r是进行批量合成所不可或缺的用具，它可以保存工具、电路、机器外壳等等物品的所有合成步骤，§e一做做一堆§r不是问题。%n%n每个合成站都有一些可供存放各种物品的槽位，以及一些专供§b格雷科技§r工具的槽位。此外，合成站还可以§e与相邻的物品存储空间进行交互§r，所以你可以在多个合成站之间的存储空间中存放一些常见材料。在之后你还将接触到§a抽屉控制器§r。这种大型虚拟物品存储空间的接入点也是可以与合成站进行交互的。%n%n首先，你必须在合成栏内手动设定配方摆放样式或通过§bJEI§r导入配方样式，随后将原料存入合成站，点击输出物品即可完成合成，按住Shift并点击则可直接合成至多一组物品。合成物品后，该配方将出现在界面右上角的合成历史区域中。%n%n每个合成站会将§e最后合成的9个配方§r存储在合成历史中，点击合成历史区域中的物品即可将配方摆放样式带回合成栏。合成历史已满时，新合成的配方会顶替最旧的配方。§e按住Shift并点击合成历史区域中的物品可使其配方不被顶替§r。%n%n点击§e存储空间§r标签页可显示相邻存储空间中的物品。你也可以将物品通过该界面存入可用的存储空间中。
 
 # db 14
 omnifactory.quest.db.14.title=熔炉 v2.0
-omnifactory.quest.db.14.desc=§3铁熔炉§f可在§a150刻§f内完成对一个物品的熔炼，耗时与原版§6熔炉§f的§a200刻§f相比有些许减少。所有熔炉中的燃料效率保持不变。
+omnifactory.quest.db.14.desc=§3铁熔炉§r可在§a150刻§r内完成对一个物品的熔炼，耗时与原版§6熔炉§r的§a200刻§r相比有些许减少。所有熔炉中的燃料效率保持不变。
 
 # db 15
 omnifactory.quest.db.15.title=熔炉 v3.0
-omnifactory.quest.db.15.desc=§3铜熔炉§f进一步提升了熔炼速度，熔炼一个物品仅需§a100刻§f。
+omnifactory.quest.db.15.desc=§3铜熔炉§r进一步提升了熔炼速度，熔炼一个物品仅需§a100刻§r。
 
 # db 16
 omnifactory.quest.db.16.title=熔炉 v4.0
-omnifactory.quest.db.16.desc=§3银熔炉§f更进一步提升了熔炼速度，熔炼一个物品仅需§a60刻§f。
+omnifactory.quest.db.16.desc=§3银熔炉§r更进一步提升了熔炼速度，熔炼一个物品仅需§a60刻§r。
 
 # db 17
 omnifactory.quest.db.17.title=熔炉 v5.0
-omnifactory.quest.db.17.desc=§3金熔炉§f大幅提升了熔炼速度，熔炼一个物品仅需§a40刻§f。
+omnifactory.quest.db.17.desc=§3金熔炉§r大幅提升了熔炼速度，熔炼一个物品仅需§a40刻§r。
 
 # db 18
 omnifactory.quest.db.18.title=熔炉 v7.0
-omnifactory.quest.db.18.desc=§3黑曜石熔炉§f的熔炼速度虽与§3钻石熔炉§f一致，但§e同时熔炉两件物品§f的能力使得其实际吞吐量为钻石熔炉的两倍。%n%n你或许感觉钻石熔炉更符合你的需求，但在不久后两者都将作为合成材料参与多种机器的制作配方，所以即使你并不使用它，做上一个也并不浪费。
+omnifactory.quest.db.18.desc=§3黑曜石熔炉§r的熔炼速度虽与§3钻石熔炉§r一致，但§e同时熔炉两件物品§r的能力使得其实际吞吐量为钻石熔炉的两倍。%n%n你或许感觉钻石熔炉更符合你的需求，但在不久后两者都将作为合成材料参与多种机器的制作配方，所以即使你并不使用它，做上一个也并不浪费。
 
 # db 19
 omnifactory.quest.db.19.title=低压合金炉
@@ -124,7 +124,7 @@ omnifactory.quest.db.19.desc=合金炉能将物品熔化并重塑成合金。%n%
 
 # db 20
 omnifactory.quest.db.20.title=熔炉 v6.0
-omnifactory.quest.db.20.desc=§3钻石熔炉§f是速度最快的熔炉，熔炼一个物品仅需§a25刻§f。
+omnifactory.quest.db.20.desc=§3钻石熔炉§r是速度最快的熔炉，熔炼一个物品仅需§a25刻§r。
 
 # db 21
 omnifactory.quest.db.21.title=钢
@@ -140,7 +140,7 @@ omnifactory.quest.db.23.desc=你需要§6黑曜石§r来制作§6玄钢§r。虽
 
 # db 24
 omnifactory.quest.db.24.title=蒸汽能源炉
-omnifactory.quest.db.24.desc=你的第一大合成项目！%n%n制作这种能源炉要用到少量的§6银§f。§6方铅矿矿脉§f蕴含着丰富的银资源，如果你还没找到这种矿脉，可以考虑用§d全能币§r“买”一些§6银矿石§r。现阶段尚不需要极大量的银和铅，适量买一些并不会让你倾家荡产。%n%n请时刻谨记，§e能源炉仅在燃料充足时方可输出能量，且能量仅能输送至紧靠线圈面的方块中§f。
+omnifactory.quest.db.24.desc=你的第一大合成项目！%n%n制作这种能源炉要用到少量的§6银§r。§6方铅矿矿脉§r蕴含着丰富的银资源，如果你还没找到这种矿脉，可以考虑用§d全能币§r“买”一些§6银矿石§r。现阶段尚不需要极大量的银和铅，适量买一些并不会让你倾家荡产。%n%n请时刻谨记，§e能源炉仅在燃料充足时方可输出能量，且能量仅能输送至紧靠线圈面的方块中§r。
 
 # db 25
 omnifactory.quest.db.25.title=基于蛋糕的维度传送
@@ -156,7 +156,7 @@ omnifactory.quest.db.27.desc=The place for your very first chemical reactions, n
 
 # db 28
 omnifactory.quest.db.28.title=脉动之尘
-omnifactory.quest.db.28.desc=§6脉动之尘§r是一种能够激发末影能量的玄妙材料，有着各种各样奇妙怪异又暗藏危机的应用，包括制作§6脉冲铁锭§r和§6末影珍珠§r。%n%n由§6晶质铀矿§r处理而成的§6晶质铀矿粉§r是脉动之尘的首个来源。此后，你也可以通过烧炼§6谐振末影络合物§r来制取脉动之尘。%n%n§c请注意，末影珍珠粉电解为脉动之尘的配方需要超高压（Extreme Voltage，EV）的电解机，而且可以说是相当不值的。§r
+omnifactory.quest.db.28.desc=§6脉动之尘§r是一种能够激发末影能量的玄妙材料，有着各种各样奇妙怪异又暗藏危机的应用，包括制作§6脉冲铁锭§r和§6末影珍珠§r。%n%n由§6晶质铀矿§r处理而成的§6晶质铀矿粉§r是脉动之尘的首个来源。此后，你也可以通过烧炼§6谐振末影络合物§r来制取脉动之尘。%n%n§c请注意，末影珍珠粉电解为脉动之尘的配方需要超高压（Extreme　Voltage，EV）的电解机，而且可以说是相当不值的。§r
 
 # db 29
 omnifactory.quest.db.29.title=脉冲铁和末影珍珠
@@ -183,8 +183,8 @@ omnifactory.quest.db.34.title=充能合金
 omnifactory.quest.db.34.desc=在你新作成的§3电力高炉§r中烧炼§6高能混合物§r与§6金锭§r即可得到这种来自§b末影接口的§r合金。%n%n将上述两种材料放入输入总线，20秒后便可从输出总线中拿取§6充能合金锭§r。
 
 # db 35
-omnifactory.quest.db.35.title=Vibrant Alloy
-omnifactory.quest.db.35.desc=An EnderIO alloy.
+omnifactory.quest.db.35.title=振动合金
+omnifactory.quest.db.35.desc=一种末影接口的合金。
 
 # db 36
 omnifactory.quest.db.36.title=Gap
@@ -192,11 +192,11 @@ omnifactory.quest.db.36.desc=
 
 # db 37
 omnifactory.quest.db.37.title=橡胶片
-omnifactory.quest.db.37.desc=想走致富路，先找§6橡胶树§f。要是你对跑图找树不感兴趣，也可以§e剪下树叶§f并制作§6植物球§f，再把植物球烧炼成§6粘液球§f，最后把粘液球烧炼成§6粘性树脂§f。%n%n§e把树叶制成橡胶出产率极其低下§f，所以你最后还是会去找橡胶树的。%n%n粘性树脂可在合成栏中被锤处理成橡胶片。虽说效率低，但§b格雷科技§f早期就是这样。起码橡胶并没有特别难做。
+omnifactory.quest.db.37.desc=想走致富路，先找§6橡胶树§r。要是你对跑图找树不感兴趣，也可以§e剪下树叶§r并制作§6植物球§r，再把植物球烧炼成§6粘液球§r，最后把粘液球烧炼成§6粘性树脂§r。%n%n§e把树叶制成橡胶出产率极其低下§r，所以你最后还是会去找橡胶树的。%n%n粘性树脂可在合成栏中被锤处理成橡胶片。虽说效率低，但§b格雷科技§r早期就是这样。起码橡胶并没有特别难做。
 
 # db 38
 omnifactory.quest.db.38.title=低压CEF
-omnifactory.quest.db.38.desc=§o提醒：本任务同时接受4安及16安的CEF（LV）。§r%n%n到目前为止，你已经在使用§3蒸汽能源炉§r产出§aRF能量§r了。但问题在于，§b格雷科技§r的机器只接受§aEU能量§r，而现在，你手中的第一块§6电路§r已经为制造一台§e低压（Low Voltage，LV）的§3CEF§r做好了准备。%n%n§3CEF§r是一种能够将§aRF能量§e转换§r为§aEU能量§r的特殊设备。每个电压等级的CEF均由§e4安§r及§e16安§r两种型号，分别有4个与16个物品槽位。每个槽位可容纳一块§6电池§r。%n%n你§o并不需要§r将§b格雷科技§r的电池放入CEF，但请在放入电池时注意，§eCEF的输出电流会受其内部电池数量的限制，每块1安§r。无电池时，它们将视需求输出电流，最大电流与自身型号所示相符。%n%n§aRF§r转换为§aEU§r的比率为§e4比1§r，例如§a100 RF§r可转换为§a25 EU§r。若你的第一手能量类型为§aEU§r，则可以借助另一种名为§3CEU§r的设备来将§aEU§r转换为§aRF§r。
+omnifactory.quest.db.38.desc=§o提醒：本任务同时接受4安及16安的CEF（LV）。§r%n%n到目前为止，你已经在使用§3蒸汽能源炉§r产出§aRF能量§r了。但问题在于，§b格雷科技§r的机器只接受§aEU能量§r，而现在，你手中的第一块§6电路§r已经为制造一台§e低压（Low　Voltage，LV）的§3CEF§r做好了准备。%n%n§3CEF§r是一种能够将§aRF能量§e转换§r为§aEU能量§r的特殊设备。每个电压等级的CEF均由§e4安§r及§e16安§r两种型号，分别有4个与16个物品槽位。每个槽位可容纳一块§6电池§r。%n%n你§o并不需要§r将§b格雷科技§r的电池放入CEF，但请在放入电池时注意，§eCEF的输出电流会受其内部电池数量的限制，每块1安§r。无电池时，它们将视需求输出电流，最大电流与自身型号所示相符。%n%n§aRF§r转换为§aEU§r的比率为§e4比1§r，例如§a100 RF§r可转换为§a25 EU§r。若你的第一手能量类型为§aEU§r，则可以借助另一种名为§3CEU§r的设备来将§aEU§r转换为§aRF§r。
 
 # db 39
 omnifactory.quest.db.39.title=物品导管
@@ -207,8 +207,8 @@ omnifactory.quest.db.40.title=导电铁能量导管
 omnifactory.quest.db.40.desc=最基础的§aRF§r能量导管，来自§b末影接口§r。%n%n你可以使用它们来导出§3蒸汽能源炉§r所产出的能量以作他用。
 
 # db 41
-omnifactory.quest.db.41.title=Energetic Alloy Energy Conduits
-omnifactory.quest.db.41.desc=Now that you have §6Energetic Alloy§r, it's time to make some better conduits!%n%nEach time you upgrade your conduits, you'll also get more of them. Neat!%n%nIf you don't have an §3Assembling Machine§r, you'll have to make them by hand. This method isn't as efficient as the machine, but you'll make one soon enough.
+omnifactory.quest.db.41.title=充能合金能量导管
+omnifactory.quest.db.41.desc=§6充能合金§r到手，是时候做些更好的导管了！%n%n导管一经升级，数量还能翻番，真不错！%n%n如果还没有§3组装机§r，就免不了亲自动手制作。手不如机器麻利，但过不了多久你就能做一台了。
 
 # db 42
 omnifactory.quest.db.42.title=Vibrant Alloy Energy Conduits
@@ -231,12 +231,12 @@ omnifactory.quest.db.46.title=Gap
 omnifactory.quest.db.46.desc=
 
 # db 47
-omnifactory.quest.db.47.title=Ironman 3
-omnifactory.quest.db.47.desc=Flying faster, even nicer.
+omnifactory.quest.db.47.title=钢铁侠3
+omnifactory.quest.db.47.desc=飞得更快，飞得更好。
 
 # db 48
-omnifactory.quest.db.48.title=Ironman 2
-omnifactory.quest.db.48.desc=Flying faster is nice.
+omnifactory.quest.db.48.title=钢铁侠2
+omnifactory.quest.db.48.desc=飞得越快，飞得越好。
 
 # db 49
 omnifactory.quest.db.49.title=Air Centrifuging
@@ -244,7 +244,7 @@ omnifactory.quest.db.49.desc=Note: this quest accepts LV/MV/HV Centrifuge.%n%nCe
 
 # db 50
 omnifactory.quest.db.50.title=加压流体导管
-omnifactory.quest.db.50.desc=相比格雷科技的流体管道，§b末影接口§f的流体导管是更受欢迎的流体传输方式，极其灵活，异常强大。有了它，流体合成将不再难以忍受。
+omnifactory.quest.db.50.desc=相比格雷科技的流体管道，§b末影接口§r的流体导管是更受欢迎的流体传输方式，极其灵活，异常强大。有了它，流体合成将不再难以忍受。
 
 # db 51
 omnifactory.quest.db.51.title=Inscriber
@@ -308,7 +308,7 @@ omnifactory.quest.db.65.desc=The Third Micro Miner.%n%nThis one can get you:%n§
 
 # db 66
 omnifactory.quest.db.66.title=从粉末到导线
-omnifactory.quest.db.66.desc=大多数§e合金§f都必须由§3合金炉§f处理而成，但有些合金只需混合特定粉末便可制得。%n%n红石与铜粉混合即为§6红色合金§f粉，与铁粉混合则可制成§6导电铁粉§f。%n%n使用§a锤§f将§3烧炼§f而成的锭处理成板，再与§a剪线钳§f合成即可得到§6导线§f。
+omnifactory.quest.db.66.desc=大多数§e合金§r都必须由§3合金炉§r处理而成，但有些合金只需混合特定粉末便可制得。%n%n红石与铜粉混合即为§6红色合金§r粉，与铁粉混合则可制成§6导电铁粉§r。%n%n使用§a锤§r将§3烧炼§r而成的锭处理成板，再与§a剪线钳§r合成即可得到§6导线§r。
 
 # db 67
 omnifactory.quest.db.67.title=Octadic Capacitor
@@ -608,7 +608,7 @@ omnifactory.quest.db.140.desc=§3Advanced Inscribers§r are much easier to work 
 
 # db 141
 omnifactory.quest.db.141.title=花了才是钱！
-omnifactory.quest.db.141.desc=就算并没有那种世所罕有的矿脉，你也很可能在寻找哪怕一条不那么常见的矿脉时备受折磨。这种事情实在难以避免。%n%n在全能工厂的游玩过程中，你会从任务奖励中攒下大量的§d全能币§f。钱该花就得花，千万别犹豫！%n%n查询各种矿石（通常为§bJEI§f列出的第一种矿石）即可找到由全能币进行制作的配方。此外，将鼠标指针悬于全能币之上并按下§6U§f键便能查看可供购买的矿石。%n%n§a别犯囤积癖！
+omnifactory.quest.db.141.desc=就算并没有那种世所罕有的矿脉，你也很可能在寻找哪怕一条不那么常见的矿脉时备受折磨。这种事情实在难以避免。%n%n在全能工厂的游玩过程中，你会从任务奖励中攒下大量的§d全能币§r。钱该花就得花，千万别犹豫！%n%n查询各种矿石（通常为§bJEI§r列出的第一种矿石）即可找到由全能币进行制作的配方。此外，将鼠标指针悬于全能币之上并按下§6U§r键便能查看可供购买的矿石。%n%n§a别犯囤积癖！
 
 # db 142
 omnifactory.quest.db.142.title=Gap
@@ -1123,8 +1123,8 @@ omnifactory.quest.db.269.title=The Second Tier Six Circuits
 omnifactory.quest.db.269.desc=§6Power IC Wafer§r may be new if you skipped some of the battery quests, but it is now relevant. %n%nUsing these wafers, some §6Chrome Plates§r, a §6Quantum Eye§r, and §6Signalum Wire§r, several §6Quantum Processors§r may be upgraded into a §6Quantum Processor Array§r.
 
 # db 270
-omnifactory.quest.db.270.title=LV Macerator
-omnifactory.quest.db.270.desc=§3Macerators§r are useful for grinding things down, replacing the §aMortars§r you've needed until now. This is an important machine you will be using for many things in the future.%n%nOne useful application for a Macerator in the near future is grinding down §6Clay§r or §6Terracotta§r into §6Clay Dust§f. You can also configure several of them to make a pipeline that grinds down §6Cobblestone§r into §6Gravel§r, then §6Sand§r, then §6Dust§r.%n%nBesides not having limited durability, a key advantage of Macerators over Mortars is the chance to get additional materials when grinding things down. These are called §ebyproducts§r, and HV or better Macerators have three slots instead of one so byproducts can appear.%n%nWhen reading Macerator recipes in §bJEI§r, you can tell which outputs are byproducts by seeing if §ethe tooltip tells you it has a chance to appear§r: guaranteed outputs do not list a chance. The chance displayed for Macerator recipes is always at MV, and the chance §edoubles each tier past MV§r your macerator is, up to a maximum of 100%%.%n%nFor example, the primary output from crushing ores scales as follows:%n• LV: §c0%%%n§r• MV: §c14%%§r (as listed in §bJEI§r)%n§r• HV: §a28%%%n§r• EV: §a56%%%n§r• IV and better: §a100%%§r%n%nFinally, a Macerator will only start processing if there is room for all possible outputs. Make sure you empty them so they can keep working.
+omnifactory.quest.db.270.title=低压研磨机
+omnifactory.quest.db.270.desc=§3研磨机§r能有效地打碎各种物品，接替了一直陪伴着你的§a研钵§r。以后的很多事情都要依靠这种关键机器来完成。%n%n在不久的将来，研磨机的应用之一为将§6黏土§r或§6陶瓦§r研磨成§6粘土粉§r。你也可以对数台研磨机进行配置来构建一条将§6圆石§r逐步处理为§6沙砾§r、§6沙子§r，最后产出§6沙尘块§r的流水线。%n%n除了耐久无限之外，研磨机之于研钵的一大优点在于有几率能够产出被称为§e副产物§r的额外材料，高压（High　Voltage，HV）及更高电压等级的研磨机具有额外两个输出槽，为副产物的产出创造了条件。%n%n在§bJEI§r中阅览研磨机配方时，你可以通过§e信息提示中是否包含产出几率§r来判断物品是否为副产物，若不包含则表示物品为固定产物。信息提示中包含的产出几率仅对应中压（Medium　Voltage，MV），研磨机§e每比中压高一个电压等级，产出几率即翻一倍§r，最大几率为100%%。%n%n例如，通过研磨矿石得到的第一种副产物的产出几率为：%n•LV：§c0%%§r%n•MV：§c14%%§r（§bJEI§r所示数值）%n•HV：§a28%%§r%n•EV：§a56%%§r%n•IV及以上：§a100%%§r%n%n最后一点，研磨机仅会在输出槽能够容纳所有可能产出的物品时方可开始运作，所以请记得及时取出产物。
 
 # db 271
 omnifactory.quest.db.271.title=Reactor Stabilizer
@@ -1320,7 +1320,7 @@ omnifactory.quest.db.318.desc=There are two primary approaches to producing §9E
 
 # db 319
 omnifactory.quest.db.319.title=Farming
-omnifactory.quest.db.319.desc=You'll need large quantities of §6Canola§f (for §6Canola Oil§f in a §bCanola Press§f) and §6Sugarcane§f (for §6Ethanol§f).%n%nOf course, other crops can work as well, if you want to mix things up.
+omnifactory.quest.db.319.desc=You'll need large quantities of §6Canola§r (for §6Canola Oil§r in a §bCanola Press§r) and §6Sugarcane§r (for §6Ethanol§r).%n%nOf course, other crops can work as well, if you want to mix things up.
 
 # db 320
 omnifactory.quest.db.320.title=Empowered Void Gear
@@ -1456,7 +1456,7 @@ omnifactory.quest.db.352.desc=如果你不想自己动手挖黑曜石，可以�
 
 # db 353
 omnifactory.quest.db.353.title=滑翔翼
-omnifactory.quest.db.353.desc=如果你迫切地想要来一次长途行进，用§a悬挂式滑翔翼§f准没错。%n%n如果你不想跑图找牛，大可以直接买两个§6生成 奶牛§f刷怪蛋回来养着。说真的，§d钱§f该花得花啊！
+omnifactory.quest.db.353.desc=如果你迫切地想要来一次长途行进，用§a悬挂式滑翔翼§r准没错。%n%n如果你不想跑图找牛，大可以直接买两个§6生成 奶牛§r刷怪蛋回来养着。说真的，§d钱§r该花得花啊！
 
 # db 354
 omnifactory.quest.db.354.title=Empowered Enori Gear
@@ -1516,7 +1516,7 @@ omnifactory.quest.db.367.desc=§oNow this is not the end. It is not even the beg
 
 # db 368
 omnifactory.quest.db.368.title=钩爪
-omnifactory.quest.db.368.desc=§a钩爪§f能助你在城市环境中自由穿梭。%n%n有许多方式来升级和改进你的钩爪，一试便知。%n%n打开物品栏，找到并点击饰品栏按钮，你可以将钩爪装备在任意一个饰品槽位中。%n%n默认设置下发射钩爪的按钮是§6C§r，但由于许多其它模组占用了这个按键，你需要在按键控制界面中解决按键冲突。
+omnifactory.quest.db.368.desc=§a钩爪§r能助你在城市环境中自由穿梭。%n%n有许多方式来升级和改进你的钩爪，一试便知。%n%n打开物品栏，找到并点击饰品栏按钮，你可以将钩爪装备在任意一个饰品槽位中。%n%n默认设置下发射钩爪的按钮是§6C§r，但由于许多其它模组占用了这个按键，你需要在按键控制界面中解决按键冲突。
 
 # db 369
 omnifactory.quest.db.369.title=Gap
@@ -1524,11 +1524,11 @@ omnifactory.quest.db.369.desc=
 
 # db 370
 omnifactory.quest.db.370.title=木炭
-omnifactory.quest.db.370.desc=没人在这儿为难你，烧§6原木§f直接出§6木炭§f。在你找到含有§6煤炭§f的矿脉之前用它们来做燃料也相当不错。%n%n你可能会想要将木炭拆分为§6小块木炭§f来避免不必要的浪费。一个小块木炭正好能烧炼一个物品。只需将木炭放入合成栏即可！
+omnifactory.quest.db.370.desc=没人在这儿为难你，烧§6原木§r直接出§6木炭§r。在你找到含有§6煤炭§r的矿脉之前用它们来做燃料也相当不错。%n%n你可能会想要将木炭拆分为§6小块木炭§r来避免不必要的浪费。一个小块木炭正好能烧炼一个物品。只需将木炭放入合成栏即可！
 
 # db 371
 omnifactory.quest.db.371.title=软锤
-omnifactory.quest.db.371.desc=§a软锤§f能暂停机器工作。试想有两台都在运转的机器，但因为电量不够，进度都卡住了……这时你就可以用软锤暂停其中一台机器的工作，让另一台跑完，再锤一下第一台，让它继续跑。
+omnifactory.quest.db.371.desc=§a软锤§r能暂停机器工作。试想有两台都在运转的机器，但因为电量不够，进度都卡住了……这时你就可以用软锤暂停其中一台机器的工作，让另一台跑完，再锤一下第一台，让它继续跑。
 
 # db 372
 omnifactory.quest.db.372.title=Gap
@@ -1616,7 +1616,7 @@ omnifactory.quest.db.392.desc=Congratulations! You've reached the end of the cir
 
 # db 393
 omnifactory.quest.db.393.title=认领区块，邀请队友！
-omnifactory.quest.db.393.desc=你可能会好奇，这个整合包里用来做区块加载功能的是什么呢？%n%n打开你的物品栏，点击左上角地图式样的§e认领区块§r按钮。%n%n§6点击一个区块§r即可认领。爬行者的爆炸将不会在你所认领的区块中破坏方块，其他玩家也无法在其中进行交互。%n%n§6潜行左击一个已认领的区块§r可将其设置为常加载状态。此外，§b更多实用设备§f中的§a区块加载之杖§f亦有此功能。被常加载的区块在玩家远离时也能保持加载。%n%n§e若你所游玩的服务器对设置项进行了修改，请咨询服主应选择何种途径进行区块加载。§f%n%n通过同样位于物品栏界面左上角的按钮可以邀请玩家进入你的玩家组，该功能由§bFTB实用工具§f提供。所有组员将共享所有认领的区块。你可以在组设置菜单中配置这些认领区块的相关权限。
+omnifactory.quest.db.393.desc=你可能会好奇，这个整合包里用来做区块加载功能的是什么呢？%n%n打开你的物品栏，点击左上角地图式样的§e认领区块§r按钮。%n%n§6点击一个区块§r即可认领。爬行者的爆炸将不会在你所认领的区块中破坏方块，其他玩家也无法在其中进行交互。%n%n§6潜行左击一个已认领的区块§r可将其设置为常加载状态。此外，§b更多实用设备§r中的§a区块加载之杖§r亦有此功能。被常加载的区块在玩家远离时也能保持加载。%n%n§e若你所游玩的服务器对设置项进行了修改，请咨询服主应选择何种途径进行区块加载。§r%n%n通过同样位于物品栏界面左上角的按钮可以邀请玩家进入你的玩家组，该功能由§bFTB实用工具§r提供。所有组员将共享所有认领的区块。你可以在组设置菜单中配置这些认领区块的相关权限。
 
 # db 394
 omnifactory.quest.db.394.title=通量电容
@@ -1648,15 +1648,15 @@ omnifactory.quest.db.400.desc=Space exploration isn't mandatory in this pack, so
 
 # db 401
 omnifactory.quest.db.401.title=维护工具的正确方法
-omnifactory.quest.db.401.desc=§3铁砧§f几乎可以修复所有§b格雷科技的工具§f！%n%n与其不停地用坏工具再重做工具，你可能会更想制作一个铁砧。铁砧会大量生成于§b失落的城市§f建筑之中，去拿一个吧！%n%n放入受损的工具和一些工具制作材料即可进行修复。例如，修复§6锻铁§f工具需要一并放入§6锻铁锭§f。唯二无法修复的工具是研钵和搋子。
+omnifactory.quest.db.401.desc=§3铁砧§r几乎可以修复所有§b格雷科技的工具§r！%n%n与其不停地用坏工具再重做工具，你可能会更想制作一个铁砧。铁砧会大量生成于§b失落的城市§r建筑之中，去拿一个吧！%n%n放入受损的工具和一些工具制作材料即可进行修复。例如，修复§6锻铁§r工具需要一并放入§6锻铁锭§r。唯二无法修复的工具是研钵和搋子。
 
 # db 402
 omnifactory.quest.db.402.title=机器覆盖板
-omnifactory.quest.db.402.desc=§b格雷科技§r提供了§a覆盖板§r这样一个全能的途径来增强机器。覆盖板相当于一种“升级”，能够加装至所有格雷科技的机器、箱子和桶来拓展它们的功能。你需要给自己准备一把§a螺丝刀§r以便对覆盖板进行配置，以及一根§a撬棍§r来拆卸覆盖板而无需破坏整台机器。%n%n下面介绍了游戏中的一些覆盖板以及各自的功能：%n%n-§a§l传送带§r：与相邻的存储空间持续进行物品的输入或输出；%n%n-§a§l泵（电动泵）§r：相当于流体版的§a传送带§f；%n%n-§a§l机械臂§r：相当于§a传送带§r，但具有两种非常适用于自动化合成的特殊模式：%n　　*§e保持补给§r：尽可能保持目标容器中的物品处于特定数量；%n　　*§e精确补给§r：每次传输特定数量的物品，若物品数量不足则不会进行传输。%n%n-§a§l流体校准器§r：相当于流体版的§a机械臂§r；%n%n-§a§l扇板§r：阻止对所在侧面进行的自动化交互。%n%n用以转运物品或流体的覆盖板可在内部额外配备一张§a过滤卡§r，以此调配各自的功能，详情请见相关任务描述。%n
+omnifactory.quest.db.402.desc=§b格雷科技§r提供了§a覆盖板§r这样一个全能的途径来增强机器。覆盖板相当于一种“升级”，能够加装至所有格雷科技的机器、箱子和桶来拓展它们的功能。你需要给自己准备一把§a螺丝刀§r以便对覆盖板进行配置，以及一根§a撬棍§r来拆卸覆盖板而无需破坏整台机器。%n%n下面介绍了游戏中的一些覆盖板以及各自的功能：%n%n-§a§l传送带§r：与相邻的存储空间持续进行物品的输入或输出；%n%n-§a§l泵（电动泵）§r：相当于流体版的§a传送带§r；%n%n-§a§l机械臂§r：相当于§a传送带§r，但具有两种非常适用于自动化合成的特殊模式：%n　　*§e保持补给§r：尽可能保持目标容器中的物品处于特定数量；%n　　*§e精确补给§r：每次传输特定数量的物品，若物品数量不足则不会进行传输。%n%n-§a§l流体校准器§r：相当于流体版的§a机械臂§r；%n%n-§a§l扇板§r：阻止对所在侧面进行的自动化交互。%n%n用以转运物品或流体的覆盖板可在内部额外配备一张§a过滤卡§r，以此调配各自的功能，详情请见相关任务描述。%n
 
 # db 403
 omnifactory.quest.db.403.title=手拿螺丝刀，拧拧输出面！
-omnifactory.quest.db.403.desc=所有格雷科技的机器都有一个可使用§a格雷科技扳手§f来设定的专用输出面，用来向相邻的存储空间输出物品。%n%n若要启用自动输出，打开机器界面并点选左下角的按钮即可：§6橙色§r为物品自动输出，§9蓝色§r则为流体自动输出。%n%n如果还想使输出面接受物品输入，你需要手持§a格雷科技螺丝刀§r并右击输出面，或是§6潜行右击§r其它侧面的网格区域。%n%n这些特性适用于将多台机器连结成流水产线，便于在§b应用能源2§f的帮助下进行自动化合成。
+omnifactory.quest.db.403.desc=所有格雷科技的机器都有一个可使用§a格雷科技扳手§r来设定的专用输出面，用来向相邻的存储空间输出物品。%n%n若要启用自动输出，打开机器界面并点选左下角的按钮即可：§6橙色§r为物品自动输出，§9蓝色§r则为流体自动输出。%n%n如果还想使输出面接受物品输入，你需要手持§a格雷科技螺丝刀§r并右击输出面，或是§6潜行右击§r其它侧面的网格区域。%n%n这些特性适用于将多台机器连结成流水产线，便于在§b应用能源2§r的帮助下进行自动化合成。
 
 # db 404
 omnifactory.quest.db.404.title=Simple GregTech Automation
@@ -1999,8 +1999,8 @@ omnifactory.quest.db.488.title=基础背包
 omnifactory.quest.db.488.desc=一个趁手的存储工具。%n%n你还指望有啥好说的呢？
 
 # db 489
-omnifactory.quest.db.489.title=LV Compressor
-omnifactory.quest.db.489.desc=You'll need a §3Compressor§r for a variety of things, but probably most importantly is the ability to make many kinds of plates from a single ingot.
+omnifactory.quest.db.489.title=低压压缩机
+omnifactory.quest.db.489.desc=许多物品都需要使用§3压缩机§r来制造，但最重要的还得数它用一块锭造一块板的能力。
 
 # db 490
 omnifactory.quest.db.490.title=低压高压釜
@@ -2008,7 +2008,7 @@ omnifactory.quest.db.490.desc=§3高压釜§r利用流体（通常为水）来�
 
 # db 491
 omnifactory.quest.db.491.title=连锁砍树？
-omnifactory.quest.db.491.desc=§a伐木斧§f是一种可以一次性破坏所有相连方块，也即§e连锁采掘§f的工具，但仅适用于工具需求为斧的方块。这类工具的初衷是方便一次砍伐整棵树木，但你也可以用它来连锁采掘其它木头类方块。%n%n§c§l注意，潜行并不会禁用伐木斧的连锁特性！§r%n%n千万要小心别一斧子砍掉你的整面储物抽屉墙，否则绝对要叫你心态大崩。
+omnifactory.quest.db.491.desc=§a伐木斧§r是一种可以一次性破坏所有相连方块，也即§e连锁采掘§r的工具，但仅适用于工具需求为斧的方块。这类工具的初衷是方便一次砍伐整棵树木，但你也可以用它来连锁采掘其它木头类方块。%n%n§c§l注意，潜行并不会禁用伐木斧的连锁特性！§r%n%n千万要小心别一斧子砍掉你的整面储物抽屉墙，否则绝对要叫你心态大崩。
 
 # db 492
 omnifactory.quest.db.492.title=Drill Baby Drill
@@ -2024,11 +2024,11 @@ omnifactory.quest.db.494.desc=This terminal allows you to interact with fluid st
 
 # db 495
 omnifactory.quest.db.495.title=抽屉控制器
-omnifactory.quest.db.495.desc=§a抽屉控制器§r是任何一个优质存储系统所必备的总控中心。它可以从任何通过抽屉或桥接方块所连接的抽屉中调取物品，调取范围为以自身为中心25x25x25的立方空间。%n%n将控制器合成为§a镶框抽屉控制器§r后则可更改外观。%n%n§a控制器传动方块§r并不会扩大调取范围，但能够充当控制器的另一个接入点，允许你通过它来对控制器辖下的所有抽屉进行物品吞吐操作。%n%n将§6ME存储总线§f连接至抽屉控制器则可将其所控制的抽屉统统接入§b应用能源§f，但体量特大的ME网络会导致延迟，所以请适当控制你所接入的抽屉网络大小。%n
+omnifactory.quest.db.495.desc=§a抽屉控制器§r是任何一个优质存储系统所必备的总控中心。它可以从任何通过抽屉或桥接方块所连接的抽屉中调取物品，调取范围为以自身为中心25x25x25的立方空间。%n%n将控制器合成为§a镶框抽屉控制器§r后则可更改外观。%n%n§a控制器传动方块§r并不会扩大调取范围，但能够充当控制器的另一个接入点，允许你通过它来对控制器辖下的所有抽屉进行物品吞吐操作。%n%n将§6ME存储总线§r连接至抽屉控制器则可将其所控制的抽屉统统接入§b应用能源§r，但体量特大的ME网络会导致延迟，所以请适当控制你所接入的抽屉网络大小。%n
 
 # db 496
 omnifactory.quest.db.496.title=抽屉
-omnifactory.quest.db.496.desc=§b储物抽屉§r能够存储巨量同种物品，适用于存储石头、泥土和矿石等保有量极大的材料。%n%n如果你不喜欢储物抽屉的原始外观，可以在§3镶框台§f中配合至多三种用以决定成品材质的方块来为§6镶框抽屉§f打造自定义的式样。%n%n此外，你也可以使用§a手持镶框工具§r来将已摆放于世界中的抽屉转化为§6镶框抽屉§r并对其进行镶框。请参阅§a手持镶框工具§r的§eJEI信息页面§r 来获取详情。
+omnifactory.quest.db.496.desc=§b储物抽屉§r能够存储巨量同种物品，适用于存储石头、泥土和矿石等保有量极大的材料。%n%n如果你不喜欢储物抽屉的原始外观，可以在§3镶框台§r中配合至多三种用以决定成品材质的方块来为§6镶框抽屉§r打造自定义的式样。%n%n此外，你也可以使用§a手持镶框工具§r来将已摆放于世界中的抽屉转化为§6镶框抽屉§r并对其进行镶框。请参阅§a手持镶框工具§r的§eJEI信息页面§r 来获取详情。
 
 # db 497
 omnifactory.quest.db.497.title=压缩抽屉
@@ -2107,12 +2107,12 @@ omnifactory.quest.db.515.title=Gap
 omnifactory.quest.db.515.desc=
 
 # db 516
-omnifactory.quest.db.516.title=LV Conveyor
-omnifactory.quest.db.516.desc=Not as common a component, but used in a number of critical machines.%n%nAlso useful as a machine cover for continuously moving items.
+omnifactory.quest.db.516.title=低压传送带
+omnifactory.quest.db.516.desc=这种组件并不是很常见，但还是出现在了很多重要机器的配方当中。%n%n也可作为一种能持续传输物品的机器覆盖板。
 
 # db 517
-omnifactory.quest.db.517.title=LV Robot Arm
-omnifactory.quest.db.517.desc=§6Robot Arms§r are components of several powerful machines, and are also useful as a machine cover for precise item movement.%n%nOne of the most expensive components, as it requires motors, pistons, and a circuit.
+omnifactory.quest.db.517.title=低压机械臂
+omnifactory.quest.db.517.desc=§6机械臂§r是一众强力机器的制造部件，更是一种能为机器提供精确物品传输功能的覆盖板。%n%n制作材料中同时包含电动马达、电力活塞与一块电路，使其成为了最昂贵部件中的一员。
 
 # db 518
 omnifactory.quest.db.518.title=Gap
@@ -2164,7 +2164,7 @@ omnifactory.quest.db.529.desc=With your §6Tungstensteel§r-based machine hulls 
 
 # db 530
 omnifactory.quest.db.530.title=你的第一块电路
-omnifactory.quest.db.530.desc=各种元件已经就绪，是时候制作一块§6低等电路§r了。%n%n§3合成站§f大显身手的时候到了！合成站（肯定§o不止一个§r）中保存的各个配方摆放样式将帮助你§e快速且大批量地合成电路§f。%n%n你将需要制作§l很多很多§r的电路，所以得好好把握住合成站所提升的合成效率。
+omnifactory.quest.db.530.desc=各种元件已经就绪，是时候制作一块§6低等电路§r了。%n%n§3合成站§r大显身手的时候到了！合成站（肯定§o不止一个§r）中保存的各个配方摆放样式将帮助你§e快速且大批量地合成电路§r。%n%n你将需要制作§l很多很多§r的电路，所以得好好把握住合成站所提升的合成效率。
 
 # db 531
 omnifactory.quest.db.531.title=The First Tier Seven Circuits
@@ -2208,7 +2208,7 @@ omnifactory.quest.db.540.desc=The §3Extruder§r is an alternative way to form s
 
 # db 541
 omnifactory.quest.db.541.title=More Blast Furnaces
-omnifactory.quest.db.541.desc=Overclocking aside, as you continue to progress in §5Omnifactory§f, materials made in the §3Electric Blast Furnace§f will take longer to complete. §eMore advanced coils do not give speed bonuses§f, only allowing for the furnace to §eget hot enough to process more advanced materials§f.%n%nConsequently, you'll need to continually expand your smelting and power generation infrastructure.%n%nYou don't have to get all four of these Electric Blast Furnaces completed and running just yet, but be prepared to make many of them over the course of the pack.
+omnifactory.quest.db.541.desc=Overclocking aside, as you continue to progress in §5Omnifactory§r, materials made in the §3Electric Blast Furnace§r will take longer to complete. §eMore advanced coils do not give speed bonuses§r, only allowing for the furnace to §eget hot enough to process more advanced materials§r.%n%nConsequently, you'll need to continually expand your smelting and power generation infrastructure.%n%nYou don't have to get all four of these Electric Blast Furnaces completed and running just yet, but be prepared to make many of them over the course of the pack.
 
 # db 542
 omnifactory.quest.db.542.title=Soul Binder
@@ -2232,7 +2232,7 @@ omnifactory.quest.db.546.desc=Note: this quest accepts both LV and MV Distillery
 
 # db 547
 omnifactory.quest.db.547.title=扫描模块：方块
-omnifactory.quest.db.547.desc=寻找特定矿石的最佳方法无异是为你的扫描器加装§6扫描模块：方块§r。手持该模块并§6潜行右击§f一块矿石来绑定，接着手持§a扫描器§f，再次§6潜行右击§f来打开模块界面，将绑定好的模块放入其中即可开始扫描。%n%n与扫描全部矿石时相比，通过该模块扫描特定方块的范围明显更大，并且如果你有§6末影珍珠§f，甚至可以再行合成并加装一个§6扫描模块：范围§f来进一步扩大扫描范围。%n%n你可以把用§d全能币§f买来的矿石作为用以绑定的“样本”，与加装了方块模块的扫描器组合使用，便能轻松找到你想要的一整条矿脉。
+omnifactory.quest.db.547.desc=寻找特定矿石的最佳方法无异是为你的扫描器加装§6扫描模块：方块§r。手持该模块并§6潜行右击§r一块矿石来绑定，接着手持§a扫描器§r，再次§6潜行右击§r来打开模块界面，将绑定好的模块放入其中即可开始扫描。%n%n与扫描全部矿石时相比，通过该模块扫描特定方块的范围明显更大，并且如果你有§6末影珍珠§r，甚至可以再行合成并加装一个§6扫描模块：范围§r来进一步扩大扫描范围。%n%n你可以把用§d全能币§r买来的矿石作为用以绑定的“样本”，与加装了方块模块的扫描器组合使用，便能轻松找到你想要的一整条矿脉。
 
 # db 548
 omnifactory.quest.db.548.title=模具
@@ -2268,7 +2268,7 @@ omnifactory.quest.db.555.desc=§6Rich Phyto-Gro§r can be further enhanced by in
 
 # db 556
 omnifactory.quest.db.556.title=Bounties For Omnicoins!
-omnifactory.quest.db.556.desc=Now that you have a §3Wiremill§f and a §3Compressor§f, you can consider starting to do §eBounties§f. The §6Bounty Board§f has a global inventory containing quests to turn in specific items in exchange for §dOmnicoins§f. These quests have a fairly short duration, so make sure to §estockpile the items§f that come up on them or else they'll §cexpire before you can complete them§f.%n%nWith renewable §dOmnicoins§f, you should feel free to spend the ones you have on whatever you need. §aSpend your coins!
+omnifactory.quest.db.556.desc=Now that you have a §3Wiremill§r and a §3Compressor§r, you can consider starting to do §eBounties§r. The §6Bounty Board§r has a global inventory containing quests to turn in specific items in exchange for §dOmnicoins§r. These quests have a fairly short duration, so make sure to §estockpile the items§r that come up on them or else they'll §cexpire before you can complete them§r.%n%nWith renewable §dOmnicoins§r, you should feel free to spend the ones you have on whatever you need. §aSpend your coins!
 
 # db 557
 omnifactory.quest.db.557.title=Gap
@@ -2276,11 +2276,11 @@ omnifactory.quest.db.557.desc=
 
 # db 558
 omnifactory.quest.db.558.title=燃料催化加速
-omnifactory.quest.db.558.desc=该升级可用于所有种类的§3能源炉§f以提升其燃料利用效率，产出更多能量，但不会改变产出速率。也就是说，尽管§6燃料催化加速§f能使你免于频繁地下矿挖§6煤§f，每秒产出的红石通量（RF）并不会得到增益。%n%n每个燃料催化加速升级可提升§a15%%§f的燃料效率。升级效果是可以叠加的：两个升级可将燃料燃烧时长§a提升30%%§f，三个则可§a提升45%%§f，以此类推。
+omnifactory.quest.db.558.desc=该升级可用于所有种类的§3能源炉§r以提升其燃料利用效率，产出更多能量，但不会改变产出速率。也就是说，尽管§6燃料催化加速§r能使你免于频繁地下矿挖§6煤§r，每秒产出的红石通量（RF）并不会得到增益。%n%n每个燃料催化加速升级可提升§a15%%§r的燃料效率。升级效果是可以叠加的：两个升级可将燃料燃烧时长§a提升30%%§r，三个则可§a提升45%%§r，以此类推。
 
 # db 559
-omnifactory.quest.db.559.title=Auxiliary Transmission Coils
-omnifactory.quest.db.559.desc=The §aAuxiliary Transmission Coil §ris an augment that will work in all types of dynamos. It will consume fuel faster to produce a correspondingly higher RF per tick.%n%nEach augment increases both base power production and fuel consumption by 100%%, additively (so the second is 200%%, third is 300%%, etc.).%n%nConsider the tradeoffs however, as you could just make another dynamo, and you miss out on §aFuel Catalyzer§r augments that make fuels burn longer for more total RF generated. The Auxiliary Transmission Coil will put additional stress your fuel production infrastructure.%n%nIf that's an acceptable tradeoff, then Auxiliary Transmission Coils are a cheap and effective way to boost your power production.
+omnifactory.quest.db.559.title=辅助传动线圈
+omnifactory.quest.db.559.desc=§a辅助传动线圈§r升级适用于所有类型的能源炉，能够提升能源炉的燃料消耗速度并相应提升产能功率。%n%n每个升级将使基础产能与燃料消耗提升100%%，两个升级则为200%%，三个300%%，等等。%n%n然而，有得必有失。你可能又做了一台能源炉，还忘了给它加装§a燃料催化加速§r升级，那么辅助传动线圈升级可能会给生产燃料的基础设施带来额外的负担。%n%n如果你能接受这种得失，相信辅助传动线圈会成为一种廉价而有效的产能增益手段。
 
 # db 560
 omnifactory.quest.db.560.title=Gap
@@ -2724,7 +2724,7 @@ omnifactory.quest.db.669.desc=When you have enough materials, you can craft Uran
 
 # db 670
 omnifactory.quest.db.670.title=“游戏末期”
-omnifactory.quest.db.670.desc=去瞟一眼§e“游戏末期”任务线标签页§f吧。这个建议可能有点草率，但事出有因。%n%n这条任务线中的每个任务都以整个游戏流程中接触到的大部分材料为要求，并且要求的数量是一整组。这些物品是合成§5万象§r所必需的耗材，而§5万象§r则是游戏末期最基础的资源。本整合包正是通过这种方法来让你知道，在逐步通向末期时应当为哪些材料的大量生产做好准备。%n%n当然了，一看到这些任务就想着拼命赶完并不必要，甚至会显得有点呆。有的任务极其简单，譬如§6铁§f和§6铜§f，而有的任务如果在科技发展早期就做，绝对会烦得要人老命。任务奖励都是一样的：§d面值25的全能币§f。孰先孰后，请君熟虑。
+omnifactory.quest.db.670.desc=去瞟一眼§e“游戏末期”任务线标签页§r吧。这个建议可能有点草率，但事出有因。%n%n这条任务线中的每个任务都以整个游戏流程中接触到的大部分材料为要求，并且要求的数量是一整组。这些物品是合成§5万象§r所必需的耗材，而§5万象§r则是游戏末期最基础的资源。本整合包正是通过这种方法来让你知道，在逐步通向末期时应当为哪些材料的大量生产做好准备。%n%n当然了，一看到这些任务就想着拼命赶完并不必要，甚至会显得有点呆。有的任务极其简单，譬如§6铁§r和§6铜§r，而有的任务如果在科技发展早期就做，绝对会烦得要人老命。任务奖励都是一样的：§d面值25的全能币§r。孰先孰后，请君熟虑。
 
 # db 671
 omnifactory.quest.db.671.title=Thorium Fission
@@ -2768,7 +2768,7 @@ omnifactory.quest.db.680.desc=Now that you have all the basic building blocks of
 
 # db 681
 omnifactory.quest.db.681.title=Implosion Compressor
-omnifactory.quest.db.681.desc=The §aImplosion Compressor§f is like an autoclave that uses explosions instead of water. It is the only way to turn most gem dusts into gemstones.%n%nIt will also be vital for processing §5Motes of Omnium§f.%n%nIn addition to the controller and casings, you will need one §eLV or better§r §6Item Input Bus§r, §6Item Output Bus§r, and §6Energy Input Hatch§r.
+omnifactory.quest.db.681.desc=The §aImplosion Compressor§r is like an autoclave that uses explosions instead of water. It is the only way to turn most gem dusts into gemstones.%n%nIt will also be vital for processing §5Motes of Omnium§r.%n%nIn addition to the controller and casings, you will need one §eLV or better§r §6Item Input Bus§r, §6Item Output Bus§r, and §6Energy Input Hatch§r.
 
 # db 682
 omnifactory.quest.db.682.title=生物模拟
@@ -2792,7 +2792,7 @@ omnifactory.quest.db.686.desc=There's no rush to get these all done and leveled 
 
 # db 687
 omnifactory.quest.db.687.title=无限水
-omnifactory.quest.db.687.desc=一桶一桶给§3蒸汽能源炉§f喂水真的很蠢。%n%n一个§6无限水§f即可解放你的双手，就是有点慢而已。
+omnifactory.quest.db.687.desc=一桶一桶给§3蒸汽能源炉§r喂水真的很蠢。%n%n一个§6无限水§r即可解放你的双手，就是有点慢而已。
 
 # db 688
 omnifactory.quest.db.688.title=Hellish Matter
@@ -2812,7 +2812,7 @@ omnifactory.quest.db.691.desc=Some of these simulations will start to consume tr
 
 # db 692
 omnifactory.quest.db.692.title=扳手大杂烩
-omnifactory.quest.db.692.desc=被一大堆扳手搞得晕头转向了吗？%n%n§a新月锤§r专用于§b热力膨胀§f的机器，但几乎所有模组的方块都可以与其进行基础的交互。%n%n§a以太扳手§r用于操作§b末影接口§f的机器和导管，并且拥有若干个特殊显示模式（§6潜行并滚动鼠标滚轮§f来切换模式）。%n%n§a格雷科技的扳手§r用于旋转格雷科技的机器以及重新指定其输出面。%n%n机器的信息提示底部所显示的蓝字即为其所属模组。
+omnifactory.quest.db.692.desc=被一大堆扳手搞得晕头转向了吗？%n%n§a新月锤§r专用于§b热力膨胀§r的机器，但几乎所有模组的方块都可以与其进行基础的交互。%n%n§a以太扳手§r用于操作§b末影接口§r的机器和导管，并且拥有若干个特殊显示模式（§6潜行并滚动鼠标滚轮§r来切换模式）。%n%n§a格雷科技的扳手§r用于旋转格雷科技的机器以及重新指定其输出面。%n%n机器的信息提示底部所显示的蓝字即为其所属模组。
 
 # db 693
 omnifactory.quest.db.693.title=Infinity War
@@ -3052,7 +3052,7 @@ omnifactory.quest.db.751.desc=§3Aqueous Accumulators§r in §5Omnifactory§r ar
 
 # db 752
 omnifactory.quest.db.752.title=锅炉和涡轮
-omnifactory.quest.db.752.desc=初始的§3蒸汽能源炉§f效率相当低下。%n%n强烈建议你为它制造一些§a升级§r。在升级的帮助下，你可以将一台蒸汽能源炉转化为§3蒸汽锅炉§f，再将另外两台转化为§3蒸汽涡轮§f。若所有蒸汽能源炉性能一致，则蒸汽转化比率为§a1：2§r。%n%n这将在很大程度上提升整体效率与产出能量。一台基础的蒸汽能源炉产能功率仅为§a40 RF/t§r，而三台经过专业化升级的能源炉协同运作则可将这一数字提升至§a320 RF/t§r。
+omnifactory.quest.db.752.desc=初始的§3蒸汽能源炉§r效率相当低下。%n%n强烈建议你为它制造一些§a升级§r。在升级的帮助下，你可以将一台蒸汽能源炉转化为§3蒸汽锅炉§r，再将另外两台转化为§3蒸汽涡轮§r。若所有蒸汽能源炉性能一致，则蒸汽转化比率为§a1：2§r。%n%n这将在很大程度上提升整体效率与产出能量。一台基础的蒸汽能源炉产能功率仅为§a40 RF/t§r，而三台经过专业化升级的能源炉协同运作则可将这一数字提升至§a320 RF/t§r。
 
 # db 753
 omnifactory.quest.db.753.title=Resonant Satchel
@@ -3063,8 +3063,8 @@ omnifactory.quest.db.754.title=Telepad
 omnifactory.quest.db.754.desc=Before you travel to the Moon, you'll want to set up a way to easily return.%n%nLay out nine of the §6Telepad Blocks§r in a 3x3 pattern. They should turn into a multiblock. While having some §6Paper§r in your inventory, use the §aCoordinate Selector§r to create a §6Location Printout§r of an area near the Telepad. Keep track of this Printout and make sure to bring it with you to the Moon!%n%nMake sure the Telepad on the Overworld is ready to go. It needs power, a tank of §9Dew of the Void§r, and the chunk it's in needs to be §eChunkloaded§r. Bring the other nine Telepad Blocks with you when you go to the Moon, and once there, set up a similar layout. The one on the Moon will also need power, Dew of the Void and its chunk loaded. Consider making a solar panel and a capacitor bank to keep it powered.%n%nOnce your Moon Telepad is up and running, put your Overworld coordinates into it. Then record your current location on the Moon with the Coordinate Selector. Teleport home, and put those coordinates into the Overworld Telepad. Now you can travel back and forth easily!%n%nYou might consider building a room dedicated to Telepad transit, both on the Overworld and to other Planets, and label them. You'll be visiting many other worlds soon enough.
 
 # db 755
-omnifactory.quest.db.755.title=Inspector Gadget
-omnifactory.quest.db.755.desc=This pack has §bBuilding Gadgets§r.%n%nThese devices can help you build, swap blocks, destroy massive areas, or even copy-paste regions. You need the blocks you plan to paste in your inventory though; it doesn't make them from nothing.%n%nAlso important to note that it won't work with TileEntities, so it pretty much only works with simple blocks (not stuff like machines).%n%nBy default, the config GUI is bound to §6G§r.
+omnifactory.quest.db.755.title=监工小帮手
+omnifactory.quest.db.755.desc=本整合包内含§b建筑小帮手§r模组。%n%n这些设备能帮助你对一大片区域进行建造、更替、破坏甚至复制粘贴操作——当然了，你得在物品栏里存好粘贴耗材，这些东西不是白来的。%n%n重要的一点是，这些操作是无法对方块实体（TileEntity）起效的，所以它基本上只对简单的方块有效，而不能用于机器之流。%n%n默认情况下，按住§6G§r键即可打开配置界面。
 
 # db 756
 omnifactory.quest.db.756.title=I Don't Like Chemistry
@@ -3088,7 +3088,7 @@ omnifactory.quest.db.760.desc=Now that you've dealt with the dragon, seek the be
 
 # db 761
 omnifactory.quest.db.761.title=Thinking with Dislocators
-omnifactory.quest.db.761.desc=§6Dislocator Pedestals§f are a very simple way of inter-dimensional transport.%n%nHold a §6Dislocator§f in your hand and §6sneak-right click§f to bind it to your position. Now, place it inside a Pedestal so you can travel to the bound spot anytime you want.%n%nBefore going to the Moon, you'll need §etwo Dislocators§f and §etwo Pedestals§f.%n%nBind one Dislocator to a location in the Overworld, then take it with you to the Moon and put it down on a Pedestal.%n%nBind the other Dislocator to a location on the Moon, then use the first Pedestal to return home. Place the second Dislocator on the second Pedestal, then you can warp between the two locations at will. Neat!%n%n§aTip: Dislocators don't lose durability on use when placed in a Pedestal!
+omnifactory.quest.db.761.desc=§6Dislocator Pedestals§r are a very simple way of inter-dimensional transport.%n%nHold a §6Dislocator§r in your hand and §6sneak-right click§r to bind it to your position. Now, place it inside a Pedestal so you can travel to the bound spot anytime you want.%n%nBefore going to the Moon, you'll need §etwo Dislocators§r and §etwo Pedestals§r.%n%nBind one Dislocator to a location in the Overworld, then take it with you to the Moon and put it down on a Pedestal.%n%nBind the other Dislocator to a location on the Moon, then use the first Pedestal to return home. Place the second Dislocator on the second Pedestal, then you can warp between the two locations at will. Neat!%n%n§aTip: Dislocators don't lose durability on use when placed in a Pedestal!
 
 # db 762
 omnifactory.quest.db.762.title=Interdimensional Transport
@@ -3139,12 +3139,12 @@ omnifactory.quest.db.773.title=Diesel or Bio-Diesel
 omnifactory.quest.db.773.desc=How did you end up here?
 
 # db 774
-omnifactory.quest.db.774.title=LV Lathe
-omnifactory.quest.db.774.desc=The §3Lathe§r is an important machine that makes rods less expensive to craft.
+omnifactory.quest.db.774.title=低压车床
+omnifactory.quest.db.774.desc=§3车床§r是一种能够节省杆的制造耗材的重要机器。
 
 # db 775
-omnifactory.quest.db.775.title=Multiblock Machine Previews
-omnifactory.quest.db.775.desc=§bMultiblock Tweaker§r adds an §einteractive in-world preview§r for all §bGregTech§r multiblocks! §6Shift-right-click§r a placed controller to activate a hologram depicting the default layout of the structure to help you with building. As you place blocks, the structure will be validated and the §efirst incorrect block§r it detects will be highlighted in red.%n%n§6Sneak-right-click§r to cycle from the full view through each layer. When on the final layer of the preview, this will remove the preview.%n%n§6Sneak-left-click§r to go back to the previous layer, or close the preview from the full view.%n%nIn the §eJEI previews§r for multiblocks, §6left-click§r and drag the mouse to rotate the preview horizontally. §6Shift-left-click§r to rotate it vertically.%n%nAdditionally, you can §6right-click§r and drag the mouse to pan the preview or §6shift-right-click§r and drag to zoom in or out.%n%nSome blocks in the multiblock preview have additional tooltips to provide more information on how the multiblock can form.
+omnifactory.quest.db.775.title=多方块机器预览
+omnifactory.quest.db.775.desc=§bMultiblock　Tweaker§r模组为所有§b格雷科技§r的多方块结构添加了§e交互式世界内预览§r！§6潜行右击§r放置于世界中的控制器即可激活一个描绘结构布局的全息视图来辅助搭建。机器结构会在搭建的同时进行校验并用红色标记出所检测到的§e第一个不正确的方块§r。%n%n§6潜行右击§r可在整体预览视图和每个单层预览视图之间轮换。预览将会在最后一层搭建完毕后自动关闭。%n%n进行单层预览时§6潜行左击§r可返回上一层预览视图，整体预览时则可关闭预览。%n%n在多方块结构的§eJEI预览§r中，§6按住左键§r并左右拖拽可水平旋转预览视图，同时§6按住Shift§r则为垂直旋转。%n%n另外，§6按住右键§r并拖拽可使整体移动预览视图整体移动，同时§6按住Shift§r则可缩放视图。%n%n多方块结构预览中的部分方块会有额外的信息提示，提供了关于多方块结构搭建的详细信息。
 
 # db 776
 omnifactory.quest.db.776.title=Awakened Core
