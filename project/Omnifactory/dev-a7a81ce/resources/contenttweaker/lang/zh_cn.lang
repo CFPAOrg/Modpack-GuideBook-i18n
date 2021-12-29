@@ -192,8 +192,8 @@ item.contenttweaker.stabilizedcurium.name=稳态锔
 item.contenttweaker.stabilizedcalifornium.name=稳态锎
 item.contenttweaker.stabilizedthorium.name=稳态钍
 
-item.contenttweaker.compressedoctadiccapacitor.name=Compressed Octadic Capacitor
-item.contenttweaker.doublecompressedoctadiccapacitor.name=Double Compressed Octadic Capacitor
+item.contenttweaker.compressedoctadiccapacitor.name=压缩八阶电容
+item.contenttweaker.doublecompressedoctadiccapacitor.name=再压缩八阶电容
 item.contenttweaker.ultimate_circuit.name=Ultimate Circuit
 item.contenttweaker.ultimate_power_storage.name=Ultimate Power Storage
 item.contenttweaker.ultimate_generator.name=Ultimate Generator
@@ -209,10 +209,10 @@ item.contenttweaker.lairoftheclockworkkingdata.name=Lair Of The Clockwork King D
 item.contenttweaker.lairofthechaosguardiandata.name=Lair Of The Chaos Guardian Data
 item.contenttweaker.universecreationdata.name=Universe Creation Data
 item.contenttweaker.stellarcreationdata.name=Stellar Creation Data
-item.contenttweaker.densehydrogen.name=Dense Hydrogen
-item.contenttweaker.ultradensehydrogen.name=Ultra Dense Hydrogen
+item.contenttweaker.densehydrogen.name=致密氢
+item.contenttweaker.ultradensehydrogen.name=超致密氢
 
-tile.contenttweaker.microverse_casing.name=Microverse Projector Casing
+tile.contenttweaker.microverse_casing.name=微宇宙投影机外壳
 tile.contenttweaker.microverse_vent.name=Microverse Projector Vent
 
 item.contenttweaker.eightsmore.name=EightS'more OctoS'mingot

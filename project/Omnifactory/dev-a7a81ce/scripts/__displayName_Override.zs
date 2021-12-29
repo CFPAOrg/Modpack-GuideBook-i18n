@@ -3,6 +3,9 @@
 #priority -943943
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.mods.IMod;
+
+val ofsf = "omnifactory.";
 
 val DNMap as string[IItemStack] = {
     <actuallyadditions:block_misc:9> : "aluminium_casing",
@@ -67,9 +70,37 @@ val DNMap as string[IItemStack] = {
     <thermalexpansion:frame> : "thermal_machine_casing",
     <thermalexpansion:frame:64> : "thermal_device_casing",
     <deepmoblearning:machine_casing> : "hull_dark_steel",
-    <deepmoblearning:polymer_clay> : "pulsating_polymer_clay"
+    <deepmoblearning:polymer_clay> : "pulsating_polymer_clay",
+    <extendedcrafting:material:19> : "conflux_component",
+    <extendedcrafting:material:13> : "conflux_catalyst",
+    <extendedcrafting:table_advanced> : "ect",
+    <extendedcrafting:table_elite> : "ect_elite",
+    <extendedcrafting:table_ultimate> : "ect_ultimate",
+    <extendedcrafting:singularity_ultimate> : "omnium_mote",
+    <extendedcrafting:material:33> : "omnium_nugget",
+    <extendedcrafting:material:32> : "omnium_ingot",
+    <extendedcrafting:storage:4> : "omnium_block",
+    <cns:star_fragment> : "nether_star_north",
+    <extendedcrafting:storage:6> : "endest_block",
+    <extendedcrafting:material:40> : "endest_star",
+    <extendedcrafting:material:41> : "endest_nugget",
+    <simplyjetpacks:metaitemmods:12> : "wrought_iron_plating",
+    <gregtech:turbine_casing:3> : "magnalium_turbine_casing"
 };
 
 for item in DNMap{
-    item.displayName = game.localize("omnifactory."~DNMap[item]);
+    item.displayName = game.localize(ofsf~DNMap[item]);
+}
+
+
+
+for item in loadedMods["appliedenergistics2"].items {
+    if(item.displayName has game.localize(ofsf~"misc.ae2facade")) {
+        if(item.displayName has game.localize(ofsf~"omnium_block")) {
+            item.addTooltip(format.darkAqua(game.localize(ofsf~"misc.ae2facade.tooltip")));
+        }
+        else {
+            mods.jei.JEI.hide(item); 
+        }
+    }
 }

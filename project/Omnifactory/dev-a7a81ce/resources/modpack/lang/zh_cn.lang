@@ -39,6 +39,7 @@ omnifactory.foh_luv=流体输出仓（LuV）
 omnifactory.foh_zpm=流体输出仓（ZPM）
 omnifactory.foh_uv=流体输出仓（UV）
 omnifactory.foh_max=流体输出仓（MAX）
+omnifactory.magnalium_turbine_casing=镁铝合金涡轮外壳
 
 //EnderIO
 omnifactory.ds_helmet=玄钢头盔
@@ -75,6 +76,20 @@ omnifactory.mana_infused_dust=蕴魔金属粉
 omnifactory.thermal_machine_casing=热力机器外壳
 omnifactory.thermal_device_casing=热力设备外壳
 
+//Extended Crafting
+omnifactory.conflux_component=汇流合成组件
+omnifactory.conflux_catalyst=汇流合成催化剂
+omnifactory.ect=拓展工作台
+omnifactory.ect_elite=精英拓展工作台
+omnifactory.ect_ultimate=终极拓展工作台
+omnifactory.omnium_mote=万象微尘
+omnifactory.omnium_nugget=万象粒
+omnifactory.omnium_ingot=万象锭
+omnifactory.omnium_block=万象块
+omnifactory.endest_block=终末星块
+omnifactory.endest_star=终末之星
+omnifactory.endest_nugget=终末星粒
+
 //ArmorPlus
 omnifactory.cp_helmet=碳装甲头盔
 omnifactory.cp_chestplate=碳装甲胸甲
@@ -94,3 +109,13 @@ omnifactory.aluminium_casing=铝制外壳
 
 //Ranged Pumps
 omnifactory.ender_pump=末影泵
+
+//Crafting Nether Star
+omnifactory.nether_star_north=下界之星北芒
+
+//Simply Jetpacks
+omnifactory.wrought_iron_plating=锻铁护甲板
+
+//Omnifactory misc
+omnifactory.misc.ae2facade=线缆伪装板
+omnifactory.misc.ae2facade.tooltip=大多数方块均可用以制造线缆伪装板，但为避免杂乱已从JEI中隐藏
