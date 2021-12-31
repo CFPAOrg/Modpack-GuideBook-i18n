@@ -2776,7 +2776,7 @@ omnifactory.quest.db.682.desc=来自§b深度怪物学习§r（§bDeep Mob Learn
 
 # db 683
 omnifactory.quest.db.683.title=主世界物质
-omnifactory.quest.db.683.desc=Provide your §3Simulation Chamber§r with RF power and §6Pulsating Polymer Clay§r. Then insert a §6Data Model§r of your choice. The Simulation Chamber will consume Polymer Clay and a decent amount of power to begin simulating mob kills. This will generate §6Overworldian Matter§r and may occasionally provide you with §6Pristine Matter§r.%n%n§6Overworldian Matter§r can be eaten to gain experience, or can be combined with other materials to obtain drops from Overworld mobs. With these drops, you can then create Data Models for other mob types as well.
+omnifactory.quest.db.683.desc=向你的§3模拟室§r输送RF能量和§6脉动聚合粘土§r并随意放入一块§6数据模型§r后，模拟室就会开始消耗足量的能量与聚合粘土来模拟击杀生物。这一处理过程的产物为§6主世界物质§r，偶尔也会产出§6原始物质§r。%n%n手持§6主世界物质§r并右击可获得经验值，一些主世界生物的掉落物也可使用它来合成。同时，你也可以用这些掉落物来制作对应其它生物类型的数据模型。
 
 # db 684
 omnifactory.quest.db.684.title=脉动网格
@@ -2787,28 +2787,28 @@ omnifactory.quest.db.685.title=战利品制造器
 omnifactory.quest.db.685.desc=在对生物击杀进行模拟的过程中偶尔可以得到与怪物类型相对应的§6原始物质§r。%n%n§3战利品制造器§r可以将原始物质处理成一件与该生物相关的物品。%n%n战利品制造器与§3模拟室§r一样是§a分侧面运作§r的, 必须从§a顶部§r进行输入，§a其它侧面§r则可用于输出。
 
 # db 686
-omnifactory.quest.db.686.title=Overworldian Mobs
-omnifactory.quest.db.686.desc=There's no rush to get these all done and leveled up, but they do provide a good source of some of the basic resources in exchange for RF.%n%nLook at what the §6Pristine Matter§r for each mob provides, and set up simulators for all the ones you're interested in. If your power can handle it, it can even be advantageous to run several of the same model.
+omnifactory.quest.db.686.title=主世界系生物
+omnifactory.quest.db.686.desc=你并不需要急着搞到右边所有的数据模型再一股脑升到满级，但它们确实仅靠RF能量就能为你提供大量的基础资源。%n%n可以看看每种生物对应的§6原始物质§r，挑出你感兴趣的几种来建立模拟。如果你的能源储量吃得消，你甚至可以用好几台模拟室来跑单独一种数据模型。
 
 # db 687
 omnifactory.quest.db.687.title=无限水
 omnifactory.quest.db.687.desc=一桶一桶给§3蒸汽能源炉§r喂水真的很蠢。%n%n一个§6无限水§r即可解放你的双手，就是有点慢而已。
 
 # db 688
-omnifactory.quest.db.688.title=Hellish Matter
-omnifactory.quest.db.688.desc=§6Overworldian Matter§r and §6Netherrack§r can be crafted into §6Hellish Matter§r.%n%nNetherrack can be obtained by combining a §6Dust Block§r and §cLava§r in a §3Chemical Reactor§r.
+omnifactory.quest.db.688.title=地狱物质
+omnifactory.quest.db.688.desc=§6主世界物质§r与§6地狱岩§r相结合可制成§6地狱物质§r。%n%n你可以在§3化学反应釜§r中将§6沙尘块§r和§c熔岩§r处理成地狱岩。
 
 # db 689
-omnifactory.quest.db.689.title=Hellish Mobs
-omnifactory.quest.db.689.desc=Just as with Overworldian mob data, there's no huge rush or need to focus on these. Just run them while you work on other projects.
+omnifactory.quest.db.689.title=地狱系生物
+omnifactory.quest.db.689.desc=跟主世界系的数据模型一个道理，你没必要死盯着这些东西。干其它活儿的时候顺带着跑一跑就可以了。
 
 # db 690
-omnifactory.quest.db.690.title=Extraterrestrial Matter
-omnifactory.quest.db.690.desc=§6Hellish Matter§r and §6Ender Pearl§r can be crafted into Extraterrestrial Matter.
+omnifactory.quest.db.690.title=地外物质
+omnifactory.quest.db.690.desc=由§6地狱物质§r和§6末影珍珠§r结合而成。
 
 # db 691
-omnifactory.quest.db.691.title=Extraterrestrial Mobs
-omnifactory.quest.db.691.desc=Some of these simulations will start to consume tremendous amounts of power at this point, so if you're finding it a struggle, don't be afraid to hold off on progressing through these data models until a later time.
+omnifactory.quest.db.691.title=地外系生物
+omnifactory.quest.db.691.desc=在眼下，个别地外系生物模型跑起来吃的电能吓死个人，所以要是你觉得太费劲，可以先放一放，等以后再跑。
 
 # db 692
 omnifactory.quest.db.692.title=扳手大杂烩
@@ -3016,7 +3016,7 @@ omnifactory.quest.db.742.desc=
 
 # db 743
 omnifactory.quest.db.743.title=用JEI！用JEI！用JEI！
-omnifactory.quest.db.743.desc=§e用JEI！！！§r%n%n§bJEI§r，全称§bJust Enough Items§r。打开物品栏即可看到屏幕左侧由JEI列出的物品列表。这是一种比原版的配方书更好™的，用以显示整合包中所有可用物品及配方的趁手工具。%n%n打开一个有物品需求的任务并点击该物品即可借助JEI直接查看其合成配方！%n%n亦可将鼠标指针悬于物品之上并点击§6R§r键来查看合成配方，点击§6U§r键则可查看其所参与的所有配方，而点击§6A§r键则会将其列入物品栏界面左侧的书签栏中。%n%n帮助配方摆放是JEI的显著功用之一。右击工作台，查询你需要的合成配方并点击§a[+]§r按钮：若你拥有该配方所需的全部材料，此时JEI将帮助你把这些材料放入工作台。
+omnifactory.quest.db.743.desc=§e用JEI！！！§r%n%n§bJEI§r，全称§bJust　Enough　Items§r。打开物品栏即可看到屏幕左侧由JEI列出的物品列表。这是一种比原版的配方书更好™的，用以显示整合包中所有可用物品及配方的趁手工具。%n%n打开一个有物品需求的任务并点击该物品即可借助JEI直接查看其合成配方！%n%n亦可将鼠标指针悬于物品之上并点击§6R§r键来查看合成配方，点击§6U§r键则可查看其所参与的所有配方，而点击§6A§r键则会将其列入物品栏界面左侧的书签栏中。%n%n帮助配方摆放是JEI的显著功用之一。右击工作台，查询你需要的合成配方并点击§a[+]§r按钮：若你拥有该配方所需的全部材料，此时JEI将帮助你把这些材料放入工作台。
 
 # db 744
 omnifactory.quest.db.744.title=Multi-Layer Fiber-Reinforced Epoxy Substrate
@@ -3163,8 +3163,8 @@ omnifactory.quest.db.779.title=无限圆石
 omnifactory.quest.db.779.desc=§6钢§r炼成了，无限圆石还会远吗？§6造石机§r能源源不断将圆石输出至相邻的物品存储空间中，并拥有两种出产速度更快的升级型号。%n%n圆石能被处理成许多有用的材料：%n%n能用来制造导管和§9混凝土§r的§6沙砾§r；%n%n§6玻璃§r的原材料——§6沙子§r，而玻璃经电解处理更可变为§6下界石英§r；%n%n最后，沙子经研磨而制成的§6沙尘块§r可处理为§6粘土块§r，粘土既是§6铝§r的可靠来源，又是§b深度怪物学习§r自动化的重要耗材。%n%n马上开始§e生产圆石§r吧，圆石一有，上面提到的所有材料都不用愁了。%n
 
 # db 780
-omnifactory.quest.db.780.title=To the Nether
-omnifactory.quest.db.780.desc=Once you have obtained your§e §rfi§rrst §rpiece of §6Hellish Matter§6§r, travel to the §r§eNether§r becomes available.%n%nIt is not required to travel to the nether for any reason in this pack, although you may find it an easy source of §6Glowstone§r, §6Soul Sand§r, and your initial pieces of §6Sulfur§r before you make a §eBlaze Model§r from §c§bDeep Mob Learning§r.
+omnifactory.quest.db.780.title=向下界出发
+omnifactory.quest.db.780.desc=你的第§e一§r块§6地狱物质§r正昭示着§e下界§r帷幕的升起。%n%n本整合包完全不会强制要求玩家前往下界，但这一维度却能大大降低§6荧石§r、§6灵魂沙§r的获取难度，并且能够在得到§b深度怪物学习§r的§e烈焰人数据模型§r之前轻松开采到丰富的§6硫§r资源。
 
 # db 781
 omnifactory.quest.db.781.title=通货能量
