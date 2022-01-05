@@ -47,8 +47,8 @@ omnifactory.quest.db.0.title=石英充能
 omnifactory.quest.db.0.desc=充能器的主要目的是将§6赛特斯石英水晶§r转化为§6充能赛特斯石英水晶§r。%n%n这种设备同时接受可经由能量导管进行供给的RF能量，或是通过ME导管或线缆传输的AE能量。%n%n可接收能量的侧面有两面。哪两面呢？这也太好猜了吧。%n%n%n%n%n%n%n%n%n行行行，不卖关子了。是顶面和底面。%n%n
 
 # db 1
-omnifactory.quest.db.1.title=Crystal Growth Chamber
-omnifactory.quest.db.1.desc=The §3Crystal Growth Chamber§r allows you to perform §bApplied Energistics§r's world crafting recipes inside of a machine. Hooray, you never have to drop more things in water again!%n%nIt is used for growing §6Crystal Seeds§r into §6Pure Crystals§r, and also for creating §6Fluix Crystals§r.%n%nJEI doesn't show the Chamber's recipes directly, so we'll explain it here:%n%nSeeds are made by pulverizing any of the three crystal types and mixing the dust with sand. A seed grows into the corresponding Pure Crystal, which is substitutable for the original crystal in most recipes. Using Pure Crystals lets you effectively double your material efficiency, which is nice. And no, you can't grind down Pure Crystals to further multiply your resources. Sorry.%n%nFluix Crystals you've already had to make in a pool of water by now, and it's the same ingredients here: insert one each of a §6Redstone Dust§r, §6Charged Certus Quartz Crystal§r, and a §6Nether Quartz§r to produce two Fluix Crystals.
+omnifactory.quest.db.1.title=晶体催生仓
+omnifactory.quest.db.1.desc=§3晶体催生仓§r使你能够在机器环境中处理原本需要在世界内进行合成的§b应用能源§r的配方。你再也不用把一堆东西扔进水里了，太棒啦！%n%n这台机器可以将§6晶体种子§r催生为§6高纯晶体§r，也能用来制造§6福鲁伊克斯水晶§r。%n%nJEI并不会直接显示晶体催生仓的配方，所以我们会在这里对此进行说明：%n%n晶体种子由任意一种晶体粉末（包括下界石英粉、赛特斯石英粉和福鲁伊克斯粉）与沙子混合而成，可生长成相应的高纯晶体，用以代替普通的晶体参与大部分配方的合成。很好的一点是，高纯晶体能够使材料的利用效率翻倍，但很抱歉，高纯晶体无法再被研磨成粉，也就无法被进一步翻倍。%n%n曾需要在水中制造的福鲁伊克斯水晶在晶体催生仓中所需的合成材料不变：每两块水晶需要§6红石§r、§6充能赛特斯石英水晶§r和§6下界石英§r各一份。
 
 # db 2
 omnifactory.quest.db.2.title=Canning Machine and Assorted Stuff
@@ -247,8 +247,8 @@ omnifactory.quest.db.50.title=加压流体导管
 omnifactory.quest.db.50.desc=相比格雷科技的流体管道，§b末影接口§r的流体导管是更受欢迎的流体传输方式，极其灵活，异常强大。有了它，流体合成将不再难以忍受。
 
 # db 51
-omnifactory.quest.db.51.title=Inscriber
-omnifactory.quest.db.51.desc=§3Inscribers§r are machines used to make §6inscribed circuits§r for §bApplied Energistics§r.
+omnifactory.quest.db.51.title=压印器
+omnifactory.quest.db.51.desc=§3压印器§r是一台用以制造§b应用能源§r中§6压印电路§r的机器。
 
 # db 52
 omnifactory.quest.db.52.title=LV Cluster Mill
@@ -291,16 +291,16 @@ omnifactory.quest.db.61.title=Gemstone Sensor
 omnifactory.quest.db.61.desc=Some Micro Miner missions use a §6Gemstone Sensor§r to scout out gems instead of ores.%n%nSeveral materials like §6Exquisite Gems§r can only be obtained from such missions.
 
 # db 62
-omnifactory.quest.db.62.title=Terminal
-omnifactory.quest.db.62.desc=Access all of your items on a single screen. Soon, anyway.%n%nPlease note that all four variants of §6ME Terminals§r are §emicroparts§r, which means they need to be attached to an §6ME Cable§r (not conduit) to function.
+omnifactory.quest.db.62.title=终端
+omnifactory.quest.db.62.desc=过不了多久，你就可以在一块小小的屏幕上访问所有物品了。%n%n请注意，§6ME终端§r及其所有变种均为§e微型构件§r，这意味着你需要为其接上§6ME线缆§r（不是导管）方可正常工作。
 
 # db 63
 omnifactory.quest.db.63.title=ME Chest
 omnifactory.quest.db.63.desc=The §aME Chest§r is somewhat impractical to use on its own, but it's a necessary ingredient for the much more useful §6ME Drive§r.%n%nThis is a rudimentary digital item storage device. By placing a §6Storage Cell§r inside it, you can access the contents as though you were looking through a chest. You can carry the disk to another location and place it down in a different ME Chest if you want, and the items will come with it.%n%n§cDon't put Storage Cells inside other portable mod inventories like a Satchel, (or vice-versa) as you risk corrupting the contents of the Satchel and the Storage Cell.§r There's technical reasons why this happens (NBT overflow), and it's not unique to these items, but that's not really worth going into.%n%n
 
 # db 64
-omnifactory.quest.db.64.title=Digital Storage At Last
-omnifactory.quest.db.64.desc=§bApplied Energistics§r uses §6Storage Cells§r as its primary means of digital item and fluid storage.%n%nAll unformatted Storage Cells are limited to at most 63 distinct item types, with the first item of each new type taking up a chunk of the total bytes of cell storage, and subsequent items of existing types taking a small number of bytes thereafter.%n%nA §61k ME Storage Cell§r is the first and smallest cell for storing items. If you are going to be storing many different kinds of items in your network, you will need to make an §6ME Drive§r and fill it with multiple Storage Cells.%n%nThe §64k ME Storage Cell§r is the next size up. With four times the bytes it holds substantially more items per type, but it requires a more advanced technology than you currently have available: AE §6Processors§r made in an §3Inscriber§r.
+omnifactory.quest.db.64.title=终极数字存储
+omnifactory.quest.db.64.desc=§b应用能源§r用以存储数字化物品与流体的主要方式为§6存储元件§r。%n%n所有未格式化的存储元件仅可存储63个类型的物品，每个新类型的第一件物品均会占用存储元件总字节数的一大部分，而后续的同类物品所占用的字节数则较少。%n%n§61k-ME存储元件§r将会是第一个，也是最小的一个用以存储物品的存储元件。如果你计划在网络中存储大量不同类型的物品，你将会需要一台§6ME驱动器§r来搭载多个存储元件。%n%n§64k-ME存储元件§r在存储容量上更进一步，总字节数为前者的四倍，大幅提升每个类型的物品存储数量，但制造这种升级型号需要一种你尚不能企及的科技产品：由§3压印器§r所制造的应用能源§6处理器§r。
 
 # db 65
 omnifactory.quest.db.65.title=Tier Three Micro Miner
@@ -331,8 +331,8 @@ omnifactory.quest.db.71.title=MV Electrolyzer
 omnifactory.quest.db.71.desc=An §3MV Electrolyzer§r allows you to process recipes that require up to 128 EU/t, and can optionally overclock recipes costing at most 32 EU/t.%n%nThis means you can split more kinds of things for useful products.%n
 
 # db 72
-omnifactory.quest.db.72.title=LV Assembling Machine
-omnifactory.quest.db.72.desc=§3Assembling Machines§r are the linchpin of your factory, gating progression through the §6Circuits§r. %n%nEach time you upgrade to a new voltage of Assembling Machine, you will be able to craft more advanced §ethemes§r of circuits. These use more complex ingredients and require new infrastructure to be in place, but are more efficient to craft overall than the same tier of circuit from the prior theme.%n%nCheck out the §dProgression quest book tab§r to see the flow of circuit progression.%n%nAssembling Machines also open up a plethora of §eequal or more efficient recipes that don't require hand tools§r. Hand tool recipes also don't play nice with §bApplied Energistics§r.%n%nTake advantage of Assembling Machines: §cphase out all use of hand tools for crafting items in your automation going forward.§r Once you have all the important machines, you will never need hand tools for crafting.
+omnifactory.quest.db.72.title=低压组装机
+omnifactory.quest.db.72.desc=§3组装机§r是一座工厂的主心骨，§6电路§r的发展进程尽汇于此。%n%n组装机的电压等级每升一级，你便能够合成§e一系列§r更高级的电路，材料的复杂程度以及对基础建设的要求也将随之翻新，但总体而言，制作的效率要高于上一系列的同等级电路。%n%n可以浏览§d“发展进程”任务线标签页§r来了解电路发展的流程。%n%n同时，组装机也将提供大量§e具有相等或更高效率而无需手持工具参与的配方§r。众所周知，有手持工具参与的配方并不能很好地被§b应用能源§r所处理。%n%n请善用组装机：§c在自动化发展过程中逐步汰换所有需要手持工具参与的物品合成配方。§r 一旦拥有所有的重要机器，手持工具将被彻底淘汰。
 
 # db 73
 omnifactory.quest.db.73.title=ME Conduit
@@ -443,28 +443,28 @@ omnifactory.quest.db.99.title=Synthesizing Your First Omnium
 omnifactory.quest.db.99.desc=With the §6Stabilized Einsteinium§r you harvested from a microverse, you should now have access to everything you need to synthesize your first §dMote of Omnium§r.%n%nYou're gonna need to make a lot of these as you push into the End Game, so make sure your §eautomation is supplying you with a stock of all of the ingredients§r. That's what those quests in the End Game tab have been about all along!
 
 # db 100
-omnifactory.quest.db.100.title=Engineering Processor
-omnifactory.quest.db.100.desc=§6Engineering Processors§r are made from a §6Diamond Plate§r, a §6Silicon Plate§r, and any tier one circuit.%n%nRun the plates through the respective §3Inscribers§r with §aPresses§r to make the printed plates, then combine the plates and circuit to form the Engineering Processor.
+omnifactory.quest.db.100.title=工程处理器
+omnifactory.quest.db.100.desc=§6工程处理器§r的制造需要§6钻石板§r、§6硅板§r和一块一级电路。%n%n在§3压印器§r中使用§a工程压印模板§r处理钻石板，将得到的工程电路板与硅板和一级电路相组合即可制得工程处理器。
 
 # db 101
 omnifactory.quest.db.101.title=Digital Storage For Days
 omnifactory.quest.db.101.desc=*Slaps §6ME Drive§r* this bad boy can fit so many §6Storage Cells§r in it!%n%nWith ten slots for Storage Cells, you can store a huge number of items inside this single block, and search through them all with a §6Terminal§r. You just gotta make all those Storage Cells.%n%nIf you somehow run out of room, you can make another ME Drive for even more slots! So many cells, so many items!
 
 # db 102
-omnifactory.quest.db.102.title=Logic Processor
-omnifactory.quest.db.102.desc=§6Logic Processors§r are made from a §6Gold Plate§r, a §6Silicon Plate§r, and any tier one circuit.%n%nRun the plates through the respective §3Inscribers§r with §aPresses§r to make the printed plates, then combine the plates and circuit to form the Logic Processor.
+omnifactory.quest.db.102.title=逻辑处理器
+omnifactory.quest.db.102.desc=§6逻辑处理器§r由§6金板§r、§6硅板§r与任意一种一级电路制成。%n%n在§3压印器§r中使用§a逻辑压印模板§r处理金板，将得到的逻辑电路板与硅板和一级电路相组合即可制得逻辑处理器。
 
 # db 103
-omnifactory.quest.db.103.title=Inscription Plates
-omnifactory.quest.db.103.desc=§aPresses§r are needed for §3Inscribers§r.%n%nIf you like exploring you can find them in meteors with a §aMeteor Compass§r.%n%nIf you don't want to do that, or are having trouble finding one you need, feel free to etch them yourself with a §3Precision Laser Engraver§r.
+omnifactory.quest.db.103.title=压印板
+omnifactory.quest.db.103.desc=§a压印模板§r是§3压印机§r的必需物品。%n%n如果你喜欢跑图，§a陨石罗盘§r可以帮助你找到陨石，陨石内部的陨石箱子中会随机生成压印模板。%n%n要是不想去找，或总是找不到你想要的类型，可以使用§3精密激光蚀刻机§r来制造各种压印模板。
 
 # db 104
 omnifactory.quest.db.104.title=Autocrafting Patterns
 omnifactory.quest.db.104.desc=§aPatterns§r are used to encode a single crafting table or processing recipe for on-demand automation with §bApplied Energistics§r.%n%nEncode them in a §aPattern Terminal§r.%n%nNote that recipes encoded with Substitutions on will use existing equivalent items, but §ewill only automatically craft the exact item specified in the recipe.§r%n%nIt is also a §cvery bad idea§r to encode recipes that require GregTech hand tools (even worse with Substitutions on). They are not handled gracefully, causing your crafting computations to explode in complexity and memory requirement.%n%nUse recipes that use machines instead!%n%n
 
 # db 105
-omnifactory.quest.db.105.title=Calculation Processor
-omnifactory.quest.db.105.desc=§6Calculation Processors§r are made from a §6Certus Plate§r, a §6Silicon Plate§r, and any §6tier one circuit§r.%n%nRun the plates through the respective §3Inscribers§r with §aPresses§r to make the printed plates, then combine the plates and circuit to form the Calculation Processor.
+omnifactory.quest.db.105.title=运算处理器
+omnifactory.quest.db.105.desc=§6运算处理器§r的制造材料包括§6赛特斯石英板§r、一块§6硅板§r以及任意的§6一级电路§r。%n%n在§3压印器§r中使用§a运算压印模板§r处理赛特斯石英板，将得到的运算电路板与硅板和一级电路相组合即可制得运算处理器。
 
 # db 106
 omnifactory.quest.db.106.title=Pattern Terminal
@@ -483,8 +483,8 @@ omnifactory.quest.db.109.title=ME Interfaces
 omnifactory.quest.db.109.desc=§aME Interfaces§r are extremely important for automation. You'll be making a lot of these, if you're playing the pack right.%n%nThese can be filled with encoded §aPatterns§r to perform on-demand autocrafting, and can be configured to stock up to 9 stacks of items for passive autocrafting, Any item pushed into an ME Interface is digitized and placed in your ME Network storage.%n%nWhen adjacent to one or more §aMolecular Assemblers§r, crafting table patterns can be crafted. It will use as many adjacent Molecular Assemblers as possible, restricted by availability and number of §aCo-processors§r in your crafting CPU multiblock.%n%nWhen adjacent to any other block, you can use processing patterns with a machine to insert items into the machine. Processing patterns require that the finished item is inserted back into the ME Network by way of an ME Interface (though it doesn't need to be the same ME Interface the Pattern is in).%n%nME Interfaces can be wrenched to ensure they only communicate with a particular adjacent block, or can be crafted into a micropart form to fit multiple in the same block space (each micropart only interacting with the adjacent block face).%n%n
 
 # db 110
-omnifactory.quest.db.110.title=Crafting Units
-omnifactory.quest.db.110.desc=Autocrafting at last.%n%nWell, you need patterns too I guess.
+omnifactory.quest.db.110.title=合成单元
+omnifactory.quest.db.110.desc=自动合成的终极解决方案。%n%n行吧，我感觉除了这个你还需要一些样板。
 
 # db 111
 omnifactory.quest.db.111.title=Crafting Terminal
@@ -963,8 +963,8 @@ omnifactory.quest.db.229.title=Explore Extra Utilities 2
 omnifactory.quest.db.229.desc=There's a great deal of interesting content within §bExtra Utilities 2§r, and although most of it is not required for progression, you should still look through what it offers and build what interests you.%n%nIn particular, the §aAngel Ring§r bauble offers creative flight, and although some of the RF generators are not particularly good, others are quite competitive with the Dynamos. And of course, you can aim for the all powerful §aRainbow Generator§r as you work towards endgame. All that and much more await, so explore away!
 
 # db 230
-omnifactory.quest.db.230.title=Oops... A Blackout!
-omnifactory.quest.db.230.desc=If you've tried to insert or remove a lot of items quickly, you might notice your ME network%n§eflickers offline§r briefly. This is because digitizing and re-materializing items requires energy!%n%nYour network doesn't naturally store very much energy and the §6Energy Acceptor§r only intermittently refills the network's power. To keep things stable, you will need to add some energy storage in your network using §6Energy Cells§r.%n%nJust place one anywhere in your network and it will fill up with AE energy received from the Energy Acceptor. Now, you should have enough energy in your network to prevent these power losses. Feel free to add more energy cells, or upgrade to §6Dense Energy Cells§r, if you continue to experience problems.%n%nIf you've opted to enable channels in your AE2 configs, you will innately have some energy storage from the §3ME Controller§r, but we assume you know what you're doing at that point. §eAE2 Channels mechanics are outside the scope of the quest book, and this is the only time it will be mentioned.
+omnifactory.quest.db.230.title=啊呀……昏过去了！
+omnifactory.quest.db.230.desc=如果你试过在ME网络中快速存入或取出大量物品，你可能会注意到网络突然§e闪断§r的现象。将物品数字化与再实质化是需要消耗能量的，能量供应方面的问题则是这一现象的成因！%n%n你的网络本身不会存储太多的能量，而§6能源接收器§r并不能不间断地为网络补充能量。因此，你需要使用§6能源元件§r为网络提供更多的能源储量，进而保持整体稳定。%n%n将其设置在网络的任意位置后，由能源接收器转换出的AE能量便能在此得以存储。这样一来，你便能在网络中保有足够的能量来防止能量损失了。你可以随意加装更多的能源元件，如果仍然面临各种问题，也可以将现有的元件升级成§6致密能源元件§r。%n%n如果你选择了在AE2的配置文件中启用频道机制，§3ME控制器§r将为网络提供少许原生的能量存储能力，但我们姑且认定你了解这样做的后果。§e只提醒一次：AE2的频道机制并不在本任务书的叙述范畴之内。
 
 # db 231
 omnifactory.quest.db.231.title=无限无限水
@@ -3179,8 +3179,8 @@ omnifactory.quest.db.783.title="Arsenic" and "Quantum Eyes"
 omnifactory.quest.db.783.desc=⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢀⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀%n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢀⣿⣿⣿⣿⣿⣿⠿⠿⠟⠟⠛⠛⠻⠻⣿⣿⠆⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀%n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢸⣿⣿⣿⣿⣿⣿⣆⣆⣀⣀⣀⣀⠀⠀⣿⣿⠂⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀%n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢸⠻⠻⣿⣿⣿⣿⣿⣿⠅⠅⠛⠛⠋⠋⠈⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀%n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠘⢼⢼⣿⣿⣿⣿⣿⣿⣃⣃⠠⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀%n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣟⣟⡿⡿⠃⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀%n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣛⣛⣛⣛⣫⣫⡄⡄⠀⠀⢸⢸⣦⣦⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀%n⠀⠀⠀⠀⠀⠀⠀⠀⢀⢀⣠⣠⣴⣴⣾⣾⡆⡆⠸⠸⣿⣿⣿⣿⣿⣿⡷⡷⠂⠂⠨⠨⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣦⣦⣤⣤⣀⣀⠀⠀⠀⠀⠀⠀%n⠀⠀⠀⠀⣤⣤⣾⣾⣿⣿⣿⣿⣿⣿⣿⣿⡇⡇⢀⢀⣿⣿⡿⡿⠋⠋⠁⠁⢀⢀⡶⡶⠪⠪⣉⣉⢸⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⣇⠀⠀⠀⠀%n⠀⠀⢀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⡏⢸⢸⣿⣿⣷⣷⣿⣿⣿⣿⣷⣷⣦⣦⡙⡙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⡏⠀⠀⠀⠀%n⠀⠀⠈⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⣇⢸⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣷⣦⣦⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⡇⠀⠀⠀⠀%n⠀⠀⢠⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⡇⠀⠀⠀⠀%n⠀⠀⢸⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣄⠀⠀%n⠀⠀⠸⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀%n⠀⠀⣠⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⡿⠀⠀%n⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠃⠀⠀%n⠀⠀⢹⢹⣿⣿⣵⣵⣾⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣯⡁⡁⠀⠀⠀⠀%n%nWe're no strangers to love,%nYou know the rules, and so do I!
 
 # db 784
-omnifactory.quest.db.784.title=ME Cables
-omnifactory.quest.db.784.desc=These are the basic cables used by §3Applied Energistics§r to transport network connectivity. Due to the fact that channels are disabled, these cables will be your main method of transporting network connectivity, rather than the dense cables.%n%nThese cables do not share blockspace with conduits or cables for other mods, so they can be somewhat unweildy to build with, but they do accept §3Applied Energistics§r§6§r §6Facades§r, so they can be hidden very easily.%n%nLater you can make a variant of the cable that can share blockspace with §3Ender IO§r conduits.
+omnifactory.quest.db.784.title=ME线缆
+omnifactory.quest.db.784.desc=§3应用能源§r正是通过这种基础线缆来实现网络互联。由于频道机制已被禁用，这些线缆将取代致密线缆成为你输送网络连接的主要方式。%n%n这种线缆并不能与导管或其它模组的线缆共享方块空间，使得铺设线网的工作较为棘手，但§3应用能源§r的§6线缆伪装板§r可以很方便地隐藏这些外观杂乱的线网。%n%n稍后你将可制作ME导管，它能够与§3末影接口§r的导管共享方块空间。
 
 # db 785
 omnifactory.quest.db.785.title=New Cable Coverings
