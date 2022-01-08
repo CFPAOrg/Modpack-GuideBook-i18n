@@ -295,8 +295,8 @@ omnifactory.quest.db.62.title=终端
 omnifactory.quest.db.62.desc=过不了多久，你就可以在一块小小的屏幕上访问所有物品了。%n%n请注意，§6ME终端§r及其所有变种均为§e微型构件§r，这意味着你需要为其接上§6ME线缆§r（不是导管）方可正常工作。
 
 # db 63
-omnifactory.quest.db.63.title=ME Chest
-omnifactory.quest.db.63.desc=The §aME Chest§r is somewhat impractical to use on its own, but it's a necessary ingredient for the much more useful §6ME Drive§r.%n%nThis is a rudimentary digital item storage device. By placing a §6Storage Cell§r inside it, you can access the contents as though you were looking through a chest. You can carry the disk to another location and place it down in a different ME Chest if you want, and the items will come with it.%n%n§cDon't put Storage Cells inside other portable mod inventories like a Satchel, (or vice-versa) as you risk corrupting the contents of the Satchel and the Storage Cell.§r There's technical reasons why this happens (NBT overflow), and it's not unique to these items, but that's not really worth going into.%n%n
+omnifactory.quest.db.63.title=ME箱子
+omnifactory.quest.db.63.desc=单独使用§aME箱子§r多少有点不切实际，但它是制造§6ME驱动器§r的必要材料。%n%n这是一种初始的数字化物品存储设备。将一块§6存储元件§r放入其中，你便可以像翻找箱子一样访问其内容。你可以随意将元件带往其它地方，放在另一个ME箱子里，也就相当于随身携带了元件里的所有物品。%n%n§c切勿将存储元件放入热力膨胀的背包等来自于其它模组的便携式存储空间内，反之亦然。否则，两者的存储内容将面临被破坏的风险。§r问题的技术原因在于NBT溢出，这种问题并不仅仅存在于这些物品，但你真的不值得去冒这个险。%n%n
 
 # db 64
 omnifactory.quest.db.64.title=终极数字存储
@@ -335,8 +335,8 @@ omnifactory.quest.db.72.title=低压组装机
 omnifactory.quest.db.72.desc=§3组装机§r是一座工厂的主心骨，§6电路§r的发展进程尽汇于此。%n%n组装机的电压等级每升一级，你便能够合成§e一系列§r更高级的电路，材料的复杂程度以及对基础建设的要求也将随之翻新，但总体而言，制作的效率要高于上一系列的同等级电路。%n%n可以浏览§d“发展进程”任务线标签页§r来了解电路发展的流程。%n%n同时，组装机也将提供大量§e具有相等或更高效率而无需手持工具参与的配方§r。众所周知，有手持工具参与的配方并不能很好地被§b应用能源§r所处理。%n%n请善用组装机：§c在自动化发展过程中逐步汰换所有需要手持工具参与的物品合成配方。§r 一旦拥有所有的重要机器，手持工具将被彻底淘汰。
 
 # db 73
-omnifactory.quest.db.73.title=ME Conduit
-omnifactory.quest.db.73.desc=§6ME Conduits§r have the advantage of being able to share a block space with other conduit types. Oh, and they're relatively cheaper to make.%n%nThe only downside is that §ethey will not connect to §bApplied Energistics§r §emicroparts§r like slab-form §6Interfaces§r or §6Level Emitters§r, so you have to use AE cables like §6Fluix Cable§r for those.
+omnifactory.quest.db.73.title=ME导管
+omnifactory.quest.db.73.desc=§6ME导管§r的优点在于能够与其它种类的导管共享方块空间。哦对了，它的造价也相对便宜一些。%n%n唯一不好的一点是，§e它无法与§b应用能源§e的微型构件相连接§r，譬如平板式的§6接口§r和§6标准发信器§r等，所以你还是需要用到§6ME玻璃线缆-福鲁伊克斯色§r之类的AE线缆。
 
 # db 74
 omnifactory.quest.db.74.title=Aluminium Casing
@@ -419,8 +419,8 @@ omnifactory.quest.db.93.title=HV Machine Hulls
 omnifactory.quest.db.93.desc=With §6HV Machine Hulls§r made, you've made your first step towards §eHigh Voltage (HV)§r power machinery!%n%nWhile you can make these in a crafting table with §6Polyethylene Sheets§r, liquid §9Polyethylene§r can be used to craft these directly in an §3Assembling Machine§r.
 
 # db 94
-omnifactory.quest.db.94.title=Sulfuric Acid
-omnifactory.quest.db.94.desc=§9Sulfuric Acid§r is produced from §6Sulfur§r and §9Water§r, albeit very slowly. You'll need huge amounts of this for a whole range of chemical reactions, as it is a very common ingredient.%n%nIf you have excess §9Oxygen§r, you could instead look into making §9Sulfuric Acid§r with §9Sulfur Trioxide§r, as it is much quicker.%n%nSulfur can be electrolyzed from many things, but is also easily available via §bDeep Mob Learning§r's §aBlaze Model§r.
+omnifactory.quest.db.94.title=硫酸
+omnifactory.quest.db.94.desc=§9硫酸§r由§6硫§r和§9水§r缓慢反应而成。你需要为多种化学反应准备大量如此常见的原料。%n%n如果你手头上的§9氧§r多得没处用，你可以转而考虑使用§9三氧化硫§r来制备§硫酸§r，反应速度要比上述方法快得多。%n%n许多材料均可电解成硫，但通过§b深度怪物学习§r的§a烈焰人数据模型§r来获取硫则是最便捷的方式。
 
 # db 95
 omnifactory.quest.db.95.title=Ethylene and Polyethylene
@@ -447,8 +447,8 @@ omnifactory.quest.db.100.title=工程处理器
 omnifactory.quest.db.100.desc=§6工程处理器§r的制造需要§6钻石板§r、§6硅板§r和一块一级电路。%n%n在§3压印器§r中使用§a工程压印模板§r处理钻石板，将得到的工程电路板与硅板和一级电路相组合即可制得工程处理器。
 
 # db 101
-omnifactory.quest.db.101.title=Digital Storage For Days
-omnifactory.quest.db.101.desc=*Slaps §6ME Drive§r* this bad boy can fit so many §6Storage Cells§r in it!%n%nWith ten slots for Storage Cells, you can store a huge number of items inside this single block, and search through them all with a §6Terminal§r. You just gotta make all those Storage Cells.%n%nIf you somehow run out of room, you can make another ME Drive for even more slots! So many cells, so many items!
+omnifactory.quest.db.101.title=ME驱动器，终于来了
+omnifactory.quest.db.101.desc=*拍拍§6ME驱动器§r*这家伙能带得动一大堆§6存储元件§r！%n%n十个槽位，全部是用来装存储元件的。有了它，你就可以在一个小小的方块里存储巨量的物品，在一块薄薄的§6终端§r里把这些物品尽收眼底。唯一的困难也不过是需要做那些存储元件而已。%n%n如果一台塞满了，那就再做一台吧！做得越多，装得越多！
 
 # db 102
 omnifactory.quest.db.102.title=逻辑处理器
@@ -487,8 +487,8 @@ omnifactory.quest.db.110.title=合成单元
 omnifactory.quest.db.110.desc=自动合成的终极解决方案。%n%n行吧，我感觉除了这个你还需要一些样板。
 
 # db 111
-omnifactory.quest.db.111.title=Crafting Terminal
-omnifactory.quest.db.111.desc=Crafting in a digital grid is heaven after using primitive wooden tables for so long.%n%nIt's a micropart, so you need to place it on §6ME Cable§r (not a conduit).
+omnifactory.quest.db.111.title=合成终端
+omnifactory.quest.db.111.desc=用了这么久老掉牙的木头工作台，改用数字合成栏简直爽上天了。%n%nME合成终端属于微型构件，故需要接入§6ME线缆§r。是线缆，不是导管。
 
 # db 112
 omnifactory.quest.db.112.title=Reconstruction Of Atoms
@@ -515,16 +515,16 @@ omnifactory.quest.db.117.title=1k Fluid Storage
 omnifactory.quest.db.117.desc=The first digital fluid storage component, used to make §a1k Fluid Storage Cells§r.%n%nFluid cells can store up to five fluid types, but it's better to format all your disks to a single fluid each. This avoids the scenario where one fluid fills up a cell, preventing the other fluids from being stocked. Extra types also use up a chunk of storage, resulting in less overall storage per cell.
 
 # db 118
-omnifactory.quest.db.118.title=4k Item Storage
-omnifactory.quest.db.118.desc=A component used primarily for making bigger §6Storage Cells§r.%n%nUnformatted disks always have a hard limit of 63 distinct types of items, but each step up has roughly four times the total storage space of the prior disk.
+omnifactory.quest.db.118.title=4k物品存储
+omnifactory.quest.db.118.desc=这种组件主要用于制造容量更大的§6存储元件§r。%n%n未格式化的存储元件仅可存储63个类型的物品，每个新类型的第一件物品均会占用存储元件总字节数的一大部分，但每个升级型号的存储元件都会在容量上更进一步，总字节数为上一级元件的四倍。
 
 # db 119
-omnifactory.quest.db.119.title=16k Item Storage
-omnifactory.quest.db.119.desc=The penultimate component for AE item §6Storage Cells§r.
+omnifactory.quest.db.119.title=16k物品存储
+omnifactory.quest.db.119.desc=用于制造AE物品§6存储元件§r的第二个升级型号部件。
 
 # db 120
-omnifactory.quest.db.120.title=64k Item Storage
-omnifactory.quest.db.120.desc=The ultimate item storage component in §bApplied Energistics§r.%n%nUsed for storing really big amounts of things, like in a §664k ME Storage Cell§r.
+omnifactory.quest.db.120.title=64k物品存储
+omnifactory.quest.db.120.desc=§b应用能源§r中最高级的物品存储组件。%n%n用于制造§664k-ME存储元件§r等拥有巨大物品储量的物品。
 
 # db 121
 omnifactory.quest.db.121.title=IV Compressor
@@ -603,8 +603,8 @@ omnifactory.quest.db.139.title=Rare Earth
 omnifactory.quest.db.139.desc=§6Rare Earth§r comes from either centrifuging certain Impure Dusts, or processing those same Purified Dusts.%n%nThe sources are essentially §6Redstone§r, and everything inside of §6Bastnasite§r veins.
 
 # db 140
-omnifactory.quest.db.140.title=Advanced Inscriber
-omnifactory.quest.db.140.desc=§3Advanced Inscribers§r are much easier to work with for automation purposes, since you can insert more than a single item at a time and you can lock §aPresses§r in place.%n%nYou can automate these nicely with processing patterns in an §aME Interface§r. They don't auto-eject items though, so you will need to pull the finished items out.
+omnifactory.quest.db.140.title=高级压印器
+omnifactory.quest.db.140.desc=§3高级压印器§r能够一次接受多个物品输入且可将§a压印模板§r锁定在输入槽中，使其更易于自动化处理。%n%n你可以借助处理样板在§aME接口§r中很好地处理自动化压印配方，但这台机器并不能自动输出物品，所以你需要另寻他法来取出产物。
 
 # db 141
 omnifactory.quest.db.141.title=花了才是钱！
@@ -991,8 +991,8 @@ omnifactory.quest.db.236.title=Transistor
 omnifactory.quest.db.236.desc=§6Transistors§r are semiconductors that can amplify or switch electrical signals and power. They're probably one of the most important inventions of the 20th century.%n%nYou're going to use them as a component for better circuits. This one is a bit pricey, requiring §6Aluminium Foil§r and §6Fine Silver Wire§r.
 
 # db 237
-omnifactory.quest.db.237.title=Meteorite Hunter
-omnifactory.quest.db.237.desc=§bApplied Energistics§r uses §aPresses§r found in chests at the heart of meteors as templates for §3Inscribers§r to make §6inscribed circuits§r.%n%nThis compass will lead you to the nearest meteor impact. Use your favorite mining tools to smash through the §6Skystone§r shell and get to the juicy center where the §6Skystone Chest§r with the plate is found.%n%nPlease note that while they're often in a big crater, the meteors might be buried underground; when the compass is spinning wildly, you're right on top of one.
+omnifactory.quest.db.237.title=陨石猎手
+omnifactory.quest.db.237.desc=在陨石中心的§6陨石箱子§r中可以找到§a压印模板§r，这是使用§b应用能源§r的§3压印器§r来制造§6压印电路板§r时必不可少的物品。%n%n这种罗盘会指引你前往距离最近的陨石坑。操起你最趁手的采掘工具，砸碎§6陨石§r外层，一探其中的宝藏吧。%n%n请注意，尽管陨石坑通常都很大，但也有不少陨石是深埋地底的。当罗盘疯狂旋转的时候，就说明一块陨石正在你的脚下。
 
 # db 238
 omnifactory.quest.db.238.title=Tier Eight Micro Miner
@@ -1319,8 +1319,8 @@ omnifactory.quest.db.318.title=Epoxy Production
 omnifactory.quest.db.318.desc=There are two primary approaches to producing §9Epoxy§r: §9Bisphenol A§r (BPA) and §9Naphtha§r. Both approaches require §9Epichlorohydrin§r, which itself has a few possible approaches.%n%nNaphtha is the simplest approach, where it is mixed with §9Nitrogen Dioxide§r and Epichlorohydrin to yield Epoxy. This approach is easier but yields less Epoxy. You also forego making more diesel and getting distillation byproducts from Naphtha. If you have an extremely robust §9Oil§r drilling and petrochemistry infrastructure in place, this might be an acceptable choice.%n%nBPA can be produced using petrochemistry distillation products, or via distilling §9Charcoal Byproducts§r from your §3Pyrolyse Oven§r into useful components. Alternatively, you can get §9Phenol§r from §6Coal§r pyrolysis. §9Fermented Biomass§r is also useful to distill as it provides many useful products. Epoxy made from BPA is more complex to set up initially, but also far more efficient.%n%nThe final decision is down to you to make. Check out recipes in §bJEI§r.
 
 # db 319
-omnifactory.quest.db.319.title=Farming
-omnifactory.quest.db.319.desc=You'll need large quantities of §6Canola§r (for §6Canola Oil§r in a §bCanola Press§r) and §6Sugarcane§r (for §6Ethanol§r).%n%nOf course, other crops can work as well, if you want to mix things up.
+omnifactory.quest.db.319.title=种田
+omnifactory.quest.db.319.desc=你将会需要大量的§6油菜§r，用以在§b油菜压榨机§r中榨取§6菜籽油§r；还有§6甘蔗§r，用作制取§6乙醇§r的原材料。%n%n当然了，如果你热衷于混合搭配的话，其它作物也能行。
 
 # db 320
 omnifactory.quest.db.320.title=Empowered Void Gear
@@ -2267,8 +2267,8 @@ omnifactory.quest.db.555.title=Fluxed Phyto-Gro
 omnifactory.quest.db.555.desc=§6Rich Phyto-Gro§r can be further enhanced by infusing it with Redstone Flux in the §3Energetic Infuser§r.
 
 # db 556
-omnifactory.quest.db.556.title=Bounties For Omnicoins!
-omnifactory.quest.db.556.desc=Now that you have a §3Wiremill§r and a §3Compressor§r, you can consider starting to do §eBounties§r. The §6Bounty Board§r has a global inventory containing quests to turn in specific items in exchange for §dOmnicoins§r. These quests have a fairly short duration, so make sure to §estockpile the items§r that come up on them or else they'll §cexpire before you can complete them§r.%n%nWith renewable §dOmnicoins§r, you should feel free to spend the ones you have on whatever you need. §aSpend your coins!
+omnifactory.quest.db.556.title=做悬赏令，赚全能币！
+omnifactory.quest.db.556.desc=既然有了§3线材轧机§r和§3压缩机§r，不妨考虑做做§e悬赏令§r？每个§6悬赏榜§r都拥有相同的存储空间，其中包含一些交付特定物品并奖励§d全能币§r的任务。每个任务所给的时间相对较短，所以请确保§e囤积一些任务所需的物品§r，否则任务可能会§c等不到你完成的时候§r。%n%n§d全能币§r赚了就会有，所以需要什么就赶紧下手吧。§a钱得花！
 
 # db 557
 omnifactory.quest.db.557.title=Gap
@@ -2495,227 +2495,227 @@ omnifactory.quest.db.612.title=ZPM Compressor
 omnifactory.quest.db.612.desc=The ZPM tier §3Compressor§r is needed for the most advanced heavy plating types: §6Draconium§r and §6Crystal Matrix§r.
 
 # db 613
-omnifactory.quest.db.613.title=Element 001: Hydrogen
+omnifactory.quest.db.613.title=001号元素：氢
 omnifactory.quest.db.613.desc= 
 
 # db 614
-omnifactory.quest.db.614.title=Element 002: Helium
+omnifactory.quest.db.614.title=002号元素：氦
 omnifactory.quest.db.614.desc= 
 
 # db 615
-omnifactory.quest.db.615.title=Element 003: Lithium
+omnifactory.quest.db.615.title=003号元素：锂
 omnifactory.quest.db.615.desc= 
 
 # db 616
-omnifactory.quest.db.616.title=Element 004: Beryllium
+omnifactory.quest.db.616.title=004号元素：铍
 omnifactory.quest.db.616.desc= 
 
 # db 617
-omnifactory.quest.db.617.title=Element 005: Boron
+omnifactory.quest.db.617.title=005号元素：硼
 omnifactory.quest.db.617.desc= 
 
 # db 618
-omnifactory.quest.db.618.title=Element 006: Carbon
+omnifactory.quest.db.618.title=006号元素：碳
 omnifactory.quest.db.618.desc= 
 
 # db 619
-omnifactory.quest.db.619.title=Element 007: Nitrogen
+omnifactory.quest.db.619.title=007号元素：氮
 omnifactory.quest.db.619.desc= 
 
 # db 620
-omnifactory.quest.db.620.title=Element 008: Oxygen
+omnifactory.quest.db.620.title=008号元素：氧
 omnifactory.quest.db.620.desc= 
 
 # db 621
-omnifactory.quest.db.621.title=Element 009: Fluorine
+omnifactory.quest.db.621.title=009号元素：氟
 omnifactory.quest.db.621.desc= 
 
 # db 622
-omnifactory.quest.db.622.title=Element 010: Neon
+omnifactory.quest.db.622.title=010号元素：氖
 omnifactory.quest.db.622.desc= 
 
 # db 623
-omnifactory.quest.db.623.title=Element 011: Sodium
+omnifactory.quest.db.623.title=011号元素：钠
 omnifactory.quest.db.623.desc= 
 
 # db 624
-omnifactory.quest.db.624.title=Element 012: Magnesium
+omnifactory.quest.db.624.title=012号元素：镁
 omnifactory.quest.db.624.desc= 
 
 # db 625
-omnifactory.quest.db.625.title=Element 013: Aluminium
+omnifactory.quest.db.625.title=013号元素：铝
 omnifactory.quest.db.625.desc= 
 
 # db 626
-omnifactory.quest.db.626.title=Element 014: Silicon
+omnifactory.quest.db.626.title=014号元素：硅
 omnifactory.quest.db.626.desc= 
 
 # db 627
-omnifactory.quest.db.627.title=Element 015: Phosphorus
+omnifactory.quest.db.627.title=015号元素：磷
 omnifactory.quest.db.627.desc= 
 
 # db 628
-omnifactory.quest.db.628.title=Element 016: Sulfur
+omnifactory.quest.db.628.title=016号元素：硫
 omnifactory.quest.db.628.desc= 
 
 # db 629
-omnifactory.quest.db.629.title=Element 017: Chlorine
+omnifactory.quest.db.629.title=017号元素：氯
 omnifactory.quest.db.629.desc= 
 
 # db 630
-omnifactory.quest.db.630.title=Element 018: Argon
+omnifactory.quest.db.630.title=018号元素：氩
 omnifactory.quest.db.630.desc= 
 
 # db 631
-omnifactory.quest.db.631.title=Element 019: Potassium
+omnifactory.quest.db.631.title=019号元素：钾
 omnifactory.quest.db.631.desc= 
 
 # db 632
-omnifactory.quest.db.632.title=Element 020: Calcium
+omnifactory.quest.db.632.title=020号元素：钙
 omnifactory.quest.db.632.desc= 
 
 # db 633
-omnifactory.quest.db.633.title=Element 057: Lanthanum
+omnifactory.quest.db.633.title=057号元素：镧
 omnifactory.quest.db.633.desc= 
 
 # db 634
-omnifactory.quest.db.634.title=Element 022: Titanium
+omnifactory.quest.db.634.title=022号元素：钛
 omnifactory.quest.db.634.desc= 
 
 # db 635
-omnifactory.quest.db.635.title=Element 023: Vanadium
+omnifactory.quest.db.635.title=023号元素：钒
 omnifactory.quest.db.635.desc= 
 
 # db 636
-omnifactory.quest.db.636.title=Element 024: Chromium
+omnifactory.quest.db.636.title=024号元素：铬
 omnifactory.quest.db.636.desc= 
 
 # db 637
-omnifactory.quest.db.637.title=Element 025: Manganese
+omnifactory.quest.db.637.title=025号元素：锰
 omnifactory.quest.db.637.desc= 
 
 # db 638
-omnifactory.quest.db.638.title=Element 026: Iron
+omnifactory.quest.db.638.title=026号元素：铁
 omnifactory.quest.db.638.desc= 
 
 # db 639
-omnifactory.quest.db.639.title=Element 027: Cobalt
+omnifactory.quest.db.639.title=027号元素：钴
 omnifactory.quest.db.639.desc= 
 
 # db 640
-omnifactory.quest.db.640.title=Element 028: Nickel
+omnifactory.quest.db.640.title=028号元素：镍
 omnifactory.quest.db.640.desc= 
 
 # db 641
-omnifactory.quest.db.641.title=Element 029: Copper
+omnifactory.quest.db.641.title=029号元素：铜
 omnifactory.quest.db.641.desc= 
 
 # db 642
-omnifactory.quest.db.642.title=Element 030: Zinc
+omnifactory.quest.db.642.title=030号元素：锌
 omnifactory.quest.db.642.desc= 
 
 # db 643
-omnifactory.quest.db.643.title=Element 031: Gallium
+omnifactory.quest.db.643.title=031号元素：镓
 omnifactory.quest.db.643.desc= 
 
 # db 644
-omnifactory.quest.db.644.title=Element 033: Arsenic
+omnifactory.quest.db.644.title=033号元素：砷
 omnifactory.quest.db.644.desc= 
 
 # db 645
-omnifactory.quest.db.645.title=Element 036: Krypton
+omnifactory.quest.db.645.title=036号元素：氪
 omnifactory.quest.db.645.desc= 
 
 # db 646
-omnifactory.quest.db.646.title=Element 039: Yttrium
+omnifactory.quest.db.646.title=039号元素：钇
 omnifactory.quest.db.646.desc= 
 
 # db 647
-omnifactory.quest.db.647.title=Element 046: Palladium
+omnifactory.quest.db.647.title=046号元素：钯
 omnifactory.quest.db.647.desc= 
 
 # db 648
-omnifactory.quest.db.648.title=Element 047: Silver
+omnifactory.quest.db.648.title=047号元素：银
 omnifactory.quest.db.648.desc= 
 
 # db 649
-omnifactory.quest.db.649.title=Element 049: Indium
+omnifactory.quest.db.649.title=049号元素：铟
 omnifactory.quest.db.649.desc= 
 
 # db 650
-omnifactory.quest.db.650.title=Element 050: Tin
+omnifactory.quest.db.650.title=050号元素：锡
 omnifactory.quest.db.650.desc= 
 
 # db 651
-omnifactory.quest.db.651.title=Element 051: Antimony
+omnifactory.quest.db.651.title=051号元素：锑
 omnifactory.quest.db.651.desc= 
 
 # db 652
-omnifactory.quest.db.652.title=Element 054: Xenon
+omnifactory.quest.db.652.title=054号元素：氙
 omnifactory.quest.db.652.desc= 
 
 # db 653
-omnifactory.quest.db.653.title=Element 074: Tungsten
+omnifactory.quest.db.653.title=074号元素：钨
 omnifactory.quest.db.653.desc= 
 
 # db 654
-omnifactory.quest.db.654.title=Element 076: Osmium
+omnifactory.quest.db.654.title=076号元素：锇
 omnifactory.quest.db.654.desc= 
 
 # db 655
-omnifactory.quest.db.655.title=Element 077: Iridium
+omnifactory.quest.db.655.title=077号元素：铱
 omnifactory.quest.db.655.desc= 
 
 # db 656
-omnifactory.quest.db.656.title=Element 078: Platinum
+omnifactory.quest.db.656.title=078号元素：铂
 omnifactory.quest.db.656.desc= 
 
 # db 657
-omnifactory.quest.db.657.title=Element 079: Gold
+omnifactory.quest.db.657.title=079号元素：金
 omnifactory.quest.db.657.desc= 
 
 # db 658
-omnifactory.quest.db.658.title=Element 080: Mercury
+omnifactory.quest.db.658.title=080号元素：汞
 omnifactory.quest.db.658.desc= 
 
 # db 659
-omnifactory.quest.db.659.title=Element 086: Radon
+omnifactory.quest.db.659.title=086号元素：氡
 omnifactory.quest.db.659.desc= 
 
 # db 660
-omnifactory.quest.db.660.title=Element 090: Thorium
+omnifactory.quest.db.660.title=090号元素：钍
 omnifactory.quest.db.660.desc= 
 
 # db 661
-omnifactory.quest.db.661.title=Element 092: Uranium
+omnifactory.quest.db.661.title=092号元素：铀
 omnifactory.quest.db.661.desc= 
 
 # db 662
-omnifactory.quest.db.662.title=Element 093: Neptunium
+omnifactory.quest.db.662.title=093号元素：镎
 omnifactory.quest.db.662.desc= 
 
 # db 663
-omnifactory.quest.db.663.title=Element 094: Plutonium
+omnifactory.quest.db.663.title=094号元素：钚
 omnifactory.quest.db.663.desc= 
 
 # db 664
-omnifactory.quest.db.664.title=Element 095: Americium
+omnifactory.quest.db.664.title=095号元素：镅
 omnifactory.quest.db.664.desc= 
 
 # db 665
-omnifactory.quest.db.665.title=Element 096: Curium
+omnifactory.quest.db.665.title=096号元素：锔
 omnifactory.quest.db.665.desc= 
 
 # db 666
-omnifactory.quest.db.666.title=Element 097: Berkelium
+omnifactory.quest.db.666.title=097号元素：锫
 omnifactory.quest.db.666.desc= 
 
 # db 667
-omnifactory.quest.db.667.title=Element 098: Californium
+omnifactory.quest.db.667.title=098号元素：锎
 omnifactory.quest.db.667.desc= 
 
 # db 668
-omnifactory.quest.db.668.title=Element 099: Einsteinium
+omnifactory.quest.db.668.title=099号元素：锿
 omnifactory.quest.db.668.desc= 
 
 # db 669
@@ -3099,12 +3099,12 @@ omnifactory.quest.db.763.title=Rod of Return
 omnifactory.quest.db.763.desc=A good, but slightly gated way of teleporting back to your telepads.%n%nIt won't be possible to make this until you reach EV tier power.
 
 # db 764
-omnifactory.quest.db.764.title=LV Circuits
-omnifactory.quest.db.764.desc=Circuits along this line are LV, and can all be substituted in recipes.%n%n§7Primitive Circuits§r are the worst in terms of cost and effort required to produce, but you have to start with something.%n%n§2Electronic Circuits§r are the middle layer between Primitive Circuits and Refined Circuits.%n%nAnd finally, §aRefined Circuits§r, which take the lowest effort and come in batches of four, but require polyethylene.%n
+omnifactory.quest.db.764.title=低压电路
+omnifactory.quest.db.764.desc=往右的这一行都是低压等级的电路，每一种都可以在各自的配方中互相替代。%n%n§7低等电路§r是生产花销最大也最费力气的一种低压电路，但彩虹之前的风雨总是必须经历的。%n%n§2电子电路§r介于低等电路和精良电路之间。%n%n最后，§a精良电路§r则是三者中制作耗力最小的，并且每个生产批次包含四块电路，但它的制造材料中包含聚乙烯。%n
 
 # db 765
-omnifactory.quest.db.765.title=What is This?
-omnifactory.quest.db.765.desc=The Progression tab was added so you can keep track of the important bits of the pack.%n%nCircuits are the baseline of the entire Omnifactory progression, so keep climbing!
+omnifactory.quest.db.765.title=这是什么？
+omnifactory.quest.db.765.desc=“发展进程”任务线旨在使你能够跟踪整合包的每个关键环节。%n%n电路构筑了整个全能工厂进程的基线，奋勇向前吧！
 
 # db 766
 omnifactory.quest.db.766.title=MV Circuits
@@ -3283,8 +3283,8 @@ omnifactory.quest.db.809.title=Simulation Supercomputer
 omnifactory.quest.db.809.desc=The §3Simulation Supercomputer§r is a multiblock structure that performs §bDeep Mob Learning§r simulations like the §3Simulation Chamber§r, but is capable of overclocking these simulations to incredible speeds.%n%nOne of these structures can perform the equivalent work of hundreds of individual Simulation Chambers more efficiently. This will make it far easier to generate pristine matter you'll need for things like §6Dragon Lair Data§r. You'll probably need several §3Loot Fabricators§r to keep up with it.%n%nThe data model you place in the input bus will increment the iteration count and level up the same as if it were running in a regular Simulation Chamber. §eOverclocking does not alter the chances of pristines§r: those come at fixed rates per iteration based on the level of the data model. Training a fresh data model up to Self-Aware for 30%% rates can be done very quickly though.%n%nAs a §dCreative Tier§r structure, it is rather expensive to make. However, it is an investment that will easily pay for itself as you progress through the endgame. You should strongly consider making one of these with your second §dHeart of a Universe§r.%n
 
 # db 810
-omnifactory.quest.db.810.title=Sulfur
-omnifactory.quest.db.810.desc=§6Sulfur§r will be used in a variety of upcoming chemical reactions.%n%nIt can be electrolyzed easily from §6Sphalerite§r (which also provides §6Gallium§r), §6Cinnabar§r, and §6Pyrite§r. Alternately, Sulfur can be acquired through §bDeep Mob Learning§r- look into that quest line if you haven't already.
+omnifactory.quest.db.810.title=硫
+omnifactory.quest.db.810.desc=在即将接触到的各种化学反应中都需要用到§6硫§r。%n%n电解§6闪锌矿粉§r（同时会产出§6镓§r）、§6朱砂粉§r或§6黄铁矿粉§r均可制取硫。此外，亦可通过§b深度怪物学习§r来获取硫——如果你尚未涉足这一领域，“资源出产靠模拟”任务线可以助你一臂之力。
 
 # db 811
 omnifactory.quest.db.811.title=硫矿石
