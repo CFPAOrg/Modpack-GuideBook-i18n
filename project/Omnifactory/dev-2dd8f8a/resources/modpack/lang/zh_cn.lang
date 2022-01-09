@@ -43,13 +43,13 @@ omnifactory.magnalium_turbine_casing=镁铝合金涡轮外壳
 
 //EnderIO
 omnifactory.ds_helmet=玄钢头盔
-omnifactory.ds.chestplate=玄钢胸甲
-omnifactory.ds.leggings=玄钢护腿
-omnifactory.ds.boots=玄钢靴子
+omnifactory.ds_chestplate=玄钢胸甲
+omnifactory.ds_leggings=玄钢护腿
+omnifactory.ds_boots=玄钢靴子
 omnifactory.es_helmet=末地钢头盔
-omnifactory.es.chestplate=末地钢胸甲
-omnifactory.es.leggings=末地钢护腿
-omnifactory.es.boots=末地钢靴子
+omnifactory.es_chestplate=末地钢胸甲
+omnifactory.es_leggings=末地钢护腿
+omnifactory.es_boots=末地钢靴子
 omnifactory.rf_cap_1=基础RF电容
 omnifactory.rf_cap_2=双层RF电容
 omnifactory.rf_cap_8=八阶RF电容
