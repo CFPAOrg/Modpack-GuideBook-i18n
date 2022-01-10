@@ -427,8 +427,8 @@ omnifactory.quest.db.95.title=Ethylene and Polyethylene
 omnifactory.quest.db.95.desc=§9Ethylene§r is a hydrocarbon made from dehydrating §9Ethanol§r with §9Sulfuric Acid§r in a §3Chemical Reactor§r. It is an extremely important chemical in the production of plastics.%n%n§9Polyethylene§r is the most common category of plastic, made from polymers of §9Ethylene§r. Adding §9Oxygen§r in a §3Chemical Reactor§r recreates (with some artistic license) early accidental synthesis of Polyethylene.%n%nWhen you have large amounts of §6Rutile§r and §6Bauxite§r (probably after you visit the Moon) you can consider using §9Titanium Tetrachloride§r as a catalyst to improve your Polyethylene yields. For now it's not a great idea, as in addition to its Overworld rarity, you need it for §6Titanium§r.
 
 # db 96
-omnifactory.quest.db.96.title=Plastic Sheets
-omnifactory.quest.db.96.desc=Form §6Polyethylene Sheets§r using a §3Fluid Solidifier§r and a §aPlate Mold§r for use in crafting electronics components.
+omnifactory.quest.db.96.title=塑料片
+omnifactory.quest.db.96.desc=使用§3流体固化机§r，搭配§a模具（板）§r来制造电子元件的制造材料——§6聚乙烯片§r。
 
 # db 97
 omnifactory.quest.db.97.title=Keeping Stuff In Stock
@@ -459,28 +459,28 @@ omnifactory.quest.db.103.title=压印板
 omnifactory.quest.db.103.desc=§a压印模板§r是§3压印机§r的必需物品。%n%n如果你喜欢跑图，§a陨石罗盘§r可以帮助你找到陨石，陨石内部的陨石箱子中会随机生成压印模板。%n%n要是不想去找，或总是找不到你想要的类型，可以使用§3精密激光蚀刻机§r来制造各种压印模板。
 
 # db 104
-omnifactory.quest.db.104.title=Autocrafting Patterns
-omnifactory.quest.db.104.desc=§aPatterns§r are used to encode a single crafting table or processing recipe for on-demand automation with §bApplied Energistics§r.%n%nEncode them in a §aPattern Terminal§r.%n%nNote that recipes encoded with Substitutions on will use existing equivalent items, but §ewill only automatically craft the exact item specified in the recipe.§r%n%nIt is also a §cvery bad idea§r to encode recipes that require GregTech hand tools (even worse with Substitutions on). They are not handled gracefully, causing your crafting computations to explode in complexity and memory requirement.%n%nUse recipes that use machines instead!%n%n
+omnifactory.quest.db.104.title=自动化合成样板
+omnifactory.quest.db.104.desc=§a样板§r用于编码单个的工作台配方或处理配方以进行§b应用能源§r的按需自动化。%n%n编码环节可在§a样板终端§r中进行。%n%n需要注意的是，在替换选项开启时完成编码的配方会将等价的物品用作材料，但§e仅会自动合成配方所指定的物品§r。%n%n§c非常不推荐§r将带有格雷科技手持工具的配方编入样板，而如果还开启了替换选项，情况更是会一塌糊涂。它们非但无法被妥善处理，还会导致你的合成运算在复杂程度和内存压力的飙升下彻底崩盘。%n%n请转而使用不含手持工具的机器处理配方！%n%n
 
 # db 105
 omnifactory.quest.db.105.title=运算处理器
 omnifactory.quest.db.105.desc=§6运算处理器§r的制造材料包括§6赛特斯石英板§r、一块§6硅板§r以及任意的§6一级电路§r。%n%n在§3压印器§r中使用§a运算压印模板§r处理赛特斯石英板，将得到的运算电路板与硅板和一级电路相组合即可制得运算处理器。
 
 # db 106
-omnifactory.quest.db.106.title=Pattern Terminal
-omnifactory.quest.db.106.desc=As the name suggests, this terminal lets you encode recipes onto §aBlank Patterns§r.%n%nIt's a micropart, so you need to place it on §6ME Cable§r (not a conduit).
+omnifactory.quest.db.106.title=样板终端
+omnifactory.quest.db.106.desc=顾名思义，这种终端使你能够将配方编入§a空白样板§r。%n%n该终端属于微型构件，故需要接上§6ME线缆§r，而非导管。
 
 # db 107
 omnifactory.quest.db.107.title=Atomic Reconstructor
 omnifactory.quest.db.107.desc=The §3Atomic Reconstructor§r is the cornerstone of §bActually Additions§r, using Crystal Flux (which automatically converts 1:1 with RF) to change items into other items.%n%nThis machine fires a laser out of the front that reconstructs standard materials into special variants.%n%nThe machine itself will give you further instructions on how to configure it.
 
 # db 108
-omnifactory.quest.db.108.title=Interface Terminal
-omnifactory.quest.db.108.desc=This handy terminal allows you to see the pattern slots of all §aME Interfaces§r in your network in one place.%n%nThis means you don't have to run to your ME Interfaces each time you make a new pattern for them.
+omnifactory.quest.db.108.title=接口终端
+omnifactory.quest.db.108.desc=这种方便易用的终端允许你将网络中§a所有ME接口§r的样板槽位尽收眼底。%n%n如此一来，你就可以直接在终端里给它们加装新样板，而不需要跑来跑去了。
 
 # db 109
-omnifactory.quest.db.109.title=ME Interfaces
-omnifactory.quest.db.109.desc=§aME Interfaces§r are extremely important for automation. You'll be making a lot of these, if you're playing the pack right.%n%nThese can be filled with encoded §aPatterns§r to perform on-demand autocrafting, and can be configured to stock up to 9 stacks of items for passive autocrafting, Any item pushed into an ME Interface is digitized and placed in your ME Network storage.%n%nWhen adjacent to one or more §aMolecular Assemblers§r, crafting table patterns can be crafted. It will use as many adjacent Molecular Assemblers as possible, restricted by availability and number of §aCo-processors§r in your crafting CPU multiblock.%n%nWhen adjacent to any other block, you can use processing patterns with a machine to insert items into the machine. Processing patterns require that the finished item is inserted back into the ME Network by way of an ME Interface (though it doesn't need to be the same ME Interface the Pattern is in).%n%nME Interfaces can be wrenched to ensure they only communicate with a particular adjacent block, or can be crafted into a micropart form to fit multiple in the same block space (each micropart only interacting with the adjacent block face).%n%n
+omnifactory.quest.db.109.title=ME接口
+omnifactory.quest.db.109.desc=§aME接口§r对于自动化来说极其重要。要以正确的方式游玩本整合包，你就必须得做上很多的ME接口。%n%n你可以为它们加装编码§a样板§r来执行按需自动合成，也可以借助内部的9个物品槽位来完成被动合成。所有输入ME接口的物品均会经过数字化并存进你的ME网络存储。%n%n紧贴一个或多个§a分子装配室§r即可对工作台配方进行处理。它将尽可能多地利用紧贴的分子装配室，但会受到分子装配室的可用状态，以及合成处理单元多方块结构中§a并行处理单元§r数量的限制。%n%n紧贴其它方块时，则可利用样板向机器供给合成材料。样板将要求所设定的配方产物经ME接口（并不必须是样板所在的ME接口）输入ME网络。%n%n可以使用扳手调整ME接口以确保其仅与特定一侧的方块进行交互，也可以在合成栏中转换为微型构件形式，以便在单个方块空间中容纳多个ME接口。每个微型构件式的ME接口仅与其所贴附的方块进行交互。%n%n
 
 # db 110
 omnifactory.quest.db.110.title=合成单元
@@ -511,8 +511,8 @@ omnifactory.quest.db.116.title=Black Steel
 omnifactory.quest.db.116.desc=§6Black Steel§r will be used to make various items from §bExtended Crafting§r. It will also be the basis of other Steel types later on.
 
 # db 117
-omnifactory.quest.db.117.title=1k Fluid Storage
-omnifactory.quest.db.117.desc=The first digital fluid storage component, used to make §a1k Fluid Storage Cells§r.%n%nFluid cells can store up to five fluid types, but it's better to format all your disks to a single fluid each. This avoids the scenario where one fluid fills up a cell, preventing the other fluids from being stocked. Extra types also use up a chunk of storage, resulting in less overall storage per cell.
+omnifactory.quest.db.117.title=1k流体存储
+omnifactory.quest.db.117.desc=第一个数字化流体存储组件，用以制造§a1k-ME流体存储元件§r。%n%n一个流体存储元件至多可以存储五种流体，但建议将所有元件格式化为仅存储单种流体，这将避免单种流体占满一个元件并阻止其它流体存入的情况。每个额外的流体类型将占用总存储空间的一大部分，进而削减元件的存储总量。
 
 # db 118
 omnifactory.quest.db.118.title=4k物品存储
@@ -531,16 +531,16 @@ omnifactory.quest.db.121.title=IV Compressor
 omnifactory.quest.db.121.desc=This compressor is needed for making §6Signalum Heavy Plating§r.
 
 # db 122
-omnifactory.quest.db.122.title=4k Fluid Storage
-omnifactory.quest.db.122.desc=The second fluid storage component, used for §a4k Fluid Storage Cells§r.
+omnifactory.quest.db.122.title=4k流体存储
+omnifactory.quest.db.122.desc=第二种流体存储组件，用于制造§a4k-ME流体存储元件§r。
 
 # db 123
-omnifactory.quest.db.123.title=16k Fluid Storage
-omnifactory.quest.db.123.desc=The third fluid storage component, used for §a16k Fluid Storage Cells§r.
+omnifactory.quest.db.123.title=16k流体存储
+omnifactory.quest.db.123.desc=第三种流体存储组件，用于制造§a16k-ME流体存储元件§r。
 
 # db 124
-omnifactory.quest.db.124.title=64k Fluid Storage
-omnifactory.quest.db.124.desc=The largest fluid storage component, used for §a64k Fluid Storage Cells§r.
+omnifactory.quest.db.124.title=64k流体存储
+omnifactory.quest.db.124.desc=最大的流体存储组件，用于制造§a64k-ME流体存储元件§r。
 
 # db 125
 omnifactory.quest.db.125.title=GP Generation
@@ -963,7 +963,7 @@ omnifactory.quest.db.229.title=Explore Extra Utilities 2
 omnifactory.quest.db.229.desc=There's a great deal of interesting content within §bExtra Utilities 2§r, and although most of it is not required for progression, you should still look through what it offers and build what interests you.%n%nIn particular, the §aAngel Ring§r bauble offers creative flight, and although some of the RF generators are not particularly good, others are quite competitive with the Dynamos. And of course, you can aim for the all powerful §aRainbow Generator§r as you work towards endgame. All that and much more await, so explore away!
 
 # db 230
-omnifactory.quest.db.230.title=啊呀……昏过去了！
+omnifactory.quest.db.230.title=啊呀……停电了！
 omnifactory.quest.db.230.desc=如果你试过在ME网络中快速存入或取出大量物品，你可能会注意到网络突然§e闪断§r的现象。将物品数字化与再实质化是需要消耗能量的，能量供应方面的问题则是这一现象的成因！%n%n你的网络本身不会存储太多的能量，而§6能源接收器§r并不能不间断地为网络补充能量。因此，你需要使用§6能源元件§r为网络提供更多的能源储量，进而保持整体稳定。%n%n将其设置在网络的任意位置后，由能源接收器转换出的AE能量便能在此得以存储。这样一来，你便能在网络中保有足够的能量来防止能量损失了。你可以随意加装更多的能源元件，如果仍然面临各种问题，也可以将现有的元件升级成§6致密能源元件§r。%n%n如果你选择了在AE2的配置文件中启用频道机制，§3ME控制器§r将为网络提供少许原生的能量存储能力，但我们姑且认定你了解这样做的后果。§e只提醒一次：AE2的频道机制并不在本任务书的叙述范畴之内。
 
 # db 231
@@ -1652,15 +1652,15 @@ omnifactory.quest.db.401.desc=§3铁砧§r几乎可以修复所有§b格雷科�
 
 # db 402
 omnifactory.quest.db.402.title=机器覆盖板
-omnifactory.quest.db.402.desc=§b格雷科技§r提供了§a覆盖板§r这样一个全能的途径来增强机器。覆盖板相当于一种“升级”，能够加装至所有格雷科技的机器、箱子和桶来拓展它们的功能。你需要给自己准备一把§a螺丝刀§r以便对覆盖板进行配置，以及一根§a撬棍§r来拆卸覆盖板而无需破坏整台机器。%n%n下面介绍了游戏中的一些覆盖板以及各自的功能：%n%n-§a§l传送带§r：与相邻的存储空间持续进行物品的输入或输出；%n%n-§a§l泵（电动泵）§r：相当于流体版的§a传送带§r；%n%n-§a§l机械臂§r：相当于§a传送带§r，但具有两种非常适用于自动化合成的特殊模式：%n　　*§e保持补给§r：尽可能保持目标容器中的物品处于特定数量；%n　　*§e精确补给§r：每次传输特定数量的物品，若物品数量不足则不会进行传输。%n%n-§a§l流体校准器§r：相当于流体版的§a机械臂§r；%n%n-§a§l扇板§r：阻止对所在侧面进行的自动化交互。%n%n用以转运物品或流体的覆盖板可在内部额外配备一张§a过滤卡§r，以此调配各自的功能，详情请见相关任务描述。%n
+omnifactory.quest.db.402.desc=§b格雷科技§r提供了§a覆盖板§r这样一个全能的途径来增强机器。覆盖板相当于一种“升级”，能够加装至所有格雷科技的机器、箱子和桶来拓展它们的功能。你需要给自己准备一把§a螺丝刀§r以便对覆盖板进行配置，以及一根§a撬棍§r来拆卸覆盖板而无需破坏整台机器。%n%n下面介绍了游戏中的一些覆盖板以及各自的功能：%n%n-§a§l传送带§r：与相邻的存储空间持续进行物品的输入或输出；%n%n-§a§l泵（电动泵）§r：相当于流体版的§a传送带§r；%n%n-§a§l机械臂§r：相当于§a传送带§r，但具有两种非常适用于自动化合成的特殊模式：%n　*§e保持补给§r：尽可能保持目标容器中的物品处于特定数量；%n　*§e精确补给§r：每次传输特定数量的物品，若物品数量不足则不会进行传输。%n%n-§a§l流体校准器§r：相当于流体版的§a机械臂§r；%n%n-§a§l扇板§r：阻止对所在侧面进行的自动化交互。%n%n用以转运物品或流体的覆盖板可在内部额外配备一张§a过滤卡§r，以此调配各自的功能，详情请见相关任务描述。%n
 
 # db 403
 omnifactory.quest.db.403.title=手拿螺丝刀，拧拧输出面！
 omnifactory.quest.db.403.desc=所有格雷科技的机器都有一个可使用§a格雷科技扳手§r来设定的专用输出面，用来向相邻的存储空间输出物品。%n%n若要启用自动输出，打开机器界面并点选左下角的按钮即可：§6橙色§r为物品自动输出，§9蓝色§r则为流体自动输出。%n%n如果还想使输出面接受物品输入，你需要手持§a格雷科技螺丝刀§r并右击输出面，或是§6潜行右击§r其它侧面的网格区域。%n%n这些特性适用于将多台机器连结成流水产线，便于在§b应用能源2§r的帮助下进行自动化合成。
 
 # db 404
-omnifactory.quest.db.404.title=Simple GregTech Automation
-omnifactory.quest.db.404.desc=You can easily automate most §bGregTech§r machines with §aME Interfaces§r and processing §aPatterns§r early on by using the machines' auto-output feature.%n%nUse a §aGregTech Wrench§r to relocate the output side of a machine where you want it to be, right-click it with a §aGregTech Screwdriver§r to permit input on the output face, then put an ME Interface on that side of the machine.%n%nYou can also permit input from the output side by shift-right-clicking with a screwdriver on the output side via the machine grid.%n%nRight-click the machine and enable item auto-output (§6orange box§r in the bottom-left corner of the GUI).%n%nNow, stuff the ME Interface with processing patterns. The next time you order an item, the ME Interface will push ingredients into the machine, and the machine will push outputs back into the Interface once they're ready, completing the craft. No need to use conduits or import buses!
+omnifactory.quest.db.404.title=格雷科技简单自动化
+omnifactory.quest.db.404.desc=你可以在早期利用§b格雷科技§r机器的自动输出功能，借助§aME接口§r和§a样板§r轻松实现大多数机器配方的自动化处理。%n%n使用§a格雷科技的扳手§r，依照意图来重新指定机器的输出面，使用§a格雷科技的螺丝刀§r右击使输出面接受输入，接着将一台ME接口紧贴该侧面放置。%n%n潜行右击其它侧面中对应输出面的网格区域同样可以开关输出面接受输入的功能。%n%n右击机器打开界面，点击左下角§6带有橙色盒型图案的按钮§r可启用物品自动输出。%n%n现在，将样板装入ME接口，那么在下一次请求物品时，ME接口就会为机器供给材料，机器完成处理并将产物自接口输入网络时，合成就算是完成了，完全不需要导管或输入总线！
 
 # db 405
 omnifactory.quest.db.405.title=合成计算器
@@ -1675,8 +1675,8 @@ omnifactory.quest.db.407.title=Medium Microverse Projector
 omnifactory.quest.db.407.desc=The §3Medium Microverse Projector§r is a more powerful projector required for sending §6Tier Four§r through §6Tier Six Micro Miners§r into microverses.%n%nInitial missions can operate on §eIV power§r, while §eLuV power§r is required for later missions. As with the prior projector, this structure supports overclocking and the position of buses and hatches can be swapped with any §6Microverse Projector Casing§r.%n%n§6Sneak-right click§r the controller to enable the in-world preview.
 
 # db 408
-omnifactory.quest.db.408.title=PackagedAuto
-omnifactory.quest.db.408.desc=§bPackagedAuto§r is an addon for §bApplied Energistics 2§r. Its main purpose in §5Omnifactory§r is to allow you to automate extended crafting recipes.%n%nApplied Energistics 2 stores recipes in §aPatterns§r, but they are limited to at most 9 stacks of items (a standard 3x3 crafting grid). PackagedAuto stores recipes in §aPackage Recipe Holders§r, which don't have this limitation. Additionally, each Holder can store up to §e20 different recipes§r. Holders must be encoded in the §3Package Recipe Encoder§r.%n%nIn the vast majority of situations you'll need two identically-encoded Holders, as the following machines work together.%n%nThe §3Packager§r is a machine that compresses ingredients for a specific recipe into a set of §6Recipe Packages§r. Each package in a set can hold up to 9 stacks of ingredient items. A simple recipe might consist of one package, but a complex recipe can have up to 9 packages in its set (for 81 total item stacks).%n%nThe §3Unpackager§r is a machine that extracts ingredient items from complete sets of Recipe Packages made in a Packager, ejecting the items into an adjacent inventory. It will only extract the items if §eall packages in a set are present§r.%n%nWhen both a Packager and Unpackager are connected to an ME Network and have the same recipe, the resulting item will appear as craftable in your §aTerminal§r.%n%nUp to 8 §3Packager Extensions§r can optionally be added to the Packager to speed up package creation. Place the Packager Extensions in a plane surrounding the Packager, creating a 3 by 3 structure with the Packager in the center when all 8 Packager Extensions are placed.
+omnifactory.quest.db.408.title=封包自动化
+omnifactory.quest.db.408.desc=§b封包自动化§r是§b应用能源2§r的附加模组。Its main purpose in §5Omnifactory§r is to allow you to automate extended crafting recipes.%n%nApplied Energistics 2 stores recipes in §aPatterns§r, but they are limited to at most 9 stacks of items (a standard 3x3 crafting grid). PackagedAuto stores recipes in §aPackage Recipe Holders§r, which don't have this limitation. Additionally, each Holder can store up to §e20 different recipes§r. Holders must be encoded in the §3Package Recipe Encoder§r.%n%nIn the vast majority of situations you'll need two identically-encoded Holders, as the following machines work together.%n%nThe §3Packager§r is a machine that compresses ingredients for a specific recipe into a set of §6Recipe Packages§r. Each package in a set can hold up to 9 stacks of ingredient items. A simple recipe might consist of one package, but a complex recipe can have up to 9 packages in its set (for 81 total item stacks).%n%nThe §3Unpackager§r is a machine that extracts ingredient items from complete sets of Recipe Packages made in a Packager, ejecting the items into an adjacent inventory. It will only extract the items if §eall packages in a set are present§r.%n%nWhen both a Packager and Unpackager are connected to an ME Network and have the same recipe, the resulting item will appear as craftable in your §aTerminal§r.%n%nUp to 8 §3Packager Extensions§r can optionally be added to the Packager to speed up package creation. Place the Packager Extensions in a plane surrounding the Packager, creating a 3 by 3 structure with the Packager in the center when all 8 Packager Extensions are placed.
 
 # db 409
 omnifactory.quest.db.409.title=初识能量
@@ -2019,8 +2019,8 @@ omnifactory.quest.db.493.title=Gap
 omnifactory.quest.db.493.desc=
 
 # db 494
-omnifactory.quest.db.494.title=Fluid Terminal
-omnifactory.quest.db.494.desc=This terminal allows you to interact with fluid storage on your ME Network, like §aFluid Storage Disks§r.%n%nPut fluids in or remove fluids via this terminal with any GUI-compatible container, by clicking on a fluid to fill it, or an empty space to drain into the network.%n%nIt's a micropart, so you need to place it on §6ME Cable§r (not a conduit).
+omnifactory.quest.db.494.title=流体终端
+omnifactory.quest.db.494.desc=这种终端允许你与ME网络中由§a流体存储元件§r等提供的流体存储进行交互。%n%n你可以使用任何兼容GUI的流体容器，通过点按的方式来存入或取出流体。%n%n流体终端属于微型构件，所以你需要为其接上§6ME线缆§r（不是导管）。
 
 # db 495
 omnifactory.quest.db.495.title=抽屉控制器
@@ -2959,12 +2959,12 @@ omnifactory.quest.db.728.title=谐振末影络合物
 omnifactory.quest.db.728.desc=§6晶质铀矿§r是§6脉动之尘§r的首个来源，但考虑到长远发展，你应该使用可无限再生且更加高效的§6谐振末影络合物§r来替代它。%n%n先使用§3流体提取机§r将§6末影珍珠§r熔炼成§9谐振末影珍珠§r，接着将其与§6下界石英§r在电压等级为中压或以上的§3化学反应釜§r中混合制成谐振末影络合物，最后只需在熔炉中烧炼这种物质即可得到脉动之尘。%n%n掌握了谐振末影络合物的制作方法后，你便能在一个净正面循环中对§6脉动聚合粘土§r进行自动化合成了。§r这将使得§b深度怪物学习§r的自动化受益匪浅，极大地裨益这一§e后续进程中许多关键材料的主要来源§r。%n%n具体如何实现全由你来决定。记得妥善利用手头上的各种低压与中压机器，并在§bJEI§r中查询对每种材料的来源进行自动化再生的方法，如使用§a末影人数据模型§r无限地生产末影珍珠。%n%n
 
 # db 729
-omnifactory.quest.db.729.title=Fluid Interface
-omnifactory.quest.db.729.desc=This is the fluid counterpart to the standard §aME Interface§r.%n%nFluids inserted into it are automatically digitized into the network, though it does have internal storage that can back up if you run out of space.%n%nYou can configure the interface to stock up to six different fluids (or for faster throughput later on, several tanks of the same fluid). You can use §aPump covers§r on §bGregTech§r machines to pull fluids from or extract fluids into an interface. This is useful for routing fluids if you're already using the output side for items or a different fluid.%n%nIt is also far more performant and scales better without lag than §aFluid Import/Export Buses§r.
+omnifactory.quest.db.729.title=流体接口
+omnifactory.quest.db.729.desc=这是§aME接口§r的流体版本。%n%n输入其中的流体将经过数字化并输入网络，而存储空间耗尽时，它也能作为一个备用的流体存储空间。%n%n你可以对接口进行配置，使其存储至多六种流体，或是用多个槽位来存储单种流体，以期达成更大的吞吐量。你可以在§b格雷科技§r的机器上加装§a泵（电动泵）覆盖板§r，通过流体接口从网络中提取流体或将流体输入网络。这种流体传输方式在输出面已被物品或其它流体占用的情况下作用显著。%n%n流体接口较§a流体输入/输出总线§r而言对性能影响较小，不易造成延迟。
 
 # db 730
-omnifactory.quest.db.730.title=Fluids and Autocrafting
-omnifactory.quest.db.730.desc=Working with fluids is a bit tricky. AE2 §aPatterns§r have no notion of fluids, meaning that you have to §ededicate separate machines to specific fluid combinations§r, ensuring they remain stocked.%n%nAE2 has a §aFluid Import Bus§r and §aFluid Export Bus§r, and this is the usual go-to for players experienced with AE2. A §aCapacity Card§r will let you export or import five specific chemicals through a single bus, which is enough for, say, §3Chemical Reactors§r. However, §cexcessive use of AE2 buses will cause lag§r.%n%nA better approach for §bGregTech§r machines is using a stocked §aFluid Interface§r and a §aPump§r or a §aFluid Regulator§r. This works almost identically to passive autocrafting with Robot Arms, and §aFluid Filters§r can allow routing specific fluids to adjacent machines. This method is much more performant, scaling without causing lag like buses. For machines from other mods, you can route fluids from a Fluid Interface with conduits.%n%n
+omnifactory.quest.db.730.title=流体与自动合成
+omnifactory.quest.db.730.desc=什么事一旦扯上流体，就会变得难搞。AE2的§a样板§r跟流体扯不上一点关系，也就是说你需要§e单独让一批机器专门去处理流体合成§r来确保资源储备。%n%nAE2拥有§a流体输入总线§r和§a流体输出总线§r，通常也是AE2老玩家的不二之选。§a容量卡§r使得单个总线能够承载五种特定流体的吞吐，对于§3化学反应釜§r等机器来说已然足够。但是，§c过量使用AE2总线将导致延迟§r。%n%n对于§b格雷科技§r的机器来说，更好的解决方案是使用§a流体接口§r，配上§a泵§r覆盖板或§a流体校准器§r覆盖板。它的工作方式与借助机械臂进行的被动自动化合成近乎一致，且§a流体过滤卡§r能对相邻机器的流体传输进行指定。这种方法对性能影响更小，同时不会用到总线，故不易造成延迟。对于其它模组的机器，你可以组合使用流体接口和导管来进行流体传输。%n%n
 
 # db 731
 omnifactory.quest.db.731.title=Fluid Logistics
@@ -3067,7 +3067,7 @@ omnifactory.quest.db.755.title=监工小帮手
 omnifactory.quest.db.755.desc=本整合包内含§b建筑小帮手§r模组。%n%n这些设备能帮助你对一大片区域进行建造、更替、破坏甚至复制粘贴操作——当然了，你得在物品栏里存好粘贴耗材，这些东西不是白来的。%n%n重要的一点是，这些操作是无法对方块实体（TileEntity）起效的，所以它基本上只对简单的方块有效，而不能用于机器之流。%n%n默认情况下，按住§6G§r键即可打开配置界面。
 
 # db 756
-omnifactory.quest.db.756.title=I Don't Like Chemistry
+omnifactory.quest.db.756.title=我不喜欢化学
 omnifactory.quest.db.756.desc=...or, well, you might just do some exploration and kill a wild thermal elemental for a rod.%n%nUse it to craft a §aThermal Elemental Model§r. The rest of the dusts can be crafted from pristine matter.%n%nSaves you from having to make a bucket of §9Elemental Reduction Fluid§r if you're not playing on Peaceful.
 
 # db 757
