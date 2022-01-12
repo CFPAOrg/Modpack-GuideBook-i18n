@@ -579,8 +579,8 @@ omnifactory.quest.db.133.title=The Third And Final Tier One Circuits
 omnifactory.quest.db.133.desc=With all the SMD components ready, you can start to churn out §6Refined Circuits§r. These are the best kind of Tier One circuits you can make, and you won't unlock the better recipes for quite a while.%n%nYou should absolutely automate the production of these circuits, and §ekeep a stockpile automatically crafted§r so you don't have to wait around for them or bloat your crafting orders making them on-demand through AE.
 
 # db 134
-omnifactory.quest.db.134.title=Plastic Substrate
-omnifactory.quest.db.134.desc=Better substrates. Using §6Polyvinyl Chloride§r (PVC) instead of §6Polyethylene§r (PE) doubles your yield.%n%nThe third material option is much more difficult to make and probably not worth considering for now.
+omnifactory.quest.db.134.title=塑料基板
+omnifactory.quest.db.134.desc=更好的基板。使用§6聚氯乙烯§r（PVC）来代替§6聚乙烯§r（PE）可使出产数量翻倍。%n%n第三种可选材料的制造难度颇高，现阶段不必考虑。
 
 # db 135
 omnifactory.quest.db.135.title=The Third Tier Two Circuits
@@ -2079,8 +2079,8 @@ omnifactory.quest.db.508.title=骑士史莱姆锭
 omnifactory.quest.db.508.desc= 
 
 # db 509
-omnifactory.quest.db.509.title=MV Lossless Cables
-omnifactory.quest.db.509.desc=§bEnderIO§r and §bThermal§r alloys are a bit more expensive than the normal wires, but they come with the huge advantage of being §elossless§r. Lossy cables like §6Tin§r and §6Copper§r will bleed out energy for every block they travel, but lossless ones do not.%n%nThe lossless cables for each tier are:%n%nLV - Conductive Iron Cables%nMV - Energetic Alloy Cables%nHV - Vibrant Alloy Cables%nEV - End Steel Cables%nIV - Lumium Cables%nLuV   - Signalum Cables%nZPMV - Enderium Cables%nUV     - Draconium Cables%nMaxV - Omnium Cables%n%nMV and higher cables are made in an §3Assembling Machine§r. They're made with liquid §9Rubber§r and §6Wires§r, plus a reusable §6Programmed Circuit§r that tells it what thickness of wire to make.%n%nYou can use Wires, and for these materials they'll conduct just as well as if they were covered. But they'll §ckill you if you touch them while power is passing through§r, so... yeah. Your call.
+omnifactory.quest.db.509.title=中压无线损线缆
+omnifactory.quest.db.509.desc=§b末影接口§r和§b热力§r合金的导线较一般导线略贵一些，但它们最为亮眼的优点恰恰在于§e无线损§r。§6锡§r或§6铜§r等材质的有线损线缆延伸的格数越长，损失的能量就越多，而无线损线缆则不会损失能量。%n%n对应每个电压等级的无线损线缆分别为：%n%n低压（LV）：导电铁线缆%n中压（MV）：充能合金线缆%n高压（HV）：振动合金线缆%n超高压（EV）：末地钢线缆%n强导压（IV）：流明线缆%n剧差压（LuV）：信素线缆%n零点压（ZPM）：末影线缆%n极限压（UV）：龙线缆%n上限压（MAX）：万象线缆%n%n中压及以上的线缆均在§3组装机§r中由§6导线§r、液态的§9橡胶§r，以及一块用于设定线缆粗细的可复用§6编程电路§r制造而成。%n%n仅使用导线完全可行，使用橡胶来绝缘导线，制成线缆也不会对性能造成损失，但未绝缘的导线§c一旦通电，接触到的生物会立即被电死§r，所以……对，你自己看着办吧。
 
 # db 510
 omnifactory.quest.db.510.title=Dew Of The Void
@@ -2967,8 +2967,8 @@ omnifactory.quest.db.730.title=流体与自动合成
 omnifactory.quest.db.730.desc=什么事一旦扯上流体，就会变得难搞。AE2的§a样板§r跟流体扯不上一点关系，也就是说你需要§e单独让一批机器专门去处理流体合成§r来确保资源储备。%n%nAE2拥有§a流体输入总线§r和§a流体输出总线§r，通常也是AE2老玩家的不二之选。§a容量卡§r使得单个总线能够承载五种特定流体的吞吐，对于§3化学反应釜§r等机器来说已然足够。但是，§c过量使用AE2总线将导致延迟§r。%n%n对于§b格雷科技§r的机器来说，更好的解决方案是使用§a流体接口§r，配上§a泵§r覆盖板或§a流体校准器§r覆盖板。它的工作方式与借助机械臂进行的被动自动化合成近乎一致，且§a流体过滤卡§r能对相邻机器的流体传输进行指定。这种方法对性能影响更小，同时不会用到总线，故不易造成延迟。对于其它模组的机器，你可以组合使用流体接口和导管来进行流体传输。%n%n
 
 # db 731
-omnifactory.quest.db.731.title=Fluid Logistics
-omnifactory.quest.db.731.desc=Your §3Chemical Reactors§r will be making a lot of different fluids. You'll need to manage the logistics of routing and storing all the different fluids you're automating.%n%nWherever possible, having one Chemical Reactor output directly into another machine that needs its output chemical saves you from having to figure out additional storage and routing. §aFluid Filters§r and §aPump covers§r are very useful for moving fluids around a compact processing pipeline.%n%nBut what about the final output fluids that you need elsewhere?%n%nOne option is to use the output tanks of the Chemical Reactors as a small storage buffer, letting it back up and stop crafting automatically. A §aFluid Storage Bus§r on the machine will expose the fluid to your ME Network. Whenever you need some of this fluid, your AE2 system will pull the needed fluid out and the machine will resume processing.%n%nThere's some catches with this approach though. First is that the inaccessible input tanks will also show up in AE but you won't be able to access them. You will want to set the Storage Bus to §eExport Only§r so AE doesn't try to store random fluids in the Chemical Reactor, and you may want to §ereduce the priority§r of the Storage Bus as well: this will signal to AE that you want it to remove fluids from that location first. Also, if multiple fluids are produced, §ethe machine will not resume processing if it doesn't have room for all fluid outputs§r.%n%nWhen you get access to them, it's probably just better to use single-fluid-formatted §aFluid Storage Cells§r and dump outputs into AE via Fluid Interfaces. You can fill up the cells, then pull the fluids out wherever else you need them.%n%n
+omnifactory.quest.db.731.title=流体运输
+omnifactory.quest.db.731.desc=§3化学反应釜§r将为你带来多种不同的流体。你需要对所有自动化生产的流体进行运输和存储管理。%n%n尽可能使一台化学反应釜的输出物直接供应给另一台需要该输出物的机器能使你从冗杂的存储与运输整理中解放出来，而§a流体过滤卡§r和§a泵覆盖板§r则非常适合在紧凑的处理流水线中转运流体。%n%n但是，需要运往别处的最终产品该如何是好呢？%n%n一种选择是将化学反应釜内部的输出槽视作一个小的后备缓存空间并在满载时自动停止合成。在机器上附着一个§a流体存储总线§r，在你的ME网络中显示机器内部的流体，接着AE2系统会在你需要时从机器中取出流体，机器本身也将恢复运作。%n%n然而这种方法存在一些潜层的问题。首先，机器输入槽的内容物也会被存储总线暴露在网络中，但无法进行交互。你需要将存储总线设置为§e仅取出§r模式以防AE随意将流体存入化学反应釜。§e下调存储总线的优先级§r也不失为一剂良方：这可以使得AE先行从中取出而非存入流体。另外，若产出的流体不止一种，§e若输出槽不足以容纳所有产出流体，机器仍不会恢复运作§r。%n%n条件允许的情况下，使用格式化为单种流体的§a流体存储单元§r并通过流体接口将产出的流体输入网络可能会是更好的选择。你可以将流体存入存储单元，并按需求供给出去。%n%n
 
 # db 732
 omnifactory.quest.db.732.title=Hard Carbon Alloy
