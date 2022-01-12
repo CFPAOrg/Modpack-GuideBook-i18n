@@ -1,6 +1,6 @@
 //Vanilla-OmniF overrides
 metaitem.circuit.energy_flow.name=晶体处理器
-metaitem.circuit.quantum_processor.name=§5晶体电路
+metaitem.circuit.quantum_processor.name=§5量子电路
 metaitem.circuit.nano_processor_assembly.name=纳米处理器
 metaitem.circuit.nano_processor.name=纳米电路
 metaitem.circuit.processor_assembly.name=微型处理器
