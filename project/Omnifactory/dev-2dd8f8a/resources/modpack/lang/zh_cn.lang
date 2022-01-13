@@ -62,6 +62,8 @@ omnifactory.econduit_signalum=信素能量导管
 omnifactory.econduit_enderium=末影能量导管
 omnifactory.econduit_draconium=龙能量导管
 omnifactory.econduit_superconductor=超导能量导管
+omnifactory.adv_cap_bank=进阶电容库
+omnifactory.ds_enchanter=玄钢附魔器
 
 //Thermal
 omnifactory.hammer_stone=石采矿锤
@@ -75,6 +77,12 @@ omnifactory.hammer_diamond=钻石采矿锤
 omnifactory.mana_infused_dust=蕴魔金属粉
 omnifactory.thermal_machine_casing=热力机器外壳
 omnifactory.thermal_device_casing=热力设备外壳
+omnifactory.mme_frame=微型开采器框架
+omnifactory.mme_core=微型开采器核心
+omnifactory.mme_frame_signalum=信素微型开采器框架
+omnifactory.mme_core_signalum=信素微型开采器核心
+omnifactory.mme_frame_enderium=末影微型开采器框架
+omnifactory.mme_core_enderium=末影微型开采器核心
 
 //Extended Crafting
 omnifactory.conflux_component=汇流合成组件
@@ -119,3 +127,8 @@ omnifactory.wrought_iron_plating=锻铁护甲板
 //Omnifactory misc
 omnifactory.misc.ae2facade=线缆伪装板
 omnifactory.misc.ae2facade.tooltip=大多数方块均可用以制造线缆伪装板，但为避免杂乱已从JEI中隐藏
+
+omnifactory.misc.hf=手动镶框！
+omnifactory.misc.hf.lore1=左上：侧面
+omnifactory.misc.hf.lore2=右上：边框
+omnifactory.misc.hf.lore3=正左：正面

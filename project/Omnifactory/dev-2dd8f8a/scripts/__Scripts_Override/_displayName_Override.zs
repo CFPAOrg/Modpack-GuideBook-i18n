@@ -1,11 +1,11 @@
-//覆盖部分被写死在原脚本中的显示名改动，方便通过 lang 进行本地化
-#norun
+// 覆盖部分被写死在原脚本中的显示名改动，方便通过 lang 进行本地化
+
 #priority -943943
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.mods.IMod;
 
-val ofsf = "omnifactory.";
+global ofsf = "omnifactory.";
 
 val DNMap as string[IItemStack] = {
     <actuallyadditions:block_misc:9> : "aluminium_casing",
@@ -85,7 +85,15 @@ val DNMap as string[IItemStack] = {
     <extendedcrafting:material:40> : "endest_star",
     <extendedcrafting:material:41> : "endest_nugget",
     <simplyjetpacks:metaitemmods:12> : "wrought_iron_plating",
-    <gregtech:turbine_casing:3> : "magnalium_turbine_casing"
+    <gregtech:turbine_casing:3> : "magnalium_turbine_casing",
+    <enderio:block_cap_bank:2> : "adv_cap_bank",
+    <thermalexpansion:frame:130> : "mme_frame",
+    <thermalexpansion:frame:146> : "mme_core",
+    <thermalexpansion:frame:131> : "mme_frame_signalum",
+    <thermalexpansion:frame:147> : "mme_core_signalum",
+    <thermalexpansion:frame:132> : "mme_frame_enderium",
+    <thermalexpansion:frame:148> : "mme_core_enderium",
+    <enderio:block_enchanter> : "ds_enchanter",
 };
 
 for item in DNMap{
@@ -93,7 +101,7 @@ for item in DNMap{
 }
 
 
-
+// JEICleanup.zs
 for item in loadedMods["appliedenergistics2"].items {
     if(item.displayName has game.localize(ofsf~"misc.ae2facade")) {
         if(item.displayName has game.localize(ofsf~"omnium_block")) {
