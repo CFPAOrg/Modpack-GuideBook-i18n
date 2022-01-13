@@ -99,16 +99,3 @@ val DNMap as string[IItemStack] = {
 for item in DNMap{
     item.displayName = game.localize(ofsf~DNMap[item]);
 }
-
-
-// JEICleanup.zs
-for item in loadedMods["appliedenergistics2"].items {
-    if(item.displayName has game.localize(ofsf~"misc.ae2facade")) {
-        if(item.displayName has game.localize(ofsf~"omnium_block")) {
-            item.addTooltip(format.darkAqua(game.localize(ofsf~"misc.ae2facade.tooltip")));
-        }
-        else {
-            mods.jei.JEI.hide(item); 
-        }
-    }
-}
