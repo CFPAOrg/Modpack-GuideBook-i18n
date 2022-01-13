@@ -2,6 +2,8 @@
 
 import crafttweaker.mods.IMod;
 
+val ofsf = "omnifactory.";
+
 for item in loadedMods["appliedenergistics2"].items {
     if(item.displayName has game.localize(ofsf~"misc.ae2facade")) {
         if(item.displayName has game.localize(ofsf~"omnium_block")) {

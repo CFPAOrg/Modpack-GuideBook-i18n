@@ -10,6 +10,8 @@ import crafttweaker.data.IData;
 import crafttweaker.formatting.IFormattedText;
 import mods.jei.JEI;
 
+global ofsf = "omnifactory.";
+
 val framingMaterial as IIngredient = <*>.only(function(stack as IItemStack) as bool {
     if(!stack.isItemBlock) {
         return false;

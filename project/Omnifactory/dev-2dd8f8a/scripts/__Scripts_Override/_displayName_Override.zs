@@ -5,7 +5,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.mods.IMod;
 
-global ofsf = "omnifactory.";
+val ofsf = "omnifactory.";
 
 val DNMap as string[IItemStack] = {
     <actuallyadditions:block_misc:9> : "aluminium_casing",
