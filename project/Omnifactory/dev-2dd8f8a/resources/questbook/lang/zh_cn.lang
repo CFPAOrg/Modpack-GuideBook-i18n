@@ -151,8 +151,8 @@ omnifactory.quest.db.26.title=玄钢锭
 omnifactory.quest.db.26.desc=§6钢§r与§6黑曜石§r的合金即为§6玄钢锭§r，许多§b末影接口§r和§b应用能源§r的机器都需要用到这种材料。%n%n§6煤晶§r在以后可代替黑曜石来制造玄钢。
 
 # db 27
-omnifactory.quest.db.27.title=LV Chemical Reactor
-omnifactory.quest.db.27.desc=The place for your very first chemical reactions, namely making some improved substrates.
+omnifactory.quest.db.27.title=低压化学反应釜
+omnifactory.quest.db.27.desc=第一场化学好戏——进阶基板诞生记，即将在这里上演。
 
 # db 28
 omnifactory.quest.db.28.title=脉动之尘
@@ -271,8 +271,8 @@ omnifactory.quest.db.56.title=统统合体
 omnifactory.quest.db.56.desc=机器供能，万事俱备，只欠组装。%n%n你的蒸汽能源炉在供给燃料（例如§6煤炭§r）和水后，便会开始运转并通过励磁线圈（顶端的红色部分）输出RF能量，使用§a新月锤§r可以依需求调整其朝向。%n%nRF能量可使用§6能量导管§r进行传输，而将能源炉的励磁线圈紧靠CEF也能直接对其输出能量。%n%nCEF可将RF能量转换为EU能量并通过带有红点的侧面进行输出，其朝向可由§a扳手§r调整。将你的§6导电铁线缆§r连接至CEF的输出面即可传出EU能量。%n%n现在，就差一些§b格雷科技§r的机器来接入线缆了！做哪种机器都可以，但这里推荐你先做这两种：%n%n能够极大简化线缆制作的§6线材轧机§r。%n%n能够只用一个而非两个锭就能制作一块板的§6压缩机§r。
 
 # db 57
-omnifactory.quest.db.57.title=Ender Fluid Conduits
-omnifactory.quest.db.57.desc=§aEnder Fluid Conduits§r are the most powerful fluid transportation mechanism offered by §bEnderIO§r.%n%nNot only are these faster than §aPressurized Fluid Conduits§r, but because they teleport fluids instead of flowing them in the conduits, it possible to have a large number of fluids moving through a single line.%n%nIn addition to §aFilters§r they also have multiple channels which can be used to direct fluids through the same conduits to various destinations.%n%nIf you don't want to (or haven't unlocked access to) routing fluids through §bAE§r, these are your best alternative.
+omnifactory.quest.db.57.title=末影流体导管
+omnifactory.quest.db.57.desc=§a末影流体导管§r是§b末影接口§r中最为强力的流体传输机件。%n%n这不仅仅是因为它那胜过§a加压流体导管§r的传输速度，更在于它传输流体的方式是“传送”而非“流动”，这使得在单条导管中流通数种流体成为了可能。%n%n除了可加装§a过滤器§r之外，这种导管更可以设置多个频道，以便在同一条导管中将流体输送至多个位置。%n%n如果你不想（或暂时不能）使用AE来进行流体运输，这种导管无疑是你的最佳备选。
 
 # db 58
 omnifactory.quest.db.58.title=低压能量存储
@@ -371,8 +371,8 @@ omnifactory.quest.db.81.title=Silicon Wafers
 omnifactory.quest.db.81.desc=§6Wafers§r are thin pieces of silicon cut from a §6Silicon Boule§r.%n%nTheir primary purpose is engraving §6Circuit Wafers§r.%n%nYou'll be needing huge amounts of these Wafers for circuits. Silicon Boules currently take a very long time to craft, so consider parallelizing the recipe in multiple §3EBF§rs and making a stockpile of them.
 
 # db 82
-omnifactory.quest.db.82.title=Phenol Coated Substrate
-omnifactory.quest.db.82.desc=§9Phenol§r is produced as a byproduct from making §6Coal Coke§r in a §3Pyrolyse Oven§r.%n%nThese boards will enable a much cheaper method of circuit production.
+omnifactory.quest.db.82.title=包上酚醛树脂的基板
+omnifactory.quest.db.82.desc=§9苯酚§r是在§3热解炉§r中制造§6焦煤§r时产出的副产物。%n%n这些基板将大大降低电路的造价。
 
 # db 83
 omnifactory.quest.db.83.title=MV Precision Laser Engraver
@@ -563,8 +563,8 @@ omnifactory.quest.db.129.title=SMD Diodes
 omnifactory.quest.db.129.desc=Next up are §6SMD Diodes§r, which are fairly simple.%n%nA §6Small Pile of Gallium Dust§r and four §6Fine Platinum Wire§r net you half a stack.
 
 # db 130
-omnifactory.quest.db.130.title=Annealed Copper
-omnifactory.quest.db.130.desc=§6Annealed Copper§r is made in the §3EBF§r by treating §6Copper§r with §9Oxygen§r. It has less power loss than regular Copper when used as a cable, and is also required for more advanced electronic components.
+omnifactory.quest.db.130.title=退火铜
+omnifactory.quest.db.130.desc=在§3电力高炉§r中使用§9氧§r处理§6铜§r而制得的§6退火铜§r可用于多种进阶电子元件的制造。同时，使用这种材料制成的线缆也具有比一般的铜更小的线损。
 
 # db 131
 omnifactory.quest.db.131.title=Polyvinyl Chloride
@@ -2059,8 +2059,8 @@ omnifactory.quest.db.503.title=玄色魂金锭
 omnifactory.quest.db.503.desc= 
 
 # db 504
-omnifactory.quest.db.504.title=Brewery
-omnifactory.quest.db.504.desc=Note: this quest accepts both LV and MV Brewery.%n%nYou can turn §6Plant Balls§r and other various §6sugary crops§r into §9Biomass§r with a §3Brewery§r. Biomass is the first step towards making Plastic in the form of §9Polyethylene§r.%n%nThe Brewery is a very very slow machine, but it requires almost no power. Building higher tier Breweries, or many LV ones, is necessary to brew enough Biomass for plastics.
+omnifactory.quest.db.504.title=酿造室
+omnifactory.quest.db.504.desc=注意：本任务同时接受低压和中压型号的酿造室。%n%nYou can turn §6Plant Balls§r and other various §6sugary crops§r into §9Biomass§r with a §3Brewery§r. Biomass is the first step towards making Plastic in the form of §9Polyethylene§r.%n%nThe Brewery is a very very slow machine, but it requires almost no power. Building higher tier Breweries, or many LV ones, is necessary to brew enough Biomass for plastics.
 
 # db 505
 omnifactory.quest.db.505.title=Ethanol
@@ -2071,8 +2071,8 @@ omnifactory.quest.db.506.title=Gap
 omnifactory.quest.db.506.desc=
 
 # db 507
-omnifactory.quest.db.507.title=Chlorine
-omnifactory.quest.db.507.desc=You'll need §9Chlorine§r at this point. It is an important ingredient in many chemical processes, and you primarily get it from electrolyzing either §6Salt§r or §6Rock Salt§r.
+omnifactory.quest.db.507.title=氯
+omnifactory.quest.db.507.desc=现在是需要§9氯§r的时候了。许多化学处理都需要这种重要的材料。电解§6盐§r或§6岩盐§r即可获得你的第一桶氯。
 
 # db 508
 omnifactory.quest.db.508.title=骑士史莱姆锭
