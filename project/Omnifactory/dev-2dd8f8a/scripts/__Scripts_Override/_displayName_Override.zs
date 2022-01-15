@@ -94,6 +94,20 @@ val DNMap as string[IItemStack] = {
     <thermalexpansion:frame:132> : "mme_frame_enderium",
     <thermalexpansion:frame:148> : "mme_core_enderium",
     <enderio:block_enchanter> : "ds_enchanter",
+    <modularmachinery:blockcontroller> : "mm_controller",
+    <extendedcrafting:trimmed:0> : "blacksteel_block",
+    <extendedcrafting:trimmed:1> : "blacksteel_block",
+    <extendedcrafting:trimmed:2> : "blacksteel_block",
+    <extendedcrafting:trimmed:3> : "blacksteel_block",
+    <extendedcrafting:trimmed:4> : "blacksteel_block",
+    <extendedcrafting:trimmed:5> : "blacksteel_block",
+    <gregtech:meta_item_1:15154> : "red_lens",
+    <gregtech:meta_item_1:15113> : "green_lens",
+    <gregtech:meta_item_1:15092> : "blue_lens",
+    <gregtech:meta_item_1:15214> : "draconium_lens",
+    <simplefluidtanks:wrench> : "mft_wrench",
+    <simplefluidtanks:tankitem> : "mft_block",
+    <simplefluidtanks:valveitem> : "mft_valve"
 };
 
 for item in DNMap{

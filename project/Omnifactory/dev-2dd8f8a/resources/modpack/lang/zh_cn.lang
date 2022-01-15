@@ -40,6 +40,10 @@ omnifactory.foh_zpm=流体输出仓（ZPM）
 omnifactory.foh_uv=流体输出仓（UV）
 omnifactory.foh_max=流体输出仓（MAX）
 omnifactory.magnalium_turbine_casing=镁铝合金涡轮外壳
+omnifactory.red_lens=红色透镜
+omnifactory.green_lens=绿色透镜
+omnifactory.blue_lens=蓝色透镜
+omnifactory.draconium_lens=龙透镜
 
 //EnderIO
 omnifactory.ds_helmet=玄钢头盔
@@ -97,12 +101,18 @@ omnifactory.omnium_block=万象块
 omnifactory.endest_block=终末星块
 omnifactory.endest_star=终末之星
 omnifactory.endest_nugget=终末星粒
+omnifactory.blacksteel_block=黑钢块
 
 //ArmorPlus
 omnifactory.cp_helmet=碳装甲头盔
 omnifactory.cp_chestplate=碳装甲胸甲
 omnifactory.cp_leggings=碳装甲护腿
 omnifactory.cp_boots=碳装甲靴子
+
+//Simple Fluid Tanks
+omnifactory.mft_wrench=多方块流体储罐扳手
+omnifactory.mft_block=多方块流体储罐方块
+omnifactory.mft_valve=多方块流体储罐阀门
 
 //Advanced Rocketry
 omnifactory.fueling_station=燃油站
@@ -132,3 +142,16 @@ omnifactory.misc.hf=手动镶框！
 omnifactory.misc.hf.lore1=左上：侧面
 omnifactory.misc.hf.lore2=右上：边框
 omnifactory.misc.hf.lore3=正左：正面
+
+omnifactory.blacksteel_block.tooltip=缀饰：万象
+
+omnifactory.ncfluid.1=共晶
+omnifactory.ncfluid.2=熔融枯竭
+omnifactory.ncfluid.3=TBU
+omnifactory.ncfluid.4=氟化
+omnifactory.ncfluid.5=氟锂铍
+
+//Deprecating
+omnifactory.mm_controller=模块化机器控制器
+omnifactory.mm_controller.tooltip1=模块化机器将在后续更新中被移除。
+omnifactory.mm_controller.tooltip2=请转而使用格雷科技的多方块机器。（在JEI中搜索“@multiblock”）
