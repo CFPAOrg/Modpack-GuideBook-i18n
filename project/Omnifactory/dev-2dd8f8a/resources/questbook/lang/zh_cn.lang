@@ -251,8 +251,8 @@ omnifactory.quest.db.51.title=压印器
 omnifactory.quest.db.51.desc=§3压印器§r是一台用以制造§b应用能源§r中§6压印电路§r的机器。
 
 # db 52
-omnifactory.quest.db.52.title=LV Cluster Mill
-omnifactory.quest.db.52.desc=Before you get access to easier circuits, you will need to be able to make §6Foils§r.%n%nThat's the purpose of the §3Cluster Mill§r.
+omnifactory.quest.db.52.title=低压多辊式轧机
+omnifactory.quest.db.52.desc=更易于制作的电路要求你具备§6箔§r的制造能力。%n%n§3多辊式轧机§r的目的正在于此。
 
 # db 53
 omnifactory.quest.db.53.title=低压线材轧机
@@ -359,12 +359,12 @@ omnifactory.quest.db.78.title=镓
 omnifactory.quest.db.78.desc=将§6含杂闪锌矿粉§r扔进炼药锅得到§6闪锌矿粉§r，随后将其放入电解机进行电解即可获得§6镓§r。这一步骤中同时产出的§6锌§r和§6硫§r则同样用处多多。§6闪锌矿矿石§r生成于§6锌§r矿脉。%n%n可以使用§3离心机§r代替炼药锅来处理含杂粉，虽解放了双手，但速度较慢，还需要耗电，然而通过离心含杂闪锌矿粉所产出的镓要比炼药锅更多。%n%n如果任务死活完不成，看看你是不是把§6小堆粉§r当成§6小撮粉§r在手里握着了。如果真是的话，将四份小堆粉合成为整堆的粉再拆分为九份小撮粉即可。§3合成站§r可以帮助你快速转换粉的各个形式。
 
 # db 79
-omnifactory.quest.db.79.title=MV Cutting Machine
-omnifactory.quest.db.79.desc=Cuts things up.%n%nThe §3Cutting Machine§r is able to cut wafers, rods, wood, and various other things for you, making it a versatile crafting tool. Cutting blocks into 9 plates is much faster than using a §3Compressor§r to make them one at a time, and some plates can't be made in a Compressor at all.%n%nThe blade will require you to make §6Cobalt Brass§r. §6Cobalt§r is a byproduct obtained (likely first as tiny piles) from processing any of various ores, §6Zinc§r you should have already from electrolyzing §6Sphalerite§r, and the other materials are just §6Copper§r and §6Aluminium§r. If you're having trouble, keep in mind that §bJEI§r has a tab for ore processing byproducts that you can get to by looking up recipes for the regular-sized dust.%n%nCutting Machines work with plain §9Water§r for all recipes. You can also use §9Distilled Water§r which speeds up the processing somewhat, or §9Lubricant§r that speeds it up greatly (and uses very little per operation). These might be a little tricky to make right now, but are very worthwhile upgrades in the future.%n%nYou might consider waiting until you have §6Electronic Processors§r before progressing too far down the path of MV machines, since these circuits are much easier to make than §6Primitive Processors§r.
+omnifactory.quest.db.79.title=中压切割机
+omnifactory.quest.db.79.desc=切东西用的。%n%n§3切割机§r能帮助你切割晶圆、杆、木头等一众物品，不失为一种全能的合成工具。把方块切成9块板可比用§3压缩机§r一个一个地压快多了，更何况有些板压根没法用压缩机来做。%n%n你需要§6钴黄铜§r来制作切割机的锯片。§6钴§r是处理多种矿石时（一开始很可能会是以小撮粉的形式）产出的副产物，而§6锌§r，你应该早就通过电解§6闪锌矿§r获得到了。至于其它材料，也不过是§6铜§r和§6铝§r两位老朋友。如果你遇到了什么困难，一定要记得参看§bJEI§r里展示矿石副产物的标签页，查询粉的配方就能看到。%n%n普通的§9水§r便能用于所有的切割机配方。你也可以使用§9蒸馏水§r来或多或少地提升一点处理速度，而§9润滑油§r对处理速度的裨益最大，并且单次处理的消耗量非常少。制造这些流体在目前可能有些不好下手，但在将来却十分值当。%n%n你可能会考虑等有了§6电子处理器§r再继续制造中压等级的机器，毕竟这一类电路的制造难度要大大低于§6低等处理器§r。
 
 # db 80
-omnifactory.quest.db.80.title=Silicon Boules
-omnifactory.quest.db.80.desc=A hefty amount of §6Silicon Dust§r and a pinch of §6Gallium§r cooked in an §3EBF§r will net you a §6Silicon Boule§r, the starting point for §6Circuit Wafers§r.%n%nMake sure your power system is up to the task. These take a long time to process so you'll need a significant amount of energy to safely complete the job.
+omnifactory.quest.db.80.title=单晶硅
+omnifactory.quest.db.80.desc=把一大堆§6硅粉§r和一小撮§6镓§r放进§3电力高炉§r里烧炼，便可以得到§6电路晶圆§r的起点——§6单晶硅§r。%n%n保证供能系统能够负担得起机器的长时间运转是第一要务。为了平稳完成这项处理工作，你需要储备大量的能源。
 
 # db 81
 omnifactory.quest.db.81.title=Silicon Wafers
@@ -375,8 +375,8 @@ omnifactory.quest.db.82.title=包上酚醛树脂的基板
 omnifactory.quest.db.82.desc=§9苯酚§r是在§3热解炉§r中制造§6焦煤§r时产出的副产物。%n%n这些基板将大大降低电路的造价。
 
 # db 83
-omnifactory.quest.db.83.title=MV Precision Laser Engraver
-omnifactory.quest.db.83.desc=A §3Precision Laser Engraver§r is used to engrave circuits onto §6Wafers§r.%n%nThe type of circuit will depend on the kind of wafer used and which §aLens§r is in the machine.
+omnifactory.quest.db.83.title=中压精密激光蚀刻机
+omnifactory.quest.db.83.desc=§3精密激光蚀刻机§r用于将§6晶圆§r蚀刻为电路。%n%n电路的种类由晶圆种类以及机器中加装的§a透镜§r种类所决定。
 
 # db 84
 omnifactory.quest.db.84.title=Circuit Wafers
@@ -395,8 +395,8 @@ omnifactory.quest.db.87.title=The Second Tier Two Circuits
 omnifactory.quest.db.87.desc=Three §6Electronic Circuits§r and various other components will create an §6Electronic Processor§r.
 
 # db 88
-omnifactory.quest.db.88.title=Lenses
-omnifactory.quest.db.88.desc=You'll need a variety of §alenses§r for use in §3Precision Laser Engravers§r, all of which are made in the §3Autoclave§r.%n%nInitially you'll need a §aRed Lens§r, a §aDiamond Lens§r, and a §aGlass Lens§r.%n%nRed Lenses can be made from §6Ruby§r, or alternately with Almandine, Red Garnet, Jasper or Rutile.%n%nThe other two lenses should be self-evident.%n%n
+omnifactory.quest.db.88.title=透镜
+omnifactory.quest.db.88.desc=§3精密激光蚀刻机§r需要用到各种各样使用§3高压釜§r制造而成的§a透镜§r。%n%n一开始，你需要一个§a红色透镜§r、一个§a钻石透镜§r和一个§a玻璃透镜§r。%n%n红色透镜的制作材料为§6红宝石§r，同时也可以使用铁铝榴石、红石榴石、碧玉或金红石来制作。%n%n其余两种透镜的制作材料则正如名字所示。%n%n
 
 # db 89
 omnifactory.quest.db.89.title=The First Tier Three Circuits
@@ -987,8 +987,8 @@ omnifactory.quest.db.235.title=Primal Mana
 omnifactory.quest.db.235.desc=Melting §6Mana Dust§r in a §3Fluid Extractor§r produces §9Primal Mana§r, which is needed for smelting various alloys from §bThermal Expansion§r.
 
 # db 236
-omnifactory.quest.db.236.title=Transistor
-omnifactory.quest.db.236.desc=§6Transistors§r are semiconductors that can amplify or switch electrical signals and power. They're probably one of the most important inventions of the 20th century.%n%nYou're going to use them as a component for better circuits. This one is a bit pricey, requiring §6Aluminium Foil§r and §6Fine Silver Wire§r.
+omnifactory.quest.db.236.title=晶体管
+omnifactory.quest.db.236.desc=§6晶体管§r是一种能够扩大或切换电信号及电能的半导体。这可能是20世纪最重要的发明之一了。%n%n你将会使用它们来制造更好的电路。小小一粒，造价可不便宜，耗材包括足足四张§6铝箔§r和三盘§6细银导线§r。
 
 # db 237
 omnifactory.quest.db.237.title=陨石猎手
@@ -2207,8 +2207,8 @@ omnifactory.quest.db.540.title=MV Extruder
 omnifactory.quest.db.540.desc=The §3Extruder§r is an alternative way to form shapes from metal. §aExtruder Shapes§r are used for telling an Extruder which shape to make.%n%nExtruders are the only way to make certain things, like §6Large Pipes§r. Extruders use ingots, but are as efficient for making §6Gears§r as melting and solidifying.%n%nYou can also use Extruders to make things from other machines like plates and wires, but they are less efficient than using the dedicated machines for these purposes.
 
 # db 541
-omnifactory.quest.db.541.title=More Blast Furnaces
-omnifactory.quest.db.541.desc=Overclocking aside, as you continue to progress in §5Omnifactory§r, materials made in the §3Electric Blast Furnace§r will take longer to complete. §eMore advanced coils do not give speed bonuses§r, only allowing for the furnace to §eget hot enough to process more advanced materials§r.%n%nConsequently, you'll need to continually expand your smelting and power generation infrastructure.%n%nYou don't have to get all four of these Electric Blast Furnaces completed and running just yet, but be prepared to make many of them over the course of the pack.
+omnifactory.quest.db.541.title=更多高炉
+omnifactory.quest.db.541.desc=暂且不论超频，随着§5全能工厂§r之旅的愈行愈远，在§3电力高炉§r中处理材料的耗时也将越来越久。§e更高级的线圈并不会带来速度上的加成§r，它们唯一的作用只局限于§e为进阶材料的处理提供更高的炉温§r。%n%n因此，你便需要不断拓展自己的熔炼与产能基建。%n%n你并不非得急着把这四台电力高炉统统搭建出来再运转起来，但你必须得为整合包进程中对电力高炉的大量制造做好准备。
 
 # db 542
 omnifactory.quest.db.542.title=Soul Binder
