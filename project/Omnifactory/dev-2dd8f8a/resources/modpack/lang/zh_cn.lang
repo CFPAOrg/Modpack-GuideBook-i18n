@@ -135,8 +135,8 @@ omnifactory.nether_star_north=下界之星北芒
 omnifactory.wrought_iron_plating=锻铁护甲板
 
 //Omnifactory misc
-omnifactory.misc.ae2facade=线缆伪装板
-omnifactory.misc.ae2facade.tooltip=大多数方块均可用以制造线缆伪装板，但为避免杂乱已从JEI中隐藏
+omnifactory.ae2facade=线缆伪装板
+omnifactory.ae2facade.tooltip=大多数方块均可用以制造线缆伪装板，但为避免杂乱已从JEI中隐藏
 
 omnifactory.misc.hf=手动镶框！
 omnifactory.misc.hf.lore1=左上：侧面
@@ -151,7 +151,13 @@ omnifactory.ncfluid.3=TBU
 omnifactory.ncfluid.4=氟化
 omnifactory.ncfluid.5=氟锂铍
 
+omnifactory.drillcore.tooltip1=在失落的城市建筑或原版地牢中探索获得。
+omnifactory.drillcore.tooltip2=亦可使用全能币购得。
+
 //Deprecating
+omnifactory.obsolete=本物品已废弃，即将在后续更新中被移除。
 omnifactory.mm_controller=模块化机器控制器
 omnifactory.mm_controller.tooltip1=模块化机器将在后续更新中被移除。
 omnifactory.mm_controller.tooltip2=请转而使用格雷科技的多方块机器。（在JEI中搜索“@multiblock”）
+omnifactory.endstonedust.tooltip=请转而使用格雷科技的末地石粉。
+omnifactory.pulsatingwire.tooltip=请转而使用格雷科技的脉冲铁导线。
