@@ -42,12 +42,6 @@ item.contenttweaker.primalair.name=原始大气精华
 item.contenttweaker.primalwater.name=原始水之精华
 item.contenttweaker.primallife.name=原始生命精华
 
-item.contenttweaker.essentianeedle.name=Essentia Needle
-item.contenttweaker.runedessentianeedle.name=Runed Essentia Needle
-item.contenttweaker.ornateessentianeedle.name=Ornate Essentia Needle
-item.contenttweaker.woodenmortar.name=Wooden Mortar
-item.contenttweaker.blockofleaddust.name=Block of Lead Dust
-
 fluid.quicksilver=水银
 fluid.aether=以太
 fluid.brimstone=硫磺
@@ -222,12 +216,12 @@ item.contenttweaker.sixtyfoursmore.name=六十四层饼干夹烤棉花糖
 
 item.contenttweaker.hand_framing_tool.name=手动镶框工具
 
-item.contenttweaker.hand_framing_tool.desc1=Frame your tools by hand!
-item.contenttweaker.hand_framing_tool.desc2=The Hand Framing Tool lets you frame drawers already placed in the world.
-item.contenttweaker.hand_framing_tool.desc3=To do this, the tool itself needs to be framed in a crafting table. See the item's crafting table recipes in JEI.
-item.contenttweaker.hand_framing_tool.desc4=Then, once the tool is framed, right clicking any drawers in-world will frame them.
-item.contenttweaker.hand_framing_tool.desc5=Optionally, the tool can be filled with sticks using the crafting table recipe. Up to a stack of sticks will be consumed from each slot.
-item.contenttweaker.hand_framing_tool.desc6=The tool can then be used to convert existing unframed drawers into framed drawers, consuming 8 sticks to do so.
+item.contenttweaker.hand_framing_tool.desc1=动动双手即可为抽屉镶框！
+item.contenttweaker.hand_framing_tool.desc2=手动镶框工具使你能够为已放置在世界中的抽屉进行镶框。
+item.contenttweaker.hand_framing_tool.desc3=在为抽屉镶框之前，需要先行在工作台中为镶框工具装载镶框设置。可通过JEI中的配方了解详情。
+item.contenttweaker.hand_framing_tool.desc4=手持装载了镶框设置的工具右击任意已放置于世界中的镶框抽屉即可对其应用镶框设置。
+item.contenttweaker.hand_framing_tool.desc5=你也可以在工作台中为镶框工具装填木棍，每个工作台槽位所容纳的所有木棍（至多一组）均可通过合成来填入工具。
+item.contenttweaker.hand_framing_tool.desc6=装有木棍的镶框工具可消耗8根木棍并将一个未镶框的抽屉转换为镶框抽屉。
 
 item.contenttweaker.pulsatingdust.name=脉动之尘
 item.contenttweaker.pulsatingmesh.name=脉动网格
