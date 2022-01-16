@@ -79,7 +79,6 @@ val DNMap as string[IItemStack] = {
     <extendedcrafting:singularity_ultimate> : "omnium_mote",
     <extendedcrafting:material:33> : "omnium_nugget",
     <extendedcrafting:material:32> : "omnium_ingot",
-    <extendedcrafting:storage:4> : "omnium_block",
     <cns:star_fragment> : "nether_star_north",
     <extendedcrafting:storage:6> : "endest_block",
     <extendedcrafting:material:40> : "endest_star",
