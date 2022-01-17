@@ -263,8 +263,8 @@ omnifactory.quest.db.54.title=Quantum Eyes
 omnifactory.quest.db.54.desc=When §6Ender Eyes§r just aren't creepy enough.%n%nYou'll need an HV or better §3Chemical Bath§r to make these. The recipe is quite slow, so invest in the highest tier Chemical Baths you can and consider parallelizing the recipe.
 
 # db 55
-omnifactory.quest.db.55.title=Centrifuge
-omnifactory.quest.db.55.desc=Note: this quest accepts an LV, MV or HV Centrifuge.%n%n§3Centrifuges§r provide you with 3 tiny piles of additional materials when processing ore dusts (§e9 tiny piles = 1 dust§r). Sometimes it's the main dust, but often it's a different useful material that is otherwise unobtainable.%n%nInstead of washing §6impure dusts§r (made from macerating or hammering ores) in a cauldron, you can get more out of each dust by centrifuging it. The same is true of §6pure dusts§r, when you eventually make a §3Washer§r or §3Chemical Bath§r. Note however that pure and impure dusts will usually give different byproducts (always check in §bJEI§r).%n%nCentrifuges also have other uses like unmixing compound dusts and fluids, or getting §6Rubber Pulp§r, which can be chemically reacted with §6Sulfur§r to efficiently make §9liquid Rubber§r.%n%n
+omnifactory.quest.db.55.title=离心机
+omnifactory.quest.db.55.desc=注意：本任务同时接受低压、中压及高压型号的离心机。%n%n§3离心机§r能够将矿粉分离为1份粉与额外的3份小撮粉（§e9份小撮粉=1份粉§r）。这些额外的小撮粉可能会与被处理的粉属于同一种类，但更多数的情况下则会是另一种无法通过其它途径获取的实用材料。%n%n相较于在炼药锅中清洗§6含杂粉§r（产于研磨机或格雷科技的锤）或§6纯净粉§r（产于§3洗矿厂§r或§3化学浸洗机§r），离心的处理手段无疑提升了每份粉的产物收益，但需要留心的是，纯净粉与含杂粉的副产物往往不尽相同，所以一定要时刻查询§bJEI§r。%n%n除上述之外，离心机也有一些其它用处，诸如分离化合物粉和流体，以及生产用以与§6硫§r反应制成液态§9橡胶§r的§6生橡胶浆§r。%n%n
 
 # db 56
 omnifactory.quest.db.56.title=统统合体
@@ -367,8 +367,8 @@ omnifactory.quest.db.80.title=单晶硅
 omnifactory.quest.db.80.desc=把一大堆§6硅粉§r和一小撮§6镓§r放进§3电力高炉§r里烧炼，便可以得到§6电路晶圆§r的起点——§6单晶硅§r。%n%n保证供能系统能够负担得起机器的长时间运转是第一要务。为了平稳完成这项处理工作，你需要储备大量的能源。
 
 # db 81
-omnifactory.quest.db.81.title=Silicon Wafers
-omnifactory.quest.db.81.desc=§6Wafers§r are thin pieces of silicon cut from a §6Silicon Boule§r.%n%nTheir primary purpose is engraving §6Circuit Wafers§r.%n%nYou'll be needing huge amounts of these Wafers for circuits. Silicon Boules currently take a very long time to craft, so consider parallelizing the recipe in multiple §3EBF§rs and making a stockpile of them.
+omnifactory.quest.db.81.title=硅晶圆
+omnifactory.quest.db.81.desc=§6晶圆§r是切自§6单晶硅§r的薄片。%n%n蚀刻§6电路晶圆§r是这种材料的主要用途。%n%n你需要准备巨量的晶圆用以制造电路。目前，单晶硅的处理需要耗费大量时间，因此，使用多台§3电力高炉§r同时进行处理，借以储备足量的单晶硅是一个值得考虑的选择。
 
 # db 82
 omnifactory.quest.db.82.title=包上酚醛树脂的基板
@@ -791,8 +791,8 @@ omnifactory.quest.db.186.title=Carbon Fibers
 omnifactory.quest.db.186.desc=§6Carbon Fibers§r are useful for a variety of things.%n%nTo make them, you should use an §3HV Autoclave§r or better to ensure a 100%% chance of producing them, as they are a chanced output with a base success rate of 85%% at MV.
 
 # db 187
-omnifactory.quest.db.187.title=MV Energy Input And MV CEF
-omnifactory.quest.db.187.desc=With §6Aluminium§r, you can replace the two §aLV Energy Input Hatches§r on your Electric Blast Furnace with a single MV one, if you want. When you're ready to move on to HV recipes in the EBF, you'll want to move up to HV Energy Input Hatches, and so on.%n%nHowever, remember to keep the MV area separate from your LV area. §eHooking up an LV machine to MV current will result in the machine being destroyed! Also LV cables will burn up if you put MV current through them§r. That's why it's probably best to keep the areas separate until you're comfortable and confident with voltages. Eventually you can use transformers to switch voltages within a single setup, but don't feel forced to try that until you've got a grasp on the basics.%n%nAll RF power is the same (it has no voltages), so you can use RF conduits to route power from wherever you're generating and storing it to §3CEFs§r for each voltage. You don't have to use this setup, but it's the most foolproof one for a beginner. And if you're an expert, well... you don't need my advice.%n%nFor your MV cables, you can use §6Copper§r to start with. §6Energetic Alloy cables§r are lossless though, so consider them if you're able to mass produce those ingots.
+omnifactory.quest.db.187.title=中压能源仓与中压CEF
+omnifactory.quest.db.187.desc=有§6铝§r，你就可以用一台中压的能源仓换掉电力高炉上的两台§a能源仓（LV）§r了。以后如果准备好处理高压的配方了，那么就把中压的能源仓换成高压的，更高的电压等级也是一样的道理。%n%n但一定要记得把中压的区域和低压区域分隔开来。§e连通中压电的低压机器会被毁坏，线缆亦然！§r。这也是分隔各电压区域的原因所在，除非你已经对电压的掌握胸有成竹。往后你可以使用变压器在弹指间转换电压，但在此之前，先牢抓基础知识，切忌本末倒置。%n%nRF能量没有电压等级之分，所以你可以使用RF导管将产出的RF能量运往各个电压等级的§3CEF§r中贮存起来。必须这么做吗？并不是，但这种方法对于新手防呆来说效果显著。要是你已经足够老练了，行吧……当我没说过。%n%n§6铜§r线缆会是一种很适合起手的中压线缆，而§6充能合金线缆§r则是这一电压等级中无线损的一种，如果材料产量扛得住，不妨一试。
 
 # db 188
 omnifactory.quest.db.188.title=Epoxy Substrate
@@ -2227,8 +2227,8 @@ omnifactory.quest.db.545.title=强化背包
 omnifactory.quest.db.545.desc=装得§o更多更多§r。
 
 # db 546
-omnifactory.quest.db.546.title=I Don't Need No Stinkin' Tower
-omnifactory.quest.db.546.desc=Note: this quest accepts both LV and MV Distillery.%n%nIf you don't feel up to making a §3Distillation Tower§r just yet, you can get §9Ethanol§r via a single block §3Distillery§r, a machine that gets one fluid output per §6Integrated Circuit§r configuration, while the §3Distillation Tower§r gives all possible outputs for the input fluid. This defers the tower for a little while longer.%n%nHowever, the Distillation Tower is mandatory for advanced chemistry, as most things have more than one important output: §9Fermented Biomass§r, §9Charcoal Byproducts§r from your §3Pyrolyse Oven§r, and the entire line of petrochemicals from §9Oil§r, to name a few.%n%nCan't avoid it forever!%n%n
+omnifactory.quest.db.546.title=我不想要那根臭气熏天的大柱子
+omnifactory.quest.db.546.desc=注意：本任务同时接受低压和中压的蒸馏室。%n%n如果你现在还不想搭建§3蒸馏塔§r，一台单方块的§3蒸馏室§r对于生产§9乙醇§r来说也足够了。然而，这种单方块机器仅能依照§6编程电路§r的配置选择性地产出一种流体，而§3蒸馏塔§r则能够将所有可能的流体尽数产出，而这一优势也使得它并不会早早地被你收入囊中。%n%n话说回来，虽然存在替代方案，但蒸馏塔对于进阶的化学处理来说依然是不可或缺的，毕竟§9发酵生物质§r、产自§3热解炉§r的§9木炭副产§r，以及由§9石油§r处理出的所有石化产物等等大多数的流体能够蒸馏出的重要产物往往不止一种。%n%n躲得过初一，躲不过十五！%n%n
 
 # db 547
 omnifactory.quest.db.547.title=扫描模块：方块
@@ -2255,7 +2255,7 @@ omnifactory.quest.db.552.title=铅石飞行背包
 omnifactory.quest.db.552.desc=在天上自由飞翔，帅是真的帅，贵也是真的贵。%n%n现在就想着§6飞行背包§r确实有点天真了，但要是你诚心想做一个，那就做呗。%n%n§b末影接口§r的飞行背包也有一条对应的任务线，从§6导电铁飞行背包§r开始。两条线都是需要完成的，但用不了太久，所以你大可不必两头兼顾，除非你真的真的很喜欢在天上飞。%n%n如果§6飞行背包§r的信息总览和§bThe One Probe§r的信息框在显示上冲突了，你可以在§b简单飞行背包2§r的§e配置文件§r及使用§6/topcfg§r命令打开的设置界面中分别调整两者的位置。
 
 # db 553
-omnifactory.quest.db.553.title=硬化飞行背包。
+omnifactory.quest.db.553.title=硬化飞行背包
 omnifactory.quest.db.553.desc=更好的飞行体验。
 
 # db 554
