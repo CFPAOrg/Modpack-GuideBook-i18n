@@ -56,7 +56,7 @@ omnifactory.quest.db.2.desc=Note: this quest accepts both LV and MV Canning Mach
 
 # db 3
 omnifactory.quest.db.3.title=起始
-omnifactory.quest.db.3.desc=欢迎来到§5全能工厂§r！%n%n本整合包应在§b失落的城市§r或§b主世界§r维度中进行游玩。%n%n在多人游戏中，别忘了将你的朋友邀请至§e任务队伍§r。%n%n将§6虚空世界蛋糕§r放置在地面，右击食用即可传送至空岛世界中搭建你的基地，但请注意，尽管§e虚空世界§r提供了绝对安全的建筑环境，你仍需返回失落的城市或主世界维度方能采掘到矿物资源。
+omnifactory.quest.db.3.desc=欢迎来到§5全能工厂§r！%n%n本整合包应在§b失落的城市§r或§b主世界§r维度中进行游玩。%n%n在多人游戏中，别忘了将你的朋友邀请至§e任务队伍§r。%n%n将§6虚空世界蛋糕§r放置在地面，右击食用即可传送至空岛世界中搭建你的基地，但请注意，尽管§e虚空世界§r提供了绝对安全的建筑环境，你仍需返回失落的城市或主世界维度方能采掘到矿物资源。%n%n这份汉化由CFPA的§bModpack-GuideBook-i18n§r整合包汉化项目为你呈现。汉化文件内包含了§bTooltip Injector§r与§bWrapFix§r模组，§e若发现物品信息提示仍为英文，或少部分任务描述存在错误字符，请检查这些模组是否位于mods文件夹内§r。
 
 # db 4
 omnifactory.quest.db.4.title=铁资源储备
@@ -327,8 +327,8 @@ omnifactory.quest.db.70.title=MV Power Storage
 omnifactory.quest.db.70.desc=§aMV Batteries§r function essentially the same as §aLV Batteries§r, only stronger. They also need to be put into an §3MV CEF§r or §3MV Battery Buffer§r.
 
 # db 71
-omnifactory.quest.db.71.title=MV Electrolyzer
-omnifactory.quest.db.71.desc=An §3MV Electrolyzer§r allows you to process recipes that require up to 128 EU/t, and can optionally overclock recipes costing at most 32 EU/t.%n%nThis means you can split more kinds of things for useful products.%n
+omnifactory.quest.db.71.title=中压电解机
+omnifactory.quest.db.71.desc=中压等级的§3进阶电解机§r最高能够处理功率要求为128 EU/t的配方，亦可超频处理功率要求在32 EU/t及以下的配方。%n%n这意味着你可以将更多的材料电解为各种实用产物了。%n
 
 # db 72
 omnifactory.quest.db.72.title=低压组装机
@@ -2423,7 +2423,7 @@ omnifactory.quest.db.594.title=微宇宙锭
 omnifactory.quest.db.594.desc= 
 
 # db 595
-omnifactory.quest.db.595.title=Mana Infused Ingots
+omnifactory.quest.db.595.title=蕴魔秘银锭
 omnifactory.quest.db.595.desc= 
 
 # db 596
@@ -2447,7 +2447,7 @@ omnifactory.quest.db.600.title=玛玉灵锭
 omnifactory.quest.db.600.desc= 
 
 # db 601
-omnifactory.quest.db.601.title=Magnalium Ingots
+omnifactory.quest.db.601.title=镁铝合金锭
 omnifactory.quest.db.601.desc= 
 
 # db 602
@@ -2479,8 +2479,8 @@ omnifactory.quest.db.608.title=Superconductor Wire
 omnifactory.quest.db.608.desc=Coating §6Draconium Wire§r with §9Molten Nether Star§r and freezing it solid results in a superconductive material capable of transmitting enormous amounts of energy.%n%nThese wires losslessly transmit "MAX" tier, which is effectively infinite transfer rate. This means they will work for any tier of power. 1x wires handle 4 amps, meaning 4x wires can handle 16 amps.%n%nThese can also be made into RF conduits that can transmit a whopping 134 Million RF/t.
 
 # db 609
-omnifactory.quest.db.609.title=Reinforced Upgrade Kit
-omnifactory.quest.db.609.desc=Provides more augment slots to machines and dynamos.%n%nDynamos operate at §a250%% of base power and fuel burn rate§r.%n%nTanks hold §a450 buckets§r.%n%nMachines operate at §a250%% of base speed.
+omnifactory.quest.db.609.title=强化升级套件
+omnifactory.quest.db.609.desc=为机器和能源炉提供更多的升级槽位。%n%n能源炉的§a产能功率和耗材速率将达到基础值的250%%§r。%n%n储罐的最大容量将提升至§a450桶§r。%n%n机器的§a运作速度将提升150%%。
 
 # db 610
 omnifactory.quest.db.610.title=Ferroboron
@@ -3068,7 +3068,7 @@ omnifactory.quest.db.755.desc=本整合包内含§b建筑小帮手§r模组。%n
 
 # db 756
 omnifactory.quest.db.756.title=我不喜欢化学
-omnifactory.quest.db.756.desc=...or, well, you might just do some exploration and kill a wild thermal elemental for a rod.%n%nUse it to craft a §aThermal Elemental Model§r. The rest of the dusts can be crafted from pristine matter.%n%nSaves you from having to make a bucket of §9Elemental Reduction Fluid§r if you're not playing on Peaceful.
+omnifactory.quest.db.756.desc=.或许……你一天到晚只是跑图冒险，杀杀热力的元素怪物，捡捡它们掉下来的棒棒。%n%n用这些棒棒来做一个§a热力元素数据模型§r，接下来，其余的粉就都可以用原始物质来制造了。%n%n这种方法可以使你在非和平难度下游玩时免于制作§9元素还原液§r。
 
 # db 757
 omnifactory.quest.db.757.title=The End...?

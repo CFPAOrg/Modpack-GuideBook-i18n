@@ -1,0 +1,241 @@
+[
+    {
+        "before":"§cThis item is obsolete and will be removed in the next update.",
+        "after":"omnifactory.obsolete"
+    },
+    {
+        "before":"§cPlease use the GregTech variant of Endstone Dust.",
+        "after":"omnifactory.endstonedust.tooltip"
+    },
+    {
+        "before":"§cPlease use the GregTech variant of Pulsating Iron Wire.",
+        "after":"omnifactory.pulsatingwire.tooltip"
+    },
+    {
+        "before":"§cAcquired by exploration of Lost Cities buildings or vanilla dungeons.",
+        "after":"omnifactory.drillcore.tooltip1"
+    },
+    {
+        "before":"§cAlso can be purchased for Omnicoins.",
+        "after":"omnifactory.drillcore.tooltip2"
+    },
+    {
+        "before":"§cMade in a Crystal Growth Chamber from a Certus Quartz Seed.",
+        "after":"omnifactory.pure_certus.tooltip"
+    },
+    {
+        "before":"§cMade in a Crystal Growth Chamber from a Nether Quartz Seed.",
+        "after":"omnifactory.pure_quartz.tooltip"
+    },
+    {
+        "before":"§cMade in a Crystal Growth Chamber from a Fluix Seed.",
+        "after":"omnifactory.pure_fluix.tooltip"
+    },
+    {
+        "before":"Blocks Endermen from teleporting",
+        "after":"omnifactory.ender_tether.tooltip"
+    },
+    {
+        "before":"Block of Black Steel",
+        "after":"omnifactory.blacksteel_block.tooltip"
+    },
+    {
+        "before":"§7§oOmnium Trimmed"
+    },
+    {
+        "before":"§b§oThis is the first Tier One circuit.",
+        "after":"omnifactory.c_t1_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier One circuit.",
+        "after":"omnifactory.c_t1_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third and final Tier One circuit.",
+        "after":"omnifactory.c_t1_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Two circuit.",
+        "after":"omnifactory.c_t2_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier Two circuit.",
+        "after":"omnifactory.c_t2_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third Tier Two circuit.",
+        "after":"omnifactory.c_t2_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the fourth and final Tier Two circuit.",
+        "after":"omnifactory.c_t2_4.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Three circuit.",
+        "after":"omnifactory.c_t3_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier Three circuit.",
+        "after":"omnifactory.c_t3_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third Tier Three circuit.",
+        "after":"omnifactory.c_t3_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the fourth and final Tier Three circuit.",
+        "after":"omnifactory.c_t3_4.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Four circuit.",
+        "after":"omnifactory.c_t4_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier Four circuit.",
+        "after":"omnifactory.c_t4_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third Tier Four circuit.",
+        "after":"omnifactory.c_t4_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the fourth and final Tier Four circuit.",
+        "after":"omnifactory.c_t4_4.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Five circuit.",
+        "after":"omnifactory.c_t5_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier Five circuit.",
+        "after":"omnifactory.c_t5_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third Tier Five circuit.",
+        "after":"omnifactory.c_t5_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the fourth and final Tier Five circuit.",
+        "after":"omnifactory.c_t5_4.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Six circuit.",
+        "after":"omnifactory.c_t6_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier Six circuit.",
+        "after":"omnifactory.c_t6_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third Tier Six circuit.",
+        "after":"omnifactory.c_t6_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the fourth and final Tier Six circuit.",
+        "after":"omnifactory.c_t6_4.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Seven circuit.",
+        "after":"omnifactory.c_t7_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier Seven circuit.",
+        "after":"omnifactory.c_t7_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third and final Tier Seven circuit.",
+        "after":"omnifactory.c_t7_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Eight circuit.",
+        "after":"omnifactory.c_t8_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second and final Tier Eight circuit.",
+        "after":"omnifactory.c_t8_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first and only Tier Nine circuit.",
+        "after":"omnifactory.c_t9_1.tooltip"
+    },
+    {
+        "before":"§fPut the item into a crafting window if it has no lore",
+        "after":"omnifactory.nolore"
+    },
+    {
+        "before":"§b§oObtained by crushing Glitch Hearts against Obsidian.",
+        "after":"omnifactory.glitch_fragment.tooltip"
+    },
+    {
+        "before":"§b§oObtained by charging with RF power in the AE2 Charger.",
+        "after":"omnifactory.charged_certus.tooltip"
+    },
+    {
+        "before":"§8§oGaze into the Abyss...",
+        "after":"omnifactory.eternalcatalyst.tooltip"
+    },
+    {
+        "before":"§eRecipe is shapeless.",
+        "after":"omnifactory.shapeless"
+    },
+    {
+        "before":"§cBone Meal works just as well for manual and AA/EIO farms.",
+        "after":"omnifactory.fertilizer_compound.tooltip"
+    },
+    {
+        "before":"§cEnderIO tanks and SoG Drums make for reasonable alternatives.",
+        "after":"omnifactory.pipette.tooltip"
+    },
+    {
+        "before":"§cPlease use the ContentTweaker variant of Pulsating Dust.",
+        "after":"omnifactory.pulsating_dust.tooltip"
+    },
+    {
+        "before":"§cPlease use the ContentTweaker variant of Pulsating Mesh.",
+        "after":"omnifactory.pulsating_mesh.tooltip"
+    },
+    {
+        "before":"§cTry out the Engineer's Goggles from Actually Additions instead :)",
+        "after":"omnifactory.naturalist_helmet.tooltip"
+    },
+    {
+        "before":"§cPlease use the GregTech Crafting Station instead.",
+        "after":"omnifactory.worktable.tooltip"
+    },
+    {
+        "before":"§3GTCE Cable facades can be made from most non-tile-entites, and craft into different amounts based on the metal used.",
+        "after":"omnifactory.gtfacade.tooltip"
+    },
+    {
+        "before":"Used for autocrafting with Logistics",
+        "after":"omnifactory.lp_ctable.tooltip"
+    },
+    {
+        "before":"Used for oredict autocrafting with Logistics",
+        "after":"omnifactory.lp_ctable_fuzzy.tooltip"
+    },
+    {
+        "before":"This is your Logistics Crafting Terminal",
+        "after":"omnifactory.lp_rtable.tooltip"
+    },
+    {
+        "before":"§cModular Machinery is getting removed in a future update.",
+        "after":"omnifactory.mm_controller.tooltip1"
+    },
+    {
+        "before":"§cPlease use the new GregTech multiblocks instead. ('@Multiblock' in JEI)",
+        "after":"omnifactory.mm_controller.tooltip2"
+    },
+    {
+        "before":"Draconium Lens"
+    },
+    {
+        "before":"Blue Lens"
+    },
+    {
+        "before":"Green Lens"
+    },
+    {
+        "before":"Red Lens"
+    }
+]
