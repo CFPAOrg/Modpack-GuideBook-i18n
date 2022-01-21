@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: -0.5d,
+	text: [
+		"末影合成台需要末影发电机为其供电。"
+	],
+	dependencies: [
+		"330074c9"
+	],
+	tasks: [{
+		uid: "bb95d751",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "5fc94bda",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}
