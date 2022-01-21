@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	text: [
+		"压缩空间设备提供了一些有关设置制作的信息，但如果您遇到困难，请查看教程。"
+	],
+	dependencies: [
+		"131b9e47"
+	],
+	tasks: [{
+		uid: "10f7fba1",
+		type: "item",
+		items: [{
+			item: "compactmachines3:fieldprojector"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "5cc75606",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

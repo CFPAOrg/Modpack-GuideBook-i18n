@@ -1,0 +1,25 @@
+{
+	x: 9.5d,
+	y: -1.0d,
+	dependencies: [
+		"527eeb53"
+	],
+	tasks: [{
+		uid: "baa1f694",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "furnaceoverhaul:speed_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6bd35c0f",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

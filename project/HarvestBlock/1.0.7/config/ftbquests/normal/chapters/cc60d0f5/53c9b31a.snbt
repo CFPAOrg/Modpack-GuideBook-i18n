@@ -1,0 +1,28 @@
+{
+	title: "草方块",
+	x: 1.5d,
+	y: 1.5d,
+	dependencies: [
+		"cd3b6f37"
+	],
+	tasks: [{
+		uid: "cc4403e5",
+		type: "item",
+		items: [{
+			item: "minecraft:grass"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a5d9d586",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	},
+	{
+		uid: "344f0163",
+		type: "item",
+		item: "minecraft:baked_potato",
+		count: 5
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"白天被动停供电源。"
+	],
+	dependencies: [
+		"1194a26a"
+	],
+	tasks: [{
+		uid: "3e3f526d",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_1"
+		}]
+	}],
+	rewards: [{
+		uid: "e800a4b0",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

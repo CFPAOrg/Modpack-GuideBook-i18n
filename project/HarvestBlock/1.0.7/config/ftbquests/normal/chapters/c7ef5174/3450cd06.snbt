@@ -1,0 +1,23 @@
+{
+	x: 9.5d,
+	y: 4.5d,
+	text: [
+		"将特定物品注入星能液变成其他物品。"
+	],
+	dependencies: [
+		"ccd8eb77"
+	],
+	tasks: [{
+		uid: "4166b6d6",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockstarlightinfuser"
+		}]
+	}],
+	rewards: [{
+		uid: "94431a4c",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

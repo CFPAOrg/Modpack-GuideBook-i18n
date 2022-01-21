@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: -0.5d,
+	dependencies: [
+		"2bec8af8"
+	],
+	tasks: [{
+		uid: "3d784406",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "f2b65edb",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

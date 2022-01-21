@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 1.5d,
+	dependencies: [
+		"20df4e82"
+	],
+	tasks: [{
+		uid: "93fcfba1",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "ab1c30bf",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

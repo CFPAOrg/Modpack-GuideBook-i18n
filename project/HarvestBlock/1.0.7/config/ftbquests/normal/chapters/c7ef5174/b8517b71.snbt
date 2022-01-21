@@ -1,0 +1,23 @@
+{
+	x: 9.5d,
+	y: 7.5d,
+	text: [
+		"创建仪式"
+	],
+	dependencies: [
+		"1ee38397"
+	],
+	tasks: [{
+		uid: "48938291",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockritualpedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "4c0cf1d5",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

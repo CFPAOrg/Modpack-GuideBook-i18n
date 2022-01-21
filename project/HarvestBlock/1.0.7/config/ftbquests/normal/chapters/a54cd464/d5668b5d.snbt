@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	dependencies: [
+		"c8dd157f"
+	],
+	tasks: [{
+		uid: "e4109512",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotcyanite"
+		}]
+	}],
+	rewards: [{
+		uid: "5cd4a544",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 6.5d,
+	y: 3.0d,
+	text: [
+		"桶中的星星之光"
+	],
+	dependencies: [
+		"6c6feb31"
+	],
+	tasks: [{
+		uid: "f868cacc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "astralsorcery.liquidstarlight",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56593e18",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

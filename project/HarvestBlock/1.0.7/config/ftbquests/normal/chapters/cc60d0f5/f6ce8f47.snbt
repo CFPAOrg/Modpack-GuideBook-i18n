@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: 2.5d,
+	text: [
+		"要获得怪物种子，您需要怪物灵魂。 要获得怪物灵魂，您需要用离魂匕首杀死怪物。"
+	],
+	dependencies: [
+		"20df4e82",
+		"5ba874c1"
+	],
+	tasks: [{
+		uid: "99435236",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mysticalagriculture:soulium_dagger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9751ac64",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

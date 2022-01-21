@@ -1,0 +1,23 @@
+{
+	x: 5.5d,
+	y: 3.0d,
+	text: [
+		"与压缩空间外的红石互动。"
+	],
+	dependencies: [
+		"efd69b00"
+	],
+	tasks: [{
+		uid: "d82f97f5",
+		type: "item",
+		items: [{
+			item: "compactmachines3:redstonetunneltool"
+		}]
+	}],
+	rewards: [{
+		uid: "dadc6ed5",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

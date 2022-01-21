@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: 4.5d,
+	text: [
+		"看星星，找到星座"
+	],
+	dependencies: [
+		"1ee38397"
+	],
+	tasks: [{
+		uid: "112d14f1",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "989868e7",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: 3.0d,
+	text: [
+		"将它们放在作物下方会稍微加速生长。 它们可以叠加，因此您放的越多越快。"
+	],
+	dependencies: [
+		"a16e0f95"
+	],
+	tasks: [{
+		uid: "5ff85c7e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:growth_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "e5560c68",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

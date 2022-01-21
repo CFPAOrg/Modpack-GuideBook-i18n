@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: 1.5d,
+	dependencies: [
+		"20df4e82"
+	],
+	tasks: [{
+		uid: "85f8ffa5",
+		type: "item",
+		items: [{
+			item: "minecraft:bone"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "542abb51",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

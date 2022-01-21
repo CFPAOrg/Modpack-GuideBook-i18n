@@ -1,0 +1,23 @@
+{
+	x: 6.5d,
+	y: 7.5d,
+	text: [
+		"有些合成需要祭坛外的物品。 增幅器用于容纳这些物品。"
+	],
+	dependencies: [
+		"e3abddfd"
+	],
+	tasks: [{
+		uid: "caf960a0",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementrelay"
+		}]
+	}],
+	rewards: [{
+		uid: "f8419447",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "末地蛋糕",
+	x: 4.5d,
+	y: 4.5d,
+	text: [
+		"为了到达终点，制作一个末地蛋糕并吃一口。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20df4e82"
+	],
+	tasks: [{
+		uid: "4723243a",
+		type: "item",
+		items: [{
+			item: "dimensionalcake:blockendcake"
+		}]
+	}],
+	rewards: [{
+		uid: "c9c95a41",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: 7.5d,
+	text: [
+		"共鸣水晶或你自己"
+	],
+	dependencies: [
+		"1ee38397"
+	],
+	tasks: [{
+		uid: "33ae5cd6",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}],
+	rewards: [{
+		uid: "25c2cd1e",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

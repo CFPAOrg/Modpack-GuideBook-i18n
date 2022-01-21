@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		"您可以通过将 2 个作物架放在 2 个泥土种子之间的“泥土”上，将 2 个泥土种子变异为木种子。"
+	],
+	dependencies: [
+		"3bfd1d6f"
+	],
+	tasks: [{
+		uid: "1524fecc",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:wood_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1a1ba864",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	},
+	{
+		uid: "95c16949",
+		type: "item",
+		item: "minecraft:bread",
+		count: 5
+	}]
+}

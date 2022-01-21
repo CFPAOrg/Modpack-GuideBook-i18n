@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: -0.5d,
+	text: [
+		"这些木头将是足够的吗？ 可能不是。"
+	],
+	dependencies: [
+		"412468eb"
+	],
+	tasks: [{
+		uid: "fc5d748b",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "7ea03712",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}
