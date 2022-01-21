@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 1.0d,
+	dependencies: [
+		"b306c24f"
+	],
+	tasks: [{
+		uid: "772fa63f",
+		type: "item",
+		items: [{
+			item: "roots:offertory_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "5fa91536",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

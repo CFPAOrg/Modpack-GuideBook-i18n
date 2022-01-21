@@ -1,0 +1,41 @@
+{
+	title: "跳跃提升",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "potionfingers:ring",
+		tag: {
+			effect: "minecraft:jump_boost"
+		},
+		Damage: 1s
+	},
+	disable_toast: true,
+	x: 6.5d,
+	y: 0.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "fc6e5845",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "17a30155",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "potionfingers:ring",
+			tag: {
+				effect: "minecraft:jump_boost"
+			},
+			Damage: 1s
+		}
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "猪",
+	icon: {
+		id: "minecraft:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "minecraft:pig"
+			}
+		}
+	},
+	disable_toast: true,
+	x: 6.5d,
+	y: -0.5d,
+	text: [
+		"动物会在草地上生成，或者你可以使用这些"
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "41208523",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "8093aa0a",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:pig"
+				}
+			}
+		},
+		count: 2
+	}]
+}

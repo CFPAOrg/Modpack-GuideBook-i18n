@@ -1,0 +1,26 @@
+{
+	title: "Tier 2 Altar",
+	icon: "bloodmagic:altar",
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"通过放置符文石来提升你的祭坛。 您可能需要查找如何执行此操作。"
+	],
+	dependencies: [
+		"b1c4d907"
+	],
+	tasks: [{
+		uid: "b918623b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "2ac1e400",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

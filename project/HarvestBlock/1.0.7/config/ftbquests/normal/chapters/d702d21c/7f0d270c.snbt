@@ -1,0 +1,28 @@
+{
+	title: "六级土壤",
+	icon: "customitems:tier_6_soil",
+	disable_toast: true,
+	x: 4.5d,
+	y: 4.5d,
+	text: [
+		"获得六级土壤后解锁"
+	],
+	can_repeat: true,
+	dependencies: [
+		"849ced05"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a7588547",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 128L
+	}],
+	rewards: [{
+		uid: "f0af4055",
+		type: "item",
+		item: "customitems:tier_6_soil"
+	}]
+}

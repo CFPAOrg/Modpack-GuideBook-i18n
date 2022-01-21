@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	dependencies: [
+		"b306c24f"
+	],
+	tasks: [{
+		uid: "4765a51b",
+		type: "item",
+		items: [{
+			item: "roots:runestone_trample"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "54803f68",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

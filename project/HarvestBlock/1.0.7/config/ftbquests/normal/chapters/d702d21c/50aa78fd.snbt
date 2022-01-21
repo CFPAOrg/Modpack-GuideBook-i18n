@@ -1,0 +1,24 @@
+{
+	disable_toast: true,
+	x: -0.5d,
+	y: 1.5d,
+	shape: "octagon",
+	can_repeat: true,
+	dependencies: [
+		"2b89af00"
+	],
+	tasks: [{
+		uid: "1698ef8b",
+		type: "item",
+		items: [{
+			item: "darkutils:shulker_pearl"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "780e12bf",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

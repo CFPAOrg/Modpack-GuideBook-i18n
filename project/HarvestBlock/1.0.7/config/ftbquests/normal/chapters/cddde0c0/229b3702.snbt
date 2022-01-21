@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	dependencies: [
+		"3b6082ae"
+	],
+	tasks: [{
+		uid: "c40010ad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:wood_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1674f756",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

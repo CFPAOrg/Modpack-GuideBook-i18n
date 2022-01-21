@@ -1,0 +1,17 @@
+{
+	disable_toast: true,
+	x: 0.5d,
+	y: -0.5d,
+	text: [
+		"解锁被动获得货币的能力"
+	],
+	tasks: [{
+		uid: "fa6279ed",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 1024L,
+		consume_items: true
+	}]
+}

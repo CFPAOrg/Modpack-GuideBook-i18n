@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	text: [
+		"右键单击放上物品，然后用打火石点燃。"
+	],
+	dependencies: [
+		"9a1ea07d"
+	],
+	tasks: [{
+		uid: "a129044a",
+		type: "item",
+		items: [{
+			item: "roots:bonfire"
+		}]
+	}],
+	rewards: [{
+		uid: "cc39dea1",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

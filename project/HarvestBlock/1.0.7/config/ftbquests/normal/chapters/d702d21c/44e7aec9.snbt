@@ -1,0 +1,22 @@
+{
+	title: "黑莲花",
+	icon: "botania:blacklotus",
+	disable_toast: true,
+	x: 5.5d,
+	y: 2.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "bec3a356",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "8d65735d",
+		type: "item",
+		item: "botania:blacklotus"
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"石板用于制作符文，您将需要这些石板来装饰您的祭坛。"
+	],
+	dependencies: [
+		"b1c4d907"
+	],
+	tasks: [{
+		uid: "9668aaca",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate"
+		}]
+	}],
+	rewards: [{
+		uid: "86676790",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

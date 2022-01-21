@@ -1,0 +1,45 @@
+{
+	icon: "roots:bark_oak",
+	x: 0.0d,
+	y: -3.5d,
+	text: [
+		"用刀折断一根木头。"
+	],
+	dependencies: [
+		"229b3702"
+	],
+	tasks: [{
+		uid: "9184e5b0",
+		type: "item",
+		title: "8x Bark",
+		items: [{
+			item: "roots:bark_oak"
+		},
+		{
+			item: "roots:bark_spruce"
+		},
+		{
+			item: "roots:bark_birch"
+		},
+		{
+			item: "roots:bark_jungle"
+		},
+		{
+			item: "roots:bark_dark_oak"
+		},
+		{
+			item: "roots:bark_acacia"
+		},
+		{
+			item: "roots:bark_wildwood"
+		}],
+		count: 8L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "41434a45",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

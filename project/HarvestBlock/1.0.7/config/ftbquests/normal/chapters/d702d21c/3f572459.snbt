@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 1.5d,
+	y: 1.5d,
+	shape: "octagon",
+	can_repeat: true,
+	dependencies: [
+		"2b89af00"
+	],
+	tasks: [{
+		uid: "867d3c1c",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "c8586bae",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"使用恶魔意志制作。"
+	],
+	dependencies: [
+		"74c28c8e"
+	],
+	tasks: [{
+		uid: "04bfbc67",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "1bc31e25",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

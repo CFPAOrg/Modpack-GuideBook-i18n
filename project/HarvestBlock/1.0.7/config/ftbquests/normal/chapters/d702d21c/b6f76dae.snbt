@@ -1,0 +1,40 @@
+{
+	title: "急迫",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "potionfingers:ring",
+		tag: {
+			effect: "minecraft:haste"
+		},
+		Damage: 1s
+	},
+	disable_toast: true,
+	x: 6.5d,
+	y: 1.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "758fdd07",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 256L
+	}],
+	rewards: [{
+		uid: "26211a87",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "potionfingers:ring",
+			tag: {
+				effect: "minecraft:haste"
+			},
+			Damage: 1s
+		}
+	}]
+}

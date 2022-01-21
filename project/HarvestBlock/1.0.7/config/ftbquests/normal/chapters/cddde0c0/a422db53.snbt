@@ -1,0 +1,24 @@
+{
+	x: -3.0d,
+	y: -3.5d,
+	text: [
+		"可以用石头和自然精华或使用大地袍子制作。"
+	],
+	dependencies: [
+		"229b3702"
+	],
+	tasks: [{
+		uid: "5b9b3fb8",
+		type: "item",
+		items: [{
+			item: "minecraft:mossy_cobblestone"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "b2da813f",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

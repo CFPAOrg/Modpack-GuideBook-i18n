@@ -1,0 +1,29 @@
+{
+	title: "一级土壤",
+	icon: "customitems:tier_1_soil",
+	disable_toast: true,
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"获得一级土壤后解锁"
+	],
+	can_repeat: true,
+	dependencies: [
+		"18e8590b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "78153683",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "79f6c26e",
+		type: "item",
+		item: "customitems:tier_1_soil"
+	}]
+}

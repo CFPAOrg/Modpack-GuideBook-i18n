@@ -1,0 +1,40 @@
+{
+	title: "力量",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "potionfingers:ring",
+		tag: {
+			effect: "minecraft:strength"
+		},
+		Damage: 1s
+	},
+	disable_toast: true,
+	x: 8.5d,
+	y: 0.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "bfdf278b",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 196L
+	}],
+	rewards: [{
+		uid: "50715210",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "potionfingers:ring",
+			tag: {
+				effect: "minecraft:strength"
+			},
+			Damage: 1s
+		}
+	}]
+}

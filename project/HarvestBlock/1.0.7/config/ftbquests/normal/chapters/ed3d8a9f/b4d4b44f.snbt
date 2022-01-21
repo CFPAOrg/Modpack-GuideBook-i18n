@@ -1,0 +1,28 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"放在地上制作工具、盔甲和印记。"
+	],
+	dependencies: [
+		"59706383"
+	],
+	tasks: [{
+		uid: "854c4385",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a944663c",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

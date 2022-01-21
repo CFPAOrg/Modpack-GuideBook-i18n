@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	dependencies: [
+		"b306c24f"
+	],
+	tasks: [{
+		uid: "51f835e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:runic_shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d77e291f",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

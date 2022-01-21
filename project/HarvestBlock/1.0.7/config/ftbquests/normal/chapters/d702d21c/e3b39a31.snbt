@@ -1,0 +1,25 @@
+{
+	title: "金胡萝卜",
+	icon: "minecraft:golden_carrot",
+	disable_toast: true,
+	x: 5.5d,
+	y: 0.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "600923d5",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "61dac50d",
+		type: "item",
+		title: "Golden Carrot",
+		icon: "minecraft:golden_carrot",
+		item: "minecraft:golden_carrot",
+		count: 64
+	}]
+}

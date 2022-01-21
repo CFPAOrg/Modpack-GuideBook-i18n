@@ -1,0 +1,20 @@
+{
+	x: 4.5d,
+	y: 2.0d,
+	dependencies: [
+		"444b2d3e"
+	],
+	tasks: [{
+		uid: "2de26a65",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "3fafd2b3",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

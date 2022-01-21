@@ -1,0 +1,24 @@
+{
+	disable_toast: true,
+	x: 2.5d,
+	y: -0.5d,
+	shape: "octagon",
+	can_repeat: true,
+	dependencies: [
+		"2b89af00"
+	],
+	tasks: [{
+		uid: "58a9dacf",
+		type: "item",
+		items: [{
+			item: "harvestcraft:gourmetvenisonburgeritem"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "a5f9707f",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

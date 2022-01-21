@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"向敌对生物投掷圈套，直到看到白色颗粒。 杀死它，你会得到一个恶魔的意志。"
+	],
+	dependencies: [
+		"20df4e82"
+	],
+	tasks: [{
+		uid: "4ff4b537",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}],
+		count: 16L
+	}]
+}

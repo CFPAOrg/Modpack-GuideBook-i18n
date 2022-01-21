@@ -1,0 +1,32 @@
+{
+	title: "Tier 4 Altar",
+	icon: "bloodmagic:altar",
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"597b1627"
+	],
+	tasks: [{
+		uid: "b990c7cc",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 28L
+	},
+	{
+		uid: "bde1c222",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick"
+		}],
+		count: 4L,
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "70fae176",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

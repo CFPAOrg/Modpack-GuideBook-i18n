@@ -1,0 +1,24 @@
+{
+	disable_toast: true,
+	x: 2.5d,
+	y: 1.5d,
+	shape: "octagon",
+	can_repeat: true,
+	dependencies: [
+		"2b89af00"
+	],
+	tasks: [{
+		uid: "dd2b3df0",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativesolid 1 8"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "089c35b5",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

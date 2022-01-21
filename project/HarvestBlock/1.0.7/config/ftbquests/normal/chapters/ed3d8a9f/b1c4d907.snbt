@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"在获得血祭坛之前，您需要在发展植物魔法。"
+	],
+	dependencies: [
+		"74c28c8e"
+	],
+	tasks: [{
+		uid: "3d4f109e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "9bb78232",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

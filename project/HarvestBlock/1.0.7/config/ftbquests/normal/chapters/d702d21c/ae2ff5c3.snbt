@@ -1,0 +1,40 @@
+{
+	title: "隐身",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "potionfingers:ring",
+		tag: {
+			effect: "minecraft:invisibility"
+		},
+		Damage: 1s
+	},
+	disable_toast: true,
+	x: 7.5d,
+	y: 3.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "12566e6b",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 1024L
+	}],
+	rewards: [{
+		uid: "86a9063a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "potionfingers:ring",
+			tag: {
+				effect: "minecraft:invisibility"
+			},
+			Damage: 1s
+		}
+	}]
+}

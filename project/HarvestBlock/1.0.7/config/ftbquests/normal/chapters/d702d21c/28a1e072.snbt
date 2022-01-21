@@ -1,0 +1,40 @@
+{
+	title: "饱和",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "potionfingers:ring",
+		tag: {
+			effect: "minecraft:saturation"
+		},
+		Damage: 1s
+	},
+	disable_toast: true,
+	x: 8.5d,
+	y: 3.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "de8b8083",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 2048L
+	}],
+	rewards: [{
+		uid: "0b21a25d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "potionfingers:ring",
+			tag: {
+				effect: "minecraft:saturation"
+			},
+			Damage: 1s
+		}
+	}]
+}

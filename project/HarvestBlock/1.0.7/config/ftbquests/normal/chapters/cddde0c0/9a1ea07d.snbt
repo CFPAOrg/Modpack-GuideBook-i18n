@@ -1,0 +1,28 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	dependencies: [
+		"229b3702"
+	],
+	tasks: [{
+		uid: "f966c4c0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "roots:roots_guide"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f03c2cc",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}
