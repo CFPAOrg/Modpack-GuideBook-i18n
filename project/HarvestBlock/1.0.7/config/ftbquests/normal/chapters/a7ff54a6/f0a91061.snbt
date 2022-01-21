@@ -1,0 +1,297 @@
+{
+	title: "10/10/10四级种子",
+	icon: "mysticalagriculture:crafting 1 20",
+	x: 5.5d,
+	y: 10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"e9a5ba9e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "392b0d7a",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:end_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:end_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "b47d7f77",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:experience_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:experience_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "3b4436c4",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:guardian_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:guardian_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "fc1bedf5",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:blaze_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:blaze_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "f84254c1",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:ghast_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:ghast_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "f8bc1a4f",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:enderman_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:enderman_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "4e9b4ae7",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:steel_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:steel_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "75ad1ccc",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:nickel_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:nickel_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "03f932aa",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:constantan_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:constantan_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "adbbbc28",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:soularium_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:soularium_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "86834e26",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:iron_alloy_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:iron_alloy_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "e8b4cec1",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:dark_steel_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:dark_steel_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "fb2d2a8d",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:pulsating_iron_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:pulsating_iron_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "cbfe974b",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:energetic_alloy_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:energetic_alloy_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "80513378",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:terrasteel_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:terrasteel_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "37b8029b",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:starmetal_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:starmetal_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "0028fd7a",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:rock_crystal_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:rock_crystal_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "90543d58",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:fluix_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:fluix_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "c2c5d0df",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:electrum_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:electrum_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "f3c8ca49",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:hop_graphite_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:hop_graphite_plant",
+				agri_growth: 10b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "79c67b5c",
+		type: "item",
+		item: "customitems:tier_4_soil",
+		count: 64
+	}]
+}

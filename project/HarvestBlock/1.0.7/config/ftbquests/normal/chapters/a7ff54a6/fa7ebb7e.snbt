@@ -1,0 +1,25 @@
+{
+	title: "二级土壤",
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"一旦你得到一种土壤，你就可以从奖励中购买更多。"
+	],
+	dependencies: [
+		"18e8590b"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "1703ba4b",
+		type: "item",
+		items: [{
+			item: "customitems:tier_2_soil"
+		}]
+	}],
+	rewards: [{
+		uid: "0ba59c8d",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}
