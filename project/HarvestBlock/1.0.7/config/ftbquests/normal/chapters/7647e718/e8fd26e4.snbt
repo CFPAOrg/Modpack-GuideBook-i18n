@@ -1,0 +1,23 @@
+{
+	x: 6.5d,
+	y: 4.5d,
+	dependencies: [
+		"298159cf"
+	],
+	tasks: [{
+		uid: "b9cb1248",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_diamond_tier"
+		}]
+	}],
+	rewards: [{
+		uid: "87d91f16",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

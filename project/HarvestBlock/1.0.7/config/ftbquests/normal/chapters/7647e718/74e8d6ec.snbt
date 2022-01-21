@@ -1,0 +1,20 @@
+{
+	x: 16.0d,
+	y: 7.5d,
+	dependencies: [
+		"b5b414f7"
+	],
+	tasks: [{
+		uid: "0f19c81e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_64k"
+		}]
+	}],
+	rewards: [{
+		uid: "4bb6d0ef",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

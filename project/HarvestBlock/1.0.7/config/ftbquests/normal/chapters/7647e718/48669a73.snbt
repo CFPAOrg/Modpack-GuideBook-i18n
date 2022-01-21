@@ -1,0 +1,20 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	dependencies: [
+		"c5fe973a"
+	],
+	tasks: [{
+		uid: "045cf091",
+		type: "item",
+		items: [{
+			item: "yabba:upgrade_blank"
+		}]
+	}],
+	rewards: [{
+		uid: "db655277",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"更快、更容易实现自动化"
+	],
+	dependencies: [
+		"1c7743ed"
+	],
+	tasks: [{
+		uid: "a31e1621",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk2"
+		}]
+	}],
+	rewards: [{
+		uid: "656af62b",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

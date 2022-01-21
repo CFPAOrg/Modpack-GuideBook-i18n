@@ -1,0 +1,26 @@
+{
+	x: 14.5d,
+	y: 4.5d,
+	dependencies: [
+		"551f5cc1"
+	],
+	tasks: [{
+		uid: "57f135e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:fluid_storage_cell_4k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6769bb4e",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

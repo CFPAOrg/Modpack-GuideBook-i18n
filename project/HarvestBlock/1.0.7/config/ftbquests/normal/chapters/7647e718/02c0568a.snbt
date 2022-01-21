@@ -1,0 +1,23 @@
+{
+	x: 10.5d,
+	y: 1.5d,
+	text: [
+		"从您的 ME 系统访问其他存储"
+	],
+	dependencies: [
+		"4b71fb8c"
+	],
+	tasks: [{
+		uid: "acba5064",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 220"
+		}]
+	}],
+	rewards: [{
+		uid: "b6fe2182",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"存储更多的EMC"
+	],
+	dependencies: [
+		"3ec933ba"
+	],
+	tasks: [{
+		uid: "739297b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dad49d9a",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

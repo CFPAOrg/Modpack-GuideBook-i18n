@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"412468eb"
+	],
+	tasks: [{
+		uid: "ff1d60ae",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8650f376",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

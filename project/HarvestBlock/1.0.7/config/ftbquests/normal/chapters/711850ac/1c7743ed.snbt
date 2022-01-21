@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -0.5d,
+	text: [
+		"基于 emc 将物品转换为其他物品"
+	],
+	dependencies: [
+		"1bee8ad0"
+	],
+	tasks: [{
+		uid: "7e3e3723",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk1"
+		}]
+	}],
+	rewards: [{
+		uid: "8d13f7e7",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

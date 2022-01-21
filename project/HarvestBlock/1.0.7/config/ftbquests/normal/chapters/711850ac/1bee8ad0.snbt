@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"cee46e07"
+	],
+	tasks: [{
+		uid: "aad751fd",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "8f4462e5",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

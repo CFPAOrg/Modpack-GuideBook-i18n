@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: -5.0d,
+	text: [
+		"迈向 EMC 的第一步"
+	],
+	dependencies: [
+		"642e61d4"
+	],
+	tasks: [{
+		uid: "92ab596a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "399cfba7",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Mike",
+	icon: "projecte:transmutation_table",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

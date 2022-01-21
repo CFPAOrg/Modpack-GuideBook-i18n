@@ -1,0 +1,29 @@
+{
+	x: 14.5d,
+	y: 3.0d,
+	text: [
+		"这是储存流体的地方"
+	],
+	dependencies: [
+		"f4c41899"
+	],
+	tasks: [{
+		uid: "b5137a30",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:fluid_storage_cell_1k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ef4fb55",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

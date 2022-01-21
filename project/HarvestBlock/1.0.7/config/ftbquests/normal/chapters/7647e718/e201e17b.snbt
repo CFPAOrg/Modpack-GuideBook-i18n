@@ -1,0 +1,23 @@
+{
+	x: 10.5d,
+	y: 3.5d,
+	text: [
+		"从系统中导出物品"
+	],
+	dependencies: [
+		"4b71fb8c"
+	],
+	tasks: [{
+		uid: "a7a71d9a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 260"
+		}]
+	}],
+	rewards: [{
+		uid: "43c21d58",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

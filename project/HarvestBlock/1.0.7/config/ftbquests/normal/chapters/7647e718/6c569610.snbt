@@ -1,0 +1,23 @@
+{
+	x: 14.5d,
+	y: 1.5d,
+	text: [
+		"通过一个界面访问和制作"
+	],
+	dependencies: [
+		"f4c41899"
+	],
+	tasks: [{
+		uid: "3ad0ee80",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	}],
+	rewards: [{
+		uid: "ac72af44",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

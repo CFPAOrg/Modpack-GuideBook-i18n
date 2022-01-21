@@ -1,0 +1,7 @@
+{
+	title: "November",
+	icon: "mysticalagradditions:stuff 1 69",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

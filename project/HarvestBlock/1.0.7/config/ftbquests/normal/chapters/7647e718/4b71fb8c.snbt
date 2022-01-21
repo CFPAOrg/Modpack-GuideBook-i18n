@@ -1,0 +1,23 @@
+{
+	x: 11.5d,
+	y: 0.0d,
+	text: [
+		"将充能赛特斯石英、红石和石英丢入水中。"
+	],
+	dependencies: [
+		"2b243413"
+	],
+	tasks: [{
+		uid: "95863e58",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "e7e1b82e",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

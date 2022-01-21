@@ -1,0 +1,23 @@
+{
+	x: 6.5d,
+	y: 6.0d,
+	dependencies: [
+		"e8fd26e4"
+	],
+	tasks: [{
+		uid: "fdd01884",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_star_tier"
+		}]
+	}],
+	rewards: [{
+		uid: "870f2e98",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}
