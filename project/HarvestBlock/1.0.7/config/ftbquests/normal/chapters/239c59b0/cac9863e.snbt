@@ -1,0 +1,21 @@
+{
+	x: 7.5d,
+	y: 9.0d,
+	dependencies: [
+		"a7f620f3"
+	],
+	tasks: [{
+		uid: "97099daf",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 8"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8ca40fe7",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

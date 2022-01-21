@@ -1,0 +1,23 @@
+{
+	x: 5.0d,
+	y: 3.0d,
+	text: [
+		"储存魔力"
+	],
+	dependencies: [
+		"0d3988d2"
+	],
+	tasks: [{
+		uid: "ae379f13",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}],
+	rewards: [{
+		uid: "753bdd76",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

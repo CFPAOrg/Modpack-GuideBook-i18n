@@ -1,0 +1,23 @@
+{
+	x: 5.0d,
+	y: 4.5d,
+	text: [
+		"用于制造符文。 完成后需要丢上活石并用魔杖右键单击。"
+	],
+	dependencies: [
+		"5d5acbd3"
+	],
+	tasks: [{
+		uid: "eb575283",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "1974c679",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

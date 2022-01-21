@@ -1,0 +1,24 @@
+{
+	x: 7.0d,
+	y: 1.5d,
+	text: [
+		"用木头环绕白雏菊"
+	],
+	dependencies: [
+		"293c1282"
+	],
+	tasks: [{
+		uid: "b81853cd",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a447ca0c",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

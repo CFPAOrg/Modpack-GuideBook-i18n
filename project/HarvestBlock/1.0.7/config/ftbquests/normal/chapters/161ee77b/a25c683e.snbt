@@ -1,0 +1,33 @@
+{
+	x: 2.5d,
+	y: -1.5d,
+	text: [
+		"您的植物魔法指南"
+	],
+	dependencies: [
+		"3b6082ae"
+	],
+	tasks: [{
+		uid: "6fb0478e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lexicon",
+			tag: {
+				knowledge.minecraft: 1,
+				knowledge.alfheim: 1,
+				knowledge.relic: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9518743a",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 9.0d,
+	y: -0.5d,
+	text: [
+		"使用水产生魔力"
+	],
+	dependencies: [
+		"bd8405ed"
+	],
+	tasks: [{
+		uid: "f520f895",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dff2992d",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

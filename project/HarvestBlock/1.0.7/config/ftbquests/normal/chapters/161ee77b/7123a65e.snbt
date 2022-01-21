@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	text: [
+		"将一颗钻石扔进魔力池。 要获得钻石，您需要将HOP石墨锭放入高炉。"
+	],
+	dependencies: [
+		"5d5acbd3"
+	],
+	tasks: [{
+		uid: "d9cee0fb",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "551c3ceb",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

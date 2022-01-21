@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: 1.5d,
+	text: [
+		"用石头围住一朵白雏菊"
+	],
+	dependencies: [
+		"293c1282"
+	],
+	tasks: [{
+		uid: "97ed5aac",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1fa5acac",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

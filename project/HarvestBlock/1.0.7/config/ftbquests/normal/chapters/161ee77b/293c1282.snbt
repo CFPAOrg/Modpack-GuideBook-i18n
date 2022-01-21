@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"a794359c",
+		"8f1527db"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b640994a",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d8472f54",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

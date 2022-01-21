@@ -1,0 +1,43 @@
+{
+	title: "季节符文",
+	icon: "botania:rune 1 4",
+	x: 5.0d,
+	y: 6.0d,
+	dependencies: [
+		"696e5e78"
+	],
+	tasks: [{
+		uid: "0749849b",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 4"
+		}]
+	},
+	{
+		uid: "a80754e9",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 5"
+		}]
+	},
+	{
+		uid: "07c14d5d",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 6"
+		}]
+	},
+	{
+		uid: "4b4a425e",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "b0fb1d18",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

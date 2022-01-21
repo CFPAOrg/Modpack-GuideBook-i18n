@@ -1,0 +1,44 @@
+{
+	title: "泰拉凝聚板",
+	icon: "botania:terraplate",
+	x: 1.5d,
+	y: 3.0d,
+	text: [
+		"查看植物魔法辞典以了解如何放置它。 您将需要大量魔力并使用火花来转移。"
+	],
+	dependencies: [
+		"7123a65e",
+		"998336b0",
+		"1a01a1aa"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a2da2f9e",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	},
+	{
+		uid: "58a6f11c",
+		type: "item",
+		items: [{
+			item: "minecraft:lapis_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "932c21b2",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "7dffefa1",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

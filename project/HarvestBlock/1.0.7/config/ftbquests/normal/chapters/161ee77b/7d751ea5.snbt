@@ -1,0 +1,23 @@
+{
+	x: 7.0d,
+	y: 4.5d,
+	text: [
+		"将魔力发射到其他地方"
+	],
+	dependencies: [
+		"91ecf3d3"
+	],
+	tasks: [{
+		uid: "38dc88ac",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}],
+	rewards: [{
+		uid: "0f31c2dc",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

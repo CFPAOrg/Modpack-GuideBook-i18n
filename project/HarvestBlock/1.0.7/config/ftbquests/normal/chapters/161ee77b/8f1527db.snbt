@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	text: [
+		"提供水、配方和种子以获得产出。"
+	],
+	dependencies: [
+		"447d546e"
+	],
+	tasks: [{
+		uid: "31da15cb",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "8c167522",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

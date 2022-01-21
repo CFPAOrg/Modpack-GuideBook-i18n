@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec28de66"
+	],
+	tasks: [{
+		uid: "bb6098d1",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit"
+		}]
+	}],
+	rewards: [{
+		uid: "4340d621",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"您现在可以使用盖亚魂锭而不是泰拉锭来召唤II级盖亚。"
+	],
+	dependencies: [
+		"c73fb4a4"
+	],
+	tasks: [{
+		uid: "9ff1fff9",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "7c18d061",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

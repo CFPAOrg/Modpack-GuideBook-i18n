@@ -1,0 +1,26 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"使用易燃物品产生魔力。"
+	],
+	dependencies: [
+		"293c1282"
+	],
+	tasks: [{
+		uid: "5193ccfd",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4acbb027",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

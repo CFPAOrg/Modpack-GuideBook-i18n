@@ -1,0 +1,27 @@
+{
+	title: "Wooden Gear",
+	x: 10.5d,
+	y: 0.0d,
+	dependencies: [
+		"412468eb"
+	],
+	tasks: [{
+		uid: "403213c4",
+		type: "item",
+		title: "Wooden Gear",
+		icon: "enderio:item_material 1 9",
+		items: [{
+			item: "enderio:item_material 1 9"
+		},
+		{
+			item: "appliedenergistics2:material 1 40"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dccebf6c",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

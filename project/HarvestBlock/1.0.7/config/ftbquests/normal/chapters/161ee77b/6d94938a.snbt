@@ -1,0 +1,64 @@
+{
+	title: "罪恶符文",
+	icon: "botania:rune 1 9",
+	x: 6.0d,
+	y: 6.0d,
+	dependencies: [
+		"696e5e78"
+	],
+	tasks: [{
+		uid: "9ccebe1d",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 9"
+		}]
+	},
+	{
+		uid: "92f301d3",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 10"
+		}]
+	},
+	{
+		uid: "51134281",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 11"
+		}]
+	},
+	{
+		uid: "05592acb",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 12"
+		}]
+	},
+	{
+		uid: "5127023e",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 13"
+		}]
+	},
+	{
+		uid: "4dfbf15e",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 14"
+		}]
+	},
+	{
+		uid: "8c1a0aed",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "04c7d1b6",
+		type: "item",
+		item: "customitems:glowing",
+		count: 15
+	}]
+}

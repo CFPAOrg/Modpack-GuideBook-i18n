@@ -1,0 +1,50 @@
+{
+	title: "元素符文",
+	icon: "botania:rune",
+	x: 4.0d,
+	y: 6.0d,
+	dependencies: [
+		"696e5e78"
+	],
+	tasks: [{
+		uid: "ab58edc5",
+		type: "item",
+		items: [{
+			item: "botania:rune"
+		}]
+	},
+	{
+		uid: "944ba6e0",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 1"
+		}]
+	},
+	{
+		uid: "3f0ab46e",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 2"
+		}]
+	},
+	{
+		uid: "b135fcb5",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 3"
+		}]
+	},
+	{
+		uid: "1c221e1e",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "9ebc7798",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}
