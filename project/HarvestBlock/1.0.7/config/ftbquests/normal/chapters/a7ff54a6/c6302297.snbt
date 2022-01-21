@@ -1,0 +1,21 @@
+{
+	x: 0.5d,
+	y: 4.5d,
+	dependencies: [
+		"849ced05"
+	],
+	tasks: [{
+		uid: "809085da",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:gaia_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f84b399e",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

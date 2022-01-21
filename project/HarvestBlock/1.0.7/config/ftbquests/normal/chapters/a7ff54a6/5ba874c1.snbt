@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: -2.5d,
+	dependencies: [
+		"fa7ebb7e"
+	],
+	tasks: [{
+		uid: "07d21f41",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nether_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3b97591c",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,227 @@
+{
+	title: "10/10/10五级种子",
+	icon: "mysticalagriculture:crafting 1 21",
+	x: 7.5d,
+	y: 10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"88b73c99"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2c267cb0",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:end_steel_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:end_steel_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "4172f706",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:elementium_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:elementium_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "6e7c2190",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:yellorium_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:yellorium_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "dc9010d2",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:luminessence_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:luminessence_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "1e42b0dc",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:enchanted_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:enchanted_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "b161b204",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:demon_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:demon_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "cf192f67",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:unstable_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:unstable_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "56b5cac4",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:pink_slime_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:pink_slime_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "e2889da3",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:black_iron_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:black_iron_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "32aea320",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:diamond_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:diamond_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "5a9be93c",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:emerald_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:emerald_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "4577b2ee",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:wither_skeleton_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:wither_skeleton_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "73b2dced",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:uranium_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:uranium_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "e6e401a7",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:vibrant_alloy_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:vibrant_alloy_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "a28f3d97",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:shulker_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:shulker_plant",
+				agri_growth: 10b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "aee8e873",
+		type: "item",
+		item: "customitems:tier_5_soil",
+		count: 64
+	}]
+}

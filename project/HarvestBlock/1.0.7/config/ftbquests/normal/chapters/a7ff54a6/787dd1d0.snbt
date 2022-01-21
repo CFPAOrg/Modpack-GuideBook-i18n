@@ -1,0 +1,21 @@
+{
+	x: -2.5d,
+	y: 7.5d,
+	dependencies: [
+		"849ced05"
+	],
+	tasks: [{
+		uid: "48d6af24",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:prudentium_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4aa93fbd",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

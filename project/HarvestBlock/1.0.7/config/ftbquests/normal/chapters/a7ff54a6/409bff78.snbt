@@ -1,0 +1,21 @@
+{
+	x: 9.5d,
+	y: 7.5d,
+	dependencies: [
+		"e9a5ba9e"
+	],
+	tasks: [{
+		uid: "7d7d204b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:soularium_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "02436210",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

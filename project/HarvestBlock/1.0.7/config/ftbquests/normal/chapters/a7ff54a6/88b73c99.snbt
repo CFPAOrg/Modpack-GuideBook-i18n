@@ -1,0 +1,25 @@
+{
+	title: "五级土壤",
+	x: 4.5d,
+	y: 5.5d,
+	text: [
+		"一些五级和六级种子也需要在土壤下方放上特定方块才能生长"
+	],
+	dependencies: [
+		"e9a5ba9e"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "22ec9be4",
+		type: "item",
+		items: [{
+			item: "customitems:tier_5_soil"
+		}]
+	}],
+	rewards: [{
+		uid: "c7378c83",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

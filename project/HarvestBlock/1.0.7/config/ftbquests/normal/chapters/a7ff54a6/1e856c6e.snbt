@@ -1,0 +1,21 @@
+{
+	x: 9.0d,
+	y: 8.5d,
+	dependencies: [
+		"e9a5ba9e"
+	],
+	tasks: [{
+		uid: "c2ec5038",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:starmetal_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "32499dc0",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

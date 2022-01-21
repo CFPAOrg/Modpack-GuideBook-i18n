@@ -1,0 +1,21 @@
+{
+	x: 6.5d,
+	y: 4.5d,
+	dependencies: [
+		"88b73c99"
+	],
+	tasks: [{
+		uid: "4e8c386d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:diamond_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "77e91e51",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

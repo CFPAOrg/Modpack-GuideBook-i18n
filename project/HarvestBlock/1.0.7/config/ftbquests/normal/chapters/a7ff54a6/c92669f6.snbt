@@ -1,0 +1,297 @@
+{
+	title: "10/10/10三级种子",
+	icon: "mysticalagriculture:crafting 1 19",
+	x: 3.5d,
+	y: 10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"d4596ea7"
+	],
+	optional: true,
+	tasks: [{
+		uid: "9b273a82",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:lead_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:lead_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "bd981793",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:silver_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:silver_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "1b90866a",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:rabbit_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:rabbit_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "9a2ea36b",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:lapis_lazuli_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:lapis_lazuli_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "6e31b392",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:nether_quartz_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:nether_quartz_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "ade4d18b",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:glowstone_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:glowstone_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "1dbfb961",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:redstone_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:redstone_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "7b156aed",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:obsidian_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:obsidian_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "3c939cfa",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:gold_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:gold_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "d392fae6",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:certus_quartz_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:certus_quartz_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "6ced1b82",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:sky_stone_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:sky_stone_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "dbb24af8",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:aquamarine_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:aquamarine_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "44fc413c",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:manasteel_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:manasteel_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "a7f58af2",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:electrical_steel_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:electrical_steel_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "c1f08ea4",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:redstone_alloy_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:redstone_alloy_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "26e66b3f",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:graphite_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:graphite_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "14e703d3",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:plastic_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:plastic_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "15ddffa5",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:conductive_iron_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:conductive_iron_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "78d767c1",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:livingwood_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:livingwood_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "8ee71048",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:livingrock_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:livingrock_plant",
+				agri_growth: 10b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "90223453",
+		type: "item",
+		item: "customitems:tier_3_soil",
+		count: 64
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -0.5d,
+	y: 1.5d,
+	dependencies: [
+		"18e8590b"
+	],
+	tasks: [{
+		uid: "5c6c851a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:fire_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f5cc6132",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

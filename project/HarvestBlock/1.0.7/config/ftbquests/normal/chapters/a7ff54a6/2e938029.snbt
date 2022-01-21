@@ -1,0 +1,227 @@
+{
+	title: "10/10/10六级种子",
+	icon: "mysticalagradditions:insanium 1 1",
+	x: 9.5d,
+	y: 10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"849ced05"
+	],
+	optional: true,
+	tasks: [{
+		uid: "36548e19",
+		type: "item",
+		items: [{
+			id: "mysticalagradditions:nether_star_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagradditions:nether_star_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "0f913172",
+		type: "item",
+		items: [{
+			id: "mysticalagradditions:dragon_egg_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagradditions:dragon_egg_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "b6191ced",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:creative_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:creative_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "e512a499",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:red_matter_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:red_matter_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "ab20cfc2",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:dark_matter_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:dark_matter_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "e26d7d99",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:gaia_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:gaia_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "727afcff",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:ultimate_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:ultimate_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "fc1af69e",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:crystaltine_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:crystaltine_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "b55a384b",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:evil_infused_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:evil_infused_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "c2c024cf",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:prudentium_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:prudentium_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "cb9dc515",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:intermedium_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:intermedium_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "a57a1d9d",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:superium_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:superium_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "eb5d9003",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:supremium_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:supremium_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "48ae0882",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:insanium_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:insanium_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "a7ab9fd2",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:soulium_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:soulium_plant",
+				agri_growth: 10b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1487beea",
+		type: "item",
+		item: "customitems:tier_6_soil",
+		count: 64
+	}]
+}

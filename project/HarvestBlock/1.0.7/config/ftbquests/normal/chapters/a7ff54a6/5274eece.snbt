@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: 4.5d,
+	dependencies: [
+		"88b73c99"
+	],
+	tasks: [{
+		uid: "c8ab4c07",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:enchanted_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a20f5c3e",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

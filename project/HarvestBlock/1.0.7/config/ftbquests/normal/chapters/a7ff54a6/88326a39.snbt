@@ -1,0 +1,21 @@
+{
+	x: 0.5d,
+	y: 5.5d,
+	dependencies: [
+		"849ced05"
+	],
+	tasks: [{
+		uid: "158f8d03",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:dragon_egg_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1bc88856",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

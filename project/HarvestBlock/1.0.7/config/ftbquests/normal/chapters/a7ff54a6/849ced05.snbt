@@ -1,0 +1,22 @@
+{
+	title: "六级土壤",
+	x: -1.5d,
+	y: 5.5d,
+	dependencies: [
+		"88b73c99"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "61995d3f",
+		type: "item",
+		items: [{
+			item: "customitems:tier_6_soil"
+		}]
+	}],
+	rewards: [{
+		uid: "cb143cc5",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}
