@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	text: [
+		"从动物身上收集污水。"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "60d5c302",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_byproduct_recolector"
+		}]
+	}],
+	rewards: [{
+		uid: "529cf148",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

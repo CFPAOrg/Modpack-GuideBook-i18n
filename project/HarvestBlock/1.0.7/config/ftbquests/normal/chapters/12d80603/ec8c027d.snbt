@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	text: [
+		"连接到水车发电。"
+	],
+	dependencies: [
+		"0801fab3"
+	],
+	tasks: [{
+		uid: "ed91cb0f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "bb545a9d",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

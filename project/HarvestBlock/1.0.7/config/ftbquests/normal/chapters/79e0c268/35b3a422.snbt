@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 4.0d,
+	text: [
+		"在虚空中开采资源。"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "187ff046",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_base"
+		}]
+	}],
+	rewards: [{
+		uid: "b7dfb508",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

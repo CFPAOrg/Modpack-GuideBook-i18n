@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	text: [
+		"焦炉将产生杂酚油，可用于制作防腐木板。"
+	],
+	dependencies: [
+		"3aad5c85"
+	],
+	tasks: [{
+		uid: "1fbbe47b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "df49d046",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

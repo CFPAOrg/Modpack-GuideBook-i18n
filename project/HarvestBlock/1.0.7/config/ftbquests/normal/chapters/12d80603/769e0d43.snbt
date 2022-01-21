@@ -1,0 +1,27 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"用于完成多方块结构"
+	],
+	dependencies: [
+		"69f498d7"
+	],
+	tasks: [{
+		uid: "feead67c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f8517540",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

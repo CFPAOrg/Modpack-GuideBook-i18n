@@ -1,0 +1,25 @@
+{
+	x: 4.5d,
+	y: 4.5d,
+	dependencies: [
+		"534aacb3"
+	],
+	tasks: [{
+		uid: "c1b4e353",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "42c1b1e6",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

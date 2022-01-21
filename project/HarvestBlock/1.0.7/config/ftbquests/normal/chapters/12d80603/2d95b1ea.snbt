@@ -1,0 +1,25 @@
+{
+	icon: "immersiveengineering:stone_device 1 7",
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"放置 2x2x2 并用锤子右键单击。"
+	],
+	dependencies: [
+		"769e0d43"
+	],
+	tasks: [{
+		uid: "2a4ccce6",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "80b3faf4",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

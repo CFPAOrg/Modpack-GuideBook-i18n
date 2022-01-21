@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"将 2 个水源放在旁边时生成水。"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "774c6dac",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:water_condensator"
+		}]
+	}],
+	rewards: [{
+		uid: "28358cbd",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

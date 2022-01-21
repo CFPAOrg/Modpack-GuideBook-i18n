@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 6.0d,
+	text: [
+		"放置方块"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "a0c831b6",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:block_placer"
+		}]
+	}],
+	rewards: [{
+		uid: "58d9e6a1",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

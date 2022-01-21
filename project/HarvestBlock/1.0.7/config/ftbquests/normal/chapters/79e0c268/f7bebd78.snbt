@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	text: [
+		"与剪羊毛和挤奶牛等动物互动。"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "c75aafc1",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_resource_harvester"
+		}]
+	}],
+	rewards: [{
+		uid: "6639913d",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "100% 完成",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"恭喜，您已完成所有任务。 这是对您辛勤工作的奖励。"
+	],
+	dependencies: [
+		"ed3d8a9f",
+		"161ee77b",
+		"79e0c268",
+		"a54cd464",
+		"239c59b0",
+		"711850ac",
+		"cc60d0f5",
+		"732b06fc",
+		"a7ff54a6",
+		"12d80603",
+		"c7ef5174",
+		"5074b88f",
+		"cddde0c0",
+		"7647e718"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "57cddeb5",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "10ff2655",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_tome"
+		}
+	}]
+}

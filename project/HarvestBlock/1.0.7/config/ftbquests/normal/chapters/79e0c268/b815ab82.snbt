@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	text: [
+		"刷怪笼"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "be410cbf",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}],
+	rewards: [{
+		uid: "199621ee",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

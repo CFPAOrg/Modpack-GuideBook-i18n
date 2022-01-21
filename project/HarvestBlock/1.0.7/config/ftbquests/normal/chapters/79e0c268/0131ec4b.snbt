@@ -1,0 +1,28 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"捕获要重新定位或复制的生物。"
+	],
+	dependencies: [
+		"b815ab82"
+	],
+	tasks: [{
+		uid: "87b098d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:mob_imprisonment_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fadd7cb2",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "进度：深入地心",
+	x: 6.0d,
+	y: 7.5d,
+	dependencies: [
+		"e147e6f1"
+	],
+	tasks: [{
+		uid: "2a05d555",
+		type: "advancement",
+		title: "Advancement: Diggy Diggy Hole",
+		icon: "immersiveengineering:metal_multiblock 1 11",
+		advancement: "immersiveengineering:main/multiblock_excavator",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "e069f75e",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

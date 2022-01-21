@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "5d22835d",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_relocator"
+		}]
+	}],
+	rewards: [{
+		uid: "06510a97",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

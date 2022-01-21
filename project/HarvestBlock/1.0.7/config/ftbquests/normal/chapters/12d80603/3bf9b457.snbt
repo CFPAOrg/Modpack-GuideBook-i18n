@@ -1,0 +1,62 @@
+{
+	title: "发酵机",
+	icon: "immersiveengineering:metal_multiblock 1 8",
+	x: 6.0d,
+	y: 6.0d,
+	dependencies: [
+		"e147e6f1"
+	],
+	tasks: [{
+		uid: "0c98d044",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 6L
+	},
+	{
+		uid: "82e2b065",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a6011612",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "419c8abf",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "9af46853",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8ea6f82d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 9"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "0bbe0bf5",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

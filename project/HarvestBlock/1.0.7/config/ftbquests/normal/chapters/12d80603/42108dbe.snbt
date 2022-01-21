@@ -1,0 +1,23 @@
+{
+	title: "进度：真正的热门话题",
+	icon: "immersiveengineering:stone_device 1 1",
+	x: 1.5d,
+	y: 3.0d,
+	dependencies: [
+		"3aad5c85"
+	],
+	tasks: [{
+		uid: "282df2c8",
+		type: "advancement",
+		title: "Advancement: Really Hot Topic",
+		icon: "immersiveengineering:stone_device 1 1",
+		advancement: "immersiveengineering:main/multiblock_blastfurnace",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "67a95f80",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

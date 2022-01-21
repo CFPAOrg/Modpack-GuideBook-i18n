@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"滋润其范围内的农田。"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "37182c6d",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:hydrator"
+		}]
+	}],
+	rewards: [{
+		uid: "f5f849e2",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 7.0d,
+	text: [
+		"破坏方块"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "a70bc63d",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:block_destroyer"
+		}]
+	}],
+	rewards: [{
+		uid: "26d910c6",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

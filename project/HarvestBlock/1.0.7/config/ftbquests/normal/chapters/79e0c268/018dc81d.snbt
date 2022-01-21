@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"现在你可以制作你的第一块塑料了。 您将需要不止一个，但应该尽快获得种子。"
+	],
+	dependencies: [
+		"cdd01746"
+	],
+	tasks: [{
+		uid: "37464b4b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}]
+	}],
+	rewards: [{
+		uid: "03c5d867",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

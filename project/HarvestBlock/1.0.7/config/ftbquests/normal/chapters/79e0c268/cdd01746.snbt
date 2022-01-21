@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"现在您需要将乳胶加工成橡胶。"
+	],
+	dependencies: [
+		"e4716223"
+	],
+	tasks: [{
+		uid: "a0dba7b0",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "ccecfc75",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

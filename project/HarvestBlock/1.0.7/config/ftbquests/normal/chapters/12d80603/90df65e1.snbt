@@ -1,0 +1,23 @@
+{
+	title: "进步：挤压物质",
+	icon: "immersiveengineering:metal_multiblock",
+	x: 4.5d,
+	y: 6.0d,
+	dependencies: [
+		"e147e6f1"
+	],
+	tasks: [{
+		uid: "7b3b32ac",
+		type: "advancement",
+		title: "Advancement: Pressing matters",
+		icon: "immersiveengineering:metal_multiblock",
+		advancement: "immersiveengineering:main/multiblock_metalpress",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "e6cf8375",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}
