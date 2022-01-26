@@ -4,6 +4,10 @@
         "after":"omnifactory.obsolete"
     },
     {
+        "before":"§cThis item will be removed in the next update",
+        "after":"omnifactory.removing"
+    },
+    {
         "before":"§cPlease use the GregTech variant of Endstone Dust.",
         "after":"omnifactory.endstonedust.tooltip"
     },
@@ -237,5 +241,115 @@
     },
     {
         "before":"Red Lens"
+    },
+    {
+        "before":"§9See you later, navigator!",
+        "after":"omnifactory.universalnavigator.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tieroneship",
+        "index":"1",
+        "after":"omnifactory.ship1.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiertwoship",
+        "index":"1",
+        "after":"omnifactory.ship2.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tierthreeship",
+        "index":"1",
+        "after":"omnifactory.ship3.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tierfourship",
+        "index":"1",
+        "after":"omnifactory.ship4.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tierfiveship",
+        "index":"1",
+        "after":"omnifactory.ship5.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiersixship",
+        "index":"1",
+        "after":"omnifactory.ship6.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiersevenship",
+        "index":"1",
+        "after":"omnifactory.ship7.tooltip1"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiersevenship",
+        "index":"2",
+        "after":"omnifactory.ship7.tooltip2"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiereightship",
+        "index":"1",
+        "after":"omnifactory.ship8.tooltip1"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiereightship",
+        "index":"2",
+        "after":"omnifactory.ship8.tooltip2"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiernineship",
+        "index":"1",
+        "after":"omnifactory.ship9.tooltip"
+    },
+    {
+        "before":"§aDrops from monsters, and can be made in",
+        "after":"omnifactory.solid_exp.tooltip1"
+    },
+    {
+        "before":"§aa Fluid Solidifier or Experience Solidifier.",
+        "after":"omnifactory.solid_exp.tooltip2"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiertenship",
+        "index":"1",
+        "after":"omnifactory.shipx.tooltip1"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiertenship",
+        "index":"2",
+        "after":"omnifactory.shipx.tooltip2"
+    },
+    {
+        "unlocalizedName":"tile.actuallyadditions.block_canola_press",
+        "index":"1",
+        "after":"omnifactory.canola_press.tooltip"
+    },
+    {
+        "before":"§8§oCrafting component only.",
+        "after":"omnifactory.craftonly"
+    },
+    {
+        "before":"§eRequires a redstone signal to light.",
+        "after":"omnifactory.lamp_flat.tooltip"
+    },
+    {
+        "before":"§a§oMade by right-clicking ME P2P Tunnel with an energy conduit.",
+        "after":"omnifactory.p2p_fe.tooltip"
+    },
+    {
+        "before":"§a§oMade by right-clicking ME P2P Tunnel with a bucket.",
+        "after":"omnifactory.p2p_fluid.tooltip"
+    },
+    {
+        "before":"§a§oMade by right-clicking ME P2P Tunnel with a chest.",
+        "after":"omnifactory.p2p_item.tooltip"
+    },
+    {
+        "before":"§a§oMade by right-clicking ME P2P Tunnel with a torch.",
+        "after":"omnifactory.p2p_light.tooltip"
+    },
+    {
+        "before":"§a§oMade by right-clicking ME P2P Tunnel with redstone dust.",
+        "after":"omnifactory.p2p_red.tooltip"
     }
 ]
