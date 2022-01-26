@@ -1,0 +1,355 @@
+[
+    {
+        "before":"§cThis item is obsolete and will be removed in the next update.",
+        "after":"nomifactory.obsolete"
+    },
+    {
+        "before":"§cThis item will be removed in the next update",
+        "after":"nomifactory.removing"
+    },
+    {
+        "before":"§cPlease use the GregTech variant of Endstone Dust.",
+        "after":"nomifactory.endstonedust.tooltip"
+    },
+    {
+        "before":"§cPlease use the GregTech variant of Pulsating Iron Wire.",
+        "after":"nomifactory.pulsatingwire.tooltip"
+    },
+    {
+        "before":"§cAcquired by exploration of Lost Cities buildings or vanilla dungeons.",
+        "after":"nomifactory.drillcore.tooltip1"
+    },
+    {
+        "before":"§cAlso can be purchased for Omnicoins.",
+        "after":"nomifactory.drillcore.tooltip2"
+    },
+    {
+        "before":"§cMade in a Crystal Growth Chamber from a Certus Quartz Seed.",
+        "after":"nomifactory.pure_certus.tooltip"
+    },
+    {
+        "before":"§cMade in a Crystal Growth Chamber from a Nether Quartz Seed.",
+        "after":"nomifactory.pure_quartz.tooltip"
+    },
+    {
+        "before":"§cMade in a Crystal Growth Chamber from a Fluix Seed.",
+        "after":"nomifactory.pure_fluix.tooltip"
+    },
+    {
+        "before":"Blocks Endermen from teleporting",
+        "after":"nomifactory.ender_tether.tooltip"
+    },
+    {
+        "before":"Block of Black Steel",
+        "after":"nomifactory.blacksteel_block.tooltip"
+    },
+    {
+        "before":"§7§oOmnium Trimmed"
+    },
+    {
+        "before":"§b§oThis is the first Tier One circuit.",
+        "after":"nomifactory.c_t1_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier One circuit.",
+        "after":"nomifactory.c_t1_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third and final Tier One circuit.",
+        "after":"nomifactory.c_t1_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Two circuit.",
+        "after":"nomifactory.c_t2_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier Two circuit.",
+        "after":"nomifactory.c_t2_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third Tier Two circuit.",
+        "after":"nomifactory.c_t2_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the fourth and final Tier Two circuit.",
+        "after":"nomifactory.c_t2_4.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Three circuit.",
+        "after":"nomifactory.c_t3_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier Three circuit.",
+        "after":"nomifactory.c_t3_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third Tier Three circuit.",
+        "after":"nomifactory.c_t3_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the fourth and final Tier Three circuit.",
+        "after":"nomifactory.c_t3_4.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Four circuit.",
+        "after":"nomifactory.c_t4_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier Four circuit.",
+        "after":"nomifactory.c_t4_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third Tier Four circuit.",
+        "after":"nomifactory.c_t4_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the fourth and final Tier Four circuit.",
+        "after":"nomifactory.c_t4_4.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Five circuit.",
+        "after":"nomifactory.c_t5_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier Five circuit.",
+        "after":"nomifactory.c_t5_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third Tier Five circuit.",
+        "after":"nomifactory.c_t5_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the fourth and final Tier Five circuit.",
+        "after":"nomifactory.c_t5_4.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Six circuit.",
+        "after":"nomifactory.c_t6_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier Six circuit.",
+        "after":"nomifactory.c_t6_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third Tier Six circuit.",
+        "after":"nomifactory.c_t6_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the fourth and final Tier Six circuit.",
+        "after":"nomifactory.c_t6_4.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Seven circuit.",
+        "after":"nomifactory.c_t7_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second Tier Seven circuit.",
+        "after":"nomifactory.c_t7_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the third and final Tier Seven circuit.",
+        "after":"nomifactory.c_t7_3.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first Tier Eight circuit.",
+        "after":"nomifactory.c_t8_1.tooltip"
+    },
+    {
+        "before":"§b§oThis is the second and final Tier Eight circuit.",
+        "after":"nomifactory.c_t8_2.tooltip"
+    },
+    {
+        "before":"§b§oThis is the first and only Tier Nine circuit.",
+        "after":"nomifactory.c_t9_1.tooltip"
+    },
+    {
+        "before":"§fPut the item into a crafting window if it has no lore",
+        "after":"nomifactory.nolore"
+    },
+    {
+        "before":"§b§oObtained by crushing Glitch Hearts against Obsidian.",
+        "after":"nomifactory.glitch_fragment.tooltip"
+    },
+    {
+        "before":"§b§oObtained by charging with RF power in the AE2 Charger.",
+        "after":"nomifactory.charged_certus.tooltip"
+    },
+    {
+        "before":"§8§oGaze into the Abyss...",
+        "after":"nomifactory.eternalcatalyst.tooltip"
+    },
+    {
+        "before":"§eRecipe is shapeless.",
+        "after":"nomifactory.shapeless"
+    },
+    {
+        "before":"§cBone Meal works just as well for manual and AA/EIO farms.",
+        "after":"nomifactory.fertilizer_compound.tooltip"
+    },
+    {
+        "before":"§cEnderIO tanks and SoG Drums make for reasonable alternatives.",
+        "after":"nomifactory.pipette.tooltip"
+    },
+    {
+        "before":"§cPlease use the ContentTweaker variant of Pulsating Dust.",
+        "after":"nomifactory.pulsating_dust.tooltip"
+    },
+    {
+        "before":"§cPlease use the ContentTweaker variant of Pulsating Mesh.",
+        "after":"nomifactory.pulsating_mesh.tooltip"
+    },
+    {
+        "before":"§cTry out the Engineer's Goggles from Actually Additions instead :)",
+        "after":"nomifactory.naturalist_helmet.tooltip"
+    },
+    {
+        "before":"§cPlease use the GregTech Crafting Station instead.",
+        "after":"nomifactory.worktable.tooltip"
+    },
+    {
+        "before":"§3GTCE Cable facades can be made from most non-tile-entites, and craft into different amounts based on the metal used.",
+        "after":"nomifactory.gtfacade.tooltip"
+    },
+    {
+        "before":"Used for autocrafting with Logistics",
+        "after":"nomifactory.lp_ctable.tooltip"
+    },
+    {
+        "before":"Used for oredict autocrafting with Logistics",
+        "after":"nomifactory.lp_ctable_fuzzy.tooltip"
+    },
+    {
+        "before":"This is your Logistics Crafting Terminal",
+        "after":"nomifactory.lp_rtable.tooltip"
+    },
+    {
+        "before":"§cModular Machinery is getting removed in a future update.",
+        "after":"nomifactory.mm_controller.tooltip1"
+    },
+    {
+        "before":"§cPlease use the new GregTech multiblocks instead. ('@Multiblock' in JEI)",
+        "after":"nomifactory.mm_controller.tooltip2"
+    },
+    {
+        "before":"Draconium Lens"
+    },
+    {
+        "before":"Blue Lens"
+    },
+    {
+        "before":"Green Lens"
+    },
+    {
+        "before":"Red Lens"
+    },
+    {
+        "before":"§9See you later, navigator!",
+        "after":"nomifactory.universalnavigator.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tieroneship",
+        "index":"1",
+        "after":"nomifactory.ship1.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiertwoship",
+        "index":"1",
+        "after":"nomifactory.ship2.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tierthreeship",
+        "index":"1",
+        "after":"nomifactory.ship3.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tierfourship",
+        "index":"1",
+        "after":"nomifactory.ship4.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tierfiveship",
+        "index":"1",
+        "after":"nomifactory.ship5.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiersixship",
+        "index":"1",
+        "after":"nomifactory.ship6.tooltip"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiersevenship",
+        "index":"1",
+        "after":"nomifactory.ship7.tooltip1"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiersevenship",
+        "index":"2",
+        "after":"nomifactory.ship7.tooltip2"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiereightship",
+        "index":"1",
+        "after":"nomifactory.ship8.tooltip1"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiereightship",
+        "index":"2",
+        "after":"nomifactory.ship8.tooltip2"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiernineship",
+        "index":"1",
+        "after":"nomifactory.ship9.tooltip"
+    },
+    {
+        "before":"§aDrops from monsters, and can be made in",
+        "after":"nomifactory.solid_exp.tooltip1"
+    },
+    {
+        "before":"§aa Fluid Solidifier or Experience Solidifier.",
+        "after":"nomifactory.solid_exp.tooltip2"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiertenship",
+        "index":"1",
+        "after":"nomifactory.shipx.tooltip1"
+    },
+    {
+        "unlocalizedName":"item.contenttweaker.tiertenship",
+        "index":"2",
+        "after":"nomifactory.shipx.tooltip2"
+    },
+    {
+        "unlocalizedName":"tile.actuallyadditions.block_canola_press",
+        "index":"1",
+        "after":"nomifactory.canola_press.tooltip"
+    },
+    {
+        "before":"§8§oCrafting component only.",
+        "after":"nomifactory.craftonly"
+    },
+    {
+        "before":"§eRequires a redstone signal to light.",
+        "after":"nomifactory.lamp_flat.tooltip"
+    },
+    {
+        "before":"§a§oMade by right-clicking ME P2P Tunnel with an energy conduit.",
+        "after":"nomifactory.p2p_fe.tooltip"
+    },
+    {
+        "before":"§a§oMade by right-clicking ME P2P Tunnel with a bucket.",
+        "after":"nomifactory.p2p_fluid.tooltip"
+    },
+    {
+        "before":"§a§oMade by right-clicking ME P2P Tunnel with a chest.",
+        "after":"nomifactory.p2p_item.tooltip"
+    },
+    {
+        "before":"§a§oMade by right-clicking ME P2P Tunnel with a torch.",
+        "after":"nomifactory.p2p_light.tooltip"
+    },
+    {
+        "before":"§a§oMade by right-clicking ME P2P Tunnel with redstone dust.",
+        "after":"nomifactory.p2p_red.tooltip"
+    }
+]
