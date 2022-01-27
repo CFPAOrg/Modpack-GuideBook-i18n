@@ -70,7 +70,7 @@
       }
     },
     "update": {
-      "text": "更新记录",
+      "text": "\u66f4\u65b0\u8bb0\u5f55",
       "posX": 125,
       "posY": 26,
       "width": 120,
@@ -82,7 +82,7 @@
       }
     },
     "discord": {
-      "text": "加入Discord！",
+      "text": "\u52a0\u5165Discord\uff01",
       "posX": 4,
       "posY": 26,
       "width": 120,
@@ -94,7 +94,7 @@
       }
     },
     "akliz": {
-      "text": "租赁服务器，畅玩纯粹工厂！",
+      "text": "\u79df\u8d41\u670d\u52a1\u5668\uff0c\u7545\u73a9\u7eaf\u7cb9\u5de5\u5382\uff01",
       "posX": 4,
       "posY": 50,
       "width": 240,
