@@ -51,8 +51,8 @@ nomifactory.quest.db.1.title=晶体催生仓
 nomifactory.quest.db.1.desc=§3晶体催生仓§r使你能够在机器环境中处理原本需要在世界内进行合成的§b应用能源§r的配方。你再也不用把一堆东西扔进水里了，太棒啦！%n%n这台机器可以将§6晶体种子§r催生为§6高纯晶体§r，也能用来制造§6福鲁伊克斯水晶§r。%n%nJEI并不会直接显示晶体催生仓的配方，所以我们会在这里对此进行说明：%n%n晶体种子由任意一种晶体粉末（包括下界石英粉、赛特斯石英粉和福鲁伊克斯粉）与沙子混合而成，可生长成相应的高纯晶体，用以代替普通的晶体参与大部分配方的合成。很好的一点是，高纯晶体能够使材料的利用效率翻倍，但很抱歉，高纯晶体无法再被研磨成粉，也就无法被进一步翻倍。%n%n曾需要在水中制造的福鲁伊克斯水晶在晶体催生仓中所需的合成材料不变：每两块水晶需要§6红石§r、§6充能赛特斯石英水晶§r和§6下界石英§r各一份。
 
 # db 2
-nomifactory.quest.db.2.title=Canning Machine and Assorted Stuff
-nomifactory.quest.db.2.desc=Note: this quest accepts both LV and MV Canning Machines.%n%n§aLV Batteries§r were very simple to make, but more effective forms of power storage will be more complex to build, so we'll need to lay the groundwork now.%n%nPut your §3Centrifuge§r to work for the §6Antimony§r you'll need, which comes in tiny piles from processing §6Tetrahedrite Ore§r and §6Stibnite Ore§r.%n%n
+nomifactory.quest.db.2.title=装罐机和各种原料
+nomifactory.quest.db.2.desc=提醒：本任务同时接受基础（LV）和进阶（MV）装罐机。%n%n尽管§a低压电池§r非常容易制作，但更有效的储能形式制造起来也更复杂，所以我们现在得做好基本工作。%n%n用§3离心机§r来提取你需要的锑，这些锑来自加工处理§6黝铜矿矿石§r和§6辉锑矿矿石§r产生的小撮粉末。
 
 # db 3
 nomifactory.quest.db.3.title=起始
@@ -75,8 +75,8 @@ nomifactory.quest.db.7.title=线缆
 nomifactory.quest.db.7.desc=诸如§6红色合金线缆§r一类最为基础的线缆可以直接通过在导线外面包上一层绝缘§6橡胶§r的方法制作而成。%n%n品类更高级的线缆则需要用到§3组装机§r和液态的§9橡胶§r，但现在你可以先挑简单的做。
 
 # db 8
-nomifactory.quest.db.8.title=The Third Tier Three Circuits
-nomifactory.quest.db.8.desc=With three §6Microcircuits§r and some standard components, you can upgrade to the penultimate Tier Three circuit: a §6Microprocessor§r.
+nomifactory.quest.db.8.title=第三种三级电路
+nomifactory.quest.db.8.desc=将三块§6微型电路§r和一些标准组件组合在一起，你就可以将其升级为倒数第二种三级电路：§6微型处理器§r。
 
 # db 9
 nomifactory.quest.db.9.title=双倍矿产？
@@ -323,8 +323,8 @@ nomifactory.quest.db.69.title=铝锭
 nomifactory.quest.db.69.desc=电力高炉蓄势待发，大批§6铝锭§r势在必得。这种材料对于中压等级的，以及来自§b应用能源§r的机器都至关重要。%n%n如果感觉供电吃紧，可以考虑多做几台蒸汽能源炉并将其转化为蒸汽锅炉和蒸汽涡轮，也建议你对这些能源炉进行升级。%n%n然而中压的大门就在眼前，你必须尽快找到比蒸汽更好的能量来源。
 
 # db 70
-nomifactory.quest.db.70.title=MV Power Storage
-nomifactory.quest.db.70.desc=§aMV Batteries§r function essentially the same as §aLV Batteries§r, only stronger. They also need to be put into an §3MV CEF§r or §3MV Battery Buffer§r.
+nomifactory.quest.db.70.title=中压储能
+nomifactory.quest.db.70.desc=§a中压电池§r功能基本上和§a低压电池§r一样，只是储能而已。它们也需要被放进§3中压CEF§r或者§3中压电池箱§r中。
 
 # db 71
 nomifactory.quest.db.71.title=中压电解机
@@ -339,12 +339,12 @@ nomifactory.quest.db.73.title=ME导管
 nomifactory.quest.db.73.desc=§6ME导管§r的优点在于能够与其它种类的导管共享方块空间。哦对了，它的造价也相对便宜一些。%n%n唯一不好的一点是，§e它无法与§b应用能源§e的微型构件相连接§r，譬如平板式的§6接口§r和§6标准发信器§r等，所以你还是需要用到§6ME玻璃线缆-福鲁伊克斯色§r之类的AE线缆。
 
 # db 74
-nomifactory.quest.db.74.title=Aluminium Casing
-nomifactory.quest.db.74.desc=§6Quartzite Ore§r is found in... quartzite veins in the Overworld.%n%n§6Quartzite Dust§r can be electrolyzed into §6Crushed Black Quartz§r, which can be crystallized into §6Black Quartz§r in an §3Autoclave§r.%n%nBlack Quartz and §6Aluminium Plates§r will make §6Aluminium Casings§r, which are used for making machines from §bActually Additions§r.
+nomifactory.quest.db.74.title=铝制外壳
+nomifactory.quest.db.74.desc=§6石英岩矿石§r可以在……呃，主世界的石英岩矿脉中找到。%n%n§6石英岩粉§r可以被电解为§6焦黑石英粉§r，然后在§3高压釜§r里结晶为§6焦黑石英§r。%n%n焦黑石英和§6铝板§r可以合成§6铝制外壳§r，可以用来制作§b实用拓展§r模组的机器。
 
 # db 75
-nomifactory.quest.db.75.title=Machine Block
-nomifactory.quest.db.75.desc=The §6Machine Block§r is the first step into a mod called §bExtra Utilities 2§r.
+nomifactory.quest.db.75.title=机器方块
+nomifactory.quest.db.75.desc=这个小小的§6机器方块§r是你踏入§b更多实用设备2§r模组的第一步
 
 # db 76
 nomifactory.quest.db.76.title=第一块二级电路
@@ -379,44 +379,44 @@ nomifactory.quest.db.83.title=中压精密激光蚀刻机
 nomifactory.quest.db.83.desc=§3精密激光蚀刻机§r用于将§6晶圆§r蚀刻为电路。%n%n电路的种类由晶圆种类以及机器中加装的§a透镜§r种类所决定。
 
 # db 84
-nomifactory.quest.db.84.title=Circuit Wafers
-nomifactory.quest.db.84.desc=§6Circuit Wafers§r are batches of integrated circuits engraved onto a wafer of electronics-grade silicon.%n%nYou need to run these through the §3Cutting Machine§r to dice the wafers into individual integrated circuits (called dies).%n%nThese are important components and will be used for making more advanced Circuits.
+nomifactory.quest.db.84.title=电路晶圆
+nomifactory.quest.db.84.desc=§6电路晶圆§r是在电子级晶圆上雕刻的批量集成电路。%n%n为此你需要用§3切割机§r将晶圆切割成单独的集成电路（称为裸片）。这些部件相当重要，将用于制作更高级的电路。
 
 # db 85
 nomifactory.quest.db.85.title=Gap
 nomifactory.quest.db.85.desc=
 
 # db 86
-nomifactory.quest.db.86.title=The Second Tier One Circuits
-nomifactory.quest.db.86.desc=Much easier to mass produce than §6Primitive Circuits§r, and they fulfill the same function in nearly all cases.%n%nYou should be batch crafting these.
+nomifactory.quest.db.86.title=第二种一级电路
+nomifactory.quest.db.86.desc=比§6低等电路§r更容易大规模生产，并且它们在几乎所有的情况下都能实现相同的功能。%n%n你应该批量制作它们。
 
 # db 87
-nomifactory.quest.db.87.title=The Second Tier Two Circuits
-nomifactory.quest.db.87.desc=Three §6Electronic Circuits§r and various other components will create an §6Electronic Processor§r.
+nomifactory.quest.db.87.title=第二种二级电路
+nomifactory.quest.db.87.desc=三个§6电子电路§r加上各种其他部件可以制作一个§6电子处理器§r。
 
 # db 88
 nomifactory.quest.db.88.title=透镜
 nomifactory.quest.db.88.desc=§3精密激光蚀刻机§r需要用到各种各样使用§3高压釜§r制造而成的§a透镜§r。%n%n一开始，你需要一个§a红色透镜§r、一个§a钻石透镜§r和一个§a玻璃透镜§r。%n%n红色透镜的制作材料为§6红宝石§r，同时也可以使用铁铝榴石、红石榴石、碧玉或金红石来制作。%n%n其余两种透镜的制作材料则正如名字所示。%n%n
 
 # db 89
-nomifactory.quest.db.89.title=The First Tier Three Circuits
-nomifactory.quest.db.89.desc=Your first tier three circuit, formed from four §6Electronic Processors§r and §6Transistors§r, among other ingredients.%n%nAs you'll realize is the pattern, it is expensive and unwieldy to make the first forms of each tier of circuits. Fortunately, you don't have to make many of them.%n%nPrioritize using these circuits to make things needed for unlocking the next theme of circuits, which require more infrastructure but are much cheaper to produce. Eventually each tier through six will have a circuit recipe instead of requiring processors, arrays, or mainframes.%n%n
+nomifactory.quest.db.89.title=第一块三级电路
+nomifactory.quest.db.89.desc=你的第一种三级电路，由四个§6电子处理器§r、§6晶体管§r和其他部分组成。%n%n正如你想的那样，每级电路的第一种形式制作起来是相当昂贵且笨重的。不过幸运的是，你不必制作很多。%n%n优先把这些电路用来制造解锁下一种风格的电路的机器，虽然这样需要更多的基础设施，但生产成本要低的多。最终，直到第六级每级电路都将有一个电路配方而不是需要处理器、处理器阵列或是主机。%n%n
 
 # db 90
-nomifactory.quest.db.90.title=MV Assembling Machine
+nomifactory.quest.db.90.title=中压组装机
 nomifactory.quest.db.90.desc=The §3Advanced Assembling Machine§r, or MV Assembler for short, allows you to craft recipes that require up to 128 EU/t instead of 32. Plus, any recipe that was at most 32 EU/t can §eoverclock§r, crafting up to 2.8 times faster for 4 times the original energy per tick.%n%nA host of new recipes are now achievable, including a new theme of Circuits!
 
 # db 91
-nomifactory.quest.db.91.title=Chrome
-nomifactory.quest.db.91.desc=§6Chrome§r is obtained by electrolyzing §6Ruby Dust§r.
+nomifactory.quest.db.91.title=铬
+nomifactory.quest.db.91.desc=§6铬§r可以通过电解§6红宝石粉§r获得。
 
 # db 92
-nomifactory.quest.db.92.title=Farmer
-nomifactory.quest.db.92.desc=The §3Farmer§r can be used to automate the planting and gathering of crops, including §6Potatoes§r, §6Canola§r, §6Carrots§r, and §6Beetroot§r.%n%nDoesn't do trees, though.
+nomifactory.quest.db.92.title=农场
+nomifactory.quest.db.92.desc=§3农场§r可以自动种植并采集作物，包括§6马铃薯§r、§6油菜§r、§6胡萝卜§r和§6甜菜§r。%n%n但别种树，尽管它确实能种。
 
 # db 93
-nomifactory.quest.db.93.title=HV Machine Hulls
-nomifactory.quest.db.93.desc=With §6HV Machine Hulls§r made, you've made your first step towards §eHigh Voltage (HV)§r power machinery!%n%nWhile you can make these in a crafting table with §6Polyethylene Sheets§r, liquid §9Polyethylene§r can be used to craft these directly in an §3Assembling Machine§r.
+nomifactory.quest.db.93.title=高压机身
+nomifactory.quest.db.93.desc=§6高压机身§r的成功制作，是你迈向§e高压（HV）§r机器的第一步！%n%n尽管你可以用§6聚乙烯片§r在工作台上合成它，但§3组装机§r可以直接用液态§9聚乙烯§r制作它。
 
 # db 94
 nomifactory.quest.db.94.title=硫酸
@@ -431,12 +431,12 @@ nomifactory.quest.db.96.title=塑料片
 nomifactory.quest.db.96.desc=使用§3流体固化机§r，搭配§a模具（板）§r来制造电子元件的制造材料——§6聚乙烯片§r。
 
 # db 97
-nomifactory.quest.db.97.title=Keeping Stuff In Stock
-nomifactory.quest.db.97.desc=If you didn't know, you can have stacks of items stored inside of an §aME Interface§r. Placing a §aStorage Bus§r onto the ME Interface lets you access and use those items in recipes. Putting a §aCrafting Card§r inside the Interface will let the Interface automatically place autocraft orders for items it should stock but you don't have.%n%nThis approach can be used for autocrafting to some extent, but proceed with caution as crafting cards can produce a great deal of lag on larger ME Networks. AE calculates the full crafting tree of these items every time a request is made, even if you have enough items already in stock.%n%nThus, it is strongly recommended to limit Crafting Cards to simple recipes (ones without many dependent recipes) and ideally on smaller purpose-built networks. %n%nPrefer passive autocrafting methods on your main network, or if things are gonna get complicated.
+nomifactory.quest.db.97.title=管理库存
+nomifactory.quest.db.97.desc=你知道吗？§aME接口§r蕴含着你存储的各种东西。将§aME储存总线§r放置在ME接口上，便可以访问和使用配置中的物品。将§a合成卡§r放入ME接口可使ME接口为不足的物品自动发出合成请求.%n%n这种方法一定程度上可用于自动合成，但要小心操作，因为在较大的ME网络上合成卡会产生大量延迟。每次提出请求时，即使你已有足够的物品，AE都会计算这些物品的完整合成树。%n%n因此强烈建议限定合成卡只制作简单合成（不依赖其他合成表），最好是较小的专用网络。%n%n在你的主网络上最好优先使用被动的自动合成，不然事情就会变得很复杂。
 
 # db 98
-nomifactory.quest.db.98.title=Stainless Steel
-nomifactory.quest.db.98.desc=§6Stainless Steel§r will be your primary material for HV, in the same way that §6Aluminium§r was for MV and §6Wrought Iron§r was for LV.%n%n§6Manganese§r comes from electrolyzing §6Tantalite§r, §6Pyrolusite§r, or §6Spessartine Dusts§r. You already have §6Chrome§r.%n%nMix up a bunch of the dust in a §3Mixer§r and begin processing it through the §3Electric Blast Furnace§r. This may be a good time to reevaluate your power generation and storage infrastructure.
+nomifactory.quest.db.98.title=不锈钢
+nomifactory.quest.db.98.desc=§6不锈钢§r会是你在HV阶段的主要材料，就像§6铝§r用于MV阶段，§6锻铁§r用于LV阶段一样。%n%n§6锰§r可通过电解§6钽铁矿§r、§6软锰矿§r或者§6锰铝榴石粉§r获得。而§6铬§r你已经有了。把它们和其他的一些金属粉放进§3搅拌机§r里搅拌，然后用§3电力高炉§r加工。这可能是你重新评估发电和储电设施的好时机。
 
 # db 99
 nomifactory.quest.db.99.title=Synthesizing Your First Omnium
@@ -471,8 +471,8 @@ nomifactory.quest.db.106.title=样板终端
 nomifactory.quest.db.106.desc=顾名思义，这种终端使你能够将配方编入§a空白样板§r。%n%n该终端属于微型构件，故需要接上§6ME线缆§r，而非导管。
 
 # db 107
-nomifactory.quest.db.107.title=Atomic Reconstructor
-nomifactory.quest.db.107.desc=The §3Atomic Reconstructor§r is the cornerstone of §bActually Additions§r, using Crystal Flux (which automatically converts 1:1 with RF) to change items into other items.%n%nThis machine fires a laser out of the front that reconstructs standard materials into special variants.%n%nThe machine itself will give you further instructions on how to configure it.
+nomifactory.quest.db.107.title=原子重构机
+nomifactory.quest.db.107.desc=§3原子重构机§r是整个§b实用拓展§r模组的基石，使用水晶通量（Crystal Flux）（可自动与RF以1:1转换）来将物品转换为其他形态.%n%n这台机器正面可以发射激光，将普通材料重构成特殊变体。%n%n其本身也会进一步说明如何配置。
 
 # db 108
 nomifactory.quest.db.108.title=接口终端
@@ -491,16 +491,16 @@ nomifactory.quest.db.111.title=合成终端
 nomifactory.quest.db.111.desc=用了这么久老掉牙的木头工作台，改用数字合成栏简直爽上天了。%n%nME合成终端属于微型构件，故需要接入§6ME线缆§r。是线缆，不是导管。
 
 # db 112
-nomifactory.quest.db.112.title=Reconstruction Of Atoms
-nomifactory.quest.db.112.desc=By placing them in the path of an §3Atomic Reconstructor§r's laser beam, §6Coal§r can be turned into §6Void Crystals§r, and §6Iron Ingots§r into §6Enori Crystals§r.%n%nKeep in mind you can efficiently do this with blocks, splitting them into nine base items as usual.
+nomifactory.quest.db.112.title=重构原子
+nomifactory.quest.db.112.desc=在§3原子重构机§r的激光束下，§6煤炭§r可以转化成§6煤晶§r，§6铁锭§r可以转化成§6铁晶§r。%n%n别忘了，直接用块效率更高，然后再把它分成9个基本物品就可以了。
 
 # db 113
 nomifactory.quest.db.113.title=Resonator
 nomifactory.quest.db.113.desc=The §3Resonator§r is one of the primary crafting machines from §bExtra Utilities 2§r. It requires Grid Power in order to function, and produces special items like §6Stoneburnt§r and §6Red Coal§r.
 
 # db 114
-nomifactory.quest.db.114.title=Manual Mill
-nomifactory.quest.db.114.desc=§eGrid Power§r, or GP for short, is a power system used by §bExtra Utilities§r. It is generated by using a variety of §3Mills§r.%n%nIt deviates from most power systems in that Mills and GP consumers can be placed anywhere. It is globally available. However, Mills of each type incur §cdiminishing returns§r to massively punish excessive spamming of the same kind of Mills. Diversify!%n%nThe first Mill available is the §3Manual Mill§r, which is a hand crank that generates up to 15 GP. This is enough to get started so you can make better Mill types. Place it down and wind it up by holding right-click to generate GP.%n%nIf you are playing in a group, the command §e/xu_powersharing§r may be useful to allow for sharing GP between players. Simply run the command and select which players you want to share your GP with.
+nomifactory.quest.db.114.title=手动发电机
+nomifactory.quest.db.114.desc=§e网络能量§r，或者简称GP，是§b更多实用设备§r模组所使用的能量。它是各种各样的§3发电机§r产生的。%n%n与绝大多数能量系统不同，发电机和消耗GP的机器可以放置在任何地方。GP是全局可用的。然而，各个类型的发电机的收益都会随着数量增加§c递减§r，以惩罚同种发电机的滥用。让你的能量来源多样化起来！%n%n你的第一台可用的发电机是§3手动发电机§r，它就是一个手摇曲柄，最多可用产生15点GP。足以让你开始发展以便制作更好的发电机。把它放在地上，然后按住右键就可以转动它来生产GP。%n%n如果你在队伍中，使用命令§e/xu_powersharing§r可能可以让你和小队成员共享GP。只需要运行指令，然后选择你想共享GP的玩家就好了。
 
 # db 115
 nomifactory.quest.db.115.title=Red Coal
@@ -659,8 +659,8 @@ nomifactory.quest.db.153.title=HV Chemical Reactor
 nomifactory.quest.db.153.desc=You'll need an §3HV Chemical Reactor§r for processing §6Titanium§r.
 
 # db 154
-nomifactory.quest.db.154.title=Distillation Tower
-nomifactory.quest.db.154.desc=With tier three circuits in hand, it's time to make a §3Distillation Tower§r, which is the gatekeeper for more advanced plastics like §6Epoxy§r and doing petrochemistry.%n%nThe Distillation Tower is a highly flexible multiblock structure, able to be anywhere from §62 blocks high to up to 13 high§r (12 fluid outputs). The way that it works is that each level of the tower after the first will output an additional fluid from the recipe. §cAny output fluids in excess of available buses are voided§r. %n%nWhat you need the Distillation Tower for initially is to break down §9Biomass§r into §9Ethanol§r and §9Water§r. This recipe only has two outputs, so a §ethree-block-high Distillation Tower§r is just fine (the quest materials are for such a tower; if you want to build it bigger, you will need §ean additional 7 casings and 1 fluid output per floor§r).%n%nAny recipe with more than two fluids (like §9Oil§r) will need a larger tower. Make sure to increase the height of your tower to accommodate all of the outputs you want to keep. Also check the voltage requirements of the recipes, as many Distillation Tower recipes need higher voltages than MV. §eYou can swap out your Energy Input for a higher tier one when that time comes§r.%n%nThe tower we'll be building at first is 3x3x3, with a hollow center. §6Fluid Input Hatch§r §emust go in the very center of the bottom 3x3 layer§r. The §6controller§r goes in the middle of an outer edge of the bottom layer. The §6Output Bus§r and an §6Energy Input Hatch§r can go wherever you can fit them on the bottom layer. The rest of the 3x3 must be filled with §6Clean Stainless Steel Casings§r. Each level above that is a ring of 7 Clean Stainless Steel Casings, one §6Fluid Output§r and nothing in the center, except for the topmost layer which needs an eighth casing to fill in the center, capping off the top.
+nomifactory.quest.db.154.title=蒸馏塔
+nomifactory.quest.db.154.desc=三级电路到手，是时候做一个蒸馏塔了，想制作更高级塑料（比如§6环氧树脂§r）或进行石油加工必须先过了它这关。%n%n蒸馏塔是一个高度灵活的多方块结构，从§6至少2格高到至多13格高§r（12个流体输出仓）都能工作。除了第一层，之后的塔的每一层都会输出相应合成表中的一种额外流体。§c多于可用输出仓的流体都不会产出§r。%n%n一开始，你只需要一个将§9生物质§r分解为§9乙醇§r和§9水§r的小蒸馏塔。这个配方只有两种产物，所以一个三格高的蒸馏塔就够用了（也就是任务需求的材料，如果你想造的大点，§e每加一层需要7个外壳和1个流体输出仓§r）。%n%n要处理两种以上流体的配方（比如§9油§r）所需的塔也会更大。确保你的塔的高度足以保留你所需的流体输出。同时，也要注意配方的电压需求，许多蒸馏塔配方需要中压以上的电压。§e到时候你就得换用更高的电压§r。%n%n一开始建造的蒸馏塔是一个3x3x3的中心结构。§6流体输入仓§r§e必须放置在底部3x3方块的正中心§r。§6控制方块§r得放在底边的中间。§6输出总线§r和§6能源仓§r可以放在底部任何一个你看着顺眼的地方。其余空的地方得用§6洁净不锈钢机械方块§r填补。每层都需要7个洁净不锈钢机械方块和1个§6流体输出仓§r，以环状摆放，中心不需要任何方块，直到最顶层才需要用第八个机械方块填在中间来封住顶部。
 
 # db 155
 nomifactory.quest.db.155.title=The Fourth and Final Tier Five Circuits
@@ -975,8 +975,8 @@ nomifactory.quest.db.232.title=飞向月球
 nomifactory.quest.db.232.desc=With your Rocket built, fuel loaded, and destination set, it's time for the prelaunch checklist.%n%n- §eMake sure you're wearing your Space Suit§r (all four pieces) and that it has a full tank of Oxygen. If you plan to stay on the Moon a while, maybe bring a gas charging pad and Ender Tank (being filled with Oxygen) with you.%n%nTeleportation:%n%n- If you decided to go with §aDislocators§r, make sure you take two with you: one bound to the Overworld, the other ready to bind to the Moon. Also bring along a Pedestal to put the Overworld one on the Moon surface.%n%n- If you decided to go with §aTelepads§r, make sure you've constructed a Telepad in the Overworld and that you're carrying coordinates that lead to it. Make sure to bring your Coordinate Selector, blank Paper, and materials for the second Telepad setup. Bring Dew of the Void and RF power (like a §6Solar Panel§r and a §6Capacitor Bank§r).%n%nIn either case, as soon as you land you will need to prepare the other half of the teleportation route, and chunkload it.%n%nWhen you're sure you're prepared, sit in your rocket and press §eSpace§r.%n%nLiftoff!
 
 # db 233
-nomifactory.quest.db.233.title=Explore Actually Additions
-nomifactory.quest.db.233.desc=There's a great deal of interesting content within §bActually Additions§r, and although most of it is not strictly required for progression, you should still look through what it offers and build what interests you.%n%nIn particular, the §aDrill§r with all the upgrades is a fantastically powerful mining tool, and the §3Vertical Digger§r is a machine which can be placed to automate mining an entire vein for you.%n%n§3Phantomfaces§r, §3Auto Placers/Breakers§r, §3Lava Factories§r, and much more can be utilized at your discretion to supplement and refine your automation techniques.
+nomifactory.quest.db.233.title=探索实用拓展模组
+nomifactory.quest.db.233.desc=§b实用拓展§r模组中有着很多有趣的内容，尽管其中大部分并不是严格的进度要求，但是你最好也看看，然后找点你喜欢的东西做做。%n%n比如说，加满所有升级的§a手钻§r是一种非常强大的采矿工具，而§3垂直挖矿机§r是一台可以自动挖掘整个矿脉的机器。%n%n还有§3幻灵接口§r、§3方块放置/破坏机§r、§3熔岩工厂§r等等，你可以视情况将其用于补充和完善你的自动化流程。
 
 # db 234
 nomifactory.quest.db.234.title=Barium
@@ -1635,8 +1635,8 @@ nomifactory.quest.db.397.title=Creative RF Source
 nomifactory.quest.db.397.desc=A single-block solution to all your power needs.%n%nThis baby pushes out 2.14 GRF/t per side.
 
 # db 398
-nomifactory.quest.db.398.title=Multi Smelter
-nomifactory.quest.db.398.desc=The §3Multi Smelter§r is an absolute smelting unit, and is most likely the best furnace added by a mod.%n%nIt's a 3x3x3 multiblock machine capable of §esmelting huge amounts of items per second§r. By upgrading its coils and power tier, it can become capable of smelting up to literal thousands of items per second.%n%nHover over different coil blocks: the higher the §elevel§r, the more items a Multi Smelter can smelt per operation: §e32 items per level§r. The most basic Multi Smelter essentially does 32 items in the same time as a furnace does one. With a set of level 4 coil blocks, that jumps to 128 items per operation.%n%nThis quest doesn't ask for coils, hatches or buses: feel free to choose whatever combination you want. You'll need §a8 coil blocks§r, §a1 input bus§r, §a1 output bus§r and at least §a1 energy hatch§r of any tier.%n%n
+nomifactory.quest.db.398.title=工业熔炉
+nomifactory.quest.db.398.desc=§3工业熔炉§r是一种火力十足的熔炼装置，而且它很可能是模组添加的最好的熔炉。%n%n它是一台3x3x3的多方块机器，§e每秒能熔炼大量物品§r。通过升级线圈和电压等级，它甚至有能力每秒熔炼多达数千个物品。%n%n将鼠标悬停在不同的线圈方块上：线圈方块的§e等级§r越高，工业高炉每次熔炼的物品越多§e（每级多熔炼32个物品）§r。最基础的工业熔炉可以在普通熔炉熔炼1个物品的时间里熔炼32个物品。如果使用4级线圈方块，每次便可以熔炼128个物品。%n%n此任务对线圈，储存舱、物品总线不做要求：你可以自由选择你想要的组合。但你至少也需要§a8个线圈方块§r、§a1个输入总线§r、§a1个输出总线§r和任意级别的§a1个能源舱§r。%n%n
 
 # db 399
 nomifactory.quest.db.399.title=Plasma Turbine
@@ -1683,8 +1683,8 @@ nomifactory.quest.db.409.title=初识能量
 nomifactory.quest.db.409.desc=与能在任何§6导管§r中安全传输的§aRF能量§r不同，§aEU能量§e需要格外注意§r。关键点在于永远要使§6线缆§r和机器在§e电压§r及§e电流上§a等于或大于§r能量源。%n%n§o§4§c绝对不能§r将你的CEF连接至§e电流§r低于自身的线缆或电池箱。举个例子，你必须使用§64x线缆§r来连接一台4安的CEF，使用§616x线缆§r来连接一台满载电池的16槽电池箱。电流额定值不足的线缆将被§c烧毁§r。同样地，线缆的§e电压等级§r也必须等于或大于机器，否则也会被§c烧毁§r。%n%n§c绝对不能§r使机器连通大于自身的§e电压§r，否则机器将直接§c蒸发§r。接触连通了§aEU能量§r的§6导线§r会导致§c伤亡§r。安全起见，§e请换用§6线缆§r！
 
 # db 410
-nomifactory.quest.db.410.title=Gap
-nomifactory.quest.db.410.desc=
+nomifactory.quest.db.410.title=Battery Buffers
+nomifactory.quest.db.410.desc=§3Battery Buffers§r are §bGregTech machines§r which can be filled with §aEU Batteries§r to provide §eone amp of power per battery they contain§r. These come in 1§r, 4§r, 9§r, and 16-slot§r variations.
 
 # db 411
 nomifactory.quest.db.411.title=Large Microverse Projector
@@ -2011,8 +2011,8 @@ nomifactory.quest.db.491.title=连锁砍树？
 nomifactory.quest.db.491.desc=§a伐木斧§r是一种可以一次性破坏所有相连方块，也即§e连锁采掘§r的工具，但仅适用于工具需求为斧的方块。这类工具的初衷是方便一次砍伐整棵树木，但你也可以用它来连锁采掘其它木头类方块。%n%n§c§l注意，潜行并不会禁用伐木斧的连锁特性！§r%n%n千万要小心别一斧子砍掉你的整面储物抽屉墙，否则绝对要叫你心态大崩。
 
 # db 492
-nomifactory.quest.db.492.title=Drill Baby Drill
-nomifactory.quest.db.492.desc=Is it expensive? Yes. Is it worth it? Hell yes.%n%nIt doesn't start to shine until you get the good upgrades for it though, so maybe hold off for a while.
+nomifactory.quest.db.492.title=挖吧宝贝！挖吧！
+nomifactory.quest.db.492.desc=是不是很贵？确实。物有所值吗？物超所值！%n%n但是……这块金子在你得到好的升级之前并不会闪闪发光，所以你可能得先把它暂时搁置一下。
 
 # db 493
 nomifactory.quest.db.493.title=Gap
@@ -2035,8 +2035,8 @@ nomifactory.quest.db.497.title=压缩抽屉
 nomifactory.quest.db.497.desc=自动进行金属粒、锭、块之间的自动转化，或只是想要存储大量物品，选择压缩抽屉准没错。此外，它也能用来转换不同面额的§d全能币§r。%n%n将压缩抽屉做成§a镶框压缩抽屉§r即可借助§a镶框台§r来定制其外观。
 
 # db 498
-nomifactory.quest.db.498.title=Soldering Alloy
-nomifactory.quest.db.498.desc=When making circuits, you'll need either molten §9Tin§r, or molten §9Soldering Alloy§r§r§r in the §3Assembling Machine§r. Soldering Alloy is made in the §3Alloy Smelter§r with a 9:1 ratio of §6Tin Ingots§r to §6Antimony Dust§r. You then process it in a §3Fluid Extractor §rfor the usual 144mB of fluid per ingot.%n%nThe Assembling Machine will only consume half as much Soldering Alloy as it would have consumed molten Tin per craft (72mB vs 144mB), so it's very efficient to use this stuff.%n%nPut your §3Centrifuge§r to work for the §6Antimony§r you'll need, which comes in tiny piles from processing §6Tetrahedrite Ore§r and §6Stibnite Ore§r.%n
+nomifactory.quest.db.498.title=焊锡
+nomifactory.quest.db.498.desc=在用§3组装机§r制造电路板时，你会用到熔融§9锡§r或者熔融§9焊锡§r§r§r。焊锡是由§6锡锭§r和§6锑粉§r以9:1的比例在§3合金炉§r中制成的。接着你要用§3流体提取机§r加工它，通常产率为144 mb/锭。%n%n组装机每次加工只会消耗相较于熔融锡一半的焊锡（72mb与144mb），因此使用焊锡是更加有效的。%n%n用§3离心机§r来提取你需要的锑，这些锑来自加工处理§6黝铜矿矿石§r和§6辉锑矿矿石§r产生的小撮粉末。
 
 # db 499
 nomifactory.quest.db.499.title=细铜导线
@@ -2051,8 +2051,8 @@ nomifactory.quest.db.501.title=Exotic Materials Catalyst
 nomifactory.quest.db.501.desc=A small appetizer, before the §dOmnium§r main course.%n%nAs the name suggests, this catalyst is formed from exotic non-elemental materials and alloys.
 
 # db 502
-nomifactory.quest.db.502.title=Capacitors
-nomifactory.quest.db.502.desc=§6Capacitors§r are devices that store electrical energy, which is useful for circuits.%n%nNot to be confused with §bEnderIO§r's capacitors§r, which store redstone flux.
+nomifactory.quest.db.502.title=电容
+nomifactory.quest.db.502.desc=§6电容§r是储存电能的装置，电路用处很大。%n%n不要和§b末影接口§r中的电容§r混淆了，那是储存红石通量（RF）的。
 
 # db 503
 nomifactory.quest.db.503.title=玄色魂金锭
@@ -2199,12 +2199,12 @@ nomifactory.quest.db.538.title=Gap
 nomifactory.quest.db.538.desc=
 
 # db 539
-nomifactory.quest.db.539.title=Phosphorus
-nomifactory.quest.db.539.desc=§6Phosphorus§r can be obtained by processing §6Tricalcium Phosphate Ore§r into dust and electrolyzing several times. This ore is found in §6Apatite§r veins.
+nomifactory.quest.db.539.title=磷
+nomifactory.quest.db.539.desc=将§6磷酸三钙矿石§r加工成粉末并多次电解以获得§6磷§r。这种矿石可以在§6磷灰石§r矿脉中发现。
 
 # db 540
-nomifactory.quest.db.540.title=MV Extruder
-nomifactory.quest.db.540.desc=The §3Extruder§r is an alternative way to form shapes from metal. §aExtruder Shapes§r are used for telling an Extruder which shape to make.%n%nExtruders are the only way to make certain things, like §6Large Pipes§r. Extruders use ingots, but are as efficient for making §6Gears§r as melting and solidifying.%n%nYou can also use Extruders to make things from other machines like plates and wires, but they are less efficient than using the dedicated machines for these purposes.
+nomifactory.quest.db.540.title=中压压模器
+nomifactory.quest.db.540.desc=§3压模器§r是金属成型的另一种途径。§a模头§r用于使§3压模器§r挤压出相应的形状。%n%n压模器是某些零件的唯一加工方式，比如§6大型流体管道§r。压模器以金属锭为原料，但制作§6齿轮§r的效率和熔化后成型的效率一样高。%n%n你也可以使用压模机来制造其他机器加工的物品，比如板和导线，但效率不如那些专用机器。
 
 # db 541
 nomifactory.quest.db.541.title=更多高炉
@@ -2243,12 +2243,12 @@ nomifactory.quest.db.549.title=Oil Drilling Rig
 nomifactory.quest.db.549.desc=If you don't like the idea of mining out Oilsands veins, you can build an §3Oil Drilling Rig§r.%n%nYou'll need to provide it with power, §9Drilling Fluid§r, and a steady supply of §6Pipes§r. The Pipes only have a 1%% chance to break per bucket of §9Oil§r drilled.%n%nYou'll need to supply at least §eHV power§r to your rig, and it will overclock with higher energy tiers. Positions of hatches and buses can be swapped with any §6Solid Steel Machine Casing§r.%n%nIf the multiblock preview in §bJEI§r is confusing, note that you can §ehold shift and drag-right-click§r to scale the preview to fit the window. Place then §6sneak-right click§r the controller block with an empty hand to enable the in-world preview.%n%nKeep in mind when placing the structure that there are 12 pipes that extend downward from the level of the controller.%n
 
 # db 550
-nomifactory.quest.db.550.title=Vertical Digger
-nomifactory.quest.db.550.desc=Place the §3Vertical Digger§r over an ore vein, feed it RF, and it will mine up the entire vein for you.%n%nFor drills, you will need a §6GregTech Drill§r (any LV drill will work), a §6Fluxbore§r (Reinforced tier is required) and an §6Actually Additions Drill§r (any color is fine, but take out any augments you wish to keep).%n%nThe GregTech Drill will not be consumed, but everything else will be.
+nomifactory.quest.db.550.title=垂直挖矿机
+nomifactory.quest.db.550.desc=将§3垂直挖矿机§r放置在矿脉上方，通入RF能量，它便开始挖掘整个矿脉。%n%n对于钻头，你需要一个§6格雷科技电钻§r（任何低压电钻都可以）、一个§6通量电钻§r（需要强化级的）和一个§6实用拓展手钻§r（任何颜色都行，别忘了把你想要的升级先取下来）。%n%n格雷科技电钻在合成中不会消耗，但其他的都会。
 
 # db 551
-nomifactory.quest.db.551.title=Phantom Booster
-nomifactory.quest.db.551.desc=Up to three §aPhantom Boosters§r can be placed atop the §3Vertical Digger§r to increase its area of effect.%n%nThese are also useful for extending the range of other "Phantom" machines and devices from §bActually Additions§r.
+nomifactory.quest.db.551.title=幻灵增幅器
+nomifactory.quest.db.551.desc=§3垂直挖矿机§r顶上可放置至多三个§a幻灵增幅器§r来扩大其工作范围。%n%n这种方法对§b使用拓展§r模组添加的其他“幻灵”机器设备也有效。
 
 # db 552
 nomifactory.quest.db.552.title=铅石飞行背包
@@ -3031,8 +3031,8 @@ nomifactory.quest.db.746.title=Compactor
 nomifactory.quest.db.746.desc=A very power-efficient, if slow before upgrades, means of creating plates. Also the only way to directly make plates from single gems.%n%nUpgrading the machine tier with §aUpgrade Kits§r and applying §aAugments§r to boost its crafting speed is a good idea.%n%nPlates and Platings that are gated specifically by later §bGregTech§r voltage tiers are not craftable in these (instead requiring a §3Compressor§r), but almost every single-ingredient recipe made in a Compressor is available.
 
 # db 747
-nomifactory.quest.db.747.title=Dark Steel Enchanter
-nomifactory.quest.db.747.desc=Vanilla enchanting mechanics are just so tedious. Don't you wish you could just make a specific enchant instead of grinding levels and rolling the dice?%n%n§eOh wait- you can!§r%n%nThe §3Dark Steel Enchanter§r is a device that uses §6Book and Quill§r, experience levels, lapis, and enchant-specific items to create an §6Enchanted Book§r with an enchantment of your choosing. Then you can just use an Anvil to enchant your item like usual.%n%nThis is a good time to bring up the §dHolding§r enchant, which can be applied to most items from §bThermal Foundation§r and its related mods. Holding can be crafted up to level IV, which massively boosts the storage capacity of items like §aSatchels§r, §aFlux Capacitors§r, and §aPortable Tanks§r.%n%nYou can also make the §dMending§r enchant which allows you to infinitely repair the item when damaged using §9Liquid XP§r in an §bEnderIO §aFluid Tank§r or §aPressurized Fluid Tank§r.%n%n
+nomifactory.quest.db.747.title=玄钢附魔器
+nomifactory.quest.db.747.desc=原版的附魔机制乏味的如同一杯白开水。难道你就不想直接制作一个特定附魔，而非练级赌附魔吗？%n%n§e等下，你可以！§r%n%n§3玄钢附魔器§r只需要§6书与笔§r、经验等级、青金石和附魔定向物品，就可以制作出你所选的§6附魔书§r。然后你就可以像往常一样使用铁砧把附魔打在物品上。%n%n这是个弄到§d扩容§r附魔的好时机，扩容附魔可以打在§b热力膨胀§r及其相关模组的绝大部分物品上。扩容附魔可以升到四级，可以极大提高了§a背包§r、§a通量电容§r和§a便携储罐§r的容量。%n%n你也可以制作经验修补附魔以容许你无限修理损坏的物品，比如用§b末影接口§r的§a流体储罐§r或者§a高压流体储罐r内的§9液态经验§r修理。%n%n
 
 # db 748
 nomifactory.quest.db.748.title=Gearworking Die
@@ -3139,8 +3139,8 @@ nomifactory.quest.db.773.title=Diesel or Bio-Diesel
 nomifactory.quest.db.773.desc=How did you end up here?
 
 # db 774
-nomifactory.quest.db.774.title=低压车床
-nomifactory.quest.db.774.desc=§3车床§r是一种能够节省杆的制造耗材的重要机器。
+nomifactory.quest.db.774.title=失落的城市，安家的位置
+nomifactory.quest.db.774.desc=不论你或你的服务器管理员是否选择了失落的城市作为主世界类型，你都可以选择传送至§e失落的城市维度§r。这非常适合那些更喜欢其它世界类型，但又想上城里打打§e刷怪笼§r，搜搜§e战利品§r的人。%n%n在两个§6钻石块§r上放置一张§a床§r，并在床的周围摆上一圈任意种类的§e怪物头颅§r，右击床即可传送至失落的城市维度。%n%n§c切记留一手，别困在那里回不来！§r你可以使用§e/sethome§r§r命令来指定家的位置，使用§e/home§r命令来传送回家。若额外给定了名字（未给定时默认为“home”）则可指定多个位置。然而，这种功能存在一些§e限制§r：§e传送需要耗费一定时间，且要求你站定不动§r，两次使用之间还需要等待§e冷却§r。%n%n后续你将可使用其它的传送手段。%n%n在§e和平模式§r下获取怪物头颅并非易事，此时你需要尝试制作§6骷髅头颅§r。
 
 # db 775
 nomifactory.quest.db.775.title=多方块机器预览
