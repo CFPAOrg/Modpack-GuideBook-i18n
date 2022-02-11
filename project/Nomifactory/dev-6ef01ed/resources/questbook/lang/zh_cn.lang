@@ -51,8 +51,8 @@ nomifactory.quest.db.1.title=晶体催生仓
 nomifactory.quest.db.1.desc=§3晶体催生仓§r使你能够在机器环境中处理原本需要在世界内进行合成的§b应用能源§r的配方。你再也不用把一堆东西扔进水里了，太棒啦！%n%n这台机器可以将§6晶体种子§r催生为§6高纯晶体§r，也能用来制造§6福鲁伊克斯水晶§r。%n%nJEI并不会直接显示晶体催生仓的配方，所以我们会在这里对此进行说明：%n%n晶体种子由任意一种晶体粉末（包括下界石英粉、赛特斯石英粉和福鲁伊克斯粉）与沙子混合而成，可生长成相应的高纯晶体，用以代替普通的晶体参与大部分配方的合成。很好的一点是，高纯晶体能够使材料的利用效率翻倍，但很抱歉，高纯晶体无法再被研磨成粉，也就无法被进一步翻倍。%n%n曾需要在水中制造的福鲁伊克斯水晶在晶体催生仓中所需的合成材料不变：每两块水晶需要§6红石§r、§6充能赛特斯石英水晶§r和§6下界石英§r各一份。
 
 # db 2
-nomifactory.quest.db.2.title=Canning Machine and Assorted Stuff
-nomifactory.quest.db.2.desc=Note: this quest accepts both LV and MV Canning Machines.%n%n§aLV Batteries§r were very simple to make, but more effective forms of power storage will be more complex to build, so we'll need to lay the groundwork now.%n%nPut your §3Centrifuge§r to work for the §6Antimony§r you'll need, which comes in tiny piles from processing §6Tetrahedrite Ore§r and §6Stibnite Ore§r.%n%n
+nomifactory.quest.db.2.title=装罐机及其它
+nomifactory.quest.db.2.desc=注意：本任务同时接受低压和中压型号的装罐机。%n%n§a低压电池§r制作起来十分简单，但更加有效的储能工具制作难度也会更大，早做准备，势在必行。%n%n使用§3离心机§r处理§6黝铜矿§r和§6辉锑矿§r来制取小撮§6锑§r。%n%n
 
 # db 3
 nomifactory.quest.db.3.title=起始
@@ -712,7 +712,7 @@ nomifactory.quest.db.166.desc=§9Naphtha§r is used in the simple (but highly in
 
 # db 167
 nomifactory.quest.db.167.title=Hydrogen Sulfide
-nomifactory.quest.db.167.desc=§9Hydrogen Sulfide§r is a byproduct of hydrodesulfurization.%n%nA simple chemical reaction with §9Water§r reprocesses it into the useful §9Sulfuric Acid§r, or it can be electrolyzed for recovering the §9Hydrogen§r.
+nomifactory.quest.db.167.desc=§9Hydrogen Sulfide§r is a byproduct of hydrodesulfurization.%n%nA simple chemical reaction with §9Oxygen§r reprocesses it into the useful §9Sulfuric Acid§r, or it can be electrolyzed for recovering the §9Hydrogen§r.
 
 # db 168
 nomifactory.quest.db.168.title=Diesel
@@ -820,7 +820,7 @@ nomifactory.quest.db.193.desc=
 
 # db 194
 nomifactory.quest.db.194.title=Glowstone Doped Silicon Boule
-nomifactory.quest.db.194.desc=A more advanced type of §6Silicon Boule§r, formed by doping the §6Silicon§r crystal lattice with §6Glowstone§r.%n%nThese are made in an §3EBF§r with §6Nichrome§r or better coils, and need §9Argon§r for the process. It needs twice as much Silicon as the basic boules, but also results in twice as many doped Silicon Wafers when sliced.%n%nCircuit Wafers can be made far more efficiently with these doped Silicon Wafers, but they are also needed for some more advanced types of Circuit Wafers that can't be engraved onto the basic ones.
+nomifactory.quest.db.194.desc=A more advanced type of §6Silicon Boule§r, formed by doping the §6Silicon§r crystal lattice with §6Glowstone§r.%n%nThese are made in an §3EBF§r with §6Kanthal§r or better coils, and need §9Argon§r for the process. It needs twice as much Silicon as the basic boules, but also results in twice as many doped Silicon Wafers when sliced.%n%nCircuit Wafers can be made far more efficiently with these doped Silicon Wafers, but they are also needed for some more advanced types of Circuit Wafers that can't be engraved onto the basic ones.
 
 # db 195
 nomifactory.quest.db.195.title=Fusion Reactor MK3
@@ -1623,8 +1623,8 @@ nomifactory.quest.db.394.title=通量电容
 nomifactory.quest.db.394.desc=一块基础的§a通量电容§r便能存储§a一千万§r之多的RF能量，还能使你身上所有§aRF供能§r的装备与工具每时每刻能量满满。%n%n将一块通量电容放入你新做的§3CEF§r进行充能，随后将其取至物品栏即可为你的物品提供§aRF§r。除此之外，你还可以把它留在CEF里当作一块能够存储§a两百五十万EU能量§r的电池！%n%n通量电容本身也是一件§b饰品§r。打开物品栏，找到并点击饰品栏按钮来打开饰品栏，你可以将通量电容装备在任意一个饰品槽位中。%n%n好了，现在你终于可以给搜刮来的§6玄钢靴子§r和§6终结之剑§r们好好充上一口电了。
 
 # db 395
-nomifactory.quest.db.395.title=Quantum Flux
-nomifactory.quest.db.395.desc=Very fluxy.%n%nA reagent used in the majority of §6Micro Miner§r missions.%n%nThere are several ways to produce §6Quantum Flux§r. All are viable, so figure out which one works best for you.
+nomifactory.quest.db.395.title=量子通量
+nomifactory.quest.db.395.desc=流光溢彩。%n%n这是一种大量用于§6微型开采器§r任务的试剂。%n%n可行的§6量子通量§r生产方案形形色色，至于哪一种最适合你，就需要你自己去动脑筋了。
 
 # db 396
 nomifactory.quest.db.396.title=Gap
@@ -2035,8 +2035,8 @@ nomifactory.quest.db.497.title=压缩抽屉
 nomifactory.quest.db.497.desc=自动进行金属粒、锭、块之间的自动转化，或只是想要存储大量物品，选择压缩抽屉准没错。此外，它也能用来转换不同面额的§d全能币§r。%n%n将压缩抽屉做成§a镶框压缩抽屉§r即可借助§a镶框台§r来定制其外观。
 
 # db 498
-nomifactory.quest.db.498.title=Soldering Alloy
-nomifactory.quest.db.498.desc=When making circuits, you'll need either molten §9Tin§r, or molten §9Soldering Alloy§r§r§r in the §3Assembling Machine§r. Soldering Alloy is made in the §3Alloy Smelter§r with a 9:1 ratio of §6Tin Ingots§r to §6Antimony Dust§r. You then process it in a §3Fluid Extractor §rfor the usual 144mB of fluid per ingot.%n%nThe Assembling Machine will only consume half as much Soldering Alloy as it would have consumed molten Tin per craft (72mB vs 144mB), so it's very efficient to use this stuff.%n%nPut your §3Centrifuge§r to work for the §6Antimony§r you'll need, which comes in tiny piles from processing §6Tetrahedrite Ore§r and §6Stibnite Ore§r.%n
+nomifactory.quest.db.498.title=焊锡
+nomifactory.quest.db.498.desc=在使用§3组装机§r制作电路的过程中需要用到熔融§9锡§r或熔融§9焊锡§r。在§3合金炉§r中按9:1的比例混合熔炼§6锡锭§r与§6锑粉§r即可制得焊锡，接着在§3流体提取机§r中处理焊锡锭即可获得每块144mB的焊锡流体。%n%n组装机对焊锡的消耗量仅为锡的一半（72mB对144mB），对材料效率大有裨益。%n%n使用§3离心机§r处理§6黝铜矿§r和§6辉锑矿§r来制取小撮§6锑§r。%n
 
 # db 499
 nomifactory.quest.db.499.title=细铜导线
@@ -2060,7 +2060,7 @@ nomifactory.quest.db.503.desc=
 
 # db 504
 nomifactory.quest.db.504.title=酿造室
-nomifactory.quest.db.504.desc=注意：本任务同时接受低压和中压型号的酿造室。%n%nYou can turn §6Plant Balls§r and other various §6sugary crops§r into §9Biomass§r with a §3Brewery§r. Biomass is the first step towards making Plastic in the form of §9Polyethylene§r.%n%nThe Brewery is a very very slow machine, but it requires almost no power. Building higher tier Breweries, or many LV ones, is necessary to brew enough Biomass for plastics.
+nomifactory.quest.db.504.desc=注意：本任务同时接受低压和中压型号的酿造室。%n%n你可以使用§3酿造室§r将§6植物球§r以及其它各种的§6含糖作物§r转化为§9生物质§r，这是制造§9聚乙烯§r塑料的第一步。%n%n酿造室的处理速度非常慢，但耗电却相当少。要想产出足量的生物质来制造塑料，一台更高电压等级的，或是多台低压的酿造室是必不可少的。
 
 # db 505
 nomifactory.quest.db.505.title=Ethanol
