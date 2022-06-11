@@ -5,8 +5,8 @@ contenttweaker.part.ore_clump=%s矿块
 contenttweaker.part.ore_crystal=%s晶体
 
 
-tile.contenttweaker.portalBlockt.name=主世界传送门方块
-tile.contenttweaker.portalBlockUnt.name=下界传送门方块
+tile.contenttweaker.portalblockt.name=主世界传送门方块
+tile.contenttweaker.portalBlockunt.name=下界传送门方块
 
 tile.contenttweaker.destabilized_well.name=Destabilized Well
 tile.contenttweaker.energized_well.name=Energized Well
@@ -60,6 +60,7 @@ entity.plasticchicken.name=塑料鸡
 entity.learningchicken.name=知识鸡
 entity.manachicken.name=魔力鸡
 entity.menrilchicken.name=门瑞欧鸡
+entity.nightmarechicken.name=梦魇鸡
 entity.smogchicken.name=污泥鸡
 entity.rubberchicken.name=橡胶鸡
 entity.primalchicken.name=元始鸡
