@@ -606,7 +606,8 @@ interactions.40159cc8.16a194f4.title=光核裂变反应堆
 interactions.40159cc8.16a194f4.text.0=蓝图可以在Euclydes的地牢中找到，之后可以被制作出来。当你为它提供加工过的铀燃料，它可以提供给你大量的蒸汽，这些蒸汽能够在涡轮机内产生LuV等级的能量。
 
 interactions.40159cc8.1e07ae16.title=大胆地前往史蒂夫从未探索过的地方…
-interactions.40159cc8.1e07ae16.description=在你的空间站创造一个跃迁核心，给它提供双锂晶体，并且使用跃迁控制器去银河系更远的地方探索吧！
+interactions.40159cc8.1e07ae16.description=在你的空间站建造一个跃迁核心，给它提供双锂晶体，并且使用跃迁控制器去银河
+系更远的地方探索吧！*重要：记得把格雷的钛块在合成栏中合成一下，将它转化成高级火箭（Advanced Rocketry）的钛块。
 
 interactions.40159cc8.1e936edf.title=钻石和绿宝石矿脉
 
@@ -1509,7 +1510,7 @@ interactions.a4a70422.78652784.title=快漏过来
 interactions.a4a70422.78652784.description=漏斗花尤其适于收集树场产物。漏斗花会优先将物品存入用展示框标记好的容器里，可以挨着漏斗花再放一个垃圾桶，让漏斗花把剩下的物品直接送进去。
 
 interactions.a4a70422.7dba0de1.title=大容量储罐
-interactions.a4a70422.7dba0de1.description=你现在可以制作一些大容量储存设备，即使是最基础的量子储罐也可以储存12万8千桶的流体。
+interactions.a4a70422.7dba0de1.description=你现在可以制作一些大容量储存设备，即使是最基础的量子储罐也可以储存6万4千桶的流体。
 
 interactions.a4a70422.817ad1ca.text.0=有 9x12 格的存储空间。
 
@@ -1651,7 +1652,7 @@ interactions.aa10a1a2.25fe4035.title=FTBI的燃油处理流程图，从柴油到
 
 interactions.aa10a1a2.291c85cc.title=升级！
 interactions.aa10a1a2.291c85cc.text.0=当你有大量机器在运转而你的唯一一个锅炉跟不上了？ 为什么要继续堆这种低级锅炉，而不升级为更好的锅炉呢？
-interactions.aa10a1a2.291c85cc.text.1=你的整个的基础设施都差不多保持不变，是不是要考虑一下现在的管道能不能跟上机器产出？
+interactions.aa10a1a2.291c85cc.text.1=你的整个蒸汽生产设施可以基本上保持不变，你唯一可能需要要考虑的是管道和燃料生产能不能跟得上锅炉的消耗。三个改良焦炉可能不够用了，除非你严格限制燃料的使用。
 
 interactions.aa10a1a2.2be7c722.title=你已经有了无尽之瓮
 interactions.aa10a1a2.2be7c722.description=当你进入LV时代，你可以制造一个更好的水源，蓄水器能免费产水，Mekanism 泵更快但需要能量。你可以自己选择。
@@ -2171,7 +2172,7 @@ interactions.ed136c16.61ac4cf4.title=没有史莱姆空岛
 interactions.ed136c16.61ac4cf4.description=如果你想要某些彩色史莱姆球用于制作装备或刻印工具，你必须种植树木来收获它们。
 
 interactions.ed136c16.635d5fcc.title=雪片空气
-interactions.ed136c16.635d5fcc.text.0=Mekanism机械使用的气体比格雷使用的气体压力更低。为了将氢或氧供给Mekanism机械使用，要将氢或氧在化学反应釜中进行转化，转化时使用配置为1的编程电路。
+interactions.ed136c16.635d5fcc.text.0=Mekanism机械使用的气体比格雷使用的气体压力更低。为了将氢或氧供给Mekanism机械使用，要将氢或氧在化学反应釜中进行转化，转化时使用配置为5的编程电路。
 interactions.ed136c16.635d5fcc.text.1=有了Mekanism的液态氢和液态氧之后，你可以使用回旋式气液转换机将其变成气体，用于喷气背包，潜水罐或者喷火器。
 
 interactions.ed136c16.637db57f.title=这是一场胜利

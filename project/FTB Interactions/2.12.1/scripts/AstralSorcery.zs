@@ -38,6 +38,9 @@ val sootyMarble = <astralsorcery:blockblackmarble>;
 
 
 
+	#GT astral dust smelt to Astral starmetal
+	furnace.addRecipe(<astralsorcery:itemcraftingcomponent:1>, <gregtech:meta_item_1:2804>);
+
 	#lightwell additions
 	#nitor better than aquamarine
 	mods.astralsorcery.Lightwell.addLiquefaction(<thaumcraft:nitor_yellow>, <liquid:astralsorcery.liquidstarlight>, 0.8, 12, 0);

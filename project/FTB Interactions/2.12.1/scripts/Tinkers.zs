@@ -46,6 +46,12 @@ var arditeOre = <tconstruct:ore:1> as IBlock;
 arditeOre.definition.setHarvestLevel("pickaxe", 3);
 
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <chisel:chisel_iron>);
+mods.tconstruct.Melting.removeRecipe(<liquid:enderium>, <ore:dustTinyEnderium>.firstItem);
+mods.tconstruct.Melting.removeRecipe(<liquid:enderium>, <ore:dustSmallEnderium>.firstItem);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:lumium>, <ore:dustSmallLumium>.firstItem);
+mods.tconstruct.Melting.removeRecipe(<liquid:lumium>, <ore:dustTinyLumium>.firstItem);
+mods.tconstruct.Melting.removeRecipe(<liquid:lumium>, <ore:dustLumium>.firstItem);
 
 	#remove ardite ore smelting
 mods.tconstruct.Melting.removeRecipe(<liquid:ardite>, <tconstruct:ore:1>);
@@ -418,6 +424,7 @@ blast_furnace.recipeBuilder()
     .fluidInputs([<liquid:oxygen> * 250])
     .outputs(<ore:ingotCobalt>.firstItem)
     .property("temperature", 1200)
+	.notConsumable(integratedCircuit.withTag({Configuration: 1}))
     .duration(240)
     .EUt(120)
     .buildAndRegister();
@@ -511,6 +518,7 @@ blast_furnace.recipeBuilder()
 	.fluidInputs([<liquid:nitrogen> * 500])
     .property("temperature", 2500)
     .duration(980)
+	.notConsumable(integratedCircuit.withTag({Configuration: 1}))
     .EUt(120)
     .buildAndRegister();
 
@@ -932,9 +940,11 @@ for mat, ingot in matMVNoCast {
 }
 #######################################################
 	#HV Parts with Casting Removal
+	val enderiumIngot = <gregtech:meta_item_1:10800>;
+	
 var matHVCastRemove as IItemStack[string] = {
 	"titanium" : <ore:ingotTitanium>.firstItem,
-	"enderium_plustic" : <ore:ingotEnderium>.firstItem,
+	"enderium_plustic" : enderiumIngot,
 	"refinedobsidian" : <ore:ingotRefinedObsidian>.firstItem,
 	"refinedglowstone" : <ore:ingotRefinedGlowstone>.firstItem,
 	"soularium" : <ore:ingotSoularium>.firstItem,
@@ -1021,7 +1031,7 @@ for mat, ingot in mvShaftMap {
 
 	#HV Arrow Shafts
 var hvShaftMap as IIngredient[string] = {
-	"enderium_plustic" : <ore:ingotEnderium>
+	"enderium_plustic" : enderiumIngot
 };
 
 for mat, ingot in hvShaftMap {

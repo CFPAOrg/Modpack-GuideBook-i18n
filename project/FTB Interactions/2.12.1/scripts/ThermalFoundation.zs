@@ -152,8 +152,8 @@ mods.thermalexpansion.Transposer.removeFillRecipe(<thermalfoundation:material:77
 mods.thermalexpansion.Transposer.removeFillRecipe(<thermalfoundation:material:772> * 2, <liquid:xpjuice>);
 
 var dustsAndPowders as IIngredient[IOreDictEntry] = {
-	<ore:dustBlizz> : <ore:dustNiter>,
-	<ore:dustBlitz> : <minecraft:snowball>,
+	<ore:dustBlizz> : <minecraft:snowball>,
+	<ore:dustBlitz> : <ore:dustNiter>,
 	<ore:dustBasalz> : <ore:dustObsidian>,
 	<ore:dustBlaze> : <ore:dustSulfur>
 };

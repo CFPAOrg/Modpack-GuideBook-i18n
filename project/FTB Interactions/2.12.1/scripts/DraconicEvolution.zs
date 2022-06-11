@@ -68,9 +68,9 @@ assembler.recipeBuilder()
 	#Draconic Core
 recipes.remove(<draconicevolution:draconic_core>);
 recipes.addShaped(<draconicevolution:draconic_core>, [
-	[<ore:plateTungstenCarbide>, <ore:circuitExtreme>, <ore:plateTungstenCarbide>],
-	[null , <metaitem:quantumeye>, null],
-	[<ore:plateTungstenCarbide>, <ore:circuitExtreme>, <ore:plateTungstenCarbide>]]);
+	[<ore:wireFineTitanium>, <ore:circuitExtreme>, <ore:wireFineTitanium>],
+	[<ore:wireFineTitanium> , <metaitem:quantumeye>, <ore:wireFineTitanium>],
+	[<ore:wireFineTitanium>, <ore:circuitExtreme>, <ore:wireFineTitanium>]]);
 
 	#Draconium Ingot
 <draconicevolution:draconium_ingot>.addTooltip(format.darkRed("此物品已停用，将其合成为来自GTCE的替代品。"));
@@ -115,7 +115,7 @@ furnace.remove(<draconicevolution:draconium_ingot>);
 recipes.remove(<draconicevolution:draconium_ingot>);
 fusionReactor.recipeBuilder()
 	.fluidInputs([<liquid:red_matter> * 8, <liquid:osmiridium>*8])
-    .fluidOutputs(<liquid:draconium> * 16)
+    .fluidOutputs(<liquid:draconium> * 144)
     .duration(32)
     .EUt(30720)
     .property("eu_to_start", 140000)

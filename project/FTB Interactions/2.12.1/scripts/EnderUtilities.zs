@@ -229,7 +229,7 @@ recipes.remove(<enderutilities:enderpart:2>);
 	
 	#Handy Bag
 recipes.remove(<enderutilities:handybag>);
-mods.astralsorcery.Altar.addConstellationAltarRecipe("interactions:shaped/internal/altar/handybag", <enderutilities:handybag>, 4000, 200, [
+mods.astralsorcery.Altar.addConstellationAltarRecipe("interactions:shaped/internal/altar/handybag", <enderutilities:handybag>, 3500, 200, [
     <ore:plateAluminium>, null, <ore:plateAluminium>, 
     null, <thermalexpansion:satchel:4>, null,
     <ore:plateAluminium>, null, <ore:plateAluminium>,
@@ -240,7 +240,7 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("interactions:shaped/intern
     null, null,]);
 
 recipes.remove(<enderutilities:handybag:1>);
-mods.astralsorcery.Altar.addTraitAltarRecipe("interactions:shaped/internal/altar/handybaglarge", <enderutilities:handybag:1>, 7500, 200, [
+mods.astralsorcery.Altar.addTraitAltarRecipe("interactions:shaped/internal/altar/handybaglarge", <enderutilities:handybag:1>, 5500, 200, [
     <ore:plateTitanium>, null, <ore:plateTitanium>, 
     null, <enderutilities:handybag>, null,
     <ore:plateTitanium>, null, <ore:plateTitanium>,

@@ -499,12 +499,13 @@ blast_furnace.recipeBuilder()
 
 	#stellar alloy
 mixer.recipeBuilder()
-    .inputs(<actuallyadditions:item_dust:7>*2,<astralsorcery:itemcraftingcomponent:2>, <enderio:block_infinity_fog>, <ore:dustFluix>)
+    .inputs(<actuallyadditions:item_dust:7>*2,<ore:dustAstralStarmetal>, <enderio:block_infinity_fog>, <ore:dustFluix>)
     .fluidInputs([<liquid:glowstone> * 144])
     .outputs(<ore:dustStellarAlloy>.firstItem * 2)
     .duration(80)
     .EUt(320)
     .buildAndRegister();
+
 
 	#infinity reagent
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("interactions:infinityreagent", <enderio:item_material:75>*3, 320, 200, [

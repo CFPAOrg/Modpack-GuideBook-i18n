@@ -18,6 +18,7 @@ print("---------------Gregtech Start------------------");
 
 val alloyer = mods.gregtech.recipe.RecipeMap.getByName("alloy_smelter");
 val brewery = mods.gregtech.recipe.RecipeMap.getByName("brewer");
+var fusionReactor = mods.gregtech.recipe.RecipeMap.getByName("fusion_reactor");
 val extruder = mods.gregtech.recipe.RecipeMap.getByName("extruder");
 val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
 val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor");
@@ -37,7 +38,6 @@ val blast_furnace = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
 val arc_furnace = mods.gregtech.recipe.RecipeMap.getByName("arc_furnace");
 val wiremill = mods.gregtech.recipe.RecipeMap.getByName("wiremill");
 val packer = mods.gregtech.recipe.RecipeMap.getByName("packer");
-var fusionReactor = mods.gregtech.recipe.RecipeMap.getByName("fusion_reactor");
 val chemical_bath = mods.gregtech.recipe.RecipeMap.getByName("chemical_bath");
 val lathe = mods.gregtech.recipe.RecipeMap.getByName("lathe");
 val cracker = mods.gregtech.recipe.RecipeMap.getByName("cracker");
@@ -100,6 +100,16 @@ val distillation_tower = mods.gregtech.recipe.RecipeMap.getByName("distillery");
 		.buildAndRegister();	
 
 
+	#emerald packager
+		packer.recipeBuilder()
+		.inputs(<ore:nuggetEmerald>*9)
+		.notConsumable(integratedCircuit.withTag({Configuration: 1}))
+		.outputs(<minecraft:emerald>)
+		.duration(10)
+		.EUt(12)
+		.buildAndRegister();	
+
+
 
 	#bucket
 	lathe.recipeBuilder()
@@ -116,6 +126,15 @@ val distillation_tower = mods.gregtech.recipe.RecipeMap.getByName("distillery");
 	.duration(60)
 	.EUt(18)
 	.buildAndRegister();
+
+	#Gold block
+	compressor.recipeBuilder()
+	.inputs(<ore:ingotGold>*9)
+	.outputs(<ore:blockGold>.firstItem)
+	.duration(60)
+	.EUt(18)
+	.buildAndRegister();
+
 
 
 	#Polyeth bar from sheet
@@ -278,6 +297,8 @@ thermalCent.findRecipe(60,
 	[<ore:crushedPurifiedThorium>.firstItem], 
 	[null])
 	.remove();
+	
+macerator.findRecipe(12,[<ore:crushedCentrifugedCoal>.firstItem],[null]).remove();	
 
 	#remove thorium from coal
 thermalCent.findRecipe(60, 
@@ -402,6 +423,8 @@ recipes.addShaped(<ore:craftingDiamondBlade>.firstItem, [
 	#salt water
 mixer.findRecipe(8, [<ore:itemSalt>.firstItem], [<liquid:water> * 1000]).remove();	
 chemReactor.findRecipe(30, [<ore:dustNetherQuartz>.firstItem*3, <ore:dustSodium>.firstItem], [<liquid:water> * 1000]).remove();	
+
+
 
 
 	#Salt water
@@ -646,6 +669,20 @@ spinnyGoFast.recipeBuilder()
 	.EUt(30)
 	.buildAndRegister();
 
+
+spinnyGoFast.recipeBuilder()
+    .fluidInputs([<liquid:ender_distillation> * 1000])
+	.fluidOutputs([<liquid:neutral_matter> * 100])
+	.chancedOutput(<ore:dustPhosphorus>.firstItem, 5500, 2500)	
+	.chancedOutput(<ore:dustBeryllium>.firstItem, 5500, 2500)	
+	.chancedOutput(<ore:dustPotassium>.firstItem, 8500, 2500)	
+	.chancedOutput(<ore:dustSmallBarium>.firstItem, 8500, 2500)	
+	.chancedOutput(<ore:dustSmallLanthanum>.firstItem, 8500, 2500)	
+	.chancedOutput(<ore:dustTinyNeodymium>.firstItem, 8500, 2500)		
+	.duration(200)
+	.EUt(1920)
+	.buildAndRegister();
+
 	#ferric turf
 spinnyGoFast.recipeBuilder()
     .inputs(<advancedrocketry:hotturf>)
@@ -809,6 +846,7 @@ assembler.recipeBuilder()
 		.duration(100)
 		.EUt(8)
 		.buildAndRegister();
+
 
 assembler.recipeBuilder()
 		.inputs(<gregtech:turbine_casing:4>, <ore:plateTungstenSteel> *2)
@@ -1188,6 +1226,7 @@ var moldsToChisel as IItemStack[] = [
 	<gregtech:meta_item_1:32306>,
 	<gregtech:meta_item_1:32373>,
 	<gregtech:meta_item_1:32372>,
+	<contenttweaker:smallgearextrudershape>,
 	<gregtech:meta_item_1:32371>,
 	<gregtech:meta_item_1:32370>,
 	<gregtech:meta_item_1:32369>,
@@ -1346,74 +1385,13 @@ assembler.recipeBuilder()
 
 #conveyor alternate recipes
 
-
-/*
-	#Hot Ingots
-var hotIngots as int[string] = {
-	"Erbium" : 5.6,
-	"Iridium" : 8.45,
-	"Lutetium" : 6,
-	"Kanthal" : 5.6,
-	"Niobium" : 8.55,
-	"Osmium" : 10.3,
-	"Scandium" : 5.6,
-	"Thulium" : 5.65,
-	"Titanium" : 6.05,
-	"Tungsten" : 9.35,
-	"Vanadium" : 6.8,
-	"Yttrium" : 5.6,
-	"Nichrome" : 8.4,
-	"Niobium" : 8,
-	"NiobiumTitanium" : 14.05,
-	"NiobiumNitride" : 8,
-	"Ultimet" : 8.4,
-	"VanadiumGallium" : 14.05,
-	"YttriumBariumCuprate" : 14.05,
-	"Osmiridium" : 7.8,
-	"BlackBronze" : 6.25,
-	"TungstenSteel" : 9.35,
-	"TungstenCarbide" : 7.65,
-	"Hssg" : 14.05,
-	"Hsse" : 16.85,
-	"Hsss" : 16.85,
-	"Naquadah" : 16.85,
-	"NaquadahAlloy" : 22.5,
-	"NaquadahEnriched" : 14.05,
-	"Naquadria" : 28.1,
-	"Enderium" : 14
-};
-
-for material, time in hotIngots {
-	val input = oreDict.get("ingotHot" + material);
-	val output = oreDict.get("ingot" + material);
-	val inputTime = time * 20;
-	
-	print("Removing vacFreezer recipe: ingotHot" + material + "with output: ingot" + material + " duration: " + inputTime  );
-	vacfreezer.findRecipe(120, [input.firstItem], [null])
-	.remove();
-
-	print("Adding vacFreezer recipe: " + input.name + "with output: " + output.name + " duration: " + inputTime  );
-	vacfreezer.recipeBuilder()
-	.inputs(input)
-	.notConsumable(integratedCircuit.withTag({Configuration: 0}))
-	.outputs(output.firstItem)
-	.duration(inputTime)
-	.EUt(120)
+solidifier.recipeBuilder()
+    .fluidInputs([<liquid:moltenvinteum> * 144])
+	.notConsumable(<metaitem:shape.mold.ball>)
+	.outputs(<contenttweaker:vinteum_ore_cluster>)
+	.duration(12)
+	.EUt(4)
 	.buildAndRegister();
-
-	print("Adding vacFreezer Cryo recipe: " + input.name + "with output: " + output.name + " duration: " + inputTime/2  );
-	vacfreezer.recipeBuilder()	
-	.inputs(input)
-	.notConsumable(integratedCircuit.withTag({Configuration: 1}))
-	.fluidInputs([<liquid:cryotheum> * 1])
-	.outputs(output.firstItem)
-	.duration(inputTime/2)
-	.EUt(18)
-	.buildAndRegister();
-
-}
-*/
-
 
 	#Glass fixes (to match TiCon Standards)
 solidifier.findRecipe(4, [<metaitem:shape.mold.block>], [<liquid:glass> * 144]).remove();
@@ -1562,6 +1540,15 @@ macerator.recipeBuilder()
     .buildAndRegister();
 	
 	
+	
+macerator.recipeBuilder()
+    .inputs(<gregtech:granite:4>)
+	.outputs(<ore:dustGraniteBlack>.firstItem)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+	
+	
 	#Ender Dust
 macerator.findRecipe(8, [<minecraft:ender_pearl>], null).remove();
 macerator.recipeBuilder()
@@ -1628,32 +1615,7 @@ RecipeBuilder.get("basic")
 	.create();
 
 
-/*
-	#fix weird rod recipes
-var weirdRods as IItemStack[IItemStack] = {
-	<ore:ingotAmericium>.firstItem:<ore:stickAmericium>.firstItem,
-	<ore:ingotIron>.firstItem:<ore:stickIron>.firstItem,
-	<ore:ingotDarmstadtium>.firstItem:<ore:stickDarmstadtium>.firstItem,
-	<ore:ingotTitanium>.firstItem:<ore:stickTitanium>.firstItem,
-	<ore:ingotBronze>.firstItem:<ore:stickBronze>.firstItem,
-	<ore:ingotMagnalium>.firstItem:<ore:stickMagnalium>.firstItem,
-	<ore:ingotStainlessSteel>.firstItem:<ore:stickStainlessSteel>.firstItem,
-	<ore:ingotWroughtIron>.firstItem:<ore:stickWroughtIron>.firstItem,
-	<ore:ingotHssg>.firstItem:<ore:stickHssg>.firstItem,
-	<ore:ingotHsse>.firstItem:<ore:stickHsse>.firstItem,
-	<ore:ingotNeutronium>.firstItem:<ore:stickNeutronium>.firstItem,
-	<ore:ingotTungstenSteel>.firstItem:<ore:stickTungstenSteel>.firstItem,
-	<ore:ingotNeodymiumMagnetic>.firstItem:<ore:stickNeodymiumMagnetic>.firstItem,
-	};
 
-for i,z in weirdRods {
-	recipes.remove(z);
-	recipes.addShaped(z, [
-		[null, craftingToolFile, null],
-		[null,i,null],
-		[null,null,null]]);
-}
-*/
 val ironFile = <gregtech:meta_tool:9>.withTag({
 	CraftingComponents: [
 		{id: "gregtech:meta_item_1", Count: 1 as byte, Damage: 12033 as short},
@@ -1766,8 +1728,8 @@ chemReactor.recipeBuilder()
 	#Naquadriatic Fuel - BIGBOI JUICE
 chemReactor.recipeBuilder()
 	.inputs(<thaumcraft:alumentum>)
-	.fluidInputs([<liquid:infused_nitrofuel> * 10000, <liquid:naquadah_enriched> * 1000])
-	.fluidOutputs([<liquid:naquadriaticfuel> * 2000])
+	.fluidInputs([<liquid:infused_nitrofuel> * 3000, <liquid:naquadah_enriched> * 1000])
+	.fluidOutputs([<liquid:naquadriaticfuel> * 3000])
     .duration(400)
     .EUt(2176)
     .buildAndRegister();
@@ -1858,6 +1820,15 @@ compressor.recipeBuilder()
     .buildAndRegister();	
 
 
+	//Ferrite
+	mixer.findRecipe(8, [<ore:dustIron>.firstItem *4, <ore:dustNickel>.firstItem, <ore:dustZinc>.firstItem], []).remove();	
+	
+	mixer.recipeBuilder()
+    .inputs(<ore:dustZinc>.firstItem, <ore:dustInvar>.firstItem)
+    .outputs(<ore:dustFerriteMixture>.firstItem * 6)
+    .duration(30)
+    .EUt(8)
+    .buildAndRegister();
 
 		#ender shards
 	mixer.recipeBuilder()
@@ -1879,6 +1850,52 @@ compressor.recipeBuilder()
     .EUt(16)
     .buildAndRegister();
 
+	#Illumination Powder
+	mixer.recipeBuilder()
+    .inputs(<ore:dustGlass>*4,<thaumcraft:salis_mundus>,<projecte:item.pe_covalence_dust:1>*4)
+    .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 500])
+    .outputs(<astralsorcery:itemusabledust>*8)
+    .duration(100)
+    .EUt(68)
+    .buildAndRegister();	
+	
+	
+	#Nocturnal Powder
+	mixer.recipeBuilder()
+    .inputs(<ore:dyeBlack>,<ore:gemLapis>, <ore:coal>*2,<astralsorcery:itemusabledust>)
+    .fluidInputs([<liquid:liquidnightmares> * 500])
+    .outputs(<astralsorcery:itemusabledust:1>*4)
+    .duration(100)
+    .EUt(272)
+    .buildAndRegister();	
+
+	#Star Metal Ore
+	mixer.recipeBuilder()
+    .inputs(<astralsorcery:blockcustomore>, <thermalfoundation:material:1028>, <actuallyadditions:item_crystal_empowered:3>, <enderio:item_material:75>)
+    .fluidInputs([<liquid:osmium> * 1296])
+    .outputs(<astralsorcery:blockcustomore:1>*4)
+    .duration(100)
+    .EUt(272)
+    .buildAndRegister();	
+
+	#Vinteum fusion 
+	fusionReactor.recipeBuilder()
+	.fluidInputs([<liquid:starmetal> * 8, <liquid:blue_vitriol_water_solution>*8])
+    .fluidOutputs(<liquid:moltenvinteum> * 144)
+    .duration(32)
+    .EUt(30720)
+    .property("eu_to_start", 140000)
+    .buildAndRegister();
+
+
+	#Void Seed
+	mixer.recipeBuilder()
+    .inputs(<enderutilities:enderpart:10>, <ore:dustQuartzBlack>*9, <quark:black_ash>, 	<ore:cropNetherWart>*4)
+    .fluidInputs([<liquid:liquidnightmares> * 500])
+    .outputs(<thaumcraft:void_seed>*4)
+    .duration(120)
+    .EUt(320)
+    .buildAndRegister();	
 	
 	#stemcells
 mixer.recipeBuilder()
@@ -1969,7 +1986,7 @@ mods.jei.JEI.hide(<gtadditions:ga_multiblock_casing>);
 	
 	
 	#New chloroform recipe
-chemical_bath.recipeBuilder()
+chemReactor.recipeBuilder()
 	.inputs(<ore:dustCarbon>)
 	.fluidInputs([<liquid:hydrochloric_acid> * 1000])
 	.fluidOutputs([<liquid:chloroform> * 1000])
@@ -2492,7 +2509,7 @@ assembler.recipeBuilder()
 	#Better chest recipe
 assembler.recipeBuilder()
 	.inputs(<ore:plankWood>*32)
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 8}))
+	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
 	.outputs(<minecraft:chest>*4)
     .duration(50)
     .EUt(18)
@@ -2581,6 +2598,20 @@ assembly_line.recipeBuilder()
 	.duration(200)
 	.EUt(30720)
 	.buildAndRegister();
+
+#Enderchicken Soul
+	val enderChickenSoul = <draconicevolution:mob_soul>.withTag({EntityName: "mightyenderchicken:ent_enderchicken"});
+	mods.jei.JEI.addItem(enderChickenSoul);
+
+assembly_line.recipeBuilder()
+	.inputs([<roost:chicken>.withTag({Growth: 10, Chicken: "contenttweaker:nightmarechicken", Gain: 10, Strength: 10}), <metaitem:stemcells>*8, <deepmoblearning:glitch_heart>*4, <draconicevolution:dragon_heart>, <gregtech:meta_item_1:32725>*4, ])
+	.fluidInputs([<liquid:sterilized_growth_medium> * 250, <liquid:draconium> * 288, <liquid:uumatter> * 1000 ])
+	.outputs([enderChickenSoul])
+	.duration(600)
+	.EUt(30720)
+	.buildAndRegister();
+
+
 
 
 	#Wetware Mainframe
@@ -3139,278 +3170,85 @@ cutting_saw.recipeBuilder()
 	
 	
 	#Custom hot ingot handling with cryotheum
-	vacfreezer.recipeBuilder()
-	.inputs(<ore:ingotHotErbium>)
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotErbium>.firstItem)
-	.duration(56)
-	.EUt(18)
-	.buildAndRegister();
+	
+var hotIngotMap as IOreDictEntry[IOreDictEntry] = {
+	<ore:ingotHotErbium>:<ore:ingotErbium>,
+	<ore:ingotHotBlackBronze>:<ore:ingotBlackBronze>,
+	<ore:ingotHotNaquadahEnriched>:<ore:ingotNaquadahEnriched>,
+	<ore:ingotHotNaquadahAlloy>:<ore:ingotNaquadahAlloy>,
+	<ore:ingotHotYttriumBariumCuprate>:<ore:ingotYttriumBariumCuprate>,
+	<ore:ingotHotOsmiridium>:<ore:ingotOsmiridium>,
+	<ore:ingotHotYttrium>:<ore:ingotYttrium>,
+	<ore:ingotHotVanadiumGallium>:<ore:ingotVanadiumGallium>,
+	<ore:ingotHotVanadium>:<ore:ingotVanadium>,
+	<ore:ingotHotUltimet>:<ore:ingotUltimet>,
+	<ore:ingotHotTungstenSteel>:<ore:ingotTungstenSteel>,
+	<ore:ingotHotHssg>:<ore:ingotHssg>,
+	<ore:ingotHotHsse>:<ore:ingotHsse>,
+	<ore:ingotHotScandium>:<ore:ingotScandium>,
+	<ore:ingotHotHsss>:<ore:ingotHsss>,
+	<ore:ingotHotNiobiumTitanium>:<ore:ingotNiobiumTitanium>,
+	<ore:ingotHotNiobiumNitride>:<ore:ingotNiobiumNitride>,
+	<ore:ingotHotLutetium>:<ore:ingotLutetium>,
+	<ore:ingotHotIridium>:<ore:ingotIridium>,
+	<ore:ingotHotKanthal>:<ore:ingotKanthal>,
+	<ore:ingotHotNaquadah>:<ore:ingotNaquadah>,
+	<ore:ingotHotNaquadria>:<ore:ingotNaquadria>,
+	<ore:ingotHotTungsten>:<ore:ingotTungsten>,
+	<ore:ingotHotThulium>:<ore:ingotThulium>,
+	<ore:ingotHotTitanium>:<ore:ingotTitanium>,
+	<ore:ingotHotNichrome>:<ore:ingotNichrome>,
+	<ore:ingotHotTungstenCarbide>:<ore:ingotTungstenCarbide>,
+	<ore:ingotHotNiobium>:<ore:ingotNiobium>
+};
 
-	vacfreezer.recipeBuilder()
-	.inputs(<ore:ingotHotBlackBronze>)
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotBlackBronze>.firstItem)
-	.duration(62)
-	.EUt(18)
-	.buildAndRegister();
+for hotIngot, ingot in hotIngotMap {
+	mods.thermalexpansion.Transposer.addFillRecipe(ingot.firstItem, hotIngot.firstItem, <liquid:cryotheum> * 10, 10000) ;
+}
 
-	vacfreezer.recipeBuilder()
-	.inputs(<ore:ingotHotNaquadahEnriched>)
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotNaquadahEnriched>.firstItem)
-	.duration(140)
-	.EUt(18)
-	.buildAndRegister();
+//Manual non oredict entries
+	mods.thermalexpansion.Transposer.addFillRecipe(<gregtech:meta_item_1:10800>, <ore:ingotHotEnderium>.firstItem, <liquid:cryotheum> * 10, 10000) ;
+		mods.thermalexpansion.Transposer.addFillRecipe(<gregtech:meta_item_1:10047>, <ore:ingotHotOsmium>.firstItem, <liquid:cryotheum> * 10, 10000) ;
+		
+	
+	#retiering field generators
+	recipes.remove(<metaitem:field.generator.lv>);
+	recipes.remove(<metaitem:field.generator.mv>);
+	recipes.remove(<metaitem:field.generator.hv>);
+	
 
-	vacfreezer.recipeBuilder()
-	.inputs(<ore:ingotHotNaquadahAlloy>)
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotNaquadahAlloy>.firstItem)
-	.duration(225)
-	.EUt(18)
-	.buildAndRegister();
+#LV field generator
 
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotYttriumBariumCuprate>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotYttriumBariumCuprate>.firstItem)
-	.duration(140)
-	.EUt(18)
-	.buildAndRegister();
+assembler.recipeBuilder()
+		.inputs(<ore:circuitLow>*4, <ore:dustEnderPearl>, <ore:wireGtSingleBluesteel>*4)
+		.outputs(<metaitem:field.generator.lv>)
+		.duration(1800)
+		.EUt(30)
+		.buildAndRegister();
+	
+#MV field generator
 
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotOsmiridium>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotOsmiridium>.firstItem)
-	.duration(78)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.inputs(<ore:ingotHotEnderium>)
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotEnderium>.firstItem)
-	.duration(140)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotYttrium>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotYttrium>.firstItem)
-	.duration(56)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotVanadiumGallium>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotVanadiumGallium>.firstItem)
-	.duration(140)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotVanadium>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotVanadium>.firstItem)
-	.duration(280)
-	.EUt(68)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotUltimet>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotUltimet>.firstItem)
-	.duration(84)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
-	.inputs(<ore:ingotHotTungstenSteel>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotTungstenSteel>.firstItem)
-	.duration(93)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotHssg>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotHssg>.firstItem)
-	.duration(140)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
-	.inputs(<ore:ingotHotHsse>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotHsse>.firstItem)
-	.duration(168)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotOsmium>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotOsmium>.firstItem)
-	.duration(103)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotScandium>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotScandium>.firstItem)
-	.duration(56)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotHsss>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotHsss>.firstItem)
-	.duration(168)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.inputs(<ore:ingotHotNiobiumTitanium>)
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotNiobiumTitanium>.firstItem)
-	.duration(140)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.inputs(<ore:ingotHotNiobiumNitride>)
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotNiobiumNitride>.firstItem)
-	.duration(80)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.inputs(<ore:ingotHotLutetium>)
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotLutetium>.firstItem)
-	.duration(60)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.inputs(<ore:ingotHotIridium>)
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotIridium>.firstItem)
-	.duration(84)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.inputs(<ore:ingotHotKanthal>)
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotKanthal>.firstItem)
-	.duration(56)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.inputs(<ore:ingotHotNaquadah>)
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotNaquadah>.firstItem)
-	.duration(168)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotNaquadria>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotNaquadria>.firstItem)
-	.duration(281)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotTungsten>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotTungsten>.firstItem)
-	.duration(93)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotThulium>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotThulium>.firstItem)
-	.duration(56)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotTitanium>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotTitanium>.firstItem)
-	.duration(60)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotNichrome>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotNichrome>.firstItem)
-	.duration(84)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotTungstenCarbide>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotTungstenCarbide>.firstItem)
-	.duration(76)
-	.EUt(18)
-	.buildAndRegister();
-
-	vacfreezer.recipeBuilder()
-	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))	
-	.inputs(<ore:ingotHotNiobium>)
-	.fluidInputs([<liquid:cryotheum> * 10])
-	.outputs(<ore:ingotNiobium>.firstItem)
-	.duration(85)
-	.EUt(18)
-	.buildAndRegister();
+assembler.recipeBuilder()
+		.inputs(<ore:circuitGood>*4, <ore:dustEnderEye>, <ore:wireGtDoubleSignalum>*4)
+		.outputs(<metaitem:field.generator.mv>)
+		.duration(1800)
+		.EUt(120)
+		.buildAndRegister();
 
 
+#HV field generator
 
+assembler.recipeBuilder()
+		.inputs(<ore:circuitLow>*4, <metaitem:quantumeye>, <ore:wireGtQuadrupleEnderium>*4)
+		.outputs(<metaitem:field.generator.hv>)
+		.duration(1800)
+		.EUt(480)
+		.buildAndRegister();		
+
+
+#Magic energy absorber moved to EV Tier
+recipes.remove(<gregtech:machine:493>);
+recipes.addShaped(<gregtech:machine:493>, [[<gregtech:meta_item_1:32613>, <gregtech:meta_item_1:32673>, <gregtech:meta_item_1:32613>],[<gregtech:meta_item_1:32692>, <gregtech:machine:504>, <gregtech:meta_item_1:32692>], [<gregtech:meta_item_1:32613>, <gregtech:meta_item_1:32673>, <gregtech:meta_item_1:32613>]]);
 
 
 print("----------------Gregtech End-------------------");
