@@ -19,7 +19,7 @@ interactions.103abc81.0dcfd09c.title=更强力的熔炼方式，超越LV阶段
 interactions.103abc81.0dcfd09c.text.0=铝会是你完全进入MV阶段的最大障碍，因为它必须在电力高炉中制造。在此阶段你应当把首要目标放在电力高炉上。请检查任务章节【啊哟！科技】及LV冶金以获取更多信息。
 
 interactions.103abc81.3308d327.description=终于迎来真正的矿物处理。
-interactions.103abc81.3308d327.text.0=在HV阶段中，你可以熔炼所有金属中的80%%，并且可以获得许多种魔法和科技材料。 你的游玩方式选择将在这里真正开放。请注重自动化。不锈钢，聚四氟乙烯的生产与进入太空将成为你的下一个目标。
+interactions.103abc81.3308d327.text.0=在HV阶段中，你可以熔炼所有金属中的80%%，并且可以获得许多种魔法和科技材料。 你的玩法选择将在这里真正开放。请重视自动化。不锈钢，聚四氟乙烯的生产与进入太空将成为你的下一个目标。
 
 interactions.103abc81.5b1c2607.description=仔细听就能听到炸弹在你脸上爆炸的声音。
 interactions.103abc81.5b1c2607.text.0=这是个末影龙统治的由虚空和黑暗组成的怪诞领域。你需要在这里取得进展才能获得更多的锇、铱、铂及其他材料。你可以尝试直接去找混沌龙或者先
@@ -46,7 +46,7 @@ interactions.103abc81.9be3aa5b.text.0=这个星球有一个可呼吸的大气层
 interactions.103abc81.a7a83e28.description=这个星球搞的好像我很胖似的。
 interactions.103abc81.a7a83e28.text.0=你将会在这里找到各类高端材料，如硅岩和大量铂矿等。 此外，这个世界拥有可以让你召唤传说级末影鸡的条件，也许这是有用的......
 
-interactions.103abc81.aaf439c8.text.0=就是这样，你已经毕业啦，你通关了本包。去自由地生活吧......趁着本包还没有更新专家模式...Kappa。
+interactions.103abc81.aaf439c8.text.0=就是这样，你已经毕业啦，你通关了本包。去自由地生活吧......趁着本包还没有更新专家模式...Kappa...
 
 interactions.103abc81.cfcc58ad.title=呜~ 呜~ 蒸汽轰鸣
 interactions.103abc81.cfcc58ad.description=终于可以摆脱用锤子敲金属板命运了
@@ -73,7 +73,7 @@ interactions.103abc81.f92a387e.title=通往地狱之路
 interactions.103abc81.f92a387e.description=为了到达下界，你需要合成十个这样的下界传送门方块。一旦你到达了下界之后，你周围生成怪物的难度也会随之增加。注意在基础工作台中合成需要用到死亡之水。
 
 interactions.154955d3.009703b7.title=我的目光如锯。
-interactions.154955d3.009703b7.description=也许可以节省你的饥饿值。或许不能。将水源方块直接放在锯子下方，并让它流动。
+interactions.154955d3.009703b7.description=或许可以节省你的饥饿值。或许不能。将水源方块直接放在锯子下方，并让它流动。
 interactions.154955d3.009703b7.text.0=如果它一个方向不工作的话，试试另外的方向
 interactions.154955d3.009703b7.text.1=就像USB接口那样
 
@@ -87,19 +87,19 @@ interactions.154955d3.07930191.title=任务线最初的一环
 interactions.154955d3.07930191.text.0=带有方形图标的任务代表着一条任务线的开始
 
 interactions.154955d3.095258c2.title=你永远活在我们心中
-interactions.154955d3.095258c2.description=由于生物不会在安全区域/空岛世界中自然生成，为了继续发展，你必须使用Zen-Summoning来召唤一个村民僵尸，并将他转化为村民。然而要制造贤者之石，你需要一个心脏或者一个绿宝石。
+interactions.154955d3.095258c2.description=由于生物不会在安全区域/空岛世界中自然生成，为了继续发展，你必须使用Zen-Summoning来召唤一个村民僵尸，并将他转化为村民。接下来你需要一个心脏或者一个绿宝石来制造贤者之石。
 interactions.154955d3.095258c2.text.0=村民交易被禁用了。由于这个原因，他们的绿宝石发生了严重的通货膨胀，他们有时可能会丢掉一些...
 
-interactions.154955d3.0ce8b042.text.0=蜡烛比火把在游戏早期更容易制作，并提供类似的功能。 当你冒险进入黑暗时，请确保你的准备充足。
+interactions.154955d3.0ce8b042.text.0=与火把相比，蜡烛在游戏早期更容易制作，并且有着与之类似的功能。 当你打算冒险进入黑暗时，请确保你的准备充足。
 
 interactions.154955d3.0d64bc8a.title=知识宝库
 interactions.154955d3.0d64bc8a.tasks.0.title=教学任务
-interactions.154955d3.0d64bc8a.text.0=齿轮形状的任务将提供视频、图表或流程图的外部链接，帮助你完成任务或生产线自动化。
+interactions.154955d3.0d64bc8a.text.0=齿轮形状的任务将提供视频、图表或流程图的外部链接，帮助你完成某些任务或自动化生产线。
 
 interactions.154955d3.11d2e951.description=检查tooltip和JEI。你会想要这些球的。
-interactions.154955d3.11d2e951.text.0=认真的，请使用这些东西，他们会在早期游戏中节省你非常多的时间。种上一些小麦之类的植物，等到它们接近成熟的时候——85%%成熟就非常好，可以用植物球瞬间将它们复制多次。比骨粉要好™！
+interactions.154955d3.11d2e951.text.0=认真的，请使用这些东西，它们会在早期游戏中节省你非常多的时间。种上一些小麦之类的植物，等到它们接近成熟的时候——85%%成熟就非常好，可以用植物球瞬间将它们复制多次。比骨粉要好™！
 
-interactions.154955d3.178d064e.title=当你有了图书馆借书卡，这一切并不难。
+interactions.154955d3.178d064e.title=一张图书馆的借书卡免去你许多烦恼
 interactions.154955d3.178d064e.description=这里，凿子就是你的借书卡。你可以把普通的书或者起始的FTB任务书雕凿成其他的手册。
 interactions.154955d3.178d064e.tasks.0.title=确认
 
@@ -117,7 +117,7 @@ interactions.154955d3.2142a3b2.description=在空岛，自然生成被禁用了�
 
 interactions.154955d3.29f7cca1.title=滤水器
 interactions.154955d3.29f7cca1.description=在你获得棉花来制造线之前，你可以使用麻绳。转换桌里的草是一个很好的植物材料来源。
-interactions.154955d3.29f7cca1.text.0=我们建议你建造4-6个，以减轻过多等候的痛苦。
+interactions.154955d3.29f7cca1.text.0=我们建议你建造4-6个，以减轻长时间等待的痛苦。
 interactions.154955d3.29f7cca1.text.2=它有多种滤网，生存者滤网，致密生存者滤网和渔夫滤网。这三种滤网提供不同的资源，因此这三种滤网你都会需要。
 
 interactions.154955d3.2b15bcdb.description=只要你有一个魔法转化桌就好，转化桌可以为你创造它。像所有其他EMC物品一样，它只在转化桌上有足够的EMC时才显示。
@@ -149,8 +149,8 @@ interactions.154955d3.5a0e0129.title=嘿！听好了！嘿！听好了！嘿！�
 interactions.154955d3.5a0e0129.description=若你看见这类任务图标，则表示你将会在这里看到连JEI里面也无法找到的信息、一些实用的提示及技巧，带领你游玩本包。
 interactions.154955d3.5a0e0129.tasks.0.title=确认
 
-interactions.154955d3.5c197ff1.title=这甚至不应当是必要的……
-interactions.154955d3.5c197ff1.description=但如果你加入了弄丢炼金术秘卷的专属俱乐部，那么，这里是备用选项。简直不能再帮你更多了。
+interactions.154955d3.5c197ff1.title=这个任务其实是多余的……
+interactions.154955d3.5c197ff1.description=但如果你愚蠢地弄丢了炼金术秘卷，那么，这里是备用选项。简直不能再帮你更多了。
 
 interactions.154955d3.65c2b61d.description=莲子可以开成一朵花，食用莲花会给玩家提供经验。你之后可以在离心机中自动处理它们。
 interactions.154955d3.65c2b61d.text.0=提示：在你吃莲花的时候，你拿在副手上的或者穿在身上的有经验修补的物品会被修复。
@@ -174,7 +174,7 @@ interactions.154955d3.792f5e20.title=更好的建筑之杖
 interactions.154955d3.792f5e20.description=从某种程度上说。
 
 interactions.154955d3.79371cf9.title=欢迎来到Interactions。涂好防晒霜，别忘了设置键位。
-interactions.154955d3.79371cf9.description=曾经有一个忘记设置按键绑定的minecraft玩家一直在迷失自我。不过另外一个记得设置按键绑定的聪明minecraft玩家，她打破了最快通关Interactions的纪录。
+interactions.154955d3.79371cf9.description=曾经有一个忘记设置键位的minecraft玩家一直在迷失自我。不过另外一个记得设置键位的聪明minecraft玩家，她打破了最快通关Interactions的纪录。
 interactions.154955d3.79371cf9.tasks.0.title=确认
 interactions.154955d3.79371cf9.text.0=推荐的按键绑定：
 interactions.154955d3.79371cf9.text.1=-打开任务书：数字键1
@@ -182,7 +182,7 @@ interactions.154955d3.79371cf9.text.2=-JEI书签功能：鼠标中键
 interactions.154955d3.79371cf9.text.3=-真是可怜的R键，被太多模组所共享。
 
 interactions.154955d3.7979431a.title=如果你首先看的是这个任务，你应该是个非常优秀的玩家。
-interactions.154955d3.7979431a.description=你需要制作这个方块前往主世界，然而那里处处充满危险，你可能会死。所以为什么不放慢点脚步，完成一些任务并更好的装备你自己？同样的，传送门的另一边也不应该没有任何防御措施，我可不能保证当你还在传送门里时外面的怪物对你干些什么事情...
+interactions.154955d3.7979431a.description=你需要制作这个方块前往主世界，然而那里处处充满危险，你可能会死。所以为什么不放慢点脚步，完成一些任务并更好的装备你自己？同样的，传送门的另一边也不应该没有任何防御措施，我可不能保证当你还在传送门里时外面的怪物不会对你干些什么事情...
 interactions.154955d3.7979431a.text.0=用你的贤者之石点亮传送门
 interactions.154955d3.7979431a.text.2=感谢DJJBanx提供的的传送门方块动画材质。
 
@@ -201,7 +201,7 @@ interactions.154955d3.7ec1b2f7.title=FTB 官方 Discord 邀请链接
 interactions.154955d3.85434674.title=吃掉那些小麦
 interactions.154955d3.85434674.description=这个奖励是我们想要告诉你，虽然你可以用植物球复制植物，但你仍然要制作这些。
 
-interactions.154955d3.87a33a89.title=永远不要放弃你自己
+interactions.154955d3.87a33a89.title=Never Gonna Give You Up
 interactions.154955d3.87a33a89.description=如果你在一个队伍中游戏，使用Together Forever的命令同步你们的gamestages。
 interactions.154955d3.87a33a89.text.0=/tofe invite <玩家名>
 interactions.154955d3.87a33a89.text.1=/tofe accept <玩家名>
@@ -230,7 +230,7 @@ interactions.154955d3.9df1d5ee.description=有了炼金矩阵，你可以把橡�
 
 interactions.154955d3.a0918964.description=Rustic的酿造系统能在游戏早期提供生命恢复buff。祝你好运，你会需要它的。
 
-interactions.154955d3.a1e8425a.description=这个包禁用了来自饥饿值的自动回复。你必须使用各种模组增加你的血量，或者最终找到自动治疗的方法。现在为止你可以使用药膏和创可贴。
+interactions.154955d3.a1e8425a.description=这个包禁用了来自饥饿值的自动回复。你必须使用各种模组增加你的血量，或者最终找到自动治疗的方法。目前你可以使用药膏和创可贴。
 interactions.154955d3.a1e8425a.text.0=什么牌子的创可贴最好？
 interactions.154955d3.a1e8425a.text.1=提示：原版花可以通过在原版草地上洒骨粉获得。
 
@@ -246,7 +246,7 @@ interactions.154955d3.b030b92e.description=这是最基本的魔法合成。无�
 interactions.154955d3.b030b92e.text.0=提示：如果你还在等着牛肉，试试从鸡肉转化。
 
 interactions.154955d3.b7027e49.title=Hot or Not？
-interactions.154955d3.b7027e49.description=如果你手持着一个装着岩浆的储罐或者容器，它会持续烫伤你，就算你放在物品栏中也一样。手持这些手套来抵消炙热液体的影响（以及手持其他液体所导致的副作用）。
+interactions.154955d3.b7027e49.description=如果你手持着一个装着岩浆的储罐或者容器，它会持续烫伤你，就算你放在物品栏中也一样。用这些手套来抵消炙热液体的影响（以及手持其他液体所导致的副作用）。
 
 interactions.154955d3.bc16b2a8.title=咸者之食
 interactions.154955d3.bc16b2a8.description=警告：风味不佳，不宜食用
@@ -475,7 +475,7 @@ interactions.251cae50.c193d3a6.description=此行的项目在大多数MV配方�
 interactions.251cae50.chapter.title=假的电气工程
 interactions.251cae50.chapter.description.0=这一章简单概述了芯片系统以及如何达到每一阶段。
 interactions.251cae50.chapter.description.2=在你游玩过程中，当你需要制作新的电路板时，你可以随时查看这个标签页，看看如何制作你的电路。
-interactions.251cae50.chapter.description.3=这是个重要的提醒：一般来说，你可以用比电路板低一级的科技来制作它们，虽然会耗费更多的材料。通常这都是制造更高等级机器的可行操作，有时也是必经之路。
+interactions.251cae50.chapter.description.3=这是个重要的提醒：一般来说，你可以用低一级的科技来制作更高等级的电路板，虽然会耗费更多的材料。当你想要制造更高等级的机器时，这是一种可行操作，有时也是必经之路。
 
 interactions.251cae50.d1a98f7f.title=UV时代
 interactions.251cae50.d1a98f7f.description=此行的项目在大多数UV配方中使用。
@@ -508,7 +508,7 @@ interactions.28fb9cd4.287cd5e6.description=星辉矿能在月球上采掘得到
 interactions.28fb9cd4.287cd5e6.text.0=你不能像星芒宝典上说的那样通过星辉转化来制造星辉矿石，这个东西只能在月球Luna上找到。
 
 interactions.28fb9cd4.522b5dbb.title=混沌锦衣
-interactions.28fb9cd4.522b5dbb.text.0=顶层祭坛可以让你制作星辉魔法的强力的护甲：星斗披风。它有着许多不同的能力，能给你提供强大的增益效果，而它的能力取决于你给它共鸣的星座。
+interactions.28fb9cd4.522b5dbb.text.0=顶级祭坛可以让你制作星辉魔法的强力的护甲：星斗披风。它有着许多不同的能力，能给你提供强大的增益效果，而它的能力取决于你给它共鸣的星座。
 interactions.28fb9cd4.522b5dbb.text.2=另一个好处是保护你完全免疫混沌伤害。 这或许可以帮你打败依靠混沌力量攻击你的强大敌人。
 
 interactions.28fb9cd4.645e1204.text.0=最后一个等级的星辉合成祭坛。这个祭坛使你能够用新的方式从最远的星星聚焦星光，以强化物品和水晶。还能够制造非常强大的装备，如星斗披风。
@@ -581,7 +581,7 @@ interactions.3c089439.468e3e2d.title=开始制作铟吧！
 interactions.3c089439.468e3e2d.tasks.2.title=硫酸
 interactions.3c089439.468e3e2d.text.0=高阶电路的生产需要一种叫做铟的稀有材料。制造这种金属，你需要将纯净闪锌矿、方铅矿和硫酸混合为铟富集溶液。 
 
-interactions.3c089439.9b9ce474.title=沉浸在一片粉红之中
+interactions.3c089439.9b9ce474.title=Sink In the Pink
 interactions.3c089439.9b9ce474.tasks.0.title=生产四氯化钛
 interactions.3c089439.9b9ce474.text.0=钛与之前的高级金属不同，制造它需要特别的生产工艺。你需要将金红石和氯与碳一起加工以产生液态四氯化钛，之后在高炉中用镁粉处理。
 interactions.3c089439.9b9ce474.text.1=这将提供你的第一个钛锭和，并且形成回收镁的循环。每个锭消耗的2个镁粉你都能回收1.5个。就和你能想的一样，你将需要大量的这种锭。
@@ -606,8 +606,7 @@ interactions.40159cc8.16a194f4.title=光核裂变反应堆
 interactions.40159cc8.16a194f4.text.0=蓝图可以在Euclydes的地牢中找到，之后可以被制作出来。当你为它提供加工过的铀燃料，它可以提供给你大量的蒸汽，这些蒸汽能够在涡轮机内产生LuV等级的能量。
 
 interactions.40159cc8.1e07ae16.title=大胆地前往史蒂夫从未探索过的地方…
-interactions.40159cc8.1e07ae16.description=在你的空间站建造一个跃迁核心，给它提供双锂晶体，并且使用跃迁控制器去银河
-系更远的地方探索吧！*重要：记得把格雷的钛块在合成栏中合成一下，将它转化成高级火箭（Advanced Rocketry）的钛块。
+interactions.40159cc8.1e07ae16.description=在你的空间站建造一个跃迁核心，给它提供双锂晶体，并且使用跃迁控制器去银河系更远的地方探索吧！*重要：记得把格雷的钛块在合成栏中合成一下，将它转化成高级火箭（Advanced Rocketry）的钛块。
 
 interactions.40159cc8.1e936edf.title=钻石和绿宝石矿脉
 
@@ -776,7 +775,7 @@ interactions.498eb09c.chapter.title=MV化学
 
 interactions.498eb09c.d5bfbf5e.title=木炭副产
 interactions.498eb09c.d5bfbf5e.text.0=木炭副产可以转化成你需要的三种关键化学品。转化成何种产物由你来决定。它可以通过工业先锋（Industrial foregoing）农场产生的污泥、污泥鸡产生的污泥获取，也可以从裂解炉多方块机器中直接获取。
-interactions.498eb09c.d5bfbf5e.text.1=pyrolyse oven multiblock.
+interactions.498eb09c.d5bfbf5e.text.1=
 
 interactions.498eb09c.d9490983.title=环氧树脂流程图
 
@@ -866,7 +865,7 @@ interactions.5c5ec752.c782128e.text.0=这个包的一个中心主题是科技和
 interactions.5c5ec752.c782128e.text.1=但目前没有办法去到地狱，你将不得不求助魔法来制作你的第一批黄铜。 你需要投入一点时间和资源在神秘时代模组上，从而制作出黄铜，查看【这是什么巫术】任务线获得更多的帮助。
 
 interactions.5c5ec752.chapter.title=蒸汽动力和最初的多方块
-interactions.5c5ec752.chapter.description.0=你知道的，所有的工业化都是从蒸汽开始的。也有些人认为是从马开始，但它们是似乎不是机器？
+interactions.5c5ec752.chapter.description.0=你知道的，所有的工业化都是从蒸汽开始的。也有些人认为是从马开始但它们是似乎不是机器？
 
 interactions.5c5ec752.d6801307.title=禁止炼铜
 interactions.5c5ec752.d6801307.text.0=格雷早期所有机器都需要铜。挖一些铜矿，在陶瓷冶炼炉中把它们处理成铜锭，开始工业化的进程。
@@ -878,9 +877,9 @@ interactions.5c5ec752.e384c9a5.description=更好地将锭制成板，进一步�
 interactions.5c5ec752.e48023fb.title=青黄不接
 interactions.5c5ec752.e48023fb.description=想要开始格雷科技？好的，你需要黄铜和青铜，前者需要只有在下界才有的锌。在你到达那里之前，你必须先用炼金术制作黄铜。
 
-interactions.5c5ec752.fa1162c0.description=没有什么特殊的事情要说，我们只是再次提醒你需要暴露蒸汽机器的耗尽喷口。
+interactions.5c5ec752.fa1162c0.description=没有什么特殊的事情要说，我们只是再次提醒你需要暴露蒸汽机器的蒸汽喷口。
 
-interactions.5c5ec752.fc94860d.description=蒸汽锅炉消耗水的速度很慢，但如果你计划使用区块加载，你最终还是会想要无限的水源。警告 x 2：锅炉会在你添加水到干燥的空锅炉时爆炸，所以，永远不让锅炉烧干。
+interactions.5c5ec752.fc94860d.description=蒸汽锅炉消耗水的速度很慢，但如果你计划使用区块加载，你最终还是会想要无限的水源。警告 x 2：锅炉会在你添加水到干燥的空锅炉时爆炸，所以，永远不要让锅炉烧干。
 
 interactions.658f0534.254a6531.title=星辉转化，四倍产矿
 interactions.658f0534.254a6531.description=Mekanism能五倍产矿？Too young too simple！
@@ -889,9 +888,9 @@ interactions.658f0534.254a6531.text.0=用你的小蓝法杖来让水晶对着矿
 interactions.658f0534.2e40345e.title=电力和魔法，八倍产矿
 interactions.658f0534.2e40345e.text.0=在MV阶段之后，你可以将魔力、生命源质与矿石混合，制作纯净的血碎片，进一步增加你的矿物产量。
 
-interactions.658f0534.2f4525e2.text.0=你可以使用GT的锤子来破坏矿物使其变成粉碎的矿物来代替原来的矿物采集方法，这样的做法可以直接生产两倍的矿物，就相当于研磨机一样，甚至还可以给锤子附魔时运以此来获得三倍或者以上的矿物生产。 
-interactions.658f0534.2f4525e2.text.1=当你获得了粉碎的矿物之后，你就可以进行下一步的处理，那就是把含杂粉碎矿物放入你的物品自带的合成栏用锤子与其合成一下，最后丢入炼药锅清洗一下，你可以一次投入一组的含杂矿粉来清洗
-interactions.658f0534.2f4525e2.text.2=你也可以绕过锤子并直接粉碎你的矿石，如果你有机器为你做这些。
+interactions.658f0534.2f4525e2.text.0=你可以使用GT的锤子来破坏矿石使其变成粉碎的矿物，而不是直接挖下来矿石，这样的做法可以直接生产两倍的矿物，就相当于使用了研磨机一样，甚至你还可以给锤子附魔时运以此来获得三倍甚至三倍以上的矿物产出。 
+interactions.658f0534.2f4525e2.text.1=当你获得了粉碎的矿物之后，你就可以进行下一步的处理，那就是把含杂粉碎矿物放入合成栏用锤子与其合成一下，最后丢入炼药锅清洗，你可以一次投入一组的含杂矿粉来清洗
+interactions.658f0534.2f4525e2.text.2=你也选择可以不用锤子，使用机器直接粉碎矿石，如果你有机器能为你做这些。
 
 interactions.658f0534.57ca62b6.title=八倍的英文是octuple，十六倍的是...
 interactions.658f0534.57ca62b6.description=炽热的等离子电弧炉对你很有用，相信我
@@ -924,16 +923,17 @@ interactions.658f0534.chapter.description.0=这一章包含关于矿物增产的
 
 interactions.658f0534.e99902e3.description=任何路径最终都会形成这种矿物簇，我猜魔法真的到处都有。
 interactions.658f0534.e99902e3.text.0=别忘了你有64倍的矿物产出，通过粉碎矿物簇并使用标准的格雷矿物处理
-interactions.658f0534.e99902e3.text.1=另外，这些矿簇也能简单的烧成矿石
+interactions.658f0534.e99902e3.text.1=另外，这些矿簇也能直接进行熔炼
 
 interactions.658f0534.fad424f0.text.0=你拥有了粉碎矿石之后，你需要研磨机、锻造锤或将它们与锤子一起合成，将它们变成含杂的矿粉以供进一步处理。
 
 interactions.6f37a0c0.2e6c74d5.title=维度
-interactions.6f37a0c0.2e6c74d5.text.0=当你进入各个维度后，你会解锁新的材料，新的挑战和新的地方去探索。保证重新回到这里去查看每个维度的特殊指南
+interactions.6f37a0c0.2e6c74d5.text.0=当你进入各个维度后，你会解锁新的材料，新的挑战和新的地方去探索。别忘了重新回到这里去查看每个维度的特殊指南
 
 interactions.76839e0d.chapter.title=大师冶金
 interactions.6f37a0c0.chapter.description.0=此任务组侧重于一些你可能会需要或觉得有用的维度特定信息。
 interactions.6f37a0c0.chapter.title=维度
+
 
 
 interactions.7dc11b04.4fa0097b.text.0=第二级的石板，用于一些更复杂的魔法工艺。
@@ -2097,7 +2097,7 @@ interactions.e5a2c94a.84fe3251.text.0=荧石可以在下界挖掘到，也可以
 
 interactions.e5a2c94a.aba3c3ae.title=引火上身
 interactions.e5a2c94a.aba3c3ae.text.0=-烈焰人能被更容易找到！它会生成在下界的每一个角落。
-interactions.e5a2c94a.aba3c3ae.text.1=-相比原版，他们有多10滴血。
+interactions.e5a2c94a.aba3c3ae.text.1=-相比原版，它们有额外的10滴血。
 interactions.e5a2c94a.aba3c3ae.text.2=-注意，它们死亡时会产生一次小型的爆炸。
 interactions.e5a2c94a.aba3c3ae.text.3=-若你使用近战武器攻击烈焰人的话，他们会将你推走且对你造成一定量的反伤。
 interactions.e5a2c94a.aba3c3ae.text.4=-试着不要贴它们太近，否则只会引火上身。
@@ -2172,7 +2172,7 @@ interactions.ed136c16.61ac4cf4.title=没有史莱姆空岛
 interactions.ed136c16.61ac4cf4.description=如果你想要某些彩色史莱姆球用于制作装备或刻印工具，你必须种植树木来收获它们。
 
 interactions.ed136c16.635d5fcc.title=雪片空气
-interactions.ed136c16.635d5fcc.text.0=Mekanism机械使用的气体比格雷使用的气体压力更低。为了将氢或氧供给Mekanism机械使用，要将氢或氧在化学反应釜中进行转化，转化时使用配置为5的编程电路。
+interactions.ed136c16.635d5fcc.text.0=Mekanism机械使用的气体比格雷使用的气体压力更低。为了将氢或氧供给Mekanism机械使用，要将氢或氧在化学反应釜中进行转化，转化时使用配置为1的编程电路。
 interactions.ed136c16.635d5fcc.text.1=有了Mekanism的液态氢和液态氧之后，你可以使用回旋式气液转换机将其变成气体，用于喷气背包，潜水罐或者喷火器。
 
 interactions.ed136c16.637db57f.title=这是一场胜利
@@ -2246,7 +2246,7 @@ interactions.ed136c16.a79229e7.text.3=要创造声音模块，你先要使用录
 interactions.ed136c16.ad7c6a92.title=物品栏里的 3x3 合成？
 interactions.ed136c16.ad7c6a92.text.0=正如题，这个升级可以让你在任何地方进行合成。虽然它似乎毫无意义，但多少有点好处。
 
-interactions.ed136c16.affcbb66.title=汉登
+interactions.ed136c16.affcbb66.title=Hang Ten
 interactions.ed136c16.affcbb66.text.0=基础的滑翔飞行，配合飞行背包或其他能使你推你进空中的物品使用更佳。
 
 interactions.ed136c16.b1177c9e.description=坏松鼠:中世纪
