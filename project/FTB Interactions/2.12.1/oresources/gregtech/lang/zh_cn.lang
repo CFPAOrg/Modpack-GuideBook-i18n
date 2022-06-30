@@ -30,3 +30,5 @@ material.rawlatticite=原生晶胞液
 material.moltenvinteum=熔融温特姆
 material.naquadriaticfuel=硅岩燃料
 material.bluesteel=蓝钢
+
+gregtech.recipe.blast_furnace_temperature=温度: %d K
