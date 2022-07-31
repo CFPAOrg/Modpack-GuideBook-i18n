@@ -1,0 +1,15 @@
+{
+    "name": "R键整理",
+    "icon": "minecraft:chest",
+    "category": "patchouli:tweaks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#ffa500)$(l)Inventory Tweaks$(reset)主要对你的物品栏做手脚。他最著名的改动是按下$(k:invtweaks_sort_either.desc)$(l)来整理任何你打开的物品栏$(reset)。"
+        },
+        {
+            "type": "text",
+            "text": "该模组还有其他实用功能，比如在你背包里有多余物品时，自动装填你快捷栏里的消耗完的物品。"
+        }
+    ]
+}

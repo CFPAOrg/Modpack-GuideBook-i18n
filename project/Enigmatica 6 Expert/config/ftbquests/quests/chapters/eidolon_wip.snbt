@@ -1,0 +1,858 @@
+{
+	id: "0000000000000E7F"
+	group: "5A8B89F87F77CF4C"
+	order_index: 5
+	filename: "eidolon_wip"
+	title: "幻梦"
+	icon: "eidolon:unholy_symbol"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "欢迎来到幻梦！"
+			icon: "eidolon:codex"
+			x: 1.5d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "另外幻梦的意思是“生者或死者的幻像”"
+			description: [
+				"幻梦是一个专注于祈祷、炼金、献祭和魔法恶作剧的黑魔法模组！"
+				""
+				"虽然它仍处于早期开发阶段，但已经提供了一些很酷的小装置和小玩具供你使用，并且未来可期。所以你还在等什么，在其他人之前好好享受吧！"
+				""
+				"拿好你的《秘仪教典》，让它指导你在模组中的每一步，并准备好取悦黑暗君王。"
+				""
+				"~Merlo"
+			]
+			size: 1.5d
+			optional: true
+			id: "0000000000000E80"
+			tasks: [{
+				id: "5BB374740D4295E0"
+				type: "item"
+				item: "eidolon:tattered_cloth"
+			}]
+			rewards: [{
+				id: "5855578CE2117C3E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "基础祭坛"
+			icon: "eidolon:wooden_altar"
+			x: 1.5d
+			y: 3.5d
+			subtitle: "只是一次向黑暗君王的随意祈祷"
+			description: [
+				"你现在应该知悉邪恶符文，且了解如何用它进行黑暗祈祷，但你应该在哪里进行呢？让我们来建造一个祭坛以满足所有的祈祷需求！"
+				""
+				"木制祭坛是你可以合成的最基础的祭坛，因此现在就可以制作。与此同时，你还需要一个塑像，所以，现在就用稻草做一个，把它放在祭坛上。"
+				""
+				"向塑像祈祷可以讨取黑暗君王的欢心，如果你祈祷得足够多，祂甚至可能会决定向你赏赐一些新的知识……"
+				""
+				"但请小心：任何祈祷每天都只能进行一次，任何重复的尝试都会失败。你可以知道祈祷是否有效，如果生效，塑像的眼睛就会亮起来，然后……你会听到雷暴的声音。"
+				""
+				"我建议尽快建立一座祭坛，每天祈祷一次，即使你不打算马上发展该模组：这样你就可以在时机成熟时做好准备。"
+			]
+			dependencies: ["0000000000000E85"]
+			min_width: 300
+			id: "0000000000000E83"
+			tasks: [
+				{
+					id: "0000000000000E84"
+					type: "item"
+					item: "eidolon:wooden_altar"
+				}
+				{
+					id: "0000000000000E96"
+					type: "item"
+					item: "eidolon:straw_effigy"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000ECE"
+					type: "item"
+					title: "蜡烛"
+					item: "eidolon:candle"
+					count: 2
+				}
+				{
+					id: "0000000000000ECF"
+					type: "item"
+					title: "僵尸头颅"
+					item: "minecraft:zombie_head"
+				}
+			]
+		}
+		{
+			title: "符文和颂歌"
+			x: 1.5d
+			y: 2.0d
+			subtitle: "这会变得很阴森……"
+			description: [
+				"颂歌是幻梦的一个重要机制，它可使你在神力中取得进步，并解锁模组中更强大的物品和工具。"
+				""
+				"要进行咏唱，你需要学习符文，然后将它们在《秘仪教典》中组合起来，为你想要的颂歌谱写正确的顺序。"
+				""
+				"虽然大多数符文都是在获取的神力进程中从神灵那里学到的，但在正常世界中，魔法使用者们可能只会知道一些基本的符文。"
+				""
+				"试着去拜访你当地的女巫，把你的《秘仪教典》扔给她，你可能会学到一些新的东西……"
+			]
+			dependencies: ["0000000000000E80"]
+			id: "0000000000000E85"
+			tasks: [{
+				id: "0000000000000E86"
+				type: "checkmark"
+				title: "颂歌"
+				icon: {
+					id: "eidolon:warlock_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000ECD"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "仪式"
+			icon: "eidolon:brazier"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "它火了，家人们！"
+			description: [
+				"仪式是创造某些物品或产生某些效果的一种方式，例如将白天变成黑夜，反之亦然、召唤生物等等（请查看《秘仪教典》以获取完整列表）。"
+				""
+				"首先，在中心放置一个火盆，然后在周围放置一些石之手。然后，你需要按照书中的配方，并将物品放在中间的火盆和石之手上。"
+				""
+				"当你准备好了，拿出打火石，点燃火盆以开始仪式。"
+			]
+			dependencies: ["0000000000000E80"]
+			id: "0000000000000E87"
+			tasks: [
+				{
+					id: "0000000000000E88"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "0000000000000E89"
+					type: "item"
+					item: "eidolon:stone_hand"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000EC6"
+					type: "item"
+					title: "石之手"
+					item: "eidolon:stone_hand"
+					count: 2
+				}
+				{
+					id: "0000000000000EC7"
+					type: "item"
+					title: "附魔灰烬"
+					item: "eidolon:enchanted_ash"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			subtitle: "恐怖焦点"
+			description: [
+				"某些仪式，比如召唤生物的仪式，需要一个更高级的物品容器，它们在仪式配方中由不同的材质标识。"
+				""
+				"你需要合成一个暗蚀焦点并将其放置在火盆周围来举行这些仪式。和普通的石之手一样，你可以在上面放置物品，但是对于那些特殊的仪式，特定物品必须在暗蚀焦点上。"
+				""
+				"请确保你做对了！"
+			]
+			dependencies: ["0000000000000E87"]
+			id: "0000000000000E8A"
+			tasks: [{
+				id: "0000000000000E8B"
+				type: "item"
+				item: "eidolon:necrotic_focus"
+			}]
+			rewards: [{
+				id: "0000000000000EC9"
+				type: "item"
+				title: "伤害药水"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:harming"
+					}
+				}
+			}]
+		}
+		{
+			title: "白镴"
+			icon: "eidolon:pewter_ingot"
+			x: -1.5d
+			y: 2.0d
+			subtitle: "一起战斗吧，布洛克！"
+			description: [
+				"白镴是该模组中许多物品都需要的基础资源，一种铁和铅的合金。"
+				""
+				"你可以在大多数合金冶炼机器中制作它，也可以简单地将两个锭组合在一起，烧炼得到的混合物。囤上一大堆，你会用到的！"
+			]
+			dependencies: ["0000000000000E80"]
+			id: "0000000000000E8E"
+			tasks: [
+				{
+					id: "0000000000000E8F"
+					type: "item"
+					item: "eidolon:pewter_ingot"
+					count: 16L
+				}
+				{
+					id: "0000000000000EBB"
+					type: "item"
+					item: "eidolon:pewter_inlay"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000EBC"
+					type: "item"
+					title: "白镴混合物"
+					item: "eidolon:pewter_blend"
+					count: 8
+				}
+				{
+					id: "0000000000000EBD"
+					type: "command"
+					title: "农夫快乐包"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			subtitle: "没有这个就不是魔法模组了！"
+			description: [
+				"幻梦中的许多原料都是在坩埚中制作的，因此你需要熟悉它。合成一个坩埚，装满水，把它放在热源上方，比如熔岩或岩浆块，然后等待水沸腾。"
+				""
+				"你会注意到坩埚配方有不同的步骤，你需要遵循它们。将第一步的所有物品放入坩埚中，等待水变色，然后快速放入下一步的所有物品，直到完成所有步骤。"
+				""
+				"如果你太慢了，水就会蒸发，而你会失去扔进去的物品，所以请做好准备！"
+				""
+				"有些配方还需要你搅拌坩埚：你可以在正确的时机右击坩埚进行搅拌。"
+			]
+			dependencies: ["0000000000000E8E"]
+			min_width: 300
+			id: "0000000000000E90"
+			tasks: [{
+				id: "0000000000000E91"
+				type: "item"
+				title: "坩埚"
+				icon: "eidolon:crucible"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "eidolon:crucible"
+								Count: 1b
+							}
+							{
+								id: "farmersdelight:cooking_pot"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000EBE"
+					type: "item"
+					title: "红石粉"
+					item: "minecraft:redstone"
+					count: 2
+				}
+				{
+					id: "0000000000000EBF"
+					type: "item"
+					title: "灵魂碎片"
+					item: "eidolon:soul_shard"
+				}
+				{
+					id: "0000000000000EC0"
+					type: "item"
+					title: "金锭"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "0000000000000EC1"
+					type: "item"
+					title: "岩浆块"
+					item: "minecraft:magma_block"
+				}
+			]
+		}
+		{
+			title: "结晶仪式"
+			x: 4.0d
+			y: 3.0d
+			subtitle: "把它们变成碎片！"
+			description: [
+				"你需要举行的第一个仪式是结晶仪式。它会杀死附近的亡灵生物，并将它们变成灵魂碎片，它是模组中许多物品和配方所需要的物品。"
+				""
+				"你可以尝试使用上一个任务中获得的附魔灰烬来困住怪物：你可以将它们像红石一样放置在地上，怪物将无法穿过它们。"
+				"将灰烬撒在一群怪物周围，这将成为一个完美的牢笼，然后你就可以开始献祭了！"
+				""
+				"你可以在《秘仪教典》中查看仪式所需的物品。"
+			]
+			dependencies: ["0000000000000E87"]
+			id: "0000000000000E92"
+			tasks: [{
+				id: "0000000000000E93"
+				type: "item"
+				item: "eidolon:soul_shard"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0000000000000EC8"
+				type: "command"
+				title: "法师快乐包"
+				icon: "kubejs:sorcerers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			subtitle: "我以为它是绿色的！"
+			description: [
+				"幻梦中的大多数魔法物品都需要比普通工作台稍微高级一些的工作台，因此将其升级为魔力工作台。"
+				""
+				"这非常直白：它的工作原理和正常工作台完全相同（并且可以当作普通工作台使用），但它有四个额外的栏位，用于某些魔法配方。 "
+			]
+			dependencies: ["0000000000000E8E"]
+			id: "0000000000000E94"
+			tasks: [{
+				id: "0000000000000E95"
+				type: "item"
+				title: "魔力工作台"
+				icon: "eidolon:worktable"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "masterfulmachinery:wicked_altar_controller"
+								Count: 1b
+							}
+							{
+								id: "eidolon:worktable"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000EC2"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "祭坛升级：光源"
+			x: 2.5d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "不，不是闪电麦昆"
+			description: [
+				"你可以在祭坛上放更多的东西，让它更强大。有增加两个数据可以增加："
+				""
+				"威能会让你的祈祷更强大（因此，你会花费更少的时间和祈祷次数来让黑暗君王启示你新知识）。 "
+				""
+				"容量目前并未使用，但在将来的更新中，它可使祭坛承受更强大的祈祷。"
+				""
+				"有三种不同类别的升级，但请注意，来自同一类别的物品效果不会叠加，祭坛会始终采用该类别的最高数值。"
+				""
+				"例如，如果你在祭坛上放了一支火把和一盏烛台，那么加成将会是+2威能。但是，来自不同类别的物品可以像预期那样叠加。"
+				""
+				"查看《秘仪教典》中可行升级的完整列表：对于光源类别来说，最好可用的是烛台（或蜡烛）。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000E83"]
+			optional: true
+			min_width: 300
+			id: "0000000000000E97"
+			tasks: [{
+				id: "0000000000000E98"
+				type: "item"
+				item: "eidolon:candlestick"
+			}]
+			rewards: [{
+				id: "0000000000000ED0"
+				type: "item"
+				title: "基础护符"
+				item: "eidolon:basic_amulet"
+			}]
+		}
+		{
+			title: "祭坛升级：头颅"
+			x: 3.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "每个优秀的魔法模组都需要头颅！"
+			description: [
+				"你可以在祭坛上放更多的东西，让它更强大。有增加两个数据可以增加："
+				""
+				"威能会让你的祈祷更强大（因此，你会花费更少的时间和祈祷次数来让黑暗君王启示你新知识）。 "
+				""
+				"容量目前并未使用，但在将来的更新中，它可使祭坛承受更强大的祈祷。"
+				""
+				"有三种不同类别的升级，但请注意，来自同一类别的物品效果不会叠加，祭坛会始终采用该类别的最高数值。"
+				""
+				"例如，如果你在祭坛上放了一支火把和一盏烛台，那么加成将会是+2威能。但是，来自不同类别的物品可以像预期那样叠加。"
+				""
+				"查看《秘仪教典》中可行升级的完整列表：对于头颅类别来说，最好可用的是凋灵骷髅头颅。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000E83"]
+			optional: true
+			min_width: 300
+			id: "0000000000000E99"
+			tasks: [{
+				id: "0000000000000E9A"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+			rewards: [
+				{
+					id: "0000000000000ED1"
+					type: "item"
+					title: "凋零药水"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:wither"
+						}
+					}
+				}
+				{
+					id: "0000000000000ED2"
+					type: "item"
+					title: "凋灵骷髅头颅碎片"
+					item: "wstweaks:fragment"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "祭坛升级：草药"
+			x: 3.0d
+			y: 4.5d
+			shape: "diamond"
+			subtitle: "双关与玫瑰乐队"
+			description: [
+				"你可以在祭坛上放更多的东西，让它更强大。有增加两个数据可以增加："
+				""
+				"威能会让你的祈祷更强大（因此，你会花费更少的时间和祈祷次数来让黑暗君王启示你新知识）。 "
+				""
+				"容量目前并未使用，但在将来的更新中，它可使祭坛承受更强大的祈祷。"
+				""
+				"有三种不同类别的升级，但请注意，来自同一类别的物品效果不会叠加，祭坛会始终采用该类别的最高数值。"
+				""
+				"例如，如果你在祭坛上放了一支火把和一盏烛台，那么加成将会是+2威能。但是，来自不同类别的物品可以像预期那样叠加。"
+				""
+				"查看《秘仪教典》中可行升级的完整列表：对于草药类别来说，最好可用的是花盆中的凋零玫瑰。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000E83"]
+			optional: true
+			min_width: 300
+			id: "0000000000000E9B"
+			tasks: [{
+				id: "0000000000000E9C"
+				type: "item"
+				item: "minecraft:wither_rose"
+			}]
+			rewards: [{
+				id: "0000000000000ED3"
+				type: "item"
+				title: "凋灵骷髅头颅碎片"
+				item: "wstweaks:fragment"
+				count: 3
+			}]
+		}
+		{
+			title: "献祭"
+			x: 1.5d
+			y: 4.5d
+			subtitle: "血祭血神"
+			description: [
+				"过了一段时间，祈祷已经达到了足够的数量，暗黑君王将会揭示一个新的符文：血液符文。"
+				""
+				"它可以用于一种更强大的祈祷，讨取君王更多的欢心，但需要鲜血献祭才能进行。"
+				""
+				"合成一个高脚杯并将其放置在祭坛上，然后将生物引诱至附近并杀死它。高脚杯将会充满鲜血，你也可以进行献祭。"
+				""
+				"可以的话，你应该总是试着献祭，而不是进行暗黑祈祷。因为它更加高效且能显著减少获取新知识的时间。"
+			]
+			dependencies: ["0000000000000E83"]
+			id: "0000000000000E9D"
+			tasks: [{
+				id: "0000000000000E9E"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+			rewards: [{
+				id: "0000000000000ED4"
+				type: "item"
+				title: "新鲜的献祭肉"
+				item: "minecraft:pig_spawn_egg"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			shape: "hexagon"
+			subtitle: "它不是金属乐队的标志？"
+			description: [
+				"足够的祈祷和献祭之后，魂魄符文将会向你揭示。它可以用于进行黑暗的触摸颂歌。"
+				""
+				"在地上投掷一个白镴嵌材然后进行咏唱，以创造亵渎象征符。"
+				""
+				"这个圣物可以合成模组中最高级的物品，但你只需要一个，因为它不会在合成过程中消耗。"
+			]
+			dependencies: ["0000000000000E9D"]
+			id: "0000000000000E9F"
+			tasks: [{
+				id: "0000000000000EA0"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+			rewards: [{
+				id: "0000000000000ED5"
+				type: "item"
+				title: "诡异新芽"
+				item: "eidolon:warped_sprouts"
+				count: 8
+			}]
+		}
+		{
+			icon: "eidolon:stone_altar"
+			x: 1.5d
+			y: 6.5d
+			subtitle: "滚石祭坛"
+			description: [
+				"你将解锁的最强大的颂歌只能在升级的祭坛上进行。升级的祭坛由石头做成，其上有一个长者雕像。"
+				""
+				"这就是你如何解锁该模组最终符文，心灵符文的方法。不幸的是，它还没有任何用途，但可以让你很快解锁模组的最终内容。"
+			]
+			dependencies: ["0000000000000E9F"]
+			id: "0000000000000EA1"
+			tasks: [
+				{
+					id: "0000000000000EA2"
+					type: "item"
+					item: "eidolon:stone_altar"
+				}
+				{
+					id: "0000000000000EA3"
+					type: "item"
+					item: "eidolon:unholy_effigy"
+				}
+			]
+		}
+		{
+			title: "炼金术练习！"
+			icon: "eidolon:arcane_gold_ingot"
+			x: -1.5d
+			y: 4.0d
+			subtitle: "别把这地方烧了，好吗？"
+			description: [
+				"是时候进行一些魔法了！去了解一些基础炼金原料，你将使用这些原料在幻梦中合成魔法物品。"
+				""
+				"秘金锭是将常规的金注入灵魂碎片而得。你也许需要先看一下“仪式”这个任务，如果你还没有灵魂碎片的话。"
+				""
+				"小型灵魂宝石也来自于灵魂碎片，但它是后者的升级形态。你将在略高级的配方中需要它。"
+				""
+				"如果你想要一个更具挑战性的配方，那就尝试再合成一个暗影宝石！它用于更强大和高级的配方。"
+			]
+			dependencies: ["0000000000000E90"]
+			id: "0000000000000EAA"
+			tasks: [
+				{
+					id: "0000000000000EAB"
+					type: "item"
+					item: "eidolon:arcane_gold_ingot"
+					count: 4L
+				}
+				{
+					id: "0000000000000EAC"
+					type: "item"
+					item: "eidolon:lesser_soul_gem"
+				}
+				{
+					id: "0000000000000EC3"
+					type: "item"
+					item: "eidolon:shadow_gem"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000EC4"
+					type: "item"
+					title: "灵魂碎片"
+					item: "eidolon:soul_shard"
+					count: 16
+				}
+				{
+					id: "0000000000000EC5"
+					type: "command"
+					title: "炼金术士快乐包"
+					icon: "kubejs:alchemists_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "深红之物"
+			icon: "eidolon:sanguine_amulet"
+			x: 5.0d
+			y: 4.5d
+			subtitle: "不，这不是血魔法的书！"
+			description: [
+				"深红之物是你可以通过仪式制作的（目前）最强大的工具。"
+				""
+				"侵蚀之剑可以造成凋零伤害并用凋零造成的伤害治疗你。"
+				""
+				"红润护符可以充当生命缓存：当你生命值为满时它会汲取你的饥饿值和/任何生命恢复效果装满自己的生命条，但如果你处于困境，它会归还其中生命值。"
+				""
+				"请确保仔细阅读《秘仪教典》，因为这些仪式不但需要书中描述的物品，但需要周围的生物的一部分生命值作为祭品。"
+				""
+				"如果仪式找不到任何祭品，它甚至会尝试从你身上索取……"
+			]
+			dependencies: ["0000000000000E8A"]
+			id: "0000000000000EAD"
+			tasks: [
+				{
+					id: "0000000000000EAE"
+					type: "item"
+					item: "eidolon:sanguine_amulet"
+				}
+				{
+					id: "0000000000000EBA"
+					type: "item"
+					item: {
+						id: "eidolon:sapping_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000ECA"
+					type: "item"
+					title: "僵尸之心"
+					item: "eidolon:zombie_heart"
+					count: 8
+				}
+				{
+					id: "0000000000000ECB"
+					type: "item"
+					title: "褴褛之布"
+					item: "eidolon:tattered_cloth"
+					count: 8
+				}
+				{
+					id: "0000000000000ECC"
+					type: "item"
+					title: "幽魂之心"
+					item: "eidolon:wraith_heart"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "魔杖多多"
+			x: -2.5d
+			y: 5.5d
+			subtitle: "看看这些粒子效果吧！"
+			description: [
+				"和任何体面的魔法模组一样，幻梦提供了一些很酷的法杖以帮助远程战斗。"
+				""
+				"魂火魔杖可以对敌人造成魔法伤害，而刺骨法杖可以使敌人无法恢复生命值。两个都试试！"
+				""
+				"也许可以考虑制作一些术士盔甲：它们可以进一步增强你的魔法伤害。这只是一个小小的开始，剩下的可能会更难……"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EAA"]
+			id: "0000000000000EAF"
+			tasks: [
+				{
+					id: "0000000000000EB0"
+					type: "item"
+					item: {
+						id: "eidolon:soulfire_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000EB1"
+					type: "item"
+					item: {
+						id: "eidolon:bonechill_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000ED8"
+				type: "item"
+				title: "邪恶织物"
+				item: "eidolon:wicked_weave"
+				count: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			subtitle: "令人困惑……"
+			description: [
+				"颠倒之镐是你采掘时可以使用的趣味工具。顾名思义，它与普通的镐相反。"
+				""
+				"越硬的方块采掘速度越快，而越软的方块采掘速度越低。试试拿它挖掘黑曜石！"
+				""
+				"请注意，展示于此的物品并不是该模组的全部，我故意留了一些来让你自己探索，去发现所有酷炫玩意吧！"
+			]
+			dependencies: ["0000000000000EAA"]
+			id: "0000000000000EB2"
+			tasks: [{
+				id: "0000000000000EB3"
+				type: "item"
+				item: {
+					id: "eidolon:reversal_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000ED6"
+				type: "item"
+				title: "黑曜石"
+				item: "minecraft:obsidian"
+				count: 16
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			subtitle: "可控附魔"
+			description: [
+				"灵歌附魔台是一种不同且奇特的物品附魔方式：它只能进行基础的1级附魔，且消耗灵魂碎片，但你可以附魔一个已经附魔过的物品，甚至进一步强化它。"
+				""
+				"如果一个物品已经有了魔咒，灵歌附魔台也可以将其升级至更高等级的魔咒，使你获得更多的控制能力。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EAA"]
+			id: "0000000000000EB4"
+			tasks: [{
+				id: "0000000000000EB5"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+			rewards: [{
+				id: "0000000000000EDA"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			subtitle: "易碎……"
+			description: ["玻璃之手是所有莽夫的终极玻璃大炮：它会使你的力量翻倍，但会使你受到的伤害增加5倍。你准备好接受挑战了吗？"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EAA"]
+			id: "0000000000000EB6"
+			tasks: [{
+				id: "0000000000000EB7"
+				type: "item"
+				item: "eidolon:glass_hand"
+			}]
+			rewards: [{
+				id: "0000000000000EDB"
+				type: "item"
+				title: "音乐唱片"
+				item: "eidolon:music_disc_parousia"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			subtitle: "也试试开劈之斧"
+			description: [
+				"死神镰刀不仅是一种强大的武器，而且它杀死的亡灵生物也会给你灵魂碎片，尽管比你通过结晶仪式得到的要少一些。"
+				""
+				"这仍然是储存一些碎片来制作模组中其他物品的很好方法。"
+			]
+			dependencies: [
+				"0000000000000E9F"
+				"0000000000000EAC"
+			]
+			id: "0000000000000EB8"
+			tasks: [{
+				id: "0000000000000EB9"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000ED9"
+				type: "xp"
+				xp: 500
+			}]
+		}
+	]
+}

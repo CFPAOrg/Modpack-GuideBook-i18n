@@ -1,0 +1,5 @@
+{
+	"name": "The One Probe",
+	"description": "$(l)$(#ffa500)The One Probe$(reset)是你屏幕上方的小弹窗，$(l)它会显示你的准心指向了什么$(reset)。",
+	"icon": "theoneprobe:probe"
+}
