@@ -770,11 +770,11 @@
 								Count: 1
 								tag: {
 									"akashictome:displayName": {
-										text: "血染之书"
+										text: "血染知书"
 									}
 									"patchouli:book": "bloodmagic:guide"
 									display: {
-										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"血染之书\"}]}"
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"血染知书\"}]}"
 									}
 								}
 							}
