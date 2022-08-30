@@ -1,0 +1,16 @@
+{
+    "name": "书签",
+    "icon": "minecraft:book",
+    "category": "patchouli:jei",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l)JEI 书签$(reset)是非常强大的工具，你可以把它当作待办清单或是配方追踪。打开 JEI，将光标悬停一个物品上，按$(l)$(k:jei.bookmark)$(reset)键，该物品就会被添加到你的列表中。"
+        },
+        {
+            "type": "text",
+            "text": "$(l)瞧一眼你物品栏的左半边！$(reset)你的物品已经被标记在这，知道你再次对它按下$(l)$(k:jei.bookmark)$(reset)键来删除它。利用书签来追踪复杂、长流程的的配方或是提醒你接下来要做什么！"
+        }
+    ]
+}

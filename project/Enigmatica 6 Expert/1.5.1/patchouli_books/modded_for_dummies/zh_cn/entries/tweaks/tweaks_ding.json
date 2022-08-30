@@ -1,0 +1,12 @@
+{
+    "name": "叮！",
+    "icon": "minecraft:note_block",
+    "category": "patchouli:tweaks",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "这个功能很简单。模组包加载时间挺长的，你可以$(l)提高电脑音量$(reset)，去干点别的事情，听到“叮”时你的模组包就烤好啦。新鲜出炉！"
+        }
+    ]
+}

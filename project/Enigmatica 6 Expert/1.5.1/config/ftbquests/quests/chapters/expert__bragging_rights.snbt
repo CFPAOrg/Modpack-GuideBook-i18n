@@ -1,0 +1,727 @@
+{
+	id: "0000000000000B69"
+	group: "34B7FB260B6AEB81"
+	order_index: 7
+	filename: "expert__bragging_rights"
+	title: "夸耀资本"
+	icon: "kubejs:disabled_recipe_indicator"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -6.0d
+			shape: "gear"
+			description: ["取得创造环境塑形器是你的最终目标——完成这个任务也就代表你通关了模组包！"]
+			dependencies: ["0000000000000FEB"]
+			hide: true
+			size: 2.0d
+			id: "6D3FE88DB30DEE00"
+			tasks: [{
+				id: "446147A7DA834368"
+				type: "item"
+				item: "create:handheld_worldshaper"
+			}]
+			rewards: [{
+				id: "3A52EC072B3445A2"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "kubejs:disabled_recipe_indicator"
+								Count: 1b
+							}
+							DisplayHeight: "2.0f.0f"
+							Colors: {
+								Bottom: {
+									Red: 249
+									Blue: 254
+									Green: 255
+								}
+								Top: {
+									Red: 249
+									Blue: 254
+									Green: 255
+								}
+								Middle: {
+									Red: 249
+									Blue: 254
+									Green: 255
+								}
+							}
+							Animation: "spinning"
+							AnimationSpeed: 0.3f
+							Name: "Enigmatica 6：专家"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: [
+				"采矿是一件很危险的事业，但是科技可以让它变得相当安全。"
+				""
+				"为这些文明提供必要的工具，使它们接触到更多、更丰富的资源，从面朝黄土背朝天的辛劳中解放，转向学习研究。"
+			]
+			dependencies: ["5A9BCC1CC2CC3E0C"]
+			id: "36CDE03E505E0F94"
+			tasks: [{
+				id: "720841254075293B"
+				type: "item"
+				item: "kubejs:excavation_mastery_token"
+			}]
+			rewards: [{
+				id: "693FC941F15A3ACE"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 2.0f
+							Item: {
+								id: "kubejs:excavation_mastery_token"
+								Count: 1b
+							}
+							Colors: {
+								Bottom: {
+									Red: 69
+									Blue: 82
+									Green: 69
+								}
+								Top: {
+									Red: 69
+									Blue: 82
+									Green: 69
+								}
+								Middle: {
+									Red: 110
+									Blue: 18
+									Green: 74
+								}
+							}
+							DisplayScale: 1.0f
+							AnimationSpeed: 0.3f
+							Animation: "spinning"
+							Name: "挖掘专精"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"医学和治疗的技艺通过古老的炼金习俗传承了下来。"
+				""
+				"为了避免将来不必要的死亡而传播这份知识吧。"
+			]
+			dependencies: ["5A9BCC1CC2CC3E0C"]
+			id: "477CEC2E3F4736C3"
+			tasks: [{
+				id: "6BDE4D704EAF5C05"
+				type: "item"
+				item: "kubejs:alchemy_mastery_token"
+			}]
+			rewards: [{
+				id: "551D5FD396FF093D"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 2.0f
+							Item: {
+								id: "kubejs:alchemy_mastery_token"
+								Count: 1b
+							}
+							Colors: {
+								Bottom: {
+									Red: 168
+									Blue: 27
+									Green: 93
+								}
+								Top: {
+									Red: 168
+									Blue: 27
+									Green: 93
+								}
+								Middle: {
+									Red: 255
+									Blue: 191
+									Green: 178
+								}
+							}
+							DisplayScale: 1.0f
+							AnimationSpeed: 0.3f
+							Animation: "spinning"
+							Name: "炼金专精"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"当生命之树将其飘渺之根深扎于土壤，不断蔓延时，大地发出了一阵低沉的嗡嗡声。霎时，光芒照耀了地上的生命，当一切平息后，出现了五十道闪烁着温和宁静的蓝绿色的光芒。然而，更多的生灵被令人深感不安的猩红色笼罩。"
+				""
+				"这些在蓝绿色光芒周围的幸存文明逐渐意识到，外界仍然有能够给予他们协助的人，援助请求也因而接二连三地出现。"
+				""
+				"---------------------------------"
+				""
+				"为这些仅存的文明前哨阵地提供他们所需的工具和设备，使世界恢复到以前的魔法和技术巅峰，迎来一个崭新的繁荣盛世。"
+				""
+				"首先，为他们提供自给自足所需的工具。"
+			]
+			dependencies: ["7C0943FD8F8A0D69"]
+			id: "4AB9649C1D2FE587"
+			tasks: [{
+				id: "571A2D485D7D82AD"
+				type: "item"
+				item: "kubejs:automation_mastery_token"
+			}]
+			rewards: [{
+				id: "3AB2CF7F89C657B5"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 2.0f
+							Item: {
+								id: "kubejs:automation_mastery_token"
+								Count: 1b
+							}
+							Colors: {
+								Bottom: {
+									Red: 69
+									Blue: 82
+									Green: 69
+								}
+								Top: {
+									Red: 69
+									Blue: 82
+									Green: 69
+								}
+								Middle: {
+									Red: 179
+									Blue: 109
+									Green: 248
+								}
+							}
+							DisplayScale: 1.0f
+							AnimationSpeed: 0.3f
+							Animation: "spinning"
+							Name: "自动化专精"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["恢复繁荣将需要大量的知识。协助这些文明做好准备、建立和维护他们所需要的复杂机器。"]
+			dependencies: ["5A9BCC1CC2CC3E0C"]
+			id: "6218AF7644C178A7"
+			tasks: [{
+				id: "2BB3E567517D599F"
+				type: "item"
+				item: "kubejs:engineering_mastery_token"
+			}]
+			rewards: [{
+				id: "4D3A23023C449286"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 2.0f
+							Item: {
+								id: "kubejs:engineering_mastery_token"
+								Count: 1b
+							}
+							Colors: {
+								Bottom: {
+									Red: 69
+									Blue: 82
+									Green: 69
+								}
+								Top: {
+									Red: 69
+									Blue: 82
+									Green: 69
+								}
+								Middle: {
+									Red: 98
+									Blue: 229
+									Green: 228
+								}
+							}
+							DisplayScale: 1.0f
+							AnimationSpeed: 0.3f
+							Animation: "spinning"
+							Name: "工程师专精"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["魔力是地球上最纯净的生命精华，弥漫于万物之中。对其波动的了解无疑会帮助这些文明成为这片土地的优秀管理者。"]
+			dependencies: ["5A9BCC1CC2CC3E0C"]
+			id: "5DA9A0C75EA47DFF"
+			tasks: [{
+				id: "3F5DB81D50286BAC"
+				type: "item"
+				item: "kubejs:botanical_mastery_token"
+			}]
+			rewards: [{
+				id: "2544D1CD29FA3294"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 2.0f
+							Item: {
+								id: "kubejs:botanical_mastery_token"
+								Count: 1b
+							}
+							Colors: {
+								Bottom: {
+									Red: 168
+									Blue: 27
+									Green: 93
+								}
+								Top: {
+									Red: 168
+									Blue: 27
+									Green: 93
+								}
+								Middle: {
+									Red: 23
+									Blue: 109
+									Green: 184
+								}
+							}
+							DisplayScale: 1.0f
+							AnimationSpeed: 0.3f
+							Animation: "spinning"
+							Name: "植物学专精"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["这片土地上仍然游荡着许多危险的怪物，如果没有防卫手段，这些文明就有严重的威胁。难怪仍然活跃的光芒这么少，许多文明肯定倒在了各种游荡在这片土地上的怪兽手中。"]
+			dependencies: ["6218AF7644C178A7"]
+			id: "188BE70C3D176BCA"
+			tasks: [{
+				id: "5C9CA9991302C5CA"
+				type: "item"
+				item: "kubejs:battle_mastery_token"
+			}]
+			rewards: [{
+				id: "1D9D78838F73FAB1"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 2.0f
+							Item: {
+								id: "kubejs:battle_mastery_token"
+								Count: 1b
+							}
+							Colors: {
+								Bottom: {
+									Red: 69
+									Blue: 82
+									Green: 69
+								}
+								Top: {
+									Red: 69
+									Blue: 82
+									Green: 69
+								}
+								Middle: {
+									Red: 92
+									Blue: 214
+									Green: 169
+								}
+							}
+							DisplayScale: 1.0f
+							AnimationSpeed: 0.3f
+							Animation: "spinning"
+							Name: "战斗专精"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			description: [
+				"各个领域都不缺乏资源，对于那些愿意弥合差距的人来说，盟友也很多。"
+				""
+				"为这些文明建立长距离通信和维度之间的货物运输提供必要的工具。"
+			]
+			dependencies: ["6218AF7644C178A7"]
+			id: "72C894BE4081603D"
+			tasks: [{
+				id: "5A6A9B10EF0B2E06"
+				type: "item"
+				item: "kubejs:dimensional_mastery_token"
+			}]
+			rewards: [{
+				id: "0E6C5C79136A434B"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 2.0f
+							Item: {
+								id: "kubejs:dimensional_mastery_token"
+								Count: 1b
+							}
+							Colors: {
+								Bottom: {
+									Red: 71
+									Blue: 82
+									Green: 79
+								}
+								Top: {
+									Red: 71
+									Blue: 82
+									Green: 79
+								}
+								Middle: {
+									Red: 216
+									Blue: 218
+									Green: 120
+								}
+							}
+							DisplayScale: 1.0f
+							AnimationSpeed: 0.3f
+							Animation: "spinning"
+							Name: "维度专精"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: ["获得清洁的可再生能源对这些文明的繁荣发展至关重要。协助他们建立在迈向新的黎明时所需的基础设施。"]
+			dependencies: ["5A9BCC1CC2CC3E0C"]
+			id: "3AB61B2854483CE3"
+			tasks: [{
+				id: "7C2A6AD9D846702E"
+				type: "item"
+				item: "kubejs:energistics_mastery_token"
+			}]
+			rewards: [{
+				id: "20CD22DE6E8E7067"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 2.0f
+							Item: {
+								id: "kubejs:energistics_mastery_token"
+								Count: 1b
+							}
+							Colors: {
+								Bottom: {
+									Red: 69
+									Blue: 82
+									Green: 69
+								}
+								Top: {
+									Red: 69
+									Blue: 82
+									Green: 69
+								}
+								Middle: {
+									Red: 240
+									Blue: 101
+									Green: 118
+								}
+							}
+							DisplayScale: 1.0f
+							AnimationSpeed: 0.3f
+							Animation: "spinning"
+							Name: "能源专精"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			description: [
+				"繁荣意味着与生命平衡相处，不仅仅是与当地的动植物，异界魔灵无疑将成为这些文明发展过程中重要的盟友。"
+				""
+				"教给他们如何与异界沟通并恭敬地索求他们的援助。"
+			]
+			dependencies: ["6218AF7644C178A7"]
+			id: "474DFFBB63FE90BA"
+			tasks: [{
+				id: "7DE2D48092C045AA"
+				type: "item"
+				item: "kubejs:ritual_mastery_token"
+			}]
+			rewards: [{
+				id: "541CF497CB5FE81E"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 2.0f
+							Item: {
+								id: "kubejs:ritual_mastery_token"
+								Count: 1b
+							}
+							Colors: {
+								Bottom: {
+									Red: 168
+									Blue: 27
+									Green: 93
+								}
+								Top: {
+									Red: 168
+									Blue: 27
+									Green: 93
+								}
+								Middle: {
+									Red: 196
+									Blue: 237
+									Green: 220
+								}
+							}
+							DisplayScale: 1.0f
+							AnimationSpeed: 0.3f
+							Animation: "spinning"
+							Name: "仪式专精"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"踏入这个繁荣的新时代并不意味着抛弃我们周围提供生活必需品的土地。"
+				""
+				"协助文明成为土地的管理者，照顾并维持围绕着他们的能量之平衡。"
+			]
+			dependencies: ["5A9BCC1CC2CC3E0C"]
+			id: "65F9021D56312C9B"
+			tasks: [{
+				id: "15599A14E7C2F230"
+				type: "item"
+				item: "kubejs:aura_mastery_token"
+			}]
+			rewards: [{
+				id: "3D93697F45EC1124"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 2.0f
+							Item: {
+								id: "kubejs:aura_mastery_token"
+								Count: 1b
+							}
+							Colors: {
+								Bottom: {
+									Red: 168
+									Blue: 27
+									Green: 93
+								}
+								Top: {
+									Red: 168
+									Blue: 27
+									Green: 93
+								}
+								Middle: {
+									Red: 244
+									Blue: 128
+									Green: 255
+								}
+							}
+							DisplayScale: 1.0f
+							AnimationSpeed: 0.3f
+							Animation: "spinning"
+							Name: "灵气专精"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: [
+				"仰望星空。"
+				""
+				"关于天体的知识以及它们对人们的影响都会有助于这些文明的发展。"
+			]
+			dependencies: ["5A9BCC1CC2CC3E0C"]
+			id: "2A79C4CDDA045886"
+			tasks: [{
+				id: "4BA322BD06DE3777"
+				type: "item"
+				item: "kubejs:astronomy_mastery_token"
+			}]
+			rewards: [{
+				id: "678108C4817B164B"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 2.0f
+							Item: {
+								id: "kubejs:astronomy_mastery_token"
+								Count: 1b
+							}
+							Colors: {
+								Bottom: {
+									Red: 168
+									Blue: 27
+									Green: 93
+								}
+								Top: {
+									Red: 168
+									Blue: 27
+									Green: 93
+								}
+								Middle: {
+									Red: 56
+									Blue: 255
+									Green: 148
+								}
+							}
+							DisplayScale: 1.0f
+							AnimationSpeed: 0.3f
+							Animation: "spinning"
+							Name: "天文学专精"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "夸耀资本"
+			icon: "masterfulmachinery:enigmatic_tree_of_life_controller"
+			x: 0.0d
+			y: 4.0d
+			description: [
+				"无数个小时的研究、实验和努力工作后，你在前人的笔记中找到了一个最终发现：一个巨大的跨维度有机体，其根须遍布全世界——它是生命之树。"
+				""
+				"即便是在海角天涯，一旦你知道你要找寻的目标，你就会发现迹象始终就在那里——你要找的目标就是那枯萎已久的根系网络残留。经过精心的准备，你就可以从土壤中种出一棵新树，将它的根须与那些脆弱的残留结合。"
+				""
+				"---------------------------------"
+				""
+				"构建神秘生命之树。这是一个需要使用建筑小帮手或蓝图加农炮来完成的巨大建筑。"
+				""
+				"建成之后，输入和输出可以在结构内部找到；树的侧面有一个入口，等待着你的进入。"
+			]
+			dependencies: ["0000000000000FEB"]
+			hide: true
+			id: "7C0943FD8F8A0D69"
+			tasks: [{
+				id: "0B1FB01E3D6A63F8"
+				type: "item"
+				item: "masterfulmachinery:enigmatic_tree_of_life_controller"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: [
+				"对于大多数文明来说，由于耕作技术与获取多样化食物的方法已经失传，营养问题被放在了次要地位。"
+				""
+				"为了让他们的脑子里装满你要分享的知识，先用大餐填饱他们的肚子。"
+			]
+			dependencies: ["4AB9649C1D2FE587"]
+			id: "5A9BCC1CC2CC3E0C"
+			tasks: [{
+				id: "0C3AD97B67E61659"
+				type: "item"
+				item: "kubejs:culinary_mastery_token"
+			}]
+			rewards: [{
+				id: "5C862E67BDEE747A"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 2.0f
+							Item: {
+								id: "kubejs:culinary_mastery_token"
+								Count: 1b
+							}
+							Colors: {
+								Bottom: {
+									Red: 168
+									Blue: 27
+									Green: 93
+								}
+								Top: {
+									Red: 168
+									Blue: 27
+									Green: 93
+								}
+								Middle: {
+									Red: 242
+									Blue: 73
+									Green: 186
+								}
+							}
+							DisplayScale: 1.0f
+							AnimationSpeed: 0.3f
+							Animation: "spinning"
+							Name: "烹饪专精"
+						}
+					}
+				}
+			}]
+		}
+	]
+}

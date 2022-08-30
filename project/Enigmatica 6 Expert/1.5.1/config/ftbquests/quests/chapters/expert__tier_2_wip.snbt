@@ -1,0 +1,556 @@
+{
+	id: "0000000000000B67"
+	group: "34B7FB260B6AEB81"
+	order_index: 4
+	filename: "expert__tier_2_wip"
+	title: "魔法 - 学徒"
+	icon: {
+		id: "eidolon:soulfire_wand"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "瓶中闪电"
+			x: -2.5d
+			y: -12.0d
+			description: [
+				"在古代文献中，闪电常因用于传递反应所需的能量而被召唤。许多年轻的法师在尝试此举时迎来了他们的末日……"
+				""
+				"探索这片大陆以找到可协助此举的魔力物体，向大地上游荡的的元素生物寻求帮助，或相信上古文明留下的关于炼金术的论述。"
+			]
+			dependencies: ["48BA066E1B977D32"]
+			min_width: 300
+			id: "72D589CE18202510"
+			tasks: [{
+				id: "61813D97AAD3C2B9"
+				type: "item"
+				title: "闪电"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "thermal:lightning_charge"
+								Count: 1b
+							}
+							{
+								id: "archers_paradox:lightning_arrow"
+								Count: 1b
+							}
+							{
+								id: "powah:charged_snowball"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -11.0d
+			description: [
+				"巨大的力量潜伏在地底深处，然而其源头对上古文明来说都如此神秘。通过海洋之心，他们可以利用这些能量。 "
+				""
+				"少许海洋之心可能仍埋藏在海边，尽管它们的创造工序仍然保存至今。"
+			]
+			dependencies: ["72D589CE18202510"]
+			min_width: 300
+			id: "55B791C2720332C5"
+			tasks: [{
+				id: "606F700B17783FF9"
+				type: "item"
+				item: "minecraft:heart_of_the_sea"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -10.0d
+			description: [
+				"开始了，这通向奥术的荆棘之路……"
+				""
+				"上古文明描述了许多通向魔法的道路，各个学派相互交织。无论这些道路去向何方，它们都始于一个可引导巨大能量的核心。"
+				""
+				"-------------------------------------------------"
+				"进行雷击物品合成——如制作潮涌核心就需要——非常简单，只需要将所有物品丢在地上，然后用闪电击中物品。一道闪电可以一次制作大批量物品。"
+				""
+				"注意：新生魔艺的闪电咒语目前与雷击物品合成不兼容。"
+			]
+			dependencies: [
+				"55B791C2720332C5"
+				"26800BC5BDEC484A"
+			]
+			min_width: 300
+			id: "2A5E2A21BFECF76C"
+			tasks: [{
+				id: "0887A21EA010D9D6"
+				type: "item"
+				item: "minecraft:conduit"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			description: [
+				"相信鬼魂。它们的知识，无论是关于这个位面，还是神秘面纱之下的知识，都是无价的。"
+				""
+				"定期与他们交谈，并向他们献上贡品以表敬意。"
+			]
+			dependencies: ["2A5E2A21BFECF76C"]
+			id: "1C17C09DD9AB58BD"
+			tasks: [
+				{
+					id: "00A73F4961BFEB07"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "3AB5F233F75DD849"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+				{
+					id: "5A65288C9B50231B"
+					type: "item"
+					item: "farmersdelight:stove"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			description: [
+				"曾在阿图姆大地上游荡的存在，拥有超越生与死、创造与毁灭的力量。"
+				""
+				"大地中仍充满着那些能量；用它来将蜂巢转变成蚕蛾巢穴。巢穴会定期产生更多蚕蛾，杀死蚕蛾即可得到它们的蚕丝。"
+				""
+				"注意：蚕蛾是一种入侵物种，由于没有天敌，因此会迅速散播。聪明的学徒会把它们关起来，以防止生态灾难。 "
+			]
+			dependencies: ["719AFD0C38BE19A2"]
+			id: "5AA38E6753FF4210"
+			tasks: [{
+				id: "638694418DEBB47D"
+				type: "item"
+				item: "betterendforge:silk_moth_nest"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -9.0d
+			description: ["如光线穿过棱镜，这片大地上的魔法能量可以通过物理仪器被聚集或分散。和玻璃通常用于扭曲光线一样，需要合适的材料才能直接地操控这些能量。"]
+			dependencies: ["2A5E2A21BFECF76C"]
+			id: "4642C99F4B51005B"
+			tasks: [
+				{
+					id: "6D272FF41C244D34"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "67FDDC3CABAFF8F2"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			description: [
+				"星座——如同在苍穹上绘制的符文——能够引导巨大的能量，并带给他们认为早已丢失的秘密知识。 "
+				""
+				"他们的许多秘密仍然遥不可及，然而，即使是学徒也有足够的知识来引导一些星光来完成基本任务。 "
+				""
+				"注：浮动水晶不会自动连接到神铸方块。因此，必须首先制作连接器以手动连接它们。 "
+			]
+			dependencies: [
+				"598A3BD34A7DD40B"
+				"269CB5E2F7130224"
+			]
+			id: "102775CD7F9CD338"
+			tasks: [
+				{
+					id: "0F780C3F50CF951D"
+					type: "item"
+					item: "astralsorcery:altar_discovery"
+				}
+				{
+					id: "0EA40EE2C1484EEE"
+					type: "item"
+					item: "astralsorcery:linking_tool"
+				}
+			]
+		}
+		{
+			title: "血之祭坛 - 一级"
+			x: -0.5d
+			y: -6.0d
+			description: [
+				"喂食饥渴的生灵。巨大的力量流经万物，生者抑或死者。"
+				""
+				"早期获得LP需要牺牲动物或怪物。"
+			]
+			dependencies: ["719AFD0C38BE19A2"]
+			id: "06A20E7EA36392CB"
+			tasks: [
+				{
+					id: "6DBA42D76D507F3F"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+				{
+					id: "00FAE80C413DF107"
+					type: "item"
+					item: "bloodmagic:daggerofsacrifice"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: [
+				"“灵魂在召唤。你会响应它们吗？“"
+				""
+				"– 心怀万物 阿维亚"
+			]
+			dependencies: ["5A53DAE0FAC0A38F"]
+			id: "4280183EE48A8F1E"
+			tasks: [{
+				id: "50CA5DE83B5986DC"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			description: [
+				"“生活是平衡的，有给予就有索取。小心，不要过量提取灵气。“"
+				""
+				"– 野芳使者 乌尔马宁"
+			]
+			dependencies: ["598A3BD34A7DD40B"]
+			id: "2422557696EB83F3"
+			tasks: [
+				{
+					id: "21F3F09A493EE8D1"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "4A0060B60B3FDF95"
+					type: "item"
+					item: "naturesaura:infused_iron"
+				}
+			]
+		}
+		{
+			title: "森林仪式"
+			x: -3.5d
+			y: -2.5d
+			description: [
+				"“你感受到他了吗? 大地的脉动在仪式中心响起。专注，让它流经你，魔法就会像阳光下的杂草一样生长。”"
+				""
+				"– 坚韧不拔 斯素"
+			]
+			dependencies: [
+				"566824DF05761A43"
+				"62F3B5013BAB47AB"
+			]
+			id: "598A3BD34A7DD40B"
+			tasks: [{
+				id: "64DA833E05EAACEC"
+				type: "item"
+				item: "naturesaura:wood_stand"
+				count: 8L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			description: ["通向花朵魔法和炼药的大门。"]
+			dependencies: ["719AFD0C38BE19A2"]
+			id: "295B7A0FB81D44DB"
+			tasks: [{
+				id: "3281C71438B7C50A"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			description: ["有上古文明设计的强大仪器，只需自然中的魔力即可工作。它本是为了训练年轻的学徒而设计的，但这个发明很快就因创造材料的效率更高而流行起来。遗憾的是，那些原始的办法在岁月中遗失了。"]
+			dependencies: ["295B7A0FB81D44DB"]
+			id: "566824DF05761A43"
+			tasks: [{
+				id: "7F1D294618FECED9"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			description: [
+				"巨大的存在正在聆听着。 "
+				""
+				"等待着。"
+				""
+				"获得它的认可，开始引导血魔法的能量。"
+				""
+				"虚弱气血宝珠由亵渎象征符进行合成。请查阅秘仪教典和幻梦任务章节，了解这些物品是如何制作的。"
+			]
+			dependencies: [
+				"06A20E7EA36392CB"
+				"4C5CCC780A4B07A7"
+			]
+			id: "7E371FBDE82532D9"
+			tasks: [
+				{
+					id: "093DCD4B762371E2"
+					type: "item"
+					item: "bloodmagic:weakbloodorb"
+				}
+				{
+					id: "6DB611075387D462"
+					type: "item"
+					item: "eidolon:unholy_symbol"
+				}
+			]
+		}
+		{
+			title: "异世界冒险"
+			x: -2.5d
+			y: -6.5d
+			description: [
+				"上古文明对次元旅行并不陌生，他们构筑的一些桥梁仍然有效。在那些存留的世界中建立一个小型行动基地可能是无价的。"
+				""
+				"前往阿图姆和深暗之园。一些魔法在被掌握之前只能在这些地区进行，许多强大的材料也只能在那里获得。"
+			]
+			dependencies: [
+				"7A61BA54CFCA2973"
+				"1FB260E6CB51800E"
+			]
+			id: "719AFD0C38BE19A2"
+			tasks: [
+				{
+					id: "691A203B9168177A"
+					type: "item"
+					item: "atum:scarab"
+				}
+				{
+					id: "4370B0FB1FFF0BBF"
+					type: "item"
+					item: "undergarden:catalyst"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			description: [
+				"在整个自然界中都可以找到少量的魔力，蚕蛾也不例外。它们的丝绸因其奥术特性而备受珍重。"
+				""
+				"将一些蚕丝转化成闪耀纤维，并将其放在树叶中。一旦它成熟并能够传播，就可以被收获以获得黄金叶。"
+			]
+			dependencies: ["5AA38E6753FF4210"]
+			id: "62F3B5013BAB47AB"
+			tasks: [
+				{
+					id: "7FA190A131C27BC6"
+					type: "item"
+					item: "naturesaura:gold_fiber"
+				}
+				{
+					id: "5AA8561505815247"
+					type: "item"
+					item: "naturesaura:gold_leaf"
+				}
+			]
+		}
+		{
+			title: "魔法进度 - 学徒"
+			icon: "ars_nouveau:spell_parchment"
+			x: -2.5d
+			y: -13.0d
+			description: [
+				"“他们来自高等位面……凭借他们的力量，他们提升了大地，分隔了海洋……眨眼间，他们就无影无踪。”"
+				""
+				"– 长者 维索洛斯"
+			]
+			dependencies: ["0000000000000FEB"]
+			hide: true
+			id: "48BA066E1B977D32"
+			tasks: [{
+				id: "254F767D474E7B72"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			description: [
+				"历史记载显示，学者们在讨论奈布和神屑的起源时，产生了激烈的辩论。这个问题没有明确的答案，但很明显，它们有着深厚的联系，且充满了魔法能量。"
+				""
+				"神屑出现在许多魔法物品中，而获得它们乍一看似乎令人生畏。然而，它们可以通过形成一个神铸方块进行“生长”，用奈布之锤破坏它，然后在神铸炉中用熔岩作为燃料将获得的遗物熔化。"
+			]
+			dependencies: ["719AFD0C38BE19A2"]
+			id: "4C5CCC780A4B07A7"
+			tasks: [{
+				id: "5B0160F4F724F8F8"
+				type: "item"
+				item: "atum:godforged_block"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.5d
+			description: [
+				"银、硫和魔源的精细混合物；耀阳金属以其神秘的特性而闻名。 "
+				""
+				"当然，银和硫都能够获取。然而，收集魔源则需要创建魔源通道。目前农艺魔源通道可以为耀阳金属的制造提供极好的帮助。"
+			]
+			dependencies: ["4642C99F4B51005B"]
+			id: "1FB260E6CB51800E"
+			tasks: [
+				{
+					id: "2B8585C3F93E9864"
+					type: "item"
+					item: "ars_nouveau:mana_condenser"
+				}
+				{
+					id: "652E7031800BC423"
+					type: "item"
+					item: "architects_palette:sunmetal_blend"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			description: [
+				"秘金中注入了能使死者复生的晶化魂之碎片，在奥术中随处可见。"
+				""
+				"这些魂之碎片可以通过秘仪教典中详述的结晶仪式中从亡灵生物那里获得，或者在之后可使用死神镰刀直接收割亡灵生物。"
+			]
+			dependencies: ["1C17C09DD9AB58BD"]
+			id: "7A61BA54CFCA2973"
+			tasks: [{
+				id: "2B5C17D526E0CEBA"
+				type: "item"
+				item: "eidolon:gold_inlay"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -11.0d
+			description: [
+				"地底深处的原住民，是曾来到此处的强大存在的远亲；鹦鹉螺壳的螺旋被发现是一个近乎完美的奥术能量放大器。"
+				""
+				"虽然这种生物可能在深海中被发现，但它们的贝壳通常被完好地保存在如海滩和海洋下方的沉积物中，以及可能在海洋内部和周围发现的贝壳堆中。"
+				""
+				"众所周知，海豹也可以人们提供各种来自海洋深处的珍贵材料。也许它们能够提供帮助？"
+			]
+			dependencies: ["72D589CE18202510"]
+			min_width: 300
+			id: "26800BC5BDEC484A"
+			tasks: [{
+				id: "35E1F20C18B5A6B7"
+				type: "item"
+				item: "minecraft:nautilus_shell"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["这种联系虽然脆弱，但会越来越牢固。引导灵魂，它们的能量就能为炼金术铺平道路。从那里开始，你就进入了更深层次的魔法。"]
+			dependencies: ["7E371FBDE82532D9"]
+			id: "5A53DAE0FAC0A38F"
+			tasks: [{
+				id: "370511870EE62EBD"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			description: ["一旦从折磨的束缚中解脱出来，阿图姆的怨灵们就会出人意料地忍让，为学徒法师找回和分类物品。"]
+			dependencies: ["719AFD0C38BE19A2"]
+			id: "63835E28AFE16A89"
+			tasks: [
+				{
+					id: "260844590347A921"
+					type: "item"
+					item: "botania:corporea_spark_master"
+				}
+				{
+					id: "58727FA94D304EAC"
+					type: "item"
+					item: "botania:corporea_index"
+				}
+				{
+					id: "5F1BA591103283DA"
+					type: "item"
+					item: "botania:corporea_spark"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			description: [
+				"作为一项历史悠久的传统，魔杖起源于朦胧的早期魔法，甚至早于书面历史。虽然寻水魔杖这个名词更为人所知，但它曾经被用于寻找各种各样的东西，从植物到矿物质，甚至是强大的魔法场线。"
+				""
+				"共鸣星杖特别适合寻找深埋在地下的水晶石。在夜晚手持它，这些水晶的位置就会被柔和的光线所揭示。"
+			]
+			dependencies: ["4C5CCC780A4B07A7"]
+			id: "269CB5E2F7130224"
+			tasks: [{
+				id: "43C84D76D2C9FB48"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			shape: "gear"
+			description: [
+				"邪恶祭坛可以通过转化生命源质中的潜能，将巨大的能量注入特别准备的材料中。"
+				""
+				"================================================================="
+				""
+				"请注意，JEI中展示的配方并没有准确的显示出指定输入是每游戏刻都会被消耗还是一次性消耗完毕。为了简单起见，所有机械匠艺机器的所有配方都已根据以下规则进行了标准化："
+				""
+				"●FE在每游戏刻都会被消耗"
+				"●气动的空气在每游戏刻都会被消耗，且其压力必须大于10Bar"
+				"●星辉的星光在每游戏刻都会被消耗"
+				"●流体在每游戏刻都会被消耗或产生"
+				"●物品会在合成结束时被消耗或产生"
+				"●魔力会在合成开始时被消耗或在合成结束时被产生"
+			]
+			dependencies: ["06A20E7EA36392CB"]
+			min_width: 400
+			id: "03B61EC7DD43C550"
+			tasks: [{
+				id: "7C9DF703B05DF144"
+				type: "item"
+				item: "masterfulmachinery:wicked_altar_controller"
+			}]
+		}
+	]
+}

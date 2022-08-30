@@ -1,0 +1,1245 @@
+{
+	id: "0000000000000003"
+	group: "72A9465344128AF9"
+	order_index: 2
+	filename: "industrial_foregoing"
+	title: "工业先锋"
+	icon: "industrialforegoing:latex_processing_unit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "工业先锋"
+			icon: "industrialforegoing:plastic"
+			x: 1.5d
+			y: -9.0d
+			description: [
+				"该模组提供了可自动化各种任务的各式各样的机器。该任务线介绍了一些关键机器（但并不会包括所有的机器，因为它们数量很多）。"
+				""
+				"目前有四阶（可合成的）工业先锋机器框架。现在，你只能合成最低阶的版本。"
+			]
+			size: 1.5d
+			optional: true
+			id: "000000000000004A"
+			tasks: [{
+				id: "452B662F54BEAD8D"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			rewards: [
+				{
+					id: "234EA77258AE837C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "63727AE711541D73"
+					type: "item"
+					title: "铁锭"
+					item: "minecraft:iron_ingot"
+					count: 6
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			description: ["流体提取器，令人震惊的，可以提取流体。将其面朝原木方块放置，它就会缓慢地分解原木并产生胶乳。为其提供能量不是必须的，但可以使该过程加速2.5倍。金合欢原木提供了最佳的产出。"]
+			dependencies: ["000000000000004A"]
+			id: "000000000000004B"
+			tasks: [{
+				id: "000000000000004C"
+				type: "item"
+				title: "流体提取器"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "industrialforegoing:fluid_extractor"
+								Count: 1b
+							}
+							{
+								id: "thermal:device_tree_extractor"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000628"
+					type: "item"
+					title: "金合欢原木"
+					item: "minecraft:acacia_log"
+					count: 32
+				}
+				{
+					id: "0000000000000CAB"
+					type: "item"
+					title: "金合欢树苗"
+					item: "minecraft:acacia_sapling"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			description: ["胶乳加工机将胶乳、水和能量作为输入，产出小块干橡胶。小块干橡胶可以合成干橡胶，后者则可以熔炼成关键资源——塑料。"]
+			dependencies: ["000000000000004B"]
+			id: "000000000000004F"
+			tasks: [{
+				id: "0000000000000050"
+				type: "item"
+				title: "胶乳加工机"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "industrialforegoing:latex_processing_unit"
+								Count: 1b
+							}
+							{
+								id: "thermal:machine_refinery"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000629"
+				type: "command"
+				title: "稀有工业先锋战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			shape: "pentagon"
+			description: ["第二阶机器框架。少数配方（如施肥机）直接需要该框架。同时它也是第三阶机器框架的一个合成部件。"]
+			dependencies: ["0000000000000057"]
+			id: "0000000000000051"
+			tasks: [{
+				id: "0000000000000052"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			rewards: [{
+				id: "0000000000000632"
+				type: "command"
+				title: "稀有工业先锋战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			description: ["屠宰场在其工作范围内击杀怪物和动物。以此方式被杀死的实体不会掉落任何物品，但会被转化成肉汤和粉红黏液，两种可以从机器中提取出来的流体。"]
+			dependencies: ["000000000000004F"]
+			id: "0000000000000053"
+			tasks: [{
+				id: "0000000000000054"
+				type: "item"
+				title: "屠宰场"
+				icon: "industrialforegoing:mob_slaughter_factory"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "industrialforegoing:pink_slime_bucket"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:mob_slaughter_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000626"
+				type: "item"
+				title: "肉汤注射器"
+				item: "industrialforegoing:meat_feeder"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			description: ["化学溶解室需要能量和配方相关的物品/流体来合成各种物品。"]
+			dependencies: [
+				"000000000000004C"
+				"000000000000004F"
+			]
+			id: "0000000000000057"
+			tasks: [{
+				id: "000000000000006B"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [{
+				id: "000000000000062A"
+				type: "command"
+				title: "稀有工业先锋战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "插件"
+			icon: {
+				id: "industrialforegoing:range_addon11"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Range: 11.0f
+					}
+				}
+			}
+			x: 3.0d
+			y: -3.5d
+			description: ["插件可以增加大多数机器的范围、速度和效率。由于默认的工作范围通常十分小，因此插件十分重要！"]
+			dependencies: ["0000000000000057"]
+			id: "0000000000000076"
+			tasks: [{
+				id: "35428F7A336EE4A1"
+				type: "item"
+				title: "任意插件"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "industrialforegoing:addons"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000631"
+				type: "command"
+				title: "稀有工业先锋战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "hexagon"
+			description: ["第三阶机器框架。用于合成各种强大的自动化机器。"]
+			dependencies: [
+				"0000000000000050"
+				"0000000000000051"
+				"0000000000000053"
+			]
+			id: "0000000000000078"
+			tasks: [{
+				id: "0000000000000079"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			rewards: [{
+				id: "0000000000000633"
+				type: "command"
+				title: "史诗工业先锋战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: ["屠宰机击杀生物，产出精华液和正常的生物掉落。"]
+			dependencies: ["0000000000000078"]
+			id: "000000000000007A"
+			tasks: [{
+				id: "000000000000007B"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+			rewards: [{
+				id: "0000000000000636"
+				type: "command"
+				title: "史诗工业先锋战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: ["为这些机器提供能量和精华液后，它们就变成了数个与附魔相关的机器。精华液可以由屠宰机或高级熔炉生成。"]
+			dependencies: ["000000000000007A"]
+			id: "000000000000007C"
+			tasks: [
+				{
+					id: "000000000000007D"
+					type: "item"
+					item: "industrialforegoing:enchantment_factory"
+				}
+				{
+					id: "0000000000000F0E"
+					type: "item"
+					item: "industrialforegoing:enchantment_applicator"
+				}
+				{
+					id: "0000000000000F0F"
+					type: "item"
+					item: "industrialforegoing:enchantment_extractor"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000635"
+					type: "command"
+					title: "史诗工业先锋战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000F3B"
+					type: "item"
+					title: "普通黑洞储液罐"
+					item: {
+						id: "industrialforegoing:common_black_hole_tank"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								filter: {
+									Type: "WHITELIST"
+									Pointer: 0
+									Filter: { }
+								}
+								tank: {
+									FluidName: "industrialforegoing:essence"
+									FacingModes: {
+										TOP: "ENABLED"
+										LEFT: "ENABLED"
+										FRONT: "ENABLED"
+										BACK: "ENABLED"
+										RIGHT: "ENABLED"
+										BOTTOM: "ENABLED"
+									}
+									Amount: 16000
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			description: ["此机器是一个为圆石处理打造的一站式购物商店。它可以用熔岩/水生成圆石，然后可至多执行三个连续操作来合成如石砖或沙子一类的产物。"]
+			dependencies: ["0000000000000078"]
+			id: "000000000000007E"
+			tasks: [{
+				id: "000000000000007F"
+				type: "item"
+				item: "industrialforegoing:material_stonework_factory"
+			}]
+			rewards: [{
+				id: "0000000000000637"
+				type: "command"
+				title: "史诗工业先锋战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: ["生物反应器可一次处理高达九种不同的以植物为基础的物品来制作生物燃油；被填充的栏位越多，效率就越高。生物燃油可使生物燃油发电机发电，也能使无限工具运转。"]
+			dependencies: ["000000000000004F"]
+			id: "0000000000000080"
+			tasks: [{
+				id: "0000000000000081"
+				type: "item"
+				item: "industrialforegoing:bioreactor"
+			}]
+			rewards: [
+				{
+					id: "000000000000062C"
+					type: "item"
+					title: "甜菜根"
+					item: "minecraft:beetroot"
+					count: 8
+				}
+				{
+					id: "000000000000062D"
+					type: "item"
+					title: "胡萝卜"
+					item: "minecraft:carrot"
+					count: 8
+				}
+				{
+					id: "000000000000062E"
+					type: "item"
+					title: "马铃薯"
+					item: "minecraft:potato"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			description: ["无限钻头由生物燃油驱动，RF充能等级越高，挖掘的区域越大。"]
+			dependencies: ["0000000000000057"]
+			id: "0000000000000082"
+			tasks: [{
+				id: "0000000000000083"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1
+						Special: 0
+						Selected: "POOR"
+						Energy: 0
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000F36"
+				type: "item"
+				title: "普通黑洞储液罐"
+				item: {
+					id: "industrialforegoing:common_black_hole_tank"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							filter: {
+								Type: "WHITELIST"
+								Pointer: 0
+								Filter: { }
+							}
+							tank: {
+								FluidName: "industrialforegoing:biofuel"
+								FacingModes: {
+									TOP: "ENABLED"
+									LEFT: "ENABLED"
+									FRONT: "ENABLED"
+									BACK: "ENABLED"
+									RIGHT: "ENABLED"
+									BOTTOM: "ENABLED"
+								}
+								Amount: 16000
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["施肥机可自动消耗骨粉或肥料为植物（管你信不信吧）施肥。"]
+			dependencies: ["0000000000000051"]
+			id: "0000000000000086"
+			tasks: [{
+				id: "0000000000000087"
+				type: "item"
+				item: "industrialforegoing:plant_fertilizer"
+			}]
+			rewards: [{
+				id: "0000000000000634"
+				type: "item"
+				title: "肥料"
+				item: "industrialforegoing:fertilizer"
+				count: 16
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			description: ["工业先锋的传送带可移动实体（和沉浸工程不同，不可移动物品）。有多种传送带的升级；详情见JEI。"]
+			dependencies: [
+				"000000000000004C"
+				"000000000000004F"
+			]
+			id: "0000000000000088"
+			tasks: [{
+				id: "0000000000000089"
+				type: "item"
+				item: "industrialforegoing:conveyor"
+			}]
+			rewards: [{
+				id: "000000000000062B"
+				type: "command"
+				title: "稀有工业先锋战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			shape: "octagon"
+			description: ["第四，即最后一阶的机器框架只用于少数场合。但这些应用是核相关的！"]
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EDC"
+			tasks: [{
+				id: "0000000000000EDD"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+			rewards: [{
+				id: "0000000000000EE0"
+				type: "item"
+				title: "以太气体桶"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			description: ["该发电机使用任何熔炉燃料来产生FE。查看JEI以获取任意兼容物品的发电速率。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000051"]
+			id: "0000000000000EE1"
+			tasks: [{
+				id: "0000000000000EE2"
+				type: "item"
+				item: "industrialforegoing:mycelial_furnace"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			shape: "gear"
+			description: ["当所有菌丝发电机都在运作时，菌丝网络产能反应堆将会启动并产出两千五百万RF/刻的电量。"]
+			dependencies: [
+				"0000000000000EE1"
+				"0000000000000EE5"
+				"0000000000000EE7"
+				"0000000000000EE9"
+				"0000000000000EEB"
+				"0000000000000EEF"
+				"0000000000000EED"
+				"0000000000000EFB"
+				"0000000000000F03"
+				"0000000000000EF1"
+				"0000000000000EF3"
+				"0000000000000EF7"
+				"0000000000000EF5"
+				"0000000000000EF9"
+				"0000000000000EFD"
+				"0000000000000F01"
+				"0000000000000EDC"
+			]
+			id: "0000000000000EE3"
+			tasks: [{
+				id: "0000000000000EE4"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+			rewards: [{
+				id: "00EAC9D358EBDA6E"
+				type: "command"
+				title: "史诗工业先锋战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.0d
+			description: ["该发电机使用黏液球来产生FE。查看JEI以获取发电速率。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EE5"
+			tasks: [{
+				id: "0000000000000EE6"
+				type: "item"
+				item: "industrialforegoing:mycelial_slimey"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			description: ["该发电机使用食物来产生FE。查看JEI以获取每种食物的发电数据。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000051"]
+			id: "0000000000000EE7"
+			tasks: [{
+				id: "0000000000000EE8"
+				type: "item"
+				item: "industrialforegoing:mycelial_culinary"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			description: ["该发电机从药水中产生FE。查看JEI以获取每种药水的数据。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EE9"
+			tasks: [{
+				id: "0000000000000EEA"
+				type: "item"
+				item: "industrialforegoing:mycelial_potion"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			description: ["该发电机将从附魔书中产生FE。查看JEI以获取每种魔咒的发电数据。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EEB"
+			tasks: [{
+				id: "0000000000000EEC"
+				type: "item"
+				item: "industrialforegoing:mycelial_disenchantment"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			description: ["该发电机从末影珍珠中产生FE。查看JEI以获取发电速率。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EED"
+			tasks: [{
+				id: "0000000000000EEE"
+				type: "item"
+				item: "industrialforegoing:mycelial_ender"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			description: ["该发电机使用TNT和火药来产生FE。查看JEI以获取发电速率。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EEF"
+			tasks: [{
+				id: "0000000000000EF0"
+				type: "item"
+				item: "industrialforegoing:mycelial_explosive"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			description: ["该发电机从雪和冰中产生FE。查看JEI以获取所有兼容物品的发电数据。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000051"]
+			id: "0000000000000EF1"
+			tasks: [{
+				id: "0000000000000EF2"
+				type: "item"
+				item: "industrialforegoing:mycelial_frosty"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.0d
+			description: ["该发电机从龙息中产生FE。查看JEI以获取发电速率。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EDC"]
+			id: "0000000000000EF3"
+			tasks: [{
+				id: "0000000000000EF4"
+				type: "item"
+				item: "industrialforegoing:mycelial_halitosis"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			description: ["该发电机从熔岩中产生FE。你可以选择提供红石来增加其能量产出。查看JEI以获取发电速率。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EF5"
+			tasks: [{
+				id: "0000000000000EF6"
+				type: "item"
+				item: "industrialforegoing:mycelial_magma"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			description: ["该发电机从任何，对的，粉色的东西中产生FE。查看JEI以获取每种物品的发电数据。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000051"]
+			id: "0000000000000EF7"
+			tasks: [{
+				id: "0000000000000EF8"
+				type: "item"
+				item: "industrialforegoing:mycelial_pink"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.0d
+			description: ["正如其名，该发电机从下界之星中产出FE！查看JEI以获取发电速率。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EDC"]
+			id: "0000000000000EF9"
+			tasks: [{
+				id: "0000000000000EFA"
+				type: "item"
+				item: "industrialforegoing:mycelial_netherstar"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			description: ["该发电机从怪物掉落物中产生FE。查看JEI以获取兼容物品的发电数据。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EFB"
+			tasks: [{
+				id: "0000000000000EFC"
+				type: "item"
+				item: "industrialforegoing:mycelial_death"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.0d
+			description: ["该发电机将根据烟花的种类和形状产出电力。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000EFD"
+			tasks: [{
+				id: "0000000000000EFE"
+				type: "item"
+				item: "industrialforegoing:mycelial_rocket"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			description: ["该发电机从下界蘑菇相关的物品中产生FE。查看JEI以获取兼容物品的发电数据。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000F01"
+			tasks: [{
+				id: "0000000000000F02"
+				type: "item"
+				item: "industrialforegoing:mycelial_crimed"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 10.0d
+			description: ["该发电机使用金属锭来产生能量。查看JEI以获取发电速率和兼容的金属。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EDC"]
+			id: "0000000000000F03"
+			tasks: [{
+				id: "0000000000000F04"
+				type: "item"
+				item: "industrialforegoing:mycelial_meatallurgic"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			description: ["无限背包由生物燃油驱动，可存放大量的物品，物品数量取决于其RF充能等级。它可以给你喂食肉，也可以用作一个磁铁。"]
+			dependencies: ["0000000000000057"]
+			id: "0000000000000F05"
+			tasks: [{
+				id: "0000000000000F06"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000F37"
+				type: "item"
+				title: "普通黑洞储液罐"
+				item: {
+					id: "industrialforegoing:common_black_hole_tank"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							filter: {
+								Type: "WHITELIST"
+								Pointer: 0
+								Filter: { }
+							}
+							tank: {
+								FluidName: "industrialforegoing:biofuel"
+								FacingModes: {
+									TOP: "ENABLED"
+									LEFT: "ENABLED"
+									FRONT: "ENABLED"
+									BACK: "ENABLED"
+									RIGHT: "ENABLED"
+									BOTTOM: "ENABLED"
+								}
+								Amount: 16000
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["无限三叉戟由生物燃油驱动，是一把更强大的三叉戟。"]
+			dependencies: ["0000000000000057"]
+			id: "0000000000000F07"
+			tasks: [{
+				id: "0000000000000F08"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000F38"
+				type: "item"
+				title: "普通黑洞储液罐"
+				item: {
+					id: "industrialforegoing:common_black_hole_tank"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							filter: {
+								Type: "WHITELIST"
+								Pointer: 0
+								Filter: { }
+							}
+							tank: {
+								FluidName: "industrialforegoing:biofuel"
+								FacingModes: {
+									TOP: "ENABLED"
+									LEFT: "ENABLED"
+									FRONT: "ENABLED"
+									BACK: "ENABLED"
+									RIGHT: "ENABLED"
+									BOTTOM: "ENABLED"
+								}
+								Amount: 16000
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: ["无限电锯由生物燃油驱动，RF充能等级越高，砍伐的区域越大。"]
+			dependencies: ["0000000000000057"]
+			id: "0000000000000F09"
+			tasks: [{
+				id: "0000000000000F0A"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000F39"
+				type: "item"
+				title: "普通黑洞储液罐"
+				item: {
+					id: "industrialforegoing:common_black_hole_tank"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							filter: {
+								Type: "WHITELIST"
+								Pointer: 0
+								Filter: { }
+							}
+							tank: {
+								FluidName: "industrialforegoing:biofuel"
+								FacingModes: {
+									TOP: "ENABLED"
+									LEFT: "ENABLED"
+									FRONT: "ENABLED"
+									BACK: "ENABLED"
+									RIGHT: "ENABLED"
+									BOTTOM: "ENABLED"
+								}
+								Amount: 16000
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			description: ["无限电锤由生物燃油驱动，由生物燃油驱动，RF充能等级越高，伤害实体的区域越大。它还有斩首效果。"]
+			dependencies: ["0000000000000057"]
+			id: "0000000000000F0B"
+			tasks: [{
+				id: "0000000000000F0C"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000F3A"
+				type: "item"
+				title: "普通黑洞储液罐"
+				item: {
+					id: "industrialforegoing:common_black_hole_tank"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							filter: {
+								Type: "WHITELIST"
+								Pointer: 0
+								Filter: { }
+							}
+							tank: {
+								FluidName: "industrialforegoing:biofuel"
+								FacingModes: {
+									TOP: "ENABLED"
+									LEFT: "ENABLED"
+									FRONT: "ENABLED"
+									BACK: "ENABLED"
+									RIGHT: "ENABLED"
+									BOTTOM: "ENABLED"
+								}
+								Amount: 16000
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -9.0d
+			description: ["可存储大量单种物品的方块，你可以通过与其正面交互输入或提取物品。"]
+			hide_dependency_lines: true
+			dependencies: ["000000000000004A"]
+			id: "0000000000000F10"
+			tasks: [{
+				id: "0000000000000F11"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_unit"
+			}]
+			rewards: [{
+				id: "0000000000000F2B"
+				type: "xp"
+				xp: 16
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.0d
+			description: ["可存储大量单种物品的方块，你可以通过与其正面交互输入或提取物品。"]
+			hide_dependency_lines: true
+			id: "0000000000000F12"
+			tasks: [{
+				id: "0000000000000F13"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_unit"
+			}]
+			rewards: [{
+				id: "0000000000000F2C"
+				type: "xp"
+				xp: 32
+			}]
+		}
+		{
+			x: 10.0d
+			y: -7.0d
+			description: ["可存储大量单种物品的方块，你可以通过与其正面交互输入或提取物品。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000051"]
+			id: "0000000000000F14"
+			tasks: [{
+				id: "0000000000000F15"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_unit"
+			}]
+			rewards: [{
+				id: "0000000000000F2D"
+				type: "xp"
+				xp: 64
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.0d
+			description: ["可存储大量单种物品的方块，你可以通过与其正面交互输入或提取物品。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000F16"
+			tasks: [{
+				id: "0000000000000F17"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_unit"
+			}]
+			rewards: [{
+				id: "0000000000000F2E"
+				type: "xp"
+				xp: 128
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.0d
+			description: ["可存储大量单种物品的方块，你可以通过与其正面交互输入或提取物品。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EDC"]
+			id: "0000000000000F18"
+			tasks: [{
+				id: "0000000000000F19"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+			rewards: [{
+				id: "0000000000000F2F"
+				type: "xp"
+				xp: 256
+			}]
+		}
+		{
+			x: 12.0d
+			y: -9.0d
+			description: ["可存储大量流体的方块。"]
+			hide_dependency_lines: true
+			dependencies: ["000000000000004A"]
+			id: "0000000000000F1A"
+			tasks: [{
+				id: "0000000000000F1B"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_tank"
+			}]
+			rewards: [{
+				id: "0000000000000F31"
+				type: "xp"
+				xp: 16
+			}]
+		}
+		{
+			x: 12.0d
+			y: -8.0d
+			description: ["可存储大量流体的方块。"]
+			hide_dependency_lines: true
+			id: "0000000000000F1C"
+			tasks: [{
+				id: "0000000000000F1D"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_tank"
+			}]
+			rewards: [{
+				id: "0000000000000F32"
+				type: "xp"
+				xp: 32
+			}]
+		}
+		{
+			x: 12.0d
+			y: -7.0d
+			description: ["可存储大量流体的方块。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000051"]
+			id: "0000000000000F1E"
+			tasks: [{
+				id: "0000000000000F1F"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_tank"
+			}]
+			rewards: [{
+				id: "0000000000000F33"
+				type: "xp"
+				xp: 64
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			description: ["可存储大量流体的方块。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000078"]
+			id: "0000000000000F20"
+			tasks: [{
+				id: "0000000000000F21"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+			rewards: [{
+				id: "0000000000000F34"
+				type: "xp"
+				xp: 128
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			description: ["可存储大量流体的方块。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EDC"]
+			id: "0000000000000F22"
+			tasks: [{
+				id: "0000000000000F23"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+			rewards: [{
+				id: "0000000000000F35"
+				type: "xp"
+				xp: 256
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.0d
+			description: ["此方块可以存储高达16个黑洞单元，且能外部访问它们的物品。"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EDC"]
+			id: "0000000000000F24"
+			tasks: [{
+				id: "0000000000000F25"
+				type: "item"
+				item: "industrialforegoing:black_hole_controller"
+			}]
+			rewards: [{
+				id: "0000000000000F30"
+				type: "xp"
+				xp: 512
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			description: ["机械诅咒之土用于将FE和肉汤转换成刷怪。它对光照有需求，且会基于其所在的生物群系生成怪物。它也会将能量和肉汤均分给相邻的机械诅咒之土。"]
+			dependencies: ["0000000000000057"]
+			id: "68F315FF23CD8A22"
+			tasks: [{
+				id: "3991AE48C18012EC"
+				type: "item"
+				item: "industrialforegoing:mechanical_dirt"
+			}]
+			rewards: [{
+				id: "0997C2E0E6DE8F76"
+				type: "item"
+				title: "普通黑洞储液罐"
+				item: {
+					id: "industrialforegoing:common_black_hole_tank"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							filter: {
+								Type: "WHITELIST"
+								Pointer: 0
+								Filter: { }
+							}
+							tank: {
+								FluidName: "industrialforegoing:meat"
+								FacingModes: {
+									TOP: "ENABLED"
+									LEFT: "ENABLED"
+									FRONT: "ENABLED"
+									RIGHT: "ENABLED"
+									BACK: "ENABLED"
+									BOTTOM: "ENABLED"
+								}
+								Amount: 16000
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			description: ["自动刷怪机将FE和精华液转化成生物。用大师球捕捉你想复制的怪物，将其放进自动刷挂机，然后享受无限的刷怪量。"]
+			dependencies: ["000000000000007A"]
+			id: "73E9574B069570BD"
+			tasks: [{
+				id: "27D665ECBDA02E5A"
+				type: "item"
+				item: "industrialforegoing:mob_duplicator"
+			}]
+			rewards: [{
+				id: "24B8F1EFDCF5A2D9"
+				type: "item"
+				title: "大师球"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+		}
+	]
+}

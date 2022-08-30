@@ -1,0 +1,11 @@
+{
+    "name": "鼠标手势",
+    "icon": "enigmatica:textures/mouse_tweaks.png",
+    "category": "patchouli:tweaks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#ffa500)$(l)Mouse Tweaks$(reset)添加了一些和鼠标有关的实用功能，它们对操作物品栏和合成物品十分有帮助。 该模组的$(l:https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)Curseforge 主页$(/l)详尽的展示了这些功能，我建议您查阅此网站以了解更多。"
+        }
+    ]
+}
