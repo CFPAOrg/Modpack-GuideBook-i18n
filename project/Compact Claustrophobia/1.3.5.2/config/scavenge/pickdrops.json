@@ -1,0 +1,1266 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "Pick_0",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "15"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wooden_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"meta": 3,
+					"weight": 5
+				},
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"meta": 2,
+					"weight": 10
+				},
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"meta": 1,
+					"weight": 20
+				},
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"weight": 80
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_0_1",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "1"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:golden_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"meta": 3,
+					"weight": 5
+				},
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"meta": 2,
+					"weight": 10
+				},
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"meta": 1,
+					"weight": 20
+				},
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"weight": 80
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_1",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "12"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:stone_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "18",
+					"weight": 50
+				},
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "11",
+					"weight": 10
+				},
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "9",
+					"weight": 10
+				},
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "13",
+					"weight": 10
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"weight": 10,
+					"meta": "1"
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_2",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:iron_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:redstone",
+					"weight": 15
+				},
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "19",
+					"weight": 5
+				},
+				{
+					"name": "minecraft:flint",
+					"weight": 1
+				},
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "14",
+					"weight": 10
+				},
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "12",
+					"weight": 5
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_2_5",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "immersiveengineering:pickaxe_steel"},
+						{"name": "thermalfoundation:tool.pickaxe_steel"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:quartz",
+					"weight": 10
+				},
+				{
+					"name": "minecraft:flint",
+					"weight": 5
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "6",
+					"weight": 10
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "7",
+					"weight": 3
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "5",
+					"weight": 10
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "3",
+					"weight": 5
+				},
+				{
+					"name": "minecraft:dye",
+					"weight": 20,
+					"meta": "4"
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_3",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:diamond_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "cttinycoal:tiny_coal",
+					"weight": 1200
+				},
+				{
+					"name": "thermalfoundation:material",
+					"meta": "71",
+					"weight": 100
+				},
+				{
+					"name": "thermalfoundation:material",
+					"meta": "70",
+					"weight": 125
+				},
+				{
+					"name": "thermalfoundation:material",
+					"meta": "16",
+					"weight": 15
+				},
+				{
+					"name": "bedrockminer:bedrock_chunk",
+					"weight": 1
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_electrum",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_electrum"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:redstone",
+					"weight": 1500
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_constantan",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_constantan"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "18",
+					"weight": 1500
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_tough",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "nuclearcraft:pickaxe_tough"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "14",
+					"weight": 1500
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_bronze",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_bronze"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "9",
+					"weight": 1500
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_desh",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "galacticraftplanets:desh_pick"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "cttinycoal:tiny_coal",
+					"weight": 1200
+				},
+				{
+					"name": "thermalfoundation:material",
+					"meta": "71",
+					"weight": 300
+				},
+				{
+					"name": "thermalfoundation:material",
+					"meta": "70",
+					"weight": 400
+				},
+				{
+					"name": "contenttweaker:hopstitutecarbonfiber",
+					"weight": 250
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_alu",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_aluminum"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "exnihilocreatio:item_ore_aluminium",
+					"weight": 1200
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_hardcarbon",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "nuclearcraft:pickaxe_hard_carbon"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "6",
+					"weight": 4
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "5",
+					"weight": 5
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_nickel",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_nickel"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "1",
+					"weight": 4
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_boron",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "nuclearcraft:pickaxe_boron"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:quartz",
+					"weight": 4
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_tin",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_tin"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": 11,
+					"weight": 4
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_nic",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_lead"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": 13,
+					"weight": 4
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_platinum",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_platinum"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:gold_ingot",
+					"weight": 1000
+				},
+				{
+					"name": "minecraft:golden_apple",
+					"meta": "1",
+					"weight": 1
+				},
+				{
+					"name": "minecraft:golden_leggings",
+					"weight": 1
+				},
+				{
+					"name": "minecraft:golden_horse_armor",
+					"weight": 1
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		},
+		{
+			"name": "Pick_silver",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_silver"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "12",
+					"weight": 1
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "使用镐子"
+				}
+			]
+		}				
+	]
+}
