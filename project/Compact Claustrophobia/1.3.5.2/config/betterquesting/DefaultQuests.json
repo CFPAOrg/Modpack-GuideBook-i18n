@@ -277,7 +277,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": 20,
+          "repeattime:3": 1000,
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
@@ -1978,7 +1978,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "坚硬如钢",
-          "desc:8": "略有危险。通过炸铁块获得！并非总是能成功"
+          "desc:8": "略有危险。通过炸铁块获得！并非总是能成功。记得不要在水中或被认领的区块中炸！"
         }
       },
       "tasks:9": {
@@ -9521,7 +9521,7 @@
             },
             "2:10": {
               "id:8": "opencomputers:component",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 6,
               "OreDict:8": ""
             },
@@ -13074,7 +13074,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "红石",
@@ -14525,6 +14525,108 @@
         }
       },
       "rewards:9": {}
+    },
+    "226:10": {
+      "questID:3": 226,
+      "preRequisites:11": [
+        61
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "energymeters:meter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Meassuring Energy",
+          "desc:8": "这个发电机大概会生产 20rf/t. 如果你不相信我的话，那就自己去测测！"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "energymeters:meter",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "227:10": {
+      "questID:3": 227,
+      "preRequisites:11": [
+        164
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalexpansion:augment",
+            "Count:3": 1,
+            "Damage:2": 416,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Hard hitters",
+          "desc:8": "这些假的钻石有一些很好的性质。这是一个很好的获得经验的方法。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalexpansion:augment",
+              "Count:3": 1,
+              "Damage:2": 416,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -15620,6 +15722,20 @@
           "x:3": 152,
           "y:3": 232,
           "id:3": 224,
+          "sizeY:3": 24
+        },
+        "82:10": {
+          "sizeX:3": 24,
+          "x:3": 76,
+          "y:3": 148,
+          "id:3": 226,
+          "sizeY:3": 24
+        },
+        "83:10": {
+          "sizeX:3": 24,
+          "x:3": 448,
+          "y:3": 280,
+          "id:3": 227,
           "sizeY:3": 24
         }
       },

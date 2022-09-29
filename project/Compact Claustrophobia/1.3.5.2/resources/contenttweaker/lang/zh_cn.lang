@@ -1,15 +1,15 @@
-item.contenttweaker.ModulariumBlend.name=模块化合金粉
-item.contenttweaker.TinySmashedMachine.name=微型压缩空间机械碎片
-item.contenttweaker.SmallSmashedMachine.name=小型压缩空间机械碎片
-item.contenttweaker.NormalSmashedMachine.name=中型压缩空间机械碎片
-item.contenttweaker.LargeSmashedMachine.name=大型压缩空间机械碎片
-item.contenttweaker.GiantSmashedMachine.name=巨型压缩空间机械碎片
-item.contenttweaker.MaximumSmashedMachine.name=超大型压缩空间机械碎片
-item.contenttweaker.PoopFuel.name=便便燃料
-item.contenttweaker.Prestoff.name=人造皮革
-item.contenttweaker.DirtDust.name=泥土粉
-item.contenttweaker.GravelDust.name=沙砾粉
-item.contenttweaker.CorruptPsd.name=损坏的传送器
+item.contenttweaker.modulariumblend.name=模块化合金粉
+item.contenttweaker.tinysmashedmachine.name=微型压缩空间机械碎片
+item.contenttweaker.smallsmashedmachine.name=小型压缩空间机械碎片
+item.contenttweaker.normalsmashedmachine.name=中型压缩空间机械碎片
+item.contenttweaker.largesmashedmachine.name=大型压缩空间机械碎片
+item.contenttweaker.giantsmashedmachine.name=巨型压缩空间机械碎片
+item.contenttweaker.maximumsmashedmachine.name=超大型压缩空间机械碎片
+item.contenttweaker.poopfuel.name=便便燃料
+item.contenttweaker.prestoff.name=人造皮革
+item.contenttweaker.dirtdust.name=泥土粉
+item.contenttweaker.graveldust.name=沙砾粉
+item.contenttweaker.corruptpsd.name=损坏的传送器
 item.contenttweaker.hopstitutecarbonfiber.name=HOP碳纤维
 
 tile.contenttweaker.glitched0.name=损坏的微型压缩空间机械
@@ -18,7 +18,7 @@ tile.contenttweaker.glitched2.name=损坏的中型压缩空间机械
 tile.contenttweaker.glitched3.name=损坏的大型压缩空间机械
 tile.contenttweaker.glitched4.name=损坏的巨型压缩空间机械
 tile.contenttweaker.glitched5.name=损坏的超大型压缩空间机械
-tile.contenttweaker.HomePortal.name=主世界传送门
+tile.contenttweaker.homeportal.name=主世界传送门
 
 tile.contenttweaker.padded0.name=白色软垫压缩空间壁
 tile.contenttweaker.padded1.name=橙色软垫压缩空间壁
@@ -37,7 +37,7 @@ tile.contenttweaker.padded13.name=绿色软垫压缩空间壁
 tile.contenttweaker.padded14.name=红色软垫压缩空间壁
 tile.contenttweaker.padded15.name=黑色软垫压缩空间壁
 
-tile.contenttweaker.HardGlass.name=致密玻璃
+tile.contenttweaker.hardglass.name=致密玻璃
 
-fluid.CompactFluid=致密流体
-fluid.SewageFluid=污水
+fluid.compactfluid=致密流体
+fluid.sewagefluid=污水
