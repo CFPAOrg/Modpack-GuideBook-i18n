@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: 4.5d,
+	text: [
+		"更快的魔力转移"
+	],
+	dependencies: [
+		"5d5acbd3"
+	],
+	tasks: [{
+		uid: "61c745de",
+		type: "item",
+		items: [{
+			item: "botania:spark"
+		}]
+	}],
+	rewards: [{
+		uid: "576c7692",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

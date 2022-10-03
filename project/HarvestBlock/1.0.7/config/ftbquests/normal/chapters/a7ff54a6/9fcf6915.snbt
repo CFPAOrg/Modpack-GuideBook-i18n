@@ -1,0 +1,21 @@
+{
+	x: 10.5d,
+	y: -2.5d,
+	dependencies: [
+		"d4596ea7"
+	],
+	tasks: [{
+		uid: "db40cff5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:redstone_alloy_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4449f5e3",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

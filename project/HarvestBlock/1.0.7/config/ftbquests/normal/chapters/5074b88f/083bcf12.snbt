@@ -1,0 +1,24 @@
+{
+	x: 2.5d,
+	y: 7.0d,
+	text: [
+		"需要制作奇点。"
+	],
+	dependencies: [
+		"642e61d4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "04a8a0ca",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "750e8344",
+		type: "item",
+		item: "customitems:glowing",
+		count: 20
+	}]
+}

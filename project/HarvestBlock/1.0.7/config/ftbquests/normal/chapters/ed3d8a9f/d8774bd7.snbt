@@ -1,0 +1,28 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		"不用在收集恶魔意志物品，意志将被储存在地狱魂石中。"
+	],
+	dependencies: [
+		"59706383"
+	],
+	tasks: [{
+		uid: "9b7dbaa7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38ea2387",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

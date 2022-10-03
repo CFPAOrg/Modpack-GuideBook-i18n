@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: 2.5d,
+	dependencies: [
+		"cb46287c"
+	],
+	tasks: [{
+		uid: "977d7c8f",
+		type: "item",
+		items: [{
+			item: "furnaceoverhaul:diamond_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "f08eb4e3",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

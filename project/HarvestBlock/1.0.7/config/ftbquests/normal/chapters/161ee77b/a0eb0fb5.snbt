@@ -1,0 +1,23 @@
+{
+	x: 8.5d,
+	y: 4.5d,
+	text: [
+		"升级版的魔力发射器"
+	],
+	dependencies: [
+		"7d751ea5"
+	],
+	tasks: [{
+		uid: "3015b175",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "49c021e1",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

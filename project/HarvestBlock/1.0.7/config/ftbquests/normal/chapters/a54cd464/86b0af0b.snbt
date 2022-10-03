@@ -1,0 +1,20 @@
+{
+	x: 10.5d,
+	y: 3.0d,
+	dependencies: [
+		"432cf124"
+	],
+	tasks: [{
+		uid: "31392b3c",
+		type: "item",
+		items: [{
+			item: "compactmachines3:machine 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "58814c88",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

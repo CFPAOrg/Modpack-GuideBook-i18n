@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 6.0d,
+	dependencies: [
+		"083bcf12"
+	],
+	tasks: [{
+		uid: "bc96d4be",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 66"
+		}]
+	}],
+	rewards: [{
+		uid: "6ac8a2ec",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

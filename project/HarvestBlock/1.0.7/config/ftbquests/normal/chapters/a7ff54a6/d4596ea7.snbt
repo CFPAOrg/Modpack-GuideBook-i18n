@@ -1,0 +1,22 @@
+{
+	title: "三级土壤",
+	x: 10.5d,
+	y: -0.5d,
+	dependencies: [
+		"fa7ebb7e"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "fb92135c",
+		type: "item",
+		items: [{
+			item: "customitems:tier_3_soil"
+		}]
+	}],
+	rewards: [{
+		uid: "46b35e4b",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

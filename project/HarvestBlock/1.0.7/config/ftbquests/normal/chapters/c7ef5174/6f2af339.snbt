@@ -1,0 +1,28 @@
+{
+	x: 5.0d,
+	y: 4.5d,
+	text: [
+		"星辉魔法指南"
+	],
+	dependencies: [
+		"38438c4c"
+	],
+	tasks: [{
+		uid: "c8c5f35c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "72e00786",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

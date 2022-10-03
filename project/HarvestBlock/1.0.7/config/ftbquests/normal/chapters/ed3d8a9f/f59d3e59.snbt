@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"475aabb0"
+	],
+	tasks: [{
+		uid: "213c7ce2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:apprentice"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "21b9b1c0",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

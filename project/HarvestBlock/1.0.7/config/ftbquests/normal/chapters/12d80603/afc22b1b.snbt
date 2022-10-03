@@ -1,0 +1,22 @@
+{
+	title: "进度：最热话题",
+	x: 4.5d,
+	y: 7.5d,
+	dependencies: [
+		"e147e6f1"
+	],
+	tasks: [{
+		uid: "bcbc4f8a",
+		type: "advancement",
+		title: "Advancement: The Hottest Topic",
+		icon: "immersiveengineering:metal_multiblock 1 13",
+		advancement: "immersiveengineering:main/multiblock_arcfurnace",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "827e69cf",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

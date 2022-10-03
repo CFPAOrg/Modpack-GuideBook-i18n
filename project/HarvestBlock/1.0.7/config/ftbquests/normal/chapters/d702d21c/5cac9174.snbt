@@ -1,0 +1,24 @@
+{
+	disable_toast: true,
+	x: 2.5d,
+	y: 0.5d,
+	shape: "octagon",
+	can_repeat: true,
+	dependencies: [
+		"2b89af00"
+	],
+	tasks: [{
+		uid: "9529ec01",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "049f09a7",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

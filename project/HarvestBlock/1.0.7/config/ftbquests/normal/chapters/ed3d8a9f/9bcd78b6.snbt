@@ -1,0 +1,31 @@
+{
+	title: "Tier 5 Altar",
+	icon: "bloodmagic:altar",
+	x: 3.0d,
+	y: 4.5d,
+	dependencies: [
+		"5006e3a1"
+	],
+	tasks: [{
+		uid: "30087adf",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 52L
+	},
+	{
+		uid: "716df45e",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "33b8dd23",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

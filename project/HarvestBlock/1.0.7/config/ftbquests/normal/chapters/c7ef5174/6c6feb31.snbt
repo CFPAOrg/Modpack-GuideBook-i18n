@@ -1,0 +1,23 @@
+{
+	x: 6.5d,
+	y: 4.5d,
+	text: [
+		"用于收集星辉液。"
+	],
+	dependencies: [
+		"e3abddfd"
+	],
+	tasks: [{
+		uid: "f744f466",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	}],
+	rewards: [{
+		uid: "e2e48542",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

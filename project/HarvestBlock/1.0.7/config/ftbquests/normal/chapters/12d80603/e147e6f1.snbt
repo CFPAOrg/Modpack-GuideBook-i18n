@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: 4.0d,
+	text: [
+		"使用本书了解如何构建多方块机器"
+	],
+	dependencies: [
+		"b7ed95d5",
+		"ec8c027d"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a12edeb7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:tool",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "439c46b7",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

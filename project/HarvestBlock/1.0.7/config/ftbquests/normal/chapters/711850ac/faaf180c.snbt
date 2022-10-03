@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		"存储最大量的EMC"
+	],
+	dependencies: [
+		"da46101d"
+	],
+	tasks: [{
+		uid: "10006452",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "869bbd30",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

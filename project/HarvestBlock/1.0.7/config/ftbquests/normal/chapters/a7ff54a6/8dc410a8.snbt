@@ -1,0 +1,21 @@
+{
+	x: 6.5d,
+	y: -0.5d,
+	dependencies: [
+		"fa7ebb7e"
+	],
+	tasks: [{
+		uid: "bbe92f35",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:grains_of_infinity_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0eda58be",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	dependencies: [
+		"cf508f12"
+	],
+	tasks: [{
+		uid: "cd9c95d5",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinecontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "d3c8adc1",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "完成所有",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "projecte:item.pe_tome"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

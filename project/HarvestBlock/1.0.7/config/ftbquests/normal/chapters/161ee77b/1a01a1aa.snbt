@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	text: [
+		"将一颗末影珍珠扔进魔力池"
+	],
+	dependencies: [
+		"5d5acbd3"
+	],
+	tasks: [{
+		uid: "42a074f1",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "11769984",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

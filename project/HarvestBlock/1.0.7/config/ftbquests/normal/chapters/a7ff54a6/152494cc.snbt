@@ -1,0 +1,21 @@
+{
+	x: 9.5d,
+	y: 1.5d,
+	dependencies: [
+		"d4596ea7"
+	],
+	tasks: [{
+		uid: "39e4b56c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:glowstone_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b22cc78",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

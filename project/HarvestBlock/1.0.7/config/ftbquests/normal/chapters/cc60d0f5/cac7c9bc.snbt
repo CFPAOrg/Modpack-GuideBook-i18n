@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: 3.5d,
+	text: [
+		"现在你有一个离魂匕首杀死僵尸，直到你得到 4 个僵尸灵魂。 注意：这不是 100% 的掉落率。"
+	],
+	dependencies: [
+		"f6ce8f47"
+	],
+	tasks: [{
+		uid: "e7a073ab",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 6"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "ff3e2fa3",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

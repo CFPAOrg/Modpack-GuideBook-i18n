@@ -1,0 +1,25 @@
+{
+	title: "钻石！",
+	x: 1.5d,
+	y: 6.0d,
+	text: [
+		"您可以通过放HOP石墨锭放入高炉中，在获得5级土壤之前获得钻石。 检查 JEI 以了解如何操作。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"42108dbe"
+	],
+	tasks: [{
+		uid: "bee0d4fa",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "f4c91835",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

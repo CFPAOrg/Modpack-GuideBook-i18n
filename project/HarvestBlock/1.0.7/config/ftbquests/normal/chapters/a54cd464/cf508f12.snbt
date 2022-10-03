@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"反应堆可以产生大量电力，并且可能对建造有用。 这是一个多方块结构，比我在这些任务中描述的要复杂一些。"
+	],
+	dependencies: [
+		"a6747e98"
+	],
+	tasks: [{
+		uid: "dd10fd2d",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "641cdc4e",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

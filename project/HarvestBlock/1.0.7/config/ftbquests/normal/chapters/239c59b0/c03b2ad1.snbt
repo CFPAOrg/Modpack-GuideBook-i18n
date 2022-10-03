@@ -1,0 +1,20 @@
+{
+	x: 9.0d,
+	y: 3.0d,
+	dependencies: [
+		"37396f7e"
+	],
+	tasks: [{
+		uid: "0c95656f",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "d7d45ca9",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

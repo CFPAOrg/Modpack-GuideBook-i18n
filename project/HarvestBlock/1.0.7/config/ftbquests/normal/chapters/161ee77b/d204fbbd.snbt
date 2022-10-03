@@ -1,0 +1,57 @@
+{
+	title: "精灵传送门",
+	icon: "botania:alfheimportal",
+	x: 0.0d,
+	y: 4.5d,
+	text: [
+		"现在您可以创建精灵传送门将您的魔力资源转换为元素资源。"
+	],
+	dependencies: [
+		"c7b61ef6"
+	],
+	tasks: [{
+		uid: "55219c4b",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 1 5"
+		}],
+		count: 3L
+	},
+	{
+		uid: "3c47bd5e",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "2d77ede4",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}],
+		count: 2L
+	},
+	{
+		uid: "7fb3eed9",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "49da6f75",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "09cf8ce2",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

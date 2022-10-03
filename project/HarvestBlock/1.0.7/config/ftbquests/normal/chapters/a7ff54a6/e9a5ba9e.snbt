@@ -1,0 +1,22 @@
+{
+	title: "四级土壤",
+	x: 10.5d,
+	y: 5.5d,
+	dependencies: [
+		"d4596ea7"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "09097a08",
+		type: "item",
+		items: [{
+			item: "customitems:tier_4_soil"
+		}]
+	}],
+	rewards: [{
+		uid: "abbd8744",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 5.0d,
+	text: [
+		"用于为镭射钻基座供电。"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "9d2a0410",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_drill"
+		}]
+	}],
+	rewards: [{
+		uid: "8b7c8efe",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

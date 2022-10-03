@@ -1,0 +1,25 @@
+{
+	icon: "immersiveengineering:stone_device",
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"放下3x3x3 并用锤子右键单击。"
+	],
+	dependencies: [
+		"769e0d43"
+	],
+	tasks: [{
+		uid: "ee1d6c4b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "727f8c96",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 11.0d,
+	y: 7.5d,
+	text: [
+		"将仪式移至另一个位置。"
+	],
+	dependencies: [
+		"ccd8eb77"
+	],
+	tasks: [{
+		uid: "cb1af5a7",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockrituallink"
+		}]
+	}],
+	rewards: [{
+		uid: "848f3c64",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

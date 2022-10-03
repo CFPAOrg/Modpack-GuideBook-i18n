@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 1.5d,
+	dependencies: [
+		"efd69b00"
+	],
+	tasks: [{
+		uid: "6f740356",
+		type: "item",
+		items: [{
+			item: "compactmachines3:wallbreakable"
+		}],
+		count: 26L
+	}],
+	rewards: [{
+		uid: "2d90bbeb",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

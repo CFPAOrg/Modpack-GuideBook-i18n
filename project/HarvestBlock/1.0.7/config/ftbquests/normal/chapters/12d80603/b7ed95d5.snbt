@@ -1,0 +1,23 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	text: [
+		"根据两侧的温差发电。"
+	],
+	dependencies: [
+		"0801fab3"
+	],
+	tasks: [{
+		uid: "a231e6fd",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "1e6967ff",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

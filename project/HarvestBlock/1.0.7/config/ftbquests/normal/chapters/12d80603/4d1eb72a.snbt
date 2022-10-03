@@ -1,0 +1,23 @@
+{
+	title: "进度：下一级爆破",
+	icon: "immersiveengineering:stone_device 1 2",
+	x: 1.5d,
+	y: 4.5d,
+	dependencies: [
+		"42108dbe"
+	],
+	tasks: [{
+		uid: "08d53572",
+		type: "advancement",
+		title: "Advancement: Next Level Blasting",
+		icon: "immersiveengineering:stone_device 1 2",
+		advancement: "immersiveengineering:main/multiblock_improvedblastfurnace",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "bbd58359",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

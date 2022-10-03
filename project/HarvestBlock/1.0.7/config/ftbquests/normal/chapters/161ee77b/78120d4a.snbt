@@ -1,0 +1,23 @@
+{
+	title: "自动化魔力生成",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "dandelifeon"
+		}
+	},
+	x: 10.5d,
+	y: 0.0d,
+	text: [
+		"你将需要大量的法力，所以想办法让它自动化。 植物魔法辞典拥有产魔花所需的所有信息。"
+	],
+	dependencies: [
+		"3057cf60",
+		"f8bbc294"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "94673f3a",
+		type: "checkmark"
+	}]
+}

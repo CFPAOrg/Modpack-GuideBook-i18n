@@ -1,0 +1,26 @@
+{
+	title: "探索自动化",
+	x: 0.5d,
+	y: -2.0d,
+	text: [
+		"将物品导入任务显示器并从奖励收集器中导出以自动完成任务。"
+	],
+	dependencies: [
+		"2b89af00"
+	],
+	tasks: [{
+		uid: "59146cf0",
+		type: "item",
+		items: [{
+			item: "ftbquests:screen"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e7823ea9",
+		type: "item",
+		items: [{
+			item: "ftbquests:reward_collector"
+		}]
+	}]
+}

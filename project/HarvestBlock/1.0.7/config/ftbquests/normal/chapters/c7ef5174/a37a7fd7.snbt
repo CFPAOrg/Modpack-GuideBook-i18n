@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: 4.5d,
+	text: [
+		"星辉魔法的大理石是必需的。 其他大理石不行。 您可以使用 8 个大理石精华和 1 个海蓝宝石精华制作，也可以使用凿子转换其他大理石。"
+	],
+	dependencies: [
+		"50b27c65"
+	],
+	tasks: [{
+		uid: "771891cc",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble"
+		}],
+		count: 8L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "297a9559",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

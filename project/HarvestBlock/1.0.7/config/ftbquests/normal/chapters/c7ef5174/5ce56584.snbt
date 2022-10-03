@@ -1,0 +1,20 @@
+{
+	x: 9.5d,
+	y: 3.0d,
+	dependencies: [
+		"3450cd06"
+	],
+	tasks: [{
+		uid: "0583d064",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "85f1e94a",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

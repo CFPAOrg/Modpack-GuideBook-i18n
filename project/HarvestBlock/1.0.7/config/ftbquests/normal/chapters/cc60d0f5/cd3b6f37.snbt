@@ -1,0 +1,31 @@
+{
+	title: "泥土",
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"制作一些泥土来扩展您的空岛。 你需要跳来放置方块。"
+	],
+	dependencies: [
+		"7287aa72"
+	],
+	tasks: [{
+		uid: "38d0adbc",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "cc34ee43",
+		type: "item",
+		item: "minecraft:torch",
+		count: 4
+	},
+	{
+		uid: "957cc68f",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

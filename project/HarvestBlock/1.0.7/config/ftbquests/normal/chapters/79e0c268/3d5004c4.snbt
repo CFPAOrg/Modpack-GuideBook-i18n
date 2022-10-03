@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"使用能量生成熔岩。"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "4c5fe5b0",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:lava_fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "ad5873fc",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

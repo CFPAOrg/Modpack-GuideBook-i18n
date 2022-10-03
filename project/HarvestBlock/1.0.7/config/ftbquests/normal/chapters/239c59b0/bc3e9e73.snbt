@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	dependencies: [
+		"eae8aeac"
+	],
+	tasks: [{
+		uid: "ca3b4a1e",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "50fbf5bc",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

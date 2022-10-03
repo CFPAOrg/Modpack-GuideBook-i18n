@@ -1,0 +1,28 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"用来在血祭坛附近刺伤自己以填满它。 小心你会死。"
+	],
+	dependencies: [
+		"b1c4d907"
+	],
+	tasks: [{
+		uid: "40b943a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3a08bdc0",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

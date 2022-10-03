@@ -1,0 +1,27 @@
+{
+	x: 10.5d,
+	y: 1.0d,
+	dependencies: [
+		"2bec8af8",
+		"6bbce147"
+	],
+	tasks: [{
+		uid: "1611a1a6",
+		type: "item",
+		title: "Stone Compound Gear",
+		icon: "enderio:item_material 1 10",
+		items: [{
+			item: "enderio:item_material 1 10"
+		},
+		{
+			item: "teslacorelib:gear_stone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c99979e",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

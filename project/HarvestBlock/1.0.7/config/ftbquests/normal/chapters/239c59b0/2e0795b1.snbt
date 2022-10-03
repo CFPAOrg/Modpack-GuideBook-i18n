@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: 8.0d,
+	dependencies: [
+		"8245bf7d"
+	],
+	tasks: [{
+		uid: "aabb79c3",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f25d3030",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

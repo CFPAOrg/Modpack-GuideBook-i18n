@@ -1,0 +1,22 @@
+{
+	x: 10.5d,
+	y: 2.0d,
+	dependencies: [
+		"574ab2e6",
+		"0a61e2a3"
+	],
+	tasks: [{
+		uid: "7c4db70a",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "71daefaf",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

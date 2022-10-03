@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"开始您的终极合成之旅"
+	],
+	dependencies: [
+		"ccd8eb77"
+	],
+	tasks: [{
+		uid: "84d5b68b",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "827ce695",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

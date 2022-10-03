@@ -1,0 +1,25 @@
+{
+	x: -4.5d,
+	y: -3.5d,
+	shape: "circle",
+	text: [
+		"用刀右键单击一块苔石。"
+	],
+	dependencies: [
+		"a422db53"
+	],
+	tasks: [{
+		uid: "399d3378",
+		type: "item",
+		items: [{
+			item: "roots:terra_moss"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "dab7ce4b",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "二级土壤",
+	icon: "customitems:tier_2_soil",
+	disable_toast: true,
+	x: 4.5d,
+	y: 0.5d,
+	text: [
+		"获得二级土壤后解锁"
+	],
+	can_repeat: true,
+	dependencies: [
+		"fa7ebb7e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "03fd61d3",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ebc9783b",
+		type: "item",
+		item: "customitems:tier_2_soil"
+	}]
+}

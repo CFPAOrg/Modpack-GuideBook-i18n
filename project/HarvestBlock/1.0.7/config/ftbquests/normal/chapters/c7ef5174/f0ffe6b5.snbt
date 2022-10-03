@@ -1,0 +1,31 @@
+{
+	x: 5.0d,
+	y: 6.0d,
+	text: [
+		"用于完成合成。"
+	],
+	dependencies: [
+		"6f2af339"
+	],
+	tasks: [{
+		uid: "278388fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "119376eb",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

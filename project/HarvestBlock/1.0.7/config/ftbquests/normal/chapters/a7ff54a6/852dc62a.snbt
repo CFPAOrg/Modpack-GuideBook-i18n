@@ -1,0 +1,21 @@
+{
+	x: 12.5d,
+	y: 4.5d,
+	dependencies: [
+		"e9a5ba9e"
+	],
+	tasks: [{
+		uid: "e1002bea",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dark_steel_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b57fa2f",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

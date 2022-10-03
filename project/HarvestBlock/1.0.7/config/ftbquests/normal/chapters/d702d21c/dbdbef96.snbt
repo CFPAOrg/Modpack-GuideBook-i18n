@@ -1,0 +1,22 @@
+{
+	title: "无限增幅卡",
+	icon: "ae2wtlib:infinity_booster_card",
+	disable_toast: true,
+	x: 5.5d,
+	y: 4.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "a8f1a15b",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "d8b202ea",
+		type: "item",
+		item: "ae2wtlib:infinity_booster_card"
+	}]
+}

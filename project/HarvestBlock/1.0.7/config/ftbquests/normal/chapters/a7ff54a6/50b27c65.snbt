@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: -0.5d,
+	dependencies: [
+		"fa7ebb7e"
+	],
+	tasks: [{
+		uid: "b7412dca",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:marble_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d2ef465",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

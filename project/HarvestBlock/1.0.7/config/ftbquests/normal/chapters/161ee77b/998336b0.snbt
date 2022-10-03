@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: 4.0d,
+	text: [
+		"将铁锭扔进魔力池"
+	],
+	dependencies: [
+		"5d5acbd3"
+	],
+	tasks: [{
+		uid: "a1c2b0a6",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "34dc518e",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

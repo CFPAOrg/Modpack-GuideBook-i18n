@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: 0.5d,
+	text: [
+		"等级越高，熔炉越快，效率越高。"
+	],
+	dependencies: [
+		"325a25a5"
+	],
+	tasks: [{
+		uid: "07c55319",
+		type: "item",
+		items: [{
+			item: "furnaceoverhaul:iron_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "4dd47eac",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

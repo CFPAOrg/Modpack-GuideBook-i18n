@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	text: [
+		"通过在与装满水的水箱相连的灌溉渠道下方的农作物上方放置洒水器来加速农作物生长。 它可能看起来不像在工作，但如果上面的通道中有水，它就是。"
+	],
+	dependencies: [
+		"4fc3c15d"
+	],
+	tasks: [{
+		uid: "2d74c13c",
+		type: "item",
+		items: [{
+			item: "agricraft:sprinkler"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "9569de92",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

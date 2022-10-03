@@ -1,0 +1,47 @@
+{
+	title: "盖亚守护者",
+	icon: "botania:gaiahead",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"收集这些物品，您将能够产生盖亚。 查看植物魔法辞典以找到放置它们的位置。 你需要一个大平台。"
+	],
+	dependencies: [
+		"c7b61ef6"
+	],
+	tasks: [{
+		uid: "51d1fa3f",
+		type: "kill",
+		entity: "botania:doppleganger",
+		value: 1L
+	},
+	{
+		uid: "0d404612",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "38ebbd88",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	},
+	{
+		uid: "f88bab0b",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "d2b6ff7e",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

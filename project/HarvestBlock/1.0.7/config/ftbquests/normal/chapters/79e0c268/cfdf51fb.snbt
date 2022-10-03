@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		"将粉红粘液放下，一段时间后会产生粉红色史莱姆。"
+	],
+	dependencies: [
+		"173ed4ea"
+	],
+	tasks: [{
+		uid: "8e491828",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime"
+		}]
+	}],
+	rewards: [{
+		uid: "ce350fb7",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

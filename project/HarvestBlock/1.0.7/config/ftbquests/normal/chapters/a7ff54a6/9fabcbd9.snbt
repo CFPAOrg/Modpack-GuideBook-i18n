@@ -1,0 +1,129 @@
+{
+	title: "10/10/10一级种子",
+	icon: "mysticalagriculture:crafting 1 17",
+	x: -0.5d,
+	y: 10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"18e8590b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7eb3b9af",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:dirt_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:dirt_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "f50dd3fd",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:wood_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:wood_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "95c23abd",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:zombie_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:zombie_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "260dfaf4",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:ice_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:ice_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "949ba9a1",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:nature_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:nature_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "43a9b21c",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:stone_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:stone_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "91029bfc",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:fire_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:fire_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "e4a3516c",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:water_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:water_plant",
+				agri_growth: 10b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2e8a05c5",
+		type: "item",
+		item: "customitems:tier_1_soil",
+		count: 64
+	}]
+}

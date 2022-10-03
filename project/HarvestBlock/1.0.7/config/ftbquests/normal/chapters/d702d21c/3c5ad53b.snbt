@@ -1,0 +1,40 @@
+{
+	title: "幸运",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "potionfingers:ring",
+		tag: {
+			effect: "minecraft:luck"
+		},
+		Damage: 1s
+	},
+	disable_toast: true,
+	x: 7.5d,
+	y: 1.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "f4f6f42f",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 256L
+	}],
+	rewards: [{
+		uid: "0bd9d37b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "potionfingers:ring",
+			tag: {
+				effect: "minecraft:luck"
+			},
+			Damage: 1s
+		}
+	}]
+}

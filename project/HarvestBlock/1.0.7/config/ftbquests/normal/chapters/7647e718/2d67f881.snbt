@@ -1,0 +1,29 @@
+{
+	x: 13.0d,
+	y: 3.0d,
+	text: [
+		"这是您的物品将被存储的地方"
+	],
+	dependencies: [
+		"f4c41899"
+	],
+	tasks: [{
+		uid: "967cb6db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3cc6aee4",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

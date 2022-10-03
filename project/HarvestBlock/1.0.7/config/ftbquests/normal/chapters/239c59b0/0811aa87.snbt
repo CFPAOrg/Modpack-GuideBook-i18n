@@ -1,0 +1,20 @@
+{
+	x: 9.0d,
+	y: 1.0d,
+	dependencies: [
+		"7ccb6c28"
+	],
+	tasks: [{
+		uid: "adf35ce7",
+		type: "item",
+		items: [{
+			item: "enderio:item_redstone_conduit"
+		}]
+	}],
+	rewards: [{
+		uid: "35de6153",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

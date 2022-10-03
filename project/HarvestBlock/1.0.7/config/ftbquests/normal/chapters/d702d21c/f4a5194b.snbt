@@ -1,0 +1,40 @@
+{
+	title: "抗性提升",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "potionfingers:ring",
+		tag: {
+			effect: "minecraft:resistance"
+		},
+		Damage: 1s
+	},
+	disable_toast: true,
+	x: 8.5d,
+	y: 1.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "3c2048c3",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 384L
+	}],
+	rewards: [{
+		uid: "d03d961c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "potionfingers:ring",
+			tag: {
+				effect: "minecraft:resistance"
+			},
+			Damage: 1s
+		}
+	}]
+}

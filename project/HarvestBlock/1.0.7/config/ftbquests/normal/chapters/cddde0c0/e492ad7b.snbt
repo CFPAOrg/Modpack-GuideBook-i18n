@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: -5.0d,
+	text: [
+		"从草中掉落。 一旦你得到足够的，你可以种植它们。"
+	],
+	dependencies: [
+		"3b6082ae"
+	],
+	tasks: [{
+		uid: "792bacfb",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "f53e3a75",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

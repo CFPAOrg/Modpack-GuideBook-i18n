@@ -1,0 +1,21 @@
+{
+	x: 0.5d,
+	y: 6.5d,
+	dependencies: [
+		"849ced05"
+	],
+	tasks: [{
+		uid: "41aad8ca",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:nether_star_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "58a65690",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

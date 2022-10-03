@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 6.0d,
+	dependencies: [
+		"d204fbbd"
+	],
+	tasks: [{
+		uid: "681e54ae",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 7"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "4a541af8",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

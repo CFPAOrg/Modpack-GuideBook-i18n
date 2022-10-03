@@ -1,0 +1,28 @@
+{
+	x: 3.0d,
+	y: 8.0d,
+	text: [
+		"存储大量的一种流体。"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "376d346d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:black_hole_tank"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b76963d",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

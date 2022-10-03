@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"通过杀死怪物生成粉红色粘液球。"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "2d261c84",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_slaughter_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "411b19aa",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

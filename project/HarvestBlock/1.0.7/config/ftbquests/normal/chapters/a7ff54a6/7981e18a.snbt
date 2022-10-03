@@ -1,0 +1,21 @@
+{
+	x: 12.5d,
+	y: -2.5d,
+	dependencies: [
+		"d4596ea7"
+	],
+	tasks: [{
+		uid: "bf76cae9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:conductive_iron_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9fe0c3dc",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

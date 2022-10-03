@@ -1,0 +1,24 @@
+{
+	disable_toast: true,
+	x: 0.5d,
+	y: 1.5d,
+	shape: "octagon",
+	can_repeat: true,
+	dependencies: [
+		"2b89af00"
+	],
+	tasks: [{
+		uid: "0c9b48a0",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 18"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "d7d3b6af",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

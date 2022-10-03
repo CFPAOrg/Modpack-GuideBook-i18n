@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: 3.5d,
+	dependencies: [
+		"6746c258"
+	],
+	tasks: [{
+		uid: "1b08000a",
+		type: "item",
+		items: [{
+			item: "furnaceoverhaul:emerald_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "892a8ddf",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

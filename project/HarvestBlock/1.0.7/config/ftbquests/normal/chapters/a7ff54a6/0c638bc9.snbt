@@ -1,0 +1,21 @@
+{
+	x: 10.0d,
+	y: -3.5d,
+	dependencies: [
+		"d4596ea7"
+	],
+	tasks: [{
+		uid: "cdd1ba69",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:lapis_lazuli_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5aceb458",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

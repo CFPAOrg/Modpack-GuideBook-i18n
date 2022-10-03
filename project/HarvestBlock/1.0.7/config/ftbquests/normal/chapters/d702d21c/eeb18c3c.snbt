@@ -1,0 +1,41 @@
+{
+	title: "羊",
+	icon: {
+		id: "minecraft:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "minecraft:sheep"
+			}
+		}
+	},
+	disable_toast: true,
+	x: 8.5d,
+	y: -0.5d,
+	text: [
+		"动物会在草地上生成，或者你可以使用这些"
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "e942218a",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f7af30e5",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:sheep"
+				}
+			}
+		},
+		count: 2
+	}]
+}

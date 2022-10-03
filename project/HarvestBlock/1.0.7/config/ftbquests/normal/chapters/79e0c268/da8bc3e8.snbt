@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		"收割机产生污泥，这会将污泥转化为其他资源。"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "22a4f53a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:sludge_refiner"
+		}]
+	}],
+	rewards: [{
+		uid: "68b23df1",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

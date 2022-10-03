@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	shape: "circle",
+	dependencies: [
+		"fa7ebb7e"
+	],
+	tasks: [{
+		uid: "6f89c919",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:slime_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c6c61070",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

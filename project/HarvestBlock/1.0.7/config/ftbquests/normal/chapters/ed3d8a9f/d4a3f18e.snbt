@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: 7.5d,
+	dependencies: [
+		"73463ee9"
+	],
+	tasks: [{
+		uid: "0aaf78cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bd0339e8",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 10.5d,
+	y: -0.5d,
+	dependencies: [
+		"527eeb53"
+	],
+	tasks: [{
+		uid: "807c8b63",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "furnaceoverhaul:electric_fuel_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5c51c86",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Bravo",
+	icon: "mysticalagriculture:crafting",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

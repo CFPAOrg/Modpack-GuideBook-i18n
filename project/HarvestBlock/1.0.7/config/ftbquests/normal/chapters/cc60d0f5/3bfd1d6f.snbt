@@ -1,0 +1,39 @@
+{
+	title: "作物架",
+	icon: "agricraft:crop_sticks",
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"用你的泥土制作泥土棍和作物架来种植更多的种子。 完全长成的作物会蔓延到它们旁边的空作物架上。"
+	],
+	dependencies: [
+		"cd3b6f37"
+	],
+	tasks: [{
+		uid: "ace047c8",
+		type: "item",
+		items: [{
+			item: "customitems:dirt_stick"
+		}],
+		count: 4L
+	},
+	{
+		uid: "4d4f1c92",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}]
+	}],
+	rewards: [{
+		uid: "d8cc25de",
+		type: "item",
+		item: "agricraft:crop_sticks",
+		count: 2
+	},
+	{
+		uid: "ebe1717d",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

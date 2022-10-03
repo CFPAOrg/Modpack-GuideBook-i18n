@@ -1,0 +1,8 @@
+{
+	title: "奖励",
+	icon: "customitems:glowing",
+	disable_toast: true,
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,24 @@
+{
+	x: -3.0d,
+	y: -5.0d,
+	text: [
+		"从草上掉落，靠近水时会将石头转化为苔石。"
+	],
+	dependencies: [
+		"e492ad7b"
+	],
+	tasks: [{
+		uid: "48f8e0b0",
+		type: "item",
+		items: [{
+			item: "roots:terra_spores"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "4b089d85",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

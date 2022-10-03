@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"事情从这里开始变得复杂起来，一个jei只能提供这么多帮助。 这本书有一些信息，但您可能还需要查找。"
+	],
+	dependencies: [
+		"b1c4d907"
+	],
+	tasks: [{
+		uid: "a0c29765",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "guideapi:bloodmagic-guide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

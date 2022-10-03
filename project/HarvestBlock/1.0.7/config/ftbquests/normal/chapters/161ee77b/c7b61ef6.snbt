@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"泰拉钢是在泰拉凝聚板上用魔力珍珠，魔力钻石和魔力钢制作而成"
+	],
+	dependencies: [
+		"b2cc16a3"
+	],
+	tasks: [{
+		uid: "dc382c5c",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "3859a52e",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

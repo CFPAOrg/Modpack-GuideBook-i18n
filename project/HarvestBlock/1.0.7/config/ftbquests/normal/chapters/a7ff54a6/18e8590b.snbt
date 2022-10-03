@@ -1,0 +1,25 @@
+{
+	title: "一级土壤",
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		"所有神秘农业的种子都需要其等级一或更高等级的土壤。 首先制作一级土壤。"
+	],
+	dependencies: [
+		"20df4e82"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "0033eb87",
+		type: "item",
+		items: [{
+			item: "customitems:tier_1_soil"
+		}]
+	}],
+	rewards: [{
+		uid: "5468deda",
+		type: "item",
+		item: "customitems:glowing",
+		count: 10
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	dependencies: [
+		"1984c58d"
+	],
+	tasks: [{
+		uid: "fb2e7eeb",
+		type: "item",
+		items: [{
+			item: "roots:imbuer"
+		}]
+	}],
+	rewards: [{
+		uid: "fb9924b5",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"种植从草掉落的工业大麻种子"
+	],
+	dependencies: [
+		"3bfd1d6f"
+	],
+	tasks: [{
+		uid: "708c253a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "5d9981aa",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

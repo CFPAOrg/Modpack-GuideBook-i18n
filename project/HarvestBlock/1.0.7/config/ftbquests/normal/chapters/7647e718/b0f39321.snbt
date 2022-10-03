@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 4.5d,
+	dependencies: [
+		"b7f1c31f"
+	],
+	tasks: [{
+		uid: "207a9ef9",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "66944816",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

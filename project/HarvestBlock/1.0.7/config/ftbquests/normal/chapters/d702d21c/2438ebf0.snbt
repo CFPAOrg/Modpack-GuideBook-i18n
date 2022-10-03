@@ -1,0 +1,25 @@
+{
+	disable_toast: true,
+	x: -1.5d,
+	y: 1.5d,
+	shape: "octagon",
+	can_repeat: true,
+	dependencies: [
+		"2b89af00"
+	],
+	tasks: [{
+		uid: "30b3e0ed",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 14"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "c5cc2908",
+		type: "item",
+		auto: "enabled",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "水下呼吸",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "potionfingers:ring",
+		tag: {
+			effect: "minecraft:water_breathing"
+		},
+		Damage: 1s
+	},
+	disable_toast: true,
+	x: 6.5d,
+	y: 3.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "83a677c5",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 768L
+	}],
+	rewards: [{
+		uid: "7693a124",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "potionfingers:ring",
+			tag: {
+				effect: "minecraft:water_breathing"
+			},
+			Damage: 1s
+		}
+	}]
+}

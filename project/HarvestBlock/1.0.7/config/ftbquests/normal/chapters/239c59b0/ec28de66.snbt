@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"通常通过点燃基岩获得。 但是，如果没有基岩，您首先需要获得种子。"
+	],
+	dependencies: [
+		"8dc410a8"
+	],
+	tasks: [{
+		uid: "66b819fa",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "626cec0c",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

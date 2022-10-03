@@ -1,0 +1,28 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		"在任何地方访问您的物品。"
+	],
+	dependencies: [
+		"2ef108ac"
+	],
+	tasks: [{
+		uid: "210981bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_transmutation_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2cd40b71",
+		type: "item",
+		item: "customitems:glowing",
+		count: 20
+	}]
+}

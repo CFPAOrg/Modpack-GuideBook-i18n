@@ -1,0 +1,21 @@
+{
+	x: 12.5d,
+	y: -0.5d,
+	dependencies: [
+		"d4596ea7"
+	],
+	tasks: [{
+		uid: "5626459e",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:livingwood_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb4f88b2",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -4.5d,
+	y: -0.5d,
+	dependencies: [
+		"8907ee4d"
+	],
+	tasks: [{
+		uid: "1ebf87d1",
+		type: "item",
+		items: [{
+			item: "roots:cloud_berry"
+		}]
+	}],
+	rewards: [{
+		uid: "ac4cef88",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

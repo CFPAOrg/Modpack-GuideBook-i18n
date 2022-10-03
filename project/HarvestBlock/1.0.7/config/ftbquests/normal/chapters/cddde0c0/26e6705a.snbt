@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	text: [
+		"1% 几率从小麦中掉落"
+	],
+	dependencies: [
+		"e492ad7b"
+	],
+	tasks: [{
+		uid: "57713a62",
+		type: "item",
+		items: [{
+			item: "roots:wildewheet"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "876baf21",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

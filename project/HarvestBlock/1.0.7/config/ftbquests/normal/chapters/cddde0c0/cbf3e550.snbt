@@ -1,0 +1,21 @@
+{
+	x: -4.5d,
+	y: -2.0d,
+	dependencies: [
+		"8907ee4d"
+	],
+	tasks: [{
+		uid: "55888dd9",
+		type: "item",
+		items: [{
+			item: "roots:pereskia"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a1a2a6f2",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

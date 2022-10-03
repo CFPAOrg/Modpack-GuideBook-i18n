@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"如果你不想用塑料种子拿到塑料，你就得需要从树上提取乳胶开始。 在前面放一根木头以提取乳胶"
+	],
+	dependencies: [
+		"7f48fdcc"
+	],
+	tasks: [{
+		uid: "aca70006",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	}],
+	rewards: [{
+		uid: "b22b41a6",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

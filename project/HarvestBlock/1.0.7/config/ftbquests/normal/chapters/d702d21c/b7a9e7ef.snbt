@@ -1,0 +1,40 @@
+{
+	title: "牛",
+	icon: {
+		id: "minecraft:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "minecraft:cow"
+			}
+		}
+	},
+	disable_toast: true,
+	x: 7.5d,
+	y: -0.5d,
+	text: [
+		"动物会在草地上生成，或者你可以使用这些"
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "c0265c67",
+		type: "item",
+		items: [{
+			item: "customitems:glowing"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "95646a62",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cow"
+				}
+			}
+		},
+		count: 2
+	}]
+}

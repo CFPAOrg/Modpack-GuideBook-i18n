@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: 1.5d,
+	text: [
+		"不用每次都丢下网罗，而是每次都丢下一个恶魔意志。"
+	],
+	dependencies: [
+		"59706383"
+	],
+	tasks: [{
+		uid: "cbbd5925",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sentient_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 8.0d,
+	y: 6.0d,
+	text: [
+		"你需要的不仅仅是祭坛，还要来制作一个多方块结构。 星芒宝典将向您展示如何构建它。"
+	],
+	dependencies: [
+		"e3abddfd"
+	],
+	tasks: [{
+		uid: "9044f1e1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1216bd5c",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

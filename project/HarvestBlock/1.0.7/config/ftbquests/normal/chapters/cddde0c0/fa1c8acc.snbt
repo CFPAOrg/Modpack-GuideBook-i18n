@@ -1,0 +1,17 @@
+{
+	title: "高草",
+	x: -1.5d,
+	y: -6.5d,
+	text: [
+		"Roots 将常规的 1 格草称为“高草”。 打破 2 格高的草不会掉落任何东西。"
+	],
+	dependencies: [
+		"3b6082ae"
+	],
+	tasks: [{
+		uid: "bda4ac09",
+		type: "checkmark",
+		title: "Tall Grass",
+		icon: "minecraft:tallgrass 1 1"
+	}]
+}

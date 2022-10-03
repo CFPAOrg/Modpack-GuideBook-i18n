@@ -1,0 +1,7 @@
+{
+	title: "Echo",
+	icon: "enderio:block_alloy_smelter",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

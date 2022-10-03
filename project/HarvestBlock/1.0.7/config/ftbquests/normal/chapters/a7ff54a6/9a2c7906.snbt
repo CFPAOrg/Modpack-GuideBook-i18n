@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: 0.5d,
+	dependencies: [
+		"fa7ebb7e"
+	],
+	tasks: [{
+		uid: "3f8c4713",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:limestone_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9cdc2fa",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

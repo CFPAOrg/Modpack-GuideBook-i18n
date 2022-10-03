@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: 5.0d,
+	dependencies: [
+		"6bcef7eb"
+	],
+	tasks: [{
+		uid: "5c09a919",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "23d65bca",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

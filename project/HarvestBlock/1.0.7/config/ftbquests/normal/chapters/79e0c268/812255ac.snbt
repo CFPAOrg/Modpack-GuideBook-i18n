@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 7.0d,
+	text: [
+		"将污水转化为肥料。"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "7752ec3e",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:sewage_composter_solidifier"
+		}]
+	}],
+	rewards: [{
+		uid: "fd5893c0",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

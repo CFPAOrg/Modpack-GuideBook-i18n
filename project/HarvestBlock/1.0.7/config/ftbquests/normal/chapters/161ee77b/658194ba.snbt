@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	text: [
+		"用在草地上产生神秘花"
+	],
+	dependencies: [
+		"3b6082ae"
+	],
+	tasks: [{
+		uid: "6fd81261",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer"
+		}]
+	}],
+	rewards: [{
+		uid: "67be7c75",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 9.0d,
+	y: 0.5d,
+	text: [
+		"使用熔岩产生魔力"
+	],
+	dependencies: [
+		"bd8405ed"
+	],
+	tasks: [{
+		uid: "ce22b6af",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "thermalily"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "54085cf7",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

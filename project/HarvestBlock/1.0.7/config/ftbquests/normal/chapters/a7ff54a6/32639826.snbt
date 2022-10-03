@@ -1,0 +1,298 @@
+{
+	title: "10/10/10二级种子",
+	icon: "mysticalagriculture:crafting 1 18",
+	x: 1.5d,
+	y: 10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"fa7ebb7e"
+	],
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "a045d0cf",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:nether_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:nether_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "aa9d056c",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:coal_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:coal_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "79a9db36",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:iron_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:iron_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "cde83724",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:pig_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:pig_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "f7d2843d",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:chicken_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:chicken_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "48877553",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:cow_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:cow_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "9041c503",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:sheep_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:sheep_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "e5c59f9e",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:slime_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:slime_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "5020396a",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:skeleton_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:skeleton_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "4395b009",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:marble_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:marble_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "a2c00361",
+		type: "item",
+		items: [{
+			id: "mysticalcreations:prosperity_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalcreations:prosperity_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "9e4fe8ac",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:menril_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:menril_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "bffab13a",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:grains_of_infinity_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:grains_of_infinity_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "ae12b17d",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:copper_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:copper_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "9d4fa6c2",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:aluminum_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:aluminum_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "ef9ffeb7",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:silicon_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:silicon_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "24a392f4",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:spider_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:spider_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "3f3d790e",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:creeper_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:creeper_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "0d30c2a2",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:limestone_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:limestone_plant",
+				agri_growth: 10b
+			}
+		}]
+	},
+	{
+		uid: "ac0007be",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:basalt_seeds",
+			tag: {
+				agri_analyzed: 1b,
+				agri_strength: 10b,
+				agri_gain: 10b,
+				agri_seed: "mysticalagriculture:basalt_plant",
+				agri_growth: 10b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1e55f086",
+		type: "item",
+		item: "customitems:tier_2_soil",
+		count: 64
+	}]
+}

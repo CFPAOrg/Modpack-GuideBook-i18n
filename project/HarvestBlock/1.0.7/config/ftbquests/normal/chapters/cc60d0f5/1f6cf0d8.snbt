@@ -1,0 +1,17 @@
+{
+	title: "农作物催熟",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"按住shift将让农作物更快生长。"
+	],
+	dependencies: [
+		"7287aa72"
+	],
+	tasks: [{
+		uid: "25ca95b6",
+		type: "checkmark",
+		title: "Crop Dusting",
+		icon: "minecraft:wheat_seeds"
+	}]
+}

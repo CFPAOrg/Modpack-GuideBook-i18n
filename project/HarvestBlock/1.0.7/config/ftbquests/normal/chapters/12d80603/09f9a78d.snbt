@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	text: [
+		"与蓝图一起使用可以更便宜、更容易制作物品。"
+	],
+	dependencies: [
+		"0843983e"
+	],
+	tasks: [{
+		uid: "0e234018",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "ed13a565",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

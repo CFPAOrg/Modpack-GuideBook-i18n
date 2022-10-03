@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	text: [
+		"获得木头后，作物架更容易制作。"
+	],
+	dependencies: [
+		"3bfd1d6f"
+	],
+	tasks: [{
+		uid: "ba5dcc11",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "350184d8",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	},
+	{
+		uid: "b5b503df",
+		type: "item",
+		item: "agricraft:seed_analyzer"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	disable_toast: true,
+	x: -1.5d,
+	y: -0.5d,
+	shape: "octagon",
+	can_repeat: true,
+	dependencies: [
+		"2b89af00"
+	],
+	tasks: [{
+		uid: "356249b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "385f0020",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Tier 3 Altar",
+	icon: "bloodmagic:altar",
+	x: 3.0d,
+	y: 1.5d,
+	dependencies: [
+		"444b2d3e"
+	],
+	tasks: [{
+		uid: "0eedcf14",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 20L
+	},
+	{
+		uid: "4cc486e8",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "32952071",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

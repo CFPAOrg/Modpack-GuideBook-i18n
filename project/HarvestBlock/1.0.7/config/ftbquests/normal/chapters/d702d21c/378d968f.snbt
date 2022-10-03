@@ -1,0 +1,24 @@
+{
+	disable_toast: true,
+	x: -1.5d,
+	y: 0.5d,
+	shape: "octagon",
+	can_repeat: true,
+	dependencies: [
+		"2b89af00"
+	],
+	tasks: [{
+		uid: "f95595b5",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "965f488e",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

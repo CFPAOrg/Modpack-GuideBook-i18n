@@ -1,0 +1,28 @@
+{
+	title: "通过按键绑定任务",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ftbquests:book"
+	},
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"你可以设置一个按键绑定来打开任务书，这样你就不需要把书放在你身上了。"
+	],
+	dependencies: [
+		"7287aa72"
+	],
+	tasks: [{
+		uid: "ae0d13bf",
+		type: "checkmark",
+		title: "Keybind Quests",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ftbquests:book"
+		}
+	}]
+}

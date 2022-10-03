@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	text: [
+		"将自动收集成熟作物。"
+	],
+	dependencies: [
+		"018dc81d"
+	],
+	tasks: [{
+		uid: "854e5b32",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_recolector"
+		}]
+	}],
+	rewards: [{
+		uid: "f2fdd076",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 8.5d,
+	y: -1.5d,
+	dependencies: [
+		"d4596ea7"
+	],
+	tasks: [{
+		uid: "2a92b0d1",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:aquamarine_seeds"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11c0b785",
+		type: "item",
+		item: "customitems:glowing",
+		count: 5
+	}]
+}
