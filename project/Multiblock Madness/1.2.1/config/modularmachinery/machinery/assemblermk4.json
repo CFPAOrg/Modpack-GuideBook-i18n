@@ -1,0 +1,284 @@
+{
+	"registryname": "assemblermkfour",
+    "localizedname": "批量装配机",
+    "requires-blueprint": true,
+    "color": "F5F5F5",
+    "modifiers": [
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "extendedcrafting:storage@4",
+            "description": "提高两倍配方的输入输出数量，2x 能量消耗。",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 2
+            },
+            {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 2
+            },
+            {
+                "io": "input",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 2
+            },
+            {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 2
+            }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "avaritia:block_resource@0",
+            "description": "提高四倍配方的输入输出数量，3x 能量消耗。",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "item",
+                    "operation": 1,
+                    "multiplier": 4
+                },
+                {
+                    "io": "output",
+                    "target": "item",
+                    "operation": 1,
+                    "multiplier": 4
+                },
+                {
+                    "io": "input",
+                    "target": "fluid",
+                    "operation": 1,
+                    "multiplier": 4
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 3
+                }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "avaritia:block_resource@1",
+            "description": "提高十六倍配方的输入输出数量，25%概率不消耗流体，4x 能量消耗。",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "item",
+                    "operation": 1,
+                    "multiplier": 16
+                },
+                {
+                    "io": "output",
+                    "target": "item",
+                    "operation": 1,
+                    "multiplier": 16
+                },
+                {
+                    "io": "input",
+                    "target": "fluid",
+                    "operation": 0,
+                    "multiplier": -0.25,
+                    "affectChance": true  
+                },
+                {
+                    "io": "input",
+                    "target": "fluid",
+                    "operation": 1,
+                    "multiplier": 16
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 4
+                }
+            ]
+        }
+    ],
+    "parts": [
+            {
+                "x": [-3,-2,-1,0,1,2,3],
+                "y": 0,
+                "z": 1,
+                "elements": [
+                    "libvulpes:coil0@10"
+                ]
+            },
+            {
+                "x": [-3,-2,2,3],
+                "y": 0,
+                "z": [0,2],
+                "elements": [
+                    "modularmachinery:blockcasing@4"
+                ]
+            },
+            {
+                "x": [-1,0,1],
+                "y": 0,
+                "z": 2,
+                "elements": [
+                    "modularmachinery:blockcasing@4",
+                    "modularmachinery:blockinputbus",
+                    "modularmachinery:blockenergyinputhatch",
+                    "modularmachinery:blockfluidinputhatch",
+                    "modularmachinery:blockoutputbus"
+                ]
+            },
+            {
+                "x": [-1,1],
+                "y": 0,
+                "z": 0,
+                "elements": [
+                    "modularmachinery:blockcasing@4",
+                    "modularmachinery:blockinputbus",
+                    "modularmachinery:blockenergyinputhatch",
+                    "modularmachinery:blockfluidinputhatch",
+                    "modularmachinery:blockoutputbus"
+                ]
+            },       
+            {
+                "x": [-3,-1,1,3],
+                "y": 1,
+                "z": [0,2],
+                "elements": [
+                    "techreborn:fusion_coil"
+                ]
+            },
+            {
+                "x": [-2,2],
+                "y": 1,
+                "z": [0,2],
+                "elements": [
+                    "modularmachinery:blockcasing@5"
+                ]
+            },                                                    
+            {
+                "x": [-3,-2,-1,1,2,3],
+                "y": 1,
+                "z": 1,
+                "elements": [
+                    "techreborn:machine_frame@2"
+                ]
+            },               
+            {
+                "x": 0,
+                "y": 1,
+                "z": [0,2],
+                "elements": [
+                    "techreborn:machine_frame@2"
+                ]
+            },                       
+            {
+                "x": 0,
+                "y": 1,
+                "z": 1,
+                "elements": [
+                    "avaritia:block_resource@2"
+                ]
+            },
+            {
+                "x": [4,-4],
+                "y": 0,
+                "z": 1,
+                "elements": [
+                    "techreborn:machine_frame@0"
+                ]
+            },
+            {
+                "x": [4,-4],
+                "y": 1,
+                "z": 1,
+                "elements": [
+                    "techreborn:fusion_coil"
+                ]
+            },
+            {
+                "x": -4,
+                "y": 2,
+                "z": 1,
+                "elements": [
+                    "minecraft:stone_slab@7"
+                ]
+            },
+            {
+                "x": -4,
+                "y": 3,
+                "z": 1,
+                "elements": [
+                    "minecraft:stone_slab@15"
+                ]
+            },
+            {
+                "x": [3,1,-1,-3,-4],
+                "y": 4,
+                "z": 1,
+                "elements": [
+                    "techreborn:machine_frame@0"
+                ]
+            },
+            {
+                "x": [-2,2],
+                "y": 4,
+                "z": 1,
+                "elements": [
+                    "qmd:discharge_lamp@0"
+                ]
+            },
+            {
+                "x": 0,
+                "y": 4,
+                "z": 1,
+                "elements": [
+                    "techreborn:fusion_coil"
+                ]
+            },
+            {
+                "x": 0,
+                "y": 3,
+                "z": 1,
+                "elements": [
+                    "mekanism:plasticfence@15"
+                ]
+            },
+            {
+                "x": 2,
+                "y": 3,
+                "z": 2,
+                "elements": [
+                    "mekanism:plasticfence@15"
+                ]
+            },
+            {
+                "x": -2,
+                "y": 3,
+                "z": 0,
+                "elements": [
+                    "mekanism:plasticfence@15"
+                ]
+            },
+            {
+                "x": [-2,2],
+                "y": 4,
+                "z": [0,2],
+                "elements": [
+                    "mekanism:plasticfence@15"
+                ]
+            }
+        ]
+            }

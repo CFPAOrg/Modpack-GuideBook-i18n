@@ -1,0 +1,993 @@
+{
+	id: "0000000000000446"
+	group: ""
+	order_index: 6
+	filename: "00000651"
+	title: "&700:00:06:51（AE）"
+	icon: "appliedenergistics2:crafting_terminal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["0000000000000513"]
+			id: "0000000000000449"
+			tasks: [{
+				id: "000000000000044A"
+				type: "item"
+				item: "appliedenergistics2:energy_acceptor"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["0000000000000449"]
+			id: "000000000000044B"
+			tasks: [{
+				id: "000000000000044C"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["000000000000044B"]
+			id: "000000000000044D"
+			tasks: [{
+				id: "000000000000044E"
+				type: "item"
+				item: "appliedenergistics2:logic_processor"
+				count: 32L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["000000000000044D"]
+			size: 1.2d
+			id: "000000000000044F"
+			tasks: [{
+				id: "0000000000000450"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["0000000000000449"]
+			id: "0000000000000451"
+			tasks: [{
+				id: "0000000000000452"
+				type: "item"
+				item: "appliedenergistics2:sky_compass"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			shape: "hexagon"
+			dependencies: ["000000000000044D"]
+			size: 1.2d
+			id: "0000000000000453"
+			tasks: [{
+				id: "0000000000000454"
+				type: "item"
+				item: "appliedenergistics2:semi_dark_monitor"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["0000000000000457"]
+			id: "0000000000000455"
+			tasks: [{
+				id: "0000000000000456"
+				type: "item"
+				item: "appliedenergistics2:interface_terminal"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			shape: "hexagon"
+			dependencies: ["0000000000000453"]
+			id: "0000000000000457"
+			tasks: [{
+				id: "0000000000000458"
+				type: "item"
+				item: "appliedenergistics2:terminal"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["0000000000000457"]
+			id: "0000000000000459"
+			tasks: [
+				{
+					id: "000000000000045A"
+					type: "item"
+					item: "appliedenergistics2:crafting_terminal"
+				}
+				{
+					id: "000000000000045F"
+					type: "item"
+					item: "appliedenergistics2:pattern_terminal"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["0000000000000457"]
+			id: "000000000000045D"
+			tasks: [{
+				id: "000000000000045E"
+				type: "item"
+				item: "appliedenergistics2:fluid_terminal"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["0000000000000457"]
+			id: "0000000000000460"
+			tasks: [{
+				id: "0000000000000461"
+				type: "item"
+				item: "appliedenergistics2:chest"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["0000000000000460"]
+			id: "0000000000000462"
+			tasks: [{
+				id: "0000000000000463"
+				type: "item"
+				item: "appliedenergistics2:security_station"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["0000000000000462"]
+			id: "0000000000000464"
+			tasks: [{
+				id: "0000000000000465"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:wireless_terminal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			shape: "pentagon"
+			dependencies: ["0000000000000468"]
+			id: "0000000000000466"
+			tasks: [{
+				id: "0000000000000467"
+				type: "item"
+				item: "appliedenergistics2:4k_cell_component"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["000000000000044F"]
+			id: "0000000000000468"
+			tasks: [{
+				id: "0000000000000469"
+				type: "item"
+				item: "appliedenergistics2:1k_cell_component"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			shape: "hexagon"
+			dependencies: ["0000000000000466"]
+			id: "000000000000046A"
+			tasks: [{
+				id: "000000000000046B"
+				type: "item"
+				item: "appliedenergistics2:16k_cell_component"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			shape: "octagon"
+			dependencies: ["000000000000046A"]
+			id: "000000000000046C"
+			tasks: [{
+				id: "000000000000046D"
+				type: "item"
+				item: "appliedenergistics2:64k_cell_component"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["000000000000044F"]
+			id: "000000000000046E"
+			tasks: [{
+				id: "000000000000046F"
+				type: "item"
+				item: "appliedenergistics2:1k_fluid_cell_component"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			shape: "pentagon"
+			dependencies: ["000000000000046E"]
+			id: "0000000000000470"
+			tasks: [{
+				id: "0000000000000471"
+				type: "item"
+				item: "appliedenergistics2:4k_fluid_cell_component"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			shape: "hexagon"
+			dependencies: ["0000000000000470"]
+			id: "0000000000000472"
+			tasks: [{
+				id: "0000000000000473"
+				type: "item"
+				item: "appliedenergistics2:16k_fluid_cell_component"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			shape: "octagon"
+			dependencies: ["0000000000000472"]
+			id: "0000000000000474"
+			tasks: [{
+				id: "0000000000000475"
+				type: "item"
+				item: "appliedenergistics2:64k_fluid_cell_component"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["000000000000044F"]
+			id: "0000000000000476"
+			tasks: [{
+				id: "0000000000000477"
+				type: "item"
+				item: "appliedenergistics2:2_cubed_spatial_cell_component"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			shape: "pentagon"
+			dependencies: ["0000000000000476"]
+			id: "0000000000000478"
+			tasks: [{
+				id: "0000000000000479"
+				type: "item"
+				item: "appliedenergistics2:16_cubed_spatial_cell_component"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			shape: "hexagon"
+			dependencies: ["0000000000000478"]
+			id: "000000000000047A"
+			tasks: [{
+				id: "000000000000047B"
+				type: "item"
+				item: "appliedenergistics2:128_cubed_spatial_cell_component"
+			}]
+		}
+		{
+			x: 7.8d
+			y: 0.6d
+			shape: "hexagon"
+			dependencies: ["000000000000049D"]
+			size: 1.2d
+			id: "000000000000047C"
+			tasks: [{
+				id: "000000000000047D"
+				type: "item"
+				item: "appliedenergistics2:quantum_ring"
+			}]
+		}
+		{
+			x: 3.5999999999999996d
+			y: 0.0d
+			dependencies: ["000000000000044D"]
+			size: 1.2d
+			id: "000000000000047E"
+			tasks: [{
+				id: "000000000000047F"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["0000000000000464"]
+			id: "0000000000000480"
+			tasks: [{
+				id: "0000000000000481"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:biometric_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			dependencies: ["000000000000047E"]
+			id: "0000000000000482"
+			tasks: [
+				{
+					id: "0000000000000483"
+					type: "item"
+					item: "appliedenergistics2:fluix_covered_dense_cable"
+					count: 16L
+				}
+				{
+					id: "0000000000000484"
+					type: "item"
+					item: "appliedenergistics2:fluix_covered_cable"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "0000000000000485"
+				type: "item"
+				item: "appliedenergistics2:fluix_covered_dense_cable"
+				count: 8
+			}]
+		}
+		{
+			title: "Autocrafting!"
+			x: 5.0d
+			y: 1.0d
+			description: [""]
+			dependencies: ["000000000000047E"]
+			id: "0000000000000486"
+			tasks: [{
+				id: "0000000000000487"
+				type: "item"
+				item: "appliedenergistics2:interface"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["000000000000047E"]
+			id: "0000000000000488"
+			tasks: [{
+				id: "0000000000000489"
+				type: "item"
+				item: "appliedenergistics2:fluid_interface"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["0000000000000486"]
+			id: "000000000000048C"
+			tasks: [{
+				id: "000000000000048D"
+				type: "item"
+				item: "appliedenergistics2:crafting_card"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["0000000000000482"]
+			id: "000000000000048E"
+			tasks: [
+				{
+					id: "000000000000048F"
+					type: "item"
+					item: "appliedenergistics2:import_bus"
+				}
+				{
+					id: "0000000000000490"
+					type: "item"
+					item: "appliedenergistics2:export_bus"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.4d
+			dependencies: ["000000000000048E"]
+			size: 0.8d
+			id: "0000000000000491"
+			tasks: [
+				{
+					id: "0000000000000492"
+					type: "item"
+					item: "appliedenergistics2:redstone_card"
+				}
+				{
+					id: "00000000000004A1"
+					type: "item"
+					item: "appliedenergistics2:fuzzy_card"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["0000000000000486"]
+			id: "0000000000000493"
+			tasks: [{
+				id: "0000000000000494"
+				type: "item"
+				item: "appliedenergistics2:speed_card"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["000000000000047E"]
+			id: "0000000000000497"
+			tasks: [{
+				id: "0000000000000498"
+				type: "item"
+				item: "appliedenergistics2:spatial_io_port"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			shape: "gear"
+			description: ["You Can Start Producing Matter Balls With 1K ME Storage Component You Got Here!"]
+			dependencies: ["0000000000000513"]
+			size: 1.2d
+			id: "0000000000000499"
+			tasks: [{
+				id: "000000000000049A"
+				type: "item"
+				item: "appliedenergistics2:condenser"
+			}]
+			rewards: [{
+				id: "6DAA754198EEB5AF"
+				type: "item"
+				item: "appliedenergistics2:1k_cell_component"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			shape: "octagon"
+			dependencies: ["000000000000047A"]
+			id: "000000000000049B"
+			tasks: [{
+				id: "000000000000049C"
+				type: "item"
+				item: "appliedenergistics2:128_cubed_spatial_storage_cell"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			shape: "pentagon"
+			dependencies: ["0000000000000497"]
+			id: "000000000000049D"
+			tasks: [{
+				id: "000000000000049E"
+				type: "item"
+				item: "appliedenergistics2:singularity"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			id: "00000000000004A2"
+			tasks: [{
+				id: "00000000000004A3"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				count: 32L
+			}]
+			rewards: [{
+				id: "00000000000004A4"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"Refined Storage现在有不同颜色的控制器了。按你喜欢的选择。"
+				""
+				"&e但你需要橙色的控制器&e来完成这个任务，不好意思嘻嘻"
+			]
+			dependencies: ["00000000000004A2"]
+			id: "00000000000004A5"
+			tasks: [{
+				id: "00000000000004A7"
+				type: "item"
+				item: "refinedstorage:orange_controller"
+			}]
+			rewards: [{
+				id: "00000000000004A8"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["00000000000004A5"]
+			id: "00000000000004A9"
+			tasks: [{
+				id: "00000000000004AA"
+				type: "item"
+				item: "refinedstorage:cable"
+				count: 16L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["00000000000004A9"]
+			id: "00000000000004AB"
+			tasks: [{
+				id: "00000000000004AC"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
+		}
+		{
+			icon: "refinedstorage:orange_grid"
+			x: -4.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["00000000000004BC"]
+			id: "00000000000004AF"
+			tasks: [{
+				id: "00000000000004E8"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+		}
+		{
+			icon: "refinedstorage:orange_crafting_grid"
+			x: -4.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["00000000000004AF"]
+			id: "00000000000004B1"
+			tasks: [{
+				id: "00000000000004EC"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+		}
+		{
+			icon: "refinedstorage:orange_pattern_grid"
+			x: -5.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["00000000000004AF"]
+			id: "00000000000004B3"
+			tasks: [{
+				id: "00000000000004EE"
+				type: "item"
+				item: "refinedstorage:pattern_grid"
+			}]
+		}
+		{
+			icon: "refinedstorage:orange_fluid_grid"
+			x: -5.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["00000000000004AF"]
+			id: "00000000000004B5"
+			tasks: [{
+				id: "00000000000004E9"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+		}
+		{
+			icon: "refinedstorage:improved_processor"
+			x: -4.5d
+			y: -0.44999999999999996d
+			shape: "hexagon"
+			dependencies: ["00000000000004AB"]
+			size: 0.9d
+			id: "00000000000004BC"
+			tasks: [
+				{
+					id: "00000000000004BD"
+					type: "item"
+					item: "refinedstorage:basic_processor"
+				}
+				{
+					id: "00000000000004BE"
+					type: "item"
+					item: "refinedstorage:improved_processor"
+				}
+				{
+					id: "00000000000004BF"
+					type: "item"
+					item: "refinedstorage:advanced_processor"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["00000000000004A9"]
+			size: 1.2d
+			id: "00000000000004C0"
+			tasks: [{
+				id: "00000000000004C1"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["00000000000004C0"]
+			id: "00000000000004C2"
+			tasks: [{
+				id: "00000000000004C3"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			shape: "pentagon"
+			dependencies: ["00000000000004C2"]
+			id: "00000000000004C4"
+			tasks: [{
+				id: "00000000000004C5"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			shape: "hexagon"
+			dependencies: ["00000000000004C4"]
+			id: "00000000000004C6"
+			tasks: [{
+				id: "00000000000004C7"
+				type: "item"
+				item: "extrastorage:storagepart_256k"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			shape: "octagon"
+			dependencies: ["00000000000004C6"]
+			id: "00000000000004C8"
+			tasks: [{
+				id: "00000000000004C9"
+				type: "item"
+				item: "extrastorage:storagepart_1024k"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["00000000000004C0"]
+			id: "00000000000004CA"
+			tasks: [{
+				id: "00000000000004CB"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_part"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			shape: "pentagon"
+			dependencies: ["00000000000004CA"]
+			id: "00000000000004CC"
+			tasks: [{
+				id: "00000000000004CD"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_part"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			shape: "hexagon"
+			dependencies: ["00000000000004CC"]
+			id: "00000000000004CE"
+			tasks: [{
+				id: "00000000000004CF"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_part"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			shape: "octagon"
+			dependencies: ["00000000000004CE"]
+			id: "00000000000004D0"
+			tasks: [{
+				id: "00000000000004D1"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_part"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["00000000000004AB"]
+			size: 0.9d
+			id: "00000000000004D2"
+			tasks: [
+				{
+					id: "00000000000004D5"
+					type: "item"
+					item: "refinedstorage:importer"
+				}
+				{
+					id: "00000000000004D6"
+					type: "item"
+					item: "extrastorage:advanced_importer"
+				}
+			]
+			rewards: [{
+				id: "00000000000004D7"
+				type: "item"
+				item: "refinedstorage:cable"
+				count: 8
+			}]
+		}
+		{
+			icon: "refinedstorage:orange_crafter"
+			x: -5.5d
+			y: 1.5d
+			shape: "heart"
+			dependencies: ["00000000000004AB"]
+			size: 0.9d
+			id: "00000000000004D8"
+			tasks: [{
+				id: "00000000000004D9"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["00000000000004D8"]
+			id: "00000000000004DA"
+			tasks: [{
+				id: "00000000000004DB"
+				type: "item"
+				item: "extrastorage:iron_crafter"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			shape: "pentagon"
+			dependencies: ["00000000000004DA"]
+			id: "00000000000004DC"
+			tasks: [{
+				id: "00000000000004DD"
+				type: "item"
+				item: "extrastorage:gold_crafter"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			shape: "hexagon"
+			dependencies: ["00000000000004DC"]
+			id: "00000000000004DE"
+			tasks: [{
+				id: "00000000000004DF"
+				type: "item"
+				item: "extrastorage:diamond_crafter"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			shape: "octagon"
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004E0"
+			tasks: [{
+				id: "00000000000004E1"
+				type: "item"
+				item: "extrastorage:netherite_crafter"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["00000000000004E6"]
+			id: "00000000000004E2"
+			tasks: [{
+				id: "00000000000004E3"
+				type: "item"
+				item: "refinedstorage:network_receiver"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			shape: "hexagon"
+			dependencies: ["00000000000004E6"]
+			id: "00000000000004E4"
+			tasks: [{
+				id: "00000000000004E5"
+				type: "item"
+				item: "refinedstorage:network_transmitter"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["00000000000004AB"]
+			id: "00000000000004E6"
+			tasks: [{
+				id: "00000000000004E7"
+				type: "item"
+				item: "refinedstorage:network_card"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["00000000000004D2"]
+			size: 0.9d
+			id: "00000000000004EF"
+			tasks: [
+				{
+					id: "00000000000004F0"
+					type: "item"
+					item: "refinedstorage:exporter"
+				}
+				{
+					id: "00000000000004F1"
+					type: "item"
+					item: "extrastorage:advanced_exporter"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["00000000000004F9"]
+			id: "00000000000004F2"
+			tasks: [{
+				id: "00000000000004F3"
+				type: "item"
+				item: "refinedstorage:wireless_crafting_monitor"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["00000000000004F9"]
+			id: "00000000000004F4"
+			tasks: [{
+				id: "00000000000004F6"
+				type: "item"
+				item: "refinedstorage:wireless_fluid_grid"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["00000000000004F9"]
+			id: "00000000000004F7"
+			tasks: [{
+				id: "00000000000004F8"
+				type: "item"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["00000000000004AB"]
+			id: "00000000000004F9"
+			tasks: [{
+				id: "00000000000004FA"
+				type: "item"
+				item: "refinedstorage:wireless_transmitter"
+			}]
+		}
+		{
+			x: 1.2d
+			y: -0.6d
+			shape: "diamond"
+			subtitle: "You can now also craft Fluix Crystal with Metallurgic Infuser."
+			dependencies: ["000000000000051E"]
+			size: 0.6d
+			id: "0000000000000513"
+			tasks: [{
+				id: "0000000000000514"
+				type: "item"
+				item: "appliedenergistics2:fluix_crystal"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0000000000000516"
+				type: "item"
+				item: "appliedenergistics2:logic_processor"
+				count: 8
+			}]
+		}
+		{
+			x: 0.8999999999999999d
+			y: -1.2d
+			subtitle: "Charged Certus Quartz Ore Is Disabled. You Can Craft Charged Certus Quartz In Blood Altar."
+			size: 0.6d
+			id: "000000000000051E"
+			tasks: [{
+				id: "000000000000051F"
+				type: "item"
+				item: "appliedenergistics2:charged_certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "0000000000000520"
+				type: "item"
+				item: "appliedenergistics2:charged_certus_quartz_crystal"
+				count: 4
+			}]
+		}
+	]
+}

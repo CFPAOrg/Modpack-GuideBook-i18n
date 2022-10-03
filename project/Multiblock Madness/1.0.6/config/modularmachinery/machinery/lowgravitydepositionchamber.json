@@ -1,0 +1,4567 @@
+{
+	"registryname": "lowgravitydepositionchamber",
+    "localizedname": "低引力凝华仓",
+    "requires-blueprint": true,
+    "color": "222222",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 0,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 11,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 11,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 11,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 11,
+            
+            "elements": [
+                "LGDC"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 11,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 11,
+            
+            "elements": [
+                "LGDC"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 10,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 10,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 11,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 10,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 11,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 10,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 9,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 9,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 10,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 9,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 10,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 9,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 9,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 9,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 10,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 10,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 8,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 8,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 9,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 9,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 9,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 7,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": -4,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": -2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": -2,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": -2,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": -2,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": -2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -5,
+            
+            "elements": [
+                "LGDC"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": -1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": -1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -5,
+            
+            "elements": [
+                "LGDC"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 8,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 8,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -3,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "LGDC"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 7,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 7,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -3,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "LGDC"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 3,
+            
+            "elements": [
+                "LGDC"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 7,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 7,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 3,
+            
+            "elements": [
+                "LGDC"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 6,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "rockhounding_chemistry:alloy_blocks_deco@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 4,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 5,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sheetmetal_nimonic@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "qmd:discharge_lamp@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "contenttweaker:plating_elite@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:scal_scaffolding@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            
+            "elements": [
+                "qmd:containment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        }
+    ]}

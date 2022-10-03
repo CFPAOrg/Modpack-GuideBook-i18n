@@ -1,0 +1,445 @@
+{
+    "registryname": "minifield-crafter",
+    "localizedname": "3D制造机",
+    "requires-blueprint": true,
+    "color": "757575",
+    "modifiers": [
+        {
+            "x": [-2,-1,0,1,2],
+            "y": 0,
+            "z": [1,7],
+            "elements": "techreborn:machine_casing@1",
+            "description": "升级机械外壳来减少处理时间。",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.98
+            }
+        },
+        {
+            "x": [-3,3],
+            "y": 0,
+            "z": [2,3,4,5,6],
+            "elements": "techreborn:machine_casing@1",
+            "description": "升级机械外壳来减少处理时间。",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.98
+            }
+        },
+        {
+            "x": [-2,-1,0,1,2],
+            "y": 0,
+            "z": [1,7],
+            "elements": "techreborn:machine_casing@2",
+            "description": "升级机械外壳来减少处理时间。",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.96
+            }
+        },
+        {
+            "x": [-3,3],
+            "y": 0,
+            "z": [2,3,4,5,6],
+            "elements": "techreborn:machine_casing@2",
+            "description": "升级机械外壳来减少处理时间。",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.96
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": [-2,-1,0,1,2],
+            "y": 0,
+            "z": [1,7],
+             "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": [-3,3],
+            "y": 0,
+            "z": [2,3,4,5,6],
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": [-1,0,1],
+            "y": 4,
+            "z": [3,4,5],
+            "elements": [
+                "actuallyadditions:block_misc@8"
+            ]
+        },
+        {
+            "x": [-2,-1,0,1,2],
+            "y": [1,2],
+            "z": [1,7],
+             "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": [-3,3],
+            "y": [1,2],
+            "z": [2,3,4,5,6],
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_item_energy"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_item_energy"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "casings_item_energy"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "fieldprojector"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "fieldprojector"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "fieldprojector"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "fieldprojector"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+             "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 7,
+             "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_misc@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+             "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        }
+    ]}

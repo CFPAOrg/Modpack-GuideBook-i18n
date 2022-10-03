@@ -1,0 +1,343 @@
+{
+	id: "00000000000000F3",
+	group: "",
+	order_index: 3,
+	filename: "blood_c",
+	title: "饮血、吸髓",
+	icon: "bloodmagic:altar",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			subtitle: "鲜血，碎骨，精髓",
+			description: ["&a血之祭坛：&fBlood Magic的核心。"],
+			dependencies: ["00000000000000F7"],
+			id: "00000000000000F4",
+			tasks: [{
+				id: "00000000000000F5",
+				type: "item",
+				item: "bloodmagic:altar"
+			}],
+			rewards: [{
+				id: "00000000000000F6",
+				type: "item",
+				item: "bloodmagic:life_essence_bucket"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.0d,
+			description: ["&a提示：&f击杀被灵魂投网击中的敌对怪物可以获得恶魔意志。"],
+			id: "00000000000000F7",
+			tasks: [{
+				id: "00000000000000F8",
+				type: "item",
+				item: "bloodmagic:soulsnare",
+				count: 4L
+			}],
+			rewards: [{
+				id: "00000000000000F9",
+				type: "item",
+				item: "pamhc2foodcore:basiccheeseburgeritem",
+				count: 2
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			description: ["是时候搭建&a2级祭坛了！"],
+			dependencies: ["00000000000000F4"],
+			id: "00000000000000FA",
+			tasks: [{
+				id: "00000000000000FB",
+				type: "item",
+				item: "bloodmagic:blankrune",
+				count: 8L
+			}]
+		},
+		{
+			icon: "minecraft:glowstone",
+			x: 2.5d,
+			y: 1.0d,
+			description: ["是时候搭建&a3级祭坛了！"],
+			dependencies: ["00000000000000FA"],
+			id: "00000000000000FC",
+			tasks: [
+				{
+					id: "00000000000000FD",
+					type: "item",
+					item: "bloodmagic:selfsacrificerune",
+					count: 10L
+				},
+				{
+					id: "00000000000000FE",
+					type: "item",
+					item: "bloodmagic:blankrune",
+					count: 10L
+				},
+				{
+					id: "00000000000000FF",
+					type: "item",
+					item: "minecraft:glowstone",
+					count: 4L
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 2.5d,
+			description: ["&a提示：&f2级移动血库。非常便于使用印记。"],
+			dependencies: ["00000000000000FA"],
+			id: "0000000000000100",
+			tasks: [{
+				id: "0000000000000101",
+				type: "item",
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 2.0d,
+			description: ["&a提示：&f3级移动血库。非常便于使用印记。"],
+			dependencies: ["00000000000000FC"],
+			id: "0000000000000102",
+			tasks: [{
+				id: "0000000000000103",
+				type: "item",
+				item: "bloodmagic:magicianbloodorb"
+			}]
+		},
+		{
+			x: 0.8999999999999999d,
+			y: 0.8999999999999999d,
+			description: ["&a提示：&f基础移动血库。非常便于使用印记。"],
+			dependencies: ["00000000000000F4"],
+			size: 0.6d,
+			id: "0000000000000104",
+			tasks: [{
+				id: "0000000000000105",
+				type: "item",
+				item: "bloodmagic:weakbloodorb"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 1.5d,
+			description: ["&a提示：&f4级移动血库。非常便于使用印记。"],
+			dependencies: ["0000000000000108"],
+			id: "0000000000000106",
+			tasks: [{
+				id: "0000000000000107",
+				type: "item",
+				item: "bloodmagic:masterbloodorb"
+			}]
+		},
+		{
+			icon: "bloodmagic:largebloodstonebrick",
+			x: 3.5d,
+			y: 0.5d,
+			description: ["是时候搭建&a4级祭坛了！"],
+			dependencies: ["00000000000000FC"],
+			id: "0000000000000108",
+			tasks: [
+				{
+					id: "0000000000000109",
+					type: "item",
+					item: "bloodmagic:altarcapacityrune",
+					count: 8L
+				},
+				{
+					id: "000000000000010A",
+					type: "item",
+					item: "bloodmagic:blankrune",
+					count: 20L
+				},
+				{
+					id: "000000000000010B",
+					type: "item",
+					item: "bloodmagic:largebloodstonebrick",
+					count: 4L
+				}
+			]
+		},
+		{
+			icon: "minecraft:beacon",
+			x: 4.5d,
+			y: 0.0d,
+			description: ["是时候搭建&a5级祭坛了！"],
+			dependencies: ["0000000000000108"],
+			id: "000000000000010C",
+			tasks: [
+				{
+					id: "000000000000010D",
+					type: "item",
+					item: "bloodmagic:bettercapacityrune",
+					count: 5L
+				},
+				{
+					id: "000000000000010E",
+					type: "item",
+					item: "bloodmagic:accelerationrune",
+					count: 5L
+				},
+				{
+					id: "000000000000010F",
+					type: "item",
+					item: "minecraft:beacon",
+					count: 4L
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: 1.0d,
+			shape: "hexagon",
+			description: ["&aEthereal Slate: &fThe most powerful slate used for Endgame Recipes."],
+			dependencies: ["000000000000010C"],
+			id: "0000000000000110",
+			tasks: [{
+				id: "0000000000000111",
+				type: "item",
+				item: "bloodmagic:etherealslate"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -0.5d,
+			description: ["&a提示：&f查看JEI获取更多信息。"],
+			dependencies: ["000000000000011F"],
+			id: "0000000000000112",
+			tasks: [
+				{
+					id: "0000000000000113",
+					type: "item",
+					item: "bloodmagic:alchemicalreactionchamber"
+				},
+				{
+					id: "0000000000000114",
+					type: "item",
+					item: "bloodmagic:demoncrucible"
+				},
+				{
+					id: "0000000000000115",
+					type: "item",
+					item: "bloodmagic:demoncrystallizer"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: 0.5d,
+			description: ["&a提示：&f消耗鲜血就可以无限使用。"],
+			dependencies: ["000000000000011F"],
+			id: "0000000000000116",
+			tasks: [{
+				id: "0000000000000117",
+				type: "item",
+				item: "bloodmagic:lavacrystal"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 1.5d,
+			description: ["&a提示：&f能帮助你搭建仪式。"],
+			dependencies: ["000000000000011F"],
+			id: "0000000000000118",
+			tasks: [{
+				id: "0000000000000119",
+				type: "item",
+				item: "bloodmagic:ritualdiviner"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.5d,
+			description: ["&a提示：&f查看JEI获取更多信息。"],
+			dependencies: ["000000000000011F"],
+			id: "000000000000011A",
+			tasks: [
+				{
+					id: "000000000000011B",
+					type: "item",
+					item: {
+						id: "bloodmagic:livinghelmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "000000000000011C",
+					type: "item",
+					item: {
+						id: "bloodmagic:livingplate",
+						Count: 1b,
+						tag: {
+							Damage: 0,
+							livingStats: {
+								maxPoints: 100,
+								upgrades: []
+							}
+						}
+					}
+				},
+				{
+					id: "000000000000011D",
+					type: "item",
+					item: {
+						id: "bloodmagic:livingleggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "000000000000011E",
+					type: "item",
+					item: {
+						id: "bloodmagic:livingboots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -0.8d,
+			y: 0.8d,
+			description: ["&a提示：&f查看JEI获取更多信息。"],
+			dependencies: ["00000000000000F4"],
+			size: 0.8d,
+			id: "000000000000011F",
+			tasks: [{
+				id: "0000000000000120",
+				type: "item",
+				item: "bloodmagic:soulforge"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			description: ["&a奥术粉灰：&f制作印记和Living套装的有用物品。"],
+			dependencies: ["000000000000011F"],
+			size: 0.6d,
+			id: "0000000000000121",
+			tasks: [{
+				id: "0000000000000122",
+				type: "item",
+				item: {
+					id: "bloodmagic:arcaneashes",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

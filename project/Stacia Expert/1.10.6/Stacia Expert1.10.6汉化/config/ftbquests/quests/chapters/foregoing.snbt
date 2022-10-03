@@ -1,0 +1,413 @@
+{
+	id: "00000000000000C1",
+	group: "",
+	order_index: 9,
+	filename: "foregoing",
+	title: "无言颂歌",
+	icon: "industrialforegoing:latex_processing_unit",
+	default_quest_shape: "",
+	quests: [
+		{
+			disable_toast: true,
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			id: "00000000000003AB",
+			tasks: [{
+				id: "1056F405045B0931",
+				type: "checkmark",
+				icon: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+			}],
+			rewards: [{
+				id: "63B75892A0C46B7A",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.5d,
+			dependencies: ["00000000000003AB"],
+			id: "00000000000003AD",
+			tasks: [{
+				id: "00000000000003AE",
+				type: "item",
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 1.0d,
+			shape: "diamond",
+			dependencies: ["00000000000003AD"],
+			id: "00000000000003AF",
+			tasks: [{
+				id: "00000000000003B0",
+				type: "item",
+				item: "industrialforegoing:fluid_extractor"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 2.5d,
+			dependencies: ["00000000000003AD"],
+			id: "00000000000003B1",
+			tasks: [
+				{
+					id: "00000000000003B2",
+					type: "item",
+					item: "industrialforegoing:plant_gatherer"
+				},
+				{
+					id: "00000000000003B3",
+					type: "item",
+					item: "industrialforegoing:plant_sower"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 3.5d,
+			dependencies: ["00000000000003AD"],
+			id: "00000000000003B4",
+			tasks: [{
+				id: "00000000000003B5",
+				type: "item",
+				item: "industrialforegoing:spores_recreator"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			dependencies: ["00000000000003AD"],
+			id: "00000000000003B6",
+			tasks: [
+				{
+					id: "00000000000003B7",
+					type: "item",
+					item: "industrialforegoing:biofuel_generator"
+				},
+				{
+					id: "00000000000003B8",
+					type: "item",
+					item: "industrialforegoing:bioreactor"
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 1.5d,
+			shape: "diamond",
+			dependencies: ["00000000000003AF"],
+			id: "00000000000003B9",
+			tasks: [{
+				id: "00000000000003BD",
+				type: "item",
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.5d,
+			shape: "octagon",
+			dependencies: ["00000000000003AF"],
+			size: 1.3d,
+			id: "00000000000003BB",
+			tasks: [{
+				id: "00000000000003BC",
+				type: "item",
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.5d,
+			dependencies: ["00000000000003AF"],
+			id: "00000000000003BE",
+			tasks: [{
+				id: "00000000000003BF",
+				type: "item",
+				item: "industrialforegoing:plastic"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 0.0d,
+			dependencies: ["00000000000003AD"],
+			id: "00000000000003C0",
+			tasks: [
+				{
+					id: "00000000000003C1",
+					type: "item",
+					item: "industrialforegoing:animal_rancher"
+				},
+				{
+					id: "00000000000003C2",
+					type: "item",
+					item: "industrialforegoing:animal_feeder"
+				},
+				{
+					id: "00000000000003C3",
+					type: "item",
+					item: "industrialforegoing:animal_baby_separator"
+				}
+			]
+		},
+		{
+			x: 7.0d,
+			y: -0.5d,
+			dependencies: ["00000000000003BE"],
+			id: "00000000000003C6",
+			tasks: [{
+				id: "00000000000003C7",
+				type: "item",
+				item: "industrialforegoing:mob_crusher"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 0.5d,
+			dependencies: ["00000000000003BE"],
+			id: "00000000000003C8",
+			tasks: [{
+				id: "00000000000003C9",
+				type: "item",
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 0.0d,
+			dependencies: ["00000000000003C8"],
+			id: "00000000000003CA",
+			tasks: [{
+				id: "00000000000003CB",
+				type: "item",
+				item: "industrialforegoing:pink_slime_ingot"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 3.0d,
+			dependencies: ["00000000000003AD"],
+			id: "00000000000003CC",
+			tasks: [
+				{
+					id: "00000000000003CD",
+					type: "item",
+					item: "industrialforegoing:fluid_collector"
+				},
+				{
+					id: "00000000000003CE",
+					type: "item",
+					item: "industrialforegoing:fluid_placer"
+				},
+				{
+					id: "00000000000003CF",
+					type: "item",
+					item: "industrialforegoing:fluid_extractor"
+				}
+			]
+		},
+		{
+			x: 6.500000000000001d,
+			y: 3.9000000000000004d,
+			shape: "octagon",
+			dependencies: ["00000000000003BB"],
+			size: 1.3d,
+			id: "00000000000003D0",
+			tasks: [{
+				id: "00000000000003D1",
+				type: "item",
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 5.0d,
+			dependencies: ["00000000000003D0"],
+			id: "00000000000003D2",
+			tasks: [{
+				id: "00000000000003D3",
+				type: "item",
+				item: "industrialforegoing:marine_fisher"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 5.5d,
+			dependencies: ["00000000000003D0"],
+			id: "00000000000003D4",
+			tasks: [{
+				id: "00000000000003D5",
+				type: "item",
+				item: "industrialforegoing:laser_drill"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 2.5d,
+			dependencies: ["00000000000003D0"],
+			id: "00000000000003D6",
+			tasks: [{
+				id: "00000000000003D7",
+				type: "item",
+				item: "industrialforegoing:mob_detector"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -0.5d,
+			dependencies: ["00000000000003C6"],
+			id: "00000000000003D8",
+			tasks: [{
+				id: "00000000000003D9",
+				type: "item",
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+		},
+		{
+			x: 9.100000000000001d,
+			y: 1.9500000000000002d,
+			shape: "octagon",
+			dependencies: ["00000000000003D0"],
+			size: 1.3d,
+			id: "00000000000003DA",
+			tasks: [{
+				id: "00000000000003DB",
+				type: "item",
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 1.5d,
+			dependencies: ["00000000000003DA"],
+			id: "00000000000003DC",
+			tasks: [{
+				id: "00000000000003DD",
+				type: "item",
+				item: "industrialforegoing:enchantment_sorter"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 0.5d,
+			dependencies: ["00000000000003DA"],
+			id: "00000000000003DE",
+			tasks: [
+				{
+					id: "00000000000003DF",
+					type: "item",
+					item: "industrialforegoing:enchantment_factory"
+				},
+				{
+					id: "00000000000003E0",
+					type: "item",
+					item: "industrialforegoing:enchantment_applicator"
+				},
+				{
+					id: "00000000000003E1",
+					type: "item",
+					item: "industrialforegoing:enchantment_extractor"
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 3.5d,
+			shape: "gear",
+			dependencies: ["00000000000003DA"],
+			id: "00000000000003E2",
+			tasks: [{
+				id: "00000000000003E3",
+				type: "item",
+				item: "industrialforegoing:ore_laser_base"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 4.5d,
+			shape: "gear",
+			dependencies: ["00000000000003DA"],
+			id: "00000000000003E4",
+			tasks: [{
+				id: "00000000000003E5",
+				type: "item",
+				item: "industrialforegoing:fluid_laser_base"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 3.5d,
+			dependencies: ["00000000000003DA"],
+			id: "00000000000003E6",
+			tasks: [{
+				id: "00000000000003E7",
+				type: "item",
+				item: "industrialforegoing:infinity_charger"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 2.0d,
+			shape: "pentagon",
+			dependencies: ["00000000000003DA"],
+			id: "00000000000003E8",
+			tasks: [{
+				id: "00000000000003E9",
+				type: "item",
+				item: "industrialforegoing:material_stonework_factory"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 4.5d,
+			shape: "octagon",
+			dependencies: ["00000000000003DA"],
+			size: 1.3d,
+			id: "00000000000003EA",
+			tasks: [{
+				id: "00000000000003EB",
+				type: "item",
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 5.0d,
+			dependencies: ["00000000000003EA"],
+			id: "00000000000003EC",
+			tasks: [{
+				id: "00000000000003ED",
+				type: "item",
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+		},
+		{
+			x: 13.000000000000002d,
+			y: 3.2500000000000004d,
+			shape: "gear",
+			dependencies: ["00000000000003EA"],
+			size: 1.3d,
+			id: "00000000000003EE",
+			tasks: [{
+				id: "00000000000003EF",
+				type: "item",
+				item: "thermal:machine_frame"
+			}]
+		}
+	]
+}

@@ -1,0 +1,251 @@
+{
+	"registryname": "assemblermkone",
+    "localizedname": "基础装配机",
+    "requires-blueprint": true,
+    "color": "D9D9D9",
+    "modifiers": [
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "thermalfoundation:storage@6",
+            "description": "2x 速度，2.67x 能量消耗",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.50
+            },
+            {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 1.333
+            }            
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "mekanism:basicblock@0",
+            "description": "3x 速度，4x 能量消耗",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.333
+            },
+            {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 1.333
+            }       
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "thermalfoundation:storage_alloy@7",
+            "description": "2.5x 速度，5x 能量消耗",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.40
+            },
+            {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 2
+            }       
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "plustic:osgloglasblock@0",
+            "description": "3.75x 速度，7.5x 能量消耗",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.267
+            },
+            {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 2
+            }       
+            ]
+        },
+        {
+            "x": [-1,1],
+            "y": 1,
+            "z": [0,2],
+            "elements": "techreborn:machine_casing@1",
+            "description": "升级机械外壳来减少所需时间。",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.93
+            }
+            ]
+        },
+        {
+            "x": [-1,1],
+            "y": 1,
+            "z": [0,2],
+            "elements": "techreborn:machine_casing@2",
+            "description": "升级机械外壳来减少所需时间。",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.87
+            }
+            ]
+        },
+        {
+            "x": [-1,1],
+            "y": 1,
+            "z": [0,2],
+            "elements": "techreborn:fusion_coil",
+            "description": "升级机械外壳来减少所需时间。",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.81
+            }
+            ]
+        }
+    ],
+    "parts": [
+            {
+                "x": [-1,0,1],
+                "y": 0,
+                "z": 1,
+                "elements": [
+                    "immersiveengineering:metal_decoration0@2"
+                ]
+            },
+            {
+                "x": [-1,0,1],
+                "y": 0,
+                "z": 2,
+                "elements": [
+                    "modularmachinery:blockcasing@0",
+                    "modularmachinery:blockinputbus",
+                    "modularmachinery:blockenergyinputhatch",
+                    "modularmachinery:blockfluidinputhatch",
+                    "modularmachinery:blockoutputbus"
+                ]
+            },
+            {
+                "x": [-1,1],
+                "y": 0,
+                "z": 0,
+                "elements": [
+                    "modularmachinery:blockcasing@0",
+                    "modularmachinery:blockinputbus",
+                    "modularmachinery:blockenergyinputhatch",
+                    "modularmachinery:blockfluidinputhatch",
+                    "modularmachinery:blockoutputbus"
+                ]
+            },       
+            {
+                "x": [-1,1],
+                "y": 1,
+                "z": [0,2],
+                "elements": [
+                    "techreborn:machine_casing@0"
+                ]
+            },                           
+            {
+                "x": [-1,1],
+                "y": 1,
+                "z": 1,
+                "elements": [
+                    "jaopca:block_sheetmetalelectricalsteel"
+                ]
+            },               
+            {
+                "x": 0,
+                "y": 1,
+                "z": [0,2],
+                "elements": [
+                    "jaopca:block_sheetmetalelectricalsteel"
+                ]
+            },                       
+            {
+                "x": 0,
+                "y": 1,
+                "z": 1,
+                "elements": [
+                    "techreborn:storage2@10"
+                ]
+            },                               
+            {
+                "x": 1,
+                "y": [1,2,3],
+                "z": -1,
+                "elements": [
+                    "techreborn:refined_iron_fence"
+                ]
+            },                                       
+            {
+                "x": 2,
+                "y": [1,2,3],
+                "z": 2,
+                "elements": [
+                    "techreborn:refined_iron_fence"
+                ]
+            },                                               
+            {
+                "x": -1,
+                "y": [1,2,3],
+                "z": 3,
+                "elements": [
+                    "techreborn:refined_iron_fence"
+                ]
+            },                                               
+            {
+                "x": -2,
+                "y": [1,2,3],
+                "z": 0,
+                "elements": [
+                    "techreborn:refined_iron_fence"
+                ]
+            },
+            {
+                "x": [-1,1],
+                "y": 3,
+                "z": 0,
+                "elements": [
+                    "techreborn:refined_iron_fence"
+                ]
+            },                                               
+            {
+                "x": [-1,1],
+                "y": 3,
+                "z": 2,
+                "elements": [
+                    "techreborn:refined_iron_fence"
+                ]
+            }                                                                                             
+        ]
+            }

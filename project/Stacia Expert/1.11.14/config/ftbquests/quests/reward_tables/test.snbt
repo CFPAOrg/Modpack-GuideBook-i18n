@@ -1,0 +1,7 @@
+{
+	id: "6F7BB3E32D32E927"
+	order_index: 1
+	title: "test"
+	loot_size: 1
+	rewards: [{ item: "minecraft:polished_granite" }]
+}

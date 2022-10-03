@@ -1,0 +1,657 @@
+{
+	id: "00000000000001F6"
+	group: ""
+	order_index: 4
+	filename: "astral_2"
+	title: "&7大教堂的第八十层（星辉）"
+	icon: "astralsorcery:altar_constellation"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["00000000000001F9"]
+			id: "00000000000001F7"
+			tasks: [{
+				id: "00000000000001F8"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			shape: "hexagon"
+			id: "00000000000001F9"
+			tasks: [{
+				id: "00000000000001FA"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["00000000000001F9"]
+			id: "00000000000001FB"
+			tasks: [
+				{
+					id: "00000000000001FC"
+					type: "item"
+					item: {
+						id: "astralsorcery:rock_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "00000000000001FD"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "00000000000001FE"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 16
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["Astral Tome for Free!"]
+			dependencies: ["00000000000001F9"]
+			size: 1.3d
+			id: "00000000000001FF"
+			tasks: [{
+				id: "33F98AC6C9CF4AB6"
+				type: "checkmark"
+				icon: "astralsorcery:tome"
+			}]
+			rewards: [{
+				id: "13DD6B8128A81AA6"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["00000000000001FB"]
+			id: "0000000000000201"
+			tasks: [{
+				id: "0000000000000202"
+				type: "item"
+				item: "astralsorcery:parchment"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["0000000000000201"]
+			id: "0000000000000203"
+			tasks: [{
+				id: "0000000000000204"
+				type: "item"
+				item: "astralsorcery:illuminator"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["00000000000001FF"]
+			id: "0000000000000205"
+			tasks: [{
+				id: "0000000000000206"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			shape: "pentagon"
+			dependencies: ["00000000000001FF"]
+			id: "0000000000000207"
+			tasks: [{
+				id: "0000000000000208"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+		}
+		{
+			x: 6.4d
+			y: -1.2d
+			dependencies: ["0000000000000207"]
+			size: 0.8d
+			id: "0000000000000209"
+			tasks: [{
+				id: "000000000000020A"
+				type: "item"
+				item: "astralsorcery:infused_wood"
+				count: 16L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["0000000000000207"]
+			id: "000000000000020B"
+			tasks: [{
+				id: "000000000000020C"
+				type: "item"
+				item: {
+					id: "astralsorcery:resonator"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							upgrades: [0]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["0000000000000207"]
+			size: 1.1d
+			id: "000000000000020D"
+			tasks: [{
+				id: "000000000000020E"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+		}
+		{
+			x: 3.6d
+			y: -1.2d
+			dependencies: ["0000000000000207"]
+			size: 0.9d
+			id: "000000000000020F"
+			tasks: [
+				{
+					id: "0000000000000210"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_sword"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000211"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_axe"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000212"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_pickaxe"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000213"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_shovel"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000214"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			dependencies: ["0000000000000510"]
+			id: "0000000000000215"
+			tasks: [{
+				id: "0000000000000216"
+				type: "item"
+				item: "astralsorcery:starmetal_ore"
+			}]
+		}
+		{
+			x: 9.9d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["000000000000020D"]
+			size: 1.1d
+			id: "0000000000000217"
+			tasks: [{
+				id: "0000000000000219"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			dependencies: ["0000000000000217"]
+			id: "000000000000021A"
+			tasks: [{
+				id: "000000000000021B"
+				type: "item"
+				item: "astralsorcery:ritual_pedestal"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.0d
+			dependencies: ["000000000000021A"]
+			id: "000000000000021C"
+			tasks: [{
+				id: "000000000000021D"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.0d
+			dependencies: ["0000000000000217"]
+			id: "000000000000021E"
+			tasks: [{
+				id: "000000000000021F"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0000000000000220"
+				type: "item"
+				item: "astralsorcery:glass_lens"
+				count: 4
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			dependencies: ["000000000000021E"]
+			id: "0000000000000221"
+			tasks: [{
+				id: "0000000000000222"
+				type: "item"
+				item: "astralsorcery:shifting_star"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			dependencies: ["000000000000021E"]
+			id: "0000000000000223"
+			tasks: [{
+				id: "0000000000000224"
+				type: "item"
+				item: "astralsorcery:perk_seal"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			dependencies: ["0000000000000215"]
+			id: "0000000000000225"
+			tasks: [{
+				id: "0000000000000226"
+				type: "item"
+				item: {
+					id: "astralsorcery:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			dependencies: ["0000000000000225"]
+			id: "0000000000000227"
+			tasks: [{
+				id: "0000000000000228"
+				type: "item"
+				item: "astralsorcery:stardust"
+			}]
+		}
+		{
+			x: 13.75d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["0000000000000217"]
+			size: 1.1d
+			id: "0000000000000229"
+			tasks: [{
+				id: "000000000000022A"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			dependencies: ["000000000000020D"]
+			id: "000000000000022B"
+			tasks: [{
+				id: "000000000000022C"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			dependencies: ["000000000000020D"]
+			id: "000000000000022D"
+			tasks: [{
+				id: "000000000000022E"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["0000000000000229"]
+			size: 1.4d
+			id: "000000000000022F"
+			tasks: [{
+				id: "0000000000000230"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			dependencies: ["0000000000000229"]
+			id: "0000000000000231"
+			tasks: [{
+				id: "0000000000000232"
+				type: "item"
+				item: "astralsorcery:tree_beacon"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.0d
+			shape: "hexagon"
+			dependencies: ["0000000000000229"]
+			id: "0000000000000233"
+			tasks: [{
+				id: "0000000000000234"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -1.0d
+			dependencies: ["000000000000022F"]
+			id: "0000000000000235"
+			tasks: [{
+				id: "0000000000000236"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_glass"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 20.8d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000000235"]
+			size: 1.3d
+			id: "0000000000000237"
+			tasks: [{
+				id: "0000000000000238"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.5d
+			dependencies: ["0000000000000229"]
+			id: "0000000000000239"
+			tasks: [{
+				id: "000000000000023A"
+				type: "item"
+				item: "astralsorcery:refraction_table"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 1.5d
+			dependencies: ["0000000000000229"]
+			id: "000000000000023B"
+			tasks: [{
+				id: "000000000000023C"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.0d
+			dependencies: ["0000000000000229"]
+			id: "000000000000023D"
+			tasks: [{
+				id: "000000000000023E"
+				type: "item"
+				item: {
+					id: "astralsorcery:prism"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}]
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.75d
+			subtitle: "You Can Craft Iron Ore By Placing Iron Chunk In The Crafting Table. Because Silk Touch Won't Work."
+			dependencies: ["000000000000020D"]
+			size: 0.5d
+			id: "0000000000000510"
+			tasks: [{
+				id: "0000000000000511"
+				type: "item"
+				item: "emendatusenigmatica:iron_ore"
+			}]
+			rewards: [{
+				id: "0000000000000512"
+				type: "item"
+				item: "astralsorcery:starmetal_ore"
+				count: 4
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["0000000000000233"]
+			size: 0.9d
+			id: "0000000000000604"
+			tasks: [{
+				id: "0000000000000605"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -1.5d
+			shape: "hexagon"
+			dependencies: ["000000000000022F"]
+			size: 1.1d
+			id: "132899EB57864ED8"
+			tasks: [{
+				id: "722CC6E297FD269D"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+		}
+	]
+}

@@ -1,0 +1,18 @@
+// === Turbine Materials
+
+
+item.advgenerators.turbine_blade_hslasteel.name=HSLA 钢制涡轮叶片
+item.advgenerators.turbine_rotor_hslasteel.name=HSLA 钢制涡轮转子	
+item.advgenerators.turbine_kit_hslasteel.name=HSLA 钢制转子升级组件
+tile.advgenerators.turbine_hslasteel.name=HSLA 钢质涡轮机
+
+item.advgenerators.turbine_blade_extreme.name=极限合金涡轮叶片
+item.advgenerators.turbine_rotor_extreme.name=极限合金涡轮转子
+item.advgenerators.turbine_kit_extreme.name=极限合金转子升级组件
+tile.advgenerators.turbine_extreme.name=极限合金涡轮机
+
+item.advgenerators.turbine_blade_super.name=超级合金涡轮叶片
+item.advgenerators.turbine_rotor_super.name=超级合金涡轮转子
+item.advgenerators.turbine_kit_super.name=超级合金转子升级组件
+tile.advgenerators.turbine_super.name=超级合金涡轮机
+
