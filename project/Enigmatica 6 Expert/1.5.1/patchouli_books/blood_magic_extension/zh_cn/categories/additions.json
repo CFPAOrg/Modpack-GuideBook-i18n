@@ -1,0 +1,6 @@
+{
+    "name": "Enigmatica 附加",
+    "description": "关于Enigmatica添加或修改的所有陨石的完整指南。$(p)该列表取代了$(l:bloodmagic:rituals/ritual_list/ritual_meteor)坠星标位$(0)$(/l)中的列表。",
+    "icon": "enigmatica:textures/pixel_tree.png",
+    "sortnum": 999
+}

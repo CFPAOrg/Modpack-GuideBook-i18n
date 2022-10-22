@@ -1,0 +1,16 @@
+{
+    "name": "路径点",
+    "icon": "enigmatica:textures/pin.png",
+    "category": "patchouli:ftbchunks",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l)在地图上右击$(reset)来创建路径点。它们非常直观且可以很方便的标记你想去探索或是重要的地方。"
+        },
+        {
+            "type": "text",
+            "text": "$(l)你可以右击目标点来编辑它。$(reset)你每次死亡时地图会自动创建一个死亡路径点，这对追踪你的坟墓十分有用！路径点在世界中会以信标的方式显示以方便定位。如果你想禁用路径点的光柱，右击路径点后选择“隐藏”就行。"
+        }
+    ]
+}

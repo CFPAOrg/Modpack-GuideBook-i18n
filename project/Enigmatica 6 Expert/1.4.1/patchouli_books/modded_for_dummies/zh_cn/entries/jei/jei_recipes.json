@@ -1,0 +1,16 @@
+{
+    "name": "配方",
+    "icon": "minecraft:crafting_table",
+    "category": "patchouli:jei",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "JEI 的主要目标是$(l)展示旅途上你需要的所有合成配方$(reset)，很像原版的配方书的进化版。对物品左击就可以显示它所有的配方，上方还有标签来显示所有可能的合成手段。"
+        },
+        {
+            "type": "text",
+            "text": "或者你可以对物品使用$(l)$(k:jei.showRecipe)$(reset)键来查询配方（这种方式在任何地方都适用）。按$(l)$(k:jei.showUses)$(reset)键会显示该物品的所有用途（也就是作为原料可以合成什么，比如橡木原木可以合成橡木木板等等）。$(l)点击标题$(reset)（比如“工作台配方”，“熔炉配方”等等）将会显示该条件下所有可能的配方。"
+        }
+    ]
+}

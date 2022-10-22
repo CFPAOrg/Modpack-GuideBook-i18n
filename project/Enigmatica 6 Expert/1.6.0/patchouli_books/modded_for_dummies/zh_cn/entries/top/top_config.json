@@ -1,0 +1,16 @@
+{
+    "name": "设置",
+    "icon": "theoneprobe:probenote",
+    "category": "patchouli:theoneprobe",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "你可以通过/theoneprobe指令来调整$(#ffa500)$(l)The One Probe$(reset)中的各种设置。$(br)-$(l)/theoneprobe config$(reset)（也可右击检测器）可以调整游戏内覆盖的外观。试试看不同的摆放位置，显示风格和大小。$(br)"
+        },
+        {
+            "type": "text",
+            "text": "-$(l)/theoneprobe need$(reset)（也可右击 The One Probe 指南）可以打开或关闭是否需要检测器才能显示游戏内覆盖。这个选项默认是关闭的，所以游戏内覆盖总是可见。根据你的意愿修改它吧！"
+        }
+    ]
+}

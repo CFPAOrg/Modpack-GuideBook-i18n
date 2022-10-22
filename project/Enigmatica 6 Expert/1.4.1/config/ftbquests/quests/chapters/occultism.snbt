@@ -1,0 +1,2028 @@
+{
+	id: "0000000000000CB0"
+	group: "5A8B89F87F77CF4C"
+	order_index: 7
+	filename: "occultism"
+	title: "神秘学"
+	icon: {
+		id: "occultism:miner_djinni_ores"
+		Count: 1b
+		tag: {
+			spiritName: "Drakarcark"
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "我们有灵！"
+			icon: "occultism:dictionary_of_spirits"
+			x: 12.0d
+			y: -2.0d
+			shape: "gear"
+			description: [
+				"在神秘学中，你将会学习召唤各种异界魔灵，让它们按你的吩咐做事！从简单的用于早期矿石双倍化的魔精碎矿者到为你收集各种珍贵资源的强大掘矿者巨灵！"
+				""
+				"任何六边形图标的任务都需要举行仪式来完成。"
+				""
+				"开启你的旅程需要的所有知识都在魔灵全典中。"
+				""
+				"~The_Boo"
+			]
+			optional: true
+			id: "0000000000000CB1"
+			tasks: [{
+				id: "379B9C805D818944"
+				type: "item"
+				item: "occultism:datura_seeds"
+			}]
+			rewards: [{
+				id: "72582AC6CA1713DA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "也许只要一小口……"
+			x: 12.0d
+			y: -0.5d
+			subtitle: "睁开你的第三只眼！"
+			description: [
+				"仅仅吃一片魔鬼之梦果就会引起强烈的短期幻觉！第三只眼的效果可使你看见并于许多异界材料互动。"
+				""
+				"你可以在繁茂地下树林中找到这些材料的例子，它们会伪装成普通的安山岩和无害的橡木。"
+				""
+				"请理性食用。"
+			]
+			hide_dependency_lines: false
+			dependencies: ["0000000000000CB1"]
+			id: "0000000000000CB5"
+			tasks: [{
+				id: "0000000000000CB6"
+				type: "item"
+				item: "occultism:datura"
+			}]
+			rewards: [
+				{
+					id: "0000000000000E1A"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "0000000000000E1B"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: {
+				id: "occultism:divination_rod"
+				Count: 1b
+				tag: { }
+			}
+			x: 13.5d
+			y: 2.0d
+			subtitle: "为什么它在振动？！"
+			description: [
+				"探测杖可用于定位世界中处于休眠状态的异界材料。"
+				""
+				"想要使用探测杖，首先，你必须用它潜行右击某个方块来与一种材料同调。将探测杖与橡木原木同调，以寻找伪装成橡树的异界木；与安山岩同调以寻找异界石。"
+				""
+				"探测杖同调完成后，只需按住右击直到动画和声音停止。如果你在任何异界材料的周围，就会有一部分的白色水晶保持紫色不褪去。它也会将找到的方块在世界中高亮显示。"
+				""
+				"在主世界，这些材料最常见于繁茂地下树林中。"
+				""
+				"如果你在探测这些材料时遇到了问题，我们还添加了自己创造这些材料的办法。"
+				""
+				"向灵火中投掷安山岩可创造异界石，而向灵火中投掷橡树树苗可获得不稳定树苗，种植后砍伐可获得异界木。"
+				""
+				"P.S. 抱歉写的有点啰嗦…… -The_Boo"
+			]
+			dependencies: ["0000000000000CDA"]
+			min_width: 300
+			id: "0000000000000CB7"
+			tasks: [
+				{
+					id: "0000000000000CB8"
+					type: "item"
+					item: {
+						id: "occultism:divination_rod"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0000000000000E1C"
+					type: "item"
+					item: "occultism:otherworld_log"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000DF7"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0000000000000DF8"
+					type: "item"
+					title: "异界原木"
+					item: "occultism:otherworld_log"
+					count: 4
+				}
+				{
+					id: "0000000000000DF9"
+					type: "item"
+					title: "橡树树苗"
+					item: {
+						id: "occultism:otherworld_sapling_natural"
+						Count: 1b
+						tag: { }
+					}
+					count: 3
+				}
+				{
+					id: "0000000000000E1D"
+					type: "item"
+					title: "异界石"
+					item: "occultism:otherstone"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "我们不需要水"
+			icon: "occultism:spirit_fire"
+			x: 12.0d
+			y: 1.0d
+			subtitle: "让它燃烧吧……"
+			description: [
+				"灵火是一种来自异界的特殊火焰。"
+				""
+				"将恶魔之梦果丢在地上并用打火石将其点燃，以召唤这团异界火焰。在下界岩上点燃就可以让火焰永远燃烧下去。"
+				""
+				"这团火焰拥有移除某些物品中杂质的能力，并赋予它异界的属性。"
+				""
+				"燃烧吧……让它燃烧吧……"
+			]
+			dependencies: ["0000000000000CB5"]
+			id: "0000000000000CDA"
+			tasks: [
+				{
+					id: "0000000000000CDC"
+					type: "item"
+					item: "occultism:spirit_attuned_gem"
+				}
+				{
+					id: "0000000000000CDD"
+					type: "item"
+					item: "occultism:otherstone"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000CDE"
+					type: "item"
+					title: "异界石"
+					auto: "disabled"
+					item: "occultism:otherstone"
+					count: 8
+				}
+				{
+					id: "0000000000000CDF"
+					type: "item"
+					title: "魔灵同调宝石"
+					auto: "disabled"
+					item: "occultism:spirit_attuned_gem"
+					count: 4
+				}
+				{
+					id: "0000000000000E22"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "我现在是如此为你粉狂"
+			icon: "minecraft:iron_ore"
+			x: 10.5d
+			y: 4.5d
+			shape: "hexagon"
+			subtitle: "你的第一个魔灵朋友！！！"
+			description: [
+				"粉矿者魔精是你神秘学旅途上拥有的第一个魔灵。"
+				""
+				"这只魔灵会把你的矿石和大块矿块粉粉粉碎成粉末，然后你就可以将它们熔炼成锭。"
+				""
+				"当你在旅途中继续前进时，你将能够召唤出更强大的粉矿者！"
+			]
+			dependencies: ["0000000000000DD8"]
+			id: "0000000000000CF7"
+			tasks: [{
+				id: "0000000000000CF8"
+				type: "advancement"
+				title: "召唤粉碎者魔精"
+				icon: {
+					id: "occultism:book_of_binding_bound_foliot"
+					Count: 1b
+					tag: {
+						spiritName: "Reiirtron"
+					}
+				}
+				advancement: "occultism:occultism/summon_foliot_crusher"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0000000000000CFB"
+					type: "command"
+					title: "矿工快乐包"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+				{
+					id: "0000000000000E64"
+					type: "item"
+					title: "粉碎末地石"
+					item: "occultism:crushed_end_stone"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			subtitle: "待宰的羔羊"
+			description: [
+				"蜡烛是另一种在大多数仪式五芒星中被使用的物品。它们由用屠刀屠宰猪、牛或羊得到的动物油脂制成。"
+				""
+				"蜡烛是一种光源，同时也是一种极好的装饰品！"
+				""
+				"注：你现在可以在仪式中使用其他模组的蜡烛！"
+			]
+			dependencies: ["0000000000000D9A"]
+			id: "0000000000000D92"
+			tasks: [
+				{
+					id: "0000000000000DF3"
+					type: "item"
+					title: "任意$candles"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:candles"
+						}
+					}
+				}
+				{
+					id: "0000000000000DF4"
+					type: "item"
+					item: {
+						id: "occultism:butcher_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000DF5"
+					type: "item"
+					item: "occultism:tallow"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000DFD"
+					type: "command"
+					title: "农夫快乐包"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+				{
+					id: "0000000000000E26"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			description: [
+				"纯净墨水是在灵火中净化黑色染料制成的特殊墨水。"
+				""
+				"合成用于仪式的绑定之书需要这种特殊墨水。"
+			]
+			dependencies: ["0000000000000CDA"]
+			id: "0000000000000D96"
+			tasks: [{
+				id: "0000000000000D97"
+				type: "item"
+				item: "occultism:purified_ink"
+			}]
+			rewards: [
+				{
+					id: "0000000000000DEB"
+					type: "item"
+					title: "纯净墨水"
+					item: "occultism:purified_ink"
+					count: 4
+				}
+				{
+					id: "0000000000000DEC"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0000000000000E21"
+					type: "command"
+					title: "农夫快乐包"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			subtitle: "感觉很脏……"
+			description: [
+				"粉笔是神秘学家武器库中的无价工具。它可以使你绘制仪式五芒星中使用的神秘符文."
+				""
+				"你第一次合成的粉笔将会充满杂质。在它可以用于五芒星之前，你必须用血之祭坛净化它。"
+			]
+			dependencies: ["0000000000000CDA"]
+			id: "0000000000000D98"
+			tasks: [{
+				id: "0000000000000D99"
+				type: "item"
+				item: "occultism:chalk_white_impure"
+			}]
+			rewards: [
+				{
+					id: "0000000000000DEA"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0000000000000E1E"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "白色粉笔"
+			x: 9.0d
+			y: 1.5d
+			subtitle: "感觉如此洁净！！"
+			description: ["现在你已经去除了粉笔中的杂质，你剩下需要的就是一些蜡烛和祭祀之碗，然后你便准备好执行你的第一个仪式了！"]
+			dependencies: ["0000000000000D98"]
+			id: "0000000000000D9A"
+			tasks: [{
+				id: "0000000000000D9B"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000E24"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "0000000000000E25"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "金色粉笔"
+			x: 6.0d
+			y: 3.5d
+			subtitle: "哦哦哦亮闪闪！"
+			description: [
+				"金色粉笔也许是神秘学家武器库中最有用的粉笔类型。"
+				""
+				"当用于仪式时，它具有将魔灵绑定到物品中的效果。通过这种方式，你就能够制作各种有用的物品来帮助你的旅程！"
+			]
+			dependencies: ["0000000000000D9A"]
+			id: "0000000000000D9C"
+			tasks: [{
+				id: "0000000000000D9D"
+				type: "item"
+				item: {
+					id: "occultism:chalk_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000E28"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			subtitle: "现在开始为我画紫色！！！"
+			description: ["紫色粉笔是神秘学家武器库中的另一种粉笔颜色。它可使你绑定如巨灵一类更强大的魔灵。"]
+			dependencies: ["0000000000000D9C"]
+			id: "0000000000000D9E"
+			tasks: [{
+				id: "0000000000000D9F"
+				type: "item"
+				item: {
+					id: "occultism:chalk_purple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000E40"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "64B928DADA731482"
+					type: "command"
+					title: "史诗神秘学战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			description: [
+				"想要在仪式中使用火灵灵髓，首先你将需要将其注入粉笔中以创造出红色粉笔。"
+				""
+				"在五芒星中使用这种粉笔可以让你召唤更强大的魔灵，比如魔王。"
+			]
+			dependencies: ["0000000000000DE0"]
+			id: "0000000000000DA0"
+			tasks: [{
+				id: "0000000000000DA1"
+				type: "item"
+				item: {
+					id: "occultism:chalk_red"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000E52"
+					type: "command"
+					title: "史诗神秘学战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000E53"
+					type: "command"
+					title: "传奇神秘学战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_legendary"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			shape: "hexagon"
+			description: [
+				"维度存储促动器是你在异界存储物品的大门！"
+				""
+				"它一开始储量非常小，但可以通过添加最多6个指向促动器的稳定器（每面一个）来拓展你的存储空间。"
+			]
+			dependencies: [
+				"0000000000000D9C"
+				"0000000000000D9E"
+			]
+			id: "0000000000000DA4"
+			tasks: [{
+				id: "0000000000000DA5"
+				type: "item"
+				item: "occultism:storage_controller"
+			}]
+			rewards: [{
+				id: "0000000000000E6C"
+				type: "command"
+				title: "史诗神秘学战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			shape: "hexagon"
+			description: [
+				"维度存储稳定器可以稳定促动器与异界的连接。"
+				""
+				"连接越稳定，你可以存储的东西就越多！"
+				""
+				"一个促动器最多可以添加6个稳定器。每升一级都会提升稳定性，使你可以在异界存储更多的物品。"
+				""
+				"稳定器需要面向促动器的矩阵部分放置，且最远可在5格外放置。每个方向都可以放置一个稳定器，东西南北以及促动器的上方和下方。"
+			]
+			dependencies: ["0000000000000DA4"]
+			id: "0000000000000DA8"
+			tasks: [{
+				id: "0000000000000DA9"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier1"
+			}]
+			rewards: [
+				{
+					id: "0000000000000E59"
+					type: "item"
+					title: "等级1维度存储稳定器"
+					item: "occultism:storage_stabilizer_tier1"
+				}
+				{
+					id: "0000000000000E5A"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			shape: "hexagon"
+			dependencies: ["0000000000000DA8"]
+			id: "0000000000000DAA"
+			tasks: [{
+				id: "0000000000000DAB"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier2"
+			}]
+			rewards: [
+				{
+					id: "0000000000000E61"
+					type: "item"
+					title: "等级2维度存储稳定器"
+					item: "occultism:storage_stabilizer_tier2"
+				}
+				{
+					id: "0000000000000E62"
+					type: "command"
+					title: "史诗神秘学战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			shape: "hexagon"
+			dependencies: ["0000000000000DAA"]
+			id: "0000000000000DAC"
+			tasks: [{
+				id: "0000000000000DAD"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier3"
+			}]
+			rewards: [
+				{
+					id: "0000000000000E56"
+					type: "xp"
+					xp: 800
+				}
+				{
+					id: "0000000000000E57"
+					type: "item"
+					title: "等级3维度存储稳定器"
+					item: "occultism:storage_stabilizer_tier3"
+				}
+				{
+					id: "0000000000000E58"
+					type: "item"
+					item: "occultism:iesnium_block"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			shape: "hexagon"
+			subtitle: "*拍了拍稳定器的顶部* 这个小家伙里面可以装很多东西。"
+			description: ["最高级的稳定器。"]
+			dependencies: [
+				"0000000000000DAC"
+				"0000000000000DA0"
+			]
+			id: "0000000000000DAE"
+			tasks: [{
+				id: "0000000000000DAF"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier4"
+			}]
+			rewards: [
+				{
+					id: "0000000000000E54"
+					type: "item"
+					title: "等级4维度存储稳定器"
+					item: "occultism:storage_stabilizer_tier4"
+				}
+				{
+					id: "0000000000000E55"
+					type: "command"
+					title: "传奇神秘学战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_legendary"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			shape: "hexagon"
+			description: ["存储访问器可从任何距离和维度远程访问你的存储。"]
+			dependencies: ["0000000000000DA4"]
+			id: "0000000000000DB2"
+			tasks: [{
+				id: "0000000000000DB3"
+				type: "item"
+				item: {
+					id: "occultism:storage_remote"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000E5D"
+					type: "command"
+					title: "史诗神秘学战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000E5E"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			shape: "hexagon"
+			description: [
+				"稳定虫洞是一个可放置的物品，它可以使你在任何维度访问你的存储，也可以对其输入输出物品。"
+				""
+				"当与其他存储模组一起使用时，虫洞具有非常强大的作用。"
+			]
+			dependencies: ["0000000000000DA4"]
+			id: "0000000000000DBA"
+			tasks: [{
+				id: "0000000000000DBB"
+				type: "item"
+				item: {
+					id: "occultism:stable_wormhole"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000E5B"
+					type: "command"
+					title: "史诗神秘学战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000E5C"
+					type: "item"
+					title: "稳定虫洞"
+					item: {
+						id: "occultism:stable_wormhole"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "灵魂宝石"
+			x: 4.5d
+			y: 2.0d
+			shape: "hexagon"
+			subtitle: "是你口袋里装了只怪，还是见到我太兴奋了"
+			description: [
+				"灵魂宝石可使你抓起世界上最强大的生物以外的任何生物。"
+				""
+				"非常适合把牺牲品拽到你的仪式那儿！"
+				""
+				"用灵魂宝石右击任何生物，它就会被存储进灵魂宝石中，再次右击就可以将它放回至世界！"
+			]
+			dependencies: [
+				"0000000000000D9C"
+				"0000000000000D9E"
+			]
+			id: "0000000000000DBC"
+			tasks: [{
+				id: "0000000000000DBD"
+				type: "item"
+				item: {
+					id: "occultism:soul_gem"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0000000000000E36"
+				type: "command"
+				title: "史诗神秘学战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			subtitle: "我总是在夜里戴着异界眼镜"
+			description: [
+				"异界眼镜可使你不必吃恶魔之梦果也能看到异界材料。"
+				""
+				"然而，它们将不能使你与这些物品交互。"
+				""
+				"对于采掘艾瑟金属非常有用，因为它不需要第三只眼效果就能交互。"
+			]
+			dependencies: ["0000000000000D9C"]
+			id: "0000000000000DBE"
+			tasks: [{
+				id: "0000000000000DBF"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000E5F"
+					type: "item"
+					title: "艾瑟金属锭"
+					item: "occultism:iesnium_ingot"
+					count: 4
+				}
+				{
+					id: "0000000000000E60"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "里面比外面大！"
+			description: [
+				"意外结实的背包……"
+				""
+				"嗯……"
+				""
+				"意外的结实！！"
+			]
+			dependencies: ["0000000000000D9C"]
+			id: "0000000000000DC0"
+			tasks: [{
+				id: "0000000000000DC1"
+				type: "item"
+				item: {
+					id: "occultism:satchel"
+					Count: 1b
+					tag: {
+						spiritName: "Morredes"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000E29"
+					type: "command"
+					title: "矿工快乐包"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+				{
+					id: "0000000000000E2C"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "0000000000000E2D"
+					type: "item"
+					title: "史诗奥利奥"
+					item: "resourcefulbees:oreo_cookie"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			description: ["艾瑟金属镐有和普通钻石镐一样的数据，还拥有可以采掘艾瑟金属矿石的额外能力。"]
+			dependencies: ["0000000000000DE6"]
+			id: "0000000000000DC2"
+			tasks: [{
+				id: "0000000000000DC3"
+				type: "item"
+				item: {
+					id: "occultism:iesnium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000E47"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0000000000000E48"
+					type: "command"
+					title: "矿工快乐包"
+					icon: "kubejs:miners_delight"
+					command: "execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+				{
+					id: "0000000000000E49"
+					type: "command"
+					title: "史诗神秘学战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "minecraft:end_stone"
+			x: 6.0d
+			y: 1.0d
+			shape: "hexagon"
+			dependencies: ["0000000000000D9C"]
+			id: "0000000000000DC4"
+			tasks: [
+				{
+					id: "0000000000000E10"
+					type: "advancement"
+					title: "召唤被附身的末影螨"
+					icon: "occultism:book_of_binding_foliot"
+					advancement: "occultism:occultism/possess_endermite"
+					criterion: ""
+				}
+				{
+					id: "0000000000000E11"
+					type: "kill"
+					icon: "minecraft:end_stone"
+					entity: "occultism:possessed_endermite"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000E66"
+					type: "item"
+					title: "末地石"
+					item: "minecraft:end_stone"
+					count: 16
+				}
+				{
+					id: "0000000000000E67"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "minecraft:bone"
+			x: 5.0d
+			y: 1.0d
+			shape: "hexagon"
+			description: [
+				"通过仪式，你获得了用魔灵附身一些生物的能力。"
+				""
+				"这些被附身的生物有一点强大，但他们也有概率被杀死时掉落多一点的物品。"
+			]
+			dependencies: ["0000000000000D9C"]
+			id: "0000000000000DC6"
+			tasks: [
+				{
+					id: "0000000000000E0E"
+					type: "advancement"
+					title: "召唤被附身的骷髅"
+					icon: "occultism:book_of_binding_foliot"
+					advancement: "occultism:occultism/possess_skeleton"
+					criterion: ""
+				}
+				{
+					id: "0000000000000E0F"
+					type: "kill"
+					entity: "occultism:possessed_skeleton"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000E65"
+					type: "item"
+					title: "骷髅头颅"
+					item: "minecraft:skeleton_skull"
+					count: 2
+				}
+				{
+					id: "0000000000000E68"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "minecraft:ender_pearl"
+			x: 5.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["0000000000000D9E"]
+			id: "0000000000000DC8"
+			tasks: [
+				{
+					id: "0000000000000E12"
+					type: "advancement"
+					title: "召唤被附身的末影人"
+					icon: "occultism:book_of_binding_foliot"
+					advancement: "occultism:occultism/possess_enderman"
+					criterion: ""
+				}
+				{
+					id: "0000000000000E13"
+					type: "kill"
+					icon: "minecraft:ender_pearl"
+					entity: "occultism:possessed_enderman"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000E37"
+					type: "command"
+					title: "史诗神秘学战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000E3A"
+					type: "item"
+					title: "末影珍珠"
+					item: "minecraft:ender_pearl"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			shape: "hexagon"
+			description: [
+				"维度矿井打开了一个通往无人居住维度的传送门，那里面充满了各种各样嗷嗷待挖的矿石。"
+				""
+				"唯一的问题是，这个传送门对一般人类来说太小了。"
+				""
+				"这对魔灵来说不是问题，但是你需要召唤一个采矿魔灵来为你获取矿石。"
+			]
+			dependencies: ["0000000000000DE6"]
+			id: "0000000000000DCA"
+			tasks: [{
+				id: "0000000000000DCB"
+				type: "item"
+				item: "occultism:dimensional_mineshaft"
+			}]
+			rewards: [
+				{
+					id: "0000000000000E4A"
+					type: "command"
+					title: "矿工快乐包"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+				{
+					id: "0000000000000E69"
+					type: "command"
+					title: "矿工快乐包"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			shape: "hexagon"
+			description: [
+				"矿工魔精可以进入挖矿维度来为你获取矿石和其它珍贵材料。"
+				""
+				"然而，作为一个弱小的魔灵，它的速度缓慢且很快能力就会耗尽。"
+			]
+			dependencies: ["0000000000000DCA"]
+			id: "0000000000000DCC"
+			tasks: [{
+				id: "0000000000000DCD"
+				type: "item"
+				item: {
+					id: "occultism:miner_foliot_unspecialized"
+					Count: 1b
+					tag: {
+						spiritName: "Raarcarc"
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000E4B"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "0000000000000E4C"
+					type: "item"
+					title: "艾瑟金属块"
+					item: "occultism:iesnium_block"
+				}
+				{
+					id: "0000000000000E4D"
+					type: "command"
+					title: "矿工快乐包"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			shape: "hexagon"
+			description: [
+				"掘矿者巨灵比它对应的魔精强大得多。这个强大的魔灵来去挖矿维度的时间短得多，且每次带回来的矿物也更多！"
+				""
+				"本模组包中掘矿者的耐久度被提升了，你在掘矿者在矿井中丢失第一点耐久度前看不出这个变化。"
+			]
+			dependencies: ["0000000000000DCC"]
+			id: "0000000000000DCE"
+			tasks: [{
+				id: "0000000000000DCF"
+				type: "item"
+				item: {
+					id: "occultism:miner_djinni_ores"
+					Count: 1b
+					tag: {
+						spiritName: "Crozerer"
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000E4E"
+					type: "command"
+					title: "传奇神秘学战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "0000000000000E6A"
+					type: "command"
+					title: "矿工快乐包"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			shape: "hexagon"
+			description: [
+				"通常情况下，像艾瑟金属这样的异界矿石只能用异界材料制成的工具开采。"
+				""
+				"然而，神秘学家，有着为镐灌注魔灵的能力，使得它们能够采掘这些矿石。灌注过程会严重弱化工具，大幅减少其耐久度。"
+			]
+			dependencies: ["0000000000000D9E"]
+			id: "0000000000000DD0"
+			tasks: [{
+				id: "0000000000000DD1"
+				type: "item"
+				item: {
+					id: "occultism:infused_pickaxe"
+					Count: 1b
+					tag: {
+						spiritName: "Raslamarmed"
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000E45"
+				type: "command"
+				title: "矿工快乐包"
+				icon: "kubejs:miners_delight"
+				command: "execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			description: ["魔灵同调水晶是用于某些仪式五芒星中的物品。它们同时也是极好的装饰品！"]
+			dependencies: ["0000000000000CDA"]
+			id: "0000000000000DD2"
+			tasks: [{
+				id: "0000000000000DD3"
+				type: "item"
+				item: "occultism:spirit_attuned_crystal"
+			}]
+			rewards: [{
+				id: "0000000000000DED"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.5d
+			description: ["献祭之碗是用于放置献祭物品以进行仪式的物品。它们可以放置在任何接触五芒星的地方，数量可以根据需要而定。"]
+			dependencies: ["0000000000000D9A"]
+			id: "0000000000000DD6"
+			tasks: [{
+				id: "0000000000000DD7"
+				type: "item"
+				item: "occultism:sacrificial_bowl"
+			}]
+			rewards: [{
+				id: "0000000000000DFA"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.5d
+			description: ["这是一个特殊的献祭之碗，通常位于五芒星的中间。它用于激活仪式。"]
+			dependencies: ["0000000000000DD6"]
+			id: "0000000000000DD8"
+			tasks: [{
+				id: "0000000000000DD9"
+				type: "item"
+				item: "occultism:golden_sacrificial_bowl"
+			}]
+			rewards: [
+				{
+					id: "0000000000000DFC"
+					type: "command"
+					title: "农夫快乐包"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+				{
+					id: "0000000000000E63"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			description: ["用普通工具很难清除粉笔写下的符文。这就是粉笔擦的用武之地。用粉笔擦右击任意粉笔符文以将其擦除。"]
+			dependencies: ["0000000000000D9A"]
+			id: "0000000000000DDA"
+			tasks: [{
+				id: "0000000000000DDB"
+				type: "item"
+				item: "occultism:brush"
+			}]
+			rewards: [{
+				id: "0000000000000DF1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "呼风唤雨！"
+			icon: "minecraft:sunflower"
+			x: 0.5d
+			y: 1.5d
+			shape: "hexagon"
+			description: [
+				"某些魔灵有控制我们世界天气的能力。"
+				""
+				"召唤对应的魔灵可以带来晴朗的天空、下雨，甚至带来雷暴！"
+			]
+			dependencies: ["0000000000000D9E"]
+			id: "0000000000000DDC"
+			tasks: [
+				{
+					id: "0000000000000E14"
+					type: "advancement"
+					title: "召唤一个让天空放晴的巨灵！"
+					icon: "minecraft:sunflower"
+					advancement: "occultism:occultism/summon_djinni_clear_weather"
+					criterion: ""
+				}
+				{
+					id: "0000000000000E15"
+					type: "item"
+					item: "occultism:book_of_binding_djinni"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000E3D"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+				{
+					id: "0000000000000E3E"
+					type: "command"
+					title: "农夫快乐包"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+				{
+					id: "0000000000000E3F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0000000000000E42"
+					type: "item"
+					title: "雨伞"
+					item: "artifacts:umbrella"
+				}
+			]
+		}
+		{
+			icon: "minecraft:clock"
+			x: 0.5d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "现在是什么时间？！？！"
+			description: [
+				"虽然异界魔灵没有让你穿越时空的能力，但他们确实有改变时间的能力！"
+				""
+				"对于需要夜晚才能完成的任务非常有用。"
+			]
+			dependencies: ["0000000000000D9E"]
+			id: "0000000000000DDE"
+			tasks: [
+				{
+					id: "0000000000000E16"
+					type: "advancement"
+					title: "召唤让时间变为夜晚的巨灵"
+					icon: "minecraft:clock"
+					advancement: "occultism:occultism/summon_djinni_night_time"
+					criterion: ""
+				}
+				{
+					id: "0000000000000E17"
+					type: "item"
+					item: "occultism:book_of_binding_djinni"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000E43"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0000000000000E44"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "occultism:afrit_essence"
+			x: 2.0d
+			y: 5.0d
+			shape: "hexagon"
+			description: [
+				"为了召唤更强大的魔灵，你需要火灵灵髓。"
+				""
+				"这种灵髓只能通过召唤一个未约束的火灵到这个凡人位面，并击败它来获得。"
+				""
+				"然而，这并不是一件简单的任务，因为火灵很强大，且会召唤许多随从一同战斗。"
+				""
+				"击败火灵以获取它的灵髓。"
+			]
+			dependencies: ["0000000000000D9E"]
+			id: "0000000000000DE0"
+			tasks: [
+				{
+					id: "0000000000000DE1"
+					type: "item"
+					item: "occultism:book_of_binding_afrit"
+				}
+				{
+					id: "0000000000000E4F"
+					type: "item"
+					item: "occultism:afrit_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000E50"
+					type: "command"
+					title: "传奇神秘学战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "0000000000000E51"
+					type: "command"
+					title: "传奇神秘学战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_legendary"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "狂猎"
+			icon: "minecraft:wither_skeleton_skull"
+			x: 1.0d
+			y: 4.5d
+			shape: "hexagon"
+			description: [
+				"有时，获取凋灵头颅是一件很麻烦的事。"
+				""
+				"对于那些不想勇敢面对下界的人，我们有狂猎仪式。"
+				""
+				"狂猎仪式将会召唤数个被附身的凋灵骷髅以及它们被附身的骷髅随从。每个被附身的凋灵骷髅都保证至少掉落一个凋灵头颅。"
+				""
+				"这些凋灵骷髅也有几率掉落一些额外的战利品！！！"
+			]
+			dependencies: ["0000000000000D9E"]
+			id: "0000000000000DE4"
+			tasks: [{
+				id: "0000000000000E6D"
+				type: "advancement"
+				title: "召唤狂猎"
+				icon: "minecraft:wither_skeleton_skull"
+				advancement: "occultism:occultism/summon_wild_hunt"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0000000000000E6F"
+					type: "command"
+					title: "史诗神秘学战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000E70"
+					type: "command"
+					title: "史诗神秘学战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: {
+				id: "occultism:divination_rod"
+				Count: 1b
+				tag: { }
+			}
+			x: -1.0d
+			y: 3.5d
+			subtitle: "探测：神秘学波加洛舞2"
+			description: [
+				"艾瑟是一种在下界中找到的异界矿石。你应该可以用你的探测杖很快找到它。"
+				""
+				"异界眼睛或恶魔之梦果也许可以帮助你看见这种材料，但你不需要第三只眼效果来采掘它。但是你将需要一把灌注镐或亚瑟镐来采掘它。"
+			]
+			dependencies: ["0000000000000DD0"]
+			id: "0000000000000DE6"
+			tasks: [{
+				id: "0000000000000E18"
+				type: "item"
+				item: "occultism:iesnium_ore"
+			}]
+			rewards: [{
+				id: "0000000000000E46"
+				type: "item"
+				title: "艾瑟矿石"
+				item: "occultism:iesnium_ore"
+				count: 8
+			}]
+		}
+		{
+			icon: "occultism:otherworld_sapling"
+			x: 10.5d
+			y: 5.5d
+			shape: "hexagon"
+			description: [
+				"异界树苗交易者将会把你从树林或贸易站中获得的不稳定异界树苗换成稳定树苗。"
+				""
+				"这些稳定异界树苗在没有第三只眼效果下也能被看见和采集。"
+			]
+			dependencies: ["0000000000000CF7"]
+			id: "0000000000000E00"
+			tasks: [{
+				id: "0000000000000E01"
+				type: "advancement"
+				title: "召唤异界树苗交易者"
+				icon: "occultism:otherworld_sapling"
+				advancement: "occultism:occultism/summon_foliot_sapling_trader"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0000000000000E03"
+				type: "item"
+				title: "异界树苗"
+				item: "occultism:otherworld_sapling"
+				count: 16
+			}]
+		}
+		{
+			title: "砍砍砍！"
+			icon: {
+				id: "minecraft:iron_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 9.5d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "你所有的树都属于我！！"
+			description: [
+				"魔精伐木工将会砍伐一定区域内所有的树木，并将其放入你选择的容器中！"
+				""
+				"它寻找树木的区域可以设置为16x16、32x32，一直到64x64个方块！"
+			]
+			dependencies: ["0000000000000CF7"]
+			id: "0000000000000E04"
+			tasks: [{
+				id: "0000000000000E05"
+				type: "advancement"
+				title: "召唤魔精伐木工"
+				icon: {
+					id: "occultism:book_of_calling_foliot_lumberjack"
+					Count: 1b
+					tag: {
+						spiritName: "Azurmiriarc"
+					}
+				}
+				advancement: "occultism:occultism/summon_foliot_lumberjack"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0000000000000E06"
+				type: "command"
+				title: "农夫快乐包"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "召唤魔精搬运工"
+			icon: "minecraft:chest_minecart"
+			x: 11.5d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "呜巴鲁巴怎么办~"
+			description: [
+				"魔精搬运工是最有用的魔灵之一！"
+				""
+				"它可以一次在两个容器之间搬运一组物品。你甚至可以选择容器的哪个面来进行输入输出！（适合在机器间搬运）。"
+				""
+				"当它在世界中时，右击它来设置非常基本的过滤选项。"
+				""
+				"这些小家伙是极好的工人！"
+			]
+			dependencies: ["0000000000000CF7"]
+			id: "0000000000000E0A"
+			tasks: [{
+				id: "0000000000000E0B"
+				type: "advancement"
+				title: "召唤魔精搬运工"
+				icon: "minecraft:chest_minecart"
+				advancement: "occultism:occultism/summon_foliot_transport_items"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0000000000000E23"
+				type: "command"
+				title: "史诗神秘学战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "minecraft:furnace"
+			x: 6.0d
+			y: 4.5d
+			shape: "hexagon"
+			subtitle: "我最好为此加班……"
+			description: [
+				"巨灵机器操作员与维度存储促动器一起使用，是自动合成的基本形式。"
+				""
+				"使用召唤之书来将魔灵与机器绑定，然后再次使用来设置魔灵输出和输出物品的面。最后，为巨灵分配一个促动器。"
+				""
+				"在存储促动器中，选择一组你希望魔灵处理的物品，并将其放在GUI左侧的栏位中。这将弹出一个菜单，使你选择要使用的机器操作员。"
+			]
+			dependencies: ["0000000000000DA4"]
+			id: "0000000000000E71"
+			tasks: [
+				{
+					id: "0000000000000E72"
+					type: "advancement"
+					title: "召唤巨灵机器操作员"
+					advancement: "occultism:occultism/summon_djinni_manage_machine"
+					criterion: ""
+				}
+				{
+					id: "0000000000000E75"
+					type: "item"
+					item: "occultism:book_of_binding_djinni"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000E76"
+					type: "command"
+					title: "史诗神秘学战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000E77"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			title: "召唤具翼使魔"
+			icon: "minecraft:feather"
+			x: 2.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"神秘学家也可以召唤使魔来帮助他们完成旅程。"
+				""
+				"具翼是一种异界鸟类，靠近主人时会给主人带来特殊效果。"
+				""
+				"小贴士：有一个仪式可以用来召唤一只野生鹦鹉，这可以使这个仪式所需的献祭品变得更容易获得。"
+				""
+				"小贴士#2：你必须召唤具翼使魔，野生具翼召唤对这个任务不起作用。"
+			]
+			dependencies: ["0000000000000D9E"]
+			id: "0000000000000F3C"
+			tasks: [{
+				id: "0000000000000F3D"
+				type: "advancement"
+				title: "召唤具翼使魔"
+				icon: "minecraft:feather"
+				advancement: "occultism:occultism/familiar_otherworld_bird"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0000000000000EDF"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0000000000000F3E"
+					type: "command"
+					title: "史诗神秘学战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			description: [
+				"神秘学家能够使用使魔之戒来储存他们的使魔，将力量直接传导至戒指上。"
+				""
+				"只需用戒指右击你的其中一只使魔就可将其绑定，并把它放在饰品栏位中！"
+				""
+				"这也可以用来转移使魔的所有权，从戒指上移除使魔的人将成为新的主人！"
+			]
+			dependencies: [
+				"0000000000000D9C"
+				"0000000000000D9E"
+			]
+			id: "50FCDBB9ABEFC493"
+			tasks: [{
+				id: "402BD39506DFCF52"
+				type: "item"
+				item: {
+					id: "occultism:familiar_ring"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							hasFamiliar: 0b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "132D5C23B97D5E1F"
+				type: "command"
+				title: "史诗神秘学战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "minecraft:gold_ore"
+			x: 3.5d
+			y: 4.5d
+			shape: "hexagon"
+			description: [
+				"巨灵碎矿者是魔精的更强大版本，没有灵髓衰退的限制。"
+				""
+			]
+			dependencies: ["0000000000000D9E"]
+			id: "23F2BBC592B563EB"
+			tasks: [{
+				id: "20A0152295838A26"
+				type: "advancement"
+				title: "召唤巨灵碎矿者"
+				icon: "minecraft:gold_ore"
+				advancement: "occultism:occultism/summon_djinni_crusher"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0484AA9E23B3AA18"
+				type: "command"
+				title: "史诗神秘学战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "minecraft:diamond_ore"
+			x: 2.0d
+			y: 7.0d
+			shape: "hexagon"
+			description: ["火灵碎矿者相比巨灵还要强大。以更快的速率产出更多的粉！"]
+			dependencies: ["0000000000000DA0"]
+			id: "2DD7DA15B901B864"
+			tasks: [{
+				id: "5E33713DDBCB2F88"
+				type: "advancement"
+				title: "召唤火灵碎矿者"
+				icon: "minecraft:diamond_ore"
+				advancement: "occultism:occultism/summon_afrit_crusher"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "78123D89DEBE5797"
+				type: "command"
+				title: "传奇神秘学战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			icon: "occultism:iesnium_ore"
+			x: 0.5d
+			y: 7.0d
+			shape: "hexagon"
+			subtitle: "我在这些傻子旁边推磨"
+			description: ["魔王粉碎者是神秘学家武器库中最顶级的矿石成倍手段！该魔灵可以提供比火灵粉碎者更多的矿粉比，并且速度难以置信的快！"]
+			dependencies: ["2DD7DA15B901B864"]
+			id: "62EC5B3B5D4AC29A"
+			tasks: [{
+				id: "08209C430C9A42F4"
+				type: "advancement"
+				title: "召唤魔王粉碎者"
+				icon: "occultism:iesnium_ore"
+				advancement: "occultism:occultism/summon_marid_crusher"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6CA0ED39817B0F4E"
+					type: "command"
+					title: "传奇神秘学战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "55F8A50BA2FEEFF5"
+					type: "command"
+					title: "传奇神秘学战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_legendary"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "cfm:oak_kitchen_sink_light"
+			x: 8.0d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "我的工作。厕所和锅炉，锅炉和厕所。还有那个沸腾厕所。如果你敢，就解雇我。"
+			description: [
+				"魔精清洁工和粉碎者魔灵相性极佳。该魔灵会从地上捡起物品并放入固定的容器中。"
+				""
+				"Shift右击魔灵来设置过滤选项！"
+			]
+			dependencies: ["0000000000000D9A"]
+			id: "55DC3E0B9FA8AA4F"
+			tasks: [{
+				id: "326131CF6E83F4CC"
+				type: "advancement"
+				title: "召唤魔精清洁工"
+				icon: "occultism:brush"
+				advancement: "occultism:occultism/summon_foliot_cleaner"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "63C1F20FAAC09395"
+				type: "command"
+				title: "农夫快乐包"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			shape: "hexagon"
+			description: [
+				"贪婪使魔是你冒险中的好朋友！"
+				""
+				"这个小家伙会跟着你到处走，帮你捡东西，把东西直接存到你的物品栏里！"
+				""
+				"绑定到使魔之戒指中，从饰品栏（本质上就是个磁铁）中使用它的力量。"
+			]
+			dependencies: ["0000000000000D9C"]
+			id: "7C066CF3F26957FA"
+			tasks: [{
+				id: "35B087061AEF871F"
+				type: "advancement"
+				title: "召唤贪婪使魔"
+				icon: "artifacts:universal_attractor"
+				advancement: "occultism:occultism/familiar_greedy"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "28BE9B44E120DB5B"
+				type: "command"
+				title: "史诗神秘学战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "我在黑夜中戴上了墨镜 :catjam:"
+			description: ["蝙蝠使魔使用其回声定位能力来帮助你在黑暗的地方看清，本质上就是给你夜视！"]
+			dependencies: ["0000000000000D9E"]
+			id: "7FC9B2436C688AAC"
+			tasks: [{
+				id: "070C2A8C0AFB562F"
+				type: "advancement"
+				title: "召唤蝙蝠使魔"
+				icon: "artifacts:night_vision_goggles"
+				advancement: "occultism:occultism/familiar_bat"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1E3C943984A0CFE0"
+				type: "command"
+				title: "史诗神秘学战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			subtitle: "蹦蹦跳跳，离我的东西远点！"
+			description: ["小鹿使魔可以帮助你跳得更高！"]
+			dependencies: ["0000000000000D9C"]
+			id: "21C673E65278AB87"
+			tasks: [{
+				id: "0064A5E6F29E8FEC"
+				type: "advancement"
+				title: "召唤小鹿使魔"
+				icon: {
+					id: "alexsmobs:moose_headgear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "occultism:occultism/familiar_deer"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "20E494C1C5407A03"
+				type: "command"
+				title: "史诗神秘学战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "losttrinkets:octopus_leg"
+			x: 3.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn."
+			description: ["克苏鲁使魔为玩家提供了水下呼吸，并且被铁匠使魔升级后它还是个移动光源！"]
+			dependencies: ["0000000000000D9E"]
+			id: "37BA1FD75B5F474F"
+			tasks: [{
+				id: "73C75966A8C84D63"
+				type: "advancement"
+				title: "召唤克苏鲁使魔"
+				icon: "losttrinkets:octopus_leg"
+				advancement: "occultism:occultism/familiar_cthulhu"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "10284540330AD4CF"
+				type: "command"
+				title: "史诗神秘学战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"铁匠使魔是神秘学家武器库中最有用的使魔之一。"
+				""
+				"在跟随玩家在使魔之戒中时，它会吃掉你挖掘的所有石头，并有概率修复工具/护甲！"
+				""
+				"它还可以升级许多你最喜欢的使魔！在它的铁砧上加上一些铁块或铁锭，它就会在一定区域内升级使魔。"
+			]
+			dependencies: ["0000000000000D9E"]
+			id: "5C7B9EA6F5861807"
+			tasks: [{
+				id: "3AE8D0B894D9FAC1"
+				type: "advancement"
+				title: "召唤铁匠使魔"
+				icon: "minecraft:anvil"
+				advancement: "occultism:occultism/familiar_blacksmith"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6DB0BF49C13038F7"
+				type: "command"
+				title: "史诗神秘学战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_occultism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "occultism:ritual_dummy/custom_ritual"
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"这些只是其中一些神秘学家可以召唤的很棒的使魔。"
+				""
+				"查看魔灵全典来了解获得更多有用的伙伴！"
+			]
+			dependencies: [
+				"0000000000000F3C"
+				"37BA1FD75B5F474F"
+				"5C7B9EA6F5861807"
+				"7FC9B2436C688AAC"
+			]
+			dependency_requirement: "one_completed"
+			id: "6267BAB65DB567DA"
+			tasks: [{
+				id: "6BEA5559EF14E691"
+				type: "checkmark"
+				title: "更多使魔！"
+			}]
+			rewards: [{
+				id: "751C76DF5C4D8BA3"
+				type: "item"
+				item: "occultism:book_of_binding_djinni"
+				count: 3
+			}]
+		}
+	]
+}

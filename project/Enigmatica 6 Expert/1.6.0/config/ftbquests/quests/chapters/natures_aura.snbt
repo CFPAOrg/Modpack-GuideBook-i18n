@@ -1,0 +1,1240 @@
+{
+	id: "000000000000009E"
+	group: "5A8B89F87F77CF4C"
+	order_index: 6
+	filename: "natures_aura"
+	title: "自然灵气"
+	icon: "naturesaura:gold_leaf"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 0.0d
+			height: 0.0d
+			rotation: 0.0d
+			image: "#FFFFFF"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 0.0d
+			height: 0.0d
+			rotation: 0.0d
+			image: "#FFFFFF"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 0.0d
+			height: 0.0d
+			rotation: 0.0d
+			image: "#FFFFFF"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "自然灵气"
+			icon: "naturesaura:aura_bloom"
+			x: -0.5d
+			y: -9.0d
+			shape: "gear"
+			description: [
+				"自然灵气是一个以德鲁伊为主题的魔法科技模组，使用无所不在的“灵气”来获得力量。"
+				""
+				"请注意，灵气是一种有限的资源，必须加以管理和补充，以免扰乱自然秩序。消耗过多灵气可能导致可怕的后果。"
+				""
+				"这些任务将引导你游玩该模组，但一定要多多参考手册来了解更多信息。当你完成这些任务及其相关成就时，手册中的章节就会解锁。"
+				""
+				"~MuteTiefling"
+			]
+			optional: true
+			id: "000000000000009F"
+			tasks: [{
+				id: "5DCF7175B494CD02"
+				type: "item"
+				title: "任意树苗"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000000A6"
+				type: "item"
+				title: "剪刀"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "森林仪式"
+			x: -0.5d
+			y: -12.0d
+			subtitle: "拿根木头来，不，我是说椅子"
+			description: [
+				"森林仪式是所有魔法的基础。它从仪式中心的牺牲的生命处汲取力量。"
+				""
+				"先准备好剩余的仪式，最后再放树苗，以防止它提前生长。"
+				""
+				"查看《自然灵气之书》来获得建造仪式的指引。"
+				""
+				"注：由于其他模组的作用，阻止了仪式检测树苗的生长，Enigmatica-6替换了森林仪式中使用的默认树苗。用于替代的夸克树苗总能被检测到，只要稍加探索，就可能在世界中发现罕见的夸克树苗。也可以从贸易站中购买夸克树苗。"
+			]
+			dependencies: ["00000000000000A4"]
+			id: "00000000000000A2"
+			tasks: [{
+				id: "000000000000037F"
+				type: "item"
+				item: "naturesaura:wood_stand"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "000000000000035A"
+					type: "command"
+					title: "稀有自然灵气战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+					player_command: false
+				}
+				{
+					id: "14A7BCABC52C6E6D"
+					type: "item"
+					item: "farmingforblockheads:market"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -11.0d
+			subtitle: "这是敲门砖"
+			description: ["既然丝线已经散布，那就破坏树上形成的黄金树叶，收获一些黄金叶吧。"]
+			dependencies: ["00000000000000A8"]
+			id: "00000000000000A4"
+			tasks: [{
+				id: "00000000000000A7"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+			}]
+			rewards: [
+				{
+					id: "000000000000035C"
+					type: "command"
+					title: "稀有自然灵气战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000A73"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -10.0d
+			subtitle: "命运之丝绑定我们"
+			description: [
+				"想踏入自然学家的行列，首先应该把闪耀纤维编织成树叶。"
+				""
+				"随着时间的推移，它会自然传播到邻近的叶子上，覆盖了大部分树叶。给它一点时间。"
+			]
+			dependencies: ["000000000000009F"]
+			id: "00000000000000A8"
+			tasks: [{
+				id: "00000000000000A9"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+			}]
+			rewards: [
+				{
+					id: "000000000000035B"
+					type: "command"
+					title: "稀有自然灵气战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000A72"
+					type: "command"
+					title: "农夫快乐包"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "naturesaura:offering_table"
+			x: 2.0d
+			y: -15.5d
+			subtitle: "听见我就点点头吧"
+			description: ["把你的祭品放在碗里，然后抛下呼唤之魂来完成仪式。"]
+			dependencies: ["00000000000002BB"]
+			id: "0000000000000230"
+			tasks: [{
+				id: "0000000000000231"
+				type: "item"
+				item: "naturesaura:offering_table"
+			}]
+			rewards: [{
+				id: "0000000000000373"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			icon: "naturesaura:nature_altar"
+			x: 2.0d
+			y: -13.0d
+			subtitle: "生即是死，死即是生"
+			description: [
+				"自然祭坛是两种仪式的核心；一种注入生命，而另一种则注入死亡。"
+				""
+				"展示绿色瓶子（瓶装阳光）的配方可以在主世界建造的祭坛中合成，而那些带有红色瓶子（瓶装鬼魂）的配方必须在下界建造的祭坛中合成。"
+				""
+				"有关所需结构的预览，请查阅《自然灵气之书》中关于自然祭坛和猩红祭坛的部分。"
+				""
+				"注：你的Enigmatica-6实例文件夹中有建筑小帮手模板和机械动力蓝图来帮助你完成这个多方块。"
+			]
+			dependencies: ["00000000000002BF"]
+			dependency_requirement: "all_started"
+			id: "00000000000002B5"
+			tasks: [
+				{
+					id: "00000000000002B6"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "0000000000000331"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 20L
+				}
+				{
+					id: "0000000000000332"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 16L
+				}
+				{
+					id: "0000000000000333"
+					type: "item"
+					item: "naturesaura:gold_brick"
+					count: 8L
+				}
+				{
+					id: "0000000000000334"
+					type: "item"
+					item: "minecraft:chiseled_stone_bricks"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "00000000000004A2"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "最纯粹的表达"
+			x: 3.0d
+			y: -16.0d
+			description: ["以最纯粹的形式表现出来的情感。"]
+			dependencies: ["0000000000000230"]
+			id: "00000000000002B7"
+			tasks: [
+				{
+					id: "00000000000002B8"
+					type: "item"
+					item: "naturesaura:token_euphoria"
+				}
+				{
+					id: "00000000000002EB"
+					type: "item"
+					item: "naturesaura:token_terror"
+				}
+				{
+					id: "00000000000002EC"
+					type: "item"
+					item: "naturesaura:token_rage"
+				}
+				{
+					id: "00000000000002ED"
+					type: "item"
+					item: "naturesaura:token_grief"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000035F"
+					type: "item"
+					title: "埃尔的标记"
+					item: "naturesaura:break_prevention"
+				}
+				{
+					id: "0000000000000360"
+					type: "command"
+					title: "稀有自然灵气战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -14.0d
+			subtitle: "错中有对"
+			description: ["逝者灵魂的绝佳容器。"]
+			dependencies: ["00000000000002B5"]
+			id: "00000000000002B9"
+			tasks: [{
+				id: "00000000000002BA"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+			}]
+			rewards: [{
+				id: "0000000000000376"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: -14.5d
+			subtitle: "对立和谐"
+			description: ["达到平衡之时，便是伟事成为可能之际。"]
+			dependencies: [
+				"00000000000002B9"
+				"00000000000002BD"
+			]
+			id: "00000000000002BB"
+			tasks: [{
+				id: "00000000000002BC"
+				type: "item"
+				item: "naturesaura:calling_spirit"
+			}]
+			rewards: [{
+				id: "0000000000000374"
+				type: "command"
+				title: "史诗自然灵气战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: -13.5d
+			subtitle: "黑暗中，有着光明"
+			description: ["盛放生命精华的绝佳容器。"]
+			dependencies: ["00000000000002B5"]
+			id: "00000000000002BD"
+			tasks: [{
+				id: "00000000000002BE"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+			rewards: [{
+				id: "0000000000000375"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "身体跟随心灵"
+			x: 1.0d
+			y: -12.5d
+			description: ["控制你的情绪而不是压制它们。用勤勉来对待它们。"]
+			dependencies: ["00000000000000A2"]
+			id: "00000000000002BF"
+			tasks: [
+				{
+					id: "00000000000002C0"
+					type: "item"
+					item: "naturesaura:token_joy"
+				}
+				{
+					id: "000000000000032E"
+					type: "item"
+					item: "naturesaura:token_fear"
+				}
+				{
+					id: "000000000000032F"
+					type: "item"
+					item: "naturesaura:token_anger"
+				}
+				{
+					id: "0000000000000330"
+					type: "item"
+					item: "naturesaura:token_sorrow"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000035E"
+					type: "item"
+					title: "不朽友情之证明"
+					item: "naturesaura:pet_reviver"
+				}
+				{
+					id: "0000000000000361"
+					type: "command"
+					title: "稀有自然灵气战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "潮起潮落"
+			x: -1.5d
+			y: -14.0d
+			subtitle: "互谅互让"
+			description: [
+				"由远古树苗长成的树木有两个主要用途。"
+				""
+				"第一，它可以补充一个区域的灵气。"
+				""
+				"第二，其木材被用于自然灵气的合成配方。"
+				""
+				"不用担心，比这更有效的补充灵气方法很快就会出现。"
+			]
+			dependencies: ["00000000000000A2"]
+			id: "00000000000002C1"
+			tasks: [{
+				id: "00000000000002C2"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+			rewards: [
+				{
+					id: "0000000000000369"
+					type: "command"
+					title: "稀有自然灵气战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000702"
+					type: "item"
+					title: "远古原木"
+					item: "naturesaura:ancient_log"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -17.5d
+			subtitle: "有得必有失"
+			description: [
+				"嬗变催化剂增强了自然和猩红祭坛，使它们能够进行更深层次的转化。"
+				""
+				"具体说明请查阅《自然灵气之书》。"
+			]
+			dependencies: ["00000000000002E9"]
+			id: "00000000000002C3"
+			tasks: [{
+				id: "00000000000002C4"
+				type: "item"
+				item: "naturesaura:conversion_catalyst"
+			}]
+			rewards: [{
+				id: "0000000000000371"
+				type: "command"
+				title: "史诗自然灵气战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: -12.0d
+			subtitle: "大殿的残垣断壁上爬满了常春藤"
+			description: [
+				"崩坏催化剂增强了自然和猩红祭坛，使它们能够进行更深层次的转化。"
+				""
+				"具体说明请查阅《自然灵气之书》。"
+			]
+			dependencies: ["00000000000002B5"]
+			id: "00000000000002C5"
+			tasks: [{
+				id: "00000000000002C6"
+				type: "item"
+				item: "naturesaura:crushing_catalyst"
+			}]
+			rewards: [{
+				id: "0000000000000359"
+				type: "item"
+				title: "黄金叶"
+				item: "naturesaura:gold_leaf"
+				count: 32
+			}]
+		}
+		{
+			x: 3.5d
+			y: -17.0d
+			subtitle: "生命的爆发"
+			description: [
+				"释放你用来补充灵气的仪式的真正潜力。"
+				""
+				"当发生器下面有了这个方块，你就能够实现自创世初期以来从未观察到的繁茂。"
+			]
+			dependencies: ["00000000000002B7"]
+			id: "00000000000002C7"
+			tasks: [{
+				id: "00000000000002C8"
+				type: "item"
+				item: "naturesaura:generator_limit_remover"
+			}]
+			rewards: [{
+				id: "0000000000000378"
+				type: "command"
+				title: "史诗自然灵气战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -14.5d
+			subtitle: "放轻松，首先我需要了解一下情况"
+			description: ["许多装置都有一个特定的范围，只有用奥秘放大镜右击才能看到。对于任何一个自然学家来说，这都是一个很有价值的工具。"]
+			dependencies: ["00000000000002BD"]
+			id: "00000000000002C9"
+			tasks: [{
+				id: "00000000000002CA"
+				type: "item"
+				item: "naturesaura:range_visualizer"
+			}]
+			rewards: [{
+				id: "0000000000000377"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -12.5d
+			subtitle: "尽管你知道原理，但它依旧是魔法"
+			description: [
+				"未经训练的眼睛会在灵气馥郁的区域注意到微弱的光线和增强的生长。"
+				""
+				"环境之眼会进一步磨砺你的视野，让你更深入地洞察弥漫在大地上的灵气。"
+			]
+			dependencies: ["00000000000000A2"]
+			id: "00000000000002CB"
+			tasks: [{
+				id: "00000000000002CC"
+				type: "item"
+				item: "naturesaura:eye"
+			}]
+			rewards: [{
+				id: "0000000000000367"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -13.5d
+			subtitle: "地谜藏宝101"
+			description: [
+				"一种便携式的灵气源，可与多种工具配合使用。"
+				""
+				"请查阅《自然灵气之书》的自然工具部分以了解其潜在用途。"
+				""
+				"注：当佩戴时灵气缓存可能无法完全充满。为了充满灵气，甚至自动补充灵气，可以将其放在自然祭坛中以获得最大容量。"
+			]
+			dependencies: ["00000000000002BD"]
+			id: "00000000000002CD"
+			tasks: [{
+				id: "00000000000002CE"
+				type: "item"
+				item: "naturesaura:aura_cache"
+			}]
+			rewards: [{
+				id: "000000000000032D"
+				type: "item"
+				title: "植物学家之镐"
+				item: {
+					id: "naturesaura:infused_iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -17.5d
+			subtitle: "睁开你的双眼，然后再睁开一次"
+			description: ["自然之眼的高级版本，使拥有者能够看到周围灵气更准确的细节。"]
+			dependencies: ["00000000000002E9"]
+			id: "00000000000002E4"
+			tasks: [{
+				id: "00000000000002E5"
+				type: "item"
+				item: "naturesaura:eye_improved"
+			}]
+			rewards: [{
+				id: "0000000000000370"
+				type: "command"
+				title: "史诗自然灵气战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: -16.5d
+			subtitle: "帽子里的天空"
+			description: ["充满无疆神圣能量的金属。"]
+			dependencies: ["0000000000000230"]
+			id: "00000000000002E9"
+			tasks: [{
+				id: "00000000000002EA"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+			rewards: [{
+				id: "0000000000000372"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: -16.5d
+			subtitle: "你的杯子溢出来了"
+			description: [
+				"容量高于灵气缓存。"
+				""
+				"请查阅《自然灵气之书》的自然工具部分以了解其潜在用途。"
+				""
+				"注：耐久度损耗时灵气缓存可能无法完全充满。为了充满灵气，甚至自动补充灵气，可以将其放在自然祭坛中以获得最大容量。"
+			]
+			dependencies: ["00000000000002E9"]
+			id: "00000000000002EE"
+			tasks: [{
+				id: "00000000000002EF"
+				type: "item"
+				item: "naturesaura:aura_trove"
+			}]
+			rewards: [{
+				id: "000000000000036F"
+				type: "command"
+				title: "史诗自然灵气战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "移时日晷"
+			icon: "naturesaura:time_changer"
+			x: 0.5d
+			y: -15.5d
+			subtitle: "岁月无情"
+			description: ["这种强大的仪式能让你可以控制时间的流动，但是需要为此付出代价。"]
+			dependencies: ["0000000000000230"]
+			id: "00000000000002F0"
+			tasks: [
+				{
+					id: "00000000000002F1"
+					type: "item"
+					item: "naturesaura:clock_hand"
+				}
+				{
+					id: "00000000000002F2"
+					type: "item"
+					item: "naturesaura:time_changer"
+				}
+			]
+			rewards: [{
+				id: "000000000000036E"
+				type: "command"
+				title: "史诗自然灵气战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			subtitle: "划清界限"
+			description: [
+				"一种简单的设备，可以帮助控制你的牲畜。该方块范围内的被动动物将无法超越其边界。"
+				""
+				"范围取决于提供的红石信号强度。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000002B5"]
+			id: "00000000000002F8"
+			tasks: [{
+				id: "00000000000002F9"
+				type: "item"
+				item: "naturesaura:animal_container"
+			}]
+			rewards: [{
+				id: "000000000000032B"
+				type: "item"
+				title: "工业调节开关"
+				item: "rsgauges:industrial_dimmer"
+			}]
+		}
+		{
+			icon: "naturesaura:animal_spawner"
+			x: 0.5d
+			y: -6.5d
+			subtitle: "突破瓶颈"
+			description: [
+				"一种利用造物力量的仪式，可以从材料最微量的生命痕迹中创造新生命。"
+				""
+				"有关建造仪式的具体说明，请查阅《自然灵气之书》。"
+				""
+				"建造完成后，只需将试剂扔到祭坛上即可。如果有足够的灵气，仪式将自动进行。"
+				""
+				"注：你的Enigmatica-6实例文件夹中有建筑小帮手模板和机械动力蓝图来帮助你完成这个多方块。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["000000000000037F"]
+			id: "00000000000002FA"
+			tasks: [
+				{
+					id: "00000000000002FB"
+					type: "item"
+					item: "naturesaura:animal_spawner"
+				}
+				{
+					id: "000000000000033F"
+					type: "item"
+					item: "naturesaura:infused_brick"
+					count: 16L
+				}
+				{
+					id: "0000000000000340"
+					type: "item"
+					item: "minecraft:hay_block"
+					count: 16L
+				}
+				{
+					id: "0000000000000341"
+					type: "item"
+					item: "naturesaura:ancient_planks"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "0000000000000364"
+				type: "item"
+				title: "巴德尔之杖"
+				item: "naturesaura:light_staff"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.0d
+			subtitle: "相长干涉"
+			description: [
+				"无感知建造器可以帮助完成复杂的自动化任务，从附近的容器中提取放块并将其放置。"
+				""
+				"在建造器上放置物品展示框，并放入示例，就可以指定其放置方块的位置。"
+				""
+				"具体说明请查阅《自然灵气之书》。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000002BD"]
+			id: "00000000000002FC"
+			tasks: [{
+				id: "00000000000002FD"
+				type: "item"
+				item: "naturesaura:placer"
+			}]
+			rewards: [
+				{
+					id: "000000000000031E"
+					type: "item"
+					title: "物品展示框"
+					item: "minecraft:item_frame"
+				}
+				{
+					id: "000000000000031F"
+					type: "item"
+					title: "耕作模板"
+					item: "naturesaura:farming_stencil"
+				}
+			]
+		}
+		{
+			title: "灵气场生成器"
+			x: -3.5d
+			y: -7.5d
+			subtitle: "相消干涉"
+			description: [
+				"灵气场生成器可以连接在一起，在之间形成一个区域，其中的方块会被破坏。"
+				""
+				"只需右击其中一个生成器，然后再右击另一个，即可将它们连接。你可以提供红石信号来启用它们。一段时间过后，它们就会开始汲取灵气并破坏方块。"
+				""
+				"同样的，物品展示框可以用于改变生成器的行为："
+				""
+				"●灵气场生成器将使用展示框中的任何工具，包括任何该工具的魔咒或特殊破坏属性。剪刀剪树叶、铁锹铲雪、时运和精准采集都会生效。"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000002E9"
+				"00000000000002EC"
+			]
+			min_width: 450
+			id: "00000000000002FE"
+			tasks: [{
+				id: "00000000000002FF"
+				type: "item"
+				item: "naturesaura:field_creator"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0000000000000362"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			icon: "naturesaura:blast_furnace_booster"
+			x: 0.5d
+			y: -8.5d
+			subtitle: "从狱火中锻造而成"
+			description: ["放置在高炉顶部，以提高矿石处理的产量。"]
+			hide_dependency_lines: true
+			dependencies: ["00000000000002EB"]
+			id: "0000000000000306"
+			tasks: [
+				{
+					id: "0000000000000307"
+					type: "item"
+					item: "naturesaura:blast_furnace_booster"
+				}
+				{
+					id: "000000000000031C"
+					type: "item"
+					item: "minecraft:blast_furnace"
+				}
+			]
+			rewards: [{
+				id: "0000000000000355"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			subtitle: "麦克斯韦妖"
+			description: ["从环境中汲取灵气，加热熔炉、高炉和烟熏炉。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000002B9"
+				"00000000000002BD"
+				"000000000000032E"
+			]
+			id: "0000000000000308"
+			tasks: [{
+				id: "0000000000000309"
+				type: "item"
+				item: "naturesaura:furnace_heater"
+			}]
+			rewards: [{
+				id: "0000000000000356"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			subtitle: "阿巴顿之门"
+			description: [
+				"扭曲的末影箱。通过同时在铁砧中重命名末影板条箱并将其与末影之眼合并，可以将末影板条箱分配至一个频道。"
+				""
+				"每次从板条箱中搬进或搬出物品时都会使用少量灵气。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000329"]
+			id: "000000000000030A"
+			tasks: [{
+				id: "000000000000030B"
+				type: "item"
+				item: "naturesaura:ender_crate"
+			}]
+			rewards: [
+				{
+					id: "000000000000033D"
+					type: "item"
+					title: "末影目镜"
+					item: "naturesaura:ender_access"
+				}
+				{
+					id: "000000000000033E"
+					type: "item"
+					title: "末影之眼"
+					item: "minecraft:ender_eye"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			subtitle: "它呼唤，无人回应，它继续呼唤"
+			description: ["将其放在专家型漏斗上，可以小范围地收集物品。会遵守其下方漏斗上的过滤器。"]
+			hide_dependency_lines: true
+			dependencies: ["00000000000002BD"]
+			id: "000000000000030C"
+			tasks: [{
+				id: "000000000000030D"
+				type: "item"
+				item: "naturesaura:hopper_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000363"
+				type: "item"
+				title: "传送门护符"
+				item: "darkutils:charm_portal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.0d
+			subtitle: "穿过泥沼"
+			description: [
+				"在自然灵气中存在着许多帮助移动物品的装置。例如，这个漏斗可以通过在其上放置物品展示框进行过滤。"
+				""
+				"查看《自然灵气之书》以获得详细信息。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000002BD"]
+			id: "000000000000030E"
+			tasks: [{
+				id: "000000000000030F"
+				type: "item"
+				item: "naturesaura:grated_chute"
+			}]
+			rewards: [{
+				id: "000000000000031D"
+				type: "item"
+				title: "物品展示框"
+				item: "minecraft:item_frame"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			subtitle: "相对参照框架"
+			description: [
+				"由灵气驱动的简单区块加载器。"
+				""
+				"范围取决于提供的红石信号强度。"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000002CB"
+				"0000000000000329"
+			]
+			id: "0000000000000310"
+			tasks: [{
+				id: "0000000000000311"
+				type: "item"
+				item: "naturesaura:chunk_loader"
+			}]
+			rewards: [{
+				id: "0000000000000365"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.5d
+			y: -14.5d
+			subtitle: "比绵羊更好"
+			description: [
+				"这个基础灵气发生器会吞噬附近的花来补充周围的灵气。"
+				""
+				"小心点，因为它会吃掉任何小型花。喂它各种各样的花是产生更多灵气的关键。"
+			]
+			dependencies: ["00000000000002C1"]
+			id: "0000000000000312"
+			tasks: [{
+				id: "0000000000000313"
+				type: "item"
+				item: "naturesaura:flower_generator"
+			}]
+			rewards: [{
+				id: "000000000000036D"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -0.5d
+			y: -14.5d
+			subtitle: "要么去做，要么放手，没有尝试一说。"
+			description: ["这个基础灵气发生器会吞噬大多数苔石方块的苔藓来补充灵气，留下普通的石质方块。"]
+			dependencies: ["00000000000002C1"]
+			id: "0000000000000314"
+			tasks: [{
+				id: "0000000000000315"
+				type: "item"
+				item: "naturesaura:moss_generator"
+			}]
+			rewards: [{
+				id: "000000000000036C"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.5d
+			y: -13.5d
+			subtitle: "不要以貌取人好吗？"
+			description: ["一种更高级的灵气发生器，其优点是将树木的生长限制在较小的形状，使某些类型的林场更容易建造。"]
+			dependencies: ["00000000000002C1"]
+			id: "0000000000000316"
+			tasks: [{
+				id: "0000000000000317"
+				type: "item"
+				item: "naturesaura:oak_generator"
+			}]
+			rewards: [{
+				id: "0000000000000368"
+				type: "command"
+				title: "稀有自然灵气战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "神秘生态学"
+			icon: "naturesaura:chorus_generator"
+			x: -1.0d
+			y: -15.5d
+			description: ["灵气产生并不止于此。查看《自然灵气之书》来了解其他更高级的选择，以防止你周围的灵气耗尽。"]
+			dependencies: ["00000000000002C1"]
+			id: "000000000000031A"
+			tasks: [{
+				id: "000000000000031B"
+				type: "checkmark"
+				title: "深入探索"
+			}]
+			rewards: [{
+				id: "0000000000000863"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "效果粉末"
+			x: -0.5d
+			y: -7.0d
+			subtitle: "风中之尘"
+			description: [
+				"充裕的灵气有各种副作用，它们有好有坏。各种粉末的存在是为了控制这些影响何时何地发生。"
+				""
+				"●荒芜——防止下界岩上长草。"
+				""
+				"●慷慨——通过对应的灵气种类将石头和下界岩转化为矿石。"
+				""
+				"●稳生——作物、植物和花朵的生长将不再受到灵气的促进。"
+				""
+				"●繁殖——被动动物在可繁殖的时候自动繁殖。"
+				""
+				"●无储——你的灵气缓存或秘宝不再会补充区域中的灵气。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000002C2"]
+			id: "0000000000000339"
+			tasks: [
+				{
+					id: "000000000000033A"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:nether_grass"
+						}
+					}
+				}
+				{
+					id: "0000000000000350"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:ore_spawn"
+						}
+					}
+				}
+				{
+					id: "0000000000000351"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:plant_boost"
+						}
+					}
+				}
+				{
+					id: "0000000000000352"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:animal"
+						}
+					}
+				}
+				{
+					id: "0000000000000353"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:cache_recharge"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000354"
+					type: "item"
+					title: "粉末操纵器"
+					item: "naturesaura:powder_placer"
+				}
+				{
+					id: "0000000000000366"
+					type: "command"
+					title: "史诗自然灵气战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -15.5d
+			subtitle: "去星辰大海！"
+			description: ["众所周知，在晴朗的天空下生长的水晶可以将星星的巨大能量结合到晶格中，但似乎并不是所有的能量都会被结合。当水晶在附近生长时，晶化提取器会吸收这些损失的能量，将其转化为强大的灵气来源。"]
+			dependencies: ["00000000000002C1"]
+			id: "212224CE33D89381"
+			tasks: [{
+				id: "280C9FCBE6C8646D"
+				type: "item"
+				item: "naturesstarlight:crystal_generator"
+			}]
+			rewards: [{
+				id: "6C5991B03D429D92"
+				type: "command"
+				title: "史诗自然灵气战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+	]
+}

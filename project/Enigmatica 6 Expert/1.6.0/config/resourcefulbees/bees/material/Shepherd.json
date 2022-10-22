@@ -1,0 +1,76 @@
+{
+    "flower": "farmersdelight:shepherds_pie_block",
+    "lore": "2级：\n牧羊人蜜蜂由RGBee和水蜜蜂生育而成，它会在巢穴中储藏各种动物产品。由牧羊人蜜蜂采集的花粉也会使动物立即长大。",
+    "loreColor": "#00AAAA",
+    "maxTimeInHive": 4800,
+    "sizeModifier": 1,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "baseLayerTexture": "other/shepherd",
+    "ColorData": {
+        "honeycombColor": "#945c45",
+        "modelType": "VILLAGER"
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": true,
+        "attackDamage": 1
+    },
+    "MutationData": {
+        "mutations": [
+            {
+                "type": "ENTITY",
+                "inputID": "entity:minecraft:cow",
+                "outputs": [{ "outputID": "entity:minecraft:cow", "weight": 50, "nbtData": {"Age":0} }]
+            },
+            {
+                "type": "ENTITY",
+                "inputID": "entity:minecraft:chicken",
+                "outputs": [{ "outputID": "entity:minecraft:chicken", "weight": 50, "nbtData": {"Age":0} }]
+            },
+            {
+                "type": "ENTITY",
+                "inputID": "entity:minecraft:pig",
+                "outputs": [{ "outputID": "entity:minecraft:pig", "weight": 50, "nbtData": {"Age":0} }]
+            },
+            {
+                "type": "ENTITY",
+                "inputID": "entity:minecraft:sheep",
+                "outputs": [{ "outputID": "entity:minecraft:sheep", "weight": 50, "nbtData": {"Age":0} }]
+            }
+        ]
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+
+        "mainOutput": "minecraft:mutton",
+        "mainOutputWeight": 0.5,
+        "mainOutputCount": 1,
+
+        "secondaryOutput": "resourcefulbees:wax",
+        "secondaryOutputWeight": 0.5,
+        "secondaryOutputCount": 3,
+
+        "bottleOutput": "minecraft:honey_bottle",
+        "bottleOutputWeight": 0.5,
+        "bottleOutputCount": 1,
+
+        "mainInputCount": 1
+    },
+    "SpawnData": {
+        "canSpawnInWorld": false
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "parent1": "rgbee",
+        "parent2": "water",
+        "feedItem": "tag:enigmatica:meats",
+        "feedAmount": 3,
+        "childGrowthDelay": -24000,
+        "breedDelay": 6000
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "flower": "tag:minecraft:flowers",
+    "creator": "Ridanisaurus Rid & TemperedFool",
+    "lore": "将合适的贡品奉给大自然，就会诞生一只注有自然灵气的蜜蜂……",
+    "loreColor": "#00AAAA",
+    "maxTimeInHive": 4800,
+    "hasHoneycomb": true,
+    "traits": ["can_swim"],
+    "baseLayerTexture": "other/infused",
+    "ColorData": {
+        "honeycombColor": "#1bb373"
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": true,
+        "attackDamage": 1
+    },
+    "MutationData": {"hasMutation": false},
+    "CentrifugeData": {"hasCentrifugeOutput": false},
+    "SpawnData": {"canSpawnInWorld": false},
+    "BreedData": {"isBreedable": false},
+    "TraitData": {"hasTraits": true}
+}

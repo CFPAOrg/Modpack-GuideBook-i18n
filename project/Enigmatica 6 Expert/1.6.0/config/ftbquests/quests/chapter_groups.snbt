@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "34B7FB260B6AEB81", title: "专家" }
+		{ id: "74B3CF67FCEAB20F", title: "装备" }
+		{ id: "0856CF7F5CBEB20A", title: "物流" }
+		{ id: "72A9465344128AF9", title: "科技" }
+		{ id: "5A8B89F87F77CF4C", title: "魔法" }
+	]
+}

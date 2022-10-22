@@ -1,0 +1,12 @@
+{
+    "name": "Discord服务器",
+    "icon": "enigmatica:textures/discord-icon.png",
+    "category": "patchouli:aboutus",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "我们的$(l)$(l:https://discord.com/invite/xPPwaFx)Discord 服务器$(/l)$(reset)是闲聊、讨论模组包、获得技术支持乃至加入官方服务器的绝佳渠道！快来吧，我们等着你！"
+        }
+    ]
+}

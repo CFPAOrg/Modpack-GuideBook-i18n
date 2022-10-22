@@ -1,0 +1,1551 @@
+{
+	id: "7DE17548AC012723"
+	group: "0856CF7F5CBEB20A"
+	order_index: 4
+	filename: "pedestals"
+	title: "基座"
+	icon: "pedestals:pedestal/stone333"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "基座"
+			x: 0.0d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "魔法科技物品展示"
+			description: [
+				"基座看起来很漂亮，在展示收藏品方面做得很好，但它们可以做得更多。通过一系列的增强、升级和附魔，它们可以在你的基地里干许多有用的活，并且看起来做得很好。"
+				""
+				"我们将介绍一些有用的功能，你可以在整个基地中利用它们，但如果你想学习任务以外的知识，JEI或游戏内手册都可以教你，基座开发者有一个维基（附有YouTube链接），涵盖了模组的许多细节："
+				""
+				"https://github.com/Mowmaster/Pedestals/wiki"
+				""
+				"~TemperedFool"
+			]
+			size: 2.0d
+			optional: true
+			min_width: 250
+			id: "1F68F65F2A0E3229"
+			tasks: [{
+				id: "023F3AF30F3B3115"
+				type: "item"
+				item: "pedestals:pedestal/stone333"
+			}]
+			rewards: [{
+				id: "38DDD047E1FD3A07"
+				type: "item"
+				title: "基座"
+				item: "pedestals:pedestal/stone333"
+				count: 2
+			}]
+		}
+		{
+			title: "基座美学"
+			x: 0.0d
+			y: -7.0d
+			subtitle: "美学还是条理——你来决定"
+			description: [
+				"颜色调色板可用于自定义基座的颜色。将调色板和每种最多3个的红色、绿色和/或蓝色染料扔在地上，然后用连接工具右击来设置其颜色。然后你可以副手拿着它右击基座来将其上色。如果你破坏了基座，它的颜色会被保留。"
+				""
+				"副手拿着萤石方块右击基座可以点亮基座。用一桶水潜行右击基座来将其变成含水方块。"
+			]
+			dependencies: ["1F68F65F2A0E3229"]
+			id: "215EA91229D2CB56"
+			tasks: [{
+				id: "0399E51C27863913"
+				type: "item"
+				item: "pedestals:itemcolorpalletdefault"
+			}]
+			rewards: [
+				{
+					id: "098E3EA6ABFDA468"
+					type: "item"
+					title: "红色染料"
+					item: "minecraft:red_dye"
+					count: 16
+				}
+				{
+					id: "79F92867195F75CE"
+					type: "item"
+					title: "绿色染料"
+					item: "minecraft:green_dye"
+					count: 16
+				}
+				{
+					id: "1EECE18CC58046AC"
+					type: "item"
+					title: "蓝色染料"
+					item: "minecraft:blue_dye"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "物品传输"
+			icon: "pedestals:coin/import"
+			x: -0.75d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "开启增强物流模式"
+			description: ["能够将物品从一个基座移动到另一个是很棒的，但能够和容器交互则更好。输入和输出升级可使你这么做。输入升级将从基座下方的容器中拉取物品进入其展示栏位，而输出升级将把物品从展示栏位推送至下方的容器中。"]
+			dependencies: ["5519E152C45C620F"]
+			size: 1.5d
+			id: "04E9F681A7D93BC7"
+			tasks: [
+				{
+					id: "7BC584C4EB7CA040"
+					type: "item"
+					title: "物品输入升级"
+					item: "pedestals:coin/import"
+				}
+				{
+					id: "6B60E2AD9BD1B2FD"
+					type: "item"
+					title: "物品输出升级"
+					item: "pedestals:coin/export"
+				}
+			]
+			rewards: [{
+				id: "2D03153B0921EA16"
+				type: "command"
+				title: "稀有基座战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "高级附魔"
+			x: 4.5d
+			y: -2.5d
+			description: [
+				"高级附魔可使升级操作基座下方的容器，使其与实体物品栏交互。例如，使用适当的升级向生物输入物品或将物品从生物中输出。"
+				""
+				"高级附魔需要附魔等级92；因此，它将需要一个模组附魔方法，如经验附魔升级。"
+			]
+			dependencies: ["1D239668DA764C52"]
+			id: "3D505992F1F47451"
+			tasks: [{
+				id: "2E490DE57B21553B"
+				type: "item"
+				item: "pedestals:bookadvanced"
+			}]
+			rewards: [{
+				id: "6C75052583A613E3"
+				type: "command"
+				title: "传奇基座战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "基座过滤器"
+			x: -2.5d
+			y: -2.5d
+			subtitle: "专为挑剔的用户设计"
+			description: [
+				"过滤器可以控制基座展示的物品。过滤器类型（白名单/黑名单）可以通过潜行右击空气来更改。需要编程的过滤器（如物品或模组过滤器）可以潜行右击容器，将其设置为该容器内的物品。"
+				""
+				"可以将过滤器添加到基座中，方法是将其放在副手，同时空手右击基座。副手拿着过滤器或过滤器工具进行相同操作来移除它们。"
+				""
+				"过滤器工具可以移除过滤器（如上所述），它也可使你通过右击基座来获取其中过滤器的信息。"
+			]
+			dependencies: ["5519E152C45C620F"]
+			id: "3B1E29F56796E3CB"
+			tasks: [
+				{
+					id: "6DB2626B9071D2F8"
+					type: "item"
+					title: "过滤器"
+					item: "pedestals:filter/filterbase"
+				}
+				{
+					id: "1C9B32BE95682776"
+					type: "item"
+					item: "pedestals:filterswapper"
+				}
+			]
+			rewards: [{
+				id: "75C154C379370AA9"
+				type: "command"
+				title: "稀有基座战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "刷怪场地"
+			x: -3.5d
+			y: 7.5d
+			subtitle: "将骷髅变成骨粉"
+			description: [
+				"基座提供了许多帮助你建造刷怪场地的升级。将它们与经验磁铁升级结合，来完成你的刷怪场。各种各样的升级还有其他潜在的用途——最值得一提的便是磁铁升级。"
+				""
+				"自动攻击升级将攻击其范围内的实体，默认造成2点伤害。该伤害可以通过基座容量魔咒进行升级。你也可以使用工具交换器在基座上添加一把剑，以增加其伤害输出，并且可以赋予基座任何原版的伤害魔咒。"
+				""
+				"生物风扇升级将实体从基座顶部推到其区域的末端。基座范围附魔会增加其高度，而基座容量则会增加其范围。基座速度附魔会提高推动速度。潜行可以抵消推力。"
+				""
+				"物品磁铁升级可以吸取基座附近范围内的物品并展示它们。只有当展示物品为空时，它才会吸入物品，因此快速传输物品很重要。"
+			]
+			dependencies: ["04E9F681A7D93BC7"]
+			min_width: 300
+			id: "2F0BA64F120AC01D"
+			tasks: [
+				{
+					id: "2C00694467D9F744"
+					type: "item"
+					title: "自动攻击升级"
+					item: "pedestals:coin/attack"
+				}
+				{
+					id: "778B44D0C706315F"
+					type: "item"
+					title: "生物风扇升级"
+					item: "pedestals:coin/fan"
+				}
+				{
+					id: "517ED5A445756751"
+					type: "item"
+					title: "物品磁铁升级"
+					item: "pedestals:coin/magnet"
+				}
+			]
+			rewards: [{
+				id: "285E5CC316FD0399"
+				type: "command"
+				title: "传奇基座战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "造石机"
+			x: -0.5d
+			y: 7.5d
+			description: [
+				"默认情况下，这将生成圆石并将其放在展示栏位中。它最多可以在展示栏位放下一组圆石，然后继续缓存更多的原石，直到达到其容量上限。"
+				""
+				"你可以使用经验铁砧基座对升级附魔精准采集——这将使其产出石头。"
+				""
+				"你还可以修改造石机生成的物品；例如，把蓝冰放在一个精准造石机下面可使其产生浮冰。这些配方可以在JEI中看到，在造石机和精准造石机标签下。"
+			]
+			dependencies: ["04E9F681A7D93BC7"]
+			id: "5B965827DB02DAFD"
+			tasks: [{
+				id: "1FC88CE0C0CAF005"
+				type: "item"
+				title: "造石机升级"
+				item: "pedestals:coin/cobble"
+			}]
+			rewards: [{
+				id: "524510595571DB0F"
+				type: "item"
+				title: "精准采集"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "实体过滤器"
+			x: -2.5d
+			y: 7.5d
+			subtitle: "不要误伤我"
+			description: [
+				"实体过滤器可用于控制自动攻击、风扇和药水扩散器升级与哪些实体交互。过滤这些升级简单到只要在基座下方放置一个特定方块。方块的类型决定了过滤内容："
+				""
+				"下界合金——通常具有特殊的加强效果。"
+				"绿宝石——以玩家为目标。"
+				"钻石——以怪物为目标（大多数敌对生物，除了史莱姆）。"
+				"金——以动物为目标（大多数被动生物）"
+				"青金石——以飞行生物为目标（蝙蝠、幻翼）"
+				"铁——以非飞行生物为目标（怪物+动物）"
+				"煤炭——以生物为目标（怪物+动物+飞行生物）"
+			]
+			dependencies: ["2F0BA64F120AC01D"]
+			min_width: 300
+			id: "064CDAA04220C326"
+			tasks: [{
+				id: "2FEB4963910F1366"
+				type: "item"
+				title: "实体过滤器"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:netherite_block"
+								Count: 1b
+							}
+							{
+								id: "minecraft:emerald_block"
+								Count: 1b
+							}
+							{
+								id: "minecraft:diamond_block"
+								Count: 1b
+							}
+							{
+								id: "minecraft:gold_block"
+								Count: 1b
+							}
+							{
+								id: "minecraft:lapis_block"
+								Count: 1b
+							}
+							{
+								id: "minecraft:iron_block"
+								Count: 1b
+							}
+							{
+								id: "minecraft:coal_block"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0513EB136510EFC4"
+				type: "command"
+				title: "传奇基座战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "农业升级"
+			x: 0.5d
+			y: 7.5d
+			subtitle: "小麦、橡木和蘑菇，哦，天哪！"
+			description: [
+				"基座有许多升级，使用它们可以建造一个农场。这些升级的运作范围可以通过附魔升级。"
+				""
+				"种植升级会种植其展示栏位中的种子或树苗。肥料升级会使用展示栏位中的骨粉为植物施肥。"
+				""
+				"收获升级会破坏完全成熟的植物，使其种子和作物掉落在地上。可以给升级后的基座一个锄头，用于收割作物（获得其魔咒的增益）。"
+				""
+				"伐木升级会在其运作区域内随机砍伐原木。升级会使用给它斧头，获得其魔咒的增益。如果给它剪刀，它会把剪下树叶，然后把它们扔在地上。"
+				""
+				"蘑菇采集升级的运作方式类似。它会在范围内破坏蘑菇或下界蘑菇方块，如果有斧头，它就会使用斧头。"
+			]
+			dependencies: ["04E9F681A7D93BC7"]
+			min_width: 300
+			id: "423724779D1C1953"
+			tasks: [{
+				id: "7D5E20C46615FE41"
+				type: "item"
+				title: "农业升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/planter"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/grower"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/harvester"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/chopper"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/choppershrooms"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "06E7A9FE610657CD"
+					type: "item"
+					title: "沃土耕地"
+					item: "farmersdelight:rich_soil_farmland"
+					count: 24
+				}
+				{
+					id: "10C04CD16CCFB794"
+					type: "command"
+					title: "史诗基座战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "经验输入"
+			x: 2.25d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "升级形态的智慧"
+			description: [
+				"带有经验升级的基座连接在一起，可以形成经验网络。有两个主要升级，可以向一个基座经验网络添加经验——经验磁铁和经验砂轮。"
+				""
+				"经验磁铁升级会在其范围内收集经验球并存储它们。它还可以吸取其上方玩家的经验。基座速度魔咒可以提高它吸取经验的速度，而基座容量魔咒可以提高一次吸取的等级数。该升级有一个30级的小缓存区，因此最好将等级转移到其他地方（例如带有经验储罐升级的基座）。"
+				""
+				"经验砂轮升级会从基座下方的容器中提取物品，去除其魔咒，并展示新的祛魔物品。该升级会收集物品拥有魔咒的经验，并将其存储在缓冲区中。"
+			]
+			dependencies: ["5519E152C45C620F"]
+			size: 1.5d
+			id: "7A4BFA66CD8E3884"
+			tasks: [{
+				id: "4AB13C88D19A545E"
+				type: "item"
+				title: "经验输入"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/xpmagnet"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/xpgrindstone"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7B73E2B538C62D25"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "75CCFE4D8F0F7B7A"
+					type: "command"
+					title: "法师快乐包"
+					icon: "kubejs:sorcerers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "经验输出"
+			x: 6.5d
+			y: 4.5d
+			description: [
+				"经验可以通过两个升级从网络中移除——经验投掷和经验装瓶升级。这两种升级只能输入经验，不能输出。"
+				""
+				"当经验被传输到经验投掷升级中时，它会从顶部投掷经验球。因为它会立即移除任何接收到的经验，所以红石控制对它特别有用。"
+				""
+				"经验装瓶升级将从基座下方的容器中取出空瓶子，将其装满经验，并将经验瓶放在展示栏位中。经验瓶可以被摔碎，产生经验球。"
+			]
+			dependencies: ["7A4BFA66CD8E3884"]
+			id: "78991F3E1F2CDB09"
+			tasks: [{
+				id: "2712FCFCE5FC2D8F"
+				type: "item"
+				title: "经验输出"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/xpbottler"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/xpdropper"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "69463270A467BDE5"
+					type: "command"
+					title: "史诗基座战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+					player_command: false
+				}
+				{
+					id: "5D63028F49060803"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "经验附魔"
+			x: 6.5d
+			y: 5.5d
+			description: [
+				"经验附魔可使你对物品进行附魔，类似于原版附魔台。值得注意的是，经验只能被传输到这个升级中，而不能被传输出去。升级将从基座下方的物品栏中提取物品，使用升级中的等级对其进行附魔，并展示结果物品。"
+				""
+				"此升级使用周围具有附魔能力的物品（如书架）来确定其附魔等级。与标准附魔台不同，它可以受到3格高书架的效果，并且不会被火把或水遮挡。原版书架可以使它的附魔等级达到96级。"
+			]
+			dependencies: ["7A4BFA66CD8E3884"]
+			id: "733EA0092EE4A490"
+			tasks: [{
+				id: "2885D8E72156A816"
+				type: "item"
+				title: "经验附魔升级"
+				item: "pedestals:coin/xpenchanter"
+			}]
+			rewards: [
+				{
+					id: "091142AE33565937"
+					type: "command"
+					title: "传奇基座战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "7E4890853E93CD10"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "经验铁砧"
+			x: 6.5d
+			y: 6.5d
+			description: [
+				"经验铁砧升级可以用于修复以及合并物品。值得注意的是，经验只能被传输到这个升级中，而不能被传输出去。"
+				""
+				"放置在基座下方容器中的物品将使用升级中的经验进行修复，类似于经验修补魔咒。一旦修复，升级将会检测周围最多4个基座（距铁砧一格远的四个方向）是否有物品可以合并。然后，它会将物品移动到展示栏位，如果可以，则会与这些物品合并。以下条件适用于合并物品："
+				""
+				"●周围基座中重命名的命名牌将用于重命名物品。"
+				""
+				"●书甚至附魔物品可以放置在周围的基座上，它们的魔咒将会转移到中心物品上。"
+				""
+				"●当合并魔咒（时运3+时运3->时运4）时，如果产生的魔咒高于正常原版限制，则需要超过原版最大附魔等级数相同数量的钻石。钻石应放置在相邻的基座上。未能提供足够的钻石会导致魔咒等级为原版附魔等级最大值。"
+			]
+			dependencies: ["7A4BFA66CD8E3884"]
+			min_width: 300
+			id: "71548F1D17633FBC"
+			tasks: [{
+				id: "24EDA20ED95D7ADE"
+				type: "item"
+				title: "经验铁砧升级"
+				item: "pedestals:coin/xpanvil"
+			}]
+			rewards: [
+				{
+					id: "71930DA696A6F583"
+					type: "command"
+					title: "传奇基座战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "1D6A6F954563D7B2"
+					type: "command"
+					title: "法师快乐包"
+					icon: "kubejs:sorcerers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "流体传输"
+			x: 0.75d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "弄湿升级"
+			description: ["带有流体升级的基座相连可以形成流体网络。流体输入和输出升级可使你从基座下方的容器中输入和输出流体。"]
+			dependencies: ["5519E152C45C620F"]
+			size: 1.5d
+			id: "500A2940C0C3AF6C"
+			tasks: [
+				{
+					id: "4FC68D9410BD5157"
+					type: "item"
+					title: "流体输入升级"
+					item: "pedestals:coin/fluidimport"
+				}
+				{
+					id: "1DCE38E92AB8A491"
+					type: "item"
+					title: "流体输出升级"
+					item: "pedestals:coin/fluidexport"
+				}
+			]
+			rewards: [{
+				id: "3BF44DDBB88BEFF0"
+				type: "command"
+				title: "稀有基座战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "世界内流体操纵"
+			x: 4.0d
+			y: 7.5d
+			description: ["流体泵和流体排出升级使底座能够操纵世界中的流体方块。两者都会在各自的运作范围内运作。流体泵将方块输入其内部的储罐，而流体排出会从其内部储罐放置流体方块。流体排出升级只能输入流体，不能输出。"]
+			dependencies: ["500A2940C0C3AF6C"]
+			id: "5103383AF580A723"
+			tasks: [
+				{
+					id: "03426DC34F589B83"
+					type: "item"
+					title: "流体泵升级"
+					item: "pedestals:coin/fluidpump"
+				}
+				{
+					id: "0D9AE163A1947D45"
+					type: "item"
+					title: "流体排出升级"
+					item: "pedestals:coin/fluiddrain"
+				}
+			]
+			rewards: [{
+				id: "1DE68B6E8E866DE4"
+				type: "command"
+				title: "传奇基座战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "流体到经验转换"
+			x: 5.5d
+			y: 7.5d
+			description: ["流体到经验转换升级从基座底部的储罐输入液态经验，将其转化为经验存入经验网络中。这很容易实现自动化，并且使其他刷怪工具与基座的联动变得简单。"]
+			dependencies: [
+				"7A4BFA66CD8E3884"
+				"500A2940C0C3AF6C"
+			]
+			dependency_requirement: "one_completed"
+			id: "1D4B0DDBC3A5523C"
+			tasks: [{
+				id: "6778060035ECD402"
+				type: "item"
+				title: "流体到经验转换升级"
+				item: "pedestals:coin/fluidxpconverter"
+			}]
+			rewards: [
+				{
+					id: "7D69D5766C6797ED"
+					type: "item"
+					title: "记忆源质桶"
+					item: "pneumaticcraft:memory_essence_bucket"
+					count: 4
+				}
+				{
+					id: "0B8959A9559A7AFF"
+					type: "item"
+					title: "小型流体储罐"
+					item: "pneumaticcraft:small_tank"
+				}
+			]
+		}
+		{
+			title: "能量传输"
+			x: -2.25d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "电感十足"
+			description: [
+				"带有能量升级的基座形成了基于FE的能量网络。能量输入和输出升级可使你将网络中的能量与外部能源进行交互。"
+				""
+				"该网络可用于在你的基地周围传输电力，但也可用于某些升级。"
+			]
+			dependencies: ["5519E152C45C620F"]
+			size: 1.5d
+			id: "3F9545A78B985E50"
+			tasks: [
+				{
+					id: "23D0BA532E6FC8AA"
+					type: "item"
+					title: "能量输入升级"
+					item: "pedestals:coin/rfimport"
+				}
+				{
+					id: "633E32DD1A37DBAC"
+					type: "item"
+					title: "能量输出升级"
+					item: "pedestals:coin/rfexport"
+				}
+			]
+			rewards: [{
+				id: "63DF0CF17CEF0500"
+				type: "command"
+				title: "稀有基座战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "粉碎升级"
+			x: -6.5d
+			y: 6.5d
+			description: [
+				"粉碎升级将对基座下方容器中的物品执行各种粉碎操作，并展示产物。这可以使基础矿石和染料双倍化、产出各种粉，更多请查看JEI的完整列表。"
+				""
+				"只有当基座为空时，才可以进行升级；请确保将其连接到接收基座以清除产物。"
+				""
+				"基座速度魔咒可以减少处理时间，而基座容量附魔可使其每次处理更多物品。"
+			]
+			dependencies: ["69E5C4BFCE2AC042"]
+			dependency_requirement: "one_completed"
+			id: "6186950B1DBA6D90"
+			tasks: [{
+				id: "2C89A17FEE1D81F5"
+				type: "item"
+				title: "粉碎升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/crusher"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfcrusher"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1ED931F1F141D930"
+				type: "command"
+				title: "矿工快乐包"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "烧炼升级"
+			x: -5.5d
+			y: 7.5d
+			subtitle: "帅得冒烟"
+			description: [
+				"烧炼升级将对基座下方容器中的物品执行原版烧炼配方，并展示产物。这也将产生类似原版熔炉的经验，将经验球掉落在地上。"
+				""
+				"只有当基座为空时，才可以进行升级；请确保将其连接到接收基座以清除产物。"
+				""
+				"基座速度魔咒可以减少处理时间，而基座容量附魔可使其每次处理更多物品。"
+			]
+			dependencies: ["69E5C4BFCE2AC042"]
+			dependency_requirement: "one_completed"
+			id: "1D0A4C2E2E3C3949"
+			tasks: [{
+				id: "213EE2964AAEC897"
+				type: "item"
+				title: "烧炼升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/smelter"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfsmelter"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B04CC06B42A1526"
+				type: "command"
+				title: "矿工快乐包"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "锯木升级"
+			x: -6.5d
+			y: 5.5d
+			subtitle: "让我们锯一根原木"
+			description: [
+				"锯木升级将从下方的容器中提取木头，将其切割并展示产物。这通常用于原木到木板的加工，但在JEI中可以找到其他有用的配方。"
+				""
+				"只有当基座为空时，才可以进行升级；请确保将其连接到接收基座以清除产物。"
+				""
+				"基座速度魔咒可以减少处理时间，而基座容量附魔可使其每次处理更多物品。"
+			]
+			dependencies: ["69E5C4BFCE2AC042"]
+			dependency_requirement: "one_completed"
+			id: "55DA0B9C9A170193"
+			tasks: [{
+				id: "375DDC70C36E87DB"
+				type: "item"
+				title: "锯木升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/sawmill"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfsawmill"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00EB9A9E96BE6AE7"
+					type: "item"
+					title: "橡木原木"
+					item: "minecraft:oak_log"
+					count: 32
+					random_bonus: 32
+				}
+				{
+					id: "0B94C6A7C119EBF7"
+					type: "command"
+					title: "稀有基座战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "采石场升级"
+			x: -4.5d
+			y: 7.5d
+			description: [
+				"采石场升级将在基座周围开采区块。通过插入过滤器来决定它们挖掘什么。"
+				""
+				"基座速度魔咒将减少处理时间。基座范围和区域魔咒将增加采石场的运作空间。升级还可以被原版的时运或精准采集附魔，这将影响方块的破坏结果。"
+				""
+				"升级还可以使用镐，上面的魔咒（即时运或精准采集）将会传递给采石场。"
+			]
+			dependencies: ["04E9F681A7D93BC7"]
+			dependency_requirement: "one_completed"
+			min_width: 300
+			id: "039F6656F4A696D6"
+			tasks: [{
+				id: "2BBE9152232B22E2"
+				type: "item"
+				title: "采石场升级"
+				item: "pedestals:coin/quarry"
+			}]
+			rewards: [{
+				id: "0381C81A23FD888C"
+				type: "command"
+				title: "史诗基座战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "动物收获"
+			x: 1.5d
+			y: 7.5d
+			subtitle: "与我们的动物朋友一起干活"
+			description: [
+				"这些升级将在固定区域从动物身上收获产物，并进行展示。"
+				""
+				"剪切机升级会在其范围内为绵羊剪毛，并展示产出的羊毛。只有当展示栏位为空时，它才会工作，因此请确保将产物及时输出。"
+				""
+				"蜂巢收获升级会从附近的蜂巢中收获蜜脾和蜂蜜，并展示产物。要从蜂巢中提取蜂蜜，下面的容器中需要有空玻璃瓶，该升级可以填充它们。"
+				""
+				"挤奶升级会使用基座下方容器中的空桶来为范围内的任何牛挤奶，将装满的桶放在其展示栏位中。"
+			]
+			dependencies: ["04E9F681A7D93BC7"]
+			id: "1E809DFCA38FD467"
+			tasks: [{
+				id: "3722F7F4F364B64B"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/harvesterhives"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/milker"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/shearer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6B5F421D7DB51A89"
+					type: "item"
+					title: "蜜蜂刷怪蛋"
+					item: "minecraft:bee_spawn_egg"
+				}
+				{
+					id: "4C89A90467F66E70"
+					type: "item"
+					title: "绵羊刷怪蛋"
+					item: "minecraft:sheep_spawn_egg"
+				}
+				{
+					id: "7EB80E7590BDF726"
+					type: "item"
+					title: "牛刷怪蛋"
+					item: "minecraft:cow_spawn_egg"
+				}
+			]
+		}
+		{
+			title: "合成升级"
+			x: 2.5d
+			y: 7.5d
+			description: [
+				"基座有着各种合成和流体合成升级，可以检测基座下方的容器，寻找配方，如果找到有效的配方，就会制作并展示结果物品。升级有3个版本——1x1、2x2和3x3，分别可以检测1、4和9组容器栏位。因此，对于原版箱子，这些升级将分别寻找27、6和3个配方。升级不会消耗配方中每个栏位的最后一个物品，从而使其能够记住配方。"
+				""
+				"占位符的合成是可选的，但它可以用于填充空栏位。合成升级会看到并忽略这些栏位，使你更容易读取配方。流体合成升级还可以使用流体合成占位符——这些占位符表示配方所需的一桶流体，它们将使用升级存储的流体（从流体网络传输）而不是桶。"
+				""
+				"压缩合成升级将在单个栏位（分别为2x2和3x3）中查找至少4或9个可压缩的物品，并展示合成后的物品。只有当展示栏位为空时，它们才会工作，因此请确保将产物移出展示栏位。"
+				""
+				"专业提示：你可以使用基座下的任何容器，甚至是投掷器和发射器。使用它们可以获得3x3的物品栏，使摆出工作台配方变得简单。此外，这些合成升级通过不断检测容器中的可用配方来运作，因此他们需要检测的容器栏位越少，运作速度就越快。"
+			]
+			dependencies: [
+				"04E9F681A7D93BC7"
+				"500A2940C0C3AF6C"
+			]
+			dependency_requirement: "one_completed"
+			min_width: 350
+			id: "0F70C994D2D08157"
+			tasks: [
+				{
+					id: "67DB4F5A0E9B46F4"
+					type: "item"
+					title: "合成升级"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pedestals:coin/compactor2"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/compactor3"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/crafter1"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/crafter2"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/crafter3"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/fluidcrafter1"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/fluidcrafter2"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/fluidcrafter3"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "766693A91B7DA1E7"
+					type: "item"
+					title: "占位符"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pedestals:coin/placeholder"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/placeholderbucket"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1108A6323A6A28A6"
+				type: "command"
+				title: "传奇基座战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "基座连接"
+			x: 0.0d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "基座联结！"
+			description: [
+				"连接在一起的基座，可以将展示物品从一个基座传输到另一个。它们还可以通过这种方式在升级中传输流体、FE和经验。"
+				""
+				"这是通过连接工具完成的：用该工具潜行右击基座以选择接收基座，然后执行相同操作来选择发送基座。用连接工具潜行右击空气，将其转换为反向连接工具，使得连接顺序为发送基座->接收基座。"
+				""
+				"每个发送基座最多可连接8个接收基座；接收基座可以连接到任意数量的发送基座。你可以用连接工具右击发送器以显示其信息，潜行右击以获得它与其它基座连接的视觉指示。默认情况下，发送机制使用优先级系统，表示为彩色粒子——黑色为第一，白色为最后。"
+			]
+			dependencies: ["1F68F65F2A0E3229"]
+			size: 1.5d
+			min_width: 300
+			id: "3ECCA6558FDB4A5E"
+			tasks: [{
+				id: "1D29F32F0D57B96E"
+				type: "item"
+				item: {
+					id: "pedestals:linkingtool"
+					Count: 1b
+					tag: {
+						storedlist_z: [I; ]
+						stored_y: -2000
+						storedlist_x: [I; ]
+						stored_x: 0
+						storedlist_y: [I; ]
+						stored_z: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "17C1C8CA8C95E178"
+				type: "item"
+				title: "金锭"
+				item: "minecraft:gold_ingot"
+				count: 3
+				random_bonus: 6
+				only_one: true
+			}]
+		}
+		{
+			title: "红石控制"
+			x: -1.5d
+			y: -2.5d
+			description: [
+				"在正常情况下，发送基座将尝试将其拥有的任何物品/流体/经验/FE发送到其连接的接收基座。"
+				""
+				"用红石信号充能接收基座将阻止其接收来自发送基座的物品/流体/经验/FE。这可以用于创建自定义路由系统。它还可以使基座的升级停止运作，并阻止其（通过传送升级）被传送。此行为可以通过在副手拿着红石火把，然后潜行右击基座来取消——火把将会被放入基座，并用红石信号激活它。"
+				""
+				"基座也可以被比较器读取，并将发出和充满程度相对应的信号。"
+			]
+			dependencies: ["3ECCA6558FDB4A5E"]
+			id: "578398B7265DCB89"
+			tasks: [{
+				id: "6731301F006613B4"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+			rewards: [{
+				id: "6F7D317666B0957F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "基座机械"
+			icon: "minecraft:coal"
+			x: -5.0d
+			y: 6.0d
+			subtitle: "当装饰碰上技术"
+			description: [
+				"基座有一系列升级，可使你使用它们来处理材料。这些升级有两个版本："
+				""
+				"常规版本使用掉落在其附近的可燃物。当基座上有燃料时，它会在其周围发出火焰粒子。"
+				""
+				"能量版本通过基座网络提供的FE运行。将其连接到存储有FE的基座，为其提供能量。"
+			]
+			dependencies: [
+				"3F9545A78B985E50"
+				"04E9F681A7D93BC7"
+			]
+			dependency_requirement: "one_completed"
+			id: "69E5C4BFCE2AC042"
+			tasks: [{
+				id: "11352D320468872A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5555385A057F11AB"
+				type: "command"
+				title: "稀有基座战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "基座升级"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "为你的展示基座添加功能"
+			description: [
+				"展示物品并在基座之间传输它们很好，但你可以通过升级添加其他功能。你需要一些基础基座升级才能开始。"
+				""
+				"通过将基座升级拿在你的副手，然后右击基座将升级放入其中。用另一个升级或升级工具左击基座，将升级移除。"
+			]
+			dependencies: ["3ECCA6558FDB4A5E"]
+			size: 1.5d
+			id: "5519E152C45C620F"
+			tasks: [{
+				id: "4ABAE7252496C5BD"
+				type: "item"
+				item: "pedestals:coin/default"
+			}]
+			rewards: [
+				{
+					id: "4BB47F1EBB842C15"
+					type: "item"
+					title: "基础基座升级"
+					item: "pedestals:coin/default"
+					count: 7
+				}
+				{
+					id: "0D53E6296F286954"
+					type: "command"
+					title: "稀有基座战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			description: ["使用升级工具右击基座，以获取有关其升级的信息。"]
+			dependencies: ["5519E152C45C620F"]
+			id: "1A8004185DA47AF8"
+			tasks: [{
+				id: "6CF87B9FDBF0F57E"
+				type: "item"
+				item: "pedestals:upgradetool"
+			}]
+			rewards: [{
+				id: "53A40AFDE18FBBEB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			description: [
+				"工具交换器可使你在某些升级中添加或删除工具。副手拿着你想添加的工具，用交换器右击基座以放入工具，或者在副手为空时用工具右击基座以移除工具。"
+				""
+				"当工具放入基座时，不会消耗工具耐久度，但它确实可以将上面的魔咒（即时运或精准采集）赋予升级。"
+			]
+			dependencies: ["5519E152C45C620F"]
+			id: "03FB33813D04031D"
+			tasks: [{
+				id: "195F71E5D15D557A"
+				type: "item"
+				item: "pedestals:toolswapper"
+			}]
+			rewards: [{
+				id: "429AB1D13E35C616"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "能量生产"
+			x: -6.5d
+			y: 4.5d
+			description: [
+				"基座提供了两个产出FE的升级——能量发电升级和祛魔发电升级。"
+				""
+				"能量发电升级会燃烧掉落在地上的熔炉燃料，并每20刻产生一次FE。该能量存储在魔咒中，可用于基座能量网络。"
+				""
+				"祛魔发电升级会拾取掉落在其附近的附魔物品（包括附魔书），去除其魔咒，并从魔咒中产生能量。它将展示新祛魔的物品，并将产生的能量存储到基座能源网络中。"
+			]
+			dependencies: ["3F9545A78B985E50"]
+			id: "5DDFF348CB1978A0"
+			tasks: [{
+				id: "13B8EBFFC9B4CFE1"
+				type: "item"
+				title: "FE发电升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/rffuelgen"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfexpgen"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "079B55734F05F67A"
+				type: "command"
+				title: "史诗基座战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "增强"
+			x: 1.5d
+			y: -2.5d
+			description: [
+				"基座可以添加增强，以增强基座的物品发送能力。前3种增强中的每一种最多可以加5个，其他3种只需要1个。"
+				""
+				"速度——减少传输之间的延迟。"
+				"容量——增加传输的物品数量。"
+				"范围——增加基座连接的范围。"
+				"消音——移除基座发出的任何声音（除了装备工具的声音）。"
+				"粒子消除——移除升级产生的任何粒子效果。"
+				"循环增强——改变基座的发送方式，从优先级改为循环。"
+			]
+			dependencies: ["3ECCA6558FDB4A5E"]
+			id: "62A1AE30CAEF1424"
+			tasks: [{
+				id: "6FDAD12F85326869"
+				type: "item"
+				title: "增强"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:upgradespeed"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgradecapacity"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgraderange"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7EF6847AFBA8EF14"
+				type: "command"
+				title: "史诗基座战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "专一魔咒书"
+			x: 3.5d
+			y: -2.5d
+			description: ["可以为升级进行附魔很棒，但这可能非常的……随机。这些书可以确保你获得所需的特定魔咒。请记住，你不能将这些书在原版铁砧中与升级相合并——你必须使用基座上的经验铁砧。"]
+			dependencies: ["305B5A8507D4567A"]
+			id: "1D239668DA764C52"
+			tasks: [{
+				id: "56AAC5339E833399"
+				type: "item"
+				title: "专一魔咒书"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:bookspeed"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookrange"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookarea"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookcapacity"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookmagnet"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D33D903DE919312"
+				type: "command"
+				title: "史诗基座战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "中继"
+			x: -1.5d
+			y: 0.0d
+			description: [
+				"使用基座传输物品就像连接它们一样简单，但不升级的基座不能成为流体、经验或FE基座网络的一部分。"
+				""
+				"中继升级可使你将基座添加到其各自的网络中，同时具有比储罐小得多的缓冲区。它们还可以使用过滤器来控制哪些物品可以通过它们传输，从而防止物品被发送到你不想要的地方。"
+			]
+			dependencies: ["5519E152C45C620F"]
+			id: "196FD7272F86F936"
+			tasks: [{
+				id: "7AB8C73E5215ED39"
+				type: "item"
+				title: "中继"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/xprelay"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfrelay"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/fluidrelay"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "34316DE310845284"
+				type: "command"
+				title: "稀有基座战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "存储储罐"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "美学囤积"
+			description: [
+				"你有时会想储存很多东西，而基座可以帮助你。这些升级将增强你囤积大量物品的能力，并在你的基座网络中起到缓冲作用。"
+				""
+				"基座容量魔咒可以大幅增加这些储罐的容量，使其成为可用的最高密度存储之一。"
+			]
+			dependencies: ["5519E152C45C620F"]
+			id: "002E681F34281A6B"
+			tasks: [{
+				id: "22221D08292F3871"
+				type: "item"
+				title: "储罐升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/itemtank"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rftank"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/fluidtank"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/xptank"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "157D6C650B8AFA14"
+				type: "command"
+				title: "稀有基座战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			description: [
+				"基座升级可以被附魔；它们可以使用原版魔咒，如时运和精准采集，但该模组也有六种特定的魔咒："
+				""
+				"基座容量———一般来说，它会增加升级可以存储的容量。对于1-5级的魔咒，物品存储的一般为4/8/16/32/64。"
+				""
+				"基座范围——通常，范围魔咒会影响升级的运作距离（离基座的距离）。"
+				""
+				"基座速度——此魔咒可使升级的运行速度提高2到20倍。最终的速度将取决于升级。"
+				""
+				"基座区域——区域魔咒通常会增大升级运作的立方体区域。"
+				""
+				"基座磁力——将在收获、方块破坏、采石场和伐木升级中添加物品磁铁功能。"
+				""
+				"高级基座——此魔咒使升级可以与实体交互，在其任务中有详细介绍。"
+			]
+			dependencies: ["5519E152C45C620F"]
+			min_width: 300
+			id: "305B5A8507D4567A"
+			tasks: [{
+				id: "6BA98FE9D6ED9FA9"
+				type: "checkmark"
+				title: "基座魔咒"
+				icon: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "pedestals:upgradespeed"
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0EF443D327EE222B"
+				type: "command"
+				title: "稀有基座战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "操控方块"
+			x: -1.5d
+			y: 7.5d
+			description: [
+				"基座有操控世界中物品和方块的升级——投掷、放置和破坏升级。"
+				""
+				"投掷升级将展示栏位的物品从基座顶部投掷。范围魔咒可修改物品从顶部掉落的距离。"
+				""
+				"放置升级将把展示栏位中的物品放置在基座下方。范围魔咒可修改物品放置的距离。"
+				""
+				"破坏升级会破坏基座下方的方块并展示掉落物。范围魔咒可修改被破坏方块离基座的距离。"
+				""
+				"可以用工具交换器将镐放在基座上——升级将使用它破坏方块，工具上的精准采集或时运魔咒将会在升级上生效。"
+			]
+			dependencies: ["04E9F681A7D93BC7"]
+			id: "189DF6D6ECA2E3D8"
+			tasks: [{
+				id: "1371F2CF8EE10097"
+				type: "item"
+				title: "方块操控升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/dropper"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/placer"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/breaker"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2959BEBA6F82546F"
+				type: "command"
+				title: "史诗基座战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+				player_command: false
+			}]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "创造工具",
+    "icon": "minecraft:command_block",
+    "category": "patchouli:jei",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "如果有管理员权限的话，你可以开启 JEI 作弊模式。$(l)按住 Ctrl 键并点击搜索栏旁的扳手图标$(reset)将会把它变成红色（这意味着作弊模式开启了）并且让你把 JEI 当作创造模式菜单使用。左击物品可以获得该物品一个，而 Shift + 左击可以获得一组。"
+        }
+    ]
+}

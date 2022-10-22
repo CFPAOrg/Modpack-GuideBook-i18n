@@ -1,0 +1,5 @@
+{
+	"name": "物品管理器",
+	"description": "$(l)$(#ffa500)Just Enough Items$(reset)（简称 JEI）是$(l)全宇宙最重要的工具模组$(reset)。它是你的人生导师。本章你讲会学习如何使用它。",
+	"icon": "minecraft:writable_book"
+}

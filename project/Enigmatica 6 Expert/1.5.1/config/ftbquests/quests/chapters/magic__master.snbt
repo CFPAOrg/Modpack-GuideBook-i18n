@@ -1,0 +1,547 @@
+{
+	id: "4530AE1D511B7928"
+	group: "34B7FB260B6AEB81"
+	order_index: 6
+	filename: "magic__master"
+	title: "魔法 - 大师"
+	icon: {
+		id: "astralsorcery:celestial_crystal"
+		Count: 1b
+		tag: {
+			astralsorcery: { }
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "精灵门"
+			x: -1.0d
+			y: 1.5d
+			description: [
+				"以优雅但淘气而出名的亚尔夫海姆的精灵们……对谁可以进入它们的领域这件事很挑剔。"
+				""
+				"不过同样，它们也非常愿意通过这扇门交易材料。"
+			]
+			dependencies: ["3ECB259F269FF80A"]
+			id: "54D0E568361DC267"
+			tasks: [
+				{
+					id: "06EFC0926D9228EB"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "0F894768DC2FA6A1"
+					type: "item"
+					item: "botania:natura_pylon"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			description: ["通过细心地处理，恶魔意志似乎可以被提纯并结晶。虽然他们看起来很像某种糖果，但那些尝试食用它的人很快就变成了胡言乱语的可怜虫。暂不清楚这是否仅仅是加速，还是直接导致了他们的疯狂，但从那以后，没有任何理智的法师再尝试过这么做。"]
+			dependencies: ["690063418D6815D2"]
+			id: "5E1A0B48076CD5F6"
+			tasks: [
+				{
+					id: "4B0D2FA22A7EDF1D"
+					type: "item"
+					item: "bloodmagic:demoncrucible"
+				}
+				{
+					id: "5D01EE5258D5D499"
+					type: "item"
+					item: "bloodmagic:demoncrystallizer"
+				}
+			]
+		}
+		{
+			title: "魔灵魔法 - 大师"
+			x: 2.5d
+			y: -1.5d
+			shape: "rsquare"
+			dependencies: ["0000000000000FCF"]
+			id: "06A6BE8C4A3B0C1D"
+			tasks: [{
+				id: "3200842BF652DCB5"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+		}
+		{
+			title: "血之祭坛 - 三级"
+			icon: "bloodmagic:altar"
+			x: 3.5d
+			y: 0.0d
+			description: ["我们再一次需要一个更好的容器来深入研究关于精神世界的知识。一块深深扎根于这个位面的自然魔法的魔力石板，可以充当一个安全锚。"]
+			dependencies: ["06A6BE8C4A3B0C1D"]
+			id: "06E76BE2A422E8AC"
+			tasks: [
+				{
+					id: "512B339FA8AB4383"
+					type: "item"
+					item: "bloodmagic:magicianbloodorb"
+				}
+				{
+					id: "0AC9515E1EEEE596"
+					type: "item"
+					item: {
+						id: "botania:mana_tablet"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: [
+				"“没有什么问题是一点魔法和一把像样的刀解决不了的，如果有，那就来一把魔法刀。”"
+				""
+				"– 灵魂铁匠 斯特里格"
+			]
+			dependencies: [
+				"0BEFCA7CB5EE447D"
+				"06E76BE2A422E8AC"
+			]
+			id: "152B45DD8C1899C2"
+			tasks: [{
+				id: "665FEB1890A1E866"
+				type: "item"
+				item: {
+					id: "occultism:chalk_purple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["寻找位于末地的水晶山脉，那里自然生长着大量的水晶。"]
+			dependencies: ["0000000000000FCF"]
+			id: "0CFE47372EC49DC8"
+			tasks: [{
+				id: "5F5822FEF6F28BB7"
+				type: "item"
+				item: "betterendforge:crystal_shards"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["常见于末地的硫磺泉中，准备好去那游泳吧！"]
+			dependencies: ["0000000000000FCF"]
+			id: "69201BA9E47F94EE"
+			tasks: [{
+				id: "124E2656A866D979"
+				type: "item"
+				item: "betterendforge:hydralux_petal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			shape: "diamond"
+			description: ["长期以来，附魔花瓣一直被用于追求大师称号的人的某种测试。这些花瓣需要在荒凉的末地岛屿经过艰难的探险才有可能找到，是高级施法和召唤的关键。"]
+			dependencies: [
+				"69201BA9E47F94EE"
+				"0CFE47372EC49DC8"
+			]
+			id: "0BEFCA7CB5EE447D"
+			tasks: [{
+				id: "6A2F524DD66901A3"
+				type: "item"
+				item: "betterendforge:enchanted_petal"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			shape: "diamond"
+			description: [
+				"先有金刚钻，再揽瓷器活。"
+				""
+				"用这个位面的材料和魔法挖掘根本不可能艾瑟金属矿石。第一批发现并利用它的人们是依靠绑定在他们工具中的魔灵才能做到这一点的。"
+			]
+			dependencies: ["152B45DD8C1899C2"]
+			id: "07786879C8859B12"
+			tasks: [{
+				id: "0E36F674D2F3A549"
+				type: "item"
+				item: {
+					id: "occultism:infused_pickaxe"
+					Count: 1b
+					tag: {
+						spiritName: "Krarcmur"
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"在这个世界的深处发现了一种神秘的矿石，它似乎来自于异界。人们对于它的起源知之甚少，不过使它们自然出现的源头在这个位面上的缺失表明其来源并非完全天然。"
+				""
+				"因其的魔法容量和锋锐的边缘而受到珍视。古往今来，法师和工匠们为之苦苦追求与争夺。"
+				""
+				"在下界借助探测杖与异界眼镜寻找它们。"
+			]
+			dependencies: ["07786879C8859B12"]
+			id: "690063418D6815D2"
+			tasks: [{
+				id: "1AD42494E69B8715"
+				type: "item"
+				item: "occultism:iesnium_ore"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			shape: "diamond"
+			description: ["由各个维度的材料和多种魔法制成的强大工具。感知工具的发明是魔法界一个里程碑式的奇迹，打开了当时还无法想象的大门。"]
+			dependencies: ["690063418D6815D2"]
+			id: "051F9C054B9CDE96"
+			tasks: [
+				{
+					id: "6841E8793EE2C2E0"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulpickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0B1582FDA55A0D17"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulsword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: [
+				"据说，异界的魔灵在它们的家中以一种无形的状态存在；将他们带到这个世界的魔法帮助他们构建了一个可寄宿于这个世界的形态，以在他们停留期间保护他们。"
+				""
+				"通常，魔灵一旦离开这个维度，这些外壳就会被完全分解，不过一些更强大的魔灵似乎会留下少量的灵髓，它们被发现可以用最先进的魔灵魔法。"
+				""
+				"召唤并击杀一只未约束火灵以获取火灵灵髓。"
+				""
+				"虚弱气血碎片可以通过自然与灵魂魔法的结合，由火灵外壳的残留制造而成。合成一些虚弱气血碎片，为你的血之祭坛最后一次拓建做准备。"
+			]
+			dependencies: ["152B45DD8C1899C2"]
+			id: "44ADBADBF2774DF4"
+			tasks: [
+                {
+				id: "673AC1CB014F917C"
+				type: "item"
+				item: "occultism:afrit_essence"
+				}
+				{
+					id: "7E7737137E78204B"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			description: [
+				"当她的学徒终于冲破了被锁住的门并进入密室时，修菲斯已不知所踪。时至今日，她失踪的原因仍然是个谜。有人说她飞升到了异界，摆脱了凡人的枷锁，成为了一个永恒的存在，就像她研究的那些存在一样。"
+				""
+				"她最后的研究只剩下她在房间里用粉笔画的五芒星。尽管从那以后，人们发现了它的许多用途，但在使用她发现的倒转之塔五芒星时，法师不再会消失了。"
+			]
+			dependencies: ["3103AD6157F2D6AC"]
+			id: "15799BB5752AECB9"
+			tasks: [{
+				id: "7F2F8873597EE837"
+				type: "item"
+				item: {
+					id: "occultism:chalk_red"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "血之祭坛 - 四级与五级"
+			icon: "bloodmagic:altar"
+			x: 3.5d
+			y: 4.5d
+			description: [
+                    "有了火灵灵髓指引祭坛，就可以让更多的符文派上用场，从而获得曾无法得到的力量。"
+                    ""
+                    "魔灵魔法的精通意味着法师已经拥有了一定程度的能力，使他们可以在深暗之园以外的地方练习他们的魔法，远离在那里安息的死者的凝视。"
+            ]
+			dependencies: ["44ADBADBF2774DF4"]
+			id: "3103AD6157F2D6AC"
+			tasks: [{
+				id: "6C327DA3D328E507"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+		}
+		{
+			title: "自然魔法 - 大师"
+			x: 0.5d
+			y: -1.5d
+			shape: "rsquare"
+			dependencies: ["0000000000000FC9"]
+			id: "1C5802ADD3834FE9"
+			tasks: [{
+				id: "7660DCCE5DF6B3E1"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			description: [
+				"“思想创造了一个新的天堂、一个新的苍穹、一个新的能量之源，新的艺术从中涌现。”"
+				""
+				"– 天蓝圣殿骑士 帕拉塞尔苏斯"
+			]
+			dependencies: ["1C5802ADD3834FE9"]
+			id: "3ECB259F269FF80A"
+			tasks: [
+				{
+					id: "48AA30BC0F5A4969"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "7147695020152097"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			description: [
+				"另一个考验摆在了那些将被称为大师的人面前。"
+				""
+				"有些人认为这只是一个阴影，是我们内心的恶魔的表现，而其他人则看到了大地自己的化身。"
+				""
+				"然而有一件事是确定的：那些毫无准备就迎接这一挑战的人如果能逃过一劫就很幸运了。"
+			]
+			dependencies: ["54D0E568361DC267"]
+			id: "457523FA165A5A0B"
+			tasks: [{
+				id: "1807A32A1B2AAEE8"
+				type: "item"
+				item: "botania:gaia_pylon"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["虽然它的原始形态非常有用，但高阶法师发现它可以通过特殊的光学技术进一步加强。通过特殊装置过滤、聚焦或以其他方式操纵星光。"]
+			dependencies: ["54D0E568361DC267"]
+			id: "706AC0678CD303BA"
+			tasks: [{
+				id: "0A3D5347A4034BF1"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			description: [
+				"“美丽的梦神快快醒来，"
+				"星光和露珠在悄悄等待，"
+				"白天的喧哗已经消失，"
+				"银白的月亮散发光彩。”"
+				""
+				"– 天体教会之子 艾斯·达奈"
+			]
+			dependencies: [
+				"42EC202E93A7E5A3"
+				"3103AD6157F2D6AC"
+			]
+			id: "2D6DDD000FC99514"
+			tasks: [{
+				id: "5494E63BE36C5962"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			description: [
+				"亚尔夫海姆的天空被誉为星星之毯。星星密度非常之高，几乎看不到天空。如果这是真的，那么它们对星辉魔法产生了独特的亲和力也就不足为奇了；它们的注魔板比我们维度使用和开发的泰拉凝聚板要强上好几个数量级。"
+				""
+				"随着时间的推移，他们的一些秘密被泄露出来，并且这些知识被小心翼翼地保护起来，以确保其永不遗失。古代文献非常详细地描述了如何创造并利用这一神奇的工具。"
+			]
+			dependencies: ["706AC0678CD303BA"]
+			id: "42EC202E93A7E5A3"
+			tasks: [
+				{
+					id: "32A341D25D3AD1B9"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+				{
+					id: "27FE801DA5AB6863"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			description: [
+				"“耐心点，康纳。你做得很好，但这需要时间。你与众生皆为一体。每个人的思想和梦想都是你的囊中之物。你拥有超乎想象的力量。善用它，吾之友。”"
+				""
+				"– 长者拉米雷斯对他成功进行天体共鸣的学徒所说"
+				"_________________________________"
+				""
+				"在施咒者以法莲的日志中描述了一个特殊的捕获仪式，在盖亚竞技场的下方的几格远处使用粉笔画出五芒星并激活它。这段文字表明这名法师在打出最后一击前将盖亚引到了竞技场的中心。"
+				""
+				"耐心和时机至关重要。"
+			]
+			dependencies: [
+				"457523FA165A5A0B"
+				"5E1A0B48076CD5F6"
+				"15799BB5752AECB9"
+			]
+			id: "0E083E5951149AB5"
+			tasks: [{
+				id: "04E0027B30C34B89"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["灵魂投网是一个残酷的玩笑，那是为了考研新人而发明的。大多数法师更倾向于使用感知伤害魔符来获取恶魔意志。"]
+			dependencies: ["06A6BE8C4A3B0C1D"]
+			id: "2182A1B04F9C2C84"
+			tasks: [{
+				id: "6064EF838E958365"
+				type: "item"
+				item: "ars_nouveau:glyph_sentientharm"
+			}]
+		}
+		{
+			title: "隐域之缘"
+			x: 1.5d
+			y: -0.5d
+			shape: "hexagon"
+			description: [
+				"前往隐域，一片与世隔绝的大地，魔灵的维度；在这里，可以找到古老的血命果。取回一些这种珍贵的果实，并学习如何栽培它。"
+				""
+				"完成隐域之缘仪式之后，一根柱子将会出现。右击它，就能前往一个充满宝藏的小型地牢。开启该维度内的门需要铁钥匙，因此做好准备后再出发。"
+			]
+			dependencies: ["06E76BE2A422E8AC"]
+			id: "0225B4F9E4ECAC21"
+			tasks: [
+				{
+					id: "5B057F8FE1A8E286"
+					type: "item"
+					item: "bloodmagic:simplekey"
+					count: 8L
+				}
+				{
+					id: "1ECC374EB08B5BDA"
+					type: "item"
+					item: "bloodmagic:weak_tau"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			shape: "gear"
+			description: [
+				"通过将星光漩涡储存在其巨大的晶体电池中，五彩祭坛能够在一天的任何时候都以更快的速度运作。"
+				""
+				"先进的控制电路确保了仪式得到妥当的处理，且没有疏漏。"
+				""
+				"================================================================="
+				""
+				"请注意，JEI中展示的配方并没有准确的显示出指定输入是每游戏刻都会被消耗还是一次性消耗完毕。为了简单起见，所有机械匠艺机器的所有配方都已根据以下规则进行了标准化："
+				""
+				"●FE在每游戏刻都会被消耗"
+				"●气动的空气在每游戏刻都会被消耗，且其压力必须大于10Bar"
+				"●星辉的星光在每游戏刻都会被消耗"
+				"●流体在每游戏刻都会被消耗或产生"
+				"●物品会在合成结束时被消耗或产生"
+				"●魔力会在合成开始时被消耗或在合成结束时被产生"
+			]
+			dependencies: ["2D6DDD000FC99514"]
+			min_width: 400
+			id: "0D5EFF4C653C3DD9"
+			tasks: [{
+				id: "11A8B09E6B1A0DFB"
+				type: "item"
+				item: "masterfulmachinery:auto_iridescent_altar_controller"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			shape: "gear"
+			description: [
+				"一个巨大的星光冷却结构，用于从被困在里面的盖亚身上提取精华。"
+				""
+				"虽然能耗巨大，但该机器可以源源不断地产生高阶魔法所需要的盖亚精华。"
+				""
+				"================================================================="
+				""
+				"请注意，JEI中展示的配方并没有准确的显示出指定输入是每游戏刻都会被消耗还是一次性消耗完毕。为了简单起见，所有机械匠艺机器的所有配方都已根据以下规则进行了标准化："
+				""
+				"●FE在每游戏刻都会被消耗"
+				"●气动的空气在每游戏刻都会被消耗，且其压力必须大于10Bar"
+				"●星辉的星光在每游戏刻都会被消耗"
+				"●流体在每游戏刻都会被消耗或产生"
+				"●物品会在合成结束时被消耗或产生"
+				"●魔力会在合成开始时被消耗或在合成结束时被产生"
+			]
+			dependencies: ["5E1A0B48076CD5F6"]
+			min_width: 400
+			id: "226F249D3F4A9258"
+			tasks: [{
+				id: "59FF57ADF3D44FA2"
+				type: "item"
+				item: "masterfulmachinery:gaia_reactor_controller"
+			}]
+		}
+	]
+}

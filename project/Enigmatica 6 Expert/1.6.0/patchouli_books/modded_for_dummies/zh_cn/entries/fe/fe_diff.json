@@ -1,0 +1,16 @@
+{
+    "name": "FE 和 RF 的区别是什么？",
+    "icon": "enigmatica:textures/power3.png",
+    "category": "patchouli:fe",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "在上一节，我已经将 RF 和 FE 列为近义词，尽管这样描述确实比较准确，但是你可能会好奇它们究竟有什么本质的不同。目前的官方能量计量单位是 Forge Energy，所以$(l)理论上讲所有的机器都通过 FE 运作$(reset)。"
+        },
+        {
+            "type": "text",
+            "text": "但是一部分机器任然以 RF 作为显示，因为在 FE 诞生前它是非官方的标准计量单位。所以对你而言，$(l)它们之间没有区别$(reset)。"
+        }
+    ]
+}

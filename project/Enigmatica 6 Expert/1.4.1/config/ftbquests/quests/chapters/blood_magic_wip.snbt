@@ -1,0 +1,969 @@
+{
+	id: "0000000000000895"
+	group: "5A8B89F87F77CF4C"
+	order_index: 3
+	filename: "blood_magic_wip"
+	title: "血魔法"
+	icon: "bloodmagic:weakbloodshard"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "血魔法"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			x: -3.0d
+			y: 1.5d
+			shape: "gear"
+			description: [
+				"欢迎来到血魔法；和许多其它伟大的传统魔法一样，该模组在生命的源质甚至是驱使死者的恶魔能量中寻找自己的来源。"
+				""
+				"生命源质，简称LP，可以驱动盛大的仪式和强力的魔法。"
+				""
+				"血魔法目前还在Beta版本，因此内容还不完全。新内容添加后就会有更多的任务。请确保经常看书，它也在建设当中。"
+				""
+				"~MuteTiefling"
+			]
+			id: "0000000000000896"
+			tasks: [{
+				id: "7CC4F0A6E71C717F"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "04592CAFF9CC5FCF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "bloodmagic:basemonstersoul"
+				Count: 1b
+				tag: {
+					souls: 5.0d
+				}
+			}
+			x: -3.5d
+			y: 3.0d
+			subtitle: "深渊也在看着你"
+			description: [
+				"虽然模组的名字叫血魔法，但是出去肆意屠杀一通正好与收集LP的办法大相径庭。这是一个需要技巧……严谨的过程。你的牺牲品……献血者也许需要先被制服。"
+				""
+				"向怪物投掷灵魂投网，直到它们周围出现粒子效果，然后杀死它们。生物被捕获后，在其生命力消逝时，恶魔意志就可以从中被提取出来。"
+				""
+				"用这个方式可以有效收集少量的恶魔意志。更好的方法很快就会出现。"
+			]
+			dependencies: ["000000000000089F"]
+			id: "000000000000089B"
+			tasks: [{
+				id: "00000000000008B3"
+				type: "item"
+				item: {
+					id: "bloodmagic:basemonstersoul"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000089D"
+					type: "item"
+					title: "恶魔意志"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+				{
+					id: "0000000000000A7C"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			subtitle: "静脉切开术101"
+			description: [
+				"血之祭坛充当了LP的固定锚，是通往更强大、更宏伟仪式的大门，使得它在一定区域产生着可预测的长期影响。"
+				""
+				"它也可以补充你的灵魂网络。灵魂网络是可以从任何地方接入的虚无灵魂之网。"
+				""
+				"更重要的是，该祭坛将作为一个容器，使用存储的LP来转变物品。在血之祭坛旁边使用牺牲小刀来用你自己的鲜血装满它。你也可以用献祭刀牺牲怪物来装满祭坛。"
+				""
+				"祭坛装满之后，将物品右击放入其中以开始转变过程。红色粒子效果意味着合成正常进行中，而灰色粒子效果意味着LP不足且合成正在损失进度。"
+				""
+				"血染知书对升级祭坛做了极好的指导。就现在而言，随便把祭坛放在哪都行，不过为未来的扩建规划一大片区域可能是明智的。"
+			]
+			dependencies: ["0000000000000896"]
+			min_width: 300
+			id: "000000000000089F"
+			tasks: [{
+				id: "00000000000008A0"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "00000000000008C2"
+				type: "command"
+				title: "农夫快乐包"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			subtitle: "老大哥，为什么它如此伤人？"
+			description: [
+				"奥术粉灰是构成简单嬗变炼金术的基础。"
+				""
+				"粉灰可以用来在地面上画一个符号，然后将绑定物和试剂在其中结合，创造出能通过灵魂网络驱动的强大印记。"
+			]
+			dependencies: ["00000000000008B4"]
+			id: "00000000000008A1"
+			tasks: [{
+				id: "00000000000008A2"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000090B"
+				type: "item"
+				title: "血光印记"
+				item: "bloodmagic:bloodlightsigil"
+			}]
+		}
+		{
+			title: "感知工具"
+			x: -4.5d
+			y: 6.0d
+			subtitle: "兴风者"
+			description: [
+				"注入了恶魔意志的感知之剑，和挥舞这把剑的一样有“生命”。它渴望着更多的力量，并寻求自己的力量，不需要灵魂投网即可从斩杀的敌人汲取恶魔意志。"
+				""
+				"持有的地狱魂石中恶魔意志越多，工具的力量就越强大。"
+			]
+			dependencies: ["00000000000008A6"]
+			id: "00000000000008A3"
+			tasks: [{
+				id: "00000000000008A4"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000009AE"
+					type: "command"
+					title: "法师快乐包"
+					icon: "kubejs:sorcerers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+					player_command: false
+				}
+				{
+					id: "6797B35CCCC56777"
+					type: "item"
+					item: "bloodmagic:melee_anointment_l"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			subtitle: "来自苦难之地"
+			description: [
+				"恶魔意志不是什么像桶里的水一样可以复制的愚蠢物质。这种死而复生的力量可使亡灵生物移动，它是某种被长期锁定的恶魔力量的延伸。然而，世界之间的屏障并不完美，一些它们的巨大能量也会泄露出去。"
+				""
+				"地狱魂石是合并这些意志相对安全的办法，依这种方式绑定的意志可以被血魔法师控制，而不会反过来控制血魔法师。"
+				""
+				"当地狱魂石在玩家物品栏中时，任何收割的恶魔意志都会自动收集进魂石中。从长远来看，制作两颗或更多这样的魂石将是有益的。"
+				""
+				"请确保对两者都进行升级。"
+			]
+			dependencies: ["00000000000008B4"]
+			id: "00000000000008A6"
+			tasks: [{
+				id: "00000000000008A7"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "00000000000009AF"
+				type: "command"
+				title: "稀有血魔法战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			subtitle: "起于黑暗世界的幽黯火焰"
+			description: [
+				"这团状的结晶物并没有人们所希望的那么有用。也许只要稍加改进，它就可以用来向其他物体注入它的力量？"
+				""
+				"建造一台狱火锻炉，并将恶魔意志放在其右边的栏位中。其他试剂将放置在大圆的边缘，而合成的物品将出现在中心的小圆中。"
+				""
+				"注：欲火锻炉中的许多配方需要大量的意志，但合成时只会汲取其中的一小部分。如果合成没有立即开始，检查一下是否达到了最少意志的要求。"
+			]
+			dependencies: ["000000000000089B"]
+			id: "00000000000008B4"
+			tasks: [{
+				id: "00000000000008B5"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [{
+				id: "00000000000009B0"
+				type: "command"
+				title: "稀有血魔法战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "不祥预兆"
+			description: [
+				"石板充当了魔法装置的集中点，有着许多的强处。然而，制造它们的过程会有点慢，并且手工操作会非常繁琐，因此一次只能手动放入一个物品。"
+				""
+				"谢天谢地，血之祭坛允许漏斗或大多数其他物品运输方式将物品输入其中。使用管道输入，一次可以至多转换一组物品。当然，每个物品消耗的LP仍然不变，但因为每个物品直接没有停顿，转变的总体时间下降了。"
+				""
+				"然而在早期，输入一整组物品可能并不明智。Pretty Pipes有一些功能可以在这里带来帮助。使用提供的物品来建立一些简单自动化。"
+				""
+				"●抽取模块可以用于从箱子中抽取石头，以及从祭坛中抽取石板，非常有用。"
+				""
+				"●堆叠限制模块可以防止一次进入祭坛的物品过多，它也可以用来只使一定数量的石板出现在输入箱子中。"
+				""
+				"●最后，过滤模块可以用于决定进入输出箱子的物品。在它与堆叠限制模块之间，可以设立一个库存管理系统，来保持输出箱子中每个石板都是64个。"
+				""
+				"关于Pretty Pipes的说明：带有抽取模块的管道无法将物品输入进另一个容器。需要两截管道来完成这件事，一截用于抽取，另一截用于输入。"
+			]
+			dependencies: ["000000000000089F"]
+			min_width: 300
+			id: "00000000000008B6"
+			tasks: [{
+				id: "00000000000008B7"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [
+				{
+					id: "00000000000008BB"
+					type: "item"
+					title: "低级过滤模块"
+					item: "prettypipes:low_filter_module"
+				}
+				{
+					id: "00000000000008BC"
+					type: "item"
+					title: "低级抽取模块"
+					item: "prettypipes:low_extraction_module"
+					count: 2
+				}
+				{
+					id: "00000000000008BD"
+					type: "item"
+					title: "堆叠限制模块"
+					item: "prettypipes:stack_size_module"
+					count: 2
+				}
+				{
+					id: "00000000000008BE"
+					type: "item"
+					title: "管道"
+					item: "prettypipes:pipe"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			subtitle: "便携式血液储罐"
+			description: [
+				"气血宝珠是血魔法师与他们灵魂网络相连的主要手段。将宝珠放在物品栏中，可使它驱动任意的个人印记。相似的，将宝珠放入血之祭坛中，可使它从祭坛中汲取LP并传输到灵魂网络中。"
+				""
+				"手持宝珠右键来与它绑定。无论谁使用该宝珠，都会从你的个人灵魂网络提取LP。"
+			]
+			dependencies: ["000000000000089F"]
+			id: "00000000000008BF"
+			tasks: [{
+				id: "00000000000008C0"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [{
+				id: "00000000000008C3"
+				type: "item"
+				title: "生命恢复 II护符"
+				item: {
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Potion: "minecraft:strong_regeneration"
+					}
+				}
+			}]
+		}
+		{
+			title: "血之祭坛2型"
+			icon: "bloodmagic:altar"
+			x: -0.5d
+			y: 4.5d
+			subtitle: "一小步"
+			description: [
+				"将一些石板合成为空白符文，就可以加强祭坛，提升它的储量、转化能力，甚至可以使它专门化。"
+				""
+				"需要8个任意种类的符文将其升级至2级祭坛。血染知书会显示所需的确切结构。使用提供的转位符文来填充结构，给祭坛加点速。"
+				""
+				"请确保同时升级你的气血宝珠。"
+			]
+			dependencies: ["000000000000089F"]
+			id: "00000000000008C4"
+			tasks: [{
+				id: "00000000000008C5"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 6L
+			}]
+			rewards: [{
+				id: "00000000000008C6"
+				type: "item"
+				title: "转位符文"
+				item: "bloodmagic:dislocationrune"
+				count: 4
+			}]
+		}
+		{
+			title: "血之祭坛3型"
+			icon: "bloodmagic:altar"
+			x: 0.5d
+			y: 5.5d
+			subtitle: "攀登高峰"
+			description: [
+				"进一步加强血之祭坛将需要前往下界收集一些萤石。"
+				""
+				"理论上来说，这个结构也可以使用海晶灯，但现在去下界中也可以同时寻找其他有用的材料。"
+				""
+				"查阅血染知书获得如何搭建3级祭坛的指导。"
+			]
+			dependencies: ["00000000000008C4"]
+			id: "00000000000008C7"
+			tasks: [
+				{
+					id: "00000000000008C8"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 16L
+				}
+				{
+					id: "00000000000008C9"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000008CB"
+					type: "item"
+					title: "海晶灯"
+					item: "minecraft:sea_lantern"
+					count: 4
+				}
+				{
+					id: "00000000000008DA"
+					type: "item"
+					title: "献祭符文"
+					item: "bloodmagic:sacrificerune"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			subtitle: "失而复得"
+			description: ["仪式推测杖对构建和使用仪式至关重要。把它放在手边。"]
+			dependencies: ["00000000000008C7"]
+			id: "00000000000008CC"
+			tasks: [{
+				id: "00000000000008CD"
+				type: "item"
+				item: "bloodmagic:ritualdiviner"
+			}]
+			rewards: [{
+				id: "00000000000009B7"
+				type: "command"
+				title: "史诗血魔法战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			subtitle: "不要让他们看到刀刃"
+			description: [
+				"总有一天，你可能会对捅你自己感到厌倦。"
+				""
+				"试着捅一点别的东西改变一下。"
+				""
+				"献祭刀用于从其它实体处抽取LP。请小心，它很锋利。"
+			]
+			dependencies: ["00000000000008C4"]
+			id: "00000000000008DB"
+			tasks: [{
+				id: "00000000000008DC"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [{
+				id: "00000000000009B9"
+				type: "command"
+				title: "史诗血魔法战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "仪式"
+			icon: "minecraft:wheat"
+			x: 1.0d
+			y: 8.0d
+			subtitle: "把脉"
+			description: [
+				"现在有趣的事开始了。"
+				""
+				"血魔法仪式可以消耗少量LP来完成很多有用的事情。"
+				""
+				"基础的仪式推测杖只能执行少量的仪式，但其中值得注意的有可以生成熔岩的下界小夜曲，和使一定区域内的作物加速生长的绿林仪式。"
+				""
+				"放下主仪式石以搭建仪式。接下来，用仪式推测杖潜行右击空气以选择想要的仪式。最后，在物品栏中准备好足够的仪式石，用推测杖右击主仪式石来自动放置方块。"
+			]
+			dependencies: ["00000000000008CC"]
+			id: "00000000000008DF"
+			tasks: [
+				{
+					id: "00000000000008E3"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "00000000000008E4"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "00000000000009B6"
+				type: "command"
+				title: "史诗血魔法战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "激活水晶"
+			x: 2.0d
+			y: 8.5d
+			subtitle: "生命的火花"
+			description: [
+				"现在仪式已经建造好了，还需要激活水晶来让它真正开始。用激活水晶右击主仪式石。"
+				""
+				"一旦激活它们就会持续汲取LP。不过，它们可以通过红石开启和关闭。"
+			]
+			dependencies: ["00000000000008DF"]
+			id: "00000000000008E5"
+			tasks: [{
+				id: "00000000000008E6"
+				type: "item"
+				item: "bloodmagic:activationcrystalweak"
+			}]
+			rewards: [{
+				id: "00000000000009B5"
+				type: "command"
+				title: "史诗血魔法战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "血之祭坛4型"
+			icon: "bloodmagic:altar"
+			x: 1.5d
+			y: 6.5d
+			subtitle: "到达顶峰"
+			description: [
+				"为了建造第四级也就是最终级的血之祭坛，需要涉猎一点炼金术。"
+				""
+				"和上一级一样，查看血染知书以获得建造升级祭坛的指导，并且确保升级你的气血宝珠。"
+			]
+			dependencies: ["00000000000008C7"]
+			id: "00000000000008E7"
+			tasks: [
+				{
+					id: "00000000000008E8"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 28L
+				}
+				{
+					id: "000000000000090D"
+					type: "item"
+					item: "bloodmagic:bloodstonebrick"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "00000000000008EC"
+				type: "item"
+				title: "增容符文"
+				item: "bloodmagic:altarcapacityrune"
+				count: 8
+			}]
+		}
+		{
+			icon: "bloodmagic:alchemicalreactionchamber"
+			x: 2.0d
+			y: 5.5d
+			subtitle: "实验室安全"
+			description: [
+				"炼金反应炉与炼金术桌和血之祭坛齐头并进。"
+				""
+				"通过使用不同的试剂，它可以进行在户外危险会很危险的、更强的翻译。"
+			]
+			dependencies: ["00000000000008C7"]
+			id: "00000000000008E9"
+			tasks: [
+				{
+					id: "00000000000008EA"
+					type: "item"
+					item: "bloodmagic:alchemicalreactionchamber"
+				}
+				{
+					id: "00000000000008ED"
+					type: "item"
+					item: {
+						id: "bloodmagic:sanguinereverter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000008EE"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+			]
+			rewards: [{
+				id: "00000000000009BA"
+				type: "command"
+				title: "稀有血魔法战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.0d
+			subtitle: "刚出虎穴，又入狼窝"
+			description: [
+				"尽管建议把恶魔意志锁起来保存，但有经验的血魔法师也许会选择向环境中释放一些意志，来进一步精炼它。"
+				""
+				"将地狱魂石放在恶魔坩埚中将会释放意志，将其与所在区块绑定。当前意志的多少可以通过恶魔意志测量仪看见。"
+				""
+				"多余的意志可以通过在区块中放置狱火锻炉并放入地狱魂石再次吸收到地狱魂石中。"
+			]
+			dependencies: [
+				"00000000000008A6"
+				"00000000000008A3"
+			]
+			id: "00000000000008EF"
+			tasks: [{
+				id: "00000000000008F0"
+				type: "item"
+				item: "bloodmagic:demoncrucible"
+			}]
+			rewards: [{
+				id: "00000000000008F5"
+				type: "item"
+				title: "恶魔意志测量仪"
+				item: "bloodmagic:demonwillgauge"
+			}]
+		}
+		{
+			title: "恶魔结晶坛"
+			x: -3.0d
+			y: 8.0d
+			subtitle: "困在一瞬间"
+			description: [
+				"恶魔意志一旦被释放到空气中，就可以被引导至结晶点，在那里开始结晶和生长。恶魔结晶坛就是这样的一个结晶点。"
+				""
+				"恶魔意志结晶将会经历多个阶段的成长，每个阶段都会长出一个新的尖刺。第一个尖刺永远都不应该被破坏，这种最初的生长消耗巨大，但大大减少了长出额外尖刺所需的意志。"
+				""
+				"采集水晶时必须注意一些事项：镐正是干这个的，错误工具。相反，在你的物品栏中放一个地狱魂石并空手右击长成的意志水晶。每次点击都会轻轻地折断其中一个尖刺。"
+				""
+				"有一个专门的薄暮仪式可以帮助自动化这个过程，该仪式会使第二个尖刺自然脱落。"
+			]
+			dependencies: ["00000000000008EF"]
+			min_width: 300
+			id: "00000000000008F3"
+			tasks: [{
+				id: "00000000000008F4"
+				type: "item"
+				item: "bloodmagic:demoncrystallizer"
+			}]
+			rewards: [{
+				id: "00000000000009B2"
+				type: "command"
+				title: "稀有血魔法战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.5d
+			subtitle: "迷失于黑暗"
+			description: [
+				"仪式推测杖[薄暮]可使血魔法师构建更大、更复杂的仪式。"
+				""
+				"几个值得注意的例子："
+				""
+				"羽之刀仪式（Ritual of the Feathered Knife）——消耗周围玩家的生命值自动生成LP。"
+				""
+				"破裂水晶之碎（Crack of the Fractured Crystal）——温柔地在一定区域收获恶魔意志水晶，并将其扔在附近的地面上。"
+				""
+				"多面水晶谐振（Resonance of the Faceted Crystal）——促进特殊恶魔意志水晶的生长。"
+				""
+				"苦痛之井（Well of Suffering）——缓慢汲取生物的生命源质，将其传输至最近的血之祭坛。"
+			]
+			dependencies: ["00000000000008E7"]
+			id: "00000000000008F8"
+			tasks: [{
+				id: "00000000000008F9"
+				type: "item"
+				item: "bloodmagic:ritualdivinerdusk"
+			}]
+			rewards: [{
+				id: "00000000000009B8"
+				type: "command"
+				title: "史诗血魔法战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "多面水晶谐振"
+			icon: "bloodmagic:rawdemoncrystal"
+			x: -2.0d
+			y: 9.0d
+			subtitle: "碰上彩虹"
+			description: [
+				"有了恶魔意志水晶，就可以进行分离其基本源质的细致过程。"
+				""
+				"准备另一个恶魔结晶坛，构建多面水晶谐振仪式。在主仪式石上放置结晶坛并开始通过坩埚向区块中注入意志。"
+				""
+				"最终，在仪式的范围内会形成另一个水晶。一旦水晶完全长成，仪式就会把它分割成元素源质，在其周围长出四种新的水晶类型，它们能以之前恶魔意志水晶相同的方式收获。"
+			]
+			dependencies: ["00000000000008F3"]
+			id: "00000000000008FA"
+			tasks: [
+				{
+					id: "0000000000000904"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "0000000000000905"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 20L
+				}
+				{
+					id: "000000000000090C"
+					type: "item"
+					item: "bloodmagic:defaultcrystal"
+				}
+			]
+			rewards: [{
+				id: "00000000000009B1"
+				type: "item"
+				title: "恶魔意志水晶"
+				item: "bloodmagic:defaultcrystal"
+				count: 32
+			}]
+		}
+		{
+			title: "恶魔意志"
+			x: -0.5d
+			y: 9.5d
+			subtitle: "吃定彩虹"
+			description: [
+				"原生恶魔意志具有更广泛的用途，但随着新意志水晶的诞生，我们就可以赋予感知工具新的能力。"
+				""
+				"首先，必须准备一个地狱魂石，要么是新创造的，要么是在坩埚中把所有意志吸空的。"
+				""
+				"接下来，在没有任何意志的情况下，在一个区块中用坩埚烧掉几份单一类型的意志。"
+				""
+				"最后，在该区块放置一个狱火锻炉，并用其将意志重吸收进地狱魂石。其颜色将会转变成吸收的对应意志的颜色。"
+				""
+				"你的物品栏中有了特殊的地狱魂石后，用任意感知工具右击，就可将地狱魂石的调谐转移到其中，使工具获得该意志种类的能力。"
+				""
+				"除此之外，这些新的恶魔意志还通过加强仪式开辟了全新的道路。有关每种意志类型如何影响每个仪式的更多信息，请查询血染知书。"
+			]
+			dependencies: ["00000000000008FA"]
+			min_width: 300
+			id: "00000000000008FD"
+			tasks: [
+				{
+					id: "00000000000008FE"
+					type: "item"
+					item: "bloodmagic:corrosivecrystal"
+				}
+				{
+					id: "00000000000008FF"
+					type: "item"
+					item: "bloodmagic:vengefulcrystal"
+				}
+				{
+					id: "0000000000000900"
+					type: "item"
+					item: "bloodmagic:destructivecrystal"
+				}
+				{
+					id: "0000000000000901"
+					type: "item"
+					item: "bloodmagic:steadfastcrystal"
+				}
+			]
+			rewards: [{
+				id: "00000000000009B3"
+				type: "command"
+				title: "史诗血魔法战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 9.5d
+			subtitle: "思考仪式中"
+			description: [
+				"仪式调整器可以设置与仪式相关的意志类型。潜行+右击空气来切换其模式为：设置意志消耗。将所需的意志水晶放置在你的快捷栏中（允许有多个意志水晶），然后右击激活仪式的主仪式石来设置这些类型。"
+				""
+				"为仪式提供合适的意志类型就像在狱火锻炉中燃烧那些水晶一样简单。当然，将这种情况自动化则另有话说。"
+			]
+			dependencies: ["00000000000008FD"]
+			id: "0000000000000907"
+			tasks: [{
+				id: "0000000000000908"
+				type: "item"
+				item: "bloodmagic:ritualtinkerer"
+			}]
+			rewards: [{
+				id: "00000000000009B4"
+				type: "command"
+				title: "史诗血魔法战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			subtitle: "活动空间太大了！"
+			description: [
+				"有了正规炼金术桌上可获得的工具，灵魂网络可以用来驱动更复杂的转化，从将腐肉转化为正常皮革，到加工矿石以获得比传统熔炉更高的产量。"
+				""
+				"最右边的栏位中必须放置一个气血宝珠，合成所需的试剂放在左侧外圈的六个栏位上。合成产物将会出现在中间。"
+				""
+				"如果你想试图自动化这个炼金术桌，考虑使用一些类似于自动化早期空白石板的限制管道。可以通过两侧进行输入，从底部进行输出。"
+			]
+			dependencies: ["00000000000008BF"]
+			id: "0000000000000909"
+			tasks: [{
+				id: "000000000000090A"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [
+				{
+					id: "00000000000009BB"
+					type: "command"
+					title: "稀有血魔法战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000A7D"
+					type: "command"
+					title: "炼金术士快乐包"
+					icon: "kubejs:alchemists_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "bloodmagic:incensealtar"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "保持心平气和"
+			description: [
+				"熏香祭坛的作用是帮助血魔法师在早期时使用牺牲匕首进行自我牺牲之前保持冷静与集中。在祭坛周围时匕首会发光。然后它就可以瞬间抽取更多的生命值，用等量LP充满血之祭坛。"
+				""
+				"查阅血染知书以获得关于扩大熏香祭坛以增强其效果的更多信息。"
+			]
+			dependencies: ["000000000000089F"]
+			id: "000000000000090E"
+			tasks: [
+				{
+					id: "000000000000090F"
+					type: "item"
+					item: "bloodmagic:incensealtar"
+				}
+				{
+					id: "0000000000000918"
+					type: "item"
+					item: "bloodmagic:woodbrickpath"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "0000000000000919"
+				type: "item"
+				title: "占卜印记"
+				item: "bloodmagic:divinationsigil"
+			}]
+		}
+		{
+			title: "路由节点"
+			x: -0.5d
+			y: 6.5d
+			subtitle: "来自另一边的问候"
+			description: [
+				""
+				"有了路由节点，就可以开始复杂的物品传输。"
+				""
+				"路由网络由四个主要部件组成，主控、输入、输出和普通路由节点。每个节点都可以在16格内与其它节点无线连接。连接必须最终与主路由节点相连，但网络可以通过任何其他节点传播。使用节点连接工具潜行右击节点以将其选中，或将其与一个选中的节点绑定。"
+				""
+				"每个网络至少需要一个主控路由节点，请确保你的网络中确实有主控路由节点，否则网络将无法运作！"
+				""
+				"输入路由节点会从相邻容器中抽取物品，而输出路由节点会向相邻容器推入物品。它们的六个面都可以和方块交互，因此需要选择想要与方块交互的面，以及安装在筛选器栏位的筛选器。比如说，设置为黑名单的标准物品筛选器可使任何物品通过，但总共有数种筛选器以满足多数需要。用筛选器右击空气以进行配置。"
+				""
+				"路由节点可以用于延展网络，与远处的地点相连。"
+				""
+				"最后，所有节点都可以通过红石信号关闭，以达到更智能的连接。比方说，网络的某一整个部分可以通过单个路由节点进行连接，当该节点充能时这一部分就会被占用。"
+			]
+			dependencies: ["00000000000008C7"]
+			min_width: 300
+			id: "4357BD288BF6B33A"
+			tasks: [
+				{
+					id: "5184DF819EB97A15"
+					type: "item"
+					item: "bloodmagic:masterroutingnode"
+				}
+				{
+					id: "686A566B0A0B99B2"
+					type: "item"
+					item: "bloodmagic:outputroutingnode"
+				}
+				{
+					id: "5B061E4ABB7A29C0"
+					type: "item"
+					item: "bloodmagic:inputroutingnode"
+				}
+			]
+			rewards: [
+				{
+					id: "43C68608D20981A1"
+					type: "item"
+					item: "bloodmagic:itemroutingnode"
+					count: 4
+				}
+				{
+					id: "30A919F0210DE215"
+					type: "item"
+					item: "bloodmagic:itemrouterfilterexact"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			subtitle: "笔墨胜过刀剑"
+			description: [
+				"跨领域的法师也许不愿让自己的手被剑弄脏。如果你也是这样，那么“感知伤害”魔符将是对你法术书的一个很好的补充。"
+				""
+				"和感知之剑一样，用魔符：感知伤害杀死的怪物将会掉落意志——只需在攻击法术中把“伤害”魔符替换。和正常魔符一样，强化一类的魔符添加后可以生效。"
+			]
+			dependencies: ["00000000000008A6"]
+			id: "6257CACC1274C997"
+			tasks: [{
+				id: "043C1AA85668AD68"
+				type: "item"
+				item: "ars_nouveau:glyph_sentientharm"
+			}]
+			rewards: [{
+				id: "0006651ED51BA2A9"
+				type: "command"
+				title: "稀有血魔法战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_rare"
+				player_command: false
+			}]
+		}
+	]
+}

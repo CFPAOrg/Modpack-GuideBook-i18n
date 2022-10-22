@@ -1,0 +1,12 @@
+{
+    "name": "制作名单",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:aboutus",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "本书旨在介绍$(l)Enigmatica$(reset)系列模组包的模组。$(br)$(l)特此鸣谢：$(reset)$(br)-$(l)Merlo$(reset)：本书作者$(br)-$(l)Frikkle$(reset)漏洞和排错章节（目前还没有因为他很懒）$(br)-$(l)Ridanisaurus$(reset):全能的像素画师$(br)-$(l)NillerMedDild$(reset)：Enigmatica模组包创始人和作者$(br)"
+        }
+    ]
+}

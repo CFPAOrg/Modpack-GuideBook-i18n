@@ -1,0 +1,16 @@
+{
+    "name": "JEI 搜索",
+    "icon": "minecraft:map",
+    "category": "patchouli:jei",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "模组包里的物品千千万，知道如何搜索物品很关键。JEI 有个对查找物品非常方便的功能——在$(l)你要搜索的东西$(reset)前面加上一些特定的符号（例如 @mekanism, %misc 等等）："
+        },
+        {
+            "type": "text",
+            "text": "-@ 根据$(l)指定的模组名称$(reset)查询所有物品$(br)-# 根据$(l)指定的物品描述$(reset)查询所有物品$(br)-% 根据$(l)创造模式分栏$(reset)查询所有物品$(br)-$ 根据$(l)特定的标签（Tag）$(reset)查询所有物品$(br) 另外注意$(l)可以同时添加多个符号，在语句前面添加“-”$(l)在查找中来排除该条语句$(reset)。"
+        }
+    ]
+}

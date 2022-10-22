@@ -1,0 +1,12 @@
+{
+    "name": "世界地图",
+    "icon": "minecraft:map",
+    "category": "patchouli:ftbchunks",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "全屏世界地图是你主要与地图交互的地方。你可以按$(k:ftbchunks.map)键或者$(l)点击背包左上角的按钮$(reset)打开世界地图。在这里你可以打开选项菜单（左下角的齿轮图标）、通过左上角$(l:ftbchunks/ftbchunks_claiming)声明区块和结交盟友$(reset)和$(l:ftbchunks/ftbchunks_waypoints)添加路径点$(reset)。"
+        }
+    ]
+}

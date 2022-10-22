@@ -1,0 +1,3256 @@
+{
+	id: "0000000000000093"
+	group: "74B3CF67FCEAB20F"
+	order_index: 0
+	filename: "tools"
+	title: "工具与盔甲"
+	icon: {
+		id: "minecraft:netherite_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.5d
+			y: -8.5d
+			subtitle: "瑞士军……锤"
+			description: [
+				"一种用途广泛的多工具，可轻松夷平大片区域。潜行右击以打开安装钻头和附魔书以及切换钻机模式的界面。"
+				""
+				"可接受时运或精准采集的附魔书。"
+			]
+			dependencies: ["0000000000000145"]
+			id: "00000000000001C6"
+			tasks: [{
+				id: "00000000000001C7"
+				type: "item"
+				item: "pneumaticcraft:jackhammer"
+			}]
+			rewards: [
+				{
+					id: "00000000000001C8"
+					type: "item"
+					title: "压缩铁钻头"
+					item: "pneumaticcraft:drill_bit_compressed_iron"
+				}
+				{
+					id: "0000000000000A58"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -7.5d
+			subtitle: "天空中的露西"
+			description: ["比压缩铁钻头快一点，且有基础的矿脉挖掘功能。"]
+			dependencies: ["00000000000001C6"]
+			id: "00000000000001C9"
+			tasks: [{
+				id: "00000000000001CA"
+				type: "item"
+				item: "pneumaticcraft:drill_bit_diamond"
+			}]
+			rewards: [
+				{
+					id: "00000000000001CB"
+					type: "item"
+					title: "容积升级"
+					item: "pneumaticcraft:volume_upgrade"
+					count: 5
+				}
+				{
+					id: "00000000000006F8"
+					type: "command"
+					title: "矿工快乐包"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -6.5d
+			subtitle: "我听说你是最棒的"
+			description: ["更快，且有着完整的矿脉挖掘功能。"]
+			dependencies: ["00000000000001C9"]
+			id: "00000000000001CC"
+			tasks: [{
+				id: "00000000000001CD"
+				type: "item"
+				item: "pneumaticcraft:drill_bit_netherite"
+			}]
+			rewards: [
+				{
+					id: "00000000000001CE"
+					type: "item"
+					title: "速度升级"
+					item: "pneumaticcraft:speed_upgrade"
+					count: 2
+				}
+				{
+					id: "00000000000006F7"
+					type: "command"
+					title: "矿工快乐包"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -9.5d
+			subtitle: "你尽管出招，都是螳臂当车，我的外壳如此坚硬"
+			description: [
+				"值得注意的升级"
+				""
+				"● 磁铁升级"
+				"● 工具自动充气"
+				"● 方块发射器"
+				"● 自我修复"
+			]
+			dependencies: ["0000000000000165"]
+			id: "00000000000001CF"
+			tasks: [{
+				id: "00000000000001D0"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000650"
+				type: "command"
+				title: "史诗气动工艺战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.0d
+			y: -10.5d
+			subtitle: "浸泡其中因为这就是你最后一眼"
+			description: [
+				"值得注意的升级"
+				""
+				"● 夜视"
+				"● 实体和方块追踪"
+				"● 实体和方块侵入"
+				"● 水肺套装"
+				"● 物品搜寻"
+				"● 自我修复"
+			]
+			dependencies: ["0000000000000165"]
+			id: "00000000000001D1"
+			tasks: [{
+				id: "00000000000001D2"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000064F"
+				type: "command"
+				title: "史诗气动工艺战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.0d
+			y: -7.5d
+			subtitle: "我不会躲藏，我也不能。我太炫彩夺目。"
+			description: [
+				"值得注意的升级"
+				""
+				"● 疾跑速度"
+				"● 跳跃高度"
+				"● 自我修复"
+			]
+			dependencies: ["0000000000000165"]
+			id: "00000000000001D3"
+			tasks: [{
+				id: "00000000000001D4"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000651"
+				type: "command"
+				title: "史诗气动工艺战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.0d
+			y: -6.5d
+			subtitle: "现在是踢你……屁股的时候了"
+			description: [
+				"值得注意的升级"
+				""
+				"● 内置步行辅助"
+				"● 内置摔落保护"
+				"● 游泳速度"
+				"● 强力踢击"
+				"● 创造飞行"
+				"● 自我修复"
+			]
+			dependencies: ["0000000000000165"]
+			id: "00000000000001D5"
+			tasks: [{
+				id: "00000000000001D6"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000652"
+				type: "command"
+				title: "史诗气动工艺战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "护甲升级"
+			x: -10.0d
+			y: -8.5d
+			subtitle: "你尝试变得坚强，但你内心不够坚定"
+			description: ["每件护甲最多可接受四个升级，以提供极强的保护。"]
+			dependencies: [
+				"00000000000001D1"
+				"00000000000001D5"
+				"00000000000001D3"
+				"00000000000001CF"
+			]
+			dependency_requirement: "one_completed"
+			id: "00000000000001D7"
+			tasks: [{
+				id: "00000000000001D8"
+				type: "item"
+				item: "pneumaticcraft:armor_upgrade"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000654"
+				type: "item"
+				title: "护甲升级"
+				item: "pneumaticcraft:armor_upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: -9.0d
+			y: -10.0d
+			dependencies: ["00000000000001D1"]
+			id: "00000000000001D9"
+			tasks: [{
+				id: "00000000000001DA"
+				type: "item"
+				item: "pneumaticcraft:night_vision_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000645"
+				type: "command"
+				title: "史诗气动工艺战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -11.0d
+			y: -10.0d
+			dependencies: ["00000000000001D1"]
+			id: "00000000000001DB"
+			tasks: [{
+				id: "00000000000001DC"
+				type: "item"
+				item: "pneumaticcraft:scuba_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000644"
+				type: "command"
+				title: "史诗气动工艺战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -9.0d
+			y: -9.0d
+			dependencies: ["00000000000001CF"]
+			id: "00000000000001DD"
+			tasks: [{
+				id: "00000000000001DE"
+				type: "item"
+				item: "pneumaticcraft:magnet_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000642"
+				type: "command"
+				title: "史诗气动工艺战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -11.0d
+			y: -9.0d
+			dependencies: ["00000000000001CF"]
+			id: "00000000000001DF"
+			tasks: [{
+				id: "00000000000001E0"
+				type: "item"
+				item: "pneumaticcraft:charging_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000643"
+				type: "command"
+				title: "史诗气动工艺战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -11.0d
+			y: -7.0d
+			dependencies: ["00000000000001D5"]
+			id: "00000000000001E3"
+			tasks: [{
+				id: "00000000000001E4"
+				type: "item"
+				item: "pneumaticcraft:flippers_upgrade"
+			}]
+			rewards: [{
+				id: "000000000000063F"
+				type: "command"
+				title: "史诗气动工艺战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -9.0d
+			y: -8.0d
+			subtitle: "共享经验"
+			description: ["把这个方便的装置放在物品栏或饰品栏中，它就会帮你把你的宝贵经验完整的保存起来。"]
+			dependencies: ["0000000000000145"]
+			id: "00000000000001E7"
+			tasks: [{
+				id: "00000000000001E8"
+				type: "item"
+				item: "pneumaticcraft:memory_stick"
+			}]
+			rewards: [{
+				id: "0000000000000653"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+		}
+		{
+			title: "跳跃升级"
+			x: -11.0d
+			y: -8.0d
+			description: [""]
+			dependencies: ["00000000000001D3"]
+			id: "00000000000001ED"
+			tasks: [{
+				id: "00000000000001EE"
+				type: "item"
+				item: "pneumaticcraft:jumping_upgrade_4"
+			}]
+			rewards: [{
+				id: "0000000000000641"
+				type: "command"
+				title: "传奇气动工艺战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "喷射鞋升级"
+			x: -9.0d
+			y: -7.0d
+			description: [""]
+			dependencies: ["00000000000001D5"]
+			id: "00000000000001F5"
+			tasks: [{
+				id: "00000000000001F6"
+				type: "item"
+				item: "pneumaticcraft:jet_boots_upgrade_5"
+			}]
+			rewards: [{
+				id: "0000000000000640"
+				type: "command"
+				title: "传奇气动工艺战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.5d
+			subtitle: "目标已锁定"
+			description: [
+				"蝙蝠。最大的万人敌。现在看好了，它们的小命在你的手掌心里。"
+				""
+				"微型导弹是目标追踪的爆炸物。它们不会对地形造成破坏，并且可以设置不同的爆炸范围、移动速度和转向速度。潜行右击进行设置。"
+			]
+			dependencies: ["0000000000000165"]
+			id: "00000000000001F7"
+			tasks: [{
+				id: "00000000000001F8"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:micromissiles"
+					Count: 1b
+					tag: {
+						damage: 0.0f
+						topSpeed: 0.0f
+						Damage: 0
+						turnSpeed: 0.0f
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000A56"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: -9.5d
+			subtitle: "为人师表"
+			description: ["一种智能炮台，可以添加过滤来让其只攻击特定生物。例如，只攻击成年的动物。"]
+			dependencies: ["00000000000001FB"]
+			id: "00000000000001F9"
+			tasks: [{
+				id: "00000000000001FA"
+				type: "item"
+				item: "pneumaticcraft:sentry_turret"
+			}]
+			rewards: [{
+				id: "0000000000000868"
+				type: "item"
+				title: "破甲型加特林机枪弹药"
+				item: {
+					id: "pneumaticcraft:gun_ammo_ap"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 5s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.5d
+			subtitle: "创造平等环境"
+			description: ["杀死怪物的现代解决方案。对你的宠物也很友好！"]
+			dependencies: ["00000000000000B3"]
+			id: "00000000000001FB"
+			tasks: [{
+				id: "00000000000001FC"
+				type: "item"
+				item: "pneumaticcraft:minigun"
+			}]
+			rewards: [{
+				id: "0000000000000867"
+				type: "item"
+				title: "加特林机枪弹药"
+				item: {
+					id: "pneumaticcraft:gun_ammo"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 5s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "弹药"
+			x: -6.0d
+			y: -8.5d
+			subtitle: "准备齐全"
+			description: ["合成一些专用弹药然后试一试。普通弹药也可以涂上药水，让它变得更特殊。"]
+			dependencies: ["00000000000001FB"]
+			id: "0000000000000202"
+			tasks: [
+				{
+					id: "0000000000000203"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:gun_ammo_freezing"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000020B"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:gun_ammo_explosive"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000869"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:gun_ammo_incendiary"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000A55"
+				type: "command"
+				title: "炼金快乐包"
+				icon: "kubejs:alchemists_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.5d
+			subtitle: "不可避免地战争升级"
+			description: [
+				"苦力怕横行让你很不爽？整天听僵尸村民敲门听烦了？希望那些骷髅能待在僵尸人埋葬它们的地方？"
+				""
+				"不必再寻找了。这个自动哨卫系统只需少量维护就能够让你的家免受怪物的侵扰。"
+			]
+			dependencies: ["00000000000001FB"]
+			id: "000000000000020E"
+			tasks: [{
+				id: "000000000000020F"
+				type: "item"
+				item: "pneumaticcraft:guard_drone"
+			}]
+			rewards: [{
+				id: "0000000000000655"
+				type: "command"
+				title: "农夫快乐包"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			subtitle: "天网就是这么来的"
+			description: [
+				"为守卫无人机或可编程无人机添加该升级后，它们就会变成最先进的杀戮机器。"
+				""
+				"不含弹药。"
+			]
+			dependencies: ["000000000000020E"]
+			id: "0000000000000210"
+			tasks: [{
+				id: "0000000000000211"
+				type: "item"
+				item: "pneumaticcraft:minigun_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000A57"
+				type: "command"
+				title: "炼金快乐包"
+				icon: "kubejs:alchemists_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -7.5d
+			y: -9.5d
+			subtitle: "游戏结束！我占领了制高点！"
+			description: ["提供对玩家物品栏的自动管理，可以实现自动喂食、自动为装备充气等等功能。"]
+			dependencies: ["0000000000000168"]
+			id: "0000000000000212"
+			tasks: [{
+				id: "0000000000000213"
+				type: "item"
+				item: "pneumaticcraft:aerial_interface"
+			}]
+			rewards: [{
+				id: "0000000000000894"
+				type: "command"
+				title: "法师快乐包"
+				icon: "kubejs:sorcerers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -10.5d
+			subtitle: "他们唯一害怕的是……是你。"
+			description: [
+				"值得注意的升级"
+				""
+				"● 自动喂食"
+				"● 夜视"
+				"● 太阳能充电"
+				"● 水下呼吸"
+				"● 魔法伤害保护"
+				"● 状态效果保护"
+				"● 辐射保护"
+				"● 能量护盾"
+			]
+			dependencies: ["00000000000007A9"]
+			id: "0000000000000435"
+			tasks: [{
+				id: "0000000000000436"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_helmet"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000836"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.5d
+			subtitle: "坚强地抵抗它们的军团"
+			description: [
+				"值得注意的升级"
+				""
+				"● 创造飞行"
+				"● 辐射追踪"
+				"● 能量分配"
+				"● 辐射保护"
+				"● 能量护盾"
+			]
+			dependencies: ["00000000000007A9"]
+			id: "0000000000000437"
+			tasks: [{
+				id: "0000000000000438"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_bodyarmor"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000835"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			subtitle: "他们愤怒、残忍、无情"
+			description: [
+				"值得注意的升级"
+				""
+				"● 疾跑速度加强"
+				"● 辐射保护"
+				"● 能量护盾"
+			]
+			dependencies: ["00000000000007A9"]
+			id: "0000000000000439"
+			tasks: [{
+				id: "000000000000043A"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_pants"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000834"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			subtitle: "但是你，你会比它们更糟糕"
+			description: [
+				"值得注意的升级"
+				""
+				"● 跳跃高度加强"
+				"● 磁铁升级"
+				"● 辐射保护"
+				"● 能量护盾"
+			]
+			dependencies: ["00000000000007A9"]
+			id: "000000000000043B"
+			tasks: [{
+				id: "000000000000043C"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_boots"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000833"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			icon: "mekanism:canteen"
+			x: 0.0d
+			y: -8.0d
+			subtitle: "大扁豆绿饼"
+			description: ["所有你必需的维生素、矿物质和氨基酸，都整齐地浓缩成一种方便咀嚼的糊状物。真香。"]
+			dependencies: ["00000000000006A5"]
+			id: "000000000000043D"
+			tasks: [
+				{
+					id: "000000000000043E"
+					type: "item"
+					item: "mekanism:canteen"
+				}
+				{
+					id: "00000000000004B5"
+					type: "item"
+					item: "mekanism:nutritional_liquifier"
+				}
+			]
+			rewards: [{
+				id: "000000000000083D"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.0d
+			dependencies: ["0000000000000435"]
+			id: "000000000000043F"
+			tasks: [{
+				id: "0000000000000440"
+				type: "item"
+				item: "mekanism:module_vision_enhancement_unit"
+			}]
+			rewards: [{
+				id: "000000000000083B"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -10.0d
+			dependencies: ["0000000000000435"]
+			id: "0000000000000441"
+			tasks: [{
+				id: "0000000000000442"
+				type: "item"
+				item: "mekanism:module_electrolytic_breathing_unit"
+			}]
+			rewards: [{
+				id: "000000000000083A"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			dependencies: ["000000000000043B"]
+			id: "0000000000000443"
+			tasks: [{
+				id: "0000000000000444"
+				type: "item"
+				item: "mekanism:module_hydraulic_propulsion_unit"
+			}]
+			rewards: [{
+				id: "0000000000000839"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			dependencies: ["000000000000043B"]
+			id: "0000000000000445"
+			tasks: [{
+				id: "0000000000000446"
+				type: "item"
+				item: "mekanism:module_magnetic_attraction_unit"
+			}]
+			rewards: [{
+				id: "000000000000083E"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -9.0d
+			dependencies: ["0000000000000437"]
+			id: "0000000000000447"
+			tasks: [{
+				id: "0000000000000448"
+				type: "item"
+				item: "mekanism:module_charge_distribution_unit"
+			}]
+			rewards: [{
+				id: "0000000000000837"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.5d
+			subtitle: "发展的代价"
+			description: [""]
+			dependencies: [
+				"0000000000000437"
+				"000000000000043B"
+				"0000000000000435"
+				"0000000000000439"
+			]
+			id: "0000000000000449"
+			tasks: [{
+				id: "000000000000044A"
+				type: "item"
+				item: "mekanism:module_energy_unit"
+			}]
+			rewards: [{
+				id: "000000000000083F"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			dependencies: ["0000000000000437"]
+			id: "000000000000044B"
+			tasks: [{
+				id: "000000000000044C"
+				type: "item"
+				item: "mekanism:module_jetpack_unit"
+			}]
+			rewards: [{
+				id: "000000000000083C"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			dependencies: ["0000000000000439"]
+			id: "000000000000044D"
+			tasks: [{
+				id: "000000000000044E"
+				type: "item"
+				item: "mekanism:module_locomotive_boosting_unit"
+			}]
+			rewards: [{
+				id: "0000000000000838"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.5d
+			subtitle: "不要忘记关掉那台等离子切割机"
+			description: ["一种基础的多工具，内置矿脉挖掘且有着卓越的攻击伤害。"]
+			dependencies: ["00000000000006C5"]
+			id: "000000000000044F"
+			tasks: [{
+				id: "0000000000000450"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000831"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			subtitle: "开膛破肚"
+			description: [
+				"一种强大一体式工具，可接受数个升级。"
+				""
+				"值得注意的升级"
+				""
+				"● 攻击增强单元"
+				"● 挖掘上升单元"
+				"● 矿脉挖掘单元"
+				"● 精准采集单元"
+				"● 传送单元"
+				"● 耕种单元"
+			]
+			dependencies: ["00000000000007A9"]
+			id: "0000000000000451"
+			tasks: [{
+				id: "0000000000000452"
+				type: "item"
+				item: {
+					id: "mekanism:meka_tool"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000832"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.5d
+			subtitle: "做出改变"
+			description: ["用于为Meka工具和MekaSuit套装安装升级。"]
+			dependencies: ["00000000000007A9"]
+			id: "0000000000000453"
+			tasks: [{
+				id: "0000000000000454"
+				type: "item"
+				item: "mekanism:modification_station"
+			}]
+			rewards: [{
+				id: "0000000000000830"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "工具与盔甲"
+			x: -4.5d
+			y: -11.5d
+			shape: "gear"
+			description: [
+				"许多模组添加了各式各样非常有用却容易被忽视的工具。这些任务不会涵盖所有工具，但会重点突出其一些更值得被提到的工具。"
+				""
+				"注：大多数工具和盔甲都有标签，以供在JEI里更方便地搜索。搜索下列类型以发现更多："
+				""
+				"● $armor"
+				"● $armor/helm"
+				"● $armor/chest"
+				"● $armor/leggings"
+				"● $armor/boots"
+				""
+				"● $tools"
+				"● $tools/pickaxe"
+				"● $tools/shovel"
+				"● $tools/axe"
+				"● $tools/hoe"
+				"● $tools/multi-tool"
+			]
+			id: "000000000000045C"
+			tasks: [{
+				id: "000000000000045D"
+				type: "checkmark"
+				icon: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000CA4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "mininggadgets:mininggadget"
+				Count: 1b
+				tag: { }
+			}
+			x: -10.0d
+			y: -16.0d
+			subtitle: "他喵的激光束"
+			description: [
+				"一种能够远距离采掘方块的电动工具。"
+				""
+				"危险：四类激光装置。请避免眼睛或皮肤的接触。"
+				""
+				"值得注意的升级"
+				""
+				"●火把放置器"
+				"●范围采掘"
+				"●精准采集"
+				"●时运"
+				"●可过滤虚空升级，用于删除如过量石头这样不想要的垃圾"
+				"●磁铁升级，用于将采掘的物品吸入你的物品栏"
+			]
+			dependencies: ["000000000000046C"]
+			id: "000000000000045F"
+			tasks: [
+				{
+					id: "0000000000000460"
+					type: "item"
+					title: "采掘小帮手"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mininggadgets:mininggadget"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "mininggadgets:mininggadget_simple"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "mininggadgets:mininggadget_fancy"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "00000000000006F2"
+					type: "item"
+					item: "mininggadgets:modificationtable"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000067D"
+					type: "item"
+					title: "升级：光源放置器"
+					item: "mininggadgets:upgrade_light_placer"
+				}
+				{
+					id: "0000000000000A52"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "时运激光升级（等级1）"
+			x: -10.5d
+			y: -15.0d
+			dependencies: ["000000000000045F"]
+			id: "0000000000000464"
+			tasks: [{
+				id: "0000000000000465"
+				type: "item"
+				item: "mininggadgets:upgrade_fortune_3"
+			}]
+			rewards: [{
+				id: "00000000000006EF"
+				type: "command"
+				title: "矿工快乐包"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "精准采集激光升级（等级1）"
+			x: -11.0d
+			y: -14.0d
+			dependencies: ["000000000000045F"]
+			id: "0000000000000466"
+			tasks: [{
+				id: "000000000000067C"
+				type: "item"
+				item: "mininggadgets:upgrade_silk"
+			}]
+			rewards: [
+				{
+					id: "000000000000067B"
+					type: "item"
+					title: "升级：磁铁"
+					item: "mininggadgets:upgrade_magnet"
+				}
+				{
+					id: "0000000000000A53"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "效率激光升级（等级5）"
+			x: -9.5d
+			y: -15.0d
+			dependencies: ["000000000000045F"]
+			id: "0000000000000468"
+			tasks: [{
+				id: "0000000000000469"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_5"
+			}]
+			rewards: [{
+				id: "00000000000006EE"
+				type: "command"
+				title: "矿工快乐包"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "电池激光升级（等级3）"
+			x: -9.0d
+			y: -14.0d
+			dependencies: ["000000000000045F"]
+			id: "000000000000046A"
+			tasks: [{
+				id: "000000000000046B"
+				type: "item"
+				item: "mininggadgets:upgrade_battery_3"
+			}]
+			rewards: [{
+				id: "0000000000000A54"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "精灵钢盔甲"
+			icon: {
+				id: "mythicbotany:alfsteel_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -12.0d
+			subtitle: "进化完成"
+			description: ["一次对泰拉钢盔甲的升级，精灵钢提供了额外的触及半径、速度和击退抗性。"]
+			dependencies: [
+				"0000000000000475"
+				"0000000000000595"
+			]
+			id: "0000000000000470"
+			tasks: [
+				{
+					id: "0000000000000471"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000472"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000473"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000474"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "000000000000065C"
+				type: "command"
+				title: "传奇植物魔法战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "泰拉钢盔甲"
+			icon: {
+				id: "botania:terrasteel_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: -13.0d
+			subtitle: "发泄我的怒火"
+			description: ["充满魔力的强大盔甲，泰拉钢提供了卓越的保护、魔力减损和击退抗性。"]
+			dependencies: ["0000000000000517"]
+			id: "0000000000000475"
+			tasks: [
+				{
+					id: "0000000000000476"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000477"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000478"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000479"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "000000000000065D"
+				type: "command"
+				title: "传奇植物魔法战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -13.0d
+			subtitle: "它有点东西，就是不确定是啥"
+			description: ["被魔法灌注并结合。该工具可以吸收魔力来提升它的力量，和泰拉粉碎者相似。"]
+			dependencies: ["0000000000000517"]
+			id: "000000000000047A"
+			tasks: [{
+				id: "000000000000047B"
+				type: "item"
+				item: {
+					id: "aiotbotania:terra_aiot"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000065E"
+				type: "command"
+				title: "传奇植物魔法战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -12.0d
+			subtitle: "美丽动人"
+			description: ["被魔法灌注并结合。该工具可以吸收魔力来提升它的力量，和泰拉粉碎者相似。"]
+			dependencies: ["0000000000000595"]
+			id: "000000000000047C"
+			tasks: [{
+				id: "000000000000047D"
+				type: "item"
+				item: {
+					id: "aiotbotania:alfsteel_aiot"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000065B"
+				type: "command"
+				title: "传奇植物魔法战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "海王盔甲"
+			icon: {
+				id: "aquaculture:neptunium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -14.0d
+			subtitle: "奇迹降临时，死亡亦将死亡"
+			description: ["很久以前在最深处锻造而成。海王盔甲给予了穿戴者一种无法想象的深渊深处力量的体验。"]
+			dependencies: ["00000000000004B3"]
+			id: "000000000000047E"
+			tasks: [
+				{
+					id: "000000000000047F"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000660"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000661"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000662"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000065F"
+					type: "item"
+					title: "下界之星鱼钩"
+					item: "aquaculture:nether_star_hook"
+				}
+				{
+					id: "00000000000006F4"
+					type: "command"
+					title: "法师快乐包"
+					icon: "kubejs:sorcerers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -14.0d
+			subtitle: "钻井取水"
+			description: ["海王工具为那些大多数时间生活在水下的人提供了许多好处。"]
+			dependencies: ["00000000000004B3"]
+			id: "0000000000000480"
+			tasks: [{
+				id: "0000000000000481"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000006F5"
+				type: "command"
+				title: "法师快乐包"
+				icon: "kubejs:sorcerers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "大法师的奥术能力"
+			icon: {
+				id: "ars_nouveau:archmage_hood"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: -16.0d
+			description: ["新生魔艺有多个等级的护甲来帮助那些有远大志向的施法者。每个等级都能使穿戴者拥有更多魔力和更快的魔力再生速度。"]
+			dependencies: ["00000000000003D5"]
+			id: "0000000000000486"
+			tasks: [
+				{
+					id: "0000000000000487"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000048A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000048B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000048C"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000666"
+					type: "command"
+					title: "稀有新生魔艺战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_ars_nouveau_loot_rare"
+					player_command: false
+				}
+				{
+					id: "000000000000066E"
+					type: "item"
+					title: "魔力提升 V、魔力再生 V"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 5s
+									id: "ars_nouveau:mana_regen"
+								}
+								{
+									lvl: 5s
+									id: "ars_nouveau:mana_boost"
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "探天者斗篷"
+			icon: {
+				id: "naturesaura:sky_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: -15.0d
+			description: ["探天者套装赋予佩戴者风的亲和力，使其提升速度且步伐更轻盈。"]
+			dependencies: ["00000000000002E9"]
+			id: "0000000000000488"
+			tasks: [
+				{
+					id: "0000000000000489"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000048D"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000048E"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000048F"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_shoes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000665"
+				type: "command"
+				title: "史诗自然灵气战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			subtitle: "保证让你满意"
+			description: [
+				"使任何挖掘任务都变得很快速的电钻。使用工匠工作台安装各种升级："
+				""
+				"● 整合组件"
+				"● 通量线圈"
+				"● 径向范围拓展"
+			]
+			dependencies: ["00000000000004A3"]
+			id: "0000000000000490"
+			tasks: [{
+				id: "0000000000000491"
+				type: "item"
+				item: "thermal:flux_drill"
+			}]
+			rewards: [
+				{
+					id: "0000000000000657"
+					type: "command"
+					title: "史诗热力系列战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000865"
+					type: "command"
+					title: "矿工快乐包"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			subtitle: "你试图抓住我但我挣脱了"
+			description: [
+				"使任何伐木任务都变得很快速的电锯。使用工匠工作台安装各种升级："
+				""
+				"● 整合组件"
+				"● 通量线圈"
+				"● 径向范围拓展"
+			]
+			dependencies: ["00000000000004A3"]
+			id: "0000000000000492"
+			tasks: [{
+				id: "0000000000000493"
+				type: "item"
+				item: "thermal:flux_saw"
+			}]
+			rewards: [
+				{
+					id: "0000000000000656"
+					type: "command"
+					title: "史诗热力系列战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000866"
+					type: "command"
+					title: "矿工快乐包"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "防化套装"
+			icon: {
+				id: "thermal:hazmat_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.5d
+			y: -4.5d
+			subtitle: "这很危险，你必须签署弃权声明"
+			description: ["对世界上的许多危险，如火灾和尖锐的嘘声提供坚实的保护。"]
+			dependencies: ["00000000000004A6"]
+			id: "0000000000000494"
+			tasks: [
+				{
+					id: "0000000000000495"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000049A"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000049B"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000049C"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000659"
+				type: "command"
+				title: "史诗热力系列战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "潜泳套装"
+			icon: {
+				id: "thermal:diving_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.5d
+			y: -4.5d
+			subtitle: "你会认为你在看着一位海王"
+			description: ["允许佩戴者在水下更长时间保持生产力的科学奇迹。"]
+			dependencies: ["00000000000003A2"]
+			id: "0000000000000496"
+			tasks: [
+				{
+					id: "0000000000000497"
+					type: "item"
+					item: {
+						id: "thermal:diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000049D"
+					type: "item"
+					item: {
+						id: "thermal:diving_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000049E"
+					type: "item"
+					item: {
+						id: "thermal:diving_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000049F"
+					type: "item"
+					item: {
+						id: "thermal:diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000658"
+				type: "command"
+				title: "史诗热力系列战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			description: [
+				"一种电力磁铁，完美保护你的贵重物品不落入熔岩中。使用工匠工作台安装各种升级："
+				""
+				"● 整合组件"
+				"● 通量线圈"
+				"● 径向范围拓展"
+			]
+			dependencies: ["00000000000004A3"]
+			id: "0000000000000498"
+			tasks: [{
+				id: "0000000000000499"
+				type: "item"
+				item: "thermal:flux_magnet"
+			}]
+			rewards: [{
+				id: "000000000000065A"
+				type: "command"
+				title: "史诗热力系列战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -15.0d
+			subtitle: "钻井取空"
+			description: [
+				"自然灵气有很多有用的采掘工具，每个都有自己独有的特性，不只是基本的破坏方块。"
+				""
+				"在自然灵气之书中的自然物品类别阅读它们的更多信息。"
+			]
+			dependencies: ["00000000000002E9"]
+			id: "00000000000004B6"
+			tasks: [{
+				id: "00000000000004B7"
+				type: "item"
+				item: {
+					id: "naturesaura:sky_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000664"
+				type: "command"
+				title: "史诗自然灵气战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -9.5d
+			y: -13.0d
+			subtitle: "雕刻得宛如一尊希腊神像"
+			description: [
+				"它可以切割、研磨、雕刻、抛光，甚至还可以做饭和清洁！"
+				""
+				"切石机的所有功能，现在以紧凑的便携形式来到了你的手中。"
+				""
+				"免责声明：实际上不会做饭或打扫。不用于商业用途。"
+				""
+				"警告：远离儿童、动物和傻瓜。移动时不要将手放在刀片上。过度使用可能导致疲劳和视力下降。"
+			]
+			dependencies: ["000000000000046E"]
+			id: "0000000000000AF7"
+			tasks: [{
+				id: "0000000000000AF8"
+				type: "item"
+				item: "portable_stonecutter:portable_stonecutter"
+			}]
+			rewards: [{
+				id: "0000000000000B0B"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -7.5d
+			y: -13.5d
+			subtitle: "无法凿穿基岩"
+			description: ["无限钻头消耗生物燃料来使你能够挖掘大片区域。它可以通过充能来升级。"]
+			dependencies: ["0000000000000082"]
+			id: "0000000000000F5F"
+			tasks: [{
+				id: "0000000000000F60"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -13.0d
+			subtitle: "加油啊，小锯子"
+			description: ["无限链锯消耗生物燃料来使你能够砍倒大片森林。它可以通过充能来升级。"]
+			dependencies: ["0000000000000F09"]
+			id: "0000000000000F61"
+			tasks: [{
+				id: "0000000000000F62"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -13.0d
+			subtitle: "三叉戟 * ♾"
+			description: ["无限三叉戟是Minecraft三叉戟的升级版，大多数魔咒都可以通过将其升级而解锁。它可以通过充能来升级。"]
+			dependencies: ["0000000000000F07"]
+			id: "0000000000000F63"
+			tasks: [{
+				id: "0000000000000F64"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -13.5d
+			subtitle: "很可惜它不能用来建造多方块"
+			description: ["无限电锤消耗生物燃料来使你能够大范围地攻击敌人。它可以通过充能来升级。"]
+			dependencies: ["0000000000000F0B"]
+			id: "0000000000000F65"
+			tasks: [{
+				id: "0000000000000F66"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			description: [
+				"通量工具安装径向范围拓展后，它们就可以更大的范围运作。一次钻或锯3x3、5x5或7x7的范围。"
+				""
+				"同样，它增加了通量磁铁的拾取范围。"
+			]
+			dependencies: [
+				"00000000000004A4"
+				"0000000000000490"
+				"0000000000000492"
+				"0000000000000498"
+			]
+			dependency_requirement: "one_completed"
+			id: "0000000000000F98"
+			tasks: [{
+				id: "0000000000000F99"
+				type: "item"
+				item: "thermal:area_radius_augment"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F9A"
+					type: "command"
+					title: "史诗热力系列战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000F9B"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			subtitle: "噗噗噗"
+			description: [
+				"完美适用于砍树或砍僵尸的手持式锯子。"
+				""
+				"该工具消耗生物柴油运行，尽管内置储罐在其更小的一侧。在野外时可以考虑携带一个储罐加油。只需将其放置在储罐的输入栏位中即可将其充满。"
+				""
+				"将其放置在工程师装配台内以添加或移除加强。"
+			]
+			dependencies: ["0000000000000012"]
+			id: "1487479CFA348530"
+			tasks: [{
+				id: "716019716B2915F9"
+				type: "item"
+				item: {
+					id: "immersiveengineering:buzzsaw"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4AA86E1E20DADE27"
+					type: "item"
+					title: "高级液体储罐"
+					item: {
+						id: "mekanism:advanced_fluid_tank"
+						Count: 1b
+						tag: {
+							mekData: {
+								FluidTanks: [{
+									Tank: 0b
+									stored: {
+										FluidName: "immersiveengineering:biodiesel"
+										Amount: 16000
+									}
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "17E85BEC398930AD"
+					type: "item"
+					title: "锯条"
+					item: {
+						id: "immersiveengineering:sawblade"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			subtitle: "首先有笑声，然后是谎言。最后是枪声。"
+			description: [
+				"适合所有神枪手的可靠小手枪。"
+				""
+				"将其放置在工程师装配台内以添加或移除加强。"
+			]
+			dependencies: ["0000000000000012"]
+			id: "52DFEA36FFFBCDD5"
+			tasks: [{
+				id: "54E76BD7C4FB9D97"
+				type: "item"
+				item: {
+					id: "immersiveengineering:revolver"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 21
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "098BE70A0BFCDBDC"
+					type: "command"
+					title: "稀有沉浸工程战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+					player_command: false
+				}
+				{
+					id: "02E988D98405DAFB"
+					type: "item"
+					title: "卡苏尔弹"
+					item: "immersiveengineering:casull"
+					count: 64
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			subtitle: "在煤矿井里劳作。唔，差点儿滑倒。"
+			description: [
+				"一种能够快速挖凿穿最坚硬的岩石的手持式隧道钻机。"
+				""
+				"该工具消耗生物柴油运行，尽管内置储罐在其更小的一侧。在野外时可以考虑携带一个储罐加油。只需将其放置在储罐的输入栏位中即可将其充满。"
+				""
+				"将其放置在工程师装配台内以添加或移除加强。"
+			]
+			dependencies: ["0000000000000012"]
+			id: "0A476C6332EB6477"
+			tasks: [{
+				id: "5B3CC19ED97DFA26"
+				type: "item"
+				item: {
+					id: "immersiveengineering:drill"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5D7232BCA248639D"
+					type: "item"
+					title: "高级液体储罐"
+					item: {
+						id: "mekanism:advanced_fluid_tank"
+						Count: 1b
+						tag: {
+							mekData: {
+								FluidTanks: [{
+									Tank: 0b
+									stored: {
+										FluidName: "immersiveengineering:biodiesel"
+										Amount: 16000
+									}
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "7683853C5B00EE25"
+					type: "item"
+					title: "铁质钻头"
+					item: "immersiveengineering:drillhead_iron"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -5.0d
+			subtitle: "你指尖跳动的电光……"
+			description: [
+				"磁轨炮是一种凶猛的武器，能够以极快的速度发射弹射物，并撕裂目标，使其免受痛苦。"
+				""
+				"适合的弹药包括铁和钢杆，以及石墨电极等等。"
+				""
+				"将其放置在工程师装配台内以添加或移除加强。"
+			]
+			dependencies: ["0000000000000012"]
+			id: "69C4E9422B0C695A"
+			tasks: [{
+				id: "404F5C421F8FFFD5"
+				type: "item"
+				item: {
+					id: "immersiveengineering:railgun"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 3
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57BCCB513CA91D6B"
+					type: "command"
+					title: "稀有沉浸工程战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+					player_command: false
+				}
+				{
+					id: "6BCA8B2194807B4D"
+					type: "item"
+					title: "铁杆"
+					item: "emendatusenigmatica:iron_rod"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			subtitle: "枪战开始后，只要动的都要杀死。"
+			description: [
+				"快速装弹器在弹药耗尽时会自动重新为左轮手枪装弹，这是持续战斗的好方法。"
+				""
+				"想让它持续装填，只需要右击并将你的子弹放进去。不过，它也可以放在3x3合成网格里，周围围上弹药进行装填。结合一些自动化和一个玩家模块，就意味着弹药再也不会用光了。"
+			]
+			dependencies: ["52DFEA36FFFBCDD5"]
+			id: "3FC9C9BA6C4B9597"
+			tasks: [{
+				id: "46FB2138D39F9238"
+				type: "item"
+				item: {
+					id: "immersiveengineering:speedloader"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 8
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "24A27D154F9FB236"
+				type: "command"
+				title: "稀有沉浸工程战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			subtitle: "黑衣人逃过了沙漠……"
+			description: ["为野兽靠得太近，或者你的弹药耗尽时准备。"]
+			dependencies: ["52DFEA36FFFBCDD5"]
+			id: "3C6A4FF4F12DCAB2"
+			tasks: [{
+				id: "4E1995B3908BE0A1"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_revolver_bayonet"
+			}]
+			rewards: [{
+				id: "1EE1E0D6A82D9B90"
+				type: "command"
+				title: "稀有沉浸工程战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.0d
+			subtitle: "历史车轮滚滚，世界不断前进。"
+			description: ["散热器使磁轨炮能够更快地充能，更快地进行火力摧毁。"]
+			dependencies: ["69C4E9422B0C695A"]
+			id: "4AEF4EECF33AAD14"
+			tasks: [{
+				id: "1722BA00297D1CD5"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_railgun_capacitors"
+			}]
+			rewards: [{
+				id: "388801C14A6A9916"
+				type: "command"
+				title: "稀有沉浸工程战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.0d
+			subtitle: "所有的事情都需要喜笑颜开。"
+			description: ["安装后鼠标中键可以开启瞄准镜，鼠标滚轮可以调整放大等级。非常适合远距离瞄准目标。"]
+			dependencies: ["69C4E9422B0C695A"]
+			id: "375C292687CF5637"
+			tasks: [{
+				id: "258019F9C44FA366"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_railgun_scope"
+			}]
+			rewards: [{
+				id: "231932437B4E9839"
+				type: "command"
+				title: "稀有沉浸工程战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.0d
+			y: -3.5d
+			subtitle: "毕竟，疼痛是一种工具。有时它是最好的工具。"
+			description: [
+				"磁轨炮，尽管很强大，但FE储量相对很低。电容背包是延长电池寿命的绝佳方法。"
+				""
+				"虽然电容背包可以放在饰品栏中，但最好还是把它和胸甲在合成网格中合并。"
+			]
+			dependencies: ["69C4E9422B0C695A"]
+			id: "149EC37E85BC39BB"
+			tasks: [{
+				id: "0946F869835964E3"
+				type: "item"
+				item: {
+					id: "immersiveengineering:powerpack"
+					Count: 1b
+					tag: {
+						energy: 100000
+					}
+				}
+			}]
+		}
+		{
+			title: "子弹"
+			x: -1.0d
+			y: -3.5d
+			subtitle: "……枪侠一路紧跟"
+			description: [
+				"卡苏尔弹是最便宜、最基础的弹药；然而，他们仍然有不小的杀伤力。 "
+				""
+				"穿甲弹可以快速击穿敌方的护甲而银弹对付亡灵生物时很强大。"
+				""
+				"想要控制数量较大的群体，可以考虑更强力的子弹，如短程锥型爆破的鹿弹或龙息弹。并且如果单纯是你的准头十分差劲，则可以考虑狼群弹，它们在撞击后爆炸，向各个方向发射寻的弹片, 迅速摧毁任何它们遇到的东西。"
+				""
+				"探索你的选择，在工程师手册中阅读更多信息。"
+			]
+			dependencies: ["52DFEA36FFFBCDD5"]
+			id: "7EA4E88D7230D94D"
+			tasks: [{
+				id: "3E8BA9F57E3C4452"
+				type: "item"
+				title: "子弹"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "immersiveengineering:casull"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:armor_piercing"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:buckshot"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:he"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:silver"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:dragons_breath"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:potion"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:flare"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:firework"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:homing"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:wolfpack"
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 24L
+			}]
+			rewards: [{
+				id: "673B7ECE0BDE897E"
+				type: "command"
+				title: "稀有沉浸工程战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			subtitle: "干净利落"
+			description: ["一种特殊的切割工具，可以干净地切割出石头、冰或玻璃等方块，可有效地充当精准采集工具。"]
+			dependencies: ["1487479CFA348530"]
+			id: "650F8ED52289B8AC"
+			tasks: [{
+				id: "07CF70C497212059"
+				type: "item"
+				item: {
+					id: "immersiveengineering:rockcutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "541EA45AC0E8D7CF"
+				type: "command"
+				title: "稀有沉浸工程战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			subtitle: "别把它弄炸了"
+			description: ["采矿机械钻的发动机通常不能在水下工作。不过，增加压缩空气罐后，它就可以保持全速运行。"]
+			dependencies: ["0A476C6332EB6477"]
+			id: "322F7E60078AC6F6"
+			tasks: [{
+				id: "4D1F4C0716B593B9"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_drill_waterproof"
+			}]
+			rewards: [{
+				id: "5691DD3285ADB605"
+				type: "command"
+				title: "稀有沉浸工程战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			subtitle: "无底矿洞"
+			description: [
+				"钻头会随着时间的推移而磨损，不过它们可以从机械钻上拆下来并在铁砧中修复。"
+				""
+				"升级到钢钻头不仅提高了耐久度，而且可以开采黑曜石，而不必浪费你那宝贵的闪亮蓝色宝石。"
+			]
+			dependencies: ["0A476C6332EB6477"]
+			id: "13AA0065B8167EF4"
+			tasks: [{
+				id: "6A6D387D221FEC38"
+				type: "item"
+				item: "immersiveengineering:drillhead_steel"
+			}]
+			rewards: [{
+				id: "39097B6C7B38506A"
+				type: "command"
+				title: "稀有沉浸工程战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			description: ["在挖掘岩石的钻头和切割坚硬材料的锯子上添加一些润滑油可以大大延长工具的使用寿命。"]
+			dependencies: [
+				"5B3CC19ED97DFA26"
+				"716019716B2915F9"
+			]
+			dependency_requirement: "one_completed"
+			id: "546222019B6470BA"
+			tasks: [{
+				id: "4A295A3D115FE1F2"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_drill_lube"
+			}]
+			rewards: [{
+				id: "713B059CB5DBEBCA"
+				type: "command"
+				title: "稀有沉浸工程战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			description: ["适用于机械钻、机械锯甚至化学喷射器的拓展燃料杠。非常值得。"]
+			dependencies: [
+				"716019716B2915F9"
+				"672C630D81BD8E94"
+				"5B3CC19ED97DFA26"
+			]
+			dependency_requirement: "one_completed"
+			id: "7B384B41FCA9F17A"
+			tasks: [{
+				id: "5761B4339C81361F"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_drill_capacity"
+			}]
+			rewards: [{
+				id: "60482427F2F16E9B"
+				type: "command"
+				title: "稀有沉浸工程战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			description: ["一台机械钻最多可以增加三个额外的加强，每个加强都可以加快采掘速度，甚至可以提升对站在其前面的任何不幸生物的伤害。"]
+			dependencies: ["0A476C6332EB6477"]
+			id: "1A0053922B30B033"
+			tasks: [{
+				id: "762650E500C59FAF"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_drill_damage"
+			}]
+			rewards: [{
+				id: "1D732032B9C86AB5"
+				type: "command"
+				title: "稀有沉浸工程战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			subtitle: "所以等等，这不是箭……"
+			description: ["刀片盒子可以在工程师装配台中加装到机械锯上，以携带额外的锯条，且使你在机械锯运行时切换它们。潜行+鼠标滚轮切换锯条。"]
+			dependencies: ["1487479CFA348530"]
+			id: "283516E560D1D20E"
+			tasks: [{
+				id: "59195DC2ADAA355B"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+			}]
+			rewards: [{
+				id: "36142E0E21AC2474"
+				type: "command"
+				title: "稀有沉浸工程战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			subtitle: "所以管他呢，我直接开炸了"
+			description: [
+				"想要一支火焰喷射器吗？现在你的机会来了。给这玩意装满任何易燃燃料，潜行+右击点燃火焰，开始扫射吧。"
+				""
+				"将其放置在工程师装配台内以添加或移除加强。"
+			]
+			dependencies: ["0000000000000012"]
+			id: "4498690DCA41A562"
+			tasks: [{
+				id: "672C630D81BD8E94"
+				type: "item"
+				item: {
+					id: "immersiveengineering:chemthrower"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 4
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2DBC321E9D2AE461"
+				type: "item"
+				title: "聚焦喷嘴"
+				item: "immersiveengineering:toolupgrade_chemthrower_focus"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -12.0d
+			subtitle: "生活在云上"
+			description: [
+				"你曾梦想过不用搭擎天柱就能在空中建造一个平台吗？"
+				""
+				"好吧，如果你不会飞，你可能还需要那根擎天柱。不过，如果你会飞的话，就可以装一瓶云来充当平台的起点。"
+				""
+				"在y126至y132之间使用玻璃瓶你会获得瓶中云。再次右击空气将会放置这朵云，其他方块就能够放在它的旁边。一会儿后它就会消失，但如果有另外一块方块及时的放置在它的旁边，它就会自己回到你的瓶中。"
+			]
+			id: "322E9DDDEE1623E3"
+			tasks: [{
+				id: "2AF9B5D1BACA4A59"
+				type: "item"
+				item: "quark:bottled_cloud"
+			}]
+			rewards: [{
+				id: "43188DFF0C8F9DDC"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.5d
+			y: -13.0d
+			subtitle: "只愿一生和你在一起……"
+			description: [
+				"如珍宝般存下每一天，挥霍在任何你喜欢的事上。"
+				""
+				"潜行右击大多数机器可以消耗存储在其中的时间，并短暂的将它们加速。"
+			]
+			dependencies: ["000000000000046D"]
+			id: "7AE1180EFAF22376"
+			tasks: [{
+				id: "4D29649F3F51D7D3"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FDD99B9F9F65B1D"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -11.5d
+			description: [
+				"只有被其认可才可以挥舞的强大武器。"
+				""
+				"但它是怎么找到你的？"
+			]
+			dependencies: ["3EA3751B482189B7"]
+			id: "1C861BDF9266B721"
+			tasks: [{
+				id: "14ED2E5760DB70B5"
+				type: "item"
+				item: "mythicbotany:mjoellnir"
+			}]
+			rewards: [{
+				id: "196A0F3B1A3EB04F"
+				type: "command"
+				title: "传奇植物魔法战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "奥术兵工厂"
+			x: -1.0d
+			y: -14.0d
+			description: ["使用时可被法术附魔的强大工具。是任何志向远大的法师的必备。"]
+			dependencies: ["00000000000003D7"]
+			id: "4A1C227E044B02D6"
+			tasks: [
+				{
+					id: "0733FFA5BAB24544"
+					type: "item"
+					item: "ars_nouveau:spell_bow"
+				}
+				{
+					id: "25A8965A5E3C4458"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4CDEBD46316A28AF"
+					type: "item"
+					item: "ars_nouveau:wand"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -14.0d
+			subtitle: "身在曹营心在汉"
+			description: [
+				"在服务器内游玩？考虑合成一些离线方块以在你下线时禁用机器。"
+				""
+				"当放置离线方块的玩家在线时，离线方块会发出红石信号。所以简单放置一个然后设置好只依赖于红石的自动化。"
+			]
+			dependencies: ["000000000000046F"]
+			id: "03CE9A1AE5E2538D"
+			tasks: [{
+				id: "21050326FB2FBF70"
+				type: "item"
+				item: "clockout:clockout_block"
+			}]
+			rewards: [{
+				id: "1A05BF41EEF353BA"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.5d
+			y: -12.0d
+			subtitle: "技术支持：皮姆"
+			description: [
+				"更小，但一样的强大？这不可能！"
+				""
+				"现在可能了。"
+				""
+				"有个人缩放装置在手，就可以缩小到最小的尺寸，甚至穿过老鼠都直摇头的缝隙。"
+				""
+				"● 右击以打开界面并选择尺寸。"
+				"● 潜行+右击以缩小自己。"
+				"● 左击以缩小一个实体。"
+				"● 用玻璃瓶右击缩小的实体以将其装起。"
+				""
+				"在你口袋里装一个村民以求好运吧！"
+			]
+			dependencies: ["00000000000003FF"]
+			min_width: 300
+			id: "2A74822BE970E9D4"
+			tasks: [{
+				id: "417D1AA02B005770"
+				type: "item"
+				item: {
+					id: "shrink:shrinking_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "39498CF292AB8B53"
+					type: "item"
+					title: "玻璃瓶"
+					item: "minecraft:glass_bottle"
+					count: 8
+				}
+				{
+					id: "00012916E3BF0CC7"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -11.5d
+			shape: "gear"
+			description: [
+				"总是在寻找合适的工具？这是公制的？还是英制的？还有那个平头螺丝刀跑哪里去了？"
+				""
+				"隆重介绍变形工具：永远知道该干什么的工具。只需将其指向一个机器，然后看着它根据该方块所属的模组变换成合适的形状。"
+				""
+				"需要一个特定的扳手来旋转你在安装的那些烦人的楼梯？潜行并滚动鼠标滚轮以选择任何装备的工具。并且如果你宁愿分开使用工具，潜行并丢弃将该工具从变形工具中弹出。把它放回去只需简单地再次将两者进行合成。"
+				""
+				"确保查看特殊的简易预装配方，只需一些齿轮和红石，就可以为你的扳手预装来自常见模组的各种各样的工具，以帮助你上手。"
+			]
+			id: "7EDFBD3AEAC8B587"
+			tasks: [{
+				id: "0D382E19423F7F14"
+				type: "item"
+				item: "morphtool:tool"
+			}]
+			rewards: [{
+				id: "2826CA3ECD3974D4"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "铁喷气背包"
+			x: -5.5d
+			y: -14.5d
+			subtitle: "等下，这也不是铁制的啊"
+			description: [
+				"这些喷气背包是基于等级的实用工具，只需将其放进某种充电装置，提供足够的RF，就能带你飞行。"
+				""
+				"在Enigmatica-6中，喷气背包是用热力系列和Powah模组的物品合成的。第一个喷气背包，硬化喷气背包，是由热力防化套装和多种硬化等级的Powah机器与材料制作而成。"
+			]
+			dependencies: ["000000000000019B"]
+			id: "32543CB763F99E26"
+			tasks: [{
+				id: "5E0566EA6AC167A7"
+				type: "item"
+				item: {
+					id: "ironjetpacks:hardened_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "1CB81CA01A66EFF3"
+				type: "command"
+				title: "Powah战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "依然不是铁制的"
+			x: -4.5d
+			y: -15.5d
+			subtitle: "差不多"
+			description: ["第二个喷气背包主要由殷钢，一种由镍和铁制成的合金，以及你的老硬化喷漆背包打造而成。"]
+			dependencies: ["32543CB763F99E26"]
+			id: "517AFDCCF9B4F556"
+			tasks: [{
+				id: "6CC77BA53377140C"
+				type: "item"
+				item: {
+					id: "ironjetpacks:invar_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A08858F195AB557"
+				type: "command"
+				title: "史诗热力系列战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "字面意义上的很火"
+			x: -6.5d
+			y: -15.5d
+			subtitle: "多讽刺啊，这些都不是铁制的"
+			description: ["第三级的喷气背包仅仅使用了Powah的烈焰等级的物品（再加上殷钢喷气背包）。"]
+			dependencies: ["517AFDCCF9B4F556"]
+			id: "3DE9AC6CE13B591B"
+			tasks: [{
+				id: "55F87954F5A7F169"
+				type: "item"
+				item: {
+					id: "ironjetpacks:blazing_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CF8EC622824974F"
+				type: "command"
+				title: "Powah战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "无信号"
+			x: -4.5d
+			y: -16.5d
+			subtitle: "不，等一下，其实是信号太多了。"
+			description: ["第四个喷气背包是由信素，一种由银和导电性优良的红石制成的合金，打造而成的。哦，当然，它还需要一个烈焰喷漆背包。"]
+			dependencies: ["3DE9AC6CE13B591B"]
+			id: "7A685C5CF8B6792E"
+			tasks: [{
+				id: "3AC7C02A3C65D157"
+				type: "item"
+				item: {
+					id: "ironjetpacks:signalum_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2F7341AFE1379D57"
+				type: "command"
+				title: "史诗热力系列战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "由能量饮料赞助播出"
+			x: -6.5d
+			y: -16.5d
+			subtitle: "……这是用啥做的？！"
+			description: ["第五个喷气背包。钻石喷气背包，是由Powah的钻石等级和之前喷气背包等级的材料制作而成。"]
+			dependencies: ["7A685C5CF8B6792E"]
+			id: "53232F72A2133D14"
+			tasks: [{
+				id: "377EE5AC5053521D"
+				type: "item"
+				item: {
+					id: "ironjetpacks:niotic_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C0DB38F8304E24B"
+				type: "command"
+				title: "Powah战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "你个流芒"
+			x: -4.5d
+			y: -17.5d
+			subtitle: "这和铁根本不贴边"
+			description: ["流明是由锡、银和萤石制成的合金。"]
+			dependencies: ["53232F72A2133D14"]
+			id: "64D05D57CD3BD048"
+			tasks: [{
+				id: "7632CE1603104C5B"
+				type: "item"
+				item: {
+					id: "ironjetpacks:lumium_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "1A8129ADCF741705"
+				type: "command"
+				title: "史诗热力系列战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "精神升华"
+			x: -6.5d
+			y: -17.5d
+			subtitle: "好，好，我不吐槽了"
+			description: ["富生喷气背包是由Powah的富生等级制作而成的。"]
+			dependencies: ["64D05D57CD3BD048"]
+			id: "78FB2B0A5D565203"
+			tasks: [{
+				id: "76E9010CA6A45910"
+				type: "item"
+				item: {
+					id: "ironjetpacks:spirited_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "44AEA9FA58AF9913"
+				type: "command"
+				title: "Powah战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "登峰造极"
+			x: -5.5d
+			y: -20.5d
+			shape: "gear"
+			subtitle: "古惑狼最爱的玩具"
+			description: ["最后一级的喷气背包是由下界等级的Powah物品制作而成。祝你飞行愉快！不，我不想搭车，你自己用你的超音速喷气背包，谢谢。"]
+			dependencies: ["0430DED82424A380"]
+			size: 2.0d
+			id: "4A1D635E224616E5"
+			tasks: [{
+				id: "1E21A04D7897170A"
+				type: "item"
+				item: {
+					id: "ironjetpacks:nitro_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C390C7FDB3F39FD"
+				type: "command"
+				title: "Powah战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "全都是传送"
+			x: -5.5d
+			y: -18.5d
+			subtitle: "所以这就是末影人远距离旅行的秘诀。"
+			description: ["不要问这是怎么做到的，只要相信它能做到就好。"]
+			dependencies: ["78FB2B0A5D565203"]
+			id: "0430DED82424A380"
+			tasks: [{
+				id: "3AD4174B377A96BE"
+				type: "item"
+				item: {
+					id: "ironjetpacks:enderium_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "33DDF92F40291EBA"
+				type: "command"
+				title: "史诗热力系列战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+	]
+}

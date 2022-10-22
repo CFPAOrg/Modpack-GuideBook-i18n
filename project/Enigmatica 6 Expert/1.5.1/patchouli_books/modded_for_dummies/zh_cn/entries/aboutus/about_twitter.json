@@ -1,0 +1,12 @@
+{
+    "name": "推特",
+    "icon": "enigmatica:textures/twitter-icon.png",
+    "category": "patchouli:aboutus",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l)$(l:https://twitter.com/EnigmaticaPacks)在推特上关注我们$(/l)$(reset)来获取最新的更新信息！"
+        }
+    ]
+}

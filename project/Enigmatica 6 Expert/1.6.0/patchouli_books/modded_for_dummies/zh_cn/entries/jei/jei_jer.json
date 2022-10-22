@@ -1,0 +1,16 @@
+{
+    "name": "资源查看器",
+    "icon": "minecraft:iron_ore",
+    "category": "patchouli:jei",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#ffa500)$(l)Just Enough Resources$(reset)（简写 JER）是 JEI 的一个附属模组。它为 JEI 添加了一些新的标签，以显示那些不能通过普通合成获得的东西（比如说怪物掉落，或者地牢的战利品）。"
+        },
+        {
+            "type": "text",
+            "text": "注意 JER 现在有个错误：显示不同矿物生成高度的图表$(l)数据不准确$(reset)，所以不要误以为真。"
+        }
+    ]
+}

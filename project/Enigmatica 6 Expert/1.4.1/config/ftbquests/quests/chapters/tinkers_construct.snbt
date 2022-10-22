@@ -1,0 +1,3778 @@
+{
+	id: "5967132E080A674D"
+	group: "74B3CF67FCEAB20F"
+	order_index: 2
+	filename: "tinkers_construct"
+	title: "匠魂"
+	icon: {
+		id: "tconstruct:vein_hammer"
+		Count: 1b
+		tag: {
+			tic_multipliers: {
+				"tconstruct:mining_speed": 0.3f
+				"tconstruct:attack_damage": 1.25f
+				"tconstruct:durability": 5.0f
+			}
+			tic_stats: {
+				"tconstruct:attack_speed": 1.1f
+				"tconstruct:mining_speed": 2.5125f
+				"tconstruct:attack_damage": 5.9375f
+				"tconstruct:harvest_level": 4.0f
+				"tconstruct:durability": 7906.25f
+			}
+			tic_broken: 0b
+			tic_modifiers: [
+				{
+					name: "tconstruct:cultivated"
+					level: 1s
+				}
+				{
+					name: "tconstruct:maintained"
+					level: 1s
+				}
+				{
+					name: "tconstruct:piercing"
+					level: 2s
+				}
+				{
+					name: "tconstruct:sturdy"
+					level: 1s
+				}
+				{
+					name: "tconstruct:momentum"
+					level: 1s
+				}
+				{
+					name: "tconstruct:two_handed"
+					level: 1s
+				}
+			]
+			HideFlags: 3
+			tic_materials: [
+				"tconstruct:hepatizon"
+				"tconstruct:wood"
+				"enigmatica:gaia_spirit"
+				"enigmatica:niotic"
+			]
+			Damage: 0
+			tic_volatile_data: {
+				"tconstruct:durability": 6875
+			}
+			tic_persistent_data: {
+				abilities: 1
+				upgrades: 2
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "匠魂时间到！"
+			icon: {
+				id: "tconstruct:vein_hammer"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.3f
+						"tconstruct:attack_damage": 1.25f
+						"tconstruct:durability": 5.0f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.1f
+						"tconstruct:mining_speed": 2.5125f
+						"tconstruct:attack_damage": 5.9375f
+						"tconstruct:harvest_level": 4.0f
+						"tconstruct:durability": 7906.25f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:maintained"
+							level: 1s
+						}
+						{
+							name: "tconstruct:piercing"
+							level: 2s
+						}
+						{
+							name: "tconstruct:sturdy"
+							level: 1s
+						}
+						{
+							name: "tconstruct:momentum"
+							level: 1s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:hepatizon"
+						"tconstruct:wood"
+						"enigmatica:gaia_spirit"
+						"enigmatica:niotic"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:durability": 6875
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			description: [
+				"匠魂（英文简称TiC、TiCon或TCon）是一个模块化工具模组，能使工匠制作强大、可修复且可升级的工具。"
+				""
+				"注：需要工具或工具部件的任务可以接受“任何”材料的部件，所以开始打造吧！"
+			]
+			id: "47169AB8212BD508"
+			tasks: [{
+				id: "7E574E8726A74BAE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3CB675D49916C945"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "模板与你"
+			icon: "tconstruct:materials_and_you"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"发展匠魂的第一步是制作模板。这些模板会被用来制作发展所需的合成方块。它们还可以与材料组合以制作各种工具部件。"
+				""
+				"《材料与你》一书提供了匠魂可制作的第一批工具以及可使用的一级材料的信息。"
+			]
+			dependencies: ["47169AB8212BD508"]
+			dependency_requirement: "one_started"
+			id: "29743F1C8CF559A2"
+			tasks: [{
+				id: "0AB9B5ABEF3FE96B"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+			rewards: [{
+				id: "3E7CAF244FF83471"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			title: "探索匠魂"
+			icon: "sophisticatedbackpacks:backpack"
+			x: -2.0d
+			y: 0.0d
+			description: ["匠魂增加了一些探索的区域，以及帮助工匠探索的工具。这些章节会为工匠描述他们可创造的装置以及在各个维度中可找到的区域和材料。"]
+			dependencies: ["47169AB8212BD508"]
+			id: "4588297F41674524"
+			tasks: [{
+				id: "2B64D28ADD716F56"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "44BD2F811F1EAA52"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"虽然石头工具很容易修理，但要想采集更深处的材料、造成更多的伤害，就必须使用金属和更高阶的部件。"
+				""
+				"《入门熔炼术》指导工匠了解二级材料更高的属性和自带能力，还有如何建造冶炼炉以铸造二级部件。"
+			]
+			dependencies: ["29743F1C8CF559A2"]
+			id: "760FD80EF963D952"
+			tasks: [{
+				id: "651C325CE20B4899"
+				type: "item"
+				item: "tconstruct:puny_smelting"
+			}]
+			rewards: [{
+				id: "16C58C7C9C601B77"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"工匠最终总会希望冶炼超过九个锭的金属。他们也许还希望能够创造各种合金。为此将需要《大师熔炼术》中的知识。"
+				""
+				"这本宝典将开始解释工匠可以使用的三级材料，以及可以添加到工具上的各种能力。 "
+			]
+			dependencies: ["760FD80EF963D952"]
+			id: "580645AA5B0DC481"
+			tasks: [{
+				id: "022446FCF9D621D6"
+				type: "item"
+				item: "tconstruct:mighty_smelting"
+			}]
+			rewards: [{
+				id: "33A455096D43FDA9"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: ["最后一级的书提供了关于使用来自下界的材料建造的顶级设备的信息，以及可用于工匠打造工具的四级材料。"]
+			dependencies: ["580645AA5B0DC481"]
+			id: "6BDF1FD62E49EEBF"
+			tasks: [{
+				id: "556A77E83C70C750"
+				type: "item"
+				item: "tconstruct:fantastic_foundry"
+			}]
+			rewards: [{
+				id: "193895CBB3D7B7AF"
+				type: "command"
+				title: "传奇匠魂战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "主世界的匠魂"
+			icon: "tconstruct:sky_slime_sapling"
+			x: -1.5d
+			y: -1.5d
+			description: ["匠魂在主世界增加了几个可供工匠寻找的岛屿。在天空中可以找到飘浮的碧空黏液岛，沿着海岸线可以找到大地黏液岛。甚至还有一些看起来像黏液岛的黏土岛，但却是普通的原版岛屿。"]
+			dependencies: ["4588297F41674524"]
+			dependency_requirement: "all_started"
+			id: "535EDB063EEB4A69"
+			tasks: [{
+				id: "2F3E5A178D42DA0F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5F1111E375131111"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "下界的匠魂"
+			icon: "tconstruct:blood_slime_sapling"
+			x: 0.0d
+			y: -2.0d
+			description: ["下界是工匠寻找升级工具的材料的下一站。下界钴矿石可以在任意地形中找到，黏血岛可以在熔岩层中找到，凋灵骷髅也会掉落一些额外的好东西。"]
+			dependencies: ["535EDB063EEB4A69"]
+			id: "48DD79D9708932B9"
+			tasks: [{
+				id: "1EDA3F6F447CE811"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4B5F51288DDAA9EC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "末地的匠魂"
+			icon: "tconstruct:ender_slime_sapling"
+			x: 1.5d
+			y: -1.5d
+			description: ["进入末地会为工匠解锁更多的资源。从龙身上炸下来的龙鳞，到找寻有着最不寻常的史莱姆的岛屿，各种高级的材料等待着工匠去寻找。"]
+			dependencies: ["48DD79D9708932B9"]
+			id: "3DB4D65F8A5ECA0B"
+			tasks: [{
+				id: "1FBA34DE510DF134"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6DA7B2228577015A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: [
+				"匠魂的各种合成方块形成了一个可从单一界面访问全部方块的多方块结构，而第一个要制作的方块是工作站。"
+				""
+				"这个方块比原版的工作台更有优势，因为它可以保留合成网格中的材料，并且在世界中可以直接看到它们。它还会连接到相邻的容器，使合成更方便。"
+			]
+			dependencies: ["29743F1C8CF559A2"]
+			id: "153D64CF717673FD"
+			tasks: [{
+				id: "700364E7B8371737"
+				type: "item"
+				item: {
+					id: "tconstruct:crafting_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_log"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1CD2DCB53AC39809"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["在打造工具之前，工匠需要制造构成这些工具的部件。部件制造台是制造部件所需的方块。随着匠魂版本的更新，一套精简的部件也随之而来。"]
+			dependencies: ["153D64CF717673FD"]
+			id: "2328B550CF3B401C"
+			tasks: [{
+				id: "5C5C31F396BF4239"
+				type: "item"
+				item: {
+					id: "tconstruct:part_builder"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E0B79AF590A85C8"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			description: [
+				"这是合成、修理以及简单升级匠魂工具所需的匠魂方块。"
+				""
+				"在合成完基础部件后，工匠需要在工匠站的界面中选择工具设计，并将部件组装成他们的新工具。"
+				""
+				"工具也可用与其头部部件相同的材料在工匠站进行修理。"
+			]
+			dependencies: ["2328B550CF3B401C"]
+			id: "43EDC38B89D1611F"
+			tasks: [{
+				id: "2C5A3BABB5FE0A39"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "48AAC24DE364756A"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["工匠箱是一个可以与多方块结构中其他匠魂合成方块一起使用的存储方块。它拥有比单个箱子更大的存储空间，且在匠魂组合界面中拥有自己的界面标签。"]
+			dependencies: ["153D64CF717673FD"]
+			id: "0DE8DA1DF8C47EDD"
+			tasks: [{
+				id: "7C4EF42E1043BA79"
+				type: "item"
+				item: "tconstruct:tinkers_chest"
+			}]
+			rewards: [{
+				id: "7B852A7C57B1D2A9"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			description: ["这个匠魂方块是一个特殊的存储方块，用于存储部件制造台合成的部件。在后续任务线中，需要储存用沙子铸模的石头部件时非常有用。"]
+			dependencies: ["153D64CF717673FD"]
+			id: "114A1B879EEC619E"
+			tasks: [{
+				id: "2CEEC0080CD73D7C"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+			rewards: [{
+				id: "0A14FCF62978D6ED"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂砖泥"
+			x: 2.5d
+			y: 2.5d
+			description: ["工匠在能够建造用于制造和使用二级材料的多方块结构之前，需要制作砖泥。这种材料是更高级的匠魂结构的建筑方块的前身。"]
+			dependencies: ["760FD80EF963D952"]
+			id: "53998A418EE25004"
+			tasks: [{
+				id: "166F19DB03816147"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "4D8B81DAA1964C23"
+					type: "item"
+					item: "tconstruct:grout"
+					count: 8
+				}
+				{
+					id: "25EAF2E7866A5BC8"
+					type: "command"
+					title: "稀有匠魂战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "tconstruct:seared_melter"
+			x: 3.5d
+			y: 3.5d
+			description: [
+				"焦黑熔化炉是工匠熔化材料并创造更高阶的部件和复合材料的手段。熔化炉一次可以熔化三个物品，并储存等同于九个锭的材料（或1296mb）"
+				""
+				"请注意，熔化炉不能将材料融为合金；需要一个更强大的匠魂结构才能做到这点。还要注意的是，熔化炉可以由焦黑燃料储罐驱动，以达到更高的熔点。"
+			]
+			dependencies: ["53998A418EE25004"]
+			id: "1BECFB61E2216217"
+			tasks: [
+				{
+					id: "10BB8FE4AD38C5ED"
+					type: "item"
+					title: "焦黑熔化炉"
+					icon: "tconstruct:seared_melter"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_melter"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:smeltery_controller"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "66575D6B48FFD434"
+					type: "item"
+					title: "焦黑熔化炉"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "78758910B6CD9108"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+				{
+					id: "734D6FC89A1960A6"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "2329D0FAF7E1308E"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}				
+			]
+			rewards: [{
+				id: "767CD1B19307EC7E"
+				type: "command"
+				title: "稀有匠魂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "沙子铸模"
+			icon: "tconstruct:blank_sand_cast"
+			x: 4.5d
+			y: 4.5d
+			description: [
+				"在早期，用于制作永久铸模的材料是很珍贵的，最好省下来用于第一个存储系统中。为此，工匠们可以使用古老的传统——沙铸。"
+				""
+				"把沙子铸模放在浇铸台上，然后然后放置想要复制的部件。取走该部件，留给工匠的就是一个一次性使用的铸模。如果工匠想浇铸一个锭，他们可以使用现有的锭或砖。"
+			]
+			dependencies: ["1BECFB61E2216217"]
+			id: "66B0A9AA63A7C13F"
+			tasks: [
+				{
+					id: "6A53E9E0E83CB4C7"
+					type: "item"
+					item: "tconstruct:blank_sand_cast"
+					count: 4L
+				}
+				{
+					id: "4758C6DCFC68EA3B"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "3CB8AE663EE26D8E"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "74D2A2B7A309FADE"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "76D712214E6ACF65"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "531A5C84DDD9221B"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "652FE682DFA872F9"
+					type: "item"
+					item: "minecraft:brick"
+				}
+				{
+					id: "00651FA7443BD662"
+					type: "command"
+					title: "稀有匠魂战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "复合浇筑"
+			x: 4.5d
+			y: 3.0d
+			description: [
+				"匠魂设备可使工匠将液体浇铸在材料上以制造新材料。其中一种材料是熔岩木，一种防火的木质材料。"
+				""
+				"其他此类材料可以通过使用JEI中的浇铸台和浇铸盆来查找配方。"
+			]
+			dependencies: ["1BECFB61E2216217"]
+			id: "1F48E23A330D8884"
+			tasks: [{
+				id: "0E7AFF03E6AAF838"
+				type: "item"
+				item: "tconstruct:lavawood"
+			}]
+			rewards: [{
+				id: "49CC339E8B83FF16"
+				type: "command"
+				title: "稀有匠魂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "永久铸模"
+			icon: "tconstruct:blank_cast"
+			x: 5.5d
+			y: 5.5d
+			description: [
+				"沙子铸模用于制作第一批工具还不错，但发展一段时间后，永久铸模能使工匠的生活更有效率。"
+				""
+				"通过将黄金熔化在牺牲部件上，就能制造出一个可多次使用的永久铸模。"
+			]
+			dependencies: ["66B0A9AA63A7C13F"]
+			id: "3097BA4EEC6A0FD6"
+			tasks: [{
+				id: "0219B24A8CA05EB7"
+				type: "item"
+				item: "tconstruct:blank_cast"
+			}]
+			rewards: [
+				{
+					id: "39E11152088F2324"
+					type: "item"
+					item: "tconstruct:blank_cast"
+					count: 4
+				}
+				{
+					id: "2872C6E42017722A"
+					type: "command"
+					title: "稀有匠魂战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			description: ["在工匠制造了一些铸模后，他们很快就意识到应该有一个地方来储存所有的铸模。铸模箱就是为了提供那个地方而在。"]
+			dependencies: ["3097BA4EEC6A0FD6"]
+			id: "2D09D3CF2D3C41BC"
+			tasks: [{
+				id: "3DA235D8014FFB98"
+				type: "item"
+				item: "tconstruct:cast_chest"
+			}]
+			rewards: [{
+				id: "234C52AF09D0B5F7"
+				type: "command"
+				title: "稀有匠魂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "冶炼炉控制器"
+			icon: "tconstruct:smeltery_controller"
+			x: 0.0d
+			y: 3.5d
+			description: [
+				"熔化大量金属和制造合金需要使用多方块冶炼炉。甚至生物也可以在冶炼炉中熔化以产出材料。"
+				""
+				"焦黑排液孔可输入或输出液体，而焦黑滑槽可输入物品。两者一结合，冶炼炉自动化变得轻而易举。"
+			]
+			dependencies: ["580645AA5B0DC481"]
+			id: "40474087F229A612"
+			tasks: [
+				{
+					id: "59FD8405D1FA08BA"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "1BA61064F9548C7D"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "64636843A6B8DF5D"
+					type: "item"
+					item: "tconstruct:seared_glass"
+					count: 4L
+				}
+				{
+					id: "620D7F44801A5E09"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "2D9DC62BCC36CF19"
+					type: "item"
+					item: "tconstruct:seared_chute"
+				}
+			]
+			rewards: [{
+				id: "083A5F8C6F937F35"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "工匠砧"
+			icon: {
+				id: "tconstruct:scorched_anvil"
+				Count: 1b
+				tag: {
+					texture: "tconstruct:slimesteel_block"
+				}
+			}
+			x: 0.0d
+			y: 6.5d
+			description: [
+				"你进入了大型匠魂工具的世界。这些工具能够造成更多的伤害、开采更多的方块、割更多的草并砍更多的树。"
+				""
+				"放置工匠砧后，工匠就解锁了全部的能力和需要五个输入栏位的升级，以及制作大型匠魂工具的能力。"
+			]
+			dependencies: ["155CE535A506F2D4"]
+			id: "23F5852361B79CC5"
+			tasks: [{
+				id: "3187F82B6F7F3E2A"
+				type: "item"
+				title: "工匠砧"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:scorched_anvil"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "741689DFA0B4E6A4"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂镰刀"
+			icon: {
+				id: "tconstruct:scythe"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.45f
+						"tconstruct:durability": 2.5f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 0.8f
+						"tconstruct:mining_speed": 3.1499999f
+						"tconstruct:attack_damage": 3.0f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 1800.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 2s
+						}
+						{
+							name: "tconstruct:maintained"
+							level: 2s
+						}
+						{
+							name: "tconstruct:silky_aoe_shears"
+							level: 1s
+						}
+						{
+							name: "tconstruct:harvest"
+							level: 1s
+						}
+						{
+							name: "tconstruct:hoe_transform_hidden"
+							level: 1s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:tinkers_bronze"
+						"tconstruct:wood"
+						"tconstruct:tinkers_bronze"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:durability": 1800
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			x: -1.0d
+			y: 8.0d
+			description: ["这种园艺工具非常适合切割大面积的草地以及大群的生物。它也可以用来耕地，以种植新鲜的农作物。"]
+			dependencies: ["23F5852361B79CC5"]
+			id: "0D0A0376C66870A6"
+			tasks: [
+				{
+					id: "6F7DA951ED0DD816"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+				}
+				{
+					id: "1EADD44D8BC525B3"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+				}
+				{
+					id: "33B118EC7CC5380E"
+					type: "item"
+					item: {
+						id: "tconstruct:tough_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "355F4EDEEA0BC701"
+					type: "item"
+					item: {
+						id: "tconstruct:scythe"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.45f
+								"tconstruct:durability": 2.5f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 0.8f
+								"tconstruct:mining_speed": 3.1499999f
+								"tconstruct:attack_damage": 3.0f
+								"tconstruct:harvest_level": 3.0f
+								"tconstruct:durability": 1800.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 2s
+								}
+								{
+									name: "tconstruct:maintained"
+									level: 2s
+								}
+								{
+									name: "tconstruct:silky_aoe_shears"
+									level: 1s
+								}
+								{
+									name: "tconstruct:harvest"
+									level: 1s
+								}
+								{
+									name: "tconstruct:hoe_transform_hidden"
+									level: 1s
+								}
+								{
+									name: "tconstruct:two_handed"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:tinkers_bronze"
+								"tconstruct:wood"
+								"tconstruct:tinkers_bronze"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:durability": 1800
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4CC70CD149953DE0"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂大锤"
+			icon: {
+				id: "tconstruct:sledge_hammer"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.4f
+						"tconstruct:attack_damage": 1.35f
+						"tconstruct:durability": 4.0f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 0.75f
+						"tconstruct:mining_speed": 2.8f
+						"tconstruct:attack_damage": 6.75f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 2880.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:maintained"
+							level: 3s
+						}
+						{
+							name: "tconstruct:smite"
+							level: 2s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:tinkers_bronze"
+						"tconstruct:wood"
+						"tconstruct:tinkers_bronze"
+						"tconstruct:tinkers_bronze"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:durability": 2880
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			x: 1.5d
+			y: 7.0d
+			description: ["挖掘隧道时，大锤是最常用的工具，它可以挖3x3的区域的岩石（可扩展到5x5）。对抗怪物时，这个工具拥有亡灵杀手II，使其成为亡灵的克星。"]
+			dependencies: ["23F5852361B79CC5"]
+			id: "671FD13D085378E7"
+			tasks: [
+				{
+					id: "1225919086B9402A"
+					type: "item"
+					item: {
+						id: "tconstruct:tough_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "1D89BCEA73AD925F"
+					type: "item"
+					item: {
+						id: "tconstruct:large_plate"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "2381BD9B5187CCA5"
+					type: "item"
+					item: {
+						id: "tconstruct:hammer_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+				}
+				{
+					id: "666C8D5F71FBCD70"
+					type: "item"
+					item: {
+						id: "tconstruct:sledge_hammer"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.4f
+								"tconstruct:attack_damage": 1.35f
+								"tconstruct:durability": 4.0f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 0.75f
+								"tconstruct:mining_speed": 2.8f
+								"tconstruct:attack_damage": 6.75f
+								"tconstruct:harvest_level": 3.0f
+								"tconstruct:durability": 2880.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:maintained"
+									level: 3s
+								}
+								{
+									name: "tconstruct:smite"
+									level: 2s
+								}
+								{
+									name: "tconstruct:two_handed"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:tinkers_bronze"
+								"tconstruct:wood"
+								"tconstruct:tinkers_bronze"
+								"tconstruct:tinkers_bronze"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:durability": 2880
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5980002F94B77766"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂劈刀"
+			icon: {
+				id: "tconstruct:cleaver"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.25f
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:durability": 3.5f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 0.9f
+						"tconstruct:mining_speed": 1.75f
+						"tconstruct:attack_damage": 8.25f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 2520.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 2s
+						}
+						{
+							name: "tconstruct:maintained"
+							level: 2s
+						}
+						{
+							name: "tconstruct:severing"
+							level: 2s
+						}
+						{
+							name: "tconstruct:silky_aoe_shears"
+							level: 1s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:tinkers_bronze"
+						"tconstruct:wood"
+						"tconstruct:wood"
+						"tconstruct:tinkers_bronze"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:durability": 2520
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			x: 0.0d
+			y: 8.0d
+			description: ["这把武器可在横扫范围内造成巨量伤害，且攻击怪物时有更大的触及半径。"]
+			dependencies: ["23F5852361B79CC5"]
+			id: "02F7E98E8F7C622F"
+			tasks: [
+				{
+					id: "6FFAB0A5937304D7"
+					type: "item"
+					item: {
+						id: "tconstruct:tough_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "3F42A06C6103439A"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+				}
+				{
+					id: "1D359CB4CD411315"
+					type: "item"
+					item: {
+						id: "tconstruct:large_plate"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+				}
+				{
+					id: "33ED38293F40ABD0"
+					type: "item"
+					item: {
+						id: "tconstruct:cleaver"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.25f
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:durability": 3.5f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:mining_speed": 1.75f
+								"tconstruct:attack_damage": 8.25f
+								"tconstruct:harvest_level": 3.0f
+								"tconstruct:durability": 2520.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 2s
+								}
+								{
+									name: "tconstruct:maintained"
+									level: 2s
+								}
+								{
+									name: "tconstruct:severing"
+									level: 2s
+								}
+								{
+									name: "tconstruct:silky_aoe_shears"
+									level: 1s
+								}
+								{
+									name: "tconstruct:two_handed"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:tinkers_bronze"
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:tinkers_bronze"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:durability": 2520
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7A45DEF9D00CAE1F"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂矿脉锤"
+			icon: {
+				id: "tconstruct:vein_hammer"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.3f
+						"tconstruct:attack_damage": 1.25f
+						"tconstruct:durability": 5.0f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.1f
+						"tconstruct:mining_speed": 2.1000001f
+						"tconstruct:attack_damage": 5.0f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 3600.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:maintained"
+							level: 3s
+						}
+						{
+							name: "tconstruct:piercing"
+							level: 2s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:tinkers_bronze"
+						"tconstruct:wood"
+						"tconstruct:tinkers_bronze"
+						"tconstruct:tinkers_bronze"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:durability": 3600
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			x: 1.5d
+			y: 6.0d
+			description: [
+				"这个挖矿工具可破坏工匠目标方块相邻2格内所有的同类矿石，可以扩大到4格范围。与大锤相结合，可使挖矿工作变得更轻松。"
+				""
+				"作为武器时，它是宽型武器中速度最快的，它的锋利的尖端使它具有穿刺II的效果。"
+			]
+			dependencies: ["23F5852361B79CC5"]
+			id: "4821677A1662229F"
+			tasks: [
+				{
+					id: "76BDB01305615A05"
+					type: "item"
+					item: {
+						id: "tconstruct:tough_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "29AE0AFADBE175D4"
+					type: "item"
+					item: {
+						id: "tconstruct:large_plate"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+				}
+				{
+					id: "59CB9C937A4921A0"
+					type: "item"
+					item: {
+						id: "tconstruct:hammer_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+				}
+				{
+					id: "75A011DBB6A692C9"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+				}
+				{
+					id: "4B2C30AA3E3C8680"
+					type: "item"
+					item: {
+						id: "tconstruct:vein_hammer"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.3f
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:durability": 5.0f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.1f
+								"tconstruct:mining_speed": 2.1000001f
+								"tconstruct:attack_damage": 5.0f
+								"tconstruct:harvest_level": 3.0f
+								"tconstruct:durability": 3600.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:maintained"
+									level: 3s
+								}
+								{
+									name: "tconstruct:piercing"
+									level: 2s
+								}
+								{
+									name: "tconstruct:two_handed"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:tinkers_bronze"
+								"tconstruct:wood"
+								"tconstruct:tinkers_bronze"
+								"tconstruct:tinkers_bronze"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:durability": 3600
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2A78F695A00CAAC1"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂板斧"
+			icon: {
+				id: "tconstruct:broad_axe"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.3f
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:durability": 4.25f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 0.6f
+						"tconstruct:mining_speed": 2.1000001f
+						"tconstruct:attack_damage": 10.5f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 3060.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:maintained"
+							level: 3s
+						}
+						{
+							name: "tconstruct:axe_transform_hidden"
+							level: 1s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:tinkers_bronze"
+						"tconstruct:wood"
+						"tconstruct:tinkers_bronze"
+						"tconstruct:tinkers_bronze"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:durability": 3060
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			x: -1.5d
+			y: 7.0d
+			description: ["板斧是砍伐树木的好手，可使被破坏原木上方的所有原木都掉下来。板斧刃也能造成大量的伤害，但挥舞起来相当缓慢。"]
+			dependencies: ["23F5852361B79CC5"]
+			id: "1571CE50EAE0D4C2"
+			tasks: [
+				{
+					id: "195995E71054BDEE"
+					type: "item"
+					item: {
+						id: "tconstruct:tough_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "3CA76478BC2A0BF6"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_axe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+				}
+				{
+					id: "34CF75906C438E2C"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+				}
+				{
+					id: "64A03C1EA5F5C87B"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+				}
+				{
+					id: "1CFEA19B5C2D4116"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_axe"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.3f
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:durability": 4.25f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 0.6f
+								"tconstruct:mining_speed": 2.1000001f
+								"tconstruct:attack_damage": 10.5f
+								"tconstruct:harvest_level": 3.0f
+								"tconstruct:durability": 3060.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:maintained"
+									level: 3s
+								}
+								{
+									name: "tconstruct:axe_transform_hidden"
+									level: 1s
+								}
+								{
+									name: "tconstruct:two_handed"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:tinkers_bronze"
+								"tconstruct:wood"
+								"tconstruct:tinkers_bronze"
+								"tconstruct:tinkers_bronze"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:durability": 3060
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "24378B74017AE217"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂开掘铲"
+			icon: {
+				id: "tconstruct:excavator"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.3f
+						"tconstruct:attack_damage": 1.2f
+						"tconstruct:durability": 3.75f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.0f
+						"tconstruct:mining_speed": 2.1000001f
+						"tconstruct:attack_damage": 4.2000003f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 2700.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 2s
+						}
+						{
+							name: "tconstruct:knockback"
+							level: 2s
+						}
+						{
+							name: "tconstruct:maintained"
+							level: 2s
+						}
+						{
+							name: "tconstruct:shovel_transform_hidden"
+							level: 1s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:tinkers_bronze"
+						"tconstruct:wood"
+						"tconstruct:tinkers_bronze"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:durability": 2700
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			x: -1.5d
+			y: 6.0d
+			description: ["开掘铲是用来清除软质材料的，在3X3的范围内挖掘，可以扩展到5X5。作为武器时，它为工匠提供了击退II。"]
+			dependencies: ["23F5852361B79CC5"]
+			id: "667107A66B7C2419"
+			tasks: [
+				{
+					id: "5BF3938DAD311F49"
+					type: "item"
+					item: {
+						id: "tconstruct:tough_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "3187A4EF49CC6DEB"
+					type: "item"
+					item: {
+						id: "tconstruct:large_plate"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "37A966D19CE92FF4"
+					type: "item"
+					item: {
+						id: "tconstruct:excavator"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.3f
+								"tconstruct:attack_damage": 1.2f
+								"tconstruct:durability": 3.75f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.0f
+								"tconstruct:mining_speed": 2.1000001f
+								"tconstruct:attack_damage": 4.2000003f
+								"tconstruct:harvest_level": 3.0f
+								"tconstruct:durability": 2700.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 2s
+								}
+								{
+									name: "tconstruct:knockback"
+									level: 2s
+								}
+								{
+									name: "tconstruct:maintained"
+									level: 2s
+								}
+								{
+									name: "tconstruct:shovel_transform_hidden"
+									level: 1s
+								}
+								{
+									name: "tconstruct:two_handed"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:tinkers_bronze"
+								"tconstruct:wood"
+								"tconstruct:tinkers_bronze"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:durability": 2700
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2E9D3BDDA1C917DB"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂匕首"
+			icon: {
+				id: "tconstruct:dagger"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.75f
+						"tconstruct:attack_damage": 0.5f
+						"tconstruct:durability": 1.0f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 2.0f
+						"tconstruct:mining_speed": 3.0f
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 97.5f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:padded"
+							level: 1s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 1s
+						}
+						{
+							name: "tconstruct:offhand_attack"
+							level: 1s
+						}
+						{
+							name: "tconstruct:silky_shears"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:duel_wielding": 1b
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 6.0d
+			y: -1.5d
+			description: ["匕首是一种快速武器，伤害比剑低。然而，它的特点是可以用副手拿着，并右击使用。"]
+			dependencies: ["43EDC38B89D1611F"]
+			id: "0A1F2503E161F0D5"
+			tasks: [
+				{
+					id: "025428EE964634F9"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "05925847578DAAA6"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "7327F7B00A53A0AC"
+					type: "item"
+					item: {
+						id: "tconstruct:dagger"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.75f
+								"tconstruct:attack_damage": 0.5f
+								"tconstruct:durability": 1.0f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 2.0f
+								"tconstruct:mining_speed": 3.0f
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 97.5f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:padded"
+									level: 1s
+								}
+								{
+									name: "tconstruct:stonebound"
+									level: 1s
+								}
+								{
+									name: "tconstruct:offhand_attack"
+									level: 1s
+								}
+								{
+									name: "tconstruct:silky_shears"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:stone"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:duel_wielding": 1b
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7B6CD460C9115C68"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂剑"
+			icon: {
+				id: "tconstruct:sword"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.5f
+						"tconstruct:durability": 1.1f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.6f
+						"tconstruct:mining_speed": 2.1f
+						"tconstruct:attack_damage": 4.0f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 128.7f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 2s
+						}
+						{
+							name: "tconstruct:silky_shears"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+						"tconstruct:stone"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 7.0d
+			y: -1.5d
+			description: ["工匠的主要武器和防御手段。这个工具少了一个升级槽，但多了一个能力槽。它也有一个横扫的效果，可以击中多个怪物。"]
+			dependencies: ["43EDC38B89D1611F"]
+			id: "692DB41333C3CDDE"
+			tasks: [
+				{
+					id: "25B84BDE5A786C7B"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "5FF280BD1F11A0C8"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "1C7195648F674B23"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "45CA6B5BE9DBF183"
+					type: "item"
+					item: {
+						id: "tconstruct:sword"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.5f
+								"tconstruct:durability": 1.1f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.6f
+								"tconstruct:mining_speed": 2.1f
+								"tconstruct:attack_damage": 4.0f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 128.7f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:stonebound"
+									level: 2s
+								}
+								{
+									name: "tconstruct:silky_shears"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:stone"
+								"tconstruct:wood"
+								"tconstruct:stone"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1EA77611F0AC1E99"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂短柄斧"
+			icon: {
+				id: "tconstruct:hand_axe"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:attack_speed": 0.9f
+						"tconstruct:mining_speed": 4.0f
+						"tconstruct:attack_damage": 7.0f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 130.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 2s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 1s
+						}
+						{
+							name: "tconstruct:axe_transform_hidden"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 8.0d
+			y: -1.0d
+			description: ["这种工具既可作为砍树工具，也可作为怪物杀手。后续可以用延展强化对其进行改造，以增加其作用范围"]
+			dependencies: ["43EDC38B89D1611F"]
+			id: "562A1A67F8D4CEC9"
+			tasks: [
+				{
+					id: "1D92A4C406557314"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "287B6A979DFE8B15"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "196473D02024EA2D"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "4511726CB8D1CD6C"
+					type: "item"
+					item: {
+						id: "tconstruct:hand_axe"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:mining_speed": 4.0f
+								"tconstruct:attack_damage": 7.0f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 130.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 2s
+								}
+								{
+									name: "tconstruct:stonebound"
+									level: 1s
+								}
+								{
+									name: "tconstruct:axe_transform_hidden"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:stone"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "621BBB412302C46E"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂镐"
+			icon: {
+				id: "tconstruct:pickaxe"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:mining_speed": 4.0f
+						"tconstruct:attack_damage": 1.0f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 130.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 2s
+						}
+						{
+							name: "tconstruct:piercing"
+							level: 1s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 8.0d
+			y: 0.0d
+			description: ["标准的镐，主要的匠魂工具。可以用延展强化进行改造，以增加其挖掘范围。作为一种武器，它的伤害较低，但它有少许穿透力，可以对装甲怪物造成额外伤害。"]
+			dependencies: ["43EDC38B89D1611F"]
+			id: "33FC71952CA316E2"
+			tasks: [
+				{
+					id: "322F0607B2C62A66"
+					type: "item"
+					title: "任意#tconstruct:parts"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "4F8B2E5E8EAE7CD9"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "6094A6B157AD81E5"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "674FDC458072886E"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:mining_speed": 4.0f
+								"tconstruct:attack_damage": 1.0f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 130.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 2s
+								}
+								{
+									name: "tconstruct:piercing"
+									level: 1s
+								}
+								{
+									name: "tconstruct:stonebound"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:stone"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "47C2863E17519633"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂鹤嘴锄"
+			icon: {
+				id: "tconstruct:mattock"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:secondary_mining": 0.65f
+						"tconstruct:mining_speed": 1.1f
+						"tconstruct:attack_damage": 1.1f
+						"tconstruct:durability": 1.25f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 0.9f
+						"tconstruct:secondary_mining": 0.65f
+						"tconstruct:attack_damage": 2.75f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 162.5f
+						"tconstruct:mining_speed": 4.4f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:knockback"
+							level: 1s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 2s
+						}
+						{
+							name: "tconstruct:shovel_transform_hidden"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+						"tconstruct:stone"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 8.0d
+			y: 1.0d
+			description: ["鹤嘴锄才是工匠们真正的铲子。右击铲子能够右击的方块，可在世界中创造草径。作为武器时，额外的重量会给你的攻击增加击退。"]
+			dependencies: ["43EDC38B89D1611F"]
+			id: "2E1A013A03B71744"
+			tasks: [
+				{
+					id: "43AA6472EE8AB6AB"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "56802289223C9314"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "1A579C8C86013F3B"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "5A248F2C6C8C0332"
+					type: "item"
+					item: {
+						id: "tconstruct:mattock"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:secondary_mining": 0.65f
+								"tconstruct:mining_speed": 1.1f
+								"tconstruct:attack_damage": 1.1f
+								"tconstruct:durability": 1.25f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:secondary_mining": 0.65f
+								"tconstruct:attack_damage": 2.75f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 162.5f
+								"tconstruct:mining_speed": 4.4f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:knockback"
+									level: 1s
+								}
+								{
+									name: "tconstruct:stonebound"
+									level: 2s
+								}
+								{
+									name: "tconstruct:shovel_transform_hidden"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:stone"
+								"tconstruct:wood"
+								"tconstruct:stone"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2948AA63DF7E591E"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂短刃镰"
+			icon: {
+				id: "tconstruct:kama"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.75f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.8f
+						"tconstruct:mining_speed": 4.0f
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 130.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 2s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 1s
+						}
+						{
+							name: "tconstruct:shears"
+							level: 1s
+						}
+						{
+							name: "tconstruct:harvest"
+							level: 1s
+						}
+						{
+							name: "tconstruct:hoe_transform_hidden"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:wood"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 7.0d
+			y: 1.5d
+			description: ["短刃镰是全能的农夫工具，能够锄地，也能像镰刀一样割草。对抗怪物时，它比剑更快，但伤害较低。"]
+			dependencies: ["43EDC38B89D1611F"]
+			id: "41E205C314A9B740"
+			tasks: [
+				{
+					id: "5F1E9AD8FBF20D48"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "12C51E27816AD89C"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "7F691442018C5BD5"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "273FBFDB3BAEA882"
+					type: "item"
+					item: {
+						id: "tconstruct:kama"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.75f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.8f
+								"tconstruct:mining_speed": 4.0f
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 130.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 2s
+								}
+								{
+									name: "tconstruct:stonebound"
+									level: 1s
+								}
+								{
+									name: "tconstruct:shears"
+									level: 1s
+								}
+								{
+									name: "tconstruct:harvest"
+									level: 1s
+								}
+								{
+									name: "tconstruct:hoe_transform_hidden"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:stone"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "064C84E7962377DE"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂修补件"
+			icon: {
+				id: "tconstruct:repair_kit"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:stone"
+				}
+			}
+			x: 6.0d
+			y: 1.5d
+			description: ["匠魂修补件是修复工匠工具耐久值的便携手段。用于制作修补件的材料可以修复含有该材料制成的头部部件的工具。"]
+			dependencies: ["43EDC38B89D1611F"]
+			id: "51AB322D09030F9D"
+			tasks: [{
+				id: "5075865B03CC4E82"
+				type: "item"
+				item: {
+					id: "tconstruct:repair_kit"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:stone"
+					}
+				}
+				count: 4L
+			}]
+			rewards: [{
+				id: "27D0A07F410FABC6"
+				type: "command"
+				title: "普通匠魂战利品箱"
+				icon: "kubejs:common_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_common"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂扳手"
+			icon: {
+				id: "materialis:wrench"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:attack_speed": 1.8f
+						"tconstruct:mining_speed": 2.0f
+						"tconstruct:attack_damage": 0.5f
+						"tconstruct:durability": 1.5f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.8f
+						"tconstruct:mining_speed": 14.0f
+						"tconstruct:attack_damage": 1.0f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 1080.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:maintained"
+							level: 1s
+						}
+						{
+							name: "materialis:wrenching_hidden"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:tinkers_bronze"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:durability": 1080
+					}
+					tic_persistent_data: {
+						abilities: 3
+						upgrades: 1
+					}
+				}
+			}
+			x: 1.0d
+			y: 8.0d
+			description: ["这个工具为工匠提供了扳动各种方块的手段。"]
+			dependencies: ["23F5852361B79CC5"]
+			id: "49D7D1068B4DAE7C"
+			tasks: [
+				{
+					id: "3A2E5BFAE0CE1902"
+					type: "item"
+					item: {
+						id: "materialis:wrench_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:tinkers_bronze"
+						}
+					}
+				}
+				{
+					id: "0CE2A3FC63B6239B"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "05803F9EC3AB1729"
+					type: "item"
+					item: {
+						id: "materialis:wrench"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:attack_speed": 1.8f
+								"tconstruct:mining_speed": 2.0f
+								"tconstruct:attack_damage": 0.5f
+								"tconstruct:durability": 1.5f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.8f
+								"tconstruct:mining_speed": 14.0f
+								"tconstruct:attack_damage": 1.0f
+								"tconstruct:harvest_level": 3.0f
+								"tconstruct:durability": 1080.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:maintained"
+									level: 1s
+								}
+								{
+									name: "materialis:wrenching_hidden"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							tic_materials: [
+								"tconstruct:tinkers_bronze"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:durability": 1080
+							}
+							tic_persistent_data: {
+								abilities: 3
+								upgrades: 1
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "38E9F61A1FE02FAC"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "碧空黏液岛"
+			icon: "tconstruct:sky_congealed_slime"
+			x: -3.0d
+			y: -2.5d
+			description: ["爬上这些岛屿是工匠的一项任务，奖励是碧空黏液。碧空黏液对合成能提供额外空中跳跃能力的物品非常有用。"]
+			dependencies: ["535EDB063EEB4A69"]
+			id: "56C19E78027E3478"
+			tasks: [{
+				id: "57D5581D008C3BB1"
+				type: "advancement"
+				advancement: "tconstruct:world/sky_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "401E5383DA0E156C"
+				type: "command"
+				title: "稀有匠魂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "大地黏液岛"
+			icon: "tconstruct:earth_congealed_slime"
+			x: -2.0d
+			y: -3.5d
+			description: ["这些沿海岛屿是绿色黏液和收集大地黏液的重要来源。这种黏液具有额外的弹力，可以将工匠弹射到很远的地方。"]
+			dependencies: ["535EDB063EEB4A69"]
+			id: "0109D4318847D233"
+			tasks: [{
+				id: "3D6D7E6640CFD7C5"
+				type: "advancement"
+				advancement: "tconstruct:world/earth_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "35F2AA26A4D5D8D2"
+				type: "command"
+				title: "稀有匠魂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "黏血岛"
+			icon: "tconstruct:blood_congealed_slime"
+			x: -0.5d
+			y: -3.5d
+			description: ["这些被血和灵浆覆盖的岛屿是岩浆膏的重要来源，而黏血球是帮助工匠从凶恶的怪物中恢复过来的重要资源。"]
+			dependencies: ["48DD79D9708932B9"]
+			id: "1B3921C6457D614E"
+			tasks: [{
+				id: "34C9060B1E212855"
+				type: "advancement"
+				advancement: "tconstruct:world/blood_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3695278114E43DE3"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "末影黏液岛"
+			icon: "tconstruct:ender_congealed_slime"
+			x: 2.0d
+			y: -3.5d
+			description: ["这些紫色的岛屿是末影黏液的家园，它们被虚空所腐蚀，有着末影人所拥有的一些空间属性。"]
+			dependencies: ["3DB4D65F8A5ECA0B"]
+			id: "4FF8B7FECDC15915"
+			tasks: [{
+				id: "3653D52783DBEB70"
+				type: "advancement"
+				advancement: "tconstruct:world/ender_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "14B1C5BAFCC29C7F"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "工匠装置宝典"
+			x: -4.5d
+			y: 0.0d
+			description: ["工匠可以合成《工匠装置宝典》，来帮助他们制作装置。该指南解释了各种装置的配方和用途。"]
+			dependencies: ["4588297F41674524"]
+			id: "107AE2C18410AAF4"
+			tasks: [{
+				id: "5CE33B51FD169EF7"
+				type: "item"
+				item: "tconstruct:tinkers_gadgetry"
+			}]
+			rewards: [{
+				id: "59AAD91F145CFF75"
+				type: "command"
+				title: "稀有匠魂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂旅行计划"
+			x: -4.5d
+			y: -1.5d
+			description: [
+				"这是工匠们长途旅行的必备装置，不要忘了制作一双配套的靴子，以确保能在降落时得以存活。"
+				""
+				"弹弓的属性取决于所使用的粘液。大地黏液可将你弹射得很远，碧空黏液可在半空中使用，灵浆黏液可造成巨大的击退，而末影黏液则会将你传送走。"
+			]
+			dependencies: ["107AE2C18410AAF4"]
+			id: "7DC5FED1332CEA9A"
+			tasks: [
+				{
+					id: "5AB4A9C576A0B94D"
+					type: "item"
+					item: {
+						id: "tconstruct:earth_slime_sling"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B47FDB068378A24"
+					type: "item"
+					item: {
+						id: "tconstruct:sky_slime_sling"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D03B74F851E2872"
+					type: "item"
+					item: {
+						id: "tconstruct:ichor_slime_sling"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F6DD91B4A1C5906"
+					type: "item"
+					item: {
+						id: "tconstruct:ender_slime_sling"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0D399ECD900A5194"
+				type: "command"
+				title: "传奇匠魂战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂靴子"
+			x: -5.5d
+			y: -1.5d
+			description: ["这些靴子可使工匠能够从很高的高度安全弹起，而不是狠狠地砸在地上。与弹弓不同，不同种类的靴子纯粹是为了美学。"]
+			dependencies: ["107AE2C18410AAF4"]
+			id: "12B4F7ED5AD83DBC"
+			tasks: [{
+				id: "176867E738D4714C"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_boots"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 546.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:bouncy"
+								level: 1s
+							}
+							{
+								name: "tconstruct:leaping"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DE85E011FF0A2CC"
+				type: "command"
+				title: "传奇匠魂战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂蛋糕"
+			x: -6.0d
+			y: -0.5d
+			description: ["工匠可以利用黏液的元素制作各种蛋糕，每一种都有不同的效果：大地黏液给予幸运、碧空黏液给予跳跃提升、黏血给予生命恢复、灵浆给予防火、末影黏液球给予飘浮。"]
+			dependencies: ["107AE2C18410AAF4"]
+			id: "372290D6D62EA1DF"
+			tasks: [
+				{
+					id: "23F2330C9246048D"
+					type: "item"
+					item: "tconstruct:earth_cake"
+				}
+				{
+					id: "1D46C963FD2F703E"
+					type: "item"
+					item: "tconstruct:sky_cake"
+				}
+				{
+					id: "32CA2371285A4C0D"
+					type: "item"
+					item: "tconstruct:blood_cake"
+				}
+				{
+					id: "24852B540B531501"
+					type: "item"
+					item: "tconstruct:magma_cake"
+				}
+				{
+					id: "7542787C4D7CE5EC"
+					type: "item"
+					item: "tconstruct:ender_cake"
+				}
+			]
+			rewards: [{
+				id: "3A2C7744EA23580D"
+				type: "command"
+				title: "传奇匠魂战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂手里剑"
+			x: -6.0d
+			y: 0.5d
+			description: ["这些手里剑为工匠提供了一些远程伤害的选择，其中燧石提供了良好的击退，而下界石英往往会造成更多的伤害。"]
+			dependencies: ["107AE2C18410AAF4"]
+			id: "14B4D5EECBE75C1D"
+			tasks: [
+				{
+					id: "403BA616D867A459"
+					type: "item"
+					item: "tconstruct:flint_shuriken"
+				}
+				{
+					id: "5EC67721EC320427"
+					type: "item"
+					item: "tconstruct:quartz_shuriken"
+				}
+			]
+			rewards: [{
+				id: "4DBE23D96A29B760"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂肩驮架"
+			x: -5.5d
+			y: 1.5d
+			description: ["在工匠制作出更合适的移动生物的工具之前，肩驮架是将生物扔到农场（或冶炼炉）的好东西。肩驮架最多可以同时搬运3只生物，尽管有一些重量惩罚。"]
+			dependencies: ["107AE2C18410AAF4"]
+			id: "5CB5295AA44608C3"
+			tasks: [{
+				id: "736FA0532CD0A635"
+				type: "item"
+				item: "tconstruct:piggy_backpack"
+			}]
+			rewards: [{
+				id: "453BCD8A3851B3D5"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂荧光球"
+			x: -3.5d
+			y: -1.0d
+			description: ["这个装置对于照亮大片区域和怪物喜欢的各种角落与缝隙非常有用。"]
+			dependencies: ["107AE2C18410AAF4"]
+			id: "75B59BCBF7F652B5"
+			tasks: [{
+				id: "6A8D01C2EB24B204"
+				type: "item"
+				item: "tconstruct:glow_ball"
+			}]
+			rewards: [{
+				id: "02884B430B3BF339"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂展示框"
+			icon: "tconstruct:gold_item_frame"
+			x: -4.5d
+			y: 1.5d
+			description: ["工匠可以使用各种展示框来展示自己创造的有趣和独特的工具！不同的展示框有不同的效果。查看《工匠装置宝典》以了解更多信息。"]
+			dependencies: ["107AE2C18410AAF4"]
+			id: "688D7FD0E9FFE3A8"
+			tasks: [
+				{
+					id: "5C56BB3A80D11534"
+					type: "item"
+					item: "tconstruct:gold_item_frame"
+				}
+				{
+					id: "1130EFC44B3FFC81"
+					type: "item"
+					item: "tconstruct:clear_item_frame"
+				}
+				{
+					id: "6278DD1B1B0501DE"
+					type: "item"
+					item: "tconstruct:reversed_gold_item_frame"
+				}
+				{
+					id: "1FCD4E09C671B5E5"
+					type: "item"
+					item: "tconstruct:manyullyn_item_frame"
+				}
+				{
+					id: "6778B3950B2FC80F"
+					type: "item"
+					item: "tconstruct:diamond_item_frame"
+				}
+				{
+					id: "6C83947EDB1025A1"
+					type: "item"
+					item: "tconstruct:netherite_item_frame"
+				}
+			]
+			rewards: [{
+				id: "7E5386B6B02AB842"
+				type: "command"
+				title: "传奇匠魂战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "噬生之骨"
+			x: 0.5d
+			y: -3.5d
+			description: ["这些由凋灵骷髅掉落的物品作为升级材料使用后会给予工匠的工具肢解能力。作为基本部件使用时，它会给予噬生能力。"]
+			dependencies: ["48DD79D9708932B9"]
+			id: "1490641AFE8E77AB"
+			tasks: [{
+				id: "7C1FCB8F38A3F12E"
+				type: "item"
+				item: "tconstruct:necrotic_bone"
+				count: 3L
+			}]
+			rewards: [{
+				id: "64293FDBCA193636"
+				type: "command"
+				title: "传奇匠魂战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "炸龙"
+			x: 3.0d
+			y: -2.5d
+			description: ["这些从末影龙身上炸下来的掉落物可以与工匠的工具结合起来，使工具获得一个额外的能力槽。"]
+			dependencies: ["3DB4D65F8A5ECA0B"]
+			id: "0C1B8EB37B96FCF8"
+			tasks: [{
+				id: "3F12DC8055402C8A"
+				type: "item"
+				item: "tconstruct:dragon_scale"
+				count: 4L
+			}]
+			rewards: [{
+				id: "08D2DAC0A6FB6AA8"
+				type: "command"
+				title: "传奇匠魂战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂青铜打火石"
+			x: -1.5d
+			y: 4.5d
+			description: [
+				"无聊的老式打火石只能将单个方块点燃，而且一旦用完，就没有了。还是看看远处的青铜打火石吧。"
+				""
+				"这种工具比一般的打火石更耐用，并能够接受能力和升级。可点燃不只一个方块！让怪物们火烧屁股吧！"
+			]
+			dependencies: ["155CE535A506F2D4"]
+			id: "7802B228C5246FA3"
+			tasks: [{
+				id: "695EB3346312D3B2"
+				type: "item"
+				item: {
+					id: "tconstruct:flint_and_bronze"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 100.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:fiery"
+								level: 1s
+							}
+							{
+								name: "tconstruct:firestarter_hidden"
+								level: 1s
+							}
+						]
+						HideFlags: 3
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 0
+							upgrades: 1
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C720973EBA7E4F7"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂合金"
+			x: 0.0d
+			y: 5.0d
+			description: ["大多数三级材料都是合金，是两种或更多基础材料的组合。合金方块也打开了制造大型匠魂工具的大门。"]
+			dependencies: ["40474087F229A612"]
+			id: "155CE535A506F2D4"
+			tasks: [{
+				id: "45D7DCB514F39202"
+				type: "item"
+				title: "Any #tconstruct:anvil_metal"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:anvil_metal"
+					}
+				}
+				count: 3L
+			}]
+			rewards: [{
+				id: "036E87473B7C85A8"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "焦褐合金炉"
+			icon: "tconstruct:scorched_alloyer"
+			x: -3.0d
+			y: 4.5d
+			description: ["既然熔铸炉本身不能制作合金，那么焦褐合金炉可以用来制造合金。将存放在合金炉周围的熔融金属结合就可以铸造合金。"]
+			dependencies: ["76BAE86D90953DD4"]
+			id: "22CC2CE8C9CE487C"
+			tasks: [
+				{
+					id: "6017846F585DCE5E"
+					type: "item"
+					item: "tconstruct:scorched_alloyer"
+				}
+				{
+					id: "6F9717E6DE96C5DB"
+					type: "item"
+					item: "tconstruct:scorched_ingot_tank"
+					count: 3L
+				}
+				{
+					id: "1DC3AFCF13CF85C6"
+					type: "item"
+					item: "tconstruct:scorched_faucet"
+				}
+				{
+					id: "682E626701DD85C6"
+					type: "item"
+					item: "tconstruct:scorched_basin"
+				}
+			]
+			rewards: [{
+				id: "0D18F8A84FD9D693"
+				type: "command"
+				title: "传奇匠魂战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "下界砖泥"
+			x: -2.5d
+			y: 3.0d
+			description: ["工匠会发现，如同普通砖泥对于熔化炉和冶炼炉，下界砖泥对应着熔铸炉和合金炉。"]
+			dependencies: ["6BDF1FD62E49EEBF"]
+			dependency_requirement: "one_completed"
+			id: "76BAE86D90953DD4"
+			tasks: [{
+				id: "4F6E6B943AA69895"
+				type: "item"
+				item: "tconstruct:nether_grout"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "12E6713DEA768158"
+					type: "item"
+					item: "tconstruct:nether_grout"
+					count: 8
+				}
+				{
+					id: "0F2EE0DB50A0B61E"
+					type: "command"
+					title: "传奇匠魂战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_legendary"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "熔铸炉控制器"
+			icon: "tconstruct:foundry_controller"
+			x: -4.0d
+			y: 4.0d
+			description: [
+				"由下界材料驱动的匠魂熔铸炉提供了许多好处。"
+				""
+				"首先，熔铸炉不会产生合金! 现在，工匠将不必担心在他们的自动化中会出现非预期的材料。"
+				""
+				"其次，熔铸炉可以解锁材料副产品，这意味着一种矿块可以提供另一种材料（见涉及铸造厂控制器的JEI配方）。"
+				""
+				"最后，与普通冶炼炉相比，在相同的尺寸下，其内部缓冲区要大得多。再加上无法制造合金，它可使工匠以液体形式储存他们的金属。"
+			]
+			dependencies: ["76BAE86D90953DD4"]
+			id: "2D5128C9C5BB2841"
+			tasks: [
+				{
+					id: "3DCE1F91A7495D9C"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+				{
+					id: "323576E71D6B4D41"
+					type: "item"
+					item: "tconstruct:scorched_fuel_tank"
+				}
+				{
+					id: "6E804F5B40519D6E"
+					type: "item"
+					item: "tconstruct:scorched_drain"
+				}
+				{
+					id: "16469B6439A6E954"
+					type: "item"
+					item: "tconstruct:scorched_chute"
+				}
+				{
+					id: "3C19976905EB5B33"
+					type: "item"
+					item: "tconstruct:scorched_table"
+				}
+			]
+			rewards: [{
+				id: "1B8ABABF76B47D58"
+				type: "command"
+				title: "传奇匠魂战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "烈焰血"
+			icon: "tconstruct:blazing_blood_bucket"
+			x: -1.5d
+			y: 3.5d
+			description: [
+				"如果没有最高温度的燃料，一些最高级的材料和合金是无法制造的。处理这些材料，工匠需要烈焰血。"
+				""
+				"这种高温燃料由烈焰直接制成，是匠魂燃料的最高级产品。"
+			]
+			dependencies: ["6BDF1FD62E49EEBF"]
+			id: "6BA8E17439A52354"
+			tasks: [{
+				id: "6766FA979D4C8FA9"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+			rewards: [{
+				id: "1BDD19DE0C12C98D"
+				type: "command"
+				title: "传奇匠魂战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂设计"
+			icon: {
+				id: "framedblocks:framed_blueprint"
+				Count: 1b
+				tag: {
+					blueprint_data: { }
+				}
+			}
+			x: 0.0d
+			y: 1.0d
+			description: [
+				"该模组包加入了匠魂设计模组。该模组可使工匠规划材料、升级和能力，以添加到将要制造的工具中。"
+				""
+				"想访问设计界面，请点击工匠站或工匠砧界面中的蓝图图标。"
+			]
+			id: "7EE0DA8E57E9F200"
+			tasks: [{
+				id: "2BAF751DE6718A77"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6E520DA01C89DFE5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "液态光源"
+			icon: "tconstruct:seared_lantern"
+			x: 3.5d
+			y: 2.0d
+			description: [
+				"有时，工匠需要为作坊增添一种美感。有时，工匠则会在熔化炉中剩下的不到一锭的液态金属。来看看焦黑灯笼吧！"
+				""
+				"焦黑灯笼可以容纳工匠制造的任何100mB液体，并让这些液体向环境中投射出略带色泽的光。"
+			]
+			dependencies: ["53998A418EE25004"]
+			id: "488869B6B52A42FE"
+			tasks: [{
+				id: "17F778F630B3531D"
+				type: "item"
+				item: "tconstruct:seared_lantern"
+				count: 3L
+			}]
+			rewards: [{
+				id: "1F552B03FA0AA138"
+				type: "command"
+				title: "稀有匠魂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂升级"
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			x: 3.0d
+			y: 4.5d
+			description: [
+				"给工匠的工具增添新的数据需要在工匠站内使用某些材料。许多材料都会消耗升级槽。"
+				""
+				"要想知道某个工匠的工具有哪些升级，可以在JEI上搜索工具的用途，并寻找带有锤子和铁砧图标的标签。"
+			]
+			dependencies: ["1BECFB61E2216217"]
+			id: "447AF11477C88460"
+			tasks: [{
+				id: "7A189C6BAE8AAB90"
+				type: "advancement"
+				title: "对一个匠魂工具进行修改"
+				icon: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "upgrades"
+					}
+				}
+				advancement: "tconstruct:tools/modified"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "53E6B568FDDCCB88"
+				type: "command"
+				title: "稀有匠魂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "匠魂能力"
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+			x: 1.5d
+			y: 4.5d
+			description: [
+				"除了升级之外，匠魂工具还可以获得拓展工具功能的能力。"
+				""
+				"幸运、精准采集、自动烧炼、双持，这些都是工匠拥有合适的部件，就可以获得的潜在能力。"
+			]
+			dependencies: ["155CE535A506F2D4"]
+			id: "713CA45FD351DDDC"
+			tasks: [{
+				id: "5CE846491E77EC1D"
+				type: "item"
+				item: "tconstruct:silky_cloth"
+				count: 5L
+			}]
+			rewards: [{
+				id: "104FB75E9793E8FE"
+				type: "command"
+				title: "史诗匠魂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "模组铸模"
+			x: 5.0d
+			y: 6.5d
+			description: ["不同的模组为工匠所使用的金属增加了不同的形状，因此，聪明的工匠会制造铸模，让这些形状可以直接用熔融金属制成。"]
+			dependencies: ["3097BA4EEC6A0FD6"]
+			id: "204C114BF9C94045"
+			tasks: [
+				{
+					id: "4242E3B301F85A76"
+					type: "item"
+					item: "tconstruct:gear_cast"
+				}
+				{
+					id: "3DA64C6962D9EA7F"
+					type: "item"
+					item: "tconstruct:plate_cast"
+				}
+				{
+					id: "0457F7C5B0A64DAB"
+					type: "item"
+					item: "materialis:inlay_cast"
+				}
+				{
+					id: "03BB016BF8408207"
+					type: "item"
+					item: "tconstruct:rod_cast"
+				}
+			]
+			rewards: [{
+				id: "12A49D4465A41A74"
+				type: "command"
+				title: "稀有匠魂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "EFLN"
+			icon: "tconstruct:efln_ball"
+			x: -3.5d
+			y: 1.0d
+			description: ["当你需要迅速在地上挖出一个洞时，EFLN就是你要做的工具。爆炸性开采，不会破坏掉落。"]
+			dependencies: ["107AE2C18410AAF4"]
+			id: "50396EA0CF9414DC"
+			tasks: [{
+				id: "080E9B70231C0337"
+				type: "item"
+				item: "tconstruct:efln_ball"
+			}]
+			rewards: [{
+				id: "6CA368A371E00A05"
+				type: "command"
+				title: "稀有匠魂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "工匠大百科"
+			icon: "tconstruct:encyclopedia"
+			x: -3.5d
+			y: 2.5d
+			description: ["把四个等级的材料分散在四本书中似乎有点乱。幸运的是，通过一点巧思，工匠可以将所有四本书合并为一册。四卷资料触手可及。"]
+			dependencies: ["6BDF1FD62E49EEBF"]
+			id: "1C5427ED9F095712"
+			tasks: [{
+				id: "7CD650663B7E192C"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}]
+			rewards: [{
+				id: "587FF35C8CD308E1"
+				type: "command"
+				title: "传奇匠魂战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_tinkers_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "焦黑输导孔"
+			icon: "tconstruct:seared_duct"
+			x: 1.5d
+			y: 3.5d
+			subtitle: "嘎嘎？"
+			description: ["在你的冶炼炉或熔铸炉中添加一个焦黑输导孔，可使你将一桶或一铜罐的液体作为过滤器来提取特定的液体。右击输导孔进入其界面以放入过滤物品。"]
+			dependencies: [
+				"1EFC81649E4D4C50"
+				"40474087F229A612"
+			]
+			id: "2D600E439D5DE40B"
+			tasks: [
+				{
+					id: "6E5DBA482DE50E8D"
+					type: "item"
+					title: "焦黑或焦褐输导孔"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_duct"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_duct"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "4A9CC9C83CE83620"
+					type: "item"
+					item: "tconstruct:copper_can"
+				}
+			]
+			rewards: [{
+				id: "2D49C30575BD08AE"
+				type: "item"
+				item: "tconstruct:copper_can"
+				count: 8
+			}]
+		}
+	]
+}

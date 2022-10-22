@@ -1,0 +1,697 @@
+{
+	id: "1E033FC07DE39E5E"
+	group: "34B7FB260B6AEB81"
+	order_index: 5
+	filename: "magic__adept"
+	title: "魔法 - 能手"
+	icon: "botania:runic_altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -1.5d
+			description: [
+				"吞咀者能够用其强大的下颚将石头磨成粉末，它的鳞片具有强大的炼金能力，确切的说，是制造消化各种物品并提取其中潜能的神秘花。"
+				""
+				"设下诱饵陷阱，准备好迎接一场恶战。"
+				""
+				"召唤吞咀者需要降生祭坛以及一些其他物品，在JEI中查询吞咀者刷怪蛋的配方来确认材料。"
+				""
+				"警告：吞咀者饥渴万分，召唤它将会消耗该区域的灵气。灵气浓度太低将会给周围区域的生命带来严重的后果。"
+			]
+			dependencies: [
+				"583A58418CBF0606"
+				"3244CF5322CDA8FA"
+				"70FE54E5B37720F8"
+				"7D6DB53D88AA8955"
+			]
+			id: "61AA75CF5577A737"
+			tasks: [{
+				id: "5A05847FBAD84A7B"
+				type: "item"
+				item: "naturesaura:animal_spawner"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: ["狱火具有极强的转化能力且高度危险，自古以来就被用于奥秘法术。对于普通人类来说没有直接的安全使用它的方法，不过，异界的魔灵却可以通过为其量身打造的狱火锻炉来毫无难度地引导狱火。"]
+			dependencies: ["2B6914734BC1B9EA"]
+			id: "76E780FECC4F3BA8"
+			tasks: [{
+				id: "00EC065C41CF5882"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: [
+				"“并不是所有魔灵都情愿来到这里，有些魔灵觉得这个位面……令它们厌恶。不过，将它们束缚在强大的物品中以限制它们和这个世界的接触，它们可能仍有用武之地。”"
+				""
+				"– 深具睿智 埃兹维斯"
+			]
+			dependencies: ["7BA120BEA495D354"]
+			id: "2B6914734BC1B9EA"
+			tasks: [{
+				id: "5DBA1CA341658512"
+				type: "item"
+				item: {
+					id: "occultism:chalk_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			shape: "diamond"
+			description: [
+				"向深暗之园的深处迈进，寻找上古文明埋葬尊崇死者的下僻巢穴。要小心，这些墓穴都被严密地保护着。"
+				""
+				"尽管制造这些守卫的技艺早已消失于历史的长河中，但关于他们的知识并没有完全遗失。仍有一些森林生物可以熟练的从守卫身上收获额外的金属，且不会对守卫造成伤害。"
+			]
+			dependencies: ["1684922D360579EA"]
+			id: "3244CF5322CDA8FA"
+			tasks: [{
+				id: "67D72ED6F85B74D2"
+				type: "item"
+				item: "undergarden:forgotten_ingot"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["宝石所在，四周黯淡。"]
+			dependencies: ["1684922D360579EA"]
+			id: "70FE54E5B37720F8"
+			tasks: [{
+				id: "2EDC01F6C01A4342"
+				type: "item"
+				item: "eidolon:shadow_gem"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			shape: "diamond"
+			description: [
+				"“明智的做法是把你的愤怒指向问题，而不是人；把你的精力集中在答案上，而不是找借口。”"
+				""
+				"– 安静祥和 伽措大师"
+			]
+			dependencies: [
+				"2A45214DF4B8A3A0"
+				"1684922D360579EA"
+			]
+			id: "583A58418CBF0606"
+			tasks: [{
+				id: "589DC07682196D6E"
+				type: "item"
+				item: "naturesaura:token_anger"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			shape: "diamond"
+			description: ["这对不在平原生活的野兽来说是一种不可多得的珍馐。"]
+			dependencies: ["1684922D360579EA"]
+			id: "7D6DB53D88AA8955"
+			tasks: [{
+				id: "30B057E09BA7FEC1"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham_block"
+			}]
+		}
+		{
+			title: "自然灵气 - 能手"
+			icon: "naturesaura:gold_leaf"
+			x: -3.0d
+			y: -5.5d
+			shape: "rsquare"
+			description: [""]
+			dependencies: ["0000000000000FC7"]
+			id: "6A88DD23AB4B2551"
+			tasks: [{
+				id: "75818E00A64B7C28"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+		}
+		{
+			title: "魔灵魔法 - 能手"
+			icon: "occultism:golden_sacrificial_bowl"
+			x: 2.0d
+			y: -5.5d
+			shape: "rsquare"
+			dependencies: ["0000000000000FCD"]
+			id: "4CEB33C94A160D68"
+			tasks: [
+				{
+					id: "5A0243D5E0EB0586"
+					type: "item"
+					item: {
+						id: "occultism:chalk_white"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "494D1F8ABF9632B2"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+				{
+					id: "0B7F689031988967"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "3D10E2B67F80993F"
+					type: "item"
+					title: "任意蜡烛"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:candles"
+						}
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			shape: "diamond"
+			description: [
+				"科莫多巨蜥可以在干燥的气候条件下找到，并且可以用适量的腐肉来“结为朋友”。它们的唾液被炼金术士和自然学家这一类人所珍视。对前者来说是它们可作为提纯矿石的试剂，对后者来说则是它们唤起的深刻情感。"
+				""
+				"科莫多巨蜥种群的生育率很低，好在它们身强体壮。一个健康的成年个体能够产生供每天收集的唾液。请注意，科莫多蜥蜴被囚禁时会格外暴力，甚至经常攻击自己的孩子。因此最好记得把它们隔开。"
+			]
+			dependencies: ["0000000000000FC7"]
+			id: "2A45214DF4B8A3A0"
+			tasks: [{
+				id: "4D8482E47412A89D"
+				type: "item"
+				item: "alexsmobs:komodo_spit"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"魔源与灵气，是魔力的一体两面。有了产能花，就可以提取纯净的魔力，并以各种全新的方式使用。"
+				""
+				"彼方兰是第一种可获得的产能花，因为许多合成配方的魔力消耗增加了。强烈建议提高魔力产能以进一步发展。"
+			]
+			dependencies: ["61AA75CF5577A737"]
+			id: "0E6B41A9E8802F67"
+			tasks: [{
+				id: "1BBA6E352E900519"
+				type: "item"
+				item: "botania:gourmaryllis"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: ["初学者认为符文只是简单的雕刻符号，除了装饰没有别的用处。但专业的法师知道真相：它们是刻意地雕刻成这样以引导魔法能量达到特定目的。这样做需要极大的意志力。"]
+			dependencies: ["0E6B41A9E8802F67"]
+			id: "46993F7BA43BE3AB"
+			tasks: [
+				{
+					id: "645C3EA5C8B170D1"
+					type: "item"
+					item: "botania:runic_altar"
+				}
+				{
+					id: "54F41577B733E652"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+				{
+					id: "34CD855E65A6875F"
+					type: "item"
+					item: "botania:mana_spreader"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["开始制造符文石，为了更强大的血之祭坛奠定基础。"]
+			dependencies: ["0D8649291801C76C"]
+			id: "43D3D565E295FA5D"
+			tasks: [{
+				id: "089924B8BB44ECFD"
+				type: "item"
+				item: "bloodmagic:blankrune"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			shape: "diamond"
+			description: [
+				""
+				"曾经被认为已经遗失的知识在最意想不到的地方出现了：深暗之园居民的音乐。"
+				""
+				"找到一只石生体，与其交易，获得他们的传统音乐样本。"
+			]
+			dependencies: ["0000000000000FCD"]
+			id: "4C82E47AABA7447B"
+			tasks: [{
+				id: "6C16A5254E2174E3"
+				type: "item"
+				title: "深暗之园音乐"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "undergarden:music_disc_mammoth"
+								Count: 1b
+							}
+							{
+								id: "undergarden:music_disc_limax_maximus"
+								Count: 1b
+							}
+							{
+								id: "undergarden:music_disc_gloomper_anthem"
+								Count: 1b
+							}
+							{
+								id: "undergarden:music_disc_relict"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "异界石交易者"
+			x: 2.0d
+			y: -4.5d
+			description: [
+				"把奥术石扔进灵火里当然是……有效的，但一位异界石交易者将会以更划算的价格。"
+				""
+				"注意：异界石交易者仍然需要奥术石，不过比例是每一块奥术石换两块异界石。"
+			]
+			dependencies: ["4CEB33C94A160D68"]
+			id: "2DD9ABCD4AC03D03"
+			tasks: [{
+				id: "1AF021ACBE2DE220"
+				type: "item"
+				item: "occultism:otherstone"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: ["制造一块用于高级铭文的石板是一种细致的工艺，能者们花费了大量时间来完善它。即便是再细小的瑕疵都有可能导致一批产品被损毁。"]
+			dependencies: ["2DD9ABCD4AC03D03"]
+			dependency_requirement: "one_completed"
+			id: "32D9D96C23106285"
+			tasks: [{
+				id: "5451DDAB7FE89E14"
+				type: "item"
+				item: "occultism:otherstone_tablet"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: ["手持它会发出很轻的嗡嗡声。"]
+			dependencies: ["32D9D96C23106285"]
+			id: "0D8649291801C76C"
+			tasks: [{
+				id: "16E18C3168EE5014"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"获得音乐后，将它用于合成召唤沼泽巨颌怪的诱饵。"
+				""
+				"击败怪兽，并获取藓牙。"
+			]
+			dependencies: ["4C82E47AABA7447B"]
+			id: "5602E77D09C84F56"
+			tasks: [{
+				id: "4FDEBE41FC30CD46"
+				type: "item"
+				item: "meetyourfight:fossil_bait"
+			}]
+		}
+		{
+			title: "血之祭坛 - 二级"
+			icon: "bloodmagic:altar"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"想更深入地研究精神领域的秘密，就需要一个更强大的容器。"
+				""
+				"还有什么比被束缚在骨头中的、仍在跳动着的僵尸蛮种之心更好的选择呢？"
+			]
+			dependencies: [
+				"5602E77D09C84F56"
+				"43D3D565E295FA5D"
+			]
+			id: "7BA120BEA495D354"
+			tasks: [
+				{
+					id: "4FCDA238FEC31CAB"
+					type: "item"
+					item: "meetyourfight:caged_heart"
+				}
+				{
+					id: "687C659EAB4DD9B2"
+					type: "item"
+					item: "bloodmagic:apprenticebloodorb"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			description: ["只带了投网的能手们，被派去进行打猎。他们要么回来后变得更加博识，要么就再也没能回来。"]
+			dependencies: ["7BA120BEA495D354"]
+			id: "358D438E941E3FFE"
+			tasks: [{
+				id: "7FADC33010E15D46"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			description: [
+				"这个世界上充满了隐形的生物。观察着、等待着。"
+				""
+				"审判着。"
+				""
+				"你的行为似乎取悦了一个这样的存在。建造一个祭祀台，看看它能给你带来什么智慧。"
+				""
+				"当然，所有的知识都是有代价的……"
+			]
+			dependencies: [
+				"54BD6A448EC80453"
+				"46993F7BA43BE3AB"
+			]
+			id: "39F1798BD7FDA0EC"
+			tasks: [
+				{
+					id: "289310ED8AE0AA8E"
+					type: "item"
+					item: "naturesaura:offering_table"
+				}
+				{
+					id: "38201997FD403259"
+					type: "item"
+					item: "naturesaura:calling_spirit"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			description: ["想要正确地召唤荒野奇美拉，你必须献上每一种游荡在这片土地上的次级荒野生物的身体部位作为贡品。"]
+			dependencies: ["37E5C854B3C997E6"]
+			id: "638E2FA97CF961F7"
+			tasks: [
+				{
+					id: "0AC4BD687E08497E"
+					type: "item"
+					item: "ars_nouveau:wilden_horn"
+				}
+				{
+					id: "21E2513CFEDA6EE5"
+					type: "item"
+					item: "ars_nouveau:wilden_wing"
+				}
+				{
+					id: "7935F91A85707BD7"
+					type: "item"
+					item: "ars_nouveau:wilden_spike"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			description: ["放下仪式木板任其燃烧，将剩下的贡品丢弃在火盆之上，准备就绪后启动仪式。"]
+			dependencies: [
+				"638E2FA97CF961F7"
+				"6722BAF4546DB225"
+			]
+			id: "54BD6A448EC80453"
+			tasks: [{
+				id: "54160558748B2EC1"
+				type: "item"
+				item: "ars_nouveau:ritual"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			description: [
+				"抛一枚硬币。"
+				""
+				"她会施与你恩惠吗？或会因你的冒犯而将你抽筋剥皮？"
+			]
+			dependencies: [
+				"14B74BACBD651D14"
+				"0140C94C9E0BE11B"
+				"749514BCD02A1A51"
+			]
+			id: "37E5C854B3C997E6"
+			tasks: [
+				{
+					id: "6CFD58817C017D20"
+					type: "item"
+					item: "meetyourfight:devils_ante"
+				}
+				{
+					id: "35A5C79245D10412"
+					type: "item"
+					item: "meetyourfight:velvet_fortune"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["虽然阿图姆的居民自己没有意识到这点，但他们所交易的硬币拥有巨大的奥术潜力。有些人推测，这可能是源于硬币中的一种特殊奈布合金。"]
+			dependencies: ["5DBF0C080455A59F"]
+			id: "0140C94C9E0BE11B"
+			tasks: [{
+				id: "358386F4F0FC273F"
+				type: "item"
+				item: "atum:coin_gold"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["实验室里会饲养一种常被称为幸运蜜蜂的下界石英蜜蜂，原因很简单：当暴露在含有微量毒素的空气中时，它们身上的结晶会改变颜色，从而让观察力敏锐的炼金术士幸免于难。"]
+			dependencies: ["5DBF0C080455A59F"]
+			id: "749514BCD02A1A51"
+			tasks: [{
+				id: "4F21E8E2B24A5777"
+				type: "item"
+				item: "resourcefulbees:nether_quartz_honeycomb"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			shape: "diamond"
+			description: ["早期的炼金术士们往往会因为一次手滑或玻璃器皿上的一点瑕疵而丧命。这样一来，他们迅速开发出福耳图那精华以帮助他们在处理危险物质时提高一些运气也不足为奇了。"]
+			dependencies: ["5DBF0C080455A59F"]
+			id: "14B74BACBD651D14"
+			tasks: [{
+				id: "5CE84C7DE08F8B26"
+				type: "item"
+				item: "bloodmagic:fortune_anointment"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: [
+				"魔法需要你付出代价，无论是在精神上还是身体上。许多人已经对简单的考验屈服，从未走到这一步。荒野奇美拉能否证明自己是一个巨大的挑战？"
+				""
+				"制作一个石板来召唤它，并为接下来的战斗而做好准备。"
+			]
+			dependencies: ["37E5C854B3C997E6"]
+			id: "6722BAF4546DB225"
+			tasks: [{
+				id: "011B34FD3685CBB4"
+				type: "item"
+				item: "ars_nouveau:ritual_wilden_summon"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: [
+				"“那就让你的意志决定你的命运吧。”"
+				""
+				"– 辐辉教会 夏洛特"
+			]
+			dependencies: ["358D438E941E3FFE"]
+			id: "4E25D127FFBA7553"
+			tasks: [{
+				id: "5A45A95D9017FB1D"
+				type: "item"
+				item: {
+					id: "bloodmagic:basemonstersoul"
+					Count: 1b
+					tag: {
+						souls: 5.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			description: [
+				"“睁开你的眼睛，然后再睁开一次。”"
+				""
+				"– 韦瑟瓦克斯夫人"
+			]
+			dependencies: ["2B6914734BC1B9EA"]
+			id: "1EF3485CE70E529D"
+			tasks: [{
+				id: "588927AD981F5FDB"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"尽管这很有效，但一些法师认为这种牺牲他人的做法实在令人厌恶。"
+				""
+				"能手早就学会了献祭自己的鲜血，并利用大地进行治疗。"
+			]
+			dependencies: ["7BA120BEA495D354"]
+			id: "57FFFBB68F2655C1"
+			tasks: [{
+				id: "19014A262532EB8F"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: {
+						sacrifice: 0b
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			description: [
+				"“在这片永恒不变的夜空中，总有新的事物等待着你来发现……”"
+				""
+				"– 长者 雷伯"
+			]
+			dependencies: ["39F1798BD7FDA0EC"]
+			id: "7154DB9C4506F05B"
+			tasks: [{
+				id: "652DE77D344E1B5F"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+		}
+		{
+			title: "产生灵气"
+			x: -2.0d
+			y: -4.5d
+			description: [
+				"上古文明知道要爱护他们所掌握的自然资源，取之有度，补偿更多。每砍一棵树，就种下两棵。"
+				""
+				"生命所散发出的灵气也需要类似的照顾。自然法术所消耗的灵气同样必须得到补充。没能成功做到这一点将会导致灾难性的后果。"
+				""
+				"虽然有许多办法能够恢复灵气，但射击标靶与草食性收集器都提供了快速补充灵气的途径。善待大自然，她也会善待你；虐待大自然，那么就面对她的怒火吧！"
+			]
+			dependencies: ["6A88DD23AB4B2551"]
+			id: "1684922D360579EA"
+			tasks: [{
+				id: "53DCB9AF9595A5D2"
+				type: "item"
+				title: "产生灵气"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "naturesaura:flower_generator"
+								Count: 1b
+							}
+							{
+								id: "naturesaura:projectile_generator"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			description: [
+				"栖息在这些土地上的蜜蜂很久以前就被注入了强大的魔力，虽然这种魔力因为没有适当的照顾已经减弱了一些，但在它们的后代中仍然存在着这种联系。只要稍加照料，这种更深层次的联系就可以被恢复，使它们能够生产出对奥术和科技领域都有用的神奇资源。"
+				""
+				"收集一些蜜蜂和它们的巢穴，开始照料它们。通过选择性育种和其他技术，有可能培育出更强大的蜜蜂。它们的资源对发展至关重要。"
+			]
+			dependencies: ["6A88DD23AB4B2551"]
+			id: "5DBF0C080455A59F"
+			tasks: [{
+				id: "4024203A654C177D"
+				type: "item"
+				title: "任意蜂巢"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:beehives/tier_0"
+					}
+				}
+			}]
+		}
+	]
+}

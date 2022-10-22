@@ -1,0 +1,12 @@
+{
+    "name": "小地图",
+    "icon": "minecraft:compass",
+    "category": "patchouli:ftbchunks",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "你应该已经注意到了在你屏幕右上角的小地图。它可以使你方便的观察周遭的环境，并且它$(l)通过菜单选项进行个性化的调整$(reset)，可以从$(l:ftbchunks/ftbchunks_worldmap)主地图$(reset)菜单进入。你可以更改包括位置，大小和实体显示方式等选项。亲自去看看吧！"
+        }
+    ]
+}

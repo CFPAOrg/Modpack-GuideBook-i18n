@@ -1,0 +1,1763 @@
+{
+	id: "0000000000000096"
+	group: ""
+	order_index: 2
+	filename: "building"
+	title: "建筑"
+	icon: "minecraft:scaffolding"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "建筑"
+			icon: "minecraft:scaffolding"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "小土屋一去不复返"
+			description: [
+				"欢迎来到“建筑”篇。"
+				""
+				"本部分提供了一些关于建筑和装饰的模组，以及帮助你建造的工具，并让你成为一个经验丰富的建筑工。"
+				""
+				"~Ridanisaurus Rid \\& MuteTiefling"
+			]
+			optional: true
+			id: "058D3BEB64C74E27"
+			tasks: [{
+				id: "4A2592C4467CEAF6"
+				type: "checkmark"
+				title: "建筑工"
+			}]
+			rewards: [
+				{
+					id: "6BCFA4922355B43F"
+					type: "item"
+					item: "create:builders_tea"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "3C390EFCC5489351"
+					type: "item"
+					item: "minecraft:stonecutter"
+				}
+			]
+		}
+		{
+			title: "Macaw全家桶"
+			icon: "minecraft:oak_log"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "适用于各种场合的模组"
+			description: [
+				"Macaw开发了不少的模组，它们涵盖了的木制和原版材料的装饰方块，如屋顶、桥梁、门和窗等等。"
+				""
+				"上方的任务会告诉你有哪些类型的装饰方块可供你使用。"
+			]
+			dependencies: ["058D3BEB64C74E27"]
+			id: "3834BBF4818E4ABE"
+			tasks: [{
+				id: "4AF3B5D3B12BB9E7"
+				type: "checkmark"
+				title: "Macaw全家桶"
+			}]
+			rewards: [{
+				id: "0E23B1EC7F8A65EE"
+				type: "item"
+				item: "create:builders_tea"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "窗户和百叶窗"
+			icon: "mcwwindows:oak_window2"
+			x: 1.5d
+			y: -3.5d
+			description: ["一系列用于美化室内与室外的窗户。"]
+			dependencies: ["3834BBF4818E4ABE"]
+			id: "69264C279D819443"
+			tasks: [{
+				id: "420B50F1422D8783"
+				type: "item"
+				title: "Macaw的窗户"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "mcwwindows"
+					}
+				}
+			}]
+			rewards: [{
+				id: "22CC2896509891A2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "屋顶、瓷砖和排水沟"
+			icon: "mcwroofs:oak_roof"
+			x: 0.5d
+			y: -4.0d
+			description: ["建造复杂屋顶形状的甄选。"]
+			dependencies: ["3834BBF4818E4ABE"]
+			id: "294FF399D036000C"
+			tasks: [{
+				id: "23D124F0ABC86469"
+				type: "item"
+				title: "Macaw的屋顶"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "mcwroofs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4EBBC5E559BB1D57"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "活板门"
+			icon: "mcwtrpdoors:oak_cottage_trapdoor"
+			x: -0.5d
+			y: -4.0d
+			description: ["一系列精致的活板门，可搭配任何场合。"]
+			dependencies: ["3834BBF4818E4ABE"]
+			id: "2BFA6B1DF968DB60"
+			tasks: [{
+				id: "65B891EE0CA7DE2D"
+				type: "item"
+				title: "Macaw的活板门"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "mcwtrpdoors"
+					}
+				}
+			}]
+			rewards: [{
+				id: "760F5F32E39E413F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "门"
+			icon: "mcwdoors:oak_cottage_door"
+			x: -1.5d
+			y: -3.5d
+			description: ["一系列精致的门，可搭配任何场合。"]
+			dependencies: ["3834BBF4818E4ABE"]
+			id: "6AAB0C70527EB1C8"
+			tasks: [{
+				id: "08066709F5454C29"
+				type: "item"
+				title: "Macaw的门"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "mcwdoors"
+					}
+				}
+			}]
+			rewards: [{
+				id: "190BC73D15872F2A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "栅栏和围墙"
+			icon: "mcwfences:oak_picket_fence"
+			x: 2.0d
+			y: -2.5d
+			description: ["一系列精致的围栏和围墙，可满足任何装饰需求。"]
+			dependencies: ["3834BBF4818E4ABE"]
+			id: "1A8ADC65B09E9539"
+			tasks: [{
+				id: "02D341840CE54A92"
+				type: "item"
+				title: "Macaw的栅栏和围墙"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "mcwfences"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6DA561C702F1DEA5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "桥梁"
+			icon: "mcwbridges:oak_log_bridge_middle"
+			x: -2.0d
+			y: -2.5d
+			description: ["一系列用于制作人行小桥和铁路桥的方块。"]
+			dependencies: ["3834BBF4818E4ABE"]
+			id: "5CC123276DD545C8"
+			tasks: [{
+				id: "4F7B105264339E9A"
+				type: "item"
+				title: "Macaw的桥梁"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "mcwbridges"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0DA8D314B0CFE8BA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "石工"
+			icon: "masonry:andesitetiled"
+			x: 1.0d
+			y: 1.5d
+			subtitle: "唤醒你内心的矮人之魂"
+			description: [
+				"石工允许你将大部分原版石头雕刻成不同的装饰图案，来让你的基地充满艺术气息。"
+				""
+				"将花岗岩或海晶石等原版石头放在切石机中，然后进行雕刻。"
+			]
+			dependencies: ["058D3BEB64C74E27"]
+			id: "63FE93055CE4162C"
+			tasks: [{
+				id: "4EA5682D198BA2E6"
+				type: "item"
+				title: "石工"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "masonry"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C3D1850DE4CBA18"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "MrCrayfish的家具"
+			icon: "cfm:oak_chair"
+			x: -1.0d
+			y: -1.5d
+			subtitle: "宜家，但没有肉丸子。"
+			description: [
+				"你在建造一个厨房，并希望有不同（包括原版和模组）木头和石材质的水槽和柜台搭配它？或是一座小后院、一个烧烤架来做BBQ？"
+				""
+				"MrCrayfish的家具提供了大量的装饰性和功能性方块供你选择，为你的小屋增添色彩。"
+			]
+			dependencies: ["058D3BEB64C74E27"]
+			id: "32824050418C71EB"
+			tasks: [{
+				id: "39FE46B7D0588AC6"
+				type: "item"
+				title: "任何MrCrayfish的物品"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "cfm"
+								}
+							}
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "morecfm"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3006D73518186276"
+				type: "command"
+				title: "农夫奖励包"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "玻璃连结"
+			icon: "connectedglass:clear_glass"
+			x: 2.0d
+			y: 1.0d
+			subtitle: "我能看清，前路坎坷"
+			description: ["玻璃连结增加了额外的玻璃和玻璃板的连接纹理。这当然包括透明玻璃，以及原版的所有16种染色玻璃。"]
+			dependencies: ["058D3BEB64C74E27"]
+			id: "66099AFAA1A6043F"
+			tasks: [{
+				id: "7E626988261D7522"
+				type: "item"
+				title: "玻璃连结"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "connectedglass"
+					}
+				}
+			}]
+			rewards: [{
+				id: "73CEB3BC6963B644"
+				type: "command"
+				title: "炼金术士奖励包"
+				icon: "kubejs:alchemists_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "简单的灯"
+			icon: "simplylight:illuminant_block_on"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "上帝说：要有光！"
+			description: [
+				"这个模组的名字真的说明了一切。就这么简单，一个灯光模组。"
+				""
+				"但不要被它的名字所欺骗，简单的灯提供了一系列的不简单的灯，让你的基地亮出风格。"
+			]
+			dependencies: ["058D3BEB64C74E27"]
+			id: "42FB32CC99E66E3F"
+			tasks: [{
+				id: "1EFA47BC6E4EC782"
+				type: "item"
+				title: "任意16个简单的灯"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "simplylight"
+					}
+				}
+				count: 16L
+			}]
+			rewards: [{
+				id: "7E2D7FEE20672C9D"
+				type: "command"
+				title: "拾荒者者奖励包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "镶框方块"
+			icon: "framedblocks:framed_cube"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "前途不可限量"
+			description: [
+				"你在寻找玻璃楼梯吗？或者是下界合金门？或者是末地石指示牌？好吧，不必再苦苦寻找了。"
+				""
+				"镶框方块引入了一个由各种形状和方块组成的空白模板，用方块右击它，它会模仿对应方块的纹理。"
+				""
+				"用萤石右击它们甚至可以使其发光！"
+			]
+			dependencies: ["058D3BEB64C74E27"]
+			id: "0798D5139479A837"
+			tasks: [{
+				id: "6D98E195282468AF"
+				type: "item"
+				item: "framedblocks:framed_cube"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "7A45DC96F03CA232"
+					type: "item"
+					item: "framedblocks:framed_hammer"
+				}
+				{
+					id: "1C5FD3A8CD3424C0"
+					type: "item"
+					item: "framedblocks:framed_wrench"
+				}
+			]
+		}
+		{
+			title: "镶框抽屉"
+			icon: "framedcompactdrawers:framed_full_one"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "抽屉界的熊熊工作室"
+			description: [
+				"你是否已经厌倦了那个在你基地里刺眼的，与你的建筑色调完全不匹配的橡木抽屉？"
+				""
+				"镶框抽屉给了你一个空白的模板，让你可以在工作台中结合不同的方块来替换纹理，无论是正面、侧面还是镶边，这些镶框抽屉有着高度可定制的视觉效果。"
+				""
+				"这个模组提供的不只是一个抽屉样式模板，实际上它对每一种类型的抽屉都有一个模板，无论是2x2、压缩抽屉，甚至是抽屉控制器。"
+			]
+			dependencies: ["058D3BEB64C74E27"]
+			id: "473BE440ECB1CEDF"
+			tasks: [{
+				id: "130291F7FD5C22C4"
+				type: "item"
+				title: "任意相框抽屉"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "framedcompactdrawers:frame_triple"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "799AB9D93C124D6F"
+					type: "item"
+					item: "storagedrawers:emerald_storage_upgrade"
+				}
+				{
+					id: "006783158FEE960D"
+					type: "item"
+					item: "storagedrawers:void_upgrade"
+				}
+			]
+		}
+		{
+			title: "Chipped"
+			icon: "chipped:mason_table"
+			x: 2.0d
+			y: -1.0d
+			subtitle: "没有什么是一点木材填充剂不能解决的。"
+			description: [
+				"Chipped提供了大量的原版雕刻方块，无论是装饰玻璃，还是用于漂亮地毯设计的绗缝羊毛，甚至是不祥的雕刻镀金黑石，Chipped都可以帮助你。"
+				""
+				"首先，建造一个雕刻站，其功能与原版切石机类似。将方块放进去，并选择符合你建筑需求的样式。"
+			]
+			dependencies: ["058D3BEB64C74E27"]
+			id: "1EAFB4FB2CF09F26"
+			tasks: [{
+				id: "5B597B1689F6662F"
+				type: "item"
+				title: "任意Chipped工作台"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "chipped:mason_table"
+								Count: 1b
+							}
+							{
+								id: "chipped:loom_table"
+								Count: 1b
+							}
+							{
+								id: "chipped:carpenters_table"
+								Count: 1b
+							}
+							{
+								id: "chipped:glassblower"
+								Count: 1b
+							}
+							{
+								id: "chipped:botanist_workbench"
+								Count: 1b
+							}
+							{
+								id: "chipped:mechanist_workbench"
+								Count: 1b
+							}
+							{
+								id: "chipped:alchemy_bench"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0365D0D7A7E40B1D"
+				type: "command"
+				title: "矿工奖励包"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "工程师的装饰"
+			icon: "engineersdecor:steel_catwalk_stairs"
+			x: -2.0d
+			y: 1.0d
+			subtitle: "沉浸式装修"
+			description: [
+				"如果你喜欢沉浸工程的工业外观，那么你可能会爱上工程师的装饰这个模组。"
+				""
+				"该模组增加了一些功能性和装饰性的块状物，和你的沉浸工程基地十分搭配。无论是“危险！”标志，还是工业风格的工作台，工程师的装饰都能满足你的需求。"
+			]
+			dependencies: ["058D3BEB64C74E27"]
+			id: "68E143E444AF44C2"
+			tasks: [{
+				id: "3962CC2A503F48BE"
+				type: "item"
+				item: "engineersdecor:metal_bar"
+				count: 12L
+			}]
+			rewards: [{
+				id: "3C8E7414A7A4C3C0"
+				type: "item"
+				item: "engineersdecor:sign_hotwire"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "工业装饰"
+			icon: "dustrial_decor:sheet_metal_treading"
+			x: -1.0d
+			y: 1.5d
+			subtitle: "必须佩戴安全帽！"
+			description: [
+				"你是否正在建造一个工厂来容纳所有吵闹的机器？那座发电站是对野生动物和敌对怪物开放的吗？你是否希望你能竖起一圈铁丝网来阻止那些烦人的劫掠者打扰你？那么……"
+				""
+				"工业装饰提供了上述所有内容，甚至更多。该模组提供了一系列以工业为主题的装饰方块。"
+			]
+			dependencies: ["058D3BEB64C74E27"]
+			id: "201E7950E17180BD"
+			tasks: [
+				{
+					id: "7B4010001841119D"
+					type: "item"
+					item: "dustrial_decor:sheet_metal"
+					count: 3L
+				}
+				{
+					id: "233869B1D7E3ACFB"
+					type: "item"
+					item: "dustrial_decor:cardboard"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "6C4A232FCA2807FA"
+					type: "item"
+					item: {
+						id: "dustrial_decor:cardboard_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60773CCBDE6A5D12"
+					type: "item"
+					item: "dustrial_decor:cardboard"
+					count: 16
+					random_bonus: 16
+				}
+			]
+		}
+		{
+			title: "装饰方块"
+			icon: "decorative_blocks:oak_support"
+			x: 1.0d
+			y: -1.5d
+			subtitle: "英雄请留步，且听我一言……"
+			description: [
+				"如果你喜欢中世纪或乡村风格的建筑，无论是悬崖上的城堡、森林中的小木屋，还是为疲惫的旅行者准备的温馨酒馆，装饰方块都有适合你的风格的选择。"
+				""
+				"装饰方块提供了许多材质精美、设计精良的方块，以满足你的建筑需求。"
+			]
+			dependencies: ["058D3BEB64C74E27"]
+			id: "03D0B336BB7CEFE1"
+			tasks: [{
+				id: "36159E7E842C9962"
+				type: "item"
+				title: "装饰方块"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "decorative_blocks"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "53FB7E9EE2F64323"
+					type: "item"
+					item: "simplefarming:beer"
+				}
+				{
+					id: "314E867E74A0A658"
+					type: "item"
+					item: "simplefarming:wine"
+				}
+				{
+					id: "5C9415F6EFAA203C"
+					type: "item"
+					item: "simplefarming:whiskey"
+				}
+				{
+					id: "293E3264D9BC1836"
+					type: "item"
+					item: "simplefarming:mead"
+				}
+				{
+					id: "454E1AEBCCD2B768"
+					type: "item"
+					item: "simplefarming:vodka"
+				}
+				{
+					id: "3AE7ECDC030B78F6"
+					type: "item"
+					item: "simplefarming:sake"
+				}
+				{
+					id: "020E1FF6FF8532FA"
+					type: "item"
+					item: "simplefarming:cider"
+				}
+				{
+					id: "022D696626C1C290"
+					type: "item"
+					item: "simplefarming:cauim"
+				}
+				{
+					id: "421FEBBA8B18E8BF"
+					type: "item"
+					item: "simplefarming:tiswin"
+				}
+			]
+		}
+		{
+			title: "Valhelsia结构"
+			icon: "valhelsia_structures:big_orange_glazed_jar"
+			x: -2.0d
+			y: -1.0d
+			subtitle: "劫掠与劫掠者，我想你可以直接“制作”它们"
+			description: [
+				"Valhelsia结构在世界内生成了不同类型的建筑结构，如玩家住房、铁匠小屋，甚至是废弃的堡垒。"
+				""
+				"这些结构中使用的大多数定制装饰方块也可以进行制作，以便你在你的建筑中添加一些额外的细节。"
+			]
+			dependencies: ["058D3BEB64C74E27"]
+			id: "1DEA7DBF6D1A1C6A"
+			tasks: [{
+				id: "5588202A7A626718"
+				type: "item"
+				title: "Valhelsia结构"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "valhelsia_structures"
+					}
+				}
+			}]
+			rewards: [{
+				id: "548107ED51B7B447"
+				type: "command"
+				title: "法师奖励包"
+				icon: "kubejs:sorcerers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "通用建筑工具"
+			icon: {
+				id: "emendatusenigmatica:enigmatic_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.0d
+			y: 2.5d
+			shape: "gear"
+			subtitle: "工欲善其事，必先利其器"
+			description: [
+				"罗马不是一天建成的，但有了这样的工具，它当然可以建成。"
+				""
+				"继续阅读去发现一些方便的工具，他们显著减少了大型建筑建造的时间。 "
+			]
+			optional: true
+			id: "5411C8D2344CC2F1"
+			tasks: [{
+				id: "48834CDA218F71E0"
+				type: "checkmark"
+				title: "建筑工具"
+			}]
+			rewards: [{
+				id: "215C050F84460976"
+				type: "item"
+				item: "minecraft:scaffolding"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "便携式切割机"
+			icon: "portable_stonecutter:portable_stonecutter"
+			x: 5.0d
+			y: 1.5d
+			subtitle: "它就像凿子，但更胖。"
+			description: [
+				"它可以切割、研磨、雕刻、抛光，甚至还可以做饭和清洁！"
+				""
+				"切石机的所有功能，现在以紧凑的便携形式来到了你的手中。"
+				""
+				"免责声明：实际上不会做饭或打扫。不用于商业用途。"
+				""
+				"警告：远离儿童、动物和傻瓜。移动时不要将手放在刀片上。过度使用可能导致疲劳和视力下降。"
+			]
+			dependencies: ["5411C8D2344CC2F1"]
+			id: "085A8424875A2B23"
+			tasks: [{
+				id: "0F45B05043BCCBE6"
+				type: "item"
+				item: "portable_stonecutter:portable_stonecutter"
+			}]
+			rewards: [{
+				id: "31F796972A4B7369"
+				type: "command"
+				title: "拾荒者者奖励包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "凿子"
+			icon: {
+				id: "chisel:iron_chisel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.0d
+			y: 1.0d
+			subtitle: "它就像便携式切石机，但更瘦。"
+			description: [
+				"一个经典的工具，无论是对新手还是老手。"
+				""
+				"右击凿子可以打开一个GUI，在那里你可以放置方块，并凿成不同的、更具装饰性的版本。"
+				""
+				"你也可以在GUI中保留一个特定的雕刻方块，以便通过左击世界上的方块来雕刻它们。"
+				""
+				"更高阶的凿子提供了额外的功能，比如3x3世界内雕刻和图案预览。"
+			]
+			dependencies: ["5411C8D2344CC2F1"]
+			id: "165DFE2F0AF151E7"
+			tasks: [{
+				id: "2A04BA9132C1CB19"
+				type: "item"
+				title: "任意凿子（Chisel）"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "chisel:iron_chisel"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "chisel:diamond_chisel"
+								Count: 1b
+								tag: {
+									Damage: 0
+									chiseldata: { }
+								}
+							}
+							{
+								id: "chisel:hitech_chisel"
+								Count: 1b
+								tag: {
+									Damage: 0
+									chiseldata: { }
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "77DBBB65B8E37846"
+				type: "item"
+				item: "chisel:factory/dots"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "雕凿工艺"
+			icon: {
+				id: "chiselsandbits:chisel_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 7.0d
+			y: 1.5d
+			subtitle: "和凿子与便携式切石机毫不相干"
+			description: [
+				"来自这个模组的凿子能够让你方块切成单个像素块，或者它的一小部分。"
+				""
+				"该模组提供了对你能建造的、组合的方块甚至是液体的形状的完全控制。"
+			]
+			dependencies: ["5411C8D2344CC2F1"]
+			id: "468BEE8C31DA8DF9"
+			tasks: [{
+				id: "45C52AC34FB4858B"
+				type: "item"
+				title: "任意凿子（Chisel \\& Bits）"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "chiselsandbits:chisel_stone"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "chiselsandbits:chisel_iron"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "chiselsandbits:chisel_gold"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "chiselsandbits:chisel_diamond"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "chiselsandbits:chisel_netherite"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "720F542AE5971C8B"
+					type: "item"
+					item: {
+						id: "chiselsandbits:bit_bag"
+						Count: 1b
+						tag: {
+							Inventory: { }
+						}
+					}
+				}
+				{
+					id: "26AE96A25BAAC750"
+					type: "item"
+					item: "chiselsandbits:magnifying_glass"
+				}
+				{
+					id: "4DDA396CCCA5EF72"
+					type: "item"
+					item: {
+						id: "chiselsandbits:measuring_tape"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "建筑小帮手"
+			icon: {
+				id: "buildinggadgets:gadget_building"
+				Count: 1b
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+						data: { }
+					}
+				}
+			}
+			x: 5.0d
+			y: 3.5d
+			subtitle: "它负责建造"
+			description: [
+				"一种先进的建筑设备，具有多种模式，可以快速建造墙壁、楼梯和平台。"
+				""
+				"潜行右击一个方块来设置它要建造的方块。使用建筑小帮手设置菜单键[默认：g]来访问高级功能。"
+			]
+			dependencies: ["5411C8D2344CC2F1"]
+			id: "0F06CA2A45323C4C"
+			tasks: [{
+				id: "5DB4EE8F264A9453"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "651CFE821154BBC8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "更替小帮手"
+			icon: {
+				id: "buildinggadgets:gadget_exchanging"
+				Count: 1b
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+						data: { }
+					}
+				}
+			}
+			x: 6.0d
+			y: 4.0d
+			subtitle: "它负责交换"
+			description: [
+				"在一个区域内快速交换方块，而不需要手动破坏和放置每一个方块。使用“精准采集”来处理易碎的方块，比如玻璃。"
+				""
+				"潜行右击一个方块来设置它要建造的方块。使用建筑小帮手设置菜单键[默认：g]来访问高级功能。"
+			]
+			dependencies: ["5411C8D2344CC2F1"]
+			id: "25E1DB1C3F184D4C"
+			tasks: [{
+				id: "0031DADEE3BD0089"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A430B36A4ECDB29"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "复制-粘贴小帮手"
+			icon: {
+				id: "buildinggadgets:gadget_copy_paste"
+				Count: 1b
+				tag: {
+					mode: 0b
+					template_id: [I;
+						-937522451
+						-1230682587
+						-1166065172
+						-847433661
+					]
+				}
+			}
+			x: 7.0d
+			y: 3.5d
+			subtitle: "它负责复制粘贴"
+			description: [
+				"一个强大的工具，可以复制大面积的区域，并在其他地方立即重建，可以在短时间内重复建造大面积的区域，如重复的墙面图案，或用几个不同的房屋来装饰一个区域。"
+				""
+				"可以为复制-粘贴小工具导入和导出模板，Enigmatica6附带了各种模板，包括许多来自沉静工艺和星辉魔法等模组的多方块结构，使建造更加容易。完整的说明和模板可以在你的实例文件夹中的\"building_gadgets_patterns\"目录下找到。"
+				""
+				"潜行右击一个区块来设置它要建造的方块。使用建筑小帮手设置菜单键[默认：g]来访问高级功能。"
+			]
+			dependencies: ["5411C8D2344CC2F1"]
+			id: "2E5F1C7B4B293531"
+			tasks: [{
+				id: "6AB9C0357788BA56"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							-937522451
+							-1230682587
+							-1166065172
+							-847433661
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "56EDEB3CE12B8C19"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "破坏小帮手"
+			icon: {
+				id: "buildinggadgets:gadget_destruction"
+				Count: 1b
+				tag: {
+					overlay: 1b
+					fuzzy: 1b
+				}
+			}
+			x: 7.5d
+			y: 2.5d
+			subtitle: "猜猜看它负责什么……"
+			description: [
+				"当你只是想清出一个洞用来建造时，并不会关心那里的方块怎么样，对吧？"
+				""
+				"请注意，这个工具会销毁它所有移除的方块！"
+				""
+				"潜行右击空气来配置想要破坏的区域。使用建筑小帮手设置菜单键[默认：g]来访问高级功能"
+			]
+			dependencies: ["5411C8D2344CC2F1"]
+			id: "095108AB50598C04"
+			tasks: [{
+				id: "1441EAF1EDC3AFDF"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "61F9F3D49C389940"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "建筑之杖"
+			icon: {
+				id: "constructionwand:stone_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: 2.5d
+			subtitle: "飞来咒！"
+			description: [
+				"作为一个经典模组，建筑魔杖的功能就是延展已经放置在世界中的方块。这可以使你很轻松就可以建造一堵墙：先打好地基，然后用魔杖往上建造。"
+				""
+				"此版本还增加了一些功能，如摧毁方块，在空中放置，甚至从你的快捷栏中随机放置方块。"
+				""
+				"在空中拿着建筑之杖按Ctrl+Shift键，可以进入带有高级选项的菜单，或者按Ctrl键滚动鼠标滚轮，可以在不同建筑模式之间快速切换。"
+			]
+			dependencies: ["5411C8D2344CC2F1"]
+			id: "26B88D08862EA1AE"
+			tasks: [{
+				id: "131EB02FBDE8DC98"
+				type: "item"
+				title: "任意建筑之杖"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "constructionwand:stone_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:iron_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:diamond_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:infinity_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "214C2A82D3E5941A"
+				type: "item"
+				item: "minecraft:scaffolding"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "植物魔法建筑工具"
+			icon: {
+				id: "botania:lexicon"
+				Count: 1b
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			x: 6.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "这可是魔法建筑科技"
+			description: [
+				"植物魔法提供了各式各样的建筑和地形改造法杖。"
+				""
+				"以一些法力为代价，你可以放置方块，交换方块，或者对你的世界的整个部分进行完全的地形改造。"
+				""
+				"相关的任务会对每根法杖的作用进行简要描述。然而，要想获得更详细的信息，请参考《植物魔法辞典》。"
+			]
+			id: "3F1801BBAF8A29FD"
+			tasks: [{
+				id: "363364A832F21FEC"
+				type: "item"
+				item: "botania:livingwood"
+			}]
+			rewards: [{
+				id: "67E31EF8EF9242E8"
+				type: "item"
+				item: "botania:livingwood_twig"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "移壳杆"
+			icon: {
+				id: "botania:exchange_rod"
+				Count: 1b
+				tag: { }
+			}
+			x: 7.0d
+			y: -3.5d
+			subtitle: "建立在坚实的地基上"
+			description: [
+				"这法杖允许你以法力为代价，将世界上的方块与所选方块交换。"
+				""
+				"通过手持移壳杆潜行右击某个方块来绑定一个方块，这个时候将会显示玩家物品栏内该方块的数量（如果物品栏里有能提供该方块的植物魔法的法杖/工具，那么数量显示为∞）。移壳杆的更替范围为7x7的正方形平面区域。在物品栏内有足量的已绑定方块的情况下，左击某方块会直接将该方块使用物品栏内的物品替换到世界中。而右击某方块会直接把该方块为中心的7x7的正方形平面区域内所有的同种方块全部替换成已绑定的方块。打开物品栏时，鼠标悬停在魔杖上，可以查看已绑定的方块的类型。"
+			]
+			dependencies: ["3F1801BBAF8A29FD"]
+			id: "3A0988C3AEFBAAC5"
+			tasks: [{
+				id: "7FA93EE01B45135D"
+				type: "item"
+				item: {
+					id: "botania:exchange_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "41109E78B59EF97B"
+				type: "command"
+				title: "稀有植物魔法奖励包"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "深渊法杖"
+			icon: "botania:cobble_rod"
+			x: 5.0d
+			y: -3.5d
+			subtitle: "坎坷的开始"
+			description: ["消耗一些魔力，放置一块圆石。"]
+			dependencies: ["3F1801BBAF8A29FD"]
+			id: "261056A552909227"
+			tasks: [{
+				id: "60487B8DAAABD00A"
+				type: "item"
+				item: "botania:cobble_rod"
+			}]
+			rewards: [{
+				id: "0F739D6D5D514E05"
+				type: "command"
+				title: "稀有植物魔法奖励包"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "大地法杖"
+			icon: "botania:dirt_rod"
+			x: 7.5d
+			y: -2.5d
+			subtitle: "别胡闹了"
+			description: ["消耗一些魔力，放置一块泥土。"]
+			dependencies: ["3F1801BBAF8A29FD"]
+			id: "75361161CEA1E406"
+			tasks: [{
+				id: "2FE7292AC2F975A8"
+				type: "item"
+				item: "botania:dirt_rod"
+			}]
+			rewards: [{
+				id: "0C25B3F19358451A"
+				type: "command"
+				title: "稀有植物魔法奖励包"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "大地权杖"
+			icon: "botania:terraform_rod"
+			x: 7.0d
+			y: -1.5d
+			subtitle: "移山填海"
+			description: ["只要稍加练习，大地权杖就可以帮助你迅速改变景观。激活后，泥土在你下方形成，将地面抬高到你的脚下，而你上方的土地则降低到你的水平，在瞬间形成山脉或铲平一片区域。"]
+			dependencies: ["3F1801BBAF8A29FD"]
+			id: "1E22D45F4ACB8FE2"
+			tasks: [{
+				id: "3F20DF25B210800F"
+				type: "item"
+				item: "botania:terraform_rod"
+			}]
+			rewards: [{
+				id: "2675982841DE964D"
+				type: "command"
+				title: "传奇植物魔法奖励包"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "星辉魔法建筑工具"
+			icon: "astralsorcery:tome"
+			x: -6.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "禁止加班！"
+			description: ["一旦你获得了星辉矿石，你应该能够制作这两根奇妙的法杖，来帮助你利用星星的力量塑造世界。"]
+			id: "020ECCFFA45CE43D"
+			tasks: [{
+				id: "37EDC6B3AC445773"
+				type: "item"
+				item: "astralsorcery:starmetal_ore"
+			}]
+			rewards: [{
+				id: "691CF672BABA1FA8"
+				type: "item"
+				item: "astralsorcery:stardust"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "秩序星杖"
+			icon: {
+				id: "astralsorcery:architect_wand"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			x: -4.5d
+			y: 0.0d
+			subtitle: "不折不扣的巫术"
+			description: [
+				"秩序星杖作用就像一个构建工具，潜行右击方块选择类型，选中的方块将显示在左上角，并显示物品栏中对应方块的数量。使用时会显示预览效果，右击可直接放置方块。创造模式不消耗方块。"
+				""
+				"注意：尺寸是固定的，不能改变。"
+			]
+			dependencies: ["020ECCFFA45CE43D"]
+			id: "4A2306BD24A5D6D2"
+			tasks: [{
+				id: "7D1392DE2FB21B89"
+				type: "item"
+				item: {
+					id: "astralsorcery:architect_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "23FF3AAB4DFEE10C"
+				type: "command"
+				title: "稀有星辉魔法奖励包"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "转位星杖"
+			icon: {
+				id: "astralsorcery:exchange_wand"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			x: -7.5d
+			y: 0.0d
+			subtitle: "星光闪耀！"
+			description: [
+				"转位星杖允许你将世界上的方块与你背包中的方块交换。（潜行右击方块选择类型，选中的方块显示在左上角，并显示物品栏中对应方块的数量。使用时会显示预览效果，右击会将目标替换成选中的方块，左击则会清空所有选中的方块，创造模式不消耗方块。）"
+				""
+				"当然，这并不局限于一个方块，你可以选择多个方块进行转位，这将使转换的模式变得随机，以便在方块之间有一个更无缝和自然的过渡。"
+			]
+			dependencies: ["020ECCFFA45CE43D"]
+			id: "2334B38255294FAE"
+			tasks: [{
+				id: "0BE4A8E8DE0E013F"
+				type: "item"
+				item: {
+					id: "astralsorcery:exchange_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "07A919265475FAEF"
+				type: "command"
+				title: "稀有星辉魔法奖励包"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "机械动力建筑工具"
+			icon: "create:mechanical_arm"
+			x: -6.0d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "机械化，机械化"
+			description: [
+				"机械动力提供了两个实用的建筑工具，伸缩机械手和对称之杖。"
+				""
+				"尽管这些工具比较昂贵，但这是值得的，因为它们提供了一些独有的功能。"
+			]
+			id: "1E318BCAC2C6FA09"
+			tasks: [{
+				id: "14B0FAF2081449BD"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+			}]
+			rewards: [{
+				id: "618B214EB41EEE48"
+				type: "item"
+				item: "create:builders_tea"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "伸缩机械手"
+			icon: {
+				id: "create:extendo_grip"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.5d
+			y: 1.5d
+			subtitle: "BOING~ BOING~"
+			description: [
+				"伸缩机械手增加了你的放置距离，从而使你能够变成长臂猿来放置和打破方块。"
+				""
+				"要使用伸缩机械手，就把它放在你的副手，然后像平常一样用你的主手使用方块或工具。"
+				""
+				"在带上铜制储罐时，伸缩机械手不会失去耐久度，而是消耗你储存在储罐中的气压。"
+			]
+			dependencies: ["1E318BCAC2C6FA09"]
+			id: "34F00196E2D0B4B0"
+			tasks: [{
+				id: "36A419607017EA31"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "384957F4FCE7BC6A"
+				type: "command"
+				title: "稀有机械动力奖励包"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "对称之杖"
+			icon: "create:wand_of_symmetry"
+			x: -7.5d
+			y: 1.5d
+			subtitle: "强迫症福音"
+			description: [
+				"对称之杖特别好，绝不会让强迫症患者们失望。"
+				""
+				"这个工具允许你放置一个对称平面，完美地复制出你放置方块的位置。"
+				""
+				"开始时，右击点击地面上的方块。放置好之后，你可以潜行右击点击打开配置GUI，在那里你可以选择平面类型和镜像轴。"
+			]
+			dependencies: ["1E318BCAC2C6FA09"]
+			id: "147B701C5BCF2424"
+			tasks: [{
+				id: "0A989C0C09502289"
+				type: "item"
+				item: "create:wand_of_symmetry"
+			}]
+			rewards: [{
+				id: "01870BF5EE173AB5"
+				type: "command"
+				title: "稀有机械动力奖励包"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "万能的建筑工"
+			icon: "create:crafting_blueprint"
+			x: -6.0d
+			y: -1.5d
+			shape: "square"
+			subtitle: "我喜欢制定计划"
+			description: [
+				"如果你是那种因为对自己的建筑技术没有信心，或者根本没有时间和精力去规划一个完整的基地设计，只会造火柴盒的玩家，那么这个模组就是为你准备的。"
+				""
+				"万能建筑师模组允许你绘制一个动态的设计图，你可以选择建筑的大小，多少层，屋顶风格，建筑材料，等等。一旦你的设计完成，它将为你保存为一个示意图，然后你可以在“制作蓝图加农炮”中使用来自动建造。"
+				""
+				"如果上面的介绍让你感兴趣，你想了解更多，甚至想看看这个模组的运行情况，这个由模组开发者制作的两分钟短视频将向你展示这个奇妙模组的里里外外。"
+				"链接：https://youtu.be/VdoKmdYubBM"
+			]
+			id: "4407C59E32585B96"
+			tasks: [{
+				id: "3671CC5B42EC4DF8"
+				type: "checkmark"
+				title: "万能的建筑工"
+			}]
+			rewards: [
+				{
+					id: "3E564C831D52F1BD"
+					type: "item"
+					item: "create:builders_tea"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "7FB21C0F074D7720"
+					type: "item"
+					item: "create:empty_schematic"
+				}
+				{
+					id: "1DDF6EF97DE63E61"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 8
+					random_bonus: 8
+				}
+			]
+		}
+		{
+			title: "高原法杖"
+			icon: "botania:skydirt_rod"
+			x: 4.5d
+			y: -2.5d
+			subtitle: "不附带梯子"
+			description: ["在视线三格处召唤一个泥土，可以直接在空中放置。"]
+			dependencies: ["3F1801BBAF8A29FD"]
+			id: "624AAFDABA481B08"
+			tasks: [{
+				id: "71069CB1BABDA192"
+				type: "item"
+				item: "botania:skydirt_rod"
+			}]
+			rewards: [{
+				id: "2F982B8BD0A5B9DF"
+				type: "command"
+				title: "传奇植物魔法奖励包"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "魔力脉冲枪+魔力透镜"
+			icon: {
+				id: "botania:mana_gun"
+				Count: 1b
+				tag: { }
+			}
+			x: 5.0d
+			y: -1.5d
+			subtitle: "炸个痛快！"
+			description: [
+				"它本身是一个多功能的工具，当与魔力透镜搭配时，魔力脉冲枪就变成了类似于远程雕刻工具的东西，炸掉方块以帮助形成自然的形状。"
+				""
+				"爆破地下，形成漂亮的洞穴作为基地，或雕刻景观！艺术就是爆炸！"
+			]
+			dependencies: ["3F1801BBAF8A29FD"]
+			id: "5CCA8708260D389C"
+			tasks: [
+				{
+					id: "64B96C806BE2E4CB"
+					type: "item"
+					item: {
+						id: "botania:mana_gun"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1F2D3C964900AA44"
+					type: "item"
+					item: {
+						id: "botania:lens_explosive"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "461C49E6DB199C54"
+				type: "command"
+				title: "传奇植物魔法奖励包"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			icon: "botania:sextant"
+			x: 6.0d
+			y: -1.0d
+			subtitle: "你叫我什么？!"
+			description: ["一个用于画圆的小工具。对着你想要画圆的中心方块长按右击，然后拖动选择圆的半径。虽然是通过圆形虚影来显示方块位置，但是它并没有自动放置方块的能力。一旦放置方块结束，则显示“结构已完成”字样。按潜行右击会取消构建的圆形虚影。"]
+			dependencies: ["3F1801BBAF8A29FD"]
+			id: "179FB20DE78B8851"
+			tasks: [{
+				id: "7CEB81CF604A2837"
+				type: "item"
+				item: "botania:sextant"
+			}]
+			rewards: [{
+				id: "597AE01F4D6E1217"
+				type: "command"
+				title: "稀有植物魔法奖励包"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "世界塑造者之星盘"
+			icon: {
+				id: "botania:astrolabe"
+				Count: 1b
+				tag: { }
+			}
+			x: 6.0d
+			y: -4.0d
+			subtitle: "不见不散"
+			description: [
+				"作为优秀的快速建筑工具，世界塑造者之星盘可以用来放置3x3到11x11的方块，无论是垂直还是水平放置。"
+				""
+				"潜行右击某种方块就可以将其设置为要放置的方块，对着空气按潜行右击可切换要放置方块的平面区域。"
+			]
+			dependencies: ["3F1801BBAF8A29FD"]
+			id: "37F31E4C7664EF8C"
+			tasks: [{
+				id: "1827D26DAD8075A3"
+				type: "item"
+				item: {
+					id: "botania:astrolabe"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "70F6E60195DD9768"
+				type: "command"
+				title: "传奇植物魔法奖励包"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "装饰盔甲架"
+			icon: "minecraft:armor_stand"
+			x: -7.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "装饰界奇迹"
+			description: [
+				"你知道吗，你可以用盔甲架来展示你的饰品？"
+				""
+				"我当时也不知道，但事实上你可以用原版盔甲架来展示一套你在旅行中发现的饰品，让别人对你的房间眼前一亮，或就是正常建造，无论出于储存物品还是装饰的目的。"
+			]
+			id: "48D7E182886BF82F"
+			tasks: [{
+				id: "2FBD22F2EC040B18"
+				type: "checkmark"
+				title: "装饰盔甲架？"
+			}]
+			rewards: [{
+				id: "41939B3A4FB225D7"
+				type: "item"
+				item: {
+					id: "botania:cosmetic_googly_eyes"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "夸克"
+			icon: {
+				id: "quark:trowel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "万金油"
+			description: [
+				"夸克是一个非常庞大的模组，虽然它本该有自己的分区，甚至是主要的建筑分区的一部分，但我们觉得把它作为一个独立的信息任务更合适。虽然要写下夸克模组所提供的一切几乎是不可能的，但下面是这个模组一些亮点，好让跑路的建建筑工更少一些。"
+				""
+				"-装饰性方块：夸克提供了大量的方块，既可以像不同材质的箱子一样手工制作，也可以像刚玉方块一样从世界各地收集。"
+				""
+				"-抹泥铲：手拿泥铲右击时将会随机放置快捷栏中的方块，这对建造废墟和小路很有用。"
+				""
+				"-烧焦藤蔓：使用打火石对藤蔓右击会使藤蔓变成烧焦的藤蔓，这样的藤蔓不会再继续生长。"
+				""
+				"-皮卡镖：右击会将回旋镖投掷出去，它会采掘碰到的方块或对怪物造成伤害，然后带着掉落物再回到你的手中。"
+				""
+				"想要了解更多关于夸克模组学习信息，请访问他们的官方网站。"
+				"链接：https://quarkmod.net/#features"
+			]
+			id: "73696B8EC7BB92C7"
+			tasks: [{
+				id: "5B29C3C71D617D0A"
+				type: "checkmark"
+				title: "夸克"
+			}]
+			rewards: [
+				{
+					id: "1EA35555757745CC"
+					type: "item"
+					item: {
+						id: "quark:trowel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C1C38E52322F619"
+					type: "item"
+					item: "quark:rainbow_rune"
+				}
+			]
+		}
+	]
+}

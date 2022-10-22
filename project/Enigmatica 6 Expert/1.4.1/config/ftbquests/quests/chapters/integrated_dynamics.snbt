@@ -1,0 +1,695 @@
+{
+	id: "529A046A403F6A21"
+	group: "0856CF7F5CBEB20A"
+	order_index: 3
+	filename: "integrated_dynamics"
+	title: "动态联合"
+	icon: "integrateddynamics:crystalized_menril_chunk"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "准备好大大的麻烦！麻烦加倍！"
+			description: [
+				"动态联合是专注于传输物品、流体、FE/RF和数据的模组。"
+				""
+				"动态联合可以解决你的几乎所有自动化问题，从自动矿物处理到读取植物魔法魔力池的魔力值。"
+				""
+				"逻辑编程器、挤压机、烘干池和发电机以外的方块想要运作，就必须通过逻辑线缆互相连接。"
+				""
+				"对于更加复杂的方块，如读取器和写入器，请确保查阅模组的指导书《论动态联合》以完全了解它们。"
+				""
+				"-OneLemonyBoi"
+			]
+			optional: true
+			id: "7E516ACCF6DA5588"
+			tasks: [{
+				id: "581379EDC8E0E1B8"
+				type: "checkmark"
+				title: "欢迎来到动态联合！"
+				icon: "integrateddynamics:on_the_dynamics_of_integration"
+			}]
+			rewards: [{
+				id: "58CE7881F576F9A5"
+				type: "item"
+				item: "integrateddynamics:wrench"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Minecraft的蓝天"
+			description: ["门瑞欧是动态联合中最重要物质之一，它将被用于该模组的几乎每个物品和方块中。首先，你可以通过破坏富脂门瑞欧原木获得门瑞欧。"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "42D9F6E36CF8F06E"
+			tasks: [
+				{
+					id: "721B495113A784A4"
+					type: "item"
+					item: "integrateddynamics:menril_log"
+				}
+				{
+					id: "3DA829AF71F9CEE9"
+					type: "item"
+					item: "integrateddynamics:crystalized_menril_chunk"
+				}
+			]
+			rewards: [{
+				id: "27A45121C7D34FAD"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			subtitle: "保持跳跃！"
+			description: [
+				"它和烘干池应该是你合成的第一批动态联合方块。该方块可用门瑞欧原木制作门瑞欧树脂。然而，需要某人或某物在其上方跳跃数次让机器工作。对挤压机施加红石信号进行重置，以放入下一个物品。"
+				""
+				"已知问题：当你物品栏中有黑盒时无法使用挤压机。"
+			]
+			dependencies: ["42D9F6E36CF8F06E"]
+			optional: true
+			id: "4666E2A199FC676E"
+			tasks: [{
+				id: "53097394003302F7"
+				type: "item"
+				title: "挤压机"
+				icon: "integrateddynamics:squeezer"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:squeezer"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:bucket_menril_resin"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5476A59853122500"
+					type: "item"
+					title: "盔甲架"
+					item: "minecraft:armor_stand"
+				}
+				{
+					id: "1822E8DD1641B839"
+					type: "item"
+					title: "黏液块"
+					item: "minecraft:slime_block"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			subtitle: "比我的冷笑话还干"
+			description: ["它和挤压机，能使门瑞欧的获取变得简单许多。将此方块放在挤压机旁边，挤压机的嘴与其朝向相同。每当一个门瑞欧原木被挤压，出来的门瑞欧树脂就会进入烘干池，并干燥成为门瑞欧结晶块。"]
+			dependencies: ["42D9F6E36CF8F06E"]
+			optional: true
+			id: "510121D501040EA5"
+			tasks: [{
+				id: "6DFFC1D94075DA22"
+				type: "item"
+				title: "烘干池"
+				icon: "integrateddynamics:drying_basin"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:drying_basin"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:crystalized_menril_block"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6FCCEF89844BC6E9"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			subtitle: "烘干，但是更快"
+			description: ["与常规的烘干池相同，但是更快且会消耗RF。"]
+			dependencies: ["510121D501040EA5"]
+			optional: true
+			id: "05C24B4CAB4AC124"
+			tasks: [{
+				id: "4884D5DED8B35CFD"
+				type: "item"
+				title: "电动烘干池"
+				icon: "integrateddynamics:mechanical_drying_basin"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:mechanical_drying_basin"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:crystalized_chorus_block"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2490003809DE5195"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			subtitle: "不再需要跳跃"
+			description: ["和挤压机相同，只不过更快、消耗RF，且不需要玩家在上方跳跃。"]
+			dependencies: ["4666E2A199FC676E"]
+			optional: true
+			id: "5183909586CBC38F"
+			tasks: [{
+				id: "256E9E07904E5A4A"
+				type: "item"
+				title: "电动挤压机"
+				icon: "integrateddynamics:mechanical_squeezer"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:mechanical_squeezer"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:bucket_liquid_chorus"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C49676D6152BAE1"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "流体传输"
+			icon: "minecraft:water_bucket"
+			x: -3.0d
+			y: 0.0d
+			subtitle: "我的水在哪里？"
+			description: ["接下来的三个方块和流体传输有关。"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "0EC4E05346C842DC"
+			tasks: [{
+				id: "50DF9F183B30FD05"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0BACBA6E6F6282A6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "RF传输"
+			icon: {
+				id: "integrateddynamics:energy_battery"
+				Count: 1b
+				tag: {
+					energy: 1000000
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			subtitle: "近乎无限的抛瓦传输。"
+			description: ["接下来的三个方块和RF传输有关。"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "69C09D451357D847"
+			tasks: [{
+				id: "67D84A2961098D39"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "35DB2C6D79D15457"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "物品传输"
+			icon: "minecraft:item_frame"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "美名其曰的漏斗"
+			description: ["接下来的三个方块和物品传输有关。"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "47BF421FFE9A02B6"
+			tasks: [{
+				id: "19A2827522FB5641"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "62AA590D2815B802"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["将此方块与物品存储相连接，使物品在动态联合网络中可见。"]
+			dependencies: ["47BF421FFE9A02B6"]
+			id: "0A50B0D7088492C5"
+			tasks: [{
+				id: "7BF8D228C32BFAA3"
+				type: "item"
+				item: "integratedtunnels:part_interface_item"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			description: ["此方块将物品输入进动态联合网络。"]
+			dependencies: ["47BF421FFE9A02B6"]
+			id: "056D516E5F520ECD"
+			tasks: [{
+				id: "0B8682EB51258EAF"
+				type: "item"
+				item: "integratedtunnels:part_importer_item"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			description: ["此方块从动态联合网络中输出物品。"]
+			dependencies: ["47BF421FFE9A02B6"]
+			id: "6B0199533EB50413"
+			tasks: [{
+				id: "51EFE65BD012FE42"
+				type: "item"
+				item: "integratedtunnels:part_exporter_item"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			description: ["此方块将流体输入进动态联合网络。"]
+			dependencies: ["0EC4E05346C842DC"]
+			id: "4F5F78B1254B6370"
+			tasks: [{
+				id: "4FE15E8CEABF6765"
+				type: "item"
+				item: "integratedtunnels:part_importer_fluid"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: ["将此方块与流体存储相连接，使流体在动态联合网络中可见。"]
+			dependencies: ["0EC4E05346C842DC"]
+			id: "2F25517C899BC435"
+			tasks: [{
+				id: "0A14E33816A8971F"
+				type: "item"
+				item: "integratedtunnels:part_interface_fluid"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			description: ["此方块从动态联合网络中输出流体。"]
+			dependencies: ["0EC4E05346C842DC"]
+			id: "1EE4A5F1220A6405"
+			tasks: [{
+				id: "71B88A271A60F408"
+				type: "item"
+				item: "integratedtunnels:part_exporter_fluid"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["将此方块与能量存储相连接，使能量在动态联合网络中可见。"]
+			dependencies: ["69C09D451357D847"]
+			id: "3813AC7EDF335C11"
+			tasks: [{
+				id: "32F54E29927301E5"
+				type: "item"
+				item: "integratedtunnels:part_interface_energy"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			description: ["此方块将能量输入进动态联合网络。"]
+			dependencies: ["69C09D451357D847"]
+			id: "395AD749713702EB"
+			tasks: [{
+				id: "2DBBB2572F9877D0"
+				type: "item"
+				item: "integratedtunnels:part_importer_energy"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			description: ["此方块将能量从动态联合网络中输出。"]
+			dependencies: ["69C09D451357D847"]
+			id: "62847890633837C8"
+			tasks: [{
+				id: "0EC0C78AE0937396"
+				type: "item"
+				item: "integratedtunnels:part_exporter_energy"
+			}]
+		}
+		{
+			title: "世界输出器"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "投掷器的别名"
+			description: ["这三个方块将物品、流体和RF放置在世界中。"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "629FE9742ED9DA8E"
+			tasks: [{
+				id: "22CA50E3B6CE7873"
+				type: "item"
+				title: "Exporters"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integratedtunnels:part_exporter_world_item"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_exporter_world_fluid"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_exporter_world_energy"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "世界输入器"
+			x: -1.0d
+			y: 2.0d
+			subtitle: "可捡起木棍（或其他任何物品）"
+			description: ["这三个方块从世界中提取物品、流体和RF。"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "0D2453FD06A1207B"
+			tasks: [{
+				id: "4647A50833440DED"
+				type: "item"
+				title: "Importers"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integratedtunnels:part_importer_world_item"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_importer_world_fluid"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_importer_world_energy"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F96D4CC5E668E12"
+				type: "command"
+				title: "矿工快乐包"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			subtitle: "我更喜欢Kindles"
+			description: ["这十个方块可以读取信息，无论红石、方块数据还是实体。"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "39AED68EE6F495B1"
+			tasks: [{
+				id: "3526F3A4F711D7E1"
+				type: "item"
+				title: "读取器"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:part_audio_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_block_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_entity_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_extradimensional_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_fluid_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_inventory_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_machine_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_network_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_redstone_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_world_reader"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "钢笔，而非铅笔"
+			description: ["这四个方块可写入红石、物品栏，输出音频、音乐和粒子效果。"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "61D790A907882415"
+			tasks: [{
+				id: "2BAF749D34AB438F"
+				type: "item"
+				title: "写入器/输出器"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:part_audio_writer"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_effect_writer"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_inventory_writer"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_redstone_writer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "远距离连接"
+			x: -2.0d
+			y: -1.0d
+			subtitle: "这种关系会好起来的"
+			description: [
+				"单向连接器可以将一个动态联合网络直线传输至另一个单向连接器，而不需要一路搭建逻辑线缆。然而，它只可以直线连接至单向连接器。"
+				"全向连接器可以连接至任何其它全向连接器，乃至别的维度的全向连接器。"
+			]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "4C47990454684103"
+			tasks: [{
+				id: "6465225AA0D53CFB"
+				type: "item"
+				title: "方向连接器"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:part_connector_mono_directional"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_connector_omni_directional"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "动态联合之物品管理、合成和自动合成"
+			x: -1.0d
+			y: -2.0d
+			subtitle: "山寨RS"
+			description: [
+				"动态联合可以作为RS的一个代替，它有着许多RS拥有的特性。动态联合可以合成所有你的物品、存储物品、自动合成物品，而且还可以持续合成物品。"
+				""
+				"你可以在存储终端处查看物品、流体和能量。你也可以用动态联合系统中的物品进行合成。你可以将接口附在箱子之类的存储方块上，使其与网络相连，以便向你的系统添加东西。"
+				""
+				"你可以通过合成接口按需自动合成物品。只需创建带有该配方的变量卡，然后将其塞入接口中。如果你想要进行一次常规合成任务，你需要确保接口连接的是工作台。否则，将接口与接收物品的箱子/机器相连。"
+				""
+				"你需要使用合成写入器来持续合成，并且需要创建一个含有已经存在于合成接口中的配方的变量卡。接下来，只需要将变量卡放进合成写入器的合成配方栏位，它就会为你持续合成！"
+			]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "020DD2A8A7FA170B"
+			tasks: [
+				{
+					id: "51EBE9CB057981DB"
+					type: "item"
+					item: "integratedterminals:part_terminal_storage"
+				}
+				{
+					id: "24FC2D0BFBF84232"
+					type: "item"
+					item: "integratedterminals:part_terminal_crafting_job"
+				}
+				{
+					id: "4FF70CD62E232768"
+					type: "item"
+					item: "integratedcrafting:part_interface_crafting"
+				}
+				{
+					id: "5479E812F182F318"
+					type: "item"
+					item: "integratedcrafting:part_crafting_writer"
+				}
+			]
+			rewards: [{
+				id: "182ED3A3806D1D78"
+				type: "command"
+				title: "矿工快乐包"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			subtitle: "植物魔法现在是科技模组了？"
+			description: ["该方块可以从方块读取器获得的NBT中提取指定的NBT数据。这可以用来查询魔力池中魔力的大小。"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "11A8433289EFF772"
+			tasks: [{
+				id: "35A5BE48B97046AD"
+				type: "item"
+				item: "integratednbt:nbt_extractor"
+			}]
+			rewards: [{
+				id: "03B350B9FF56379D"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Minecraft：变身为玩家"
+			description: ["和名字所示一样，它会执行诸如使用物品点击一类的玩家行为。"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "0AD26267625F46D8"
+			tasks: [{
+				id: "2C36F7C1789E5E61"
+				type: "item"
+				item: "integratedtunnels:part_player_simulator"
+			}]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "合成辅助",
+    "icon": "minecraft:crafting_table",
+    "category": "patchouli:tweaks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "你或许已经发现打开的工作台多了一些按钮。$(#ffa500)$(l)Crafting Tweaks$(reset)提供了一些实用功能来玩转工作台：$(l)最顶上的按钮$(reset)会将合成网格里的配方旋转，$(l)中间的按钮$(reset)会将配方中的物品平均分配，$(l)底下的按钮$(reset)则会把合成网格里的所有物品放回你的物品栏。"
+        },
+        {
+            "type": "text",
+            "text": "不仅如此，按住 Shift 键再点击平均分配按钮你还可以将一组物品平均分配到整个合成网格中，右击合成结果槽将会合成一整组物品，还有一个把物品压缩成他的3x3或是2x2配方的快捷键绑定。"
+        }
+    ]
+}
