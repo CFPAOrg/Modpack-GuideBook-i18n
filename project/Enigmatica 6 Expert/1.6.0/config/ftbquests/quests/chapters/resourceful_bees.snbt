@@ -1,0 +1,976 @@
+{
+	id: "000000000000070D"
+	group: "5A8B89F87F77CF4C"
+	order_index: 8
+	filename: "resourceful_bees"
+	title: "缤纷蜜蜂"
+	icon: "minecraft:honeycomb"
+	subtitle: ["盘中蜂"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "蜂巢"
+			x: -11.0d
+			y: -18.0d
+			subtitle: "名副其实的养蜂人，请照管好你的蜜蜂！"
+			description: [
+				"蜂巢是蜜蜂最基本的居住环境。虽然它们没有物品栏，但可以通过蜂箱升级在世界中进行升级，从而使你能够更好地控制蜜蜂的数量和产出。"
+				""
+				"注：无论蜂巢中的蜜蜂类型如何，它都只能生产标准蜜脾。"
+			]
+			dependencies: ["0000000000000A94"]
+			id: "000000000000070E"
+			tasks: [{
+				id: "77E4B4652B2EF7F1"
+				type: "item"
+				title: "任意蜂巢"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beehives"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000711"
+					type: "item"
+					title: "空蜂罐"
+					item: "resourcefulbees:bee_jar"
+					count: 4
+				}
+				{
+					id: "0000000000000B08"
+					type: "item"
+					title: "蜂蜜曲奇"
+					item: "farmersdelight:honey_cookie"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "二级蜜蜂"
+			icon: "resourcefulbees:gold_honeycomb"
+			x: -9.0d
+			y: -17.0d
+			subtitle: "蜂不可貌相"
+			description: [
+				"二级蜜蜂是通过蜜蜂之间的繁殖获得的，通过给蜜蜂所需的物品触发繁殖。"
+				""
+				"有关特定蜜蜂的更多信息，请查阅蜜蜂百科。"
+			]
+			dependencies: ["0000000000000714"]
+			id: "0000000000000712"
+			tasks: [{
+				id: "0000000000000713"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0000000000000B12"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "一级蜜蜂"
+			icon: "minecraft:honeycomb"
+			x: -10.0d
+			y: -16.5d
+			subtitle: "它的好只是空穴来蜂"
+			description: [
+				"一级蜜蜂会在世界上自然繁殖，是所有其他种类蜜蜂的“建筑蜂”。"
+				""
+				"提示：蜜蜂百科会显示蜜蜂是否自然生成，以及所生成在的生物群落。"
+			]
+			dependencies: ["0000000000000A94"]
+			id: "0000000000000714"
+			tasks: [{
+				id: "0000000000000715"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0000000000000B11"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "蜜蜂突变"
+			icon: "resourcefulbees:bee_jar"
+			x: -13.0d
+			y: -16.5d
+			subtitle: "医生说这种概率是万蜂挑一"
+			description: [
+				"虽然蜜蜂育种只需为蜜蜂提供必要的育种物品，但要成为一名经验丰富的养蜂人，你应该学会如何在基因水平上诱导蜜蜂发生突变。"
+				""
+				"有关你的蜜蜂及其能力的更多信息，请查看蜜蜂百科。"
+			]
+			dependencies: ["0000000000000A94"]
+			id: "0000000000000716"
+			tasks: [{
+				id: "0000000000000717"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0000000000000B09"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "三级蜜蜂"
+			icon: "resourcefulbees:diamond_honeycomb"
+			x: -8.0d
+			y: -17.0d
+			subtitle: "一窝不可忽视的力量"
+			description: ["三级蜜蜂是通过实体或物品突变获得的。它们通常由将一只蜜蜂突变为另一只，或将一些材料突变为刷怪蛋创造而成。查看蜜蜂百科以了解详细信息。"]
+			dependencies: ["0000000000000712"]
+			id: "0000000000000718"
+			tasks: [{
+				id: "0000000000000719"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0000000000000B13"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: -18.0d
+			subtitle: "别在大庭广众下发蜂"
+			description: [
+				"当升级在蜂巢上使用时（Shift右击），可使蜂巢升级到下一级。蜂巢的等级越高，它能容纳更多蜜蜂、运行得更快，产出也更多。升级需要按顺序安装——你不能跳级。"
+				""
+				"注：升级的蜂巢可以产出模组蜜脾，这些蜜脾可以进一步处理以获取资源。"
+			]
+			dependencies: ["000000000000070E"]
+			id: "0000000000000723"
+			tasks: [{
+				id: "0000000000000724"
+				type: "item"
+				item: "resourcefulbees:t1_hive_upgrade"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "0000000000000B14"
+				type: "item"
+				title: "蜜脾"
+				item: "minecraft:honeycomb"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: -9.0d
+			y: -18.0d
+			subtitle: "蜂巢的好处让蜂难以置信"
+			dependencies: ["0000000000000723"]
+			id: "0000000000000727"
+			tasks: [{
+				id: "000000000000072A"
+				type: "item"
+				item: "resourcefulbees:t2_hive_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000766"
+				type: "item"
+				title: "蜜脾块"
+				item: "minecraft:honeycomb_block"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "原版蜜蜂机制"
+			icon: "minecraft:bee_nest"
+			x: -12.5d
+			y: -15.0d
+			subtitle: "生存亦或死亡，养蜂还是灭蜂"
+			description: [
+				"原版蜜蜂和模组蜜蜂都会在它们喜欢的生物群系和维度中徘徊。"
+				""
+				"花足够长的时间观察蜜蜂，你就会注意到，在它们飞出去给周围区域授粉后，最终会回到它们的蜂巢/蜂箱，开始制作蜂蜜。"
+				""
+				"从蜂巢/蜂箱中滴落和溢出的蜂蜜是其可以收获的直观指示。但不要太着急！要想不激怒你的蜜蜂伙伴，就必须用适当的工具来收获这种金色甜品！"
+				""
+				"你可以在蜂巢/蜂箱下面放置营火，也可以用烟熏器来避免惹恼里面的嗡嗡居民。"
+				""
+				"用空玻璃瓶右击的蜂巢/蜂箱，就可以获得蜂蜜瓶。"
+				""
+				"用剪刀或刮刀（用于分级蜂箱）右击蜂巢/蜂箱，可以收集蜜脾。"
+			]
+			dependencies: ["0000000000000A94"]
+			id: "0000000000000874"
+			tasks: [{
+				id: "0000000000000875"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0000000000000B06"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "缤纷蜜蜂"
+			x: -11.5d
+			y: -16.5d
+			shape: "gear"
+			subtitle: "对。这里会有很多蜜之双关"
+			description: [
+				"缤纷蜜蜂是一种新的资源产出方式，利用了Minecraft中引入的最新实体之一：我们的嗡嗡小朋友，蜜蜂。"
+				""
+				"此任务线解释了一些正确养蜂、突变、资源提取和蜜蜂/蜂箱等级一类的基本知识。"
+				""
+				"你从这个任务中获得的蜜蜂百科是你的缤纷蜜蜂指南——它通常是你获取蜜蜂繁殖、突变、特征等信息的最佳来源。"
+				""
+				"~Ridanisaurus"
+				"~出现任何问题请责怪TemperedFool"
+			]
+			dependencies: ["46B0BAD934FFB2A9"]
+			id: "0000000000000A94"
+			tasks: [{
+				id: "0000000000000A95"
+				type: "checkmark"
+				title: "Checkmark"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6DA6F6AC7E54E2C9"
+					type: "item"
+					title: "空蜂罐"
+					item: "resourcefulbees:bee_jar"
+					count: 8
+				}
+				{
+					id: "0C1504955F2C86AD"
+					type: "item"
+					title: "蜜蜂百科"
+					item: "resourcefulbees:beepedia"
+				}
+			]
+		}
+		{
+			title: "蜜脾"
+			x: -10.5d
+			y: -15.0d
+			subtitle: "用蜜脾做最巢流的发型"
+			description: ["蜜脾是养蜂的副产品，可以从蜂箱和蜂巢中收获。稍后它可以在离心机中被处理成蜂蜜、蜡和大量其他资源。"]
+			dependencies: ["0000000000000A94"]
+			id: "0000000000000A97"
+			tasks: [{
+				id: "0000000000000A98"
+				type: "item"
+				title: "任意$resourceful_honeycomb"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "resourcefulbees:resourceful_honeycomb"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000B04"
+					type: "item"
+					title: "剪刀"
+					item: {
+						id: "minecraft:shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000B05"
+					type: "command"
+					title: "农夫快乐包"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -15.0d
+			subtitle: "是时候紧锣蜜鼓地生产了"
+			description: [
+				"这是一种入门级的离心机，可使玩家手动将蜜脾转化为副产品。潜行+右击机器进行处理。"
+				""
+				"注：储存液态蜂蜜需要空玻璃瓶。"
+			]
+			dependencies: ["0000000000000A97"]
+			id: "0000000000000A99"
+			tasks: [{
+				id: "0000000000000A9A"
+				type: "item"
+				item: "resourcefulbees:mechanical_centrifuge"
+			}]
+			rewards: [{
+				id: "0000000000000B03"
+				type: "command"
+				title: "稀有缤纷蜜蜂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "电力离心机"
+			x: -8.5d
+			y: -15.0d
+			subtitle: "通电后嗡嗡的响"
+			description: [
+				"现在，你已经尝到了美味的蜂蜜，是时候抛开能让人累蜂的手工操作，转向嗡嗡作响的自动化了。隆重介绍全新改进的离心机：非常适合提取我们嗡嗡朋友们积累的金色好东西。"
+				""
+				"离心机以能量为代价提高了蜜脾处理的效率。"
+			]
+			dependencies: ["0000000000000A99"]
+			id: "0000000000000A9B"
+			tasks: [{
+				id: "0000000000000A9C"
+				type: "item"
+				item: "resourcefulbees:centrifuge"
+			}]
+			rewards: [{
+				id: "0000000000000B02"
+				type: "command"
+				title: "史诗缤纷蜜蜂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "多方块离心机"
+			x: -7.5d
+			y: -15.0d
+			subtitle: "现在我们飞入正轨了"
+			description: [
+				"你知道有这么一句话：要么出众，要么出局。没有比这更出众的了。有了蜜脾处理的基础知识，是时候把它升到顶并扩大生产规模了。"
+				""
+				"虽然多方块离心机需要合成更多材料并占用更多空间，但在你意识到之前，它会为自己买单。除了标准蜜脾和多个输入物品外，它还能够处理蜜脾块。"
+				""
+				"一旦你收集完所需的方块，你就可以使用《五十度蜂》一书来可视化结构，以帮助你正确地放置方块。"
+			]
+			dependencies: ["0000000000000A9B"]
+			id: "0000000000000A9D"
+			tasks: [
+				{
+					id: "0000000000000A9E"
+					type: "item"
+					item: "resourcefulbees:centrifuge_controller"
+				}
+				{
+					id: "0000000000000AC6"
+					type: "item"
+					item: "resourcefulbees:centrifuge_casing"
+					count: 35L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000AF9"
+					type: "command"
+					title: "传奇缤纷蜜蜂战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "0000000000000AFA"
+					type: "item"
+					title: "史诗奥利奥"
+					item: "resourcefulbees:oreo_cookie"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -21.0d
+			subtitle: "我们之间存在甜蜜关系，不只是你的身上的毒刺"
+			dependencies: ["0000000000000AAC"]
+			id: "0000000000000A9F"
+			tasks: [{
+				id: "0000000000000AA0"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000B1C"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: -8.0d
+			y: -18.0d
+			subtitle: "只有蜂品最好的蜜蜂才能进入蜂箱酿蜜"
+			dependencies: ["0000000000000727"]
+			id: "0000000000000AA6"
+			tasks: [{
+				id: "0000000000000AA7"
+				type: "item"
+				item: "resourcefulbees:t3_hive_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000B15"
+				type: "item"
+				title: "蜂蜜块"
+				item: "minecraft:honey_block"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: -7.0d
+			y: -18.0d
+			subtitle: "蜂生中从未有过这种感觉"
+			dependencies: ["0000000000000AA6"]
+			id: "0000000000000AA8"
+			tasks: [{
+				id: "0000000000000AA9"
+				type: "item"
+				item: "resourcefulbees:t4_hive_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000B17"
+					type: "item"
+					title: "蜜汁火腿"
+					item: "farmersdelight:honey_glazed_ham"
+					random_bonus: 2
+				}
+				{
+					id: "0000000000000B18"
+					type: "item"
+					title: "蜂蜜瓶"
+					item: "minecraft:honey_bottle"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "0000000000000C0A"
+					type: "command"
+					title: "炼金术士快乐包"
+					icon: "kubejs:alchemists_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -20.5d
+			subtitle: "管好你的蜜蜂"
+			description: [
+				"此方块可使你访问多方块蜂场和蜂场培育器的输出。它还可以与其他物流自动化手段交互。"
+				""
+				"储存容量也可以通过“储存器升级”进行升级。"
+			]
+			dependencies: ["0000000000000AB8"]
+			id: "0000000000000AAA"
+			tasks: [{
+				id: "0000000000000AAB"
+				type: "item"
+				item: "resourcefulbees:apiary_storage"
+			}]
+			rewards: [
+				{
+					id: "0000000000000B1E"
+					type: "command"
+					title: "矿工快乐包"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+				{
+					id: "0000000000000B1F"
+					type: "item"
+					title: "史诗奥利奥"
+					item: "resourcefulbees:oreo_cookie"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -20.5d
+			subtitle: "蜂房花烛夜"
+			description: [
+				"为此方块提供所需的材料后，它可以使你在蜂罐中繁殖蜜蜂，来触发繁殖状态，并可以在空蜂罐中容纳产出的蜜蜂。"
+				""
+				"还可以通过蜂场储存器访问输出，以实现进一步的自动化。"
+				""
+				"附加的升级可以减少所需时间并增加额外的繁殖栏位，帮助加快繁殖过程。"
+			]
+			dependencies: ["0000000000000AB8"]
+			id: "0000000000000AAC"
+			tasks: [{
+				id: "0000000000000AAD"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder"
+			}]
+			rewards: [
+				{
+					id: "0000000000000B1A"
+					type: "command"
+					title: "法师快乐包"
+					icon: "kubejs:sorcerers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+					player_command: false
+				}
+				{
+					id: "0000000000000B1B"
+					type: "item"
+					title: "蜂蜜曲奇"
+					item: "farmersdelight:honey_cookie"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -20.0d
+			subtitle: "雄蜂是如此浪漫，它与所有的雌蜂都保持着爱的花粉"
+			dependencies: ["0000000000000AAC"]
+			id: "0000000000000AAE"
+			tasks: [{
+				id: "0000000000000AAF"
+				type: "item"
+				item: "resourcefulbees:apiary_breed_time_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000B1D"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: -8.5d
+			y: -20.5d
+			subtitle: "更多等待蜂满的空间"
+			dependencies: ["0000000000000AAA"]
+			id: "0000000000000AB0"
+			tasks: [{
+				id: "0000000000000AB1"
+				type: "item"
+				item: "resourcefulbees:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000B20"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.5d
+			y: -20.5d
+			subtitle: "蜜蜂的金色"
+			dependencies: ["0000000000000AB0"]
+			id: "0000000000000AB2"
+			tasks: [{
+				id: "0000000000000AB3"
+				type: "item"
+				item: "resourcefulbees:gold_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000B21"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "0000000000000B26"
+					type: "item"
+					title: "蜜汁火腿"
+					item: "farmersdelight:honey_glazed_ham"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -20.5d
+			subtitle: "最好为寒蜂凌冽的冬天做足准备"
+			dependencies: ["0000000000000AB2"]
+			id: "0000000000000AB4"
+			tasks: [{
+				id: "0000000000000AB5"
+				type: "item"
+				item: "resourcefulbees:diamond_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000B22"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0000000000000C0C"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -20.5d
+			subtitle: "维护等级：Bee+"
+			dependencies: ["0000000000000AB4"]
+			id: "0000000000000AB6"
+			tasks: [{
+				id: "0000000000000AB7"
+				type: "item"
+				item: "resourcefulbees:emerald_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000B23"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "0000000000000C0D"
+					type: "command"
+					title: "农夫快乐包"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -19.5d
+			subtitle: "是时候和新邻居交蜜友了"
+			description: [
+				"蜂场是基于等级的多方块结构，可以容纳9只独特的蜜蜂，并为我们的嗡嗡朋友提供一个安全的封闭环境，让它们茁壮成长，产出我们的资源。蜂场的等级越高，产出的产物就越多，速度也越快。"
+				""
+				"蜂场还可以容纳2个其他功能方块（蜂场储存器和蜂场培育器）作为其结构的一部分。请查阅相应的任务以获取更多有关信息。"
+				""
+				"请查阅你的《五十度蜂》，以获取关于蜂场的更多详细信息，并将结构可视化，这将有助于你构建蜂场。"
+				""
+			]
+			dependencies: ["0000000000000AA8"]
+			id: "0000000000000AB8"
+			tasks: [{
+				id: "0000000000000AB9"
+				type: "item"
+				item: "resourcefulbees:t1_apiary"
+			}]
+			rewards: [
+				{
+					id: "0000000000000B00"
+					type: "item"
+					title: "蜜脾"
+					item: "minecraft:honeycomb"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "0000000000000B01"
+					type: "item"
+					title: "蜂蜜瓶"
+					item: "minecraft:honey_bottle"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "0000000000000B19"
+					type: "item"
+					title: "蜜脾块"
+					item: "minecraft:honeycomb_block"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "0000000000000C0B"
+					type: "command"
+					title: "拾荒者快乐包"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -19.5d
+			subtitle: "别拿花粉开我玩笑"
+			dependencies: ["0000000000000AB8"]
+			id: "0000000000000ABA"
+			tasks: [{
+				id: "0000000000000ABB"
+				type: "item"
+				item: "resourcefulbees:t2_apiary"
+			}]
+			rewards: [{
+				id: "0000000000000AFE"
+				type: "command"
+				title: "稀有缤纷蜜蜂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -9.0d
+			y: -19.5d
+			subtitle: "蜜蜂罢工是因为它们想要花更少的时间工作，获得更多的蜜"
+			dependencies: ["0000000000000ABA"]
+			id: "0000000000000ABC"
+			tasks: [{
+				id: "0000000000000ABD"
+				type: "item"
+				item: "resourcefulbees:t3_apiary"
+			}]
+			rewards: [{
+				id: "0000000000000AFD"
+				type: "command"
+				title: "史诗缤纷蜜蜂战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.0d
+			y: -19.5d
+			subtitle: "幽Bee恐怖症加剧"
+			dependencies: ["0000000000000ABC"]
+			id: "0000000000000ABE"
+			tasks: [{
+				id: "0000000000000ABF"
+				type: "item"
+				item: "resourcefulbees:t4_apiary"
+			}]
+			rewards: [
+				{
+					id: "0000000000000AFB"
+					type: "command"
+					title: "传奇缤纷蜜蜂战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "0000000000000AFC"
+					type: "item"
+					title: "史诗奥利奥"
+					item: "resourcefulbees:oreo_cookie"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "基于方块的突变"
+			x: -13.73979591836735d
+			y: -16.484693877551017d
+			subtitle: "伯乐眼里出好蜂"
+			description: [
+				"某些类型的蜜蜂只要满足要求，并且能够在这些方块附近飞行，就有能力将方块突变成其他方块。"
+				""
+				"范例：如果一只铁蜜蜂返回蜂巢/蜂箱时经过了石头，它就可以将其突变为铁矿石。"
+			]
+			dependencies: ["0000000000000716"]
+			id: "0000000000000AC0"
+			tasks: [{
+				id: "0000000000000B0D"
+				type: "checkmark"
+				title: "基于方块的突变"
+				icon: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "0000000000000B0E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "基于流体的突变"
+			x: -13.372448979591837d
+			y: -15.811224489795919d
+			subtitle: "需要喝水的蜜蜂叫什么？蜜水混合物"
+			description: [
+				"某些类型的蜜蜂有能力将方块突变为流体，反之亦然。只要它们满足要求，并且能够在这些方块/流体附近飞行。"
+				""
+				"范例：如果黑曜石蜜蜂飞过熔岩返回蜂巢/蜂箱，它可以将其突变为黑曜石。"
+			]
+			dependencies: ["0000000000000716"]
+			id: "0000000000000AC2"
+			tasks: [{
+				id: "0000000000000B0F"
+				type: "checkmark"
+				title: "基于流体的突变"
+				icon: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "0000000000000B10"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "基于实体的突变"
+			x: -13.372448979591837d
+			y: -17.158163265306122d
+			subtitle: "大恶蜂"
+			description: [
+				"某些类型的蜜蜂有能力将实体突变成其他实体，只要它们满足要求，并且能够飞近这些实体。"
+				""
+				"示例：如果烈焰蜜蜂返回蜂巢/蜂箱时靠近了苦力怕蜜蜂，它可以将其变异为恶魂蜜蜂。"
+			]
+			dependencies: ["0000000000000716"]
+			id: "0000000000000AC4"
+			tasks: [{
+				id: "0000000000000B0A"
+				type: "checkmark"
+				title: "基于实体的突变"
+				icon: "minecraft:pufferfish_spawn_egg"
+			}]
+			rewards: [{
+				id: "0000000000000B0C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.5d
+			y: -15.0d
+			subtitle: "罐·罐·Bee克斯"
+			description: ["用空蜂罐右击一只蜜蜂，就可以将其捕捉到里面。"]
+			dependencies: ["0000000000000A94"]
+			id: "24D88FC1C6DCE052"
+			tasks: [{
+				id: "57CDAF18A5A66D82"
+				type: "item"
+				item: "resourcefulbees:bee_jar"
+			}]
+			rewards: [{
+				id: "7ECD253B38639D34"
+				type: "item"
+				title: "空蜂罐"
+				item: "resourcefulbees:bee_jar"
+				count: 2
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -11.5d
+			y: -14.0d
+			subtitle: "嗡技"
+			description: [
+				"使用方法与蜂罐相同。"
+				""
+				"一次最多可以运输10只蜜蜂。"
+				""
+				"当使用含有蜜蜂的蜂箱或蜂场合成升级蜂箱或蜂场时，也会得到蜂盒。"
+			]
+			dependencies: ["24D88FC1C6DCE052"]
+			id: "2F7254D5AD380CB4"
+			tasks: [{
+				id: "78200ABCDC11BF2F"
+				type: "item"
+				item: "resourcefulbees:bee_box"
+			}]
+			rewards: [{
+				id: "4D2AFDFEAA880455"
+				type: "command"
+				title: "稀有缤纷蜜蜂战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "蜜蜂合成"
+			icon: {
+				id: "resourcefulbees:bee_jar"
+				Count: 1b
+				tag: {
+					BeeType: "enderslime"
+					Entity: "resourcefulbees:enderslime_bee"
+					Color: "#C75EFF"
+				}
+			}
+			x: -9.0d
+			y: -16.0d
+			subtitle: "合成是通往许多能力的途径，有些人认为它……非自然。"
+			description: ["虽然大多数蜜蜂是自然生成、繁殖或突变的，但也有可以被合成。查看蜜蜂百科和JEI以了解详细信息，请特别关注刷怪蛋和蜂罐。"]
+			dependencies: ["0000000000000714"]
+			id: "307E22ADC2DB4EB8"
+			tasks: [{
+				id: "362C63F136B07060"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4FB651D2A18E0A02"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "特殊蜜脾"
+			icon: "resourcefulbees:mana_honeycomb"
+			x: -10.0d
+			y: -14.0d
+			description: ["有些蜜不能在离心机中处理，或者最好在其他地方使用。如有疑问，请查看JEI。"]
+			dependencies: ["0000000000000A97"]
+			id: "1DFA48325FD10EE9"
+			tasks: [{
+				id: "3D810B866704DE92"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0BC7625BD64FD174"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "minecraft:honeycomb"
+			x: -12.5d
+			y: -18.0d
+			subtitle: "蜂水有变！"
+			description: [
+				"缤纷蜜蜂的发展流程在E6的0.5.16版本有所改动。"
+				""
+				"分级蜂箱不再可以被合成，也不作为蜂场配方的一部分。取而代之的是，通过世界生成的蜂巢获取初始的蜜脾，而蜂巢和四级蜂巢升级都可用于蜂房配方。"
+				""
+				"要升级这些蜂巢，你可以在世界中使用蜂巢升级。任务现在反映了这一变化。"
+				""
+				"在世界中升级的蜂巢可以代替配方中的蜂巢升级；此外，你可以将蜂巢转化为同级的蜂巢升级。"
+			]
+			optional: true
+			id: "46B0BAD934FFB2A9"
+			tasks: [{
+				id: "4DBF1905A99D474C"
+				type: "checkmark"
+				title: "蜂箱改动"
+			}]
+			rewards: [{
+				id: "214D29C16AA98E43"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "FTB 连锁破坏",
+    "icon": "minecraft:diamond_pickaxe",
+    "category": "patchouli:tweaks",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "在模组 MC 中，你经常需要一次性地挖掘大量重复的方块，比如一个巨大的矿脉，一栋你不想要的建筑或是一大片石头。我在此向你隆重介绍$(#ffa500)$(l)FTB Ultimine$(reset)！这个模组的家族历史十分久远，所以你也许知道它和$(l)矿脉矿工$(reset)或是$(l)矿石挖掘$(reset)拥有一样的功能。"
+        },
+        {
+            "type": "text",
+            "text": "$(l)按住$(k:ftbultimine)键启用连锁破坏$(reset)。 你现在应该看见一块被你选中的区域：相互连接同类型的方块会被高亮显示。如果此时你用正确的工具破坏他们，$(l)所有被选中的方块将会被同时破坏$(reset)，并且消耗一些你的饱食度。亲自试试看，但是小心别一个连锁毁了你的家！"
+        }
+    ]
+}

@@ -1,0 +1,2829 @@
+{
+	id: "00000000000000A5"
+	group: "72A9465344128AF9"
+	order_index: 3
+	filename: "mekanism"
+	title: "通用机械"
+	icon: "mekanism:alloy_atomic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "通用机械"
+			x: 3.5d
+			y: -3.5d
+			shape: "gear"
+			description: [
+				"通用机械是一款以科幻为主题的技术模组，强调极端，它专注于生产效率，无论是以增加矿石产量，还是以先进的聚变反应堆为基地提供动力为形式。"
+				""
+				"它的系统确实旨在实现一定程度的现实主义，并在实现更好的游戏体验的过程中做出一定的让步。在该模组背景下，玩家需要掌握发电、管理热量和辐射，同时寻找最高效率的路径。"
+				""
+				"除了这些任务，游戏中没有通用机械的指南。然而，你可以在这里找到一个非常全面的官方维基："
+				""
+				"https://wiki.aidancbrady.com"
+				""
+				"~MuteTiefling"
+			]
+			optional: true
+			id: "00000000000006A1"
+			tasks: [{
+				id: "00000000000006A2"
+				type: "checkmark"
+				icon: "mekanism:teleportation_core"
+			}]
+			rewards: [{
+				id: "0000000000000CAE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "材料加工"
+			icon: "mekanism:alloy_infused"
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"如前所述，通用机械在整个模组保持着对效率的高度关注。随着机器的升级和更多系统的到位，它们变得更加高效、高产，运行成本也更低。"
+				""
+				"在一开始就注重效率，从长远来看最终会有回报。"
+			]
+			dependencies: ["00000000000006A1"]
+			id: "00000000000006A5"
+			tasks: [{
+				id: "00000000000006A6"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "00000000000006CD"
+				type: "item"
+				title: "配置器"
+				item: {
+					id: "mekanism:configurator"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "60000"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "高级发电"
+			icon: "engineersdecor:sign_hotwire"
+			x: 5.5d
+			y: -1.5d
+			description: [
+				"到目前为止，那台小型燃气发电机可能还不错。有人认为它足够了，这是可以原谅的。"
+				""
+				"某些高端工艺需要目前我们无法触及的物质，而获取这些物质将需要极大的能量。"
+				""
+				"接下来的任务将引导你完成建造裂变反应堆的过程，用工业蒸汽涡轮利用其能量，最后将废物处理并转化为更有用的东西。"
+				""
+				"注：任务继续前必须完成燃气发电机的任务。"
+			]
+			dependencies: [
+				"00000000000006A1"
+				"00000000000006B4"
+			]
+			id: "00000000000006A7"
+			tasks: [{
+				id: "00000000000006A8"
+				type: "checkmark"
+				title: "高级发电"
+			}]
+			rewards: [{
+				id: "0000000000000817"
+				type: "item"
+				title: "盖革计数器"
+				item: "mekanism:geiger_counter"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "银坩埚"
+			description: [
+				"热力发电机是一种多功能装置，在早期作为动力源时很有用。"
+				""
+				"首先，用流动或其他形式的熔岩包围热力发电机。方块本身也可能是“含熔岩”，就好像含水楼梯或台阶一样。与熔岩接触的面越多，产生能量的速度就越快。"
+				""
+				"固体燃料也可以被送入该装置，在那里转化为熔岩并“燃烧”以获取能量。将被动和主动发电方法相结合将产生比单独使用任何一种方法都要大的电力。"
+				""
+				"最后，该设备产生的熔岩也可以用任何类型的流体管道从底部提取，这使得这台机器成为你手边一台有价值的机器。"
+			]
+			dependencies: ["00000000000006BA"]
+			id: "00000000000006AF"
+			tasks: [{
+				id: "00000000000006B0"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [
+				{
+					id: "000000000000080D"
+					type: "item"
+					title: "煤炭块"
+					item: "minecraft:coal_block"
+					count: 32
+				}
+				{
+					id: "0000000000000CAA"
+					type: "item"
+					title: "高级能量立方"
+					item: "mekanism:advanced_energy_cube"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			subtitle: "100%不会致癌"
+			description: [
+				"熔岩会使东西着火向，有些人不愿意这种事发生。热力发电机的升级，还有风力发电机。"
+				""
+				"即使在海平面上，它的发电量也远远超过了热力发电机的被动模式，然而，将其放置在世界上更高的位置可以产生更多的能量。"
+			]
+			dependencies: ["00000000000006AF"]
+			id: "00000000000006B1"
+			tasks: [{
+				id: "00000000000006B2"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+			rewards: [
+				{
+					id: "000000000000080E"
+					type: "command"
+					title: "稀有通用机械战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000864"
+					type: "item"
+					title: "基础通用线缆"
+					item: "mekanism:basic_universal_cable"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			subtitle: "可怕的效率"
+			description: [
+				"燃气发电机主要燃烧乙烯以产生能量，但也可用于燃烧多余的氢气。氢气本身不会产生净功率增益，而是作为一种有用的储能介质。"
+				""
+				"警告：Enigmatica-6降低了乙烯的效率。它的生产速度变得更慢，成本更高，导致总功率增益更平衡。然而，乙烯保持了它的高能量密度和燃烧速率，因此它是一种极好的爆发能源。"
+			]
+			dependencies: [
+				"00000000000006B1"
+				"00000000000006C3"
+			]
+			id: "00000000000006B3"
+			tasks: [{
+				id: "00000000000006B4"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+			rewards: [{
+				id: "00000000000007D2"
+				type: "item"
+				title: "量子传送装置"
+				item: "mekanism:quantum_entangloporter"
+				count: 2
+			}]
+		}
+		{
+			title: "能量输导矩阵"
+			icon: "mekanism:basic_induction_cell"
+			x: 4.5d
+			y: 1.0d
+			subtitle: "没有汤勺"
+			description: [
+				"能量立方在储存能量方面做得不错，但在处理裂变反应堆的输出时，它们太有限了。能量输导矩阵提供了更高的能量密度和更大的吞吐量。为接下来的步骤建立能量缓冲也可能是一个谨慎的想法。"
+				"" 
+				"能量输导矩阵是一个形态比较自由的多方块结构，可以为3x3x4到18x18x18的任何长方体。"
+				""
+				"它由输导供应器、输导元件、输导外壳和输导端口组成。侧面也可以由结构玻璃制成，但边缘必须由输导外壳制成。内部也不需要填充，因此可以建造更大的外壳以适应未来的扩展。"
+			]
+			dependencies: ["0000000000000709"]
+			id: "00000000000006B5"
+			tasks: [
+				{
+					id: "00000000000006B6"
+					type: "item"
+					item: "mekanism:induction_casing"
+					count: 40L
+				}
+				{
+					id: "00000000000006B7"
+					type: "item"
+					item: "mekanism:induction_port"
+					count: 2L
+				}
+				{
+					id: "0000000000000707"
+					type: "item"
+					item: "mekanism:advanced_induction_cell"
+				}
+				{
+					id: "0000000000000708"
+					type: "item"
+					item: "mekanism:advanced_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000705"
+					type: "item"
+					title: "高级疏导元件"
+					item: "mekanism:advanced_induction_cell"
+				}
+				{
+					id: "000000000000086B"
+					type: "command"
+					title: "史诗通用机械战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "基础发电"
+			icon: "mekanism:advanced_energy_cube"
+			x: -2.5d
+			y: -2.0d
+			description: ["将红石粉放入通用机械机器的能量栏位可以直接独立发电，但这样浪费且低效。下列任务将有助于建立和运行基本的电力基础设施，使你的基地保持生产。"]
+			dependencies: ["00000000000006A1"]
+			id: "00000000000006BA"
+			tasks: [{
+				id: "00000000000006BB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "00000000000006CC"
+				type: "item"
+				title: "网络读取器"
+				item: {
+					id: "mekanism:network_reader"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "60000"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "高级冶金学"
+			description: [
+				"一旦基本的电力基础设施得到解决，下一个最重要的机器就是冶金灌注机。有了它，就可以创造模组中的钢和所有其他各种合金。"
+				""
+				"考虑制作多个灌注机，每种类型各一个。为单个灌注机实现所有灌注类型的自动化是完全可能的，但需要花很多努力，还比独立的处理线慢。"
+			]
+			dependencies: ["00000000000006A5"]
+			id: "00000000000006BD"
+			tasks: [{
+				id: "00000000000006BE"
+				type: "item"
+				title: "冶金灌注机"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:metallurgic_infuser"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_infusing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_infusing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_infusing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_infusing_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000816"
+					type: "command"
+					title: "稀有通用机械战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000860"
+					type: "item"
+					title: "钢制机壳"
+					item: "mekanism:steel_casing"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			subtitle: "密室死斗"
+			description: [
+				"进一步的发展通常需要合金，但如果不付出一点额外的努力，它们的制造成本可能会非常高。富集仓就派上了用场。"
+				""
+				"在富集仓中处理过的矿石将会有双倍的产出。"
+				""
+				"此外，放入诸如红石、煤炭之类的东西将产出其富集变体，这些变体在冶金灌注机中会更有价值。"
+				""
+				"比方说，一个红石可以制作一个灌注合金，而一个富集红石可以制成八个灌注合金。因此，富集这些物品是非常值得的。"
+			]
+			dependencies: ["00000000000006BD"]
+			id: "00000000000006BF"
+			tasks: [{
+				id: "00000000000006C0"
+				type: "item"
+				title: "富集仓"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:enrichment_chamber"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_enriching_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_enriching_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_enriching_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_enriching_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000812"
+					type: "command"
+					title: "稀有通用机械战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000861"
+					type: "item"
+					title: "富集红石"
+					item: "mekanism:enriched_redstone"
+					count: 4
+				}
+				{
+					id: "0000000000000862"
+					type: "item"
+					title: "富集碳"
+					item: "mekanism:enriched_carbon"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "跟我来，别跟我来"
+			description: ["粉碎机是高级矿石处理方法的集成机器，但它也可用于将有机物捣碎制成生物燃料，然后进一步提炼成乙烯。"]
+			dependencies: ["00000000000006BF"]
+			id: "00000000000006C1"
+			tasks: [{
+				id: "00000000000006C2"
+				type: "item"
+				title: "粉碎机"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:crusher"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_crushing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_crushing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_crushing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_crushing_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000810"
+					type: "command"
+					title: "稀有通用机械战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+					player_command: false
+				}
+				{
+					id: "000000000000082C"
+					type: "item"
+					title: "橙子"
+					item: "simplefarming:orange"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			subtitle: "压在我身上，压在你身上"
+			description: ["某些化学反应只在更大的压力下发生。加压反应室可以促进这些反应。目前值得关注的是，将之前步骤中生产的氢气和生物燃料结合起来，产出乙烯，将其作为升级的可再生能源。"]
+			dependencies: [
+				"00000000000006C1"
+				"00000000000006CE"
+			]
+			id: "00000000000006C3"
+			tasks: [{
+				id: "00000000000006C4"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			rewards: [{
+				id: "000000000000080F"
+				type: "command"
+				title: "稀有通用机械战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			subtitle: "有机混合物"
+			description: ["黑曜石和萤石本身是易碎材料，但是它们有着有趣的特性。通过对其进行精炼并与锇等基底结合，它们可以制造出更易于使用的合金，同时保持其独特的性质。"]
+			dependencies: ["00000000000006BF"]
+			id: "00000000000006C5"
+			tasks: [{
+				id: "00000000000006C6"
+				type: "item"
+				title: "锇压缩机"
+				icon: "mekanism:osmium_compressor"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:osmium_compressor"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_compressing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_compressing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_compressing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_compressing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ingot_refined_glowstone"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ingot_refined_obsidian"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000813"
+					type: "command"
+					title: "稀有通用机械战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000CA9"
+					type: "item"
+					title: "私人箱子"
+					item: "mekanism:personal_chest"
+				}
+			]
+		}
+		{
+			title: "热力蒸馏塔"
+			icon: "mekanism:thermal_evaporation_controller"
+			x: 4.5d
+			y: -1.0d
+			subtitle: "收一半汤汁，小火慢炖"
+			description: [
+				"在深入研究核子物理之前，需要做一些基础工作。热力蒸馏塔将在未来发展中发挥重要作用，因此了解它至关重要。"
+				""
+				"收集所需材料，建造一座热力蒸馏塔。该结构有一个长方体形状的4x4底座。侧面也可以由结构玻璃制成，能够垂直延伸到18格高。"
+				""
+				"热力蒸馏塔可通过多种方式提供热量。最简单的方法是将电阻型加热器连接到其中一个阀门上，并为其供电。注：电阻加热型器使用的能量可以在GUI中设置。实验以找到正确的能量平衡。"
+				""
+				"然后，水或其他流体就可以从其他阀门中的一个输入。随着水被加热，它会转化为盐水，然后从第三个阀门输出。"
+				""
+				"注：你的Enigmatica-6实例文件夹中有建筑小帮手模板和机械动力蓝图来帮助你完成这个多方块。"
+			]
+			dependencies: ["00000000000006A7"]
+			id: "00000000000006C7"
+			tasks: [
+				{
+					id: "00000000000006C9"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+					count: 36L
+				}
+				{
+					id: "00000000000006CA"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+					count: 3L
+				}
+				{
+					id: "00000000000006CB"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "000000000000086E"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 36L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000703"
+					type: "item"
+					title: "电阻型加热器"
+					item: "mekanism:resistive_heater"
+				}
+				{
+					id: "0000000000000704"
+					type: "item"
+					title: "高级热导线缆"
+					item: "mekanism:advanced_thermodynamic_conductor"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			subtitle: "让它们永远分开"
+			description: [
+				"电解最常用于将水分离成氢气和氧气，但它在许多其他工业过程中使用。此处，氢气可与生物燃料结合来制作乙烯。"
+				""
+				"请注意，虽然能量和速度升级对给定数量FE产生的氢气量没有影响，但它们仍然会加快机器的速度，两者都有机器才能以最快的速度运行。"
+			]
+			dependencies: ["00000000000006BF"]
+			id: "00000000000006CE"
+			tasks: [{
+				id: "00000000000006CF"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [
+				{
+					id: "0000000000000829"
+					type: "item"
+					title: "喷气背包"
+					item: {
+						id: "mekanism:jetpack"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										gasName: "mekanism:hydrogen"
+										amount: 24000L
+									}
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000086C"
+					type: "command"
+					title: "稀有通用机械战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "矿石三倍化"
+			icon: "mekanism:electrolytic_core"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "没有足够的矿物"
+			description: [
+				"只要足够努力，通用机械就可以从每个矿石中提取五个锭，但这是一个非常复杂的过程，需要花大功夫才能建立起来。"
+				""
+				"然而，在双倍和五倍之间，它还可以使矿石产量变成三倍或四倍。三倍产出在早期很容易实现，并且很值得建立。"
+				""
+				"这项任务所需的机器包含了这一过程。然而，把一切都摆出来是留给你去发现的任务。该过程首先用氧气提纯矿石，然后将所得产物精炼成锭的形态。"
+			]
+			dependencies: ["00000000000006CE"]
+			id: "00000000000006D0"
+			tasks: [
+				{
+					id: "00000000000006E3"
+					type: "item"
+					item: "mekanism:electrolytic_separator"
+				}
+				{
+					id: "584EA4C1CB7A2268"
+					type: "item"
+					title: "提纯仓"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:purification_chamber"
+									Count: 1b
+								}
+								{
+									id: "mekanism:basic_purifying_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:advanced_purifying_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:elite_purifying_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:ultimate_purifying_factory"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "2292FFBA8D9C5E76"
+					type: "item"
+					title: "粉碎机"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:crusher"
+									Count: 1b
+								}
+								{
+									id: "mekanism:basic_crushing_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:advanced_crushing_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:elite_crushing_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:ultimate_crushing_factory"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "731C1D72D3C19800"
+					type: "item"
+					title: "富集仓"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:enrichment_chamber"
+									Count: 1b
+								}
+								{
+									id: "mekanism:basic_enriching_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:advanced_enriching_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:elite_enriching_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:ultimate_enriching_factory"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "183415D2ACD363E7"
+					type: "item"
+					title: "电力熔炼炉"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:energized_smelter"
+									Count: 1b
+								}
+								{
+									id: "mekanism:basic_smelting_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:advanced_smelting_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:elite_smelting_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:ultimate_smelting_factory"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "220D5440056144D1"
+					type: "item"
+					title: "矿石三倍化"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:clump_iron"
+									Count: 1b
+								}
+								{
+									id: "mekanism:clump_gold"
+									Count: 1b
+								}
+								{
+									id: "mekanism:clump_copper"
+									Count: 1b
+								}
+								{
+									id: "mekanism:clump_tin"
+									Count: 1b
+								}
+								{
+									id: "mekanism:clump_lead"
+									Count: 1b
+								}
+								{
+									id: "mekanism:clump_uranium"
+									Count: 1b
+								}
+								{
+									id: "mekanism:clump_osmium"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:aluminum_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:silver_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:nickel_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:zinc_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:cobalt_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:thallasium_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:iesnium_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:regalium_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:utherium_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:froststeel_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:cloggrum_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:nebu_clump"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000006D5"
+					type: "item"
+					title: "基础工厂安装器"
+					item: "mekanism:basic_tier_installer"
+					count: 3
+				}
+				{
+					id: "0000000000000814"
+					type: "command"
+					title: "史诗通用机械战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "锂"
+			icon: "emendatusenigmatica:lithium_dust"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "我找到我的朋友了，他们就在我脑袋里"
+			description: [
+				"在继续之前，盐水需要经过第二个蒸馏塔来形成液态锂。"
+				""
+				"下一步是使用回旋式气液转换机将液态锂转化为气态锂。"
+				""
+				"然后可以在化学结晶器中对气态锂进行处理，以产生固态锂元素。"
+			]
+			dependencies: ["00000000000006C7"]
+			id: "0000000000000709"
+			tasks: [
+				{
+					id: "000000000000070A"
+					type: "item"
+					item: "mekanism:chemical_crystallizer"
+				}
+				{
+					id: "0A65673DD920A57E"
+					type: "item"
+					item: "mekanism:rotary_condensentrator"
+				}
+				{
+					id: "65ABA5E4FB3C53C2"
+					type: "item"
+					item: "emendatusenigmatica:lithium_dust"
+				}
+			]
+			rewards: [{
+				id: "000000000000070C"
+				type: "item"
+				title: "锂粉"
+				item: "emendatusenigmatica:lithium_dust"
+				count: 16
+			}]
+		}
+		{
+			title: "输入：硫磺"
+			icon: "emendatusenigmatica:sulfur_dust"
+			x: 9.5d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["0000000000000764"]
+			optional: true
+			id: "000000000000072B"
+			tasks: [{
+				id: "0000000000000737"
+				type: "checkmark"
+				title: "硫磺"
+			}]
+		}
+		{
+			title: "输入：铀"
+			icon: "emendatusenigmatica:uranium_ingot"
+			x: 13.0d
+			y: 6.5d
+			shape: "rsquare"
+			dependencies: ["0000000000000765"]
+			optional: true
+			id: "000000000000072D"
+			tasks: [{
+				id: "0000000000000736"
+				type: "checkmark"
+				title: "铀"
+			}]
+		}
+		{
+			title: "二氧化硫"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 10.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["0000000000000733"]
+			optional: true
+			id: "000000000000072F"
+			tasks: [{
+				id: "000000000000073B"
+				type: "checkmark"
+				title: "二氧化硫"
+			}]
+		}
+		{
+			title: "输入：水"
+			icon: {
+				id: "mekanism:creative_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "minecraft:water"
+								Amount: 2147483647
+							}
+						}]
+					}
+				}
+			}
+			x: 8.0d
+			y: 3.5d
+			shape: "rsquare"
+			dependencies: ["0000000000000765"]
+			optional: true
+			id: "0000000000000731"
+			tasks: [{
+				id: "0000000000000735"
+				type: "checkmark"
+				title: "水"
+			}]
+		}
+		{
+			title: "化学氧化机"
+			icon: "mekanism:chemical_oxidizer"
+			x: 9.5d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["000000000000072B"]
+			optional: true
+			id: "0000000000000733"
+			tasks: [{
+				id: "000000000000073A"
+				type: "checkmark"
+				title: "化学氧化机"
+			}]
+		}
+		{
+			title: "化学灌注器"
+			icon: "mekanism:chemical_infuser"
+			x: 10.5d
+			y: 2.5d
+			shape: "hexagon"
+			dependencies: [
+				"000000000000072F"
+				"0000000000000741"
+			]
+			optional: true
+			id: "0000000000000738"
+			tasks: [{
+				id: "000000000000073C"
+				type: "checkmark"
+				title: "化学灌注器"
+			}]
+		}
+		{
+			title: "电解分离器"
+			icon: "mekanism:electrolytic_separator"
+			x: 8.5d
+			y: 2.5d
+			shape: "hexagon"
+			dependencies: ["0000000000000731"]
+			optional: true
+			id: "000000000000073D"
+			tasks: [{
+				id: "000000000000073E"
+				type: "checkmark"
+				title: "电解分离器"
+			}]
+		}
+		{
+			title: "输出：氢气"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 8.5d
+			y: 1.5d
+			dependencies: ["000000000000073D"]
+			optional: true
+			id: "000000000000073F"
+			tasks: [{
+				id: "0000000000000740"
+				type: "checkmark"
+				title: "氢气"
+			}]
+		}
+		{
+			title: "氧气"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 9.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["000000000000073D"]
+			optional: true
+			id: "0000000000000741"
+			tasks: [{
+				id: "0000000000000742"
+				type: "checkmark"
+				title: "氧气"
+			}]
+		}
+		{
+			title: "三氧化硫"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 10.5d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["0000000000000738"]
+			optional: true
+			id: "0000000000000743"
+			tasks: [{
+				id: "0000000000000744"
+				type: "checkmark"
+				title: "三氧化硫"
+			}]
+		}
+		{
+			title: "化学灌注器"
+			icon: "mekanism:chemical_infuser"
+			x: 10.5d
+			y: 4.5d
+			shape: "hexagon"
+			dependencies: [
+				"0000000000000743"
+				"0000000000000749"
+			]
+			optional: true
+			id: "0000000000000745"
+			tasks: [{
+				id: "0000000000000746"
+				type: "checkmark"
+				title: "化学灌注器"
+			}]
+		}
+		{
+			title: "回旋式气液转换机"
+			icon: "mekanism:rotary_condensentrator"
+			x: 8.5d
+			y: 4.5d
+			shape: "hexagon"
+			dependencies: ["0000000000000731"]
+			optional: true
+			id: "0000000000000747"
+			tasks: [{
+				id: "0000000000000748"
+				type: "checkmark"
+				title: "回旋式气液转换机"
+			}]
+		}
+		{
+			title: "水蒸气"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 9.5d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["0000000000000747"]
+			optional: true
+			id: "0000000000000749"
+			tasks: [{
+				id: "000000000000074A"
+				type: "checkmark"
+				title: "水蒸气"
+			}]
+		}
+		{
+			title: "硫酸"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 10.5d
+			y: 5.5d
+			shape: "diamond"
+			dependencies: ["0000000000000745"]
+			optional: true
+			id: "000000000000074B"
+			tasks: [{
+				id: "000000000000074C"
+				type: "checkmark"
+				title: "硫酸"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.5d
+			shape: "hexagon"
+			dependencies: [
+				"000000000000074B"
+				"000000000000074F"
+			]
+			optional: true
+			id: "000000000000074D"
+			tasks: [{
+				id: "000000000000074E"
+				type: "checkmark"
+				title: "化学溶解室"
+				icon: "mekanism:chemical_dissolution_chamber"
+			}]
+		}
+		{
+			title: "输入：氟"
+			icon: "emendatusenigmatica:fluorite_gem"
+			x: 12.0d
+			y: 5.5d
+			shape: "rsquare"
+			dependencies: ["0000000000000765"]
+			optional: true
+			id: "000000000000074F"
+			tasks: [{
+				id: "0000000000000750"
+				type: "checkmark"
+				title: "氟"
+			}]
+		}
+		{
+			title: "氢氟酸"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 9.5d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["000000000000074D"]
+			optional: true
+			id: "0000000000000751"
+			tasks: [{
+				id: "0000000000000753"
+				type: "checkmark"
+				title: "氢氟酸"
+			}]
+		}
+		{
+			title: "化学灌注器"
+			icon: "mekanism:chemical_infuser"
+			x: 8.5d
+			y: 6.5d
+			shape: "hexagon"
+			dependencies: [
+				"0000000000000751"
+				"0000000000000758"
+			]
+			optional: true
+			id: "0000000000000754"
+			tasks: [{
+				id: "0000000000000755"
+				type: "checkmark"
+				title: "化学灌注器"
+			}]
+		}
+		{
+			title: "铀黄饼"
+			icon: "mekanism:yellow_cake_uranium"
+			x: 10.5d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["000000000000075E"]
+			optional: true
+			id: "0000000000000756"
+			tasks: [{
+				id: "0000000000000757"
+				type: "checkmark"
+				title: "铀黄饼"
+			}]
+		}
+		{
+			title: "氧化铀"
+			icon: {
+				id: "mekanism:creative_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								gasName: "mekanism:uranium_oxide"
+								amount: 9223372036854775807L
+							}
+						}]
+					}
+				}
+			}
+			x: 8.5d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["000000000000075C"]
+			optional: true
+			id: "0000000000000758"
+			tasks: [{
+				id: "0000000000000759"
+				type: "checkmark"
+				title: "氧化铀"
+			}]
+		}
+		{
+			title: "六氟化铀"
+			icon: {
+				id: "mekanism:creative_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								gasName: "mekanism:uranium_hexafluoride"
+								amount: 9223372036854775807L
+							}
+						}]
+					}
+				}
+			}
+			x: 7.5d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["0000000000000754"]
+			optional: true
+			id: "000000000000075A"
+			tasks: [{
+				id: "000000000000075B"
+				type: "checkmark"
+				title: "六氟化铀"
+			}]
+		}
+		{
+			title: "化学氧化机"
+			icon: "mekanism:chemical_oxidizer"
+			x: 9.5d
+			y: 7.5d
+			shape: "hexagon"
+			dependencies: ["0000000000000756"]
+			optional: true
+			id: "000000000000075C"
+			tasks: [{
+				id: "000000000000075D"
+				type: "checkmark"
+				title: "化学氧化机"
+			}]
+		}
+		{
+			title: "富集仓"
+			icon: "mekanism:enrichment_chamber"
+			x: 11.5d
+			y: 7.5d
+			shape: "hexagon"
+			dependencies: ["000000000000072D"]
+			optional: true
+			id: "000000000000075E"
+			tasks: [{
+				id: "000000000000075F"
+				type: "checkmark"
+				title: "富集仓"
+			}]
+		}
+		{
+			title: "同位素离心机"
+			icon: "mekanism:isotopic_centrifuge"
+			x: 7.5d
+			y: 7.5d
+			shape: "hexagon"
+			dependencies: ["000000000000075A"]
+			optional: true
+			id: "0000000000000760"
+			tasks: [{
+				id: "0000000000000761"
+				type: "checkmark"
+				title: "同位素离心机"
+			}]
+		}
+		{
+			title: "输出：裂变燃料"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 7.5d
+			y: 9.0d
+			description: ["哦！你还在看呢？"]
+			dependencies: ["0000000000000760"]
+			optional: true
+			id: "0000000000000762"
+			tasks: [{
+				id: "0000000000000763"
+				type: "checkmark"
+				title: "裂变燃料"
+			}]
+			rewards: [
+				{
+					id: "000000000000082B"
+					type: "item"
+					title: "甜浆果曲奇"
+					item: "farmersdelight:sweet_berry_cookie"
+					count: 3
+				}
+				{
+					id: "000000000000082D"
+					type: "item"
+					title: "蜂蜜曲奇"
+					item: "farmersdelight:honey_cookie"
+					count: 3
+				}
+				{
+					id: "000000000000082E"
+					type: "item"
+					title: "花生酱饼干"
+					item: "simplefarming:peanut_butter_cookie"
+					count: 3
+				}
+				{
+					id: "000000000000082F"
+					type: "item"
+					title: "曲奇"
+					item: "minecraft:cookie"
+					count: 3
+				}
+				{
+					id: "0000000000000A81"
+					type: "command"
+					title: "农夫快乐包"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			subtitle: "免费招待"
+			description: [
+				"通用机械的裂变反应堆是v10版本新改的，即使是老玩家也可能会发现自己有点迷失。所以，我们免费招待了一张流程图。"
+				""
+				"此生产链将涉及大量的硫磺、铀、氟和水，因此，在开始之前，请确保这些材料以某种方式实现了自动化生产。"
+			]
+			dependencies: [
+				"00000000000006A8"
+				"00000000000006A1"
+			]
+			id: "0000000000000764"
+			tasks: [{
+				id: "0000000000000765"
+				type: "checkmark"
+				title: "裂变燃料生产"
+				icon: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [{
+				id: "000000000000082A"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "燃料棒组件"
+			icon: "mekanismgenerators:control_rod_assembly"
+			x: 6.5d
+			y: 1.0d
+			subtitle: "侦测到在途的核聚变打击"
+			description: [
+				"燃料棒组件是用来在反应时承载裂变材料的。拥有更多燃料棒组件可以使反应堆更快地燃烧燃料。"
+				""
+				"一套组件由顶部的控制棒组件和其下方的燃料组件柱组成。组件与组件之间不得接触，因此理想设计是将其像棋盘一样排列。"
+				""
+				"到目前为止收集的材料足以建造一个5x5x9反应堆，其顶部和侧面皆为玻璃，是一个相当不错的起始反应堆。使用配置器来正确设置反应堆端口。"
+				""
+				"小贴士：在结构顶部附近放置一个输入阀门，与涡轮机的排气口对齐，以简化机械管道的布线。"
+				"同样，冷却液输出最好放在结构中较低的位置，再次与涡轮机的输入阀门对齐，以简化加压管道的布线。"
+				""
+				"注：你的Enigmatica-6实例文件夹中有建筑小帮手模板和机械动力蓝图来帮助你完成这个多方块。在粘贴时将自动配置端口。"
+			]
+			dependencies: ["000000000000079A"]
+			min_width: 250
+			id: "0000000000000793"
+			tasks: [
+				{
+					id: "0000000000000794"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					count: 30L
+				}
+				{
+					id: "00000000000007A4"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "000000000000081A"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "裂变反应堆外壳"
+			icon: "mekanismgenerators:fission_reactor_casing"
+			x: 6.5d
+			y: -1.0d
+			subtitle: "控制辐射"
+			description: [
+				"构造裂变反应堆的第一步是建造一个安全的地方。一个能阻止辐射的东西。"
+				""
+				"裂变反应堆本身可以相当大，如果你愿意，它可以达到18x18x18。但最好将整个结构放在同一个区块中。然而，一开始就造这么大是没有意义的，所以我们将重点关注在更合理的东西上，一个5x5底和9格高的反应堆。"
+				""
+				"配置器可使端口在“仅输入”、“输出废料”和“输出冷却剂”之间切换。确保将端口相应地设置为这些模式。"
+				""
+				"注：F3+G可以显示区块边界。试着相应地规划你的反应堆。"
+			]
+			dependencies: ["00000000000006A7"]
+			id: "0000000000000795"
+			tasks: [
+				{
+					id: "0000000000000796"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+					count: 69L
+				}
+				{
+					id: "0000000000000798"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+					count: 4L
+				}
+				{
+					id: "0000000000000799"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 87L
+				}
+			]
+			rewards: [{
+				id: "0000000000000818"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "安全防护"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "防范于未然"
+			description: [
+				"历史一次又一次地向我们表明，处理像核物理这样危险的事情唯一明智的方法就是安全第一。三英里岛可能是一场灾难，但没有人死亡的事实证明了安全协议的重要性。"
+				""
+				"话虽如此，在通用机械裂变反应堆中建造一些安全系统也是值得的。维基上有一个关于断路器的优秀条目："
+				""
+				"https://wiki.aidancbrady.com/wiki/Fission_Reactor"
+				""
+				"如果反应堆过热，就可能达到超临界状态并发生爆炸，其主要原因是冷却剂耗尽。因此，断路器应在高温下触发。谨慎的话，也可以为多余的废料建造第二个断路器，以防止辐射排放到周围环境中。"
+				""
+				"警告：Enigmatica-6调整了蒸汽的生成速度，所以不要假设你的反应堆是安全的。请严格测试！"
+			]
+			dependencies: ["0000000000000795"]
+			min_width: 255
+			id: "000000000000079A"
+			tasks: [{
+				id: "000000000000079B"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_logic_adapter"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "000000000000079C"
+					type: "item"
+					title: "沙砾"
+					item: "minecraft:gravel"
+				}
+				{
+					id: "000000000000079D"
+					type: "item"
+					title: "侦测器"
+					item: "minecraft:observer"
+				}
+				{
+					id: "000000000000079E"
+					type: "item"
+					title: "活塞"
+					item: "minecraft:piston"
+				}
+				{
+					id: "000000000000079F"
+					type: "item"
+					title: "红石粉"
+					item: "minecraft:redstone"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			subtitle: "高活性辐射废弃物"
+			description: [
+				"燃烧裂变燃料自然会产生废料。正确处理和储存这些废料至关重要。废料只能经由通用机械的加压管道传输并且储存在放射性废料桶或再处理废料的机器中。"
+				""
+				"此外，破坏或捡起任何含有废料的机器或废料桶都会自动将辐射排入环境，因此必须注意以避免发生事故。"
+				""
+				"最后，储存在此类桶中的废料将缓慢而安全地消散。因此，如果目的是进一步处理它，最安全的做法是将其直接输送到机器中。"
+			]
+			dependencies: ["0000000000000793"]
+			id: "00000000000007A5"
+			tasks: [{
+				id: "00000000000007A6"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "00000000000007D3"
+					type: "item"
+					title: "防辐射面罩"
+					item: {
+						id: "mekanism:hazmat_mask"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "00000000000007D4"
+					type: "item"
+					title: "防辐射外衣"
+					item: {
+						id: "mekanism:hazmat_gown"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "00000000000007D5"
+					type: "item"
+					title: "防辐射裤子"
+					item: {
+						id: "mekanism:hazmat_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "00000000000007D7"
+					type: "item"
+					title: "防辐射靴子"
+					item: {
+						id: "mekanism:hazmat_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "00000000000007D8"
+					type: "item"
+					title: "标志牌“小心放射性危害”"
+					item: "engineersdecor:sign_radioactive"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "钚处理"
+			icon: "mekanism:pellet_plutonium"
+			x: 6.5d
+			y: 5.0d
+			subtitle: "胖子"
+			description: ["废料可以再加工成钚。钚可以用于建造高级结构，或作为一种回收燃料，再次回到裂变反应堆。"]
+			dependencies: ["00000000000007A5"]
+			id: "00000000000007A7"
+			tasks: [
+				{
+					id: "00000000000007A8"
+					type: "item"
+					item: "mekanism:isotopic_centrifuge"
+				}
+				{
+					id: "00000000000007B0"
+					type: "item"
+					item: "mekanism:pressurized_reaction_chamber"
+				}
+				{
+					id: "000000000000081C"
+					type: "item"
+					item: "mekanism:pellet_plutonium"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "0000000000000820"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "钋处理"
+			icon: "mekanism:pellet_polonium"
+			x: 5.5d
+			y: 5.0d
+			subtitle: "利特维年科之死"
+			description: [
+				"钋是一种特别有害的物质，尽管如此，它在各种应用中都很有用。"
+				""
+				"谢天谢地，它可以被处理得更安全一些。"
+			]
+			dependencies: ["00000000000007A5"]
+			id: "00000000000007A9"
+			tasks: [
+				{
+					id: "00000000000007AA"
+					type: "item"
+					item: "mekanism:solar_neutron_activator"
+				}
+				{
+					id: "00000000000007AF"
+					type: "item"
+					item: "mekanism:pressurized_reaction_chamber"
+				}
+				{
+					id: "000000000000081D"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "000000000000081E"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "高密度聚乙烯"
+			x: -1.0d
+			y: 3.5d
+			description: ["除了用于燃烧发电，乙烯还可以再加工成高密度聚乙烯，这是一种用于制造少数高级机器的优质塑料。"]
+			dependencies: ["00000000000006C3"]
+			id: "00000000000007AB"
+			tasks: [{
+				id: "00000000000007AC"
+				type: "item"
+				item: "mekanism:hdpe_pellet"
+				count: 64L
+			}]
+			rewards: [{
+				id: "0000000000000815"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "超临界移相器"
+			icon: "mekanism:sps_casing"
+			x: 6.0d
+			y: 6.5d
+			subtitle: "我已经让她全速前进了，船长"
+			description: [
+				"你有一大量的铀，对吧？没错。你需要很多铀来搭建这种结构，它用于从核废料中生成反物质。"
+				""
+				"查看通用机械维基以辅助了解该结构的形状。带有增压线圈的两个端口可接受能量输入。另外两个端口则用于输入废料和输出反物质。"
+				""
+				"假设可以提供足够的能量和废料，添加更多带有增压线圈的端口将使机器运行得更快。"
+				""
+				"注：你的Enigmatica-6实例文件夹中有建筑小帮手模板和机械动力蓝图来帮助你完成这个多方块。"
+			]
+			dependencies: [
+				"00000000000007A7"
+				"00000000000007A9"
+				"00000000000007AC"
+			]
+			id: "00000000000007B1"
+			tasks: [
+				{
+					id: "00000000000007B2"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 60L
+				}
+				{
+					id: "00000000000007B3"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 122L
+				}
+				{
+					id: "00000000000007B4"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 4L
+				}
+				{
+					id: "00000000000007B5"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000007D9"
+					type: "item"
+					title: "铀矿石"
+					item: "emendatusenigmatica:uranium_ore"
+					count: 64
+				}
+				{
+					id: "0000000000000842"
+					type: "command"
+					title: "传奇通用机械战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "聚变反应堆"
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			x: 4.5d
+			y: 3.5d
+			subtitle: "盒中恒星"
+			description: [
+				"聚变，恒星的力量，没有它重元素就不存在。"
+				""
+				"通用机械的维基可以帮助你搭建这个形状奇怪的结构，但燃料供应链的建造取决于你。请务必在所有侧面使用反应堆玻璃，以大大降低建造此结构的成本。"
+				""
+				"关于聚变反应堆，你需要记住一些重要的事情。首先，与裂变反应堆不同，这是一种安全的能量供应，永远不会堆芯熔化或造成任何不利影响。"
+				""
+				"●为反应堆提供燃料时，请分别输入氘和氚。"
+				""
+				"●反应堆直接产生的FE非常少。想要充分利用它，让水流过以转化为蒸汽。然后将蒸汽通过工业涡轮。和裂变反应堆一样，想要满足水的供应可能需要将涡轮中的蒸汽回收成水。"
+				""
+				"●除了直接供应氘和氚，向其输送氘氚燃料将大大增加反应堆的热量，使其更快地产生蒸汽。"
+				""
+				"●将聚变反应堆连接到热力锅炉是另一种提高总蒸汽产量并提高发电量的好方法。"
+				""
+				"注：你的Enigmatica-6实例文件夹中有建筑小帮手模板和机械动力蓝图来帮助你完成这个多方块。"
+			]
+			dependencies: ["00000000000007A9"]
+			min_width: 300
+			id: "00000000000007B6"
+			tasks: [
+				{
+					id: "00000000000007B7"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "00000000000007E0"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					count: 36L
+				}
+				{
+					id: "00000000000007E1"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+					count: 4L
+				}
+				{
+					id: "00000000000007E2"
+					type: "item"
+					item: "mekanismgenerators:laser_focus_matrix"
+				}
+				{
+					id: "00000000000007E3"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 24L
+				}
+			]
+			rewards: [{
+				id: "0000000000000821"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "工业涡轮"
+			icon: "mekanismgenerators:turbine_blade"
+			x: 5.5d
+			y: 1.5d
+			subtitle: "满满当当"
+			description: [
+				"裂变反应堆本身不会产生有用的能量。确切来说，它生成的蒸汽必须通过工业涡轮才能产生FE。涡轮对将蒸汽循环成水并返回裂变反应堆进行冷却这一过程也是至关重要的。没有这种再处理回路，想要提供足够的冷却剂来保持反应堆运行是非常困难的。"
+				""
+				"涡轮本身是一个复杂的多方块结构，有着各种控制部件在何处以及如何组合在一起的规则。有关搭建造涡轮的帮助，请参阅维基。目前收集的材料应足以建造侧面为玻璃的5x5x9的工业涡轮。"
+				""
+				"反应堆将自动从冷却剂输出端口输出蒸汽。蒸汽必须经过加压管道进入涡轮端口，然后水就可以自动从结构顶部的任何排气口输出，并可以传递回反应堆上的输入端口。"
+				""
+				"接下来就可以从另一个涡轮端口处提取能量。"
+				""
+				"警告：如果涡轮的能量缓存被充满，它将停止运行，蒸汽和水将会停止输入，并且反应堆的热量将迅速上升到危险水平，导致潜在的堆芯熔化的情况。"
+				""
+				"注：你的Enigmatica-6实例文件夹中有建筑小帮手模板和机械动力蓝图来帮助你完成这个多方块。它不会为你放置叶片，但被配置得与裂变反应堆蓝图贴合。"
+				""
+			]
+			dependencies: ["0000000000000793"]
+			min_width: 300
+			id: "00000000000007B8"
+			tasks: [
+				{
+					id: "00000000000007B9"
+					type: "item"
+					item: "mekanismgenerators:turbine_blade"
+					count: 10L
+				}
+				{
+					id: "00000000000007BA"
+					type: "item"
+					item: "mekanismgenerators:electromagnetic_coil"
+					count: 3L
+				}
+				{
+					id: "00000000000007BB"
+					type: "item"
+					item: "mekanism:pressure_disperser"
+					count: 8L
+				}
+				{
+					id: "00000000000007BC"
+					type: "item"
+					item: "mekanismgenerators:rotational_complex"
+				}
+				{
+					id: "00000000000007BD"
+					type: "item"
+					item: "mekanismgenerators:saturating_condenser"
+					count: 6L
+				}
+				{
+					id: "00000000000007BE"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 58L
+				}
+				{
+					id: "00000000000007BF"
+					type: "item"
+					item: "mekanismgenerators:turbine_casing"
+					count: 69L
+				}
+				{
+					id: "00000000000007C0"
+					type: "item"
+					item: "mekanismgenerators:turbine_rotor"
+					count: 5L
+				}
+				{
+					id: "00000000000007C1"
+					type: "item"
+					item: "mekanismgenerators:turbine_valve"
+					count: 2L
+				}
+				{
+					id: "00000000000007C2"
+					type: "item"
+					item: "mekanismgenerators:turbine_vent"
+					count: 33L
+				}
+			]
+			rewards: [{
+				id: "0000000000000819"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			subtitle: "逆波函数"
+			description: ["反物质曾被认为不可能被制造，它为人们提供了一些被认为是魔法的可能性。"]
+			dependencies: ["00000000000007B1"]
+			id: "00000000000007C3"
+			tasks: [{
+				id: "00000000000007C4"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+			rewards: [{
+				id: "000000000000081F"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.0d
+			subtitle: "与魔法没有区别"
+			description: [
+				"古代的炼金术士相信元素物质可以被转化，他们是正确的。"
+				""
+				"他们未能理解的是，这样做需要大量的能量。"
+			]
+			dependencies: ["00000000000007C3"]
+			id: "00000000000007C5"
+			tasks: [{
+				id: "00000000000007C6"
+				type: "item"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+			rewards: [{
+				id: "0000000000000828"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			subtitle: "里面比外面大"
+			description: ["任何QIO网络的核心和灵魂。插入驱动器并设置频率以开始。"]
+			dependencies: ["00000000000007A9"]
+			id: "00000000000007C7"
+			tasks: [{
+				id: "00000000000007C8"
+				type: "item"
+				item: "mekanism:qio_drive_array"
+			}]
+			rewards: [{
+				id: "0000000000000827"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			subtitle: "远程浏览"
+			description: ["仪表板可以放置在任何位置，并能使你手动从网络中放入或拿去物品。"]
+			dependencies: ["00000000000007C7"]
+			id: "00000000000007C9"
+			tasks: [{
+				id: "00000000000007CA"
+				type: "item"
+				item: "mekanism:qio_dashboard"
+			}]
+			rewards: [{
+				id: "0000000000000823"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "QIO输入和输出"
+			x: 3.5d
+			y: 7.5d
+			subtitle: "无用输入，无用输出"
+			description: ["如果没有办法自动将物品放入或取出，那么将物品存储在QIO驱动器阵列中是相当愚蠢的。QIO输入器和输出器实现了这一点，使该系统可以作为无线物品传输和存储系统工作。"]
+			dependencies: ["00000000000007C7"]
+			id: "00000000000007CB"
+			tasks: [
+				{
+					id: "00000000000007CC"
+					type: "item"
+					item: "mekanism:qio_importer"
+				}
+				{
+					id: "00000000000007CD"
+					type: "item"
+					item: "mekanism:qio_exporter"
+				}
+			]
+			rewards: [{
+				id: "0000000000000826"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			subtitle: "比箱柜更好"
+			description: ["QIO驱动器提供了与箱柜一样的深度存储，但可以集中访问且占地面积更小。"]
+			dependencies: ["00000000000007C7"]
+			id: "00000000000007CE"
+			tasks: [{
+				id: "00000000000007CF"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
+			rewards: [{
+				id: "0000000000000824"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			subtitle: "停下来！"
+			description: ["当QIO驱动空间内的某种物品达到某个阈值时，红石适配器就会输出信号，以一种简单的方式禁用不再需要运行的机器。"]
+			dependencies: ["00000000000007C7"]
+			id: "00000000000007D0"
+			tasks: [{
+				id: "00000000000007D1"
+				type: "item"
+				item: "mekanism:qio_redstone_adapter"
+			}]
+			rewards: [{
+				id: "0000000000000825"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "激光增幅"
+			icon: "mekanism:laser_amplifier"
+			x: 3.5d
+			y: 4.5d
+			subtitle: "突破极限"
+			description: [
+				"为了真正启动聚变反应堆，需要高度集中的高能爆发。"
+				""
+				"激光增幅器可以收集多达五束激光，并将它们组合成一束强大的光束。增幅器也可以连在一起，从一个增幅器射入另一个。"
+				""
+				"连接中的最后一个放大器应指向聚变反应堆中的激光聚焦矩阵，并设置为红石脉冲模式。一旦它积累了足够的能量，就提供红石脉冲让其在瞬间释放所有能量。"
+				""
+				"聚变反应堆中也必须存在充满的黑体辐射腔。"
+			]
+			dependencies: ["00000000000007B6"]
+			id: "00000000000007DC"
+			tasks: [
+				{
+					id: "00000000000007DD"
+					type: "item"
+					item: "mekanism:laser_amplifier"
+					count: 2L
+				}
+				{
+					id: "00000000000007DE"
+					type: "item"
+					item: "mekanism:laser"
+					count: 9L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000007DF"
+					type: "item"
+					title: "黑体辐射腔"
+					item: "mekanismgenerators:hohlraum"
+				}
+				{
+					id: "0000000000000822"
+					type: "command"
+					title: "传奇通用机械战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "0000000000000873"
+					type: "item"
+					title: "标志牌“小心激光”"
+					item: "engineersdecor:sign_laser"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "不要惊慌"
+			icon: "minecraft:cod"
+			x: 5.5d
+			y: 0.0d
+			subtitle: "那位弗洛德可真知道他的毛巾在哪儿"
+			description: [
+				"事故时有发生。"
+				""
+				"抓一条鱼来完成这项任务，如果你已经不可逆转地辐射了你的整个基地。"
+				""
+				"只能赎罪一次。"
+			]
+			dependencies: ["0000000000000793"]
+			optional: true
+			id: "00000000000007E4"
+			tasks: [
+				{
+					id: "00000000000007E9"
+					type: "checkmark"
+					title: "不要惊慌"
+				}
+				{
+					id: "00000000000007EA"
+					type: "item"
+					item: "minecraft:cod"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "00000000000007E6"
+				type: "command"
+				title: "清除辐射"
+				icon: "engineersdecor:sign_radioactive"
+				command: "/mek radiation removeAll"
+				player_command: false
+			}]
+		}
+		{
+			title: "热力锅炉"
+			icon: "mekanism:superheating_element"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "这里热气腾腾"
+			description: [
+				"水冷是一个很好的开始，但它有其局限性。钠可以用来散发更多的热量，使反应堆以更高的燃烧速率运行。"
+				""
+				"然而，想要利用钠，需要一个新的多方块：热力锅炉。"
+				""
+				"●钠在裂变反应堆中被加热成为过热钠。"
+				""
+				"●过热钠进入锅炉，将水加热成蒸汽。"
+				""
+				"●锅炉输出冷却的钠，通过裂变反应堆进行回收。"
+				""
+				"●蒸汽通过涡轮，产生FE和水，并且水通过锅炉进行回收。"
+				""
+				"锅炉几乎可以是任何尺寸，最大18x18x18，但是一个小型锅炉就能够散发大量热量。该任务要求的材料可以搭建一个5x9x5的锅炉。涡轮比锅炉更有可能需要扩大规模。"
+				""
+				"注：你的Enigmatica-6实例文件夹中有建筑小帮手模板和机械动力蓝图来帮助你完成这个多方块。粘贴时会自动配置端口，并进行了预配置使其与裂变反应堆和涡轮机蓝图很好地贴合。"
+				""
+			]
+			dependencies: ["00000000000007B8"]
+			min_width: 250
+			id: "0000000000000E78"
+			tasks: [
+				{
+					id: "0000000000000E79"
+					type: "item"
+					item: "mekanism:boiler_casing"
+					count: 80L
+				}
+				{
+					id: "0000000000000E7A"
+					type: "item"
+					item: "mekanism:boiler_valve"
+					count: 4L
+				}
+				{
+					id: "0000000000000E7B"
+					type: "item"
+					item: "mekanism:pressure_disperser"
+					count: 9L
+				}
+				{
+					id: "0000000000000E7C"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 78L
+				}
+				{
+					id: "0000000000000E7D"
+					type: "item"
+					item: "mekanism:superheating_element"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "0000000000000E7E"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			subtitle: "好过眼中钉"
+			description: [
+				"这是必然的。到处都是管道和电缆，谁知道当机器放下时，会有什么东西进入机器。水？氢气？一旦这种事情发生了，通常情况下，如何把它们弄出来并不明晰。"
+				""
+				"这就是滴管的用处。这个小工具可以从各种机器中提取不需要的输入物。用滴管点击机器GUI内的输入将提取少量输入，从而将其轻松地将其运输到另一台机器。潜行+左击将会清空机器中的材料。"
+				""
+				"类似地，用滴管潜行+右击空气将清空当前滴管存储的任何东西。"
+			]
+			dependencies: ["00000000000006A5"]
+			id: "1100DDF4FA8D31C3"
+			tasks: [{
+				id: "590FDCF2C714EE6B"
+				type: "item"
+				item: "mekanism:gauge_dropper"
+			}]
+			rewards: [{
+				id: "3954C7F86F9C301B"
+				type: "command"
+				title: "稀有通用机械战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			subtitle: "哟，老兄，听说你喜欢机器……"
+			description: [
+				"机器可以加装的速度升级数量是有限的。在这之后，横向扩展是加快速度的唯一选择。值得庆幸的是，工厂安装器比9台装满升级的机器要便宜一些。记住，这些都是为了效率！"
+				""
+				"要应用工厂安装器，只需在世界中潜行右击机器即可。需要一阶一阶往上升级。"
+			]
+			dependencies: ["00000000000006BD"]
+			id: "6AA3DA7395582D75"
+			tasks: [{
+				id: "487EEDB965838B35"
+				type: "item"
+				title: "工厂安装器"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:basic_tier_installer"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_tier_installer"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_tier_installer"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_tier_installer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "21CAB75DA0FC846D"
+				type: "command"
+				title: "稀有通用机械战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			icon: "mekanism:upgrade_gas"
+			x: -1.0d
+			y: 5.5d
+			subtitle: "你需要更多瓦斯"
+			description: ["弄清楚矿石四倍处理的确切过程是留给读者的任务。从给定的金属碎片开始，通过JEI来制定流程。气体升级对于满足氯化氢需求至关重要。"]
+			dependencies: ["00000000000006D0"]
+			id: "504DD59B5A254183"
+			tasks: [
+				{
+					id: "581F64A5B70FD048"
+					type: "item"
+					title: "矿石四倍化"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:shard_iron"
+									Count: 1b
+								}
+								{
+									id: "mekanism:shard_gold"
+									Count: 1b
+								}
+								{
+									id: "mekanism:shard_copper"
+									Count: 1b
+								}
+								{
+									id: "mekanism:shard_tin"
+									Count: 1b
+								}
+								{
+									id: "mekanism:shard_lead"
+									Count: 1b
+								}
+								{
+									id: "mekanism:shard_uranium"
+									Count: 1b
+								}
+								{
+									id: "mekanism:shard_osmium"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:aluminum_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:silver_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:nickel_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:zinc_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:cobalt_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:thallasium_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:iesnium_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:regalium_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:utherium_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:froststeel_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:cloggrum_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:nebu_shard"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "278A00997E5A1807"
+					type: "item"
+					item: "mekanism:upgrade_gas"
+				}
+			]
+			rewards: [{
+				id: "5CB2EF184247180B"
+				type: "command"
+				title: "史诗通用机械战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "emendatusenigmatica:fluorite_gem"
+			x: -2.5d
+			y: 6.5d
+			subtitle: "研究完成"
+			description: [
+				"矿石处理的终极效率……真的吗？"
+				""
+				"通用机械最高形式的矿石加工以五倍化结束，需要大量的基础设施才能完成。与四倍化一样，可以通过查询金属结晶，从JEI中指定确切流畅。"
+			]
+			dependencies: ["504DD59B5A254183"]
+			id: "1BA848F73C707DCC"
+			tasks: [{
+				id: "38AF11C23B5E8A03"
+				type: "item"
+				title: "矿石五倍化"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:crystal_iron"
+								Count: 1b
+							}
+							{
+								id: "mekanism:crystal_gold"
+								Count: 1b
+							}
+							{
+								id: "mekanism:crystal_copper"
+								Count: 1b
+							}
+							{
+								id: "mekanism:crystal_tin"
+								Count: 1b
+							}
+							{
+								id: "mekanism:crystal_lead"
+								Count: 1b
+							}
+							{
+								id: "mekanism:crystal_uranium"
+								Count: 1b
+							}
+							{
+								id: "mekanism:crystal_osmium"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:aluminum_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:silver_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:nickel_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:zinc_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:cobalt_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:thallasium_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:iesnium_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:regalium_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:utherium_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:froststeel_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:cloggrum_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:nebu_crystal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F0D88FCA51E6BB3"
+				type: "command"
+				title: "传奇通用机械战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			icon: {
+				id: "mekanism:precision_sawmill"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "20000"
+						}]
+					}
+				}
+			}
+			x: 0.5d
+			y: 0.5d
+			subtitle: "你的胳膊断了！"
+			description: ["用手动工具制作木板是上个世纪的事，并且极其浪费。获得更多木板，并通过寻找锯末的用途来弥补一些损失。"]
+			dependencies: ["00000000000006BF"]
+			id: "46314C0EADF8EBAA"
+			tasks: [{
+				id: "02D13AC31BDBC8A2"
+				type: "item"
+				title: "精密锯木机"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:precision_sawmill"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_sawing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_sawing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_sawing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_sawing_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "483148CA72CDB1CD"
+				type: "item"
+				item: "mekanism:cardboard_box"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			subtitle: "提醒客人，第一站台禁止使用武器、远程传送和宗教信仰。"
+			description: [
+				"有地方想去，却没有时间？好吧，开始走吧。下一次，当你到达那里时，带上一个传送机，以避免再次长途跋涉。"
+				""
+				"传送框架是可选的。"
+			]
+			dependencies: ["00000000000006BF"]
+			id: "25956D039907CBDA"
+			tasks: [{
+				id: "5E962E033F464A5C"
+				type: "item"
+				item: {
+					id: "mekanism:teleporter"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "5000000"
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0EF5031647DF246B"
+				type: "command"
+				title: "稀有通用机械战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			subtitle: "这是什么农民笑话吗？"
+			description: [
+				"还在像14世纪那样掘土？为什么不建造一个用于简化流程的好朋友呢？"
+				""
+				"内含量子纠缠的力量和最不可能为你递盐的智能机器人，数字型采矿机是剥夺地球母亲资源的无价工具。"
+				""
+				"随着标签的出现，过滤器也发生了变化。旧的矿物词典过滤器现在被标签过滤器所取代，充分利用它需要了解方块标签。想查看这些，请使用F3+H启用高级工具框提示，并将鼠标悬停在JEI中的某个方块上。"
+				""
+				"样例："
+				""
+				"● forge:ores"
+				"● forge:ores/diamond"
+				"● forge:ores/netherite"
+			]
+			dependencies: ["00000000000006BF"]
+			min_width: 300
+			id: "37B0CBFA4CBAD409"
+			tasks: [{
+				id: "4B3658ACF1768133"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [{
+				id: "2103C11313ED672B"
+				type: "command"
+				title: "稀有通用机械战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			description: [
+				"想要为新造的聚变反应堆提供燃料？当然，你需要氘和氚，但是通用机械并不是大量获得这些流体的唯一途径。想要一点与众不同的挑战的话，那就试试看用这两台多方块结构产出燃料吧。它们可以很轻松地为满速输入的反应堆提供足够的燃料，还可以提供足够的材料制作用于加速反应堆至极限的氘氚燃料。"
+				""
+				""
+				"工业氘装置"
+				""
+				"尽管基于简单的科技，但这台巨大的机器可以快速生产工业级数量的氘，以满足聚变反应堆的需求。"
+				""
+				"注：此多方块需要水在其下方，腿部浸没在水中，水面正好到平台的基座处。因此，最好将它建造在海上。请小心海带等其他植物，它们的存在将会破坏结构完整性。"
+				""
+				""
+				"恒星中子活化器"
+				""
+				"恒星中子活化器是科技与魔法的融合，能够不断地产出巨量的氚，但是需要巨量的魔力和能量才能将其从水中提取。"
+				""
+				"该机器每次消耗魔力都可以运作4000游戏刻。"
+				""
+				"================================================================="
+				""
+				"请注意，JEI中展示的配方并没有准确的显示出指定输入是每游戏刻都会被消耗还是一次性消耗完毕。为了简单起见，所有机械匠艺机器的所有配方都已根据以下规则进行了标准化："
+				"●FE在每游戏刻都会被消耗"
+				"●气动的空气在每游戏刻都会被消耗，且其压力必须大于10Bar"
+				"●流体在每游戏刻都会被消耗或产生"
+				"●魔力会在合成开始时被消耗或在合成结束时被产生"
+			]
+			dependencies: ["00000000000007DC"]
+			min_width: 400
+			id: "3F1A8F0603103E2E"
+			tasks: [
+				{
+					id: "242416B8A526386F"
+					type: "item"
+					item: "masterfulmachinery:industrial_deuterium_plant_controller"
+				}
+				{
+					id: "055E253A1C45D3F3"
+					type: "item"
+					item: "masterfulmachinery:stellar_neutron_activator_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "526D36712006641A"
+					type: "command"
+					title: "传奇通用机械战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "1D6DFBD767770794"
+					type: "command"
+					title: "传奇通用机械战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "4FB1E142562746D5"
+					type: "item"
+					item: "mekanism:rotary_condensentrator"
+					count: 2
+				}
+			]
+		}
+	]
+}

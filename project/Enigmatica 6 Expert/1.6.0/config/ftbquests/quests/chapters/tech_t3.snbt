@@ -1,0 +1,470 @@
+{
+	id: "1BAD3096A2D8A7E3"
+	group: "34B7FB260B6AEB81"
+	order_index: 3
+	filename: "tech_t3"
+	title: "科技 - 核子物理"
+	icon: "kubejs:memory_basic_filled"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "工业先锋"
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["0000000000000FDF"]
+			id: "7522971912BCF482"
+			tasks: [{
+				id: "558BD74C18EFB6EA"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			title: "RF工具箱"
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["0000000000000FD7"]
+			id: "1E4DC3A7546EC894"
+			tasks: [{
+				id: "3E03729D4E825E26"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["7522971912BCF482"]
+			optional: true
+			id: "221F90FFF031E7B4"
+			tasks: [{
+				id: "6784136B840606FA"
+				type: "item"
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["化学溶解室是工程师工具箱中的无价之宝，可以安全的处理各种腐蚀的、活泼的或是危险的液体，将它们合并成有用的产物。"]
+			dependencies: ["7522971912BCF482"]
+			id: "6079CBE9ECE6EB1D"
+			tasks: [{
+				id: "76E7A09884C5D8AB"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+		}
+		{
+			title: "富集粉红黏液"
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["35EE2BA3A988F416"]
+			id: "206F4AA9A9278D8D"
+			tasks: [{
+				id: "1C9B934F52D9FB49"
+				type: "item"
+				item: "kubejs:pink_ender_slime_bucket"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			description: [
+				"用于钻粉红黏液的机器需要粉红黏液，那怎么获取粉红黏液呢？"
+				""
+				"有人见过粉色凋灵吗？"
+				""
+				"这个问题经常在亚马龙网络中出现，未来的工程师为之抓耳挠腮。但学习过奥术后，你发现有一条路可以走。什么路？当然是魔法。"
+			]
+			dependencies: [
+				"6079CBE9ECE6EB1D"
+				"26D8327770B81C08"
+			]
+			id: "412F3A311A7CFCB3"
+			tasks: [
+				{
+					id: "0536AAB566704AC9"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+				}
+				{
+					id: "5703696A09A152C1"
+					type: "item"
+					item: "industrialforegoing:fluid_laser_base"
+				}
+			]
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			x: 0.0d
+			y: 4.5d
+			subtitle: "为粉色凋灵挤奶。"
+			description: ["用神秘学仪式召唤粉色凋灵或者将通过与盖亚守护者战斗获得的粉红手炮将凋灵转换成。"]
+			dependencies: ["412F3A311A7CFCB3"]
+			id: "35EE2BA3A988F416"
+			tasks: [{
+				id: "046A0A8AB86FF128"
+				type: "item"
+				item: "industrialforegoing:pink_slime_bucket"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			description: ["进一步迈向核子物理需要可以承受高温、高压以及辐射的材料。"]
+			dependencies: [
+				"72945D9390F479E7"
+				"242AEF5D6C2318D3"
+			]
+			id: "3B9B0EB73BF19CBD"
+			tasks: [
+				{
+					id: "65AF9984F551512B"
+					type: "item"
+					item: "mekanism:metallurgic_infuser"
+				}
+				{
+					id: "044F4F0627E059A3"
+					type: "item"
+					item: "mekanism:alloy_infused"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: [
+				"在充能台中将烈焰棒充能以获得充能烈焰棒。它们是极好的、低廉的、便携的燃料来源，可在烈焰发电机中燃烧。"
+				""
+				"他们可以放进烈焰激活器中以进一步将它们精炼成燃料来源。最好用这样的高质量烈焰棒开始发展。"
+			]
+			dependencies: ["1E4DC3A7546EC894"]
+			id: "72945D9390F479E7"
+			tasks: [
+				{
+					id: "3C415238A247D89A"
+					type: "item"
+					item: "rftoolspower:blazing_agitator"
+				}
+				{
+					id: "29584C030AC3CC61"
+					type: "item"
+					item: "rftoolspower:blazing_rod"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["粗制，但是有效。这些内存条已经帮了你很多，但它们需要升级了。"]
+			dependencies: ["0000000000000FDB"]
+			id: "2182BC78D342D1AA"
+			tasks: [{
+				id: "6B231E1F097FC1DC"
+				type: "item"
+				item: "kubejs:advanced_ram_chip"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			shape: "diamond"
+			description: ["一个空壳，缺少重要组件：你。"]
+			dependencies: ["2182BC78D342D1AA"]
+			id: "51AFB0E11AB83CFC"
+			tasks: [{
+				id: "5DD654B9BD38AC93"
+				type: "item"
+				item: "kubejs:memory_basic_empty"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			shape: "diamond"
+			description: ["高科技需要更聪明的机器，还有什么比自己的经验精华更加好的让机器更智能的办法呢？"]
+			dependencies: ["51AFB0E11AB83CFC"]
+			id: "52FEE141AD87B819"
+			tasks: [{
+				id: "7FDBBDEA3D78E027"
+				type: "item"
+				item: "kubejs:memory_basic_filled"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			shape: "diamond"
+			description: ["虽然冷凝室运行起来消耗很大，但它可以安全的装下大多数生物，防止他们移动，甚至在它们受伤后可以缓慢的治疗他们。"]
+			dependencies: ["6079CBE9ECE6EB1D"]
+			optional: true
+			id: "0F16543E9DE08714"
+			tasks: [{
+				id: "6C1CEE8121C1BEA9"
+				type: "item"
+				item: "industrialforegoing:stasis_chamber"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["用于高聚焦激光操作的先进光学器件。"]
+			dependencies: ["3B9B0EB73BF19CBD"]
+			id: "26D8327770B81C08"
+			tasks: [{
+				id: "469EF5B5F3B3A6C7"
+				type: "item"
+				item: "mekanismgenerators:laser_focus_matrix"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			description: [
+				"是时候组装我们第一个完全科技化的裂变反应堆了！"
+				""
+				"查看通用机械任务章节以了解更多关于裂变燃料处理和反应堆结构的信息。"
+			]
+			dependencies: ["71D581C742D17CA4"]
+			id: "7E3DDF2413EA9433"
+			tasks: [{
+				id: "45C0FD125FCC0EC5"
+				type: "item"
+				item: "mekanismgenerators:control_rod_assembly"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			description: ["尽管理论上可以，但运行一个不带涡轮的裂变反应堆既慢又浪费反应产生的宝贵能量。涡轮越大，效率就越高。"]
+			dependencies: ["71D581C742D17CA4"]
+			id: "5AB7BDCE735F200A"
+			tasks: [{
+				id: "2DC0607EC0F51335"
+				type: "item"
+				item: "mekanismgenerators:turbine_blade"
+			}]
+		}
+		{
+			title: "以太气体"
+			icon: "minecraft:wither_skeleton_skull"
+			x: 1.0d
+			y: 4.0d
+			subtitle: "为凋灵挤奶。"
+			description: ["召唤一只凋灵并安全控制它，开始钻取以太气体。"]
+			dependencies: ["412F3A311A7CFCB3"]
+			id: "4A453667AB7D1197"
+			tasks: [{
+				id: "6842B6803B8B613F"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			description: ["现代科学所知的倒数第二个控制电路。确保用于冷却的以太气体有充足的供应至关重要，因为运行时会很热。"]
+			dependencies: [
+				"4A453667AB7D1197"
+				"3B9B0EB73BF19CBD"
+			]
+			id: "71D581C742D17CA4"
+			tasks: [{
+				id: "249303BB1931E8BF"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["将它组装在一起就可以获得可驱动许多强大机器的基础控制电路。"]
+			dependencies: ["52FEE141AD87B819"]
+			id: "242AEF5D6C2318D3"
+			tasks: [{
+				id: "586BD5184CB0DAF7"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			description: ["终极的电路设计，可以控制量子级别精度的机器。"]
+			dependencies: [
+				"206F4AA9A9278D8D"
+				"5AD982728B95438C"
+			]
+			id: "40204EBF03AD725E"
+			tasks: [{
+				id: "497E05EC7D5541E0"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			description: [
+				"铍、玛玉灵和暗影钢融合成为了一种非常强大且重要的合金。"
+				""
+				"处理放射性材料时，务必采取特别预防措施！强烈建议将这些机器放置在远离生物的地方。"
+			]
+			dependencies: [
+				"7E3DDF2413EA9433"
+				"5AB7BDCE735F200A"
+			]
+			id: "5AD982728B95438C"
+			tasks: [{
+				id: "06305D4712AFDD6A"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.5d
+			description: ["这一壮举曾经被认为是不可能的，即使是在此之前的伟大工程师们也不这么认为。只有通过小心地将科学与上古魔法相融合，它们才能够掌握核聚变，并用近乎无限的能量为他们的城市供电。"]
+			dependencies: [
+				"5A772150FF638680"
+				"5E61BE9DA7DA1FEC"
+			]
+			id: "16DE48989A21D643"
+			tasks: [{
+				id: "56BA92C0A36137C1"
+				type: "item"
+				item: "mekanismgenerators:fusion_reactor_controller"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.5d
+			description: ["任何足够先进的科技都与魔法密不可分。我们可能没有完全理解这些菌丝网络中魔法与技术的融合，但我们肯定能够利用它。"]
+			dependencies: ["40204EBF03AD725E"]
+			id: "2A9B2999EFB358D6"
+			tasks: [{
+				id: "5919D1C305DF769B"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			shape: "gear"
+			description: ["通过为你的工程网络提供镭射钻和电脑，帮助他们渡过难关。作为交换，他们似乎有一两个技巧可以教你。"]
+			dependencies: ["206F4AA9A9278D8D"]
+			id: "0E7B4F927F548AF9"
+			tasks: [{
+				id: "4769F3CFE98A445F"
+				type: "item"
+				item: "kubejs:heavy_machinery_schematics"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			shape: "gear"
+			description: [
+                "恒星中子活化器是科技与魔法的融合，能够不断地产出巨量的氚，但是需要巨量的魔力和能量才能将其从水中提取。"
+				""
+				"该机器每次消耗魔力都可以运作4000游戏刻。"
+				""
+				"================================================================="
+				""
+				"请注意，JEI中展示的配方并没有准确的显示出指定输入是每游戏刻都会被消耗还是一次性消耗完毕。为了简单起见，所有机械匠艺机器的所有配方都已根据以下规则进行了标准化："
+				""
+				"●FE在每游戏刻都会被消耗"
+				"●气动的空气在每游戏刻都会被消耗，且其压力必须大于10Bar"
+				"●星辉的星光在每游戏刻都会被消耗"
+				"●流体在每游戏刻都会被消耗或产生"
+				"●物品会在合成结束时被消耗或产生"
+				"●魔力会在合成开始时被消耗或在合成结束时被产生"
+			]
+			dependencies: ["40204EBF03AD725E"]
+			min_width: 400
+			id: "5A772150FF638680"
+			tasks: [{
+				id: "2124E28BB47D675C"
+				type: "item"
+				item: "masterfulmachinery:stellar_neutron_activator_controller"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			shape: "gear"
+			description: [
+				"标准装配台的高速、高压版本，能够一次性处理许多电路。对于拓展电路制造业务非常有用！"
+				""
+				"运行该机器需要两个空气供给。高压输入端口需要至少11bar才能够开始运作，而装配台控制器需要5bar才能运作，且可以从底部输入。"
+				""
+				"该机器可以通过将输入物品放在后部的储物箱中进行所有常规的装配台合成。所有输出的物品也会在同一个储物箱中获得。"
+				""
+				"================================================================="
+				""
+				"请注意，JEI中展示的配方并没有准确的显示出指定输入是每游戏刻都会被消耗还是一次性消耗完毕。为了简单起见，所有机械匠艺机器的所有配方都已根据以下规则进行了标准化："
+				""
+				"●FE在每游戏刻都会被消耗"
+				"●气动的空气在每游戏刻都会被消耗，且其压力必须大于10Bar"
+				"●星辉的星光在每游戏刻都会被消耗"
+				"●流体在每游戏刻都会被消耗或产生"
+				"●物品会在合成结束时被消耗或产生"
+				"●魔力会在合成开始时被消耗或在合成结束时被产生"
+			]
+			dependencies: ["71D581C742D17CA4"]
+			min_width: 400
+			id: "76EDB33FBF318FB4"
+			tasks: [{
+				id: "33104A6845FE9370"
+				type: "item"
+				item: "masterfulmachinery:advanced_assembly_table_controller"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			shape: "gear"
+			description: [
+				"尽管基于简单的科技，但这台巨大的机器可以快速生产工业级数量的氘，以满足聚变反应堆的需求。"
+				""
+				"注：此多方块需要水在其下方，腿部浸没在水中，水面正好到平台的基座处。因此，最好将它建造在海上。请小心海带等其他植物，它们的存在将会破坏结构完整性。"
+				""
+				"================================================================="
+				""
+				"请注意，JEI中展示的配方并没有准确的显示出指定输入是每游戏刻都会被消耗还是一次性消耗完毕。为了简单起见，所有机械匠艺机器的所有配方都已根据以下规则进行了标准化："
+				""
+				"●FE在每游戏刻都会被消耗"
+				"●气动的空气在每游戏刻都会被消耗，且其压力必须大于10Bar"
+				"●星辉的星光在每游戏刻都会被消耗"
+				"●流体在每游戏刻都会被消耗或产生"
+				"●物品会在合成结束时被消耗或产生"
+				"●魔力会在合成开始时被消耗或在合成结束时被产生"
+			]
+			dependencies: ["40204EBF03AD725E"]
+			min_width: 400
+			id: "5E61BE9DA7DA1FEC"
+			tasks: [{
+				id: "621697B1EC42D23F"
+				type: "item"
+				item: "masterfulmachinery:industrial_deuterium_plant_controller"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.0d
+			description: ["无论如何，这都不可能。然而，你却在站这里，手中握着反物质！"]
+			dependencies: ["40204EBF03AD725E"]
+			id: "169619599EE68547"
+			tasks: [{
+				id: "0FC0D1296975D5F3"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+	]
+}

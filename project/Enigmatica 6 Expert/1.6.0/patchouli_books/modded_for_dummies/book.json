@@ -1,0 +1,11 @@
+{
+    "name": "笨蛋模组指南",
+    "landing_text": "第一次接触 MC 模组？这本书能带你学习有关模组的基础知识。$(l)本书章节的阅读顺序是任意的$(reset)，因为它们都注重于某一个方面或是特定的模组。值得一提的是，本书不会特别深入的讲某一个特定的模组，而是旨在让你走进 MC 模组这个新世界。祝您旅途愉快！",
+    "version": 1,
+    "book_texture": "enigmatica:textures/book_gui.png",
+    "subtitle": "让世界更加简单！",
+    "show_toasts": false,
+    "show_progress": false,
+    "model": "enigmatica:moddedfordummies",
+    "filler_texture": "enigmatica:textures/enigmatica_page_filler.png"
+}

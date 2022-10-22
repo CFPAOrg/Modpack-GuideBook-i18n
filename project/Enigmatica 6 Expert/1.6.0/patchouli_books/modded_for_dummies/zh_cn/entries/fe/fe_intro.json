@@ -1,0 +1,16 @@
+{
+    "name": "啊！能量！",
+    "icon": "enigmatica:textures/power2.png",
+    "category": "patchouli:fe",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l)$(#ff0000)Forge Energy$(reset)（简称 FE）或者$(l)$(#ff0000)Redstone Flux$(reset)（红石通量，简称 RF）是$(l)MC 模组里通用的能量计量单位$(reset)。你或许已经看过来自各路模组、林林总总的各种发电机或机器，它们都依靠 RF 能量体系或者它的一些变体来工作。"
+        },
+        {
+            "type": "text",
+            "text": "但是不要害怕：消除恐惧的最好办法就是面对恐惧。有些模组有时会给 RF 取别称（比如通用机械的焦耳或是沉浸工艺的 IE），但$(l)他们实际上都是 FE 套了层皮$(reset)，只有少数例外：（工业 2 的 EU 就是典型例子）当今，许多模组都依赖于牢不可破的 FE/RF 体系，所以你可以认为它是本模组包的通用能量系统。"
+        }
+    ]
+}

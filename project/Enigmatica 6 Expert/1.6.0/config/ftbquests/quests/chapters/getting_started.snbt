@@ -1,0 +1,800 @@
+{
+	id: "0000000000000044"
+	group: ""
+	order_index: 1
+	filename: "getting_started"
+	title: "旅途的开始"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "欢迎"
+			icon: "minecraft:oak_sapling"
+			x: 0.0d
+			y: -6.0d
+			description: [
+				"欢迎来到Enigmatica 6"
+				"我们很高兴您前来游玩:D"
+				" "
+				"任务分为3种类型："
+				""
+				"- 探索Enigmatica"
+				"- 学习模组"
+				"- 挑战"
+				""
+				"你可以在下方了解每种任务的更多信息。"
+				""
+				"任务书仍在制作当中，将来还会添加更多的任务。"
+			]
+			size: 1.5d
+			id: "0000000000000045"
+			tasks: [{
+				id: "0000000000000046"
+				type: "checkmark"
+				icon: "minecraft:oak_sapling"
+			}]
+			rewards: [{
+				id: "0000000000000A93"
+				type: "command"
+				title: "农夫快乐包"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			description: [
+				"“探索”任务线旨在展示本模组包里的内容。"
+				""
+				"如果这是你第一次接触MC模组包，或者你需要灵感，那么这些章节是一个很好的开始。"
+				""
+				"该任务线目前有以下三个章节："
+				"- 工具"
+				"- 存储"
+				"- 冒险"
+			]
+			dependencies: ["0000000000000045"]
+			id: "00000000000002AC"
+			tasks: [{
+				id: "00000000000002AD"
+				type: "checkmark"
+				title: "探索Enigmatica"
+				icon: "minecraft:compass"
+			}]
+			rewards: [{
+				id: "00000000000002B4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "minecraft:writable_book"
+			x: 0.0d
+			y: -3.5d
+			description: [
+				"“学习模组”任务线旨在帮助你上手模组，到慢慢地精通模组，并展示一些你能通过模组做的事情。"
+				""
+				"这些章节并没有展示每个模组的所有内容，所以如果想要找到所有很酷的特性，请多多探索。"
+			]
+			dependencies: ["0000000000000045"]
+			id: "00000000000002AE"
+			tasks: [{
+				id: "00000000000002AF"
+				type: "checkmark"
+				title: "学习模组"
+			}]
+			rewards: [{
+				id: "00000000000002B2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "挑战"
+			icon: "minecraft:wither_skeleton_skull"
+			x: 1.5d
+			y: -4.0d
+			description: [
+				"我们为经验丰富的模组玩家设立了挑战任务。"
+				""
+				"本任务线还在施工中。"
+			]
+			dependencies: ["0000000000000045"]
+			id: "00000000000002B0"
+			tasks: [{
+				id: "00000000000002B1"
+				type: "checkmark"
+				title: "挑战"
+				icon: "minecraft:wither_skeleton_skull"
+			}]
+			rewards: [{
+				id: "00000000000002B3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "笨蛋模组指南"
+			x: 1.5d
+			y: -7.5d
+			subtitle: "嘿，听着！"
+			description: [
+				"如果你是Minecraft模组包的新手，想要完全搞清楚模组包里的所有内容，可能有点令人生畏。"
+				""
+				"这就是为什么我们写了一本书《笨蛋模组指南》，总结了一些基础知识，为你提供一个坚实的起跑线，开始你的模组包之旅！"
+			]
+			dependencies: ["0000000000000045"]
+			id: "00000000000006E9"
+			tasks: [{
+				id: "00000000000006EA"
+				type: "checkmark"
+				title: "嘿，听着！"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:modded_for_dummies"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000006EB"
+				type: "item"
+				title: "笨蛋模组指南"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:modded_for_dummies"
+					}
+				}
+			}]
+		}
+		{
+			title: "专家模式"
+			icon: {
+				id: "mekanism:robit"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "100000"
+						}]
+					}
+				}
+			}
+			x: 0.0d
+			y: -8.0d
+			description: [
+				"Enigmatica有两种模式："
+				"普通模式（normal）和专家模式（expert）"
+				""
+				"你可以用命令“/mode normal”和“/mode expert”在它们之间切换。"
+				""
+				"这将触发一次重载，更新配置和配方。"
+				""
+				"一些配置需要重启游戏才能启用，但多数情况下不需要马上重启，因为等你下次打开游戏这些改动就生效了。"
+			]
+			dependencies: [
+				"0000000000000FEB"
+				"0000000000000045"
+			]
+			hide: true
+			optional: true
+			id: "0000000000000FE9"
+			tasks: [{
+				id: "700063683E9C8972"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "阿卡什宝典"
+			x: -1.5d
+			y: -7.5d
+			subtitle: "不要惊慌"
+			description: [
+				"知识的海洋在你的手掌心聚集，这本宝典内置了每个模组的手册，时刻准备着被你翻开。"
+				""
+				"●右击打开菜单，选择一本手册。选中后，阿卡什宝典就会变成它的模样。"
+				""
+				"●手持阿卡什宝典左击空气进行还原。"
+				""
+				"●阿卡什宝典变化之后，按Shift+Q键可以移除选中的手册。"
+				""
+				"●把宝典与手册放在一起合成可以将它们合并。"
+				""
+			]
+			dependencies: ["0000000000000045"]
+			id: "1F5D6018C2E35C3D"
+			tasks: [{
+				id: "7781E2B735D79B56"
+				type: "item"
+				item: "minecraft:book"
+			}]
+			rewards: [{
+				id: "6E4E5D6908D19095"
+				type: "item"
+				title: "完整的阿卡什宝典"
+				icon: {
+					id: "akashictome:tome"
+					Count: 1b
+					tag: {
+						"akashictome:data": {
+							industrialforegoing: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+							}
+							tetra: {
+								id: "tetra:holo"
+								Count: 1.0d
+								tag: {
+									"holo/core_material": "frame/dim"
+									"holo/frame": "holo/frame"
+									"holo/core": "holo/core"
+									"holo/frame_material": "core/ancient"
+								}
+							}
+							resourcefulbees: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+								}
+							}
+							theoneprobe: {
+								id: "theoneprobe:probenote"
+								Count: 1.0d
+							}
+							astralsorcery: {
+								id: "astralsorcery:tome"
+								Count: 1.0d
+							}
+							ftbquests: {
+								id: "ftbquests:book"
+								Count: 1.0d
+							}
+							alexsmobs: {
+								id: "alexsmobs:animal_dictionary"
+								Count: 1.0d
+							}
+							immersiveengineering: {
+								id: "immersiveengineering:manual"
+								Count: 1.0d
+							}
+							eidolon: {
+								id: "eidolon:codex"
+								Count: 1.0d
+							}
+							botania: {
+								id: "botania:lexicon"
+								Count: 1.0d
+								tag: { }
+							}
+							thermal: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "thermal:guidebook"
+								}
+							}
+							patchouli: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "patchouli:modded_for_dummies"
+								}
+							}
+							rftoolsbase: {
+								id: "rftoolsbase:manual"
+								Count: 1.0d
+							}
+							integrateddynamics: {
+								id: "integrateddynamics:on_the_dynamics_of_integration"
+								Count: 1.0d
+							}
+							cookingforblockheads: {
+								id: "cookingforblockheads:crafting_book"
+								Count: 1.0d
+							}
+							powah: {
+								id: "powah:book"
+								Count: 1.0d
+							}
+							pneumaticcraft: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "pneumaticcraft:book"
+								}
+							}
+							naturesaura: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "naturesaura:book"
+								}
+							}
+							apotheosis: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "apotheosis:apoth_chronicle"
+								}
+							}
+							pedestals: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "pedestals:manual"
+								}
+							}
+							transport: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "transport:guide"
+								}
+							}
+							engineersdecor: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "engineersdecor:engineersdecor_manual"
+								}
+							}
+							occultism: {
+								id: "occultism:dictionary_of_spirits"
+								Count: 1.0d
+							}
+							solcarrot: {
+								id: "solcarrot:food_book"
+								Count: 1.0d
+							}
+							modularrouters: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "modularrouters:book"
+								}
+							}
+							ars_nouveau: {
+								id: "ars_nouveau:worn_notebook"
+								Count: 1.0d
+							}
+							bloodmagic: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "bloodmagic:guide"
+								}
+							}
+							betterendforge: {
+								id: "betterendforge:guidebook"
+								Count: 1.0d
+							}
+						}
+					}
+				}
+				item: {
+					id: "akashictome:tome"
+					Count: 1b
+					tag: {
+						"akashictome:data": {
+							industrialforegoing: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "工业先锋手册"
+									}
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"工业先锋手册\"}]}"
+									}
+								}
+							}
+							tetra: {
+								id: "tetra:holo"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "全息球"
+									}
+									"holo/frame": "holo/frame"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"全息球\"}]}"
+									}
+									"holo/core_material": "frame/dim"
+									"holo/core": "holo/core"
+									"holo/frame_material": "core/ancient"
+								}
+							}
+							tconstruct: {
+								id: "tconstruct:encyclopedia"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "工匠大百科"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"工匠大百科\"}]}"
+									}
+								}
+							}
+							resourcefulbees: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "五十度蜂"
+									}
+									"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"五十度蜂\"}]}"
+									}
+								}
+							}
+							astralsorcery: {
+								id: "astralsorcery:tome"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "星芒宝典"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"星芒宝典\"}]}"
+									}
+								}
+							}
+							theoneprobe: {
+								id: "theoneprobe:probenote"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "The One Probe阅读指南"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The One Probe阅读指南\"}]}"
+									}
+								}
+							}
+							ftbquests: {
+								id: "ftbquests:book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "任务书"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"任务书\"}]}"
+									}
+								}
+							}
+							alexsmobs: {
+								id: "alexsmobs:animal_dictionary"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "动物图鉴"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"动物图鉴\"}]}"
+									}
+								}
+							}
+							immersiveengineering: {
+								id: "immersiveengineering:manual"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "工程师手册"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"工程师手册\"}]}"
+									}
+								}
+							}
+							advancedperipherals: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "高级外设"
+									}
+									"patchouli:book": "advancedperipherals:manual"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"高级外设\"}]}"
+									}
+								}
+							}
+							eidolon: {
+								id: "eidolon:codex"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "秘仪教典"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"秘仪教典\"}]}"
+									}
+								}
+							}
+							botania: {
+								id: "botania:lexicon"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "植物魔法辞典"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"植物魔法辞典\"}]}"
+									}
+								}
+							}
+							sushigocrafting: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "成为寿司大师（巧制寿司手册）"
+									}
+									"patchouli:book": "sushigocrafting:sushigocrafting"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"成为寿司大师（巧制寿司手册）\"}]}"
+									}
+								}
+							}
+							thermal: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "热力百科"
+									}
+									"patchouli:book": "thermal:guidebook"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"热力百科\"}]}"
+									}
+								}
+							}
+							patchouli: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "笨蛋模组指南"
+									}
+									"patchouli:book": "patchouli:modded_for_dummies"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"笨蛋模组指南\"}]}"
+									}
+								}
+							}
+							rftoolsbase: {
+								id: "rftoolsbase:manual"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "RF工具指导手册"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"RF工具指导手册\"}]}"
+									}
+								}
+							}
+							integrateddynamics: {
+								id: "integrateddynamics:on_the_dynamics_of_integration"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "论动态联合"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"论动态联合\"}]}"
+									}
+								}
+							}
+							cookingforblockheads: {
+								id: "cookingforblockheads:crafting_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "傻瓜烹饪手册 II"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"傻瓜烹饪手册 II\"}]}"
+									}
+								}
+							}
+							powah: {
+								id: "powah:book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "手册（Powah!）"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"手册（Powah!）\"}]}"
+									}
+								}
+							}
+							pneumaticcraft: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "PNC:R 手册"
+									}
+									"patchouli:book": "pneumaticcraft:book"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"PNC:R 手册\"}]}"
+									}
+								}
+							}
+							naturesaura: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "自然灵气之书"
+									}
+									"patchouli:book": "naturesaura:book"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"自然灵气之书\"}]}"
+									}
+								}
+							}
+							apotheosis: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "暗影编年史"
+									}
+									"patchouli:book": "apotheosis:apoth_chronicle"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"暗影编年史\"}]}"
+									}
+								}
+							}
+							pedestals: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "基座"
+									}
+									"patchouli:book": "pedestals:manual"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"基座\"}]}"
+									}
+								}
+							}
+							transport: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "高级运输"
+									}
+									"patchouli:book": "transport:guide"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"高级运输\"}]}"
+									}
+								}
+							}
+							littlelogistics: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "Little Logistics指南"
+									}
+									"patchouli:book": "littlelogistics:guide"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Little Logistics指南\"}]}"
+									}
+								}
+							}
+							engineersdecor: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "工程师的装饰"
+									}
+									"patchouli:book": "engineersdecor:engineersdecor_manual"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"工程师的装饰\"}]}"
+									}
+								}
+							}
+							occultism: {
+								id: "occultism:dictionary_of_spirits"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "魔灵全典"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"魔灵全典\"}]}"
+									}
+								}
+							}
+							solcarrot: {
+								id: "solcarrot:food_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "食物手册"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"食物手册\"}]}"
+									}
+								}
+							}
+							modularrouters: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "模块化路由器手册"
+									}
+									"patchouli:book": "modularrouters:book"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"模块化路由器手册\"}]}"
+									}
+								}
+							}
+							ars_nouveau: {
+								id: "ars_nouveau:worn_notebook"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "破旧的笔记本"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"破旧的笔记本\"}]}"
+									}
+								}
+							}
+							bloodmagic: {
+								id: "patchouli:guide_book"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "血染知书"
+									}
+									"patchouli:book": "bloodmagic:guide"
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"血染知书\"}]}"
+									}
+								}
+							}
+							betterendforge: {
+								id: "betterendforge:guidebook"
+								Count: 1
+								tag: {
+									"akashictome:displayName": {
+										text: "笨蛋末地指南"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"笨蛋末地指南\"}]}"
+									}
+								}
+							}
+						}
+					}
+				}
+				only_one: true
+			}]
+		}
+	]
+}

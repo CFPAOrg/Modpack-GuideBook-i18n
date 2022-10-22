@@ -1,0 +1,82 @@
+{
+    "name": "陨石",
+    "icon": "minecraft:fire_charge",
+    "category": "patchouli:additions",
+    "pages": [
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/iron",
+            "heading": "铁"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/diamond",
+            "heading": "钻石"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/nether",
+            "heading": "下界"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/stone",
+            "heading": "石头"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "enigmatica:base/bloodmagic/meteor/godforged",
+            "heading": "神铸"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "enigmatica:base/bloodmagic/meteor/slime",
+            "heading": "黏糊糊"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "enigmatica:base/bloodmagic/meteor/arcane",
+            "heading": "奥术"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "enigmatica:base/bloodmagic/meteor/natural",
+            "heading": "自然"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "enigmatica:base/bloodmagic/meteor/water",
+            "heading": "海晶"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "enigmatica:base/bloodmagic/meteor/resonant",
+            "heading": "谐振"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "enigmatica:base/bloodmagic/meteor/spirited",
+            "heading": "富生"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "enigmatica:base/bloodmagic/meteor/booger_bomb",
+            "heading": "鼻涕弹"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "enigmatica:base/bloodmagic/meteor/celestial",
+            "heading": "天辉"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "enigmatica:base/bloodmagic/meteor/meateor",
+            "heading": "肉弹"
+        },
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "enigmatica:base/bloodmagic/meteor/honey",
+            "heading": "蜂蜜滴"
+        }
+    ]
+}

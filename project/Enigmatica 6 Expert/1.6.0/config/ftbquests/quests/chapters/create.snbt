@@ -1,0 +1,1785 @@
+{
+	id: "0000000000000C3F"
+	group: "72A9465344128AF9"
+	order_index: 0
+	filename: "create"
+	title: "机械动力"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "机械动力"
+			icon: "create:wrench"
+			x: 7.0d
+			y: 0.0d
+			shape: "gear"
+			description: [
+				"欢迎来到机械动力！机械动力的内核与原版红石的主要目的相同：为玩家提供实现奇妙创作的物品。"
+				""
+				"你会问什么样的创作？嗯，什么都可以！制作火车、隧道掘进机、巨大的功能性风车，甚至是能玩的鲁比克魔方！"
+				""
+				"只有你想不到的，没有你做不到的。"
+				""
+				"当然，任务不可能将这么多内容全都详细介绍一遍。相反，我们的目标是引入机械动力的基本概念，为你的探索奠定坚实的基础。"
+				""
+				"~MuteTiefling"
+			]
+			optional: true
+			id: "0000000000000C40"
+			tasks: [{
+				id: "0000000000000C41"
+				type: "checkmark"
+				title: "机械动力"
+			}]
+			rewards: [{
+				id: "0000000000000CB9"
+				type: "item"
+				title: "扳手"
+				item: "create:wrench"
+			}]
+		}
+		{
+			title: "旋转力"
+			icon: "create:goggles"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "还需要一些零件"
+			description: [
+				"与许多体系一样，动力是必须的。在机械动力中，这通常意味着让某些东西旋转。当然，有多种方法可以做到这一点，但在这之前，让我们简单了解一些基本知识。"
+				""
+				"首先是动力源和作业元件。不言而喻，动力源产生旋转力，带动作业元件进行旋转。但并非所有的动力源和作业元件都是相对的。"
+				""
+				"每个动力源都能够输出一定量的应力单元（SU），这些应力在所有连接的作业元件之间分配。如果作业元件需要的应力比输出的多，那么整个系统将陷入过载。"
+				""
+				"作业元件运作的速度越快，其影响越大，使用的应力越多。"
+				""
+				"要了解生成或消耗的应力值，可以戴上工程师护目镜并看向相关方块。"
+				""
+				"最后提一句，虽然机械动力没有指南书，但每个组件的物品提示中都有非常详细的信息来帮助你了解。请仔细阅读。"
+			]
+			dependencies: ["0000000000000C40"]
+			min_width: 300
+			id: "0000000000000CBA"
+			tasks: [{
+				id: "0000000000000D67"
+				type: "checkmark"
+				title: "旋转力"
+			}]
+			rewards: [{
+				id: "0000000000000D66"
+				type: "item"
+				title: "工程师护目镜"
+				item: "create:goggles"
+			}]
+		}
+		{
+			title: "风车"
+			icon: "create:white_sail"
+			x: 4.0d
+			y: 3.5d
+			subtitle: "不含电池"
+			description: [
+				"年轻人的第一个多方块结构也许就是风车。这是一个能产出高应力的动力源，且能够在高转速下运行。仅向结构添加更多风帆或羊毛就能产生更多的应力和更快的速度。"
+				""
+				"从哪里开始建造呢？先放下风车轴承。带绿色粘液的一面是建造结构其余部分的地方。动力将从另一端输出。请注意，风车可以从任何方向建造。"
+				""
+				"接下来，将旋转底盘连接到轴承的粘性侧。这里的旋转底盘充当风车的轴承，而叶片与轴承相连接。"
+				"用粘液球右击底盘可使其变粘（不会消耗粘液球），使大多数装饰方块都可以在风车连接半径外进行连接。"
+				""
+				"手持扳手并看向底盘来查看底盘的连接半径。高亮显示的方块是结构的一部分。可以使用滚轮调整半径。"
+				""
+				"请注意，只有在连接未被底盘识别的方块时才需要胶水，例如要在风车的前面延展方块。如果是风帆直接连接到底盘上，就根本不需要胶水，但那又有什么乐趣呢？美观更重要！"
+			]
+			dependencies: ["0000000000000CBA"]
+			min_width: 250
+			id: "0000000000000CBD"
+			tasks: [
+				{
+					id: "0000000000000CBE"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "0000000000000CBF"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+				{
+					id: "0000000000000CC1"
+					type: "item"
+					item: "create:white_sail"
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000CC0"
+					type: "item"
+					title: "强力胶"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000D75"
+					type: "command"
+					title: "史诗机械动力战利品箱"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			subtitle: "就像一张光盘，宝贝"
+			description: [
+				"水车虽然比风车的安装简单得多，但产生的应力要少得多，运行速度也慢得多。"
+				""
+				"对小尺寸比速度更重要的应用场景来说，它很有用。例如，在制作一扇通往基地的花哨的门时。"
+				""
+				"只需让水流过水车，它就会持续运行。当四个面上都有水正向流动时，水车就达到了最大速度。"
+			]
+			dependencies: ["0000000000000CBA"]
+			id: "0000000000000CC2"
+			tasks: [{
+				id: "0000000000000CC3"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "0000000000000D74"
+				type: "command"
+				title: "拾荒者快乐包"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			icon: "create:propeller"
+			x: 5.5d
+			y: 4.0d
+			subtitle: "可再生能源？为爱鼓风"
+			description: [
+				"鼓风机比水车还要紧凑，除了提供其他功能外，还能产生少量旋转力。稍后将详细介绍它的功能。"
+				""
+				"要使用它来产生旋转力，必须将它面朝下放在炽热的方块上，如熔岩或岩浆块。一定要注意不要玩火尿炕。"
+				""
+				"向鼓风机施加红石信号，使其产生动力。"
+				""
+				"--------------------------------"
+				""
+				"要使用鼓风机进行加工，必须使其气流能够吹过熔岩、水或火焰。掉落在远端气流中的物品则会分别被冶炼、洗涤或烟熏。"
+				""
+				"气流可以通过铁栅栏和活板门等特定方块，而将熔岩或水安全地遏制在内。"
+				""
+				"特别注意：鼓风机可用于直接处理容器或传送带上的物品，但传送带上的物品在处理过程中不会停止移动。"
+				""
+				"想要有效利用鼓风机和传送带组合，请让鼓风机的气流长度超过传送带。旋转速度越快，气流吹得就越远。这也使得鼓风机能够一次处理多组物品。"
+			]
+			dependencies: [
+				"0000000000000CBD"
+				"0000000000000CFC"
+			]
+			id: "0000000000000CC4"
+			tasks: [{
+				id: "0000000000000CC5"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [
+				{
+					id: "0000000000000CCA"
+					type: "item"
+					title: "模拟拉杆"
+					item: "create:analog_lever"
+				}
+				{
+					id: "0000000000000D73"
+					type: "item"
+					title: "岩浆块"
+					item: "minecraft:magma_block"
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "create:flywheel"
+			x: 4.0d
+			y: 5.0d
+			subtitle: "深受尊重"
+			description: [
+				"紧凑动力源的终极之选。熔炉引擎是由三部分组成的多方块结构，可以产出尽可能高的应力值。"
+				""
+				"要使其运行，必须启动（点燃）熔炉或高炉。通常来说需要它熔炼某些物品，尽管还有其他方法使其工作。"
+				""
+				"将熔炉引擎放在熔炉或高炉的顶部来建造该结构。它会覆盖熔炉，并从其一侧伸出一大块结构。在这一侧，留下一个空气块，然后放置飞轮（距离熔炉的第三块）。"
+			]
+			dependencies: ["0000000000000CBD"]
+			id: "0000000000000CC6"
+			tasks: [
+				{
+					id: "0000000000000CC7"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+				{
+					id: "0000000000000CC8"
+					type: "item"
+					item: "create:flywheel"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000D76"
+					type: "command"
+					title: "传奇机械动力战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "0000000000000D8A"
+					type: "item"
+					title: "高炉"
+					item: "minecraft:blast_furnace"
+				}
+			]
+		}
+		{
+			title: "传动杆"
+			x: 1.5d
+			y: 2.0d
+			subtitle: "动感单车"
+			description: [
+				"造一个漂亮的风车可不是你费这么大劲的唯一原因。有没有一种可能，这个风车是能做一些有用的事情的。但它高高在上，而我们……"
+				""
+				"碰巧，传递旋转力非常简单。轴可用于线性传输功率，而齿轮可用于改变方向和速度。"
+			]
+			dependencies: ["0000000000000CBA"]
+			id: "0000000000000CCC"
+			tasks: [{
+				id: "0000000000000CCD"
+				type: "item"
+				item: "create:shaft"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "0000000000000D79"
+					type: "command"
+					title: "稀有机械动力战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000D80"
+					type: "item"
+					title: "海带"
+					item: "minecraft:kelp"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "安山机壳"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "天下不安宁啊"
+			description: [
+				"不想看见你基地里的孔洞？看到裸露的传动杆就浑身颤抖？别找了解药就在这里。"
+				""
+				"用机壳右击传动杆，将其转换为完整方块。非常适合传动杆穿过墙壁或地板的时候使用。"
+				""
+				"配合传送带使用风味也极佳。"
+			]
+			dependencies: ["0000000000000CCC"]
+			id: "0000000000000CCE"
+			tasks: [{
+				id: "0000000000000CCF"
+				type: "item"
+				item: "create:andesite_casing"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000D78"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "支架"
+			x: 2.0d
+			y: 1.0d
+			subtitle: "支棱起来"
+			description: [
+				"你那边那个传动杆真长。它看起来没有支撑，不是吗？"
+				""
+				"支架完全是装饰性的，但可以使你的传动杆网络看起来更美观。"
+			]
+			dependencies: ["0000000000000CCC"]
+			id: "0000000000000CD0"
+			tasks: [
+				{
+					id: "0000000000000CD1"
+					type: "item"
+					item: "create:wooden_bracket"
+					count: 4L
+				}
+				{
+					id: "0000000000000D8B"
+					type: "item"
+					item: "create:metal_bracket"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "0000000000000D77"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			subtitle: "让我们改变一下策略"
+			description: [
+				"十字齿轮箱的成本略高于一对齿轮，其作用与垂直的齿轮相同，能够改变转动杆的方向。"
+				""
+				"不过十字齿轮箱有一个微小的优势，即它可以将动力分成两个方向。它还有一个竖直变种，可以将传动杆变为向上或向下转动。"
+			]
+			dependencies: ["0000000000000CD6"]
+			id: "0000000000000CD4"
+			tasks: [{
+				id: "0000000000000CD5"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			rewards: [{
+				id: "0000000000000D83"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "齿轮"
+			x: -1.0d
+			y: 2.0d
+			subtitle: "斯贝斯利太空飞轮"
+			description: [
+				"咱家的风车速度有点慢并不意味着其他一切都得这么慢。一个系统的转速可以通过简单的传动比来提高（或降低）。"
+				""
+				"例如：假设动力正在驱动着小齿轮进行转动。将小齿轮的齿与大齿轮的齿贴后，大齿轮的传动杆旋转速度会变成小齿轮的一半。"
+				""
+				"类似地，将大齿轮与小齿轮贴合将导致小齿轮的传动杆以原来两倍的速度旋转。"
+				""
+				"这些效果可以连环叠加，但请记住：此系统中的作业元件运行得越快，应力成本就越高。"
+				""
+				"此外，两个大齿轮可以垂直贴合，来改变传动轴的旋转方向。可用于转弯或将动力运往高处。"
+			]
+			dependencies: ["0000000000000CCC"]
+			id: "0000000000000CD6"
+			tasks: [
+				{
+					id: "0000000000000CD7"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 4L
+				}
+				{
+					id: "48C68E5C0B154689"
+					type: "item"
+					item: "create:cogwheel"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "0000000000000D81"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "传送带"
+			x: 1.5d
+			y: 3.0d
+			subtitle: "大佬带带我"
+			description: [
+				"和机械动力中许多物品一样，传送带也有着许多用途。"
+				""
+				"其主要用途是物品运输。它可以水平运输物品，也可以通过上下45度的斜坡进行运输。"
+				""
+				"它也可以将动力从一个传动杆传递到另一个传动杆。这是一种在保持旋转方向的同时为多个平行传动杆提供动力的极好方法。"
+				""
+				"一根传送带可以最多拉伸至20格方块长，其中每格方块都可以连接传动杆。只需放置两个传动杆，然后用传送带右击这两个传动杆即可进行连接。"
+			]
+			dependencies: ["0000000000000CCC"]
+			id: "0000000000000CD8"
+			tasks: [{
+				id: "0000000000000CD9"
+				type: "item"
+				item: "create:belt_connector"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000D7A"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			subtitle: "我是链帮的"
+			description: [
+				"链式传动箱可以像传送带一样使用，将垂直的传动杆连接在一起。"
+				""
+				"它们也可用于改变动力的方向，办法是将多个传动箱并排放置并将它们相互旋转90度。"
+			]
+			dependencies: ["0000000000000CD8"]
+			id: "0000000000000CE0"
+			tasks: [{
+				id: "0000000000000CE1"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
+			rewards: [{
+				id: "0000000000000D7B"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			icon: "create:rotation_speed_controller"
+			x: -4.0d
+			y: 2.0d
+			subtitle: "挂到超速档"
+			description: [
+				"将数百个齿轮连接起来就为了达到一个确切的速度不太现实。你需要转速控制器。在它顶部插槽放置一个大齿轮并提供动力。"
+				""
+				"转速控制器会自动调整其两个输出传动杆上的转速。使用滚轮设置转动速度。"
+			]
+			dependencies: ["0000000000000CD6"]
+			id: "0000000000000CE2"
+			tasks: [{
+				id: "0000000000000CE3"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [
+				{
+					id: "0000000000000D5B"
+					type: "item"
+					title: "大齿轮"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "0000000000000D5C"
+					type: "command"
+					title: "传奇机械动力战利品箱"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_legendary"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			subtitle: "滑坡效应"
+			description: [
+				"漏斗既能向容器中输出，也能从容器中输入。"
+				""
+				"例如，连接至箱子的漏斗可以从箱子抽出物品并倾倒在相邻的传送带上。类似地，进入漏斗的传送带会将物品放入相邻的容器中。"
+			]
+			dependencies: ["0000000000000CD8"]
+			id: "0000000000000CE5"
+			tasks: [{
+				id: "0000000000000CE6"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+			rewards: [{
+				id: "0000000000000D7C"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "溜槽"
+			x: 1.5d
+			y: 4.0d
+			subtitle: "溜了溜了"
+			description: [
+				"溜槽一种简单而快捷的向下传送物品的方式。只要把物品放在顶部，它们就会从底部出来。"
+				""
+				"溜槽比在直接丢下一件物品的优势在于，它们能以45度角输送物品，且多个溜槽可以合并成一个溜槽，从而更好地控制物品的最终落点。"
+				""
+				"溜槽也可用于向上输送物品。如果溜槽顶部安装了一个鼓风机，则可以使用鼓风机将物品脱离传送带。当然，还需要某种方法把物品从溜槽中拿出来，比如用漏斗。"
+			]
+			dependencies: ["0000000000000CD8"]
+			id: "0000000000000CE7"
+			tasks: [{
+				id: "0000000000000CE8"
+				type: "item"
+				item: "create:chute"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000CF1"
+				type: "item"
+				title: "鼓风机"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			subtitle: "双缝实验"
+			description: [
+				"远不止一个带盖的传送带，隧道在分流物品时起到了重要作用。"
+				""
+				"当一组物品通过安山岩隧道时，隧道将自动从一组中取出一件物品，并将其放置到相邻的传送带或容器中。"
+			]
+			dependencies: ["0000000000000CD8"]
+			id: "0000000000000CE9"
+			tasks: [{
+				id: "0000000000000CEA"
+				type: "item"
+				item: "create:andesite_tunnel"
+			}]
+			rewards: [{
+				id: "0000000000000D7D"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			subtitle: "嘻哈滑滑梯"
+			description: ["黄铜漏斗的功能类似于安山岩漏斗，但它们能够使用过滤器，可以是过滤栏中的单个物品，也可以是配置好的过滤器。"]
+			dependencies: ["0000000000000CE5"]
+			id: "0000000000000CED"
+			tasks: [{
+				id: "0000000000000CEE"
+				type: "item"
+				item: "create:brass_funnel"
+			}]
+			rewards: [{
+				id: "0000000000000D59"
+				type: "command"
+				title: "传奇机械动力战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			subtitle: "波函数坍缩"
+			description: [
+				"黄铜隧道的工作原理与安山岩隧道略有不同。将黄铜隧道并联可以为多个传送带提供物品分流，而不是分裂到相邻传送带上。"
+				""
+				"当物品通过一个通道时，它们会在另一侧的所有连接通道中被均分。"
+				""
+				"在均分期间，可使用过滤器，因此可以用它制作一个分拣系统。接收大量混合输入，并将其分拣到各个传送带上。"
+			]
+			dependencies: ["0000000000000CE9"]
+			id: "0000000000000CEF"
+			tasks: [{
+				id: "0000000000000CF0"
+				type: "item"
+				item: "create:brass_tunnel"
+			}]
+			rewards: [{
+				id: "0000000000000D57"
+				type: "command"
+				title: "传奇机械动力战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			subtitle: "缓冲区分配失败"
+			description: [
+				"一个简单的物品缓冲。"
+				""
+				"置物台可以容纳一组物品，它们也可以与鼓风机洗涤、冶炼和烟熏加工以及动力辊压机进行交互。"
+			]
+			dependencies: ["0000000000000CD8"]
+			id: "0000000000000CF2"
+			tasks: [{
+				id: "0000000000000CF3"
+				type: "item"
+				item: "create:depot"
+			}]
+			rewards: [{
+				id: "0000000000000D7E"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			subtitle: "5号还活着！"
+			description: [
+				"动力臂用于高级短程物品运输。它可以在工作范围内的任意两点间移动物品。"
+				""
+				"例如，可以将动力臂配置成从漏斗中提取沙子并放置在置物台上，使沙子被鼓风机熔炼成玻璃。然后，同一只动力臂可以拿起玻璃，将其放入另一个带过滤器的漏斗中，把它送走。"
+				""
+				"在放置动力臂之前要进行连接，手持它右击可识别的容器即可进行设置。再次右击切换输入或输出。动力臂最多可以够到四格远。"
+			]
+			dependencies: ["0000000000000CD8"]
+			id: "0000000000000CF4"
+			tasks: [{
+				id: "0000000000000CF5"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "0000000000000D58"
+				type: "command"
+				title: "传奇机械动力战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			subtitle: "汝可知何物合吾齿轮?"
+			description: [
+				"石磨有着很悠久的历史，这项最古老的技术仍在被我们使用。它们比手工研磨东西效率高得多。"
+				""
+				"机械动力的石磨是早期提高矿物产量的好方法。确保对研磨出的粉碎矿石进行洗涤，以进一步提高产量！"
+			]
+			dependencies: ["0000000000000D04"]
+			id: "0000000000000CFC"
+			tasks: [{
+				id: "0000000000000CFD"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "0000000000000D72"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "粉碎轮"
+			x: 9.0d
+			y: 5.5d
+			subtitle: "粉碎时间到！"
+			description: [
+				"粉碎轮是石磨的老大哥。总之粉碎轮的活更棒，产出的物品比你在石磨中得到的更多。"
+				"其较硬的粉碎面能够处理石磨无法处理的材料。"
+				""
+				"搭建一对粉碎轮需要动点小脑筋，因为两个粉碎轮必须朝相反的方向旋转，即从顶部朝着两轮相交处旋转。"
+				""
+				"放置粉碎轮时，两轮之间应留有单个方块的空隙。物品可以从底部丢下，也可以通过漏斗放入两轮相交的“方块”中，方便控制。"
+			]
+			dependencies: ["0000000000000D1A"]
+			id: "0000000000000CFE"
+			tasks: [{
+				id: "0000000000000CFF"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0000000000000D54"
+				type: "command"
+				title: "传奇机械动力战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			icon: "create:brass_hand"
+			x: 8.0d
+			y: 5.0d
+			subtitle: "还是看看远处的动力臂吧，家人们"
+			description: [
+				"机械手虽然在很多方面都很有用，但它主要用于自动化磨制玫瑰石英。"
+				""
+				"可通过传送带+机械动力漏斗、原版漏斗或其他绝大多数运输方式将物品放入机械手。提供动力后，它将持续尝试在其前方的任何实体上“使用”持有的物品，无论是物品还是怪物。"
+				""
+				"将石英放在不断伸缩的机械手的路径上即可磨制石英。"
+			]
+			dependencies: ["0000000000000D02"]
+			id: "0000000000000D00"
+			tasks: [
+				{
+					id: "0000000000000D01"
+					type: "item"
+					item: "create:deployer"
+				}
+				{
+					id: "0000000000000D21"
+					type: "item"
+					item: {
+						id: "create:sand_paper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000D6F"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			subtitle: "人性的欧姆"
+			description: [
+				"电子管是合成机械动力中最先进的机械的材料，它们以自动化磨制玫瑰石英的形式向你发起了挑战。"
+				""
+				"玫瑰石英需要用砂纸进行打磨。一开始，你得通过一只手拿着一张砂纸，另一只手拿着玫瑰石英手动打磨。按住鼠标右击，将其打磨至表面光亮。"
+				""
+				"但你一定会说：这都什么？这么多花里胡哨的机器难道不能实现自动化吗？当然可以！但是你需要电子管才能做这样的机器！"
+			]
+			dependencies: ["0000000000000D04"]
+			id: "0000000000000D02"
+			tasks: [{
+				id: "0000000000000D03"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [{
+				id: "0000000000000D6D"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "create:whisk"
+			x: 7.0d
+			y: 2.0d
+			subtitle: "我只是做了一点微小的工作"
+			description: ["有了一些基本的动力和物流作保障，是时候开始干正事了。机械动力提供了几个新的合成机制，这些机制对了解该模组非常重要。"]
+			dependencies: ["0000000000000C40"]
+			id: "0000000000000D04"
+			tasks: [{
+				id: "0000000000000D05"
+				type: "checkmark"
+				title: "合成"
+			}]
+			rewards: [{
+				id: "0000000000000D68"
+				type: "command"
+				title: "农夫快乐包"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			subtitle: "煮土豆，土豆泥，大锅炖土豆! "
+			description: [
+				"动力辊压机可以将锭压制成板，以便进行更高级的合成。与工作盆结合时它还可以将粒制成锭。"
+				""
+				"压制板时，辊压机可以安装在传送带、置物台或任何其他方块上。"
+				""
+				"如果放置在传送带上，辊压机运行时，它会自动暂停传送带。"
+				""
+				"当处在置物台上方时，一旦检测到下方有需要压制的物品，它就会工作。"
+				""
+				"然而处在其他方块上方时，辊压机需要红石信号才能启动。"
+			]
+			dependencies: ["0000000000000CFC"]
+			id: "0000000000000D06"
+			tasks: [{
+				id: "0000000000000D07"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "0000000000000D71"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			icon: "create:mechanical_mixer"
+			x: 7.0d
+			y: 5.5d
+			subtitle: "这是个误会，警官"
+			description: [
+				"动力搅拌器能将固体或液体混合成更有用的形态。从酿造药水、泡茶到制作高级合金，它都能做到。搅拌器下方需要一个工作盆。"
+				""
+				"请注意，有些配方需要加热，而热量需要烈焰人燃烧室来提供。接下来我会介绍更多信息。"
+			]
+			dependencies: ["0000000000000D06"]
+			id: "0000000000000D08"
+			tasks: [
+				{
+					id: "0000000000000D09"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "0000000000000D0A"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [{
+				id: "0000000000000D70"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			subtitle: "灰常得大"
+			description: [
+				"当需要高温时，没有比下界更合适的地方了。为什么不把它的炎热带回家呢？"
+				""
+				"烈焰人燃烧室是手持空燃烧室右击烈焰人（消耗怪物）或烈焰人刷怪笼（不消耗刷怪笼）得到的。它们很烫，但不会永远烫下去。"
+				""
+				"如果烈焰人冷却了，就给它喂煤或其他可燃材料，使其再次产生怒火。"
+			]
+			dependencies: ["0000000000000D08"]
+			id: "0000000000000D0B"
+			tasks: [{
+				id: "0000000000000D0C"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "0000000000000D5E"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			subtitle: "禁忌零食"
+			description: [
+				"你说不够热是什么意思？好吧，让他们吃蛋糕吧！"
+				""
+				"制作烈焰蛋糕将真正考验你的技能，因为它结合了许多不同的合成机制。你的自动化程度有多深？"
+			]
+			dependencies: ["0000000000000D0B"]
+			id: "0000000000000D0D"
+			tasks: [{
+				id: "0000000000000D0E"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [{
+				id: "0000000000000D55"
+				type: "command"
+				title: "传奇机械动力战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			subtitle: "阿基米德螺线"
+			description: [
+				"正如我们不能不费力气就移动物体，动力泵也需要一些旋转力来泵送和处理流体。"
+				""
+				"动力泵接受来自齿轮的动力，对一段管道进行加压，使流体沿一个方向或反方向流动，这具体取决于齿轮旋转方向。"
+				""
+				"该方块有一个小型流向指示器，便于可视化流量。一台动力泵可以给一长段管道加压，所以尽量将它们分的散点。"
+			]
+			dependencies: ["0000000000000D11"]
+			id: "0000000000000D0F"
+			tasks: [{
+				id: "0000000000000D10"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+			rewards: [{
+				id: "0000000000000D84"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "流体管道"
+			x: -1.0d
+			y: 3.0d
+			subtitle: "管道清洁工"
+			description: ["管道是输送流体的主要途径。液体从一端进去，另一端出来。很简单！"]
+			dependencies: ["0000000000000CD6"]
+			id: "0000000000000D11"
+			tasks: [{
+				id: "0000000000000D12"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0000000000000D85"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			icon: "create:fluid_valve"
+			x: -2.5d
+			y: 4.0d
+			subtitle: "请闭嘴"
+			description: ["流体阀门可以通过施加一些旋转力来打开或关闭，例如使用阀门手轮。"]
+			dependencies: ["0000000000000D0F"]
+			id: "0000000000000D13"
+			tasks: [
+				{
+					id: "0000000000000D14"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+				{
+					id: "0000000000000D19"
+					type: "item"
+					item: "create:copper_valve_handle"
+				}
+			]
+			rewards: [{
+				id: "0000000000000D86"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			subtitle: "半透膜"
+			description: ["原版里不可能的事，在模组里就是家常便饭。智能流体管道起到流体过滤器的作用，既可以控制从储罐中输入的液体，也可以控制管道中的液体。"]
+			dependencies: ["0000000000000D0F"]
+			id: "0000000000000D15"
+			tasks: [{
+				id: "0000000000000D16"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+			rewards: [{
+				id: "0000000000000D5A"
+				type: "command"
+				title: "传奇机械动力战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "流体储罐"
+			x: -3.0d
+			y: 3.0d
+			subtitle: "深不可测"
+			description: [
+				"流体储罐一种主题式多方块储罐，可满足你的所有储液需求。"
+				""
+				"虽然玩家无法直接与它们交互，需要管道来输入或输出流体，但它们可以和相邻的储罐合并，形成大型多方块，以便进行大批量存储。"
+				"流体储罐的底可以是1x1、2x2、3x3或者随便多大都行。"
+			]
+			dependencies: ["0000000000000D11"]
+			id: "0000000000000D17"
+			tasks: [{
+				id: "0000000000000D18"
+				type: "item"
+				item: "create:fluid_tank"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000D89"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "create:mechanical_crafter"
+			x: 9.0d
+			y: 4.5d
+			description: [
+				"当简单的3x3合成栏不够用的时候，我们还有动力合成器。这些方块连接起来形成了一个大型的合成接口。每个方块可以放置一件物品。"
+				""
+				"一些高级物品只能通过这种方式制作。"
+				""
+				"放置合成器时要注意，因为会有一个箭头指向你放置它的方向。此箭头指示物品在合成台合成时的移动方向，所有箭头最后必须汇聚到某一个合成台那里。"
+				""
+				"例如，将第一个合成台放在地上会使箭头指向下方，这就是输出。第二个合成台靠着第一个的侧面放置，使其箭头指向第一个，以形成一条通道。"
+				""
+				"合成器盖板可用于禁用物品槽，任何有空位合成必须将其覆盖。例如，用3x3动力合成台制作箱子时，中间的槽必须被覆盖。"
+				""
+				"物品可通过原版漏斗、传送带和机械动力漏斗、动力臂等输入。试试看你能想出什么！"
+			]
+			dependencies: ["0000000000000D02"]
+			min_width: 250
+			id: "0000000000000D1A"
+			tasks: [
+				{
+					id: "0000000000000D1B"
+					type: "item"
+					item: "create:mechanical_crafter"
+				}
+				{
+					id: "0000000000000D1C"
+					type: "item"
+					item: "create:crafter_slot_cover"
+				}
+			]
+			rewards: [{
+				id: "0000000000000D6E"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "create:polished_rose_quartz"
+			x: 8.0d
+			y: 6.5d
+			shape: "octagon"
+			description: [
+				"所有的零件都在这里，你能把它们组装起来吗？建造一个全自动磨制玫瑰石英工厂。唯一允许的外部输入是石英和红石本身。"
+				""
+				"通过将刷石机中的圆石粉碎来制作沙子。种植并收获甘蔗，实现造纸自动化。将它们放在一起，然后将砂纸放在机械手上，以磨制玫瑰石英。"
+				""
+				"当然，合成玫瑰石英这个过程也应该在这个工厂内完成。仅使用机械动力和原版完成此项挑战！"
+				""
+				"祝你好运！"
+			]
+			dependencies: ["0000000000000D00"]
+			id: "0000000000000D1F"
+			tasks: [{
+				id: "0000000000000D20"
+				type: "checkmark"
+				title: "挑战：玫瑰石英自动化"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			subtitle: "满口胡言"
+			description: ["将注液器放置在置物台上方，注液器会尝试填充置物台上出现的任何物品。例如，装一桶水，装满药水瓶，或者做美味的茶！"]
+			dependencies: ["0000000000000D11"]
+			id: "0000000000000D23"
+			tasks: [{
+				id: "0000000000000D24"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "0000000000000D87"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "模块化动态结构"
+			icon: {
+				id: "create:minecart_contraption"
+				Count: 1b
+				tag: {
+					Contraption: {
+						Blocks: [
+							{
+								Pos: {
+									X: 0
+									Y: 0
+									Z: 0
+								}
+								Block: {
+									Properties: {
+										axis: "z"
+									}
+									Name: "create:minecart_anchor"
+								}
+							}
+							{
+								Pos: {
+									X: 0
+									Y: 1
+									Z: 0
+								}
+								Block: {
+									Name: "minecraft:spruce_planks"
+								}
+							}
+						]
+						BoundsFront: [
+							0.0f
+							0.0f
+							0.0f
+							1.0f
+							2.0f
+							1.0f
+						]
+						SubContraptions: [ ]
+						Actors: [ ]
+						Seats: [ ]
+						Type: "mounted"
+						Anchor: {
+							X: 108
+							Y: 84
+							Z: -93
+						}
+						Superglue: [ ]
+						Storage: [ ]
+						Passengers: [ ]
+						RotationMode: "ROTATE"
+						FluidStorage: [ ]
+						Stalled: 0b
+					}
+					display: { }
+				}
+			}
+			x: 10.0d
+			y: 2.0d
+			description: [
+				"模块化动态结构是一种DIY多方块结构，有着几乎无限的可能性。"
+				""
+				"它们可以固定在原地并通过旋转力运行，也可以连接到矿车上自由运行，只需要充能铁轨来保持矿车移动。"
+				""
+				"以下是一些可用于这些装置的方块。"
+			]
+			dependencies: ["0000000000000C40"]
+			id: "0000000000000D2B"
+			tasks: [{
+				id: "0000000000000D2C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0000000000000D65"
+				type: "item"
+				title: "矿车"
+				item: "minecraft:minecart"
+			}]
+		}
+		{
+			icon: "create:mechanical_piston"
+			x: 10.5d
+			y: 3.0d
+			subtitle: "工程师交流项目"
+			description: [
+				"说到移动动态结构，动力活塞可能是一个很好的开始。"
+				""
+				"举一个简单的例子，我们可以想象一片长长的庄稼地。动力活塞周期性地在田里来回推动收割装置，以采集作物。"
+			]
+			dependencies: ["0000000000000D2B"]
+			id: "0000000000000D2D"
+			tasks: [{
+				id: "0000000000000D2E"
+				type: "item"
+				title: "动力活塞"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "create:mechanical_piston"
+								Count: 1b
+							}
+							{
+								id: "create:sticky_mechanical_piston"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000D69"
+					type: "command"
+					title: "稀有机械动力战利品箱"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000D8C"
+					type: "item"
+					title: "活塞杆"
+					item: "create:piston_extension_pole"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 4.0d
+			subtitle: "把车装在马的前面——本末倒置"
+			description: [
+				"矿车装配站用于建造矿车上的动态结构。"
+				""
+				"动态结构应该建在装配站的顶部。准备好后，给装配站一个红石信号将把所有连接的方块转变成一个实体。"
+				""
+				"然后可以用扳手将整个矿车捡起，以便于设备的运输。"
+				""
+				"基于矿车的动态结构的一个很好的例子就是隧道掘进机。它可以设置为在它前面铺设轨道，然后在后面收回轨道。它甚至可以建造桥梁来避开沟壑！"
+			]
+			dependencies: ["0000000000000D2B"]
+			id: "0000000000000D2F"
+			tasks: [{
+				id: "0000000000000D30"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [{
+				id: "0000000000000D6A"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 11.5d
+			y: 5.0d
+			subtitle: "摆脱无法承受的处境"
+			description: [
+				"与风车轴承类似，动力轴承可用于建造旋转动态结构。"
+				""
+				"例如，我们可以建造一个长而宽的手臂动态结构，在林场中挥舞，砍倒它接触的所有树木。"
+			]
+			dependencies: ["0000000000000D2B"]
+			id: "0000000000000D31"
+			tasks: [{
+				id: "0000000000000D32"
+				type: "item"
+				item: "create:mechanical_bearing"
+			}]
+			rewards: [{
+				id: "0000000000000D6B"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "底盘"
+			x: 12.5d
+			y: 4.0d
+			description: [
+				"底盘方块用于形成更大动态结构的底座。"
+				""
+				"机壳底盘可以沿其深色面相互连接，并被自动视为一个“整体”，而其他部件可以粘在它的上面。"
+				"如果在底盘上涂上胶水，还能将其浅色面与一列方块相连接。"
+				""
+				"类似地，旋转底盘可以连接圆形平面中的方块，只要它们与底盘接触并且底盘的浅色面涂上胶水。"
+				""
+				"这样就可以用很少的胶水制作非常大的动态结构。但是，它们不是必需的。相反，方块可以直接地粘合在一起，形成不规则形状的大块。"
+				""
+				"不用担心，一旦这个动态结构成型，胶痕就看不见了，从而形成非常美观的结构。"
+				""
+				"看向底盘时手持扳手使用滚轮来调整其连接范围。"
+				""
+				"注意：粘液球可以无限次地在底盘方块上添加胶痕。用粘液球右击单击以涂抹于底座的一面，双击右击可涂抹于所有面。"
+			]
+			dependencies: [
+				"0000000000000D2D"
+				"0000000000000D2F"
+				"0000000000000D31"
+				"0000000000000D45"
+			]
+			dependency_requirement: "one_completed"
+			min_width: 300
+			id: "0000000000000D33"
+			tasks: [
+				{
+					id: "0000000000000D34"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+				{
+					id: "0000000000000D35"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+			]
+			rewards: [{
+				id: "0000000000000D64"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.0d
+			subtitle: "庄稼地里的靓仔"
+			description: ["智能的收割机，会温柔地收割成熟作物。"]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D3A"
+			tasks: [{
+				id: "0000000000000D3B"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "0000000000000D60"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 14.5d
+			y: 5.0d
+			subtitle: "这儿没什么好看的，就是台掘进机罢了"
+			description: ["无论是移动还是固定，动力钻头都是一种功能强大的采矿设备。"]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D3C"
+			tasks: [{
+				id: "0000000000000D3D"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "0000000000000D61"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 13.5d
+			y: 7.0d
+			subtitle: "农场大耕新"
+			description: [
+				"耕地是一项艰苦的工作。做一台机器帮你干吧！"
+				""
+				"动力犁不仅适用于简单的农场维护，还可以在移动的矿车机器后犁出耕地。"
+			]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D3E"
+			tasks: [{
+				id: "0000000000000D3F"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+			rewards: [{
+				id: "0000000000000D63"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 14.0d
+			y: 6.0d
+			subtitle: "锯前沿的科技"
+			description: [
+				"从砍树到雕刻石头，这把锯子见证了一切。"
+				""
+				"静止且提供动力时，它既可以用于将原木切割成木板，也可以制作任何切石机配方。除非动力锯上设置了过滤，否则使用切石机配方时将会随机输出。"
+				""
+				"当连接到移动的机器上时，它可以一下子砍掉整棵树。对于一个简单的树场来说很方便。"
+			]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D40"
+			tasks: [{
+				id: "0000000000000D41"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "0000000000000D62"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "移动式接口"
+			x: 14.5d
+			y: 3.0d
+			subtitle: "即插即玩"
+			description: [
+				"在许多情况下，只要动态结构上有足够的存储空间，与动态结构相连的工具也可以自动拾取收割下的物品。"
+				""
+				"只需将箱子胶在适当的位置就足以提供存储空间，但如何将物品取出是另外一个问题。"
+				""
+				"接口充当动态结构上容器的代理。每当装置上的便携式接口遇到世界中的接口时，动态结构会短暂暂停，建立连接。"
+				""
+				"如果设置了该接口的输入输出，机器将保持暂停，直到没有任何东西通过该接口。一旦传输停止，它将继续运行。"
+				""
+				"为了取消或提前中断这种暂停，可以向固定位置接口提供红石信号。"
+			]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D42"
+			tasks: [
+				{
+					id: "0000000000000D43"
+					type: "item"
+					item: "create:portable_fluid_interface"
+				}
+				{
+					id: "0000000000000D44"
+					type: "item"
+					item: "create:portable_storage_interface"
+				}
+			]
+			rewards: [{
+				id: "0000000000000D5F"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			subtitle: "它有起起伏伏"
+			description: [
+				"需要举高高吗？"
+				""
+				"将绳索滑轮与平台相连来建造一个电梯。"
+				""
+				"使用反转齿轮箱来反转方向。"
+			]
+			dependencies: ["0000000000000D2B"]
+			id: "0000000000000D45"
+			tasks: [{
+				id: "0000000000000D46"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+			rewards: [{
+				id: "0000000000000D6C"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			subtitle: "挂到高速档"
+			description: [
+				"与摆弄传动比相比，可调节链式传动箱的控制更精细，它使用红石信号进行变速，最高可达输入旋转速度的两倍。"
+				""
+				"可以考虑使用模拟拉杆设置旋转速度。"
+			]
+			dependencies: ["0000000000000CD6"]
+			id: "0000000000000D47"
+			tasks: [{
+				id: "0000000000000D48"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
+			}]
+			rewards: [{
+				id: "0000000000000D5D"
+				type: "command"
+				title: "传奇机械动力战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			subtitle: "嗯，它有好有坏"
+			description: [
+				"通过软管滑轮，流体可以在世界中泵入或泵出。创建巨大的湖泊或将其排干，让你的工厂发展壮大！"
+				""
+				"非常大的水体，如海洋或巨大的熔岩湖，将被视为无限大。因此，如果你想通过排水建造像海底博物馆一样的建筑，可能需要建造一些隔断墙来将建筑和水体分开。"
+				""
+				"注意，软管滑轮不会自己泵送流体。将软管降到流体内，并使用动力泵泵取流体。"
+			]
+			dependencies: ["0000000000000D11"]
+			id: "0000000000000D49"
+			tasks: [{
+				id: "0000000000000D4A"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+			rewards: [{
+				id: "0000000000000D88"
+				type: "command"
+				title: "史诗机械动力战利品箱"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			subtitle: "是时候做出改变了"
+			description: [
+				"需要反转方向吗？那么反转齿轮箱就是你要找的东西。"
+				""
+				"向该方块施加红石信号将导致输出侧向驱动侧的相反方向旋转。"
+			]
+			dependencies: ["0000000000000CD6"]
+			id: "0000000000000D4B"
+			tasks: [{
+				id: "0000000000000D4C"
+				type: "item"
+				item: "create:gearshift"
+			}]
+			rewards: [{
+				id: "0000000000000D82"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "我得马上阻止你"
+			description: [
+				"非常简单的设备，真的。离合器将传动杆上的动力分离，从而实现一个简单的开关。"
+				""
+				"这对于需要精确计时的高级动态结构也很有用。"
+			]
+			dependencies: ["0000000000000CD6"]
+			id: "0000000000000D4D"
+			tasks: [{
+				id: "0000000000000D4E"
+				type: "item"
+				item: "create:clutch"
+			}]
+			rewards: [{
+				id: "6E8C331AB8382D16"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.5d
+			subtitle: "你好，Brew-TEA-Full！"
+			description: [
+				"像1773年那样开趴玩太晚了？你的生活还需要一点宁静的茶吗？"
+				""
+				"试试建造工茶饮吧！泡起来比乌龙快多了。"
+			]
+			dependencies: ["0000000000000D0B"]
+			id: "0000000000000D52"
+			tasks: [{
+				id: "0000000000000D53"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+			rewards: [{
+				id: "0000000000000D56"
+				type: "command"
+				title: "传奇机械动力战利品箱"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "保存蓝图"
+			x: 4.0d
+			y: -0.5d
+			subtitle: "建筑101"
+			description: [
+				"机械动力有一组专用于保存和复制蓝图的工具。"
+				""
+				"蓝图与笔能让你将现有结构保存至蓝图。保存好的蓝图可以在其他地方建造。"
+				""
+				"1）右击选择要保存的结构的两个对角。"
+				"2）指向选定区域的一个面，然后按住Ctrl键滚动鼠标滚轮以调整该面。"
+				"3）右击以命名并保存蓝图。"
+				""
+				"机械动力GitHub中的维基包含了保存蓝图的示例："
+				"https://github.com/Creators-of-Create/Create/wiki/Saving-a-Schematic"
+			]
+			dependencies: ["0000000000000C40"]
+			min_width: 250
+			id: "5A581A8DF6CCC352"
+			tasks: [{
+				id: "188710CC3F5AE8D2"
+				type: "item"
+				item: "create:schematic_and_quill"
+			}]
+			rewards: [{
+				id: "454AB192859C2BA1"
+				type: "command"
+				title: "稀有机械动力战利品箱"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_create_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "放置蓝图"
+			x: 2.5d
+			y: -0.5d
+			subtitle: "建筑许可证备案"
+			description: [
+				"为了放置保存好的结构，你需要创建一个蓝图——这是在蓝图桌上完成的。"
+				""
+				"将鼠标悬停在GUI中间的框上并滚动滚轮，选择要创建的蓝图。将空白蓝图放入蓝图桌的左侧槽位中。点击复选框打印蓝图——这会将其上传到服务器，非常大的蓝图可能需要一些时间上传。你可以在该过程进行时离开蓝图桌，完成后再回来。按“打开文件夹”按钮将打开实例中的蓝图文件夹，按“刷新”将更新可用蓝图的列表。"
+				""
+				"手持蓝图时可以通过右击将其放置在世界中。屏幕上的HUD提供用于调整蓝图的选项——移动、旋转或翻转。按住Shift键并在蓝图上右击，还可以编辑放置和旋转/镜像。你可以将其用作搭建指引，但它有更好的用途……"
+				""
+				"注：本模组包含有常见的多方块结构的蓝图。你可以使用“打开文件夹”按钮重新定位任何未使用的蓝图，然后刷新列表。"
+				""
+				"机械动力GitHub上的维基中包含了加载蓝图的示例："
+				"https://github.com/Creators-of-Create/Create/wiki/Loading-a-Schematic"
+			]
+			dependencies: ["5A581A8DF6CCC352"]
+			min_width: 300
+			id: "3542632905883686"
+			tasks: [{
+				id: "2816C6E8336001CD"
+				type: "item"
+				item: "create:schematic_table"
+			}]
+			rewards: [{
+				id: "1CC172C5323EADC6"
+				type: "item"
+				title: "空白蓝图"
+				item: "create:empty_schematic"
+			}]
+		}
+		{
+			title: "打印蓝图"
+			x: 1.0d
+			y: -0.5d
+			subtitle: "建设性摧毁"
+			description: [
+				"蓝图加农炮是用来搭建结构的。它使用火药作为推进剂，并会从邻近容器中拿取方块。"
+				""
+				"将蓝图装载进蓝图加农炮中。在左上角装入火药 - 每400个方块消耗一个火药。点击界面中间的“▶”按钮以开始建造！"
+				""
+				"默认情况下，如果没有所需的方块，加农炮将暂停，它将替换任何阻挡建造的方块，但将保护实体方块（想想箱子和类似的东西）。替换的方块不会掉落并会丢失 - 加农炮不是采掘工具！单击左下角的按钮可以控制这些设置。"
+				""
+				"注：加农炮的速度不是很快，但可以在多个加农炮之间分配工作负荷。时间之瓶与其相性极佳！"
+				""
+				"机械动力GitHub有的维基包含了打印蓝图的示例："
+				"https://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic"
+			]
+			dependencies: ["3542632905883686"]
+			min_width: 300
+			id: "6305EF196599FC7C"
+			tasks: [{
+				id: "5C7274B5040C6D7D"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+			rewards: [{
+				id: "123B498A6DDBFD23"
+				type: "item"
+				title: "火药"
+				item: "minecraft:gunpowder"
+				count: 16
+			}]
+		}
+	]
+}
