@@ -1,0 +1,369 @@
+{
+	id: "4E33D80DA11F2414"
+	group: "5EC606153AA8CA77"
+	order_index: 2
+	filename: "oddities"
+	title: " &7杂项"
+	icon: {
+		id: "naturescompass:naturescompass"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "合成一个&6贸易站"
+			x: -3.5d
+			y: -3.5d
+			subtitle: "该设备将自动探查附近的村民，并且可以进行交易。"
+			id: "4185D9740B80E39D"
+			tasks: [{
+				id: "0405A07D7EBAB67C"
+				type: "item"
+				item: "tradingpost:trading_post"
+			}]
+			rewards: [{
+				id: "2FFB4275C1B23EB0"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 3
+			}]
+		}
+		{
+			title: "合成&2自然指南针"
+			x: -2.0d
+			y: -2.0d
+			subtitle: "可以用来定位生物群系。"
+			id: "5F0FC5A5035E29B0"
+			tasks: [{
+				id: "351D2EAFAE0F9CB7"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6EECAEBE4D4EAB88"
+				type: "item"
+				item: "supplementaries:rope"
+				count: 16
+			}]
+		}
+		{
+			title: "合成一个&5祭坛"
+			x: -0.5d
+			y: -2.0d
+			subtitle: "可以用来突破装备的&5附魔 &r等级上限，但会根据装备不同附加不同的&4诅咒&r。该物品的制作材料可以在部分生物群系的地下找到&r。"
+			id: "1137432ADCFEC509"
+			tasks: [{
+				id: "74E388214A93A9E7"
+				type: "item"
+				item: "biomemakeover:altar"
+			}]
+			rewards: [{
+				id: "7F559D73B16FD397"
+				type: "item"
+				item: "biomemakeover:cooked_crab"
+				count: 5
+			}]
+		}
+		{
+			title: "合成一个&e电梯"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "可以让你轻松地在相同Y轴上传送。"
+			id: "22D9C9224D94E1AF"
+			tasks: [{
+				id: "532F7D4FFE1F0F20"
+				type: "item"
+				title: "任意电梯"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+			}]
+			rewards: [{
+				id: "72DB1D79337C0884"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			title: "合成一个&8指路石"
+			x: -0.5d
+			y: -0.5d
+			subtitle: "可以让你轻松地在&l任意 &r两个指路石之间传送。长距离传送可能会消耗你的&a经验值&r。"
+			id: "554FCDBDC9485FA2"
+			tasks: [{
+				id: "22C96A7FD13A57AE"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [{
+				id: "12583035D8981827"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "合成一个&c拆解台"
+			x: 1.0d
+			y: -3.5d
+			subtitle: "可以将物品拆解成制作前的原料。 在暮色森林可以找到迷宫地图核心。"
+			id: "1CE4F2F108792335"
+			tasks: [{
+				id: "1F966B37AD4A878A"
+				type: "item"
+				item: "twilightforest:uncrafting_table"
+			}]
+			rewards: [{
+				id: "2E59C933B2EE00DB"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+			}]
+		}
+		{
+			title: "合成一个&e日历"
+			x: 1.0d
+			y: -2.0d
+			subtitle: "可以告诉你当前所处季节。季节可能影响很多事情。 - 尤其是作物的生长以及天气。"
+			id: "1E65308E968AF323"
+			tasks: [{
+				id: "773B0BB44FD1B042"
+				type: "item"
+				item: "sereneseasons:calendar"
+			}]
+			rewards: [{
+				id: "78C6465E25E01517"
+				type: "item"
+				item: "minecraft:melon_seeds"
+				count: 3
+			}]
+		}
+		{
+			title: "合成一个&e虚空图腾"
+			x: -3.5d
+			y: -2.0d
+			subtitle: "可以防止你在虚空中死亡。该图腾会自动将你传送到一个安全的地方。可装备在护符槽。"
+			id: "12965C7AB98FA9C6"
+			tasks: [{
+				id: "266B22E4299C23A6"
+				type: "item"
+				item: "unusualend:void_totem"
+			}]
+			rewards: [{
+				id: "4FD53411FE953111"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "合成&d肥皂"
+			x: -2.0d
+			y: 1.0d
+			subtitle: "可以复原&c染&a过&e色&b的&r物品，清洁&6铜块&r, 复原&c染&a过&e色&b的&r羊，也可以将&2黏性&r活塞转换为普通活塞。"
+			id: "7236C066E7C894B3"
+			tasks: [{
+				id: "3171E8D9D224BCAA"
+				type: "item"
+				item: "supplementaries:soap"
+			}]
+			rewards: [{
+				id: "156E76792F358643"
+				type: "item"
+				item: "supplementaries:blackboard"
+			}]
+		}
+		{
+			title: "合成一个&b钻石卓越火炬"
+			x: -2.0d
+			y: -3.5d
+			subtitle: "三种卓越火炬变体之一。在2048格半径内无视光照等级不会自然刷新怪物。"
+			id: "0B23AB3C41A686EA"
+			tasks: [{
+				id: "435BC24FB0CA106A"
+				type: "item"
+				item: "magnumtorch:diamond_magnum_torch"
+			}]
+			rewards: [{
+				id: "0FAF1947C5D1B541"
+				type: "item"
+				item: "farmersdelight:noodle_soup"
+			}]
+		}
+		{
+			title: "合成一个&4齿轮方块"
+			x: -0.5d
+			y: 1.0d
+			subtitle: "可以提供紧凑的垂直&4红石&r信号。"
+			id: "3851BFEF1D86D474"
+			tasks: [{
+				id: "6261485F53C82B8D"
+				type: "item"
+				item: "supplementaries:cog_block"
+			}]
+			rewards: [{
+				id: "3B3967DDC46C73EA"
+				type: "item"
+				item: {
+					id: "earthmobsmod:horn_flute"
+					Count: 1b
+					tag: {
+						instrument: "minecraft:ponder_goat_horn"
+					}
+				}
+			}]
+		}
+		{
+			title: "合成一个&3传送卷轴"
+			x: 1.0d
+			y: -0.5d
+			subtitle: "手持传送卷轴右击可传送至所有已点亮的&8传送石碑&r。"
+			id: "024898B93AB09569"
+			tasks: [{
+				id: "78656CFDE0277785"
+				type: "item"
+				item: "waystones:warp_scroll"
+			}]
+			rewards: [{
+				id: "04F8BE51A2A388FD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "合成一个&6交换站"
+			x: -0.5d
+			y: -3.5d
+			subtitle: "可以用来自动与附近的猪灵进行交易。"
+			id: "7EB6A2560F7BFCF7"
+			tasks: [{
+				id: "7EFE37C54551C427"
+				type: "item"
+				item: "barteringstation:bartering_station"
+			}]
+			rewards: [{
+				id: "7AB8D34F3512123C"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 3
+			}]
+		}
+		{
+			title: "合成一个&8笼子"
+			x: -3.5d
+			y: -0.5d
+			subtitle: "所有中型生物均可被捕捉到&8笼子&r中。右键可释放生物，Shift右键可放置&8笼子&r。"
+			id: "24FA08E13512B7D1"
+			tasks: [{
+				id: "09F0017452924E6B"
+				type: "item"
+				item: "supplementaries:cage"
+			}]
+			rewards: [{
+				id: "1E96930F461E2B01"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "合成一个&f玻璃罐"
+			x: -3.5d
+			y: 1.0d
+			subtitle: "所有小型生物均可被捕捉到&f玻璃罐&r中。右键可释放生物，Shift右键可放置&f玻璃罐&r。"
+			id: "20DCF40C6CA4E4FF"
+			tasks: [{
+				id: "76038A2F0CF78FC0"
+				type: "item"
+				item: "supplementaries:jar"
+			}]
+			rewards: [{
+				id: "0B709EE0454857FC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "合成一本&5经验宝典"
+			x: -2.0d
+			y: -0.5d
+			subtitle: "一种存储&a经验等级的&r简单方式。"
+			id: "3BEEC11F8F2E844A"
+			tasks: [{
+				id: "721EC4E651B50F86"
+				type: "item"
+				item: {
+					id: "xpbook:xp_tome"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4E5920D7A3DC2D9A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "合成一个&7窑炉"
+			x: -3.5d
+			y: 2.5d
+			subtitle: "可以用于制作各种独特的装饰砖块！"
+			id: "29C16D81E2051509"
+			tasks: [{
+				id: "649587A56787F6B8"
+				type: "item"
+				item: "clayworks:kiln"
+			}]
+			rewards: [{
+				id: "011C8A72391192C3"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
+			}]
+		}
+		{
+			title: "合成一个&9锯木机"
+			x: -2.0d
+			y: 2.5d
+			subtitle: "像是一台切石机，不过是给&9木头&r用的！"
+			id: "357BDBE6386F9B42"
+			tasks: [{
+				id: "2BCAB16C2E00190A"
+				type: "item"
+				item: "woodworks:sawmill"
+			}]
+			rewards: [{
+				id: "04D66DDCEA5331BB"
+				type: "item"
+				item: "windswept:chestnut_log"
+				count: 8
+			}]
+		}
+		{
+			title: "合成一个&6干草窝"
+			x: -0.5d
+			y: 2.5d
+			subtitle: "是一个&f鸡&r会在里面产卵的干草窝！"
+			id: "74C9B05AFAEAAE27"
+			tasks: [{
+				id: "5283266517269FCA"
+				type: "item"
+				item: "incubation:hay_nest"
+			}]
+			rewards: [{
+				id: "1574E99575A5EBFC"
+				type: "item"
+				item: "minecraft:egg"
+				count: 6
+			}]
+		}
+	]
+	quest_links: [ ]
+}

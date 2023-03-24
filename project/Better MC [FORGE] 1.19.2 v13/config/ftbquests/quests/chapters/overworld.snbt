@@ -1,0 +1,130 @@
+{
+	id: "1D4E5CDD59FFB7A0"
+	group: "5BBB507BE497896B"
+	order_index: 0
+	filename: "overworld"
+	title: " &a主世界"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "通过守门人开始一次&9蔚蓝浩空的旅行&r吧。"
+			x: 1.5d
+			y: -2.5d
+			subtitle: "守门人小屋可以在大多数生物群系中被发现。"
+			id: "268A05DFD4D5427A"
+			tasks: [{
+				id: "08CA723FD16E3030"
+				type: "item"
+				title: "通过守门人开始一次蔚蓝浩空的旅行。"
+				item: "blue_skies:blue_journal"
+			}]
+			rewards: [
+				{
+					id: "14F327BA69B975BD"
+					type: "item"
+					item: "blue_skies:turquoise_stonebrick"
+					count: 12
+				}
+				{
+					id: "2D05266B3F98B211"
+					type: "item"
+					item: "blue_skies:lunar_stonebrick"
+					count: 12
+				}
+			]
+		}
+		{
+			title: "合成一个&2背包"
+			x: 1.5d
+			y: 0.5d
+			subtitle: "当背包已被装备时，按下&bB&r可以快速打开背包。"
+			id: "6A12B1FE7B703F9D"
+			tasks: [{
+				id: "44740305C2A8DC52"
+				type: "item"
+				title: "合成一个背包"
+				item: "backpacked:backpack"
+			}]
+			rewards: [{
+				id: "1C1C43B99CC8E4E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "击杀&8魔术师"
+			x: 3.5d
+			y: 0.5d
+			subtitle: "可在黑森林的剧院中找到"
+			id: "3DAB175493B08089"
+			tasks: [{
+				id: "10911C878598A90F"
+				type: "kill"
+				title: "击杀魔术师"
+				icon: {
+					id: "conjurer_illager:conjurer_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "conjurer_illager:conjurer"
+				value: 1L
+			}]
+			rewards: [{
+				id: "29B13597289089F3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "在一场&4袭击&r中保护村庄"
+			x: 2.5d
+			y: -1.0d
+			subtitle: "袭击可通过杀死袭击队长开始，和原版方式相同。"
+			id: "26EA75D177BC496B"
+			tasks: [{
+				id: "7362BF4629FAD929"
+				type: "advancement"
+				title: "保护村庄"
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2F1EFCBC72F69624"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "6DA1A2B30558A913"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "击杀&6死胡子船长"
+			x: 3.5d
+			y: -2.5d
+			subtitle: "在沙滩有非常低的几率自然生成"
+			id: "6CCC207D1B1A29FF"
+			tasks: [{
+				id: "3CF050DB14D4A6D8"
+				type: "kill"
+				title: "击杀死胡子船长"
+				icon: "rottencreatures:treasure_chest"
+				entity: "rottencreatures:dead_beard"
+				value: 1L
+			}]
+			rewards: [{
+				id: "656F412439474F84"
+				type: "item"
+				item: "upgradednetherite_items:netherite_apple"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

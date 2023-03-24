@@ -1,0 +1,137 @@
+{
+	id: "548F6C8C65E929D9"
+	group: "5BBB507BE497896B"
+	order_index: 2
+	filename: "everbright"
+	title: " &9永昼之地"
+	icon: "blue_skies:turquoise_stonebrick"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "进入&9永昼之地"
+			x: -0.5d
+			y: -0.5d
+			subtitle: "建造传送门所需的方块可在守门人小屋的里面或者外面生成"
+			description: ["&9永昼之地&r是一个永远白昼却很寒冷的维度，这里生活着许多厚皮目哺乳动物和类似于魂灵的奇异生物。当你在这个世界中冒险时，你或许需要随时留意你的身后...一定要注意会带来浓雾和比平时更多敌人的暴风雪。"]
+			id: "27CD46C8E6EC2E3B"
+			tasks: [{
+				id: "34BEAE9F7B3C7641"
+				type: "dimension"
+				title: "进入永昼之地"
+				icon: "blue_skies:turquoise_stonebrick"
+				dimension: "blue_skies:everbright"
+			}]
+			rewards: [{
+				id: "37443EBA60E9DBA0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "击杀&5召唤师 "
+			x: 2.5d
+			y: -0.5d
+			subtitle: "可以通过在永昼之地惑乱高塔内找到的惑乱钥匙传送到&5召唤师地牢&r。"
+			description: ["召唤师通过闪电，能量，和它的傀儡进行攻击。一定要小心你的身后，如果不盯住它的傀儡，这些傀儡很快就会打倒你。通过击杀召唤师，你将获得挑战自然城堡的资格。"]
+			dependencies: ["37B01786D1F519C6"]
+			id: "084BFF7D3DD9BB24"
+			tasks: [{
+				id: "0A272A4C6A0D1869"
+				type: "kill"
+				title: "击杀召唤师"
+				icon: "blue_skies:bright_blinding_keystone"
+				entity: "blue_skies:summoner"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "49D4292EB66AD8EE"
+					type: "item"
+					item: {
+						id: "blue_skies:summoning_tome"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24A8C4E277B9EB8F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "击杀&c星熠破灭之树"
+			x: 5.5d
+			y: -0.5d
+			subtitle: "可以通过在自然城堡内找到的天理钥匙来打开通往&c星熠破灭之树&r的大门。"
+			description: ["星熠破灭之树虽然不会大幅移动，但是它可以通过扎根地面，从而在下方产生广域攻击来弥补这一点，甚至可以通过蛮力让地面本身震动。由于它仍然是一棵树，所以斧头对它造成的伤害要大得多，并且同时需要绕过它的防御。寻找机会用矛击晕它以获得攻击的机会。"]
+			dependencies: ["207769EC3251F70E"]
+			id: "17EE59DC9B0C44B7"
+			tasks: [{
+				id: "78C390F75DC274B9"
+				type: "kill"
+				title: "击杀星熠破灭之树"
+				icon: {
+					id: "blue_skies:starlit_crusher_trophy"
+					Count: 1b
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				entity: "blue_skies:starlit_crusher"
+				value: 1L
+			}]
+			rewards: [{
+				id: "65263F95C8C47B56"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "找到4把&2惑乱钥匙"
+			icon: "blue_skies:blinding_key"
+			x: 1.0d
+			y: -0.5d
+			subtitle: "藏在永昼之地惑乱高塔之中"
+			dependencies: ["27CD46C8E6EC2E3B"]
+			id: "37B01786D1F519C6"
+			tasks: [{
+				id: "7A42676AA2769350"
+				type: "item"
+				item: "blue_skies:blinding_key"
+				count: 4L
+			}]
+			rewards: [{
+				id: "30565F7613C1E8CC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "找到4把&a天理钥匙"
+			x: 4.0d
+			y: -0.5d
+			subtitle: "藏在&a自然城堡&r之中"
+			dependencies: ["084BFF7D3DD9BB24"]
+			id: "207769EC3251F70E"
+			tasks: [{
+				id: "7FB4F19B7B7F9932"
+				type: "item"
+				item: "blue_skies:nature_key"
+				count: 4L
+			}]
+			rewards: [{
+				id: "523DB91988FA0340"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+	quest_links: [ ]
+}

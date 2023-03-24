@@ -1,0 +1,136 @@
+{
+	id: "7A7E777C67E216AC"
+	group: "5BBB507BE497896B"
+	order_index: 3
+	filename: "everdawn"
+	title: " &8恒晓之地"
+	icon: "blue_skies:lunar_stonebrick"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "进入&8恒晓之地"
+			x: -0.5d
+			y: -0.5d
+			subtitle: "建造传送门所需的方块可在守门人小屋的里面或者外面生成"
+			description:  ["&8恒晓之地&r是一个永远在日出的那一刻且炎热潮湿的维度，这里生活着许多爬行类动物和体型巨大的昆虫。在进入这个世界之前，你应该时刻为中毒和燃烧做好准备，因为这个世界的许多地方都可能对你造成类似伤害。"]
+			id: "23B2A759FBB4DBFF"
+			tasks: [{
+				id: "2F88DFAD11A0FFA5"
+				type: "dimension"
+				title: "进入恒晓之地"
+				icon: "blue_skies:lunar_stonebrick"
+				dimension: "blue_skies:everdawn"
+			}]
+			rewards: [{
+				id: "43A5F09800046F07"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "击杀&4幽咽蛛王"
+			x: 5.5d
+			y: -0.5d
+			subtitle: "可以通过在猛毒地牢内找到的猛毒钥匙来打开通往&4幽咽蛛王地牢&r的大门。"
+			description: ["幽咽蛛王会冲向玩家，并从上方的天花板向玩家喷吐毒液。 作为这个巢穴的女王，她的援军从墙上爬出来也并不奇怪。 由于幽咽蛛王的攻击方式较为激进，当玩家用盾牌格挡时，有概率击晕幽咽蛛王。"]
+			dependencies: ["375FB9826C8942B8"]
+			id: "4F3FD11CA8C37BFA"
+			tasks: [{
+				id: "0FA50CFE06683C83"
+				type: "kill"
+				title: "击杀幽咽蛛王"
+				icon: {
+					id: "blue_skies:arachnarch_trophy"
+					Count: 1b
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				entity: "blue_skies:arachnarch"
+				value: 1L
+			}]
+			rewards: [{
+				id: "006A55D1ACC697B7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "找到4把&2惑乱钥匙"
+			x: 1.0d
+			y: -0.5d
+			subtitle: "藏在恒晓之地惑乱高塔之中"
+			dependencies: ["23B2A759FBB4DBFF"]
+			id: "69871007BC2BB95E"
+			tasks: [{
+				id: "055CA19EEE17EC85"
+				type: "item"
+				item: "blue_skies:blinding_key"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1EE04D0BC95568AD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "击杀&5炼金术士"
+			x: 2.5d
+			y: -0.5d
+			subtitle: "可以通过在恒晓之地惑乱高塔内找到的惑乱钥匙传送到&5炼金术士地牢&r。"
+			description: ["炼金术士使用药水和物理武器来战斗。 他的许多攻击都可以通过观察前摇来预测，但错过这些动作可能会导致严重的伤害。通过击杀炼金术士，你将获得挑战猛毒地牢的资格。"]
+			dependencies: ["69871007BC2BB95E"]
+			id: "433FD23CAA2F4CEA"
+			tasks: [{
+				id: "2AF8CE4F7464FE5C"
+				type: "kill"
+				title: "击杀炼金术士"
+				icon: "blue_skies:dawn_blinding_keystone"
+				entity: "blue_skies:alchemist"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "794BE8A8DF703552"
+					type: "item"
+					item: {
+						id: "blue_skies:alchemy_scroll"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1D38106F41648F0A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "找到4把&2猛毒钥匙"
+			x: 4.0d
+			y: -0.5d
+			subtitle: "藏在&2猛毒地牢&r之中"
+			dependencies: ["433FD23CAA2F4CEA"]
+			id: "375FB9826C8942B8"
+			tasks: [{
+				id: "2E53AC6DA2C9B3B0"
+				type: "item"
+				item: "blue_skies:poison_key"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1350CB28CC4C5503"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+	quest_links: [ ]
+}

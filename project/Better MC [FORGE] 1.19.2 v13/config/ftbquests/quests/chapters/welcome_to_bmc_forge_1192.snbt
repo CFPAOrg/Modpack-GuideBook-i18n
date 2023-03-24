@@ -1,0 +1,284 @@
+{
+	id: "3E34934F09B08365"
+	group: ""
+	order_index: 0
+	filename: "welcome_to_bmc_forge_1192"
+	title: " &d教程"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "patchouli:textures/items/book_blue.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&e欢迎来到 Better MC!"
+			icon: {
+				id: "minecraft:book"
+				Count: 1b
+				tag: {
+					Enchantments: [{
+						lvl: 1
+						id: "aqua_affinity"
+					}]
+				}
+			}
+			x: 1.5d
+			y: 2.0d
+			subtitle: "为了开始教程，请点击本任务并阅读描述"
+			description: [
+				"这个教程会通过一些基础内容指导你进行游戏。不用担心，这不会&o太&r久!"
+				""
+				"为了开始教程请点击\"&9任务&r\"下方的对号，然后宣称&6任务奖励&r，新的任务就将会出现。"
+				""
+				"如果没有出现新的任务的话，请尝试重新加入世界。直到教程结束为止，不要吃掉你的面包。"
+			]
+			size: 2.0d
+			id: "6A52090D6BC064D7"
+			tasks: [{
+				id: "1B0800437C68C43A"
+				type: "checkmark"
+				title: "点我!"
+			}]
+			rewards: [{
+				id: "7AE355ED27B98F95"
+				type: "item"
+				item: "minecraft:bread"
+				count: 3
+			}]
+		}
+		{
+			title: "&2背包"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			x: 0.5d
+			y: 0.0d
+			subtitle: "请阅读描述！"
+			description: [
+				"左上角的图标是&aFTB队伍&r菜单，通过这个菜单可以将其他玩家邀请到你的队伍"
+				""
+				"在&aFTB队伍 &r图标右边的是&6任务书 &r图标，这个图标可以让你在任何时候访问&6任务书&r。"
+				""
+				"在&6任务书 &r右边的是 &9FTB区块 &r地图。 通过单击某个区块，这个区块将会被你宣称占领，防止玩家和其他生物破坏此区块。 如果你Shift单击一个已被宣称的区块，这个区块将被强制加载。在被强制加载的区块中，作物，熔炉以及更多其他物品将会识别为当前为玩家存在于此地的状态，从而正常工作"
+				""
+				"当你点击你角色显示框左上的方块时，你的&8饰品 &r槽 将会变得可见。 一些类似于鞘翅和不死傀儡的物品可以被装备到此处。"
+				""
+				"尝试着将你在任务奖励中获得的&c生命符咒 Ⅰ &r装备到你的护符槽位！"
+			]
+			dependencies: ["6A52090D6BC064D7"]
+			hide: true
+			dependency_requirement: "one_completed"
+			invisible_until_tasks: 1
+			id: "2958CA7FA6FD3E4F"
+			tasks: [
+				{
+					id: "0DD3C1416FC34FA1"
+					type: "checkmark"
+					title: "点我！"
+				}
+				{
+					id: "380A99374727D6D8"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:bread"
+				}
+			]
+			rewards: [{
+				id: "649C9C6CB3EB241E"
+				type: "item"
+				item: "twilightforest:charm_of_life_1"
+			}]
+		}
+		{
+			title: "&6任务"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbquests:textures/item/book.png"
+				}
+			}
+			x: 1.5d
+			y: 0.0d
+			subtitle: "请阅读描述！"
+			description: [
+				"&9任务 &r是你为了完成任务需要达成的目标。如果你的任务是一个物品，通过单击显示的物品，可以显示该物品的合成配方。"
+				""
+				"&6奖励 &r可以在当你完成了该&9任务&r的所有目标时获得。通过单击可以收集奖励。"
+				""
+				"通过点击右上角的大头针可以将&9任务&r固定在你的屏幕中。"
+			]
+			dependencies: ["6A52090D6BC064D7"]
+			hide: true
+			invisible_until_tasks: 1
+			id: "175099CF5696829E"
+			tasks: [
+				{
+					id: "21428FE253D34D4E"
+					type: "checkmark"
+					title: "Quests"
+				}
+				{
+					id: "08EDA62F0B406C49"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:bread"
+				}
+			]
+			rewards: [{
+				id: "34B145F40A6C1F3B"
+				type: "item"
+				item: "minecraft:torch"
+				count: 3
+			}]
+		}
+		{
+			title: "&9一些重要的控制键位"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftblibrary:textures/icons/player.png"
+				}
+			}
+			x: 2.5d
+			y: 0.0d
+			subtitle: "请阅读描述！"
+			description: [
+				"在你的鼠标光标悬浮在某个物品的上方时，按下 &bR &r来显示合成配方。"
+				""
+				"在你的鼠标光标悬浮在某个物品的上方时，按下 &bU &r来显示用途。"
+				""
+				"按下 &b左Alt &r来爬行。"
+				""
+				"通过在潜行时按下&b右键 &r来抱起一个方块。 (对箱子类方块有效，并非对所有方块有效。)"
+				""
+				"在使用对应工具破坏方块时，通过按住 &b~ &r来激活连锁挖矿。"
+				""
+				"当你的背饰栏装备有背包时，通过 &bB &r键可以打开背包。"
+				""
+				"按下 &bC &r来缩放视角。"
+				""
+				"按下 &bM &r打开世界地图。"
+				""
+				"按下 &bI &r 来在你未放下工作台时打开合成界面。"
+				""
+				"按下 &bU &r 来查看玩家死亡记录。"
+				""
+				"按下 &bY &r 来管理路径点。"
+				""
+				"按下 &bH &r 来创建路径点。"
+				""
+				"按下 &bB &r 来打开一个已被装备的背包。 (复述功能快捷键可以在控制设置中解绑)"
+			]
+			dependencies: ["6A52090D6BC064D7"]
+			hide: true
+			invisible_until_tasks: 1
+			id: "2165E80C52C79992"
+			tasks: [
+				{
+					id: "6A64112F92690241"
+					type: "checkmark"
+					title: "点我！"
+				}
+				{
+					id: "2B23CADA52D45FA0"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:bread"
+				}
+			]
+			rewards: [{
+				id: "3B11CCACEEBA0E58"
+				type: "item"
+				item: "byg:holly_sapling"
+			}]
+		}
+		{
+			title: "&bJust Enough Items (JEI)"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "jei:textures/gui/icons/config_button_cheat.png"
+				}
+			}
+			x: 0.5d
+			y: -1.5d
+			subtitle: "请阅读描述！"
+			description: [
+				"在你的背包界面的底部，你可能已经注意到了一个搜索栏。"
+				""
+				"这就是&dJust Enough Items&r或者也可叫他&dJEI&r。这是它的搜索栏。 "
+				""
+				"例如，当你输入 \"木（也可使用拼音输入mu）\"，在屏幕右侧的&dJEI &r物品列表就将会显示所有名字中带有\"木（或拼音mu）\"的物品。"
+				""
+				"通过在搜索栏的最左侧先输入@ ，即可搜索某个MOD中的所有物品。例如@Twigs"
+				""
+				"在你的鼠标光标悬浮在某个物品的上方时，按下 &bA &r 可以将该物品添加为&dJEI &r物品列表的收藏，从而显示在屏幕左侧。再次按下 &bA &r 可以解除收藏。"
+			]
+			dependencies: ["2958CA7FA6FD3E4F"]
+			hide: true
+			id: "139DAA6E8CF4267A"
+			tasks: [{
+				id: "74C85348A8B837EB"
+				type: "checkmark"
+				title: "点我！"
+			}]
+			rewards: [{
+				id: "1AE5746200C26691"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftblibrary:textures/icons/check.png"
+				}
+			}
+			x: 1.5d
+			y: -1.5d
+			subtitle: "请阅读描述！"
+			description: [
+				"教程&a已结束&r！"
+				""
+				"想要查看其他任务，请将你的鼠标光标移动到屏幕左侧来展开&6任务组&r。"
+				""
+				"对于您可能存在的其他任何问题，欢迎您加入我们的&bDiscord &r来寻求帮助: https://lunapixel.studio/discord"
+			]
+			dependencies: ["139DAA6E8CF4267A"]
+			hide: true
+			id: "6A4CB4700F0082C6"
+			tasks: [{
+				id: "3B2CC7DEE30E3AB8"
+				type: "checkmark"
+				title: "&a教程已完成！"
+			}]
+			rewards: [
+				{
+					id: "41A9DE72F193E603"
+					type: "item"
+					item: "buzzier_bees:honey_bread"
+					count: 3
+				}
+				{
+					id: "53680199E84036F9"
+					type: "item"
+					item: "alexsmobs:animal_dictionary"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

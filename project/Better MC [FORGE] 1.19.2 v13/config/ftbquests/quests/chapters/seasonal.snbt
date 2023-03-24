@@ -1,0 +1,202 @@
+{
+	id: "712EEC29E9F58AEC"
+	group: "5EC606153AA8CA77"
+	order_index: 1
+	filename: "seasonal"
+	title: " &f四季"
+	icon: "sereneseasons:calendar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "合成一个&b雪橇"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "可以像船一样被放置在地表。可以让你从山坡或者其他表面滑下。"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "44FA4ABE94EAD177"
+			tasks: [{
+				id: "00D3FA019EA1A948"
+				type: "item"
+				title: "任意雪橇"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "snowyspirit:sleds"
+					}
+				}
+			}]
+			rewards: [{
+				id: "673492CDB04D587C"
+				type: "item"
+				item: "snowyspirit:winter_disc"
+			}]
+		}
+		{
+			title: "合成一个&c拐&f杖&c糖&f块"
+			x: -3.0d
+			y: 0.5d
+			subtitle: "让你的假日变甜！"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "0EF8EA8214FEEAB7"
+			tasks: [{
+				id: "0CFA7B64A6A626F5"
+				type: "item"
+				item: "snowyspirit:candy_cane_block"
+			}]
+			rewards: [{
+				id: "627BF9300FFA13DE"
+				type: "item"
+				item: "supplementaries:candy"
+				count: 20
+			}]
+		}
+		{
+			title: "合成&e姜饼块"
+			x: -2.0d
+			y: -0.5d
+			subtitle: "可以用来合成各种各样的&e姜饼&r风格的建筑方块。"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "6F24276D322F6549"
+			tasks: [{
+				id: "5C961FE3126D06E9"
+				type: "item"
+				item: "snowyspirit:gingerbread"
+			}]
+			rewards: [{
+				id: "10CF92B2D27066E2"
+				type: "item"
+				item: "supplementaries:present_blue"
+			}]
+		}
+		{
+			title: "建造一个&b雪人"
+			icon: "frosted_friends:snow_head_top_hat"
+			x: -1.471428571428575d
+			y: 0.9875000000000007d
+			subtitle: "Shift右键地面上的&f积雪&r可以创建&b雪人&r所需的三种雪堆，然后朝向想要滚动的方向点击来获取更多的雪（滚雪球）。&b雪人&r的底部需要一个&f大雪堆&r，中部需要一个&f雪堆&r，顶部则需要一个&f小堆雪&r。小堆雪需要Shift右键以放置在雪堆顶部。用&6不死图腾&r点击&f雪人&r会有一个惊喜。阅读任务描述来了解更多装饰&f雪人&r的方法！"
+			description: [
+				"以下物品可以被添加至&f雪人&r:"
+				"&e种子&r- 给&f雪人&r添加纽扣和面部细节"
+				"&e木棍 &r- 给&f雪人&r添加手臂"
+				"&e雕刻过的南瓜&r- 一顶&f雪人&r专属的帽子，用剪刀可移除"
+				"&e胡萝卜&r- 给&f雪人&r一个胡萝卜鼻子"
+				"&e圣诞帽/高帽&r- 可以给&f雪人&r装备的更多帽子，用剪刀可移除"
+			]
+			size: 1.2d
+			id: "40131BFC98F5E03C"
+			tasks: [{
+				id: "4257D36EDDACC580"
+				type: "observation"
+				icon: "minecraft:snow_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "frosted_friends:pile_of_snow"
+			}]
+			rewards: [{
+				id: "3784FC18E854E75F"
+				type: "item"
+				item: "festive_delight:festive_chiken"
+			}]
+		}
+		{
+			title: "合成一个&f雪傀儡毛绒玩具"
+			x: -3.0d
+			y: 1.5d
+			subtitle: "一个可爱的&f雪傀儡&r小装饰！"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "7BBCCB63DFCBB79E"
+			tasks: [{
+				id: "5C037697AFAC57B9"
+				type: "item"
+				item: "plushies:snow_golem"
+			}]
+			rewards: [{
+				id: "4120C15F238AF71E"
+				type: "item"
+				item: "frozenup:mug_of_truffle_hot_chocolate"
+			}]
+		}
+		{
+			title: "合成一个&d礼物盒"
+			x: 0.0d
+			y: 0.5d
+			subtitle: "一种赠送朋友（或者自己）礼物的绝妙方式"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "40BA61DBF53991AA"
+			tasks: [{
+				id: "108C9F26C2870B30"
+				type: "item"
+				title: "任意礼物盒"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "supplementaries:presents"
+					}
+				}
+			}]
+			rewards: [{
+				id: "617CA145B2B21A1E"
+				type: "item"
+				item: "snowyspirit:snow_globe"
+			}]
+		}
+		{
+			title: "合成一个&c圣诞帽&c"
+			x: -1.0d
+			y: -0.5d
+			subtitle: "圣诞老人的帽子丢了"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "6E062250A11D197E"
+			tasks: [{
+				id: "02B25A7336FFBD77"
+				type: "item"
+				item: {
+					id: "frosted_friends:christmas_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "352AC99055A00865"
+					type: "item"
+					item: {
+						id: "frosted_friends:ice_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48AD5B101A43F208"
+					type: "item"
+					item: {
+						id: "frosted_friends:ice_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35B3BE7A145F7B9F"
+					type: "item"
+					item: {
+						id: "frosted_friends:ice_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}
