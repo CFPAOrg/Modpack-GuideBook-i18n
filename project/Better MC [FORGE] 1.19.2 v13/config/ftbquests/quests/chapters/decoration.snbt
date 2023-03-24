@@ -1,0 +1,54 @@
+{
+	id: "3B95E66C126DBBEF"
+	group: "5EC606153AA8CA77"
+	order_index: 0
+	filename: "decoration"
+	title: " &9装饰"
+	icon: "handcrafted:oak_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "合成一个&8&l末影龙毛绒玩具"
+			x: -2.0d
+			y: -0.5d
+			subtitle: "是通过Plushie Mod添加的众多毛绒玩具之一。"
+			id: "12D4044932EEF253"
+			tasks: [{
+				id: "2EC84E3C457ECFEA"
+				type: "item"
+				item: "plushies:dragon"
+			}]
+			rewards: [{
+				id: "56FD6212C5A5A2DB"
+				type: "item"
+				item: "plushies:dolphin"
+			}]
+		}
+		{
+			title: "合成一个&c垫子"
+			x: -0.5d
+			y: -0.5d
+			subtitle: "可改变Handcrafted Mod中家具的颜色。"
+			id: "3689EC382764B60D"
+			tasks: [{
+				id: "4D1E83ABFF06E75C"
+				type: "item"
+				title: "任意垫子"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "handcrafted:cushions"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B71BEF4E28F2671"
+				type: "item"
+				item: "handcrafted:hammer"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,198 @@
+{
+	id: "3DAC62F9CB57DD77"
+	group: "5BBB507BE497896B"
+	order_index: 1
+	filename: "the_twilight_forest"
+	title: " &2暮色森林"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "进入&2暮色森林"
+			x: -1.0d
+			y: 0.5d
+			subtitle: "为了创建暮色森林传送门，需要先准备2x2大小的由水源组成的水池，再将水池周边4x4范围种满植物，最后向水池投掷一颗钻石即可创建传送门"
+			id: "2BC7B74C1D405B3B"
+			tasks: [{
+				id: "43B4B4196E278A86"
+				type: "dimension"
+				title: "进入暮色森林"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				dimension: "twilightforest:twilight_forest"
+			}]
+			rewards: [{
+				id: "60AC17EED0812047"
+				type: "item"
+				item: "twilightforest:magic_map"
+			}]
+		}
+		{
+			title: "击杀&a娜迦"
+			x: 0.5d
+			y: 0.5d
+			subtitle: "可在暮色森林生物群系中找到。可解锁&e巫妖塔&r。"
+			dependencies: ["2BC7B74C1D405B3B"]
+			id: "7630C21661FED121"
+			tasks: [{
+				id: "3E3AAB64DD29EF24"
+				type: "kill"
+				title: "击杀娜迦"
+				icon: "twilightforest:naga_trophy"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+			rewards: [{
+				id: "165BE5F21305C953"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+		}
+		{
+			title: "击杀&e巫妖"
+			x: 2.0d
+			y: 0.5d
+			subtitle: "可在暮色森林生物群系中找到。可解锁牛头人迷宫和雪怪巢穴。"
+			dependencies: ["7630C21661FED121"]
+			id: "7149FE98D0E105CE"
+			tasks: [{
+				id: "5794A56FA9705232"
+				type: "kill"
+				title: "击杀巫妖"
+				icon: "twilightforest:lich_trophy"
+				entity: "twilightforest:lich"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3A2EB8FD6C05F748"
+				type: "item"
+				item: {
+					id: "twilightforest:fortification_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			subtitle: "通过杀死位于暮色沼泽的牛头人迷宫中的牛头人获得。可以解锁亡灵矿山。"
+			dependencies: ["7149FE98D0E105CE"]
+			id: "5ED257E2C2147AB2"
+			tasks: [{
+				id: "5B95A81809E8E210"
+				type: "kill"
+				title: "吃下牛头人沙拉酱肉"
+				icon: "twilightforest:meef_stroganoff"
+				entity: "twilightforest:minotaur"
+				value: 1L
+			}]
+			rewards: [{
+				id: "66DCDF057D1F9F9C"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:knockback_resistance"
+					}
+				}
+			}]
+		}
+		{
+			title: "击杀&2九头蛇"
+			x: 5.0d
+			y: 0.5d
+			subtitle: "可以在火焰沼泽中的亡灵矿山找到。可解锁黑暗森林。"
+			dependencies: ["5ED257E2C2147AB2"]
+			id: "37E4C4EFA9E20B79"
+			tasks: [{
+				id: "0C2016FE44EF5A17"
+				type: "kill"
+				title: "击杀九头蛇"
+				icon: "twilightforest:hydra_trophy"
+				entity: "twilightforest:hydra"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4411FF8D2D7D3530"
+					type: "item"
+					item: "twilightforest:cooked_venison"
+					count: 8
+				}
+				{
+					id: "7737DE55400CB2D3"
+					type: "item"
+					item: "twilightforest:charm_of_keeping_1"
+				}
+			]
+		}
+		{
+			title: "击杀&f暮色恶魂"
+			x: 6.5d
+			y: 0.5d
+			subtitle: "可在黑暗森林中的黑暗高塔找到。"
+			dependencies: ["37E4C4EFA9E20B79"]
+			id: "57FD6DFF7B7647D0"
+			tasks: [{
+				id: "45767EA415670C8F"
+				type: "kill"
+				title: "击杀暮色恶魂"
+				icon: "twilightforest:ur_ghast_trophy"
+				entity: "twilightforest:ur_ghast"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3DCE5F493B46E441"
+				type: "item"
+				item: "twilightforest:charm_of_keeping_2"
+			}]
+		}
+		{
+			title: "击杀&f&l雪怪首领"
+			x: 8.0d
+			y: 0.5d
+			subtitle: "可以在&f积雪森林&r中的&f雪怪巢穴&r找到。可解锁&f&l冰雪女王&r。"
+			dependencies: ["57FD6DFF7B7647D0"]
+			id: "3D1F53C06B660F96"
+			tasks: [{
+				id: "12C1C8D16C9D9FD1"
+				type: "kill"
+				title: "击杀雪怪首领"
+				icon: "twilightforest:alpha_yeti_trophy"
+				entity: "twilightforest:alpha_yeti"
+				value: 1L
+			}]
+			rewards: [{
+				id: "65ED4735EF4E9AB5"
+				type: "item"
+				item: "twilightforest:charm_of_keeping_3"
+			}]
+		}
+		{
+			title: "击杀&f&l冰雪女王"
+			x: 9.5d
+			y: 0.5d
+			subtitle: "可在暮色冰川找到。"
+			dependencies: ["3D1F53C06B660F96"]
+			id: "7B6005A9F6F5C7FE"
+			tasks: [{
+				id: "191F4CCB0B22AB0A"
+				type: "kill"
+				title: "击杀冰雪女王"
+				icon: "twilightforest:snow_queen_trophy"
+				entity: "twilightforest:snow_queen"
+				value: 1L
+			}]
+			rewards: [{
+				id: "32DA7FB74907E8F2"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

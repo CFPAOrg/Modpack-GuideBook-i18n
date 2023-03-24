@@ -1,0 +1,216 @@
+{
+	id: "0D7FF8F037EFF568"
+	group: "5BBB507BE497896B"
+	order_index: 4
+	filename: "the_nether"
+	title: " &c下界"
+	icon: "minecraft:obsidian"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "进入&c下界"
+			x: 3.0d
+			y: 0.0d
+			size: 2.0d
+			id: "46D0AAEEB69E28B3"
+			tasks: [{
+				id: "7FC5892104C0744C"
+				type: "dimension"
+				title: "进入下界"
+				icon: "minecraft:netherrack"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "75D2953DAEB9AFC1"
+				type: "item"
+				item: {
+					id: "minecraft:lingering_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			title: "击杀&4下界守卫"
+			x: 3.0d
+			y: -2.0d
+			subtitle: "在&c下界荒地&r和&4绯红森林&r生物群系找到&8守卫城堡&r，消耗一颗&f下界之星&r右键下界守卫祭坛即可召唤。"
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "13247698A9E98C61"
+			tasks: [{
+				id: "3702E4C32FE0F698"
+				type: "kill"
+				icon: "stalwart_dungeons:keeping_castle_spawner"
+				entity: "stalwart_dungeons:nether_keeper"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "77F83375B1CF985C"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "2F5630715A08C7ED"
+					type: "item"
+					item: "alexsmobs:spawn_egg_warped_mosco"
+				}
+				{
+					id: "13562F3ADFB2E120"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "击杀&9惊骇恶魂"
+			x: 5.0d
+			y: -1.0d
+			subtitle: "在灵魂沙峡谷和诡异森林找到惊骇地牢，消耗一颗&f下界之星&r右键惊骇恶魂祭坛即可召唤。"
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "68D7F63EAA0FE3E4"
+			tasks: [{
+				id: "320E04AD2AD28E79"
+				type: "kill"
+				title: "击杀惊骇恶魂"
+				icon: "stalwart_dungeons:awful_dungeon_spawner"
+				entity: "stalwart_dungeons:awful_ghast"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "25D03449F1A59CF6"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "609A198F30A2E7EA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "击杀&8下界合金巨兽"
+			x: 3.0d
+			y: 2.0d
+			subtitle: "会在&c下界&r稀有生成的灵魂锻造厂中生成。"
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "1DEBE563E5673B95"
+			tasks: [{
+				id: "4DBC642134268AE7"
+				type: "kill"
+				title: "击杀下界合金巨兽"
+				icon: {
+					id: "cataclysm:monstrous_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3F53BE78EC264653"
+					type: "item"
+					item: "upgradednetherite_items:netherite_totem"
+				}
+				{
+					id: "4865893101B5F37C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "击杀&8&l凋零"
+			x: 1.0d
+			y: 0.5d
+			subtitle: "因为Bygone Nether模组的加入，当你想召唤凋零的时候，你必须使用&5灵魂石&r来替代&d灵魂沙&r才可以正常召唤。请务必确保召唤时多方块结构的手臂下没有草，雪之类的障碍物。"
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "0BFD8ED8A0E3AE60"
+			tasks: [{
+				id: "575C8BC94DAC2B05"
+				type: "kill"
+				title: "击杀凋零"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "731183474D5BC5FE"
+					type: "item"
+					item: "upgradednetherite_items:wither_upgraded_netherite_totem"
+				}
+				{
+					id: "1FB79B0A8B0FBE90"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "击杀&6燃魂"
+			x: 5.0d
+			y: 0.5d
+			subtitle: "可以在烈焰竞技场发现。"
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "6CD3F5FFA15ACC81"
+			tasks: [{
+				id: "4CE4CD701A07CA04"
+				type: "kill"
+				title: "击杀燃魂"
+				icon: "cataclysm:burning_ashes"
+				entity: "cataclysm:ignited_revenant"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "26B4EDC38A0A6C90"
+					type: "item"
+					item: "cataclysm:burning_ashes"
+				}
+				{
+					id: "0B04FF68D27BB79B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "击杀&2焰魔"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "可使用燃烧的灰烬右击烈焰竞技场顶层的火焰祭坛召唤&2焰魔"
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "4D2923365DB9C4C0"
+			tasks: [{
+				id: "3363067332FD6A6A"
+				type: "kill"
+				title: "击杀焰魔"
+				icon: "cataclysm:altar_of_fire"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "27FC4D5F422A3B57"
+					type: "item"
+					item: "cataclysm:bulwark_of_the_flame"
+				}
+				{
+					id: "03F88F2EAA259C7F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

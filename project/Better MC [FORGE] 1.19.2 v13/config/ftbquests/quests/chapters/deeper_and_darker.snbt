@@ -1,0 +1,141 @@
+{
+	id: "43F9E85332B37439"
+	group: "5BBB507BE497896B"
+	order_index: 6
+	filename: "deeper_and_darker"
+	title: " &1&l幽冥"
+	icon: "deeperdarker:heart_of_the_deep"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "击杀&3监守者"
+			icon: "minecraft:sculk_sensor"
+			x: 7.0d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "可以在&a主世界&r的地下发现。"
+			size: 2.0d
+			id: "731C3214BB61FDAE"
+			tasks: [{
+				id: "37E411F497C9CD71"
+				type: "kill"
+				title: "击杀监守者"
+				entity: "minecraft:warden"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1A22694A70BE865A"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			title: "合成一个&9监守者头盔"
+			x: 5.0d
+			y: 4.0d
+			subtitle: "用来抵消&8&l幽冥&r的黑暗"
+			dependencies: ["731C3214BB61FDAE"]
+			id: "44937B2D2EB38094"
+			tasks: [{
+				id: "42CA7AAF304767E7"
+				type: "item"
+				item: {
+					id: "deeperdarker:warden_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EF0FAB1AE9BC43E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "前往&8&l幽冥"
+			x: 9.0d
+			y: 4.0d
+			subtitle: "在激活传送门之前，您必须先从内部框架中移除所有&3幽匿脉络&r。清理框架后，可使用通过击杀监守者获得的&8深渊之心&r右键单击传送门框架以激活传送门。"
+			dependencies: ["44937B2D2EB38094"]
+			id: "704CCA2CEAB23B4D"
+			tasks: [{
+				id: "474D2D76F2256297"
+				type: "dimension"
+				title: "前往幽冥"
+				icon: "minecraft:reinforced_deepslate"
+				dimension: "deeperdarker:otherside"
+			}]
+			rewards: [{
+				id: "1860E3DCA6E8E6FB"
+				type: "item"
+				item: "deeperdarker:ancient_vase"
+			}]
+		}
+		{
+			title: "击杀&3碎裂者"
+			x: 8.0d
+			y: 5.5d
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "6E7D3242496F4501"
+			tasks: [{
+				id: "5B9501581479A2EC"
+				type: "kill"
+				title: "击杀碎裂者"
+				icon: "deeperdarker:soul_dust"
+				entity: "deeperdarker:shattered"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1910360C472DE886"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "击杀&3追猎者"
+			x: 9.0d
+			y: 5.5d
+			subtitle: "在破坏一个&8远古花瓶&r后有低概率生成。"
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "192EE909C57F390A"
+			tasks: [{
+				id: "1D807C8DC05EF208"
+				type: "kill"
+				title: "击杀追猎者"
+				icon: "deeperdarker:soul_crystal"
+				entity: "deeperdarker:stalker"
+				value: 1L
+			}]
+			rewards: [{
+				id: "77B0B7D61481A552"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "击杀&7尖啸蠕虫"
+			x: 10.0d
+			y: 5.5d
+			subtitle: "玩家踩踏&1被虫蚀的幽匿块&r时生成"
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "3CBDB45D65737212"
+			tasks: [{
+				id: "3D7BD985875AFF57"
+				type: "kill"
+				title: "击杀尖啸蠕虫"
+				icon: "deeperdarker:sculk_bone"
+				entity: "deeperdarker:shriek_worm"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2FE936F92AA38681"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+	quest_links: [ ]
+}
