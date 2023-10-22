@@ -1,0 +1,25 @@
+{
+	title: "{chemx.quest_selenium.title}",
+	x: -5.0d,
+	y: 5.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_selenium.text}"
+	],
+	dependencies: [
+		"e9b63627"
+	],
+	tasks: [{
+		uid: "c987fa64",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 34"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9a4580c5",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

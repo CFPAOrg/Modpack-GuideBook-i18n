@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 6.0d,
+	text: [
+		"{chemx.plutonium.text}"
+	],
+	dependencies: [
+		"48e5dd77"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3d13111b",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 94"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3e4d3724",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

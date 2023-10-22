@@ -1,0 +1,31 @@
+{
+	title: "{chemx.gunpowder_repeatable.title}",
+	disable_toast: true,
+	x: -8.0d,
+	y: 2.0d,
+	shape: "gear",
+	text: [
+		"{chemx.gunpowder_repeatable.text}"
+	],
+	can_repeat: true,
+	dependencies: [
+		"7d202732"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4722c195",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c095a49c",
+		type: "item",
+		title: "2000 Money",
+		auto: "enabled",
+		item: "chemxtweaks:coin_d",
+		count: 2
+	}]
+}

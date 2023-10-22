@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	text: [
+		"{chemx.europium.text}"
+	],
+	dependencies: [
+		"4a519974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dc2879c5",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 63"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "964fdc53",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

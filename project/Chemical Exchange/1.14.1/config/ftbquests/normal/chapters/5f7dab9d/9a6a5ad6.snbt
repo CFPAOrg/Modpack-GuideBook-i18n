@@ -1,0 +1,25 @@
+{
+	x: 11.0d,
+	y: 0.0d,
+	text: [
+		"{chemx.argon.text}"
+	],
+	dependencies: [
+		"4821154f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cbb72fa4",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 18"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "bd2cfa11",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

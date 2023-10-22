@@ -1,0 +1,571 @@
+# Chapters
+chemx.main=主要任务
+chemx.table=元素周期表
+
+#
+#Main Quests
+#
+chemx.start_here.title=从这里开始
+chemx.start_here.text=欢迎来到Chemical Exchange,在空岛上体验Alchemistry和ProjectE！
+
+chemx.quest_carbon.title=16x 碳
+chemx.quest_carbon.text=从任务界面的左上角的商店来购买碳，你以后也常常需要此功能。
+
+chemx.coal.title=[煤,木炭]
+chemx.coal.text=用化学化合机来合成木炭。
+
+chemx.saplings.title=树苗
+chemx.saplings.text=合成原版的树苗需要化学化合机，你可以使用上一个任务奖励的纤维素。
+
+chemx.torch.title=16x 火把
+chemx.torch.text=让它发光！
+
+chemx.polluted_earth.title=污染的泥土
+chemx.polluted_earth.text_1=在商店购买。
+chemx.polluted_earth.text_2=即使在出生点区块，依然生成怪物
+
+
+chemx.cellulose.title=16x 纤维素
+chemx.cellulose.text=欢迎来到这个整合包的核心所在，转换桌可以让你在所有的元素之间转换，请记住，你只能转换元素，并且必须现在转换桌中放置一个元素才能进行转换。
+
+chemx.cellulose_repeatable.title=纤维素 [可重复]
+chemx.cellulose_repeatable.text=如果你重复提交任务需求，则可以重复获得奖励，完成这些任务来获取商店的金币。
+
+chemx.quest_chest.title=任务箱子
+chemx.quest_chest.text=可以用于提交任务所需的物品，对一些重复的任务或需要大量输入的任务非常方便(因为可以使用管道或漏斗)
+
+chemx.gunpowder.title=4x 火药
+chemx.gunpowder.text=苦力怕，伙计。
+
+chemx.gunpowder_repeatable.title=火药 [可重复]
+chemx.gunpowder_repeatable.text=
+
+chemx.rotten_flesh.title=4x 腐肉
+chemx.rotten_flesh.text=
+
+chemx.rotten_flesh_repeatable.title=腐肉 [可重复]
+chemx.rotten_flesh_repeatable.text=还有一些。
+
+chemx.bone.title=4x 骨头
+chemx.bone.text=用它做出骨粉来获取花，有些元素需要分解染料获得。
+
+chemx.quest_chromium.title=16x 铬
+chemx.quest_chromium.text=用于制作绿宝石。
+
+chemx.quest_lead.title=16x 铅
+chemx.quest_lead.text=用于制作核电工艺中的许多物品。
+
+chemx.quest_strontium.title=锶
+chemx.quest_strontium.text=在商店里购买，用于制作红石。
+
+chemx.quest_calcium.title=16x 钙
+chemx.quest_calcium.text=用于制作青金石。
+
+chemx.quest_iron.title=铁
+chemx.quest_iron.text=在商店中购买，购买他之后你肯定会放在转换桌中。
+
+chemx.water_bucket.title=水桶
+chemx.water_bucket.text=水！
+
+chemx.quest_selenium.title=16x 硒
+chemx.quest_selenium.text=分解鱼获得。
+
+chemx.quest_silicon.title=16x 硅
+chemx.quest_silicon.text=在商店中找到，用来制作圆石。
+
+chemx.furnace.title=熔炉
+chemx.furnace.text=现在你可以吃熟的食物了。
+
+chemx.quest_aluminum.title=铝
+chemx.quest_aluminum.text=在商店购买。
+
+chemx.quest_radium.title=16x 镭
+chemx.quest_radium.text=
+
+chemx.quest_technetium.title=16x 锝
+chemx.quest_technetium.text=
+
+chemx.quest_indium.title=16x 铟
+chemx.quest_indium.text=
+
+chemx.quest_osmium.title=16x 锇
+chemx.quest_osmium.text=用于发展应用能源。
+
+chemx.quest_manganese.title=16x 锰
+chemx.quest_manganese.text=用于制作核电工艺中的许多物品。
+
+chemx.quest_tin.title=16x 锡
+chemx.quest_tin.text=
+
+chemx.clay.title=粘土
+chemx.clay.text=你将来可能用来制作自动化。
+
+chemx.hopper.title=漏斗
+chemx.hopper.text=想要漏式盆栽盆吗？就是这个。
+
+chemx.bonsai.title=漏式盆栽盆
+chemx.bonsai.text=嗯，EMC的自动化开始了
+
+chemx.liquifier.title=液化器
+chemx.liquifier.text=用于将元素液化成...液体...
+
+chemx.quest_phosphorus.title=8x 磷
+chemx.quest_phosphorus.text=
+
+chemx.lava_bucket.title=熔岩桶
+chemx.lava_bucket.text_1=将磷放入液化器中来获取熔岩，然后用桶右键取出。
+chemx.lava_bucket.text_2=注意:此整合包将地狱禁掉了。
+
+chemx.cobble_gen_1.title=造石机
+chemx.cobble_gen_1.text=可以获得圆石来解决所有需要圆石的需求。
+
+chemx.quest_tungsten.title=钨
+chemx.quest_tungsten.text=需要制造蒸发皿以实现更多的资源自动化
+
+chemx.evaporator.title=蒸发皿
+chemx.evaporator.text_1=用水桶右击以注满水。
+chemx.evaporator.text_2=会自动把水变成矿盐。
+chemx.evaporator.text_3=可以装10桶水。
+
+chemx.quest_zinc.title=16x 锌
+chemx.quest_zinc.text=
+
+chemx.quest_bromine.title=16x 溴
+chemx.quest_bromine.text=
+
+chemx.quest_fluorine.title=16x 氟
+chemx.quest_fluorine.text=
+
+chemx.quest_chlorine.title=16x 氯
+chemx.quest_chlorine.text=
+
+chemx.quest_lithium.title=16x 锂
+chemx.quest_lithium.text=
+
+chemx.quest_gallium.title=16x 镓
+chemx.quest_gallium.text=嘿，您想要更多的鹅卵石吗？
+
+chemx.quest_nickel.title=16x 镍
+chemx.quest_nickel.text=我敢打赌你想要更多的鹅卵石。
+
+chemx.cobble_gen_2.title=2级造石机
+chemx.cobble_gen_2.text=圆石比第1级多2倍！
+
+chemx.quest_cadmium.title=16x 镉
+chemx.quest_cadmium.text=
+
+chemx.quest_dysprosium.title=16x 镝
+chemx.quest_dysprosium.text=什么，您想要更多的鹅卵石吗？
+
+chemx.quest_zirconium.title=16x 锆
+chemx.quest_zirconium.text=您确定可以处理这么多的鹅卵石吗？
+
+chemx.cobble_gen_3.title=3级造石机
+chemx.cobble_gen_3.text=很好，这次圆石比一级多出4倍！
+
+chemx.quest_mendelevium.title=16x 钔
+chemx.quest_mendelevium.text=你可以用它来制作下界之星
+
+chemx.redstone.title=红石
+chemx.redstone.text=红石就是生命！
+
+chemx.lapis.title=青金石
+chemx.lapis.text=
+
+chemx.quest_antimony.title=16x 锑
+chemx.quest_antimony.text=
+
+chemx.manufactory.title=小制造机
+chemx.manufactory.text=
+
+chemx.graphite.title=石墨锭 [可重复]
+chemx.graphite.text=把煤炭变成金币！
+
+chemx.simulation.title=模拟室
+chemx.simulation.text=深度怪物学习的开始！接下来几个任务中，你需要制作一个骷髅数据模型来开始地狱般的事情。
+
+chemx.quest_germanium.title=锗
+chemx.quest_germanium.text=
+
+chemx.quest_thulium.title=16x 铥
+chemx.quest_thulium.text=
+
+chemx.quest_thorium.title=16x 钍
+chemx.quest_thorium.text=
+
+chemx.quest_californium.title=16x 锎
+chemx.quest_californium.text=
+
+chemx.quest_uranium.title=16x 铀
+chemx.quest_uranium.text=
+
+chemx.quest_plutonium.title=16x 钚
+chemx.quest_plutonium.text=
+
+chemx.quest_neptunium.title=16x 镎
+chemx.quest_neptunium.text=
+
+chemx.quest_curium.title=16x 锔
+chemx.quest_curium.text=
+
+chemx.quest_americium.title=16x 镅
+chemx.quest_americium.text=
+
+chemx.quest_berkelium.title=16x 锫
+chemx.quest_berkelium.text=
+#
+#Periodic Table
+#
+chemx.hydrogen.title=1000x 氢
+chemx.hydrogen.text=这很普遍，我听说...
+
+chemx.helium.title=1000x 氦
+chemx.helium.text=融合的理想选择
+
+chemx.lithium.title=1000x 锂
+chemx.lithium.text=不包括电池。
+
+chemx.beryllium.title=1000x 铍
+chemx.beryllium.text=轻，坚固！
+
+chemx.boron.title=1000x 硼
+chemx.boron.text=
+
+chemx.carbon.title=1000x 碳
+chemx.carbon.text=大约1.953125颗钻石。
+
+chemx.nitrogen.title=1000x 氮
+chemx.nitrogen.text=希望构成您呼吸的大部分。
+
+chemx.oxygen.title=1000x 氧
+chemx.oxygen.text=这个整合包是来源于氧气。
+
+chemx.fluorine.title=1000x 氟
+chemx.fluorine.text=那是很多牙膏。
+
+chemx.neon.title=1000x 氖
+chemx.neon.text=漂亮的灯！
+
+chemx.sodium.title=1000x 钠
+chemx.sodium.text=每个竞技游戏玩家的精髓。
+
+chemx.magnesium.title=1000x 镁
+chemx.magnesium.text=
+
+chemx.aluminum.title=1000x 铝
+chemx.aluminum.text=Aluminum. Aluminium. Aluminiumum. Aluminiumumium.
+
+chemx.silicon.title=1000x 硅
+chemx.silicon.text=
+
+chemx.phosphorus.title=1000x 磷
+chemx.phosphorus.text=
+
+chemx.sulfur.title=1000x 硫
+chemx.sulfur.text=
+
+chemx.chlorine.title=1000x 氯
+chemx.chlorine.text=
+
+chemx.argon.title=1000x 氩
+chemx.argon.text=
+
+chemx.potassium.title=1000x 钾
+chemx.potassium.text=
+
+chemx.calcium.title=1000x 钙
+chemx.calcium.text=
+
+chemx.scandium.title=1000x Scandium
+chemx.scandium.text=
+
+chemx.titanium.title=1000x 钛
+chemx.titanium.text=人类已知的最坚硬的金属之一。
+
+chemx.vanadium.title=1000x 钒
+chemx.vanadium.text=
+
+chemx.chromium.title=1000x 铬
+chemx.chromium.text=防锈！
+
+chemx.manganese.title=1000x 锰
+chemx.manganese.text=
+
+chemx.iron.title=1000x 铁
+chemx.iron.text=
+
+chemx.cobalt.title=1000x 钴
+chemx.cobalt.text=但是阿迪特呢？
+
+chemx.nickel.title=1000x 镍
+chemx.nickel.text=
+
+chemx.copper.title=1000x 铜
+chemx.copper.text=用来做镍币。
+
+chemx.zinc.title=1000x 锌
+chemx.zinc.text=
+
+chemx.gallium.title=1000x 镓
+chemx.gallium.text=一加仑镓。
+
+chemx.germanium.title=1000x 锗
+chemx.germanium.text=
+
+chemx.arsenic.title=1000x 砷
+chemx.arsenic.text=
+
+chemx.selenium.title=1000x 硒
+chemx.selenium.text=不幸的是，这鱼应该没有它吃的那么多。
+
+chemx.bromine.title=1000x 溴
+chemx.bromine.text=
+
+chemx.krypton.title=1000x 氪
+chemx.krypton.text=吃你的心，超人。
+
+chemx.rubidium.title=1000x 铷
+chemx.rubidium.text=
+
+chemx.strontium.title=1000x 锶
+chemx.strontium.text=
+
+chemx.yttrium.title=1000x 钇
+chemx.yttrium.text=
+
+chemx.zirconium.title=1000x 锆
+chemx.zirconium.text=
+
+chemx.niobium.title=1000x 铌
+chemx.niobium.text=
+
+chemx.molybdenum.title=1000x 钼
+chemx.molybdenum.text=
+
+chemx.technetium.title=1000x 锝
+chemx.technetium.text=这家伙因为某种原因有放射性。
+
+chemx.ruthenium.title=1000x 钌
+chemx.ruthenium.text=
+
+chemx.rhodium.title=1000x 铑
+chemx.rhodium.text=
+
+chemx.palladium.title=1000x 钯
+chemx.palladium.text=
+
+chemx.silver.title=1000x 银
+chemx.silver.text=
+
+chemx.cadmium.title=1000x 镉
+chemx.cadmium.text=
+
+chemx.indium.title=1000x 铟
+chemx.indium.text=
+
+chemx.tin.title=1000x 锡
+chemx.tin.text=Can
+
+chemx.antimony.title=1000x 锑
+chemx.antimony.text=
+
+chemx.tellurium.title=1000x 碲
+chemx.tellurium.text=
+
+chemx.iodine.title=1000x 碘
+chemx.iodine.text=
+
+chemx.xenon.title=1000x 氙
+chemx.xenon.text=
+
+chemx.cesium.title=1000x 铯
+chemx.cesium.text=
+
+chemx.barium.title=1000x 钡
+chemx.barium.text=
+
+chemx.lanthanum.title=1000x 镧
+chemx.lanthanum.text=
+
+chemx.cerium.title=1000x 铈
+chemx.cerium.text=
+
+chemx.praseodymium.title=1000x 镨
+chemx.praseodymium.text=
+
+chemx.neodymium.title=1000x 钕
+chemx.neodymium.text=磁铁！
+
+chemx.prometheum.title=1000x Prometheum
+chemx.prometheum.text=
+
+chemx.samarium.title=1000x 钐
+chemx.samarium.text=
+
+chemx.europium.title=1000x 铕
+chemx.europium.text=
+
+chemx.gadolinium.title=1000x 钆
+chemx.gadolinium.text=几乎是汽油，但不完全是。
+
+chemx.terbium.title=1000x 铽
+chemx.terbium.text=
+
+chemx.dysprosium.title=1000x 镝
+chemx.dysprosium.text=
+
+chemx.holmium.title=1000x 钬
+chemx.holmium.text=
+
+chemx.erbium.title=1000x 铒
+chemx.erbium.text=
+
+chemx.thulium.title=1000x 铥
+chemx.thulium.text=
+
+chemx.ytterbium.title=1000x 镱
+chemx.ytterbium.text=
+
+chemx.lutetium.title=1000x 镥
+chemx.lutetium.text=
+
+chemx.hafnium.title=1000x 铪
+chemx.hafnium.text=
+
+chemx.tantalum.title=1000x 钽
+chemx.tantalum.text=
+
+chemx.tungsten.title=1000x 钨
+chemx.tungsten.text=
+
+chemx.rhenium.title=1000x 铼
+chemx.rhenium.text=
+
+chemx.osmium.title=1000x 锇
+chemx.osmium.text=
+
+chemx.iridium.title=1000x 铱
+chemx.iridium.text=
+
+chemx.platinum.title=1000x 铂
+chemx.platinum.text=
+
+chemx.gold.title=1000x 金
+chemx.gold.text=
+
+chemx.mercury.title=1000x 汞
+chemx.mercury.text=你要打破多少温度计才能得到这个？
+
+chemx.thallium.title=1000x 铊
+chemx.thallium.text=
+
+chemx.lead.title=1000x 铅
+chemx.lead.text=
+
+chemx.bismuth.title=1000x 铋
+chemx.bismuth.text=
+
+chemx.polonium.title=1000x 钋
+chemx.polonium.text=
+
+chemx.astatine.title=1000x 砹
+chemx.astatine.text=
+
+chemx.radon.title=1000x 氡
+chemx.radon.text=
+
+chemx.francium.title=1000x 钫
+chemx.francium.text=
+
+chemx.radium.title=1000x 镭
+chemx.radium.text=
+
+chemx.actinium.title=1000x 锕
+chemx.actinium.text=
+
+chemx.thorium.title=1000x 钍
+chemx.thorium.text=
+
+chemx.protactinium.title=1000x 镤
+chemx.protactinium.text=
+
+chemx.uranium.title=1000x 铀
+chemx.uranium.text=
+
+chemx.neptunium.title=1000x 镎
+chemx.neptunium.text=就像铀，但是来自海王星。
+
+chemx.plutonium.title=1000x 钚
+chemx.plutonium.text=就像镎，但是来自冥王星。
+
+chemx.americium.title=1000x 镅
+chemx.americium.text=
+
+chemx.curium.title=1000x 锔
+chemx.curium.text=
+
+chemx.berkelium.title=1000x 锫
+chemx.berkelium.text=
+
+chemx.californium.title=1000x 锎
+chemx.californium.text=
+
+chemx.einsteinium.title=1000x 锿
+chemx.einsteinium.text=绝对是最聪明的元素。
+
+chemx.fermium.title=1000x 镄
+chemx.fermium.text=
+
+chemx.mendelevium.title=1000x Mandelevium
+chemx.mendelevium.text=
+
+chemx.nobelium.title=1000x 锘
+chemx.nobelium.text=
+
+chemx.lawrencium.title=1000x 铹
+chemx.lawrencium.text=
+
+chemx.rutherfordium.title=1000x 钅卢
+chemx.rutherfordium.text=
+
+chemx.dubnium.title=1000x 钅杜
+chemx.dubnium.text=
+
+chemx.seaborgium.title=1000x 钅喜
+chemx.seaborgium.text=
+
+chemx.bohrium.title=1000x 钅波
+chemx.bohrium.text=钅波!
+
+chemx.hassium.title=1000x 钅黑
+chemx.hassium.text=
+
+chemx.meitnerium.title=1000x 钅麦
+chemx.meitnerium.text=
+
+chemx.darmstadtium.title=1000x 钅达
+chemx.darmstadtium.text=
+
+chemx.roentgenium.title=1000x 钅仑
+chemx.roentgenium.text=
+
+chemx.copernicium.title=1000x Copernicium
+chemx.copernicium.text=
+
+chemx.nihonium.title=1000x Nihonium
+chemx.nihonium.text=
+
+chemx.flerovium.title=1000x Flerovium
+chemx.flerovium.text=
+
+chemx.moscovium.title=1000x 镆
+chemx.moscovium.text=在苏联，原子分裂了你。
+
+chemx.livermorium.title=1000x Livermorium
+chemx.livermorium.text=
+
+chemx.tennessine.title=1000x Tennessine
+chemx.tennessine.text=
+
+chemx.oganesson.title=1000x Oganesson
+chemx.oganesson.text=

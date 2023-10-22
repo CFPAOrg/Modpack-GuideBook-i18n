@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: 1.0d,
+	text: [
+		"{chemx.bromine.text}"
+	],
+	dependencies: [
+		"49f5822b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c468c6a2",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 35"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "938a2439",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

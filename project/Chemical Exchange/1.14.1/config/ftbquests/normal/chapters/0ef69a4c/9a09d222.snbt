@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 14.0d,
+	shape: "square",
+	dependencies: [
+		"4ab12d0c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3382104",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "430bcef6",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

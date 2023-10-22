@@ -1,0 +1,25 @@
+{
+	x: -3.0d,
+	y: 5.0d,
+	text: [
+		"{chemx.cerium.text}"
+	],
+	dependencies: [
+		"4a519974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5a497c75",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 58"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0b2d8c32",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

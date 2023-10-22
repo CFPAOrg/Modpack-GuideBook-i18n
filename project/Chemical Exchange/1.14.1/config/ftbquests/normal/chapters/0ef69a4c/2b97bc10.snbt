@@ -1,0 +1,43 @@
+{
+	title: "{chemx.cellulose.title}",
+	icon: "projecte:transmutation_table",
+	x: -3.0d,
+	y: 3.0d,
+	shape: "square",
+	text: [
+		"{chemx.cellulose.text}"
+	],
+	dependencies: [
+		"fae5ff3f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d94db9ec",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "0647fb11",
+		type: "item",
+		item: "projecte:transmutation_table"
+	},
+	{
+		uid: "d53dc84f",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "1f23e24d",
+		type: "custom",
+		title: "[Unlocks Iron in shop]",
+		icon: "alchemistry:element 1 26"
+	},
+	{
+		uid: "0b318081",
+		type: "item",
+		item: "projectex:knowledge_sharing_book"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "{chemx.start_here.title}",
+	icon: "minecraft:stone_pickaxe",
+	x: -3.0d,
+	y: -1.0d,
+	shape: "square",
+	text: [
+		"{chemx.start_here.text}"
+	],
+	tasks: [{
+		uid: "eeb8db44",
+		type: "checkmark",
+		title: "Start Here"
+	}],
+	rewards: [{
+		uid: "9ab57349",
+		type: "item",
+		item: "minecraft:stone_pickaxe"
+	},
+	{
+		uid: "f8bfb4dd",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "608df399",
+		type: "custom",
+		title: "[Unlocks carbon in shop]",
+		icon: "alchemistry:element 1 6"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: 3.0d,
+	text: [
+		"{chemx.bismuth.text}"
+	],
+	dependencies: [
+		"4a519974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b32a2431",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 83"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0a9a8a89",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

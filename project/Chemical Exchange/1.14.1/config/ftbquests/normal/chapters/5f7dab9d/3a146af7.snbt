@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	text: [
+		"{chemx.samarium.text}"
+	],
+	dependencies: [
+		"e810242b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5c5516b3",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 62"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "eec0c49f",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

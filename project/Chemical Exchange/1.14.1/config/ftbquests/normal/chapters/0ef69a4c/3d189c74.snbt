@@ -1,0 +1,31 @@
+{
+	title: "{chemx.cellulose_repeatable.title}",
+	disable_toast: true,
+	x: -5.0d,
+	y: 3.0d,
+	shape: "gear",
+	text: [
+		"{chemx.cellulose_repeatable.text}"
+	],
+	can_repeat: true,
+	dependencies: [
+		"2b97bc10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d8e459b",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "031f95d8",
+		type: "item",
+		title: "250 money",
+		auto: "enabled",
+		item: "chemxtweaks:coin_c"
+	}]
+}

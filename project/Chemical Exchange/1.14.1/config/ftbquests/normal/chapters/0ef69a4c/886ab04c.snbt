@@ -1,0 +1,25 @@
+{
+	title: "{chemx.simulation.title}",
+	x: -8.0d,
+	y: 11.0d,
+	shape: "square",
+	text: [
+		"{chemx.simulation.text}"
+	],
+	dependencies: [
+		"2c259d8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "084acf38",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:simulation_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "c5656941",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

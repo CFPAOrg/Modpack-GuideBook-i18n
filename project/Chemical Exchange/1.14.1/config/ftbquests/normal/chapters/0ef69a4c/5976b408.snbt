@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_berkelium.title}",
+	x: -5.0d,
+	y: 16.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_berkelium.text}"
+	],
+	dependencies: [
+		"df612a78"
+	],
+	hide: true,
+	tasks: [{
+		uid: "db9669b7",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 97"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "22f039f7",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

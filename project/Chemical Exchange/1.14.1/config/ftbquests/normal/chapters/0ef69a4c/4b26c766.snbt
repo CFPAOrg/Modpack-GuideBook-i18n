@@ -1,0 +1,37 @@
+{
+	title: "{chemx.bonsai.title}",
+	x: 5.0d,
+	y: 3.0d,
+	shape: "square",
+	text: [
+		"{chemx.bonsai.text}"
+	],
+	dependencies: [
+		"03eaacb7",
+		"5d89d4da"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5946bb97",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c67ee9ad",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "f0b55991",
+		type: "item",
+		item: "bonsaitrees:bonsaipot 1 1"
+	},
+	{
+		uid: "32f2de68",
+		type: "item",
+		item: "enderio:item_item_conduit",
+		count: 8
+	}]
+}

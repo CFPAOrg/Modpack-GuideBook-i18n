@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	shape: "square",
+	dependencies: [
+		"4b26c766"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e66cce1f",
+		type: "item",
+		items: [{
+			item: "speedyhoppers:speedyhopper_mk1"
+		}]
+	}],
+	rewards: [{
+		uid: "8edd1b2c",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

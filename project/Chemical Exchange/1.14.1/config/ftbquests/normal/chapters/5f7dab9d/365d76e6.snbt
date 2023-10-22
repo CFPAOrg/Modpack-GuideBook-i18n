@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	text: [
+		"{chemx.ruthenium.text}"
+	],
+	dependencies: [
+		"e810242b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "96eccdae",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 44"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "375af6c1",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

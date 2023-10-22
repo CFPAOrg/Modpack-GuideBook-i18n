@@ -1,0 +1,31 @@
+{
+	title: "{chemx.liquifier.title}",
+	x: -3.0d,
+	y: 5.0d,
+	shape: "square",
+	text: [
+		"{chemx.liquifier.text}"
+	],
+	dependencies: [
+		"9e62c027",
+		"229200ab"
+	],
+	hide: true,
+	tasks: [{
+		uid: "40302bee",
+		type: "item",
+		items: [{
+			item: "alchemistry:liquifier"
+		}]
+	}],
+	rewards: [{
+		uid: "7bc925d0",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "b4d11e56",
+		type: "item",
+		item: "enderio:block_tank"
+	}]
+}

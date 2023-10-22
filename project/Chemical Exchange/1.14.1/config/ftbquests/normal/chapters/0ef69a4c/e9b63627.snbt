@@ -1,0 +1,27 @@
+{
+	title: "{chemx.water_bucket.title}",
+	x: -5.0d,
+	y: 4.0d,
+	shape: "square",
+	text: [
+		"{chemx.water_bucket.text}"
+	],
+	dependencies: [
+		"9e62c027"
+	],
+	hide: true,
+	tasks: [{
+		uid: "08475139",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "087fa50e",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

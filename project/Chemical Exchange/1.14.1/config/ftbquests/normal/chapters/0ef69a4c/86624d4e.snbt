@@ -1,0 +1,36 @@
+{
+	title: "{chemx.evaporator.title}",
+	x: -6.0d,
+	y: 8.0d,
+	shape: "square",
+	text: [
+		"{chemx.evaporator.text_1}",
+		"",
+		"{chemx.evaporator.text_2}",
+		"",
+		"{chemx.evaporator.text_3}"
+	],
+	dependencies: [
+		"dbf60522"
+	],
+	hide: true,
+	tasks: [{
+		uid: "65c4feb8",
+		type: "item",
+		items: [{
+			item: "alchemistry:evaporator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9e8958ac",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "aa654dae",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 8
+	}]
+}

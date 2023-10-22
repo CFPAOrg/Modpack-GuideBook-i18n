@@ -1,0 +1,25 @@
+{
+	x: 9.0d,
+	y: -1.0d,
+	text: [
+		"{chemx.oxygen.text}"
+	],
+	dependencies: [
+		"2b97bc10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "baa400c2",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 8"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d1f32383",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

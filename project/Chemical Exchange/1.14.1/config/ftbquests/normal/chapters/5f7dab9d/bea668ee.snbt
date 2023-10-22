@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	text: [
+		"{chemx.phosphorus.text}"
+	],
+	dependencies: [
+		"6b398401"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0080fbc3",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 15"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b62e6aa7",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

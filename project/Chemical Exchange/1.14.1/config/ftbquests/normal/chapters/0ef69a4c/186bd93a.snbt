@@ -1,0 +1,25 @@
+{
+	title: "{chemx.quest_nickel.title}",
+	x: -2.0d,
+	y: 7.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_nickel.text}"
+	],
+	dependencies: [
+		"a8f1fa71"
+	],
+	tasks: [{
+		uid: "7790930e",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 28"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7b52d20a",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

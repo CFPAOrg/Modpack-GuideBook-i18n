@@ -1,0 +1,21 @@
+{
+	x: -5.0d,
+	y: 13.0d,
+	shape: "square",
+	dependencies: [
+		"48e5dd77"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e7e17a93",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk2"
+		}]
+	}],
+	rewards: [{
+		uid: "587497ff",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_lead.title}",
+	x: -9.0d,
+	y: 7.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_lead.text}"
+	],
+	dependencies: [
+		"324e387b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "045c5a61",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 82"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "eafe6825",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

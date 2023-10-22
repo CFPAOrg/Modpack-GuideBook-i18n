@@ -1,0 +1,25 @@
+{
+	x: -5.0d,
+	y: 4.0d,
+	text: [
+		"{chemx.radium.text}"
+	],
+	dependencies: [
+		"6c7edfee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ac9c993a",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 88"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "9500b1b4",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

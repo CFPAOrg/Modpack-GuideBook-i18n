@@ -1,0 +1,31 @@
+{
+	title: "{chemx.quest_iron.title}",
+	x: -3.0d,
+	y: 4.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_iron.text}"
+	],
+	dependencies: [
+		"2b97bc10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "541d18e5",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 26"
+		}]
+	}],
+	rewards: [{
+		uid: "7da30104",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "f47584c1",
+		type: "custom",
+		title: "[Unlocks Silicon in the Shop]",
+		icon: "alchemistry:element 1 14"
+	}]
+}

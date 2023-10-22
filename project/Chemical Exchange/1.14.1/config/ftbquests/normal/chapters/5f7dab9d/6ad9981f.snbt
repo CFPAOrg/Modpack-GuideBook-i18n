@@ -1,0 +1,25 @@
+{
+	x: 7.0d,
+	y: 4.0d,
+	text: [
+		"{chemx.flerovium.text}"
+	],
+	dependencies: [
+		"4a519974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d3ede005",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 114"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "92ba6650",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

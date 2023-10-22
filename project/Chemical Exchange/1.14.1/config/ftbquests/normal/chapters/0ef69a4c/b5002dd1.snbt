@@ -1,0 +1,26 @@
+{
+	title: "Bone [Repeatable]",
+	x: -9.0d,
+	y: 4.0d,
+	shape: "gear",
+	can_repeat: true,
+	dependencies: [
+		"324e387b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f9c71113",
+		type: "item",
+		items: [{
+			item: "minecraft:bone"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "79f38ef4",
+		type: "item",
+		title: "1000 money",
+		auto: "enabled",
+		item: "chemxtweaks:coin_d"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_dysprosium.title}",
+	x: 0.0d,
+	y: 9.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_dysprosium.text}"
+	],
+	dependencies: [
+		"82dad2b2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e019fe00",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 66"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8f71e1ee",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

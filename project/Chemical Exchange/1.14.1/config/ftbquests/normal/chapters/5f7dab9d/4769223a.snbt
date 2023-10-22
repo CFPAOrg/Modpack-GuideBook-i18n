@@ -1,0 +1,27 @@
+{
+	x: 10.0d,
+	y: 5.0d,
+	text: [
+		"{chemx.lutetium.text}"
+	],
+	dependencies: [
+		"4b26c766",
+		"3b254a42"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "d6e448a1",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 71"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2ef4eada",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

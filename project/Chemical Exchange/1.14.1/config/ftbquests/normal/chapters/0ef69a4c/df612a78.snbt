@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_curium.title}",
+	x: -6.0d,
+	y: 16.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_curium.text}"
+	],
+	dependencies: [
+		"ee4ba94a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "248c6aa7",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 96"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "352d4c6a",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

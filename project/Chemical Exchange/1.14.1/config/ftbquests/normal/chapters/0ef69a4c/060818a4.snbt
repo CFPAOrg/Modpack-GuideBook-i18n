@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 11.0d,
+	shape: "square",
+	dependencies: [
+		"0d6e53fe",
+		"5f7dab9d",
+		"8cdb7865"
+	],
+	hide: true,
+	tasks: [{
+		uid: "327c0ef3",
+		type: "checkmark",
+		title: "收集整个化学周期表",
+		icon: "alchemistry:element 1 1"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 9.0d,
+	y: 4.0d,
+	text: [
+		"{chemx.livermorium.text}"
+	],
+	dependencies: [
+		"2d883921"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ec19b707",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 116"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d9cf71eb",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

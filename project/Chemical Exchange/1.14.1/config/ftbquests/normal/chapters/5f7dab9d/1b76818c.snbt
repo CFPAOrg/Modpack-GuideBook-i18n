@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 5.0d,
+	text: [
+		"{chemx.dysprosium.text}"
+	],
+	dependencies: [
+		"7bd151eb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "264ebe92",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 66"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "82e34b41",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

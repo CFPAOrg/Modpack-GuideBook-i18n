@@ -1,0 +1,26 @@
+{
+	title: "{chemx.rotten_flesh.title}",
+	x: -7.0d,
+	y: 3.0d,
+	shape: "square",
+	text: [
+		"{chemx.rotten_flesh.text}"
+	],
+	dependencies: [
+		"e810242b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "77597152",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f849cfb9",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "{chemx.cobble_gen_3.title}",
+	x: 1.0d,
+	y: 8.0d,
+	shape: "square",
+	text: [
+		"{chemx.cobble_gen_3.text}"
+	],
+	dependencies: [
+		"3bb05da0",
+		"7bd151eb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cf9bcf9d",
+		type: "item",
+		items: [{
+			item: "tp:diamond_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "7381b61a",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	}]
+}

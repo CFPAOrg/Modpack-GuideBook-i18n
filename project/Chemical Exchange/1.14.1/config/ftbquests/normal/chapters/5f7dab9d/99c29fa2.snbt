@@ -1,0 +1,25 @@
+{
+	x: 9.0d,
+	y: 5.0d,
+	text: [
+		"{chemx.ytterbium.text}"
+	],
+	dependencies: [
+		"4a519974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0c01687d",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 70"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "7f7c2b22",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

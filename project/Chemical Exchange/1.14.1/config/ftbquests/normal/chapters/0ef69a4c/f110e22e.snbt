@@ -1,0 +1,36 @@
+{
+	title: "{chemx.quest_carbon.title}",
+	x: -3.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_carbon.text}"
+	],
+	dependencies: [
+		"4c89768b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f56e73a3",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 6"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e2a518a3",
+		type: "item",
+		item: "alchemistry:chemical_combiner"
+	},
+	{
+		uid: "8914e4d1",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "7e5e698d",
+		type: "item",
+		item: "enderio:block_simple_stirling_generator"
+	}]
+}

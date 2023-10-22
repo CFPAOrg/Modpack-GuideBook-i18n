@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	text: [
+		"{chemx.osmium.text}"
+	],
+	dependencies: [
+		"5c6efee3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "94234536",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 76"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6bdc035f",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

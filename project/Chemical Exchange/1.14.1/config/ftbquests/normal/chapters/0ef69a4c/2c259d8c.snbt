@@ -1,0 +1,26 @@
+{
+	title: "{chemx.lapis.title}",
+	x: -7.0d,
+	y: 8.0d,
+	shape: "square",
+	text: [
+		"{chemx.lapis.text}"
+	],
+	dependencies: [
+		"86624d4e",
+		"447d2c5a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "51e1a0ba",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "21107aee",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

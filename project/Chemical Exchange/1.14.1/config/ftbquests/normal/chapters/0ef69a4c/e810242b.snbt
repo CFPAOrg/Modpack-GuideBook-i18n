@@ -1,0 +1,33 @@
+{
+	title: "{chemx.polluted_earth.title}",
+	x: -5.0d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"{chemx.polluted_earth.text_1}",
+		"",
+		"{chemx.polluted_earth.text_2}"
+	],
+	dependencies: [
+		"fae5ff3f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6745c28c",
+		type: "item",
+		items: [{
+			item: "polluted_earth:polluted_earth"
+		}]
+	}],
+	rewards: [{
+		uid: "d33e22fa",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "a7bf9b33",
+		type: "item",
+		item: "polluted_earth:polluted_earth",
+		count: 5
+	}]
+}

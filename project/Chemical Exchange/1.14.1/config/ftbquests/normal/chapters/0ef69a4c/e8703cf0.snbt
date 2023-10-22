@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: 5.0d,
+	shape: "square",
+	dependencies: [
+		"9e62c027"
+	],
+	hide: true,
+	tasks: [{
+		uid: "96391545",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:spikes"
+		}]
+	}],
+	rewards: [{
+		uid: "5708c948",
+		type: "item",
+		item: "mob_grinding_utils:spikes"
+	},
+	{
+		uid: "3cc6192e",
+		type: "item",
+		item: "mob_grinding_utils:ender_inhibitor_on"
+	}]
+}

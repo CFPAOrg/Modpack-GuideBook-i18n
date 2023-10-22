@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	text: [
+		"{chemx.niobium.text}"
+	],
+	dependencies: [
+		"d4ce9839"
+	],
+	hide: true,
+	tasks: [{
+		uid: "39e6e06d",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 41"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "dcb8d9ec",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

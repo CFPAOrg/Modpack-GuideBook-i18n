@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 15.0d,
+	shape: "square",
+	dependencies: [
+		"aac10414"
+	],
+	tasks: [{
+		uid: "f272d858",
+		type: "item",
+		items: [{
+			item: "telepastries:end_cake"
+		}]
+	}],
+	rewards: [{
+		uid: "483a5299",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: 8.0d,
+	shape: "square",
+	dependencies: [
+		"c13e4622"
+	],
+	hide: true,
+	tasks: [{
+		uid: "baea8aa1",
+		type: "item",
+		items: [{
+			item: "tp:emerald_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "5a791ee9",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

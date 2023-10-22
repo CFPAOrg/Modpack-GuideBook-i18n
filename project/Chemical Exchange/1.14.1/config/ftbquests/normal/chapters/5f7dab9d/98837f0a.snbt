@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: 3.0d,
+	text: [
+		"{chemx.tungsten.text}"
+	],
+	dependencies: [
+		"dbf60522"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a9897714",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 74"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "561faa11",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

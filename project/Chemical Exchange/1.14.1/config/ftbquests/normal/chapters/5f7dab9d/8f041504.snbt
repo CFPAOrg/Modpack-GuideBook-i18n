@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		"{chemx.roentgenium.text}"
+	],
+	dependencies: [
+		"4a519974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b1a68385",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 111"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "5c7690aa",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	text: [
+		"{chemx.palladium.text}"
+	],
+	dependencies: [
+		"e810242b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "540baf7c",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 46"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "5374b4e4",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

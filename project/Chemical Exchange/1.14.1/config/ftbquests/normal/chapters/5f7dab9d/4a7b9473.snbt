@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 6.0d,
+	text: [
+		"{chemx.californium.text}"
+	],
+	dependencies: [
+		"b4cc2c4e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d6a51420",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 98"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1a4adb17",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

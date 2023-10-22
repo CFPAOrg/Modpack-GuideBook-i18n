@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_zirconium.title}",
+	x: 0.0d,
+	y: 7.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_zirconium.text}"
+	],
+	dependencies: [
+		"82dad2b2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "db9682c4",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 40"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1eab755a",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

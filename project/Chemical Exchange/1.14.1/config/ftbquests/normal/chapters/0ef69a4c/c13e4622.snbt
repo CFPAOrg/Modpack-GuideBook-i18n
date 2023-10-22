@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 8.0d,
+	shape: "square",
+	dependencies: [
+		"d37753a2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "96597e22",
+		type: "item",
+		items: [{
+			item: "tp:blaze_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "d53e411a",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

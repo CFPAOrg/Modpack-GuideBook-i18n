@@ -1,0 +1,25 @@
+{
+	x: -4.0d,
+	y: 3.0d,
+	text: [
+		"{chemx.lanthanum.text}"
+	],
+	dependencies: [
+		"cc09dfaa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ae86c50",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 57"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "876e8a23",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

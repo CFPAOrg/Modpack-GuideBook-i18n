@@ -1,0 +1,21 @@
+{
+	x: -5.0d,
+	y: 14.0d,
+	shape: "square",
+	dependencies: [
+		"48e5dd77"
+	],
+	hide: true,
+	tasks: [{
+		uid: "59fd9b89",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter"
+		}]
+	}],
+	rewards: [{
+		uid: "d00fdbb4",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

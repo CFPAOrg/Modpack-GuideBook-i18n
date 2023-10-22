@@ -1,0 +1,25 @@
+{
+	title: "{chemx.quest_chest.title}",
+	x: -1.0d,
+	y: 3.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_chest.text}"
+	],
+	dependencies: [
+		"2b97bc10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a642a0c1",
+		type: "item",
+		items: [{
+			item: "ftbquests:screen"
+		}]
+	}],
+	rewards: [{
+		uid: "ed9e11e6",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

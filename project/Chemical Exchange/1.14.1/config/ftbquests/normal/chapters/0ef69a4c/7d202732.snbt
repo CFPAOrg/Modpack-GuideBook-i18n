@@ -1,0 +1,26 @@
+{
+	title: "{chemx.gunpowder.title}",
+	x: -7.0d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"{chemx.gunpowder.text}"
+	],
+	dependencies: [
+		"e810242b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "53545fe2",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7e289a7f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

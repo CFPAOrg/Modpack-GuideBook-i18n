@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 11.0d,
+	shape: "square",
+	dependencies: [
+		"4a519974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "66d320ac",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "be039919",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

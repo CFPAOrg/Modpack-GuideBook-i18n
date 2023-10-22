@@ -1,0 +1,26 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"{chemx.molybdenum.text}"
+	],
+	dependencies: [
+		"ddfe096f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ff12b4a2",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 42"
+		}],
+		count: 1000L,
+		consume_items: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "3243677e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

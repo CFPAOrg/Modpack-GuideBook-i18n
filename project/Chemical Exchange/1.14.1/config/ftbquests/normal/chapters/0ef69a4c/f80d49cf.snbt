@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_gallium.title}",
+	x: -2.0d,
+	y: 9.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_gallium.text}"
+	],
+	dependencies: [
+		"a8f1fa71"
+	],
+	hide: true,
+	tasks: [{
+		uid: "71b60ac9",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 31"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c54cc472",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

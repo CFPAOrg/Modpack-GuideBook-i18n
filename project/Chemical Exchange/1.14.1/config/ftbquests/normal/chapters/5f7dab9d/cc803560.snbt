@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	text: [
+		"{chemx.nitrogen.text}"
+	],
+	dependencies: [
+		"9e62c027"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3c070ea3",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 7"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "aa0e2bcb",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

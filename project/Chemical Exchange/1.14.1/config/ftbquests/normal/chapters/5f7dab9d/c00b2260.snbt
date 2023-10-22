@@ -1,0 +1,30 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"{chemx.silver.text}"
+	],
+	dependencies: [
+		"4a519974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6787b61e",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 47"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "dd687e82",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "3eca6d84",
+		type: "item",
+		item: "metalchests:metal_chest 1 2"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	text: [
+		"{chemx.calcium.text}"
+	],
+	dependencies: [
+		"447d2c5a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7d1d7770",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 20"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "493b58cc",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "7b8bb43e",
+		type: "item",
+		item: "alchemistry:milk"
+	}]
+}

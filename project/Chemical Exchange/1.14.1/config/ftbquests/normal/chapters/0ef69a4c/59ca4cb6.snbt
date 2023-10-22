@@ -1,0 +1,30 @@
+{
+	title: "{chemx.rotten_flesh_repeatable.title}",
+	disable_toast: true,
+	x: -8.0d,
+	y: 3.0d,
+	shape: "gear",
+	text: [
+		"{chemx.rotten_flesh_repeatable.text}"
+	],
+	can_repeat: true,
+	dependencies: [
+		"33dca074"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4a88d257",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3e458265",
+		type: "item",
+		title: "1000 money",
+		auto: "enabled",
+		item: "chemxtweaks:coin_d"
+	}]
+}
