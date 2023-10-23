@@ -1,0 +1,32 @@
+{
+	title: "{chemx.quest_aluminum.title}",
+	x: 2.0d,
+	y: 3.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_aluminum.text}"
+	],
+	dependencies: [
+		"e861483f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "06eb1a43",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "a2ea8ffb",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "15f06ba0",
+		type: "command",
+		title: "[解锁化学合成机的部分配方]",
+		icon: "minecraft:paper",
+		command: "/gamestage add @p 铝"
+	}]
+}

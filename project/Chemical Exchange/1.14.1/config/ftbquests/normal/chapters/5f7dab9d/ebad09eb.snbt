@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 5.0d,
+	text: [
+		"{chemx.praseodymium.text}"
+	],
+	dependencies: [
+		"4a519974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "04dc3167",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 59"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a8fd7553",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

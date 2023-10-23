@@ -1,0 +1,25 @@
+{
+	x: -5.0d,
+	y: 2.0d,
+	text: [
+		"{chemx.strontium.text}"
+	],
+	dependencies: [
+		"8f764c27"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f81680cd",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 38"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "613e75d5",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

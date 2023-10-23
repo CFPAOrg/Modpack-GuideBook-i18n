@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	text: [
+		"{chemx.zinc.text}"
+	],
+	dependencies: [
+		"ec79f3b6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8f4ab373",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 30"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3882fa49",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "{chemx.coal.title}",
+	icon: "minecraft:coal",
+	x: -3.0d,
+	y: 1.0d,
+	shape: "square",
+	text: [
+		"{chemx.coal.text}"
+	],
+	dependencies: [
+		"f110e22e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d4cf1e64",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		},
+		{
+			item: "minecraft:coal 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "85959b84",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "1588ab04",
+		type: "item",
+		item: "alchemistry:chemical_dissolver"
+	},
+	{
+		uid: "ac129fa0",
+		type: "item",
+		item: "alchemistry:compound",
+		count: 5
+	}]
+}

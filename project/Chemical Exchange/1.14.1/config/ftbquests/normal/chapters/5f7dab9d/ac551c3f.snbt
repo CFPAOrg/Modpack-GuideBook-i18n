@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	text: [
+		"{chemx.chlorine.text}"
+	],
+	dependencies: [
+		"bbb3e107"
+	],
+	hide: true,
+	tasks: [{
+		uid: "43975532",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 17"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "032559bc",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

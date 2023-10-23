@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	text: [
+		"{chemx.antimony.text}"
+	],
+	dependencies: [
+		"f988e903"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca690693",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 51"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "af9e4025",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

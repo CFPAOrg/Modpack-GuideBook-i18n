@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_plutonium.title}",
+	x: -6.0d,
+	y: 14.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_plutonium.text}"
+	],
+	dependencies: [
+		"232a0bfd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d5c50767",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 94"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "fe020346",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

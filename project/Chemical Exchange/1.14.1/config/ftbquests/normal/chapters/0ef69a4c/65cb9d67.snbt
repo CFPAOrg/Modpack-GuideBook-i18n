@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 5.0d,
+	shape: "square",
+	dependencies: [
+		"c4a1804a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5f939646",
+		type: "item",
+		items: [{
+			item: "morefurnaces:furnaceblock 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "a2c27ee0",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"{chemx.chromium.text}"
+	],
+	dependencies: [
+		"b3ece21a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "41984baf",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 24"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "33732fea",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

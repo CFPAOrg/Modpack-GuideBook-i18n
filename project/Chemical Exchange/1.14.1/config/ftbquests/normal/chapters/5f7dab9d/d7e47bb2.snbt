@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 6.0d,
+	text: [
+		"{chemx.protactinium.text}"
+	],
+	dependencies: [
+		"4a519974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c4c0bf25",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 91"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1b4a19ff",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

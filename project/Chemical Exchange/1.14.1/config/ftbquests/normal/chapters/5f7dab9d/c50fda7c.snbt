@@ -1,0 +1,26 @@
+{
+	title: "{chemx.sodium.title}",
+	x: -6.0d,
+	y: 0.0d,
+	text: [
+		"{chemx.sodium.text}"
+	],
+	dependencies: [
+		"9e62c027"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca044df0",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 11"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2a95d74a",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "{chemx.bone.title}",
+	x: -8.0d,
+	y: 5.0d,
+	shape: "square",
+	text: [
+		"{chemx.bone.text}"
+	],
+	dependencies: [
+		"e810242b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3df2473",
+		type: "item",
+		items: [{
+			item: "minecraft:bone"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e7cf3fea",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "3c98b946",
+		type: "custom",
+		title: "[Unlocks Strontium in the Shop]",
+		icon: "alchemistry:element 1 38"
+	}]
+}

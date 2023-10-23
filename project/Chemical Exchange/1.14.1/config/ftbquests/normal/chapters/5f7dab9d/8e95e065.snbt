@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	text: [
+		"{chemx.tantalum.text}"
+	],
+	dependencies: [
+		"4a519974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8a544aa9",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 73"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "9a59c436",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

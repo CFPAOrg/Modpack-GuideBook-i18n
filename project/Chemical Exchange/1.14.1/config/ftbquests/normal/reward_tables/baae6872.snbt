@@ -1,0 +1,60 @@
+{
+	title: "Rare",
+	loot_size: 1,
+	rewards: [{
+		item: "nuclearcraft:upgrade",
+		weight: 2
+	},
+	{
+		item: "nuclearcraft:upgrade 1 1",
+		weight: 2
+	},
+	{
+		item: "enderio:item_dark_steel_upgrade"
+	},
+	{
+		item: "mob_grinding_utils:fan"
+	},
+	{
+		ftb_money: 1000L,
+		type: "ftbmoney:money",
+		weight: 4
+	},
+	{
+		ftb_money: 2500L,
+		type: "ftbmoney:money",
+		weight: 3
+	},
+	{
+		item: "speedyhoppers:speedyhopper_mk3",
+		weight: 2
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 4"
+	},
+	{
+		item: "appliedenergistics2:material 1 30",
+		weight: 2
+	},
+	{
+		ftb_money: 5000L,
+		type: "ftbmoney:money",
+		weight: 2
+	},
+	{
+		ftb_money: 10000L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: "morefurnaces:furnaceblock 1 2"
+	}],
+	loot_crate: {
+		string_id: "rare",
+		color: 38143,
+		drops: {
+			boss: 1,
+			passive: 0,
+			monster: 1
+		}
+	}
+}

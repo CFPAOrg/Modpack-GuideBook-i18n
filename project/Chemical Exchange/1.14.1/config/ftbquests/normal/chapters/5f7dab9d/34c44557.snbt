@@ -1,0 +1,25 @@
+{
+	x: -3.0d,
+	y: 6.0d,
+	text: [
+		"{chemx.thorium.text}"
+	],
+	dependencies: [
+		"c0e73e68"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3d034677",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 90"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f15c5189",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

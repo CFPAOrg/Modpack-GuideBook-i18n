@@ -1,0 +1,31 @@
+{
+	title: "{chemx.clay.title}",
+	x: 4.0d,
+	y: 3.0d,
+	shape: "square",
+	text: [
+		"{chemx.clay.text}"
+	],
+	dependencies: [
+		"df0a5c46"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3733bdb7",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "3a5001bf",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "d3d7c569",
+		type: "item",
+		item: "minecraft:grass",
+		count: 16
+	}]
+}

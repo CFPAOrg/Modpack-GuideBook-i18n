@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: 6.0d,
+	text: [
+		"{chemx.mendelevium.text}"
+	],
+	dependencies: [
+		"9e62c027"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bc8f14b8",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 101"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "14adbcb2",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

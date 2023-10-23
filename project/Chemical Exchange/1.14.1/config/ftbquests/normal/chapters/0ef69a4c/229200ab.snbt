@@ -1,0 +1,25 @@
+{
+	title: "{chemx.furnace.title}",
+	x: 3.0d,
+	y: 5.0d,
+	shape: "square",
+	text: [
+		"{chemx.furnace.text}"
+	],
+	dependencies: [
+		"e861483f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0eb95799",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "1444e433",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

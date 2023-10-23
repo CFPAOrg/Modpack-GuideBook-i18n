@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"{chemx.manganese.text}"
+	],
+	dependencies: [
+		"c8256940"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b942efbf",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 25"
+		}],
+		count: 1000L,
+		consume_items: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "ed68a91d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

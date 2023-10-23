@@ -1,0 +1,25 @@
+{
+	x: -6.0d,
+	y: 1.0d,
+	text: [
+		"{chemx.potassium.text}"
+	],
+	dependencies: [
+		"9e62c027"
+	],
+	hide: true,
+	tasks: [{
+		uid: "efa29721",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 19"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "27190e85",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "{chemx.redstone.title}",
+	x: -8.0d,
+	y: 8.0d,
+	shape: "square",
+	text: [
+		"{chemx.redstone.text}"
+	],
+	dependencies: [
+		"8f764c27"
+	],
+	hide: true,
+	tasks: [{
+		uid: "563f652f",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}],
+	rewards: [{
+		uid: "77a340ad",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

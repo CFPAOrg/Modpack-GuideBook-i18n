@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: 4.0d,
+	text: [
+		"{chemx.seaborgium.text}"
+	],
+	dependencies: [
+		"886ab04c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f82130b4",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 106"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "add99f5a",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

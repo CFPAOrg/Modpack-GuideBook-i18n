@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"{chemx.cobalt.text}"
+	],
+	dependencies: [
+		"2c259d8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c13243e",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 27"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "26406d70",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

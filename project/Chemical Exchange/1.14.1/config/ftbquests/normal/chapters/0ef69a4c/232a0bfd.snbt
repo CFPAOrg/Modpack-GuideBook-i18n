@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_neptunium.title}",
+	x: -7.0d,
+	y: 14.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_neptunium.text}"
+	],
+	dependencies: [
+		"13ec5af3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "101141e4",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 93"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d4ac2d1e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

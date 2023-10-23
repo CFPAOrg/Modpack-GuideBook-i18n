@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_indium.title}",
+	x: 1.0d,
+	y: 1.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_indium.text}"
+	],
+	dependencies: [
+		"df0a5c46"
+	],
+	hide: true,
+	tasks: [{
+		uid: "11f69421",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 49"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e4cddd94",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

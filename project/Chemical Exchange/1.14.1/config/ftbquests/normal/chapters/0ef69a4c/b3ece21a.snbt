@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_chromium.title}",
+	x: -9.0d,
+	y: 6.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_chromium.text}"
+	],
+	dependencies: [
+		"324e387b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ea4e5c9",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 24"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "dd3c9949",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

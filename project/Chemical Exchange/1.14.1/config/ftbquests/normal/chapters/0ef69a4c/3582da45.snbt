@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_thulium.title}",
+	x: -10.0d,
+	y: 11.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_thulium.text}"
+	],
+	dependencies: [
+		"886ab04c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1a60a533",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 69"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f3b87a7c",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

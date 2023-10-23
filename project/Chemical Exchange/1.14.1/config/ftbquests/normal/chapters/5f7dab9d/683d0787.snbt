@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	text: [
+		"{chemx.americium.text}"
+	],
+	dependencies: [
+		"ee4ba94a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "598827fb",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 95"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ab9cf85d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

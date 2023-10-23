@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: 4.0d,
+	text: [
+		"{chemx.tennessine.text}"
+	],
+	dependencies: [
+		"886ab04c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d6ef98a8",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 117"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "580d32d3",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

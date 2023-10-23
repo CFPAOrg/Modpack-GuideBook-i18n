@@ -1,0 +1,25 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		"{chemx.germanium.text}"
+	],
+	dependencies: [
+		"5933d0f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "59d549f3",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 32"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0c2bda99",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

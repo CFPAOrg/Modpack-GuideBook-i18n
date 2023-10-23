@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		"{chemx.meitnerium.text}"
+	],
+	dependencies: [
+		"886ab04c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "62512439",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 109"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2ec1656d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

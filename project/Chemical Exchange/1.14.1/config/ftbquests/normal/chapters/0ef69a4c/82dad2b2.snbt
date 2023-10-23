@@ -1,0 +1,28 @@
+{
+	title: "{chemx.cobble_gen_2.title}",
+	x: -1.0d,
+	y: 8.0d,
+	shape: "square",
+	text: [
+		"{chemx.cobble_gen_2.text}"
+	],
+	dependencies: [
+		"186bd93a",
+		"f80d49cf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "45fc9440",
+		type: "item",
+		items: [{
+			item: "tp:iron_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "fc814fff",
+		type: "command",
+		title: "[解锁仙人掌阶段]",
+		icon: "minecraft:cactus",
+		command: "/gamestage add @p 仙人掌"
+	}]
+}

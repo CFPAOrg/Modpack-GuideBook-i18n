@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_bromine.title}",
+	x: -4.0d,
+	y: 10.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_bromine.text}"
+	],
+	dependencies: [
+		"86624d4e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "26e2fb67",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 35"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1f06c048",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

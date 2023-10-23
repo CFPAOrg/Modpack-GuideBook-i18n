@@ -1,0 +1,31 @@
+{
+	title: "{chemx.graphite.title}",
+	disable_toast: true,
+	x: -10.0d,
+	y: 9.0d,
+	shape: "gear",
+	text: [
+		"{chemx.graphite.text}"
+	],
+	can_repeat: true,
+	dependencies: [
+		"472c6640"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f9d795e5",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ingot 1 8"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b4e85972",
+		type: "item",
+		title: "500 Money",
+		auto: "enabled",
+		item: "chemxtweaks:coin_c",
+		count: 2
+	}]
+}

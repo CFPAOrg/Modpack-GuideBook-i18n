@@ -1,0 +1,30 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"{chemx.iron.text}"
+	],
+	dependencies: [
+		"9e62c027"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f72ecd1c",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 26"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b88dd376",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "6e10c792",
+		type: "item",
+		item: "metalchests:metal_chest 1 1"
+	}]
+}

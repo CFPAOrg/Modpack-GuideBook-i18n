@@ -1,0 +1,26 @@
+{
+	title: "{chemx.torch.title}",
+	x: -1.0d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"{chemx.torch.text}"
+	],
+	dependencies: [
+		"fae5ff3f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0926738f",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "4625422a",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -4.0d,
+	y: 2.0d,
+	text: [
+		"{chemx.yttrium.text}"
+	],
+	dependencies: [
+		"aac10414"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eb185ab9",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 39"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a3f9aa00",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

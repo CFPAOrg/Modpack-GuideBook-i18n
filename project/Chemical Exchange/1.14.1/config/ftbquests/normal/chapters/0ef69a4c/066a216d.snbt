@@ -1,0 +1,21 @@
+{
+	x: -9.0d,
+	y: 12.0d,
+	shape: "square",
+	dependencies: [
+		"886ab04c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "77a00b2c",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:extraction_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "3aca4e8f",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

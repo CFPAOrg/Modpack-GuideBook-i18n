@@ -1,0 +1,26 @@
+{
+	title: "{chemx.quest_uranium.title}",
+	x: -8.0d,
+	y: 13.0d,
+	shape: "square",
+	text: [
+		"{chemx.quest_uranium.text}"
+	],
+	dependencies: [
+		"c0e73e68"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0a1716bd",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 92"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "4176a688",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

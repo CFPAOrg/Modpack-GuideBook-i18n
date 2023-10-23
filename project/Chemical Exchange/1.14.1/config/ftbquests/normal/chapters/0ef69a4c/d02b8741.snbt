@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	shape: "square",
+	dependencies: [
+		"fae5ff3f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6608cd97",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "f11a600e",
+		type: "item",
+		item: "minecraft:diamond_sword"
+	}]
+}

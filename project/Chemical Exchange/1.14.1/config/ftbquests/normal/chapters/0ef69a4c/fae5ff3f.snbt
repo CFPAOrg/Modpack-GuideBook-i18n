@@ -1,0 +1,65 @@
+{
+	title: "{chemx.saplings.title}",
+	x: -3.0d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"{chemx.saplings.text}"
+	],
+	dependencies: [
+		"151b6a89"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8876e36f",
+		type: "item",
+		title: "Saplings",
+		items: [{
+			item: "minecraft:sapling"
+		},
+		{
+			item: "minecraft:sapling 1 1"
+		},
+		{
+			item: "minecraft:sapling 1 2"
+		},
+		{
+			item: "minecraft:sapling 1 3"
+		},
+		{
+			item: "minecraft:sapling 1 4"
+		},
+		{
+			item: "minecraft:sapling 1 5"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "748e642f",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "f5f5eab0",
+		type: "item",
+		item: "inspirations:wooden_crook"
+	},
+	{
+		uid: "e4fba215",
+		type: "item",
+		item: "betterbuilderswands:wandstone"
+	},
+	{
+		uid: "3ef9c1f5",
+		type: "command",
+		title: "[解锁配方]",
+		icon: "minecraft:paper",
+		command: "/gamestage add @p 树苗"
+	},
+	{
+		uid: "857e57d9",
+		type: "custom",
+		title: "[解锁商店中的 污染的泥土]",
+		icon: "polluted_earth:polluted_earth"
+	}]
+}

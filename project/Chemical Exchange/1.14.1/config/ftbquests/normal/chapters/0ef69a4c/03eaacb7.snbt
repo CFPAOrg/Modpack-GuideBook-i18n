@@ -1,0 +1,41 @@
+{
+	title: "{chemx.hopper.title}",
+	x: 4.0d,
+	y: 4.0d,
+	shape: "square",
+	text: [
+		"{chemx.hopper.text}"
+	],
+	dependencies: [
+		"229200ab"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dc7a4ada",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "b4e222af",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "b0309841",
+		type: "item",
+		item: "minecraft:hopper"
+	},
+	{
+		uid: "cd5c5dd7",
+		type: "item",
+		item: "enderio:item_item_conduit",
+		count: 8
+	},
+	{
+		uid: "2eee9af3",
+		type: "item",
+		item: "enderio:item_yeta_wrench"
+	}]
+}

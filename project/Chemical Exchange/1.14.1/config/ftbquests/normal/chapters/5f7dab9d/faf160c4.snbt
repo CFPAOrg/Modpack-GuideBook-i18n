@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: 5.0d,
+	text: [
+		"{chemx.terbium.text}"
+	],
+	dependencies: [
+		"4a519974"
+	],
+	hide: true,
+	tasks: [{
+		uid: "28a9438d",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 65"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6e23cb0e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

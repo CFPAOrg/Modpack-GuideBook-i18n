@@ -1,0 +1,25 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	text: [
+		"{chemx.scandium.text}"
+	],
+	dependencies: [
+		"4ab12d0c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "55f5aae8",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 21"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d00104b4",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

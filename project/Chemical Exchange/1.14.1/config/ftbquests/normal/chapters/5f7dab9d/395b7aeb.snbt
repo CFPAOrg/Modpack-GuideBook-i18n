@@ -1,0 +1,25 @@
+{
+	x: 9.0d,
+	y: 2.0d,
+	text: [
+		"{chemx.tellurium.text}"
+	],
+	dependencies: [
+		"cf8a7d31"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b059990c",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 52"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f44bda0d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

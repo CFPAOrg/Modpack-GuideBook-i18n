@@ -1,0 +1,25 @@
+{
+	x: 9.0d,
+	y: 0.0d,
+	text: [
+		"{chemx.sulfur.text}"
+	],
+	dependencies: [
+		"9e62c027"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e03cf3c",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 16"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "23ae84a4",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

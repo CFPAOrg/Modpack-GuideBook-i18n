@@ -1,0 +1,41 @@
+{
+	title: "{chemx.lava_bucket.title}",
+	x: -3.0d,
+	y: 7.0d,
+	shape: "square",
+	text: [
+		"{chemx.lava_bucket.text_1}",
+		"",
+		"{chemx.lava_bucket.text_2}"
+	],
+	dependencies: [
+		"6b398401",
+		"f55cd666"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1eb3fdfe",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8e61f30",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "44311dc3",
+		type: "item",
+		item: "alchemistry:obsidian_breaker",
+		count: 4
+	},
+	{
+		uid: "23f7f69f",
+		type: "item",
+		item: "usefulnullifiers:voidnullifierblock"
+	}]
+}

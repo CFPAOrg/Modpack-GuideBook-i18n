@@ -1,0 +1,25 @@
+{
+	x: 7.0d,
+	y: 6.0d,
+	text: [
+		"{chemx.fermium.text}"
+	],
+	dependencies: [
+		"886ab04c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3c1756b",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 100"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c45cb822",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}
